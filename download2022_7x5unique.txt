@@ -1,0 +1,490 @@
+
+PT J
+AU Shin, J
+   Khim, BK
+   Jang, LH
+   Lim, J
+   Jo, YH
+AF Shin, Jisun
+   Khim, Boo-Keun
+   Jang, Lee-Hyun
+   Lim, Jinwook
+   Jo, Young-Heon
+TI Convolutional neural network model for discrimination of harmful algal bloom (HAB) from non-HABs using Sentinel-3 OLCI imagery
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Magalefidinium polykrikoides; Alexandriumsp; Sentinel-3 OLCI; Convolutional neural network
+ID cochlodinium-polykrikoides blooms; gulf-of-mexico; remote-sensing techniques; korean coastal waters; karenia-brevis; red tides; toxic dinoflagellate; suspended matter; west-coast; phytoplankton
+AB Harmful algal bloom (HAB) caused by Magalefidinium polykrikoides becomes frequent in Korean coastal waters during the mid-1990s and is now annual events on the southern coast of Korea. HAB often leads to high rates of fish mortality and subsequent economic losses in aquaculture. In addition, non-harmful algal blooms (non-HABs) caused by the dinoflagellate Alexandrium sp., Mesodinium rubrum, and the diatom Skeletonema sp. occur simul-taneously in time and space. Because HAB and non-HABs are difficult to discriminate using multi-band satellite data, most previous studies have attempted only detection or qualitative classification with limited data. In contrast, in this current study, we aimed to quantitatively discriminate M. polykrikoides bloom associated HAB from non-HABs around the southern coast of Korea using a convolutional neural network (CNN) model with Sentinel-3 Ocean and Land Colour Instrument (OLCI) imagery with a spatial resolution of 300 m and 16 spectral bands for the first time. To identify the effect of non-HAB patches on the performance of the CNN model, five CNN models were trained with OLCI images as input and ground-truth HAB maps as output data. The appropriate figure-of-merits values (FOMs) with sensitivity of 0.53, precision of 0.92, and F-measure of 0.67 were reasonable when the CNN model trained using the dataset with the highest ratio of non-HABs patches was applied to HAB images. Even when non-HAB images were applied to the models, the CNN model exhibited the lowest error pixel count. Therefore, we confirmed that the CNN model, which can discriminate red tide blooms with subtle dif-ferences between the spectrum bands and spatial characteristics, helps solve the complexity and ambiguity in discriminating HAB from non-HABs.
+C1 [Shin, Jisun; Khim, Boo-Keun; Jo, Young-Heon] Pusan Natl Univ, Sch Earth & Environm Syst BK21, 2 Busandaehak Ro 63 Beon Gil, Busan 46241, South Korea.
+   [Jang, Lee-Hyun; Lim, Jinwook] LIONPLUS Corp, 38 Jungang Daero 1367 Beon Gil, Busan 47728, South Korea.
+C3 Pusan National University
+RP Jo, YH (corresponding author), Pusan Natl Univ, Sch Earth & Environm Syst BK21, 2 Busandaehak Ro 63 Beon Gil, Busan 46241, South Korea.
+EM joyoung@pusan.ac.kr
+FU Korea Institute of Marine Science & Technology Promotion (KIMST) [20210046, 20190447]
+CR BABAN SMJ, 1993, INT J REMOTE SENS, V14, P1247, DOI 10.1080/01431169308953955
+   BIDIGARE RR, 1990, P SOC PHOTO-OPT INS, V1302, P290, DOI 10.1117/12.21451
+   Brockmann C., 2016, P LIV PLAN S, V0, P0
+   Cannizzaro JP, 2008, CONT SHELF RES, V28, P137, DOI 10.1016/j.csr.2004.04.007
+   Ciotti AM, 2002, LIMNOL OCEANOGR, V47, P404, DOI 10.4319/lo.2002.47.2.0404
+   Dierssen HM, 2006, LIMNOL OCEANOGR, V51, P2646, DOI 10.4319/lo.2006.51.6.2646
+   Donlon C, 2012, REMOTE SENS ENVIRON, V120, P37, DOI 10.1016/j.rse.2011.07.024
+   Eleveld MA, 2008, ESTUAR COAST SHELF S, V80, P103, DOI 10.1016/j.ecss.2008.07.015
+   Feng C, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091504
+   Ghanea M, 2016, ADV SPACE RES, V58, P1348, DOI 10.1016/j.asr.2016.06.005
+   Ghatkar JG, 2019, INT J REMOTE SENS, V40, P9412, DOI 10.1080/01431161.2019.1633696
+   GITELSON A, 1992, INT J REMOTE SENS, V13, P3367, DOI 10.1080/01431169208904125
+   Gobler CJ, 2008, HARMFUL ALGAE, V7, P293, DOI 10.1016/j.hal.2007.12.006
+   Gomez F, 2017, HARMFUL ALGAE, V63, P32, DOI 10.1016/j.hal.2017.01.008
+   Gower J, 2007, INT J REMOTE SENS, V28, P625, DOI 10.1080/01431160600821010
+   Gower J, 2005, INT J REMOTE SENS, V26, P2005, DOI 10.1080/01431160500075857
+   Hu CM, 2015, SENSORS-BASEL, V15, P2873, DOI 10.3390/s150202873
+   Izadi M, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13193863
+   Jeong HJ, 2013, HARMFUL ALGAE, V30, PS1, DOI 10.1016/j.hal.2013.10.001
+   Kim SM, 2019, J COASTAL RES, V0, PP302, DOI 10.2112/SI90-038.1
+   Kim Y, 2016, OPT EXPRESS, V24, PA1471, DOI 10.1364/OE.24.0A1471
+   Kim YO, 2020, HARMFUL ALGAE, V99, P0, DOI 10.1016/j.hal.2020.101922
+   Kohavi R., 1998, MACH LEARN, V30, P271, DOI 10.1023/A:1017181826899
+   Lee CK, 2013, HARMFUL ALGAE, V30, PS3, DOI 10.1016/j.hal.2013.10.002
+   Lee MS, 2020, INT J REMOTE SENS, V41, P5838, DOI 10.1080/01431161.2019.1706011
+   Liu RJ, 2022, ISPRS J PHOTOGRAMM, V184, P131, DOI 10.1016/j.isprsjprs.2021.12.009
+   Lou XL, 2014, REMOTE SENS ENVIRON, V140, P562, DOI 10.1016/j.rse.2013.09.031
+   Matsuoka K., 2003, MONOGRAPHS ON OCEANOGRAPHIC METHODOLOGY, V11, P563
+   Miller RL, 2004, REMOTE SENS ENVIRON, V93, P259, DOI 10.1016/j.rse.2004.07.012
+   Murphy KP, 2012, MACHINE LEARNING: A PROBABILISTIC PERSPECTIVE, V0, P1
+   Nair A, 2008, REMOTE SENS ENVIRON, V112, P3366, DOI 10.1016/j.rse.2008.01.021
+   National Institute of Fisheries Science (NIFS), 2015, HARMF ALG BLOOMS KOR, V0, P0
+   Noh JH, 2018, HARMFUL ALGAE, V73, P129, DOI 10.1016/j.hal.2018.02.006
+   Park TG, 2013, HARMFUL ALGAE, V30, PS131, DOI 10.1016/j.hal.2013.10.012
+   Qi L, 2015, IEEE GEOSCI REMOTE S, V12, P2213, DOI 10.1109/LGRS.2015.2457773
+   Rodriguez-Benito CV, 2020, MAR POLLUT BULL, V161, P0, DOI 10.1016/j.marpolbul.2020.111722
+   Ryan JP, 2009, CONT SHELF RES, V29, P785, DOI 10.1016/j.csr.2008.11.006
+   Sathyendranath S, 2004, MAR ECOL PROG SER, V272, P59, DOI 10.3354/meps272059
+   Schalles JF, 2006, RE S D I PR, V9, P27, DOI 10.1007/1-4020-3968-9_3
+   Shang SL, 2014, J GEOPHYS RES-OCEANS, V119, P4653, DOI 10.1002/2014JC009876
+   Shin J, 2019, J COASTAL RES, V0, PP236, DOI 10.2112/SI90-029.1
+   Shin J, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21134447
+   Shin J, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11010036
+   Shin JS, 2017, KOREAN J REMOTE SENS, V33, P213, DOI 10.7780/kjrs.2017.33.2.9
+   Son YB, 2012, KOREAN J REMOTE SENS, V28, P531, DOI 10.7780/kjrs.2012.28.5.6
+   Suh Young-Sang, 2004, JOURNAL OF FISHERIES SCIENCE AND TECHNOLOGY, V7, P148
+   Tang YZ, 2009, HARMFUL ALGAE, V8, P454, DOI 10.1016/j.hal.2008.10.001
+   Tao BY, 2015, REMOTE SENS ENVIRON, V158, P267, DOI 10.1016/j.rse.2014.11.004
+   Tekerek A, 2022, COMPUT SECUR, V112, P0, DOI 10.1016/j.cose.2021.102515
+   Tomlinson MC, 2009, REMOTE SENS ENVIRON, V113, P598, DOI 10.1016/j.rse.2008.11.003
+   Tomlinson MC, 2004, REMOTE SENS ENVIRON, V91, P293, DOI 10.1016/j.rse.2004.02.014
+   Westberry TK, 2005, J GEOPHYS RES-OCEANS, V110, P0, DOI 10.1029/2004JC002517
+   Whyte JNCI, 2001, PHYCOLOGIA, V40, P298, DOI 10.2216/i0031-8884-40-3-298.1
+   Yamashita R, 2018, INSIGHTS IMAGING, V9, P611, DOI 10.1007/s13244-018-0639-9
+   Yoon H.J., 2004, J KOREA I INFORM COM, V8, P938
+   Yu-Hwan Ahn, 2009, 한국해양환경•에너지학회지, V12, P47
+   Zhao J, 2015, ISPRS J PHOTOGRAMM, V101, P125, DOI 10.1016/j.isprsjprs.2014.12.010
+NR 57
+TC 1
+Z9 1
+U1 7
+U2 14
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD SEP 15
+PY 2022
+VL 191
+IS 
+BP 250
+EP 262
+DI 10.1016/j.isprsjprs.2022.07.012
+EA AUG 2022
+PG 13
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 3X3FY
+UT WOS:000842927700001
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, YC
+   Zheng, XT
+   Lu, XQ
+AF Zhang, Yichao
+   Zheng, Xiangtao
+   Lu, Xiaoqiang
+TI Remote Sensing Cross-Modal Retrieval by Deep Image-Voice Hashing
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Remote sensing; Codes; Feature extraction; Image retrieval; Semantics; Task analysis; Sensors; Convolutional neural network (CNN); cross-modal retrieval; deep hashing; hash code
+ID network
+AB Remote sensing image retrieval aims at searching remote sensing images of interest among immense volumes of remote sensing data, which is an enormous challenge. Direct use of voice for human-computer interaction is more convenient and intelligent. In this article, a deep image-voice hashing (DIVH) method is proposed for remote sensing image-voice retrieval. First, the whole framework is composed of the image and the voice feature learning subnetwork. Then, the hash code learning procedure will be leveraged in remote sensing image-voice retrieval to further improve the retrieval efficiency and reduce memory footprint. Hash code learning maps the deep features of images and voices into a common Hamming space. Finally, image-voice pairwise loss is proposed, which considers the similarity preservation and balance of hash codes. The similarity preserving and the balance controlling term of the loss function improve the similarity preservation from original data space to the Hamming space and the discrimination of binary code, respectively. This unified cross-modal feature and hash code learning framework significantly reduce the semantic gap between the two modal data. Experiments demonstrate that the proposed DIVH method can achieve a superior retrieval performance than other state-of-the-art remote sensing image-voice retrieval methods.
+C1 [Zhang, Yichao; Zheng, Xiangtao; Lu, Xiaoqiang] Chinese Acad Sci, Xian Inst Optic & Precis Mech, Key Lab Spectral Imaging Technol, Xian 710119, Peoples R China.
+   [Zhang, Yichao] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+C3 Chinese Academy of Sciences; Xi'an Institute of Optics & Precision Mechanics, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS
+RP Zheng, XT (corresponding author), Chinese Acad Sci, Xian Inst Optic & Precis Mech, Key Lab Spectral Imaging Technol, Xian 710119, Peoples R China.
+EM yczhang0819@gmail.com; xiangtaoz@gmail.com; luxq666666@gmail.com
+FU National Natural Science Foundation of China [62271484]; National Science Fund for Distinguished Young Scholars [61925112]; Innovation Capability Support Program of Shaanxi [2020TD-015]
+CR Abdullah T, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030405
+   Arandjelovic R, 2017, IEEE I CONF COMP VIS, V0, PP609, DOI 10.1109/ICCV.2017.73
+   Bosilj P, 2016, ISPRS INT J GEO-INF, V5, P0, DOI 10.3390/ijgi5120228
+   Chaudhuri U, 2020, PATTERN RECOGN LETT, V131, P456, DOI 10.1016/j.patrec.2020.02.006
+   Chen YX, 2020, IEEE T GEOSCI REMOTE, V58, P7049, DOI 10.1109/TGRS.2020.2979273
+   Chen YX, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010084
+   Cheng QM, 2021, IEEE J-STARS, V14, P4284, DOI 10.1109/JSTARS.2021.3070872
+   Chi MM, 2016, P IEEE, V104, P2207, DOI 10.1109/JPROC.2016.2598228
+   Ding GG, 2016, IEEE T IMAGE PROCESS, V25, P5427, DOI 10.1109/TIP.2016.2607421
+   Durbha SS, 2007, INT GEOSCI REMOTE SE, V0, PP342, DOI 10.1109/IGARSS.2007.4422800
+   Fan LL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010175
+   Feng XX, 2021, IEEE T GEOSCI REMOTE, V59, P6946, DOI 10.1109/TGRS.2020.3030990
+   Guo M, 2019, IEEE J-STARS, V12, P4644, DOI 10.1109/JSTARS.2019.2949220
+   Harwath D., 2016, P ADV NEUR INF PROC, V0, P1866
+   He JF, 2011, PROC CVPR IEEE, V0, PP753, DOI 10.1109/CVPR.2011.5995518
+   Hoe J. T., 2021, P ADV NEUR INF PROC, V0, P24286
+   Hu WJ, 2021, NEUROCOMPUTING, V448, P94, DOI 10.1016/j.neucom.2021.03.093
+   Ivancsits C, 2013, SENSOR REV, V33, P267, DOI 10.1108/02602281311324726
+   Jiang QY, 2017, PROC CVPR IEEE, V0, PP3270, DOI 10.1109/CVPR.2017.348
+   Kulis T., 2009, PROC 22 INT C NEURAL, V0, P1042
+   Li YS, 2018, IEEE T GEOSCI REMOTE, V56, P950, DOI 10.1109/TGRS.2017.2756911
+   Li YS, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090709
+   Li Z., 2018, J SOFTW, V13, P103
+   Lin ZJ, 2017, IEEE T CYBERNETICS, V47, P4342, DOI 10.1109/TCYB.2016.2608906
+   Lu XX, 2018, IEEE T GEOSCI REMOTE, V56, P2183, DOI 10.1109/TGRS.2017.2776321
+   Lukac N, 2015, INT GEOSCI REMOTE SE, V0, PP1468, DOI 10.1109/IGARSS.2015.7326056
+   Muller M., 2007, INFORM RETRIEVAL MUS, V2, P0, DOI 10.1007/978-3-540-74048-3
+   Ning HL, 2022, IEEE T MULTIMEDIA, V24, P1763, DOI 10.1109/TMM.2021.3071243
+   Panteras G, 2018, INT J REMOTE SENS, V39, P1459, DOI 10.1080/01431161.2017.1400193
+   Qian XL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010143
+   Al Rahhal MM, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10248931
+   Reato T., 2017, PROC IMAGE SIGNAL PR, V0427, P307
+   Rivest S, 2005, ISPRS J PHOTOGRAMM, V60, P17, DOI 10.1016/j.isprsjprs.2005.10.002
+   Rui Yang, 2021, 2021 IEEE INTERNATIONAL GEOSCIENCE AND REMOTE SENSING SYMPOSIUM IGARSS, V0, PP2855, DOI 10.1109/IGARSS47720.2021.9554533
+   Shao ZF, 2020, IEEE J-STARS, V13, P318, DOI 10.1109/JSTARS.2019.2961634
+   Song W, 2020, INT J PROD RES, V58, P5624, DOI 10.1080/00207543.2019.1656835
+   Torfi A, 2017, IEEE ACCESS, V5, P22081, DOI 10.1109/ACCESS.2017.2761539
+   Wang ZH, 2019, IEEE I CONF COMP VIS, V0, PP5763, DOI 10.1109/ICCV.2019.00586
+   Xiong W, 2020, IEEE J-STARS, V13, P5284, DOI 10.1109/JSTARS.2020.3021390
+   Xiong W, 2020, IEEE J-STARS, V13, P1234, DOI 10.1109/JSTARS.2020.2980870
+   Xiong W, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030281
+   Yao XW, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3119852
+   Yu Q, 2014, SCI CHINA INFORM SCI, V57, P1
+   Yuan ZQ, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3078451
+   Zhang H., 2007, PROC 15 INT C MULTIM, V0, P273
+   Zhang J, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020271
+   Zhang L., 2013, P 21 ACM INT C MULT, V0, PP123, DOI 10.1145/2502081.2502091
+   Zheng XT, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3079918
+NR 49
+TC 0
+Z9 0
+U1 2
+U2 2
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 9327
+EP 9338
+DI 10.1109/JSTARS.2022.3216333
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 6E1QC
+UT WOS:000883157900008
+DA 2023-04-26
+ER
+
+PT J
+AU Hilal, AM
+   Alsolai, H
+   Al-Wesabi, FN
+   Nour, MK
+   Motwakel, A
+   Kumar, A
+   Yaseen, I
+   Zamani, A
+AF Hilal, Anwer Mustafa
+   Alsolai, Hadeel
+   Al-Wesabi, Fahd N.
+   Nour, Mohamed K.
+   Motwakel, Abdelwahed
+   Kumar, Anil
+   Yaseen, Ishfaq
+   Zamani, Abu Sarwar
+TI Fuzzy Cognitive Maps with Bird Swarm Intelligence Optimization-Based Remote Sensing Image Classification
+SO COMPUTATIONAL INTELLIGENCE AND NEUROSCIENCE
+LA English
+DT Article
+AB Remote sensing image (RSI) scene classification has become a hot research topic due to its applicability in different domains such as object recognition, land use classification, image retrieval, and surveillance. During RSI classification process, a class label will be allocated to every scene class based on the semantic details, which is significant in real-thne applications such as mineral exploration, forestry, vegetation, weather, and oceanography. Deep learning (DL) approaches, particularly the convolutional neural network (CNN), have shown enhanced outcomes on the RSI classification process owing to the significant aspect of feature learning as well as reasoning. In this aspect, this study develops fuzzy cognitive maps with a bird swarm optimization-based RSI classification (FCMBS-RSIC) model. The proposed FCMBS-RSIC technique inherits the advantages of fuzzy logic (FL) and swarms intelligence (SI) concepts. In order to transform the RSI into a compatible format, preprocessing is carried out. Besides, the features are produced by the use of the RetinaNet model. Besides, a FCM-based classifier is involved to allocate proper class labels to the RSIs and the classification performance can be improved by the design of bird swarm algorithm (BSA). The performance validation of the FCMBS-RSIC technique takes place using benchmark open access datasets, and the experimental results reported the enhanced outcomes of the FCMBS-RSIC technique over its state-of-the-art approaches.
+C1 [Hilal, Anwer Mustafa; Motwakel, Abdelwahed; Yaseen, Ishfaq; Zamani, Abu Sarwar] Prince Sattam Bin Abdulaziz Univ, Dept Comp & Self Dev, Alkharj, Saudi Arabia.
+   [Alsolai, Hadeel] Princess Nourah Bint Abdulrahman Univ, Coll Comp & Informat Sci, Dept Informat Syst, POB 84428, Riyadh 11671, Saudi Arabia.
+   [Al-Wesabi, Fahd N.] King Khalid Univ, Coll Sci & Art, Dept Comp Sci, Mahayil, Saudi Arabia.
+   [Nour, Mohamed K.] Umm Al Qura Univ, Coll Comp & Informat Syst, Dept Comp Sci, Mecca, Saudi Arabia.
+   [Kumar, Anil] DIT Univ, Sch Comp, Data Sci Res Grp, Dehra Dun, Uttarakhand, India.
+C3 Prince Sattam Bin Abdulaziz University; Princess Nourah bint Abdulrahman University; King Khalid University; Umm Al Qura University; DIT University
+RP Hilal, AM (corresponding author), Prince Sattam Bin Abdulaziz Univ, Dept Comp & Self Dev, Alkharj, Saudi Arabia.
+EM a.hilal@psau.edu.sa
+FU Deanship of Scientific Research at King Khalid University [RGP2/18/43]; Princess Nourah Bint Abdulrahman University Researchers Supporting Project, Princess Nourah Bint Abdulrahman University, Riyadh, Saudi Arabia [PNURSP2022R303]; Deanship of Scientific Research at Umm Al-Qura University [22UQU4310373DSR05]
+CR Chen H, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12101662
+   Hilal AM, 2022, EUR J REMOTE SENS, V55, P12, DOI 10.1080/22797254.2021.2017799
+   Huang WD, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14010111
+   Jing WP, 2020, PATTERN RECOGN LETT, V140, P186, DOI 10.1016/j.patrec.2020.09.034
+   Joshi A., 2022, ADV INTELLIGENT SYST, V0, P0
+   Li HF, 2021, IEEE T GEOSCI REMOTE, V59, P6983, DOI 10.1109/TGRS.2020.3027387
+   Li YS, 2021, IEEE T CYBERNETICS, V51, P1756, DOI 10.1109/TCYB.2020.2989241
+   Meng XB, 2016, J EXP THEOR ARTIF IN, V28, P673, DOI 10.1080/0952813X.2015.1042530
+   Mi ZQ, 2010, IEEE ASME INT C ADV, V0, P0
+   Min L, 2020, PROC SPIE, V11567, P0, DOI 10.1117/12.2579961
+   Peng C, 2021, IEEE T GEOSCI REMOTE, V59, P6092, DOI 10.1109/TGRS.2020.3020424
+   Scott GJ, 2017, IEEE GEOSCI REMOTE S, V14, P549, DOI 10.1109/LGRS.2017.2657778
+   Shawky OA, 2020, OPTIK, V221, P0, DOI 10.1016/j.ijleo.2020.165356
+   Shi CP, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14010161
+   Stylios CD, 2008, APPL SOFT COMPUT, V8, P1243, DOI 10.1016/j.asoc.2007.02.022
+   Sun WW, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2020.3046321
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Xie FY, 2017, IEEE J-STARS, V10, P3631, DOI 10.1109/JSTARS.2017.2686488
+   Xu XW, 2021, EUR J REMOTE SENS, V54, P383, DOI 10.1080/22797254.2020.1790995
+   Yin LC, 2021, J SENSORS, V2021, P0, DOI 10.1155/2021/6659831
+   Yun P, 2019, IEEE ROBOT AUTOM LET, V4, P1263, DOI 10.1109/LRA.2019.2894858
+   Zhang JN, 2020, COMPUT INTEL NEUROSC, V2020, P0, DOI 10.1155/2020/6858541
+   Zhang W, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050494
+NR 23
+TC 4
+Z9 4
+U1 2
+U2 7
+PU HINDAWI LTD
+PI LONDON
+PA ADAM HOUSE, 3RD FLR, 1 FITZROY SQ, LONDON, W1T 5HF, ENGLAND
+SN 1687-5265
+EI 1687-5273
+J9 COMPUT INTEL NEUROSC
+JI Comput. Intell. Neurosci.
+PD MAR 27
+PY 2022
+VL 2022
+IS 
+BP 
+EP 
+DI 10.1155/2022/4063354
+PG 12
+WC Mathematical & Computational Biology; Neurosciences
+SC Mathematical & Computational Biology; Neurosciences & Neurology
+GA 1T1LC
+UT WOS:000804498200002
+PM 35387253
+DA 2023-04-26
+ER
+
+PT J
+AU Taniguchi, A
+   Sasaki, F
+   Muroi, M
+   Yamashina, R
+AF Taniguchi, Asuto
+   Sasaki, Fumihiro
+   Muroi, Mototsugu
+   Yamashina, Ryota
+TI Planning on topological map using omnidirectional images and spherical CNNs*
+SO ADVANCED ROBOTICS
+LA English
+DT Article
+DE Visual navigation; topological map; deep learning; spherical CNNs
+ID scale
+AB Map building and path planning are essential for long-term visual navigation. Methods, such as semi-parametric topological memory (SPTM), use deep learning to build a topological map consisting of nodes sampled from an agent's past observations and edges generated by a neural network (NN) and perform path planning on the map. Such methods require neither accurate sensor nor advanced expertise for map building needed in classical metric-map-based techniques such as visual simultaneous localization and mapping. However, they often plan improper paths including teleportations and detours, even if we have collected enough training data. In this paper, we propose a topological-map-based planning method that includes two modifications to SPTM to address this problem. The first modification is that we observe omnidirectional images and construct an NN on the basis of spherical convolutional NNs, which guarantee rotation invariance on omnidirectional images. The second modification is that we train the NN on a metric learning framework. We conducted experiments to show the effectiveness and applicability to real world of our method for path planning in visual navigation. The results indicate that the first modification prevents detouring and the second one prevents teleportations in path planning.
+C1 [Taniguchi, Asuto; Sasaki, Fumihiro; Muroi, Mototsugu; Yamashina, Ryota] Ricoh Co Ltd, Ebina, Kanagawa, Japan.
+C3 Ricoh Company, Ltd.
+RP Taniguchi, A (corresponding author), Ricoh Co Ltd, Ebina, Kanagawa, Japan.
+EM asuto.taniguchi@jp.ricoh.com
+CR Arshad S, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21041243
+   Bay H, 2006, LECT NOTES COMPUT SC, V3951, P404, DOI 10.1007/11744023_32
+   Bonin-Font F, 2008, J INTELL ROBOT SYST, V53, P263, DOI 10.1007/s10846-008-9235-4
+   Chopra S, 2005, PROC CVPR IEEE, V0, PP539, DOI 10.1109/cvpr.2005.202
+   Cohen T. S., 2018, INT C LEARN REPR VAN, V0, P0
+   Cummins M, 2008, INT J ROBOT RES, V27, P647, DOI 10.1177/0278364908090961
+   DeTone D, 2018, IEEE COMPUT SOC CONF, V0, PP337, DOI 10.1109/CVPRW.2018.00060
+   Emmons S., 2020, P ADV NEUR INF PROC, V33, P5251
+   Eysenbach B, 2019, ADV NEUR IN, V32, P0
+   Hadsell R, 2006, IEEE C COMP VIS PATT, V2, P1735, DOI 10.1109/CVPR.2006.100
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hu ZW, 2018, IEEE ICC, V0, P0
+   KAELBLING LP, 1993, IJCAI-93, VOLS 1 AND 2, P1094
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Labbe M, 2019, J FIELD ROBOT, V36, P416, DOI 10.1002/rob.21831
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Mirowski P. W, 2017, ICLR, V0, P0
+   Mirowski P, 2018, ADV NEUR IN, V31, P0
+   Mur-Artal R, 2015, IEEE T ROBOT, V31, P1147, DOI 10.1109/TRO.2015.2463671
+   Nachbin L., 1976, THE HAAR INTEGRAL, V0, P0
+   Naseer T, 2015, IEEE INT C INT ROBOT, V0, PP2529, DOI 10.1109/IROS.2015.7353721
+   Rublee E, 2011, IEEE I CONF COMP VIS, V0, PP2564, DOI 10.1109/ICCV.2011.6126544
+   Sarlin PE, 2020, PROC CVPR IEEE, V0, PP4937, DOI 10.1109/CVPR42600.2020.00499
+   Savinov N., 2018, PROC 6 INT C LEARN R, V0, P0
+   Savva Manolis, 2017, P WORKSH 3D OBJ RETR, V0, PP39, DOI 10.2312/3DOR.20171050
+   Simonyan K, 2015, ARXIV, V0, P0
+   Singh A, 2020, P MACHINE LEARNING R, V119, P6259
+   Taketomi T., 2017, IPSJ T COMPUT VIS AP, V0, P0, DOI DOI 10.1186/s41074-017-0027-2
+   Tateno K, 2017, PROC CVPR IEEE, V0, PP6565, DOI 10.1109/CVPR.2017.695
+   Xie J, 2016, PROC CVPR IEEE, V0, PP3688, DOI 10.1109/CVPR.2016.401
+   Yang N, 2018, LECT NOTES COMPUT SC, V11212, P835, DOI 10.1007/978-3-030-01237-3_50
+   Zhu YK, 2017, INT CONF ACOUST SPEE, V0, PP5335, DOI 10.1109/ICASSP.2017.7953175
+NR 33
+TC 1
+Z9 1
+U1 2
+U2 4
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 0169-1864
+EI 1568-5535
+J9 ADV ROBOTICS
+JI Adv. Robot.
+PD FEB 1
+PY 2022
+VL 36
+IS 3
+BP 153
+EP 166
+DI 10.1080/01691864.2021.1997641
+EA NOV 2021
+PG 14
+WC Robotics
+SC Robotics
+GA ZA4VK
+UT WOS:000719228400001
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, HS
+   Dalton, L
+   Fan, M
+   Guo, RC
+   McClure, J
+   Crandall, D
+   Chen, C
+AF Wang, Hongsheng
+   Dalton, Laura
+   Fan, Ming
+   Guo, Ruichang
+   McClure, James
+   Crandall, Dustin
+   Chen, Cheng
+TI Deep-learning-based workflow for boundary and small target segmentation in digital rock images using UNet plus plus and IK-EBM
+SO JOURNAL OF PETROLEUM SCIENCE AND ENGINEERING
+LA English
+DT Article
+DE Digital rock physics; Partial volume blurring; Image segmentation; Boundary and small targets; IK-EBM; Supervised deep learning; UNet plus plus
+ID convolutional neural-networks; computed-tomography; multiphase flow; porous-media; pore-scale; features; architectures; optimization; porosity
+AB Three-dimensional (3D) X-ray micro-computed tomography (mu CT) has been widely used in petroleum engineering because it can provide detailed pore structural information for a reservoir rock, which can be imported into a pore-scale numerical model to simulate the transport and distribution of multiple fluids in the pore space. The partial volume blurring (PVB) problem is a major challenge in segmenting raw mu CT images of rock samples, which impacts boundaries and small targets near the resolution limit. We developed a deep-learning (DL)-based workflow for accurate and fast partial volume segmentation. The DL model's performance depends primarily on the training data quality and model architecture. This study employed the entropy-based-masking indicator kriging (IK-EBM) to segment 3D Berea sandstone images as training datasets. The comparison between IK-EBM and manual segmentation using a 3D synthetic sphere pack, which had a known ground truth, showed that IKEBM had higher accuracy on partial volume segmentation. We then trained and tested the UNet++ model, a state-of-the-art supervised encoder-decoder model, for binary (i.e., void and solid) and four-class segmentation. We compared the UNet++ with the commonly used U-Net and wide U-Net models and showed that the UNet++ had the best performance in terms of pixel-wise and physics-based evaluation metrics. Specifically, boundaryscaled accuracy demonstrated that the UNet++ architecture outperformed the regular U-Net architecture in the segmentation of pixels near boundaries and small targets, which were subjected to the PVB effect. Feature map visualization illustrated that the UNet++ bridged the semantic gaps between the feature maps extracted at different depths of the network, thereby enabling faster convergence and more accurate extraction of fine-scale features. The developed workflow significantly enhances the performance of supervised encoder-decoder models in partial volume segmentation, which has extensive applications in fundamental studies of subsurface energy, water, and environmental systems.
+C1 [Wang, Hongsheng; Guo, Ruichang] Virginia Tech, Dept Min & Mineral Engn, Blacksburg, VA 24061 USA.
+   [Dalton, Laura] North Carolina State Univ, Dept Civil Construct & Environm Engn, Raleigh, NC 27695 USA.
+   [Fan, Ming] Oak Ridge Natl Lab, Oak Ridge, TN 37830 USA.
+   [McClure, James] Virginia Tech, Natl Secur Inst, Blacksburg, VA 24061 USA.
+   [Crandall, Dustin] Natl Energy Technol Lab, Morgantown, WV 26507 USA.
+   [Chen, Cheng] Dept Civil Environm & Ocean Engn, Hoboken, NJ 07030 USA.
+C3 Virginia Polytechnic Institute & State University; North Carolina State University; United States Department of Energy (DOE); Oak Ridge National Laboratory; Virginia Polytechnic Institute & State University; United States Department of Energy (DOE); National Energy Technology Laboratory - USA
+RP Chen, C (corresponding author), Dept Civil Environm & Ocean Engn, Hoboken, NJ 07030 USA.
+EM cchen6@stevens.edu
+FU University Coalition for Fossil Energy Research (UCFER) Program under the U.S. Department of Energy?s National Energy Technology Labora-tory [DE-FE0026825, S000038-USDOE]
+CR Abadi Martin, 2016, ARXIV, V0, P0
+   Andra H, 2013, COMPUT GEOSCI-UK, V50, P33, DOI 10.1016/j.cageo.2012.09.008
+   Andra H, 2013, COMPUT GEOSCI-UK, V50, P25, DOI 10.1016/j.cageo.2012.09.005
+   Taghanaki SA, 2021, ARTIF INTELL REV, V54, P137, DOI 10.1007/s10462-020-09854-1
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bradley Derek, 2007, JOURNAL OF GRAPHICS TOOLS, V12, P13
+   Chan TF, 2001, IEEE T IMAGE PROCESS, V10, P266, DOI 10.1109/83.902291
+   Chauhan S, 2016, COMPUT GEOSCI-UK, V86, P120, DOI 10.1016/j.cageo.2015.10.013
+   Chen C, 2016, SPE J, V21, P1425, DOI 10.2118/179733-PA
+   Chen C, 2009, WATER RESOUR RES, V45, P0, DOI 10.1029/2008WR007252
+   Chen C, 2008, GEOPHYS RES LETT, V35, P0, DOI 10.1029/2007GL033077
+   Chollet F., 2015, DATA SCI CENT, V7, P0
+   Chuang KS, 2006, COMPUT MED IMAG GRAP, V30, P9, DOI 10.1016/j.compmedimag.2005.10.001
+   Culligan KA, 2006, ADV WATER RESOUR, V29, P227, DOI 10.1016/j.advwatres.2005.03.021
+   Dalton LE, 2020, TRANSPORT POROUS MED, V133, P71, DOI 10.1007/s11242-020-01415-y
+   Dalton LE, 2018, ADV WATER RESOUR, V122, P278, DOI 10.1016/j.advwatres.2018.10.020
+   Dollar Piotr, 2016, PIOTRS COMPUTER VISI, V0, P0
+   Driscoll MK, 2012, PLOS COMPUT BIOL, V8, P0, DOI 10.1371/journal.pcbi.1002392
+   Erofeev A, 2019, TRANSPORT POROUS MED, V128, P677, DOI 10.1007/s11242-019-01265-3
+   Fan M, 2019, FUEL, V252, P522, DOI 10.1016/j.fuel.2019.04.098
+   García Herrera Arístides Lázaro, 2017, REV.MED.ELECTRÓN., V0, P1
+   Garfi G, 2020, TRANSPORT POROUS MED, V131, P985, DOI 10.1007/s11242-019-01374-z
+   Guo RC, 2021, GEOPHYS RES LETT, V48, P0, DOI 10.1029/2021GL095619
+   Guo RC, 2020, ADV WATER RESOUR, V146, P0, DOI 10.1016/j.advwatres.2020.103763
+   Iassonov P, 2009, WATER RESOUR RES, V45, P0, DOI 10.1029/2009WR008087
+   Jassogne L, 2007, EUR J SOIL SCI, V58, P589, DOI 10.1111/j.1365-2389.2006.00849.x
+   Jha NK, 2021, INT J HYDROGEN ENERG, V46, P34822, DOI 10.1016/j.ijhydene.2021.08.042
+   Jiang ZH, 2021, ADV WATER RESOUR, V150, P0, DOI 10.1016/j.advwatres.2021.103878
+   Kamrava S, 2020, TRANSPORT POROUS MED, V131, P427, DOI 10.1007/s11242-019-01352-5
+   Karimpouli S, 2019, COMPUT GEOSCI-UK, V126, P142, DOI 10.1016/j.cageo.2019.02.003
+   Kelkar M., 2002, APPL GEOSTATISTICS R, V0, P0
+   Ketcham RA, 2019, J GEOPHYS RES-SOL EA, V124, P3508, DOI 10.1029/2018JB017083
+   Ketcham RA, 2001, COMPUT GEOSCI-UK, V27, P381, DOI 10.1016/S0098-3004(00)00116-3
+   Ketcham RA, 2005, GEOSPHERE, V1, P32, DOI 10.1130/GES00001.1
+   Ketcham RA, 2010, GEOSPHERE, V6, P499, DOI 10.1130/GES00552.1
+   Kim D, 2016, J MICROSC-OXFORD, V262, P274, DOI 10.1111/jmi.12362
+   Kim W, 2020, IEEE T IMAGE PROCESS, V29, P8055, DOI 10.1109/TIP.2020.3011269
+   Krizhevsky Alex, 2017, COMMUNICATIONS OF THE ACM, V60, P84, DOI 10.1145/3065386
+   Kyle JR, 2015, ORE GEOL REV, V65, P821, DOI 10.1016/j.oregeorev.2014.09.034
+   Li ZH, 2020, J PETROL SCI ENG, V189, P0, DOI 10.1016/j.petrol.2020.107010
+   Liu CX, 2019, PROC CVPR IEEE, V0, PP82, DOI 10.1109/CVPR.2019.00017
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   McClure JE, 2014, INT PARALL DISTRIB P, V0, P0, DOI DOI 10.1109/IPDPS.2014.67
+   Ng HP, 2006, 7TH IEEE SOUTHWEST SYMPOSIUM ON IMAGE ANALYSIS AND INTERPRETATION, V0, P61
+   Niu YF, 2020, WATER RESOUR RES, V56, P0, DOI 10.1029/2019WR026597
+   Oh W, 1999, IEEE T PATTERN ANAL, V21, P590, DOI 10.1109/34.777370
+   Reinhardt M, 2022, ENVIRON EARTH SCI, V81, P0, DOI 10.1007/s12665-021-10133-7
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Santos JE, 2020, ADV WATER RESOUR, V138, P0, DOI 10.1016/j.advwatres.2020.103539
+   Saxena N, 2021, TRANSPORT POROUS MED, V136, P863, DOI 10.1007/s11242-021-01543-z
+   Scheffer K, 2021, J PETROL SCI ENG, V198, P0, DOI 10.1016/j.petrol.2020.108134
+   Schmitt M, 2016, SOLID EARTH, V7, P285, DOI 10.5194/se-7-285-2016
+   Schneider CA, 2012, NAT METHODS, V9, P671, DOI 10.1038/nmeth.2089
+   Shah SM, 2016, ADV WATER RESOUR, V95, P276, DOI 10.1016/j.advwatres.2015.07.012
+   Shin HC, 2016, IEEE T MED IMAGING, V35, P1285, DOI 10.1109/TMI.2016.2528162
+   Verri I, 2017, J PETROL SCI ENG, V156, P790, DOI 10.1016/j.petrol.2017.06.053
+   Wang YD, 2021, APPL SOFT COMPUT, V104, P0, DOI 10.1016/j.asoc.2021.107185
+   Wang YD, 2021, TRANSPORT POROUS MED, V138, P49, DOI 10.1007/s11242-021-01590-6
+   Wang ZJ, 2021, IEEE T VIS COMPUT GR, V27, P1396, DOI 10.1109/TVCG.2020.3030418
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhou ZW, 2020, IEEE T MED IMAGING, V39, P1856, DOI 10.1109/TMI.2019.2959609
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+   Zoph B, 2018, PROC CVPR IEEE, V0, PP8697, DOI 10.1109/CVPR.2018.00907
+NR 63
+TC 0
+Z9 0
+U1 8
+U2 20
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0920-4105
+EI 1873-4715
+J9 J PETROL SCI ENG
+JI J. Pet. Sci. Eng.
+PD AUG 15
+PY 2022
+VL 215
+IS 
+BP 
+EP 
+DI 10.1016/j.petrol.2022.110596
+EA MAY 2022
+PG 13
+WC Energy & Fuels; Engineering, Petroleum
+SC Energy & Fuels; Engineering
+GA 1N3JJ
+UT WOS:000800555100001
+DA 2023-04-26
+ER

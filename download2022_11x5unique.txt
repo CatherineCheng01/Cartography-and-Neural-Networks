@@ -1,0 +1,621 @@
+
+PT J
+AU Colomer, S
+   Cuperlier, N
+   Bresson, G
+   Gaussier, P
+   Romain, O
+AF Colomer, Sylvain
+   Cuperlier, Nicolas
+   Bresson, Guillaume
+   Gaussier, Philippe
+   Romain, Olivier
+TI LPMP: A Bio-Inspired Model for Visual Localization in Challenging Environments
+SO FRONTIERS IN ROBOTICS AND AI
+LA English
+DT Article
+DE visual place recognition (VPR); bio-inspired robotics; hippocampus; place cells; neurocybernetics; autonomous vehicle (AV); brain-inspired navigation
+ID head-direction signal; hippocampal-formation; parahippocampal cortex; place recognition; view cells; architecture; perception; navigation; map; neurons
+AB Autonomous vehicles require precise and reliable self-localization to cope with dynamic environments. The field of visual place recognition (VPR) aims to solve this challenge by relying on the visual modality to recognize a place despite changes in the appearance of the perceived visual scene. In this paper, we propose to tackle the VPR problem following a neuro-cybernetic approach. To this end, the Log-Polar Max-Pi (LPMP) model is introduced. This bio-inspired neural network allows building a neural representation of the environment via an unsupervised one-shot learning. Inspired by the spatial cognition of mammals, visual information in the LPMP model are processed through two distinct pathways: a "what" pathway that extracts and learns the local visual signatures (landmarks) of a visual scene and a "where" pathway that computes their azimuth. These two pieces of information are then merged to build a visuospatial code that is characteristic of the place where the visual scene was perceived. Three main contributions are presented in this article: 1) the LPMP model is studied and compared with NetVLAD and CoHog, two state-of-the-art VPR models; 2) a test benchmark for the evaluation of VPR models according to the type of environment traveled is proposed based on the Oxford car dataset; and 3) the impact of the use of a novel detector leading to an uneven paving of an environment is evaluated in terms of the localization performance and compared to a regular paving. Our experiments show that the LPMP model can achieve comparable or better localization performance than NetVLAD and CoHog.
+C1 [Colomer, Sylvain; Bresson, Guillaume] Inst Rech Vedecom, Versailles, France.
+   [Colomer, Sylvain; Cuperlier, Nicolas; Gaussier, Philippe; Romain, Olivier] CY Cergy Paris Univ, ENSEA, CNRS, Lab ETIS,UMR8051, Cergy, France.
+C3 Centre National de la Recherche Scientifique (CNRS); CY Cergy Paris Universite
+RP Colomer, S (corresponding author), Inst Rech Vedecom, Versailles, France.; Colomer, S (corresponding author), CY Cergy Paris Univ, ENSEA, CNRS, Lab ETIS,UMR8051, Cergy, France.
+EM sylvain.colomer@ensea.fr
+CR Aminoff EM, 2013, TRENDS COGN SCI, V17, P379, DOI 10.1016/j.tics.2013.06.009
+   Arandjelovic R., 2016, ARXIV151107247, V0, P0
+   Arandjelovic R, 2018, IEEE T PATTERN ANAL, V40, P1437, DOI 10.1109/CVPR.2016.572
+   Araujo H, 1997, II WORKSHOP ON CYBERNETIC VISION, V0, P139
+   Ball D, 2013, AUTON ROBOT, V34, P149, DOI 10.1007/s10514-012-9317-9
+   Bay H, 2008, COMPUT VIS IMAGE UND, V110, P346, DOI 10.1016/j.cviu.2007.09.014
+   Belkaid M, 2016, IEEE IJCNN, V0, PP4947, DOI 10.1109/IJCNN.2016.7727851
+   Bresson G, 2017, IEEE T INTELL VEHICL, V2, P194, DOI 10.1109/TIV.2017.2749181
+   Butler WN, 2017, CURR BIOL, V27, P1259, DOI 10.1016/j.cub.2017.03.033
+   CANNY J, 1986, IEEE T PATTERN ANAL, V8, P679, DOI 10.1109/TPAMI.1986.4767851
+   CARPENTER GA, 1991, NEURAL NETWORKS, V4, P565, DOI 10.1016/0893-6080(91)90012-T
+   Chancan M., 2020, ARXIV201108518, V0, P0
+   Chen ST, 2019, IEEE T COGN DEV SYST, V11, P13, DOI 10.1109/TCDS.2017.2717451
+   Chen YT, 2017, 2017 14TH WEB INFORMATION SYSTEMS AND APPLICATIONS CONFERENCE (WISA 2017), V0, PP187, DOI 10.1109/WISA.2017.7
+   Colomer S, 2021, IEEE INT C INTELL TR, V0, PP3002, DOI 10.1109/ITSC48978.2021.9564608
+   Cuperlier Nicolas, 2007, FRONT NEUROROBOT, V1, P3, DOI 10.3389/neuro.12.003.2007
+   Delarboulas P, 2014, LECT NOTES ARTIF INT, V8575, P132, DOI 10.1007/978-3-319-08864-8_13
+   DERICHE R, 1987, INT J COMPUT VISION, V1, P167, DOI 10.1007/BF00123164
+   Eichenbaum H, 2017, J NEUROPHYSIOL, V117, P1785, DOI 10.1152/jn.00005.2017
+   Elouaret T., 2019, P UK CHIN EM TECHN U, V0, PP1, DOI 10.1109/UCET.2019.8881834
+   Espada Y, 2019, UNMANNED SYST, V7, P183, DOI 10.1142/S2301385019410048
+   Galvez-Lopez D, 2012, IEEE T ROBOT, V28, P1188, DOI 10.1109/TRO.2012.2197158
+   Garg S., 2018, ARXIV180405526CS, V0, P0
+   Gaussier P, 2002, BIOL CYBERN, V86, P15, DOI 10.1007/s004220100269
+   Gaussier P., 1992, IJCNN INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS (CAT. NO.92CH3114-6), V0, PP233, DOI 10.1109/IJCNN.1992.227165
+   Gaussier P., 1997, PROCEEDINGS OF THE 1997 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOT AND SYSTEMS. INNOVATIVE ROBOTICS FOR REAL-WORLD APPLICATIONS. IROS 97 (CAT. NO.97CH36108), V0, PP545, DOI 10.1109/IROS.1997.655065
+   Gaussier P, 1995, ROBOT AUTON SYST, V16, P291, DOI 10.1016/0921-8890(95)00052-6
+   GEORGOPOULOS AP, 1988, J NEUROSCI, V8, P2928
+   Giovannangeli C., 2006, INT J ADV ROBOTIC SY, V3, P19, DOI 10.5772/5748
+   Giovannangeli C., 2007, 13 INT C ADV ROB ICA, V0, P0
+   GOODALE MA, 1992, TRENDS NEUROSCI, V15, P20, DOI 10.1016/0166-2236(92)90344-8
+   Gourichon S., 2003, AISB03 S BIOL INSP V, V0, P91
+   Grieves RM, 2017, BEHAV PROCESS, V135, P113, DOI 10.1016/j.beproc.2016.12.012
+   Hasselmo ME, 2006, CURR OPIN NEUROBIOL, V16, P710, DOI 10.1016/j.conb.2006.09.002
+   Jacobs PY, 2017, NAT NEUROSCI, V20, P173, DOI 10.1038/nn.4465
+   Joulain C., 1997, PROCEEDINGS OF THE 1997 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOT AND SYSTEMS. INNOVATIVE ROBOTICS FOR REAL-WORLD APPLICATIONS. IROS 97 (CAT. NO.97CH36108), V0, PP857, DOI 10.1109/IROS.1997.655110
+   Ju MD, 2020, BIOL CYBERN, V114, P303, DOI 10.1007/s00422-020-00833-x
+   LaChance PA, 2019, SCIENCE, V365, P141, DOI 10.1126/science.aax4192
+   Lee SW, 2015, PLOS BIOL, V13, P0, DOI 10.1371/journal.pbio.1002137
+   Lisman J, 2017, NAT NEUROSCI, V20, P1434, DOI 10.1038/nn.4661
+   Lowe D. G., 1999, PROCEEDINGS OF THE SEVENTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP1150, DOI 10.1109/ICCV.1999.790410
+   Maddern W., 2020, ARXIV PREPRINT ARXIV, V0, P0
+   Maddern W, 2017, INT J ROBOT RES, V36, P3, DOI 10.1177/0278364916679498
+   Mel B., 1990, ADV NEURAL INFORM PR, V0, P0
+   Milford MJ, 2004, IEEE INT CONF ROBOT, V0, PP403, DOI 10.1109/ROBOT.2004.1307183
+   MISHKIN M, 1983, TRENDS NEUROSCI, V6, P414, DOI 10.1016/0166-2236(83)90190-X
+   Moser MB, 2015, CSH PERSPECT BIOL, V7, P0, DOI 10.1101/cshperspect.a021808
+   Mur-Artal R, 2015, IEEE T ROBOT, V31, P1147, DOI 10.1109/TRO.2015.2463671
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   Oliva A, 2006, PROG BRAIN RES, V155, P23, DOI 10.1016/S0079-6123(06)55002-2
+   OMARA SM, 1995, PROG NEUROBIOL, V45, P253, DOI 10.1016/0301-0082(94)00050-R
+   Pan Y., 2020, ARXIV201110934CS, V0, P0
+   Park M., 2010, P INT C MULT, V0, P631
+   Plate TA, 2000, NETWORK-COMP NEURAL, V11, P321, DOI 10.1088/0954-898X/11/4/305
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Robert T, 2018, LECT NOTES COMPUT SC, V11211, P158, DOI 10.1007/978-3-030-01234-2_10
+   Robertson RG, 1998, J NEUROPHYSIOL, V79, P1145, DOI 10.1152/jn.1998.79.3.1145
+   Rolls ET, 2018, PROG NEUROBIOL, V171, P90, DOI 10.1016/j.pneurobio.2018.09.004
+   Rublee E, 2011, IEEE I CONF COMP VIS, V0, PP2564, DOI 10.1109/ICCV.2011.6126544
+   Saleem AB, 2020, CURR OPIN NEUROBIOL, V64, P70, DOI 10.1016/j.conb.2020.03.009
+   Sattler T, 2018, PROC CVPR IEEE, V0, PP8601, DOI 10.1109/CVPR.2018.00897
+   Schmidt A., 2015, IMPACT IMAGE FEATURE, V0, PP203, DOI 10.1007/978-3-319-10662-5_25
+   SCHWARTZ EL, 1980, VISION RES, V20, P645, DOI 10.1016/0042-6989(80)90090-5
+   Sermanet P., 2014, 2 INT C LEARN REPR I, V0, P0
+   Siam Sayem Mohammad, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION (ICRA), V0, PP5702, DOI 10.1109/ICRA.2017.7989671
+   Taube JS, 2003, CEREB CORTEX, V13, P1162, DOI 10.1093/cercor/bhg102
+   TAUBE JS, 1990, J NEUROSCI, V10, P436
+   Torii A, 2013, PROC CVPR IEEE, V0, PP883, DOI 10.1109/CVPR.2013.119
+   Traver VJ, 2010, ROBOT AUTON SYST, V58, P378, DOI 10.1016/j.robot.2009.10.002
+   Treue S, 2003, CURR OPIN NEUROBIOL, V13, P428, DOI 10.1016/S0959-4388(03)00105-3
+   Tsoar A, 2011, P NATL ACAD SCI USA, V108, PE718, DOI 10.1073/pnas.1107365108
+   TSOTSOS JK, 1990, BEHAV BRAIN SCI, V13, P423, DOI 10.1017/S0140525X00079577
+   Van Brummelen J, 2018, TRANSPORT RES C-EMER, V89, P384, DOI 10.1016/j.trc.2018.02.012
+   Whishaw IQ, 2001, BEHAV BRAIN RES, V127, P49, DOI 10.1016/S0166-4328(01)00359-X
+   Yoder RM, 2011, TRENDS NEUROSCI, V34, P561, DOI 10.1016/j.tins.2011.08.004
+   Yurtsever E, 2020, IEEE ACCESS, V8, P58443, DOI 10.1109/ACCESS.2020.2983149
+   Zaffar M., 2019, ARXIV190309107CS, V0, P0
+   Zaffar M, 2021, IEEE T INTELL TRANSP, V22, P7355, DOI 10.1109/TITS.2020.3001228
+   Zaffar M, 2020, IEEE ROBOT AUTOM LET, V5, P1835, DOI 10.1109/LRA.2020.2969917
+   Zeno PJ, 2016, J ROBOT, V2016, P0, DOI 10.1155/2016/8637251
+   Zetao Chen, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION (ICRA), V0, PP3223, DOI 10.1109/ICRA.2017.7989366
+   Zhang XW, 2021, PATTERN RECOGN, V113, P0, DOI 10.1016/j.patcog.2020.107760
+   ZOLAMORGAN S, 1989, J NEUROSCI, V9, P4355
+NR 83
+TC 1
+Z9 1
+U1 2
+U2 7
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 2296-9144
+EI 
+J9 FRONT ROBOT AI
+JI Front. Robot. AI
+PD FEB 4
+PY 2022
+VL 8
+IS 
+BP 
+EP 
+DI 10.3389/frobt.2021.703811
+PG 20
+WC Robotics
+SC Robotics
+GA ZH0PH
+UT WOS:000760650300001
+PM 35187091
+DA 2023-04-26
+ER
+
+PT J
+AU Hasnahena
+   Sarker, SC
+   Islam, S
+   Rahman, Z
+   Islam, N
+AF Hasnahena
+   Sarker, Subaran Chandra
+   Islam, Sahidul
+   Rahman, Zakiur
+   Islam, Nazrul
+TI Modeling on microclimatic variation of land surface temperature and vegetation cover at Rangpur City in Bangladesh
+SO MODELING EARTH SYSTEMS AND ENVIRONMENT
+LA English
+DT Article; Early Access
+DE Satellite images; LST and NDVI; Spatio-temporal; Urban microclimate; Bangladesh
+ID urban heat-island; neural-network; spectral index; air-temperature; ndvi; emissivity; resolution; parameters; retrieval; pattern
+AB Land surface temperature (LST) and vegetation cover are essential in all environmental aspects. Understanding the spatiotemporal variation of LST and vegetation abundance is beneficial to investigate the microclimate studies of an urban area. In urban areas, vegetation is an essential element in flourishing microclimate and outdoor thermal consolation. Due to unplanned rapid urbanization and lack of proper management, the vegetation cover in Rangpur City Corporation (RpCC) are decline day by day. The vegetation covers are declined in fast-growing city like RpCC and it is leading to more sensible heat than the normal heat flux. This study focused on the relationship between LST and vegetation cover of the RpCC area of different periods and how they affect the regional microclimate. Through this research has also been evaluate the impacts of reducing the vegetation cover on the microclimate conditions in the study area. To fulfil the aim of the study, satellite imageries of the year 2021 (Operational Landsat), 2017 (Operational Landsat), 2009 and (Thematic mapper), 2000 (Thematic mapper) were processed using ArcGIS 10.5 software. From the satellite imageries, normalized difference vegetation index (NDVI) and LST have been estimated to show the relation between LST and vegetation in RpCC and ANN (Artificial neural network) model was developed to predict the value of LST and NDVI after 7 years, particularly to the year 2028 based on datasets from 2000 to 2021. The linear regression analysis provides the inverse relationship between LST and vegetation in the study area that explains that due to urban growth materials, the amount of vegetation has been decreased, leading to increased surface temperature during 2000-2021. The developed ANN model using obtained data sets of LST and NDVI of RpCC predicts that the value of LST and NDVI till the year 2028 will not be changed so much compared to the previous 21 years (2000-2021). The highest LST may occur 32.71 degrees c in the year 2028 whereas the predicted highest NDVI value has been observed 0.57 which is not so sufficient in controlling LST in the city. However, more amount forestation is needed to minimize the effects of LST to make the city comfortable for the inhabitants including flora and fauna and others process as well like as cultivation, fishing, farming, etc.
+C1 [Hasnahena; Sarker, Subaran Chandra; Rahman, Zakiur] Begum Rokeya Univ, Dept Geog & Environm Sci, Rangpur, Bangladesh.
+   [Islam, Sahidul] Rangpur Cadet Coll, Dept Geog, Rangpur, Bangladesh.
+   [Islam, Nazrul] Jahangirnagar Univ, Dept Geog & Environm, Dhaka 1342, Bangladesh.
+C3 Jahangirnagar University
+RP Islam, N (corresponding author), Jahangirnagar Univ, Dept Geog & Environm, Dhaka 1342, Bangladesh.
+EM scsarker@brur.ac.bd; bngaconference2016@gmail.com
+CR Abera TA, 2019, REMOTE SENS ENVIRON, V221, P210, DOI 10.1016/j.rse.2018.11.024
+   Agatonovic-Kustrin S, 2000, J PHARMACEUT BIOMED, V22, P717, DOI 10.1016/S0731-7085(99)00272-1
+   Akter T, 2021, ENVIRON PROCESS, V8, P661, DOI 10.1007/s40710-020-00491-y
+   Al Kafy A, 2020, REMOTE SENS APPL, V18, P0, DOI 10.1016/j.rsase.2020.100314
+   Amr M, 2018, HBRC J, V14, P385, DOI 10.1016/j.hbrcj.2017.11.002
+   [Anonymous], 2007, WORLD URB PROSP 2007, V0, P0
+   ARTIS DA, 1982, REMOTE SENS ENVIRON, V12, P313, DOI 10.1016/0034-4257(82)90043-8
+   Athick ASMA, 2019, DATA BRIEF, V27, P0, DOI 10.1016/j.dib.2019.104773
+   BABALOLA O.S., 2016, J REMOTE SENS GIS, V5, P2469, DOI 10.4172/2469-4134.1000171
+   BBS, 2017, STAT YB BANGLADESH, V0, P0
+   Begum M., 2021, J GEOGR INF SYST, V13, P538, DOI 10.4236/JGIS.2021.134030
+   Belal AA, 2014, ARAB J GEOSCI, V7, P35, DOI 10.1007/s12517-012-0707-2
+   Belgrano A, 2001, J PLANKTON RES, V23, P651, DOI 10.1093/plankt/23.6.651
+   Bindajam AA, 2020, ATMOSPHERE-BASEL, V11, P0, DOI 10.3390/atmos11070762
+   Carlson T, 1994, REMOTE SENS REV, V9, P161, DOI 10.1080/02757259409532220
+   Carlson TN, 1997, REMOTE SENS ENVIRON, V62, P241, DOI 10.1016/S0034-4257(97)00104-1
+   Chen W, 2021, NEURAL NETWORKS, V136, P126, DOI 10.1016/j.neunet.2021.01.001
+   Chen X, 2017, SUSTAIN CITIES SOC, V32, P87, DOI 10.1016/j.scs.2017.03.013
+   Dash P, 2005, REMOTE SENS ENVIRON, V96, P1, DOI 10.1016/j.rse.2004.12.023
+   Duan SB, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12162573
+   Ermida SL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091471
+   Fabeku B. B., 2018, ATMOSPHERIC AND CLIMATE SCIENCES, V8, P318, DOI 10.4236/acs.2018.83021
+   Faisal A.A., 2021, ENV CHALL, V4, P100192, DOI 10.1016/j.envc.2021.100192
+   Farina A, 2012, EXPLORING RELATIONSH, V0, P0
+   Feizizadeh B, 2013, J ENVIRON PLANN MAN, V56, P1290, DOI 10.1080/09640568.2012.717888
+   Finlay S, 2014, PREDICTIVE ANALYTICS, V0, P0
+   Friedl MA, 1995, J GEOPHYS RES-ATMOS, V100, P25435, DOI 10.1029/95JD00723
+   GALLO KP, 1993, INT J REMOTE SENS, V14, P2223, DOI 10.1080/01431169308954031
+   Gillies RR, 1997, INT J REMOTE SENS, V18, P3145, DOI 10.1080/014311697217026
+   Grosse K, 2016, ARXIV, V0, P0
+   Gu CL, 2017, SCI CHINA EARTH SCI, V60, P1067, DOI 10.1007/s11430-016-9022-2
+   Hasnahena SC., 2021, CURR J APPL SCI TECH, V40, P74, DOI 10.9734/CJAST/2021/v40i1731437
+   Hassan M., 2015, INT J SCI RES, V4, P469
+   Hossain A, 2012, WATCH RANGPUR ZONE, V0, P0
+   Imran HM, 2021, EARTH SYST ENVIRON, V5, P667, DOI 10.1007/s41748-021-00243-4
+   Jabez J, 2019, SMART INNOV SYST TEC, V107, P675, DOI 10.1007/978-981-13-1747-7_66
+   Jahid MA, 2022, ENERG CONVERS MANAGE, V263, P0, DOI 10.1016/j.enconman.2022.115705
+   Julien Y, 2009, REMOTE SENS ENVIRON, V113, P329, DOI 10.1016/j.rse.2008.09.016
+   Kim J, 2012, J APPL REMOTE SENS, V6, P0, DOI 10.1117/1.JRS.6.063569
+   Koko AF, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10050272
+   Konig R, 2009, THESIS OREBRO U, V0, P0
+   Kourtit K, 2013, EUR PLAN STUD, V21, P285, DOI 10.1080/09654313.2012.716242
+   Kulsum U., 2022, BANGLADESH J EARTH S, V131, P1
+   Li JW, 2020, IEEE J BIOMED HEALTH, V24, P3012, DOI 10.1109/JBHI.2020.2977091
+   Lipinski W, 2021, APPL THERM ENG, V184, P0, DOI 10.1016/j.applthermaleng.2020.116137
+   Lotter HH, 2022, TAKING CARE URBAN MI, V0, P0
+   Maduako I.D., 2016, J REMOTE SENSING GIS, V5, P1, DOI 10.4172/2469-4134.1000158
+   Mikhaylov A, 2020, ENTREP SUSTAIN ISS, V7, P2897, DOI 10.9770/jesi.2020.7.4(21)
+   Mohamed ZE., 2019, J EGYPT MATH SOC, V27, P47, DOI 10.1186/S42787-019-0043-8
+   Mondal A, 2021, GEOMAT NAT HAZ RISK, V12, P3265, DOI 10.1080/19475705.2021.2008023
+   Moorthy PVR, 2022, IN J PHYS C SERIES, V2312, P0
+   Mukherjee F, 2020, EARTH SYST ENVIRON, V4, P385, DOI 10.1007/s41748-020-00155-9
+   Mustafa EK, 2021, GEOJOURNAL, V86, P1089, DOI 10.1007/s10708-019-10115-0
+   Mutiibwa D, 2015, IEEE J-STARS, V8, P4762, DOI 10.1109/JSTARS.2015.2468594
+   NASA, 2015, ENH THEM MAPP PLUS, V0, P0
+   Nichol JE, 1996, J APPL METEOROL, V35, P135, DOI 10.1175/1520-0450(1996)035<0135:HRSTPR>2.0.CO;2
+   Nwidum L., 2021, INT J HYDROL, V5, P240, DOI 10.15406/ijh.2021.05.00286
+   Owen TW, 1998, INT J REMOTE SENS, V19, P1663, DOI 10.1080/014311698215171
+   Ozyavuz M, 2015, J ENVIRON PROT ECOL, V16, P264
+   Pal S, 2017, EGYPT J REMOTE SENS, V20, P125, DOI 10.1016/j.ejrs.2016.11.003
+   Patil K., 2013, INT J OCEANOGRAPHY, V2013, P1, DOI 10.1155/2013/302479
+   Piao SL, 2019, GLOBAL CHANGE BIOL, V25, P1922, DOI 10.1111/gcb.14619
+   Qin Z, 2001, INT J REMOTE SENS, V22, P3719, DOI 10.1080/01431160010006971
+   Rahman MN, 2022, CLIMATE, V10, P0, DOI 10.3390/cli10010003
+   Rambe BA, 2020, PANTHERA TIGRIS SUMA, V0, P0
+   Ren ZB, 2015, J INDIAN SOC REMOTE, V43, P89, DOI 10.1007/s12524-014-0373-9
+   Robnik-Sikonja M, 2018, INFORM-INT J COMPUT, V42, P13
+   Roy B, 2021, REMOTE SENS APPL, V23, P0, DOI 10.1016/j.rsase.2021.100587
+   Sarewitz D, 1999, TECHNOL SOC, V21, P121, DOI 10.1016/S0160-791X(99)00002-0
+   Sarkar R., 2015, INT J CURRENT RES, V7, P24820
+   Sebastian S., 2015, INT J COMPUT APPL, V119, P36, DOI 10.5120/21380-4370
+   Sepasgozar SME, 2019, TECHNOL FORECAST SOC, V142, P105, DOI 10.1016/j.techfore.2018.09.012
+   Sevink J, 2020, HOLOCENE, V30, P1310, DOI 10.1177/0959683620919974
+   Shiflett SA, 2017, SCI TOTAL ENVIRON, V579, P495, DOI 10.1016/j.scitotenv.2016.11.069
+   Singh P, 2017, SUSTAIN CITIES SOC, V32, P100, DOI 10.1016/j.scs.2017.02.018
+   Sobrino JA, 1996, INT J REMOTE SENS, V17, P2089, DOI 10.1080/01431169608948760
+   Sobrino JA, 2004, REMOTE SENS ENVIRON, V90, P434, DOI 10.1016/j.rse.2004.02.003
+   Sobrino JA, 2008, IEEE T GEOSCI REMOTE, V46, P316, DOI 10.1109/TGRS.2007.904834
+   Su WZ, 2010, J URBAN PLAN DEV, V136, P365, DOI 10.1061/(ASCE)UP.1943-5444.0000033
+   Sun GY, 2021, INT J APPL EARTH OBS, V103, P0, DOI 10.1016/j.jag.2021.102529
+   Tan KC, 2010, ENVIRON EARTH SCI, V60, P1509, DOI 10.1007/s12665-009-0286-z
+   Wahedul Islam, 2016, JOURNAL OF GEOGRAPHIC INFORMATION SYSTEM, V8, P537
+   Wan ZM, 2002, REMOTE SENS ENVIRON, V83, P163, DOI 10.1016/S0034-4257(02)00093-7
+   Wang ST, 2021, NAT FOOD, V2, P183, DOI 10.1038/s43016-021-00228-6
+   Weirer J, 2010, MEASURING VEGETATION, V0, P0
+   Weng QH, 2014, REMOTE SENS ENVIRON, V145, P55, DOI 10.1016/j.rse.2014.02.003
+   Yadav AK, 2014, RENEW SUST ENERG REV, V31, P509, DOI 10.1016/j.rser.2013.12.008
+   Yuan F, 2007, REMOTE SENS ENVIRON, V106, P375, DOI 10.1016/j.rse.2006.09.003
+   Yue W, 2007, INT J REMOTE SENS, V28, P3205, DOI 10.1080/01431160500306906
+   Zaharaddeen I., 2016, SCIENCE WORLD JOURNAL, V11, P36
+   Zhang, 2005, P INT S SUST WAT RES, V0, P279
+   Zhang F, 2018, IET IMAGE PROCESS, V12, P485, DOI 10.1049/iet-ipr.2017.0389
+   Zhang JR, 2007, APPL MATH COMPUT, V185, P1026, DOI 10.1016/j.amc.2006.07.025
+NR 93
+TC 1
+Z9 1
+U1 3
+U2 4
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 2363-6203
+EI 2363-6211
+J9 MODEL EARTH SYST ENV
+JI Model. Earth Syst. Environ.
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 
+EP 
+DI 10.1007/s40808-022-01533-0
+PG 20
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA 5D8VY
+UT WOS:000865214500001
+DA 2023-04-26
+ER
+
+PT J
+AU Dharumarajan, S
+   Hegde, R
+AF Dharumarajan, Subramanian
+   Hegde, Rajendra
+TI Digital mapping of soil texture classes using Random Forest classification algorithm
+SO SOIL USE AND MANAGEMENT
+LA English
+DT Article
+DE classification algorithm; digital soil mapping; random forest model; soil texture
+ID artificial neural-network; spatial variability; depth functions; prediction; fractions; tree
+AB Soil texture is the most important soil physical property that determines water holding capacity, nutrient availability and crop growth. Spatial distribution of soil texture at a higher spatial resolution at regional and national level is essential for crop planning and management. In the present study, we mapped the soil textural classes over 16.2 M ha area of Andhra Pradesh state, India, at 250 m spatial resolution up to 2 m depth using the digital soil mapping approach. A total of 2,272 profile observations were used for the prediction of soil textural classes using the Random Forest (RF) classification algorithm. To estimate textural classes at six standard soil depth intervals (0-5, 5-15, 15-30, 30-60, 60-100 and 100-200 cm), we used continuous depth function of texture distribution using average sand, silt and clay content of different textural classes. Depth-wise spline outputs were then transformed into textural classes as per USDA textural classification. Sixteen environmental variables including Landsat-8 data, digital elevation model attributes and climatic variables were used for modelling. For model building, 75% of data was used and 25% of data was used for validation. Overall classification accuracy index and kappa index were calculated for validation data sets using 100 RF models. We recorded overall accuracy of 50%-65% and kappa index of 35%-47% for various depths. We found that equal-area quadratic splines of average sand, silt and clay are useful for soil profile depth harmonization of soil textural classes and random forest classification algorithm is a promising tool for spatial prediction of texture classes at the regional level. The present high-resolution (250 m) maps of soil texture classes are useful for different hydrological studies and preparation of proper land-use plans.
+C1 [Dharumarajan, Subramanian; Hegde, Rajendra] ICAR Natl Bur Soil Survey & Land Use Planning, Reg Ctr, Bangalore 560024, Karnataka, India.
+C3 Indian Council of Agricultural Research (ICAR); ICAR - National Bureau of Soil Survey & Land Use Planning
+RP Dharumarajan, S (corresponding author), ICAR Natl Bur Soil Survey & Land Use Planning, Reg Ctr, Bangalore 560024, Karnataka, India.
+EM sdharmag@gmail.com
+FU ICAR-National Bureau of Soil Survey and Land Use Planning
+CR Adhikari K, 2016, GEODERMA, V262, P101, DOI 10.1016/j.geoderma.2015.08.009
+   Adhikari K, 2013, SOIL SCI SOC AM J, V77, P860, DOI 10.2136/sssaj2012.0275
+   Akpa SIC, 2014, SOIL SCI SOC AM J, V78, P1953, DOI 10.2136/sssaj2014.05.0202
+   Amirian-Chakan A, 2019, SOIL TILL RES, V194, P0, DOI 10.1016/j.still.2019.06.006
+   [Anonymous], 2019, SOIL SYST, V0, P0, DOI DOI 10.3390/soilsystems3040065
+   Arrouays D, 2014, ADV AGRON, V125, P93, DOI 10.1016/B978-0-12-800137-0.00003-0
+   Bagheri Bodaghabadi M, 2015, PEDOSPHERE, V25, P580, DOI 10.1016/S1002-0160(15)30038-2
+   Bationo A, 2007, AGR SYST, V94, P13, DOI 10.1016/j.agsy.2005.08.011
+   Bishop TFA, 1999, GEODERMA, V91, P27, DOI 10.1016/S0016-7061(99)00003-8
+   Bousbih S, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131520
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Camera C, 2017, GEODERMA, V285, P35, DOI 10.1016/j.geoderma.2016.09.019
+   Congalton R.G., 1998, ASSESSING ACCURACY R, V0, P0
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Dharumarajan S, 2020, J INDIAN SOC REMOTE, V48, P1593, DOI 10.1007/s12524-020-01184-7
+   Dharumarajan S, 2020, GEODERMA REG, V20, P0, DOI 10.1016/j.geodrs.2019.e00250
+   Dharumarajan S, 2019, GEODERMA REG, V16, P0, DOI 10.1016/j.geodrs.2019.e00204
+   Dharumarajan S, 2019, CURR SCI INDIA, V116, P1237, DOI 10.18520/cs/v116/i7/1237-1246
+   Dharumarajan S, 2017, GEODERMA REG, V10, P154, DOI 10.1016/j.geodrs.2017.07.005
+   Carrizo ME, 2015, SCI AGR, V72, P75, DOI 10.1590/0103-9016-2014-0026
+   Gobin A, 2001, PHYS CHEM EARTH PT B, V26, P41, DOI 10.1016/S1464-1909(01)85012-7
+   Gomez C, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050565
+   Grunwald S, 2011, SOIL SCI SOC AM J, V75, P1201, DOI 10.2136/sssaj2011.0025
+   Hegde R, 2019, LEGUME RES, V42, P326, DOI 10.18805/LR-3852
+   Hengl T, 2007, GEODERMA, V140, P417, DOI 10.1016/j.geoderma.2007.04.022
+   Hengl T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0169748
+   Jafari A, 2014, GEODERMA, V232, P148, DOI 10.1016/j.geoderma.2014.04.029
+   Katerji N, 2009, EUR J AGRON, V30, P95, DOI 10.1016/j.eja.2008.07.009
+   Kettler TA, 2001, SOIL SCI SOC AM J, V65, P849, DOI 10.2136/sssaj2001.653849x
+   Kong XB, 2009, GEODERMA, V154, P86, DOI 10.1016/j.geoderma.2009.09.016
+   Malone BP, 2009, GEODERMA, V154, P138, DOI 10.1016/j.geoderma.2009.10.007
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   Meersmans J, 2009, GEODERMA, V152, P43, DOI 10.1016/j.geoderma.2009.05.015
+   Dematte JAM, 2016, REV BRAS CIENC SOLO, V40, P0, DOI 10.1590/18069657rbcs20150335
+   Naidu L. G. K., 2014, AGROPEDOLOGY, V24, P253
+   Okun O, 2007, LECT NOTES COMPUT SC, V4478, P483
+   Pahlavan-Rad MR, 2018, CATENA, V160, P275, DOI 10.1016/j.catena.2017.10.002
+   Piper, 1944, SOIL PLANT ANAL, V0, P0
+   Poggio L, 2017, GEODERMA REG, V9, P5, DOI 10.1016/j.geodrs.2016.11.003
+   Prasad AM, 2006, ECOSYSTEMS, V9, P181, DOI 10.1007/s10021-005-0054-1
+   Ramcharan A, 2018, SOIL SCI SOC AM J, V82, P186, DOI 10.2136/sssaj2017.04.0122
+   Reddy R. S., 1996, NBSS PUBL, V69b, P0
+   Scull P, 2005, PROF GEOGR, V57, P423, DOI 10.1111/j.0033-0124.2005.00488.x
+   Soil Survey Staff, 2003, SOIL SURV MAN USDA, V0, P0
+   Sugihara S, 2010, APPL SOIL ECOL, V44, P80, DOI 10.1016/j.apsoil.2009.10.003
+   Taalab K, 2015, GEODERMA, V259, P134, DOI 10.1016/j.geoderma.2015.05.014
+   Taghizadeh-Mehrjardi R, 2020, GEODERMA, V376, P0, DOI 10.1016/j.geoderma.2020.114552
+   Taghizadeh-mehrjardi R, 2016, EUR J SOIL SCI, V67, P707, DOI 10.1111/ejss.12382
+   Taghizadeh-Mehrjardi R, 2014, ARID LAND RES MANAG, V28, P147, DOI 10.1080/15324982.2013.828801
+   Thompson JA, 2012, HYDROPEDOLOGY: SYNERGISTIC INTEGRATION OF SOIL SCIENCE AND HYDROLOGY, V0, PP665, DOI 10.1016/B978-0-12-386941-8.00021-6
+   Wang Z, 2020, GEODERMA, V365, P0, DOI 10.1016/j.geoderma.2020.114214
+   Wiesmeier M, 2014, GLOBAL CHANGE BIOL, V20, P653, DOI 10.1111/gcb.12384
+   Wu W, 2018, COMPUT ELECTRON AGR, V144, P86, DOI 10.1016/j.compag.2017.11.037
+   Xue PP, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-30005-8
+   Zhai YS, 2006, COMPUT ELECTRON AGR, V54, P53, DOI 10.1016/j.compag.2006.08.001
+   Zhang M., 2019, HYDROL EARTH SYST SC, V0, P0, DOI DOI 10.5194/hess-2018-584
+   Zhao ZY, 2009, COMPUT ELECTRON AGR, V65, P36, DOI 10.1016/j.compag.2008.07.008
+NR 59
+TC 19
+Z9 19
+U1 12
+U2 49
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0266-0032
+EI 1475-2743
+J9 SOIL USE MANAGE
+JI Soil Use Manage.
+PD JAN 15
+PY 2022
+VL 38
+IS 1
+BP 135
+EP 149
+DI 10.1111/sum.12668
+EA OCT 2020
+PG 15
+WC Soil Science
+SC Agriculture
+GA YO2HV
+UT WOS:000585937200001
+DA 2023-04-26
+ER
+
+PT J
+AU Lin, ML
+   Liu, MM
+   Dong, LJ
+   Caruso, F
+   Li, SH
+AF Lin, Mingli
+   Liu, Mingming
+   Dong, Lijun
+   Caruso, Francesco
+   Li, Songhai
+TI Modeling intraspecific variation in habitat utilization of the Indo-Pacific humpback dolphin using self-organizing map
+SO ECOLOGICAL INDICATORS
+LA English
+DT Article
+DE Artificial neural network (ANN); Estuary; Ecotype; Habitat modelling; Marine protected areas (MPAs)
+ID artificial neural-networks; northern beibu gulf; sousa-chinensis; spatial-distribution; tursiops-truncatus; species richness; marine mammals; hainan island; california; ecotypes
+AB Coastal cetaceans are recognized as ecologically important species and have been the target for environmental monitoring programs and conservation strategies. Although supervised models have increasingly been used to better monitor complexity relationships between cetaceans and their habitats, the development of unsupervised learning techniques that have significant advantages in visualizing, grouping and reducing the dimensionality of data has been overlooked. Here, using the unsupervised artificial neural network of self-organizing map (SOM), we examined the intraspecific variation of habitat utilization among three geographically neighboring pop-ulations (waters southwest of Hainan Island abbreviated as WS Hainan, Sanniang Bay, and Zhanjiang waters) of the Indo-Pacific humpback dolphin (Sousa chinensis) in the northern South China Sea. The results showed that the population inhabiting in WS Hainan occupied a largest area with scattered patterns comparing to the other two in Sanniang Bay and Zhanjiang waters. The SOM analysis further showed that the examined populations in different waters have distinct habitat characteristics. S. chinensis in WS Hainan was sighted in deeper water with higher salinity, whereas the population in Sanniang Bay inhabited in estuary with lower pH and salinity. More complicated distributed patterns and environmental heterogeneity were observed in Zhanjiang waters, where the dolphins distributed contractively in a small area at the entrance of Zhanjiang Port and dispersed in another large area in Leizhou Bay. Correspondently, part of the sightings in Zhanjiang waters had similar habitat with those in WS Hainan, while others were reported in more inshore, deeper and muddied waters. Based on these findings, we hypothesized that S. chinensis can be divided into two ecotypes: estuarine and non-estuarine. Here, we confirmed that the SOM can well identify the habitat differentiation in S. chinensis, and therefore suggested it is a powerful modeling tool for cetacean monitoring program. Our findings contribute to a specific habitat conservation strategy that one integrated protected area would be better for S. chinensis in Sanniang Bay and Zhanjiang waters, while several small protected areas with connecting corridors were more suitable for population in WS Hainan.
+C1 [Lin, Mingli; Liu, Mingming; Dong, Lijun; Caruso, Francesco; Li, Songhai] Chinese Acad Sci, Inst Deep Sea Sci & Engn, Marine Mammal & Marine Bioacoust Lab, Hainan 572000, Peoples R China.
+   [Caruso, Francesco] Stn Zool Anton Dohrn, Dept Marine Anim Conservat & Publ Engagement, I-80121 Naples, Italy.
+C3 Chinese Academy of Sciences; Institute of Deep-Sea Science & Engineering, CAS; Stazione Zoologica Anton Dohrn di Napoli
+RP Li, SH (corresponding author), Chinese Acad Sci, Inst Deep Sea Sci & Engn, Marine Mammal & Marine Bioacoust Lab, Hainan 572000, Peoples R China.
+EM lish@idsse.ac.cn
+FU National Natural Science Foundation of China [41406182, 41306169, 41422604]; Development project of Institute of Deep-sea Science and Engineering Chinese Academy of Sciences [E072010101]; Ocean Park Conservation Foundation Hong Kong [AW02-1920]
+CR Aissi M, 2014, AQUAT CONSERV, V24, P50, DOI 10.1002/aqc.2411
+   Alhoniemi E., 2000, SOM TOOLBOX LAB INFO, V0, P0
+   Allen JA, 2017, J ACOUST SOC AM, V142, P1943, DOI 10.1121/1.4982040
+   [Anonymous], 2015, MARINE MAMMALS WORLD, V0, P0
+   [Anonymous], 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2_5
+   Becker EA, 2010, MAR ECOL PROG SER, V413, P163, DOI 10.3354/meps08696
+   Birukawa N, 2005, ZOOL SCI, V22, P1245, DOI 10.2108/zsj.22.1245
+   Bowen WD, 1997, MAR ECOL PROG SER, V158, P267, DOI 10.3354/meps158267
+   Carlucci R, 2016, ECOL INDIC, V69, P707, DOI 10.1016/j.ecolind.2016.05.035
+   Caruso F, 2020, FRONT MAR SCI, V7, P0, DOI 10.3389/fmars.2020.00267
+   Cereghino R, 2009, ENVIRON MODELL SOFTW, V24, P945, DOI 10.1016/j.envsoft.2009.01.008
+   Chen BY, 2016, ADV MAR BIOL, V73, P119, DOI 10.1016/bs.amb.2015.10.001
+   Chen T, 2010, MAMMALIA, V74, P117, DOI 10.1515/MAMM.2010.024
+   de Bruyn PJN, 2013, BIOL REV, V88, P62, DOI 10.1111/j.1469-185X.2012.00239.x
+   de Stephanis R, 2008, MAR ECOL PROG SER, V353, P275, DOI 10.3354/meps07164
+   Death G, 2000, ECOLOGY, V81, P3178, DOI 10.1890/0012-9658(2000)081[3178:CARTAP]2.0.CO;2
+   Des Roches S, 2018, NAT ECOL EVOL, V2, P57, DOI 10.1038/s41559-017-0402-5
+   Dong LJ, 2021, MAR MAMMAL SCI, V37, P1341, DOI 10.1111/mms.12816
+   Ducarme F, 2013, BIOSCIENCES MASTER R, V10, P1, DOI 10.1080/08927936.2015.1052279
+   Giraudel JL, 2003, ECOLOGICAL INFORMATICS -BOOK, V0, P15
+   Gomez-Salazar C, 2012, ECOL INDIC, V23, P19, DOI 10.1016/j.ecolind.2012.02.034
+   Greller R, 2021, MAR MAMMAL SCI, V37, P512, DOI 10.1111/mms.12767
+   Guevara-Aguirre D, 2016, REV MEX BIODIVERS, V87, P1045, DOI 10.1016/j.rmb.2016.07.015
+   Heithaus MR, 2002, ECOLOGY, V83, P480, DOI 10.2307/2680029
+   Hruschka H, 1999, EUR J OPER RES, V114, P346, DOI 10.1016/S0377-2217(98)00170-2
+   Jefferson T.A., 2017, SOUSA CHINENSIS ERRA, V0, P0, DOI DOI 10.2305/IUCN.UK.2017-3.RLTS.T82031425A50372332.en
+   Jefferson TA, 2000, WILDLIFE MONOGR, V0, P1
+   Jefferson Thomas A., 2004, AQUATIC MAMMALS, V30, P149, DOI 10.1578/AM.30.1.2004.149
+   Kang H, 2022, ECOL INDIC, V136, P0, DOI 10.1016/j.ecolind.2022.108708
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   Kuo P.F., 2011, P 91 ANN M TRANSPORT, V0, P22
+   LEGENDRE P, 1998, NUMERICAL ECOLOGY, V0, P0
+   Li Songhai, 2016, MARINE BIODIVERSITY RECORDS, V9, P3, DOI 10.1186/s41200-016-0005-x
+   Lin ML, 2017, J APPL ICHTHYOL, V33, P395, DOI 10.1111/jai.13251
+   Lin ML, 2021, ECOL INFORM, V62, P0, DOI 10.1016/j.ecoinf.2021.101274
+   Lin ML, 2020, AQUAT CONSERV, V30, P860, DOI 10.1002/aqc.3280
+   Lin ML, 2019, OCEAN COAST MANAGE, V172, P117, DOI 10.1016/j.ocecoaman.2019.02.004
+   Lin WZ, 2022, FRONT MAR SCI, V9, P0, DOI 10.3389/fmars.2022.782680
+   Liu MM, 2021, FRONT MAR SCI, V8, P0, DOI 10.3389/fmars.2021.655595
+   Liu MM, 2020, AQUAT MAMM, V46, P259, DOI 10.1578/AM.46.3.2020.259
+   Liu ZL, 2010, CHINESE SCI BULL, V55, P3853, DOI 10.1007/s11434-010-4183-3
+   MacLeod CD, 2007, J MAR BIOL ASSOC UK, V87, P157, DOI 10.1017/S0025315407055270
+   Mannocci L, 2020, ECOGRAPHY, V43, P1250, DOI 10.1111/ecog.04979
+   Mimura M, 2017, EVOL APPL, V10, P121, DOI 10.1111/eva.12436
+   ODell RE, 2011, SERPENTINE: THE EVOLUTION AND ECOLOGY OF A MODEL SYSTEM, V0, P97
+   Oh J, 2003, PROCEEDINGS OF THE IEEE 29TH ANNUAL NORTHEAST BIOENGINEERING CONFERENCE, V0, P33
+   Park Y.S., 2018, ECOL INFORM, V0, PP251, DOI 10.1007/978-3-319-59928-1
+   Park YS, 2003, ECOL MODEL, V160, P265, DOI 10.1016/S0304-3800(02)00258-2
+   Peltier H, 2014, ECOL INDIC, V39, P203, DOI 10.1016/j.ecolind.2013.12.019
+   Peng CW, 2020, MAR MAMMAL SCI, V36, P623, DOI 10.1111/mms.12663
+   PRAAGMAN J, 1985, EUR J OPER RES, V19, P144, DOI 10.1016/0377-2217(85)90321-2
+   Redfern JV, 2006, MAR ECOL PROG SER, V310, P271, DOI 10.3354/meps310271
+   Scales KL, 2017, DIVERS DISTRIB, V23, P1204, DOI 10.1111/ddi.12611
+   Simoes-Lopes PC, 2019, AQUAT BIOL, V28, P101, DOI 10.3354/ab00712
+   Tang X., 2021, COMP STUDY EXTERNAL, V0, P0
+   Tang XM, 2021, INTEGR ZOOL, V16, P586, DOI 10.1111/1749-4877.12537
+   Therneau T., 2022, COMPREHENSIVE R ARCH, V1, P34
+   Torres LG, 2003, MAR MAMMAL SCI, V19, P502, DOI 10.1111/j.1748-7692.2003.tb01317.x
+   Turesson G, 1922, HEREDITAS, V3, P211, DOI 10.1111/j.1601-5223.1922.tb02734.x
+   Turvey ST, 2012, PLOS ONE, V7, P0, DOI 10.1371/journal.pone.0037902
+   TYLER JA, 1994, REV FISH BIOL FISHER, V4, P91, DOI 10.1007/BF00043262
+   Ultsch A., 1993, INFORM CLASSIFICATIO, V0, PP307, DOI 10.1007/978-3-642-50974-2_31
+   Usman AM, 2020, IEEE ACCESS, V8, P105181, DOI 10.1109/ACCESS.2020.3000477
+   Vasconcelos RP, 2015, J ANIM ECOL, V84, P1331, DOI 10.1111/1365-2656.12372
+   Viddi FA, 2010, ICES J MAR SCI, V67, P959, DOI 10.1093/icesjms/fsp288
+   Wang Jingzhen, 2012, ACTA THERIOLOGICA SINICA, V32, P156
+   Wang P.L., 2011, CHINESE CETACEANS, V0, P0
+   Wang XY, 2016, MAR MAMMAL SCI, V32, P390, DOI 10.1111/mms.12257
+   Wu HP, 2017, AQUAT MAMM, V43, P219, DOI 10.1578/AM.43.2.2017.219
+   Xu XR, 2015, SCI REP-UK, V5, P0, DOI 10.1038/srep08147
+   Yotova G, 2021, ECOL INDIC, V120, P0, DOI 10.1016/j.ecolind.2020.106872
+   Young JW, 2015, DEEP-SEA RES PT II, V113, P170, DOI 10.1016/j.dsr2.2014.05.015
+   Yu Y, 2019, J MARINE SYST, V200, P0, DOI 10.1016/j.jmarsys.2019.103230
+   Zarra T, 2019, ENVIRON INT, V133, P0, DOI 10.1016/j.envint.2019.105189
+   Zhang PJ, 2020, ISCIENCE, V23, P0, DOI 10.1016/j.isci.2020.101640
+   Zhou KY, 2007, NEW ZEAL J ZOOL, V34, P35, DOI 10.1080/03014220709510061
+NR 77
+TC 1
+Z9 1
+U1 13
+U2 13
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1470-160X
+EI 1872-7034
+J9 ECOL INDIC
+JI Ecol. Indic.
+PD NOV 15
+PY 2022
+VL 144
+IS 
+BP 
+EP 
+DI 10.1016/j.ecolind.2022.109466
+PG 11
+WC Biodiversity Conservation; Environmental Sciences
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA 5K8EA
+UT WOS:000869952500007
+DA 2023-04-26
+ER
+
+PT J
+AU Ma, X
+   Zhao, YJ
+   Lu, YP
+   Li, P
+   Li, XX
+   Mei, N
+   Wang, JJ
+   Geng, DY
+   Zhao, LX
+   Yin, B
+AF Ma, Xin
+   Zhao, Yajing
+   Lu, Yiping
+   Li, Peng
+   Li, Xuanxuan
+   Mei, Nan
+   Wang, Jiajun
+   Geng, Daoying
+   Zhao, Lingxiao
+   Yin, Bo
+TI A dual-branch hybrid dilated CNN model for the AI-assisted segmentation of meningiomas in MR images
+SO COMPUTERS IN BIOLOGY AND MEDICINE
+LA English
+DT Article
+DE Meningioma; Image segmentation; Convolutional neural networks; Multi-scale receptive fields
+ID edema
+AB Background and objective: Treatment for meningiomas usually includes surgical removal, radiation therapy, and chemotherapy. Accurate segmentation of tumors significantly facilitates complete surgical resection and precise radiotherapy, thereby improving patient survival. In this paper, a deep learning model is constructed for magnetic resonance T1-weighted Contrast Enhancement (T1CE) images to develop an automatic processing scheme for accurate tumor segmentation.Methods: In this paper, a novel Convolutional Neural Network (CNN) model is proposed for the accurate meningioma segmentation in MR images. It can extract fused features in multi-scale receptive fields of the same feature map based on MR image characteristics of meningiomas. The attention mechanism is added as a helpful addition to the model to optimize the feature information transmission.Results and conclusions: The results were evaluated on two internal testing sets and one external testing set. Mean Dice Similarity Coefficient (DSC) values of 0.886, 0.851, and 0.874 are demonstrated, respectively. In this paper, a deep learning approach is proposed to segment tumors in T1CE images. Multi-center testing sets validated the effectiveness and generalization of the method. The proposed model demonstrates state-of-the-art tumor segmentation performance.
+C1 [Ma, Xin] Fudan Univ, Sch Engn & Technol, Shanghai 200433, Peoples R China.
+   [Ma, Xin; Li, Peng; Wang, Jiajun; Zhao, Lingxiao] Chinese Acad Sci, Suzhou Inst Biomed Engn & Technol, Suzhou 215163, Peoples R China.
+   [Zhao, Yajing; Lu, Yiping; Geng, Daoying; Yin, Bo] Fudan Univ, Dept Radiol, Huashan Hosp, Shanghai 200040, Peoples R China.
+C3 Fudan University; Chinese Academy of Sciences; Suzhou Institute of Biomedical Engineering & Technology, CAS; Fudan University
+RP Zhao, LX (corresponding author), Chinese Acad Sci, Suzhou Inst Biomed Engn & Technol, Suzhou 215163, Peoples R China.; Geng, DY; Yin, B (corresponding author), Fudan Univ, Dept Radiol, Huashan Hosp, Shanghai 200040, Peoples R China.
+EM GengdaoyingGDY@163.com; zhaolx@sibet.ac.cn; GengdaoyingGDY@163.com
+FU Shanghai Municipal Science and Technology Major Project [2018SHZDZX01]; ZJ Lab, Shanghai Center for Brain-Inspired Technology, Clinical Research Plan of SHDC, China [SHDC2020CR4069]; Youth Program of National Nat-ural Science Foundation of China [81901697]; Shanghai Sailing Program [21YF1404800]; Youth Program of Special Project for Clinical Research of Shanghai Municipal Health Commission Health industry [20204Y0421]; Youth Medical Talents- Medical Imaging Practitioner Program [3030256001]; Medical Engineering Fund of Fudan University, China [yg2021-029]; Clinical Research Plan of SHDC, China [SHDC2020CR3020A]
+CR Bae S, 2018, RADIOLOGY, V289, P797, DOI 10.1148/radiol.2018180200
+   Binaghi E, 2018, COMP M BIO BIO E-IV, V6, P362, DOI 10.1080/21681163.2016.1250108
+   Buerki RA, 2018, FUTURE ONCOL, V14, P2161, DOI 10.2217/fon-2018-0006
+   Chan T, 1999, LECT NOTES COMPUT SC, V1682, P141
+   Chen LC, 2017, ARXIV, V0, P0
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Choudhury AR, 2019, LECT NOTES COMPUT SC, V11384, P154, DOI 10.1007/978-3-030-11726-9_14
+   Colman J, 2021, LECT NOTES COMPUT SC, V12659, P410, DOI 10.1007/978-3-030-72087-2_36
+   DICE LR, 1945, ECOLOGY, V26, P297, DOI 10.2307/1932409
+   FitzPatrick M, 1999, RADIOL CLIN N AM, V37, P101, DOI 10.1016/S0033-8389(05)70081-6
+   Gawlikowski J., 2021, ARXIV, V0, P0
+   Goldbrunner R, 2021, NEURO-ONCOLOGY, V23, P1821, DOI 10.1093/neuonc/noab150
+   Graillon T, 2020, NEUROENDOCRINOLOGY, V110, P780, DOI 10.1159/000509090
+   Guerrero R, 2018, NEUROIMAGE-CLIN, V17, P918, DOI 10.1016/j.nicl.2017.12.022
+   Guo CL, 2020, ARXIV, V0, P0
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hsieh TM, 2011, BMC MED INFORM DECIS, V11, P0, DOI 10.1186/1472-6947-11-54
+   Hu X, 2021, KNOWL INF SYST, V63, P2585, DOI 10.1007/s10115-021-01605-0
+   Huang RY, 2019, NEURO-ONCOLOGY, V21, PI44, DOI 10.1093/neuonc/noy143
+   HUTTENLOCHER DP, 1993, IEEE T PATTERN ANAL, V15, P850, DOI 10.1109/34.232073
+   Kaur A, 2021, EXPERT SYST APPL, V186, P0, DOI 10.1016/j.eswa.2021.115686
+   Kazemi K, 2014, J BIOMED PHYS ENG, V4, P13
+   Kendall A., 2017, ADV NEURAL INFORM PR, V0, P0
+   Latini F, 2017, CLIN NEURORADIOL, V27, P145, DOI 10.1007/s00062-015-0481-0
+   Laukamp KR, 2021, CLIN NEURORADIOL, V31, P357, DOI 10.1007/s00062-020-00884-4
+   Laukamp KR, 2019, EUR RADIOL, V29, P124, DOI 10.1007/s00330-018-5595-8
+   Lin T, 2017, 2017 IEEE INT C COMP, V0, P0, DOI DOI 10.1109/ICCV.2017.324
+   Liu LL, 2020, MED IMAGE ANAL, V65, P0, DOI 10.1016/j.media.2020.101791
+   Mehta R, 2021, ARXIV, V0, P0
+   Men K, 2017, MED PHYS, V44, P6377, DOI 10.1002/mp.12602
+   Milletari F, 2016, INT CONF 3D VISION, V0, PP565, DOI 10.1109/3DV.2016.79
+   Mueller D, 2022, ARXIV, V0, P0
+   Noori M, 2019, 2019 9TH INTERNATIONAL CONFERENCE ON COMPUTER AND KNOWLEDGE ENGINEERING (ICCKE 2019), V0, PP269, DOI 10.1109/ICCKE48569.2019.8964956
+   Oktay O, 2018, ARXIV, V0, P0
+   OTSU N, 1979, IEEE T SYST MAN CYB, V9, P62, DOI 10.1109/TSMC.1979.4310076
+   Praveen GB, 2016, PROCEEDINGS OF THE 10TH INDIACOM - 2016 3RD INTERNATIONAL CONFERENCE ON COMPUTING FOR SUSTAINABLE GLOBAL DEVELOPMENT, V0, P1628
+   Ronneberger O., 2015, P MED IM COMP COMP A, V0, P234
+   Saha BN, 2012, COMPUT MED IMAG GRAP, V36, P95, DOI 10.1016/j.compmedimag.2011.06.001
+   Shattuck DW, 2009, NEUROIMAGE, V45, P431, DOI 10.1016/j.neuroimage.2008.10.066
+   Soomro TA, 2018, 2018 INTERNATIONAL CONFERENCE ON DIGITAL IMAGE COMPUTING: TECHNIQUES AND APPLICATIONS (DICTA), V0, P76
+   Srivastava A., 2017, INT J LATEST TECHNOL, VVI, P0
+   Stember JN, 2019, J DIGIT IMAGING, V32, P597, DOI 10.1007/s10278-019-00220-4
+   Tahir B, 2019, MICROSC RES TECHNIQ, V82, P803, DOI 10.1002/jemt.23224
+   Trajman A, 2008, SCAND J CLIN LAB INV, V68, P77, DOI 10.1080/00365510701666031
+   Vincent P, 2010, J MACH LEARN RES, V11, P3371
+   Wang PQ, 2018, IEEE WINT CONF APPL, V0, PP1451, DOI 10.1109/WACV.2018.00163
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Yu FS, 2016, ARXIV, V0, P0
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+NR 50
+TC 0
+Z9 0
+U1 1
+U2 1
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0010-4825
+EI 1879-0534
+J9 COMPUT BIOL MED
+JI Comput. Biol. Med.
+PD DEC 15
+PY 2022
+VL 151
+IS 
+BP 
+EP 
+DI 10.1016/j.compbiomed.2022.106279
+EA NOV 2022
+PG 12
+WC Biology; Computer Science, Interdisciplinary Applications; Engineering, Biomedical; Mathematical & Computational Biology
+SC Life Sciences & Biomedicine - Other Topics; Computer Science; Engineering; Mathematical & Computational Biology
+GA 7C9SB
+UT WOS:000900142700001
+PM 36375416
+DA 2023-04-26
+ER

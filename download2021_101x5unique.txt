@@ -1,0 +1,474 @@
+
+PT J
+AU Liu, W
+   Xu, JW
+   Guo, ZH
+   Li, EZ
+   Li, X
+   Zhang, LP
+   Liu, WS
+AF Liu, Wei
+   Xu, Jiawei
+   Guo, Zihui
+   Li, Erzhu
+   Li, Xing
+   Zhang, Lianpeng
+   Liu, Wensong
+TI Building Footprint Extraction From Unmanned Aerial Vehicle Images Via PRU-Net: Application to Change Detection
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Feature extraction; Buildings; Licenses; Semantics; Predictive models; Image segmentation; Data mining; Building footprint change detection; deep convolutional neural network (DCNN); U-Net; unmanned aerial vehicle (UAV) image
+ID remote-sensing imagery
+AB As the manual detection of building footprint is inefficient and labor-intensive, this study proposed a method of building footprint extraction and change detection based on deep convolutional neural networks. The study modified the existing U-Net model to develop the "PRU-Net" model. PRU-Net incorporates pyramid scene parsing (PSP) to allow multiscale scene parsing, a residual block (RB) in ResNet for feature extraction, and focal loss to address sample imbalance. Within the proposed method, building footprint extraction is conducted as follows: 1) unmanned aerial vehicle images are cropped, denoised, and semantically marked, and datasets are created (including training/validation and prediction datasets); 2) the training/validation and prediction datasets are input into the full convolutional neural network PRU-Net for model training/validation and prediction. Compared with the U-Net, PSP+U-Net (PU-Net), and U-Net++ models, PRU-Net offers improved footprint extraction of buildings with a range of sizes and shapes. The large-scale experimental results demonstrated the effectiveness of the PSP module for multiscale scene analysis and the RB module for feature extraction. After demonstrating the improvements in building extraction offered by PRU-Net, the building footprint results were further processed to generate a building change map.
+C1 [Liu, Wei; Xu, Jiawei; Guo, Zihui; Li, Erzhu; Li, Xing; Zhang, Lianpeng; Liu, Wensong] Jiangsu Normal Univ, Sch Geog Geomat & Planning, Xuzhou 221116, Jiangsu, Peoples R China.
+C3 Jiangsu Normal University
+RP Liu, W (corresponding author), Jiangsu Normal Univ, Sch Geog Geomat & Planning, Xuzhou 221116, Jiangsu, Peoples R China.
+EM liuw@jsnu.eud.cn; xujiawei@jsnu.edu.cn; guozihui@jsnu.edu.cn; liezrs2018@jsnu.edu.cn; lixing@jsnu.edu.cn; zhanglp2000@126.com; liuwensongupc@163.com
+FU Xuzhou Science and Technology Key R&D Program (Social Development) [KC20172]; Priority Academic Program Development of Jiangsu Higher Education Institutions; State Key Laboratory of Resources and Environmental Information System
+CR Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   Beumier Charles, 2012, PROGRESS IN PATTERN RECOGNITION, V0, P0
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Drozdzal M, 2016, LECT NOTES COMPUT SC, V10008, P179, DOI 10.1007/978-3-319-46976-8_19
+   [顾炼 Gu Lian], 2020, 自动化学报 ACTA AUTOMATICA SINICA, V46, P1291
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang JF, 2019, ISPRS J PHOTOGRAMM, V151, P91, DOI 10.1016/j.isprsjprs.2019.02.019
+   Huang X, 2014, IEEE J-STARS, V7, P105, DOI 10.1109/JSTARS.2013.2252423
+   Ibtehaz N, 2020, NEURAL NETWORKS, V121, P74, DOI 10.1016/j.neunet.2019.08.025
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Jabari S, 2019, ISPRS J PHOTOGRAMM, V147, P163, DOI 10.1016/j.isprsjprs.2018.11.014
+   Jaturapitpornchai R, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11121444
+   Ji HY, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12172832
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Leichtle T, 2017, INT J APPL EARTH OBS, V54, P15, DOI 10.1016/j.jag.2016.08.010
+   Li QY, 2020, IEEE T GEOSCI REMOTE, V58, P7502, DOI 10.1109/TGRS.2020.2973720
+   [李炜明 LI Wei-Ming], 2009, 自动化学报 ACTA AUTOMATICA SINICA, V35, P449
+   Lin Tsung-Yi, 2020, IEEE TRANS PATTERN ANAL MACH INTELL, V42, P318, DOI 10.1109/TPAMI.2018.2858826
+   Liu B, 2017, IEEE GEOSCI REMOTE S, V14, P926, DOI 10.1109/LGRS.2017.2687946
+   Liu S., 1900, V10, V0, P4124
+   Liu W, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11242912
+   Liu YB, 2018, IEEE J-STARS, V11, P3688, DOI 10.1109/JSTARS.2018.2866284
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lukashevich P, 2017, 2017 INTERNATIONAL CONFERENCE ON INFORMATION AND DIGITAL TECHNOLOGIES (IDT), V0, PP246, DOI 10.1109/DT.2017.8024304
+   Majd RD, 2019, IEEE J-STARS, V12, P2627, DOI 10.1109/JSTARS.2019.2924582
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Qin XL, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON PROGNOSTICS AND HEALTH MANAGEMENT (ICPHM), V0, PP1, DOI 10.1109/ICPHM.2017.7998297
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Saha S, 2019, IEEE T GEOSCI REMOTE, V57, P3677, DOI 10.1109/TGRS.2018.2886643
+   Shi YL, 2019, IEEE GEOSCI REMOTE S, V16, P603, DOI 10.1109/LGRS.2018.2878486
+   Solano-Correa YT, 2019, IEEE GEOSCI REMOTE S, V16, P1334, DOI 10.1109/LGRS.2019.2896385
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Su HJ, 2020, IEEE T GEOSCI REMOTE, V58, P3778, DOI 10.1109/TGRS.2019.2957135
+   Turker M, 2008, INT J REMOTE SENS, V29, P3073, DOI 10.1080/01431160701442096
+   Xiao PF, 2016, ISPRS J PHOTOGRAMM, V119, P402, DOI 10.1016/j.isprsjprs.2016.07.003
+   Xie C.-W., 2018, VORTEX POOLING IMPRO, V0, P0
+   Yang L., 1900, V11, V0, P2600
+   Yu F., 2016, INT C LEARN REPR ICL, V0, P1
+   Yuan J., 2016, ARXIV PREPRINT ARXIV, V0, P0
+   Zhang YJ, 2018, IEEE GEOSCI REMOTE S, V15, P13, DOI 10.1109/LGRS.2017.2763182
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+NR 41
+TC 8
+Z9 9
+U1 3
+U2 41
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 2236
+EP 2248
+DI 10.1109/JSTARS.2021.3052495
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA QG1UD
+UT WOS:000617374800007
+DA 2023-04-26
+ER
+
+PT J
+AU Xin, HR
+   Lu, XJ
+   Xu, T
+   Liu, H
+   Gu, JJ
+   Dou, DJ
+   Xiong, H
+AF Xin, Haoran
+   Lu, Xinjiang
+   Xu, Tong
+   Liu, Hao
+   Gu, Jingjing
+   Dou, Dejing
+   Xiong, Hui
+TI Out-of-Town Recommendation with Travel Intention Modeling
+SO THIRTY-FIFTH AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE, THIRTY-THIRD CONFERENCE ON INNOVATIVE APPLICATIONS OF ARTIFICIAL INTELLIGENCE AND THE ELEVENTH SYMPOSIUM ON EDUCATIONAL ADVANCES IN ARTIFICIAL INTELLIGENCE
+LA English
+DT Proceedings Paper
+AB Out-of-town recommendation is designed for those users who leave their home-town areas and visit the areas they have never been to before. It is challenging to recommend Point-of-Interests (POIs) for out-of-town users since the out-of-town check-in behavior is determined by not only the user's home-town preference but also the user's travel intention. Besides, the user's travel intentions are complex and dynamic, which leads to big difficulties in understanding such intentions precisely. In this paper, we propose a TRAvel-INtention-aware Out-of-town Recommendation framework, named TRAINOR. The proposed TRAINOR framework distinguishes itself from existing out-of-town recommenders in three aspects. First, graph neural networks are explored to represent users' home-town check-in preference and geographical constraints in out-of-town check-in behaviors. Second, a user-specific travel intention is formulated as an aggregation combining home-town preference and generic travel intention together, where the generic travel intention is regarded as a mixture of inherent intentions that can be learned by Neural Topic Model (NTM). Third, a non-linear mapping function, as well as a matrix factorization method, are employed to transfer users' home-town preference and estimate out-of-town POI's representation, respectively. Extensive experiments on real-world data sets validate the effectiveness of the TRAINOR framework. Moreover, the learned travel intention can deliver meaningful explanations for understanding a user's travel purposes.
+C1 [Xin, Haoran; Xu, Tong] Univ Sci & Technol China, Hefei, Peoples R China.
+   [Xin, Haoran; Lu, Xinjiang; Liu, Hao; Dou, Dejing] Baidu Res, Business Intelligence Lab, Beijing, Peoples R China.
+   [Lu, Xinjiang; Liu, Hao; Dou, Dejing] Natl Engn Lab Deep Learning Technol & Applicat, Beijing, Peoples R China.
+   [Gu, Jingjing] Nanjing Univ Aeronaut & Astronaut, Nanjing, Peoples R China.
+   [Xiong, Hui] Rutgers State Univ, New Brunswick, NJ USA.
+C3 Chinese Academy of Sciences; University of Science & Technology of China, CAS; Baidu; Nanjing University of Aeronautics & Astronautics; Rutgers State University New Brunswick
+RP Lu, XJ (corresponding author), Baidu Res, Business Intelligence Lab, Beijing, Peoples R China.; Lu, XJ (corresponding author), Natl Engn Lab Deep Learning Technol & Applicat, Beijing, Peoples R China.
+EM xinhaoran@mail.ustc.edu.cn; luxinjiang@baidu.com; tongxu@ustc.edu.cn; liuhao30@baidu.com; gujingjing@nuaa.edu.cn; doudejing@baidu.com; hxiong@rutgers.edu
+FU NSFC [71531001, 61725205, 91746301, 61703386]
+CR Alvarez, 2018, ARXIV PREPRINT ARXIV, V0, P0
+   Brilhante I, 2013, PROCEEDINGS OF THE 22ND ACM INTERNATIONAL CONFERENCE ON INFORMATION & KNOWLEDGE MANAGEMENT (CIKM13), V0, PP757, DOI 10.1145/2505515.2505643
+   Cho K., 2014, PROC 8 WORKSHOP SYNT, V0, PP103, DOI 10.3115/V1/W14-4012
+   Ference G, 2013, PROCEEDINGS OF THE 22ND ACM INTERNATIONAL CONFERENCE ON INFORMATION & KNOWLEDGE MANAGEMENT (CIKM13), V0, PP721, DOI 10.1145/2505515.2505637
+   GENG X, 2019, AAAI 19, V0, P3656
+   Hidasi B., 2015, INT C LEARN REPR, V0, P0
+   Hu G, 2017, SIGIR17: PROCEEDINGS OF THE 40TH INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL, V0, PP893, DOI 10.1145/3077136.3080672
+   Kingma D. P., 2013, ARXIV13126114, V0, P0
+   Kipf T. N., 2016, ARXIV, V0, P0
+   Li Y, 2015, ARXIV, V0, P0
+   LIU Q, 2011, ICDM 11, V0, P0
+   Luo H, 2020, PROCEEDINGS OF THE 43RD INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL (SIGIR 20), V0, PP781, DOI 10.1145/3397271.3401090
+   Man T, 2017, PROCEEDINGS OF THE TWENTY-SIXTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P2464
+   Miao YS, 2017, PR MACH LEARN RES, V70, P0
+   Miao YS, 2016, PR MACH LEARN RES, V48, P0
+   PENG WJ, 2020, KDD 20, V0, P0
+   Rendle Steffen, 2009, PROC 25 C UNCERTAINT, V0, P452
+   Shen DZ, 2018, PROCEEDINGS OF THE TWENTY-SEVENTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P3542
+   Srivastava A., 2017, ARXIV170301488, V0, P1
+   Pham TAN, 2017, PROCEEDINGS OF THE 26TH INTERNATIONAL CONFERENCE ON WORLD WIDE WEB (WWW17), V0, PP401, DOI 10.1145/3038912.3052667
+   WANG H, 2017, SIGKDD 17, V0, PP1135, DOI 10.1145/3097983.3098122
+   Wang J, 2018, COMPANION PROCEEDINGS OF THE WORLD WIDE WEB CONFERENCE 2018 (WWW 2018), V0, PP1401, DOI 10.1145/3184558.3191583
+   WEI PH, 2019, SIGIR 19, V0, PP1173, DOI 10.1145/3331184.3331367
+   Wu S, 2019, AAAI CONF ARTIF INTE, V0, P346
+   Xu T., 2017, ARXIV PREPRINT ARTIC, V0, P0
+   Yin HZ, 2016, ACM T INFORM SYST, V35, P0, DOI 10.1145/2873055
+   Yin HZ, 2014, ACM T INFORM SYST, V32, P0, DOI 10.1145/2629461
+   Zhang WJ, 2020, AAAI CONF ARTIF INTE, V34, P1186
+   ZHOU X, 2019, SIGKDD 17, V0, PP3018, DOI 10.1145/3292500.3330781
+NR 29
+TC 6
+Z9 6
+U1 3
+U2 5
+PU ASSOC ADVANCEMENT ARTIFICIAL INTELLIGENCE
+PI PALO ALTO
+PA 2275 E BAYSHORE RD, STE 160, PALO ALTO, CA 94303 USA
+SN 2159-5399
+EI 2374-3468
+J9 AAAI CONF ARTIF INTE
+PD JUN 15
+PY 2021
+VL 35
+IS 
+BP 4529
+EP 4536
+DI 
+PG 8
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications; Education, Scientific Disciplines
+SC Computer Science; Education & Educational Research
+GA BR9ZM
+UT WOS:000680423504073
+DA 2023-04-26
+ER
+
+PT J
+AU Sha, YK
+   Gagne, DJ
+   West, G
+   Stull, R
+AF Sha, Yingkai
+   Gagne, David John
+   West, Gregory
+   Stull, Roland
+TI Deep-Learning-Based Precipitation Observation Quality Control
+SO JOURNAL OF ATMOSPHERIC AND OCEANIC TECHNOLOGY
+LA English
+DT Article
+DE Precipitation; Data quality control; Classification; Deep learning; Machine learning
+ID time-series; assurance procedures; gauge observations; air-temperature; performance; rain; impacts; project; runoff
+AB We present a novel approach for the automated quality control (QC) of precipitation for a sparse station observation network within the complex terrain of British Columbia, Canada. Our QC approach uses convolutional neural networks (CNNs) to classify bad observation values, incorporating a multiclassifier ensemble to achieve better QC performance. We train CNNs using human QC'd labels from 2016 to 2017 with gridded precipitation and elevation analyses as inputs. Based on the classification evaluation metrics, our QC approach shows reliable and robust performance across different geographical environments (e.g., coastal and inland mountains), with 0.927 area under curve (AUC) and type I/type II error lower than 15%. Based on the saliency-map-based interpretation studies, we explain the success of CNN-based QC by showing that it can capture the precipitation patterns around, and upstream of the station locations. This automated QC approach is an option for eliminating bad observations for various applications, including the preprocessing of training datasets for machine learning. It can be used in conjunction with human QC to improve upon what could be accomplished with either method alone.
+C1 [Sha, Yingkai; Stull, Roland] Univ British Columbia, Vancouver, BC, Canada.
+   [Gagne, David John] Natl Ctr Atmospher Res, POB 3000, Boulder, CO 80307 USA.
+   [West, Gregory] BC Hydro & Power Author, Burnaby, BC, Canada.
+C3 University of British Columbia; National Center Atmospheric Research (NCAR) - USA
+RP Sha, YK (corresponding author), Univ British Columbia, Vancouver, BC, Canada.
+EM yingkai@eoas.ubc.ca
+FU Four Year Doctoral Fellowship (4YF) program of the University of British Columbia; Canadian Natural Science and Engineering Research Council (NSERC); National Science Foundation; MITACS; BC Hydro; Casper cluster [Computational and Information Systems Laboratory (CISL)]; National Center for Atmospheric Research (NCAR); Advanced Study Program (ASP)
+CR Adam JC, 2003, J GEOPHYS RES-ATMOS, V108, P0, DOI 10.1029/2002JD002499
+   Adler RF, 2003, J HYDROMETEOROL, V4, P1147, DOI 10.1175/1525-7541(2003)004<1147:TVGPCP>2.0.CO;2
+   Amante C, 2009, NGDC24 NOAA NESDIS, V0, P0, DOI DOI 10.7289/V5C8276M
+   [Anonymous], 2011, STAT METHODS ATMOSPH, V0, P0
+   Banta R.M., 2013, OBSERVATIONAL TECHNI, V0, PP409, DOI 10.1007/978-94-007-4098-3_8
+   BC Hydro, 2020, GENERATION SYSTEM EF, V0, P0
+   Breiman L, 1996, MACH LEARN, V24, P123, DOI 10.1007/BF00058655
+   Breiman L., 1984, CLASSIFICATION REGRE, V0, P0, DOI DOI 10.1002/widm.8
+   Canadian Centre for Climate Services, 2019, TECHNICAL DOCUMENTAT, V0, P0
+   Carrera ML, 2010, J HYDROMETEOROL, V11, P1123, DOI 10.1175/2010JHM1274.1
+   Chilton R.R.H., 1981, MINISTRY ENV ASSESSM, V0, P0
+   Computational and Information Systems Laboratory, 2017, CHEYENN HPE SGI ICE, V0, P0, DOI DOI 10.5065/D6RX99HX
+   Eischeid JK, 2000, J APPL METEOROL, V39, P1580, DOI 10.1175/1520-0450(2000)039<1580:CASCND>2.0.CO;2
+   EISCHEID JK, 1995, J APPL METEOROL, V34, P2787, DOI 10.1175/1520-0450(1995)034<2787:TQCOLT>2.0.CO;2
+   Fortin V, 2018, ATMOS OCEAN, V56, P178, DOI 10.1080/07055900.2018.1474728
+   Fortin V, 2015, J HYDROL, V531, P296, DOI 10.1016/j.jhydrol.2015.08.003
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Goodison B.E., 1998, 67 WMO, V67, P0
+   GROISMAN PY, 1994, B AM METEOROL SOC, V75, P215, DOI 10.1175/1520-0477(1994)075<0215:TAOUSP>2.0.CO;2
+   Gu JX, 2018, PATTERN RECOGN, V77, P354, DOI 10.1016/j.patcog.2017.10.013
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Hubbard KG, 2005, J ATMOS OCEAN TECH, V22, P105, DOI 10.1175/JTECH-1657.1
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Jiang S, 2018, COMPLEXITY, V0, P0, DOI DOI 10.1155/2018/1048756
+   Jorgensen HK, 1998, WATER SCI TECHNOL, V37, P113, DOI 10.2166/wst.1998.0448
+   Kienzle SW, 2008, HYDROL PROCESS, V22, P5067, DOI 10.1002/hyp.7131
+   Kingma DP, 2015, 3 INT C LEARN REPR I, V0, P0
+   Lakshmanan V, 2007, J APPL METEOROL CLIM, V46, P288, DOI 10.1175/JAM2460.1
+   Lakshmanan V, 2014, J ATMOS OCEAN TECH, V31, P1234, DOI 10.1175/JTECH-D-13-00073.1
+   Lespinas F, 2015, J HYDROMETEOROL, V16, P2045, DOI 10.1175/JHM-D-14-0191.1
+   Liu Y, 2016, APPL DEEP CONVOLUTIO, V0, P0
+   Liu Y., 2018, HYDROL EARTH SYST SC, V0, P0, DOI DOI 10.5194/hess-2018-307
+   Mahfouf JF, 2007, ATMOS OCEAN, V45, P1
+   Martinaitis SM, 2015, J HYDROMETEOROL, V16, P2345, DOI 10.1175/JHM-D-15-0020.1
+   Maul-Kotter B, 1998, WATER SCI TECHNOL, V37, P155, DOI 10.2166/wst.1998.0458
+   MEEK DW, 1994, AGR FOREST METEOROL, V69, P85, DOI 10.1016/0168-1923(94)90083-3
+   MOTOYAMA H, 1990, J APPL METEOROL, V29, P1104, DOI 10.1175/1520-0450(1990)029<1104:SOSSBO>2.0.CO;2
+   Mourad M, 2002, WATER SCI TECHNOL, V45, P263, DOI 10.2166/wst.2002.0601
+   Nearing MA, 2005, CATENA, V61, P131, DOI 10.1016/j.catena.2005.03.007
+   Neiman PJ, 2008, J HYDROMETEOROL, V9, P22, DOI 10.1175/2007JHM855.1
+   Niculescu-Mizil A., 2005, P 22 INT C MACHINE L, V0, P625
+   Null SE, 2010, PLOS ONE, V5, P0, DOI 10.1371/journal.pone.0009932
+   Odon P, 2018, J APPL METEOROL CLIM, V57, P2091, DOI 10.1175/JAMC-D-18-0058.1
+   Piatyszek E, 2000, J HYDROL, V230, P258, DOI 10.1016/S0022-1694(00)00213-4
+   Platt JC, 2000, ADV NEUR IN, V0, P61
+   Qi YC, 2016, J HYDROMETEOROL, V17, P1675, DOI 10.1175/JHM-D-15-0188.1
+   Raileanu LE, 2004, ANN MATH ARTIF INTEL, V41, P77, DOI 10.1023/B:AMAI.0000018580.96245.c6
+   Rasmussen R, 2012, B AM METEOROL SOC, V93, P811, DOI 10.1175/BAMS-D-11-00052.1
+   Read W.A., 2015, CLIMATOLOGY METEOROL, V0, P0, DOI DOI 10.14288/1.0166485
+   Schneider U, 2014, THEOR APPL CLIMATOL, V115, P15, DOI 10.1007/s00704-013-0860-x
+   Sciuto G, 2009, J HYDROL, V364, P13, DOI 10.1016/j.jhydrol.2008.10.008
+   Simonyan K, 2015, ARXIV, V0, P0
+   Springenberg J. T., 2015, ICLR WORKSHOP, V0, P0
+   Stepanek P, 2009, ADV SCI RES, V3, P23
+   Tompson J, 2015, PROC CVPR IEEE, V0, PP648, DOI 10.1109/CVPR.2015.7298664
+   Vandal T, 2018, PROCEEDINGS OF THE TWENTY-SEVENTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P5389
+   Wong JS, 2017, HYDROL EARTH SYST SC, V21, P2163, DOI 10.5194/hess-21-2163-2017
+   Xie PP, 1996, J CLIMATE, V9, P840, DOI 10.1175/1520-0442(1996)009<0840:AOGMPU>2.0.CO;2
+   Xu CD, 2014, J APPL METEOROL CLIM, V53, P1538, DOI 10.1175/JAMC-D-13-0179.1
+   Yang DQ, 2005, GEOPHYS RES LETT, V32, P0, DOI 10.1029/2005GL024057
+   You JS, 2007, J ATMOS OCEAN TECH, V24, P821, DOI 10.1175/JTECH2002.1
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhao Q, 2018, WATER-SUI, V10, P0, DOI 10.3390/w10121712
+NR 64
+TC 5
+Z9 5
+U1 4
+U2 16
+PU AMER METEOROLOGICAL SOC
+PI BOSTON
+PA 45 BEACON ST, BOSTON, MA 02108-3693 USA
+SN 0739-0572
+EI 1520-0426
+J9 J ATMOS OCEAN TECH
+JI J. Atmos. Ocean. Technol.
+PD MAY 15
+PY 2021
+VL 38
+IS 5
+BP 1075
+EP 1091
+DI 10.1175/JTECH-D-20-0081.1
+PG 17
+WC Engineering, Ocean; Meteorology & Atmospheric Sciences
+SC Engineering; Meteorology & Atmospheric Sciences
+GA SR1OX
+UT WOS:000660815200011
+DA 2023-04-26
+ER
+
+PT J
+AU Gao, X
+   Chen, T
+   Niu, RQ
+   Plaza, A
+AF Gao, Xiao
+   Chen, Tao
+   Niu, Ruiqing
+   Plaza, Antonio
+TI Recognition and Mapping of Landslide Using a Fully Convolutional DenseNet and Influencing Factors
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Terrain factors; Remote sensing; Geology; Feature extraction; Image segmentation; Semantics; Earthquakes; Fully convolutional DenseNet (FC-DenseNet); influencing factors; landslide recognition and mapping; remote sensing
+ID 3 gorges reservoir; jiuzhaigou earthquake; neural-networks; susceptibility; inventory; basin; maps
+AB The recognition and mapping of landslide (RML) is an important task in hazard and risk research and can provide a scientific basis for the prevention and control of landslide disasters. However, traditional RML methods are inefficient, costly, and not intuitive. With the rapid development of computer vision, methods based on convolutional neural networks have attracted great attention due to their numerous advantages. However, problems such as insufficient feature extraction, excessive parameters, and slow model testing have restricted the development of this technology. This research proposes a new RML framework based on a new semantic segmentation network termed the fully convolutional DenseNet (FC-DenseNet). In this network, the features extracted from each layer are repeatedly used in a dense connection, and the parameters are controlled by a bottle-neck structure. Meanwhile, the structure of the encoder-decoder solves the problem of the slowness of model testing. Finally, the landslide influencing factors are added, which enriches the training data. To verify the effectiveness of the proposed method, we focused on several deep networks for comparison and analysis. The results show that FC-DenseNet can better recognize the boundary and interior of landslides, and there are fewer missing and excessive recognition results. The kappa value of the new method is 94.72% in Site 1, which is 6% and 4% higher than that of U-Net and ResU-Net, respectively, and 94.56% in Site 2, which is 6% and 3% higher than that of U-Net and ResU-Net, respectively, indicating that FC-DenseNet has great potential in RML applications.
+C1 [Gao, Xiao; Chen, Tao; Niu, Ruiqing] China Univ Geosci, Inst Geophys & Geomat, Wuhan 430074, Peoples R China.
+   [Chen, Tao] Beijing Key Lab Urban Spatial Informat Engn, Beijing 100038, Peoples R China.
+   [Plaza, Antonio] Univ Extremadura, Escuela Politecn, Dept Technol Comp & Commun, Hyperspectral Comp Lab, Caceres 10071, Spain.
+C3 China University of Geosciences; Universidad de Extremadura
+RP Chen, T (corresponding author), China Univ Geosci, Inst Geophys & Geomat, Wuhan 430074, Peoples R China.
+EM gaoxiao@cug.edu.cn; taochen@cug.edu.cn; niuruiqing@cug.edu.cn; aplaza@unex.es
+FU National Natural Science Foundation of China [62071439, 61871259]; Opening Foundation of Qilian Mountain National Park Research Center (Qinghai) [GKQ2019-01]; Opening Foundation of Beijing Key Laboratory of Urban Spatial Information Engineering [20210209]; Opening Foundation of Geomatics Technology and Application Key Laboratory of Qinghai Province [QHDX-2019-01]
+CR Ahmed MF, 2016, B ENG GEOL ENVIRON, V75, P563, DOI 10.1007/s10064-015-0773-2
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bengio Y., 1996, HDB BRAIN THEORY NEU, V0, P0
+   Cai HJ, 2021, IEEE J-STARS, V14, P5235, DOI 10.1109/JSTARS.2021.3079196
+   Chang M, 2021, ENVIRON SCI POLLUT R, V28, P20549, DOI 10.1007/s11356-020-11826-5
+   Chen S, 2020, IEEE J-STARS, V13, P1649, DOI 10.1109/JSTARS.2020.2985088
+   Chen T, 2020, J MT SCI-ENGL, V17, P670, DOI 10.1007/s11629-019-5839-3
+   Chen T, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040333
+   Chen T, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5317-y
+   Chen T, 2015, ENVIRON EARTH SCI, V73, P5571, DOI 10.1007/s12665-014-3811-7
+   Chen Y, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12172767
+   Cubuk ED, 2019, PROC CVPR IEEE, V0, PP113, DOI 10.1109/CVPR.2019.00020
+   Ding AZ, 2016, 2016 31ST YOUTH ACADEMIC ANNUAL CONFERENCE OF CHINESE ASSOCIATION OF AUTOMATION (YAC), V0, PP444, DOI 10.1109/YAC.2016.7804935
+   Galli M, 2008, GEOMORPHOLOGY, V94, P268, DOI 10.1016/j.geomorph.2006.09.023
+   Ge J., 2019, 2019 IEEE 13 INT C A, V0, PP1, DOI 10.1109/ASICON47005.2019.8983577
+   Ghorbanzadeh O, 2021, IEEE J-STARS, V14, P452, DOI 10.1109/JSTARS.2020.3043836
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020196
+   Gribbon KT, 2004, INT SYM ELECT DES TE, V0, P126
+   Guzzetti F, 2000, ENVIRON MANAGE, V25, P247, DOI 10.1007/s002679910020
+   Guzzetti F, 2012, EARTH-SCI REV, V112, P42, DOI 10.1016/j.earscirev.2012.02.001
+   Hackl J, 2018, NAT HAZARD EARTH SYS, V18, P2273, DOI 10.5194/nhess-18-2273-2018
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Huang G, 2016, LECT NOTES COMPUT SC, V9908, P646, DOI 10.1007/978-3-319-46493-0_39
+   [黄汀 Huang Ting], 2018, 测绘通报 BULLETIN OF SURVEYING AND MAPPING, V0, P67
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Larsson G., 2016, ARXIV16050748, V0, P0
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   LeCun Y., 2015, LENET 5 CONVOLUTIONA, V20, P14
+   Lee S, 2005, ENVIRON GEOL, V48, P778, DOI 10.1007/s00254-005-0019-x
+   [李强 Li Qiang], 2019, 遥感学报 JOURNAL OF REMOTE SENSING, V23, P785
+   Lissak C, 2020, SURV GEOPHYS, V41, P1391, DOI 10.1007/s10712-020-09609-1
+   Liu LW, 2012, J EARTH SCI-CHINA, V23, P207, DOI 10.1007/s12583-012-0247-4
+   Liu P, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12050894
+   Liu Y, 2016, PROCEDIA COMPUT SCI, V91, P566, DOI 10.1016/j.procs.2016.07.144
+   Luo X., 2017, J QUANZHOU NORMAL U, V35, P40
+   Lv ZY, 2021, IEEE GEOSCI REMOTE S, V18, P1284, DOI 10.1109/LGRS.2020.2998684
+   Marjanovic M, 2011, ACTA GEOTECH SLOV, V8, P45
+   Martha TR, 2013, GEOMORPHOLOGY, V184, P139, DOI 10.1016/j.geomorph.2012.12.001
+   Mohan A, 2021, T EMERG TELECOMMUN T, V32, P0, DOI 10.1002/ett.3998
+   Mondini AC, 2011, REMOTE SENS ENVIRON, V115, P1743, DOI 10.1016/j.rse.2011.03.006
+   Oyedotun OK, 2018, IEEE COMPUT SOC CONF, V0, PP1739, DOI 10.1109/CVPRW.2018.00217
+   Ozturk U, 2021, LANDSLIDES, V18, P681, DOI 10.1007/s10346-020-01485-5
+   Ngo PTT, 2021, GEOSCI FRONT, V12, P505, DOI 10.1016/j.gsf.2020.06.013
+   [乔建平 QIAO Jianping], 2006, 山地学报 JOURNAL OF MOUNTAIN SCIENCE, V24, P569
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Simonyan K, 2015, ARXIV, V0, P0
+   Soares L. P., 2020, ARXIV200706672, V0, P0
+   Su ZY, 2021, LANDSLIDES, V18, P1421, DOI 10.1007/s10346-020-01557-6
+   Sun P, 2018, J HUBEI U NATURAL SC, V40, P29
+   Sun XH, 2020, B ENG GEOL ENVIRON, V79, P4657, DOI 10.1007/s10064-020-01849-0
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Tang Wan, 2015, SHANGHAI ARCH PSYCHIATRY, V27, P62, DOI 10.11919/j.issn.1002-0829.215010
+   Tian YY, 2019, J EARTH SCI-CHINA, V30, P206, DOI 10.1007/s12583-018-0869-2
+   Ullo SL, 2021, IEEE J-STARS, V14, P3799, DOI 10.1109/JSTARS.2021.3064981
+   Wang J, 2018, J MT SCI-ENGL, V15, P1412, DOI 10.1007/s11629-018-4823-7
+   Wang J, 2018, ENVIRON TECHNOL, V39, P3055, DOI 10.1080/09593330.2017.1371797
+   Wang SH, 2020, NEURAL COMPUT APPL, V32, P665, DOI 10.1007/s00521-018-3924-0
+   Wang Y. Q, 2012, J CHANGCHUN I TECHNO, V13, P79
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Wu Caiyan, 2006, WUHAN UNIVERSITY JOURNAL OF NATURAL SCIENCES, V11, P773, DOI 10.1007/BF02830163
+   Xiao X, 2018, 2018 NINTH INTERNATIONAL CONFERENCE ON INFORMATION TECHNOLOGY IN MEDICINE AND EDUCATION (ITME 2018), V0, PP327, DOI 10.1109/ITME.2018.00080
+   Xu C, 2015, GEOSCI FRONT, V6, P825, DOI 10.1016/j.gsf.2014.03.004
+   Ye CM, 2019, IEEE J-STARS, V12, P5047, DOI 10.1109/JSTARS.2019.2951725
+   Yi YN, 2020, IEEE J-STARS, V13, P6166, DOI 10.1109/JSTARS.2020.3028855
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V61, P821, DOI 10.1007/s12665-009-0394-9
+   [于欢 YU Huan], 2010, 中国图象图形学报 JOURNAL OF IMAGE AND GRAPHICS, V15, P352
+   [余伟健 YU Weijian], 2008, 北京科技大学学报 JOURNAL OF UNIVERSITY SCIENCE AND TECHNOLOGY BEIJING, V30, P227
+   Zhao CY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020279
+   ZhiYong L, 2022, IEEE GEOSC REM SEN M, V10, P44, DOI 10.1109/MGRS.2021.3088865
+NR 71
+TC 22
+Z9 22
+U1 19
+U2 71
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 7881
+EP 7894
+DI 10.1109/JSTARS.2021.3101203
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA UC8FJ
+UT WOS:000686757500008
+DA 2023-04-26
+ER
+
+PT J
+AU Kyriakou, C
+   Christodoulou, SE
+   Dimitriou, L
+AF Kyriakou, Charalambos
+   Christodoulou, Symeon E.
+   Dimitriou, Loukas
+TI Spatial Roadway Condition-Assessment Mapping Utilizing Smartphones and Machine Learning Algorithms
+SO TRANSPORTATION RESEARCH RECORD
+LA English
+DT Article
+AB The paper presents a data-driven framework and related field studies on the use of supervised machine learning and smartphone technology for the spatial condition-assessment mapping of roadway pavement surface anomalies. The study explores the use of data, collected by sensors from a smartphone and a vehicle's onboard diagnostic device while the vehicle is in movement, for the detection of roadway anomalies. The research proposes a low-cost and automated method to obtain up-to-date information on roadway pavement surface anomalies with the use of smartphone technology, artificial neural networks, robust regression analysis, and supervised machine learning algorithms for multiclass problems. The technology for the suggested system is readily available and accurate and can be utilized in pavement monitoring systems and geographical information system applications. Further, the proposed methodology has been field-tested, exhibiting accuracy levels higher than 90%, and it is currently expanded to include larger datasets and a bigger number of common roadway pavement surface defect types. The proposed system is of practical importance since it provides continuous information on roadway pavement surface conditions, which can be valuable for pavement engineers and public safety.
+C1 [Kyriakou, Charalambos; Christodoulou, Symeon E.; Dimitriou, Loukas] Univ Cyprus, Dept Civil & Environm Engn, Nicosia, Cyprus.
+C3 University of Cyprus
+RP Kyriakou, C (corresponding author), Univ Cyprus, Dept Civil & Environm Engn, Nicosia, Cyprus.
+EM kyriakou.charalambos@ucy.ac.cy
+FU European Regional Development Fund; Republic of Cyprus through the Cyprus Research & Technology Foundation (''Restart 2016-2020'') [INTEGRATED/0918/0056]
+CR AASHTO, 1990, GUID PAV MAN SYST, V0, P0
+   Alam MY, 2020, PERVASIVE MOB COMPUT, V61, P0, DOI 10.1016/j.pmcj.2019.101103
+   Allouch A, 2017, IEEE SENS J, V17, P4231, DOI 10.1109/JSEN.2017.2702739
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Kulkarni P., 2012, P 4 INT C COMM SYST, V0, P1
+   Kyriakou C., 2019, P EUR C COMP CONSTR, V0, P0
+   Kyriakou C., 2017, P LEAN COMP CONSTR C, V0, P0
+   Kyriakou C., 2021, TRANSPORTATION RES P, V52, P203, DOI 10.1016/j.trpro.2021.01.023
+   Kyriakou C, 2019, J INFRASTRUCT SYST, V25, P0, DOI 10.1061/(ASCE)IS.1943-555X.0000489
+   Kyriakou C, 2016, IEEE MEDITERR ELECT, V0, P0
+   McGhee K.H., 2004, NCHRP SYNTHESIS, V0, P0
+   Miller J.S., 2003, PUBLICATION US FEDER, V03-031, P0
+   Seraj F., 2015, INT WORKSH MACH LEAR, V0, P0
+   Souza VMA, 2018, PERVASIVE MOB COMPUT, V51, P121, DOI 10.1016/j.pmcj.2018.10.008
+   Varona B, 2020, PERS UBIQUIT COMPUT, V24, P519, DOI 10.1007/s00779-019-01234-z
+NR 15
+TC 3
+Z9 3
+U1 2
+U2 7
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 0361-1981
+EI 2169-4052
+J9 TRANSPORT RES REC
+JI Transp. Res. Record
+PD SEP 15
+PY 2021
+VL 2675
+IS 9
+BP 1118
+EP 1126
+DI 10.1177/03611981211006105
+EA APR 2021
+PG 9
+WC Engineering, Civil; Transportation; Transportation Science & Technology
+SC Engineering; Transportation
+GA WL1RH
+UT WOS:000684615600001
+DA 2023-04-26
+ER

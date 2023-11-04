@@ -1,0 +1,557 @@
+
+PT J
+AU Al Kloub, RSA
+AF Al Kloub, Rami Sameer Ahmad
+TI An Optimal Method for High-Resolution Population Geo-Spatial Data
+SO CMC-COMPUTERS MATERIALS & CONTINUA
+LA English
+DT Article
+DE Machine learning; remote sensing; geography; disaster management; geo-spatial analysis
+ID interpolation techniques; air-temperature; regression
+AB Mainland China has a poor distribution of meteorological stations. Existing models' estimation accuracy for creating high-resolution surfaces of meteorological data is restricted for air temperature, and low for relative humidity and wind speed (few studies reported). This study compared the typical generalized additive model (GAM) and autoencoder-based residual neural network (hereafter, residual network for short) in terms of predicting three meteorological parameters, namely air temperature, relative humidity, and wind speed, using data from 824 monitoring stations across China's mainland in 2015. The performance of the two models was assessed using a 10-fold cross-validation procedure. The air temperature models employ basic variables such as latitude, longitude, elevation, and the day of the year. The relative humidity models employ air temperature and ozone concentration as covariates, while the wind speed models use wind speed coarse-resolution reanalysis data as covariates, in addition to the fundamental variables. Spatial coordinates represent spatial variation, while the time index of the day captures time variation in our spatiotemporal models. In comparison to GAM, the residual network considerably improved prediction accuracy: on average, the coefficient of variation (CV) R-2 of the three meteorological parameters rose by 0.21, CV root-mean square (RMSE) fell by 37%, and the relative humidity model improved the most. The accuracy of relative humidity models was considerably improved once the monthly index was included, demonstrating that varied amounts of temporal variables are crucial for relative humidity models. We also spoke about the benefits and drawbacks of using coarse resolution reanalysis data and closest neighbor values as variables. In comparison to classicGAMs, this study indicates that the residual networkmodelmay considerably increase the accuracy of national high spatial (1 km) and temporal (daily) resolutionmeteorological data. Our findings have implications for high-resolution and high-accuracy meteorological parameter mapping in China.
+C1 [Al Kloub, Rami Sameer Ahmad] Al Balqa Appl Univ, Dept Disaster Management, Prince Al Hussien Bin Abdullah II Acad Civil Prot, Salt, Jordan.
+C3 Al-Balqa Applied University
+RP Al Kloub, RSA (corresponding author), Al Balqa Appl Univ, Dept Disaster Management, Prince Al Hussien Bin Abdullah II Acad Civil Prot, Salt, Jordan.
+EM rami.kloub@bau.edu.jo
+CR Appelhans T, 2015, SPAT STAT-NETH, V14, P91, DOI 10.1016/j.spasta.2015.05.008
+   Aruffo E, 2020, ATMOSPHERE-BASEL, V11, P0, DOI 10.3390/atmos11020173
+   Berndt C, 2018, J HYDROL-REG STUD, V15, P184, DOI 10.1016/j.ejrh.2018.02.002
+   Bo C., 2014, BMC PUBLIC HEALTH, V14, P475
+   Chen SN, 2017, GEOMAT NAT HAZ RISK, V8, P689, DOI 10.1080/19475705.2016.1255669
+   Chen Z., 2020, SUSTAINABILITY-BASEL, V12, P1
+   Cho D, 2020, GISCI REMOTE SENS, V57, P633, DOI 10.1080/15481603.2020.1766768
+   Cui YS, 2020, HYDROL RES, V51, P1048, DOI 10.2166/nh.2020.030
+   Deng XD, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10100659
+   Fung K., 2022, AIN SHAMS ENG J, V13, P3972
+   Gao Y, 2020, ENERG CONVERS MANAGE, V226, P0, DOI 10.1016/j.enconman.2020.113580
+   Hjort J, 2011, THEOR APPL CLIMATOL, V106, P139, DOI 10.1007/s00704-011-0425-9
+   Kou XK, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020105
+   Lazzus JA, 2014, ITAL J AGROMETEOROL, V19, P5
+   Lin CQ, 2021, SCI TOTAL ENVIRON, V793, P0, DOI 10.1016/j.scitotenv.2021.148575
+   Liu WH, 2018, ACM T INTEL SYST TEC, V9, P0, DOI 10.1145/3230709
+   Lv ZF, 2017, SCI REP-UK, V7, P0, DOI 10.1038/s41598-017-06312-x
+   Mamadjanova G., 2022, WEATHER CLIM EXTREME, V36, P3375
+   Navamuel A., 2022, STRUCTURAL HLTH MONI, V1, P872
+   Pellicone G, 2018, INT J CLIMATOL, V38, P3651, DOI 10.1002/joc.5525
+   Ren X, 2020, ENVIRON INT, V142, P0, DOI 10.1016/j.envint.2020.105827
+   Rossi V, 2019, AGRONOMY-BASEL, V9, P0, DOI 10.3390/agronomy9110710
+   Shi Y, 2018, ATMOS ENVIRON, V190, P23, DOI 10.1016/j.atmosenv.2018.07.021
+   Sun Y., 2021, FOREST ECOL MANAG, V499, P1199
+   Szymanowski M, 2013, METEOROL Z, V22, P577, DOI 10.1127/0941-2948/2013/0440
+   Wang JF, 2016, ECOL INDIC, V67, P250, DOI 10.1016/j.ecolind.2016.02.052
+   Wang JF, 2010, INT J GEOGR INF SCI, V24, P107, DOI 10.1080/13658810802443457
+   Wang JF, 2018, INT J CLIMATOL, V38, PE466, DOI 10.1002/joc.5384
+   Wang JF, 2014, J GEOPHYS RES-ATMOS, V119, P1, DOI 10.1002/2013JD020542
+   Wang MM, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121278
+   Wang XF, 2021, GEOGR SUSTAIN, V2, P31, DOI 10.1016/j.geosus.2021.02.002
+   Xu CD, 2018, J CLIMATE, V31, P1757, DOI 10.1175/JCLI-D-17-0150.1
+   Xu WB, 2015, INT J CLIMATOL, V35, P2898, DOI 10.1002/joc.4180
+   Yang R., 2021, ATMOSPHERE J, V12, P1
+   Zhang B., 2021, LAND J, V10, P1
+   Zhang C., 2019, REMOTE SENS-BASEL, V11, P1
+   Zhang T, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11030828
+   Zhang XR, 2022, CMC-COMPUT MATER CON, V71, P3035, DOI 10.32604/cmc.2022.022304
+   Zhang XR, 2022, COMPUT SYST SCI ENG, V41, P1043, DOI 10.32604/csse.2022.022305
+   Zou D., 2021, ATMOSPHERE J, V12, P1
+NR 40
+TC 0
+Z9 0
+U1 1
+U2 1
+PU TECH SCIENCE PRESS
+PI HENDERSON
+PA 871 CORONADO CENTER DR, SUTE 200, HENDERSON, NV 89052 USA
+SN 1546-2218
+EI 1546-2226
+J9 CMC-COMPUT MATER CON
+JI CMC-Comput. Mat. Contin.
+PD JUN 15
+PY 2022
+VL 73
+IS 2
+BP 2801
+EP 2820
+DI 10.32604/cmc.2022.027847
+PG 20
+WC Computer Science, Information Systems; Materials Science, Multidisciplinary
+SC Computer Science; Materials Science
+GA 4M3NV
+UT WOS:000853232800036
+DA 2023-04-26
+ER
+
+PT J
+AU Li, HY
+   Zhang, X
+   Xia, Y
+AF Li, Hanyu
+   Zhang, Xu
+   Xia, Ying
+TI EEG Emotion Recognition Based on Dynamically Organized Graph Neural Network
+SO MULTIMEDIA MODELING, MMM 2022, PT II
+LA English
+DT Proceedings Paper
+DE EEG; Emotion recognition; Graph neural network; Graph construction
+AB Emotion recognition based on EEG has a wide range of applications in the e-healthcare systems, especially it helps diagnose and treat a variety of mental illnesses such as depression. Due to individual differences between subjects and the non-stationary characteristic of EEG, traditional emotion recognition methods are difficult to achieve good performance. In this paper, we propose a dynamically organized graph neural network (DOGNN) for EEG-based emotion recognition. Unlike previous studies that require a fixed graph structure, the proposed DOGNN method can dynamically learn the intrinsic relationship between different electroencephalogram (EEG) channels based on frequency band information, and further, construct graph structure for every subject. We conduct extensive experiments on two open public datasets (SEED and SEED-IV). The experimental evaluation exhibits that the proposed method achieved better performance. In addition, we visualize the topographic maps for different frequency bands learned by the proposed model and the result is consistent with previous neuroscience studies. This demonstrates that our approach is capable of capturing more effective the frequency band and spatial features for EEG emotion recognition.
+C1 [Li, Hanyu; Zhang, Xu; Xia, Ying] Chongqing Univ Posts & Telecommunitcat, Dept Comp Sci & Technol, Chongqing, Peoples R China.
+   [Li, Hanyu; Zhang, Xu; Xia, Ying] Chongqing Engn Res Ctr Spatial Big Data Intellige, Chongqing, Peoples R China.
+RP Zhang, X (corresponding author), Chongqing Univ Posts & Telecommunitcat, Dept Comp Sci & Technol, Chongqing, Peoples R China.; Zhang, X (corresponding author), Chongqing Engn Res Ctr Spatial Big Data Intellige, Chongqing, Peoples R China.
+EM s190201010@stu.cqupt.edu.cn; zhangx@cqupt.edu.cn; xiaying@cqupt.edu.cn
+FU National Natural Science Foundation of China [41571401]; Chongqing Natural Science Foundation [cstc2019jscxmbdxX0021]; Major Industrial Technology Research and Development Project of Chongqing High-tech Industry [D2018-82]
+CR Ahmedt-Aristizabal D., 2021, ARXIV PREPRINT ARXIV, V0, P0
+   Ceravolo L, 2021, SCI REP-UK, V11, P0, DOI 10.1038/s41598-021-90222-6
+   Duan RN, 2013, I IEEE EMBS C NEUR E, V0, PP81, DOI 10.1109/NER.2013.6695876
+   Fernando B, 2013, IEEE I CONF COMP VIS, V0, PP2960, DOI 10.1109/ICCV.2013.368
+   Ganin Y, 2016, J MACH LEARN RES, V17, P0
+   Li H, 2018, LECT NOTES COMPUT SC, V11305, P403, DOI 10.1007/978-3-030-04221-9_36
+   Li JP, 2020, IEEE T CYBERNETICS, V50, P3281, DOI 10.1109/TCYB.2019.2904052
+   Li Y, 2021, NEUROCOMPUTING, V447, P92, DOI 10.1016/j.neucom.2021.02.048
+   Li Y, 2021, IEEE T COGN DEV SYST, V13, P354, DOI 10.1109/TCDS.2020.2999337
+   Li Y, 2021, IEEE T AFFECT COMPUT, V12, P494, DOI 10.1109/TAFFC.2018.2885474
+   Li YY, 2020, INT J PHYTOREMEDIAT, V22, P451, DOI 10.1080/15226514.2019.1671796
+   Pan SJ, 2011, IEEE T NEURAL NETWOR, V22, P199, DOI 10.1109/TNN.2010.2091281
+   Quirk GJ, 2006, CURR OPIN NEUROBIOL, V16, P723, DOI 10.1016/j.conb.2006.07.004
+   Schutter DJL, 2001, NEUROSCI LETT, V314, P13, DOI 10.1016/S0304-3940(01)02246-7
+   Shuman DI, 2013, IEEE SIGNAL PROC MAG, V30, P83, DOI 10.1109/MSP.2012.2235192
+   Song TF, 2019, IEEE ACCESS, V7, P12177, DOI 10.1109/ACCESS.2019.2891579
+   Song TF, 2020, IEEE T AFFECT COMPUT, V11, P532, DOI 10.1109/TAFFC.2018.2817622
+   Sourina O., 2013, T COMPUTATIONAL SCI, V0, PP101, DOI 10.1007/978-3-642-38803-3_6
+   Tang TB, 2021, IEEE T NEUR SYS REH, V29, P894, DOI 10.1109/TNSRE.2021.3078460
+   TUCKER DM, 1981, PSYCHOL BULL, V89, P19, DOI 10.1037/0033-2909.89.1.19
+   Wang XW, 2014, NEUROCOMPUTING, V129, P94, DOI 10.1016/j.neucom.2013.06.046
+   Xu Zhang, 2021, MULTIMEDIA MODELING. 27TH INTERNATIONAL CONFERENCE, V0, P159, DOI 10.1007/978-3-030-67835-7_14
+   Yang YL, 2018, LECT NOTES COMPUT SC, V11307, P433, DOI 10.1007/978-3-030-04239-4_39
+   Zheng W.-L., 2016, P 25 INT JOINT C ART, V0, P2732
+   Zheng WL, 2019, IEEE T CYBERNETICS, V49, P1110, DOI 10.1109/TCYB.2018.2797176
+   Zheng WL, 2015, IEEE T AUTON MENT DE, V7, P162, DOI 10.1109/TAMD.2015.2431497
+   Zhong PX, 2022, IEEE T AFFECT COMPUT, V13, P1290, DOI 10.1109/TAFFC.2020.2994159
+NR 27
+TC 2
+Z9 2
+U1 6
+U2 20
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+J9 LECT NOTES COMPUT SC
+PD JUN 15
+PY 2022
+VL 13142
+IS 
+BP 344
+EP 355
+DI 10.1007/978-3-030-98355-0_29
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Information Systems; Computer Science, Software Engineering; Computer Science, Theory & Methods
+SC Computer Science
+GA BT0JY
+UT WOS:000788273600029
+DA 2023-04-26
+ER
+
+PT J
+AU De, J
+   Chatterjee, A
+AF De, Joydeep
+   Chatterjee, Abhishek
+TI Perception of Daily Time: Insights from the Fruit Flies
+SO INSECTS
+LA English
+DT Article
+DE drosophila; circadian; clock neurons; locomotor activity rhythms; entrainment; sleep-wake cycles; clock output
+ID circadian pacemaker neurons; light-induced degradation; egg-laying rhythm; drosophila-melanogaster; clock neurons; functional-analysis; locomotor behavior; constant light; entrainment; temperature
+AB Simple Summary The ability to perform time-dependent functions has been linked to survival in animals. For a prey, to forage when many predators are active, can be deadly. Performing the right task at the right time is dependent on the animal's ability to track daily time. Perception of time in the animal kingdom dates long back on the evolutionary time-scale. From the unicellular prokaryotes to humans; we all tune our physiology and behaviours according to the time of the day. To do this in the face of unreliable environmental parameters, we use an internal timekeeper. The state of the timekeeper is readjusted daily, by feeding weighted updates about the external factors that oscillate in nature, e.g., light and temperature. In this review, using the example of the fruit flies, we discuss how animals perceive the external and internal times and connect them in the brain. We create mental maps of the space that surrounds us; our brains also compute time-in particular, the time of day. Visual, thermal, social, and other cues tune the clock-like timekeeper. Consequently, the internal clock synchronizes with the external day-night cycles. In fact, daylength itself varies, causing the change of seasons and forcing our brain clock to accommodate layers of plasticity. However, the core of the clock, i.e., its molecular underpinnings, are highly resistant to perturbations, while the way animals adapt to the daily and annual time shows tremendous biological diversity. How can this be achieved? In this review, we will focus on 75 pairs of clock neurons in the Drosophila brain to understand how a small neural network perceives and responds to the time of the day, and the time of the year.
+C1 [De, Joydeep] Univ Calif San Diego, Dept Pharmacol, La Jolla, CA 92093 USA.
+   [Chatterjee, Abhishek] Sorbonne Univ, Inst Ecol & Environm Sci Paris, IEES Paris, INRAE,CNRS,IRD,UPEC,Univ Paris, F-78026 Versailles, France.
+C3 University of California System; University of California San Diego; Centre National de la Recherche Scientifique (CNRS); CNRS - Institute of Ecology & Environment (INEE); INRAE; Institut de Recherche pour le Developpement (IRD); UDICE-French Research Universities; Sorbonne Universite; Universite Paris Cite; Universite Paris-Est-Creteil-Val-de-Marne (UPEC)
+RP Chatterjee, A (corresponding author), Sorbonne Univ, Inst Ecol & Environm Sci Paris, IEES Paris, INRAE,CNRS,IRD,UPEC,Univ Paris, F-78026 Versailles, France.
+EM jde@ucsd.edu; abhishek.chatterjee@inrae.fr
+FU start-up grant from iEES-Paris
+CR Alejevski F, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-018-08116-7
+   Anduaga AM, 2019, ELIFE, V8, P0, DOI 10.7554/eLife.44642
+   Gorostiza EA, 2014, CURR BIOL, V24, P2161, DOI 10.1016/j.cub.2014.07.063
+   Barber AF, 2021, P NATL ACAD SCI USA, V118, P0, DOI 10.1073/pnas.2019826118
+   Beauchamp M, 2018, J BIOL RHYTHM, V33, P602, DOI 10.1177/0748730418798096
+   Bertolini E, 2019, CURR BIOL, V29, P3928, DOI 10.1016/j.cub.2019.09.032
+   Cao G, 2008, J NEUROSCI, V28, P6493, DOI 10.1523/JNEUROSCI.1503-08.2008
+   Cavanaugh DJ, 2014, CELL, V157, P689, DOI 10.1016/j.cell.2014.02.024
+   Cavey M, 2016, NAT NEUROSCI, V19, P587, DOI 10.1038/nn.4263
+   Ceriani MF, 2002, J NEUROSCI, V22, P9305, DOI 10.1523/jneurosci.22-21-09305.2002
+   Ceriani MF, 1999, SCIENCE, V285, P553, DOI 10.1126/science.285.5427.553
+   Chatterjee A, 2018, CURR BIOL, V28, P2007, DOI 10.1016/j.cub.2018.04.064
+   Chatterjee A, 2010, CURR BIOL, V20, P300, DOI 10.1016/j.cub.2009.12.055
+   Chen WF, 2006, J BIOL RHYTHM, V21, P256, DOI 10.1177/0748730406289306
+   Collins BH, 2004, P NATL ACAD SCI USA, V101, P1945, DOI 10.1073/pnas.0308240100
+   De J, 2013, P NATL ACAD SCI USA, V110, P8984, DOI 10.1073/pnas.1220960110
+   De J, 2012, J BIOL RHYTHM, V27, P280, DOI 10.1177/0748730412448360
+   Fernandez MD, 2007, P NATL ACAD SCI USA, V104, P5650, DOI 10.1073/pnas.0608260104
+   Dreyer AP, 2019, PLOS GENET, V15, P0, DOI 10.1371/journal.pgen.1008478
+   Duhart JM, 2020, CURR BIOL, V30, P0, DOI 10.1016/j.cub.2020.09.057
+   EDERY I, 1994, SCIENCE, V263, P237, DOI 10.1126/science.8284676
+   Emery P, 2000, NEURON, V26, P493, DOI 10.1016/S0896-6273(00)81181-2
+   Fernandez MP, 2020, CURR BIOL, V30, P2225, DOI 10.1016/j.cub.2020.04.025
+   Fernandez MP, 2008, PLOS BIOL, V6, P518, DOI 10.1371/journal.pbio.0060069
+   Flourakis M, 2015, CELL, V162, P836, DOI 10.1016/j.cell.2015.07.036
+   Foley LE, 2019, ELIFE, V8, P0, DOI 10.7554/eLife.50063
+   Gentile C, 2013, CURR BIOL, V23, P185, DOI 10.1016/j.cub.2012.12.023
+   George R, 2021, FRONT PHYSIOL, V12, P0, DOI 10.3389/fphys.2021.622545
+   Golombek DA, 2010, PHYSIOL REV, V90, P1063, DOI 10.1152/physrev.00009.2009
+   Green EW, 2015, P NATL ACAD SCI USA, V112, P8702, DOI 10.1073/pnas.1506093112
+   Grima B, 2004, NATURE, V431, P869, DOI 10.1038/nature02935
+   Guo F, 2018, NEURON, V100, P624, DOI 10.1016/j.neuron.2018.09.002
+   Hamasaka Y, 2010, GENES CELLS, V15, P1240, DOI 10.1111/j.1365-2443.2010.01456.x
+   HARDELAND R, 1972, ANIM BEHAV, V20, P170, DOI 10.1016/S0003-3472(72)80188-X
+   Harper REF, 2016, CELL REP, V17, P1711, DOI 10.1016/j.celrep.2016.10.029
+   Helfrich-Forster C, 2001, NEURON, V30, P249, DOI 10.1016/S0896-6273(01)00277-X
+   HELFRICHFORSTER C, 1993, J COMP NEUROL, V337, P177, DOI 10.1002/cne.903370202
+   Hendricks JC, 2000, PROG NEUROBIOL, V61, P339, DOI 10.1016/S0301-0082(99)00048-9
+   Howlader G, 2006, J BIOL RHYTHM, V21, P13, DOI 10.1177/0748730405282882
+   Hut RA, 1999, J BIOL RHYTHM, V14, P290, DOI 10.1177/074873099129000704
+   Im SH, 2010, J COMP NEUROL, V518, P1925, DOI 10.1002/cne.22311
+   Ito C, 2008, P NATL ACAD SCI USA, V105, P8446, DOI 10.1073/pnas.0800145105
+   Jagota A, 2000, NAT NEUROSCI, V3, P372, DOI 10.1038/73943
+   Jaramillo AM, 2004, BMC NEUROSCI, V5, P0, DOI 10.1186/1471-2202-5-3
+   Johnson CH, 1999, CHRONOBIOL INT, V16, P711, DOI 10.3109/07420529909016940
+   Kauranen H, 2012, J BIOL RHYTHM, V27, P377, DOI 10.1177/0748730412455916
+   KENAGY GJ, 1989, OECOLOGIA, V78, P269, DOI 10.1007/BF00377166
+   King AN, 2017, CURR BIOL, V27, P1915, DOI 10.1016/j.cub.2017.05.089
+   Kistenpfennig C, 2018, J BIOL RHYTHM, V33, P24, DOI 10.1177/0748730417738612
+   Klose Markus K, 2021, PROC NATL ACAD SCI U S A, V118, P0, DOI 10.1073/pnas.2101818118
+   Koh K, 2006, SCIENCE, V312, P1809, DOI 10.1126/science.1124951
+   Krishnan B, 1999, NATURE, V400, P375, DOI 10.1038/22566
+   Lamaze A, 2020, FRONT PHYSIOL, V10, P0, DOI 10.3389/fphys.2019.01540
+   Lamaze A, 2018, CURR BIOL, V28, P3098, DOI 10.1016/j.cub.2018.07.024
+   Lear BC, 2005, NEURON, V48, P965, DOI 10.1016/j.neuron.2005.10.030
+   Liang XT, 2019, NEURON, V102, P843, DOI 10.1016/j.neuron.2019.03.028
+   Liang XT, 2016, SCIENCE, V351, P976, DOI 10.1126/science.aad3997
+   Lin FJ, 2001, MOL CELL BIOL, V21, P7287, DOI 10.1128/MCB.21.21.7287-7294.2001
+   Majercak J, 1999, NEURON, V24, P219, DOI 10.1016/S0896-6273(00)80834-X
+   Majercak J, 2004, MOL CELL BIOL, V24, P3359, DOI 10.1128/MCB.24.8.3359-3372.2004
+   Manjunatha T, 2008, J GENET, V87, P495, DOI 10.1007/s12041-008-0072-9
+   Menegazzi P, 2017, CURR BIOL, V27, P833, DOI 10.1016/j.cub.2017.01.036
+   Menegazzi P, 2012, J BIOL RHYTHM, V27, P433, DOI 10.1177/0748730412463181
+   Mistlberger RE, 2004, BIOL REV, V79, P533, DOI 10.1017/S1464793103006353
+   Miyasako Y, 2007, J BIOL RHYTHM, V22, P115, DOI 10.1177/0748730407299344
+   Myers EM, 2003, CHRONOBIOL INT, V20, P775, DOI 10.1081/CBI-120024214
+   Myers MP, 1996, SCIENCE, V271, P1736, DOI 10.1126/science.271.5256.1736
+   Ni JD, 2017, NATURE, V545, P340, DOI 10.1038/nature22325
+   Nishinokubi Izumi, 2006, J CIRCADIAN RHYTHMS, V4, P4, DOI 10.1186/1740-3391-4-4
+   Paranjpe DA, 2003, CHRONOBIOL INT, V20, P977, DOI 10.1081/CBI-120025247
+   Park JH, 2000, P NATL ACAD SCI USA, V97, P3608, DOI 10.1073/pnas.070036197
+   Patke A, 2020, NAT REV MOL CELL BIO, V21, P67, DOI 10.1038/s41580-019-0179-2
+   Petsakou A, 2015, CELL, V162, P823, DOI 10.1016/j.cell.2015.07.010
+   Picot M, 2007, PLOS BIOL, V5, P2513, DOI 10.1371/journal.pbio.0050315
+   PITTENDRIGH CS, 1989, J BIOL RHYTHM, V4, P217
+   PITTENDRIGH CS, 1976, J COMP PHYSIOL, V106, P333, DOI 10.1007/BF01417860
+   PITTENDRIGH CS, 1991, J BIOL RHYTHM, V6, P299, DOI 10.1177/074873049100600402
+   Plautz JD, 1997, SCIENCE, V278, P1632, DOI 10.1126/science.278.5343.1632
+   Prabhakaran PM, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0083048
+   Prabhakaran PM, 2013, J EXP BIOL, V216, P4691, DOI 10.1242/jeb.092270
+   REEBS SG, 1989, J BIOL RHYTHM, V4, P39, DOI 10.1177/074873048900400103
+   Renn SCP, 1999, CELL, V99, P791, DOI 10.1016/S0092-8674(00)81676-1
+   Rieger D, 2006, J NEUROSCI, V26, P2531, DOI 10.1523/JNEUROSCI.1234-05.2006
+   Roberts L, 2015, CURR BIOL, V25, P858, DOI 10.1016/j.cub.2015.01.056
+   Ruiz D, 2021, PLOS ONE, V16, P0, DOI 10.1371/journal.pone.0249215
+   RUSAK B, 1981, PHOTOCHEM PHOTOBIOL, V34, P267
+   Sakai T, 2001, NEUROENDOCRINOL LETT, V22, P222
+   Selcho M, 2018, J COMP NEUROL, V526, P1307, DOI 10.1002/cne.24408
+   Senthilan PR, 2019, BIOLOGY-BASEL, V8, P0, DOI 10.3390/biology8010006
+   Shakhmantsir I, 2018, ELIFE, V7, P0, DOI 10.7554/eLife.39821
+   Sheeba V, 2008, J NEUROPHYSIOL, V99, P976, DOI 10.1152/jn.00930.2007
+   Sivachenko A, 2013, NEURON, V79, P281, DOI 10.1016/j.neuron.2013.05.015
+   Stanewsky R, 1998, CELL, V95, P681, DOI 10.1016/S0092-8674(00)81638-4
+   Stoleru D, 2004, NATURE, V431, P862, DOI 10.1038/nature02926
+   Stoleru D, 2007, CELL, V129, P207, DOI 10.1016/j.cell.2007.02.038
+   Suri VP, 1998, NEURON, V21, P225, DOI 10.1016/S0896-6273(00)80529-2
+   Tanoue S, 2004, CURR BIOL, V14, P638, DOI 10.1016/j.cub.2004.04.009
+   Top D, 2018, CSH PERSPECT BIOL, V10, P0, DOI 10.1101/cshperspect.a033589
+   Vanin S, 2012, NATURE, V484, P371, DOI 10.1038/nature10991
+   Xu KY, 2008, CELL METAB, V8, P289, DOI 10.1016/j.cmet.2008.09.006
+   Yadlapalli S, 2018, NATURE, V555, P98, DOI 10.1038/nature25740
+   Yang Y, 2019, CURR BIOL, V29, P1728, DOI 10.1016/j.cub.2019.04.039
+   Yoshii T, 2005, EUR J NEUROSCI, V22, P1176, DOI 10.1111/j.1460-9568.2005.04295.x
+   Yoshii T, 2009, J BIOL RHYTHM, V24, P452, DOI 10.1177/0748730409348551
+NR 104
+TC 0
+Z9 0
+U1 0
+U2 17
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2075-4450
+J9 INSECTS
+JI Insects
+PD JAN 15
+PY 2022
+VL 13
+IS 1
+BP 
+EP 
+DI 10.3390/insects13010003
+PG 13
+WC Entomology
+SC Entomology
+GA YN1JC
+UT WOS:000747020700001
+PM 35055846
+DA 2023-04-26
+ER
+
+PT J
+AU Moreno, M
+   Bertolin, C
+   Ortiz, P
+   Ortiz, R
+AF Moreno, M.
+   Bertolin, C.
+   Ortiz, P.
+   Ortiz, R.
+TI Satellite product to map drought and extreme precipitation trend in Andalusia, Spain: A novel method to assess heritage landscapes at risk
+SO INTERNATIONAL JOURNAL OF APPLIED EARTH OBSERVATION AND GEOINFORMATION
+LA English
+DT Article
+DE Earth fortification; Mediterranean area; Remote sensing; Torrential rains; Drought; Risk; Geo big data
+ID cultural-heritage; climate-change; world heritage; earth walls; big data; challenges; rainfall; gis; deterioration; conservation
+AB The objective of this work is to develop a methodology for the identification of extreme rain and drought events that have occurred in the last 30 years using products derived from satellite images. Proposed methodology uses statistical reducers such as percentile, drought indexes, and map algebra at a geo big data scale. The daily precipitation data from the Precipitation Estimation from Remotely Sensed Information Using Artificial Neural Networks-Climate Data Record and Climate Hazards Group InfraRed Precipitation with Station Data were validated by comparison with ground station data. Extreme event maps were obtained from the use of high percentiles. Drought maps were obtained from the standardized precipitation index using low percentiles. The data were migrated to a geographic information system that allows interrelation with other geographic data. Its application to the study of the fortifications preserved in Andalusia classified all structures according to the level of exposure to these dangers and identified two areas of precipitation with different characteristics according to the influence of existing teleconnection patterns. Applied to the study of heritage landscapes, this methodological model minimizes the uncertainty associated with the use of satellite precipitation products, facilitates the planning of preventive conservation activities, and the management of existing resources in occurrence of extreme events.
+C1 [Moreno, M.; Ortiz, P.; Ortiz, R.] Pablo Olavide Univ, Dept Phys Chem & Nat Syst, Carretera Utrera Km 1, ES-41013 Seville, Spain.
+   [Bertolin, C.] Norwegian Univ Sci & Technol, Dept Mech & Ind Engn, Gjovik, Norway.
+C3 Universidad Pablo de Olavide; Norwegian University of Science & Technology (NTNU)
+RP Moreno, M (corresponding author), Pablo Olavide Univ, Dept Phys Chem & Nat Syst, Carretera Utrera Km 1, ES-41013 Seville, Spain.
+EM mmorfal@upo.es
+FU projects: Art-Risk (RETOS project of Ministerio de Economia y Competitividad and Fondo Europeo de Desarrollo Regional (FEDER) [BIA2015-64878-R]; project of Consejeria de Fomento, Infraestructuras y Ordenacion del Territorio, Junta de Andalucia [UPO-03]; FENIX (project of Ministerio de Ciencia e Innovacion, Programas Estatales de Generacion de Conocimiento y Fortalecimiento Cientifico y Tecnologico del Sistema de I +D +i) [PID2019-107257RB-I00]; Diagnostico y Catalogacion del Patrimonio Arquitectonico Andaluz mediante Analisis de Riesgos y vulnerabilidad (project of Consejeria de fomento, infraestructuras y ordenacion del territorio de la Junta de Andalucia) [UPO.20- 01]; RESILIENT-TOURISM project of Consejeria de Transformacion Economica, Industria, Conocimiento y Universidades. Junta de Andalucia [PYC20 RE 034 UPO]; State Program for the Promotion of Talent and its Employability in R +D +i of Ministerio de Ciencia e Innovacion of Spain [PTA2019-016882]
+CR Abate N, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11154145
+   Agapiou A, 2015, COMPUT ENVIRON URBAN, V54, P230, DOI 10.1016/j.compenvurbsys.2015.09.003
+   Agapiou A, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21134557
+   Agapiou A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12081330
+   Agapiou A, 2017, INT J DIGIT EARTH, V10, P85, DOI 10.1080/17538947.2016.1250829
+   Agencia Estatal de Meteorologia (AEMET) Instituto de Meteorologia de Portugal (IM), 2011, ATL CLIM IB IB CLIM, V0, P0
+   AghaKouchak A, 2015, REV GEOPHYS, V53, P452, DOI 10.1002/2014RG000456
+   Aktas YD, 2021, ATMOSPHERE-BASEL, V12, P0, DOI 10.3390/atmos12081007
+   Ambrosia V. G., 2019, AGUFM 2019, V0, P0
+   [Anonymous], 2010, ATLAS CLIMATE CHANGE, V0, P0
+   [Anonymous], 2022, GOOGLE DEV GET START, V0, P0
+   [Anonymous], 2003, GEOGRAFIA ANDALUCIA, V0, P0
+   [Anonymous], 2019, UNESCO REC HIST URB, V0, P0
+   Diaz GA, 2022, INT J ARCHIT HERIT, V0, P0, DOI DOI 10.1080/15583058.2022.2070049
+   AVRAM E., 2001, TERRA LIT REV OVERVI, V0, P0
+   Balti H, 2020, ECOL INFORM, V60, P0, DOI 10.1016/j.ecoinf.2020.101136
+   Barmpoutis P, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20226442
+   Beckett CTS, 2020, CONSTR BUILD MATER, V242, P0, DOI 10.1016/j.conbuildmat.2020.118098
+   Bonazza A, 2021, INT J DISAST RISK RE, V63, P0, DOI 10.1016/j.ijdrr.2021.102455
+   Brimblecombe P, 2011, ENV EARTH SCI-SER, V0, PP195, DOI 10.1007/978-3-540-95991-5_20
+   Bui QB, 2009, BUILD ENVIRON, V44, P912, DOI 10.1016/j.buildenv.2008.07.001
+   Cacciotti R, 2021, CLIM RISK MANAG, V32, P0, DOI 10.1016/j.crm.2021.100301
+   Cagigas D, 2020, SE96719 UPO US IVCR, V0, P0
+   Camuffo D, 2020, QUATERN INT, V538, P5, DOI 10.1016/j.quaint.2018.10.008
+   Carroll P, 2018, GEOSCIENCES, V8, P0, DOI 10.3390/geosciences8090322
+   Casado MJ, 2010, PHYS CHEM EARTH, V35, P437, DOI 10.1016/j.pce.2009.12.007
+   CEDEX, 2017, EV IMP CAMB CLIM REC, V0, P0
+   Chuvieco E, 2016, FUNDAMENTALS OF SATELLITE REMOTE SENSING: AN ENVIRONMENTAL APPROACH, V0, P0, DOI 10.1201/b19478
+   Chuvieco E., 2007, DOCUMENTS ANALISI GE, V0, P0
+   CoE, 2000, EUR LANDSC CONV, V0, P0
+   Criado-Aldeanueva F, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10175790
+   Cuca B, 2017, INT ARCH PHOTOGRAMM, V42-2, P135, DOI 10.5194/isprs-archives-XLII-2-W5-135-2017
+   Cuca B, 2017, J ARCHAEOL SCI-REP, V14, P727, DOI 10.1016/j.jasrep.2017.05.001
+   Cui K, 2019, HERIT SCI, V7, P0, DOI 10.1186/s40494-019-0256-z
+   Dastgerdi AS, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11195227
+   Denis G, 2015, NEW SPACE, V3, P44, DOI 10.1089/space.2013.0034
+   Elfadaly A, 2022, EGYPT J REMOTE SENS, V25, P181, DOI 10.1016/j.ejrs.2022.01.007
+   Fatoric S, 2017, CLIMATIC CHANGE, V142, P227, DOI 10.1007/s10584-017-1929-9
+   Figueiredo R, 2020, J CULT HERIT, V43, P163, DOI 10.1016/j.culher.2019.11.007
+   Funk C, 2015, SCI DATA, V2, P0, DOI 10.1038/sdata.2015.50
+   Gandini A, 2017, ENTREP SUSTAIN ISS, V4, P319, DOI 10.9770/jesi.2017.4.3S(7)
+   Gao Y, 2020, ENVIRON RES LETT, V15, P0, DOI 10.1088/1748-9326/abaad7
+   Garcia-Barron L, 2018, INT J CLIMATOL, V38, P2215, DOI 10.1002/joc.5328
+   Ghamisi P, 2019, IEEE GEOSC REM SEN M, V7, P6, DOI 10.1109/MGRS.2018.2890023
+   Gomez-Zotano J, 2015, REV GEOGR NORTE GD, V0, PP161, DOI 10.4067/S0718-34022015000200009
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Guttman NB, 1999, J AM WATER RESOUR AS, V35, P311, DOI 10.1111/j.1752-1688.1999.tb03592.x
+   Hadjimitsis D, 2013, INT J DIGIT EARTH, V6, P115, DOI 10.1080/17538947.2011.602119
+   Hadjimitsis DG, 2020, SPRING REMOTE SENS P, V0, PV
+   Heim RR, 2002, B AM METEOROL SOC, V83, P1149, DOI 10.1175/1520-0477-83.8.1149
+   Holloway J, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091365
+   Hong Y, 2014, SCALE ISSUES IN REMOTE SENSING, V0, P253
+   Hsu J, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13020254
+   ICOMOS Climate Change and Heritage Working Group, 2019, FUT OUR PASTS ENG CU, V0, P0
+   Jiao WZ, 2021, REMOTE SENS ENVIRON, V256, P0, DOI 10.1016/j.rse.2021.112313
+   Kumar L, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101509
+   Lanza S., 2008, CULTURAL HERITAGE PR, V0, P0
+   Lasaponara R, 2020, SPRING REMOTE SENS P, V0, PP31, DOI 10.1007/978-3-030-10979-0_3
+   Levin N, 2019, GLOBAL ENVIRON CHANG, V55, P97, DOI 10.1016/j.gloenvcha.2019.02.001
+   Liu Q, 2020, SCI TOTAL ENVIRON, V711, P0, DOI 10.1016/j.scitotenv.2019.134585
+   Lopez T, 2020, SURV GEOPHYS, V41, P1461, DOI 10.1007/s10712-020-09618-0
+   Luo L, 2019, REMOTE SENS ENVIRON, V232, P0, DOI 10.1016/j.rse.2019.111280
+   Ma Y, 2015, FUTURE GENER COMP SY, V51, P47, DOI 10.1016/j.future.2014.10.029
+   Martin-Vide J, 2006, INT J CLIMATOL, V26, P1455, DOI 10.1002/joc.1388
+   Martinez-Artigas J, 2021, INT J CLIMATOL, V41, PE1320, DOI 10.1002/joc.6770
+   Mathbout S, 2021, ATMOSPHERE-BASEL, V12, P0, DOI 10.3390/atmos12080941
+   Mckee T. B, 1993, P 8 C APPL CLIM AN C, V0, PP17, DOI 10.5194/HESS-15-453-2011
+   Meseguer-Ruiz O, 2021, THEOR APPL CLIMATOL, V144, P379, DOI 10.1007/s00704-021-03548-6
+   Michaelides S, 2009, ATMOS RES, V94, P512, DOI 10.1016/j.atmosres.2009.08.017
+   Mileto C., 2017, PROYECTO COREMANS CR, V0, P0
+   Moreno M, 2022, J CULT HERIT, V55, P263, DOI 10.1016/j.culher.2022.03.012
+   Moreno M, 2019, MEDITERR ARCHAEOL AR, V19, P119, DOI 10.5281/zenodo.3583063
+   Mutanga O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050591
+   Olcina J, 2020, DOC ANAL GEOGR, V66, P159, DOI 10.5565/rev/dag.629
+   Organizacin Meteorolgica Mundial (OMM), 2020, GUIA SIST MUND OBS, V0, P0
+   Organizacion Meteorologica Mundial, 2012, IND NORM PREC GUIA U, V0, P0
+   Orr SA, 2021, HIST ENVIRON POLICY, V12, P434, DOI 10.1080/17567505.2021.1957264
+   Pen M., 2016, CUADERNOS INVESTIGAC, V1, P67, DOI 10.18172/cig.2 946
+   Phillips H, 2015, ENVIRON SCI POLICY, V47, P118, DOI 10.1016/j.envsci.2014.11.003
+   Quattrochi D.A., 2017, SERIES REMOTE SENSIN, V0, P0
+   Richards J, 2020, GEOMORPHOLOGY, V369, P0, DOI 10.1016/j.geomorph.2020.107363
+   Rossler M, 2006, LANDSCAPE RES, V31, P333, DOI 10.1080/01426390601004210
+   Sahoo AK, 2015, REMOTE SENS ENVIRON, V159, P181, DOI 10.1016/j.rse.2014.11.032
+   Schar C, 2016, CLIMATIC CHANGE, V137, P201, DOI 10.1007/s10584-016-1669-2
+   Sesana E, 2021, WIRES CLIM CHANGE, V12, P0, DOI 10.1002/wcc.710
+   Shao MS, 2013, J CULT HERIT, V14, P38, DOI 10.1016/j.culher.2012.03.006
+   Shen YX, 2017, J CENT SOUTH UNIV, V24, P796, DOI 10.1007/s11771-017-3482-0
+   Shukla P.R., 2019, CLIMATE CHANGE LAND, V0, P0
+   Sun QH, 2018, REV GEOPHYS, V56, P79, DOI 10.1002/2017RG000574
+   Tang GQ, 2020, REMOTE SENS ENVIRON, V240, P0, DOI 10.1016/j.rse.2020.111697
+   Taylor K, 2014, CONSERVING CULTURAL, V0, P0
+   Themistocleous K, 2020, SPRING REMOTE SENS P, V0, PP241, DOI 10.1007/978-3-030-10979-0_14
+   Torello-Sentelles H., 2021, HYDROLOGY EARTH SYST, V0, PP1, DOI 10.5194/HESS-2021-209
+   Toth C, 2016, ISPRS J PHOTOGRAMM, V115, P22, DOI 10.1016/j.isprsjprs.2015.10.004
+   TT-DEWCE WMO, 2016, GUID DEF MON EXTR WE, V0, P0
+   Vishwakarma BD, 2020, FRONT ENV SCI-SWITZ, V8, P0, DOI 10.3389/fenvs.2020.584690
+   Wang H, 2016, INFORM SCIENCES, V367, P747, DOI 10.1016/j.ins.2016.07.007
+   Wang X., 2020, NATL REMOTE SENS B, V24, P837, DOI 10.11834/jrs.20200016
+   Weiss M, 2020, REMOTE SENS ENVIRON, V236, P0, DOI 10.1016/j.rse.2019.111402
+   Wellmann T, 2020, LANDSCAPE URBAN PLAN, V204, P0, DOI 10.1016/j.landurbplan.2020.103921
+   West H, 2019, REMOTE SENS ENVIRON, V232, P0, DOI 10.1016/j.rse.2019.111291
+   Wu H, 2009, SENSORS-BASEL, V9, P1768, DOI 10.3390/s90301768
+   Xiao W, 2018, ISPRS J PHOTOGRAMM, V142, P389, DOI 10.1016/j.isprsjprs.2018.01.001
+   Xu XH, 2016, CLUSTER COMPUT, V19, P757, DOI 10.1007/s10586-016-0556-y
+   Zargar A, 2011, ENVIRON REV, V19, P333, DOI 10.1139/A11-013
+NR 105
+TC 3
+Z9 3
+U1 3
+U2 12
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1569-8432
+EI 1872-826X
+J9 INT J APPL EARTH OBS
+JI Int. J. Appl. Earth Obs. Geoinf.
+PD JUN 15
+PY 2022
+VL 110
+IS 
+BP 
+EP 
+DI 10.1016/j.jag.2022.102810
+EA MAY 2022
+PG 15
+WC Remote Sensing
+SC Remote Sensing
+GA 1W1AH
+UT WOS:000806512000001
+DA 2023-04-26
+ER
+
+PT J
+AU Koley, S
+   Roy, H
+   Dhar, S
+   Bhattacharjee, D
+AF Koley, Subhadeep
+   Roy, Hiranmoy
+   Dhar, Soumyadip
+   Bhattacharjee, Debotosh
+TI Illumination invariant face recognition using Fused Cross Lattice Pattern of Phase Congruency (FCLPPC)
+SO INFORMATION SCIENCES
+LA English
+DT Article
+DE Fused Cross Lattice Pattern; Homogeneous Illumination; Heterogeneous Illumination; Phase Congruency; Modality-invariant feature
+ID local binary patterns; classification
+AB This paper presents a new facial feature descriptor called Fused Cross Lattice Pattern of Phase Congruency (FCLPPC) for high accuracy, homogeneous and heterogeneous illumina-tion invariant cross-modal face recognition. Using the dimensionless phase congruency features, an effective illumination-invariant local feature extractor has been devised. To this end, a novel multi-directional binary pattern named Cross Lattice Pattern (CLP) has been proposed. CLP is applied to the previously extracted invariant phase congruency feature maps to generate the CLPPC images. Finally, weighted alpha-blending has been performed on the CLPPC maps to generate the Fused CLPPC (FCLPPC) feature map. Recognition results on Extended Yale-B, TUFTS, CMU-PIE, and CASIA NIR-VIS datasets have been presented to depict the superiority of the proposed scheme over other state-of-the -art methods. Additionally, the proposed FCLPPC has been combined with a lightweight Convolutional Neural Network to further augment the recognition accuracy. (c) 2021 Elsevier Inc. All rights reserved.
+C1 [Koley, Subhadeep] RCC Inst Informat Technol, Dept ECE, Kolkata, India.
+   [Roy, Hiranmoy; Dhar, Soumyadip] RCC Inst Informat Technol, Dept IT, Kolkata, India.
+   [Bhattacharjee, Debotosh] Jadavpur Univ, Dept CSE, Kolkata, India.
+C3 RCC Institute of Information Technology (RCCIIT); RCC Institute of Information Technology (RCCIIT); Jadavpur University
+RP Koley, S (corresponding author), RCC Inst Informat Technol, Dept ECE, Kolkata, India.
+EM subhadeepkoley@gmail.com; hiranmoy.roy@rcciit.org; debotosh@ieee.org
+CR An GY, 2010, PATTERN RECOGN LETT, V31, P1056, DOI 10.1016/j.patrec.2010.01.021
+   Bhattacharjee D, 2021, IEEE T PATTERN ANAL, V43, P595, DOI 10.1109/TPAMI.2019.2930192
+   Biswas S, 2009, IEEE T PATTERN ANAL, V31, P884, DOI 10.1109/TPAMI.2008.135
+   CANNY J, 1986, IEEE T PATTERN ANAL, V8, P679, DOI 10.1109/TPAMI.1986.4767851
+   Cao B, 2019, IEEE T NEUR NET LEAR, V30, P1731, DOI 10.1109/TNNLS.2018.2872675
+   Deng JK, 2019, PROC CVPR IEEE, V0, PP4685, DOI 10.1109/CVPR.2019.00482
+   Farokhi S, 2015, INFORM SCIENCES, V316, P234, DOI 10.1016/j.ins.2015.04.030
+   Georghiades AS, 2001, IEEE T PATTERN ANAL, V23, P643, DOI 10.1109/34.927464
+   Gonzalez R. C., 2007, DIGITAL IMAGE PROCES, V3rd, P0
+   Hu G, 2015, 2015 IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION WORKSHOP (ICCVW), V0, PP384, DOI 10.1109/ICCVW.2015.58
+   Klare BF, 2013, IEEE T PATTERN ANAL, V35, P1410, DOI 10.1109/TPAMI.2012.229
+   Koley S, 2021, PATTERN RECOGN LETT, V145, P30, DOI 10.1016/j.patrec.2021.01.028
+   Kovesi P., 1999, VIDERE, V1, P0
+   Kovesi P, 2000, PSYCHOL RES-PSYCH FO, V64, P136, DOI 10.1007/s004260000024
+   Lai ZR, 2015, IEEE T IMAGE PROCESS, V24, P1735, DOI 10.1109/TIP.2015.2409988
+   Li Stan Z., 2009, 2009 IEEE COMPUTER SOCIETY CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPR WORKSHOPS), V0, PP1, DOI 10.1109/CVPR.2009.5204149
+   Liu L, 2016, INFORM SCIENCES, V358, P56, DOI 10.1016/j.ins.2016.04.021
+   Liu L, 2012, IMAGE VISION COMPUT, V30, P86, DOI 10.1016/j.imavis.2012.01.001
+   Liu XM, 2016, AER ADV ENG RES, V116, P1, DOI 10.1145/2875194.2875248
+   Lu JW, 2018, IEEE T PATTERN ANAL, V40, P1979, DOI 10.1109/TPAMI.2017.2737538
+   Meglinski IV, 2002, PHYSIOL MEAS, V23, P741, DOI 10.1088/0967-3334/23/4/312
+   MORRONE MC, 1987, PATTERN RECOGN LETT, V6, P303, DOI 10.1016/0167-8655(87)90013-4
+   Ojala T, 2002, IEEE T PATTERN ANAL, V24, P971, DOI 10.1109/TPAMI.2002.1017623
+   Panetta Karen, 2020, IEEE TRANS PATTERN ANAL MACH INTELL, V42, P509, DOI 10.1109/TPAMI.2018.2884458
+   Pang M, 2019, PATTERN RECOGN, V89, P91, DOI 10.1016/j.patcog.2019.01.005
+   Ren CX, 2016, IEEE T CYBERNETICS, V46, P2656, DOI 10.1109/TCYB.2015.2484356
+   Ren JF, 2013, IEEE T IMAGE PROCESS, V22, P4049, DOI 10.1109/TIP.2013.2268976
+   Roy H, 2018, T COMPUT SCI, VI, P1, DOI 10.1007/978-3-662-56499-8_1
+   Roy H, 2021, SENS IMAGING, V22, P0, DOI 10.1007/s11220-020-00325-z
+   Roy H, 2018, PATTERN RECOGN LETT, V113, P19, DOI 10.1016/j.patrec.2017.09.029
+   Roy H, 2018, IMAGE VISION COMPUT, V72, P1, DOI 10.1016/j.imavis.2018.01.004
+   Roy H, 2017, INT J MACH LEARN CYB, V8, P1457, DOI 10.1007/s13042-016-0516-0
+   Roy H, 2016, APPL SOFT COMPUT, V46, P967, DOI 10.1016/j.asoc.2015.12.006
+   Roy H, 2016, IEEE INTELL SYST, V31, P30, DOI 10.1109/MIS.2016.44
+   Roy H, 2016, IEEE T INF FOREN SEC, V11, P1412, DOI 10.1109/TIFS.2016.2530043
+   Sang XS, 2021, INFORM SCIENCES, V547, P384, DOI 10.1016/j.ins.2020.08.016
+   Schwartz M, 2012, IEEE T INFORM THEORY, V58, P2397, DOI 10.1109/TIT.2011.2176718
+   Seo HJ, 2011, IEEE T INF FOREN SEC, V6, P1275, DOI 10.1109/TIFS.2011.2159205
+   Sim T, 2003, IEEE T PATTERN ANAL, V25, P1615, DOI 10.1109/TPAMI.2003.1251154
+   Smiatacz M, 2018, INFORM SCIENCES, V469, P14, DOI 10.1016/j.ins.2018.08.034
+   Sobel I, 1968, COMMUNICATION, V0, P0
+   ul Hussain S, 2012, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2012, V0, P0, DOI DOI 10.5244/C.26.99
+   VENKATESH S, 1990, PATTERN RECOGN LETT, V11, P339, DOI 10.1016/0167-8655(90)90043-2
+   Wang H, 2018, PROC CVPR IEEE, V0, PP5265, DOI 10.1109/CVPR.2018.00552
+   Wang JW, 2018, INFORM SCIENCES, V435, P69, DOI 10.1016/j.ins.2017.12.057
+   Wang NN, 2018, IEEE T CIRC SYST VID, V28, P2154, DOI 10.1109/TCSVT.2017.2709465
+   Wang NN, 2018, PATTERN RECOGN, V76, P215, DOI 10.1016/j.patcog.2017.11.008
+   Zhang TP, 2009, IEEE T IMAGE PROCESS, V18, P2599, DOI 10.1109/TIP.2009.2028255
+   Zhong FJ, 2013, NEUROCOMPUTING, V119, P375, DOI 10.1016/j.neucom.2013.03.020
+   Zhu JY, 2014, IEEE T INF FOREN SEC, V9, P501, DOI 10.1109/TIFS.2014.2299977
+NR 50
+TC 4
+Z9 4
+U1 2
+U2 12
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0020-0255
+EI 1872-6291
+J9 INFORM SCIENCES
+JI Inf. Sci.
+PD JAN 15
+PY 2022
+VL 584
+IS 
+BP 633
+EP 648
+DI 10.1016/j.ins.2021.10.059
+EA NOV 2021
+PG 16
+WC Computer Science, Information Systems
+SC Computer Science
+GA XK9KF
+UT WOS:000727774200003
+DA 2023-04-26
+ER

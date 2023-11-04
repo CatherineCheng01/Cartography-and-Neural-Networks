@@ -1,0 +1,592 @@
+
+PT J
+AU Robinson, C
+   Malkin, K
+   Jojic, N
+   Chen, HJ
+   Qin, RJ
+   Xiao, CL
+   Schmitt, M
+   Ghamisi, P
+   Hansch, R
+   Yokoya, N
+AF Robinson, Caleb
+   Malkin, Kolya
+   Jojic, Nebojsa
+   Chen, Huijun
+   Qin, Rongjun
+   Xiao, Changlin
+   Schmitt, Michael
+   Ghamisi, Pedram
+   Haensch, Ronny
+   Yokoya, Naoto
+TI Global Land-Cover Mapping With Weak Supervision: Outcome of the 2020 IEEE GRSS Data Fusion Contest
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Earth; Data integration; Remote sensing; Satellites; Training; Tensors; Synthetic aperture radar; Convolutional neural networks (CNNs); deep learning; image analysis and data fusion; land-cover mapping; multimodal; random forests (RFs); weak supervision
+AB This article presents the scientific outcomes of the 2020 Data Fusion Contest (DFC2020) organized by the Image Analysis and Data Fusion Technical Committee of the IEEE Geoscience and Remote Sensing Society. The 2020 Contest addressed the problem of automatic global land-cover mapping with weak supervision, i.e., estimating high-resolution semantic maps while only low-resolution reference data are available during training. Two separate competitions were organized to assess two different scenarios: 1) high-resolution labels are not available at all; and 2) a small amount of high-resolution labels are available additionally to low-resolution reference data. In this article, we describe the DFC2020 dataset that remains available for further evaluation of corresponding approaches and report the results of the best-performing methods during the contest.
+C1 [Robinson, Caleb] Georgia Inst Technol, Sch Computat Sci & Engn, Atlanta, GA 30332 USA.
+   [Robinson, Caleb] Microsoft Res, AI Good Res Lab, Redmond, WA 98052 USA.
+   [Malkin, Kolya] Yale Univ, Dept Math, New Haven, CT 06520 USA.
+   [Jojic, Nebojsa] Microsoft Res, Redmond, WA 98052 USA.
+   [Chen, Huijun; Xiao, Changlin] Ohio State Univ, Dept Civil Environm & Geodet Engn, Columbus, OH 43210 USA.
+   [Chen, Huijun] Ohio State Univ, Environm Sci Grad Program, Columbus, OH 43210 USA.
+   [Qin, Rongjun] Ohio State Univ, Dept Civil Environm & Geodet Engn, Dept Elect & Comp Engn, Columbus, OH 43210 USA.
+   [Qin, Rongjun] Ohio State Univ, Translat Data Analyt Inst, Columbus, OH 43210 USA.
+   [Schmitt, Michael] Munich Univ Appl Sci, Dept Geoinformat, D-80335 Munich, Germany.
+   [Ghamisi, Pedram] Helmholtz Zentrum Dresden Rossendorf, Machine Learning Grp, Helmholtz Inst Freiberg Resource Technol, D-09599 Freiberg, Germany.
+   [Haensch, Ronny] German Aerosp Ctr, D-82234 Wessling, Germany.
+   [Yokoya, Naoto] Univ Tokyo, Dept Complex Sci & Engn, Chiba 2778561, Japan.
+   [Yokoya, Naoto] RIKEN Ctr Adv Intelligence Project, Tokyo 1030027, Japan.
+C3 University System of Georgia; Georgia Institute of Technology; Microsoft; Yale University; Microsoft; University System of Ohio; Ohio State University; University System of Ohio; Ohio State University; University System of Ohio; Ohio State University; University System of Ohio; Ohio State University; University of Munich; Helmholtz Association; Helmholtz-Zentrum Dresden-Rossendorf (HZDR); Helmholtz Association; German Aerospace Centre (DLR); University of Tokyo; RIKEN
+RP Yokoya, N (corresponding author), Univ Tokyo, Dept Complex Sci & Engn, Chiba 2778561, Japan.
+EM drobinson67@gatech.edu; kolya_malkin@hotmail.com; jojic@microsoft.com; chen.9317@osu.edu; qin.324@osu.edu; changlinshaw@gmail.com; michael.schtnitt@hm.edu; p.ghamisi@gmail.com; rww.haensch@gmail.com; yokoya@k.u-tokyo.ac.jp
+FU Office of Naval Research [N000141712928]
+CR Alparone L, 2007, IEEE T GEOSCI REMOTE, V45, P3012, DOI 10.1109/TGRS.2007.904923
+   Anderson K, 2017, GEO-SPAT INF SCI, V20, P77, DOI 10.1080/10095020.2017.1333230
+   Berger C, 2013, IEEE J-STARS, V6, P1324, DOI 10.1109/JSTARS.2013.2245860
+   Bgybkndlmah Ballantyne, 2020, LANDCOVERNET GLOBAL, V0, P0, DOI DOI 10.34911/rdnt.d2ce8i
+   Campos-Taberner M, 2016, IEEE J-STARS, V9, P5547, DOI 10.1109/JSTARS.2016.2569162
+   Cerra al D., 2020, P IEEE INT GEOSC REM, V0, P0
+   Cerra D., 2020, P IEEE INT GEOSC REM, V0, P0
+   Chen H., 2020, P IEEE INT GEOSC REM, V0, P0
+   Debes C, 2014, IEEE J-STARS, V7, P2405, DOI 10.1109/JSTARS.2014.2305441
+   Di Gregorio A., 2005, LAND COVER CLASSIFIC, V0, P0
+   Dong SW, 2020, REMOTE SENS LETT, V11, P11, DOI 10.1080/2150704X.2019.1677966
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Friedl M., 2019, MCD12Q1 MODISTERRA A, V0, P0, DOI DOI 10.5067/MODIS/MCD12Q1.006
+   Ghamisi P, 2019, IEEE GEOSC REM SEN M, V7, P6, DOI 10.1109/MGRS.2018.2890023
+   Gong P, 2019, SCI BULL, V64, P370, DOI 10.1016/j.scib.2019.03.002
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Le Saux B, 2019, IEEE GEOSC REM SEN M, V7, P103, DOI 10.1109/MGRS.2019.2893783
+   Liao WZ, 2015, IEEE J-STARS, V8, P2984, DOI 10.1109/JSTARS.2015.2420582
+   Licciardi G, 2009, IEEE T GEOSCI REMOTE, V47, P3857, DOI 10.1109/TGRS.2009.2029340
+   Longbotham N, 2012, IEEE J-STARS, V5, P331, DOI 10.1109/JSTARS.2011.2179638
+   Loveland TR, 1997, ACTA ASTRONAUT, V41, P681, DOI 10.1016/S0094-5765(98)00050-2
+   Malkin Nikolay, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12371), V0, PP531, DOI 10.1007/978-3-030-58574-7_32
+   Mou L, 2017, IEEE J-STARS, V10, P3435, DOI 10.1109/JSTARS.2017.2696823
+   MUNKRES J, 1957, J SOC IND APPL MATH, V5, P32, DOI 10.1137/0105003
+   Pacifici F, 2008, IEEE GEOSCI REMOTE S, V5, P331, DOI 10.1109/LGRS.2008.915939
+   Pacifici F, 2012, IEEE J-STARS, V5, P3, DOI 10.1109/JSTARS.2012.2186733
+   Robinson C., 2020, P IEEE INT GEOSC REM, V0, P0
+   Schmitt M., 2020, P ISPRS ANN PHOT REM, VV-3-2020, P795
+   Schmitt M., 2019, ISPRS ANN PHOTOGRAMM, V0, P0, DOI DOI 10.5194/isprs-annals-IV-2-W7-153-2019(
+   Schmitt M, 2016, IEEE GEOSC REM SEN M, V4, P6, DOI 10.1109/MGRS.2016.2561021
+   Sulla-Menashe D, 2019, REMOTE SENS ENVIRON, V222, P183, DOI 10.1016/j.rse.2018.12.013
+   Torres R, 2012, REMOTE SENS ENVIRON, V120, P9, DOI 10.1016/j.rse.2011.05.028
+   Ulyanov D, 2018, PROC CVPR IEEE, V0, PP9446, DOI 10.1109/CVPR.2018.00984
+   Vo AV, 2016, IEEE J-STARS, V9, P5560, DOI 10.1109/JSTARS.2016.2581843
+   Xia Y., 2020, P IEEE INT GEOSC REM, V0, P0
+   Xu YH, 2019, IEEE J-STARS, V12, P1709, DOI 10.1109/JSTARS.2019.2911113
+   Yin S, 2020, P IEEE INT GEOSC REM, V0, P0
+   Yokoya N, 2020, IEEE GEOSC REM SEN M, V8, P134, DOI 10.1109/MGRS.2020.3033515
+   Yokoya N, 2020, IEEE GEOSC REM SEN M, V8, P154, DOI 10.1109/MGRS.2020.2970124
+   Yokoya N, 2018, IEEE J-STARS, V11, P1363, DOI 10.1109/JSTARS.2018.2799698
+NR 40
+TC 18
+Z9 18
+U1 1
+U2 5
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 3185
+EP 3199
+DI 10.1109/JSTARS.2021.3063849
+PG 15
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA RE9UV
+UT WOS:000634496000007
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, T
+   Chen, T
+   Niu, RQ
+   Plaza, A
+AF Liu, Tong
+   Chen, Tao
+   Niu, Ruiqing
+   Plaza, Antonio
+TI Landslide Detection Mapping Employing CNN, ResNet, and DenseNet in the Three Gorges Reservoir, China
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Terrain factors; Reservoirs; Convolutional neural networks; Soil; Indexes; Training; Rivers; Deep neural network; dense convolutional neural network (DenseNet); feature selection; landslide detection; Three Gorges Reservoir (TGR)
+ID fully convolutional densenet; logistic-regression; susceptibility maps; risk-assessment; decision tree; random forest; networks; classifier; hazard; areas
+AB Landslide detection mapping (LDM) is the basis of the field of landslide disaster prevention; however, it has faced certain difficulties. The Three Gorges Reservoir area of the Yangtze River has been one of the most intensively evaluated areas for landslide prevention in the world, due to the high frequency of landslide disasters here. In this article, we constructed an accurate LDM model based on convolutional neural networks, residual neural networks, and dense convolutional neural networks (DenseNets) that considers "ZY-3" high spatial resolution (HSR) data and conditioning factors (CFs). In this article, 19 factors based on remote sensing (RS) images, topographical and geological data associated with historical landslide locations were randomly divided into training (70% of total) and testing (30%) datasets. The experimental results show that the accuracy (ACC) of these three LDM models is above 0.95, indicating that the deep neural networks aimed at landslide detection performed well. Furthermore, DenseNet with RS images and CFs can accurately detect landslides. Specifically, DenseNet with RS images and CFs outperforms the other five models by considering the evaluation metrics, which exhibited Kappa coefficient improvements of 0.01-0.04 and ACC improvements of 0.02-0.3%. Among all the factors, elevation factor has a high importance of 0.727, which is the most important factors found in this landslide model construction experiment.
+C1 [Liu, Tong; Chen, Tao; Niu, Ruiqing] China Univ Geosci, Inst Geophys & Geomat, Wuhan 430074, Peoples R China.
+   [Chen, Tao] Geomat Technol & Applicat Key Lab Qinghai Prov, Xining 810001, Peoples R China.
+   [Chen, Tao] Beijing Key Lab Urban Spatial Informat Engn, Beijing 100038, Peoples R China.
+   [Plaza, Antonio] Univ Extremadura, Escuela Politecn, Hyperspectral Comp Lab, Dept Technol Comp & Commun, Caceres 10071, Spain.
+C3 China University of Geosciences; Universidad de Extremadura
+RP Chen, T (corresponding author), China Univ Geosci, Inst Geophys & Geomat, Wuhan 430074, Peoples R China.
+EM zhinian@cug.edu.cn; taochen@cug.edu.cn; niuruiqing@cug.edu.cn; aplaza@unex.es
+FU National Natural Science Foundation of China [62071439, 61871259]; Opening Foundation of Qilian Mountain National Park Research Center (Qinghai) [GKQ2019-01]; Opening Foundation of Beijing Key Laboratory of Urban Spatial Information Engineering [20210209]; Opening Foundation of Geomatics Technology and Application Key Laboratory of Qinghai Province [QHDX-2019-01]
+CR Pham BT, 2018, J INDIAN SOC REMOTE, V46, P1457, DOI 10.1007/s12524-018-0791-1
+   Cai HJ, 2021, IEEE J-STARS, V14, P5235, DOI 10.1109/JSTARS.2021.3079196
+   Chen T, 2020, J MT SCI-ENGL, V17, P670, DOI 10.1007/s11629-019-5839-3
+   Chen T, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040333
+   Chen T, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5317-y
+   Chen T, 2015, ENVIRON EARTH SCI, V73, P5571, DOI 10.1007/s12665-014-3811-7
+   Chen THK, 2019, REMOTE SENS ENVIRON, V225, P317, DOI 10.1016/j.rse.2019.03.013
+   Chen W, 2018, CATENA, V164, P135, DOI 10.1016/j.catena.2018.01.012
+   Chen WT, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010082
+   Dai FC, 2002, ENG GEOL, V64, P65, DOI 10.1016/S0013-7952(01)00093-X
+   Deng ZR, 2020, SIGNAL PROCESS-IMAGE, V85, P0, DOI 10.1016/j.image.2020.115836
+   Bui D, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101527
+   Bui DT, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5919-4
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Ding AZ, 2016, 2016 31ST YOUTH ACADEMIC ANNUAL CONFERENCE OF CHINESE ASSOCIATION OF AUTOMATION (YAC), V0, PP444, DOI 10.1109/YAC.2016.7804935
+   Dou J, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060638
+   Gao X, 2021, IEEE J-STARS, V14, P7881, DOI 10.1109/JSTARS.2021.3101203
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11172046
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Guns M, 2012, NAT HAZARD EARTH SYS, V12, P1937, DOI 10.5194/nhess-12-1937-2012
+   Guo HN, 2021, REMOTE SENS ENVIRON, V264, P0, DOI 10.1016/j.rse.2021.112589
+   Hao X, 2016, INT J SEMANT COMPUT, V10, P417, DOI 10.1142/S1793351X16500045
+   He D., 2020, IEEE T GEOSCI ELECT, V0, P0, DOI DOI 10.1109/TGRS.2020.3032475
+   He D, 2021, IEEE T GEOSCI REMOTE, V59, P10628, DOI 10.1109/TGRS.2021.3050824
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KQ, 2008, ENVIRON GEOL, V55, P55, DOI 10.1007/s00254-007-0964-7
+   Hong HY, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-4866-9
+   Hu Q, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212530
+   Hua L., 2005, REMOTE SENS LAND RES, V17, P7345
+   Hua Y, 2021, LANDSLIDES, V18, P281, DOI 10.1007/s10346-020-01444-0
+   Huang FM, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7334-5
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Huang QQ, 2020, IEEE GEOSCI REMOTE S, V17, P312, DOI 10.1109/LGRS.2019.2918254
+   [黄汀 Huang Ting], 2018, 测绘通报 BULLETIN OF SURVEYING AND MAPPING, V0, P67
+   Jiankun Wang, 2020, IEEE TRANSACTIONS ON AUTOMATION SCIENCE AND ENGINEERING, V17, P1748, DOI 10.1109/TASE.2020.2976560
+   Kimura H, 2000, PHOTOGRAMM ENG REM S, V66, P337
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   LeCun Y., 2015, LENET 5 CONVOLUTIONA, V20, P5
+   Lee S, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10228189
+   Lei T, 2019, IEEE GEOSCI REMOTE S, V16, P982, DOI 10.1109/LGRS.2018.2889307
+   Li LW, 2020, MULTIMED TOOLS APPL, V79, P6727, DOI 10.1007/s11042-019-08429-9
+   Lin QG, 2017, ADVANCING CULTURE OF LIVING WITH LANDSLIDES, VOL 2: ADVANCES IN LANDSLIDE SCIENCE, P61, DOI 10.1007/978-3-319-53498-5_8
+   Liu SJ, 2021, IEEE T GEOSCI REMOTE, V59, P5085, DOI 10.1109/TGRS.2020.3018879
+   Long LJ, 2021, J SUPERCOMPUT, V77, P8728, DOI 10.1007/s11227-020-03604-4
+   Lu P, 2019, REMOTE SENS ENVIRON, V231, P0, DOI 10.1016/j.rse.2019.111235
+   Lv ZY, 2021, IEEE GEOSCI REMOTE S, V18, P1284, DOI 10.1109/LGRS.2020.2998684
+   Mandal S, 2018, MODEL EARTH SYST ENV, V4, P69, DOI 10.1007/s40808-018-0426-0
+   Martha TR, 2013, GEOMORPHOLOGY, V184, P139, DOI 10.1016/j.geomorph.2012.12.001
+   McKean J, 2004, GEOMORPHOLOGY, V57, P331, DOI 10.1016/S0169-555X(03)00164-8
+   Metternicht G, 2005, REMOTE SENS ENVIRON, V98, P284, DOI 10.1016/j.rse.2005.08.004
+   Naghibi SA, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-015-5049-6
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   Peng L, 2014, GEOMORPHOLOGY, V204, P287, DOI 10.1016/j.geomorph.2013.08.013
+   Pham B. T., 2015, INT J ENG RES TECHNO, V4, P338, DOI 10.17577/IJERTV4IS110285
+   Pourghasemi HR, 2012, CATENA, V97, P71, DOI 10.1016/j.catena.2012.05.005
+   Qu Z, 2020, IEEE ACCESS, V8, P54564, DOI 10.1109/ACCESS.2020.2981561
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Sameen MI, 2019, IEEE ACCESS, V7, P114363, DOI 10.1109/ACCESS.2019.2935761
+   Santangelo M, 2010, NAT HAZARD EARTH SYS, V10, P2539, DOI 10.5194/nhess-10-2539-2010
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Shi Q, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3085870
+   Shi Q, 2021, IEEE T GEOSCI REMOTE, V59, P10348, DOI 10.1109/TGRS.2020.3045273
+   Shirzadi A, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-016-6374-y
+   Simonyan K, 2015, ARXIV, V0, P0
+   Singh KK, 2016, NAT HAZARDS, V83, P1027, DOI 10.1007/s11069-016-2361-6
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Tavakkoli Piralilou S, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212575
+   Tong N, 2019, INT J RADIAT ONCOL, V105, PS93, DOI 10.1016/j.ijrobp.2019.06.570
+   Tong W, 2020, IEEE J-STARS, V13, P4121, DOI 10.1109/JSTARS.2020.3009352
+   Tsangaratos P, 2017, LANDSLIDES, V14, P1091, DOI 10.1007/s10346-016-0769-4
+   Tsangaratos P, 2016, CATENA, V145, P164, DOI 10.1016/j.catena.2016.06.004
+   Tzouvaras M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12101560
+   Ortiz JAV, 2018, GEOMAT NAT HAZ RISK, V9, P1106, DOI 10.1080/19475705.2018.1513083
+   Viet-Ha Nhu, 2020, FORESTS, V11, P0, DOI 10.3390/f11080830
+   Wang AL, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20041151
+   Wang LJ, 2016, GEOSCI J, V20, P117, DOI 10.1007/s12303-015-0026-1
+   Wang LJ, 2020, PHYS MED BIOL, V65, P0, DOI 10.1088/1361-6560/abaeb7
+   Wu XL, 2013, ENVIRON EARTH SCI, V70, P1307, DOI 10.1007/s12665-013-2217-2
+   Xiao LM, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18124436
+   Yi YN, 2020, IEEE J-STARS, V13, P6166, DOI 10.1109/JSTARS.2020.3028855
+   Yildirim O, 2020, NEURAL COMPUT APPL, V32, P15857, DOI 10.1007/s00521-018-3889-z
+   [于欢 YU Huan], 2010, 中国图象图形学报 JOURNAL OF IMAGE AND GRAPHICS, V15, P352
+   Yu Y, 2019, COMPUT ELECTRON AGR, V163, P0, DOI 10.1016/j.compag.2019.06.001
+   Zhang LF, 2021, IEEE T CYBERNETICS, V51, P673, DOI 10.1109/TCYB.2019.2910151
+   ZhiYong L, 2022, IEEE GEOSC REM SEN M, V10, P44, DOI 10.1109/MGRS.2021.3088865
+   Zhou J., 2020, SHOCK VIB, V0, P0
+   Zhu DY, 2021, J ENVIRON MANAGE, V299, P0, DOI 10.1016/j.jenvman.2021.113655
+NR 87
+TC 14
+Z9 14
+U1 16
+U2 57
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 11417
+EP 11428
+DI 10.1109/JSTARS.2021.3117975
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA XA2YM
+UT WOS:000720519100011
+DA 2023-04-26
+ER
+
+PT J
+AU Xiong, P
+   Zhai, DL
+   Long, C
+   Zhou, HY
+   Zhang, XM
+   Shen, XH
+AF Xiong, Pan
+   Zhai, Dulin
+   Long, Cheng
+   Zhou, Huiyu
+   Zhang, Xuemin
+   Shen, Xuhui
+TI Long Short-Term Memory Neural Network for Ionospheric Total Electron Content Forecasting Over China
+SO SPACE WEATHER-THE INTERNATIONAL JOURNAL OF RESEARCH AND APPLICATIONS
+LA English
+DT Article
+DE GPS&#8208; TEC modeling; GPS&#8208; TEC prediction; ionosphere; long short&#8208; term memory neural network
+ID content maps; tec; prediction; model; solar; algorithm; station; bias; lstm
+AB An increasing number of terrestrial- and space-based radio-communication systems are influenced by the ionospheric space weather, making the ionospheric state increasingly important to forecast. In this study, a novel extended encoder-decoder long short-term memory extended (ED-LSTME) neural network, which can predict ionospheric total electron content (TEC) is proposed. Useful inherent features were automatically extracted from the historical TEC by LSTM layers, and the performance of the proposed model was enhanced by considering solar flux and geomagnetic activity data. The proposed ED-LSTME model was validated using 15-min TEC values from GPS measurements over one solar cycle (from January 2006 to July 2018) collected at 15 GPS stations in China. Different assessment experiments were conducted in different geographical locations and seasons as well as under varying geomagnetic activities, to comprehensively evaluate the model's performance. These comparative experiments were conducted using an ED-LSTM, a traditional LSTM, a deep neural network, autoregressive integrated moving average, and the 2016 International Reference Ionosphere models. The results indicated that the ED-LSTME model is superior to the other statistical models, with R-2 and root mean square error values of 0.89 and 12.09 TECU, respectively. In addition, TEC was adequately predicted under different ionospheric conditions, and satisfactory results were obtained even under geomagnetically disturbed conditions. These results suggest that the prediction performance could be significantly improved by utilizing auxiliary data. These observations confirm that the proposed model outperforms several state-of-the-art models in making predictions at different times and under diverse conditions.
+C1 [Xiong, Pan; Zhang, Xuemin] China Earthquake Adm, Inst Earthquake Forecasting, Beijing, Peoples R China.
+   [Zhai, Dulin] China Earthquake Adm, Key Lab Earthquake Geodesy, Inst Seismol, Wuhan, Peoples R China.
+   [Long, Cheng] Nanyang Technol Univ, Sch Comp Sci & Engn, Singapore, Singapore.
+   [Zhou, Huiyu] Univ Leicester, Sch Informat, Leicester, Leics, England.
+   [Shen, Xuhui] Minist Emergency Management China, Natl Inst Nat Hazards, Beijing, Peoples R China.
+C3 China Earthquake Administration; China Earthquake Administration; Nanyang Technological University & National Institute of Education (NIE) Singapore; Nanyang Technological University; University of Leicester
+RP Shen, XH (corresponding author), Minist Emergency Management China, Natl Inst Nat Hazards, Beijing, Peoples R China.
+EM shenxh@seis.ac.cn
+FU National Key R&D Program of China [2018YFC1503505]; Special Fund of the Institute of Earthquake Forecasting, China Earthquake Administration [2020IEF0510, 2020IEF0705]
+CR Abadi M, 2016, PROCEEDINGS OF OSDI16: 12TH USENIX SYMPOSIUM ON OPERATING SYSTEMS DESIGN AND IMPLEMENTATION, V0, P265
+   Acharya R, 2011, ADV SPACE RES, V47, P115, DOI 10.1016/j.asr.2010.08.016
+   Afraimovich EL, 2001, J ATMOS SOL-TERR PHY, V63, P1841, DOI 10.1016/S1364-6826(01)00060-8
+   Badeke R, 2018, ADV SPACE RES, V61, P2881, DOI 10.1016/j.asr.2018.04.010
+   Bartels J., 1949, J GEOPHYS RES, V54, P295, DOI 10.1029/JZ054i003p00295
+   Belehaki A, 2009, SPACE SCI REV, V147, P271, DOI 10.1007/s11214-009-9510-0
+   Bent R.B., 1975, EFFECT IONOSPHERE SP, V1, P13
+   Bilitza D, 2017, SPACE WEATHER, V15, P418, DOI 10.1002/2016SW001593
+   Bilitza D, 2001, RADIO SCI, V36, P261, DOI 10.1029/2000RS002432
+   Bilitza D, 2018, ADV RADIO SCI, V16, P1, DOI 10.5194/ars-16-1-2018
+   Blagoveshchensky DV, 2018, ANN GEOPHYS-GERMANY, V36, P1057, DOI 10.5194/angeo-36-1057-2018
+   Castaings T, 2017, P C BIG DAT SPAC BID, V0, P0
+   Chen Z, 2019, J GEOPHYS RES-SPACE, V124, P790, DOI 10.1029/2018JA026167
+   Choi BK, 2011, ADV SPACE RES, V47, P1590, DOI 10.1016/j.asr.2010.12.021
+   Chollet F, 2018, DEEP LEARNING PYTHON, V0, P0
+   Chollet F, 2015, KERAS, V0, P0
+   Bui DT, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134413
+   Elmunim NA, 2017, ADV SPACE RES, V60, P276, DOI 10.1016/j.asr.2016.07.025
+   Elvidge S, 2014, RADIO SCI, V49, P737, DOI 10.1002/2014RS005435
+   Feizi R., 2020, ADV SPACE RES, V0, P0
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Goodman J.M., 1992, HF COMMUNICATION SCI, V0, P0
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Gulcehre C., 2014, P EMNLP C, V0, P0
+   Habarulema JB, 2007, J ATMOS SOL-TERR PHY, V69, P1842, DOI 10.1016/j.jastp.2007.09.002
+   Habarulema JB, 2011, J GEOPHYS RES-SPACE, V116, P0, DOI 10.1029/2010JA016269
+   Hernandez-Pajares M, 2012, SPACE WEATHER, V10, P0, DOI 10.1029/2012SW000826
+   Hernandez-Pajares M, 2011, J GEODESY, V85, P887, DOI 10.1007/s00190-011-0508-5
+   Hinton GE, 2006, SCIENCE, V313, P504, DOI 10.1126/science.1127647
+   Hochegger G, 2000, PHYS CHEM EARTH PT C, V25, P307, DOI 10.1016/S1464-1917(00)00022-2
+   Hu YL, 2018, ENERG CONVERS MANAGE, V173, P123, DOI 10.1016/j.enconman.2018.07.070
+   Huang Z, 2015, ADV SPACE RES, V55, P1775, DOI 10.1016/j.asr.2015.01.026
+   Huang Z, 2014, RADIO SCI, V49, P283, DOI 10.1002/2013RS005247
+   Hyndman R.J., 2018, FORECASTING PRINCIPL, V0, P0
+   Hyndman RJ, 2008, J STAT SOFTW, V27, P1, DOI 10.18637/jss.v027.i03
+   Kaselimi M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091354
+   Kersley L., 2004, ANN GEOPHYS-ITALY, V47, P0
+   Krankowski A, 2005, J ATMOS SOL-TERR PHY, V67, P1147, DOI 10.1016/j.jastp.2005.03.004
+   Kumar S, 2010, J PHYS CONF SER, V208, P0, DOI 10.1088/1742-6596/208/1/012062
+   Li J., 2020, ADV SPACE RES, V0, P0
+   Li ZS, 2012, J GEODESY, V86, P1059, DOI 10.1007/s00190-012-0565-4
+   Ma G, 2003, ANN GEOPHYS-GERMANY, V21, P2083, DOI 10.5194/angeo-21-2083-2003
+   Makridakis S, 1997, J FORECASTING, V16, P147, DOI 10.1002/(SICI)1099-131X(199705)16:3<147::AID-FOR652>3.0.CO;2-X
+   Mannucci AJ, 1998, RADIO SCI, V33, P565, DOI 10.1029/97RS02707
+   Moreno EM, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10070988
+   Moritz S., 2016, **DATA OBJECT**, V0, P0
+   Mukesh R, 2020, ASTROPHYS SPACE SCI, V365, P0, DOI 10.1007/s10509-020-3730-x
+   Mukhtarov P, 2014, J ATMOS SOL-TERR PHY, V119, P1, DOI 10.1016/j.jastp.2014.05.009
+   Nava B, 2011, RADIO SCI, V46, P0, DOI 10.1029/2010RS004635
+   Nava B, 2008, J ATMOS SOL-TERR PHY, V70, P1856, DOI 10.1016/j.jastp.2008.01.015
+   Okoh D, 2016, GEOD GEODYN, V7, P19, DOI 10.1016/j.geog.2016.03.003
+   Pei SP, 2019, NAT GEOSCI, V12, P387, DOI 10.1038/s41561-019-0347-1
+   Perez RO, 2019, ADV SPACE RES, V63, P1607, DOI 10.1016/j.asr.2018.11.011
+   Purohit PK, 2015, J PHYS CONF SER, V640, P0, DOI 10.1088/1742-6596/640/1/012072
+   Qi L, 2014, ACTA GEODAETICA CART, V43, P118
+   Qing XY, 2018, ENERGY, V148, P461, DOI 10.1016/j.energy.2018.01.177
+   RAWER K, 1978, REV GEOPHYS, V16, P177, DOI 10.1029/RG016i002p00177
+   Razin MRG, 2020, GPS SOLUT, V24, P0, DOI 10.1007/s10291-020-0964-6
+   Razin MRG, 2016, J ATMOS SOL-TERR PHY, V149, P21, DOI 10.1016/j.jastp.2016.09.005
+   Razin MRG, 2016, ACTA GEOD GEOPHYS, V51, P541, DOI 10.1007/s40328-015-0143-3
+   Rusk N, 2016, NAT METHODS, V13, P35, DOI 10.1038/nmeth.3707
+   Ruwali A, 2021, IEEE GEOSCI REMOTE S, V18, P1004, DOI 10.1109/LGRS.2020.2992633
+   SAMARDJIEV T, 1993, ELECTRON LETT, V29, P1794, DOI 10.1049/el:19931194
+   Song R, 2018, ADV SPACE RES, V62, P745, DOI 10.1016/j.asr.2018.03.043
+   Srivani I, 2019, IEEE GEOSCI REMOTE S, V16, P1180, DOI 10.1109/LGRS.2019.2895112
+   Sutskever I., 2014, P 27 INT C NEUR INF, V2, P0
+   Tang RX, 2020, ATMOSPHERE-BASEL, V11, P0, DOI 10.3390/atmos11040316
+   Taylor KE, 2001, J GEOPHYS RES-ATMOS, V106, P7183, DOI 10.1029/2000JD900719
+   Tebabal A, 2019, J ATMOS SOL-TERR PHY, V191, P0, DOI 10.1016/j.jastp.2019.05.016
+   Tebabal A, 2018, J ATMOS SOL-TERR PHY, V172, P143, DOI 10.1016/j.jastp.2018.03.004
+   Uwamahoro JC, 2015, J GEOPHYS RES-SPACE, V120, P11000, DOI 10.1002/2015JA021961
+   Verkhoglyadova OP, 2013, ANN GEOPHYS-GERMANY, V31, P263, DOI 10.5194/angeo-31-263-2013
+   Watthanasangmechai K, 2012, EARTH PLANETS SPACE, V64, P473, DOI 10.5047/eps.2011.05.025
+   Xiong B, 2016, ADV SPACE RES, V58, P867, DOI 10.1016/j.asr.2016.05.033
+   Xiong B, 2014, SPACE WEATHER, V12, P29, DOI 10.1002/2013SW001000
+   Yang G, 2020, ATMOSPHERE-BASEL, V11, P0, DOI 10.3390/atmos11040348
+   Yuan YB, 2015, GEOD GEODYN, V6, P73, DOI 10.1016/j.geog.2015.01.004
+   [翟笃林 Zhai Dulin], 2019, 地震 EARTHQUAKE, V39, P46
+   Zhang XH, 2013, CHINESE J GEOPHYS-CH, V56, P441, DOI 10.6038/cjg20130208
+   Zhao Z, 2017, IET INTELL TRANSP SY, V11, P68, DOI 10.1049/iet-its.2016.0208
+   Zhukov AV, 2021, GPS SOLUT, V25, P0, DOI 10.1007/s10291-020-01055-1
+   Zivot E., 2003, MODELING FINANCIAL T, V0, P299
+NR 82
+TC 28
+Z9 30
+U1 7
+U2 30
+PU AMER GEOPHYSICAL UNION
+PI WASHINGTON
+PA 2000 FLORIDA AVE NW, WASHINGTON, DC 20009 USA
+SN 
+EI 1542-7390
+J9 SPACE WEATHER
+JI Space Weather
+PD APR 15
+PY 2021
+VL 19
+IS 4
+BP 
+EP 
+DI 10.1029/2020SW002706
+PG 20
+WC Astronomy & Astrophysics; Geochemistry & Geophysics; Meteorology & Atmospheric Sciences
+SC Astronomy & Astrophysics; Geochemistry & Geophysics; Meteorology & Atmospheric Sciences
+GA RT6XS
+UT WOS:000644602700010
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, Y
+   Lee, DH
+   Heo, J
+   Park, J
+AF Wang, Yooseung
+   Lee, Donghyuk
+   Heo, Jiseong
+   Park, Jihun
+TI One-Shot Summary Prototypical Network Toward Accurate Unpaved Road Semantic Segmentation
+SO IEEE SIGNAL PROCESSING LETTERS
+LA English
+DT Article
+DE Roads; Feature extraction; Semantics; Image segmentation; Training; Buildings; Prototypes; Semantic segmentation; road semantic segmentation; few-shot learning; convolutional neural network
+AB Recent studies of driving scene understanding based on image semantic segmentation have achieved dramatic advances in speed and accuracy. Large-scale public datasets for semantic segmentation of paved road driving scenes have led the advances, but there is no large-scale public dataset for unpaved road environments. Building a large-scale image semantic segmentation dataset for unpaved roads is very expensive, and domain gaps between geographically distributed locations and those of seasonal changes hinder building a training dataset that is adequate to train a convolutional neural network model. In this paper, to resolve the data insufficiency problem, we use an one-shot learning setting in unpaved road driving scene understanding. Our One-shot Summary Prototypical Network (OSPNet) is trained with paved road driving scenes, and it identifies drivable regions in unpaved roads given only a single support image and unpaved road mask data. The OSPNet improves previous two branch few-shot segmentation approaches by introducing the summary branch which enables channel-wise weighting for important features in the feature map of support and query branches. Our experiments show that our model quantitatively and qualitatively outperforms recent supervised and few-shot segmentation models.
+C1 [Wang, Yooseung; Lee, Donghyuk; Heo, Jiseong; Park, Jihun] Agcy Def Dev, Adv Def Technol Res Inst, Daejeon 34186, South Korea.
+C3 Agency of Defense Development (ADD), Republic of Korea
+RP Park, J (corresponding author), Agcy Def Dev, Adv Def Technol Res Inst, Daejeon 34186, South Korea.
+EM yswang@add.re.kr; dhlee@add.re.kr; jsheo@add.re.kr; jhpark_a@add.re.kr
+CR Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Boyu Yang, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12353), V0, PP763, DOI 10.1007/978-3-030-58598-3_45
+   Chen BK, 2017, PROCEEDINGS OF THE TWENTY-SIXTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P1504
+   Chen L.-C., 2017, RETHINKING ATROUS CO, V0, P0
+   Cordts M, 2016, PROC CVPR IEEE, V0, PP3213, DOI 10.1109/CVPR.2016.350
+   Fu J, 2019, PROC CVPR IEEE, V0, PP3141, DOI 10.1109/CVPR.2019.00326
+   Geiger A, 2013, INT J ROBOT RES, V32, P1231, DOI 10.1177/0278364913491297
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Mingxing T., 2019, PR MACH LEARN RES, V0, P0
+   Orsic M, 2019, PROC CVPR IEEE, V0, PP12599, DOI 10.1109/CVPR.2019.01289
+   Rakelly K., 2018, P INT C LEARN REPR W, V0, P0
+   Shaban A., 2017, P BRIT MACH VIS C, V0, P0
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Siam M, 2018, IEEE COMPUT SOC CONF, V0, PP700, DOI 10.1109/CVPRW.2018.00101
+   Sun K, 2019, PROC CVPR IEEE, V0, PP5686, DOI 10.1109/CVPR.2019.00584
+   Tian ZT, 2022, IEEE T PATTERN ANAL, V44, P1050, DOI 10.1109/TPAMI.2020.3013717
+   Treml M, 2016, MLITS NEUR INF PROC, V2, P0
+   Wang KX, 2019, IEEE I CONF COMP VIS, V0, PP9196, DOI 10.1109/ICCV.2019.00929
+   Wang Y, 1900, V2021, V0, P6949
+   [杨雪薇 Yang Xuewei], 2020, 高分子通报 POLYMER BULLETIN, V0, P1
+   Yu F, 2020, PROC CVPR IEEE, V0, PP2633, DOI 10.1109/CVPR42600.2020.00271
+   Yuhui Yuan, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12351), V0, PP173, DOI 10.1007/978-3-030-58539-6_11
+   Zhang C, 2019, PROC CVPR IEEE, V0, PP5212, DOI 10.1109/CVPR.2019.00536
+   Zhang Hang, 2022, 2022 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP2735, DOI 10.1109/CVPRW56347.2022.00309
+   Zhang ZY, 2016, PROC CVPR IEEE, V0, PP669, DOI 10.1109/CVPR.2016.79
+   Zhao HS, 2018, LECT NOTES COMPUT SC, V11207, P418, DOI 10.1007/978-3-030-01219-9_25
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+NR 28
+TC 2
+Z9 2
+U1 3
+U2 19
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1070-9908
+EI 1558-2361
+J9 IEEE SIGNAL PROC LET
+JI IEEE Signal Process. Lett.
+PD JUN 15
+PY 2021
+VL 28
+IS 
+BP 1200
+EP 1204
+DI 10.1109/LSP.2021.3087457
+PG 5
+WC Engineering, Electrical & Electronic
+SC Engineering
+GA SX1NX
+UT WOS:000664979700010
+DA 2023-04-26
+ER
+
+PT J
+AU Levy, JJ
+   Lebeaux, RM
+   Hoen, AG
+   Christensen, BC
+   Vaickus, LJ
+   MacKenzie, TA
+AF Levy, Joshua J.
+   Lebeaux, Rebecca M.
+   Hoen, Anne G.
+   Christensen, Brock C.
+   Vaickus, Louis J.
+   MacKenzie, Todd A.
+TI Using Satellite Images and Deep Learning to Identify Associations Between County-Level Mortality and Residential Neighborhood Features Proximal to Schools: A Cross-Sectional Study
+SO FRONTIERS IN PUBLIC HEALTH
+LA English
+DT Article
+DE deep learning; satellite images; mortality; remote sensing; public health
+ID united-states; socioeconomic-status; built environment; life expectancy; fast-food; race; ethnicity; health; income; white
+AB What is the relationship between mortality and satellite images as elucidated through the use of Convolutional Neural Networks?Background: Following a century of increase, life expectancy in the United States has stagnated and begun to decline in recent decades. Using satellite images and street view images, prior work has demonstrated associations of the built environment with income, education, access to care, and health factors such as obesity. However, assessment of learned image feature relationships with variation in crude mortality rate across the United States has been lacking.Objective: We sought to investigate if county-level mortality rates in the U.S. could be predicted from satellite images.Methods: Satellite images of neighborhoods surrounding schools were extracted with the Google Static Maps application programming interface for 430 counties representing ~68.9% of the US population. A convolutional neural network was trained using crude mortality rates for each county in 2015 to predict mortality. Learned image features were interpreted using Shapley Additive Feature Explanations, clustered, and compared to mortality and its associated covariate predictors.Results: Predicted mortality from satellite images in a held-out test set of counties was strongly correlated to the true crude mortality rate (Pearson r = 0.72). Direct prediction of mortality using a deep learning model across a cross-section of 430 U.S. counties identified key features in the environment (e.g., sidewalks, driveways, and hiking trails) associated with lower mortality. Learned image features were clustered, and we identified 10 clusters that were associated with education, income, geographical region, race, and age.Conclusions: The application of deep learning techniques to remotely-sensed features of the built environment can serve as a useful predictor of mortality in the United States. Although we identified features that were largely associated with demographic information, future modeling approaches that directly identify image features associated with health-related outcomes have the potential to inform targeted public health interventions.
+C1 [Levy, Joshua J.; Lebeaux, Rebecca M.; Hoen, Anne G.; Christensen, Brock C.; MacKenzie, Todd A.] Geisel Sch Med Dartmouth, Dept Epidemiol, Lebanon, NH 03756 USA.
+   [Levy, Joshua J.; Lebeaux, Rebecca M.; Hoen, Anne G.] Geisel Sch Med Dartmouth, Program Quantitat Biomed Sci, Lebanon, NH 03756 USA.
+   [Levy, Joshua J.; Vaickus, Louis J.] Dartmouth Hitchcock Med Ctr, Emerging Diagnost & Investigative Technol, Dept Pathol & Lab Med, Lebanon, NH 03766 USA.
+   [Hoen, Anne G.; MacKenzie, Todd A.] Geisel Sch Med Dartmouth, Dept Biomed Data Sci, Lebanon, NH USA.
+   [MacKenzie, Todd A.] Geisel Sch Med Dartmouth, Dartmouth Inst Hlth Policy & Clin Practice, Lebanon, NH USA.
+C3 Dartmouth College; Dartmouth College; Dartmouth College; Dartmouth College; Dartmouth College
+RP Levy, JJ (corresponding author), Geisel Sch Med Dartmouth, Dept Epidemiol, Lebanon, NH 03756 USA.; Levy, JJ (corresponding author), Geisel Sch Med Dartmouth, Program Quantitat Biomed Sci, Lebanon, NH 03756 USA.; Levy, JJ (corresponding author), Dartmouth Hitchcock Med Ctr, Emerging Diagnost & Investigative Technol, Dept Pathol & Lab Med, Lebanon, NH 03766 USA.
+EM joshua.j.levy@dartmouth.edu
+CR Aneshensel C. S., 2016, HDB AGING SOCIAL SCI, V0, P315
+   Austin SB, 2005, AM J PUBLIC HEALTH, V95, P1575, DOI 10.2105/AJPH.2004.056341
+   Backlund E, 1996, ANN EPIDEMIOL, V6, P12, DOI 10.1016/1047-2797(95)00090-9
+   Bansal Naman, 2019, PROCEEDINGS OF 2ND INTERNATIONAL CONFERENCE ON COMMUNICATION, V0, P375, DOI 10.1007/978-981-13-1217-5_37
+   Bayer P, 2007, J POLIT ECON, V115, P588, DOI 10.1086/522381
+   Belkin M, 2003, NEURAL COMPUT, V15, P1373, DOI 10.1162/089976603321780317
+   Bhopal R, 1998, AM J PUBLIC HEALTH, V88, P1303, DOI 10.2105/AJPH.88.9.1303
+   Bischke B, 2019, IEEE IMAGE PROC, V0, PP1480, DOI 10.1109/ICIP.2019.8803050
+   Bruzelius E, 2019, J AM MED INFORM ASSN, V26, P806, DOI 10.1093/jamia/ocz111
+   Burkhalter JE, 2016, LGBT HEALTH, V3, P19, DOI 10.1089/lgbt.2015.0118
+   Carter BD, 2015, NEW ENGL J MED, V372, P631, DOI 10.1056/NEJMsa1407211
+   Case A, 2017, BROOKINGS PAP ECO AC, V0, P397
+   Case A, 2015, P NATL ACAD SCI USA, V112, P15078, DOI 10.1073/pnas.1518393112
+   Chetty R, 2016, JAMA-J AM MED ASSOC, V315, P1750, DOI 10.1001/jama.2016.4226
+   Ching T, 2018, J R SOC INTERFACE, V15, P0, DOI 10.1098/rsif.2017.0387
+   Clayton JA, 2016, JAMA-J AM MED ASSOC, V316, P1863, DOI 10.1001/jama.2016.16405
+   Corke P, 2013, IEEE INT C INT ROBOT, V0, PP2085, DOI 10.1109/IROS.2013.6696648
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Dyer O, 2018, BMJ-BRIT MED J, V363, P0, DOI 10.1136/bmj.k5118
+   El-Sayed AM., 2014, AMA J ETHICS, V16, P450, DOI 10.1001/VIRTUALMENTOR.2014.16.6.STAS1-1406
+   Engelberg JK, 2016, BMC PUBLIC HEALTH, V16, P0, DOI 10.1186/s12889-016-3055-4
+   Flanagin A, 2021, JAMA-J AM MED ASSOC, V326, P621, DOI 10.1001/jama.2021.13304
+   Flanagin A, 2021, JAMA-J AM MED ASSOC, V325, P1049, DOI 10.1001/jama.2021.2104
+   Fu H., 1900, V10, V0, P0
+   Gebru T, 2017, P NATL ACAD SCI USA, V114, P13108, DOI 10.1073/pnas.1700035114
+   Gelormino Elena, 2015, PREV MED REP, V2, P737, DOI 10.1016/j.pmedr.2015.08.019
+   Hamidi S, 2018, INT J ENV RES PUB HE, V15, P0, DOI 10.3390/ijerph15050861
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hirt S, 2013, J PLAN EDUC RES, V33, P292, DOI 10.1177/0739456X13494242
+   Hubbard T, 2011, LTD ACCESS HLTH FOOD, V0, P0
+   Iglovikov V., 2017, SATELLITE IMAGERY FE, V0, P0
+   Ioannidis JPA, 2021, JAMA-J AM MED ASSOC, V325, P623, DOI 10.1001/jama.2021.0003
+   Jean N., 2018, TILE2VEC UNSUPERVISE, V0, P0, DOI DOI 10.1609/aaai.v33i01.33013967
+   Jean N, 2016, SCIENCE, V353, P790, DOI 10.1126/science.aaf7894
+   Jensen J.R, 1999, PHOTOGRAMM ENG REM S, V0, PP153, DOI 10.1002/9780470979587.ch22
+   Keralis JM, 2020, BMC PUBLIC HEALTH, V20, P0, DOI 10.1186/s12889-020-8300-1
+   Kestens Y, 2010, AM J PREV MED, V39, P33, DOI 10.1016/j.amepre.2010.03.014
+   Khunti K, 2021, J PUBLIC HEALTH-UK, V43, PE270, DOI 10.1093/pubmed/fdaa198
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kwate NOA, 2010, PREV MED, V51, P153, DOI 10.1016/j.ypmed.2010.04.020
+   Kwatra V., 2012, COMP PHOT ICCP 2012, V0, PP1, DOI 10.1109/ICCPHOT.2012.6215222
+   Lareau A., 2014, CHOOSING HOMES CHOOS, V0, P0
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lee C, 2009, SOC SCI MED, V68, P1183, DOI 10.1016/j.socscimed.2008.12.036
+   Lo CP, 1997, REMOTE SENS ENVIRON, V62, P143, DOI 10.1016/S0034-4257(97)00088-6
+   Lundberg SM, 2017, ADV NEUR IN, V30, P0
+   Maharana A, 2018, JAMA NETW OPEN, V1, P0, DOI 10.1001/jamanetworkopen.2018.1535
+   Mays VM, 2003, ANNU REV PUBL HEALTH, V24, P83, DOI 10.1146/annurev.publhealth.24.100901.140927
+   McInnes L, 2018, UMAP UNIFORM MANIFOL, V0, P0
+   Mennis J, 2015, CITYSCAPE, V17, P115
+   Montez JK, 2013, AM J PUBLIC HEALTH, V103, P473, DOI 10.2105/AJPH.2012.301128
+   Moore LV, 2008, AM J PREV MED, V34, P16, DOI 10.1016/j.amepre.2007.09.021
+   Muennig PA, 2018, AM J PUBLIC HEALTH, V108, P1626, DOI 10.2105/AJPH.2018.304585
+   Muller A, 2002, BRIT MED J, V324, P23, DOI 10.1136/bmj.324.7328.23
+   Nguyen QC, 2019, PREV MED REP, V14, P0, DOI 10.1016/j.pmedr.2019.100859
+   Nguyen QC, 2018, J EPIDEMIOL COMMUN H, V72, P260, DOI 10.1136/jech-2017-209456
+   Olufadeji A, 2021, J NATL MED ASSOC, V113, P428, DOI 10.1016/j.jnma.2021.02.005
+   Quinn GP, 2015, CA-CANCER J CLIN, V65, P384, DOI 10.3322/caac.21288
+   Robinson C, 2017, GEOHUMANITIES17: PROCEEDINGS OF THE 1ST ACM SIGSPATIAL WORKSHOP ON GEOSPATIAL HUMANITIES, V0, PP47, DOI 10.1145/3149858.3149863
+   Routen A, 2021, JAMA-J AM MED ASSOC, V326, P674, DOI 10.1001/jama.2021.9268
+   Rutt CD, 2005, PREV MED, V40, P831, DOI 10.1016/j.ypmed.2004.09.035
+   Salas LA, 2021, EPIGENOMICS-UK, V13, P1761, DOI 10.2217/epi-2020-0080
+   Shermeyer J, 2019, IEEE COMPUT SOC CONF, V0, PP1432, DOI 10.1109/CVPRW.2019.00184
+   Streed CG, 2020, AM J PUBLIC HEALTH, V110, P991, DOI 10.2105/AJPH.2020.305722
+   Suel E, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-42036-w
+   Tapiador FJ, 2011, INT J REMOTE SENS, V32, P6437, DOI 10.1080/01431161.2010.512928
+   Thornton RLJ, 2016, HEALTH AFFAIR, V35, P1416, DOI 10.1377/hlthaff.2015.1357
+   von Elm E, 2014, INT J SURG, V12, P1495, DOI 10.1016/j.ijsu.2014.07.013
+   Weichenthal S, 2019, ENVIRON INT, V122, P3, DOI 10.1016/j.envint.2018.11.042
+   White K, 2020, INT J EQUITY HEALTH, V19, P0, DOI 10.1186/s12939-020-1137-5
+   Wilson DK, 2004, ANN BEHAV MED, V28, P20, DOI 10.1207/s15324796abm2801_4
+   Woolf SH, 2019, JAMA-J AM MED ASSOC, V322, P1996, DOI 10.1001/jama.2019.16932
+   Woolhandler S, 2017, ANN INTERN MED, V167, P424, DOI 10.7326/M17-1403
+   Xu HF, 2018, JAMA NETW OPEN, V1, P0, DOI 10.1001/jamanetworkopen.2018.4587
+   Zhu JY, 2017, IEEE I CONF COMP VIS, V0, PP2242, DOI 10.1109/ICCV.2017.244
+NR 82
+TC 0
+Z9 0
+U1 5
+U2 9
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 
+EI 2296-2565
+J9 FRONT PUBLIC HEALTH
+JI Front. Public Health
+PD NOV 5
+PY 2021
+VL 9
+IS 
+BP 
+EP 
+DI 10.3389/fpubh.2021.766707
+PG 14
+WC Public, Environmental & Occupational Health
+SC Public, Environmental & Occupational Health
+GA WZ7WH
+UT WOS:000720173800001
+PM 34805078
+DA 2023-04-26
+ER

@@ -1,0 +1,561 @@
+
+PT J
+AU Zhang, YX
+   Wang, YC
+   Zhang, N
+   Li, Z
+   Zhao, ZK
+   Gao, YX
+   Xu, DD
+   Ben, GL
+AF Zhang, Yuxi
+   Wang, Yongcheng
+   Zhang, Ning
+   Li, Zheng
+   Zhao, Zhikang
+   Gao, Yunxiao
+   Xu, Dongdong
+   Ben, Guangli
+TI Orientation-First Strategy With Angle Attention Module for Rotated Object Detection in Remote Sensing Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Detectors; Object detection; Feature extraction; Remote sensing; Redundancy; Kernel; Encoding; Angle channel attention; angle encoding; remote sensing images; rotated object detection
+ID convolutional neural-network; feature refinement; region proposal; aware
+AB Recently, object detection in remote sensing images (RSIs) have received extensive attention and made significant progress. Nonetheless, the arbitrary orientations of objects in RSIs make their detection a challenging task. Most of the existing detection methods are difficult to extract the orientation features of objects due to the lack of directionality of conventional convolutions. In addition, the boundary discontinuity in angle regression affects the detection of object orientations. In response to these problems, this article proposes an orientation-first refinement detector (OFRDet), which is based on a strategy that enables the detector to detect the angle of an object ahead of others and presets oriented anchors. In OFRDet, we propose an angle encoding regression module (AERM) and an angle channel attention module (ACAM). AERM transforms angle detection into multiparameter regression, which eliminates boundary discontinuities. ACAM uses convolution kernels with different angles to extract directional features purposefully according to the preset oriented anchors. After these two modules, more accurate bounding boxes are generated and sent to the refined stage to obtain the final detection results. We evaluate our method and demonstrate the effectiveness of it by conducting experiments on two challenging and credible datasets, DOTA, HRSC2016. OFRDet achieves competitive results 79.56%, 96.29% mAP on the two datasets, respectively.
+C1 [Zhang, Yuxi; Wang, Yongcheng; Zhang, Ning; Li, Zheng; Zhao, Zhikang; Gao, Yunxiao; Xu, Dongdong; Ben, Guangli] Chinese Acad Sci, Changchun Inst Opt Fine Mech & Phys, Changchun 130033, Peoples R China.
+   [Zhang, Yuxi; Zhang, Ning; Li, Zheng; Zhao, Zhikang; Gao, Yunxiao] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+C3 Chinese Academy of Sciences; Changchun Institute of Optics, Fine Mechanics & Physics, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS
+RP Wang, YC (corresponding author), Chinese Acad Sci, Changchun Inst Opt Fine Mech & Phys, Changchun 130033, Peoples R China.
+EM zhangyuxi18@mails.ucas.ac.cn; wangyc@ciomp.ac.cn; zhangning171@mails.ucas.ac.cn; lizheng20@mails.ucas.ac.cn; zhaozhikang20@mails.ucas.ac.cn; gaoyunxiao19@mails.s.ucas.ac.cnucas.ac.cn; xudongdong@ciomp.ac.cn; benguangli@ciomp.ac.cn
+FU Chinese Academy of Sciences
+CR Azimi SM, 2019, LECT NOTES COMPUT SC, V11363, P150, DOI 10.1007/978-3-030-20893-6_10
+   Chen XY, 2021, IEEE T CIRC SYST VID, V31, P594, DOI 10.1109/TCSVT.2020.2980876
+   Chen YT, 2019, ARXIV, V0, P0
+   Cheng B, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13020281
+   Dai JF, 2017, IEEE I CONF COMP VIS, V0, PP764, DOI 10.1109/ICCV.2017.89
+   Ding J, 2019, PROC CVPR IEEE, V0, PP2844, DOI 10.1109/CVPR.2019.00296
+   Duan KW, 2019, IEEE I CONF COMP VIS, V0, PP6568, DOI 10.1109/ICCV.2019.00667
+   Fu K, 2020, ISPRS J PHOTOGRAMM, V161, P294, DOI 10.1016/j.isprsjprs.2020.01.025
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Girshick R, 2014, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2014.81
+   Gong YP, 2020, IEEE T GEOSCI REMOTE, V58, P34, DOI 10.1109/TGRS.2019.2930246
+   Guo ZH, 2021, PROC CVPR IEEE, V0, PP8788, DOI 10.1109/CVPR46437.2021.00868
+   Han JM, 2021, PROC CVPR IEEE, V0, PP2785, DOI 10.1109/CVPR46437.2021.00281
+   Han JM, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3062048
+   He KM, 2017, IEEE I CONF COMP VIS, V0, PP2980, DOI 10.1109/TPAMI.2018.2844175
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Jang HD, 2020, IEEE WINT CONF APPL, V0, PP804, DOI 10.1109/WACV45572.2020.9093364
+   Jiang YY, 2017, ARXIV, V0, P0
+   Kaselimi M, 2022, IEEE T NEUR NET LEAR, V0, P0, DOI DOI 10.1109/TNNLS.2022.3144791
+   Kim B, 2022, IEEE WINT CONF APPL, V0, PP3421, DOI 10.1109/WACV51458.2022.00348
+   Law H, 2020, INT J COMPUT VISION, V128, P642, DOI 10.1007/s11263-019-01204-1
+   Lei JJ, 2020, IEEE T GEOSCI REMOTE, V58, P5693, DOI 10.1109/TGRS.2020.2968802
+   Li K, 2018, IEEE T GEOSCI REMOTE, V56, P2337, DOI 10.1109/TGRS.2017.2778300
+   Lin TY, 2017, IEEE I CONF COMP VIS, V0, PP2999, DOI 10.1109/ICCV.2017.324
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Liu W, 2016, LECT NOTES COMPUT SC, V9905, P21, DOI 10.1007/978-3-319-46448-0_2
+   Liu WC, 2019, IEEE GEOSCI REMOTE S, V16, P791, DOI 10.1109/LGRS.2018.2882778
+   Liu YL, 2019, ARXIV, V0, P0
+   Liu ZK, 2017, ICPRAM: PROCEEDINGS OF THE 6TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION APPLICATIONS AND METHODS, V0, PP324, DOI 10.5220/0006120603240331
+   Ma JQ, 2018, IEEE T MULTIMEDIA, V20, P3111, DOI 10.1109/TMM.2018.2818020
+   Ming Q, 2021, AAAI CONF ARTIF INTE, V35, P2355
+   Pan X., 2020, P IEEECVF C COMPUTER, V0, P11204
+   Qin R, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3113473
+   Redmon J, 2018, ARXIV, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   Redmon J, 2017, PROC CVPR IEEE, V0, PP6517, DOI 10.1109/CVPR.2017.690
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Sharma M, 2021, IEEE J-STARS, V14, P1497, DOI 10.1109/JSTARS.2020.3041316
+   Song Q, 2021, IEEE J-STARS, V14, P1084, DOI 10.1109/JSTARS.2020.3036685
+   Tian Z, 2019, IEEE I CONF COMP VIS, V0, PP9626, DOI 10.1109/ICCV.2019.00972
+   Wang JQ, 2019, PROC CVPR IEEE, V0, PP2960, DOI 10.1109/CVPR.2019.00308
+   Wang JW, 2021, IEEE T GEOSCI REMOTE, V59, P4307, DOI 10.1109/TGRS.2020.3010051
+   Wei HR, 2020, ISPRS J PHOTOGRAMM, V169, P268, DOI 10.1016/j.isprsjprs.2020.09.022
+   Wu Q, 2021, IEEE ACCESS, V9, P58768, DOI 10.1109/ACCESS.2021.3072402
+   Xia GS, 2018, PROC CVPR IEEE, V0, PP3974, DOI 10.1109/CVPR.2018.00418
+   Xie XX, 2021, 2021 IEEE/CVF INTERNATIONAL CONFERENCE ON COMPUTER VISION (ICCV 2021), V0, PP3500, DOI 10.1109/ICCV48922.2021.00350
+   Xu CY, 2020, IEEE T GEOSCI REMOTE, V58, P4353, DOI 10.1109/TGRS.2019.2963243
+   Xu YC, 2021, IEEE T PATTERN ANAL, V43, P1452, DOI 10.1109/TPAMI.2020.2974745
+   Xue Yang, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12353), V0, PP677, DOI 10.1007/978-3-030-58598-3_40
+   Yang X, 2020, ARXIV, V0, P0
+   Yang X, 2021, PROC CVPR IEEE, V0, PP15814, DOI 10.1109/CVPR46437.2021.01556
+   Yang X, 2021, AAAI CONF ARTIF INTE, V35, P3163
+   Yang X, 2019, IEEE I CONF COMP VIS, V0, PP8231, DOI 10.1109/ICCV.2019.00832
+   Yang X, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010132
+   Yang Z, 2019, IEEE I CONF COMP VIS, V0, PP9656, DOI 10.1109/ICCV.2019.00975
+   Yin WX, 2021, IEEE ACCESS, V9, P8249, DOI 10.1109/ACCESS.2021.3049431
+   Zhang GJ, 2019, IEEE T GEOSCI REMOTE, V57, P10015, DOI 10.1109/TGRS.2019.2930982
+   Zhang SF, 2021, IEEE T CIRC SYST VID, V31, P674, DOI 10.1109/TCSVT.2020.2986402
+   Zhang S, 2018, PROC CVPR IEEE, V0, PP4203, DOI 10.1109/CVPR.2018.00442
+   Zhang TY, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3109145
+   Zhang ZH, 2018, IEEE GEOSCI REMOTE S, V15, P1745, DOI 10.1109/LGRS.2018.2856921
+   Zhao Q, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3085889
+   Zheng XW, 2021, ISPRS J PHOTOGRAMM, V181, P99, DOI 10.1016/j.isprsjprs.2021.08.023
+   Zhong B, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12193262
+   Zhou KB, 2021, IEEE GEOSCI REMOTE S, V18, P33, DOI 10.1109/LGRS.2020.2965629
+   Zhou XY, 2019, PROC CVPR IEEE, V0, PP850, DOI 10.1109/CVPR.2019.00094
+   Zhou YZ, 2017, PROC CVPR IEEE, V0, PP4961, DOI 10.1109/CVPR.2017.527
+   Zhu XZ, 2019, PROC CVPR IEEE, V0, PP9300, DOI 10.1109/CVPR.2019.00953
+NR 69
+TC 0
+Z9 0
+U1 7
+U2 7
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 8492
+EP 8505
+DI 10.1109/JSTARS.2022.3209349
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 5F7ZK
+UT WOS:000866530700008
+DA 2023-04-26
+ER
+
+PT J
+AU Hakim, WL
+   Nur, AS
+   Rezaie, F
+   Panahi, M
+   Lee, CW
+   Lee, S
+AF Hakim, Wahyu Luqmanul
+   Nur, Arip Syaripudin
+   Rezaie, Fatemeh
+   Panahi, Mahdi
+   Lee, Chang-Wook
+   Lee, Saro
+TI Convolutional neural network and long short-term memory algorithms for groundwater potential mapping in Anseong, South Korea
+SO JOURNAL OF HYDROLOGY-REGIONAL STUDIES
+LA English
+DT Article
+DE Groundwater; Potential mapping; Convolutional neural network (CNN); Long short-term memory (LSTM)
+ID evidential belief function; support vector machine; logistic-regression; spatial prediction; function model; decision-tree; area; rainfall; recharge; zones
+AB Study region: The study area was the Anseong-si area that located in the southernmost part of Gyeonggi-do Province at 127 degrees 19' E, 36 degrees 82' N. Anseong has a transitional climate between that the north and the south regions. Its climate is characterized by the geographical conditions of forming expansive plains that stretch from the Charyeong Range. The entire area of the city is surrounded by many high and low mountains to the south and the west, late-middle age and old age hills are spread, while there are many plains due to the development of rivers. Study focus: In this study, machine learning algorithms were used based on convolutional neural network (CNN) and long short-term memory (LSTM) to generate a groundwater potential map in Anseong, South Korea. A total of 295 wells locations were divided by the median value of transmissivity data (T) and produced "1" point with high groundwater productivity data and "0" as the point with the low groundwater productivity and divided into 70:30 for training and validation the model. 14 groundwater potential related factors were used in this study such as topo-hydrological and geo-environmental factors to define the spatial correlation with the high groundwater productivity data. The validation of the model is evaluated using the receiver operating characteristics (ROC) curve analysis method. The area under the ROC curve (AUC) is calculated to test the model. New hydrological insight for the region: The results shows a good accuracy, as the AUC values were all higher than 0.8. Finally, the groundwater potential maps generated by CNN and LSTM can be used to analyze the areas that potentially provided groundwater in Anseong, South Korea. This study could help the local environment to manage groundwater resources and can be used to assist development planners and decision-makers in groundwater sustainability planning.
+C1 [Hakim, Wahyu Luqmanul; Nur, Arip Syaripudin; Panahi, Mahdi; Lee, Chang-Wook] Kangwon Natl Univ, Div Smart Reg Innovat, 1 Gangwondaehak gil, Chuncheon Si 24341, Gangwon Do, South Korea.
+   [Lee, Saro] Korea Inst Geosci & Mineral Resources KIGAM, Geosci Platform Div, 124,Gwahak Ro, Daejeon 34132, South Korea.
+   [Rezaie, Fatemeh; Lee, Saro] Korea Univ Sci & Technol, Dept Geophys Explorat, 217 Gajeong Ro, Daejeon 305350, South Korea.
+   [Lee, Chang-Wook] Kangwon Natl Univ, Div Sci Educ, 1 Gangwondaehak gil, Chuncheon Si 24341, Gangwon Do, South Korea.
+C3 Kangwon National University; Korea Institute of Geoscience & Mineral Resources (KIGAM); University of Science & Technology (UST); Kangwon National University
+RP Lee, S (corresponding author), Korea Inst Geosci & Mineral Resources KIGAM, Geosci Platform Div, 124,Gwahak Ro, Daejeon 34132, South Korea.
+EM wahyulhakim@kangwon.ac.kr; aripsyaripudin@kangwon.ac.kr; rezaie@kigam.re.kr; mahdi.panahi@kangwon.ac.kr; cwlee@kangwon.ac.kr; leesaro@kigam.re.kr
+FU Basic Research Project of the Korea Institute of Geoscience and Mineral Resources (KIGAM); Project of Environmental Business Big Data Platform - Ministry of Science and ICT; Basic Science Research Program through the National Research Foundation of Korea (NRF) - Ministry of Education [2019R1A6A1A03033167]
+CR Abdollahi S, 2019, B ENG GEOL ENVIRON, V78, P4017, DOI 10.1007/s10064-018-1403-6
+   Arabameri A., 1900, DOI 10.1007/S00477-021-02036, V0, P0
+   Arabameri A, 2021, J HYDROL-REG STUD, V36, P0, DOI 10.1016/j.ejrh.2021.100848
+   Arabameri A, 2020, SCI TOTAL ENVIRON, V726, P0, DOI 10.1016/j.scitotenv.2020.138595
+   Arabameri A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030490
+   Arabameri A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11243015
+   Aral M.M, 2011, AM SOC CIVIL ENG, V0, P0, DOI DOI 10.1061/9780784411766
+   Azzouni A., 2017, LONG SHORT TERM MEMO, V8, P1
+   Chen W, 2019, J HYDROL, V572, P435, DOI 10.1016/j.jhydrol.2019.03.013
+   Chen W, 2018, SCI TOTAL ENVIRON, V634, P853, DOI 10.1016/j.scitotenv.2018.04.055
+   Chen YZ, 2022, GEOCARTO INT, V37, P5564, DOI 10.1080/10106049.2021.1920635
+   Choi JK, 2011, ESTUAR COAST SHELF S, V93, P98, DOI 10.1016/j.ecss.2011.03.006
+   Condon LE, 2015, WATER RESOUR RES, V51, P6602, DOI 10.1002/2014WR016774
+   Dadgar MA, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2910-7
+   Diaz-Alcaide S, 2019, HYDROGEOL J, V27, P2307, DOI 10.1007/s10040-019-02001-3
+   Bui DT, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11102013
+   Bui DT, 2019, FORESTS, V10, P0, DOI 10.3390/f10090743
+   Bui DT, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101538
+   Dodangeh E, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125423
+   Dourte D, 2013, J HYDROL ENG, V18, P324, DOI 10.1061/(ASCE)HE.1943-5584.0000625
+   Duan HJ, 2016, MATH PROBL ENG, V2016, P0, DOI 10.1155/2016/2064575
+   Duan HJ, 2016, INT GEOSCI REMOTE SE, V0, PP890, DOI 10.1109/IGARSS.2016.7729225
+   Elmahdy SI, 2015, ARAB J GEOSCI, V8, P2405, DOI 10.1007/s12517-014-1327-9
+   Fadhillah MF, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13061196
+   Falah F, 2019, WATER RESOUR+, V46, P679, DOI 10.1134/S0097807819050051
+   Famiglietti JS, 2014, NAT CLIM CHANGE, V4, P945, DOI 10.1038/nclimate2425
+   Fang ZC, 2021, J HYDROL, V594, P0, DOI 10.1016/j.jhydrol.2020.125734
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Fitts C.R., 2013, GROUNDWATER SCI, V0, P0, DOI DOI 10.1016/C2009-0-62950-0
+   Gorelick SM, 2015, WATER RESOUR RES, V51, P3031, DOI 10.1002/2014WR016825
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Hakim WL, 2020, KOREAN J REMOTE SENS, V36, P1303, DOI 10.7780/kjrs.2020.36.6.1.3
+   Hakim WL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12213627
+   Hong HY, 2015, CATENA, V133, P266, DOI 10.1016/j.catena.2015.05.019
+   Ismail A.A., 2018, IMPROVING LONG HORIZ, V0, P0
+   Kadirhodjaev A, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9100566
+   Khoshtinat S, 2019, J EARTH SYST SCI, V128, P0, DOI 10.1007/s12040-019-1155-0
+   Khosravi K, 2020, J HYDROL, V591, P0, DOI 10.1016/j.jhydrol.2020.125552
+   Kim JC, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192285
+   Kim JC, 2018, J HYDROINFORM, V20, P1436, DOI 10.2166/hydro.2018.120
+   Kim M, 2020, DATA GEOL ECOL OCEAN, V2, P36, DOI 10.22761/DJ2020.2.2.006
+   Kotchoni DOV, 2019, HYDROGEOL J, V27, P447, DOI 10.1007/s10040-018-1806-2
+   Lee JY, 2016, WATER-SUI, V8, P0, DOI 10.3390/w8040168
+   Lee MJ, 2015, SUSTAINABILITY-BASEL, V7, P4668, DOI 10.3390/su7044668
+   Lee S., 2021, DATA GEOL ECOL OCEAN, V0, PP25, DOI 10.22761/DJ2021.3.2.004
+   Lee S., 2021, PROC NATL I ECOL REP, V2, P1, DOI 10.22920/PNIE.2021.2.1.1
+   Lee S, 2018, GEOCARTO INT, V33, P847, DOI 10.1080/10106049.2017.1303091
+   Lee S, 2015, SUSTAINABILITY-BASEL, V7, P13416, DOI 10.3390/su71013416
+   Lee S, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10228189
+   Lee S, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071200
+   Lee S, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11061678
+   Lerner DN, 2009, LAND USE POLICY, V26, PS265, DOI 10.1016/j.landusepol.2009.09.005
+   Li Y, 2022, GEOCARTO INT, V37, P5150, DOI 10.1080/10106049.2021.1912194
+   Mandal U, 2016, WATER RESOUR MANAG, V30, P4293, DOI 10.1007/s11269-016-1421-8
+   Miraki S, 2019, WATER RESOUR MANAG, V33, P281, DOI 10.1007/s11269-018-2102-6
+   Mori T, 2002, P 19 INT C COMPUTATI, V0, PP1, DOI 10.3115/1072228.1072246
+   Naghibi SA, 2017, WATER RESOUR MANAG, V31, P2761, DOI 10.1007/s11269-017-1660-3
+   Nampak H, 2014, J HYDROL, V513, P283, DOI 10.1016/j.jhydrol.2014.02.053
+   Oh HJ, 2018, GEOMAT NAT HAZ RISK, V9, P1053, DOI 10.1080/19475705.2018.1481147
+   Oh HJ, 2011, J HYDROL, V399, P158, DOI 10.1016/j.jhydrol.2010.12.027
+   Oh HJ, 2011, INT J COAL GEOL, V86, P58, DOI 10.1016/j.coal.2010.11.009
+   Oikonomidis D, 2015, J HYDROL, V525, P197, DOI 10.1016/j.jhydrol.2015.03.056
+   Panahi M, 2021, GEOSCI FRONT, V12, P0, DOI 10.1016/j.gsf.2020.09.007
+   Panahi M, 2021, CATENA, V199, P0, DOI 10.1016/j.catena.2020.105114
+   Panahi M, 2020, J HYDROL, V588, P0, DOI 10.1016/j.jhydrol.2020.125033
+   Panahi M, 2020, SCI TOTAL ENVIRON, V741, P0, DOI 10.1016/j.scitotenv.2020.139937
+   Park S, 2017, SUSTAINABILITY-BASEL, V9, P0, DOI 10.3390/su9071157
+   Ngo PTT, 2021, GEOSCI FRONT, V12, P505, DOI 10.1016/j.gsf.2020.06.013
+   Pourghasemi HR, 2015, GEOCARTO INT, V30, P662, DOI 10.1080/10106049.2014.966161
+   Pradhan B, 2014, NAT HAZARDS, V73, P1019, DOI 10.1007/s11069-014-1128-1
+   Preeja KR, 2011, J INDIAN SOC REMOTE, V39, P83, DOI 10.1007/s12524-011-0075-5
+   Putranto T, 2011, P JCM MAKASSAR 2011, V0, P1
+   RAZACK M, 1991, GROUND WATER, V29, P856, DOI 10.1111/j.1745-6584.1991.tb00572.x
+   Rizeei HM, 2019, J HYDROL, V579, P0, DOI 10.1016/j.jhydrol.2019.124172
+   Saha A, 2021, J ENVIRON MANAGE, V287, P0, DOI 10.1016/j.jenvman.2021.112284
+   Sameen MI, 2020, CATENA, V186, P0, DOI 10.1016/j.catena.2019.104249
+   Saro L, 2020, KOREAN J REMOTE SENS, V36, P1277, DOI 10.7780/kjrs.2020.36.6.1.1
+   Serele C, 2020, GEOSCI FRONT, V11, P1403, DOI 10.1016/j.gsf.2019.11.012
+   Sorensen R, 2006, HYDROL EARTH SYST SC, V10, P101, DOI 10.5194/hess-10-101-2006
+   Tolche A.D., 2020, ETHIOP GEOL ECOL LAN, V5, P65, DOI 10.1080/24749508.2020.1728882
+   Nhu VH, 2020, CATENA, V188, P0, DOI 10.1016/j.catena.2020.104458
+   Vu MT, 2021, J HYDROL, V597, P0, DOI 10.1016/j.jhydrol.2020.125776
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Xiao LM, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18124436
+   Xu HL, 2020, ARAB J GEOSCI, V13, P0, DOI 10.1007/s12517-020-05585-3
+   Yang HM, 2017, COMPUT INTEL NEUROSC, V2017, P0, DOI 10.1155/2017/9478952
+   Yeh HF, 2007, WATER RESOUR, V34, P153, DOI 10.1134/S0097807807020054
+   Yeh HF, 2016, SUSTAIN ENVIRON RES, V26, P33, DOI 10.1016/j.serj.2015.09.005
+   Zhu L, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20061576
+   Zuo RG, 2019, EARTH-SCI REV, V192, P1, DOI 10.1016/j.earscirev.2019.02.023
+NR 90
+TC 14
+Z9 14
+U1 13
+U2 23
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 
+EI 2214-5818
+J9 J HYDROL-REG STUD
+JI J. Hydrol.-Reg. Stud.
+PD FEB 15
+PY 2022
+VL 39
+IS 
+BP 
+EP 
+DI 10.1016/j.ejrh.2022.100990
+EA JAN 2022
+PG 15
+WC Water Resources
+SC Water Resources
+GA 0O1TP
+UT WOS:000783312200003
+DA 2023-04-26
+ER
+
+PT J
+AU Krichmar, JL
+   Ketz, NA
+   Pilly, PK
+   Soltoggio, A
+AF Krichmar, Jeffrey L.
+   Ketz, Nicholas A.
+   Pilly, Praveen K.
+   Soltoggio, Andrea
+TI Flexible Path Planning in a Spiking Model of Replay and Vicarious Trial and Error
+SO FROM ANIMALS TO ANIMATS 16
+LA English
+DT Proceedings Paper
+DE Cognitive map; Hippocampus; Navigation; Preplay; Spiking neural network
+AB Flexible planning is necessary for reaching goals and adapting when conditions change. We introduce a biologically plausible path planning model that learns its environment, rapidly adapts to change, and plans efficient routes to goals. Our model addresses the decision-making process when faced with uncertainty. We tested the model in simulations of human and rodent navigation in mazes. Like the human and rat, the model was able to generate novel shortcuts, and take detours when familiar routes were blocked. Similar to rodent hippocampus recordings, the neural activity of the model resembles neural correlates of Vicarious Trial and Error (VTE) during early learning or during uncertain conditions and preplay predicting a future path after learning. We suggest that VTE, in addition to weighing possible outcomes, is a way in which an agent may gather information for future use.
+C1 [Krichmar, Jeffrey L.] Univ Calif Irvine, Dept Cognit Sci, Dept Comp Sci, Irvine, CA 92697 USA.
+   [Ketz, Nicholas A.] Colossal Biosci, Madison, WI USA.
+   [Ketz, Nicholas A.; Pilly, Praveen K.] HRL Labs, Informat & Syst Sci Lab, Ctr Human Machine Collaborat, Malibu, CA 90265 USA.
+   [Soltoggio, Andrea] Loughborough Univ, Comp Sci Dept, Loughborough LE11 3TU, Leics, England.
+C3 University of California System; University of California Irvine; HRL Laboratories; Loughborough University
+RP Krichmar, JL (corresponding author), Univ Calif Irvine, Dept Cognit Sci, Dept Comp Sci, Irvine, CA 92697 USA.
+EM jkrichma@uci.edu; nick@colossal.com; pkpilly@hrl.com; a.soltoggio@lboro.ac.uk
+FU Air Force Office of Scientific Research (AFOSR) [FA9550-19-1-0306]; National Science Foundation [2024633]; United States Air Force Research Laboratory (AFRL); Defense Advanced Research Projects Agency (DARPA) [FA8750-18-C-0103]; Direct For Computer & Info Scie & Enginr; Div Of Information & Intelligent Systems [2024633] Funding Source: National Science Foundation
+CR Alvernhe A, 2011, EUR J NEUROSCI, V33, P1696, DOI 10.1111/j.1460-9568.2011.07653.x
+   Bellec G, 2020, NAT COMMUN, V11, P0, DOI 10.1038/s41467-020-17236-y
+   Boone AP, 2019, MEM COGNITION, V47, P1401, DOI 10.3758/s13421-019-00941-5
+   Dragoi G, 2011, NATURE, V469, P397, DOI 10.1038/nature09633
+   Fields RD, 2015, NAT REV NEUROSCI, V16, P756, DOI 10.1038/nrn4023
+   Fischl KD, 2017, IEEE INT SYMP CIRC S, V0, P2529
+   Hwu T, 2018, IEEE T COGN DEV SYST, V10, P126, DOI 10.1109/TCDS.2017.2655539
+   Johnson A, 2007, J NEUROSCI, V27, P12176, DOI 10.1523/JNEUROSCI.3761-07.2007
+   Kahn G, 2020, ARXIV, V0, P0
+   Krichmar JL, 2023, TOP COGN SCI, V15, P139, DOI 10.1111/tops.12568
+   Mattar MG, 2018, NAT NEUROSCI, V21, P1609, DOI 10.1038/s41593-018-0232-z
+   Miller KJ, 2021, CURR OPIN BEHAV SCI, V38, P29, DOI 10.1016/j.cobeha.2020.07.003
+   Pfeiffer BE, 2013, NATURE, V497, P74, DOI 10.1038/nature12112
+   Redish AD, 2016, NAT REV NEUROSCI, V17, P147, DOI 10.1038/nrn.2015.30
+   Stachenfeld KL, 2017, NAT NEUROSCI, V20, P1643, DOI 10.1038/nn.4650
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+NR 16
+TC 0
+Z9 0
+U1 1
+U2 1
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+J9 LECT NOTES ARTIF INT
+PD JUN 15
+PY 2022
+VL 13499
+IS 
+BP 177
+EP 189
+DI 10.1007/978-3-031-16770-6_15
+PG 13
+WC Computer Science, Artificial Intelligence; Robotics; Neurosciences
+SC Computer Science; Robotics; Neurosciences & Neurology
+GA BU0HY
+UT WOS:000869588400015
+DA 2023-04-26
+ER
+
+PT J
+AU Calderon-Guevara, W
+   Sanchez-Silva, M
+   Nitescu, B
+   Villarraga, DF
+AF Calderon-Guevara, Wilmar
+   Sanchez-Silva, Mauricio
+   Nitescu, Bogdan
+   Villarraga, Daniel F.
+TI Comparative review of data-driven landslide susceptibility models: case study in the Eastern Andes mountain range of Colombia
+SO NATURAL HAZARDS
+LA English
+DT Review
+DE Landslides; Susceptibility; Machine learning; Data-analytics; GIS
+ID artificial neural-networks; regression tree models; random forest; logistic-regression; decision tree; prediction; area; cordillera; machine; weight
+AB Estimating the likelihood of landslides has proven to be critical for development and protection of infrastructure (e.g. pipelines, roads) and urban settlements. Currently, for regional studies of landslide susceptibility only qualitative or statistical evaluations are possible due to the large spatial variability of geological properties, topography, rainfall patterns, etc. In this paper, we explore an alternative to these approaches using data-driven methodologies to determine landslide susceptibility. We give special attention to the use of geographical information systems, machine learning and statistical techniques to build landslide susceptibility maps. These methods have input as fourteen key causative factors that might influence landslides occurrence. Additionally, feature extraction and feature selection are performed to evaluate if dimensionality reduction increases the prediction accuracy of the machine learning models. The models were compared using a case study in the Eastern Cordillera of Colombia, where the best performing model achieved a predictive performance of 93.07%.
+C1 [Calderon-Guevara, Wilmar; Sanchez-Silva, Mauricio; Villarraga, Daniel F.] Univ los Andes, Dept Civil & Environm Engn, Bogota, Colombia.
+   [Calderon-Guevara, Wilmar; Nitescu, Bogdan] Univ los Andes, Dept Geosci, Bogota, Colombia.
+C3 Universidad de los Andes (Colombia); Universidad de los Andes (Colombia)
+RP Calderon-Guevara, W (corresponding author), Univ los Andes, Dept Civil & Environm Engn, Bogota, Colombia.; Calderon-Guevara, W (corresponding author), Univ los Andes, Dept Geosci, Bogota, Colombia.
+EM wa.calderon@uniandes.edu.co
+FU Universidad de los Andes (FAPA fund) [PR.3.2020.7367]
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   ABUJAMOUS B, 2015, FEATURE SELECTION, V0, P1
+   Achour Y, 2020, GEOSCI FRONT, V11, P871, DOI 10.1016/j.gsf.2019.10.001
+   Bedoya-Gonzalez DA, 2014, B GEOLOGIA, V36, P91
+   Vega JA, 2016, GEOMORPHOLOGY, V273, P217, DOI 10.1016/j.geomorph.2016.07.032
+   Pham BT, 2017, THEOR APPL CLIMATOL, V128, P255, DOI 10.1007/s00704-015-1702-9
+   Bonham-Carter GF, 2002, COMPUTER METHODS GEO, V0, P302
+   Bragagnolo L, 2020, CATENA, V184, P0, DOI 10.1016/j.catena.2019.104240
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chae BG, 2017, GEOSCI J, V21, P1033, DOI 10.1007/s12303-017-0034-4
+   Chen W, 2018, SCI TOTAL ENVIRON, V644, P1006, DOI 10.1016/j.scitotenv.2018.06.389
+   Chen W, 2017, CATENA, V151, P147, DOI 10.1016/j.catena.2016.11.032
+   Conforti M, 2014, CATENA, V113, P236, DOI 10.1016/j.catena.2013.08.006
+   COOPER MA, 1995, AAPG BULL, V79, P1421
+   Cruden D.M., 1996, 247 TRANSP RES BOARD, V0, P36
+   Dahal RK, 2008, GEOMORPHOLOGY, V102, P496, DOI 10.1016/j.geomorph.2008.05.041
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Dou J, 2019, SCI TOTAL ENVIRON, V662, P332, DOI 10.1016/j.scitotenv.2019.01.221
+   Dou J, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0133262
+   Duque-Escobar G, 2019, RAZON PUBLICA, V0, P0
+   Erener A, 2016, ENG GEOL, V203, P45, DOI 10.1016/j.enggeo.2015.09.007
+   Friedman J., 2009, ELEMENTS STAT LEARNI, V0, P0
+   Goetz JN, 2015, COMPUT GEOSCI-UK, V81, P1, DOI 10.1016/j.cageo.2015.04.007
+   Greenwell B., 2019, GBM GEN BOOSTED REGR, V0, P0
+   Guzman D., 2014, REGIONALIZACION COLO, V0, P0
+   Hervis J, 2009, LANDSLIDES - DISASTER RISK REDUCTION, V0, PP321, DOI 10.1007/978-3-540-69970-5_19
+   Huang FM, 2017, ENG GEOL, V223, P11, DOI 10.1016/j.enggeo.2017.04.013
+   Jurgen Bohner, 2002, GOTTINGER GEOGRAPIHS, V115, P0
+   Krauss C, 2017, EUR J OPER RES, V259, P689, DOI 10.1016/j.ejor.2016.10.031
+   Latif Z. A., 2012, 2012 IEEE 8TH INTERNATIONAL COLLOQUIUM ON SIGNAL PROCESSING & ITS APPLICATIONS, V0, PP378, DOI 10.1109/CSPA.2012.6194753
+   Lee JH, 2018, GEOMORPHOLOGY, V303, P284, DOI 10.1016/j.geomorph.2017.12.007
+   Lin GF, 2017, ENG GEOL, V224, P62, DOI 10.1016/j.enggeo.2017.05.009
+   Luis Torgo, 2016, DATA MINING R LEARNI, V0, P0, DOI DOI 10.1201/9781315399102
+   Mattivi Pietro, 2019, OPEN GEOSPATIAL DATA, V0, P0, DOI 10.1186/s40965-019-0066-y
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   OLAYA V, 2009, DEV SOIL SCI, V0, P0
+   Othman AA, 2018, GEOMORPHOLOGY, V319, P147, DOI 10.1016/j.geomorph.2018.07.018
+   Ozdemir A, 2020, GEOTECH GEOL ENG, V38, P4129, DOI 10.1007/s10706-020-01284-8
+   Alvarado-Franco JP, 2017, ENG GEOL, V222, P212, DOI 10.1016/j.enggeo.2017.04.005
+   Pabon JoseD, 1998, MEDIO AMBIENTE COLOM, V0, P34
+   Park S, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9050942
+   Park YS, 2016, DEV ENVIRON MODEL, V28, P123, DOI 10.1016/B978-0-444-63623-2.00007-4
+   Parravano V, 2015, INTERPRETATION-J SUB, V3, PSAA17, DOI 10.1190/INT-2015-0011.1
+   Pradhan B., 2017, PERFORMANCE EVALUATI, V0, PP193, DOI 10.1007/978-3-319-55342-9_11
+   Profillidis VA, 2019, MODELING OF TRANSPORT DEMAND: ANALYZING, V0, P0
+   Regmi NR, 2010, GEOMORPHOLOGY, V115, P172, DOI 10.1016/j.geomorph.2009.10.002
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Schaathun HG, 2012, FEATURE SELECTION EV, V0, PP217, DOI 10.1002/9781118437957.ch13
+   Serra N, 2019, EPIDEMIOL BIOSTAT PU, V16, P0, DOI 10.2427/13059
+   Servicio Geologico Colombiano, 2015, ZON GEOM AM MOV MAS, V0, P0
+   Sidle RC, 2016, EARTH-SCI REV, V159, P275, DOI 10.1016/j.earscirev.2016.05.013
+   Suleiman A, 2016, ENVIRON MODEL ASSESS, V21, P731, DOI 10.1007/s10666-016-9507-5
+   Taalab K, 2018, BIG EARTH DATA, V2, P159, DOI 10.1080/20964471.2018.1472392
+   Thuro K, 2020, GEOMECH TUNN, V13, P103, DOI 10.1002/geot.201900071
+   vanWesten CJ, 1996, EARTH SURF PROCESSES, V21, P853, DOI 10.1002/(SICI)1096-9837(199609)21:9&lt;853::AID-ESP676&gt;3.0.CO;2-C
+   VARNES D. J., 1978, LANDSLIDES ANAL CONT, V0, PP11, DOI 10.4236/ADR.2017.53016
+   Wang QQ, 2016, GEOSCI J, V20, P705, DOI 10.1007/s12303-016-0003-3
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Youssef AM, 2016, LANDSLIDES, V13, P839, DOI 10.1007/s10346-015-0614-1
+   Zhang KX, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6731-5
+   Zhu Lei, 2006, JOURNAL OF ZHEJIANG UNIVERSITY (SCIENCE), V7, P2007, DOI 10.1631/jzus.2006.A2007
+NR 61
+TC 1
+Z9 1
+U1 10
+U2 19
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0921-030X
+EI 1573-0840
+J9 NAT HAZARDS
+JI Nat. Hazards
+PD SEP 15
+PY 2022
+VL 113
+IS 2
+BP 1105
+EP 1132
+DI 10.1007/s11069-022-05339-2
+EA APR 2022
+PG 28
+WC Geosciences, Multidisciplinary; Meteorology & Atmospheric Sciences; Water Resources
+SC Geology; Meteorology & Atmospheric Sciences; Water Resources
+GA 4L8PS
+UT WOS:000778087100002
+DA 2023-04-26
+ER
+
+PT J
+AU Zhu, ZR
+   Tao, CH
+   Zhou, JP
+   Wilkens, RH
+   Jin, XB
+   Zhang, JH
+   Zhang, GY
+AF Zhu, Zhengren
+   Tao, Chunhui
+   Zhou, Jianping
+   Wilkens, Roy H.
+   Jin, Xiaobing
+   Zhang, Jinhui
+   Zhang, Guoyin
+TI Seafloor Classification Combining Shipboard Low-Frequency and AUV High-Frequency Acoustic Data: A Case Study of Duanqiao Hydrothermal Field, Southwest Indian Ridge
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Autonomous underwater vehicle (AUV); backscatter intensity; deep sea; hydrothermal field; multibeam sounding system (MBES); seafloor classification
+ID multibeam sonar; backscatter; algorithm
+AB Highly accuracy classification and mapping of seafloor hydrothermal fields provides an important addition to research into the geological background and exploration of seafloor massive sulfides (SMS). Currently, acoustic remote sensing using multibeam sounding systems (MBES) is the primary means of achieving large-scale seafloor classification. However, the characteristics of complex topography, complex seafloor distribution, and deep water depth of the hydrothermal fields make it difficult to obtain accurate high-resolution seafloor classification maps using shipboard MBES surveys. Here, a seafloor classification strategy combining shipboard MBES and autonomous underwater vehicle (AUV) sidescan sonar data is proposed. First, a downscaling model is established, which downscales the MBES backscatter mosaic (12-kHz and 10-m resolution) to a resolution of 2 m. The second step performs feature extraction of the downscaled MBES backscatter mosaic (12-kHz and 2-m resolution), the AUV sidescan sonar backscatter mosaic (150-kHz and 2-m resolution), and a seafloor digital elevation model (2-m resolution). Finally, a deep neural network model was built for training and classification. To evaluate the classification performance of the model, the method was applied to the survey of the Duanqiao hydrothermal field. Results were verified using field data (deep-tow video). The overall root mean square error and coefficient of determination (R-2) for the classification were 0.032 and 0.840, respectively. The experimental results show that the method can effectively meet the challenges to seafloor classification presented by complex seafloor distribution, and can obtain an accurate high-resolution seafloor classification map.
+C1 [Zhu, Zhengren; Tao, Chunhui] Zhejiang Univ, Ocean Coll, Zhoushan 316021, Peoples R China.
+   [Zhou, Jianping; Jin, Xiaobing; Zhang, Jinhui; Zhang, Guoyin] Minist Nat Resources, Inst Oceanog 2, Hangzhou 310012, Peoples R China.
+   [Wilkens, Roy H.] Univ Hawaii, Sch Ocean & Earth Sci & Technol, Honolulu, HI 96822 USA.
+C3 Zhejiang University; Ministry of Natural Resources of the People's Republic of China; University of Hawaii System
+RP Tao, CH (corresponding author), Zhejiang Univ, Ocean Coll, Zhoushan 316021, Peoples R China.
+EM taochunhui@sio.org.cn
+FU National Natural Science Foundation of China [42127807, 41906174]; National Key Research and Development Program of China [2019YFC1408705, 2017YFF0208401]; Zhejiang Science and Technology through the Key Research and Development Project [2021C03016]; Scientific Research Fund of Second Institute of Oceanography, Ministry of Natural Resources (MNR) [SL2020MS033]; Oceanic Interdisciplinary Program of Shanghai Jiao Tong University [SL2020MS033]
+CR Alevizos E, 2018, MAR GEOPHYS RES, V39, P289, DOI 10.1007/s11001-017-9325-4
+   Anderson J. T., 1900, V286, V0, P0
+   Anderson JT, 2008, ICES J MAR SCI, V65, P1004, DOI 10.1093/icesjms/fsn061
+   Atkinson PM, 2013, INT J APPL EARTH OBS, V22, P106, DOI 10.1016/j.jag.2012.04.012
+   Bengio Y, 2013, IEEE T PATTERN ANAL, V35, P1798, DOI 10.1109/TPAMI.2013.50
+   Brown CJ, 2019, GEOSCIENCES, V9, P0, DOI 10.3390/geosciences9030126
+   Brown CJ, 2009, APPL ACOUST, V70, P1242, DOI 10.1016/j.apacoust.2008.08.004
+   Chen J, 2021, J GEOPHYS RES-SOL EA, V126, P0, DOI 10.1029/2021JB022152
+   Cooper KM, 2019, J APPL ECOL, V56, P1085, DOI 10.1111/1365-2664.13381
+   CORLISS JB, 1979, SCIENCE, V203, P1073, DOI 10.1126/science.203.4385.1073
+   Cui XD, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3090450
+   Cui XD, 2021, MAR GEOL, V432, P0, DOI 10.1016/j.margeo.2020.106390
+   de Siqueira FR, 2013, NEUROCOMPUTING, V120, P336, DOI 10.1016/j.neucom.2012.09.042
+   Diesing M, 2016, ICES J MAR SCI, V73, P2425, DOI 10.1093/icesjms/fsw118
+   Diesing M, 2014, CONT SHELF RES, V84, P107, DOI 10.1016/j.csr.2014.05.004
+   Gaida TC, 2018, GEOSCIENCES, V8, P0, DOI 10.3390/geosciences8120455
+   GOLDFARB MS, 1988, J GEOPHYS RES-SOLID, V93, P4585, DOI 10.1029/JB093iB05p04585
+   Gougeon S, 2017, ESTUAR COAST SHELF S, V187, P231, DOI 10.1016/j.ecss.2017.01.009
+   Hamilton LJ, 2011, CONT SHELF RES, V31, P138, DOI 10.1016/j.csr.2010.12.002
+   Hasan RC, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0097339
+   Hasan RC, 2012, REMOTE SENS-BASEL, V4, P3427, DOI 10.3390/rs4113427
+   Hasan RC, 2012, ESTUAR COAST SHELF S, V97, P1, DOI 10.1016/j.ecss.2011.10.004
+   Herkul K, 2017, ESTUAR COAST SHELF S, V192, P57, DOI 10.1016/j.ecss.2017.04.026
+   Hochberg EJ, 2003, REMOTE SENS ENVIRON, V85, P174, DOI 10.1016/S0034-4257(02)00202-X
+   Holmes KW, 2008, CONT SHELF RES, V28, P1800, DOI 10.1016/j.csr.2008.04.016
+   Huang Z, 2013, CONT SHELF RES, V61-62, P12, DOI 10.1016/j.csr.2013.04.024
+   Hughes Clarke J.E, 2015, P UN STAT HYDR C SAN, V0, P15
+   Immerzeel WW, 2009, REMOTE SENS ENVIRON, V113, P362, DOI 10.1016/j.rse.2008.10.004
+   Ji X, 2021, IEEE J OCEANIC ENG, V46, P509, DOI 10.1109/JOE.2020.2989853
+   Ji X, 2020, APPL ACOUST, V167, P0, DOI 10.1016/j.apacoust.2020.107387
+   Jia SF, 2011, REMOTE SENS ENVIRON, V115, P3069, DOI 10.1016/j.rse.2011.06.009
+   Jin Y, 2018, IEEE T GEOSCI REMOTE, V56, P2362, DOI 10.1109/TGRS.2017.2778420
+   Lamarche G, 2018, MAR GEOPHYS RES, V39, P5, DOI 10.1007/s11001-017-9315-6
+   Lecoeuvre A, 2021, ISME J, V15, P818, DOI 10.1038/s41396-020-00816-7
+   LOWELL RP, 1991, REV GEOPHYS, V29, P457, DOI 10.1029/91RG01080
+   Lucieer V, 2013, ESTUAR COAST SHELF S, V117, P94, DOI 10.1016/j.ecss.2012.11.001
+   Luo YY, 2020, IEEE T VEH TECHNOL, V69, P11000, DOI 10.1109/TVT.2020.3006481
+   Marsh I, 2009, APPL ACOUST, V70, P1269, DOI 10.1016/j.apacoust.2008.07.012
+   Oliver M. A., 1990, INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SYSTEMS, V4, P313, DOI 10.1080/02693799008941549
+   Pillay T, 2020, MAR GEOL, V429, P0, DOI 10.1016/j.margeo.2020.106332
+   Schneider von Deimling J, 2013, MAR PETROL GEOL, V44, P217, DOI 10.1016/j.marpetgeo.2013.02.013
+   Sternlicht DD, 2003, J ACOUST SOC AM, V114, P2709, DOI 10.1121/1.1608018
+   Su DP, 2019, IEEE T GEOSCI REMOTE, V57, P815, DOI 10.1109/TGRS.2018.2860931
+   Sun YA, 2020, IEEE T EVOLUT COMPUT, V24, P394, DOI 10.1109/TEVC.2019.2916183
+   Tao CH, 2015, MAR GEORESOUR GEOTEC, V33, P288, DOI 10.1080/1064119X.2013.806973
+   Tao CH, 2014, CHINESE SCI BULL, V59, P2266, DOI 10.1007/s11434-014-0182-0
+   Tao CH, 2012, GEOLOGY, V40, P47, DOI 10.1130/G32389.1
+   Trzcinska K, 2020, MAR GEOL, V427, P0, DOI 10.1016/j.margeo.2020.106239
+   Wang A, 2021, J APPL GEOPHYS, V185, P0, DOI 10.1016/j.jappgeo.2021.104259
+   Wang L, 2004, REMOTE SENS ENVIRON, V91, P432, DOI 10.1016/j.rse.2004.04.005
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Wu T, 2021, NAT COMMUN, V12, P0, DOI 10.1038/s41467-021-25880-1
+   Wu T, 2019, ACTA OCEANOL SIN, V38, P159, DOI 10.1007/s13131-019-1408-4
+   Yue XH, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-46299-1
+   Zhang K, 2020, IEEE T GEOSCI REMOTE, V58, P3034, DOI 10.1109/TGRS.2019.2946986
+   Zhi H, 2014, MAR GEOL, V357, P37, DOI 10.1016/j.margeo.2014.07.012
+   Zhou YD, 2018, DEEP-SEA RES PT I, V137, P1, DOI 10.1016/j.dsr.2018.05.001
+   Zhu ZR, 2021, MAR GEOL, V438, P0, DOI 10.1016/j.margeo.2021.106519
+NR 58
+TC 0
+Z9 0
+U1 6
+U2 9
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2022
+VL 60
+IS 
+BP 
+EP 
+DI 10.1109/TGRS.2022.3178838
+PG 15
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA 2D6FN
+UT WOS:000811640500001
+DA 2023-04-26
+ER

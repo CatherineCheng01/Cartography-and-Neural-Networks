@@ -1,0 +1,511 @@
+
+PT J
+AU Kalumba, M
+   Nyirenda, E
+   Nyambe, I
+   Dondeyne, S
+   Van Orshoven, J
+AF Kalumba, Mulenga
+   Nyirenda, Edwin
+   Nyambe, Imasiku
+   Dondeyne, Stefaan
+   Van Orshoven, Jos
+TI Machine Learning Techniques for Estimating Hydraulic Properties of the Topsoil across the Zambezi River Basin
+SO LAND
+LA English
+DT Article
+DE digital soil mapping; multilinear regression; residual kriging; saturated hydraulic conductivity; spatial autocorrelation; water retention
+ID soil; carbon; model; prediction; algorithm; topkapi
+AB It is critical to produce more crop per drop in an environment where water availability is decreasing and competition for water is increasing. In order to build such agricultural production systems, well parameterized crop growth models are essential. While in most crop growth modeling research, focus is on gathering model inputs such as climate data, less emphasis is paid to collecting the critical soil hydraulic properties (SHPs) data needed to operate crop growth models. Collection of SHPs data for the Zambezi River Basin (ZRB) is extremely labor-intensive and expensive, thus alternate technologies such as digital soil mapping (DSM) must be explored. We evaluated five types of DSM models to establish the best spatially explicit estimates of the soil water content at pF0.0 (saturation), pF2.0 (field capacity), and pF4.2 (wilting point), and of the saturated hydraulic conductivity (Ksat) across the ZRB by using estimates of locally calibrated pedotransfer functions of 1481 locations for training and testing the DSM models, as well as a reference dataset of measurements from 174 locations for validating the DSM models. We produced coverages of environmental covariates from various source datasets, including climate variables, soil and land use maps, parent materials and lithologic units, derivatives of a digital elevation model (DEM), and Landsat imagery with a spatial resolution of 90 m. The five types of models included multiple linear regression and four machine learning techniques: artificial neural network, gradient boosted regression trees, random forest, and support vector machine. Where the residuals of the initial DSM models were spatially autocorrelated, the models were extended/complemented with residual kriging (RK). Spatial autocorrelation in the model residuals was observed for all five models of each of the three water contents, but not for Ksat. On average for the water content, the R 2 ranged from 0.40 to 0.80 in training and test datasets before adding kriged model residuals and ranged from 0.80 to 0.95 after adding model residuals. Overall, the best prediction method consisted of random forest as the deterministic model, complemented with RK, whereby soil texture followed by climate and topographic elevation variables were the most important covariates. The resulting maps are a ready-to-use resource for hydrologists and crop modelers to aliment and calibrate their hydrological and crop growth models.
+C1 [Kalumba, Mulenga; Van Orshoven, Jos] Univ Leuven, Dept Earth & Environm Sci, Celestijnenlaan 200E, B-3001 Leuven, Belgium.
+   [Kalumba, Mulenga] Univ Zambia, Dept Agr Engn, POB 32379, Lusaka, Zambia.
+   [Nyirenda, Edwin] Univ Zambia, Sch Engn, Dept Civil & Environm Engn, POB 32379, Lusaka, Zambia.
+   [Nyambe, Imasiku] Univ Zambia, Sch Mines, Dept Geol, POB 32379, Lusaka, Zambia.
+   [Dondeyne, Stefaan] Univ Ghent, Dept Geog, Krijgslaan 281 S8, B-9000 Ghent, Belgium.
+C3 KU Leuven; University of Zambia; University of Zambia; University of Zambia; Ghent University
+RP Kalumba, M (corresponding author), Univ Leuven, Dept Earth & Environm Sci, Celestijnenlaan 200E, B-3001 Leuven, Belgium.; Kalumba, M (corresponding author), Univ Zambia, Dept Agr Engn, POB 32379, Lusaka, Zambia.
+EM mulenga.kalumba@unza.zm; edwin.nyirenda@unza.zm; inyambe@unza.zm; stefaan.dondeyne@ugent.be; jos.vanorshoven@kuleuven.be
+FU IRO-PhD-scholarship by the University of Leuven [000000091676]; Decision Analytic Framework 'DAFNE' EU H2020-project [690268]
+CR Aitkenhead MJ, 2016, GEODERMA, V262, P187, DOI 10.1016/j.geoderma.2015.08.034
+   [Anonymous], 2012, INT RIVERS, V0, P0, DOI DOI 10.13140/RG.2.2.30193.48486
+   [Anonymous], 1963, ECON GEOL, V0, P0, DOI DOI 10.2113/GSECONGEO.58.8.1246
+   [Anonymous], 1989, APPL GEOSTATISTICS, V0, P0
+   Arrouays D, 2017, GEODERMA REG, V9, P1, DOI 10.1016/j.geodrs.2017.03.002
+   Baboo D.S.S., 2010, GLOB J COMPUT SCI TE, V10, P61
+   Batjes N.H, 2019, EARTH SYSTEM SCI DAT, V0, PP1, DOI 10.17027/isric-wdcsoils.20190901
+   Boettinger JL, 2008, DIGITAL SOIL MAPPING WITH LIMITED DATA, V0, PP193, DOI 10.1007/978-1-4020-8592-5_16
+   Cai X., 2017, AVAILABILITY USE WAT, V0, P7
+   CCI Land Cover (LC) Team, 2016, 201 LAND COV S2 PROT, V0, P0
+   Chen L, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8040174
+   Ciarapica L, 2002, HYDROL PROCESS, V16, P207, DOI 10.1002/hyp.342
+   Conrad O, 2015, GEOSCI MODEL DEV, V8, P1991, DOI 10.5194/gmd-8-1991-2015
+   Cressie N.A.C., 1991, STAT SPATIAL DATA, V0, P0
+   Deng P, 2008, WATER SCI ENG, V1, P14, DOI 10.3882/j.issn.1674-2370.2008.04.002
+   Derin Y, 2014, J HYDROMETEOROL, V15, P1498, DOI 10.1175/JHM-D-13-0191.1
+   Dewitte O, 2013, GEODERMA, V211, P138, DOI 10.1016/j.geoderma.2013.07.007
+   Didan K., 2015, NASA EOSDIS LAND PRO, V5, P2002, DOI 10.5067/MODIS/MOD13Q1.006
+   Dijkshoorn J., 2003, SOTER DATABASE SO AF, V0, P0
+   Dijkshoorn J.A., 2016, SOIL TERRAIN DATABAS, V0, P0
+   Earth Resources Observation and Science (EROS) Center, 2017, SHUTTL RAD TOP MIS S, V0, P0
+   Fick SE, 2017, INT J CLIMATOL, V37, P4302, DOI 10.1002/joc.5086
+   Goovaerts, 1997, GEOSTATISTICS NATURA, V0, P0
+   Hansen MC, 2013, SCIENCE, V342, P850, DOI 10.1126/science.1244693
+   Hengl T, 2004, GEODERMA, V120, P75, DOI 10.1016/j.geoderma.2003.08.018
+   Hengl T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0169748
+   IUSS Working Group WRB, 2007, WORLD REFERENCE BASE, V0, P0
+   Jenny H., 1941, FACTORS SOIL FORMATI, V0, P0, DOI DOI 10.1097/00010694-194111000-00009
+   Kalumba M, 2021, EUR J SOIL SCI, V72, P1559, DOI 10.1111/ejss.13077
+   Key RM, 2015, S AFR J GEOL, V118, P425, DOI 10.2113/gssajg.118.4.425
+   Khaledian Y, 2020, APPL MATH MODEL, V81, P401, DOI 10.1016/j.apm.2019.12.016
+   Khan RS, 2021, ATMOSPHERE-BASEL, V12, P0, DOI 10.3390/atmos12101239
+   Kuhn M, 2013, APPL PREDICTIVE MODE, V0, P0, DOI DOI 10.1007/978-1-4614-6849-3
+   Leenaars J.G.B., 2014, 201401 ISRIC AFSIS, V0, P1
+   Leenaers H., 1990, ESTIMATING IMPACT LA, V0, P0
+   Malone BP, 2009, GEODERMA, V154, P138, DOI 10.1016/j.geoderma.2009.10.007
+   Maza Leon A.P., 2020, THESIS U LEUVEN LEUV, V0, P0
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   Mei YW, 2016, J HYDROMETEOROL, V17, P1407, DOI 10.1175/JHM-D-15-0081.1
+   Minasny B., 2008, GUIDELINES FOR SURVEYING SOIL AND LAND RESOURCES, V0, P349
+   Minasny B, 2016, GEODERMA, V264, P301, DOI 10.1016/j.geoderma.2015.07.017
+   Montzka C, 2017, EARTH SYST SCI DATA, V9, P529, DOI 10.5194/essd-9-529-2017
+   NUGENT C, 1990, PALAEOGEOGR PALAEOCL, V78, P55, DOI 10.1016/0031-0182(90)90204-K
+   Nussbaum M, 2018, SOIL-GERMANY, V4, P1, DOI 10.5194/soil-4-1-2018
+   Nyambe IA, 2000, J AFR EARTH SCI, V30, P535, DOI 10.1016/S0899-5362(00)00037-3
+   Pebesma EJ, 2004, COMPUT GEOSCI-UK, V30, P683, DOI 10.1016/j.cageo.2004.03.012
+   Piero C., 2011, LOOKING AHEAD WORLD, V0, P233
+   Planchon O, 2002, CATENA, V46, P159, DOI 10.1016/S0341-8162(01)00164-3
+   Poggio L, 2021, SOIL-GERMANY, V7, P217, DOI 10.5194/soil-7-217-2021
+   Samuel-Rosa A, 2015, GEODERMA, V243, P214, DOI 10.1016/j.geoderma.2014.12.017
+   Savtchenko A, 2004, ADV SPACE RES, V34, P710, DOI 10.1016/j.asr.2004.03.012
+   Sinclair S., 2019, 690268 POL MIL, V0, P1
+   Sindayihebura A, 2017, CATENA, V156, P161, DOI 10.1016/j.catena.2017.04.003
+   Steduto P, 2009, AGRON J, V101, P426, DOI 10.2134/agronj2008.0139s
+   Sun W, 2012, GEODERMA, V171, P16, DOI 10.1016/j.geoderma.2011.02.010
+   Szabo B, 2019, HYDROL EARTH SYST SC, V23, P2615, DOI 10.5194/hess-23-2615-2019
+   Todini E, 1996, J HYDROL, V175, P339, DOI 10.1016/S0022-1694(96)80016-3
+   U.S. Geological Survey T.N.C, 2009, AFR SURF LIT, V0, P0
+   Wadoux AMJC, 2020, EARTH-SCI REV, V210, P0, DOI 10.1016/j.earscirev.2020.103359
+   World Bank, 2010, ZAMBEZI RIVER BASIN, V0, P1
+   Yao XL, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0054660
+   Zorner RJ, 2008, AGR ECOSYST ENVIRON, V126, P67, DOI 10.1016/j.agee.2008.01.014
+NR 64
+TC 1
+Z9 1
+U1 1
+U2 2
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-445X
+J9 LAND-BASEL
+JI Land
+PD APR 15
+PY 2022
+VL 11
+IS 4
+BP 
+EP 
+DI 10.3390/land11040591
+PG 22
+WC Environmental Studies
+SC Environmental Sciences & Ecology
+GA 0S5VM
+UT WOS:000786341100001
+DA 2023-04-26
+ER
+
+PT J
+AU Li, MK
+   McGrath, H
+   Stefanakis, E
+AF Li, Mingke
+   McGrath, Heather
+   Stefanakis, Emmanuel
+TI Multi-Scale Flood Mapping under Climate Change Scenarios in Hexagonal Discrete Global Grids
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE flood modeling; Discrete Global Grid Systems; climate change; multi-resolution; machine learning
+ID artificial neural-networks; priority-flood; models; system
+AB Among the most prevalent natural hazards, flooding has been threatening human lives and properties. Robust flood simulation is required for effective response and prevention. Machine learning is widely used in flood modeling due to its high performance and scalability. Nonetheless, data pre-processing of heterogeneous sources can be cumbersome, and traditional data processing and modeling have been limited to a single resolution. This study employed an Icosahedral Snyder Equal Area Aperture 3 Hexagonal Discrete Global Grid System (ISEA3H DGGS) as a scalable, standard spatial framework for computation, integration, and analysis of multi-source geospatial data. We managed to incorporate external machine learning algorithms with a DGGS-based data framework, and project future flood risks under multiple climate change scenarios for southern New Brunswick, Canada. A total of 32 explanatory factors including topographical, hydrological, geomorphic, meteorological, and anthropogenic were investigated. Results showed that low elevation and proximity to permanent waterbodies were primary factors of flooding events, and rising spring temperatures can increase flood risk. Flooding extent was predicted to occupy 135-203% of the 2019 flood area, one of the most recent major flooding events, by the year 2100. Our results assisted in understanding the potential impact of climate change on flood risk, and indicated the feasibility of DGGS as the standard data fabric for heterogeneous data integration and incorporated in multi-scale data mining.
+C1 [Li, Mingke; Stefanakis, Emmanuel] Univ Calgary, Schulich Sch Engn, Dept Geomat Engn, Calgary, AB T2N 1N4, Canada.
+   [McGrath, Heather] Canada Ctr Mapping & Earth Observat, Nat Resources Canada, Ottawa, ON K1A 0E4, Canada.
+C3 University of Calgary; Natural Resources Canada; Strategic Policy & Results Sector - Natural Resources Canada; Canada Centre for Mapping & Earth Observation (CCMEO)
+RP Li, MK (corresponding author), Univ Calgary, Schulich Sch Engn, Dept Geomat Engn, Calgary, AB T2N 1N4, Canada.
+EM mingke.li@ucalgary.ca
+FU Natural Resources Canada (NRCan); NRCan; De l'observation de la terre aux services d'information decisionnelle (CREATE DOTS) program [20220363]
+CR Abdullah MF, 2021, WATER-SUI, V13, P0, DOI 10.3390/w13101358
+   Abedi R, 2022, GEOCARTO INT, V37, P5479, DOI 10.1080/10106049.2021.1920636
+   Alderson T., 2020, MANUAL DIGITAL EARTH, V0, P25
+   [Anonymous], 1979, HYDROL SCI B, V0, P0
+   Barnes R, 2016, COMPUT GEOSCI-UK, V96, P56, DOI 10.1016/j.cageo.2016.07.001
+   Barnes R, 2014, COMPUT GEOSCI-UK, V62, P117, DOI 10.1016/j.cageo.2013.04.024
+   Berger AL, 1996, COMPUT LINGUIST, V22, P39
+   Bousquin J, 2021, ENVIRON MODELL SOFTW, V146, P0, DOI 10.1016/j.envsoft.2021.105210
+   Bush E., 2019, CANADAS CHANGING CLI, V0, P444
+   Cannon AJ, 2015, J CLIMATE, V28, P6938, DOI 10.1175/JCLI-D-14-00754.1
+   Chaudhuri C, 2021, GEOSCI MODEL DEV, V14, P3295, DOI 10.5194/gmd-14-3295-2021
+   Chen AS, 2012, J HYDROL, V426, P1, DOI 10.1016/j.jhydrol.2012.01.007
+   Dibike YB, 2001, J COMPUT CIVIL ENG, V15, P208, DOI 10.1061/(ASCE)0887-3801(2001)15:3(208)
+   Bui DT, 2019, J HYDROL, V575, P314, DOI 10.1016/j.jhydrol.2019.05.046
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Douass S., 2020, INT J ENG TRENDS TEC, V68, P68, DOI 10.14445/22315381/IJETT-V68I6P211S
+   Dutton G., 1989, ACCURACY SPATIAL DAT, V0, P81
+   Genuer R, 2015, R J, V7, P19
+   Goodchild MF, 2018, ANN GIS, V24, P1, DOI 10.1080/19475683.2018.1424737
+   Guisan A, 1999, PLANT ECOL, V143, P107, DOI 10.1023/A:1009841519580
+   Hodgson M., 1998, CARTOGR GEOGR INF SC, V25, P173, DOI 10.1559/152304098782383106
+   Hutchinson MF, 2009, J APPL METEOROL CLIM, V48, P725, DOI 10.1175/2008JAMC1979.1
+   Jain A, 2004, J HYDROL ENG, V9, P551, DOI 10.1061/(ASCE)1084-0699(2004)9:6(551)
+   Kar Anil Kumar, 2010, JOURNAL OF WATER RESOURCE AND PROTECTION, V2, P880, DOI 10.4236/jwarp.2010.210105
+   Kiester AR, 2008, COMPUT ENVIRON URBAN, V32, P204, DOI 10.1016/j.compenvurbsys.2008.03.001
+   Kim S, 2013, J AM WATER RESOUR AS, V49, P1421, DOI 10.1111/jawr.12093
+   Kuhn M, 2008, J STAT SOFTW, V28, P1, DOI 10.18637/jss.v028.i05
+   Kumar ARS, 2005, HYDROL PROCESS, V19, P1277, DOI 10.1002/hyp.5581
+   Li M., 2022, GEOGRAPHIES, V2, P227, DOI 10.3390/geographies2020016
+   Li MK, 2022, INT J APPL EARTH OBS, V113, P0, DOI 10.1016/j.jag.2022.102985
+   Li MK, 2021, CARTOGR GEOGR INF SC, V48, P546, DOI 10.1080/15230406.2021.1966648
+   Liao C, 2022, ADV WATER RESOUR, V160, P0, DOI 10.1016/j.advwatres.2021.104099
+   Liao C, 2020, ENVIRON MODELL SOFTW, V128, P0, DOI 10.1016/j.envsoft.2020.104702
+   Lin JY, 2022, SUSTAIN CITIES SOC, V80, P0, DOI 10.1016/j.scs.2022.103812
+   Lin L, 2016, INT CONF AGRO-GEOINF, V0, P193
+   Lohani AK, 2012, J HYDROL, V442, P23, DOI 10.1016/j.jhydrol.2012.03.031
+   McGrath H, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14071656
+   McHugh ML, 2012, BIOCHEM MEDICA, V22, P276, DOI 10.11613/bm.2012.031
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Mosavi A, 2018, WATER-SUI, V10, P0, DOI 10.3390/w10111536
+   Rawson A, 2022, BIG EARTH DATA, V6, P294, DOI 10.1080/20964471.2021.1965370
+   Riad S, 2004, MATH COMPUT MODEL, V40, P839, DOI 10.1016/j.mcm.2004.10.012
+   Riley SJ, 1999, INTERMT J SCI, VSci5, P23, DOI 10.1016/j.geomorph.2010.11.003
+   Robertson C, 2020, ISPRS J PHOTOGRAMM, V162, P214, DOI 10.1016/j.isprsjprs.2020.02.009
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Sahr K, 2008, COMPUT ENVIRON URBAN, V32, P174, DOI 10.1016/j.compenvurbsys.2007.11.005
+   SHANNON CE, 1949, P IRE, V37, P10, DOI 10.1109/JRPROC.1949.232969
+   Siahkamari S, 2018, GEOCARTO INT, V33, P927, DOI 10.1080/10106049.2017.1316780
+   Taormina R, 2012, ENG APPL ARTIF INTEL, V25, P1670, DOI 10.1016/j.engappai.2012.02.009
+   Tehrany MS, 2019, CATENA, V175, P174, DOI 10.1016/j.catena.2018.12.011
+   Tehrany MS, 2014, J HYDROL, V512, P332, DOI 10.1016/j.jhydrol.2014.03.008
+   Tin Kam Ho, 1995, PROCEEDINGS OF THE THIRD INTERNATIONAL CONFERENCE ON DOCUMENT ANALYSIS AND RECOGNITION, V0, PP278, DOI 10.1109/ICDAR.1995.598994
+   Vapnik VN, 2000, ADV NEUR IN, V12, P659
+   Wang L, 2020, T GIS, V24, P483, DOI 10.1111/tgis.12611
+   Wang ZL, 2015, J HYDROL, V527, P1130, DOI 10.1016/j.jhydrol.2015.06.008
+   Zhao G, 2019, SCI TOTAL ENVIRON, V659, P940, DOI 10.1016/j.scitotenv.2018.12.217
+NR 63
+TC 0
+Z9 0
+U1 9
+U2 9
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD DEC 15
+PY 2022
+VL 11
+IS 12
+BP 
+EP 
+DI 10.3390/ijgi11120627
+PG 26
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 7G2KE
+UT WOS:000902359300001
+DA 2023-04-26
+ER
+
+PT J
+AU Yin, H
+   Zhang, FX
+   Yang, XL
+   Meng, XK
+   Miao, Y
+   Hussain, MSN
+   Yang, L
+   Li, ZS
+AF Yin, Hua
+   Zhang, Feixiong
+   Yang, Xiaoli
+   Meng, Xiangkun
+   Miao, Yu
+   Hussain, Muhammad Saad Noor
+   Yang, Li
+   Li, Zhaoshen
+TI Research trends of artificial intelligence in pancreatic cancer: a bibliometric analysis
+SO FRONTIERS IN ONCOLOGY
+LA English
+DT Article
+DE Artificial intelligence; pancreatic cancer; AI; bibliometric; trends
+ID digital-image-analysis; differential-diagnosis; neural-networks; eus; adenocarcinoma; classification; segmentation; validation; prediction; deaths
+AB PurposeWe evaluated the related research on artificial intelligence (AI) in pancreatic cancer (PC) through bibliometrics analysis and explored the research hotspots and current status from 1997 to 2021. MethodsPublications related to AI in PC were retrieved from the Web of Science Core Collection (WoSCC) during 1997-2021. Bibliometrix package of R software 4.0.3 and VOSviewer were used to bibliometrics analysis. ResultsA total of 587 publications in this field were retrieved from WoSCC database. After 2018, the number of publications grew rapidly. The United States and Johns Hopkins University were the most influential country and institution, respectively. A total of 2805 keywords were investigated, 81 of which appeared more than 10 times. Co-occurrence analysis categorized these keywords into five types of clusters: (1) AI in biology of PC, (2) AI in pathology and radiology of PC, (3) AI in the therapy of PC, (4) AI in risk assessment of PC and (5) AI in endoscopic ultrasonography (EUS) of PC. Trend topics and thematic maps show that keywords " diagnosis ", "survival", "classification", and "management" are the research hotspots in this field. ConclusionThe research related to AI in pancreatic cancer is still in the initial stage. Currently, AI is widely studied in biology, diagnosis, treatment, risk assessment, and EUS of pancreatic cancer. This bibliometrics study provided an insight into AI in PC research and helped researchers identify new research orientations.
+C1 [Yin, Hua; Zhang, Feixiong; Yang, Xiaoli; Meng, Xiangkun; Miao, Yu; Yang, Li] Ningxia Med Univ, Dept Gastroenterol, Gen Hosp, Yinchuan, Peoples R China.
+   [Yin, Hua; Li, Zhaoshen] Ningxia Med Univ, Postgrad Training Base Shanghai Gongli Hosp, Shanghai, Peoples R China.
+   [Hussain, Muhammad Saad Noor] Dar Ul Shafa Hosp Sialkot, Dept Anesthesia, Punjab, Pakistan.
+   [Li, Zhaoshen] Ningxia Med Univ, Clin Med Coll, Yinchuan, Peoples R China.
+C3 Ningxia Medical University; Ningxia Medical University; Ningxia Medical University
+RP Yang, L (corresponding author), Ningxia Med Univ, Dept Gastroenterol, Gen Hosp, Yinchuan, Peoples R China.; Li, ZS (corresponding author), Ningxia Med Univ, Postgrad Training Base Shanghai Gongli Hosp, Shanghai, Peoples R China.; Li, ZS (corresponding author), Ningxia Med Univ, Clin Med Coll, Yinchuan, Peoples R China.
+EM yanglixie_2008@126.com; zhs_li@126.com
+FU University-level project [XM2019094]
+CR Appelbaum L, 2021, EUR J CANCER, V143, P19, DOI 10.1016/j.ejca.2020.10.019
+   Barat M, 2021, JPN J RADIOL, V39, P514, DOI 10.1007/s11604-021-01098-5
+   Bobo MF, 2018, PROC SPIE, V10574, P0, DOI 10.1117/12.2293751
+   Bohoudi O, 2017, RADIOTHER ONCOL, V125, P439, DOI 10.1016/j.radonc.2017.07.028
+   Boursi B, 2022, EUR J GASTROEN HEPAT, V34, P33, DOI 10.1097/MEG.0000000000002052
+   Boursi B, 2017, GASTROENTEROLOGY, V152, P840, DOI 10.1053/j.gastro.2016.11.046
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Campbell WG, 2017, MED PHYS, V44, P6148, DOI 10.1002/mp.12621
+   Cheng JY, 2021, AM J PATHOL, V191, P1684, DOI 10.1016/j.ajpath.2020.10.018
+   Cristiano S, 2019, NATURE, V570, P385, DOI 10.1038/s41586-019-1272-6
+   Das A, 2008, GASTROINTEST ENDOSC, V67, P861, DOI 10.1016/j.gie.2007.08.036
+   Datta J, 2014, SOUTH MED J, V107, P256, DOI 10.1097/SMJ.0000000000000088
+   Dmitriev Konstantin, 2017, MED IMAGE COMPUT COMPUT ASSIST INTERV, V10435, P150, DOI 10.1007/978-3-319-66179-7_18
+   Dumitrescu EA, 2022, DIAGNOSTICS, V12, P0, DOI 10.3390/diagnostics12020309
+   Enriquez JS, 2021, JMIR MED INF, V9, P0, DOI 10.2196/26601
+   Falagas ME, 2008, FASEB J, V22, P338, DOI 10.1096/fj.07-9492LSF
+   Gillies RJ, 2016, RADIOLOGY, V278, P563, DOI 10.1148/radiol.2015151169
+   Goonetilleke KS, 2007, EJSO-EUR J SURG ONC, V33, P266, DOI 10.1016/j.ejso.2006.10.004
+   Han IW, 2020, WORLD J GASTROENTERO, V26, P4453, DOI 10.3748/wjg.v26.i30.4453
+   Hayashi H, 2021, WORLD J GASTROENTERO, V27, P7480, DOI 10.3748/wjg.v27.i43.7480
+   Hirsch JE, 2005, P NATL ACAD SCI USA, V102, P16569, DOI 10.1073/pnas.0507655102
+   Kaissis GA, 2020, J CLIN MED, V9, P0, DOI 10.3390/jcm9051250
+   Kambakamba P, 2020, SURGERY, V167, P448, DOI 10.1016/j.surg.2019.09.019
+   Kenner B, 2021, PANCREAS, V50, P251, DOI 10.1097/MPA.0000000000001762
+   Kenner BJ, 2021, PANCREAS, V50, P916, DOI 10.1097/MPA.0000000000001882
+   Klimov S, 2021, FRONT ONCOL, V10, P0, DOI 10.3389/fonc.2020.593211
+   Le Berre C, 2020, GASTROENTEROLOGY, V158, P76, DOI 10.1053/j.gastro.2019.08.058
+   Liang Y, 2020, RADIOTHER ONCOL, V145, P193, DOI 10.1016/j.radonc.2020.01.021
+   Liao WC, 2013, LANCET ONCOL, V14, P1095, DOI 10.1016/S1470-2045(13)70388-7
+   Liu SL, 2019, CHINESE MED J-PEKING, V132, P2795, DOI 10.1097/CM9.0000000000000544
+   Marks DS, 2011, PLOS ONE, V6, P0, DOI 10.1371/journal.pone.0028766
+   McGuire S, 2016, ADV NUTR, V7, P418, DOI 10.3945/an.116.012211
+   Momeni-Boroujeni A, 2017, CANCER CYTOPATHOL, V125, P926, DOI 10.1002/cncy.21915
+   Mu W, 2020, THERANOSTICS, V10, P9779, DOI 10.7150/thno.49671
+   Musbahi A, 2022, WORLD J SURG, V46, P1314, DOI 10.1007/s00268-022-06492-2
+   Okon K, 2001, ANAL CELL PATHOL, V23, P129
+   Ozkan M, 2016, ENDOSC ULTRASOUND, V5, P101, DOI 10.4103/2303-9027.180473
+   Palumbo D, 2021, CANCERS, V13, P0, DOI 10.3390/cancers13194938
+   Pannala R, 2009, LANCET ONCOL, V10, P88, DOI 10.1016/S1470-2045(08)70337-1
+   Pereira SP, 2020, LANCET GASTROENTEROL, V5, P698, DOI 10.1016/S2468-1253(19)30416-9
+   Permuth JB, 2016, ONCOTARGET, V7, P85785, DOI 10.18632/oncotarget.11768
+   Piepoli A, 2012, PLOS ONE, V7, P0, DOI 10.1371/journal.pone.0033663
+   Rahib L, 2014, CANCER RES, V74, P2913, DOI 10.1158/0008-5472.CAN-14-0155
+   Ramesh AN, 2004, ANN ROY COLL SURG, V86, P334, DOI 10.1308/147870804290
+   Saftoiu A, 2008, GASTROINTEST ENDOSC, V68, P1086, DOI 10.1016/j.gie.2008.04.031
+   Saftoiu A, 2015, GASTROINTEST ENDOSC, V82, P59, DOI 10.1016/j.gie.2014.11.040
+   Sahara K, 2021, HEPATOBIL SURG NUTR, V10, P20, DOI 10.21037/hbsn.2019.11.30
+   Savareh BA, 2020, PANCREATOLOGY, V20, P1195, DOI 10.1016/j.pan.2020.07.399
+   Shen ZF, 2022, FRONT ONCOL, V12, P0, DOI 10.3389/fonc.2022.843735
+   Skawran SM, 2021, EUR J RADIOL, V140, P0, DOI 10.1016/j.ejrad.2021.109733
+   Su AI, 2001, CANCER RES, V61, P7388
+   Tang LH, 2012, AM J SURG PATHOL, V36, P1761, DOI 10.1097/PAS.0b013e318263207c
+   Tonozuka R, 2021, J HEPATO-BIL-PAN SCI, V28, P95, DOI 10.1002/jhbp.825
+   Tsujikawa T, 2017, CELL REP, V19, P203, DOI 10.1016/j.celrep.2017.03.037
+   Watson MD, 2021, AM SURGEON, V87, P1901, DOI 10.1177/0003134820982557
+   Wei R, 2019, TECHNOL CANCER RES T, V18, P0, DOI 10.1177/1533033818824339
+   Xing FY, 2016, IEEE T MED IMAGING, V35, P550, DOI 10.1109/TMI.2015.2481436
+   Xing FY, 2014, IEEE T BIO-MED ENG, V61, P859, DOI 10.1109/TBME.2013.2291703
+   Yang D, 2019, FRONT ONCOL, V9, P0, DOI 10.3389/fonc.2019.00494
+   Yu YT, 2020, ANN TRANSL MED, V8, P0, DOI 10.21037/atm-20-4235
+   Zhang J, 2020, GASTROINTEST ENDOSC, V92, P874, DOI 10.1016/j.gie.2020.04.071
+   Zhang YJ, 2020, BMC CANCER, V20, P0, DOI 10.1186/s12885-020-07626-2
+   Zhang ZM, 2020, FRONT CELL DEV BIOL, V8, P0, DOI 10.3389/fcell.2020.582864
+   Zhu ML, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0063820
+   Zhu XQ, 2021, FRONT PHARMACOL, V12, P0, DOI 10.3389/fphar.2021.687757
+NR 65
+TC 3
+Z9 3
+U1 18
+U2 30
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 2234-943X
+EI 
+J9 FRONT ONCOL
+JI Front. Oncol.
+PD AUG 2
+PY 2022
+VL 12
+IS 
+BP 
+EP 
+DI 10.3389/fonc.2022.973999
+PG 13
+WC Oncology
+SC Oncology
+GA 3U8CR
+UT WOS:000841193200001
+PM 35982967
+DA 2023-04-26
+ER
+
+PT J
+AU Murdaca, G
+   Rucci, A
+   Prati, C
+AF Murdaca, Gianluca
+   Rucci, Alessio
+   Prati, Claudio
+TI Deep Learning for InSAR Phase Filtering: An Optimized Framework for Phase Unwrapping
+SO REMOTE SENSING
+LA English
+DT Article
+DE deep learning; interferometric synthetic aperture radar (InSAR); phase filtering; coherence estimation
+ID interferometric phase; noise; reduction; transform
+AB Interferometric Synthetic Aperture Radar (InSAR) data processing applications, such as deformation monitoring and topographic mapping, require an interferometric phase filtering step. Indeed, the filtering quality significantly impacts the deformation and terrain height estimation accuracy. However, the existing classical and deep learning-based phase filtering methods provide artefacts in the filtered areas where a large amount of noise prevents retrieving the original signal. In this way, we can no longer distinguish the underlying informative signal for the next processing step. This paper proposes a deep convolutional neural network filtering method, developing a novel learning strategy to preserve the initial phase noise input into these crucial areas. Thanks to the encoder-decoder powerful phase feature extraction ability, the network can predict an accurate coherence and filtered interferometric phase, ensuring reliable final results. Furthermore, we also address a novel Synthetic Aperture Radar (SAR) interferograms simulation strategy that, using initial parameters estimated from real SAR images, considers physical behaviors typical of a real acquisition. According to the results achieved on simulated and real InSAR data, the proposed filtering method significantly outperforms the classical and deep learning-based ones.
+C1 [Murdaca, Gianluca; Prati, Claudio] Ploitecn Milano, Dept Elect Informat & Bioengn, I-20133 Milan, Italy.
+   [Rucci, Alessio] TRE ALTAMIRA Srl, I-20143 Milan, Italy.
+RP Murdaca, G (corresponding author), Ploitecn Milano, Dept Elect Informat & Bioengn, I-20133 Milan, Italy.
+EM gianluca.murdaca@polimi.it
+CR Bamler R, 1998, INVERSE PROBL, V14, PR1, DOI 10.1088/0266-5611/14/4/001
+   Baran I, 2003, IEEE T GEOSCI REMOTE, V41, P2114, DOI 10.1109/TGRS.2003.817212
+   Bian Y, 2011, IEEE T GEOSCI REMOTE, V49, P1396, DOI 10.1109/TGRS.2010.2076286
+   Buades A, 2005, PROC COMPUT VIS PATT, V2, P60
+   Chao CF, 2013, IEEE T GEOSCI REMOTE, V51, P5315, DOI 10.1109/TGRS.2012.2234467
+   Dabov K, 2007, IEEE T IMAGE PROCESS, V16, P2080, DOI 10.1109/TIP.2007.901238
+   Deledalle CA, 2011, IEEE T GEOSCI REMOTE, V49, P1441, DOI 10.1109/TGRS.2010.2076376
+   Deledalle CA, 2009, IEEE T IMAGE PROCESS, V18, P2661, DOI 10.1109/TIP.2009.2029593
+   Fu SH, 2013, IEEE T GEOSCI REMOTE, V51, P552, DOI 10.1109/TGRS.2012.2202911
+   Glorot X., 2010, AISTATS, V0, PPPP 249, DOI 10.4236/JSIP.2015.62006
+   Goldstein RM, 1998, GEOPHYS RES LETT, V25, P4035, DOI 10.1029/1998GL900033
+   GOODMAN NR, 1963, ANN MATH STAT, V34, P152, DOI 10.1214/aoms/1177704250
+   Iglewicz B., 1993, DETECT HANDLE OUTLIE, V16, P0
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Lee JS, 1998, IEEE T GEOSCI REMOTE, V36, P1456, DOI 10.1109/36.718849
+   Lopez-Martinez C, 2002, IEEE T GEOSCI REMOTE, V40, P2553, DOI 10.1109/TGRS.2002.806997
+   Prati C., 1994, 3743992HGE1 ESA, V0, P0
+   Pu LM, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12203453
+   Ronneberger O., 2015, INT C MEDICAL IMAGE, V0, P234
+   Sica F, 2021, IEEE T GEOSCI REMOTE, V59, P3917, DOI 10.1109/TGRS.2020.3020427
+   Sica F, 2018, IEEE T GEOSCI REMOTE, V56, P3456, DOI 10.1109/TGRS.2018.2800087
+   Sun XY, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142340
+   Vasile G, 2006, IEEE T GEOSCI REMOTE, V44, P1609, DOI 10.1109/TGRS.2005.864142
+   Vincent P., 2008, P INT C MACH LEARN I, V0, P0, DOI DOI 10.1145/1390156.1390294
+   Vincent P, 2010, J MACH LEARN RES, V11, P3371
+   Yu QF, 2007, IEEE GEOSCI REMOTE S, V4, P23, DOI 10.1109/LGRS.2006.883527
+   ZEBKER HA, 1992, IEEE T GEOSCI REMOTE, V30, P950, DOI 10.1109/36.175330
+   Zha XJ, 2008, IEEE GEOSCI REMOTE S, V5, P404, DOI 10.1109/LGRS.2008.916066
+   Zhang K, 2017, IEEE T IMAGE PROCESS, V26, P3142, DOI 10.1109/TIP.2017.2662206
+NR 29
+TC 0
+Z9 0
+U1 17
+U2 17
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD OCT 15
+PY 2022
+VL 14
+IS 19
+BP 
+EP 
+DI 10.3390/rs14194956
+PG 23
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 5H9LX
+UT WOS:000867993200001
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, XM
+   Bai, YJ
+   Cao, J
+   Yao, JP
+   Zhang, Y
+   Wang, M
+AF Liu, Xiaoming
+   Bai, Yingjie
+   Cao, Jun
+   Yao, Junping
+   Zhang, Ying
+   Wang, Man
+TI Joint disease classification and lesion segmentation via one-stage attention-based convolutional neural network in OCT images
+SO BIOMEDICAL SIGNAL PROCESSING AND CONTROL
+LA English
+DT Article
+DE Optical coherence tomography; Convolutional neural network; Attention mechanism; Image segmentation; Image classification
+ID geographic atrophy segmentation; automated detection; coherence; region; layer
+AB Optical coherence tomography (OCT) is a useful tool for the diagnosis of macular diseases. It is necessary to identify macular diseases and segment lesion areas for assisting ophthalmologist in clinical diagnosis. Deep learning-based methods have been proposed to solve this issue. However, most of them used segmentation task to guide classification task and two tasks are optimized independently so that the information learned by the classification task cannot be transferred to the segmentation task. To overcome the problems, we propose a one stage attention-based method for retinal OCT image classification and segmentation in bounding box level supervision. Specifically, the classification network is used to generate heatmap by Gradient-weighted Class Activation Mapping and introduces the proposed attention block. Transformation consistency is used for encouraging the predicted heatmap to be consistent for the same input after the image transformation. The grayscale feature map (GFM) is proposed based on grayscale prior information. GFM is applied to dynamically constrain the heatmap for further gaining stronger discriminative information and develop attention blocks as an attention constraint. Experimental results on two datasets verify the efficiency of the proposed method.
+C1 [Liu, Xiaoming; Bai, Yingjie; Cao, Jun] Wuhan Univ Sci, Sch Comp Sci & Technol, Technology, Wuhan, Peoples R China.
+   [Liu, Xiaoming; Bai, Yingjie; Cao, Jun] Wuhan Univ Sci & Technol, Sch Comp Sci & Technol, Wuhan 430065, Peoples R China.
+   [Liu, Xiaoming; Bai, Yingjie; Cao, Jun] Hubei Prov Key Lab Intelligent Informat Proc & Re, Wuhan 430065, Peoples R China.
+   [Yao, Junping] Wuhan Univ Sci & Technol, Dept Ophthalmol, Tianyou Hosp Affiliated, Wuhan, Peoples R China.
+   [Zhang, Ying; Wang, Man] Wuhan Aier Eye Hosp, Wuhan 430014, Peoples R China.
+C3 Wuhan University of Science & Technology; Wuhan University of Science & Technology
+RP Liu, XM (corresponding author), Wuhan Univ Sci, Sch Comp Sci & Technol, Technology, Wuhan, Peoples R China.; Liu, XM (corresponding author), Wuhan Univ Sci & Technol, Sch Comp Sci & Technol, Wuhan 430065, Peoples R China.; Liu, XM (corresponding author), Hubei Prov Key Lab Intelligent Informat Proc & Re, Wuhan 430065, Peoples R China.
+EM lxmspace@gmail.com
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   Akashi A, 2013, INVEST OPHTH VIS SCI, V54, P6025, DOI 10.1167/iovs.13-12630
+   Albarrak A., 2013, MED IM UND AN C, V0, P0
+   Anoop BN, 2021, BIOMED SIGNAL PROCES, V66, P0, DOI 10.1016/j.bspc.2021.102463
+   Chen Q, 2013, BIOMED OPT EXPRESS, V4, P2729, DOI 10.1364/BOE.4.002729
+   Cheung CMG, 2017, OPHTHALMOLOGY, V124, P1690, DOI 10.1016/j.ophtha.2017.04.028
+   Dai JF, 2015, IEEE I CONF COMP VIS, V0, PP1635, DOI 10.1109/ICCV.2015.191
+   Fang LY, 2019, IEEE T MED IMAGING, V38, P1959, DOI 10.1109/TMI.2019.2898414
+   Ferris FL, 2013, OPHTHALMOLOGY, V120, P844, DOI 10.1016/j.ophtha.2012.10.036
+   HUANG D, 1991, SCIENCE, V254, P1178, DOI 10.1126/science.1957169
+   Huang LF, 2019, IEEE SIGNAL PROC LET, V26, P1026, DOI 10.1109/LSP.2019.2917779
+   Kermany DS, 2018, CELL, V172, P1122, DOI 10.1016/j.cell.2018.02.010
+   Kervadec H., 1900, P365, V0, P0
+   Khoreva A, 2017, PROC CVPR IEEE, V0, PP1665, DOI 10.1109/CVPR.2017.181
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krahenbuhl P., 2011, ADV NEURAL INFORM PR, V0, P109
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Laradji I., 2020, ARXIV200702180, V0, P0
+   Lemaitre G, 2016, J OPHTHALMOL, V2016, P0, DOI 10.1155/2016/3298606
+   Li DW, 2015, PROCEEDINGS 3RD IAPR ASIAN CONFERENCE ON PATTERN RECOGNITION ACPR 2015, V0, PP111, DOI 10.1109/ACPR.2015.7486476
+   Li F, 2019, BIOMED OPT EXPRESS, V10, P6204, DOI 10.1364/BOE.10.006204
+   Li KP, 2020, IEEE T PATTERN ANAL, V42, P2996, DOI 10.1109/TPAMI.2019.2921543
+   Liu XM, 2020, IEEE J-STSP, V14, P1176, DOI 10.1109/JSTSP.2020.3013418
+   Liu XM, 2019, IEEE ACCESS, V7, P3046, DOI 10.1109/ACCESS.2018.2889321
+   National Bureau of Statistics of China, 2021, 16201 CEPR, V0, P0
+   Niu SJ, 2017, PATTERN RECOGN, V61, P104, DOI 10.1016/j.patcog.2016.07.022
+   Niu SJ, 2016, BIOMED OPT EXPRESS, V7, P581, DOI 10.1364/BOE.7.000581
+   Rasti R, 2018, J BIOMED OPT, V23, P0, DOI 10.1117/1.JBO.23.3.035005
+   Rong YB, 2019, IEEE J BIOMED HEALTH, V23, P253, DOI 10.1109/JBHI.2018.2795545
+   Selvaraju RR, 2020, INT J COMPUT VISION, V128, P336, DOI 10.1007/s11263-019-01228-7
+   Simonyan K., 2015, ABS14091556 CORR, V0, P0
+   Srinivasan PP, 2014, BIOMED OPT EXPRESS, V5, P3568, DOI 10.1364/BOE.5.003568
+   Sun Y., 2020, IEEE J BIOMED HEALTH, V0, P1
+   Thomas A, 2021, BIOMED SIGNAL PROCES, V67, P0, DOI 10.1016/j.bspc.2021.102538
+   Wang X, 2020, IEEE J BIOMED HEALTH, V24, P3431, DOI 10.1109/JBHI.2020.2983730
+   Yude Wang, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP12272, DOI 10.1109/CVPR42600.2020.01229
+   Zhou B, 2016, PROC CVPR IEEE, V0, PP2921, DOI 10.1109/CVPR.2016.319
+NR 37
+TC 5
+Z9 5
+U1 2
+U2 17
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 1746-8094
+EI 1746-8108
+J9 BIOMED SIGNAL PROCES
+JI Biomed. Signal Process. Control
+PD JAN 15
+PY 2022
+VL 71
+IS 
+BP 
+EP 
+DI 10.1016/j.bspc.2021.103087
+EA AUG 2021
+PG 12
+WC Engineering, Biomedical
+SC Engineering
+GA WP6WE
+UT WOS:000713268500004
+DA 2023-04-26
+ER

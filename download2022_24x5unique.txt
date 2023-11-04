@@ -1,0 +1,534 @@
+
+PT J
+AU Li, QY
+   Mou, LC
+   Hua, YS
+   Shi, YL
+   Zhu, XX
+AF Li, Qingyu
+   Mou, Lichao
+   Hua, Yuansheng
+   Shi, Yilei
+   Zhu, Xiao Xiang
+TI CrossGeoNet: A Framework for Building Footprint Generation of Label-Scarce Geographical Regions
+SO INTERNATIONAL JOURNAL OF APPLIED EARTH OBSERVATION AND GEOINFORMATION
+LA English
+DT Article
+DE Building footprint; Semantic segmentation; Convolutional neural network; Co-segmentation; Planet satellite
+ID segmentation
+AB Building footprints are essential for understanding urban dynamics. Planet satellite imagery with daily repetition frequency and high resolution has opened new opportunities for building mapping at large scales. However, suitable building mapping methods are scarce for less developed regions, as these regions lack massive annotated samples to provide strong supervisory information. To address this problem, we propose to learn crossgeolocation attention maps in a co-segmentation network, which is able to improve the discriminability of buildings within the target city and provide a more general building representation in different cities. In this way, the limited supervisory information resulting from insufficient training examples in target cities can be compensated. Our method is termed as CrossGeoNet, and consists of three elemental modules: a Siamese encoder, a cross-geolocation attention module, and a Siamese decoder. More specifically, the encoder learns feature maps from a pair of images from two different geo-locations. The cross-location attention module aims at learning similarity based on these two feature maps and can provide a global overview of common objects (e.g., buildings) in different cities. The decoder predicts segmentation masks of buildings using the learned crosslocation attention maps and the original convolved images. The proposed method is evaluated on two datasets with different spatial resolutions, i.e., Planet dataset (3 m/pixel) and Inria dataset (0.3 m/pixel), which are collected from various locations around the world. Experimental results show that CrossGeoNet can well extract buildings of different sizes and alleviate false detections, which significantly outperforms other competitors.
+C1 [Li, Qingyu; Mou, Lichao; Hua, Yuansheng; Zhu, Xiao Xiang] Tech Univ Munich TUM, Data Sci Earth Observat, Arcisstr 21, D-80333 Munich, Germany.
+   [Li, Qingyu; Mou, Lichao; Hua, Yuansheng; Zhu, Xiao Xiang] Remote Sensing Technol Inst IMF, German Aerosp Ctr DLR, D-82234 Oberpfaffenhofen, Wessling, Germany.
+   [Shi, Yilei] Tech Univ Munich TUM, Remote Sensing Technol LMF, Arcisstr 21, D-80333 Munich, Germany.
+C3 Technical University of Munich; Helmholtz Association; German Aerospace Centre (DLR); Technical University of Munich
+RP Zhu, XX (corresponding author), Tech Univ Munich TUM, Data Sci Earth Observat, Arcisstr 21, D-80333 Munich, Germany.; Zhu, XX (corresponding author), Remote Sensing Technol Inst IMF, German Aerosp Ctr DLR, D-82234 Oberpfaffenhofen, Wessling, Germany.
+EM qingyu.li@tum.de; lichao.mou@dlr.de; yuansheng.hua@dlr.de; yilei.shi@tum.de; xiaoxiang.zhu@dlr.de
+FU European Research Council (ERC) under the European Union [ERC-2016-StG-714087]; Helmholtz Association [ZT-I-PF-5-01]; Helmholtz Excellent Professorship [W2-W3-100]; German Federal Ministry of Education and Research (BMBF) [01DD20001]; German Federal Ministry of Economics and Technology [50EE2201C]
+CR Asner GP, 2017, REMOTE SENS ECOL CON, V3, P57, DOI 10.1002/rse2.42
+   Bischke B, 2019, IEEE IMAGE PROC, V0, PP1480, DOI 10.1109/ICIP.2019.8803050
+   Chen SX, 2022, IEEE J-STARS, V15, P1526, DOI 10.1109/JSTARS.2021.3139017
+   Danelljan M., 2014, P BRIT MACH VIS C, V0, P0, DOI DOI 10.5244/C.28.65
+   Deng J., 2009, P CVPR, V0, P248
+   Guo HA, 2022, ISPRS J PHOTOGRAMM, V183, P240, DOI 10.1016/j.isprsjprs.2021.11.005
+   Guo HN, 2021, REMOTE SENS ENVIRON, V264, P0, DOI 10.1016/j.rse.2021.112589
+   Hou Rui, 2019, ARXIV190708895, V0, P0
+   Houborg R, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090768
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Huang X, 2020, REMOTE SENS ENVIRON, V244, P0, DOI 10.1016/j.rse.2020.111802
+   Ivanovsky L, 2019, PROC CONF OPEN INNOV, V0, PP116, DOI 10.23919/FRUCT.2019.8711930
+   Kaiming He, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP9726, DOI 10.1109/CVPR42600.2020.00975
+   Kaiser P, 2017, IEEE T GEOSCI REMOTE, V55, P6054, DOI 10.1109/TGRS.2017.2719738
+   Li QY, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3109844
+   Li QY, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12213537
+   Li QY, 2020, IEEE T GEOSCI REMOTE, V58, P7502, DOI 10.1109/TGRS.2020.2973720
+   Li Weihao, 2018, ACCV, V0, P0
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Pan F, 2020, PROC CVPR IEEE, V0, PP3763, DOI 10.1109/CVPR42600.2020.00382
+   Pan ZK, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12101574
+   Papoutsakis Konstantinos, 2017, P IEEE C COMP VIS PA, V0, P6827
+   Shi YL, 2020, ISPRS J PHOTOGRAMM, V159, P184, DOI 10.1016/j.isprsjprs.2019.11.004
+   Tonbul H, 2020, PHOTOGRAMM ENG REM S, V86, P547, DOI 10.14358/PERS.86.9.547
+   Vu TH, 2019, PROC CVPR IEEE, V0, PP2512, DOI 10.1109/CVPR.2019.00262
+   Wang WG, 2019, IEEE I CONF COMP VIS, V0, PP9235, DOI 10.1109/ICCV.2019.00933
+   Wang XL, 2021, PROC CVPR IEEE, V0, PP3023, DOI 10.1109/CVPR46437.2021.00304
+NR 30
+TC 2
+Z9 2
+U1 4
+U2 8
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1569-8432
+EI 1872-826X
+J9 INT J APPL EARTH OBS
+JI Int. J. Appl. Earth Obs. Geoinf.
+PD JUL 15
+PY 2022
+VL 111
+IS 
+BP 
+EP 
+DI 10.1016/j.jag.2022.102824
+EA JUN 2022
+PG 11
+WC Remote Sensing
+SC Remote Sensing
+GA 2D5UK
+UT WOS:000811611600003
+DA 2023-04-26
+ER
+
+PT J
+AU Yu, DW
+   Ji, SP
+   Li, X
+   Yuan, ZD
+   Shen, CY
+AF Yu, Dawen
+   Ji, Shunping
+   Li, Xue
+   Yuan, Zhaode
+   Shen, Chaoyong
+TI Earthquake Crack Detection From Aerial Images Using a Deformable Convolutional Neural Network
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Earthquakes; Surface cracks; Feature extraction; Remote sensing; Pipelines; Image segmentation; Deep learning; Deformable convolutional neural network (CNN); earthquake crack detection; remote sensing images; semantic segmentation; spatial attention
+AB Detecting the terrain surface cracks caused by earthquakes, which are termed coseismic ruptures, has important significance for discovering concealed faults, monitoring their movements, and forecasting possible follow-on earthquakes. On May 22, 2021, Maduo County in Qinghai province, China, suffered an earthquake with a magnitude of 7.4, which created densely distributed cracks. In this study, we designed an automatic crack detection framework based on remote sensing technology. With the use of low-altitude unmanned aerial vehicles (UAVs), we obtained very high-resolution aerial images of the area affected by the earthquake, which were further processed by photogrammetric software to produce digital orthophoto maps (DOMs). We then designed a novel terrain surface crack detection neural network, which differs from the previous methods that focus on detecting cracks in man-made object surfaces such as flat roads. We investigated the spatial property of the sinuous linear cracks and handled this by introducing adaptive deformable convolutions with a context-channel-space boosted mechanism. The feature extraction stage, feature optimization stage, and upsampling stage were embedded with the deformable convolutions to form a compact and powerful crack detector, named Crack-CADNet [the Context-chAnnel-space boosted Deformable convolutional neural network (CNN) for crack detection]. The postprocessing included filtering out the nontectonic cracks, aided by annotations from experts, and grouping and vectorizing the generated binary segmentation map as crack polygons, which were evaluated at the instance level. In addition to the first in-depth investigation of detecting earthquake cracks with aerial remote sensing and a deep learning-based process, the crack detection network we propose outperformed the recent CNN-based methods designed for general semantic segmentation and crack detection. Source code and the Maduo earthquake crack dataset will be available at http://gpcv.whu.edu.cn/data/.
+C1 [Yu, Dawen; Ji, Shunping] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+   [Li, Xue] China Earthquake Adm, Inst Seismol, Wuhan 430072, Peoples R China.
+   [Yuan, Zhaode] China Earthquake Adm, State Key Lab Earthquake Dynam, Inst Geol, Beijing 100029, Peoples R China.
+   [Shen, Chaoyong] Third Surveying & Mapping Inst Guizhou Prov, Guiyang 550004, Peoples R China.
+C3 Wuhan University; China Earthquake Administration; China Earthquake Administration
+RP Ji, SP (corresponding author), Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+EM yudawen@whu.edu.cn; jishunping@whu.edu.cn; leexue1211@126.com; yzd19862922@163.com; shency@gzchsy.cn
+FU National Natural Science Foundation of China [42171430, 42030102]
+CR Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bai YS, 2023, STRUCT HEALTH MONIT, V22, P338, DOI 10.1177/14759217221083649
+   Dung CV, 2019, AUTOMAT CONSTR, V99, P52, DOI 10.1016/j.autcon.2018.11.028
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen X, 2015, CORR, V1504, P325
+   Dai JF, 2017, IEEE I CONF COMP VIS, V0, PP764, DOI 10.1109/ICCV.2017.89
+   Dorafshan S, 2018, J BRIDGE ENG, V23, P0, DOI 10.1061/(ASCE)BE.1943-5592.0001291
+   Feng C, 2017, COMPUTING IN CIVIL ENGINEERING 2017: INFORMATION MODELLING AND DATA ANALYTICS, V0, P298
+   Fu J, 2019, PROC CVPR IEEE, V0, PP3141, DOI 10.1109/CVPR.2019.00326
+   Han CJ, 2022, IEEE T INTELL TRANSP, V23, P22135, DOI 10.1109/TITS.2021.3095507
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Ji SP, 2020, LANDSLIDES, V17, P1337, DOI 10.1007/s10346-020-01353-2
+   Ju HY, 2020, STRUCT CONTROL HLTH, V27, P0, DOI 10.1002/stc.2551
+   Ke X, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14092165
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Koch C, 2015, ADV ENG INFORM, V29, P196, DOI 10.1016/j.aei.2015.01.008
+   Krishnan SSR, 2020, IEEE GLOBE WORK, V0, P0, DOI DOI 10.1109/GCWkshps50303.2020.9367459
+   Li HT, 2021, APPL SCI-BASEL, V11, P0, DOI 10.3390/app11115074
+   Lin GS, 2017, PROC CVPR IEEE, V0, PP5168, DOI 10.1109/CVPR.2017.549
+   Liu S, 2018, PROC CVPR IEEE, V0, PP8759, DOI 10.1109/CVPR.2018.00913
+   Liu YH, 2019, NEUROCOMPUTING, V338, P139, DOI 10.1016/j.neucom.2019.01.036
+   Liu ZQ, 2019, AUTOMAT CONSTR, V104, P129, DOI 10.1016/j.autcon.2019.04.005
+   Ni FT, 2019, STRUCT CONTROL HLTH, V26, P0, DOI 10.1002/stc.2286
+   Nishikawa T, 2012, COMPUT-AIDED CIV INF, V27, P29, DOI 10.1111/j.1467-8667.2011.00716.x
+   Pauly L., 2017, P 34 ISARC, V0, PP479, DOI 10.22260/ISARC2017/0066
+   Prasanna P, 2016, IEEE T AUTOM SCI ENG, V13, P591, DOI 10.1109/TASE.2014.2354314
+   Ronneberger O., 2015, P MED IM COMP COMP A, V0, P234
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Wang WL, 2021, SCI CHINA EARTH SCI, V64, P1371, DOI 10.1007/s11430-021-9803-3
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Wu XH, 2021, PATTERN RECOGN LETT, V145, P225, DOI 10.1016/j.patrec.2021.01.034
+   Yang F, 2020, IEEE T INTELL TRANSP, V21, P1525, DOI 10.1109/TITS.2019.2910595
+   Yang XC, 2018, COMPUT-AIDED CIV INF, V33, P1090, DOI 10.1111/mice.12412
+   Yu F, 2018, PROC CVPR IEEE, V0, PP2403, DOI 10.1109/CVPR.2018.00255
+   Yuan YT, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21175894
+   Zhang A, 2017, COMPUT-AIDED CIV INF, V32, P805, DOI 10.1111/mice.12297
+   Zhang KG, 2018, J COMPUT CIVIL ENG, V32, P0, DOI 10.1061/(ASCE)CP.1943-5487.0000736
+   Zhang L, 2016, IEEE IMAGE PROC, V0, PP3708, DOI 10.1109/ICIP.2016.7533052
+   Zhang WY, 2014, SENSORS-BASEL, V14, P19307, DOI 10.3390/s141019307
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+   Zhou X., 2019, P IEEE C COMPUTER VI, V0, P0
+   Zou Q, 2019, IEEE T IMAGE PROCESS, V28, P1498, DOI 10.1109/TIP.2018.2878966
+NR 42
+TC 1
+Z9 1
+U1 14
+U2 28
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2022
+VL 60
+IS 
+BP 
+EP 
+DI 10.1109/TGRS.2022.3183157
+PG 12
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA 2J4YK
+UT WOS:000815664200006
+DA 2023-04-26
+ER
+
+PT J
+AU Gharakhanlou, NM
+   Perez, L
+AF Gharakhanlou, Navid Mahdizadeh
+   Perez, Liliana
+TI Spatial Prediction of Current and Future Flood Susceptibility: Examining the Implications of Changing Climates on Flood Susceptibility Using Machine Learning Models
+SO ENTROPY
+LA English
+DT Article
+DE climate change; machine learning (ML); geographical information systems (GIS); flood susceptibility mapping; natural hazards
+ID artificial neural-network; support vector machine; intelligence approach; frequency ratio; catchment; regression; impact; validation; management; selection
+AB The main aim of this study was to predict current and future flood susceptibility under three climate change scenarios of RCP2.6 (i.e., optimistic), RCP4.5 (i.e., business as usual), and RCP8.5 (i.e., pessimistic) employing four machine learning models, including Gradient Boosting Machine (GBM), Random Forest (RF), Multilayer Perceptron Neural Network (MLP-NN), and Naive Bayes (NB). The study was conducted for two watersheds in Canada, namely Lower Nicola River, BC and Loup, QC. Three statistical metrics were used to validate the models: Receiver Operating Characteristic Curve, Figure of Merit, and F1-score. Findings indicated that the RF model had the highest accuracy in providing the flood susceptibility maps (FSMs). Moreover, the provided FSMs indicated that flooding is more likely to occur in the Lower Nicola River watershed than the Loup watershed. Following the RCP4.5 scenario, the area percentages of the flood susceptibility classes in the Loup watershed in 2050 and 2080 have changed by the following percentages from the year 2020 and 2050, respectively: Very Low = -1.68%, Low = -5.82%, Moderate = +6.19%, High = +0.71%, and Very High = +0.6% and Very Low = -1.61%, Low = +2.98%, Moderate = -3.49%, High = +1.29%, and Very High = +0.83%. Likewise, in the Lower Nicola River watershed, the changes between the years 2020 and 2050 and between the years 2050 and 2080 were: Very Low = -0.38%, Low = -0.81%, Moderate = -0.95%, High = +1.72%, and Very High = +0.42% and Very Low = -1.31%, Low = -1.35%, Moderate = -1.81%, High = +2.37%, and Very High = +2.1%, respectively. The impact of climate changes on future flood-prone places revealed that the regions designated as highly and very highly susceptible to flooding, grow in the forecasts for both watersheds. The main contribution of this study lies in the novel insights it provides concerning the flood susceptibility of watersheds in British Columbia and Quebec over time and under various climate change scenarios.
+C1 [Gharakhanlou, Navid Mahdizadeh; Perez, Liliana] Univ Montreal, Dept Geog, Lab Environm Geosimulat LEDGE, 1375 Ave Therese Lavoie Roux, Montreal, PQ H2V 0B3, Canada.
+C3 Universite de Montreal
+RP Perez, L (corresponding author), Univ Montreal, Dept Geog, Lab Environm Geosimulat LEDGE, 1375 Ave Therese Lavoie Roux, Montreal, PQ H2V 0B3, Canada.
+EM l.perez@umontreal.ca
+FU Natural Sciences and Engineering Research Council (NSERC) of Canada [RGPIN/05396-2016]
+CR Abbot J, 2014, ATMOS RES, V138, P166, DOI 10.1016/j.atmosres.2013.11.002
+   Ahmad A, 2015, SOL ENERGY, V122, P1398, DOI 10.1016/j.solener.2015.10.055
+   Ahmadlou M, 2019, GEOCARTO INT, V34, P1252, DOI 10.1080/10106049.2018.1474276
+   Ahmed N, 2021, GEOCARTO INT, V0, P0, DOI DOI 10.1080/10106049.2021.2005698
+   Apurv T, 2015, J HYDROL, V527, P281, DOI 10.1016/j.jhydrol.2015.04.056
+   Ardabili SF, 2018, ENG APPL COMP FLUID, V12, P438, DOI 10.1080/19942060.2018.1452296
+   Arnell NW, 2016, CLIMATIC CHANGE, V134, P387, DOI 10.1007/s10584-014-1084-5
+   Atluri G, 2018, ACM COMPUT SURV, V51, P0, DOI 10.1145/3161602
+   Avand M, 2022, J HYDRO-ENVIRON RES, V40, P1, DOI 10.1016/j.jher.2021.10.002
+   Avand M, 2021, J ENVIRON MANAGE, V295, P0, DOI 10.1016/j.jenvman.2021.113040
+   Avand M, 2021, ADV SPACE RES, V67, P3169, DOI 10.1016/j.asr.2021.02.011
+   Avand M, 2021, J HYDROL, V595, P0, DOI 10.1016/j.jhydrol.2020.125663
+   Bates PD, 2012, HYDROL PROCESS, V26, P2515, DOI 10.1002/hyp.9374
+   Bates PD, 2004, HYDROL PROCESS, V18, P2593, DOI 10.1002/hyp.5649
+   Pham BT, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12010239
+   Bishop, 2006, PATTERN RECOGN, V0, P0
+   Cea L, 2010, J HYDROL, V382, P88, DOI 10.1016/j.jhydrol.2009.12.020
+   Centre for Research on the Epidemiology of Disasters CRED; UN Office for Disaster Risk Reduction, 2021, HUM COST DIS OV LAST, V0, P0
+   Chakrabortty R, 2021, WATER RESOUR MANAG, V35, P4251, DOI 10.1007/s11269-021-02944-x
+   Chapi K, 2017, ENVIRON MODELL SOFTW, V95, P229, DOI 10.1016/j.envsoft.2017.06.012
+   Chau KW, 2005, J HYDROL ENG, V10, P485, DOI 10.1061/(ASCE)1084-0699(2005)10:6(485)
+   Chen JF, 2020, INT J ENV RES PUB HE, V17, P0, DOI 10.3390/ijerph17010049
+   Chen W, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134979
+   Chen W, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9183755
+   Chicco D, 2020, BMC GENOMICS, V21, P0, DOI 10.1186/s12864-019-6413-7
+   Collins EL, 2022, ENVIRON RES LETT, V17, P0, DOI 10.1088/1748-9326/ac4f0f
+   Costache R, 2022, J HYDROL, V609, P0, DOI 10.1016/j.jhydrol.2022.127747
+   Costache R, 2021, GEOCARTO INT, V0, P0, DOI DOI 10.1080/10106049.2021.2001580
+   Costache R, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21010280
+   Dammalage TL, 2019, ENG TECHNOL APPL SCI, V9, P3887
+   Das S, 2020, REMOTE SENS APPL, V20, P0, DOI 10.1016/j.rsase.2020.100379
+   Diakakis M, 2016, INT J DISAST RISK RE, V18, P171, DOI 10.1016/j.ijdrr.2016.06.010
+   Bui DT, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134413
+   Bui DT, 2019, CATENA, V179, P184, DOI 10.1016/j.catena.2019.04.009
+   Bui DT, 2019, SCI TOTAL ENVIRON, V668, P1038, DOI 10.1016/j.scitotenv.2019.02.422
+   Bui DT, 2017, GEOSCI MODEL DEV, V10, P3391, DOI 10.5194/gmd-10-3391-2017
+   Bui DT, 2016, J HYDROL, V540, P317, DOI 10.1016/j.jhydrol.2016.06.027
+   Bui DT, 2012, COMPUT GEOSCI-UK, V45, P199, DOI 10.1016/j.cageo.2011.10.031
+   Dormann CF, 2013, ECOGRAPHY, V36, P27, DOI 10.1111/j.1600-0587.2012.07348.x
+   Farhadi H, 2021, WATER-SUI, V13, P0, DOI 10.3390/w13213115
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Gaganis P, 2009, NATO SCI PEACE SECUR, V0, PP129, DOI 10.1007/978-90-481-2636-1_6
+   Gardner MW, 1998, ATMOS ENVIRON, V32, P2627, DOI 10.1016/S1352-2310(97)00447-0
+   Garner AJ, 2017, P NATL ACAD SCI USA, V114, P11861, DOI 10.1073/pnas.1703568114
+   Goswami BN, 2006, SCIENCE, V314, P1442, DOI 10.1126/science.1132027
+   Han J, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13071365
+   Helbich M, 2019, INT J ENV RES PUB HE, V16, P0, DOI 10.3390/ijerph16050852
+   Houghton JT, 2001, CLIMATE CHANGE 2001: THE SCIENTIFIC BASIS, V0, P1
+   Jain SK, 2018, INT J RIVER BASIN MA, V16, P329, DOI 10.1080/15715124.2017.1411920
+   Janizadeh S, 2021, WATER RESOUR MANAG, V35, P4621, DOI 10.1007/s11269-021-02972-7
+   Janizadeh S, 2021, J ENVIRON MANAGE, V298, P0, DOI 10.1016/j.jenvman.2021.113551
+   Janizadeh S, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11195426
+   Khosravi K, 2018, SCI TOTAL ENVIRON, V627, P744, DOI 10.1016/j.scitotenv.2018.01.266
+   Kia MB, 2012, ENVIRON EARTH SCI, V67, P251, DOI 10.1007/s12665-011-1504-z
+   Kim B, 2015, J HYDROL, V523, P680, DOI 10.1016/j.jhydrol.2015.01.059
+   Kourgialas NN, 2011, HYDROLOG SCI J, V56, P212, DOI 10.1080/02626667.2011.555836
+   Kundzewicz ZW, 2014, HYDROLOG SCI J, V59, P1, DOI 10.1080/02626667.2013.857411
+   Lee MJ, 2012, INT GEOSCI REMOTE SE, V0, PP895, DOI 10.1109/IGARSS.2012.6351414
+   Lei XX, 2021, J HYDROL, V601, P0, DOI 10.1016/j.jhydrol.2021.126684
+   Lohani AK, 2014, J HYDROL, V509, P25, DOI 10.1016/j.jhydrol.2013.11.021
+   Martinez-Casasnovas JA, 2004, GEOMORPHOLOGY, V58, P305, DOI 10.1016/j.geomorph.2003.08.005
+   Mekanik F, 2013, J HYDROL, V503, P11, DOI 10.1016/j.jhydrol.2013.08.035
+   Miles R.E., 1994, HALL OF FAME, V0, P0
+   Mosavi A, 2018, WATER-SUI, V10, P0, DOI 10.3390/w10111536
+   Nachappa TG, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125275
+   Natekin A, 2013, FRONT NEUROROBOTICS, V7, P0, DOI 10.3389/fnbot.2013.00021
+   Nayak PC, 2005, WATER RESOUR RES, V41, P0, DOI 10.1029/2004WR003562
+   Panahi M, 2020, SCI TOTAL ENVIRON, V741, P0, DOI 10.1016/j.scitotenv.2020.139937
+   Ngo PTT, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18113704
+   Popa M.C., 2019, PROC MULTIDISCIP DIG, V48, P6
+   Pradhan B, 2011, J FLOOD RISK MANAG, V4, P189, DOI 10.1111/j.1753-318X.2011.01103.x
+   Pradhan B., 2010, J SPATIAL HYDROLOGY, V9, P0
+   Quiroz JC, 2018, MEASUREMENT, V116, P273, DOI 10.1016/j.measurement.2017.11.004
+   Rahman M, 2019, EARTH SYST ENVIRON, V3, P585, DOI 10.1007/s41748-019-00123-y
+   Roy P, 2020, J CLEAN PROD, V272, P0, DOI 10.1016/j.jclepro.2020.122757
+   Saha TK, 2021, J ENVIRON MANAGE, V297, P0, DOI 10.1016/j.jenvman.2021.113344
+   Sahana M, 2020, CATENA, V189, P0, DOI 10.1016/j.catena.2019.104450
+   Sahoo Abinash, 2020, SMART INTELLIGENT COMPUTING AND APPLICATIONS. PROCEEDINGS OF THE THIRD INTERNATIONAL CONFERENCE ON SMART COMPUTING AND INFORMATICS. SMART INNOVATION, V0, P733, DOI 10.1007/978-981-13-9282-5_70
+   Samanta RK, 2018, MODEL EARTH SYST ENV, V4, P395, DOI 10.1007/s40808-018-0427-z
+   Sandink D, 2010, MAKING FLOOD INSURAB, V0, P0
+   Sayers W, 2014, PROCEDIA ENGINEER, V70, P1505, DOI 10.1016/j.proeng.2014.02.165
+   Segond ML, 2007, J HYDROL, V347, P116, DOI 10.1016/j.jhydrol.2007.09.040
+   Solomatine D, 2008, WATER SCI TECHNOL LI, V68, P17
+   Tabari H, 2020, SCI REP-UK, V10, P0, DOI 10.1038/s41598-020-70816-2
+   Taloor AK, 2021, APPL COMPUT GEOSCI, V9, P0, DOI 10.1016/j.acags.2020.100051
+   Talukdar S, 2020, STOCH ENV RES RISK A, V34, P2277, DOI 10.1007/s00477-020-01862-5
+   Tang XZ, 2020, CATENA, V190, P0, DOI 10.1016/j.catena.2020.104536
+   Tehrany MS, 2014, J HYDROL, V512, P332, DOI 10.1016/j.jhydrol.2014.03.008
+   Umar Z, 2014, CATENA, V118, P124, DOI 10.1016/j.catena.2014.02.005
+   Vafakhah M, 2020, ARAB J GEOSCI, V13, P0, DOI 10.1007/s12517-020-05363-1
+   van den Honert RC, 2011, WATER-SUI, V3, P1149, DOI 10.3390/w3041149
+   Vojtek M, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11020364
+   Wang Y, 2021, J ENVIRON MANAGE, V289, P0, DOI 10.1016/j.jenvman.2021.112449
+   Wuebbles D.J., 2017, CLIMATE SCI SPECIAL, V1, P0, DOI 10.7930/J0J964J6
+   Xia XL, 2017, WATER RESOUR RES, V53, P3730, DOI 10.1002/2016WR020055
+   Xie Yiqun, 2021, 2021 IEEE INT C DAT, V0, P0
+   Yariyan P, 2020, GEOMAT NAT HAZ RISK, V11, P2282, DOI 10.1080/19475705.2020.1836036
+   Yin Y, 2005, COMPUT IND ENG, V48, P471, DOI 10.1016/j.cie.2003.01.001
+   Yu PS, 2017, J HYDROL, V552, P92, DOI 10.1016/j.jhydrol.2017.06.020
+   Yuan Xiaopeng, 2015, INTERNATIONAL JOURNAL OF COMPUTER AND COMMUNICATION ENGINEERING, V4, P13, DOI 10.7763/IJCCE.2015.V4.374
+   Zaharia L, 2017, FRONT EARTH SCI-PRC, V11, P229, DOI 10.1007/s11707-017-0636-1
+   Zaharia L, 2015, J EARTH SYST SCI, V124, P1311, DOI 10.1007/s12040-015-0608-3
+   Zhang HP, 2009, STAT INTERFACE, V2, P381
+   Zhang JQ, 2004, 18TH INTERNATIONAL CONFERENCE ON ADVANCED INFORMATION NETWORKING AND APPLICATIONS, VOL 1 (LONG PAPERS), PROCEEDINGS
+   Zhao G, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125235
+   Zhao G, 2019, J HYDROL, V571, P873, DOI 10.1016/j.jhydrol.2019.02.008
+   Zhao G, 2019, SCI TOTAL ENVIRON, V659, P940, DOI 10.1016/j.scitotenv.2018.12.217
+   Zhao Y., 2012, PROGR GEOSPATIAL ANA, V0, P51
+NR 110
+TC 0
+Z9 0
+U1 4
+U2 4
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1099-4300
+J9 ENTROPY-SWITZ
+JI Entropy
+PD NOV 15
+PY 2022
+VL 24
+IS 11
+BP 
+EP 
+DI 10.3390/e24111630
+PG 32
+WC Physics, Multidisciplinary
+SC Physics
+GA 6F2SC
+UT WOS:000883916400001
+PM 36359720
+DA 2023-04-26
+ER
+
+PT J
+AU Lin, MS
+   Teng, S
+   Chen, GF
+   Lv, JB
+   Hao, ZY
+AF Lin, Mansheng
+   Teng, Shuai
+   Chen, Gongfa
+   Lv, Jianbing
+   Hao, Zhongyu
+TI Optimal CNN-based semantic segmentation model of cutting slope images
+SO FRONTIERS OF STRUCTURAL AND CIVIL ENGINEERING
+LA English
+DT Article
+DE slope damage; image recognition; semantic segmentation; feature map; visualizations
+ID damage detection
+AB This paper utilizes three popular semantic segmentation networks, specifically DeepLab v3+, fully convolutional network (FCN), and U-Net to qualitively analyze and identify the key components of cutting slope images in complex scenes and achieve rapid image-based slope detection. The elements of cutting slope images are divided into 7 categories. In order to determine the best algorithm for pixel level classification of cutting slope images, the networks are compared from three aspects: a) different neural networks, b) different feature extractors, and c) 2 different optimization algorithms. It is found that DeepLab v3+ with Resnet18 and Sgdm performs best, FCN 32s with Sgdm takes the second, and U-Net with Adam ranks third. This paper also analyzes the segmentation strategies of the three networks in terms of feature map visualization. Results show that the contour generated by DeepLab v3+ (combined with Resnet18 and Sgdm) is closest to the ground truth, while the resulting contour of U-Net (combined with Adam) is closest to the input images.
+C1 [Lin, Mansheng; Teng, Shuai; Chen, Gongfa; Lv, Jianbing] Guangdong Univ Technol, Sch Civil & Transportat Engn, Guangzhou 510006, Peoples R China.
+   [Hao, Zhongyu] JSTI Grp Guangdong Inspect & Certificat Co Ltd, Nanjing 210000, Peoples R China.
+C3 Guangdong University of Technology
+RP Chen, GF (corresponding author), Guangdong Univ Technol, Sch Civil & Transportat Engn, Guangzhou 510006, Peoples R China.
+EM gongfa.chen@gdut.edu.cn
+CR Anitescu C, 2019, CMC-COMPUT MATER CON, V59, P345, DOI 10.32604/cmc.2019.06641
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Dung CV, 2019, AUTOMAT CONSTR, V99, P52, DOI 10.1016/j.autcon.2018.11.028
+   Cha YJ, 2017, COMPUT-AIDED CIV INF, V32, P361, DOI 10.1111/mice.12263
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen Z., 2003, SOIL SLOPE STABILITY, V0, P0
+   Csurka G, 2013, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2013, V0, P0, DOI DOI 10.5244/C.27.32
+   Dong C, 2016, LECT NOTES COMPUT SC, V9906, P391, DOI 10.1007/978-3-319-46475-6_25
+   Eigen D, 2015, IEEE I CONF COMP VIS, V0, PP2650, DOI 10.1109/ICCV.2015.304
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11172046
+   Guo HW, 2019, CMC-COMPUT MATER CON, V59, P433, DOI 10.32604/cmc.2019.06660
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   KROGH A, 1992, ADV NEUR IN, V4, P950
+   Lin HM, 2009, ENG GEOL, V104, P280, DOI 10.1016/j.enggeo.2008.11.007
+   Lin YZ, 2017, COMPUT-AIDED CIV INF, V32, P1025, DOI 10.1111/mice.12313
+   Liu JW, 2020, COMPUT-AIDED CIV INF, V35, P1291, DOI 10.1111/mice.12622
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Narazaki Y, 2020, COMPUT-AIDED CIV INF, V35, P465, DOI 10.1111/mice.12505
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Rojahn C., 2005, ATC201, V0, P0
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Samaniego E, 2020, COMPUT METHOD APPL M, V362, P0, DOI 10.1016/j.cma.2019.112790
+   Shu JX., 2017, HIGHWAY TRANSP APPL, V154, P70
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Teng S, 2021, APPL SCI-BASEL, V11, P0, DOI 10.3390/app11020813
+   Teng S, 2020, MECCANICA, V55, P945, DOI 10.1007/s11012-019-01052-w
+   Minh NTV, 2021, COMPUT METHOD APPL M, V386, P0, DOI 10.1016/j.cma.2021.114096
+   Wilson DR, 2001, IEEE IJCNN, V0, PP115, DOI 10.1109/IJCNN.2001.939002
+   Wu CI, 2014, EXPERT SYST APPL, V41, P4554, DOI 10.1016/j.eswa.2013.12.049
+   Wu J., 2018, FEATURE LEARNING HIG, V0, P0
+   Xia Y, 2012, J CIV STRUCT HEALTH, V2, P29, DOI 10.1007/s13349-011-0015-7
+   Xing Y., 2010, 2010 INT C ED INFORM, V0, P0
+   Xu J, 2020, COMPUT-AIDED CIV INF, V35, P1160, DOI 10.1111/mice.12563
+   Yao X, 1993, INT J NEURAL SYST, V4, P203, DOI 10.1142/S0129065793000171
+   Zhang YL, 2015, J ECONOMETRICS, V187, P95, DOI 10.1016/j.jeconom.2015.02.006
+   Zhong KF, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10124247
+   Zhou H., 2020, 2019 6 ANN INT C MAT, V0, P0
+   Zhuang XY, 2021, EUR J MECH A-SOLID, V87, P0, DOI 10.1016/j.euromechsol.2021.104225
+NR 41
+TC 4
+Z9 4
+U1 7
+U2 13
+PU HIGHER EDUCATION PRESS
+PI BEIJING
+PA CHAOYANG DIST, 4, HUIXINDONGJIE, FUSHENG BLDG, BEIJING 100029, PEOPLES R CHINA
+SN 2095-2430
+EI 2095-2449
+J9 FRONT STRUCT CIV ENG
+JI Front. Struct. Civ. Eng.
+PD APR 15
+PY 2022
+VL 16
+IS 4
+BP 414
+EP 433
+DI 10.1007/s11709-021-0797-6
+EA JUN 2022
+PG 20
+WC Engineering, Civil
+SC Engineering
+GA 3O4HW
+UT WOS:000817053000003
+DA 2023-04-26
+ER
+
+PT J
+AU Padhiari, BM
+   Ray, A
+   Champati, BB
+   Jena, S
+   Sahoo, A
+   Kuanar, A
+   Halder, T
+   Ghosh, B
+   Naik, PK
+   Patnaik, J
+   Mohanty, S
+   Panda, PC
+   Nayak, S
+AF Padhiari, Bhuban Mohan
+   Ray, Asit
+   Champati, Bibhuti Bhusan
+   Jena, Sudipta
+   Sahoo, Ambika
+   Kuanar, Ananya
+   Halder, Tarun
+   Ghosh, Biswajit
+   Naik, Pradeep Kumar
+   Patnaik, Jeetendranath
+   Mohanty, Sujata
+   Panda, Pratap Chandra
+   Nayak, Sanghamitra
+TI Artificial neural network (ANN) model for prediction and optimization of bacoside A content in Bacopa monnieri: a statistical approach and experimental validation
+SO PLANT BIOSYSTEMS
+LA English
+DT Article
+DE Artificial neural network; Bacopa monnieri; bacoside A; climatic factor; soil nutrients
+ID surface methodology rsm; multiple linear-regression; seed yield; environmental-factors; extraction; plant
+AB The current research aims to elucidate the drug environment Interactions and predict a suitable growing condition for Bacopa monnieri (L.) Wettst with maximum bacoside A content using an artificial neural network (ANN) model. An experimental dataset was generated by collecting B. monnieri wild accessions from 81 locations across different geographical regions of eastern Indian (Odisha and West Bengal). The obtained ANN results specified that a single hidden layer containing 11 neurons namely 13-11-1 structure of multilayer perceptron (MLP) neural network showed the highest prediction accuracy for bacoside A content. The developed ANN model exhibited a better predictive potential for the training dataset with a coefficient of determination (R-2), a root mean square error (RMSE), and a mean absolute percentage error (MAPE) of 0.90, 0.16, and 7.76%, respectively. Further, the results on sensitivity analysis showed nitrogen levels and altitude to have the highest impact on bacoside A content. Additionally, the ANN model exhibited a prediction accuracy of 93.60% for bacoside A content when tested at a new geographical location. The results of this study thus indicates that ANN model can be used for predicting and optimizing bacoside A content in B. monnieri (L.) at a specific location.
+C1 [Padhiari, Bhuban Mohan; Ray, Asit; Champati, Bibhuti Bhusan; Jena, Sudipta; Sahoo, Ambika; Kuanar, Ananya; Panda, Pratap Chandra; Nayak, Sanghamitra] Siksha O Anusandhan Deemed Be Univ, Ctr Biotechnol, Bhubaneswar, Odisha, India.
+   [Halder, Tarun; Ghosh, Biswajit] Ramakrishna Mission Vivekananda Centenary Coll, PG Dept Bot, Kolkata, W Bengal, India.
+   [Naik, Pradeep Kumar] Sambalpur Univ, Dept Biotechnol & Bioinformat, Sambalpur, Orissa, India.
+   [Patnaik, Jeetendranath] Sri Krushna Chandra Gajapati Coll, Dept Bot, Paralakhemundi, Odisha, India.
+   [Mohanty, Sujata] Ramadevi Womens Univ, PG Dept Biotechnol, Bhubaneswar, Odisha, India.
+C3 Siksha 'O' Anusandhan University; Sambalpur University
+RP Nayak, S (corresponding author), Siksha O Anusandhan Deemed Be Univ, Ctr Biotechnol, Bhubaneswar, Odisha, India.
+EM sanghamitran24@gmail.com
+FU Science and Engineering Research Board, Govt. of India [EMR/2016/001802]
+CR Abdipour M, 2019, IND CROP PROD, V127, P185, DOI 10.1016/j.indcrop.2018.10.050
+   Agatonovic-Kustrin S, 2000, J PHARMACEUT BIOMED, V22, P717, DOI 10.1016/S0731-7085(99)00272-1
+   Akbar A, 2018, COMPUT ELECTRON AGR, V148, P160, DOI 10.1016/j.compag.2018.03.002
+   Akbar A, 2016, FRONT PLANT SCI, V7, P0, DOI 10.3389/fpls.2015.01507
+   Alam MA, 2009, COMMUN SOIL SCI PLAN, V40, P2485, DOI 10.1080/00103620903111368
+   Amdoun R, 2019, BIOCHEM ENG J, V144, P8, DOI 10.1016/j.bej.2019.01.002
+   Astray G, 2016, IND CROP PROD, V92, P290, DOI 10.1016/j.indcrop.2016.08.011
+   BRAY RH, 1945, SOIL SCI, V59, P39, DOI 10.1097/00010694-194501000-00006
+   Channa S, 2006, J ETHNOPHARMACOL, V104, P286, DOI 10.1016/j.jep.2005.10.009
+   Charoenphon Natthawut, 2016, INDIAN JOURNAL OF AGRICULTURAL RESEARCH, V50, P1
+   Christopher C, 2017, IND CROP PROD, V98, P76, DOI 10.1016/j.indcrop.2017.01.018
+   Dey A, 2020, IND CROP PROD, V158, P0, DOI 10.1016/j.indcrop.2020.112975
+   Diaz-Zorita M, 1999, COMMUN SOIL SCI PLAN, V30, P739, DOI 10.1080/00103629909370242
+   Emamgholizadeh S, 2015, EUR J AGRON, V68, P89, DOI 10.1016/j.eja.2015.04.010
+   Fieuzal R, 2017, INT J APPL EARTH OBS, V57, P14, DOI 10.1016/j.jag.2016.12.011
+   Figueiredo AC, 2008, FLAVOUR FRAG J, V23, P213, DOI 10.1002/ffj.1875
+   Ghosh S, 2021, NUTR CANCER, V73, P2166, DOI 10.1080/01635581.2020.1841248
+   Ghosh Tanisha, 2007, INT J PHARM TECH, V6, P77
+   Jauhari N., 2019, WATER AIR SOIL POLL, V2, P441, DOI 10.1007/S42398-019-00071-3
+   John S, 2017, FRONT MOL NEUROSCI, V10, P0, DOI 10.3389/fnmol.2017.00171
+   Karthikeyan A, 2011, GENET RESOUR CROP EV, V58, P769, DOI 10.1007/s10722-011-9695-4
+   Kazem HA, 2017, ENERG CONVERS MANAGE, V148, P1070, DOI 10.1016/j.enconman.2017.06.058
+   Khajeh M, 2012, J SUPERCRIT FLUID, V69, P91, DOI 10.1016/j.supflu.2012.05.006
+   Li YQ, 2020, PLANT PHYSIOL BIOCH, V148, P80, DOI 10.1016/j.plaphy.2020.01.006
+   Liu JY, 2019, IND CROP PROD, V134, P113, DOI 10.1016/j.indcrop.2019.03.074
+   Malishev R, 2017, ACS CHEM NEUROSCI, V8, P884, DOI 10.1021/acschemneuro.6b00438
+   Michelon GK, 2018, J PLANT NUTR, V41, P1285, DOI 10.1080/01904167.2018.1447579
+   Mohammadi S., 2016, OPEN JOURNAL OF ECOLOGY, V6, P427, DOI 10.4236/oje.2016.67040
+   Naik PM, 2011, ACTA PHYSIOL PLANT, V33, P1553, DOI 10.1007/s11738-010-0675-7
+   Nemetchek MD, 2017, J ETHNOPHARMACOL, V197, P92, DOI 10.1016/j.jep.2016.07.073
+   Niazian M, 2018, IND CROP PROD, V117, P224, DOI 10.1016/j.indcrop.2018.03.013
+   Pilkington JL, 2014, IND CROP PROD, V58, P15, DOI 10.1016/j.indcrop.2014.03.016
+   Ramasamy S, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0126565
+   Ramli F, 2020, ARAB J SCI ENG, V45, P7635, DOI 10.1007/s13369-020-04639-8
+   Rastogi M, 2012, BIOGERONTOLOGY, V13, P183, DOI 10.1007/s10522-011-9367-y
+   Ray A, 2020, IND CROP PROD, V146, P0, DOI 10.1016/j.indcrop.2020.112186
+   Saez-Plaza P, 2013, CRIT REV ANAL CHEM, V43, P178, DOI 10.1080/10408347.2012.751786
+   Saffariha M, 2021, PLANT METHODS, V17, P0, DOI 10.1186/s13007-021-00710-z
+   Salmore AK, 2001, J CHEM ECOL, V27, P1713, DOI 10.1023/A:1010411122739
+   Saraphanchotiwitthaya A, 2008, PHYTOTHER RES, V22, P1330, DOI 10.1002/ptr.2491
+   Shokri A, 2011, J SUPERCRIT FLUID, V58, P49, DOI 10.1016/j.supflu.2011.04.011
+   Sivaramakrishna C, 2005, PHYTOCHEMISTRY, V66, P2719, DOI 10.1016/j.phytochem.2005.09.016
+   Wei W, 2020, J GINSENG RES, V44, P627, DOI 10.1016/j.jgr.2019.04.003
+NR 43
+TC 2
+Z9 2
+U1 0
+U2 3
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1126-3504
+EI 1724-5575
+J9 PLANT BIOSYST
+JI Plant Biosyst.
+PD NOV 2
+PY 2022
+VL 156
+IS 6
+BP 1346
+EP 1357
+DI 10.1080/11263504.2022.2048278
+EA MAR 2022
+PG 12
+WC Plant Sciences
+SC Plant Sciences
+GA 7C6YT
+UT WOS:000773777100001
+DA 2023-04-26
+ER

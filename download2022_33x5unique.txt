@@ -1,0 +1,682 @@
+
+PT J
+AU Yokoya, N
+   Yamanoi, K
+   He, W
+   Baier, G
+   Adriano, B
+   Miura, H
+   Oishi, S
+AF Yokoya, Naoto
+   Yamanoi, Kazuki
+   He, Wei
+   Baier, Gerald
+   Adriano, Bruno
+   Miura, Hiroyuki
+   Oishi, Satoru
+TI Breaking Limits of Remote Sensing by Deep Learning From Simulated Data for Flood and Debris-Flow Mapping
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Remote sensing; Strain; Floods; Data models; Training data; Optical sensors; Optical imaging; Convolutional neural network (CNN); debris-flow mapping; flood mapping; numerical simulation
+ID optical imagery; landsat 8; landslide; models; extent
+AB We propose a framework that estimates the inundation depth (maximum water level) and debris-flow-induced topographic deformation from remote sensing imagery by integrating deep learning and numerical simulation. A water and debris-flow simulator generates training data for various artificial disaster scenarios. We show that regression models based on Attention U-Net and LinkNet architectures trained on such synthetic data can predict the maximum water level and topographic deformation from a remote sensing-derived change detection map and a digital elevation model. The proposed framework has an inpainting capability, thus mitigating the false negatives that are inevitable in remote sensing image analysis. Our framework breaks limits of remote sensing and enables rapid estimation of inundation depth and topographic deformation, essential information for emergency response, including rescue and relief activities. We conduct experiments with both synthetic and real data for two disaster events that caused simultaneous flooding and debris flows and demonstrate the effectiveness of our approach quantitatively and qualitatively. Our code and data sets are available at https://github.com/nyokoya/dlsim.
+C1 [Yokoya, Naoto] Univ Tokyo, Grad Sch Frontier Sci, Dept Complex Sci & Engn, Chiba 2778561, Japan.
+   [Yokoya, Naoto; He, Wei; Baier, Gerald; Adriano, Bruno] RIKEN Ctr Adv Intelligence Project, Tokyo 1030027, Japan.
+   [Yamanoi, Kazuki] Kyoto Univ, Disaster Prevent Res Inst, Kyoto 6128235, Japan.
+   [Yamanoi, Kazuki; Oishi, Satoru] RIKEN Ctr Computat Sci, Kobe, Hyogo 6500047, Japan.
+   [Miura, Hiroyuki] Hiroshima Univ, Sch Adv Sci & Engn, Hiroshima 7398527, Japan.
+C3 University of Tokyo; RIKEN; Kyoto University; RIKEN; Hiroshima University
+RP Yokoya, N (corresponding author), Univ Tokyo, Grad Sch Frontier Sci, Dept Complex Sci & Engn, Chiba 2778561, Japan.
+EM yokoya@k.u-tokyo.ac.jp; yamanoi.kazuki.6s@kyoto-u.ac.jp; wei.he@riken.jp; gerald.baier@riken.jp; bruno.adriano@riken.jp; hmiura@hiroshima-u.ac.jp; satoru.oishi@riken.jp
+FU Japan Society for the Promotion of Science through KAKENHI [18K18067, 19K20308, 19H02408, 19K15105, 20K19834]; FOCUS Establishing Supercomputing Center of Excellence (COE); Grants-in-Aid for Scientific Research [20K19834, 19K20308, 19H02408, 19K15105, 18K18067] Funding Source: KAKEN
+CR Adriano B, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030561
+   Anantrasirichai N, 2019, REMOTE SENS ENVIRON, V230, P0, DOI 10.1016/j.rse.2019.04.032
+   [Anonymous], 2015, INT C MED IM COMP CO, V0, P0
+   Bak S, 2018, LECT NOTES COMPUT SC, V11217, P193, DOI 10.1007/978-3-030-01261-8_12
+   Bao YD, 2019, ENVIRON EARTH SCI, V78, P0, DOI 10.1007/s12665-019-8586-4
+   Burrows K, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030237
+   Chaurasia A, 2017, 2017 IEEE VISUAL COMMUNICATIONS AND IMAGE PROCESSING (VCIP), V0, P0
+   Chen HX, 2017, LANDSLIDES, V14, P595, DOI 10.1007/s10346-016-0710-x
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Chignell SM, 2015, REMOTE SENS-BASEL, V7, P9822, DOI 10.3390/rs70809822
+   Ching T, 2018, J R SOC INTERFACE, V15, P0, DOI 10.1098/rsif.2017.0387
+   Chociej M., 2019, ARXIV190611633, V0, P0
+   Cohen S, 2018, J AM WATER RESOUR AS, V54, P847, DOI 10.1111/1752-1688.12609
+   Dai ZH, 2019, 57TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2019), V0, P2978
+   Darvishi M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111781
+   Devlin J, 2018, ARXIV, V0, P0
+   Bui D, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101527
+   Frank F, 2015, NAT HAZARD EARTH SYS, V15, P2569, DOI 10.5194/nhess-15-2569-2015
+   Froude MJ, 2018, NAT HAZARD EARTH SYS, V18, P2161, DOI 10.5194/nhess-18-2161-2018
+   Gao L, 2016, ENG GEOL, V214, P67, DOI 10.1016/j.enggeo.2016.10.001
+   Gao X., 2019, ARXIV190305757, V0, P0
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020196
+   Han XD, 2018, B ENG GEOL ENVIRON, V77, P679, DOI 10.1007/s10064-017-1079-3
+   Hurl B, 2019, IEEE INT VEH SYM, V0, PP2522, DOI 10.1109/IVS.2019.8813809
+   Ilg E, 2017, PROC CVPR IEEE, V0, PP1647, DOI 10.1109/CVPR.2017.179
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Krishnan, 2019, ARXIV190600421, V0, P0
+   Li K, 2020, ISPRS J PHOTOGRAMM, V159, P296, DOI 10.1016/j.isprsjprs.2019.11.023
+   Li W, 2019, SCI ROBOT, V4, P0, DOI 10.1126/scirobotics.aaw0863
+   Li YQ, 2018, IMMS 2019: 2019 2ND INTERNATIONAL CONFERENCE ON INFORMATION MANAGEMENT AND MANAGEMENT SCIENCES, V0, PP123, DOI 10.1145/3357292.3357320
+   Li Y, 2019, ISPRS J PHOTOGRAMM, V152, P178, DOI 10.1016/j.isprsjprs.2019.04.014
+   Lu XX, 2018, IEEE T GEOSCI REMOTE, V56, P2183, DOI 10.1109/TGRS.2017.2776321
+   Lv ZY, 2018, IEEE J-STARS, V11, P1520, DOI 10.1109/JSTARS.2018.2803784
+   Martinis S, 2009, NAT HAZARD EARTH SYS, V9, P303, DOI 10.5194/nhess-9-303-2009
+   Martinis S, 2011, IEEE T GEOSCI REMOTE, V49, P251, DOI 10.1109/TGRS.2010.2052816
+   Miura H, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091096
+   Mondini AC, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070760
+   Mueller N, 2016, REMOTE SENS ENVIRON, V174, P341, DOI 10.1016/j.rse.2015.11.003
+   Nakatani K, 2016, J MT SCI-ENGL, V13, P193, DOI 10.1007/s11629-015-3517-7
+   Ohki M, 2020, IEEE GEOSCI REMOTE S, V17, P1904, DOI 10.1109/LGRS.2019.2960045
+   Oktay O, 2018, ARXIV180403999, V0, P0
+   Paoletti ME, 2021, IEEE GEOSCI REMOTE S, V18, P1288, DOI 10.1109/LGRS.2020.2997295
+   Park SJ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101545
+   Paszke A, 2019, ADV NEUR IN, V32, P0
+   Ramos-Bernal RN, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121987
+   Rau JY, 2014, IEEE T GEOSCI REMOTE, V52, P1336, DOI 10.1109/TGRS.2013.2250293
+   Revellino P, 2004, ENVIRON GEOL, V45, P295, DOI 10.1007/s00254-003-0885-z
+   Rickenmann D, 2006, COMPUTAT GEOSCI, V10, P241, DOI 10.1007/s10596-005-9021-3
+   Rodriguez-Morata C, 2019, GEOMORPHOLOGY, V342, P127, DOI 10.1016/j.geomorph.2019.06.012
+   Rossi G, 2013, NAT HAZARD EARTH SYS, V13, P151, DOI 10.5194/nhess-13-151-2013
+   Sadeghi F, 2017, ROBOTICS: SCIENCE AND SYSTEMS XIII, V0, P0
+   Sakamoto T, 2007, REMOTE SENS ENVIRON, V109, P295, DOI 10.1016/j.rse.2007.01.011
+   Sayama T, 2012, HYDROLOG SCI J, V57, P298, DOI 10.1080/02626667.2011.644245
+   Schlaffer S, 2015, INT J APPL EARTH OBS, V38, P15, DOI 10.1016/j.jag.2014.12.001
+   Schraml K, 2015, NAT HAZARD EARTH SYS, V15, P1483, DOI 10.5194/nhess-15-1483-2015
+   Shi XG, 2015, ISPRS J PHOTOGRAMM, V105, P128, DOI 10.1016/j.isprsjprs.2015.03.017
+   Srivastava S, 2017, INT GEOSCI REMOTE SE, V0, P5173
+   Takahashi T., 2007, DEBRIS FLOW, V0, P0
+   Takahashi T., 1991, J JPN SOC EROS CONTR, V44, P12, DOI 10.11475/SABO1973.44.3_12
+   Tobin J, 2017, IEEE INT C INT ROBOT, V0, P23
+   Tong XH, 2018, ISPRS J PHOTOGRAMM, V136, P144, DOI 10.1016/j.isprsjprs.2017.11.006
+   Tsai YH, 2018, PROC CVPR IEEE, V0, PP7472, DOI 10.1109/CVPR.2018.00780
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Wieland M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192330
+   Yamanoi K., 2020, PREDICTIVE SIMULATIO, V0, P0
+   Yamazaki D, 2011, WATER RESOUR RES, V47, P0, DOI 10.1029/2010WR009726
+   Yang WT, 2013, IEEE GEOSCI REMOTE S, V10, P707, DOI 10.1109/LGRS.2012.2219576
+   Zhao CY, 2012, REMOTE SENS ENVIRON, V124, P348, DOI 10.1016/j.rse.2012.05.025
+   Zheng CX, 2018, LECT NOTES COMPUT SC, V11211, P798, DOI 10.1007/978-3-030-01234-2_47
+   Zhou LC, 2018, IEEE COMPUT SOC CONF, V0, PP192, DOI 10.1109/CVPRW.2018.00034
+   Zhuo L, 2019, IEEE J-STARS, V12, P162, DOI 10.1109/JSTARS.2018.2883361
+NR 71
+TC 10
+Z9 10
+U1 32
+U2 102
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2022
+VL 60
+IS 
+BP 
+EP 
+DI 10.1109/TGRS.2020.3035469
+PG 15
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA XI4PF
+UT WOS:000726094900004
+DA 2023-04-26
+ER
+
+PT J
+AU Li, Y
+   Chen, W
+   Rezaie, F
+   Rahmati, O
+   Moghaddam, DD
+   Tiefenbacher, J
+   Panahi, M
+   Lee, MJ
+   Kulakowski, D
+   Bui, DT
+   Lee, S
+AF Li, Yang
+   Chen, Wei
+   Rezaie, Fatemeh
+   Rahmati, Omid
+   Davoudi Moghaddam, Davoud
+   Tiefenbacher, John
+   Panahi, Mahdi
+   Lee, Moung-Jin
+   Kulakowski, Dominik
+   Tien Bui, Dieu
+   Lee, Saro
+TI Debris flows modeling using geo-environmental factors: developing hybridized deep-learning algorithms
+SO GEOCARTO INTERNATIONAL
+LA English
+DT Article
+DE debris flow; natural disasters; artificial intelligence; hybridized model; Umyeonsan
+ID support vector machine; landslide susceptibility assessment; convolutional neural-networks; cuckoo optimization algorithm; binary logistic-regression; induced shallow landslides; fuzzy inference system; grey wolf optimizer; decision trees; random forest
+AB Although the prediction of debris flow-prone areas represents a key step towards reducing damages, modeling debris flow susceptibility is complicated. In addition, the role of debris flow causal drivers in forested mountain landscapes is still poorly understood. To gain a holistic view of the causes of debris flows in the Umyeonsan, Seoul, South Korea region, we coupled the convolutional neural network (CNN) with two evolutionary optimization algorithms - grey wolf optimization (GWO) and cuckoo optimization algorithm (COA). Applying geoinformatics to debris flow factors, debris-flow susceptibility maps were generated and their validities were assessed with receiver operating characteristic (ROC) curves. The results reveal that three causative factors seem to contribute most to debris flows in the study area. The evolutionary optimization algorithms achieved higher goodness-of-fit and predictive power than the standalone CNN model. The goodness-of-fit and predictive skill measures of the CNN susceptibility map were 0.76 and 0.73. The values of CNN hybridized with GWO were 0.81 and 0.81 and hybridized with COA were 0.83 and 0.82. Slope degree, tree age, stream power index, geographical class, and soil drainage were the factors most affecting debris flow likelihood. The CNN-COA is the superior model and it predicted that 40.6% of the study area (i.e., 1844.96 km2) is highly and very highly susceptible to debris flows. The methodology can be applied for analysis of other region to improve risk management and guide development and land use planning.
+C1 [Li, Yang; Chen, Wei] Xian Univ Sci & Technol, Coll Geol & Environm, Xian, Peoples R China.
+   [Chen, Wei] Minist Nat Resources, Key Lab Coal Resources Explorat & Comprehens Util, Xian, Peoples R China.
+   [Rezaie, Fatemeh; Panahi, Mahdi; Lee, Saro] Korea Inst Geosci & Mineral Resources KIGAM, Geosci Platform Res Div, Daejeon, South Korea.
+   [Rezaie, Fatemeh; Lee, Saro] Korea Univ Sci & Technol, Dept Geophys Explorat, Daejeon, South Korea.
+   [Rahmati, Omid] AREEO, Soil Conservat & Watershed Management Res Dept, Kurdistan Agr & Nat Resources Res & Educ Ctr, Sanandaj, Iran.
+   [Davoudi Moghaddam, Davoud] Lorestan Univ, Agr & Nat Resources Fac, Dept Watershed Management, Khorramabad, Iran.
+   [Tiefenbacher, John] Texas State Univ, Dept Geog, San Marcos, TX USA.
+   [Panahi, Mahdi] Kangwon Natl Univ, Div Sci Educ, Chuncheon Si, South Korea.
+   [Lee, Moung-Jin] Korea Environm Inst KEI, Ctr Environm Data Strategy, Sejong, South Korea.
+   [Kulakowski, Dominik] Clark Univ, Grad Sch Geog, Worcester, MA 01610 USA.
+   [Tien Bui, Dieu] Univ Coll Southeastern Norway, Dept Business & IT, Geog Informat Syst Grp, Bo, Telemark, Norway.
+C3 Xi'an University of Science & Technology; Ministry of Natural Resources of the People's Republic of China; Korea Institute of Geoscience & Mineral Resources (KIGAM); University of Science & Technology (UST); Lorestan University; Texas State University System; Texas State University San Marcos; Kangwon National University; Korea Environment Institute (KEI); Clark University; University College of Southeast Norway
+RP Lee, S (corresponding author), Korea Inst Geosci & Mineral Resources KIGAM, Geosci Platform Res Div, Daejeon, South Korea.; Lee, S (corresponding author), Korea Univ Sci & Technol, Dept Geophys Explorat, Daejeon, South Korea.
+EM leesaro@kigam.re.kr
+FU Basic Research Project of the Korea Institute of Geoscience and Mineral Resources (KIGAM); Project of Environmental Business Big Data Platform and Center Construction - Ministry of Science and ICT
+CR Aghdam IN, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-5233-6
+   [Anonymous], 1984, DEV APPL GEOMORPHOLO, V0, P0, DOI DOI 10.1007/978-3-642-69759-3_9
+   Baum R, 2010, LANDSLIDES, V7, P259, DOI 10.1007/s10346-009-0177-0
+   Berrazouane S, 2014, ENERG CONVERS MANAGE, V78, P652, DOI 10.1016/j.enconman.2013.11.018
+   Bertrand M, 2013, NAT HAZARDS, V67, P497, DOI 10.1007/s11069-013-0575-4
+   Pham BT, 2017, GEOTECH GEOL ENG, V35, P2597, DOI 10.1007/s10706-017-0264-2
+   Bordoni M, 2020, CATENA, V193, P0, DOI 10.1016/j.catena.2020.104630
+   Cama M, 2017, GEOMORPHOLOGY, V288, P52, DOI 10.1016/j.geomorph.2017.03.025
+   Can R, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8070300
+   Carrara A, 2008, GEOMORPHOLOGY, V94, P353, DOI 10.1016/j.geomorph.2006.10.033
+   Che VB, 2012, CATENA, V92, P83, DOI 10.1016/j.catena.2011.11.014
+   Chen W, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12233854
+   Chen W, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9183755
+   Chen X, 2021, CATENA, V196, P0, DOI 10.1016/j.catena.2020.104833
+   Chen YF, 2022, GUT, V71, P222, DOI 10.1136/gutjnl-2021-324090
+   Chen Y, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12082079
+   Convertino M, 2013, J GEOPHYS RES-EARTH, V118, P1367, DOI 10.1002/jgrf.20099
+   Dai FC, 2002, ENG GEOL, V64, P65, DOI 10.1016/S0013-7952(01)00093-X
+   Daniel E, 2017, BIOMED SIGNAL PROCES, V34, P36, DOI 10.1016/j.bspc.2017.01.003
+   Bui DT, 2020, CATENA, V188, P0, DOI 10.1016/j.catena.2019.104426
+   Ding AZ, 2016, 2016 31ST YOUTH ACADEMIC ANNUAL CONFERENCE OF CHINESE ASSOCIATION OF AUTOMATION (YAC), V0, PP444, DOI 10.1109/YAC.2016.7804935
+   Dong JJ, 2009, EARTH SURF PROC LAND, V34, P1612, DOI 10.1002/esp.1850
+   Dao DV, 2020, CATENA, V188, P0, DOI 10.1016/j.catena.2019.104451
+   Dou J, 2020, LANDSLIDES, V17, P641, DOI 10.1007/s10346-019-01286-5
+   Dowling CA, 2014, NAT HAZARDS, V71, P203, DOI 10.1007/s11069-013-0907-4
+   Eberhardt E., 2005, LANDSLIDE RISK MANAG, V0, P3
+   Emary E, 2015, ADV INTELL SYST, V334, P1, DOI 10.1007/978-3-319-13572-4_1
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   Fang ZC, 2020, COMPUT GEOSCI-UK, V139, P0, DOI 10.1016/j.cageo.2020.104470
+   Farina P, 2004, INT GEOSCI REMOTE SE, V0, P62
+   Frattini P, 2010, ENG GEOL, V111, P62, DOI 10.1016/j.enggeo.2009.12.004
+   Fu SW, 2017, IEEE INT WORKS MACH, V0, P0
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020196
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Guthrie RH, 2007, GEOMORPHOLOGY, V88, P266, DOI 10.1016/j.geomorph.2006.11.010
+   Hackl J, 2018, NAT HAZARD EARTH SYS, V18, P2273, DOI 10.5194/nhess-18-2273-2018
+   He QF, 2019, SCI TOTAL ENVIRON, V663, P1, DOI 10.1016/j.scitotenv.2019.01.329
+   Hong HY, 2020, SCI TOTAL ENVIRON, V718, P0, DOI 10.1016/j.scitotenv.2020.137231
+   Hong HY, 2016, GEOMORPHOLOGY, V259, P105, DOI 10.1016/j.geomorph.2016.02.012
+   Hosmer DW, 2013, WILEY SER PROBAB ST, V0, P89
+   Huang FM, 2020, LANDSLIDES, V17, P217, DOI 10.1007/s10346-019-01274-9
+   Huang FM, 2017, ENG GEOL, V223, P11, DOI 10.1016/j.enggeo.2017.04.013
+   Hungr O, 2014, LANDSLIDES, V11, P167, DOI 10.1007/s10346-013-0436-y
+   Imaizumi F, 2019, GEOMORPHOLOGY, V339, P58, DOI 10.1016/j.geomorph.2019.04.026
+   INNES JL, 1983, PROG PHYS GEOG, V7, P469, DOI 10.1177/030913338300700401
+   Iverson R.M., 2014, GEOL TODAY, V30, P15, DOI 10.1111/gto.12037
+   Jaafari A, 2019, CATENA, V175, P430, DOI 10.1016/j.catena.2018.12.033
+   Jafari S, 2018, STUD COMPUT INTELL, V720, P39, DOI 10.1007/978-981-10-5221-7_5
+   Jakob M, 2012, NAT HAZARDS, V60, P241, DOI 10.1007/s11069-011-0007-2
+   Jeong S, 2015, LANDSLIDES, V12, P799, DOI 10.1007/s10346-015-0595-0
+   Jin KH, 2017, IEEE T IMAGE PROCESS, V26, P4509, DOI 10.1109/TIP.2017.2713099
+   Kalantar B, 2018, GEOMAT NAT HAZ RISK, V9, P49, DOI 10.1080/19475705.2017.1407368
+   Kanungo DP, 2006, ENG GEOL, V85, P347, DOI 10.1016/j.enggeo.2006.03.004
+   Kappes MS, 2011, NAT HAZARD EARTH SYS, V11, P627, DOI 10.5194/nhess-11-627-2011
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Kawabata D, 2009, GEOMORPHOLOGY, V113, P97, DOI 10.1016/j.geomorph.2009.06.006
+   Kim JC, 2018, GEOCARTO INT, V33, P1000, DOI 10.1080/10106049.2017.1323964
+   Komaki GM, 2017, COMPUT IND ENG, V105, P158, DOI 10.1016/j.cie.2017.01.006
+   Kornejady A, 2017, CATENA, V152, P144, DOI 10.1016/j.catena.2017.01.010
+   Kritikos T, 2015, LANDSLIDES, V12, P1051, DOI 10.1007/s10346-014-0533-6
+   Kumar A, 2017, QUAL RELIAB ENG INT, V33, P1327, DOI 10.1002/qre.2107
+   Lancaster ST, 2003, WATER RESOUR RES, V39, P0, DOI 10.1029/2001WR001227
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2017, APPL SCI-BASEL, V7, P0, DOI 10.3390/app7070683
+   Lei T, 2019, INT CONF ACOUST SPEE, V0, PP3027, DOI 10.1109/ICASSP.2019.8682802
+   Lei T, 2019, IEEE GEOSCI REMOTE S, V16, P982, DOI 10.1109/LGRS.2018.2889307
+   Lombardo L, 2015, NAT HAZARDS, V79, P1621, DOI 10.1007/s11069-015-1915-3
+   Mathew J, 2009, LANDSLIDES, V6, P17, DOI 10.1007/s10346-008-0138-z
+   Mellal MA, 2016, J INTELL MANUF, V27, P927, DOI 10.1007/s10845-014-0925-4
+   Michelini T, 2017, GEOMORPHOLOGY, V279, P150, DOI 10.1016/j.geomorph.2016.09.029
+   Moayedi H, 2019, ENG COMPUT-GERMANY, V35, P967, DOI 10.1007/s00366-018-0644-0
+   Moayedia H, 2019, GEOMAT NAT HAZ RISK, V10, P1879, DOI 10.1080/19475705.2019.1650126
+   Mohamad AB, 2014, APPL ARTIF INTELL, V28, P419, DOI 10.1080/08839514.2014.904599
+   Moos C, 2016, EARTH SURF PROC LAND, V41, P951, DOI 10.1002/esp.3887
+   Nefeslioglu HA, 2010, MATH PROBL ENG, V2010, P0, DOI 10.1155/2010/901095
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   Panahi M, 2020, SCI TOTAL ENVIRON, V741, P0, DOI 10.1016/j.scitotenv.2020.139937
+   Park S, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9050942
+   Parnaby Harry, 2010, PACIFIC CONSERVATION BIOLOGY, V16, P209
+   Polykretis Christos, 2019, BULLETIN OF ENGINEERING GEOLOGY AND THE ENVIRONMENT, V78, P1173, DOI 10.1007/s10064-017-1125-1
+   Poria S, 2017, NEUROCOMPUTING, V261, P217, DOI 10.1016/j.neucom.2016.09.117
+   Pourghasemi HR, 2018, CATENA, V162, P177, DOI 10.1016/j.catena.2017.11.022
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Rahmati O, 2019, SCI TOTAL ENVIRON, V664, P296, DOI 10.1016/j.scitotenv.2019.02.017
+   Rahmati O, 2018, ENVIRON MODELL SOFTW, V102, P1, DOI 10.1016/j.envsoft.2018.01.004
+   Rajabioun R, 2011, APPL SOFT COMPUT, V11, P5508, DOI 10.1016/j.asoc.2011.05.008
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Sameen MI, 2020, CATENA, V186, P0, DOI 10.1016/j.catena.2019.104249
+   Tang YJ, 2018, LANDSLIDES, V15, P2279, DOI 10.1007/s10346-018-1036-7
+   Tiwari A.K., 2020, APPL GEOLOGY, V0, P299
+   Tonini M, 2019, LANDSLIDES, V16, P2103, DOI 10.1007/s10346-019-01236-1
+   Tracz W, 2019, EUR J FOREST RES, V138, P363, DOI 10.1007/s10342-019-01170-w
+   Tsangaratos P, 2016, CATENA, V145, P164, DOI 10.1016/j.catena.2016.06.004
+   Tsangaratos P, 2016, LANDSLIDES, V13, P305, DOI 10.1007/s10346-015-0565-6
+   Tsangaratos P, 2014, NAT HAZARDS, V74, P1489, DOI 10.1007/s11069-014-1245-x
+   Uzielli M, 2008, ENG GEOL, V102, P251, DOI 10.1016/j.enggeo.2008.03.011
+   van Westen CJ, 2006, B ENG GEOL ENVIRON, V65, P167, DOI 10.1007/s10064-005-0023-0
+   Nhu VH, 2020, FORESTS, V11, P0, DOI 10.3390/f11040421
+   Pham VD, 2020, IEEE ACCESS, V8, P32727, DOI 10.1109/ACCESS.2020.2973415
+   Wang, 2019, EARTHQUAKE RES CHINA, V0, P10
+   Wang HJ, 2021, GEOSCI FRONT, V12, P351, DOI 10.1016/j.gsf.2020.02.012
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Webb GI, 2005, MACH LEARN, V58, P25, DOI 10.1007/s10994-005-4257-7
+   Winter MG, 2020, ENG GEOL SPEC PUBL S, V29, P163, DOI 10.1144/EGSP29.5
+   Xu Q, 2019, NEUROCOMPUTING, V328, P69, DOI 10.1016/j.neucom.2018.03.080
+   Xu WB, 2013, NAT HAZARDS, V65, P1379, DOI 10.1007/s11069-012-0414-z
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Yoshiharu Ishikawa, 2003, JOURNAL OF FOREST RESEARCH, V8, P37
+   Youssef AM, 2016, LANDSLIDES, V13, P839, DOI 10.1007/s10346-015-0614-1
+   Yu H, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON MECHATRONICS AND AUTOMATION (ICMA), V0, PP40, DOI 10.1109/ICMA.2017.8015785
+   Zaheer R, 2018, PROCEEDINGS OF THE 2ND INTERNATIONAL CONFERENCE ON INVENTIVE SYSTEMS AND CONTROL (ICISC 2018), V0, P769
+   Zezere JL, 2008, GEOMORPHOLOGY, V94, P467, DOI 10.1016/j.geomorph.2006.10.040
+   Zhang YH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11232801
+   Zhao X, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142180
+NR 114
+TC 21
+Z9 21
+U1 9
+U2 9
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1010-6049
+EI 1752-0762
+J9 GEOCARTO INT
+JI Geocarto Int.
+PD SEP 2
+PY 2022
+VL 37
+IS 17
+BP 5150
+EP 5173
+DI 10.1080/10106049.2021.1912194
+EA APR 2021
+PG 24
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 3Y9FB
+UT WOS:000647391400001
+DA 2023-04-26
+ER
+
+PT J
+AU Lee, GC
+   Loo, CK
+   Liew, WS
+AF Lee, Gin Chong
+   Loo, Chu Kiong
+   Liew, Wei Shiung
+TI SELF-ORGANIZING RESERVOIR NETWORK FOR ACTION RECOGNITION
+SO MALAYSIAN JOURNAL OF COMPUTER SCIENCE
+LA English
+DT Article
+DE Echo State Networks; Action Recognition; Self-Organizing Networks; Deep Neural Networks
+ID art
+AB Current research in human action recognition (HAR) focuses on efficient and effective modelling of the temporal features of human actions in 3-dimensional space. Echo State Networks (ESNs) are one suitable method for encoding the temporal context due to its short-term memory property. However, the random initialization of the ESN's input and reservoir weights may increase instability and variance in generalization. Inspired by the notion that input-dependent self-organization is decisive for the cortex to adjust the neurons according to the distribution of the inputs, a Self-Organizing Reservoir Network (SORN) is developed based on Adaptive Resonance Theory (ART) and Instantaneous Topological Mapping (ITM) as the clustering process to cater deterministic initialization of the ESN reservoirs in a Convolutional Echo State Network (ConvESN) and yield a Self-Organizing Convolutional Echo State Network (SO-ConvESN). SORN ensures that the activation of ESN???s internal echo state representations reflects similar topological qualities of the input signal which should yield a self-organizing reservoir. In the context of HAR task, human actions encoded as a multivariate time series signals are clustered into clustered node centroids and interconnectivity matrices by SORN for initializing the SO-ConvESN reservoirs. By using several publicly available 3D-skeleton-based action recognition datasets, the impact of vigilance threshold and reservoir perturbation of SORN in performing clustering, the SORN reservoir dynamics and the capability of SO-ConvESN on HAR task have been empirically evaluated and analyzed to produce competitive experimental results.
+C1 [Lee, Gin Chong] Multimedia Univ, Fac Engn & Technol, Jalan Ayer Keroh Lama, Melaka 75450, Malaysia.
+   [Loo, Chu Kiong; Liew, Wei Shiung] Univ Malaya, Fac Comp Sci & Informat Technol, Kuala Lumpur 50603, Malaysia.
+C3 Multimedia University; Universiti Malaya
+RP Loo, CK (corresponding author), Univ Malaya, Fac Comp Sci & Informat Technol, Kuala Lumpur 50603, Malaysia.
+EM gclee@mmu.edu.my; ckloo.um@um.edu.my; liew.wei.shiung@gmail.com
+CR [Anonymous], 2018, P CHINA AUTOMATION C, V0, P3780
+   Antunes J., 2018, VIS INT BEH UND WORK, V0, P0
+   Bengio Yoshua, 2012, NEURAL NETWORKS: TRICKS OF THE TRADE. SECOND EDITION: LNCS 7700, V0, PP437, DOI 10.1007/978-3-642-35289-8_26
+   Bengio Yoshua, 2013, STATISTICAL LANGUAGE AND SPEECH PROCESSING. FIRST INTERNATIONAL CONFERENCE, V0, P1, DOI 10.1007/978-3-642-39593-2_1
+   Bhattacharya S, 2012, PROC INT CONF EMERG, V0, PP348, DOI 10.1109/EAIT.2012.6407958
+   Bianchi FM, 2018, IEEE T NEUR NET LEAR, V29, P427, DOI 10.1109/TNNLS.2016.2630802
+   Biswas K. K., 2011, 2011 5TH INTERNATIONAL CONFERENCE ON AUTOMATION, V0, P100, DOI 10.1109/ICARA.2011.6144864
+   Boccato L, 2014, NEUROCOMPUTING, V138, P297, DOI 10.1016/j.neucom.2014.01.036
+   CARPENTER GA, 1988, COMPUTER, V21, P77, DOI 10.1109/2.33
+   Chang YJ, 2011, RES DEV DISABIL, V32, P2566, DOI 10.1016/j.ridd.2011.07.002
+   Cippitelli E, 2016, COMPUT INTEL NEUROSC, V2016, P0, DOI 10.1155/2016/4351435
+   Cooper H, 2007, LECT NOTES COMPUT SC, V4796, P88
+   Dupont M, 2016, LECT NOTES COMPUT SC, V9785, P157, DOI 10.1007/978-3-319-44412-3_11
+   Duric Z, 2002, P IEEE, V90, P1272, DOI 10.1109/JPROC.2002.801449
+   Fawaz HI, 2019, DATA MIN KNOWL DISC, V33, P917, DOI 10.1007/s10618-019-00619-1
+   FRITZKE B, 1994, NEURAL NETWORKS, V7, P1441, DOI 10.1016/0893-6080(94)90091-4
+   Gallicchio C, 2016, P ART INT AMB ASS LI, V1803, P33
+   Gasparrini S., 2015, P IET INT C TECHN AC, V0, P0
+   Gaur U, 2011, IEEE I CONF COMP VIS, V0, PP2595, DOI 10.1109/ICCV.2011.6126548
+   GROSSBERG S, 1987, COGNITIVE SCI, V11, P23, DOI 10.1111/j.1551-6708.1987.tb00862.x
+   Han JG, 2013, IEEE T CYBERNETICS, V43, P1318, DOI 10.1109/TCYB.2013.2265378
+   Huang JD, 2011, ASSETS 11: PROCEEDINGS OF THE 13TH INTERNATIONAL ACM SIGACCESS CONFERENCE ON COMPUTERS AND ACCESSIBILITY, V0, P319
+   Hussein M., 2013, INT JOINT C ART INT, V0, P0
+   Ibanez R, 2014, ADV ENG SOFTW, V76, P171, DOI 10.1016/j.advengsoft.2014.07.005
+   Jaeger H, 2001, TECH REP 34, V0, P0
+   Jockusch J., 1999, IJCNN99. INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS. PROCEEDINGS (CAT. NO.99CH36339), V0, PP529, DOI 10.1109/IJCNN.1999.831553
+   Junejo IN, 2011, IEEE T PATTERN ANAL, V33, P172, DOI 10.1109/TPAMI.2010.68
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   Kong Y, 2018, ARXIV, V0, P0
+   Lev G, 2015, ARXIV, V0, P0
+   Li WB, 2010, 2010 THE 3RD INTERNATIONAL CONFERENCE ON COMPUTATIONAL INTELLIGENCE AND INDUSTRIAL APPLICATION (PACIIA2010), VOL I, P9, DOI 10.1109/cvprw.2010.5543273
+   Lo Presti L, 2016, PATTERN RECOGN, V53, P130, DOI 10.1016/j.patcog.2015.11.019
+   Lo Presti L, 2015, IMAGE VISION COMPUT, V44, P29, DOI 10.1016/j.imavis.2015.09.007
+   Lo Presti L, 2013, 2013 IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION WORKSHOPS (ICCVW), V0, PP730, DOI 10.1109/ICCVW.2013.100
+   Cichy RM, 2016, ARXIV, V0, P0
+   Ma QL, 2017, PROCEEDINGS OF THE TWENTY-SIXTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P2457
+   Marteau PF, 2014, INT C PATT RECOG, V0, PP363, DOI 10.1109/ICPR.2014.71
+   Mici L., 2016, EUR S ART NEUR NETW, V0, P465
+   Moon H., 2012, US PATENT, V0, Patent No. [8,219,438, 8219438]
+   Nair V., 2010, P 27 INT C MACH LEAR, V0, P807
+   Nelson CA, 2000, DEVELOPMENTAL SCI, V3, P115, DOI 10.1111/1467-7687.00104
+   Nweke HF, 2018, EXPERT SYST APPL, V105, P233, DOI 10.1016/j.eswa.2018.03.056
+   Onofri L, 2016, EXPERT SYST APPL, V63, P97, DOI 10.1016/j.eswa.2016.06.011
+   Osoba O, 2013, NEURAL NETWORKS, V37, P132, DOI 10.1016/j.neunet.2012.09.012
+   Palangi Hamid, 2013, ARXIV, V0, P0
+   Papadopoulos Georgios Th, 2014, MULTIMEDIA MODELING. 20TH ANNIVERSARY INTERNATIONAL CONFERENCE, V0, P473, DOI 10.1007/978-3-319-04114-8_40
+   Park S., 2003, PROC ACM SIGMM INT W, V0, PP65, DOI 10.1145/982452.982461
+   Patsadu O., 2012, 2012 INTERNATIONAL JOINT CONFERENCE ON COMPUTER SCIENCE AND SOFTWARE ENGINEERING (JCSSE 2012), V0, PP28, DOI 10.1109/JCSSE.2012.6261920
+   Padilla-Lopez JR, 2015, SENSORS-BASEL, V15, P12959, DOI 10.3390/s150612959
+   Rashidi P, 2013, IEEE J BIOMED HEALTH, V17, P579, DOI 10.1109/JBHI.2012.2234129
+   Rehg JM, 2013, PROC CVPR IEEE, V0, PP3414, DOI 10.1109/CVPR.2013.438
+   Seidenari L, 2013, IEEE COMPUT SOC CONF, V0, PP479, DOI 10.1109/CVPRW.2013.77
+   Smith LN, 2017, IEEE WINT CONF APPL, V0, PP464, DOI 10.1109/WACV.2017.58
+   STEINIER J, 1972, ANAL CHEM, V44, P1906, DOI 10.1021/ac60319a045
+   Suha Kwak, 2011, 2011 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR), V0, PP3345, DOI 10.1109/CVPR.2011.5995435
+   Thangali A, 2011, PROC CVPR IEEE, V0, PP521, DOI 10.1109/CVPR.2011.5995718
+   Varadaraju A. T., 2013, THESIS BOSTON U MA, V0, P0
+   Vemulapalli R, 2014, PROC CVPR IEEE, V0, PP588, DOI 10.1109/CVPR.2014.82
+   Wang JD, 2019, PATTERN RECOGN LETT, V119, P3, DOI 10.1016/j.patrec.2018.02.010
+   Wang ZG, 2017, IEEE IJCNN, V0, PP1578, DOI 10.1109/IJCNN.2017.7966039
+   Zhang PF, 2019, IEEE T PATTERN ANAL, V41, P1963, DOI 10.1109/TPAMI.2019.2896631
+   Zhang XK, 2016, PROC CVPR IEEE, V0, PP4498, DOI 10.1109/CVPR.2016.487
+NR 63
+TC 0
+Z9 0
+U1 0
+U2 2
+PU UNIV MALAYA, FAC COMPUTER SCIENCE & INFORMATION TECH
+PI KUALA LUMPUR
+PA UNIV MALAYA, FAC COMPUTER SCIENCE & INFORMATION TECH, KUALA LUMPUR, 50603, MALAYSIA
+SN 0127-9084
+EI 
+J9 MALAYS J COMPUT SCI
+JI Malayas. J. Comput. Sci.
+PD JUN 15
+PY 2022
+VL 35
+IS 3
+BP 243
+EP 263
+DI 10.22452/mjcs.vol35no3.4
+PG 21
+WC Computer Science, Artificial Intelligence; Computer Science, Theory & Methods
+SC Computer Science
+GA 3P0KB
+UT WOS:000837224500004
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, XY
+   Li, CY
+   Liu, DR
+   Grieneisen, ML
+   Yang, FM
+   Chen, C
+   Zhan, Y
+AF Liu, Xinyi
+   Li, Chunyuan
+   Liu, Dongren
+   Grieneisen, Michael L.
+   Yang, Fumo
+   Chen, Chao
+   Zhan, Yu
+TI Hybrid deep learning models for mapping surface NO2 across China: One complicated model, many simple models, or many complicated models? br
+SO ATMOSPHERIC RESEARCH
+LA English
+DT Article
+DE NO2; Deep learning; Ensemble model; Spatiotemporal distribution; Random forest
+ID land-use regression; nitrogen-dioxide; pm2.5 concentrations; pollution; asia
+AB While deep learning is an emerging trend in modeling spatiotemporal dynamics of air pollution, designing a high-performance architecture with various neural network components is difficult. This study aims to identify a suitable deep learning architecture for deriving spatiotemporal distributions of surface NO2 across China. Based on satellite retrievals and geographic variables, we compared the performance of a series of deep learning models and a benchmark model (i.e., random forest) in predicting daily NO2 during 2016-2017 on a 0.1 degrees grid. The deep learning models tested were hybrids of full connection layers (FC), autoencoders (AE), residual networks (RES), and convolution layers (CNN). Their ensemble forms were also comparatively evaluated. The integrated results of the sample-, cell-, and date-based holdout tests show that the ensemble FC-AE-RES-CNN model (R2 = 0.71; RMSE = 9.9 mu g/m3) outperformed the random forest (R2 = 0.67; RMSE = 10.8 mu g/m3), but none of the singleform networks did (R2 ranged from 0.56 to 0.61, and RMSE ranged from 11.6 to 12.2 mu g/m3). The superior performance of the ensemble FC-AE-RES-CNN model could be attributed to its lower bias and lower variance, which benefited from the sophisticated model structure and the ensemble strategy. Consequently, the ensemble FC-AE-RES-CNN model predictions demonstrated a spatiotemporal distribution of surface NO2 with higher fidelity. In light of the comprehensive comparisons, we expect that ensemble deep learning models will be substituting for traditional machine learning models in environmental spatiotemporal mapping applications.
+C1 [Liu, Xinyi; Li, Chunyuan; Liu, Dongren; Yang, Fumo; Chen, Chao; Zhan, Yu] Sichuan Univ, Dept Environm Sci & Engn, Chengdu 610065, Sichuan, Peoples R China.
+   [Grieneisen, Michael L.] Univ Calif, Dept Land Air & Water Resources, Davis, CA 95616 USA.
+   [Yang, Fumo; Zhan, Yu] Natl Engn Res Ctr Flue Gas Desulfurizat, Chengdu, Sichuan, Peoples R China.
+   [Chen, Chao] Chengdu Univ Informat Technol, Coll Resources & Environm, Chengdu 610225, Sichuan, Peoples R China.
+C3 Sichuan University; University of California System; University of California Davis; Chengdu University of Information Technology
+RP Chen, C; Zhan, Y (corresponding author), Sichuan Univ, Dept Environm Sci & Engn, Chengdu 610065, Sichuan, Peoples R China.
+EM chenchao@cuit.edu.cn; yzhan@scu.edu.cn
+FU National Natural Science Founda- tion of China [22076129, 42007197]; Sichuan Key R D Project [2020YFS0055]; Chengdu Major Technology Application and Demonstration Project [2020-YF09-00031-SN]
+CR Abdollahi-Arpanahi LR, 2020, GENET SEL EVOL, V52, P0, DOI 10.1186/s12711-020-00531-z
+   Adhikari B, 2020, BIOINFORMATICS, V36, P470, DOI 10.1093/bioinformatics/btz593
+   Ao YL, 2019, J PETROL SCI ENG, V174, P776, DOI 10.1016/j.petrol.2018.11.067
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Chen T, 2009, NEUROCOMPUTING, V72, P1605, DOI 10.1016/j.neucom.2008.09.002
+   Chi YL, 2021, ATMOS RES, V264, P0, DOI 10.1016/j.atmosres.2021.105821
+   CMA,, 2018, CHIN MET DAT, V0, P0
+   de Hoogh K, 2016, ENVIRON RES, V151, P1, DOI 10.1016/j.envres.2016.07.005
+   Deutsch CV., 1998, GSLIB GEOSTATISTICAL, V0, P0
+   Di Q, 2020, ENVIRON SCI TECHNOL, V54, P1372, DOI 10.1021/acs.est.9b03358
+   Di Q, 2016, ENVIRON SCI TECHNOL, V50, P4712, DOI 10.1021/acs.est.5b06121
+   Diop E. S., 1997, MANGROVES SALT MARSH, V1, P163, DOI 10.1023/A:1009900724172
+   DISC G, 2019, OMI AUR NITR DIOX NO, V0, P0
+   Dzeroski S., 2009, ENCY COMPLEXITY SYST, V0, P0
+   EPAROC,, 2017, TAIW AIR QUAL MON NE, V0, P0
+   EPDHK,, 2017, HONG KONG AIR QUAL M, V0, P0
+   Faustini A, 2014, EUR RESPIR J, V44, P744, DOI 10.1183/09031936.00114713
+   Global Modeling and Assimilation Office (GMAO), 2015, MERRA 2 TAVG1 2D FLX, V0, P0, DOI DOI 10.5067/7MCPBJ41Y0K6
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Griffin D, 2019, GEOPHYS RES LETT, V46, P1049, DOI 10.1029/2018GL081095
+   Han KM, 2009, ATMOS CHEM PHYS, V9, P1017, DOI 10.5194/acp-9-1017-2009
+   He FX, 2020, IEEE T NEUR NET LEAR, V31, P5349, DOI 10.1109/TNNLS.2020.2966319
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang CJ, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18072220
+   Huang CH, 2022, ENVIRON POLLUT, V292, P0, DOI 10.1016/j.envpol.2021.118285
+   Ju XM, 2021, COMPUT STAT DATA AN, V153, P0, DOI 10.1016/j.csda.2020.107065
+   Krotkov NA, 2016, ATMOS CHEM PHYS, V16, P4605, DOI 10.5194/acp-16-4605-2016
+   Lamsal LN, 2014, ATMOS CHEM PHYS, V14, P11587, DOI 10.5194/acp-14-11587-2014
+   Larkin A, 2017, ENVIRON SCI TECHNOL, V51, P6957, DOI 10.1021/acs.est.7b01148
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lee HJ, 2014, ENVIRON SCI TECHNOL, V48, P2305, DOI 10.1021/es404845f
+   Levelt PF, 2018, ATMOS CHEM PHYS, V18, P5699, DOI 10.5194/acp-18-5699-2018
+   Li LF, 2021, REMOTE SENS ENVIRON, V254, P0, DOI 10.1016/j.rse.2020.112257
+   Li M, 2017, ATMOS CHEM PHYS, V17, P935, DOI 10.5194/acp-17-935-2017
+   Liu JJ, 2021, ENVIRON POLLUT, V279, P0, DOI 10.1016/j.envpol.2021.116932
+   Lu M, 2020, ENVIRON INT, V142, P0, DOI 10.1016/j.envint.2020.105856
+   Ma ZW, 2016, ATMOS ENVIRON, V133, P156, DOI 10.1016/j.atmosenv.2016.03.040
+   Majumdar A, 2019, IEEE T NEUR NET LEAR, V30, P312, DOI 10.1109/TNNLS.2018.2838679
+   Ministry of Environmental Protection for China (MEPC), 2017, AIR QUAL DAIL REP CH, V0, P0
+   Pan YD, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13040758
+   Paoletti ME, 2019, ISPRS J PHOTOGRAMM, V158, P279, DOI 10.1016/j.isprsjprs.2019.09.006
+   Park Y, 2020, ENVIRON POLLUT, V256, P0, DOI 10.1016/j.envpol.2019.113395
+   Parker J, 1983, IEEE TRANS MED IMAGING, V2, P31, DOI 10.1109/TMI.1983.4307610
+   Pavlyshenko B, 2018, 2018 IEEE SECOND INTERNATIONAL CONFERENCE ON DATA STREAM MINING & PROCESSING (DSMP), V0, P255
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   Peng W, 2021, J CONTROL DECIS, V8, P260, DOI 10.1080/23307706.2020.1759466
+   Razavi-Termeh SV, 2021, ENVIRON RES, V200, P0, DOI 10.1016/j.envres.2021.111344
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Shekhovtsov A, 2019, LECT NOTES COMPUT SC, V11362, P463, DOI 10.1007/978-3-030-20890-5_30
+   Shikwambana L, 2020, INT J APPL EARTH OBS, V91, P0, DOI 10.1016/j.jag.2020.102130
+   Silver B, 2018, ENVIRON RES LETT, V13, P0, DOI 10.1088/1748-9326/aae718
+   Stolzenburg D, 2020, ATMOS CHEM PHYS, V20, P7359, DOI 10.5194/acp-20-7359-2020
+   Tamiminia H, 2021, CAN J REMOTE SENS, V47, P209, DOI 10.1080/07038992.2021.1926952
+   Tensorflow,, 2020, TENS, V0, P0
+   van Geffen J, 2020, ATMOS MEAS TECH, V13, P1315, DOI 10.5194/amt-13-1315-2020
+   Wu J, 2011, ENVIRON RES, V111, P685, DOI 10.1016/j.envres.2011.03.008
+   Wu YY, 2021, ENVIRON INT, V154, P0, DOI 10.1016/j.envint.2021.106576
+   Xu H, 2019, SCI TOTAL ENVIRON, V655, P423, DOI 10.1016/j.scitotenv.2018.11.125
+   Yamashita R, 2018, INSIGHTS IMAGING, V9, P611, DOI 10.1007/s13244-018-0639-9
+   Yuan QQ, 2020, REMOTE SENS ENVIRON, V241, P0, DOI 10.1016/j.rse.2020.111716
+   Zhan Y, 2018, ENVIRON SCI TECHNOL, V52, P4180, DOI 10.1021/acs.est.7b05669
+   Zhan Y, 2017, ATMOS ENVIRON, V155, P129, DOI 10.1016/j.atmosenv.2017.02.023
+   Zhang L, 2020, IEEE ACCESS, V8, P66037, DOI 10.1109/ACCESS.2020.2985657
+   Zhao YL, 2017, P NATL ACAD SCI USA, V114, P6984, DOI 10.1073/pnas.1620911114
+   Zong Z, 2017, ENVIRON SCI TECHNOL, V51, P5923, DOI 10.1021/acs.est.6b06316
+   Zyrichidou I, 2013, ATMOS RES, V122, P55, DOI 10.1016/j.atmosres.2012.10.028
+NR 67
+TC 1
+Z9 1
+U1 19
+U2 19
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0169-8095
+EI 1873-2895
+J9 ATMOS RES
+JI Atmos. Res.
+PD NOV 15
+PY 2022
+VL 278
+IS 
+BP 
+EP 
+DI 10.1016/j.atmosres.2022.106339
+EA JUL 2022
+PG 11
+WC Meteorology & Atmospheric Sciences
+SC Meteorology & Atmospheric Sciences
+GA 5E1XB
+UT WOS:000865420700002
+DA 2023-04-26
+ER
+
+PT J
+AU Jeong, S
+   Ko, J
+   Yeom, JM
+AF Jeong, Seungtaek
+   Ko, Jonghan
+   Yeom, Jong-Min
+TI Predicting rice yield at pixel scale through synthetic use of crop and deep learning models with satellite data in South and North Korea
+SO SCIENCE OF THE TOTAL ENVIRONMENT
+LA English
+DT Article
+DE Crop yield prediction; Data driven model; Crop model; Remote sensing; Korean peninsula
+ID paddy rice; vegetation index; water index; ndvi data; phenology; climate; growth; wheat; lai; map
+AB Prediction of rice yields at pixel scale rather than county scale can benefit crop management and scientific understanding because it is useful for monitoring how crop yields respond to various agricultural systems and environmental factors. In this study, we propose a methodology for the early prediction of rice yield at pixel scale combining a crop model and a deep learning model for different agricultural systems throughout South and North Korea. Initially, satellite-integrated crop models were applied to obtain a pixel-scale reference rice yield. Then, the pixel-scale reference rice yields were used as target labels in the deep learning model to leverage the advantages of crop models. Models of five different deep learning network architectures were employed to help determine the hybrid structure of long-short term memory (LSTM) and one-dimensional convolutional neural network (1D-CNN) layers by predicting the optimal model about two months ahead of harvest time. The suggested model showed good performance [R-2 = 0.859, Nash-Sutcliffe model efficiency = 0.858, root mean squared error = 0.605 Mg ha(-1)], with specific spatial patterns of rice yields for South and North Korea. Analysis of the relative importance of the input variables showed the water-related index and maximum temperature in North Korea and the vegetation indices and geographic variables in South Korea to be crucial for predicting rice yields. The proposed approach successfully predicted and diagnosed rice yield at the pixel scale for inaccessible locations where reliable ground measurements are not available, especially North Korea. (C) 2021 The Authors. Published by Elsevier B.V.
+C1 [Jeong, Seungtaek; Yeom, Jong-Min] Korea Aerosp Res Inst, Satellite Applicat Div, 169-84 Gwahak Ro, Daejeon 34133, South Korea.
+   [Ko, Jonghan] Chonnam Natl Univ, Appl Plant Sci, 77 Yongbong Ro, Gwangju 61186, South Korea.
+C3 Korea Aerospace Research Institute (KARI); Chonnam National University
+RP Yeom, JM (corresponding author), Korea Aerosp Res Inst, Satellite Applicat Div, 169-84 Gwahak Ro, Daejeon 34133, South Korea.; Ko, J (corresponding author), Chonnam Natl Univ, Appl Plant Sci, 77 Yongbong Ro, Gwangju 61186, South Korea.
+EM yeomjm@kari.re.kr
+FU Korea Aerospace Research Institute [FR21J00]; basic science research program through the National Research Foundation of Korea [NRF-2021R1A2C2004459]
+CR [Anonymous], 2011, ENCY MACHINE LEARNIN, V0, P0
+   Arigbe OD, 2019, J PET EXPLOR PROD TE, V9, P1271, DOI 10.1007/s13202-018-0578-5
+   Bolton DK, 2013, AGR FOREST METEOROL, V173, P74, DOI 10.1016/j.agrformet.2013.01.007
+   Bose P, 2016, IEEE T GEOSCI REMOTE, V54, P6563, DOI 10.1109/TGRS.2016.2586602
+   Cai YP, 2019, AGR FOREST METEOROL, V274, P144, DOI 10.1016/j.agrformet.2019.03.010
+   Cao J, 2021, AGR FOREST METEOROL, V297, P0, DOI 10.1016/j.agrformet.2020.108275
+   Chandrasekar K, 2010, INT J REMOTE SENS, V31, P3987, DOI 10.1080/01431160802575653
+   Chu Z, 2020, COMPUT ELECTRON AGR, V174, P0, DOI 10.1016/j.compag.2020.105471
+   Doraiswamy PC, 2005, REMOTE SENS ENVIRON, V97, P192, DOI 10.1016/j.rse.2005.03.015
+   Doraiswamy PC, 2004, REMOTE SENS ENVIRON, V92, P548, DOI 10.1016/j.rse.2004.05.017
+   Elbern H, 2000, ENVIRON MODELL SOFTW, V15, P539, DOI 10.1016/S1364-8152(00)00049-9
+   Fageria NK, 2007, J PLANT NUTR, V30, P691, DOI 10.1080/01904160701289529
+   Ferencz C, 2004, INT J REMOTE SENS, V25, P4113, DOI 10.1080/01431160410001698870
+   Filippi P, 2019, PRECIS AGRIC, V20, P1015, DOI 10.1007/s11119-018-09628-4
+   Franch B, 2015, REMOTE SENS ENVIRON, V161, P131, DOI 10.1016/j.rse.2015.02.014
+   Gao BC, 1996, REMOTE SENS ENVIRON, V58, P257, DOI 10.1016/S0034-4257(96)00067-3
+   Gao Y, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071111
+   Guan KY, 2017, REMOTE SENS ENVIRON, V199, P333, DOI 10.1016/j.rse.2017.06.043
+   Haboudane D, 2004, REMOTE SENS ENVIRON, V90, P337, DOI 10.1016/j.rse.2003.12.013
+   He X, 2021, KNOWL-BASED SYST, V212, P0, DOI 10.1016/j.knosys.2020.106622
+   Huang JX, 2019, AGR FOREST METEOROL, V276, P0, DOI 10.1016/j.agrformet.2019.06.008
+   Huang J, 2014, IEEE J-STARS, V7, P4374, DOI 10.1109/JSTARS.2014.2334332
+   Huete A, 2002, REMOTE SENS ENVIRON, V83, P195, DOI 10.1016/S0034-4257(02)00096-2
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Jeong JH, 2016, PLOS ONE, V11, P0, DOI 10.1371/journal.pone.0156571
+   Jeong S, 2012, AGR WATER MANAGE, V115, P83, DOI 10.1016/j.agwat.2012.08.012
+   Jeong S, 2020, SCI TOTAL ENVIRON, V714, P0, DOI 10.1016/j.scitotenv.2020.136632
+   Jeong S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101665
+   Jiang D, 2004, INT J REMOTE SENS, V25, P1723, DOI 10.1080/0143116031000150068
+   Jiang H, 2020, GLOBAL CHANGE BIOL, V26, P1754, DOI 10.1111/gcb.14885
+   Khaki S, 2020, FRONT PLANT SCI, V10, P0, DOI 10.3389/fpls.2019.01750
+   Khaki S, 2019, FRONT PLANT SCI, V10, P0, DOI 10.3389/fpls.2019.00621
+   Kim M, 2017, GISCI REMOTE SENS, V54, P534, DOI 10.1080/15481603.2017.1291783
+   Kim N, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8050240
+   Kim N, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10113785
+   Ko J, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.096067
+   Kogan F, 2012, INT J REMOTE SENS, V33, P2798, DOI 10.1080/01431161.2011.621464
+   Kumar P, 2019, GEOCARTO INT, V34, P1022, DOI 10.1080/10106049.2018.1464601
+   Lichtenthaler HK, 1996, J PLANT PHYSIOL, V148, P4, DOI 10.1016/S0176-1617(96)80287-2
+   Lobell DB, 2015, REMOTE SENS ENVIRON, V164, P324, DOI 10.1016/j.rse.2015.04.021
+   Lobell DB, 2014, SCIENCE, V344, P516, DOI 10.1126/science.1251423
+   Lobell DB, 2003, SCIENCE, V299, P1032, DOI 10.1126/science.1077838
+   Maas S. J., 1992, GRAMI CROP GROWTH MO, V0, P0
+   MAAS SJ, 1993, AGRON J, V85, P669, DOI 10.2134/agronj1993.00021962008500030028x
+   Maimaitijiang M, 2020, REMOTE SENS ENVIRON, V237, P0, DOI 10.1016/j.rse.2019.111599
+   Nam JeongKwon, 2019, KOREAN JOURNAL OF BREEDING SCIENCE, V51, P222, DOI 10.9787/KJBS.2019.51.3.222
+   Nash J.E., 1970, J HYDROL, V10, P282, DOI 10.1016/0022-1694(70)90255-6
+   Nelson A., 2015, MAP LOWLAND RICE EXT, V37, P0
+   Nevavuori P, 2019, COMPUT ELECTRON AGR, V163, P0, DOI 10.1016/j.compag.2019.104859
+   Peel MC, 2007, HYDROL EARTH SYST SC, V11, P1633, DOI 10.5194/hess-11-1633-2007
+   Peng DL, 2014, AGR FOREST METEOROL, V184, P107, DOI 10.1016/j.agrformet.2013.09.006
+   Quintero E, 2014, PEERJ, V2, P0, DOI 10.7717/peerj.703
+   Ren JQ, 2008, INT J APPL EARTH OBS, V10, P403, DOI 10.1016/j.jag.2007.11.003
+   Rondeaux G, 1996, REMOTE SENS ENVIRON, V55, P95, DOI 10.1016/0034-4257(95)00186-7
+   ROUJEAN JL, 1995, REMOTE SENS ENVIRON, V51, P375, DOI 10.1016/0034-4257(94)00114-3
+   Rouse J.W., 1974, NASA TECHNICAL REPOR, V0, P371
+   Ryu JH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11151773
+   Sakamoto T, 2007, REMOTE SENS ENVIRON, V109, P295, DOI 10.1016/j.rse.2007.01.011
+   Schwalbert RA, 2020, AGR FOREST METEOROL, V284, P0, DOI 10.1016/j.agrformet.2019.107886
+   Song XD, 2016, J ARID LAND, V8, P734, DOI 10.1007/s40333-016-0049-0
+   Su YX, 2017, SAUDI J BIOL SCI, V24, P537, DOI 10.1016/j.sjbs.2017.01.024
+   Sun J, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19204363
+   UN Food and Agriculture Organization (FAO), 2017, GLOB INF EARL SYST G, V0, P340
+   Nguyen V, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11182131
+   Vincenzi S, 2011, ECOL MODEL, V222, P1471, DOI 10.1016/j.ecolmodel.2011.02.007
+   Wang AX, 2018, PROCEEDINGS OF THE 1ST ACM SIGCAS CONFERENCE ON COMPUTING AND SUSTAINABLE SOCIETIES (COMPASS 2018), V0, P0, DOI DOI 10.1145/3209811.3212707
+   Wang XL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12111744
+   Wheeler J. A., 1974, SCIENTIA HORTICULTURAE, V2, P83, DOI 10.1016/0304-4238(74)90022-3
+   Wolanin A, 2020, ENVIRON RES LETT, V15, P0, DOI 10.1088/1748-9326/ab68ac
+   Wu C, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep34978
+   Xiao XM, 2006, REMOTE SENS ENVIRON, V103, P465, DOI 10.1016/j.rse.2006.04.013
+   Xiao XM, 2005, REMOTE SENS ENVIRON, V95, P480, DOI 10.1016/j.rse.2004.12.009
+   Xin FF, 2020, SCI TOTAL ENVIRON, V711, P0, DOI 10.1016/j.scitotenv.2019.135183
+   Xu JM, 2020, PLANT CELL ENVIRON, V43, P1595, DOI 10.1111/pce.13748
+   Yang Q, 2019, FIELD CROP RES, V235, P142, DOI 10.1016/j.fcr.2019.02.022
+   Yeom JM, 2021, GISCI REMOTE SENS, V58, P1, DOI 10.1080/15481603.2020.1853352
+   Yeom JM, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-34550-0
+   Yeom JM, 2016, J SENSORS, V2016, P0, DOI 10.1155/2016/4834579
+   Yin Z, 2017, COMPUT METH PROG BIO, V140, P93, DOI 10.1016/j.cmpb.2016.12.005
+   Zhang C, 2018, SIGNAL PROCESS-IMAGE, V67, P12, DOI 10.1016/j.image.2018.05.006
+   Zhang HX, 2017, GISCI REMOTE SENS, V54, P381, DOI 10.1080/15481603.2016.1276255
+   Zhang XY, 2016, ISPRS J PHOTOGRAMM, V114, P191, DOI 10.1016/j.isprsjprs.2016.02.010
+   Zhao YX, 2013, ECOL MODEL, V270, P30, DOI 10.1016/j.ecolmodel.2013.08.016
+NR 83
+TC 22
+Z9 22
+U1 11
+U2 55
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0048-9697
+EI 1879-1026
+J9 SCI TOTAL ENVIRON
+JI Sci. Total Environ.
+PD JAN 1
+PY 2022
+VL 802
+IS 
+BP 
+EP 
+DI 10.1016/j.scitotenv.2021.149726
+EA AUG 2021
+PG 12
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA UY7ZH
+UT WOS:000701736900002
+PM 34464811
+DA 2023-04-26
+ER

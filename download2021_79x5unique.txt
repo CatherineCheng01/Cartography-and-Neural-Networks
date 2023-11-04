@@ -1,0 +1,439 @@
+
+PT J
+AU Liu, DY
+   Jia, K
+   Xia, M
+   Wei, XQ
+   Yao, YJ
+   Zhang, XT
+   Tao, GF
+AF Liu, Duanyang
+   Jia, Kun
+   Xia, Mu
+   Wei, Xiangqin
+   Yao, Yunjun
+   Zhang, Xiaotong
+   Tao, Guofeng
+TI Fractional Vegetation Cover Estimation Algorithm Based on Recurrent Neural Network for MODIS 250 m Reflectance Data
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Vegetation mapping; Estimation; Reflectivity; MODIS; Glass; Land surface; Spatial resolution; Artificial intelligence; multivariate adaptive regression splines; neural networks; subpixel vegetation cover mapping
+ID time-series; surface; model; fcover; fapar; lai; information; derivation; principles; variables
+AB Fractional vegetation cover (FVC) is a critical land surface parameter, and several large-scale FVC products have been generated based on remote sensing data. Among these existing products, the global land surface satellite (GLASS) FVC product, derived from moderate resolution imaging spectroradiometer (MODIS) 500 m reflectance data (MOD09A1), has achieved complete spatial-temporal continuity and satisfying accuracy. To further improve the spatial resolution of GLASS FVC product, this study developed a novel FVC estimation algorithm for MODIS 250 m reflectance data based on a recurrent neural network with the long short-term memory unit (RNN-LSTM). The RNN-LSTM was established using sequence training samples derived from the MODIS 250 m reflectance and GLASS FVC products, which were conducted over three vegetation types in mid-West China. Additionally, two machine learning methods, including the back propagation neural network (BPNN) and multivariate adaptive regression splines (MARS), were used to compare with the proposed method. The evaluation results showed that RNN-LSTM derived FVC had reliable spatial-temporal continuity and good consistency with the GLASS FVC product. Furthermore, the smooth temporal profiles of the RNN-LSTM FVC estimation indicated that the proposed method was capable of capturing the temporal characteristics of vegetation growth and reducing the uncertainties from the atmosphere and radiation. Finally, an independent validation case in the Heihe area indicated that the RNN-LSTM algorithm achieved the best accuracy (R-2 = 0.8081, rmse = 0.0951) compared with the BPNN (R-2 = 0.7320, rmse = 0.1127) and MARS (R-2 = 0.7361, rmse = 0.1117). This study provides a new approach by showing the potential of the RNN-LSTM method for land surface parameter estimation and related research.
+C1 [Liu, Duanyang; Jia, Kun; Xia, Mu; Yao, Yunjun; Zhang, Xiaotong; Tao, Guofeng] Beijing Normal Univ, State Key Lab Remote Sensing Sci, Beijing 100875, Peoples R China.
+   [Liu, Duanyang; Jia, Kun; Xia, Mu; Yao, Yunjun; Zhang, Xiaotong; Tao, Guofeng] Beijing Normal Univ, Fac Geog Sci, Beijing Engn Res Ctr Global Land Remote Sensing P, Beijing 100875, Peoples R China.
+   [Wei, Xiangqin] Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100101, Peoples R China.
+C3 Beijing Normal University; Beijing Normal University; Chinese Academy of Sciences
+RP Jia, K (corresponding author), Beijing Normal Univ, State Key Lab Remote Sensing Sci, Beijing 100875, Peoples R China.; Jia, K (corresponding author), Beijing Normal Univ, Fac Geog Sci, Beijing Engn Res Ctr Global Land Remote Sensing P, Beijing 100875, Peoples R China.
+EM duanyangliu0505@mail.bnu.edu.cn; jiakun@bnu.edu.cn; xiamu@mail.bnu.edu.cn; weixq@aircas.ac.cn; boyyunjun@bnu.edu.cn; xtngzhang@bnu.edu.cn; 201921051079@mail.bnu.edu.cn
+FU National Key Research and Development Program of China [2016YFA0600103, 2020YFE0200700, 2019YFE0127300]; Tang Scholar of Beijing Normal University
+CR ADAMS JB, 1986, J GEOPHYS RES-SOLID, V91, P8098, DOI 10.1029/JB091iB08p08098
+   [Anonymous], 1900, DOI 10.1038/NATURE14539, V0, P0
+   [Anonymous], 1997, NEURAL COMPUT, V0, P0
+   Arneth A, 2015, NATURE, V524, P44, DOI 10.1038/524044a
+   Ayhan B, 2020, PROC SPIE, V11398, P0, DOI 10.1117/12.2557833
+   Bacour C, 2006, REMOTE SENS ENVIRON, V105, P313, DOI 10.1016/j.rse.2006.07.014
+   Baret F, 2013, REMOTE SENS ENVIRON, V137, P299, DOI 10.1016/j.rse.2012.12.027
+   Baret F., 2006, ALGORITHM THEORETICA, V0, P0
+   Baret F, 2007, REMOTE SENS ENVIRON, V110, P275, DOI 10.1016/j.rse.2007.02.018
+   Barlage M, 2004, J HYDROMETEOROL, V5, P823, DOI 10.1175/1525-7541(2004)005<0823:TEOOFV>2.0.CO;2
+   BENGIO Y, 1994, IEEE T NEURAL NETWOR, V5, P157, DOI 10.1109/72.279181
+   Bian JH, 2017, REMOTE SENS ENVIRON, V197, P98, DOI 10.1016/j.rse.2017.05.031
+   Bo Y., 2011, REMOTE SENS TECHNOL, V19, P443
+   Camacho F., 2016, P EGU GEN ASS C, V0, PEPSC2016
+   Camacho F, 2013, REMOTE SENS ENVIRON, V137, P310, DOI 10.1016/j.rse.2013.02.030
+   Chen HRX, 2020, IEEE T GEOSCI REMOTE, V58, P2848, DOI 10.1109/TGRS.2019.2956756
+   Chen J, 2004, REMOTE SENS ENVIRON, V91, P332, DOI 10.1016/j.rse.2004.03.014
+   Chen J., 2017, ACTA OECOL, V24, P1
+   Czyzowska-Wisniewski EH, 2015, REMOTE SENS ENVIRON, V156, P403, DOI 10.1016/j.rse.2014.09.026
+   Dobreva ID, 2011, REMOTE SENS ENVIRON, V115, P3355, DOI 10.1016/j.rse.2011.07.018
+   Donohue RJ, 2010, J HYDROL, V390, P23, DOI 10.1016/j.jhydrol.2010.06.025
+   Ferro CJS, 2002, PHOTOGRAMM ENG REM S, V68, P51
+   Friedl MA, 2010, REMOTE SENS ENVIRON, V114, P168, DOI 10.1016/j.rse.2009.08.016
+   FRIEDMAN JH, 1991, ANN STAT, V19, P1, DOI 10.1214/aos/1176347963
+   Fu XG, 2015, IEEE T NEUR NET LEAR, V26, P1900, DOI 10.1109/TNNLS.2014.2361267
+   Gao L, 2020, ISPRS J PHOTOGRAMM, V159, P364, DOI 10.1016/j.isprsjprs.2019.11.018
+   Garcia-Haro FJ, 2005, INT J REMOTE SENS, V26, P2135, DOI 10.1080/01431160512331337817
+   Grings F, 2020, IEEE T GEOSCI REMOTE, V58, P1303, DOI 10.1109/TGRS.2019.2945719
+   Gutman G, 1998, INT J REMOTE SENS, V19, P1533, DOI 10.1080/014311698215333
+   Hochreiter S., 2001, FIELD GUIDE DYNAMICA, V0, P0, DOI DOI 10.1109/9780470544037.CH14
+   Jekabsons G., 2011, ARESLAB ADAPTIVE REG, V0, P0
+   Jekabsons G, 2016, ARESLAB ADAPTIVE REG, V0, P0
+   Jia K, 2015, IEEE T GEOSCI REMOTE, V53, P4787, DOI 10.1109/TGRS.2015.2409563
+   Jia K, 2014, REMOTE SENS LETT, V5, P148, DOI 10.1080/2150704X.2014.889862
+   Jia K, 2011, INT J REMOTE SENS, V32, P9307, DOI 10.1080/01431161.2011.554454
+   Jiang MC, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030271
+   Jiapaer G, 2011, AGR FOREST METEOROL, V151, P1698, DOI 10.1016/j.agrformet.2011.07.004
+   Jimenez-Munoz JC, 2009, SENSORS-BASEL, V9, P768, DOI 10.3390/s90200768
+   Kuter S, 2021, REMOTE SENS ENVIRON, V255, P0, DOI 10.1016/j.rse.2021.112294
+   Kuter S, 2018, REMOTE SENS ENVIRON, V205, P236, DOI 10.1016/j.rse.2017.11.021
+   Kwan C, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12122000
+   Kwan C, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091392
+   Kwan C, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10040520
+   Kwan C, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18041051
+   Li YS, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12234003
+   Liu DY, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212524
+   Liu DY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101648
+   Liu YK, 2012, J VEG SCI, V23, P406, DOI 10.1111/j.1654-1103.2011.01373.x
+   Lyu D, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12182942
+   Ma JH, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091388
+   Melia J., 2009, P 29 EARSEL S CHIN G, V0, P1
+   Mou LC, 2018, INT GEOSCI REMOTE SE, V0, P4363
+   Mou LC, 2017, IEEE T GEOSCI REMOTE, V55, P3639, DOI 10.1109/TGRS.2016.2636241
+   Mu XH, 2018, REMOTE SENS ENVIRON, V216, P44, DOI 10.1016/j.rse.2018.06.022
+   Mu XH, 2015, IEEE J-STARS, V8, P439, DOI 10.1109/JSTARS.2014.2342257
+   Olson DM, 2001, BIOSCIENCE, V51, P933, DOI 10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
+   Rodriguez P, 1999, CONNECT SCI, V11, P5, DOI 10.1080/095400999116340
+   Roujean JL, 2002, J GEOPHYS RES-ATMOS, V107, P0, DOI 10.1029/2001JD000751
+   ROUJEAN JL, 1992, J GEOPHYS RES-ATMOS, V97, P20455, DOI 10.1029/92JD01411
+   Schafer RW, 2011, IEEE SIGNAL PROC MAG, V28, P111, DOI 10.1109/MSP.2011.941097
+   Srivastava S, 2018, SOL ENERGY, V162, P232, DOI 10.1016/j.solener.2018.01.005
+   Sugiyarto AW, 2019, 2019 1ST INTERNATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE AND DATA SCIENCES (AIDAS2019), V0, PP53, DOI 10.1109/AiDAS47888.2019.8970735
+   Sulla-Menashe D., 2018, USER GUIDE COLLECTIO, V0, P1
+   Tang HR, 2013, INT J DIGIT EARTH, V6, P157, DOI 10.1080/17538947.2013.833313
+   Tu YX, 2020, IEEE GEOSCI REMOTE S, V17, P1672, DOI 10.1109/LGRS.2019.2954291
+   Tu YX, 2020, INT J DIGIT EARTH, V13, P487, DOI 10.1080/17538947.2018.1531438
+   Verger A., 2013, P MULTITEMP 2013 7 I, V0, P1
+   Verger A., 1900, P277, V0, P0
+   Wang XX, 2016, IEEE T GEOSCI REMOTE, V54, P7442, DOI 10.1109/TGRS.2016.2604007
+   Weiss M, 2000, AGRONOMIE, V20, P3, DOI 10.1051/agro:2000105
+   Williams RJ, 1989, NEURAL COMPUT, V1, P270, DOI 10.1162/neco.1989.1.2.270
+   Wu H, 2009, SENSORS-BASEL, V9, P1768, DOI 10.3390/s90301768
+   Xiao JF, 2005, REMOTE SENS ENVIRON, V98, P237, DOI 10.1016/j.rse.2005.07.011
+   Xue J, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030324
+   Yan J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010037
+   Yang LQ, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8080682
+   Zeng XB, 2000, J APPL METEOROL, V39, P826, DOI 10.1175/1520-0450(2000)039<0826:DAEOGK>2.0.CO;2
+   Zeng XB, 2002, J CLIMATE, V15, P1832, DOI 10.1175/1520-0442(2002)015&lt;1832:COTCLM&gt;2.0.CO;2
+   Zhan XC, 2019, IEEE T GEOSCI REMOTE, V57, P9344, DOI 10.1109/TGRS.2019.2926392
+   Zhang XF, 2013, INT J APPL EARTH OBS, V21, P506, DOI 10.1016/j.jag.2012.07.003
+   Zhang YT, 2020, IEEE INT CON MULTI, V0, P0
+   Zhou F, 2019, NEUROCOMPUTING, V328, P39, DOI 10.1016/j.neucom.2018.02.105
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 85
+TC 2
+Z9 2
+U1 18
+U2 40
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 6532
+EP 6543
+DI 10.1109/JSTARS.2021.3075624
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA TJ4GO
+UT WOS:000673442300013
+DA 2023-04-26
+ER
+
+PT J
+AU Shadrach, FD
+   Kandasamy, G
+AF Shadrach, Finney Daniel
+   Kandasamy, Gunavathi
+TI Neutrosophic Cognitive Maps (NCM) based feature selection approach for early leaf disease diagnosis
+SO JOURNAL OF AMBIENT INTELLIGENCE AND HUMANIZED COMPUTING
+LA English
+DT Article
+DE Feature selection; Leaf disease; Neutrosophic cognitive maps; GLCM features; Neural network
+ID classification
+AB Early diagnosis of leaf ailments is the most necessary and prominent way to increase agriculture production. In this paper, a computer-aided approach for classifying the ailments in plant leaf is proposed using the neutrosophic logic-based feature selection algorithm. Feature selection leads to better learning performance and lowers computational cost by choosing a small subset of features by eliminating noisy and redundant features thereby acting as a dimensionality reduction technique. Leaf disease classification is similar to other classification problems but varies significantly in the features that contribute to classification. In the proposed method, Neutrosophic Cognitive Maps (NCM) is used to select the best subsets from GLCM and statistical features that can effectively characterize the leaf ailments. Eight existing state-of-the-art feature selection techniques are compared with the proposed method in order to prove the ability of the proposed method on publicly available images from the PlantVillage repository. Further, the leaf diagnosis can be incorporated in a mobile computing system if needed using appropriate methods thereby enabling user-friendliness. The proposed feature selection method provides an overall classification accuracy of 99.8% while selecting just 11 features for leaf disease diagnosis
+C1 [Shadrach, Finney Daniel] KPR Inst Engn & Technol, Dept Elect & Commun Engn, Coimbatore, Tamil Nadu, India.
+   [Kandasamy, Gunavathi] PSG Coll Technol, Dept Elect & Commun Engn, Coimbatore, Tamil Nadu, India.
+C3 PSG College Technology
+RP Shadrach, FD (corresponding author), KPR Inst Engn & Technol, Dept Elect & Commun Engn, Coimbatore, Tamil Nadu, India.
+EM finneydaniels@gmail.com; kgunavathi2000@yahoo.com
+CR Anitha R, 2017, INT J FUZZY SYST, V19, P1603, DOI 10.1007/s40815-016-0250-5
+   Ashbacher C, 2002, INTRO NEUTROSOPHIC L, V0, P1
+   Babatunde O., 2014, BRIT J MATH COMPUTER, V4, P2217, DOI 10.9734/BJMCS/2014/10931
+   Babatunde O., 2014, INT J ELECT COMMUN C, V5, P899
+   Bolon-Canedo V, 2013, KNOWL INF SYST, V34, P483, DOI 10.1007/s10115-012-0487-8
+   Cai D., 2010, PROC 16 ACM SIGKDD I, V0, PP333, DOI 10.1145/1835804.1835848
+   Chandrashekar G, 2014, COMPUT ELECTR ENG, V40, P16, DOI 10.1016/j.compeleceng.2013.11.024
+   CONNERS RW, 1980, IEEE T PATTERN ANAL, V2, P204, DOI 10.1109/TPAMI.1980.4767008
+   Drotar P, 2015, COMPUT BIOL MED, V66, P1, DOI 10.1016/j.compbiomed.2015.08.010
+   GOTLIEB CC, 1990, COMPUT VISION GRAPH, V51, P70, DOI 10.1016/S0734-189X(05)80063-5
+   Gu Q., 2011, P 27 C UNC ART INT, V0, P266
+   HARALICK RM, 1973, IEEE T SYST MAN CYB, VSMC3, P610, DOI 10.1109/TSMC.1973.4309314
+   He X, 2005, P ADV NEUR INF PROC, V18, P0, DOI 10.1007/978-3-642-33506-8_11
+   Hughes D Marcel., 2015, OPEN ACCESS REPOSITO, V0, P1
+   Kandasamy WV, 2003, ARXIVMATH0311063V1, V0, P0
+   Khaire U.M., 2019, J KING SAUD U COMPUT, V0, P0
+   Kumar A, 2016, PROCEDIA COMPUT SCI, V89, P324, DOI 10.1016/j.procs.2016.06.079
+   Kumar S, 2018, SUSTAIN COMPUT INF S, V0, P0
+   Kumar V., 2014, SMART COMPUTING REV, V4, P211, DOI 10.6029/SMARTCR.2014.03.007
+   Liu H., 1996, ML P 13 ICML, V0, P319
+   Phadikar S, 2013, COMPUT ELECTRON AGR, V90, P76, DOI 10.1016/j.compag.2012.11.001
+   Roffo G, 2016, FEATURE SELECTION LI, V0, P1
+   Roffo G, 2017, IEEE I CONF COMP VIS, V0, PP1407, DOI 10.1109/ICCV.2017.156
+   Roffo G, 2015, IEEE I CONF COMP VIS, V0, PP4202, DOI 10.1109/ICCV.2015.478
+   Sharif M, 2018, COMPUT ELECTRON AGR, V150, P220, DOI 10.1016/j.compag.2018.04.023
+   Smarandache, 2016, SSRN ELECT J, V0, P0, DOI DOI 10.2139/ssrn.2725499
+   Turkoglu M, 2019, J AMB INTEL HUM COMP, V0, P0, DOI DOI 10.1007/s12652-019-01591-w
+   Valliammal N, 2012, INT J COMPUT COMMUN, V0, P0
+   Wu M, 2007, ADV NEURAL INF PROCE, V0, P0
+   Xin B, 2015, AAAI CONF ARTIF INTE, V0, P1910
+   XU Y, 2007, BIOL MED PHYS BIOMED, V0, P1
+   Zeng H, 2011, IEEE T PATTERN ANAL, V33, P1532, DOI 10.1109/TPAMI.2010.215
+   Zhang Z, 2018, J AMBIENT INTELL HUM, V0, P0
+NR 33
+TC 2
+Z9 2
+U1 3
+U2 7
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1868-5137
+EI 1868-5145
+J9 J AMB INTEL HUM COMP
+JI J. Ambient Intell. Humaniz. Comput.
+PD MAY 15
+PY 2021
+VL 12
+IS 5
+BP 5627
+EP 5638
+DI 10.1007/s12652-020-02070-3
+EA MAY 2020
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Information Systems; Telecommunications
+SC Computer Science; Telecommunications
+GA SH1JN
+UT WOS:000533052300001
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, ZY
+   Chen, ZY
+   Luo, L
+   Hua, M
+   Li, WQ
+   Xia, B
+AF Liu, Zhenyu
+   Chen, Zhiyong
+   Luo, Ling
+   Hua, Min
+   Li, Wenqing
+   Xia, Bin
+TI Age of Information-based Scheduling for Wireless Device-to-Device Communications using Deep Learning
+SO 2021 IEEE WIRELESS COMMUNICATIONS AND NETWORKING CONFERENCE (WCNC)
+LA English
+DT Proceedings Paper
+ID networks; throughput
+AB Device-to-device (D2D) links scheduling for avoiding excessive interference is critical to the success of wireless D2D communications. Most of the traditional scheduling schemes only consider the maximum throughput or fairness of the system and do not consider the freshness of information. In this paper, we propose a novel D2D links scheduling scheme to minimize the average age of information (AoI) of wireless D2D communications. It is motivated by the fact that the more links are activated, the greater the interference with each other, which reduces the probability of successful transmission and in turn increases the AoI. We thus derive the accurate expression of the overall average AoI of the network based on the transmission success probability under the interfering channels. Moreover, a neural network structure is proposed to learn the mapping from the geographic location to the minimum AoI scheduling under a stationary randomized policy, where the scheduling decision can be made without estimating the channel state information. Finally, numerical results reveal that the performance of the deep learning approach is close to that of a local optimal algorithm which has a higher computational complexity.
+C1 [Liu, Zhenyu; Chen, Zhiyong; Xia, Bin] Shanghai Jiao Tong Univ, Shanghai, Peoples R China.
+   [Luo, Ling; Hua, Min; Li, Wenqing] State Grid Shanghai Elect Power Res Inst, Shanghai, Peoples R China.
+C3 Shanghai Jiao Tong University
+RP Liu, ZY (corresponding author), Shanghai Jiao Tong Univ, Shanghai, Peoples R China.
+EM liuzhy@sjtu.edu.cn; zhiyongchen@sjtu.edu.cn; bxia@sjtu.edu.cn
+FU State Grid Shanghai Municipal Electric Power Company [52094019007K]; Ministry of Education of China (MOE) - China Mobile Communication Corporation (CMCC) Science Joint Foundation [MCM20180102]
+CR [Anonymous], 2019, BT50014 ITU R, V0, P0
+   Costa M, 2016, IEEE T INFORM THEORY, V62, P1897, DOI 10.1109/TIT.2016.2533395
+   Cui W, 2019, IEEE J SEL AREA COMM, V37, P1248, DOI 10.1109/JSAC.2019.2904352
+   Emara M, 2020, IEEE INTERNET THINGS, V7, P6762, DOI 10.1109/JIOT.2020.2981924
+   Gu J, 2016, IEEE T WIREL COMMUN, V15, P769, DOI 10.1109/TWC.2015.2477998
+   Kadota I, 2019, IEEE ACM T NETWORK, V27, P1359, DOI 10.1109/TNET.2019.2918736
+   Kaul S, 2012, IEEE INFOCOM SER, V0, PP2731, DOI 10.1109/INFCOM.2012.6195689
+   Lee MC, 2018, IEEE T WIREL COMMUN, V17, P7500, DOI 10.1109/TWC.2018.2867596
+   Mankar P. D., 2020, SPATIAL DISTRIBUTION, V0, P0
+   Shen KM, 2017, IEEE INT SYMP INFO, V0, PP2323, DOI 10.1109/ISIT.2017.8006944
+   Sun YP, 2019, IEEE T COMMUN, V67, P7573, DOI 10.1109/TCOMM.2019.2920594
+   Sun Y, 2017, IEEE T INFORM THEORY, V63, P7492, DOI 10.1109/TIT.2017.2735804
+   Talak R, 2020, IEEE ACM T NETWORK, V28, P15, DOI 10.1109/TNET.2019.2946481
+   Yang H. H., 2020, IEEE T MOBILE COMPUT, V0, P1
+NR 14
+TC 5
+Z9 5
+U1 0
+U2 3
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1525-3511
+EI 
+J9 IEEE WCNC
+PD JUN 15
+PY 2021
+VL 0
+IS 
+BP 
+EP 
+DI 10.1109/WCNC49053.2021.9417493
+PG 6
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA BS2OB
+UT WOS:000704226500247
+DA 2023-04-26
+ER
+
+PT J
+AU Wu, GQ
+   Chen, X
+   Lin, JX
+   Wang, YY
+   Yu, JH
+AF Wu, Guoqing
+   Chen, Xi
+   Lin, Jixian
+   Wang, Yuanyuan
+   Yu, Jinhua
+TI Identification of invisible ischemic stroke in noncontrast CT based on novel two-stage convolutional neural network model
+SO MEDICAL PHYSICS
+LA English
+DT Article
+DE deep convolutional neural network; identification; ischemic stroke; noncontrast computed tomography
+AB Purpose Early identification of ischemic stroke lesion regions plays a vital role in its treatments like thrombolytic therapy and patients' recovery. Noncontrast computed tomography (ncCT) is the most widespread imaging modality in emergency departments. Unfortunately, it is extremely hard to distinguish the lesion from healthy tissue during the hyper-acute phase of stroke. In this paper, a two-stage convolutional neural network-based method was proposed to identify the invisible ischemic stroke from ncCT. Methods In order to combine the global and local information of images effectively, a cascaded structure with two coordinated networks was used to detect the suspicious stroke regions on the whole and optimize the detailed localization. In the first stage, an end-to-end U-net with adaptive threshold was proposed to integrate global position, symmetry and gray texture information to detect the suspicious regions. After reducing the interference from most normal regions, a ResNet-based patch classification network was used to eliminate some false positive samples on suspicious regions by mining deeper image features, contributing to a more precise localization of stroke. Finally, a MAP model was used to optimize the result by combining the classification results of each patch with their spatial constraint information. Results Three independent experiments, that is, training and testing on dataset from one hospital, on the combination of two, and on the two respectively, were performed on a total of 277 cases from two hospitals to validate the proposed model, The proposed method achieved identification accuracy of 91.89%, 87.21%, and 85.71% in the three experiments, and the final localization accuracy in terms of precise localization of stroke were 82.35%, 83.02%, and 81.40%, respectively, which indicated the robustness and clinical values of the method. Conclusions There are some deep image feature differences between stroke region and normal region on ncCT images. The proposed two-stage convolutional neural network model can well seize these features and use them to effectively identify and locate stroke.
+C1 [Wu, Guoqing; Chen, Xi] Fudan Univ, Dept Elect Engn, Shanghai 200433, Peoples R China.
+   [Lin, Jixian] Fudan Univ, Zhongshan Hosp, Dept Neurol, Minhang Branch, Shanghai 200433, Peoples R China.
+   [Wang, Yuanyuan; Yu, Jinhua] Fudan Univ, Dept Elect Engn, KeyLab Med Imaging Comp & Comp Assisted Intervent, Shanghai 200433, Peoples R China.
+C3 Fudan University; Fudan University; Fudan University
+RP Wang, YY; Yu, JH (corresponding author), Fudan Univ, Dept Elect Engn, KeyLab Med Imaging Comp & Comp Assisted Intervent, Shanghai 200433, Peoples R China.
+EM yywang@fudan.edu.cn; jhyu@fudan.edu.cn
+FU National Natural Science Foundation of China Youth Foud [62001119]; Shanghai Municipal Science and Technology Major Project [2018SHZDZX01]; Natural Science Foundation; Major Basic Research Program of Shanghai [16JC1420100]; Major research plan of the National Natural Science Foundation [91959127]
+CR Chen SF, 2010, IEEE T IMAGE PROCESS, V19, P2254, DOI 10.1109/TIP.2010.2047164
+   Ciresan D., 2012, ADV NEURAL INFORM PR, V0, PP2843, DOI 10.5555/2999325.2999452
+   Davis A, 2018, BIOMED SIGNAL PROCES, V45, P117, DOI 10.1016/j.bspc.2018.05.037
+   GEMAN S, 1984, IEEE T PATTERN ANAL, V6, P721, DOI 10.1109/TPAMI.1984.4767596
+   He K., 2016, P IEEE C COMP VIS PA, V2016, P1512.03385, DOI 10.1109/CVPR.2016.90
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Jin, 2016, ZHEJIANG MED J, V38, P1178
+   Li J, 2012, IEEE T GEOSCI REMOTE, V50, P809, DOI 10.1109/TGRS.2011.2162649
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Mirajkar PR, 2015, 2015 INTERNATIONAL CONFERENCE ON ADVANCES IN COMPUTING, V0, P1123, DOI 10.1109/ICACCI.2015.7275761
+   Peter R, 2017, MED PHYS, V44, P192, DOI 10.1002/mp.12015
+   Przelaskowski A, 2007, COMPUT BIOL MED, V37, P524, DOI 10.1016/j.compbiomed.2006.08.004
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Schwamm LH, 1998, STROKE, V29, P2268, DOI 10.1161/01.STR.29.11.2268
+   Shalikar A, 2014, INT J MECHATRON ELEC, V4, P67
+   Sivakumar P, 2017, INT J IMAG SYST TECH, V27, P265, DOI 10.1002/ima.22231
+   Sundaram, 2018, BIOCYBERN BIOMED ENG, V334, P1
+   Usinskas A, 2004, INFORMATICA-LITHUAN, V15, P283
+   Wardlaw JM, 2005, RADIOLOGY, V235, P444, DOI 10.1148/radiol.2352040262
+   Wu GQ, 2019, BIOMED SIGNAL PROCES, V52, P41, DOI 10.1016/j.bspc.2019.03.008
+   Yahiaoui AFZ, 2016, 2016 INTERNATIONAL SYMPOSIUM ON SIGNAL, V0, P0
+   Zou KH, 2004, ACAD RADIOL, V11, P178, DOI 10.1016/S1076-6332(03)00671-8
+NR 22
+TC 3
+Z9 4
+U1 3
+U2 17
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0094-2405
+EI 2473-4209
+J9 MED PHYS
+JI Med. Phys.
+PD MAR 15
+PY 2021
+VL 48
+IS 3
+BP 1262
+EP 1275
+DI 10.1002/mp.14691
+EA FEB 2021
+PG 14
+WC Radiology, Nuclear Medicine & Medical Imaging
+SC Radiology, Nuclear Medicine & Medical Imaging
+GA RB6HM
+UT WOS:000615236500001
+PM 33378585
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, PP
+   Yuan, MY
+   He, Y
+   Sun, J
+AF Wang, Peipei
+   Yuan, Mingyuan
+   He, Yan
+   Sun, Jiuai
+TI 3D augmented fundus images for identifying glaucoma via transferred convolutional neural networks
+SO INTERNATIONAL OPHTHALMOLOGY
+LA English
+DT Article
+DE Glaucoma; 3D; Convolutional neural network; Transfer learning
+AB Purpose Glaucoma is a chronic and irreversible retinopathy threatening the vision of millions of patients around the world. Its early diagnosis and treatment can help to prolong the period of sight deterioration from no visual impairment to blindness, whereas the screening and diagnosis of glaucoma in clinical remains challenging because some key assessment criteria like cup-to-disc ratio is limited by subjective analysis and intra- and inter-observer variability. This paper exploits the potential of new augmented image data of the optic nerve head (ONH) combining with the latest deep learning networks to achieve better diagnosis of glaucoma. Methods This paper explores the potential value of additional three-dimensional topographic map of the optic nerve head proceeded by the latest deep learning approaches, i.e. convolutional neural networks to improve the diagnosis efficiency. Specifically, 3D topography map of the ONH and RGB fundus image has been used to train the transferred AlexNet and VGG-16 networks. The diagnostic performance is compared to those achieved by using the 2D fundus images only. Results The 3D topographic map of ONH reconstructed from the shape from shading method provides better visualization of the structure of optic cup and disc. These new enhanced dataset was employed to train the proposed deep learning networks and finally achieve diagnostic accuracy of 94.3% which is superior to the networks trained via 2D conventional images. Conclusion Employing the deep learning neural networks with augmented 3D images can increase the accuracy of automatic separating glaucoma and non-glaucoma fundus images. It may be used as an objective tool in developing computer assisted diagnosis systems for assessment of glaucoma.
+C1 [Wang, Peipei; Yuan, Mingyuan] Shanghai Univ Med & Hlth Sci, Dept Radiol, Affliated Zhoupu Hosp, Shanghai 201318, Peoples R China.
+   [Wang, Peipei; Sun, Jiuai] Shanghai Univ Med & Hlth Sci, Coll Med Imaging, Shanghai 201318, Peoples R China.
+   [He, Yan] Cent South Univ, Xiangya Hosp 2, Dept Ophthalmol, Changsha 410011, Hunan, Peoples R China.
+   [He, Yan] Hunan Clin Res Ctr Ophthalm Dis, Changsha 410011, Hunan, Peoples R China.
+   [He, Yan] Cent South Univ, Clin Immunol Ctr, Changsha 410011, Hunan, Peoples R China.
+C3 Shanghai University of Medicine & Health Sciences; Shanghai University of Medicine & Health Sciences; Central South University; Central South University
+RP Sun, J (corresponding author), Shanghai Univ Med & Hlth Sci, Coll Med Imaging, Shanghai 201318, Peoples R China.; He, Y (corresponding author), Cent South Univ, Xiangya Hosp 2, Dept Ophthalmol, Changsha 410011, Hunan, Peoples R China.
+EM sunja@sumhs.edu.cn
+FU Shanghai University of Medicine and Health Sciences (Innovative and Collaborative Project Funding of Shanghai University of Medicine and Health Sciences) [SPCI-17-18-001]
+CR Abbas Q, 2017, INT J ADV COMPUT SC, V8, P41
+   Benzebouchi N.E., 2018, INT J ADV ELECT COMP, V5, P31
+   Brooks, 1985, COMPUT VIS GR IMAGE, V32, P142, DOI 10.1016/0734-189x(85)90010-6
+   Budai A, 2013, INT J BIOMED IMAGING, V2013, P0, DOI 10.1155/2013/154860
+   Carmona EJ, 2008, ARTIF INTELL MED, V43, P243, DOI 10.1016/j.artmed.2008.04.005
+   Chan EW, 2013, TRANSL VIS SCI TECHN, V2, P0, DOI 10.1167/tvst.2.5.2
+   Chen X, 2015, IEEE ENG MED BIO, V0, PP6834, DOI 10.1109/EMBC.2015.7319963
+   Choi JY, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0187336
+   Claro M, 2019, J VIS COMMUN IMAGE R, V64, P0, DOI 10.1016/j.jvcir.2019.102597
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   DAMMS T, 1993, INVEST OPHTH VIS SCI, V34, P2246
+   Dave P, 2015, BRIT J OPHTHALMOL, V99, P1713, DOI 10.1136/bjophthalmol-2014-306331
+   DONG Y, 2017, IEEE CONF IMAGING SY, V0, P0
+   Ferreira MVD, 2018, EXPERT SYST APPL, V110, P250, DOI 10.1016/j.eswa.2018.06.010
+   Fumero F, 2011, COMP MED SY, V0, P0
+   Gao XT, 2015, LECT NOTES COMPUT SC, V9004, P632, DOI 10.1007/978-3-319-16808-1_42
+   Harizman N, 2006, ARCH OPHTHALMOL-CHIC, V124, P1579, DOI 10.1001/archopht.124.11.1579
+   Orlando JI, 2017, PROC SPIE, V10160, P0, DOI 10.1117/12.2255740
+   LANDIS JR, 1977, BIOMETRICS, V33, P159, DOI 10.2307/2529310
+   Morgan JE, 2012, OPHTHALMOLOGY, V119, P723, DOI 10.1016/j.ophtha.2011.10.004
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Pratt H, 2016, PROCEDIA COMPUT SCI, V90, P200, DOI 10.1016/j.procs.2016.07.014
+   Quigley HA, 2006, BRIT J OPHTHALMOL, V90, P262, DOI 10.1136/bjo.2005.081224
+   Resnikoff S, 2004, B WORLD HEALTH ORGAN, V82, P844
+   Roslin M, 2016, 2016 INTERNATIONAL CONFERENCE ON COMMUNICATION AND SIGNAL PROCESSING (ICCSP), VOL. 1, P2210, DOI 10.1109/ICCSP.2016.7754086
+   Sivaswamy J., 2015, JSM BIOMEDICAL IMAGI, V2, P1004
+   Varma R, 2011, AM J OPHTHALMOL, V152, P515, DOI 10.1016/j.ajo.2011.06.004
+   Wang PP, 2018, PROC SPIE, V10615, P0, DOI 10.1117/12.2302502
+   Zoph Barret, 2016, P 2016 C EMP METH NA, V0, P1568
+NR 29
+TC 1
+Z9 1
+U1 1
+U2 10
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0165-5701
+EI 1573-2630
+J9 INT OPHTHALMOL
+JI Int. Ophthalmol.
+PD JUN 15
+PY 2021
+VL 41
+IS 6
+BP 2065
+EP 2072
+DI 10.1007/s10792-021-01762-9
+EA MAR 2021
+PG 8
+WC Ophthalmology
+SC Ophthalmology
+GA SM1GK
+UT WOS:000624430300002
+PM 33655390
+DA 2023-04-26
+ER

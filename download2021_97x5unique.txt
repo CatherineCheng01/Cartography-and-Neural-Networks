@@ -1,0 +1,461 @@
+
+PT J
+AU Park, S
+   Rysz, M
+   Fair, KL
+   Pardalos, PM
+AF Park, Seonho
+   Rysz, Maciej
+   Fair, Kaitlin L.
+   Pardalos, Panos M.
+TI SYNTHETIC-APERTURE RADAR IMAGE BASED POSITIONING IN GPS-DENIED ENVIRONMENTS USING DEEP COSINE SIMILARITY NEURAL NETWORKS
+SO INVERSE PROBLEMS AND IMAGING
+LA English
+DT Article
+DE Synthetic Aperture Radar (SAR); polarimetric SAR (PolSAR); Deep Cosine Similarity Neural Networks; image graphs; image retrieval; image registration; scale-invariant feature transform (SIFT); SAR-SIFT; remote sensing
+AB Navigating unmanned aerial vehicles in precarious environments is of great importance. It is necessary to rely on alternative information processing techniques to attain spatial information that is required for navigation in such settings. This paper introduces a novel deep learning-based approach for navigating that exclusively relies on synthetic aperture radar (SAR) images. The proposed method utilizes deep neural networks (DNNs) for image matching, retrieval, and registration. To this end, we introduce Deep Cosine Similarity Neural Networks (DCSNNs) for mapping SAR images to a global descriptive feature vector. We also introduce a fine-tuning algorithm for DC-SNNs, and DCSNNs are used to generate a database of feature vectors for SAR images that span a geographic area of interest, which, in turn, are compared against a feature vector of an inquiry image. Images similar to the inquiry are retrieved from the database by using a scalable distance measure between the feature vector outputs of DCSNN. Methods for reranking the retrieved SAR images that are used to update position coordinates of an inquiry SAR image by estimating from the best retrieved SAR image are also introduced. Numerical experiments comparing with baselines on the Polarimetric SAR (PolSAR) images are presented.
+C1 [Park, Seonho; Pardalos, Panos M.] Univ Florida, Dept Ind & Syst Engn, Gainesville, FL 32611 USA.
+   [Rysz, Maciej] Miami Univ, Dept Informat Syst & Analyt, Oxford, OH 45056 USA.
+   [Fair, Kaitlin L.] Air Force Res Lab AFRL RWWI, Eglin Air Force Base, FL 32542 USA.
+C3 State University System of Florida; University of Florida; University System of Ohio; Miami University
+RP Rysz, M (corresponding author), Miami Univ, Dept Informat Syst & Analyt, Oxford, OH 45056 USA.
+EM seonhopark@ufl.edu; ryszmw@miamioh.edu; kaitlin.fair@us.af.mil; pardalos@ufl.edu
+FU U.S. Air Force grant [FA8651-08-D-0108/048, FA9453-20-1-0007]
+CR [Anonymous], 2004, UNDERSTANDING SYNTHE, V0, P0
+   [Anonymous], 2020, DATASET UAVSAR POLSA, V0, P0
+   Babenko A, 2014, LECT NOTES COMPUT SC, V8689, P584, DOI 10.1007/978-3-319-10590-1_38
+   Balamurugan G., 2016, 2016 INTERNATIONAL CONFERENCE ON SIGNAL PROCESSING, V0, Power and Embedded System (SCOPES)
+   Bhatti J, 2017, NAVIGATION-US, V64, P51, DOI 10.1002/navi.183
+   Caballero F, 2009, J INTELL ROBOT SYST, V54, P137, DOI 10.1007/s10846-008-9257-y
+   Cao Y, 2016, AAAI CONF ARTIF INTE, V0, P3457
+   Cesetti A, 2010, J INTELL ROBOT SYST, V57, P233, DOI 10.1007/s10846-009-9373-3
+   Conte G, 2009, EURASIP J ADV SIG PR, V0, P0, DOI DOI 10.1155/2009/387308
+   Dalal N, 2005, PROC CVPR IEEE, V0, PP886, DOI 10.1109/cvpr.2005.177
+   Dellinger F, 2015, IEEE T GEOSCI REMOTE, V53, P453, DOI 10.1109/TGRS.2014.2323552
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   DICE LR, 1945, ECOLOGY, V26, P297, DOI 10.2307/1932409
+   Duchi J, 2011, J MACH LEARN RES, V12, P2121
+   FISCHLER MA, 1981, COMMUN ACM, V24, P381, DOI 10.1145/358669.358692
+   Gordo A, 2017, INT J COMPUT VISION, V124, P237, DOI 10.1007/s11263-017-1016-8
+   Grant A, 2009, J NAVIGATION, V62, P173, DOI 10.1017/S0373463308005213
+   Jegou H, 2011, IEEE T PATTERN ANAL, V33, P117, DOI 10.1109/TPAMI.2010.57
+   Joe Yue-Hei Ng, 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP53, DOI 10.1109/CVPRW.2015.7301272
+   Kaiser MK, 2010, IEEE T AERO ELEC SYS, V46, P1064, DOI 10.1109/TAES.2010.5545174
+   Kang WC, 2016, AAAI CONF ARTIF INTE, V0, P1230
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Li P, 2017, IEEE GEOSCI REMOTE S, V14, P464, DOI 10.1109/LGRS.2017.2651056
+   Li YS, 2018, IEEE T GEOSCI REMOTE, V56, P950, DOI 10.1109/TGRS.2017.2756911
+   Liu HM, 2016, PROC CVPR IEEE, V0, PP2064, DOI 10.1109/CVPR.2016.227
+   Lowe D. G., 1999, PROCEEDINGS OF THE SEVENTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP1150, DOI 10.1109/ICCV.1999.790410
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   MacQueen J.B., 1967, PROC 5 BERKELEY S MA, V0, P281
+   Nemra A, 2010, IEEE SENS J, V10, P789, DOI 10.1109/JSEN.2009.2034730
+   Nister D, 2004, PROC CVPR IEEE, V0, P652
+   Nitti DO, 2015, SENSORS-BASEL, V15, P18334, DOI 10.3390/s150818334
+   Noh H, 2017, IEEE I CONF COMP VIS, V0, PP3476, DOI 10.1109/ICCV.2017.374
+   Park S, 2020, J OPTIMIZ THEORY APP, V184, P953, DOI 10.1007/s10957-019-01624-6
+   Paszke A, 2019, ADV NEUR IN, V32, P0
+   Shan M, 2015, 2015 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS (ROBIO), V0, PP114, DOI 10.1109/ROBIO.2015.7418753
+   Shen FM, 2015, PROC CVPR IEEE, V0, PP37, DOI 10.1109/CVPR.2015.7298598
+   Sim DG, 2002, IEEE T PATTERN ANAL, V24, P1, DOI 10.1109/34.982881
+   Simonyan K, 2015, ARXIV, V0, P0
+   Uhl J, 2009, 75 ANN ASPRS C, V0, P0
+   Wang BS, 2015, IEEE GEOSCI REMOTE S, V12, P1426, DOI 10.1109/LGRS.2015.2406336
+   Wessel B, 2007, 2007 PIA PHOTOGRAMME, V3, P179
+   Williams P, 2012, P 28 INT C AER SCI, V0, P0
+   Yi KM, 2016, LECT NOTES COMPUT SC, V9910, P467, DOI 10.1007/978-3-319-46466-4_28
+   Zhao S., 2012, AIAA GUID NAV CONTR, V0, P5033
+   Zheng L, 2018, IEEE T PATTERN ANAL, V40, P1224, DOI 10.1109/TPAMI.2017.2709749
+   Zhu H, 2016, AAAI CONF ARTIF INTE, V0, P2415
+   Zitova B, 2003, IMAGE VISION COMPUT, V21, P977, DOI 10.1016/S0262-8856(03)00137-9
+NR 51
+TC 1
+Z9 1
+U1 0
+U2 17
+PU AMER INST MATHEMATICAL SCIENCES-AIMS
+PI SPRINGFIELD
+PA PO BOX 2604, SPRINGFIELD, MO 65801-2604, UNITED STATES
+SN 1930-8337
+EI 1930-8345
+J9 INVERSE PROBL IMAG
+JI Inverse Probl. Imaging
+PD AUG 15
+PY 2021
+VL 15
+IS 4
+BP 763
+EP 785
+DI 10.3934/ipi.2021013
+PG 23
+WC Mathematics, Applied; Physics, Mathematical
+SC Mathematics; Physics
+GA RZ4MQ
+UT WOS:000648571700007
+DA 2023-04-26
+ER
+
+PT J
+AU Sohrabi, A
+   Kadkhodaie, A
+   Kadkhodaie-Ilkhchi, R
+AF Sohrabi, Akbar
+   Kadkhodaie, Ali
+   Kadkhodaie-Ilkhchi, Rahim
+TI Artificial intelligence approach to palaeogeography and evolutionary trend analysis of Laurentian brachiopod fauna in the Rhynchotrema-Hiscobeccus lineage
+SO PALAEOGEOGRAPHY PALAEOCLIMATOLOGY PALAEOECOLOGY
+LA English
+DT Article
+DE Rhynchonellid brachiopods; Katian; Quantitative analysis; Neural network; North America
+ID series upper ordovician; neural-network; sequence stratigraphy; carbon; field; ohio
+AB Previous studies, based on the qualitative morphological description on the Late Ordovician brachiopod fauna hypothesized that the earliest species of Hiscobeccus, which is one of the diagnostic taxa in North American epicontinental brachiopod fauna, evolved from Rhynchotrema, a well-known rhynchonellide brachiopod, which lived in pericratonic regions of Laurentia. A quantitative approach conducting multivariate analysis, which was based on biometric characters of rhynchonellide brachiopod specimens from the Late Ordovician (upper Sandbian-upper Katian) in North America, supported this hypothesis that the younger and larger species of Hiscobeccus evolved from older and smaller species of Rhynchotrema during the Late Ordovician. The current study proposes the first report of employing an artificial intelligence model based on neural networks to map a set of quantitative morphological measurements of the Rhynchotrema-Hiscobeccus lineage of North America to their locality and evolutionary trend. For this purpose, a total of 171 morphometric measurements of the Late Ordovician brachiopods from 11 localities of North America were divided into 114 training and validation samples and 57 testing sets. The input morphometric parameters of the studied brachiopods include shell length (L), shell width (W), shell thickness (T), sulcus depth (T1), sulcus maximum width (W1), sulcus floor width (W2), apical angle (AA), lamella-covered shell length (L1), lamella number (Ln). Artificial neural network tries to find a mathematical formulation between the mentioned morphometric parameters and their corresponding localities from North America. The results showed that the accuracy of the neural network approach in estimating the locality of the testing brachiopod samples is 81%. In the light of satisfactory results of neural networks, having a set of the morphometric data from the unseen Late Ordovician brachiopods, their localities can be estimated.
+C1 [Sohrabi, Akbar; Kadkhodaie, Ali; Kadkhodaie-Ilkhchi, Rahim] Univ Tabriz, Fac Nat Sci, Dept Earth Sci, Tabriz 5166616471, Iran.
+C3 University of Tabriz
+RP Sohrabi, A; Kadkhodaie, A (corresponding author), Univ Tabriz, Fac Nat Sci, Dept Earth Sci, Tabriz 5166616471, Iran.
+EM ak.sohrabi@yahoo.com; kadkhodaie_ali@tabrizu.ac.ir
+CR Abdizadeh H, 2017, GEOPERSIA, V7, P255, DOI 10.22059/geope.2017.229418.648307
+   Alizadeh B, 2012, COMPUT GEOSCI-UK, V45, P261, DOI 10.1016/j.cageo.2011.11.024
+   Amsden T. W., 1983, OKLAHOMA GEOLOGICAL, V132, P36
+   Amsden T.W., 1983, OKLAHOMA GEOLOGICAL, V0, P1
+   Anemone R, 2011, EVOL ANTHROPOL, V20, P169, DOI 10.1002/evan.20324
+   [Anonymous], 1996, GEOL SOC AM SPEC PAP, V0, P0
+   BARNES CR, 1981, ORDOVICIAN SYSTEM CA, V8, P21
+   Beaufort L, 2004, MAR MICROPALEONTOL, V51, P57, DOI 10.1016/j.marmicro.2003.09.003
+   Bergstrom S.M., 1971, MEMOIRS GEOLOGICAL SOCIETY OF AMERICA, V127, P83
+   Bhattacharya A., 1999, P 5 ANN ACM IEEE INT, V0, P1
+   Bolton T.E., 2000, GEOLOGY PALEONTOLOGY, V557, P39
+   Brett CE, 2004, PALAEOGEOGR PALAEOCL, V210, P295, DOI 10.1016/j.palaeo.2004.02.038
+   Brett K., 1997, GUIDEBOOK FIELD TRIP, V0, P0
+   Cocks LRM, 2011, EARTH-SCI REV, V106, P1, DOI 10.1016/j.earscirev.2011.01.007
+   Cressman E. R., 1973, US GEOLOGICAL SURVEY, V0, P61
+   Elias R.J., 1991, GEOLOGICAL SURVEY OF CANADA PAPER, V90, P205
+   ELIAS RJ, 1983, J PALEONTOL, V57, P924
+   Farzi R, 2017, J NAT GAS SCI ENG, V39, P54, DOI 10.1016/j.jngse.2017.01.029
+   HALL J., 1860, ANN REPORT REGENTS U, V13, P55
+   Holland S. M., 2008, STRATIGRAPHIC RENAIS, V2, P174
+   HOLLAND SM, 1993, GEOL SOC AM BULL, V105, P306, DOI 10.1130/0016-7606(1993)105<0306:SSOACC>2.3.CO;2
+   Holland SM, 2007, PALAIOS, V22, P392, DOI 10.2110/palo.2006.p06-066r
+   Jin J., 1996, GEOLOGICAL SURVEY OF CANADA BULLETIN, V491, P20
+   Jin J., 1997, GEOLOGICAL SURVEY CA, V115, P115
+   Jin J., 2001, LATE ORDOVICIAN ARTI, V0, P0
+   Jin Jisuo, 1992, PALAEONTOGRAPHICA ABTEILUNG A PALAEOZOOLOGIE-STRATIGRAPHIE, V224, P133
+   Jin JS, 2001, CAN J EARTH SCI, V38, P143, DOI 10.1139/e00-049
+   Johnson LM, 2018, COMPUT GEOSCI-UK, V120, P73, DOI 10.1016/j.cageo.2018.08.004
+   Kadkhodaie-Ilkhchi A, 2010, IEEE GEOSCI REMOTE S, V7, P680, DOI 10.1109/LGRS.2010.2046312
+   Kadkhodaie-Ilkhchi A, 2009, J PETROL SCI ENG, V65, P23, DOI 10.1016/j.petrol.2008.12.012
+   Ludvigson GA, 2004, PALAEOGEOGR PALAEOCL, V210, P187, DOI 10.1016/j.palaeo.2004.02.043
+   MACOMBER R W, 1970, JOURNAL OF PALEONTOLOGY, V44, P416
+   Malmgren BA, 1997, PALAEOGEOGR PALAEOCL, V136, P359, DOI 10.1016/S0031-0182(97)00031-X
+   Melchin M.J., 1994, GEOLOGICAL ASS CANAD, V0, P0
+   MITCHELL C E, 1991, GEOLOGICAL SURVEY OF CANADA PAPER, V0, P59
+   Mossler J. H., 1992, MINNESOTA GEOLOGIC C, VC-7, P0
+   Norford B.S., 1996, GEOLOGICAL SURVEY OF CANADA BULLETIN, V491, P5
+   Nouri-Taleghani M, 2015, J PETROL GEOL, V38, P177, DOI 10.1111/jpg.12605
+   Ojakangas RW., 1982, MINNESOTAS GEOLOGY, V0, P0, DOI DOI 10.5749/j.cttttrsq
+   Okulitch Vladimir J., 1943, TRANS ROYAL SOC CANADA SECT 4, V37, P59
+   Sanford BV., 2000, GEOLOGICAL SURVEY CA, V557, P13
+   Schumacher Gregory A., 1997, P131, V0, P0
+   Sohrabi A, 2013, LETHAIA, V46, P188, DOI 10.1111/j.1502-3931.2012.00333.x
+   Tasch P., 1969, T KANSAS ACAD SCI, V72, P195
+   TOBIN RC, 1986, AM J SCI, V286, P673, DOI 10.2475/ajs.286.9.673
+   Vogel K, 2009, PALAEOGEOGR PALAEOCL, V281, P1, DOI 10.1016/j.palaeo.2009.06.032
+   Wang Y., 1949, GEOLOGICAL SOC AM ME, V42, P55
+   Webby BD, 2004, CRIT MOM PERSP EARTH, V0, P124
+   Weir G.W., 1981, 1151E US GEOL SURV, V0, P121
+   Williams D. A., 1986, FIELD TRIP GUIDEBOOK, V8, P0
+   Wilson A. E., 1946, GEOLOGICAL SURVEY CA, V8, P149
+   Young G. A., 2008, CANADIAN PALEONTOLOG, V13, P97
+   Young Graham A., 1999, ACTA UNIVERSITATIS CAROLINAE GEOLOGICA, V43, P429
+NR 53
+TC 0
+Z9 0
+U1 0
+U2 4
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0031-0182
+EI 1872-616X
+J9 PALAEOGEOGR PALAEOCL
+JI Paleogeogr. Paleoclimatol. Paleoecol.
+PD JAN 15
+PY 2021
+VL 562
+IS 
+BP 
+EP 
+DI 10.1016/j.palaeo.2020.110114
+PG 12
+WC Geography, Physical; Geosciences, Multidisciplinary; Paleontology
+SC Physical Geography; Geology; Paleontology
+GA PN6JZ
+UT WOS:000604584600048
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, HQ
+   Chen, N
+   Wang, XH
+AF Liu, Haiqing
+   Chen, Na
+   Wang, Xinhao
+TI Comparing Regional Sustainability and Transportation Sustainability at the Metropolitan Level in the US using Artificial Neural Network Clustering Techniques
+SO TRANSPORTATION RESEARCH RECORD
+LA English
+DT Article
+ID indicators
+AB Regional sustainability and transportation sustainability have been intensely discussed and analyzed in recent decades. Though the use of indicators has been adopted in those models, debates continue on what indicators should be used and how to optimize the number of indicators. This results in the lack of a comprehensive and efficient method to assess and compare the sustainability of a sub-system, such as transportation system, and overall regional sustainability. A thorough literature review is conducted to identify indicators used to assess regional sustainability and transportation sustainability. Then, based on the available data, two sets of indicators for regional sustainability and transportation sustainability are identified and calculated respectively for the 382 metropolitan statistical areas (MSAs) in the U.S. A self-organizing map, which is a type of artificial neural network, is used to cluster the MSAs and compare their regional sustainability and transportation sustainability as well as to investigate the relationships among indicators. The results show that MSAs with a higher score on regional sustainability do not necessarily have a higher score on transportation sustainability. Some MSAs that are geographically close to each other have similar scores in regional sustainability and transportation sustainability. These findings provide insights to decision makers that the assessment of sustainability should consider both correlation and heterogeneity of different indicators within a region. Therefore, it is important to develop a comprehensive and efficient method to evaluate the role of sustainability in one urban sub-system, such as transportation, in the overall regional sustainability.
+C1 [Liu, Haiqing; Chen, Na; Wang, Xinhao] Univ Cincinnati, Sch Planning, Cincinnati, OH 45267 USA.
+C3 University System of Ohio; University of Cincinnati
+RP Liu, HQ (corresponding author), Univ Cincinnati, Sch Planning, Cincinnati, OH 45267 USA.
+EM liu2hq@mail.uc.edu
+FU University of Cincinnati Office of Research's University Research Council (URC) Program for Arts/Humanities & Social Sciences
+CR Alam JB, 2005, TRANSPORT RES REC, V0, P79
+   [Anonymous], 2001, GREEN IS CITY SUSTAI, V0, P0, DOI DOI 10.7312/DEVU11802
+   Arribas-Bel D, 2013, ENVIRON PLANN B, V40, P362, DOI 10.1068/b37014
+   Avin U., 2018, IMPACT SUSTAINABLE C, V0, P0
+   BLACK W, 1997, J TRANSP GEOGR, V5, P163
+   Canavese D, 2014, ECOL INDIC, V36, P711, DOI 10.1016/j.ecolind.2013.09.030
+   Chapple K., 2013, PLANTING SEEDS SUSTA, V0, P1
+   Chen N, 2020, TRANSPORT RES D-TR E, V84, P0, DOI 10.1016/j.trd.2020.102365
+   Costanza R, 1995, ECOL ECON, V15, P193, DOI 10.1016/0921-8009(95)00048-8
+   Cottrell M, 2001, ADVANCES IN SELF-ORGANISING MAPS, V0, P7
+   Davidescu AAM, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11123331
+   Ding Y., 2014, PROCEDIA ENV SCI, V22, P131, DOI 10.1016/J.PROENV.2014.11.013
+   Environmental Protection Agency, 2020, 430R20002 EPA, V0, P0
+   Farmer CJQ, 2011, ENVIRON PLANN A, V43, P2723, DOI 10.1068/a44136
+   Frick K.T., 2015, CALIFORNIA J POLITIC, V7, P1
+   Gilbert R., 2003, 82 ANN M TRANSP RES, V0, P0
+   Goodall B., 1987, PENGUIN DICT HUMAN G, V0, P0
+   Graymore MLM, 2010, ECOL ECON, V69, P459, DOI 10.1016/j.ecolecon.2009.08.016
+   Graymore MLM, 2008, ECOL ECON, V67, P362, DOI 10.1016/j.ecolecon.2008.06.002
+   Graymore MLM, 2009, ECOL COMPLEX, V6, P453, DOI 10.1016/j.ecocom.2009.08.006
+   Grieco M, 2015, SOC RESPONSIB J, V11, P82, DOI 10.1108/SRJ-05-2014-0061
+   Haghshenas H, 2012, ECOL INDIC, V15, P115, DOI 10.1016/j.ecolind.2011.09.010
+   Jeon CM, 2005, J INFRASTRUCT SYST, V11, P31, DOI 10.1061/(ASCE)1076-0342(2005)11:1(31)
+   Jeon CM, 2013, TRANSPORT POLICY, V25, P10, DOI 10.1016/j.tranpol.2012.10.004
+   KANGAS J, 1991, ARTIFICIAL NEURAL NETWORKS, VOLS 1 AND 2, P1591
+   Kohonen T., 1998, NEUROCOMPUTING, V21, P1, DOI 10.1016/S0925-2312(98)00030-7
+   KOHONEN T, 1990, P IEEE, V78, P1464, DOI 10.1109/5.58325
+   Laaksonen J., 1999, IJCNN99. INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS. PROCEEDINGS (CAT. NO.99CH36339), V0, PP2470, DOI 10.1109/IJCNN.1999.833459
+   Li HX, 2015, SUSTAINABILITY-BASEL, V7, P9067, DOI 10.3390/su7079067
+   Litman T, 2007, TRANSPORT RES REC, V0, PP10, DOI 10.3141/2017-02
+   Mandinia I, 2018, ECOL INDIC, V89, P738, DOI 10.1016/j.ecolind.2017.12.019
+   MATLAB, 2019, 9601174912 MATLAB, V0, P0
+   Meila M, 2003, LECT NOTES ARTIF INT, V2777, P173, DOI 10.1007/978-3-540-45167-9_14
+   Munda G, 2011, REG STUD, V45, P261, DOI 10.1080/00343401003713316
+   Ramos TB, 2009, J CLEAN PROD, V17, P1101, DOI 10.1016/j.jclepro.2009.02.024
+   Smetana S, 2015, REG SCI POLICY PRACT, V7, P163, DOI 10.1111/rsp3.12068
+   Sultana S, 2019, URBAN GEOGR, V40, P279, DOI 10.1080/02723638.2017.1395635
+   Tanguay GA, 2010, ECOL INDIC, V10, P407, DOI 10.1016/j.ecolind.2009.07.013
+   UN (United Nations), 2019, WORLD URB PROSP 2018, V0, P0
+   UNAIDS, 2021, UNAIDS DAT 2021, V0, P0
+   Wachs M, 2010, TRANSPORT RES REC, V0, PP5, DOI 10.3141/2163-01
+   Wang CD, 2016, J CLEAN PROD, V114, P189, DOI 10.1016/j.jclepro.2015.05.121
+   Wood R, 2010, ECOL ECON, V69, P1877, DOI 10.1016/j.ecolecon.2010.05.006
+   World Commission on Environment and Development, 1987, OUR COMMON FUTURE, V0, P0
+   Yang Q, 2014, SUSTAINABILITY-BASEL, V6, P9282, DOI 10.3390/su6129282
+   Zheng J, 2013, RES TRANSP BUS MANAG, V7, P4, DOI 10.1016/j.rtbm.2013.02.001
+NR 46
+TC 2
+Z9 2
+U1 3
+U2 8
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 0361-1981
+EI 2169-4052
+J9 TRANSPORT RES REC
+JI Transp. Res. Record
+PD SEP 15
+PY 2021
+VL 2675
+IS 9
+BP 1655
+EP 1669
+DI 10.1177/03611981211009519
+EA APR 2021
+PG 15
+WC Engineering, Civil; Transportation; Transportation Science & Technology
+SC Engineering; Transportation
+GA WL1RH
+UT WOS:000684966200001
+DA 2023-04-26
+ER
+
+PT J
+AU Ding, FQ
+   Luo, C
+AF Ding Fengqian
+   Luo Chao
+TI Structured sparsity learning for large-scale fuzzy cognitive maps
+SO ENGINEERING APPLICATIONS OF ARTIFICIAL INTELLIGENCE
+LA English
+DT Article
+DE Fuzzy cognitive maps; Structured sparsity learning; Inference system; Convex optimization
+ID regression; shrinkage; algorithm; selection
+AB Fuzzy cognitive map (FCM) as a kind of intelligent soft computing method, by combining the advantages of neural network and fuzzy logic, can be used to mine the causal relationships between concepts and make reasoning. However, how to effectively learn the large-scale FCMs is still an open problem. In this article, by means of structured sparsity learning, a robust learning method for large-scale FCMs based on iterative smoothing algorithm is proposed. Firstly, in terms of sparse signal reconstruction, the objective function of learning method is constructed by using elastic and total variation (TV) penalties, which can be conducive to capture the sparse structure information of FCM and improve the robustness of network reconstruction. Due to the non-smoothness of the TV penalty, Nesterov's smoothing technique is used to solve the non-smooth problem, thus transforming the problem into a convex optimization problem. Subsequently, in order to quickly solve the convex optimization, the algorithm based on proximal gradient descent is applied. In the experiment part, synthetic FCM models with different densities, sizes and noises are used to evaluate the proposed method, and the experimental results demonstrate the proposed method can make full use of the observations to learn the structural information of FCM. Moreover, the real-world data from the gene regulatory networks (GRNs) are further used to evaluate the effect of network reconstruction, and a higher reconstruction accuracy can be verified.
+C1 [Ding Fengqian; Luo Chao] Shandong Normal Univ, Sch Informat Sci & Engn, Jinan 250014, Peoples R China.
+   [Luo Chao] Shandong Prov Key Lab Novel Distributed Comp Soft, Jinan 250014, Peoples R China.
+C3 Shandong Normal University
+RP Luo, C (corresponding author), Shandong Normal Univ, Sch Informat Sci & Engn, Jinan 250014, Peoples R China.
+EM cluo79@gmail.com
+FU National Natural Science Founda-tion of China [62172264]; Shandong Provincial Natural Science Foundation [ZR2019MF020]
+CR Acampora G, 2015, IEEE T FUZZY SYST, V23, P2397, DOI 10.1109/TFUZZ.2015.2426311
+   Ahmed M. U., 2019, INT J ARTIF INTELL, V17, P154
+   [Anonymous], 2019, INT J ARTIF INTELL, V0, P0
+   Beck A, 2009, SIAM J IMAGING SCI, V2, P183, DOI 10.1137/080716542
+   Bertsekas D. P., 1997, J OPER RES SOC, V48, P334, DOI 10.1057/palgrave.jors.2600425
+   Borlea ID, 2021, KNOWL-BASED SYST, V214, P0, DOI 10.1016/j.knosys.2020.106731
+   Chen, 2012, IEEE INT C POW SYST, V0, P1
+   Chen Y, 2012, PROCEEDINGS OF THE FOURTEENTH INTERNATIONAL CONFERENCE ON GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE, V0, PP9, DOI 10.1145/2330163.2330166
+   Chi YX, 2019, NAT COMPUT, V18, P301, DOI 10.1007/s11047-016-9547-4
+   Chi YX, 2016, IEEE T FUZZY SYST, V24, P71, DOI 10.1109/TFUZZ.2015.2426314
+   Dash S, 2020, INT J DISTRIB SENS N, V16, P0, DOI 10.1177/1550147719895210
+   Duchesnay E., 2016, ARXIV160509658, V0, P0
+   Gonzalez J, 2018, IFAC PAPERSONLINE, V51, P485, DOI 10.1016/j.ifacol.2018.07.326
+   Greenfield A, 2010, PLOS ONE, V5, P0, DOI 10.1371/journal.pone.0013397
+   Groumpos P. P., 2003, INT J BIOMED SOFT CO, V9, P25
+   Hajek P, 2019, INFORM SCIENCES, V485, P394, DOI 10.1016/j.ins.2019.02.035
+   HOERL AE, 1970, TECHNOMETRICS, V12, P55, DOI 10.1080/00401706.1970.10488634
+   Liu J, 2016, IEEE T FUZZY SYST, V24, P419, DOI 10.1109/TFUZZ.2015.2459756
+   Liu X, 2019, IEEE T CYBERNETICS, V0, P0
+   LIU Z, 2020, KNOWL-BASED SYST, V203, P0
+   Lucas C, 2008, 2008 4 INT IEEE C IN, V3, P8
+   Luo C, 2020, IEEE T FUZZY SYST, V28, P1694, DOI 10.1109/TFUZZ.2019.2921263
+   Meng X, 2018, IEEE T IND INFORM, V14, P931, DOI 10.1109/TII.2017.2734686
+   Mishra M, 2020, ENG APPL ARTIF INTEL, V96, P0, DOI 10.1016/j.engappai.2020.104000
+   Natarajan R, 2016, COMPUT ELECTRON AGR, V127, P147, DOI 10.1016/j.compag.2016.05.016
+   Nesterov Y, 2005, SIAM J OPTIMIZ, V16, P235, DOI 10.1137/S1052623403422285
+   Papageorgiou E, 2003, LECT NOTES ARTIF INT, V2903, P256
+   Papageorgiou EI, 2005, J INTELL INF SYST, V25, P95, DOI 10.1007/s10844-005-0864-9
+   Papageorgiou EI, 2013, IEEE T FUZZY SYST, V21, P66, DOI 10.1109/TFUZZ.2012.2201727
+   Papageorgiou EI, 2012, APPL SOFT COMPUT, V12, P3798, DOI 10.1016/j.asoc.2012.03.064
+   Papageorgiou EI, 2012, IEEE T SYST MAN CY C, V42, P150, DOI 10.1109/TSMCC.2011.2138694
+   Precup RE, 2020, IEEE T INSTRUM MEAS, V69, P4625, DOI 10.1109/TIM.2020.2983531
+   Prill RJ, 2010, PLOS ONE, V5, P0, DOI 10.1371/journal.pone.0009202
+   RUDIN LI, 1992, PHYSICA D, V60, P259, DOI 10.1016/0167-2789(92)90242-F
+   Salmeron JL, 2016, KNOWL-BASED SYST, V105, P29, DOI 10.1016/j.knosys.2016.04.023
+   Sirbu A, 2010, BMC BIOINFORMATICS, V11, P0, DOI 10.1186/1471-2105-11-59
+   Stach W, 2005, FUZZY SET SYST, V153, P371, DOI 10.1016/j.fss.2005.01.009
+   Stach W, 2012, IEEE T SYST MAN CY B, V42, P900, DOI 10.1109/TSMCB.2011.2182646
+   Stach W, 2008, IEEE INT CONF FUZZY, V0, P1977
+   Tibshirani R, 1996, J ROY STAT SOC B MET, V58, P267, DOI 10.1111/j.2517-6161.1996.tb02080.x
+   Tsadiras AK, 2008, INFORM SCIENCES, V178, P3880, DOI 10.1016/j.ins.2008.05.015
+   Wu K, 2016, KNOWL-BASED SYST, V113, P23, DOI 10.1016/j.knosys.2016.09.010
+   Yang YL, 2017, SCI REP-UK, V7, P0, DOI 10.1038/srep39883
+   Yesil E, 2013, IEEE INT CONF FUZZY, V0, P0, DOI DOI 10.1109/FUZZ-IEEE.2013.6622488
+   Zou H, 2005, J R STAT SOC B, V67, P301, DOI 10.1111/j.1467-9868.2005.00503.x
+   Zou XM, 2018, IEEE T FUZZY SYST, V26, P2120, DOI 10.1109/TFUZZ.2017.2764445
+NR 46
+TC 2
+Z9 2
+U1 0
+U2 1
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0952-1976
+EI 1873-6769
+J9 ENG APPL ARTIF INTEL
+JI Eng. Appl. Artif. Intell.
+PD OCT 15
+PY 2021
+VL 105
+IS 
+BP 
+EP 
+DI 10.1016/j.engappai.2021.104444
+EA AUG 2021
+PG 12
+WC Automation & Control Systems; Computer Science, Artificial Intelligence; Engineering, Multidisciplinary; Engineering, Electrical & Electronic
+SC Automation & Control Systems; Computer Science; Engineering
+GA UY1HA
+UT WOS:000701281200001
+DA 2023-04-26
+ER
+
+PT J
+AU Kajla, NI
+   Missen, MMS
+   Luqman, MM
+   Coustaty, M
+AF Kajla, Nadeem Iqbal
+   Missen, Malik Muhammad Saad
+   Luqman, Muhammad Muzzamil
+   Coustaty, Mickael
+TI Graph Neural Networks Using Local Descriptions in Attributed Graphs: An Application to Symbol Recognition and Hand Written Character Recognition
+SO IEEE ACCESS
+LA English
+DT Article
+DE Text analysis; Graph neural networks; Mathematical model; Numerical models; Message passing; Computer architecture; Measurement; Graph Neural Networks (GNN); attributed graphs; graph matching; local descriptions; graph similarity; graph learning; graph classification; document image analysis (DIA); pattern recognition (PR)
+ID edit distance
+AB Graph-based methods have been widely used by the document image analysis and recognition community, as the different objects and the content in document images is best represented by this powerful structural representation. Designing of novel computation tools for processing these graph-based structural representations has always remained a hot topic of research. Recently, Graph Neural Network (GNN) have been used for solving different problems in the domain of document image analysis and recognition. In this article we take forward the state of the art by presenting a new approach to gather the symbolic and numeric information from the nodes and edges of a graph. We use this information to learn a Graph Neural Network (GNN). The experimentation on the recognition of handwritten letters and graphical symbols shows that the proposed approach is an interesting contribution to the growing set of GNN-based methods for document image analysis and recognition.
+C1 [Kajla, Nadeem Iqbal; Missen, Malik Muhammad Saad] Islamia Univ Bahawalpur, Dept IT, Bahawalpur 63100, Pakistan.
+   [Luqman, Muhammad Muzzamil; Coustaty, Mickael] La Rochelle Univ, Lab Informat Image & Interact L3i, F-17000 La Rochelle, France.
+C3 Islamia University of Bahawalpur
+RP Missen, MMS (corresponding author), Islamia Univ Bahawalpur, Dept IT, Bahawalpur 63100, Pakistan.; Coustaty, M (corresponding author), La Rochelle Univ, Lab Informat Image & Interact L3i, F-17000 La Rochelle, France.
+EM saad.missen@iub.edu.pk; mickael.coustaty@univ-lr.fr
+FU European Regional Development Fund Program: Interreg Atlantic Area Program; LabCom IDEAS [ANR-18-LCV3-0008]
+CR Abu-Aisheh Z, 2017, PATTERN RECOGN LETT, V100, P96, DOI 10.1016/j.patrec.2017.10.007
+   Battaglia P., 2016, NIPS, V0, P4502
+   Bianchi FM, 2014, SOFT COMPUT, V18, P393, DOI 10.1007/s00500-013-1065-z
+   Borzeshi EZ, 2013, PATTERN RECOGN, V46, P1648, DOI 10.1016/j.patcog.2012.11.020
+   Bromley J., 1993, INTERNATIONAL JOURNAL OF PATTERN RECOGNITION AND ARTIFICIAL INTELLIGENCE, V7, P669, DOI 10.1142/S0218001493000339
+   Bronstein MM, 2017, IEEE SIGNAL PROC MAG, V34, P18, DOI 10.1109/MSP.2017.2693418
+   Bruna J., 2013, PROC 2 INT C LEARN R, V0, P0
+   Bunke H, 1997, PATTERN RECOGN LETT, V18, P689, DOI 10.1016/S0167-8655(97)00060-3
+   Bunke H, 2011, PATTERN RECOGN, V44, P1057, DOI 10.1016/j.patcog.2010.11.015
+   Cho K., 2014, 8 WORKSHOP SYNTAX SE, V0, Pabs/1409.1259
+   Conte D, 2004, INT J PATTERN RECOGN, V18, P265, DOI 10.1142/S0218001404003228
+   Defferrard M, 2016, NEURAL INFORM PROCES, V30, P3844
+   Dutta A., 2017, ARXIV170200156, V0, P0
+   Dutta A, 2017, PROC INT CONF DOC, V0, PP33, DOI 10.1109/ICDAR.2017.15
+   Fankhauser S, 2011, LECT NOTES COMPUT SC, V6658, P102, DOI 10.1007/978-3-642-20844-7_11
+   Fischer A, 2015, PATTERN RECOGN, V48, P331, DOI 10.1016/j.patcog.2014.07.015
+   Foggia P, 2014, INT J PATTERN RECOGN, V28, P0, DOI 10.1142/S0218001414500013
+   Gilmer J, 2017, PR MACH LEARN RES, V70, P0
+   Jain BJ, 2011, LECT NOTES COMPUT SC, V6658, P62, DOI 10.1007/978-3-642-20844-7_7
+   Jain BJ, 2010, LECT NOTES COMPUT SC, V6218, P109, DOI 10.1007/978-3-642-14980-1_10
+   Jouili S, 2009, LECT NOTES COMPUT SC, V5807, P89
+   Kuhn HW., 1955, NAV RES LOG, V2, P83, DOI 10.1002/NAV.3800020109
+   Li Y, 2015, ARXIV, V0, P0
+   Luqman MM, 2013, PATTERN RECOGN, V46, P551, DOI 10.1016/j.patcog.2012.07.029
+   Monti F, 2017, PROC CVPR IEEE, V0, PP5425, DOI 10.1109/CVPR.2017.576
+   Riba P, 2018, INT C PATT RECOG, V0, PP2239, DOI 10.1109/ICPR.2018.8545310
+   Riesen K, 2009, IMAGE VISION COMPUT, V27, P950, DOI 10.1016/j.imavis.2008.04.004
+   Riesen K, 2009, ENG APPL ARTIF INTEL, V22, P48, DOI 10.1016/j.engappai.2008.04.006
+   Riesen K, 2008, LECT NOTES COMPUT SC, V5342, P287
+   Schutt KT, 2017, NAT COMMUN, V8, P0, DOI 10.1038/ncomms13890
+   Sidere Nicolas, 2009, 2009 10TH INTERNATIONAL CONFERENCE ON DOCUMENT ANALYSIS AND RECOGNITION (ICDAR), V0, PP681, DOI 10.1109/ICDAR.2009.218
+   Sidere N., 2009, P IAPR WORKSH GRAPH P IAPR WORKSH GRAPH, V0, P44
+   Wu Y, 2016, ARXIV, V0, P0
+NR 33
+TC 5
+Z9 5
+U1 2
+U2 7
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2021
+VL 9
+IS 
+BP 99103
+EP 99111
+DI 10.1109/ACCESS.2021.3096845
+PG 9
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA TL9QU
+UT WOS:000675188400001
+DA 2023-04-26
+ER

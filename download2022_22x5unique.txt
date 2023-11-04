@@ -1,0 +1,423 @@
+
+PT J
+AU Wang, YM
+   Feng, LW
+   Sun, WW
+   Zhang, Z
+   Zhang, HY
+   Yang, G
+   Meng, XC
+AF Wang, Yumiao
+   Feng, Luwei
+   Sun, Weiwei
+   Zhang, Zhou
+   Zhang, Hanyu
+   Yang, Gang
+   Meng, Xiangchao
+TI Exploring the potential of multi-source unsupervised domain adaptation in crop mapping using Sentinel-2 images
+SO GISCIENCE & REMOTE SENSING
+LA English
+DT Article
+DE Crop mapping; multi-source unsupervised domain adaptation; time-series remote sensing; transfer learning; deep learning
+ID support vector machine; time-series; feature-selection; neural-network; classification; algorithms
+AB Accurate crop mapping is critical for agricultural applications. Although studies have combined deep learning methods and time-series satellite images to crop classification with satisfactory results, most of them focused on supervised methods, which are usually applicable to a specific domain and lose their validity in new domains. Unsupervised domain adaptation (UDA) was proposed to solve this limitation by transferring knowledge from source domains with labeled samples to target domains with unlabeled samples. Particularly, multi-source UDA (MUDA) is a powerful extension that leverages knowledge from multiple source domains and can achieve better results in the target domain than single-source UDA (SUDA). However, few studies have explored the potential of MUDA for crop mapping. This study proposed a MUDA crop classification model (MUCCM) for unsupervised crop mapping. Specifically, 11 states in the U.S. were selected as the multi-source domains, and three provinces in Northeast China were selected as individual target domains. Ten spectral bands and five vegetation indexes were collected at a 10-day interval from time-series Sentinel-2 images to build the MUCCM. Subsequently, a SUDA model Domain Adversarial Neural Network (DANN) and two direct transfer methods, namely, the deep neural network and random forest, were constructed and compared with the MUCCM. The results indicated that the UDA models outperformed the direct transfer models significantly, and the MUCCM was superior to the DANN, achieving the highest classification accuracy (OA>85%) in each target domain. In addition, the MUCCM also performed best in in-season forecasting and crop mapping. This study is the first to apply a MUDA to crop classification and demonstrate a novel, effective solution for high-performance crop mapping in regions without labeled samples.
+C1 [Wang, Yumiao; Sun, Weiwei; Yang, Gang; Meng, Xiangchao] Ningbo Univ, Dept Geog & Spatial Informat Tech, Ningbo, Peoples R China.
+   [Wang, Yumiao] Minist Nat Resources, Key Lab Urban Land Resources Monitoring & Simulat, Shenzhen, Peoples R China.
+   [Feng, Luwei] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan, Peoples R China.
+   [Zhang, Zhou] Univ Wisconsin, Biol Syst Engn, Madison, WI 53706 USA.
+   [Zhang, Hanyu] Univ Calif Los Angeles, Dept Elect & Comp Engn, Los Angeles, CA USA.
+C3 Ningbo University; Ministry of Natural Resources of the People's Republic of China; Wuhan University; University of Wisconsin System; University of Wisconsin Madison; University of California System; University of California Los Angeles
+RP Sun, WW (corresponding author), Ningbo Univ, Dept Geog & Spatial Informat Tech, Ningbo, Peoples R China.; Zhang, Z (corresponding author), Univ Wisconsin, Biol Syst Engn, Madison, WI 53706 USA.
+EM sunweiwei@nbu.edu.cn; zzhang347@wisc.edu
+FU Zhejiang Provincial Natural Science Foundation of China; Open Fund of Key Laboratory of Urban Land Resources Monitoring and Simulation; Public Projects of Ningbo City; Ningbo Science and Technology Innovation 2025 Major Special Project; National Natural Science Foundation of China;  [LQ22D010007];  [KF-2021-06-089];  [2022S101];  [2021Z107];  [42201354];  [42171326]
+CR Bajzelj B, 2014, NAT CLIM CHANGE, V4, P924, DOI 10.1038/NCLIMATE2353
+   Bolton DK, 2013, AGR FOREST METEOROL, V173, P74, DOI 10.1016/j.agrformet.2013.01.007
+   Boryan C, 2011, GEOCARTO INT, V26, P341, DOI 10.1080/10106049.2011.562309
+   Cai YP, 2018, REMOTE SENS ENVIRON, V210, P35, DOI 10.1016/j.rse.2018.02.045
+   Chattopadhyay R, 2012, ACM T KNOWL DISCOV D, V6, P0, DOI 10.1145/2382577.2382582
+   Chen YL, 2016, ISPRS J PHOTOGRAMM, V119, P451, DOI 10.1016/j.isprsjprs.2016.07.007
+   Chew R, 2020, DRONES-BASEL, V4, P0, DOI 10.3390/drones4010007
+   dAndrimont R, 2020, REMOTE SENS ENVIRON, V239, P0, DOI 10.1016/j.rse.2020.111660
+   De Wrachien D, 2021, IRRIG DRAIN, V70, P981, DOI 10.1002/ird.2597
+   Feng SW, 2019, IEEE J-STARS, V12, P3295, DOI 10.1109/JSTARS.2019.2922469
+   Ganin Y, 2016, J MACH LEARN RES, V17, P0
+   Gao BC, 1996, REMOTE SENS ENVIRON, V58, P257, DOI 10.1016/S0034-4257(96)00067-3
+   Ge S, 2021, INT J APPL EARTH OBS, V102, P0, DOI 10.1016/j.jag.2021.102451
+   Gelder BK, 2009, AGRON J, V101, P635, DOI 10.2134/agronj2007.0249
+   Gitelson AA, 2002, REMOTE SENS ENVIRON, V80, P76, DOI 10.1016/S0034-4257(01)00289-9
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Gretton A, 2012, J MACH LEARN RES, V13, P723
+   Guo H, 2020, AAAI CONF ARTIF INTE, V34, P7830
+   Guo J, 2018, ARXIV, V0, P0
+   Han T, 2019, KNOWL-BASED SYST, V165, P474, DOI 10.1016/j.knosys.2018.12.019
+   Hao PY, 2020, SCI TOTAL ENVIRON, V733, P0, DOI 10.1016/j.scitotenv.2020.138869
+   Hao PY, 2015, REMOTE SENS-BASEL, V7, P5347, DOI 10.3390/rs70505347
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huete A, 2002, REMOTE SENS ENVIRON, V83, P195, DOI 10.1016/S0034-4257(02)00096-2
+   Kumar P, 2015, INT J REMOTE SENS, V36, P1604, DOI 10.1080/2150704X.2015.1019015
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lobell DB, 2015, REMOTE SENS ENVIRON, V164, P324, DOI 10.1016/j.rse.2015.04.021
+   Lobell DB, 2013, FIELD CROP RES, V143, P56, DOI 10.1016/j.fcr.2012.08.008
+   Low F, 2013, ISPRS J PHOTOGRAMM, V85, P102, DOI 10.1016/j.isprsjprs.2013.08.007
+   Ma YC, 2021, COMPUT ELECTRON AGR, V187, P0, DOI 10.1016/j.compag.2021.106314
+   Meng SY, 2021, COMPUT ELECTRON AGR, V186, P0, DOI 10.1016/j.compag.2021.106188
+   MOA, 2022, MIN AGR RUR AFF, V0, P0
+   Oreopoulos L, 2011, IEEE GEOSCI REMOTE S, V8, P597, DOI 10.1109/LGRS.2010.2095409
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Pena MA, 2015, REMOTE SENS ENVIRON, V171, P234, DOI 10.1016/j.rse.2015.10.029
+   Peng XC, 2019, IEEE I CONF COMP VIS, V0, PP1406, DOI 10.1109/ICCV.2019.00149
+   Pott LP, 2021, ISPRS J PHOTOGRAMM, V176, P196, DOI 10.1016/j.isprsjprs.2021.04.015
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Skakun S, 2017, REMOTE SENS ENVIRON, V195, P244, DOI 10.1016/j.rse.2017.04.026
+   Song C, 2001, REMOTE SENS ENVIRON, V75, P230, DOI 10.1016/S0034-4257(00)00169-3
+   Suh HK, 2018, BIOSYST ENG, V174, P50, DOI 10.1016/j.biosystemseng.2018.06.017
+   Sun BC, 2016, LECT NOTES COMPUT SC, V9915, P443, DOI 10.1007/978-3-319-49409-8_35
+   Sun SL, 2015, INFORM FUSION, V24, P84, DOI 10.1016/j.inffus.2014.12.003
+   TUCKER CJ, 1979, REMOTE SENS ENVIRON, V8, P127, DOI 10.1016/0034-4257(79)90013-0
+   Turkoglu MO, 2021, REMOTE SENS ENVIRON, V264, P0, DOI 10.1016/j.rse.2021.112603
+   U.S. Department of Agriculture, 2020, USDA NAT AGR STAT SE, V0, P0
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Veeck G, 2020, GEOGR SUSTAIN, V1, P109, DOI 10.1016/j.geosus.2020.05.002
+   Vuolo F, 2018, INT J APPL EARTH OBS, V72, P122, DOI 10.1016/j.jag.2018.06.007
+   Wang Q, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P4889
+   Wang YM, 2021, COMPUT ELECTRON AGR, V184, P0, DOI 10.1016/j.compag.2021.106090
+   Xu JF, 2021, REMOTE SENS ENVIRON, V264, P0, DOI 10.1016/j.rse.2021.112599
+   You NS, 2021, SCI DATA, V8, P0, DOI 10.1038/s41597-021-00827-9
+   Zhang HX, 2021, INT J APPL EARTH OBS, V102, P0, DOI 10.1016/j.jag.2021.102388
+   Zhao S, 2020, GISCI REMOTE SENS, V57, P37, DOI 10.1080/15481603.2019.1658960
+   Zheng BJ, 2015, INT J APPL EARTH OBS, V34, P103, DOI 10.1016/j.jag.2014.07.002
+   Zhong LH, 2019, REMOTE SENS ENVIRON, V221, P430, DOI 10.1016/j.rse.2018.11.032
+   Zhou YN, 2019, GISCI REMOTE SENS, V56, P1170, DOI 10.1080/15481603.2019.1628412
+   Zhu YC, 2019, AAAI CONF ARTIF INTE, V0, P5989
+NR 59
+TC 0
+Z9 0
+U1 12
+U2 12
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1548-1603
+EI 1943-7226
+J9 GISCI REMOTE SENS
+JI GISci. Remote Sens.
+PD DEC 31
+PY 2022
+VL 59
+IS 1
+BP 2247
+EP 2265
+DI 10.1080/15481603.2022.2156123
+PG 19
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA 6Y4UC
+UT WOS:000897090700001
+DA 2023-04-26
+ER
+
+PT J
+AU Fu, LX
+   He, SB
+   Wang, HH
+   Sun, KH
+AF Fu Long-Xiang
+   He Shao-Bo
+   Wang Hui-Hai
+   Sun Ke-Hui
+TI Simulink modeling and dynamic characteristics of discrete memristor chaotic system
+SO ACTA PHYSICA SINICA
+LA Chinese
+DT Article
+DE discrete memristor; chaotic map; dynamic characteristics; Simulink
+ID neural-network; attractors; circuits; design; memory
+AB In the last two years, the discrete memristor has been proposed, and it is in the early stages of research. Now, it is particularly important to use various simulation softwares to expand the applications of the discrete memristor model. Based on the difference operator, in this paper, a discrete memristor model with quadratic nonlinearity is constructed. The addition, subtraction, multiplication and division of the discrete memristor mathematical model are clarified, and the charge q is obtained by combining the discrete-time summation module, thereby realizing the Simulink simulation of the discrete memristor. The simulation results show that the designed memristor meets the three fingerprints of memristor, indicating that the designed discrete memristor belongs to generalized memristor. Using memristors to construct chaotic systems is one of the current research hotspots, but most of the literature is about the introduction of continuous memristors into continuous chaotic systems. In this paper, the obtained discrete memristor is introduced into a three-dimensional chaotic map which is mentioned in a Sprott's book titled as Chaos and Time-Series Analysis, and a new four-dimensional memristor chaotic map is designed. Meanwhile, the Simulink model of the chaotic map is established. It is found that attractors with different sizes and shapes can be observed by changing the parameters in the Simulink model, indicating that the changes of system parameters and memristor parameters can change the dynamic behavior of the system. The analyses of equilibria and equilibrium stability show that the four-dimensional chaotic map has infinite equilibrium points. The Lyapunov exponent spectra and bifurcation diagrams of the circuit imply that the map can transform between weak chaotic state, chaotic state, and hyperchaotic state. Meanwhile, the multistability and coexisting attractors are analyzed under different initial conditions. Moreover, by comparing the results of measuring the complexity, it is found that the chaotic map with discrete memristor has richer dynamical behaviors and higher complexity than the original map. From the perspective of system modeling, in this paper the discrete memristor modeling and discrete memristor map designing are discussed based on the Matlab/Simulink. It further verifies the realizability and lays a foundation for the future applications of discrete memristor.
+C1 [Fu Long-Xiang; He Shao-Bo; Wang Hui-Hai; Sun Ke-Hui] Cent South Univ, Sch Phys & Elect, Changsha 410083, Peoples R China.
+C3 Central South University
+RP He, SB (corresponding author), Cent South Univ, Sch Phys & Elect, Changsha 410083, Peoples R China.
+EM heshaobo@csu.edu.cn
+FU National Natural Science Foundation of China [61901530, 62071496, 62061008]; Natural Science Foundation of Hunan Province, China [2020JJ5767]
+CR Adhikari SP, 2013, IEEE T CIRCUITS-I, V60, P3008, DOI 10.1109/TCSI.2013.2256171
+   Bao BC, 2010, CHINESE PHYS B, V19, P0, DOI 10.1088/1674-1056/19/3/030510
+   Bao BC, 2016, NONLINEAR DYNAM, V86, P1711, DOI 10.1007/s11071-016-2988-6
+   Bao H, 2018, COMPLEXITY, V1, P0
+   Biolek D, 2013, RADIOENGINEERING, V22, P945
+   Buscarino A, 2012, CHAOS, V22, P0, DOI 10.1063/1.4729135
+   Cang SJ, 2016, NONLINEAR DYNAM, V83, P1987, DOI 10.1007/s11071-015-2460-z
+   Chen WT, 2009, MED ENG PHYS, V31, P61, DOI 10.1016/j.medengphy.2008.04.005
+   CHUA LO, 1971, IEEE T CIRCUITS SYST, VCT18, P507, DOI 10.1109/TCT.1971.1083337
+   Di Marco M, 2022, IEEE T CYBERNETICS, V52, P1822, DOI 10.1109/TCYB.2020.2997686
+   [段飞腾 Duan Feiteng], 2015, 固体电子学研究与进展 RESEARCH & PROGRESS OF SOLID STATE ELECTRONICS, V35, P231
+   Duan SK, 2015, IEEE T NEUR NET LEAR, V26, P1202, DOI 10.1109/TNNLS.2014.2334701
+   Fitch AL, 2012, INT J BIFURCAT CHAOS, V22, P0, DOI 10.1142/S0218127412501337
+   Gergel-Hackett N, 2021, J CIRCUIT SYST COMP, V30, P0, DOI 10.1142/S0218126621200024
+   Haj-Ali A, 2018, IEEE MICRO, V38, P13, DOI 10.1109/MM.2018.053631137
+   He S B, 2020, AIP ADV, V10, P0
+   Ho PWC, 2016, J SEMICOND, V37, P0, DOI 10.1088/1674-4926/37/10/104002
+   [胡柏林 HU Bolin], 2011, 西南大学学报. 自然科学版 JOURNAL OF SOUTHWEST UNIVERSITY. NATURAL SCIENCE EDITION, V33, P50
+   Li QD, 2015, NONLINEAR DYNAM, V79, P2295, DOI 10.1007/s11071-014-1812-4
+   Ma J, 2015, NONLINEAR DYNAM, V81, P1275, DOI 10.1007/s11071-015-2067-4
+   Peng YX, 2020, CHAOS SOLITON FRACT, V137, P0, DOI 10.1016/j.chaos.2020.109873
+   Pershin YV, 2010, IEEE T CIRCUITS-I, V57, P1857, DOI 10.1109/TCSI.2009.2038539
+   Pham VT, 2016, SCI CHINA TECHNOL SC, V59, P358, DOI 10.1007/s11431-015-5981-2
+   Ruan JY, 2016, ACTA PHYS SIN-CH ED, V65, P0, DOI 10.7498/aps.65.190502
+   Sprott J.C, 2003, CHAOS TIME SERIES AN, V0, P0
+   Strukov DB, 2008, NATURE, V453, P80, DOI 10.1038/nature06932
+   Teimoori M, 2018, IEEE T VLSI SYST, V26, P2608, DOI 10.1109/TVLSI.2018.2799951
+   Teng L, 2014, NONLINEAR DYNAM, V77, P231, DOI 10.1007/s11071-014-1286-4
+   Wang CH, 2020, J ELECTRON INF TECHN, V42, P795, DOI 10.11999/JEIT190821
+   Wang CH, 2019, NONLINEAR DYNAM, V95, P2893, DOI 10.1007/s11071-018-4730-z
+   Wang XY, 2018, ACTA PHYS SIN-CH ED, V67, P0, DOI 10.7498/aps.67.20172674
+   Xu Q, 2018, AEU-INT J ELECTRON C, V96, P66, DOI 10.1016/j.aeue.2018.09.017
+   Yuan F, 2016, CHAOS, V26, P0, DOI 10.1063/1.4958296
+   Zhang Y, 2015, IEEE T CIRCUITS-I, V62, P1402, DOI 10.1109/TCSI.2015.2407436
+   Zhou L, 2017, BIFURCAT CHAOS, V27, P0
+NR 35
+TC 9
+Z9 9
+U1 14
+U2 53
+PU CHINESE PHYSICAL SOC
+PI BEIJING
+PA P O BOX 603, BEIJING 100080, PEOPLES R CHINA
+SN 1000-3290
+EI 
+J9 ACTA PHYS SIN-CH ED
+JI Acta Phys. Sin.
+PD FEB 5
+PY 2022
+VL 71
+IS 3
+BP 
+EP 
+DI 10.7498/aps.71.20211549
+PG 10
+WC Physics, Multidisciplinary
+SC Physics
+GA ZK4JL
+UT WOS:000762955900005
+DA 2023-04-26
+ER
+
+PT J
+AU Bhargavi, G
+   Arunnehru, J
+AF Bhargavi, G.
+   Arunnehru, J.
+TI Identification of Landslide Vulnerability Zones and Triggering Factors Using Deep Neural Networks - An Experimental Analysis
+SO ADVANCES IN COMPUTING AND DATA SCIENCES (ICACDS 2022), PT I
+LA English
+DT Proceedings Paper
+DE Landslide susceptibility mapping; Kerala; Deep neural network; Satellite images; Receiver operating characteristics; Rainfall
+ID susceptibility
+AB Landslide is the most dangerous type of natural hazard, with devastating consequences for human life and the economy as a whole. Landslides have become an essential responsibility to decrease their harmful consequences, which involves analyzing landslide-related information and anticipating prospective landslides. In this proposed work, the landslide susceptibility zones and the triggering factors were analyzed and classified using a deep neural network (DNNs). A geographical database is created in this study based on 2018 landslide potential points in Kerala, India. 13 districts and 10 parameters are used to create the geographic database: polygon length, polygon width, polygon area, buildings, roads, agricultural data, land use, land cover, longitude, and latitude. A DNN model is generated using fine-tuned parameter with 4728 historic landslide points. This proposed work predominantly concentrates on the experimental aspect, particularly the DNN architecture model has employed for training the dataset. This design employs the adamax optimizer, tanh as an activation function, and four hidden layers with a learning rate of 0.01 to get the highest accuracy with the minimum loss. We found 98.16% as the maximum accuracy after numerous testing operations, implying that the landslide in Kerala was primarily caused by debris flow.
+C1 [Bhargavi, G.; Arunnehru, J.] SRM Inst Sci & Technol, Dept Comp Sci & Engn, Chennai 600026, Tamil Nadu, India.
+C3 SRM Institute of Science & Technology Chennai
+RP Bhargavi, G (corresponding author), SRM Inst Sci & Technol, Dept Comp Sci & Engn, Chennai 600026, Tamil Nadu, India.
+EM bg1064@srmist.edu.in
+CR Abraham MT, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11102113
+   Acharjya DP, 2017, STUD BIG DATA, V25, P1, DOI 10.1007/978-3-319-53472-5
+   Achu AL, 2020, ANN GIS, V26, P113, DOI 10.1080/19475683.2020.1758207
+   Andrewwinner R, 2021, LAND-BASEL, V10, P0, DOI 10.3390/land10111212
+   Bhargavi G., 2020, JA J C REV UNDEFINED, V0, P0
+   Bradley AP, 1997, PATTERN RECOGN, V30, P1145, DOI 10.1016/S0031-3203(96)00142-2
+   Buscombe D., 1900, DOI 10.3390/GEOSCIENCES8070244, V0, P0
+   Chavez-Garcia FJ, 2021, NAT HAZARDS, V105, P1623, DOI 10.1007/s11069-020-04369-y
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Hu XD, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10114016
+   Jianli Feng, 2019, JOURNAL OF PHYSICS: CONFERENCE SERIES, V1237, P0, DOI 10.1088/1742-6596/1237/2/022030
+   Jones Sheelu, 2021, ARABIAN JOURNAL OF GEOSCIENCES, V14, P0, DOI 10.1007/s12517-021-07156-6
+   Khosravi K, 2018, SCI TOTAL ENVIRON, V627, P744, DOI 10.1016/j.scitotenv.2018.01.266
+   Kuriakose SL, 2009, ENVIRON GEOL, V57, P1553, DOI 10.1007/s00254-008-1431-9
+   Luo XG, 2019, PLOS ONE, V14, P0, DOI 10.1371/journal.pone.0215134
+   Man A., 1900, DOI 10.3390/IJGI9100569, V0, P0
+   Mantovani F, 1996, GEOMORPHOLOGY, V15, P213, DOI 10.1016/0169-555X(95)00071-C
+   Parthasarathy K.S.S., 2021, DISASTER RESIL SUST, V0, PP379, DOI 10.1016/B978-0-323-85195-4.00013-5
+   Quang V.N.B., 2021, 4 ASIA PACIFIC M NEA, V0, PP1, DOI 10.3997/2214-4609.202177052
+   Ragedhaksha Darshini, 2021, MATER TODAY-PROC, V0, P0, DOI DOI 10.1016/j.matpr.2021.07.064
+   Yao J., 1900, DOI 10.3390/APP10165640, V0, P0
+   Zintgraf L. M., 2017, 5 INT C LEARN REPR I, V0, P0
+NR 23
+TC 0
+Z9 0
+U1 1
+U2 1
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 1865-0929
+EI 1865-0937
+J9 COMM COM INF SC
+PD JUN 15
+PY 2022
+VL 1613
+IS 
+BP 121
+EP 132
+DI 10.1007/978-3-031-12638-3_11
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Information Systems; Computer Science, Theory & Methods
+SC Computer Science
+GA BU2ZL
+UT WOS:000889331500011
+DA 2023-04-26
+ER
+
+PT J
+AU Alsabhan, W
+   Alotaiby, T
+   Dudin, B
+AF Alsabhan, Waleed
+   Alotaiby, Turky
+   Dudin, Basil
+TI Detecting Buildings and Nonbuildings from Satellite Images Using U-Net
+SO COMPUTATIONAL INTELLIGENCE AND NEUROSCIENCE
+LA English
+DT Article
+ID extraction; aerial
+AB Automatic building detection from high-resolution satellite imaging images has many applications. Understanding socioeconomic development and keeping track of population migrations are essential for effective civic planning. These civil feature systems may also help update maps after natural disasters or in geographic regions undergoing dramatic population expansion. To accomplish the desired goal, a variety of image processing techniques were employed. They are often inaccurate or take a long time to process. Convolutional neural networks (CNNs) are being designed to extract buildings from satellite images, based on the U-Net, which was first developed to segment medical images. The minimal number of images from the open dataset, in RGB format with variable shapes, reveals one of the advantages of the U-Net; that is, it develops excellent accuracy from a limited amount of training material with minimal effort and training time. The encoder portion of U-Net was altered to test the feasibility of using a transfer learning facility. VGGNet and ResNet were both used for the same purpose. The findings of these models were also compared to our own bespoke U-Net, which was designed from the ground up. With an accuracy of 84.9%, the VGGNet backbone was shown to be the best feature extractor. Compared to the current best models for tackling a similar problem with a larger dataset, the present results are considered superior.
+C1 [Alsabhan, Waleed; Dudin, Basil] Al Faisal Univ, Coll Engn, POB 50927, Riyadh 11533, Saudi Arabia.
+   [Alotaiby, Turky] King Abdulaziz City Sci & Technol, Natl Ctr Artificial Intelligence, PB Box 6086, Riyadh 11442, Saudi Arabia.
+RP Alsabhan, W (corresponding author), Al Faisal Univ, Coll Engn, POB 50927, Riyadh 11533, Saudi Arabia.
+EM walsabhan@alfaisal.edu; totaiby@kacst.edu.sa; bkdudin@alfaisal.edu
+CR Abadi M, 2016, PROCEEDINGS OF OSDI16: 12TH USENIX SYMPOSIUM ON OPERATING SYSTEMS DESIGN AND IMPLEMENTATION, V0, P265
+   Abhishek Dutta A.G., 2017, VGG IMAGE ANNOTATOR, V0, P0
+   Audebert N, 2017, IEEE COMPUT SOC CONF, V0, PP1552, DOI 10.1109/CVPRW.2017.199
+   Bachofer F, 2019, DATA, V4, P0, DOI 10.3390/data4030105
+   Benarchid O., 2013, IAES INTERNATIONAL JOURNAL OF ARTIFICIAL INTELLIGENCE, V2, P43
+   Bischke B, 2019, IEEE IMAGE PROC, V0, PP1480, DOI 10.1109/ICIP.2019.8803050
+   Chaudhuri D, 2016, IEEE J-STARS, V9, P1767, DOI 10.1109/JSTARS.2015.2425655
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chhor G., 2017, SATELLITE IMAGE SEGM, V0, P0
+   Delibasoglu I, 2020, J APPL REMOTE SENS, V14, P0, DOI 10.1117/1.JRS.14.044512
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   García Herrera Arístides Lázaro, 2017, REV.MED.ELECTRÓN., V0, P1
+   Ghanea M, 2016, INT J REMOTE SENS, V37, P5234, DOI 10.1080/01431161.2016.1230287
+   Gulli A., 2017, DEEP LEARNING KERA, V0, P0
+   Guo ZL, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040271
+   Hamaguchi R, 2018, IEEE COMPUT SOC CONF, V0, PP223, DOI 10.1109/CVPRW.2018.00041
+   He KM, 2017, IEEE I CONF COMP VIS, V0, PP2980, DOI 10.1109/TPAMI.2018.2844175
+   Huang X, 2012, IEEE J-STARS, V5, P161, DOI 10.1109/JSTARS.2011.2168195
+   Iglovikov V., 2017, SATELLITE IMAGERY FE, V0, P0
+   Ivanovsky L, 2019, PROC CONF OPEN INNOV, V0, PP116, DOI 10.23919/FRUCT.2019.8711930
+   Jin XY, 2005, EURASIP J APPL SIG P, V2005, P2196, DOI 10.1155/ASP.2005.2196
+   Kingma DP, 2015, PROC INT C LEARN REP, V0, P0
+   Kuffer M., 2019, P 2019 JOINT URB REM, V0, P1
+   Kuffer M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8060455
+   Lari Z., 2007, P ISPRS C INF EXTR S, V0, P0
+   Li WJ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11040403
+   Li WJ, 2018, IEEE COMPUT SOC CONF, V0, PP233, DOI 10.1109/CVPRW.2018.00043
+   Li Y, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13061070
+   Liu W, 2005, INT GEOSCI REMOTE SE, V0, P3888
+   Long J., 2015, P IEEE C COMPUTER VI, V0, PP3431, DOI 10.48550/ARXIV.1411.4038
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P7092, DOI 10.1109/TGRS.2017.2740362
+   Maggiori E, 2016, INT GEOSCI REMOTE SE, V0, PP5071, DOI 10.1109/IGARSS.2016.7730322
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Mnih V., 2013, MACHINE LEARNING AER, V0, P0
+   Ostankovich V, 2018, 2018 9TH INTERNATIONAL CONFERENCE ON INTELLIGENT SYSTEMS (IS), V0, PP616, DOI 10.1109/IS.2018.8710565
+   Pan ZK, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12101574
+   Patino JE, 2013, COMPUT ENVIRON URBAN, V37, P1, DOI 10.1016/j.compenvurbsys.2012.06.003
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   Pesaresi M, 2008, IEEE J-STARS, V1, P180, DOI 10.1109/JSTARS.2008.2002869
+   Prathap G, 2018, 2018 9TH INTERNATIONAL CONFERENCE ON INTELLIGENT SYSTEMS (IS), V0, PP461, DOI 10.1109/IS.2018.8710471
+   Ronneberger O., 2015, P MED IM COMP COMP A, V0, P234
+   Saeedi P, 2008, 2008 10TH INTERNATIONAL CONFERENCE ON CONTROL AUTOMATION ROBOTICS & VISION: ICARV 2008, VOLS 1-4, P623, DOI 10.1109/ICARCV.2008.4795590
+   Saito S, 2016, J IMAGING SCI TECHN, V60, P0, DOI 10.2352/J.ImagingSci.Technol.2016.60.1.010402
+   Shorter N, 2009, REMOTE SENS-BASEL, V1, P731, DOI 10.3390/rs1040731
+   Sirmacek B, 2011, IEEE T GEOSCI REMOTE, V49, P211, DOI 10.1109/TGRS.2010.2053713
+   Szegedy C., 1900, P1, V0, P0
+   Vakalopoulou M, 2015, INT GEOSCI REMOTE SE, V0, PP1873, DOI 10.1109/IGARSS.2015.7326158
+   Victor Ikechukwu A., 2021, GLOB TRANSIT PROC, V2, P375, DOI 10.1016/jgltp.2021.08.027
+   Voulodimos A, 2018, COMPUT INTEL NEUROSC, V2018, P0, DOI 10.1155/2018/7068349
+   Wang J, 2015, IEEE GEOSCI REMOTE S, V12, P487, DOI 10.1109/LGRS.2014.2347332
+   Yosinski J, 2014, ADV NEUR IN, V27, P0
+   Yuan JY, 2018, IEEE T PATTERN ANAL, V40, P2793, DOI 10.1109/TPAMI.2017.2750680
+   Zha K, 2018, IEEE COMPUT SOC CONF, V0, PP242, DOI 10.1109/CVPRW.2018.00045
+   Zhen XT, 2014, LECT NOTES COMPUT SC, V8674, P586, DOI 10.1007/978-3-319-10470-6_73
+NR 55
+TC 1
+Z9 1
+U1 0
+U2 1
+PU HINDAWI LTD
+PI LONDON
+PA ADAM HOUSE, 3RD FLR, 1 FITZROY SQ, LONDON, W1T 5HF, ENGLAND
+SN 1687-5265
+EI 1687-5273
+J9 COMPUT INTEL NEUROSC
+JI Comput. Intell. Neurosci.
+PD MAY 5
+PY 2022
+VL 2022
+IS 
+BP 
+EP 
+DI 10.1155/2022/4831223
+PG 13
+WC Mathematical & Computational Biology; Neurosciences
+SC Mathematical & Computational Biology; Neurosciences & Neurology
+GA 1M8MV
+UT WOS:000800221600017
+PM 35571708
+DA 2023-04-26
+ER
+
+PT J
+AU Hossain, Z
+   Hasan, M
+   Ghabchi, R
+AF Hossain, Zahid
+   Hasan, MdAriful
+   Ghabchi, Rouzbeh
+TI Neural Network Based Estimation of Service Life of Different Metal Culverts in Arkansas
+SO ADVANCES IN CIVIL ENGINEERING
+LA English
+DT Article
+AB The Arkansas Department of Transportation (ARDOT) uses different types of metal culverts and cross-drains. Service lives of these culverts are largely influenced by the corrosion of the metals used in these culverts. Corrosion of metallic parts in any soil-water environment is governed by geochemical and electrochemical properties of the soils and waters. Many transportation agencies including ARDOT primarily focus on investigating the physical and mechanical properties of soils rather than their chemical aspects. The main objective of this study is to analyze the geotechnical and geochemical properties of soils in Arkansas to estimate the service lives of different metal pipes in different conditions. Soil resistivity values were predicted after analyzing the United States Department of Agriculture (USDA) soil survey data using neural network (NN) models. The developed NN models were trained and verified by using laboratory test results of soil samples collected from ARDOT, and survey data were obtained from the USDA. The service lives of metal culverts were then estimated based on the predicted soil properties and water quality parameters extracted from the data acquired from the Arkansas Department of Environmental Quality (ADEQ). Finally, Geographic Information System-based corrosion risk maps of three different types of metal pipes were developed based on their estimated service lives. The developed maps will help ARDOT engineers to assess the corrosion potential of the metal pipes before starting the new construction and repair projects and will allow using proper culvert materials to maximize their life spans.
+C1 [Hossain, Zahid] Arkansas State Univ, Civil Engn, POB 1740,Engn LSW 246, Jonesboro, AR 72467 USA.
+   [Hasan, MdAriful] Arkansas State Univ, POB 1740,Engn LSW 246, Jonesboro, AR 72467 USA.
+   [Ghabchi, Rouzbeh] South Dakota State Univ, Civil Engn, Crothers Engn Hall 132,Box 2219, Brookings, SD 57007 USA.
+C3 Arkansas State University; Arkansas State University; South Dakota State University
+RP Hossain, Z (corresponding author), Arkansas State Univ, Civil Engn, POB 1740,Engn LSW 246, Jonesboro, AR 72467 USA.
+EM mhossain@astate.edu; arifulhasan.mithu@gmail.com; rouzbeh.ghabchi@sdstate.edu
+FU Transportation Consortium of South-Central States (Tran-SET)
+CR AISI, 1994, HDB STEEL DRAIN HIGH, V0, P0
+   Arkansas Department of Environmental Quality (ADEQ), 2018, WATER QUALITY MONITO, V0, P0
+   Arkansas Department of Transportation (ARDOT), 2019, UN PRIC PROJ AW CONT, V0, P0
+   Arkansas Geological Survey (Ags), 1993, GEOL MAP ARK GEOL MA, V0, P0
+   Erzin Y, 2010, INT J THERM SCI, V49, P118, DOI 10.1016/j.ijthermalsci.2009.06.008
+   Florida Department of Transportation (Fdot), 2012, DRAIN MAN OPT PIP MA, V0, P0
+   Fuggle A, 2015, SERVICE LIFE CULVERT, V0, P0, DOI DOI 10.17226/22140
+   Hasan Mdariful, 2019, MATEC WEB OF CONFERENCES, V271, P0, DOI 10.1051/matecconf/201927102004
+   NRCS, 2018, WEB SOIL SURV, V0, P0
+   Rusydi AF, 2018, IOP C SER EARTH ENV, V118, P0, DOI 10.1088/1755-1315/118/1/012019
+   State of California Department of Transportation, 1993, 643 DIV NEW TECHN MA, V0, P0
+   Tewari S., 2018, P TRANSP RES BOARD 9, V0, P0
+   US Department of Agriculture (USDA), 2018, NAT SOIL SURV HDB, V0, P0
+NR 13
+TC 1
+Z9 1
+U1 1
+U2 2
+PU HINDAWI LTD
+PI LONDON
+PA ADAM HOUSE, 3RD FLR, 1 FITZROY SQ, LONDON, W1T 5HF, ENGLAND
+SN 1687-8086
+EI 1687-8094
+J9 ADV CIV ENG
+JI Adv. Civ. Eng.
+PD JAN 4
+PY 2022
+VL 2022
+IS 
+BP 
+EP 
+DI 10.1155/2022/6860287
+PG 10
+WC Construction & Building Technology; Engineering, Civil
+SC Construction & Building Technology; Engineering
+GA YO1QQ
+UT WOS:000747721800005
+DA 2023-04-26
+ER

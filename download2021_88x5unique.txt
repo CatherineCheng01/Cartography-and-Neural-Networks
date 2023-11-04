@@ -1,0 +1,511 @@
+
+PT J
+AU Bi, H
+   Deng, JR
+   Yang, TW
+   Wang, J
+   Wang, L
+AF Bi, Hui
+   Deng, Jiarui
+   Yang, Tianwen
+   Wang, Jian
+   Wang, Ling
+TI CNN-Based Target Detection and Classification When Sparse SAR Image Dataset is Available
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Convolutional neural network (CNN); complex approximate message passing (CAMP); sparse synthetic aperture radar (SAR) image; target detection and classification
+ID bistatic sar; signal recovery; range-doppler
+AB Synthetic aperture radar (SAR) is an earth observation technology that can obtain high-resolution image in allweather and all-time conditions,and hence, has been widely used in civil and military applications. SAR target detection and classification are the key processes for the detailed feature information extraction of the interested target. Compared with traditional matched filtering (MF) recovered result, sparse SAR image has lower sidelobes, noise, and clutter. Thus, it will theoretically has better performance in target detection and classification. In this article, we propose a novel sparse SAR image based target detection and classification framework. This novel framework first obtains the sparse SAR image dataset by complex approximate message passing (CAMP), which is an L-1-norm regularization sparse imaging method. Different from other regularization recovery algorithms, CAMP can output not only a sparse solution, but also a nonsparse estimation of considered scene that well preserves the statistical characteristic of the image when protruding the target. Then, we detect and classify the targets by using the convolutional neural network based technologies from the sparse SAR image datasets constructed by the sparse and nonsparse solutions of CAMP, respectively. For clarify, these two kinds of sparse SAR image datasets are named as D-sp, and D-Nsp. Experimental results show that under standard operating conditions, the proposed framework can obtain 92.60% and 99.29% mAP on Faster RCNN and YOLOv3 by using the D-Nsp sparse SAR image dataset. Under extended operating conditions, the mAP value of Faster RCNN and YOLOv3 are 95.69% and 89.91% mAP, respectively. These values based on the D-Nsp dataset are much higher than the classified result based on the corresponding MF dataset.
+C1 [Bi, Hui; Deng, Jiarui; Wang, Jian; Wang, Ling] Nanjing Univ Aeronaut & Astronaut, Key Lab Radar Imaging & Microwave Photon, Minist Educ, Nanjing 211106, Peoples R China.
+   [Bi, Hui; Deng, Jiarui; Yang, Tianwen; Wang, Jian; Wang, Ling] Nanjing Univ Aeronaut & Astronaut, Coll Elect & Informat Engn, Nanjing 211106, Peoples R China.
+   [Yang, Tianwen] Southeast Univ, Natl Mobile Commun Res Lab, Nanjing 211189, Peoples R China.
+   [Yang, Tianwen] Southeast Univ, Coll Elect & Informat Engn, Nanjing 211189, Peoples R China.
+C3 Nanjing University of Aeronautics & Astronautics; Nanjing University of Aeronautics & Astronautics; Southeast University - China; Southeast University - China
+RP Bi, H (corresponding author), Nanjing Univ Aeronaut & Astronaut, Key Lab Radar Imaging & Microwave Photon, Minist Educ, Nanjing 211106, Peoples R China.; Bi, H (corresponding author), Nanjing Univ Aeronaut & Astronaut, Coll Elect & Informat Engn, Nanjing 211106, Peoples R China.
+EM bihui@nuaa.edu.cn; djr_919@163.com; yangtianwen0524@163.com; 1528114249@qq.com; tulip_wling@nuaa.edu.cn
+FU Fundamental Research Funds for the Central Universities [NE2020004]; National Natural Science Foundation of China [61901213]; Natural Science Foundation of Jiangsu Province [BK20190397]; Aeronautical Science Foundation of China [201920052001]; Young Science and Technology Talent Support Project of Jiangsu Science and Technology Association
+CR Ahmmed R, 2016, INT CONF COMP COMMUN, V0, P0
+   Anitori L, 2013, IEEE T SIGNAL PROCES, V61, P813, DOI 10.1109/TSP.2012.2225057
+   BAMLER R, 1992, IEEE T GEOSCI REMOTE, V30, P706, DOI 10.1109/36.158864
+   Baraniuk RG, 2010, P IEEE, V98, P906, DOI 10.1109/JPROC.2010.2047424
+   Bi H., 2019, P IEEE RAD C BOST MA P IEEE RAD C BOST MA, V0, P1
+   Bi H, 2019, SCI CHINA INFORM SCI, V62, P0, DOI 10.1007/s11432-018-9662-y
+   Bi H, 2018, IEEE T GEOSCI REMOTE, V56, P5006, DOI 10.1109/TGRS.2018.2803802
+   Bi H, 2017, IEEE T GEOSCI REMOTE, V55, P3426, DOI 10.1109/TGRS.2017.2671519
+   Candes EJ, 2006, IEEE T INFORM THEORY, V52, P5406, DOI 10.1109/TIT.2006.885507
+   Candes EJ, 2006, COMMUN PUR APPL MATH, V59, P1207, DOI 10.1002/cpa.20124
+   Cerutti-Maori D, 2008, IEEE T GEOSCI REMOTE, V46, P3019, DOI 10.1109/TGRS.2008.923026
+   Cetin M, 2003, IEEE T AERO ELEC SYS, V39, P1375, DOI 10.1109/TAES.2003.1261134
+   Clemente C, 2012, IEEE T GEOSCI REMOTE, V50, P3219, DOI 10.1109/TGRS.2011.2180394
+   Cumming I. G., 2004, DIGITAL PROCESSING S, V0, P0
+   Curlander J. C., 1991, SYNTIC APERTURE R, V0, P0
+   Daubechies I, 2004, COMMUN PUR APPL MATH, V57, P1413, DOI 10.1002/cpa.20042
+   Dong M., 2019, PROC INT JOINT C NEU, V0, P1
+   Donoho DL, 2012, IEEE T INFORM THEORY, V58, P1094, DOI 10.1109/TIT.2011.2173241
+   Donoho DL, 2009, P NATL ACAD SCI USA, V106, P18914, DOI 10.1073/pnas.0909892106
+   Donoho DL, 2006, IEEE T INFORM THEORY, V52, P1289, DOI 10.1109/TIT.2006.871582
+   Gertler J. J., 1988, IEEE CONTROL SYSTEMS MAGAZINE, V8, P3, DOI 10.1109/37.9163
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Girshick R, 2014, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2014.81
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Henderson F.M., 1998, PRINCIPLE APPL IMAGI, V0, P0
+   Kang M, 2017, 2017 INTERNATIONAL WORKSHOP ON REMOTE SENSING WITH INTELLIGENT PROCESSING (RSIP 2017), V0, P0
+   Krizhevsky A, 2015, P 25 INT C NEUR INF P 25 INT C NEUR INF, V0, P1
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Liu W, 2016, LECT NOTES COMPUT SC, V9905, P21, DOI 10.1007/978-3-319-46448-0_2
+   Magna G, 2015, 2015 18TH AISEM ANNUAL CONFERENCE, V0, P0
+   Maleki A, 2013, IEEE T INFORM THEORY, V59, P4290, DOI 10.1109/TIT.2013.2252232
+   Mittermayer J, 2003, INT GEOSCI REMOTE SE, V0, P1462
+   Neo YL, 2008, IEEE T GEOSCI REMOTE, V46, P14, DOI 10.1109/TGRS.2007.909090
+   Neumann M, 2010, IEEE T GEOSCI REMOTE, V48, P1086, DOI 10.1109/TGRS.2009.2031101
+   PATI YC, 1993, CONFERENCE RECORD OF THE TWENTY-SEVENTH ASILOMAR CONFERENCE ON SIGNALS, V0, P0
+   RANEY RK, 1994, IEEE T GEOSCI REMOTE, V32, P786, DOI 10.1109/36.298008
+   Redmon J, 2018, P IEEE C COMP VIS PA, V0, P1
+   Redmon J, 2017, PROC CVPR IEEE, V0, PP6517, DOI 10.1109/CVPR.2017.690
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Shan CF, 2004, INT C PATT RECOG, V0, PP954, DOI 10.1109/ICPR.2004.1334687
+   Sheikhi A, 2006, PROCEEDINGS OF 2006 CIE INTERNATIONAL CONFERENCE ON RADAR, VOLS 1 AND 2, P57
+   Singha S, 2013, IEEE J-STARS, V6, P2355, DOI 10.1109/JSTARS.2013.2251864
+   Wang N, 2017, IEEE GEOSCI REMOTE S, V14, P1695, DOI 10.1109/LGRS.2017.2729159
+   Wong FH, 2008, IEEE T GEOSCI REMOTE, V46, P2493, DOI 10.1109/TGRS.2008.917599
+   Zhang BC, 2012, SCI CHINA INFORM SCI, V55, P1722, DOI 10.1007/s11432-012-4633-4
+   Zhu JW, 2017, IEEE GEOSCI REMOTE S, V14, P222, DOI 10.1109/LGRS.2016.2635699
+NR 48
+TC 6
+Z9 6
+U1 2
+U2 17
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 6815
+EP 6826
+DI 10.1109/JSTARS.2021.3093645
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA TJ6XZ
+UT WOS:000673623400004
+DA 2023-04-26
+ER
+
+PT J
+AU Tsadiras, A
+   Pempetzoglou, M
+   Viktoratos, I
+AF Tsadiras, Athanasios
+   Pempetzoglou, Maria
+   Viktoratos, Iosif
+TI Making Predictions of Global Warming Impacts Using a Semantic Web Tool that Simulates Fuzzy Cognitive Maps
+SO COMPUTATIONAL ECONOMICS
+LA English
+DT Article
+DE Global Warming; Fuzzy Cognitive Maps; Semantic Web; Neural Networks; Simulation Modeling
+ID support; management; models
+AB One of the most important environmental problems of our era is Global Warming (GW), which derives its roots mainly from anthropogenic activities and is expected to cause far-reaching and long-lasting impacts to the natural environment, ecosystems and human societies. The purpose of this paper is twofold: (a) to develop a model of the causal relationships that exist in the field of GW, using the well-established Artificial Intelligence technique of Fuzzy Cognitive Maps (FCMs) and (b) to develop a Semantic Web simulation software tool, that visually simulates the FCM dynamic behavior and studies the equilibrium that the FCM dynamic system reaches. Using this generic tool, various scenarios can be imposed to the FCM model and predictions can be made on these, in a "what-if" manner. The features of the web simulation tool are exhibited using the FCM that was created and concerns "Global Warming". By applying Semantic Web technologies, the tool makes the results and the various FCM models, that can be implemented in it, easily accessible to various users or systems, through the Internet. In this way, policy makers can use this technique and tool to make predictions by viewing dynamically the consequences that the system predicts to their imposed scenarios and share them through the world wide web.
+C1 [Tsadiras, Athanasios; Viktoratos, Iosif] Aristotle Univ Thessaloniki, Sch Econ, Thessaloniki, Greece.
+   [Pempetzoglou, Maria] Democritus Univ Thrace, Sch Social Policy, Komotini, Greece.
+C3 Aristotle University of Thessaloniki; Democritus University of Thrace
+RP Tsadiras, A (corresponding author), Aristotle Univ Thessaloniki, Sch Econ, Thessaloniki, Greece.
+EM tsadiras@econ.auth.gr; mariap@sp.duth.gr; viktorat@econ.auth.gr
+CR Andreou AS, 2003, DEFENCE PEACE ECON, V14, P293, DOI 10.1080/10242690302931
+   [Anonymous], 1900, DOI DOI 10.1023/A:1019090117643 10.1023/A:1019090117643, V0, P0
+   [Anonymous], 2010, ADAPTCOST PROJECT AN, V0, P0
+   [Anonymous], 1976, STRUCTURE DECISION C, V0, P0
+   Bassiliades N., 2005, INT SCI C COMP SCI H, V0, P0
+   Bizer C, 2009, INT J SEMANT WEB INF, V5, P1, DOI 10.4018/jswis.2009081901
+   Buchanan BG., 1984, RULE BASED EXPERT SY, V0, P0
+   Buyukozkan G, 2012, EXPERT SYST APPL, V39, P10438, DOI 10.1016/j.eswa.2012.02.014
+   Carvalho JP, 2013, FUZZY SET SYST, V214, P6, DOI 10.1016/j.fss.2011.12.009
+   Case DM, 2018, FUZZY HYBRID COMPUTING IN CONSTRUCTION ENGINEERING AND MANAGEMENT: THEORY AND APPLICATIONS, V0, P413
+   Cheah WP, 2011, EXPERT SYST APPL, V38, P15316, DOI 10.1016/j.eswa.2011.06.032
+   Chichilnisky G, 2017, EC GLOBAL ENV CATAST, V0, P0
+   Coban O, 2005, INFORM SCIENCES, V169, P131, DOI 10.1016/j.ins.2004.02.009
+   de Franciscis D., 2014, FUZZY COGNITIVE MAPS, V0, PP199, DOI 10.1007/978-3-642-39739-4_12
+   Dickerson J.A., 2001, ATL S MOL BIOL GEN I, V0, P0
+   Doukas H, 2020, EUR J OPER RES, V280, P1, DOI 10.1016/j.ejor.2019.01.017
+   Duane K, 2001, WEB DEV JAVA SERVER, V0, P0
+   Espinosa-Paredes G, 2009, PROG NUCL ENERG, V51, P434, DOI 10.1016/j.pnucene.2008.10.001
+   FORD JD, 1984, ACAD MANAGE J, V27, P271, DOI 10.2307/255925
+   Ghaderi SF, 2012, EXPERT SYST APPL, V39, P4635, DOI 10.1016/j.eswa.2011.08.097
+   Gray SA, 2013, P ANN HICSS, V0, PP965, DOI 10.1109/HICSS.2013.399
+   HART JA, 1977, WORLD POLIT, V30, P115, DOI 10.2307/2010077
+   Hatwagner M, 2019, TRENDS MATH COMPUTAT, V0, P0
+   Hobbs BF, 2002, ECOL APPL, V12, P1548, DOI 10.1890/1051-0761(2002)012[1548:FCMAAT]2.0.CO;2
+   Jose A, 2010, STUD FUZZ SOFT COMP, V247, P71
+   Jung JJ, 2012, EXPERT SYST APPL, V39, P5857, DOI 10.1016/j.eswa.2011.11.082
+   Kang I, 2004, EXPERT SYST APPL, V26, P545, DOI 10.1016/j.eswa.2003.10.012
+   Karmacharya A., 2016, INT 24 CART C, V0, P0
+   Kim MC, 2008, EXPERT SYST APPL, V35, P1166, DOI 10.1016/j.eswa.2007.08.015
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kosko B., 1992, NEURAL NETWORKS FUZZ, V0, P0
+   Lee KC, 2012, EXPERT SYST APPL, V39, P9255, DOI 10.1016/j.eswa.2012.02.079
+   Lee KC, 2012, EXPERT SYST APPL, V39, P8626, DOI 10.1016/j.eswa.2012.01.191
+   Lee SJ, 2009, EXPERT SYST APPL, V36, P10447, DOI 10.1016/j.eswa.2009.01.070
+   Mohr S., 1997, SOFTWARE DESIGN FUZZ, V0, P0
+   Moscholios N. M., 1967, TAX INCENTIVES COMP, V0, P0
+   NAKAMURA K, 1982, IEEE T SYST MAN CYB, V12, P765, DOI 10.1109/TSMC.1982.4308910
+   Napoles G, 2020, INTELLIGENT DECISION, V0, P0
+   Napoles G, 2018, INT J ARTIF INTELL T, V27, P0, DOI 10.1142/S0218213018600102
+   Nasirzadeh F, 2020, INT J CONSTR MANAG, V20, P223, DOI 10.1080/15623599.2018.1484847
+   Osoba OA, 2017, J DEF MODEL SIMUL-AP, V14, P17, DOI 10.1177/1548512916680779
+   Papageorgiou EI, 2017, NEUROCOMPUTING, V232, P113, DOI 10.1016/j.neucom.2016.10.072
+   Papageorgiou EI, 2012, J BIOMED INFORM, V45, P45, DOI 10.1016/j.jbi.2011.08.018
+   PAPAGEORGIOU K, 2020, ENERGIES, V13, P0
+   Ramsey D, 2005, J ANIM ECOL, V74, P905, DOI 10.1111/j.1365-2656.2005.00986.x
+   Roberts F, 1976, STRUCTURE DECISION, V0, P142
+   ROBERTS FS, 1975, ENVIRON PLANN A, V7, P703, DOI 10.1068/a070703
+   Salmeron JL, 2012, APPL SOFT COMPUT, V12, P3704, DOI 10.1016/j.asoc.2012.01.015
+   Stern N., 2007, EC CLIMATE CHANGE ST, V0, P0
+   Tietenberg T., 1999, INT YB ENV RESOUR EC, V0, P171
+   Trappey AJC, 2010, EXPERT SYST APPL, V37, P7329, DOI 10.1016/j.eswa.2010.04.026
+   Tryfona N, 2005, LECT NOTES COMPUT SC, V3534, P168
+   Tsadiras A. K., 1995, P 1 ICSC INT S FUZZ, V0, PB2
+   Tsadiras AK, 1998, FUZZY SET SYST, V93, P263, DOI 10.1016/S0165-0114(96)00185-6
+   Tsadiras AK, 2003, LECT NOTES COMPUT SC, V2563, P172
+   Tsadiras AK, 1997, INFORM SCIENCES, V101, P109, DOI 10.1016/S0020-0255(97)00001-7
+   Tsadiras A, 2013, EXPERT SYST APPL, V40, P1413, DOI 10.1016/j.eswa.2012.08.035
+   Tsadirus A. K., 1996, NEURAL NETWORK WORLD, V6, P719
+   Uzawa H, 2008, EC THEORY GLOBAL WAR, V0, P0
+   Viktoratos I, 2017, PERVASIVE MOB COMPUT, V38, P14, DOI 10.1016/j.pmcj.2016.08.002
+   WMO-World Meteorological Organization, 2019, 1233 WMO MO, V0, P0
+   Wrightson M.T., 1976, STRUCTURE DECISION C, V0, P291
+   ZADEH LA, 1965, INFORM CONTROL, V8, P338, DOI 10.1016/S0019-9958(65)90241-X
+NR 63
+TC 5
+Z9 5
+U1 5
+U2 25
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0927-7099
+EI 1572-9974
+J9 COMPUT ECON
+JI Comput. Econ.
+PD OCT 15
+PY 2021
+VL 58
+IS 3
+BP 715
+EP 745
+DI 10.1007/s10614-020-10025-1
+EA JUL 2020
+PG 31
+WC Economics; Management; Mathematics, Interdisciplinary Applications
+SC Business & Economics; Mathematics
+GA WD2UT
+UT WOS:000559363900001
+DA 2023-04-26
+ER
+
+PT J
+AU Kunwar, S
+   Chen, HY
+   Lin, MH
+   Zhang, HY
+   D'Angelo, P
+   Cerra, D
+   Azimi, SM
+   Brown, M
+   Hager, G
+   Yokoya, N
+   Hansch, R
+   Le Saux, B
+AF Kunwar, Saket
+   Chen, Hongyu
+   Lin, Manhui
+   Zhang, Hongyan
+   D'Angelo, Pablo
+   Cerra, Daniele
+   Azimi, Seyed Majid
+   Brown, Myron
+   Hager, Gregory
+   Yokoya, Naoto
+   Hansch, Ronny
+   Le Saux, Bertrand
+TI Large-Scale Semantic 3-D Reconstruction: Outcome of the 2019 IEEE GRSS Data Fusion Contest-Part A
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Semantics; Three-dimensional displays; Training; Laser radar; Data integration; Satellites; Earth; Classification; convolutional neural network (CNN); Data Fusion Contest (DFC); deep learning; elevation model; height estimation; image analysis and data fusion (IADF); light detection and ranging (LiDAR); multiview; 3-D reconstruction; point cloud; semantic labeling; semantic mapping; stereo
+ID high-resolution lidar; land-use
+AB In this article, we present the scientific outcomes of the 2019 Data Fusion Contest organized by the Image Analysis and Data Fusion Technical Committee of the IEEE Geoscience and Remote Sensing Society. The 2019 Contest addressed the problem of 3-D reconstruction and 3-D semantic understanding on a large scale. Several competitions were organized to assess specific issues, such as elevation estimation and semantic mapping from a single view, two views, or multiple views. In Part A, we report the results of the best-performing approaches for semantic 3-D reconstruction according to these various setups, whereas 3-D point cloud semantic mapping is discussed in Part B.
+C1 [Kunwar, Saket] NestAI, Kathmandu 44600, Nepal.
+   [Chen, Hongyu; Lin, Manhui; Zhang, Hongyan] Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan 430079, Peoples R China.
+   [D'Angelo, Pablo; Cerra, Daniele; Azimi, Seyed Majid; Hansch, Ronny] German Aerosp Ctr, D-82234 Wessling, Germany.
+   [Brown, Myron] Johns Hopkins Univ, Appl Phys Lab, Johns Hopkins Rd, Laurel, MD 20723 USA.
+   [Hager, Gregory] Johns Hopkins Univ, Baltimore, MD 21218 USA.
+   [Yokoya, Naoto] Univ Tokyo, Grad Sch Frontier Sci, Chiba 2778561, Japan.
+   [Yokoya, Naoto] RIKEN, Ctr Adv Intelligence Project, Tokyo 1030027, Japan.
+   [Le Saux, Bertrand] ESA Ctr Earth Observat, I Lab, I-00044 Frascati, Italy.
+C3 Wuhan University; Helmholtz Association; German Aerospace Centre (DLR); Johns Hopkins University; Johns Hopkins University Applied Physics Laboratory; Johns Hopkins University; University of Tokyo; RIKEN
+RP Hansch, R (corresponding author), German Aerosp Ctr, D-82234 Wessling, Germany.
+EM saketkunwar2005@gmail.com; hongyuchen@whu.edu.cn; mhlin425@whu.edu.cn; zhanghongyan@whu.edu.cn; Pablo.Angelo@dlr.de; daniele.cerra@dlr.de; seyedmajid.azimi@dlr.de; myron.brown@jhuapl.edu; hager@cs.jhu.edu; naoto.yokoya@riken.jp; rww.haensch@gmail.com; bls@ieee.org
+FU Intelligence Advanced Research Projects Activity [2017-17032700004]
+CR Alparone L, 2007, IEEE T GEOSCI REMOTE, V45, P3012, DOI 10.1109/TGRS.2007.904923
+   [Anonymous], 2019, GITHUB DATA FUSION C, V0, P0
+   Atienza R, 2018, IEEE INT CONF ROBOT, V0, P3207
+   Berger C, 2013, IEEE J-STARS, V6, P1324, DOI 10.1109/JSTARS.2013.2245860
+   Bosch Marc, 2016, 2016 IEEE APPLIED IMAGERY PATTERN RECOGNITION WORKSHOP (AIPR), V0, P0, DOI DOI 10.1109/AIPR.2016.8010543
+   Bosch M, 2019, IEEE WINT CONF APPL, V0, PP1524, DOI 10.1109/WACV.2019.00167
+   Campos-Taberner M, 2016, IEEE J-STARS, V9, P5547, DOI 10.1109/JSTARS.2016.2569162
+   Chang JR, 2018, PROC CVPR IEEE, V0, PP5410, DOI 10.1109/CVPR.2018.00567
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Christie G.A., 2020, P IEEECVF C COMPUTER, V0, P14500
+   dAngelo P, 2019, INT GEOSCI REMOTE SE, V0, PP5053, DOI 10.1109/IGARSS.2019.8899795
+   dAngelo P, 2012, INT GEOSCI REMOTE SE, V0, PP6944, DOI 10.1109/IGARSS.2012.6352565
+   dAngelo, 2013, P INT S SAT MAPP TEC, V0, P1
+   Debes C, 2014, IEEE J-STARS, V7, P2405, DOI 10.1109/JSTARS.2014.2305441
+   Dollar P, 2014, IEEE T PATTERN ANAL, V36, P1532, DOI 10.1109/TPAMI.2014.2300479
+   Eigen D, 2014, ADV NEUR IN, V27, P0
+   Facciolo G, 2017, IEEE COMPUT SOC CONF, V0, PP1542, DOI 10.1109/CVPRW.2017.198
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hinton G., 2012, COURSERA NEURAL NETW, V4, P26
+   Hirschmuller H, 2008, IEEE T PATTERN ANAL, V30, P328, DOI 10.1109/TPAMl.2007.1166
+   Hongyu Chen, 2019, IGARSS 2019 - 2019 IEEE INTERNATIONAL GEOSCIENCE AND REMOTE SENSING SYMPOSIUM. PROCEEDINGS, V0, PP4967, DOI 10.1109/IGARSS.2019.8899306
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   JACOBSEN K, 2004, INT ARCH PHOTOGRAMME, V35, P439
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kunwar S, 2019, INT GEOSCI REMOTE SE, V0, PP4959, DOI 10.1109/IGARSS.2019.8899861
+   Le Saux B., 2019, IEEE DATAPORT, V0, P0, DOI DOI 10.21227/C6TMVW12
+   Liao WZ, 2015, IEEE J-STARS, V8, P2984, DOI 10.1109/JSTARS.2015.2420582
+   Licciardi G, 2009, IEEE T GEOSCI REMOTE, V47, P3857, DOI 10.1109/TGRS.2009.2029340
+   Lin TY, 2017, IEEE I CONF COMP VIS, V0, PP2999, DOI 10.1109/ICCV.2017.324
+   Longbotham N, 2012, IEEE J-STARS, V5, P331, DOI 10.1109/JSTARS.2011.2179638
+   McFeeters SK, 1996, INT J REMOTE SENS, V17, P1425, DOI 10.1080/01431169608948714
+   Mou L, 2017, IEEE J-STARS, V10, P3435, DOI 10.1109/JSTARS.2017.2696823
+   OGrady NP, 2002, CLIN INFECT DIS, V35, P1281, DOI 10.1086/344188
+   Pacifici F, 2008, IEEE GEOSCI REMOTE S, V5, P331, DOI 10.1109/LGRS.2008.915939
+   Pacifici F, 2012, IEEE J-STARS, V5, P3, DOI 10.1109/JSTARS.2012.2186733
+   Peng C, 2017, PROC CVPR IEEE, V0, PP1743, DOI 10.1109/CVPR.2017.189
+   Perko R., 1900, VII, V0, P165
+   Poli D, 2012, PHOTOGRAMM REC, V26, P58, DOI 10.1111/j.1477-9730.2011.00665.x
+   Qin RJ, 2019, INT GEOSCI REMOTE SE, V0, PP5057, DOI 10.1109/IGARSS.2019.8900588
+   Qin RJ, 2019, INT GEOSCI REMOTE SE, V0, PP4971, DOI 10.1109/IGARSS.2019.8900262
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Sutskever I., 2013, INT C MACHINE LEARNI, V0, P1139
+   Vo AV, 2016, IEEE J-STARS, V9, P5560, DOI 10.1109/JSTARS.2016.2581843
+   Wang ZY, 2018, KDD18: PROCEEDINGS OF THE 24TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY & DATA MINING, V0, PP2486, DOI 10.1145/3219819.3219944
+   Wehr A, 1999, ISPRS J PHOTOGRAMM, V54, P68, DOI 10.1016/S0924-2716(99)00011-8
+   WESTIN T, 1990, PHOTOGRAMM ENG REM S, V56, P247
+   Xu YH, 2019, IEEE J-STARS, V12, P1709, DOI 10.1109/JSTARS.2019.2911113
+   Yokoya N, 2018, IEEE J-STARS, V11, P1363, DOI 10.1109/JSTARS.2018.2799698
+   Zhang L., 2004, INT ARCH PHOTOGRAMME, VXXXV, P128, DOI 10.1109/IGARSS.2007.4423626
+   Zhao HS, 2018, LECT NOTES COMPUT SC, V11207, P418, DOI 10.1007/978-3-030-01219-9_25
+   Zheng Z, 2019, INT GEOSCI REMOTE SE, V0, PP4963, DOI 10.1109/IGARSS.2019.8897927
+NR 53
+TC 13
+Z9 13
+U1 1
+U2 7
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 922
+EP 935
+DI 10.1109/JSTARS.2020.3032221
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA PR7LT
+UT WOS:000607413900029
+DA 2023-04-26
+ER
+
+PT J
+AU Harmati, IA
+AF Harmati, Istvan A.
+TI Dynamics of Fuzzy-Rough Cognitive Networks
+SO SYMMETRY-BASEL
+LA English
+DT Article
+DE fuzzy-rough cognitive network; fuzzy cognitive map; granular computing; fuzzy-rough sets; stability; convergence
+ID maps; sets; uncertainty; stability
+AB Fuzzy-rough cognitive networks (FRCNs) are interpretable recurrent neural networks, primarily designed for solving classification problems. Their structure is simple and transparent, while the performance is comparable to the well-known black-box classifiers. Although there are many applications on fuzzy cognitive maps and recently for FRCNS, only a very limited number of studies discuss the theoretical issues of these models. In this paper, we examine the behaviour of FRCNs viewing them as discrete dynamical systems. It will be shown that their mathematical properties highly depend on the size of the network, i.e., there are structural differences between the long-term behaviour of FRCN models of different size, which may influence the performance of these modelling tools.
+C1 [Harmati, Istvan A.] Szecheny Istvan Univ, Dept Math & Computat Sci, H-9026 Gyor, Hungary.
+RP Harmati, IA (corresponding author), Szecheny Istvan Univ, Dept Math & Computat Sci, H-9026 Gyor, Hungary.
+EM harmati@sze.hu
+FU National Research, Development and Innovation Office (NKFIH) [K124055]
+CR Atanassov KT, 2012, STUD FUZZ SOFT COMP, V283, P1, DOI 10.1007/978-3-642-29127-2
+   Boutalis Y, 2009, IEEE T FUZZY SYST, V17, P874, DOI 10.1109/TFUZZ.2009.2017519
+   Cao B, 2020, IEEE T FUZZY SYST, V28, P939, DOI 10.1109/TFUZZ.2020.2972207
+   Concepcion L, 2022, IEEE T CYBERNETICS, V52, P2994, DOI 10.1109/TCYB.2020.3022527
+   Deveci M, 2020, J ENVIRON MANAGE, V270, P0, DOI 10.1016/j.jenvman.2020.110916
+   Dosilovic FK, 2018, 2018 41ST INTERNATIONAL CONVENTION ON INFORMATION AND COMMUNICATION TECHNOLOGY, V0, P210
+   DUBOIS D, 1990, INT J GEN SYST, V17, P191, DOI 10.1080/03081079008935107
+   Falcon R, 2019, GRANULAR COMPUT, V4, P451, DOI 10.1007/s41066-018-0104-7
+   Ganivada A, 2011, THEOR COMPUT SCI, V412, P5834, DOI 10.1016/j.tcs.2011.05.038
+   Giesl P, 2007, J DIFFER EQU APPL, V13, P523, DOI 10.1080/10236190601135209
+   Gokasar I, 2022, RES TRANSP ECON, V91, P0, DOI 10.1016/j.retrec.2021.101029
+   Hadjistoykov PP, 2014, CR ACAD BULG SCI, V67, P1233
+   Hajek P., 2017, INT C INTELLIGENT DE, V0, P207
+   Hajek P, 2020, NEUROCOMPUTING, V400, P173, DOI 10.1016/j.neucom.2020.03.013
+   Hajek P, 2016, IEEE INT FUZZY SYST, V0, PP531, DOI 10.1109/FUZZ-IEEE.2016.7737732
+   Harmati IA, 2018, COMM COM INF SC, V853, P490, DOI 10.1007/978-3-319-91473-2_42
+   Ji WT, 2021, WIRES DATA MIN KNOWL, V11, P0, DOI 10.1002/widm.1402
+   Knight CJK, 2014, APPL SOFT COMPUT, V15, P193, DOI 10.1016/j.asoc.2013.10.030
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kuznetsov Y. A., 2013, ELEMENTS APPL BIFURC, V112, P0
+   Lee IK, 2010, IEICE T INF SYST, VE93D, P2883, DOI 10.1587/transinf.E93.D.2883
+   Li CZ, 2019, ENERGIES, V12, P0, DOI 10.3390/en12214214
+   Li X, 2020, EXPERT SYST APPL, V160, P0, DOI 10.1016/j.eswa.2020.113763
+   Lingras P, 2007, IEEE INT CONF FUZZY, V0, P125
+   Napoles G, 2018, NEURAL NETWORKS, V97, P19, DOI 10.1016/j.neunet.2017.08.007
+   Napoles G, 2017, INT J APPROX REASON, V85, P79, DOI 10.1016/j.ijar.2017.03.011
+   Napoles G, 2016, KNOWL-BASED SYST, V91, P46, DOI 10.1016/j.knosys.2015.10.015
+   Pal SK, 2017, STUD COMPUT INTELL, V712, P39, DOI 10.1007/978-3-319-57115-7_2
+   Papageorgiou EI, 2013, IEEE T FUZZY SYST, V21, P342, DOI 10.1109/TFUZZ.2012.2214224
+   Papageorgiou EI, 2013, IEEE T FUZZY SYST, V21, P66, DOI 10.1109/TFUZZ.2012.2201727
+   PAWLAK Z, 1995, COMPUT INTELL-US, V11, P227, DOI 10.1111/j.1467-8640.1995.tb00029.x
+   PAWLAK Z, 1982, INT J COMPUT INF SCI, V11, P341, DOI 10.1007/BF01001956
+   Pawlak Z., 2002, J TELECOMMUNICATIONS, V3, P7
+   Pedrycz W, 2001, NEUROCOMPUTING, V36, P205, DOI 10.1016/S0925-2312(00)00342-8
+   Riaz S, 2018, APPL SCI-BASEL, V8, P0, DOI 10.3390/app8101869
+   Rudin W., 1976, PRINCIPLES MATH ANAL, V3, P0
+   Salmeron JL, 2010, EXPERT SYST APPL, V37, P7581, DOI 10.1016/j.eswa.2010.04.085
+   Samek W., 2019, EXPLAINABLE INTERPRE, V0, PP5, DOI 10.1007/978-3-030-28954-6_1
+   Schultz P, 2017, NEW J PHYS, V19, P0, DOI 10.1088/1367-2630/aa5a7b
+   Skowron A, 2018, NAT COMPUT, V17, P855, DOI 10.1007/s11047-018-9700-3
+   Susanto H, 2009, APPL MATH COMPUT, V215, P1084, DOI 10.1016/j.amc.2009.06.041
+   Szwed P, 2021, APPL SOFT COMPUT, V105, P0, DOI 10.1016/j.asoc.2021.107271
+   Vanloffelt Marnick, 2019, 2019 18TH IEEE INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND APPLICATIONS (ICMLA), V0, PP922, DOI 10.1109/ICMLA.2019.00159
+   Wiggins S., 2003, INTRO APPL NONLINEAR, V2, P0
+   Zadeh L. A., 1978, FUZZY SETS AND SYSTEMS, V1, P3, DOI 10.1016/0165-0114(78)90029-5
+   Zadeh L.A., 1979, ADV FUZZY SET THEORY, V11, P18
+   Zhang C, 2020, COMPUT IND, V115, P0, DOI 10.1016/j.compind.2019.07.007
+   Zhang HY, 2019, INT J APPROX REASON, V110, P31, DOI 10.1016/j.ijar.2019.03.011
+   Zhang K, 2020, FUZZY SET SYST, V383, P92, DOI 10.1016/j.fss.2019.06.019
+NR 50
+TC 0
+Z9 0
+U1 0
+U2 5
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-8994
+J9 SYMMETRY-BASEL
+JI Symmetry-Basel
+PD MAY 15
+PY 2021
+VL 13
+IS 5
+BP 
+EP 
+DI 10.3390/sym13050881
+PG 24
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA SI1LY
+UT WOS:000654588800001
+DA 2023-04-26
+ER
+
+PT J
+AU Kimura, M
+   Savada, FY
+   Tashima, DLM
+   Romagnoli, ES
+   Chendynski, LT
+   Silva, LRC
+   Borsato, D
+AF Kimura, Marissa
+   Savada, Felipe Y.
+   Tashima, Daniele L. M.
+   Romagnoli, Erica S.
+   Chendynski, Leticia T.
+   Silva, Livia R. C.
+   Borsato, Dionisio
+TI Application of the self-organizing map in the classification of natural antioxidants in commercial biodiesel
+SO BIOFUELS-UK
+LA English
+DT Article
+DE Topological map; map of weights; biofuel
+ID oxidative stability; network; oil; som
+AB The parameters relative protection factor, induction period, rate constant, density, acidity number, water content, flash point, viscosity, cloud point and pour point of 47 biodiesel samples containing the antioxidants of extracts of senna leaves, hibiscus flowers and blackberries were determined. The objective of this research was to apply the self-organizable map (SOM)-type network, using data on the physicochemical properties of biodiesel. SOM is a neural network built on a uni- or two-dimensional grid of neurons to capture the important characteristics in the data contained in a large amount of input. The results were tabulated and presented to the SOM neural network for the classification of antioxidants according to efficiency. A network with 35 x 35 topology was used for the segmentation of the samples. By analyzing the weight maps, it was possible to verify that the most adequate parameter in the classification was the relative protection factor. The analysis showed that two distinct clusters were formed, one for the senna extract and the other including extracts of blackberries and hibiscus flowers. This type of methodology proved to be effective in the selection of natural antioxidants according to regional availability by classification mainly according to the efficiency of protection of the oxidation process in biodiesel, since natural antioxidants with similar properties in the SOMs can be easily substituted for one another in order to minimize costs.
+C1 [Kimura, Marissa; Savada, Felipe Y.; Tashima, Daniele L. M.; Romagnoli, Erica S.; Silva, Livia R. C.; Borsato, Dionisio] Univ Estadual Londrina, Chem Dept, Fuels Anal & Res Lab LPAC, Londrina, Parana, Brazil.
+   [Chendynski, Leticia T.] Fed Inst Parana, Londrina, Parana, Brazil.
+C3 Universidade Estadual de Londrina; Instituto Federal do Parana
+RP Kimura, M (corresponding author), Univ Estadual Londrina, Chem Dept, Fuels Anal & Res Lab LPAC, Londrina, Parana, Brazil.
+EM kimura.marissa@hotmail.com
+CR [Anonymous], 2003, 14112 EN, V0, P0
+   [Anonymous], 1997, SERIES INFORM SCI, V0, P0
+   Asolini F. C., 2006, BRAZILIAN JOURNAL OF FOOD TECHNOLOGY, V9, P209
+   ASTM International, 2001, D9310A ASTM INT, V0, P0
+   ASTM International, 2002, D405209 ASTM INT, V0, P0
+   ASTM International, 2001, D66411 ASTM INT, V0, P0
+   ASTM International, 2000, D44506 ASTM INT, V0, P0
+   ASTM International, 2005, D250005 ASTM INT, V0, P0
+   ASTM International, 2004, D630407 ASTM INT, V0, P0
+   Borsato D, 2014, FUEL PROCESS TECHNOL, V127, P111, DOI 10.1016/j.fuproc.2014.05.033
+   Chendynski LT, 2017, ENERG FUEL, V31, P9613, DOI 10.1021/acs.energyfuels.7b01911
+   Coppo RL, 2014, J BIOBASED MATER BIO, V8, P545, DOI 10.1166/jbmb.2014.1468
+   Cordeiro AMTM, 2013, J THERM ANAL CALORIM, V114, P827, DOI 10.1007/s10973-013-3036-0
+   Cremasco H, 2016, J SCI FOOD AGR, V96, P306, DOI 10.1002/jsfa.7094
+   Damasceno SS, 2013, FUEL, V107, P641, DOI 10.1016/j.fuel.2012.11.045
+   de Almeida VF, 2015, FUEL PROCESS TECHNOL, V133, P152, DOI 10.1016/j.fuproc.2015.01.041
+   de Boishebert V, 2006, CHEMOMETR INTELL LAB, V80, P13, DOI 10.1016/j.chemolab.2005.05.003
+   de Sousa LS, 2014, FUEL, V134, P420, DOI 10.1016/j.fuel.2014.06.007
+   Del Re V., 2012, REV BRAS PLANTAS MED, V14, P389, DOI 10.1590/S1516-05722012000200021
+   Galvan D, 2014, QUIM NOVA, V37, P244, DOI 10.5935/0100-4042.20140042
+   Hair JF., 2006, MULTIVARIATED DATA A, V6, P0
+   Haykin S., 2001, BOOKMAN, V1, P900
+   Huang DW, 2015, NEURAL NETWORKS, V63, P208, DOI 10.1016/j.neunet.2014.12.003
+   Jiang XY, 2012, PHYSCS PROC, V33, P1093, DOI 10.1016/j.phpro.2012.05.179
+   Kohonen T, 2013, NEURAL NETWORKS, V37, P52, DOI 10.1016/j.neunet.2012.09.018
+   Kumar N, 2017, FUEL, V190, P328, DOI 10.1016/j.fuel.2016.11.001
+   Kumazawa S, 2004, FOOD CHEM, V84, P329, DOI 10.1016/S0308-8146(03)00216-4
+   Martins GI, 2015, RENEW SUST ENERG REV, V42, P154, DOI 10.1016/j.rser.2014.10.024
+   Oroian M, 2015, FOOD RES INT, V74, P10, DOI 10.1016/j.foodres.2015.04.018
+   Paloma EJ, 2012, NEURAL NETWORKS, V32, P275, DOI 10.1016/j.neunet.2012.02.021
+   Teruel MR, 2015, FOOD CHEM, V172, P40, DOI 10.1016/j.foodchem.2014.09.018
+   Romagnoli ES., 2017, BIOFUELS-UK, V0, PP1, DOI 10.1080/17597269.2017.1418569
+   Spacino KR, 2016, IND CROP PROD, V80, P109, DOI 10.1016/j.indcrop.2015.11.034
+NR 33
+TC 2
+Z9 2
+U1 1
+U2 3
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1759-7269
+EI 1759-7277
+J9 BIOFUELS-UK
+JI Biofuels-UK
+PD JUL 3
+PY 2021
+VL 12
+IS 6
+BP 673
+EP 678
+DI 10.1080/17597269.2018.1519762
+PG 6
+WC Energy & Fuels
+SC Energy & Fuels
+GA SR4EJ
+UT WOS:000660994000008
+DA 2023-04-26
+ER

@@ -1,0 +1,525 @@
+
+PT J
+AU Liu, SJ
+   Zhou, ZZ
+   Ding, HX
+   Zhong, YJ
+   Shi, Q
+AF Liu, Shengjie
+   Zhou, Zhize
+   Ding, Huaxiang
+   Zhong, Yuanjun
+   Shi, Qian
+TI Crop Mapping Using Sentinel Full-Year Dual-Polarized SAR Data and a CPU-Optimized Convolutional Neural Network With Two Sampling Strategies
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Agriculture; Synthetic aperture radar; Training; Remote sensing; Earth; Satellites; Clouds; Convolutional neural network (CNN); crop mapping; multitemporal; radar remote sensing; sampling strategy; synthetic aperture radar (SAR)
+ID hyperspectral image classification; time-series; land-cover; growing-season; random forest; phenology; coherence; china
+AB Although optical remote sensing can capture the Earth's environment with visible and infrared sensors, it is limited by weather conditions. Often, only a few sets of cloud-free optical imagery are available in cloudy regions, where many agricultural towns are located. On the other hand, radar remote sensing can capture imagery under cloudy conditions. In this study, we examined the capability of Sentinel-1 multitemporal dual-polarized synthetic aperture radar (SAR) imagery in a whole year from Google Earth Engine in crop mapping in two study sites in Chongqing, China, and Landivisiau, France. Results show that it is possible to produce better crop classification maps using multitemporal SAR imagery, but the performance is limited by local terrain. Flat agricultural regions, such as Western Europe, are expected to benefit from the multitemporal SAR information. Mountain agricultural regions, such as Southwestern China, will encounter difficulties due to the undulate terrain. We also tested two sampling strategies, i.e., random sampling and regional sampling, and observed high variation in overall accuracy: the former led to a higher accuracy. The gap is caused by the diversity of training sets examined using tSNE visualization. The importance of SAR channels in each month are correlated with their entropy. Data from the growing season are important in distinguishing crop types. The 3-D convolutional neural network (CNN) achieved similar results under a huge computation cost compared with 2-D CNNs. Based on the experiments, we recommend to use a lightweight 2-D CNN that can run on the CPU for real-world crop mapping with SAR data.
+C1 [Liu, Shengjie] Univ Hong Kong, Dept Phys, Pokfulam, Hong Kong, Peoples R China.
+   [Zhou, Zhize] Zhejiang Univ, State Key Lab Comp Aided Design & Comp Graph, Hangzhou 310058, Peoples R China.
+   [Ding, Huaxiang; Zhong, Yuanjun] Inst Surveying & Mapping, Dept Nat Resources Guangdong Prov, Guangzhou 510500, Peoples R China.
+   [Shi, Qian] Sun Yat Sen Univ, Sch Geog & Planning, Guangzhou 510275, Peoples R China.
+C3 University of Hong Kong; Zhejiang University; Sun Yat Sen University
+RP Ding, HX; Zhong, YJ (corresponding author), Inst Surveying & Mapping, Dept Nat Resources Guangdong Prov, Guangzhou 510500, Peoples R China.
+EM sjliu.me@gmail.com; zhouzhize@zju.edu.cn; wydinghx@163.com; gdzyj1222@163.com; shixi5@mail.sysu.edu.cn
+FU National Natural Science Foundation of China [61976234]; Guangdong Basic and Applied Basic Research Foundation [2019A1515011057]
+CR [Anonymous], 2016, GLOBAL HUNGER INDEX, V0, P0
+   Arias M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12020278
+   Bargiel D, 2017, REMOTE SENS ENVIRON, V198, P369, DOI 10.1016/j.rse.2017.06.022
+   Boureau Y.-L., 2010, P 27 INT C INT C MAC, V0, P111
+   Busquier M, 2020, IEEE GEOSCI REMOTE S, V17, P819, DOI 10.1109/LGRS.2019.2933738
+   Cao XH, 2019, APPL SOFT COMPUT, V83, P0, DOI 10.1016/j.asoc.2019.105630
+   Chen SW, 2015, INT J REMOTE SENS, V36, P4233, DOI 10.1080/01431161.2015.1079345
+   de Castro AI, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020285
+   Du PJ, 2015, ISPRS J PHOTOGRAMM, V105, P38, DOI 10.1016/j.isprsjprs.2015.03.002
+   Gao F, 2017, REMOTE SENS ENVIRON, V188, P9, DOI 10.1016/j.rse.2016.11.004
+   Garonna I, 2014, GLOBAL CHANGE BIOL, V20, P3457, DOI 10.1111/gcb.12625
+   Guo ZH, 2016, IEEE T IMAGE PROCESS, V25, P687, DOI 10.1109/TIP.2015.2507408
+   Hansch R, 2017, INT GEOSCI REMOTE SE, V0, P3672
+   He C, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12040655
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Jacob AW, 2020, IEEE J-STARS, V13, P535, DOI 10.1109/JSTARS.2019.2958847
+   Jiao XF, 2014, ISPRS J PHOTOGRAMM, V96, P38, DOI 10.1016/j.isprsjprs.2014.06.014
+   Kandaswamy U, 2005, IEEE T GEOSCI REMOTE, V43, P2075, DOI 10.1109/TGRS.2005.852768
+   Ke Guolin, 2017, ADV NEURAL INFORM PR, V0, PP3146, DOI 10.5555/3294996.3295074
+   Kouw WM, 2021, IEEE T PATTERN ANAL, V43, P766, DOI 10.1109/TPAMI.2019.2945942
+   Kussul N, 2015, INT ARCH PHOTOGRAMM, V47, P45, DOI 10.5194/isprsarchives-XL-7-W3-45-2015
+   Lange J, 2018, INT GEOSCI REMOTE SE, V0, P2087
+   Lee H, 2017, IEEE T IMAGE PROCESS, V26, P4843, DOI 10.1109/TIP.2017.2725580
+   LeToan T, 1997, IEEE T GEOSCI REMOTE, V35, P41, DOI 10.1109/36.551933
+   Li HP, 2020, INT J APPL EARTH OBS, V87, P0, DOI 10.1016/j.jag.2019.102032
+   Liang J, 2017, IEEE T GEOSCI REMOTE, V55, P862, DOI 10.1109/TGRS.2016.2616489
+   Liu SJ, 2020, IEEE GEOSCI REMOTE S, V17, P2110, DOI 10.1109/LGRS.2019.2962768
+   Liu SJ, 2021, IEEE T GEOSCI REMOTE, V59, P5085, DOI 10.1109/TGRS.2020.3018879
+   Liu SJ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060690
+   Liu SJ, 2018, INT GEOSCI REMOTE SE, V0, P7145
+   Liu X, 2019, IEEE T GEOSCI REMOTE, V57, P3040, DOI 10.1109/TGRS.2018.2879984
+   Ma WP, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111307
+   Mestre-Quereda A, 2020, IEEE J-STARS, V13, P4070, DOI 10.1109/JSTARS.2020.3008096
+   Molinier M, 2019, INT GEOSCI REMOTE SE, V0, PP5049, DOI 10.1109/IGARSS.2019.8900328
+   Murray H, 2010, INT J APPL EARTH OBS, V12, P138, DOI 10.1016/j.jag.2010.01.006
+   Pan ZK, 2015, INT J APPL EARTH OBS, V34, P188, DOI 10.1016/j.jag.2014.08.011
+   Paoletti ME, 2019, ISPRS J PHOTOGRAMM, V158, P279, DOI 10.1016/j.isprsjprs.2019.09.006
+   Paoletti ME, 2018, ISPRS J PHOTOGRAMM, V145, P120, DOI 10.1016/j.isprsjprs.2017.11.021
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   Pelletier C, 2016, REMOTE SENS ENVIRON, V187, P156, DOI 10.1016/j.rse.2016.10.010
+   Qi ZX, 2012, REMOTE SENS ENVIRON, V118, P21, DOI 10.1016/j.rse.2011.11.001
+   Ren B, 2018, INT J REMOTE SENS, V39, P7861, DOI 10.1080/01431161.2018.1479786
+   Robinet C, 2007, GLOBAL ECOL BIOGEOGR, V16, P460, DOI 10.1111/j.1466-8238.2006.00302.x
+   Russwurm M., 2019, ISPRS INT ARCH PHOTO, V43, P1545
+   Shelestov A, 2017, FRONT EARTH SC-SWITZ, V5, P1, DOI 10.3389/feart.2017.00017
+   Skakun S, 2017, AIMS GEOSCI, V3, P163, DOI 10.3934/geosci.2017.2.163
+   Skriver H, 2012, IEEE T GEOSCI REMOTE, V50, P2138, DOI 10.1109/TGRS.2011.2172994
+   Skriver H, 2011, IEEE J-STARS, V4, P423, DOI 10.1109/JSTARS.2011.2106198
+   Song YL, 2010, INT J CLIMATOL, V30, P33, DOI 10.1002/joc.1868
+   Sonobe R, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11101148
+   Tamiminia H, 2017, INT J APPL EARTH OBS, V58, P201, DOI 10.1016/j.jag.2017.02.010
+   Tomppo E, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212480
+   Tuia D, 2016, IEEE GEOSC REM SEN M, V4, P41, DOI 10.1109/MGRS.2016.2548504
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Vaswani A, 2017, ADV NEUR IN, V30, P0
+   Wang S, 2019, REMOTE SENS ENVIRON, V222, P303, DOI 10.1016/j.rse.2018.12.026
+   Wang WJ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071068
+   Wardlow BD, 2008, REMOTE SENS ENVIRON, V112, P1096, DOI 10.1016/j.rse.2007.07.019
+   Wen ZD, 2019, IEEE T GEOSCI REMOTE, V57, P8914, DOI 10.1109/TGRS.2019.2923738
+   Xiao X., 2019, PROC IEEE 24 OPTOELE, V0, P1
+   Yang YH, 2009, THEOR APPL CLIMATOL, V97, P91, DOI 10.1007/s00704-008-0049-x
+   Yao RM, 2015, SUSTAIN CITIES SOC, V14, P187, DOI 10.1016/j.scs.2014.09.007
+   Zeiler M.D., 2012, ARXIV12125701, V0, P0
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhang JH, 2008, J MT SCI-ENGL, V5, P241, DOI 10.1007/s11629-008-0189-6
+   Zhong ZL, 2018, IEEE T GEOSCI REMOTE, V56, P847, DOI 10.1109/TGRS.2017.2755542
+   Zhong ZL, 2017, INT GEOSCI REMOTE SE, V0, P1824
+NR 69
+TC 2
+Z9 2
+U1 8
+U2 22
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 7017
+EP 7031
+DI 10.1109/JSTARS.2021.3094973
+PG 15
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA TQ5RV
+UT WOS:000678338200009
+DA 2023-04-26
+ER
+
+PT J
+AU Davahli, MR
+   Karwowski, W
+   Fiok, K
+AF Davahli, Mohammad Reza
+   Karwowski, Waldemar
+   Fiok, Krzysztof
+TI Optimizing COVID-19 vaccine distribution across the United States using deterministic and stochastic recurrent neural networks
+SO PLOS ONE
+LA English
+DT Article
+ID interval
+AB Optimizing COVID-19 vaccine distribution can help plan around the limited production and distribution of vaccination, particularly in early stages. One of the main criteria for equitable vaccine distribution is predicting the geographic distribution of active virus at the time of vaccination. This research developed sequence-learning models to predict the behavior of the COVID-19 pandemic across the US, based on previously reported information. For this objective, we used two time-series datasets of confirmed COVID-19 cases and COVID-19 effective reproduction numbers from January 22, 2020 to November 26, 2020 for all states in the US. The datasets have 310 time-steps (days) and 50 features (US states). To avoid training the models for all states, we categorized US states on the basis of their similarity to previously reported COVID-19 behavior. For this purpose, we used an unsupervised self-organizing map to categorize all states of the US into four groups on the basis of the similarity of their effective reproduction numbers. After selecting a leading state (the state with earliest outbreaks) in each group, we developed deterministic and stochastic Long Short Term Memory (LSTM) and Mixture Density Network (MDN) models. We trained the models with data from each leading state to make predictions, then compared the models with a baseline linear regression model. We also remove seasonality and trends from a dataset of non-stationary COVID-19 cases to determine the effects on prediction. We showed that the deterministic LSTM model trained on the COVID-19 effective reproduction numbers outperforms other prediction methods.
+C1 [Davahli, Mohammad Reza; Karwowski, Waldemar; Fiok, Krzysztof] Univ Cent Florida, Dept Ind Engn & Management Syst, Orlando, FL 32816 USA.
+C3 State University System of Florida; University of Central Florida
+RP Davahli, MR (corresponding author), Univ Cent Florida, Dept Ind Engn & Management Syst, Orlando, FL 32816 USA.
+EM mohammadreza.davahli@ucf.edu
+CR Abadi M, 2016, PROC 12 USENIX C OPE, V0, PP265, DOI 10.48550/ARXIV.1605.08695
+   Abu-Raya B, 2020, CAN MED ASSOC J, V192, PE982, DOI 10.1503/cmaj.201237
+   [Anonymous], 1997, NEURAL COMPUT, V0, P0
+   [Anonymous], 2015, UNDERSTANDING LSTM N, V0, P0
+   [Anonymous], 2018, ASCL 18061022, V0, P0
+   Arora P, 2020, CHAOS SOLITON FRACT, V139, P0, DOI 10.1016/j.chaos.2020.110017
+   Bishop C., 1994, MIXTURE DENSITY NETW, V0, P0
+   Borchers DO, 2019, MEDIUM, V0, P0
+   Centers for Disease Control Prevention (CDC) ., 2020, COVID 19 CAS DEATH T, V0, P0
+   Chakraborty T, 2020, CHAOS SOLITON FRACT, V135, P0, DOI 10.1016/j.chaos.2020.109850
+   Chimmula VKR, 2020, CHAOS SOLITON FRACT, V135, P0, DOI 10.1016/j.chaos.2020.109864
+   CONNOR JT, 1994, IEEE T NEURAL NETWOR, V5, P240, DOI 10.1109/72.279188
+   Cori A, 2013, AM J EPIDEMIOL, V178, P1505, DOI 10.1093/aje/kwt133
+   Ribeiro MHD, 2020, CHAOS SOLITON FRACT, V135, P0, DOI 10.1016/j.chaos.2020.109853
+   Davahli MR, 2020, INT J ENV RES PUB HE, V17, P0, DOI 10.3390/ijerph17207366
+   Davahli MR, 2020, INPUT DATASETS DEV M, V0, P0
+   Davis CN, 2020, PLOS COMPUT BIOL, V16, P0, DOI 10.1371/journal.pcbi.1006869
+   de Myttenaere A, 2016, NEUROCOMPUTING, V192, P38, DOI 10.1016/j.neucom.2015.12.114
+   Douzas G, 2017, EXPERT SYST APPL, V82, P40, DOI 10.1016/j.eswa.2017.03.073
+   Fiok K, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10103386
+   Flor M, 2021, CHORDDIAG INTERACTIV, V0, P0
+   Gao J., 2020, ARXIV200209545, V0, P0
+   Ghosal S, 2020, DIABETES METAB SYND, V14, P311, DOI 10.1016/j.dsx.2020.03.017
+   Gostic KM, 2020, PLOS COMPUT BIOL, V16, P0, DOI 10.1371/journal.pcbi.1008409
+   Hartono Pitoyo, 2020, INFORM MED UNLOCKED, V20, P100386, DOI 10.1016/j.imu.2020.100386
+   Huang FM, 2017, ENG GEOL, V223, P11, DOI 10.1016/j.enggeo.2017.04.013
+   Jeremie S, 2020, SWISS MED WKLY, V150, P0, DOI 10.4414/smw.2020.20271
+   Kapoor A., 2020, EXAMINING COVID 19 F, V0, P0
+   Kenah E, 2008, MATH BIOSCI, V213, P71, DOI 10.1016/j.mbs.2008.02.007
+   KOHONEN T, 1990, P IEEE, V78, P1464, DOI 10.1109/5.58325
+   Kohonen T, 2013, NEURAL NETWORKS, V37, P52, DOI 10.1016/j.neunet.2012.09.018
+   Lalmuanawma S, 2020, CHAOS SOLITON FRACT, V139, P0, DOI 10.1016/j.chaos.2020.110059
+   Li Z, 2020, ARXIV200710929, V0, P0
+   National Academy of Sciences, 2020, FRAM EQ ALL VACC NOV, V0, P0
+   Nishiura H, 2020, INT J INFECT DIS, V93, P284, DOI 10.1016/j.ijid.2020.02.060
+   Persad G, 2020, JAMA-J AM MED ASSOC, V324, P1601, DOI 10.1001/jama.2020.18513
+   Qin L, 2019, NEUROCOMPUTING, V356, P244, DOI 10.1016/j.neucom.2019.04.061
+   Schaffer DeRoo S, 2020, JAMA-J AM MED ASSOC, V323, P2458, DOI 10.1001/jama.2020.8711
+   Shahid F, 2020, CHAOS SOLITON FRACT, V140, P0, DOI 10.1016/j.chaos.2020.110212
+   Tomar A, 2020, SCI TOTAL ENVIRON, V728, P0, DOI 10.1016/j.scitotenv.2020.138762
+   Vettigli G, 2020, MINISOM MINIMALISTIC, V0, P0
+   Xu J, 2018, IEEE T INTELL TRANSP, V19, P2572, DOI 10.1109/TITS.2017.2755684
+   Yang Y, 2020, ANN TOURISM RES, V83, P0, DOI 10.1016/j.annals.2020.102913
+NR 43
+TC 7
+Z9 7
+U1 0
+U2 5
+PU PUBLIC LIBRARY SCIENCE
+PI SAN FRANCISCO
+PA 1160 BATTERY STREET, STE 100, SAN FRANCISCO, CA 94111 USA
+SN 1932-6203
+EI 
+J9 PLOS ONE
+JI PLoS One
+PD JUL 6
+PY 2021
+VL 16
+IS 7
+BP 
+EP 
+DI 10.1371/journal.pone.0253925
+PG 14
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA TK6VN
+UT WOS:000674293700003
+PM 34228740
+DA 2023-04-26
+ER
+
+PT J
+AU Yahya, BM
+   Yahya, FS
+   Thannoun, RG
+AF Yahya, Bashar Moneer
+   Yahya, Farah Samier
+   Thannoun, Rayan Ghazi
+TI COVID-19 prediction analysis using artificial intelligence procedures and GIS spatial analyst: a case study for Iraq
+SO APPLIED GEOMATICS
+LA English
+DT Article
+DE COVID-19; Prediction; Artificial neural networks; Geographic Information System; Geospatial analysis
+ID neural-networks; model
+AB The prediction of diseases caused by viral infections is a complex medical task where many real data that consists of different variables must be employed. As known, COVID-19 is the most dangerous disease worldwide; nowhere, an effective drug has been found yet. To limit its spread, it is essential to find a rational method that shows the spread of this virus by relying on many infected people's data. A model consisting of three artificial neural networks' (ANN) functions was developed to predict COVID-19 separation in Iraq based on real infection data supplied by the public health department at the Iraqi Ministry of Health. The performance efficiency of this model was evaluated, where its performance efficiency reached 81.6% when employed four statistical error criteria as mean absolute percentage error (MAPE), root mean square error (RMSE), coefficient of determination (R-2), and Nash-Sutcliffe coefficient (NC). The severity of the virus's spread across Iraq was assessed in a short term (in the next 6 months), where the results show that the spread severity will intensify in this short term by 17.1%, and the average death cases will increase by 8.3%. These results clarified by creating spatial distribution maps for virus spread are simulated by employing a Geographic Information System (GIS) environment to be used as a useful database for developing plans for combating viruses in Iraq.
+C1 [Yahya, Bashar Moneer; Thannoun, Rayan Ghazi] Univ Mosul, Ctr Remote Sensing, Mosul, Iraq.
+   [Yahya, Farah Samier] Univ Mosul, Coll Med, Mosul, Iraq.
+C3 University of Mosul; University of Mosul
+RP Yahya, BM (corresponding author), Univ Mosul, Ctr Remote Sensing, Mosul, Iraq.
+EM bashar1974@uomosul.edu.iq; fsy@uomousul.edu.iq; rayan.ghazi@uomosul.edu.iq
+CR Abebe AJ, 2000, HYDROLOG SCI J, V45, P425, DOI 10.1080/02626660009492339
+   Ahmad A., 2020, TRENDS RENEW ENERGY, V6, P12, DOI 10.17737/tre.2020.6.1.00110
+   Alamo T, 2020, ELECTRONICS-SWITZ, V9, P0, DOI 10.3390/electronics9050827
+   [Anonymous], 2020, RADIOLOGY, V0, P0, DOI DOI 10.1148/radiol.2020200490
+   [Anonymous], 1981, PATTERN RECOGN, V0, P0
+   Astakhova N. N., 2015, CONT ENG SCI, V8, P1659, DOI 10.12988/CES.2015.510286
+   Ruiz LGB, 2016, ENERGIES, V9, P0, DOI 10.3390/en9090684
+   Baskir MB, 2013, EXPERT SYST APPL, V40, P929, DOI 10.1016/j.eswa.2012.05.049
+   BELLO MG, 1992, IEEE T NEURAL NETWOR, V3, P864, DOI 10.1109/72.165589
+   Cadenas E, 2016, ENERGIES, V9, P0, DOI 10.3390/en9020109
+   Fitzpatrick F, 2020, CURR TREAT OPT INFEC, V12, P135, DOI 10.1007/s40506-020-00216-7
+   He JX, 2019, NAT MED, V25, P30, DOI 10.1038/s41591-018-0307-0
+   Kandwal R, 2009, J BIOMED INFORM, V42, P748, DOI 10.1016/j.jbi.2009.04.008
+   Lai CC, 2020, INT J ANTIMICROB AG, V55, P0, DOI 10.1016/j.ijantimicag.2020.105924
+   Lauer SA, 2020, ANN INTERN MED, V172, P577, DOI 10.7326/M20-0504
+   Liao PH, 2015, HEALTH INFORM J, V21, P137, DOI 10.1177/1460458213509806
+   Lin TN, 1996, IEEE T NEURAL NETWOR, V7, P1329, DOI 10.1109/72.548162
+   Lyseen A K, 2014, YEARB MED INFORM, V9, P110, DOI 10.15265/IY-2014-0008
+   Mirmozaffari M., 2019, EUROPEAN J ENG RES S, V4, P1, DOI 10.24018/EJERS.2019.4.3.1168
+   Murad A, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9050328
+   Murugesan B, 2020, J GEOGR STUD, V4, P1, DOI 10.21523/gcj5.20040101
+   Naude W, 2020, AI SOC, V35, P761, DOI 10.1007/s00146-020-00978-0
+   Peiffer-Smadja N, 2020, CLIN MICROBIOL INFEC, V26, P584, DOI 10.1016/j.cmi.2019.09.009
+   Rahmani F, 2021, ENVIRON RES LETT, V16, P0, DOI 10.1088/1748-9326/abd501
+   Rahmati AS, 2019, OIL GAS SCI TECHNOL, V74, P0, DOI 10.2516/ogst/2019021
+   Scardoni A, 2020, J INFECT PUBLIC HEAL, V13, P1061, DOI 10.1016/j.jiph.2020.06.006
+   Sohrabi C, 2020, INT J SURG, V76, P71, DOI 10.1016/j.ijsu.2020.02.034
+   Stebbing J., 2020, EMBO MOL MED, V12, P0, DOI 10.15252/emmm.202012697
+   Steiner MC, 2020, VIRUSES-BASEL, V12, P0, DOI 10.3390/v12050560
+   Uysal G, 2016, PROCEDIA ENGINEER, V154, P1185, DOI 10.1016/j.proeng.2016.07.526
+   Wang PZ, 2019, SCI TOTAL ENVIRON, V693, P0, DOI 10.1016/j.scitotenv.2019.07.246
+   Yahya BM, 2019, APPL ARTIF INTELL, V33, P137, DOI 10.1080/08839514.2018.1530858
+   Yalur T, 2020, AI SOC, V35, P737, DOI 10.1007/s00146-019-00910-1
+   Yang ZF, 2020, J THORAC DIS, V12, P165, DOI 10.21037/jtd.2020.02.64
+   Yokoi S, 2011, J APPL METEOROL CLIM, V50, P1666, DOI 10.1175/2011JAMC2643.1
+   Zhang SC, 2003, APPL ARTIF INTELL, V17, P375, DOI 10.1080/713827180
+   Zhou XZ, 2010, ARTIF INTELL MED, V48, P139, DOI 10.1016/j.artmed.2009.07.012
+NR 37
+TC 14
+Z9 15
+U1 3
+U2 10
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1866-9298
+EI 1866-928X
+J9 APPL GEOMAT
+JI Appl. Geomat.
+PD SEP 15
+PY 2021
+VL 13
+IS 3
+BP 481
+EP 491
+DI 10.1007/s12518-021-00365-4
+EA MAR 2021
+PG 11
+WC Remote Sensing
+SC Remote Sensing
+GA UC8JK
+UT WOS:000625070900001
+DA 2023-04-26
+ER
+
+PT J
+AU Osco, LP
+   de Arruda, MD
+   Goncalves, DN
+   Dias, A
+   Batistoti, J
+   de Souza, M
+   Gomes, FDG
+   Ramos, APM
+   Jorge, LAD
+   Liesenberg, V
+   Li, J
+   Ma, LF
+   Marcato, J
+   Goncalves, WN
+AF Osco, Lucas Prado
+   de Arruda, Mauro dos Santos
+   Goncalves, Diogo Nunes
+   Dias, Alexandre
+   Batistoti, Juliana
+   de Souza, Mauricio
+   Georges Gomes, Felipe David
+   Marques Ramos, Ana Paula
+   de Castro Jorge, Lucio Andre
+   Liesenberg, Veraldo
+   Li, Jonathan
+   Ma, Lingfei
+   Marcato, Jose
+   Goncalves, Wesley Nunes
+TI A CNN approach to simultaneously count plants and detect plantation-rows from UAV imagery
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; UAV imagery; Object detection; Remote sensing; Precision agriculture
+ID tree-crown detection; citrus-trees; delineation
+AB Accurately mapping croplands is an important prerequisite for precision farming since it assists in field management, yield-prediction, and environmental management. Crops are sensitive to planting patterns and some have a limited capacity to compensate for gaps within a row. Optical imaging with sensors mounted on Unmanned Aerial Vehicles (UAV) is a cost-effective option for capturing images covering croplands nowadays. However, visual inspection of such images can be a challenging and biased task, specifically for detecting plants and rows on a one-step basis. Thus, developing an architecture capable of simultaneously extracting plant individually and plantation-rows from UAV-images is yet an important demand to support the management of agricultural systems. In this paper, we propose a novel deep learning method based on a Convolutional Neural Network (CNN) that simultaneously detects and geolocates plantation-rows while counting its plants considering highly-dense plantation configurations. The experimental setup was evaluated in (a) a cornfield (Zea mays L.) with different growth stages (i.e. recently planted and mature plants) and in a (b) Citrus orchard (Citrus Sinensis Pera). Both datasets characterize different plant density scenarios, in different locations, with different types of crops, and from different sensors and dates. This scheme was used to prove the robustness of the proposed approach, allowing a broader discussion of the method. A two-branch architecture was implemented in our CNN method, where the information obtained within the plantation-row is updated into the plant detection branch and retro-feed to the row branch; which are then refined by a Multi-Stage Refinement method. In the corn plantation datasets (with both growth phases - young and mature), our approach returned a mean absolute error (MAE) of 6.224 plants per image patch, a mean relative error (MRE) of 0.1038, precision and recall values of 0.856, and 0.905, respectively, and an F-measure equal to 0.876. These results were superior to the results from other deep networks (HRNet, Faster R-CNN, and RetinaNet) evaluated with the same task and dataset. For the plantation-row detection, our approach returned precision, recall, and F-measure scores of 0.913, 0.941, and 0.925, respectively. To test the robustness of our model with a different type of agriculture, we performed the same task in the citrus orchard dataset. It returned an MAE equal to 1.409 citrus-trees per patch, MRE of 0.0615, precision of 0.922, recall of 0.911, and F-measure of 0.965. For the citrus plantation-row detection, our approach resulted in precision, recall, and F-measure scores equal to 0.965, 0.970, and 0.964, respectively. The proposed method achieved state-of-the-art performance for counting and geolocating plants and plant-rows in UAV images from different types of crops. The method proposed here may be applied to future decision-making models and could contribute to the sustainable management of agricultural systems.
+C1 [Osco, Lucas Prado] Univ Western Sao Paulo, Fac Engn & Architecture & Urbanism, R Jose Bongiovanni 700,Cidade Univ, BR-19050920 Presidente Prudente, SP, Brazil.
+   [de Arruda, Mauro dos Santos; Goncalves, Diogo Nunes] Univ Fed Mato Grosso do Sul, Fac Comp Sci, Av Costa & Silva S-N, BR-79070900 Campo Grande, MS, Brazil.
+   [Dias, Alexandre; Batistoti, Juliana] Univ Fed Mato Grosso do Sul, Fac Vet Med & Anim Sci, Ave Senador Filinto Muller 2443, BR-79074960 Campo Grande, MS, Brazil.
+   [de Souza, Mauricio; Marcato, Jose; Goncalves, Wesley Nunes] Univ Fed Mato Grosso do Sul, Fac Engn Architecture & Urbanism & Geog, Av Costa & Silva, BR-79070900 Campo Grande, MS, Brazil.
+   [Georges Gomes, Felipe David; Marques Ramos, Ana Paula] Univ Western Sao Paulo UNOESTE, Postgrad Program Environm & Reg Dev, Rodovia Raposo Tavares,Km 572 Limoeiro, BR-19067175 Pres Prudente, SP, Brazil.
+   [de Castro Jorge, Lucio Andre] Brazilian Agr Res Agcy EMBRAPA, Natl Res Ctr Dev Agr Instrumentat, R XV Novembro 1452, BR-13560970 Sao Carlos, SP, Brazil.
+   [Liesenberg, Veraldo] Univ Santa Catarina State UDESC, Forest Engn Dept, Av Luiz de Camoes 2090, BR-88520000 Lages, SC, Brazil.
+   [Li, Jonathan; Ma, Lingfei] Univ Waterloo, Dept Geog & Environm Management, Waterloo, ON N2L 3G1, Canada.
+C3 Universidade do Oeste Paulista; Universidade Federal de Mato Grosso do Sul; Universidade Federal de Mato Grosso do Sul; Universidade Federal de Mato Grosso do Sul; Universidade do Oeste Paulista; University of Waterloo
+RP Ramos, APM (corresponding author), Univ Western Sao Paulo UNOESTE, Postgrad Program Environm & Reg Dev, Rodovia Raposo Tavares,Km 572 Limoeiro, BR-19067175 Pres Prudente, SP, Brazil.
+EM lucasosco@unoeste.br; mauro.arruda@ufms.br; alexandre.dias@ufms.br; juliana.batistoti@ufms.br; mauricio.souza@ufms.br; anaramos@unoeste.br; veraldo.liesenberg@udesc.br; junli@uwaterloo.ca; l53ma@uwaterloo.ca; jose.marcato@ufms.br; wesley.goncalves@ufms.br
+FU EMBRAPA [23700.19/0192-9-1]; National Council for Scientific and Technological Development (CNPq) [303559/2019-5, 433783/2018-4, 310517/2020-6, 313887/2018-7, 304173/2016-9]; Fundect [59/300.066/2015, 59/300.095/2015]; FAPESC [2017TR1762]; CAPES-Print [88881.311850/2018-01]
+CR Adhikari SP, 2019, FRONT PLANT SCI, V10, P0, DOI 10.3389/fpls.2019.01404
+   Aich S., 2018, ARXIV PREPRINT ARXIV, V0, P0
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   Ampatzidis Y, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11040410
+   An JY, 2019, SYMMETRY-BASEL, V11, P0, DOI 10.3390/sym11020256
+   [Anonymous], 2015, INTRO DIGITAL IMAGE, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bah MD, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111690
+   Bah MD, 2020, IEEE ACCESS, V8, P5189, DOI 10.1109/ACCESS.2019.2960873
+   Ball JE, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.042609
+   Chen SW, 2017, IEEE ROBOT AUTOM LET, V2, P781, DOI 10.1109/LRA.2017.2651944
+   Csillik O, 2018, DRONES-BASEL, V2, P0, DOI 10.3390/drones2040039
+   Delloye C, 2018, REMOTE SENS ENVIRON, V216, P245, DOI 10.1016/j.rse.2018.06.037
+   Deng L, 2018, ISPRS J PHOTOGRAMM, V146, P124, DOI 10.1016/j.isprsjprs.2018.09.008
+   Djerriri K, 2018, INT GEOSCI REMOTE SE, V0, P2627
+   dos Santos AA, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19163595
+   Fan Z, 2018, IEEE J-STARS, V11, P876, DOI 10.1109/JSTARS.2018.2793849
+   Freudenberg M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030312
+   Ghamisi P, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2016.2616418
+   Gnadinger F, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9060544
+   Goldman E, 2019, PROC CVPR IEEE, V0, PP5222, DOI 10.1109/CVPR.2019.00537
+   Hartling S, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19061284
+   Hassanein M., 2019, INT ARCH PHOTOGRAMME, V42, P349
+   Huang X, 2014, REMOTE SENS-BASEL, V6, P8424, DOI 10.3390/rs6098424
+   Hunt ER, 2018, INT J REMOTE SENS, V39, P5345, DOI 10.1080/01431161.2017.1410300
+   Hunt ML, 2019, REMOTE SENS ENVIRON, V233, P0, DOI 10.1016/j.rse.2019.111410
+   Hussain M, 2013, ISPRS J PHOTOGRAMM, V80, P91, DOI 10.1016/j.isprsjprs.2013.03.006
+   Jakubowski MK, 2013, REMOTE SENS-BASEL, V5, P4163, DOI 10.3390/rs5094163
+   Jiang H, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9070721
+   Jin ZN, 2019, REMOTE SENS ENVIRON, V228, P115, DOI 10.1016/j.rse.2019.04.016
+   Joseph R, 2018, ARXIV PREPRINT ARXIV, V0, P0
+   Kamilaris A, 2018, COMPUT ELECTRON AGR, V147, P70, DOI 10.1016/j.compag.2018.02.016
+   Khamparia A, 2019, EXPERT SYST, V36, P0, DOI 10.1111/exsy.12400
+   Kitano B. T., 2019, IEEE GEOSCI REMOTE S, V0, PP1, DOI 10.1109/lgrs.2019.2930549.
+   Krizhevsky Alex, 2017, COMMUNICATIONS OF THE ACM, V60, P84, DOI 10.1145/3065386
+   Larsen M, 2011, INT J REMOTE SENS, V32, P5827, DOI 10.1080/01431161.2010.507790
+   Leiva JN, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.036003
+   Li D, 2016, IEEE GEOSCI REMOTE S, V13, P1330, DOI 10.1109/LGRS.2016.2584109
+   Li WJ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9010022
+   Lin TY, 2017, IEEE I CONF COMP VIS, V0, PP2999, DOI 10.1109/ICCV.2017.324
+   Minh DHT, 2018, IEEE GEOSCI REMOTE S, V15, P464, DOI 10.1109/LGRS.2018.2794581
+   Miyoshi GT, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12081294
+   Mochida K, 2019, GIGASCIENCE, V8, P0, DOI 10.1093/gigascience/giy153
+   Mohanty SK, 2019, BIOETHANOL PRODUCTION FROM FOOD CROPS: SUSTAINABLE SOURCES, V0, P45, DOI 10.1016/B978-0-12-813766-6.00003-5
+   Ndikumana E, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081217
+   Nevalainen O, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030185
+   Oliveira HC, 2018, IEEE GEOSCI REMOTE S, V15, P991, DOI 10.1109/LGRS.2018.2819944
+   Osco LP, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12060906
+   Osco LP, 2020, ISPRS J PHOTOGRAMM, V160, P97, DOI 10.1016/j.isprsjprs.2019.12.010
+   Osco LP, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11242925
+   Ozcan AH, 2017, REMOTE SENS LETT, V8, P761, DOI 10.1080/2150704X.2017.1322733
+   Ozdarici-Ok A, 2015, INT J REMOTE SENS, V36, P4275, DOI 10.1080/01431161.2015.1079663
+   Paoletti ME, 2018, ISPRS J PHOTOGRAMM, V145, P120, DOI 10.1016/j.isprsjprs.2017.11.021
+   Primicerio J, 2017, EUR J REMOTE SENS, V50, P179, DOI 10.1080/22797254.2017.1308234
+   Quan LZ, 2019, BIOSYST ENG, V184, P1, DOI 10.1016/j.biosystemseng.2019.05.002
+   Ren SQ, 2017, IEEE T PATTERN ANAL, V39, P1137, DOI 10.1109/TPAMI.2016.2577031
+   Ribera J, 2017, IEEE GLOB CONF SIG, V0, P1344
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Safonova A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060643
+   Salami E, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030316
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sun J, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19204363
+   Sylvain JD, 2019, ISPRS J PHOTOGRAMM, V156, P14, DOI 10.1016/j.isprsjprs.2019.07.010
+   Szegedy C, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Tao SL, 2015, ISPRS J PHOTOGRAMM, V110, P66, DOI 10.1016/j.isprsjprs.2015.10.007
+   Varela S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020343
+   Verma NK, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8050388
+   Wang HQ, 2019, REMOTE SENS ENVIRON, V231, P0, DOI 10.1016/j.rse.2019.111234
+   Wang S, 2019, REMOTE SENS ENVIRON, V222, P303, DOI 10.1016/j.rse.2018.12.026
+   Weinstein BG, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111309
+   Weiss M, 2020, REMOTE SENS ENVIRON, V236, P0, DOI 10.1016/j.rse.2019.111402
+   Wu JT, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060691
+   Zhang HK, 2017, REMOTE SENS LETT, V8, P438, DOI 10.1080/2150704X.2017.1280200
+   ZHANG TY, 1984, COMMUN ACM, V27, P236, DOI 10.1145/357994.358023
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+   Zhong LH, 2019, REMOTE SENS ENVIRON, V221, P430, DOI 10.1016/j.rse.2018.11.032
+   Zhou CQ, 2018, IEEE T GEOSCI REMOTE, V56, P4618, DOI 10.1109/TGRS.2018.2830823
+NR 77
+TC 24
+Z9 27
+U1 24
+U2 86
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD APR 15
+PY 2021
+VL 174
+IS 
+BP 1
+EP 17
+DI 10.1016/j.isprsjprs.2021.01.024
+EA FEB 2021
+PG 17
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA RO4AQ
+UT WOS:000640987800001
+DA 2023-04-26
+ER
+
+PT J
+AU John, J
+   Varkey, MS
+   Selvi, M
+AF John, Jacob
+   Varkey, Mariam Sunil
+   Selvi, M.
+TI Multi-class Text Classification and Publication of Crime Data from Online News Sources
+SO 2021 8TH INTERNATIONAL CONFERENCE ON SMART COMPUTING AND COMMUNICATIONS (ICSCC)
+LA English
+DT Proceedings Paper
+DE Crime hotspot mapping; Hybrid neural networks; Multiclass classification; Deep learning; Community information systems
+ID geographical information-systems; named entity recognition
+AB Over the past decade, India's major cities have been deemed as some of the most unsafe places in the world for women. We know that crimes against women occur every day as newspapers show reports of the activities that occur to not just women but also minor girls. As a result of this, women's safety is a growing concern for the government. The women in our lives deserve to feel secure wherever they go. This paper aims to help women select the states they travel to or relocate to based on recent criminal activity. The proposed methodology is a web application utilizing the Django framework. The web application provides a map with the crime hotspots of India sourced from reputed news articles on the Internet. Articles are first scraped using a web crawler we have designed. The scraped article is classified into a corresponding category to depict them on the heatmap. Classifying news articles is a multi-class classification problem that requires a robust and powerful machine learning model. A novel hybrid architecture of Convolutional Neural Network (CNN) and Gated Recurrent Unit (GRU) is adopted and proposed in this paper. The ensemble model performs incredibly well on news sources collated from reputed websites and successfully classifies news articles with an accuracy of 95.1%.
+C1 [John, Jacob; Varkey, Mariam Sunil; Selvi, M.] Vellore Inst Technol, Sch Comp Sci & Engn SCOPE, Vellore, Tamil Nadu, India.
+C3 Vellore Institute of Technology (VIT); VIT Vellore
+RP John, J (corresponding author), Vellore Inst Technol, Sch Comp Sci & Engn SCOPE, Vellore, Tamil Nadu, India.
+EM jacob.john2016@vitalum.ac.in; mariamsunil.varkey2016@vitalum.ac.in; selvi.m@vit.ac.in
+CR ACPO, 2001, REASS CIV 1 PROP POL, V0, P0
+   [Anonymous], 2001, USING ARCGIS GEOSTAT, V0, P0
+   Bowers K., 2001, MAPPING ANALYSING CR, V0, P120
+   Chainey S, 2012, POLIC-J POLICY PRACT, V6, P228, DOI 10.1093/police/pas006
+   Chainey S, 2008, SECUR J, V21, P4, DOI 10.1057/palgrave.sj.8350066
+   Chen GB, 2017, IEEE IJCNN, V0, PP2377, DOI 10.1109/IJCNN.2017.7966144
+   Di Martino S, 2011, STUD COMPUT INTELL, V348, P163
+   Economist, 1995, ECONOMIST, V331, P20
+   Erdogan S, 2008, ACCIDENT ANAL PREV, V40, P174, DOI 10.1016/j.aap.2007.05.004
+   Florian R, 2003, P 7 C NAT LANG LEARN, V4, P168, DOI 10.3115/1119176.1119201
+   Ghiassi M, 2012, EXPERT SYST APPL, V39, P10967, DOI 10.1016/j.eswa.2012.03.027
+   Guo JF, 2009, PROCEEDINGS 32ND ANNUAL INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL, V0, PP267, DOI 10.1145/1571941.1571989
+   Harrag F, 2009, 2009 SECOND INTERNATIONAL CONFERENCE ON THE APPLICATIONS OF DIGITAL INFORMATION AND WEB TECHNOLOGIES (ICADIWT 2009), V0, PP778, DOI 10.1109/ICADIWT.2009.5273841
+   John J., 2019, INT J INNOVATIVE TEC, V9, P2088
+   Joulin A, 2016, BAG TRICKS EFFICIENT, V0, P0
+   Kuo PF, 2013, J TRANSP GEOGR, V30, P138, DOI 10.1016/j.jtrangeo.2013.04.006
+   Lample G., 2016, P NAACL HLT, V0, PP260, DOI 10.18653/V1/N16-1030
+   Martin D., 1998, CRIME MAPPING CASE S, V0, P3
+   PAULSEN D, 2004, INT J POLICE SCI MAN, V6, P234, DOI 10.1350/IJPS.6.4.234.54136
+   Paulsen D. J., 2004, SPATIAL ASPECTS CRIM, V0, P0
+   Ratcliffe JH., 2002, POLIC SOC, V12, P211, DOI 10.1080/10439460290018463
+   Reimers N., 2014, GERMEVAL 2014 NESTED, V0, P0
+   Ritter A., 2011, P 2011 C EMPIRICAL M, V0, PP1524, DOI 10.1075/LI.30.1.03NAD
+   Santos L, 2011, DECIS SUPPORT SYST, V51, P1, DOI 10.1016/j.dss.2010.11.008
+   Secretary of State Home Department, 2010, POL 21 CENT REC POL, V0, P0
+   Shabat H.A., 2015, MIDDLE-EAST J SCI RE, V23, P1215, DOI 10.5829/idosi.mejsr.2015.23.06.22271
+   Singh H., 2012, INT J RES COMPUTER S, V2, P57, DOI 10.7815/ijorcs.23.2012.030
+   Tayal DK, 2015, AI SOC, V30, P117, DOI 10.1007/s00146-014-0539-6
+   Torisawa K., 2007, P 2007 JOINT C EMP M, V0, P698
+   Wang P, 2016, NEUROCOMPUTING, V174, P806, DOI 10.1016/j.neucom.2015.09.096
+   Williamson D., 2001, MAPPING ANAL CRIME D, V0, P187
+   Wu YH, 2015, STUD HEALTH TECHNOL, V216, P624, DOI 10.3233/978-1-61499-564-7-624
+   Zhang Xiang, 2015, ADV NEURAL INFORM PR, V0, PP649, DOI 10.5555/2969239.2969312
+   Zhou GD, 2002, 40TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS, V0, P473
+NR 34
+TC 1
+Z9 1
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2021
+VL 0
+IS 
+BP 64
+EP 69
+DI 10.1109/ICSCC51209.2021.9528127
+PG 6
+WC Computer Science, Theory & Methods; Telecommunications
+SC Computer Science; Telecommunications
+GA BS3DO
+UT WOS:000709816800013
+DA 2023-04-26
+ER

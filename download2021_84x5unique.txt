@@ -1,0 +1,469 @@
+
+PT J
+AU Zhang, WY
+   Chen, ZJ
+   Zhang, H
+   Su, GN
+   Chang, R
+   Chen, L
+   Zhu, Y
+   Cao, QF
+   Zhou, CJ
+   Wang, Y
+   Yang, PZ
+AF Zhang, Wanyun
+   Chen, Zhijun
+   Zhang, Han
+   Su, Guannan
+   Chang, Rui
+   Chen, Lin
+   Zhu, Ying
+   Cao, Qingfeng
+   Zhou, Chunjiang
+   Wang, Yao
+   Yang, Peizeng
+TI Detection of Fuchs' Uveitis Syndrome From Slit-Lamp Images Using Deep Convolutional Neural Networks in a Chinese Population
+SO FRONTIERS IN CELL AND DEVELOPMENTAL BIOLOGY
+LA English
+DT Article
+DE Fuchs' uveitis syndrome; diffuse iris depigmentation; slit-lamp images; deep convolutional neural model; deep learning
+ID heterochromic iridocyclitis; macular degeneration; automated detection; clinical-features
+AB Fuchs' uveitis syndrome (FUS) is one of the most under- or misdiagnosed uveitis entities. Many undiagnosed FUS patients are unnecessarily overtreated with anti-inflammatory drugs, which may lead to serious complications. To offer assistance for ophthalmologists in the screening and diagnosis of FUS, we developed seven deep convolutional neural networks (DCNNs) to detect FUS using slit-lamp images. We also proposed a new optimized model with a mixed "attention" module to improve test accuracy. In the same independent set, we compared the performance between these DCNNs and ophthalmologists in detecting FUS. Seven different network models, including Xception, Resnet50, SE-Resnet50, ResNext50, SE-ResNext50, ST-ResNext50, and SET-ResNext50, were used to predict FUS automatically with the area under the receiver operating characteristic curves (AUCs) that ranged from 0.951 to 0.977. Our proposed SET-ResNext50 model (accuracy = 0.930; Precision = 0.918; Recall = 0.923; F1 measure = 0.920) with an AUC of 0.977 consistently outperformed the other networks and outperformed general ophthalmologists by a large margin. Heat-map visualizations of the SET-ResNext50 were provided to identify the target areas in the slit-lamp images. In conclusion, we confirmed that a trained classification method based on DCNNs achieved high effectiveness in distinguishing FUS from other forms of anterior uveitis. The performance of the DCNNs was better than that of general ophthalmologists and could be of value in the diagnosis of FUS.
+C1 [Zhang, Wanyun; Chen, Zhijun; Su, Guannan; Chang, Rui; Chen, Lin; Zhu, Ying; Cao, Qingfeng; Zhou, Chunjiang; Wang, Yao; Yang, Peizeng] Chongqing Med Univ, Chongqing Key Lab Ophthalmol, Affiliated Hosp 1, Chongqing, Peoples R China.
+   [Zhang, Wanyun; Chen, Zhijun; Su, Guannan; Chang, Rui; Chen, Lin; Zhu, Ying; Cao, Qingfeng; Zhou, Chunjiang; Wang, Yao; Yang, Peizeng] Chongqing Eye Inst, Natl Clin Res Ctr Ocular Dis, Chongqing Branch, Chongqing, Peoples R China.
+   [Zhang, Han] Harbin Inst Technol, Sch Comp Sci & Technol, Harbin, Peoples R China.
+C3 Chongqing Medical University; Harbin Institute of Technology
+RP Yang, PZ (corresponding author), Chongqing Med Univ, Chongqing Key Lab Ophthalmol, Affiliated Hosp 1, Chongqing, Peoples R China.; Yang, PZ (corresponding author), Chongqing Eye Inst, Natl Clin Res Ctr Ocular Dis, Chongqing Branch, Chongqing, Peoples R China.
+EM peizengycmu@126.com
+FU Chongqing Outstanding Scientists Project (2019); Chongqing Key Laboratory of Ophthalmology (CSTC) [2008CA5003]; Chongqing Science and Technology Platform and Base Construction Program [cstc2014pt-sy10002]; Chongqing Chief Medical Scientist Project (2018)
+CR Abano JM, 2017, OCUL IMMUNOL INFLAMM, V25, PS75, DOI 10.1080/09273948.2017.1335755
+   Accorinti M, 2016, J OPHTHALMOL, V2016, P0, DOI 10.1155/2016/1458624
+   Arellanes-Garcia L, 2002, OCUL IMMUNOL INFLAMM, V10, P125, DOI 10.1076/ocii.10.2.125.13976
+   Bonfioli Adriana A, 2005, SEMIN OPHTHALMOL, V20, P143, DOI 10.1080/08820530500231995
+   Burlina PM, 2017, JAMA OPHTHALMOL, V135, P1170, DOI 10.1001/jamaophthalmol.2017.3782
+   Carter JV, 2016, SURGERY, V159, P1638, DOI 10.1016/j.surg.2015.12.029
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Grassmann F, 2018, OPHTHALMOLOGY, V125, P1410, DOI 10.1016/j.ophtha.2018.02.037
+   He JX, 2019, NAT MED, V25, P30, DOI 10.1038/s41591-018-0307-0
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hogarty DT, 2019, CLIN EXP OPHTHALMOL, V47, P128, DOI 10.1111/ceo.13381
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Jiang JW, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0201142
+   Kapoor R, 2019, SURV OPHTHALMOL, V64, P233, DOI 10.1016/j.survophthal.2018.09.002
+   Kazokoglu H, 2008, OPHTHAL EPIDEMIOL, V15, P285, DOI 10.1080/09286580802262821
+   LAHEY E, 1991, DOC OPHTHALMOL, V78, P225, DOI 10.1007/BF00165685
+   Max J., 2015, ADV NEURAL INF PROCE, V28, P2017
+   Menezo V, 2005, AM J OPHTHALMOL, V139, P988, DOI 10.1016/j.ajo.2005.01.029
+   Mohamed Quresh, 2005, CURR OPIN OPHTHALMOL, V16, P356, DOI 10.1097/01.icu.0000187056.29563.8d
+   Norrsell K, 2008, ACTA OPHTHALMOL, V86, P58, DOI 10.1111/j.1600-0420.2007.00990.x
+   Ramanishka V, 2017, PROC CVPR IEEE, V0, PP3135, DOI 10.1109/CVPR.2017.334
+   Russakoff DB, 2019, INVEST OPHTH VIS SCI, V60, P712, DOI 10.1167/iovs.18-25325
+   Schlegl T, 2018, OPHTHALMOLOGY, V125, P549, DOI 10.1016/j.ophtha.2017.10.031
+   Sun Y, 2020, SURV OPHTHALMOL, V65, P133, DOI 10.1016/j.survophthal.2019.10.003
+   TABBUT BR, 1988, ARCH OPHTHALMOL-CHIC, V106, P1688, DOI 10.1001/archopht.1988.01060140860027
+   Tandon M, 2012, OCUL IMMUNOL INFLAMM, V20, P429, DOI 10.3109/09273948.2012.723113
+   Tappeiner C, 2015, GRAEF ARCH CLIN EXP, V253, P1169, DOI 10.1007/s00417-015-2960-z
+   Ting DSW, 2019, PROG RETIN EYE RES, V72, P0, DOI 10.1016/j.preteyeres.2019.04.003
+   Touhami S, 2019, INVEST OPHTH VIS SCI, V60, P2399, DOI 10.1167/iovs.18-24597
+   Tran T., 2017, P ADV NEURAL INFORM, V0, P2794
+   Treder M, 2018, GRAEF ARCH CLIN EXP, V256, P259, DOI 10.1007/s00417-017-3850-3
+   Tugal-Tutkun I, 2009, AM J OPHTHALMOL, V148, P510, DOI 10.1016/j.ajo.2009.04.007
+   Wu ST, 2018, MULTIMED TOOLS APPL, V77, P10437, DOI 10.1007/s11042-017-4440-4
+   Xie SN, 2017, PROC CVPR IEEE, V0, PP5987, DOI 10.1109/CVPR.2017.634
+   Yang PZ, 2006, OPHTHALMOLOGY, V113, P473, DOI 10.1016/j.ophtha.2005.10.028
+   Zhou B, 2016, PROC CVPR IEEE, V0, PP2921, DOI 10.1109/CVPR.2016.319
+NR 37
+TC 2
+Z9 3
+U1 2
+U2 9
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 2296-634X
+EI 
+J9 FRONT CELL DEV BIOL
+JI Front. Cell. Dev. Biol.
+PD JUN 18
+PY 2021
+VL 9
+IS 
+BP 
+EP 
+DI 10.3389/fcell.2021.684522
+PG 8
+WC Cell Biology; Developmental Biology
+SC Cell Biology; Developmental Biology
+GA TC9ER
+UT WOS:000668940700001
+PM 34222252
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, L
+   Chen, SS
+   Li, D
+   Wang, CY
+   Jiang, H
+   Zheng, Q
+   Peng, ZP
+AF Wang, Li
+   Chen, Shuisen
+   Li, Dan
+   Wang, Chongyang
+   Jiang, Hao
+   Zheng, Qiong
+   Peng, Zhiping
+TI Estimation of Paddy Rice Nitrogen Content and Accumulation Both at Leaf and Plant Levels from UAV Hyperspectral Imagery
+SO REMOTE SENSING
+LA English
+DT Article
+DE paddy rice; growth stages; phenology; hyperspectral; nitrogen
+ID red edge position; chlorophyll content; vegetation index; reflectance measurement; spectral reflectance; n status; wheat; prediction; agriculture; algorithms
+AB Remote sensing-based mapping of crop nitrogen (N) status is beneficial for precision N management over large geographic regions. Both leaf/canopy level nitrogen content and accumulation are valuable for crop nutrient diagnosis. However, previous studies mainly focused on leaf nitrogen content (LNC) estimation. The effects of growth stages on the modeling accuracy have not been widely discussed. This study aimed to estimate different paddy rice N traits-LNC, plant nitrogen content (PNC), leaf nitrogen accumulation (LNA) and plant nitrogen accumulation (PNA)-from unmanned aerial vehicle (UAV)-based hyperspectral images. Additionally, the effects of the growth stage were evaluated. Univariate regression models on vegetation indices (VIs), the traditional multivariate calibration method, partial least squares regression (PLSR) and modern machine learning (ML) methods, including artificial neural network (ANN), random forest (RF), and support vector machine (SVM), were evaluated both over the whole growing season and in each single growth stage (including the tillering, jointing, booting and heading growth stages). The results indicate that the correlation between the four nitrogen traits and the other three biochemical traits-leaf chlorophyll content, canopy chlorophyll content and aboveground biomass-are affected by the growth stage. Within a single growth stage, the performance of selected VIs is relatively constant. For the full-growth-stage models, the performance of the VI-based models is more diverse. For the full-growth-stage models, the transformed chlorophyll absorption in the reflectance index/optimized soil-adjusted vegetation index (TCARI/OSAVI) performs best for LNC, PNC and PNA estimation, while the three band vegetation index (TBVITian) performs best for LNA estimation. There are no obvious patterns regarding which method performs the best of the PLSR, ANN, RF and SVM in either the growth-stage-specific or full-growth-stage models. For the growth-stage-specific models, a lower mean relative error (MRE) and higher R-2 can be acquired at the tillering and jointing growth stages. The PLSR and ML methods yield obviously better estimation accuracy for the full-growth-stage models than the VI-based models. For the growth-stage-specific models, the performance of VI-based models seems optimal and cannot be obviously surpassed. These results suggest that building linear regression models on VIs for paddy rice nitrogen traits estimation is still a reasonable choice when only a single growth stage is involved. However, when multiple growth stages are involved or missing the phenology information, using PLSR or ML methods is a better option.
+C1 [Wang, Li; Chen, Shuisen; Li, Dan; Wang, Chongyang; Jiang, Hao; Zheng, Qiong] Guangdong Acad Sci, Res Ctr Guangdong Prov Engn Technol Applicat Remo, Key Lab Guangdong Utilizat Remote Sensing & Geog, Guangdong Open Lab Geospatial Informat Technol &, Guangzhou 510070, Peoples R China.
+   [Peng, Zhiping] Guangdong Acad Agr Sci, Inst Agr Resources & Environm, Guangzhou 510640, Peoples R China.
+C3 Guangdong Academy of Sciences; Guangdong Academy of Agricultural Sciences
+RP Chen, SS (corresponding author), Guangdong Acad Sci, Res Ctr Guangdong Prov Engn Technol Applicat Remo, Key Lab Guangdong Utilizat Remote Sensing & Geog, Guangdong Open Lab Geospatial Informat Technol &, Guangzhou 510070, Peoples R China.
+EM wangli1990@nwsuaf.edu.cn; css@gdas.ac.cn; lidan@gdas.ac.cn; wangchongyang@gdas.ac.cn; jianghao@gdas.ac.cn; zhengqiong@gdas.ac.cn; ytifei@aliyun.com
+FU GDAS Project of Science and Technology Development [2020GDASYL-20200103011]; Guangdong Province Agricultural Science and Technology Innovation and Promotion Project [2021KJ102, 2020KJ102, 2019KJ102]; Guangzhou Basic Research Project [202002020076]
+CR Awais M, 2021, ENVIRON TECHNOL INNO, V22, P0, DOI 10.1016/j.eti.2021.101465
+   Baret F, 2007, J EXP BOT, V58, P869, DOI 10.1093/jxb/erl231
+   Berger K, 2020, INT J APPL EARTH OBS, V92, P0, DOI 10.1016/j.jag.2020.102174
+   Berger K, 2020, REMOTE SENS ENVIRON, V242, P0, DOI 10.1016/j.rse.2020.111758
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Cerovic ZG, 2012, PHYSIOL PLANTARUM, V146, P251, DOI 10.1111/j.1399-3054.2012.01639.x
+   Chlingaryan A, 2018, COMPUT ELECTRON AGR, V151, P61, DOI 10.1016/j.compag.2018.05.012
+   Cho MA, 2006, REMOTE SENS ENVIRON, V101, P181, DOI 10.1016/j.rse.2005.12.011
+   Clarke TR, 2001, INT GEOSCI REMOTE SE, V0, PP1279, DOI 10.1109/IGARSS.2001.976818
+   Dash J, 2004, INT J REMOTE SENS, V25, P5403, DOI 10.1080/0143116042000274015
+   Dunn BW, 2016, J NEAR INFRARED SPEC, V24, P473, DOI 10.1255/jnirs.1246
+   Fitzgerald G, 2010, FIELD CROP RES, V116, P318, DOI 10.1016/j.fcr.2010.01.010
+   Gitelson AA, 2003, J PLANT PHYSIOL, V160, P271, DOI 10.1078/0176-1617-00887
+   Guo JB, 2021, PRECIS AGRIC, V22, P1634, DOI 10.1007/s11119-021-09804-z
+   Guyot G., 1988, P 4 INT C SPECTR SIG, V0, P0, DOI DOI 10.1007/S13398-014-0173-7.2
+   Haboudane D, 2002, REMOTE SENS ENVIRON, V81, P416, DOI 10.1016/S0034-4257(02)00018-4
+   Hansen PM, 2003, REMOTE SENS ENVIRON, V86, P542, DOI 10.1016/S0034-4257(03)00131-7
+   Huang SY, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030227
+   Huang Z, 2004, REMOTE SENS ENVIRON, V93, P18, DOI 10.1016/j.rse.2004.06.008
+   HUETE AR, 1988, REMOTE SENS ENVIRON, V25, P295, DOI 10.1016/0034-4257(88)90106-X
+   JACQUEMOUD S, 1990, REMOTE SENS ENVIRON, V34, P75, DOI 10.1016/0034-4257(90)90100-Z
+   Karatzoglou A., 2004, J STAT SOFTW, V11, P1, DOI 10.18637/jss.v011.i09
+   Kokaly RF, 2009, REMOTE SENS ENVIRON, V113, PS78, DOI 10.1016/j.rse.2008.10.018
+   Kuhn M, 2020, PLSMOD MODEL WRAPPER, V0, P0
+   Lee YJ, 2008, AGRON J, V100, P205, DOI 10.2134/agrojnl2007.0018
+   Lemaire G, 2008, EUR J AGRON, V28, P614, DOI 10.1016/j.eja.2008.01.005
+   Li DL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12162578
+   Li F, 2014, EUR J AGRON, V52, P198, DOI 10.1016/j.eja.2013.09.006
+   Li F, 2012, FIELD CROP RES, V138, P21, DOI 10.1016/j.fcr.2012.09.002
+   Li F, 2010, PRECIS AGRIC, V11, P335, DOI 10.1007/s11119-010-9165-6
+   Li FL, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111331
+   Li MH, 2021, AGRICULTURE-BASEL, V11, P0, DOI 10.3390/agriculture11060563
+   Marang IJ, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13081428
+   MILLER JR, 1990, INT J REMOTE SENS, V11, P1755, DOI 10.1080/01431169008955128
+   Moharana S, 2016, ISPRS J PHOTOGRAMM, V122, P17, DOI 10.1016/j.isprsjprs.2016.09.002
+   Nigon TJ, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12081234
+   Onojeghuo AO, 2018, INT J APPL EARTH OBS, V64, P62, DOI 10.1016/j.jag.2017.09.005
+   Onoyama H, 2015, PRECIS AGRIC, V16, P558, DOI 10.1007/s11119-015-9394-9
+   Pancorbo JL, 2021, EUR J AGRON, V127, P0, DOI 10.1016/j.eja.2021.126287
+   Patel MK, 2021, COMPUT ELECTRON AGR, V182, P0, DOI 10.1016/j.compag.2021.106000
+   QI J, 1994, REMOTE SENS ENVIRON, V48, P119, DOI 10.1016/0034-4257(94)90134-1
+   Rondeaux G, 1996, REMOTE SENS ENVIRON, V55, P95, DOI 10.1016/0034-4257(95)00186-7
+   Schlemmer M, 2013, INT J APPL EARTH OBS, V25, P47, DOI 10.1016/j.jag.2013.04.003
+   Sims DA, 2002, REMOTE SENS ENVIRON, V81, P337, DOI 10.1016/S0034-4257(02)00010-X
+   Slaton, 2001, RICE PRODUCTION HDB, V0, P7
+   Stroppiana D, 2009, FIELD CROP RES, V111, P119, DOI 10.1016/j.fcr.2008.11.004
+   Sun J, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090951
+   [田明璐 Tian Minglu], 2016, 农业机械学报 TRANSACTIONS OF THE CHINESE SOCIETY FOR AGRICULTURAL MACHINERY, V47, P285
+   Tian YC, 2011, FIELD CROP RES, V120, P299, DOI 10.1016/j.fcr.2010.11.002
+   Tian YC, 2011, PLANT PROD SCI, V14, P270, DOI 10.1626/pps.14.270
+   TUCKER CJ, 1979, REMOTE SENS ENVIRON, V8, P127, DOI 10.1016/0034-4257(79)90013-0
+   Venables W.N., 2002, MODERN APPL STAT S, V0, P0
+   Verrelst J, 2019, SURV GEOPHYS, V40, P589, DOI 10.1007/s10712-018-9478-y
+   Wang BJ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030291
+   Wang FM, 2013, PRECIS AGRIC, V14, P172, DOI 10.1007/s11119-012-9285-2
+   Wang L, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030361
+   Wang LA, 2017, COMPUT ELECTRON AGR, V140, P327, DOI 10.1016/j.compag.2017.05.023
+   Wu CY, 2008, AGR FOREST METEOROL, V148, P1230, DOI 10.1016/j.agrformet.2008.03.005
+   Yang GJ, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.095976
+   Yao X, 2015, REMOTE SENS-BASEL, V7, P14939, DOI 10.3390/rs71114939
+   Yi QX, 2010, INT J REMOTE SENS, V31, P931, DOI 10.1080/01431160902912061
+   Yu K, 2013, ISPRS J PHOTOGRAMM, V78, P102, DOI 10.1016/j.isprsjprs.2013.01.008
+   Zhao HT, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11141724
+   Zheng HB, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10122026
+NR 65
+TC 20
+Z9 20
+U1 19
+U2 80
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD AUG 15
+PY 2021
+VL 13
+IS 15
+BP 
+EP 
+DI 10.3390/rs13152956
+PG 21
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA TW2MI
+UT WOS:000682240700001
+DA 2023-04-26
+ER
+
+PT J
+AU Silva, SA
+   Lima, JSS
+   Queiroz, DM
+   Paiva, AQ
+   Medauar, CC
+   Santos, RO
+AF Silva, Samuel A.
+   Lima, Juliao S. S.
+   Queiroz, Daniel M.
+   Paiva, Arlicelio Q.
+   Medauar, Caique C.
+   Santos, Railton O.
+TI Artificial neural networks in the prediction of soil chemical attributes using apparent electrical conductivity
+SO SPANISH JOURNAL OF AGRICULTURAL RESEARCH
+LA English
+DT Article
+DE precision agriculture; computational intelligence; remote sensing; predictive models; digital soil mapping
+ID multivariate-analysis; spatial variability
+AB Aim of study: To use artificial neural networks (ANN) to predict the values and spatial distribution of soil chemical attributes from apparent soil electrical conductivity (ECa) and soil clay contents. Area of study: The study was carried out in an area of 1.2-ha cultivated with cocoa, located in the state of Bahia, Brazil. Material and methods: Data collections were performed on a sampling grid containing 120 points. Soil samples were collected to determine the attributes: clay, silt, sand, P, K+, Ca2+, Mg2+, S, pH, H+Al, SB, CTC, V, OM and P-rem. ECa was measured using the electrical resistivity method in three different periods related to soil sampling: 60 days before (60ECa), 30 days before (30ECa) and when collecting soil samples (0ECa). For the prediction of chemical and physical-chemical attributes of the soil, models based on ANN were used. As input variables, the ECa and the clay contents were used. The quality of ANN predictions was determined using different statistical indicators. Thematic maps were constructed for the attributes determined in the laboratory and those predicted by the ANNs and the values were grouped using the fuzzy k-means algorithm. The agreement between classes was performed using the kappa coefficient. Main results: Only P and K+ attributes correlated with all ANN input variables. ECa and clay contents in the soil proved to be good variables for predicting soil attributes. Research highlights: The best results in the prediction process of the P and K+ attributes were obtained with the combination of ECa and the clay content.
+C1 [Silva, Samuel A.; Lima, Juliao S. S.; Medauar, Caique C.] Univ Fed Espirito Santo, Dept Rural Engn, Alegre, ES, Brazil.
+   [Queiroz, Daniel M.] Univ Fed Vicosa, Dept Agr Engn, Vicosa, MG, Brazil.
+   [Paiva, Arlicelio Q.; Santos, Railton O.] Univ Estadual Santa Cruz, Post Grad Plant Prod, Ilheus, BA, Brazil.
+C3 Universidade Federal do Espirito Santo; Universidade Federal de Vicosa; Universidade Estadual de Santa Cruz
+RP Silva, SA (corresponding author), Univ Fed Espirito Santo, Dept Rural Engn, Alegre, ES, Brazil.
+EM samuel.assilva@gmail.com
+CR Aitkenhead MJ, 2016, GEODERMA, V262, P187, DOI 10.1016/j.geoderma.2015.08.034
+   [Anonymous], 1999, NEURAL NETWORKS COMP, V0, P0
+   [Anonymous], 2018, SISTEMA BRASILEIRO C, V0, P0
+   Blackmore S, 2003, BIOSYST ENG, V84, P455, DOI 10.1016/S1537-5110(03)00038-2
+   Bottega E. L., 2017, AUSTRALIAN JOURNAL OF CROP SCIENCE, V11, P573, DOI 10.21475/ajcs.17.11.05.p381
+   Braga A.P., 2011, REDES NEURAIS ARTIFI, V0, P0
+   Brevik EC, 2006, PRECIS AGRIC, V7, P393, DOI 10.1007/s11119-006-9021-x
+   Carvalho Filho R, 1987, B TECNICO, V0, P0
+   Chepote R. E., 2013, B TECNICO, Vn203, P1
+   Corwin D.L., 2002, METHODS SOIL ANAL PA, V0, P1282
+   Corwin DL, 2003, AGRON J, V95, P455, DOI 10.2134/agronj2003.0455
+   Daniel KW, 2003, AUST J SOIL RES, V41, P47, DOI 10.1071/SR02027
+   dos Santos RO, 2017, REV BRAS ENG AGR AMB, V21, P88, DOI 10.1590/1807-1929/agriambi.v21n2p88-93
+   Embrapa (Centro Nacional de Pesquisas de Solos), 2017, MANUAL METODOS ANALI, V0, P0
+   Ernani P.R., 2007, FERTILIDADE SOLO, V0, P551
+   Fortes R, 2015, PRECIS AGRIC, V16, P441, DOI 10.1007/s11119-015-9388-7
+   Leal AJF, 2015, BRAGANTIA, V74, P436, DOI 10.1590/1678-4499.0140
+   Grego CR, 2011, REV BRAS CIENC SOLO, V35, P337, DOI 10.1590/S0100-06832011000200005
+   Grubbs RA, 2019, PRECIS AGRIC, V20, P496, DOI 10.1007/s11119-018-9593-2
+   Guastaferro F, 2010, PRECIS AGRIC, V11, P600, DOI 10.1007/s11119-010-9183-4
+   Guo PT, 2013, NUTR CYCL AGROECOSYS, V95, P333, DOI 10.1007/s10705-013-9566-9
+   Jafarzadeh AA, 2016, INT J ENVIRON SCI TE, V13, P87, DOI 10.1007/s13762-015-0856-4
+   Kitchen NR, 2005, COMPUT ELECTRON AGR, V46, P285, DOI 10.1016/j.compag.2004.11.012
+   Kolassa J, 2018, REMOTE SENS ENVIRON, V204, P43, DOI 10.1016/j.rse.2017.10.045
+   Koppen W, 1928, KLIMATE RRDE1, V0, P0
+   Luck E, 2009, NEAR SURF GEOPHYS, V7, P15, DOI 10.3997/1873-0604.2008031
+   Medauar CC, 2020, EMIR J FOOD AGR, V32, P165, DOI 10.9755/ejfa.2020.v32.i3.2083
+   Medeiros WN, 2018, REV CIENC AGRON, V49, P43, DOI 10.5935/1806-6690.20180005
+   Moral FJ, 2010, SOIL TILL RES, V106, P335, DOI 10.1016/j.still.2009.12.002
+   Moral FJ, 2019, PRECIS AGRIC, V20, P1000, DOI 10.1007/s11119-018-09631-9
+   Ng W, 2019, GEODERMA, V352, P251, DOI 10.1016/j.geoderma.2019.06.016
+   Sanches GM, 2018, SOIL TILL RES, V175, P217, DOI 10.1016/j.still.2017.09.010
+   Sanches GM, 2019, SCI AGR, V76, P10, DOI 10.1590/1678-992X-2017-0128
+   Serrano JM, 2017, PRECIS AGRIC, V18, P245, DOI 10.1007/s11119-016-9460-y
+   Silva I.N., 2010, REDES NEURAIS ARTIFI, V0, P0
+   Silva SD, 2014, REV BRAS CIENC SOLO, V38, P1439, DOI 10.1590/S0100-06832014000500009
+   Silva Samuel de Assis, 2010, REV. CERES, V57, P560
+   Silva SD, 2012, REV BRAS CIENC SOLO, V36, P467, DOI 10.1590/S0100-06832012000200016
+   Silva SD, 2010, REV CIENC AGRON, V41, P1, DOI 10.5935/1806-6690.20100001
+   Singh G, 2016, AGRONOMY-BASEL, V6, P0, DOI 10.3390/agronomy6040057
+   Stadler A, 2015, EUR J AGRON, V64, P8, DOI 10.1016/j.eja.2014.12.004
+   Terron JM, 2011, PRECIS AGRIC, V12, P750, DOI 10.1007/s11119-011-9218-5
+   Uribeetxebarria A, 2018, GEODERMA, V319, P185, DOI 10.1016/j.geoderma.2018.01.008
+   Valckx J, 2009, APPL SOIL ECOL, V41, P315, DOI 10.1016/j.apsoil.2008.12.005
+   Valente DSM, 2014, ENG AGR-JABOTICABAL, V34, P1224, DOI 10.1590/S0100-69162014000600017
+   WILLMOTT CJ, 1985, J GEOPHYS RES-OCEANS, V90, P8995, DOI 10.1029/JC090iC05p08995
+NR 46
+TC 0
+Z9 0
+U1 1
+U2 4
+PU INST NACIONAL INVESTIGACION & TECNOLOGIA AGRARIA & ALIMENTARIA-INIA-CSIC
+PI MADRID
+PA CTRA CORUNA KM 7 5, MADRID, 28040, SPAIN
+SN 1695-971X
+EI 2171-9292
+J9 SPAN J AGRIC RES
+JI Span. J. Agric. Res.
+PD JUN 15
+PY 2021
+VL 19
+IS 3
+BP 
+EP 
+DI 10.5424/sjar/2021193-17600
+PG 13
+WC Agriculture, Multidisciplinary; Soil Science
+SC Agriculture
+GA UA1QM
+UT WOS:000684940400015
+DA 2023-04-26
+ER
+
+PT J
+AU Jimenez, J
+   Navarro, L
+   Quintero, CG
+   Pardo, M
+AF Jimenez, Jamer
+   Navarro, Loraine
+   Quintero M, Christian G.
+   Pardo, Mauricio
+TI Multivariate Statistical Analysis for Training Process Optimization in Neural Networks-Based Forecasting Models
+SO APPLIED SCIENCES-BASEL
+LA English
+DT Article
+DE neural networks design; parameter optimization; multivariate statistical analysis
+ID methodology
+AB Data forecasting is very important for electrical analysis development, transport dimensionality, marketing strategies, etc. Hence, low error levels are required. However, in some cases data have dissimilar behaviors that can vary depending on such exogenous variables as the type of day, weather conditions, and geographical area, among others. Commonly, computational intelligence techniques (e.g., artificial neural networks) are used due to their generalization capabilities. In spite of the above, they do not have a unique way to reach optimal performance. For this reason, it is necessary to analyze the data's behavior and their statistical features in order to identify those significant factors in the training process to guarantee a better performance. In this paper is proposed an experimental method for identifying those significant factors in the forecasting model for time series data and measure their effects on the Akaike information criterion (AIC) and the Mean Absolute Percentage Error (MAPE). Additionally, we seek to establish optimal parameters for the proper selection of the artificial neural network model.
+C1 [Jimenez, Jamer; Navarro, Loraine; Quintero M, Christian G.; Pardo, Mauricio] Univ Norte, Dept Elect & Elect Engn, Barranquilla 081007, Colombia.
+C3 Universidad del Norte Colombia
+RP Quintero, CG (corresponding author), Univ Norte, Dept Elect & Elect Engn, Barranquilla 081007, Colombia.
+EM jmares@uninorte.edu.co; lorainen@uninorte.edu.co; christianq@uninorte.edu.co; mpardo@uninorte.edu.co
+FU Colombian Ministry of Science and Technology [785]
+CR Attar NF, 2018, COMPUT ELECTRON AGR, V153, P334, DOI 10.1016/j.compag.2018.08.029
+   Bataineh M, 2017, NEURAL NETWORKS, V95, P1, DOI 10.1016/j.neunet.2017.07.018
+   Broomhead D. S., 1988, COMPLEX SYSTEMS, V2, P321
+   Chouikhi N, 2018, ARXIV, V0, P0
+   Ding YS, 2018, ENERGY, V154, P328, DOI 10.1016/j.energy.2018.04.133
+   Gu L, 2018, NEURAL COMPUT APPL, V29, P1445, DOI 10.1007/s00521-016-2669-x
+   Hacibeyoglu M, 2018, SCI PROGRAMMING-NETH, V2018, P0, DOI 10.1155/2018/1435810
+   Jimenez J, 2019, IEEE LAT AM T, V17, P93, DOI 10.1109/TLA.2019.8826700
+   Jimenez J, 2017, IEEE LAT AM T, V15, P400, DOI 10.1109/TLA.2017.7867168
+   Mares JJ, 2020, ENERGIES, V13, P0, DOI 10.3390/en13164040
+   Li CH, 2014, INT J PARALLEL PROG, V42, P505, DOI 10.1007/s10766-013-0245-x
+   Liang YX, 2019, IEEE ACCESS, V7, P68034, DOI 10.1109/ACCESS.2019.2919138
+   Lin JW, 2018, IEEE ACCESS, V6, P52582, DOI 10.1109/ACCESS.2018.2870189
+   Lopez FJM, 2016, J COMPUT SCI-NETH, V16, P59, DOI 10.1016/j.jocs.2016.04.002
+   Montgomery D, 2005, DISE O AN LISIS EXPE, V2nd ed., P0
+   Orosz T, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10196653
+   Rani RHJ, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0196871
+   Wang LN, 2017, NEURAL NETWORKS, V93, P219, DOI 10.1016/j.neunet.2017.06.003
+   Zhang Q. J., 2000, ARTECH MICR, V0, P0
+NR 19
+TC 2
+Z9 2
+U1 1
+U2 6
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2076-3417
+J9 APPL SCI-BASEL
+JI Appl. Sci.-Basel
+PD APR 15
+PY 2021
+VL 11
+IS 8
+BP 
+EP 
+DI 10.3390/app11083552
+PG 13
+WC Chemistry, Multidisciplinary; Engineering, Multidisciplinary; Materials Science, Multidisciplinary; Physics, Applied
+SC Chemistry; Engineering; Materials Science; Physics
+GA RS8IJ
+UT WOS:000644016400001
+DA 2023-04-26
+ER
+
+PT J
+AU Rong, SA
+   He, LN
+   Du, L
+   Li, ZY
+   Yu, SW
+AF Rong, Shuaiang
+   He, Lina
+   Du, Liang
+   Li, Zuyi
+   Yu, Shiwen
+TI Intelligent Detection of Vegetation Encroachment of Power Lines With Advanced Stereovision
+SO IEEE TRANSACTIONS ON POWER DELIVERY
+LA English
+DT Article
+DE Vegetation mapping; Vegetation; Monitoring; Three-dimensional displays; Transforms; Inspection; Poles and towers; Deep learning; digital image; hough transform; power lines; stereovision; short circuit fault; vegetation management
+ID transmission-lines; inspection; system
+AB Vegetation encroaching on overhead power lines can cause short circuit faults and pose a major threat to the security and stability of power grids. Therefore, establishing an effective visual detection algorithm to oversee potential circuit failures of the power lines is critical to the ongoing inspection of vegetation encroachment. This paper establishes a deep learning-based detection framework that utilizes the images obtained from vision sensors mounted on power transmission towers. The proposed detection framework includes three cascaded modules: (1) detection of vegetation regions based on the Faster Region Convolution Neural Network (Faster R-CNN), (2) detection of power lines based on the Hough transform, and (3) detection of vegetation encroachment based on an advanced stereovision (SV) algorithm. In particular, the proposed SV algorithm converts the detected two-dimensional (2D) image data of the vegetation and power lines to three-dimensional (3D) height and location results in order to obtain precise geographical locations. Case studies using field captured images provided by a Transmission System Operator (TSO) demonstrate the effectiveness of the proposed framework in detecting vegetation failures, thus improving overall reliability and reducing economic loss.
+C1 [Rong, Shuaiang; He, Lina; Yu, Shiwen] Univ Illinois, Elect & Comp Engn Dept, Chicago, IL 60607 USA.
+   [Du, Liang] Temple Univ, Elect & Comp Engn Dept, Philadelphia, PA 19122 USA.
+   [Li, Zuyi] IIT, Dept Elect & Comp Engn, Chicago, IL 60616 USA.
+C3 University of Illinois System; University of Illinois Chicago; University of Illinois Chicago Hospital; Pennsylvania Commonwealth System of Higher Education (PCSHE); Temple University; Illinois Institute of Technology
+RP He, LN (corresponding author), Univ Illinois, Elect & Comp Engn Dept, Chicago, IL 60607 USA.
+EM srong4@uic.edu; lhe@uic.edu; ldu@temple.edu; lizu@iit.edu; syu65@uic.edu
+CR Ahmad J, 2013, ELECTR POW SYST RES, V95, P339, DOI 10.1016/j.epsr.2012.07.015
+   Anagnostatos SD, 2011, IEEE T POWER DELIVER, V26, P2053, DOI 10.1109/TPWRD.2011.2123471
+   [Anonymous], 2016, PROD BROCH DS 2DE42, V0, P0
+   [Anonymous], 2008, FUT INSP OV TRANSM L, V0, P0
+   [Anonymous], 2012, REQUIREMENTS ALL LIN, V0, P0
+   Ashidate S, 2002, IEEE T POWER DELIVER, V17, P644, DOI 10.1109/61.997953
+   Babinec A., 2016, INT J T SCI TECH, V5, P152
+   Baker L, 2016, INT CONF IMAG VIS, V0, P134
+   Boyd S., 2004, CONVEX OPTIMIZATION, V0, P0, DOI DOI 10.1017/CBO9780511804441
+   Cottini N, 2011, IEEE J EM SEL TOP C, V1, P299, DOI 10.1109/JETCAS.2011.2167072
+   DUDA RO, 1972, COMMUN ACM, V15, P11, DOI 10.1145/361237.361242
+   Fateh B, 2013, IEEE T SMART GRID, V4, P1076, DOI 10.1109/TSG.2013.2241796
+   Gugel H, 2018, IEEE POW ENER SOC GE, V0, P0
+   Ise T., 2018, AUTOMATIC CLASSIFICA, V0, P0
+   Krizhevsky Alex, 2009, TECHNICAL REPORT, V0, P0
+   Kurinsky B., 2015, INT J RES GEOGR, V1, P38
+   Le Zhen-chun, 2014, EAST CHINA ELECTRIC POWER, V42, P61
+   Li H, 2005, P IEEE, V93, P918, DOI 10.1109/JPROC.2005.847260
+   Li QW, 2017, COMPUT MATH METHOD M, V2017, P0, DOI 10.1155/2017/4964287
+   Lifu He, 2019, 2019 IEEE 3RD CONFERENCE ON ENERGY INTERNET AND ENERGY SYSTEM INTEGRATION (EI2), V0, PP2241, DOI 10.1109/EI247390.2019.9061993
+   Lowe D. G., 1999, PROCEEDINGS OF THE SEVENTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP1150, DOI 10.1109/ICCV.1999.790410
+   Luque-Vega LF, 2014, IEEE MEDITERR ELECT, V0, PP393, DOI 10.1109/MELCON.2014.6820566
+   Mason T, 2018, P COL BROADC SYST DE, V0, P0
+   Qayyum A, 2014, 2014 IEEE INTERNATIONAL CONFERENCE ON SMART INSTRUMENTATION, V0, P0
+   Ren S., 2015, PROC INT C NEURAL IN, V0, PP91, DOI 10.1109/ICCV.2015.169.
+   Scribner D, 1998, ARLTR1598, V0, P0
+   Shuai C, 2017, INT C INTEL HUM MACH, V0, PP69, DOI 10.1109/IHMSC.2017.131
+   Sikorska-Lukasiewicz K., 2020, P SPE RAD SYST C JAC, V0, P0
+   Songde M, 1998, COMPUTER VISION COMP, V0, P0
+   Transmission VegetationManagement, 2016, FAC0034 NERC, V0, P0
+   Nguyen VN, 2018, INT J ELEC POWER, V99, P107, DOI 10.1016/j.ijepes.2017.12.016
+NR 31
+TC 7
+Z9 7
+U1 7
+U2 22
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0885-8977
+EI 1937-4208
+J9 IEEE T POWER DELIVER
+JI IEEE Trans. Power Deliv.
+PD DEC 15
+PY 2021
+VL 36
+IS 6
+BP 3477
+EP 3485
+DI 10.1109/TPWRD.2020.3043433
+PG 9
+WC Engineering, Electrical & Electronic
+SC Engineering
+GA XC4ST
+UT WOS:000722005300023
+DA 2023-04-26
+ER

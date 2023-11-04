@@ -1,0 +1,494 @@
+
+PT J
+AU Shi, CH
+   Li, J
+   Gong, JH
+   Yang, BH
+   Zhang, GY
+AF Shi, Chenhui
+   Li, Jing
+   Gong, Jianhua
+   Yang, Banghui
+   Zhang, Guoyong
+TI An improved lightweight deep neural network with knowledge distillation for local feature extraction and visual localization using images and LiDAR point clouds
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep local features; Lightweight network; Knowledge distillation; Visual localization; LiDAR; Extreme lighting conditions
+AB Visual localization nowadays is a research hotspot in computer vision and photogrammetry. It can provide meter level or higher localization accuracy under the conditions without GPS signals. However, achieving efficient, robust and high-accuracy visual localization under the condition of day-night changes is still challenging. To deal with this problem, we develop an improved lightweight deep neural network with knowledge distillation to efficiently extract deep local features from imagery while maintaining strong robustness for day-night visual localization. Furthermore, to further improve the accuracy of visual localization, we use aligned dense LiDAR point clouds and imagery collected by a new portable camera-LiDAR integrated device to build a prior map, and directly utilize the 2D-3D correspondences between 2D local feature points extracted by our lightweight network and 3D laser points retrieved from the prior map for localization. Moreover, we build our own ground truth point cloud dataset at 5 cm accuracy to evaluate the accuracy of the constructed prior map as well as a day-night dataset including prior map and verification data for the evaluation of the proposed visual localization method. The experimental results prove that our visual localization method achieves a balance between the efficiency and robustness while improving localization accuracy for day-night visual localization. In a comparison with a variety of state-of-the-art local feature extraction methods based on deep neural networks, our lightweight network has the least number of parameters (0.2 million) and reaches the highest feature extraction efficiency (92 frames per second), which is on par with that of the classic real-time ORB feature extraction method. Furthermore, our network remains competitive with other advanced deep local feature extraction networks in feature matching and day-night visual localization. In addition, evaluations performed on our own dataset demonstrate that our visual localization method using images and LiDAR point clouds provides a localization error of 1.2 m under the conditions of day-night changes, which is much smaller than those achieved by a state-of-the-art, purely visual localization method.
+C1 [Shi, Chenhui; Li, Jing; Gong, Jianhua; Yang, Banghui; Zhang, Guoyong] Chinese Acad Sci, Aerosp Informat Res Inst, Natl Engn Res Ctr Geoinformat, Beijing 100101, Peoples R China.
+   [Shi, Chenhui; Gong, Jianhua] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+C3 Chinese Academy of Sciences; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS
+RP Li, J; Gong, JH (corresponding author), Chinese Acad Sci, Aerosp Informat Res Inst, Natl Engn Res Ctr Geoinformat, Beijing 100101, Peoples R China.
+EM lijing202115@aircas.ac.cn; gongjh@aircas.ac.cn
+FU Pilot Fund of Frontier Science and Disruptive Technology of Aerospace Information Research Institute, Chinese Academy of Sciences [E0Z21101]; National Key Research and Development Program of China [2019YFC1511304]
+CR Arandjelovic R, 2018, IEEE T PATTERN ANAL, V40, P1437, DOI 10.1109/CVPR.2016.572
+   Balntas V, 2017, PROC CVPR IEEE, V0, PP3852, DOI 10.1109/CVPR.2017.410
+   Balntas Vassileios, 2016, LEARNING LOCAL FEATU, V0, P0
+   Biber P, 2003, IROS 2003: PROCEEDINGS OF THE 2003 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS, VOLS 1-4, P2743, DOI 10.1109/iros.2003.1249285
+   Burri M, 2016, INT J ROBOT RES, V35, P1157, DOI 10.1177/0278364915620033
+   Chen Defang, 2020, ARXIV201203236, V0, P0
+   Chen GB, 2017, ADV NEUR IN, V30, P0
+   DeTone D, 2018, IEEE COMPUT SOC CONF, V0, PP337, DOI 10.1109/CVPRW.2018.00060
+   Ding Qianggang, 2019, ARXIV190805474, V0, P0
+   Dong Han, 2019, 2019 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS (ROBIO), V0, PP2001, DOI 10.1109/ROBIO49542.2019.8961416
+   Dusmanu M, 2019, PROC CVPR IEEE, V0, PP8084, DOI 10.1109/CVPR.2019.00828
+   Geiger A, 2012, PROC CVPR IEEE, V0, PP3354, DOI 10.1109/CVPR.2012.6248074
+   Gou JP, 2021, INT J COMPUT VISION, V129, P1789, DOI 10.1007/s11263-021-01453-z
+   Han K, 2020, PROC CVPR IEEE, V0, PP1577, DOI 10.1109/CVPR42600.2020.00165
+   Hausler Stephen, 2021, ARXIV210301486, V0, P0
+   Heo B., 2018, ARXIV181103233, V0, P0
+   Hinton G. E., 2015, ARXIV, V0, P0
+   Howard A. G., 2017, CORR, V0, P0, DOI DOI 10.48550/ARXIV.1704.04861
+   Howard A, 2019, IEEE I CONF COMP VIS, V0, PP1314, DOI 10.1109/ICCV.2019.00140
+   Irschara A, 2009, PROC CVPR IEEE, V0, PP2591, DOI 10.1109/cvpr.2009.5206587
+   Kang XJ, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9163264
+   Kendall A, 2018, PROC CVPR IEEE, V0, PP7482, DOI 10.1109/CVPR.2018.00781
+   Li ZQ, 2018, PROC CVPR IEEE, V0, PP2041, DOI 10.1109/CVPR.2018.00218
+   Liu L, 2017, IEEE I CONF COMP VIS, V0, PP2391, DOI 10.1109/ICCV.2017.260
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Ma NN, 2018, LECT NOTES COMPUT SC, V11218, P122, DOI 10.1007/978-3-030-01264-9_8
+   Maddern W, 2017, INT J ROBOT RES, V36, P3, DOI 10.1177/0278364916679498
+   Mikolajczyk K, 2005, IEEE T PATTERN ANAL, V27, P1615, DOI 10.1109/TPAMI.2005.188
+   Mishchuk A, 2017, ADV NEUR IN, V30, P0
+   Muller R, 2019, ADV NEUR IN, V32, P0
+   Passalis N, 2020, PROC CVPR IEEE, V0, PP2336, DOI 10.1109/CVPR42600.2020.00241
+   Revaud J, 2019, ADV NEUR IN, V32, P0
+   Rublee E, 2011, IEEE I CONF COMP VIS, V0, PP2564, DOI 10.1109/ICCV.2011.6126544
+   Sandler M, 2018, PROC CVPR IEEE, V0, PP4510, DOI 10.1109/CVPR.2018.00474
+   Sarlin P.-E., 2018, PROC C ROB LEARN, V0, P456
+   Sarlin PE, 2020, PROC CVPR IEEE, V0, PP4937, DOI 10.1109/CVPR42600.2020.00499
+   Sarlin PE, 2019, PROC CVPR IEEE, V0, PP12708, DOI 10.1109/CVPR.2019.01300
+   Sattler T, 2018, PROC CVPR IEEE, V0, PP8601, DOI 10.1109/CVPR.2018.00897
+   Sattler T, 2012, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2012, V0, P0, DOI DOI 10.5244/C.26.76
+   Schonberger JL, 2016, PROC CVPR IEEE, V0, PP4104, DOI 10.1109/CVPR.2016.445
+   Schonberger JL, 2016, LECT NOTES COMPUT SC, V9907, P501, DOI 10.1007/978-3-319-46487-9_31
+   Sun Jiaming, 2021, ARXIV210400680, V0, P0
+   Tian YR, 2019, PROC CVPR IEEE, V0, PP11008, DOI 10.1109/CVPR.2019.01127
+   Tian Yurun, 2020, ARXIV200513605, V0, P0
+   Torii A, 2015, PROC CVPR IEEE, V0, PP1808, DOI 10.1109/CVPR.2015.7298790
+   Wang S, 2021, IEEE/SICE I S SYS IN, V0, PP720, DOI 10.1109/IEEECONF49454.2021.9382659
+   Wu T, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18061974
+   Yabuuchi Kento, 2021, 2021 IEEE INTELLIGENT VEHICLES SYMPOSIUM (IV), V0, PP913, DOI 10.1109/IV48863.2021.9575569
+   Yu H, 2020, IEEE INT C INT ROBOT, V0, PP4588, DOI 10.1109/IROS45743.2020.9341690
+   Zhang CR, 2018, PROCEEDINGS OF THE TWENTY-SEVENTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P1135
+   Zhang F, 2019, PROC CVPR IEEE, V0, PP3512, DOI 10.1109/CVPR.2019.00363
+   Zhang X, 2018, PROC CVPR IEEE, V0, PP6848, DOI 10.1109/CVPR.2018.00716
+NR 52
+TC 4
+Z9 4
+U1 12
+U2 18
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD FEB 15
+PY 2022
+VL 184
+IS 
+BP 177
+EP 188
+DI 10.1016/j.isprsjprs.2021.12.011
+EA JAN 2022
+PG 12
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 0L7AS
+UT WOS:000781623800002
+DA 2023-04-26
+ER
+
+PT J
+AU Xie, HZ
+   Li, D
+   Wang, YY
+   Kawai, Y
+AF Xie, Huaze
+   Li, Da
+   Wang, Yuanyuan
+   Kawai, Yukiko
+TI A Graph Neural Network-Based Map Tiles Extraction Method Considering POIs Priority Visualization on Web Map Zoom Dimension
+SO IEEE ACCESS
+LA English
+DT Article
+DE Social networking (online); Feature extraction; Data models; Internet; Urban areas; Training; Geology; Map zooming; graph neural networks; map tile extraction; dynamic POI visualization
+ID classification
+AB Owing to the tremendous popularity of mobile networks, point-of-interest (POI) data of location-based social networks (LBSN) provide significant geographic information on maps and can be utilized to discuss the dynamic characteristics of map tiles as segmented by city roads. In this study, to implement dynamic characteristic analysis of the map tile, we propose a spatial-zoom graph-attention model (SZ-GAT) based on a global-attention mechanism and 5-category POI attributes for each map tile zoom dimension. Furthermore, a social-media dataset (Twitter with geolocation) is utilized to promote POI visualization at different zoom levels and improve the aggregation efficiency of geographic records in zoom dimensions. In the experiments, we extract POI geo-features from Twitter and display the user's favorite POI features at each map zooming level with 5-dimensional tweet attributes. We evaluate the accuracy of the POI prediction on Google, OpenStreetMap, Bing, and Yahoo! maps by comparing the tweets' visit history. The predictive performance of the proposed method is more than 56% for each zoom level on 60 randomly-selected map tiles in Kyoto City.
+C1 [Xie, Huaze; Kawai, Yukiko] Kyoto Sangyo Univ, Div Frontier Informat, Kyoto 6038555, Japan.
+   [Li, Da] Fukuoka Univ, Fac Engn, Fukuoka 8140180, Japan.
+   [Wang, Yuanyuan] Yamaguchi Univ, Grad Sch Sci & Technol Innovat, Ube, Yamaguchi 7558611, Japan.
+   [Kawai, Yukiko] Kyoto Sangyo Univ, Fac Comp Sci & Engn, Kyoto 6038555, Japan.
+   [Kawai, Yukiko] Osaka Univ, Cybermedia Ctr, Ibaraki, Osaka 5670047, Japan.
+C3 Kyoto Sangyo University; Fukuoka University; Yamaguchi University; Kyoto Sangyo University; Osaka University
+RP Kawai, Y (corresponding author), Kyoto Sangyo Univ, Div Frontier Informat, Kyoto 6038555, Japan.; Kawai, Y (corresponding author), Kyoto Sangyo Univ, Fac Comp Sci & Engn, Kyoto 6038555, Japan.; Kawai, Y (corresponding author), Osaka Univ, Cybermedia Ctr, Ibaraki, Osaka 5670047, Japan.
+EM kawai@cc.kyoto-su.ac.jp
+FU JSPS KAKENHI [JP19K12240, JP19H04118, JP20H00584, JP20H04293, JP21K17862, JP22H03700]; Center for Sciences Towards Symbiosis Among Human, Machine and Data, Institute of Advanced Technology, under Kyoto Sangyo University [M2001]
+CR Andrade R, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9090493
+   Barker JLP, 2019, ENVIRON MODELL SOFTW, V115, P213, DOI 10.1016/j.envsoft.2018.11.013
+   Bereuter P., 2012, P INT C GEOGR INF SC, V0, P74
+   Chang BR, 2020, CIKM 20: PROCEEDINGS OF THE 29TH ACM INTERNATIONAL CONFERENCE ON INFORMATION & KNOWLEDGE MANAGEMENT, V0, PP135, DOI 10.1145/3340531.3411905
+   Chang BR, 2018, PROCEEDINGS OF THE TWENTY-SEVENTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P3301
+   Crutcher M, 2009, GEOFORUM, V40, P523, DOI 10.1016/j.geoforum.2009.01.003
+   Dong GS, 2022, EXPERT SYST APPL, V195, P0, DOI 10.1016/j.eswa.2022.116590
+   Froehlich Jon, 2008, SAE TECHNICAL PAPER, V0, P0
+   Graham M, 2011, J URBAN TECHNOL, V18, P115, DOI 10.1080/10630732.2011.578412
+   Griesner J., 2015, P 9 ACM C RECOMMENDE, V0, P301
+   Kang TW, 2018, KSCE J CIV ENG, V22, P373, DOI 10.1007/s12205-017-0595-9
+   Kuhnert M, 2005, PHOTOGRAMM ENG REM S, V71, P975, DOI 10.14358/PERS.71.8.975
+   Li SL, 2020, KDD 20: PROCEEDINGS OF THE 26TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY & DATA MINING, V0, PP1265, DOI 10.1145/3394486.3403179
+   Li Yang, 2021, ARXIV210615814, V0, P0
+   Lim N, 2020, CIKM 20: PROCEEDINGS OF THE 29TH ACM INTERNATIONAL CONFERENCE ON INFORMATION & KNOWLEDGE MANAGEMENT, V0, PP845, DOI 10.1145/3340531.3411876
+   Liu W, 2020, WORLD WIDE WEB, V23, P131, DOI 10.1007/s11280-019-00681-1
+   Liu YW, 2021, INT J INTELL SYST, V36, P3174, DOI 10.1002/int.22412
+   Netek R, 2020, ISPRS INT GEO-INF, V9, P0, DOI 10.3390/ijgi9020101
+   Shi WJ, 2020, PROC CVPR IEEE, V0, PP1708, DOI 10.1109/CVPR42600.2020.00178
+   Stefanakis E., 2017, GEOMATICA, V71, P100, DOI 10.5623/CIG2017-203
+   Utomo M. N. Y., 2018, PROC INT C INF COMMU, V0, P84
+   Velikovic P., 2017, ARXIV171010903, V0, P0
+   Wang XY, 2020, WEB CONFERENCE 2020: PROCEEDINGS OF THE WORLD WIDE WEB CONFERENCE (WWW 2020), V0, PP1082, DOI 10.1145/3366423.3380186
+   Wang YD, 2016, SUSTAINABILITY-BASEL, V8, P0, DOI 10.3390/su8111202
+   Xia T, 2021, ACM T KNOWL DISCOV D, V15, P0, DOI 10.1145/3451394
+   Xia Yikuan, 2021, CIKM 21: PROCEEDINGS OF THE 30TH ACM INTERNATIONAL CONFERENCE ON INFORMATION & KNOWLEDGE MANAGEMENT, V0, PP2191, DOI 10.1145/3459637.3482353
+   Xie HZ, 2021, 2021 IEEE/WIC/ACM INTERNATIONAL CONFERENCE ON WEB INTELLIGENCE AND INTELLIGENT AGENT TECHNOLOGY (WI-IAT 2021), V0, PP641, DOI 10.1145/3486622.3493996
+   Yan XF, 2019, ISPRS J PHOTOGRAMM, V150, P259, DOI 10.1016/j.isprsjprs.2019.02.010
+   Yin HZ, 2016, IEEE T KNOWL DATA EN, V28, P2566, DOI 10.1109/TKDE.2016.2580511
+   Yuan ZX, 2020, PROCEEDINGS OF THE 43RD INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL (SIGIR 20), V0, PP629, DOI 10.1145/3397271.3401159
+   Zhang W, 2018, PROCEEDINGS OF THE SYMPOSIUM ON SDN RESEARCH (SOSR18), V0, P0, DOI DOI 10.1145/3185467.3185493
+   Zhang X, 2014, ISPRS J PHOTOGRAMM, V92, P147, DOI 10.1016/j.isprsjprs.2014.03.010
+   Zhao KZ, 2020, PROCEEDINGS OF THE TWENTY-NINTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P3216
+   Zhong T, 2020, 58TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2020), V0, P853
+   Zhu D, 2020, ANN AM ASSOC GEOGR, V110, P408, DOI 10.1080/24694452.2019.1694403
+   Zhu XY, 2009, IEEC 2009: FIRST INTERNATIONAL SYMPOSIUM ON INFORMATION ENGINEERING AND ELECTRONIC COMMERCE, V0, P730, DOI 10.1109/IEEC.2009.159
+NR 36
+TC 0
+Z9 0
+U1 14
+U2 15
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2022
+VL 10
+IS 
+BP 64072
+EP 64084
+DI 10.1109/ACCESS.2022.3182497
+PG 13
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA 2H8JM
+UT WOS:000814535200001
+DA 2023-04-26
+ER
+
+PT J
+AU Manap, HS
+   San, BT
+AF Manap, Hatice Seval
+   San, Bekir Taner
+TI Data Integration for Lithological Mapping Using Machine Learning Algorithms
+SO EARTH SCIENCE INFORMATICS
+LA English
+DT Article
+DE Lithological mapping; Machine learning classification; Geological remote sensing; ASTER; Sentinel-1; Antalya
+ID remote-sensing data; spaceborne thermal emission; support vector machine; reflection radiometer aster; ultramafic complex; eastern desert; catchment-area; classification; ophiolite; antalya
+AB The aim of this study is to compare and evaluate the performances of different classification algorithms (Maximum Likelihood Classification [MLC], Random Forest [RF], Support Vector Machine [SVM], and Neural Network [NN]) with data integration for lithological classification in partly vegetated areas. The optical (ASTER), SAR (Sentinel-1) images and Digital Elevation Model (DEM) data were used as classification inputs. The study area used in this work is located in the western part of Antalya Province of Turkey and is characterized by relatively high relief and good exposure of numerous lithological classes. Five data sets were used for input to the classifiers: (1) Sentinel-1 image with its polarimetric bands (i.e. VV, HH, VH, HV), (2) ASTER image, (3) ASTER image with DEM, (4) the integration of ASTER and Sentinel-1 images, and (5) the integration of ASTER, DEM and Sentinel-1 data. Classification of the five input data sets by each of the four classifiers generated a total of 20 output images. The SVM algorithm produced the best overall classification accuracies (averaging 94.18% of three models for all data integrated) and the MLC algorithm produced the worst classification accuracy (averaging 35.75% of three models when using the Sentinel-1 polarimetric images as input). Regardless of the classifier algorithms, the accuracy values obtained in the classification using only ASTER data were found to be between 81.34% and 88.09% for averaging all models. On the other hand, when Sentinel-1 and DEM data were added to the optical data sets, the classification accuracies for the average of all models increased to values between 90.18% and 94.18%.
+C1 [Manap, Hatice Seval; San, Bekir Taner] Akdeniz Univ, Dept Geol Engn, TR-07058 Antalya, Turkey.
+C3 Akdeniz University
+RP San, BT (corresponding author), Akdeniz Univ, Dept Geol Engn, TR-07058 Antalya, Turkey.
+EM haticeseval@akdeniz.edu.tr; tanersan@akdeniz.edu.tr
+FU Scientific Research Projects Coordination Unit of Akdeniz University [FDK-2018-3875]
+CR Abdelkareem M, 2018, INT J APPL EARTH OBS, V73, P682, DOI 10.1016/j.jag.2018.07.005
+   Abdikan S, 2016, INT ARCH PHOTOGRAMM, V41, P757, DOI 10.5194/isprsarchives-XLI-B7-757-2016
+   Abrams M, 2000, INT J REMOTE SENS, V21, P847, DOI 10.1080/014311600210326
+   Abrams M., 2002, ASTER USER HDB, V0, P0
+   Ada M, 2018, NAT HAZARDS, V90, P237, DOI 10.1007/s11069-017-3043-8
+   Aksoy E, 2019, B ENG GEOL ENVIRON, V78, P779, DOI 10.1007/s10064-017-1135-z
+   Aktas H, 2019, COMPUT GEOSCI-UK, V133, P0, DOI 10.1016/j.cageo.2019.104329
+   Assatse WT, 2016, EGYPT J REMOTE SENS, V19, P49, DOI 10.1016/j.ejrs.2015.12.006
+   Bachri I, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8060248
+   Bedini E, 2011, ADV SPACE RES, V47, P60, DOI 10.1016/j.asr.2010.08.021
+   Berger M, 2012, REMOTE SENS ENVIRON, V120, P84, DOI 10.1016/j.rse.2011.07.023
+   Bishta AZ, 2014, ARAB J GEOSCI, V7, P3855, DOI 10.1007/s12517-013-1044-9
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Cao S., 2008, J CHINA U MIN TECHNO, V0, P0, DOI DOI 10.1016/S1006-1266(08)60037-1
+   Chen DM, 2002, PHOTOGRAMM ENG REM S, V68, P1155
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Cracknell MJ, 2014, COMPUT GEOSCI-UK, V63, P22, DOI 10.1016/j.cageo.2013.10.008
+   De Boissieu F, 2018, INT J APPL EARTH OBS, V64, P377, DOI 10.1016/j.jag.2017.05.012
+   Duric U, 2019, ENG GEOL, V256, P23, DOI 10.1016/j.enggeo.2019.05.007
+   Eslami A, 2015, RESOUR GEOL, V65, P375, DOI 10.1111/rge.12076
+   European Space Agency, 2020, SNAP SENT APPL PLATF, V0, P0
+   Fu BH, 2019, INT GEOSCI REMOTE SE, V0, PP5583, DOI 10.1109/IGARSS.2019.8898880
+   Ge WY, 2018, ADV SPACE RES, V62, P1702, DOI 10.1016/j.asr.2018.06.036
+   Grebby S, 2011, REMOTE SENS ENVIRON, V115, P214, DOI 10.1016/j.rse.2010.08.019
+   Gunay Y, 1982, 6 PETR C TURK ANK, V0, P91
+   Gunes A, 2021, GEOCHEMISTRY-GERMANY, V81, P0, DOI 10.1016/j.chemer.2021.125767
+   Harvey AS, 2016, INT ARCH PHOTOGRAMM, V41, P423, DOI 10.5194/isprsarchives-XLI-B8-423-2016
+   Hassan SM, 2017, J AFR EARTH SCI, V134, P404, DOI 10.1016/j.jafrearsci.2017.07.006
+   Haykin S., 1994, NEURAL NETWORKS COMP, V0, P0
+   He J, 2015, INT J REMOTE SENS, V36, P2252, DOI 10.1080/01431161.2015.1035410
+   Hecker C, 2019, INT J APPL EARTH OBS, V79, P133, DOI 10.1016/j.jag.2019.02.013
+   HEERMANN PD, 1992, IEEE T GEOSCI REMOTE, V30, P81, DOI 10.1109/36.124218
+   Heumann BW, 2011, REMOTE SENS-BASEL, V3, P2440, DOI 10.3390/rs3112440
+   Huang C, 2002, INT J REMOTE SENS, V23, P725, DOI 10.1080/01431160110040323
+   Huang Y, 2018, CATENA, V165, P520, DOI 10.1016/j.catena.2018.03.003
+   Juteau, 1975, THESIS TERRE TERRE, V0, P0
+   Kalafatu║ioglu, 1973, MADEN TETKIK ARAMA B, V81, P82
+   Khan SD, 2008, EARTH-SCI REV, V89, P135, DOI 10.1016/j.earscirev.2008.04.004
+   Khan SD, 2007, J ASIAN EARTH SCI, V30, P333, DOI 10.1016/j.jseaes.2006.11.001
+   Koc-San D, 2013, ADV SPACE RES, V52, P39, DOI 10.1016/j.asr.2013.03.001
+   Kuhn S, 2019, ORE GEOL REV, V112, P0, DOI 10.1016/j.oregeorev.2019.103015
+   Kumar D, 2017, GEOMORPHOLOGY, V295, P115, DOI 10.1016/j.geomorph.2017.06.013
+   Latifovic R, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020307
+   LEFEVRE R, 1967, CR ACAD SCI D NAT, V265, P1365
+   Leverington DW, 2012, REMOTE SENS-BASEL, V4, P1208, DOI 10.3390/rs4051208
+   Liu L, 2011, INT J REMOTE SENS, V32, P1931, DOI 10.1080/01431161003639678
+   Liu LJ, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep19037
+   Masoumi F, 2017, J AFR EARTH SCI, V129, P445, DOI 10.1016/j.jafrearsci.2017.01.028
+   MGM General directorate of meteorology Turkey, 2022, GEN DIR MET, V0, P0
+   MILLER DM, 1995, COMPUT GEOSCI, V21, P377, DOI 10.1016/0098-3004(94)00082-6
+   Mohammadi NM, 2018, J AFR EARTH SCI, V143, P301, DOI 10.1016/j.jafrearsci.2018.02.005
+   Molan YE, 2014, INT J APPL EARTH OBS, V27, P117, DOI 10.1016/j.jag.2013.09.014
+   Mountrakis G, 2011, ISPRS J PHOTOGRAMM, V66, P247, DOI 10.1016/j.isprsjprs.2010.11.001
+   Nefeslioglu HA, 2012, INT J APPL EARTH OBS, V14, P40, DOI 10.1016/j.jag.2011.08.005
+   Negnevitsky M., 2005, ARTIF INTELL, V2nd, P0
+   Ni CZ, 2017, SCI REP-UK, V7, P0, DOI 10.1038/s41598-017-11027-0
+   OGM General Directorate of Forestry Turkey, 2022, FOREST ATLAS, V0, P0
+   Orlikova L, 2019, PROCEEDING ICMT, V0, P0
+   Othman AA, 2017, J ASIAN EARTH SCI, V146, P90, DOI 10.1016/j.jseaes.2017.05.005
+   Othman AA, 2014, REMOTE SENS-BASEL, V6, P6867, DOI 10.3390/rs6086867
+   Oztan NS, 2011, INT J REMOTE SENS, V32, P1651, DOI 10.1080/01431160903586799
+   Poisson, 1977, RECHERCHES GEOLOQUE, V0, P0
+   Pour AB, 2014, SPRINGERPLUS, V3, P0, DOI 10.1186/2193-1801-3-130
+   Pour AB, 2013, ORE GEOL REV, V54, P181, DOI 10.1016/j.oregeorev.2013.03.010
+   Radford DDG, 2018, IEEE J-STARS, V11, P3075, DOI 10.1109/JSTARS.2018.2855207
+   Rajendran S, 2015, TECTONOPHYSICS, V657, P63, DOI 10.1016/j.tecto.2015.06.023
+   Rajendran S, 2015, ADV SPACE RES, V55, P1134, DOI 10.1016/j.asr.2014.11.026
+   Rajendran S, 2014, ADV SPACE RES, V53, P656, DOI 10.1016/j.asr.2013.11.047
+   Rao K. V. R., 2017, INTERNATIONAL JOURNAL FOR RESEARCH IN APPLIED SCIENCE AND ENGINEERING TECHNOLOGY, V5, P1054
+   Reuber, 1982, GENERATIONS SUCCESSI, V0, P0
+   Rice MS, 2013, ICARUS, V223, P499, DOI 10.1016/j.icarus.2012.09.021
+   Rice MS, 2010, ICARUS, V205, P375, DOI 10.1016/j.icarus.2009.03.035
+   RICHARDS FS, 1961, J ROY STAT SOC B, V23, P469
+   Rowan LC, 2005, REMOTE SENS ENVIRON, V99, P105, DOI 10.1016/j.rse.2004.11.021
+   Rowan LC, 2004, REMOTE SENS ENVIRON, V91, P419, DOI 10.1016/j.rse.2004.04.007
+   Rowan LC, 2003, REMOTE SENS ENVIRON, V84, P350, DOI 10.1016/S0034-4257(02)00127-X
+   San BT, 2014, INT J APPL EARTH OBS, V26, P399, DOI 10.1016/j.jag.2013.09.010
+   San BT, 2011, INT J REMOTE SENS, V32, P7873, DOI 10.1080/01431161.2010.532175
+   San BT, 2005, INT J REMOTE SENS, V26, P5013, DOI 10.1080/01431160500177620
+   Senel M, 1997, 1100 000 SCALED GEOL, V0, P0
+   Senel M., 1983, MADEN TETKIK ARAMA E, V95-96, P13
+   Shao ZF, 2018, IEEE J-STARS, V11, P1656, DOI 10.1109/JSTARS.2018.2805923
+   Shrestha DP, 2019, INT J APPL EARTH OBS, V77, P84, DOI 10.1016/j.jag.2018.12.010
+   Smith MR, 2013, ICARUS, V223, P633, DOI 10.1016/j.icarus.2013.01.024
+   Tagnon BO, 2020, EGYPT J REMOTE SENS, V23, P231, DOI 10.1016/j.ejrs.2018.12.001
+   Tolentino FM, 2021, REMOTE SENS APPL, V24, P0, DOI 10.1016/j.rsase.2021.100616
+   van der Linden S, 2015, REMOTE SENS-BASEL, V7, P11249, DOI 10.3390/rs70911249
+   van der Meer FD, 2014, REMOTE SENS ENVIRON, V148, P124, DOI 10.1016/j.rse.2014.03.022
+   van der Meer FD, 2012, INT J APPL EARTH OBS, V14, P112, DOI 10.1016/j.jag.2011.08.002
+   van der Werff H, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8110883
+   Wasowski J, 2019, ADV SCI TECHNOL INN, V0, PP7, DOI 10.1007/978-3-030-01665-4_2
+   Wasowski J, 2014, ENG GEOL, V174, P103, DOI 10.1016/j.enggeo.2014.03.003
+   Xie YX, 2018, J PETROL SCI ENG, V160, P182, DOI 10.1016/j.petrol.2017.10.028
+   Yamaguchi Y, 1998, IEEE T GEOSCI REMOTE, V36, P1062, DOI 10.1109/36.700991
+   Yang XJ, 2011, PHOTOGRAMM ENG REM S, V77, P27, DOI 10.14358/PERS.77.1.27
+   Yu L, 2012, COMPUT GEOSCI-UK, V45, P229, DOI 10.1016/j.cageo.2011.11.019
+   Yuan WL, 2016, INT GEOSCI REMOTE SE, V0, PP6370, DOI 10.1109/IGARSS.2016.7730665
+   Zhang CY, 2015, ISPRS J PHOTOGRAMM, V104, P213, DOI 10.1016/j.isprsjprs.2014.06.005
+NR 98
+TC 1
+Z9 1
+U1 4
+U2 7
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1865-0473
+EI 1865-0481
+J9 EARTH SCI INFORM
+JI Earth Sci. Inform.
+PD SEP 15
+PY 2022
+VL 15
+IS 3
+BP 1841
+EP 1859
+DI 10.1007/s12145-022-00826-3
+EA JUL 2022
+PG 19
+WC Computer Science, Interdisciplinary Applications; Geosciences, Multidisciplinary
+SC Computer Science; Geology
+GA 3X7JM
+UT WOS:000821993900002
+DA 2023-04-26
+ER
+
+PT J
+AU Wong, CS
+   Liao, HM
+   Tsai, RTH
+   Chang, MC
+AF Wong, Cheng-Shih
+   Liao, Hsiung-Ming
+   Tsai, Richard Tzong-Han
+   Chang, Ming-Ching
+TI Semi-supervised learning for topographic map analysis over time: a study of bridge segmentation
+SO SCIENTIFIC REPORTS
+LA English
+DT Article
+ID neural-networks
+AB Geographical research using historical maps has progressed considerably as the digitalization of topological maps across years provides valuable data and the advancement of Al machine learning models provides powerful analytic tools. Nevertheless, analysis of historical maps based on supervised learning can be limited by the laborious manual map annotations. In this work, we propose a semisupervised learning method that can transfer the annotation of maps across years and allow map comparison and anthropogenic studies across time. Our novel two-stage framework first performs style transfer of topographic map across years and versions, and then supervised learning can be applied on the synthesized maps with annotations. We investigate the proposed semi-supervised training with the style-transferred maps and annotations on four widely-used deep neural networks (DNN), namely U-Net, fully-convolutional network (FCN), DeepLabV3, and MobileNetV3. The best performing network of U-Net achieves F1(inst:0.1) = 0.725 and F-1inst:0.01 = 0.743 trained on styletransfer synthesized maps, which indicates that the proposed framework is capable of detecting target features (bridges) on historical maps without annotations. In a comprehensive comparison, the F1(inst:0.1) of U-Net trained on Contrastive Unpaired Translation (CUT) generated dataset (0.662 +/- 0.008) achieves 57.3 %than the comparative score (0.089 +/- 0.065) of the least valid configuration (MobileNetV3 trained on CycIeGAN synthesized dataset). We also discuss the remaining challenges and future research directions.
+C1 [Wong, Cheng-Shih; Liao, Hsiung-Ming; Tsai, Richard Tzong-Han; Chang, Ming-Ching] Acad Sinica, Ctr Geog Informat Sci, Res Ctr Humanities & Social Sci, Taipei 115201, Taiwan.
+   [Chang, Ming-Ching] SUNY Albany, Comp Sci Dept, Albany, NY 12222 USA.
+C3 Academia Sinica - Taiwan; State University of New York (SUNY) System; State University of New York (SUNY) Albany
+RP Tsai, RTH; Chang, MC (corresponding author), Acad Sinica, Ctr Geog Informat Sci, Res Ctr Humanities & Social Sci, Taipei 115201, Taiwan.; Chang, MC (corresponding author), SUNY Albany, Comp Sci Dept, Albany, NY 12222 USA.
+EM thtsai@g.ncu.edu.tw; mchang2@albany.edu
+FU Center for Geographic Information Science, Research Center for Humanities an Social Sciences, Academic Sinica under project "The Program for Geographic Information Value Added Processing and Development of Spatial Humanities" [AS-ASCDC-111-102]
+CR Berman M, 2018, PROC CVPR IEEE, V0, PP4413, DOI 10.1109/CVPR.2018.00464
+   Berthelot D, 2019, ADV NEUR IN, V32, P0
+   Can YS, 2021, IEEE ACCESS, V9, P62847, DOI 10.1109/ACCESS.2021.3074897
+   Chen LC, 2017, ARXIV, V0, P0
+   Chen YY, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-40063-1
+   Duan W., 2018, P AUTOCARTO, V0, P0
+   Duan WW, 2020, INT J GEOGR INF SCI, V34, P824, DOI 10.1080/13658816.2019.1698742
+   Garcia-Molsosa A, 2021, ARCHAEOL PROSPECT, V28, P187, DOI 10.1002/arp.1807
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   Howard A, 2019, IEEE I CONF COMP VIS, V0, PP1314, DOI 10.1109/ICCV.2019.00140
+   Isola P., 2017, PROC IEEE C COMPUT V, V0, P1125
+   Jing LL, 2021, IEEE T PATTERN ANAL, V43, P4037, DOI 10.1109/TPAMI.2020.2992393
+   Kingma DP, 2014, ADV NEUR IN, V27, P0
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kolesnikov A, 2019, PROC CVPR IEEE, V0, PP1920, DOI 10.1109/CVPR.2019.00202
+   Liu X., 2021, IEEE T KNOWL DATA EN, V0, P0
+   Long J., 2015, P IEEE C COMPUTER VI, V0, PP3431, DOI 10.48550/ARXIV.1411.4038
+   Mapbox, 2018, MEET ROBOSAT, V0, P0
+   Maxwell AE, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12244145
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Park T., 2020, EUR C COMP VIS, V0, P319
+   QGIS Development Team, 2021, QGIS GEOGR INF SYST, V0, P0
+   Ronneberger O., 2015, P MED IM COMP COMP A, V0, P234
+   Tan CQ, 2018, LECT NOTES COMPUT SC, V11141, P270, DOI 10.1007/978-3-030-01424-7_27
+   Uhl J., 2017, P 8 INT C PATTERN RE, V0, P0, DOI DOI 10.1049/CP.2017.0144
+   Uhl JH, 2020, IEEE ACCESS, V8, P6978, DOI 10.1109/ACCESS.2019.2963213
+   Uhl JH, 2018, IET IMAGE PROCESS, V12, P2084, DOI 10.1049/iet-ipr.2018.5484
+   van den Oord A, 2019, ARXIV, V0, P0
+   Weiss Karl, 2016, JOURNAL OF BIG DATA, V3, P0, DOI 10.1186/s40537-016-0043-6
+   Yau N.-J., 2015, INT JOINT C SOFTWARE, V1, P1
+   Zhu JY, 2017, IEEE I CONF COMP VIS, V0, PP2242, DOI 10.1109/ICCV.2017.244
+   Zhu X, 2009, SYNTH LECT ARTIF INT, V3, P1, DOI 10.2200/s00196ed1v01y200906aim006
+   Zhuang FZ, 2021, P IEEE, V109, P43, DOI 10.1109/JPROC.2020.3004555
+NR 33
+TC 0
+Z9 0
+U1 3
+U2 3
+PU NATURE PORTFOLIO
+PI BERLIN
+PA HEIDELBERGER PLATZ 3, BERLIN, 14197, GERMANY
+SN 2045-2322
+EI 
+J9 SCI REP-UK
+JI Sci Rep
+PD NOV 8
+PY 2022
+VL 12
+IS 1
+BP 
+EP 
+DI 10.1038/s41598-022-23364-w
+PG 12
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA 6A1RC
+UT WOS:000880437400006
+PM 36348081
+DA 2023-04-26
+ER
+
+PT J
+AU Chia, T
+   Zhang, J
+   Li, HS
+   Peng, GH
+   Wen, MX
+   Kee, DW
+   Senarathne, PGCN
+AF Chia, Timothy
+   Zhang, Jun
+   Li, Heshan
+   Peng, Guohao
+   Wen, Mingxing
+   Kee, Dawei
+   Senarathne, P. G. C. N.
+TI C-TM: Topo-metric Mapping and Localization based on Place Categorization and Place Recognition for a Delivery Robot on Footpath
+SO 2022 17TH INTERNATIONAL CONFERENCE ON CONTROL, AUTOMATION, ROBOTICS AND VISION (ICARCV)
+LA English
+DT Proceedings Paper
+ID navigation
+AB In this work, C-TM is presented: a method to build a topo-metric map for delivery robot navigation in large-scale city environments. This system automatically generates a compact map by only saving expensive LIDAR information at key locations. These locations form the nodes of a topological map. Nodes are identified using a Place-Categorization (PC) neural network which output the place category from RGB cameras. Inside nodes, we generate and save high quality LIDAR submaps. Global localization within the map is done with a Visual-Place-Recognition (VPR) neural network. The topo-metric map can be used for navigation on footpath. We deploy C-TM on a four-wheeled autonomous delivery robot and test the effectiveness in two environments, both day and night.
+C1 [Chia, Timothy; Zhang, Jun; Li, Heshan; Peng, Guohao; Wen, Mingxing; Kee, Dawei] Nanyang Technol Univ, Continental NTU Corp Lab, 50 Nanyang Ave, Singapore 639798, Singapore.
+   [Senarathne, P. G. C. N.] Continental Automot Singapore Pte Ltd, 80 Boon Keng Rd, Singapore 339780, Singapore.
+C3 Nanyang Technological University & National Institute of Education (NIE) Singapore; Nanyang Technological University
+RP Chia, T (corresponding author), Nanyang Technol Univ, Continental NTU Corp Lab, 50 Nanyang Ave, Singapore 639798, Singapore.
+EM timothy.chia@ntu.edu.sg; jun.zhangj@ntu.edu.sg; heshan.li@ntu.edu.sg; guohao.peng@ntu.edu.sg; mingxing.wen@ntu.edu.sg; dawei.kee@ntu.edu.sg; paththini.gedara.chaminda.namal.senarathne@continental-corporation.com
+FU RIE2020 Industry Alignment Fund - Industry Collaboration Projects (IAF-ICP) Funding Initiative
+CR Abdullah-Al-Kaiser M, 2017, TENCON IEEE REGION, V0, P2637
+   Abrar MM, 2020, 2020 11TH IEEE ANNUAL UBIQUITOUS COMPUTING, V0, P461, DOI 10.1109/UEMCON51285.2020.9298108
+   Agha A., 2021, NEBULA QUEST ROBOTIC, V0, P0
+   Bazeille Stephane, 2011, IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION, V0, P4067
+   BESL PJ, 1992, IEEE T PATTERN ANAL, V14, P239, DOI 10.1109/34.121791
+   Blochliger F, 2018, IEEE INT CONF ROBOT, V0, P3818
+   Cho Y, 2022, IEEE ROBOT AUTOM LET, V7, P4999, DOI 10.1109/LRA.2022.3152476
+   Floros G, 2013, IEEE INT CONF ROBOT, V0, PP1054, DOI 10.1109/ICRA.2013.6630703
+   Garcia-Fidalgo E, 2015, ROBOT AUTON SYST, V64, P1, DOI 10.1016/j.robot.2014.11.009
+   Hentschel M., 2010, 2010 13TH INTERNATIONAL IEEE CONFERENCE ON INTELLIGENT TRANSPORTATION SYSTEMS (ITSC 2010), V0, PP1645, DOI 10.1109/ITSC.2010.5625092
+   Jean JH, 2012, 2012 PROCEEDINGS OF SICE ANNUAL CONFERENCE (SICE), V0, P1564
+   Jeon S, 2016, INT CONF UBIQ ROBOT, V0, PP746, DOI 10.1109/URAI.2016.7734105
+   Kaleci B., 2018, 2018 26 SIGNAL PROCE, V0, P1
+   Koide K, 2019, INT J ADV ROBOT SYST, V16, P0, DOI 10.1177/1729881419841532
+   Konolige K., 2011, 2011 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION (ICRA 2011), V0, PP3041, DOI 10.1109/ICRA.2011.5980074
+   Lee D., 2021, ANN ONCOL, V9, P0
+   Lowry S., 2019, CURR CONTENTS, V2487, P22
+   Lowry S, 2016, IEEE T ROBOT, V32, P1, DOI 10.1109/TRO.2015.2496823
+   Ort T, 2020, IEEE ROBOT AUTOM LET, V5, P556, DOI 10.1109/LRA.2019.2961051
+   Ort T, 2018, IEEE INT CONF ROBOT, V0, P2040
+   Peng GH, 2021, 2021 IEEE/CVF INTERNATIONAL CONFERENCE ON COMPUTER VISION (ICCV 2021), V0, PP865, DOI 10.1109/ICCV48922.2021.00092
+   Peng GH, 2021, IEEE INT CONF ROBOT, V0, PP13415, DOI 10.1109/ICRA48506.2021.9561812
+   Shan TX, 2018, IEEE INT C INT ROBOT, V0, PP4758, DOI 10.1109/IROS.2018.8594299
+   Zhang J., 2014, ROBOT SCI SYST, V2, P109
+   Zhang J, 2017, AUTON ROBOT, V41, P401, DOI 10.1007/s10514-016-9548-2
+NR 25
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2474-2953
+EI 
+J9 I C CONT AUTOMAT ROB
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 274
+EP 280
+DI 10.1109/ICARCV57592.2022.10004346
+PG 7
+WC Automation & Control Systems; Robotics
+SC Automation & Control Systems; Robotics
+GA BU8HH
+UT WOS:000947265600045
+DA 2023-04-26
+ER

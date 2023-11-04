@@ -1,0 +1,555 @@
+
+PT J
+AU Li, M
+   Chen, C
+   Cao, YZ
+   Zhou, PY
+   Deng, X
+   Liu, P
+   Wang, YL
+   Lv, XY
+   Chen, C
+AF Li, Min
+   Chen, Chen
+   Cao, Yanzhen
+   Zhou, Panyun
+   Deng, Xin
+   Liu, Pei
+   Wang, Yunling
+   Lv, Xiaoyi
+   Chen, Cheng
+TI CIABNet: Category imbalance attention block network for the classification of multi-differentiated types of esophageal cancer
+SO MEDICAL PHYSICS
+LA English
+DT Article; Early Access
+DE attention block; category imbalance; esophageal cancer; poor model interpretability
+ID convolutional neural-network
+AB Background Esophageal cancer has become one of the important cancers that seriously threaten human life and health, and its incidence and mortality rate are still among the top malignant tumors. Histopathological image analysis is the gold standard for diagnosing different differentiation types of esophageal cancer. Purpose The grading accuracy and interpretability of the auxiliary diagnostic model for esophageal cancer are seriously affected by small interclass differences, imbalanced data distribution, and poor model interpretability. Therefore, we focused on developing the category imbalance attention block network (CIABNet) model to try to solve the previous problems. Methods First, the quantitative metrics and model visualization results are integrated to transfer knowledge from the source domain images to better identify the regions of interest (ROI) in the target domain of esophageal cancer. Second, in order to pay attention to the subtle interclass differences, we propose the concatenate fusion attention block, which can focus on the contextual local feature relationships and the changes of channel attention weights among different regions simultaneously. Third, we proposed a category imbalance attention module, which treats each esophageal cancer differentiation class fairly based on aggregating different intensity information at multiple scales and explores more representative regional features for each class, which effectively mitigates the negative impact of category imbalance. Finally, we use feature map visualization to focus on interpreting whether the ROIs are the same or similar between the model and pathologists, thus better improving the interpretability of the model. Results The experimental results show that the CIABNet model outperforms other state-of-the-art models, which achieves the most advanced results in classifying the differentiation types of esophageal cancer with an average classification accuracy of 92.24%, an average precision of 93.52%, an average recall of 90.31%, an average F1 value of 91.73%, and an average AUC value of 97.43%. In addition, the CIABNet model has essentially similar or identical to the ROI of pathologists in identifying histopathological images of esophageal cancer. Conclusions Our experimental results prove that our proposed computer-aided diagnostic algorithm shows great potential in histopathological images of multi-differentiated types of esophageal cancer.
+C1 [Li, Min; Chen, Chen; Liu, Pei; Lv, Xiaoyi] Xinjiang Univ, Coll Informat Sci & Engn, Urumqi 830046, Peoples R China.
+   [Li, Min; Lv, Xiaoyi] Xinjiang Univ, Key Lab Signal Detect & Proc, Urumqi, Peoples R China.
+   [Chen, Chen; Lv, Xiaoyi] Xinjiang Cloud Comp Applicat Lab, Karamay, Peoples R China.
+   [Cao, Yanzhen] Xinjiang Med Univ, Dept Pathol, Affiliated Tumor Hosp, Urumqi, Peoples R China.
+   [Zhou, Panyun; Deng, Xin; Lv, Xiaoyi; Chen, Cheng] Xinjiang Univ, Coll Software, Urumqi 830046, Peoples R China.
+   [Wang, Yunling] Xinjiang Med Univ, Affiliated Hosp 1, Urumqi, Peoples R China.
+   [Lv, Xiaoyi] Xinjiang Univ, Key Lab Software Engn Technol, Urumqi, Peoples R China.
+C3 Xinjiang University; Xinjiang University; Xinjiang Medical University; Xinjiang University; Xinjiang Medical University; Xinjiang University
+RP Lv, XY (corresponding author), Xinjiang Univ, Coll Informat Sci & Engn, Urumqi 830046, Peoples R China.; Chen, C (corresponding author), Xinjiang Univ, Coll Software, Urumqi 830046, Peoples R China.
+EM xjuwawj01@163.com; chenchengoptics@gmail.com
+FU Xinjiang Uygur Autonomous Region Science and Technology Assistance Project [2019E0291]; Distinguished Youth Science Fund Project of Autonomous Region Natural Fund [2022D01E11, 2022D01E27]; Xinjiang Autonomous Region Science and Technology Plan Project [2018D01C257]
+CR Arjmand A, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10010042
+   Chen KB, 2021, COMPUT METH PROG BIO, V207, P0, DOI 10.1016/j.cmpb.2021.106172
+   Chen XP, 2021, SENSOR MATER, V33, P2639, DOI 10.18494/SAM.2021.3392
+   Ding YF, 2021, IEEE T IMAGE PROCESS, V30, P2826, DOI 10.1109/TIP.2021.3055617
+   Du WJ, 2021, BIOMED OPT EXPRESS, V12, P3066, DOI 10.1364/BOE.420935
+   He AL, 2021, IEEE T MED IMAGING, V40, P143, DOI 10.1109/TMI.2020.3023463
+   Hou L, 2016, PROC CVPR IEEE, V0, PP2424, DOI 10.1109/CVPR.2016.266
+   Hu J., 2018, P IEEECVF C COMPUTER, V0, P7132
+   Hu JJ, 2021, FRONT NEUROSCI-SWITZ, V14, P0, DOI 10.3389/fnins.2020.626154
+   Huang P, 2022, IEEE J BIOMED HEALTH, V26, P1696, DOI 10.1109/JBHI.2021.3108999
+   Huang P, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21010122
+   Jiang YL, 2020, ACAD RADIOL, V27, P1742, DOI 10.1016/j.acra.2019.12.020
+   Li M, 2021, IEEE ACCESS, V9, P53687, DOI 10.1109/ACCESS.2021.3071057
+   Liu GS, 2020, ANN TRANSL MED, V8, P0, DOI 10.21037/atm.2020.03.24
+   Liu W, 2022, CLIN TRANSL GASTROEN, V13, P0, DOI 10.14309/ctg.0000000000000433
+   Lu NA, 2021, COMPUT METH PROG BIO, V208, P0, DOI 10.1016/j.cmpb.2021.106287
+   Mori Y, 2019, DIGEST ENDOSC, V31, P378, DOI 10.1111/den.13317
+   Niu J, 2021, MED PHYS, V48, P3878, DOI 10.1002/mp.14942
+   Pang JM, 2019, IEEE T GEOSCI REMOTE, V57, P5512, DOI 10.1109/TGRS.2019.2899955
+   Rahman Tabassum Yesmin, 2019, MENDELEY DATA, V0, P0, DOI DOI 10.17632/FTMP4CVTMB.1
+   Schmidlin EJ, 2021, ANN TRANSL MED, V9, P0, DOI 10.21037/atm-20-2909
+   Selvaraju RR, 2020, INT J COMPUT VISION, V128, P336, DOI 10.1007/s11263-019-01228-7
+   Senousy Z, 2022, IEEE T BIO-MED ENG, V69, P818, DOI 10.1109/TBME.2021.3107446
+   Sriporn K, 2020, HEALTHCARE-BASEL, V8, P0, DOI 10.3390/healthcare8020107
+   Sun H, 2020, IEEE J BIOMED HEALTH, V24, P1664, DOI 10.1109/JBHI.2019.2944977
+   Takeuchi M, 2021, ESOPHAGUS-TOKYO, V18, P612, DOI 10.1007/s10388-021-00826-0
+   Tang SG, 2022, SENSORS-BASEL, V22, P0, DOI 10.3390/s22041492
+   Tian XC, 2022, J RAMAN SPECTROSC, V53, P735, DOI 10.1002/jrs.6302
+   Togacar M, 2020, PHYSICA A, V545, P0, DOI 10.1016/j.physa.2019.123592
+   Tokai Y, 2020, ESOPHAGUS-TOKYO, V17, P250, DOI 10.1007/s10388-020-00716-x
+   Duc VT, 2022, CUREUS J MED SCIENCE, V14, P0, DOI 10.7759/cureus.21347
+   Wu ZJ, 2020, FRONT GENET, V11, P0, DOI 10.3389/fgene.2020.00768
+   Xi XM, 2020, BIOMED OPT EXPRESS, V11, P6122, DOI 10.1364/BOE.400816
+   Xu R, 2020, IEEE J BIOMED HEALTH, V24, P2041, DOI 10.1109/JBHI.2019.2950006
+   Xu XW, 2020, IEEE ENG MED BIO, V0, PP1372, DOI 10.1109/EMBC44109.2020.9176620
+   Yamlome P, 2020, IEEE ENG MED BIO, V0, PP1144, DOI 10.1109/EMBC44109.2020.9176594
+   Zhou B, 2016, PROC CVPR IEEE, V0, PP2921, DOI 10.1109/CVPR.2016.319
+   Zhu ZM, 2021, ANAL BIOANAL CHEM, V413, P3209, DOI 10.1007/s00216-021-03258-y
+NR 38
+TC 0
+Z9 0
+U1 27
+U2 27
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0094-2405
+EI 2473-4209
+J9 MED PHYS
+JI Med. Phys.
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 
+EP 
+DI 10.1002/mp.16067
+PG 21
+WC Radiology, Nuclear Medicine & Medical Imaging
+SC Radiology, Nuclear Medicine & Medical Imaging
+GA 5X0NX
+UT WOS:000878306400001
+PM 36272103
+DA 2023-04-26
+ER
+
+PT J
+AU Lyons, M
+   Fecher, F
+   Reindel, M
+AF Lyons, Mike
+   Fecher, Franziska
+   Reindel, Markus
+TI From LiDAR to deep learning: A case study of computer-assisted approaches to the archaeology of Guadalupe and northeast Honduras
+SO IT-INFORMATION TECHNOLOGY
+LA English
+DT Article
+DE Archaeology; Deep Learning; GIS; Honduras; LiDAR; 3D Modeling
+AB Archaeologists are interested in better understanding matters of our human past based on material culture. The tools we use to approach archaeological research questions range from the trowel and brush to, more recently, even those of artificial intelligence. As access to computing technology has increased over time, the breadth of computer-assisted methods in archaeology has also increased. This proliferation has provided us a considerable toolset towards engaging both new and longstanding questions, especially as interdisciplinary collaboration between archaeologists, computer scientists, and engineers continues to grow. As an example of an archaeological project engaging in computer-based approaches, the Guadalupe/Colon Archaeological Project is presented as a case study. Project applications and methodologies range from the regional-scale identification of sites using a geographic information system (GIS) or light detection and ranging (LiDAR) down to the microscopic scale of classifying ceramic materials with convolutional neural networks. Methods relating to the 3D modeling of sites, features, and artifacts and the benefits therein are also explored. In this paper, an overview of the methods used by the project is covered, which includes 1) predictive modeling using a GIS slope analysis for the identification of possible site locations, 2) structure from motion (SfM) drone imagery for site mapping and characterization, 3) airborne LiDAR for site identification, mapping, and characterization, 4) 3D modeling of stone features for improved visualization, 5) 3D modeling of ceramic artifacts for more efficient documentation, and 6) the application of deep learning for automated classification of ceramic materials in thin section. These approaches are discussed and critically considered with the understanding that interdisciplinary cooperation between domain experts in engineering, computer science, and archaeology is an important means of improving and expanding upon digital methodologies in archaeology as a whole.
+C1 [Lyons, Mike] Inst Archaeol & Cultural Anthropol, Dept Anthropol Amer, Oxfordstr 15, D-53111 Bonn, Germany.
+   [Fecher, Franziska] Univ Zurich, Dept Archaeol, Prehist Archaeol Div, CH-8006 Zurich, Switzerland.
+   [Reindel, Markus] German Archaeol Inst DAI, Commiss Archaeol Noneuropean Cultures KAAK, Durenstr 35-37, D-53173 Bonn, Germany.
+C3 University of Zurich
+RP Lyons, M (corresponding author), Inst Archaeol & Cultural Anthropol, Dept Anthropol Amer, Oxfordstr 15, D-53111 Bonn, Germany.
+EM s5milyon@uni-bonn.de; franziska.fecher@uzh.ch; markus.reindel@dainst.de
+CR Begley C., 1999, THESIS U CHICAGO CHI, V0, P0
+   Canuto MA, 2018, SCIENCE, V361, P1355, DOI 10.1126/science.aau0137
+   Castillo O. Cruz, 2018, INFORME SITIOS CLAVE, V0, P0
+   Chase AF, 2011, J ARCHAEOL SCI, V38, P387, DOI 10.1016/j.jas.2010.09.018
+   Conzemius E., 1927, J SOC AMERICANISTES, V19, P245
+   Davis D.S., 2018, SE ARCHAEOL, V38, P23, DOI 10.1080/0734578X.2018.1482186
+   Doerr M, 2003, AI MAG, V24, P75
+   Epstein J.F., 1977, YAXKIN, V2, P28
+   Fecher F., 2020, J GLOBAL ARCHAEOLOGY, V2020, P1, DOI 10.34780/joga.v2020i0.1009
+   Fecher F., 2021, THESIS U ZURICH, V0, P0, DOI DOI 10.5167/uzh-203124
+   Fecher F, 2019, LAT AM ANTIQ, V30, P624, DOI 10.1017/laq.2019.52
+   Fisher CT, 2016, PLOS ONE, V11, P0, DOI 10.1371/journal.pone.0159890
+   GDAL/OGR Contributors, 2021, GDAL OGR GEOSP DAT A, V0, P0
+   Goodwin W.A., 2019, THESIS SO METHODIST, V0, P0
+   Hasemann G., 1977, YAXKIN, V2, P40
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Healy, 1984, RECENT DEV ISTHMIAN, V0, P227
+   Inomata T, 2020, NATURE, V582, P530, DOI 10.1038/s41586-020-2343-4
+   Lyons, 2019, SITE MAP PANAMA COLO, V0, P0
+   Lyons M., 2021, J COMPUTER APPL ARCH, V4, P188, DOI 10.5334/jcaa.75
+   MARA H., 2010, 11 INT S VIRTUAL REA, V0, P0, DOI DOI 10.2312/VAST/VAST10/131-138
+   Orton C, 2013, CAMB MAN ARCHAEOL, V0, P1
+   Pawlowicz LM, 2021, J ARCHAEOL SCI, V130, P0, DOI 10.1016/j.jas.2021.105375
+   Pires de Lima R., 2019, SEDIMENT REC, V17, P4, DOI 10.2110/sedred.2019.2.4
+   Quinn Patrick S., 2013, CERAMIC PETROGRAPHY, V0, P0
+   Reindel, 2021, ARCHAOLOGISCHES PROJ, V0, P0
+   Roussel J.-R., 2021, **DATA OBJECT**, V0, P0
+   Selvaraju RR, 2020, INT J COMPUT VISION, V128, P336, DOI 10.1007/s11263-019-01228-7
+   Simonyan K, 2015, ARXIV, V0, P0
+   Spinden H.J., 1925, P 21 INT C AM BRILL, V2, P529
+   Stone Doris, 1941, MEMOIRS PEABODY MUSE, V9, P0
+   Strong W.D., 1935, ARCHAEOLOGICAL INVES, V3290, P0
+   Trier OD, 2021, INT J APPL EARTH OBS, V95, P0, DOI 10.1016/j.jag.2020.102241
+   V?liz V., 1977, YAXKIN, V2, P7
+   Verhagen P, 2018, NAT SCI ARCHAEOL, V0, PP11, DOI 10.1007/978-3-319-25316-9_2
+   Verschoof-van der Vaart W., 2019, J COMPUTER APPL ARCH, V2, P31, DOI 10.5334/JCAA.32
+   Verschoof-van der Vaart WB, 2021, J CULT HERIT, V47, P143, DOI 10.1016/j.culher.2020.10.009
+   White DA, 2015, ADV ARCHAEOL PRACT, V3, P407, DOI 10.7183/2326-3768.3.4.407
+NR 38
+TC 0
+Z9 0
+U1 0
+U2 5
+PU WALTER DE GRUYTER GMBH
+PI BERLIN
+PA GENTHINER STRASSE 13, D-10785 BERLIN, GERMANY
+SN 1611-2776
+EI 2196-7032
+J9 IT-INF TECHNOL
+JI IT-Inf. Technol.
+PD DEC 16
+PY 2022
+VL 64
+IS 6
+BP 233
+EP 246
+DI 10.1515/itit-2022-0004
+EA JUL 2022
+PG 14
+WC Computer Science, Information Systems
+SC Computer Science
+GA 6M4VF
+UT WOS:000830734200001
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, LF
+   Yan, HW
+   He, Y
+   Yao, S
+   Cao, SP
+   Sun, Q
+AF Zhang, Lifeng
+   Yan, Haowen
+   He, Yi
+   Yao, Sheng
+   Cao, Shengpeng
+   Sun, Qiang
+TI Spatiotemporal Prediction of Alpine Vegetation Dynamic Change Based on a ConvGRU Neural Network Model: A Case Study of the Upper Heihe River Basin in Northwest China
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Vegetation mapping; Market research; Spatiotemporal phenomena; Biological system modeling; Predictive models; Time series analysis; Rivers; Deep learning; Qilian mountains; spatiotemporal prediction; vegetation dynamic change
+ID ndvi; climate
+AB Accurate and comprehensive vegetation prediction methods are essential for effective agricultural planning and budgeting. Most existing vegetation prediction methods rely on sampling points rather than on overall spatiotemporal characteristics, making it difficult to accurately forecast vegetation changes. Hence, we built a neural network model with encoding and decoding modules based on a convolution gate recurrent unit (ConvGRU) and applied it to spatiotemporal normalized difference vegetation index (NDVI) predictions for the upper Heihe river basin (UHRB) in the Qilian Mountains, China. Based on MODIS NDVI raster data for the UHRB for 2000-2020, the analysis of the region's spatiotemporal characteristics showed that the NDVI varied significantly over time. To avoid the gradient disappearance problem during ConvGRU model prediction, we proposed several numerical scaling methods for preprocessing the data before conducting training and prediction. We then constructed a spatiotemporal prediction model based on the ConvGRU, trained and predicted the numerically scaled data, and used various metrics to evaluate the model. The results showed that the grouping tanh-ln function fitting was the least erroneous, and the ConvGRU model using data scaled by this method performed well across various metrics according to the test-set results. Also, unlike traditional time series prediction methods, the model accounted for spatiotemporal correlation features, and the output data of the prediction model were continuous and intuitive. Therefore, the proposed method is suitable for predicting dynamic vegetation changes. The NDVI prediction trend analysis indicated that the vegetation in the UHRB should improve in the future.
+C1 [Zhang, Lifeng; Yan, Haowen; He, Yi; Yao, Sheng; Cao, Shengpeng; Sun, Qiang] Lanzhou Jiaotong Univ, Fac Geomat, Lanzhou 730070, Peoples R China.
+   [Zhang, Lifeng; Yan, Haowen; He, Yi; Yao, Sheng; Cao, Shengpeng; Sun, Qiang] Natl Local Joint Engn Res Ctr Technol & Applicat, Lanzhou 730070, Peoples R China.
+   [Zhang, Lifeng; Yan, Haowen; He, Yi; Yao, Sheng; Cao, Shengpeng; Sun, Qiang] Gansu Prov Engn Lab Natl Geog State Monitoring, Lanzhou 730070, Peoples R China.
+C3 Lanzhou Jiaotong University
+RP Zhang, LF; Yao, S (corresponding author), Lanzhou Jiaotong Univ, Fac Geomat, Lanzhou 730070, Peoples R China.
+EM 119273207@qq.com; yanhw@mail.lzjtu.cn; heyi@mail.lzjtu.cn; 1024685056@qq.com; 1371711066@qq.com; 87451954@qq.com
+FU National Natural Science Foundation of China [42161063]; Science and Technology Program of Gansu Province [20JR2RA002]; Open Foundation of Key Laboratory of Yellow River Environment of Gansu Province [21YRWEK001]; Tianyou Youth Talent Lift Program of Lanzhou Jiaotong University [2019A-043]; LZJTU EP [201806]; Central Government
+CR Bai JJ, 2014, IEEE J-STARS, V7, P4581, DOI 10.1109/JSTARS.2014.2365590
+   Barford CC, 2001, SCIENCE, V294, P1688, DOI 10.1126/science.1062962
+   Cao SP, 2022, SCI TOTAL ENVIRON, V821, P0, DOI 10.1016/j.scitotenv.2022.153270
+   Cao SP, 2021, ECOL INDIC, V133, P0, DOI 10.1016/j.ecolind.2021.108420
+   Chen Y., 2021, NAT REMOTE SENS B, V42, P6919, DOI 10.11834/jrs.20221457&lang=en
+   Chen Y, 2021, INT J REMOTE SENS, V42, P6921, DOI 10.1080/01431161.2021.1947540
+   Cui CL, 2020, INT J DIGIT EARTH, V13, P1733, DOI 10.1080/17538947.2020.1808718
+   Ding Y., 2021, THESIS NW A F U XIAN, V0, P0
+   [高艳红 GAO Yanhong], 2007, 高原气象 PLATEAU METEOROLOGY, V26, P270
+   Fernandez-Manso A, 2011, INT J REMOTE SENS, V32, P1595, DOI 10.1080/01431160903586765
+   Ghosh KG, 2018, J GEOVIS SPAT ANAL, V2, P0, DOI 10.1007/s41651-018-0022-x
+   He Y, 2021, INT J APPL EARTH OBS, V104, P0, DOI 10.1016/j.jag.2021.102508
+   He Y, 2021, IEEE J-STARS, V14, P6544, DOI 10.1109/JSTARS.2021.3085397
+   He Y, 2015, J MT SCI-ENGL, V12, P1189, DOI 10.1007/s11629-015-3445-6
+   Hislop S, 2019, REMOTE SENS ENVIRON, V221, P188, DOI 10.1016/j.rse.2018.11.025
+   Huang SZ, 2014, J HYDROL, V511, P764, DOI 10.1016/j.jhydrol.2014.01.062
+   Huynh-Thu Q, 2008, ELECTRON LETT, V44, P800, DOI 10.1049/el:20080522
+   Jang Wonjin, 2019, JOURNAL OF THE KOREAN SOCIETY OF AGRICULTURAL ENGINEERS 한국농공학회논문집, V61, P123, DOI 10.5389/KSAE.2019.61.6.123
+   Kang LJ, 2014, IEEE J-STARS, V7, P4530, DOI 10.1109/JSTARS.2014.2361128
+   Kingma DP, 2015, 3 INT C LEARN REPR I, V0, P0
+   [雷声剑 Lei Shengjian], 2016, 水土保持通报 BULLETIN OF SOIL AND WATER CONSERVATION, V36, P159
+   Li BY, 2019, INT J REMOTE SENS, V40, P3927, DOI 10.1080/01431161.2018.1553323
+   [刘婵 Liu Chan], 2020, 生态学报 ACTA ECOLOGICA SINICA, V40, P888
+   Ma YJ, 2021, ATMOSPHERE-BASEL, V12, P0, DOI 10.3390/atmos12101341
+   More J. J., 1978, PROCEEDINGS OF THE BIENNIAL CONFERENCE ON NUMERICAL ANALYSIS, V0, P105
+   [邱丽莎 Qiu Lisha], 2019, 遥感信息 REMOTE SENSING INFORMATION, V34, P97
+   Reddy DS, 2018, MODEL EARTH SYST ENV, V4, P409, DOI 10.1007/s40808-018-0431-3
+   [任立清 Ren Liqing], 2021, 水土保持研究 RESEARCH OF SOIL AND WATER CONSERVATION, V28, P244
+   Shi XJ, 2017, ADV NEUR IN, V30, P0
+   Shi Y, 2020, AGR FOREST METEOROL, V294, P0, DOI 10.1016/j.agrformet.2020.108146
+   Stocker TF, 2014, CLIMATE CHANGE 2013: THE PHYSICAL SCIENCE BASIS, V0, PP1, DOI 10.1017/cbo9781107415324
+   [谭美宝 Tan Meibao], 2020, 遥感技术与应用 REMOTE SENSING TECHNOLOGY AND APPLICATION, V35, P335
+   Ulyanov D, 2017, PROC CVPR IEEE, V0, PP4105, DOI 10.1109/CVPR.2017.437
+   Wang P., 2021, GEOL SURV CHINA, V8, P64
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Xue JR, 2017, J SENSORS, V2017, P0, DOI 10.1155/2017/1353691
+   Yang X., 2015, THESIS LANZHOU U LAN, V0, P0
+   [尤南山 You Nanshan], 2019, 北京大学学报. 自然科学版 ACTA SCIENTIARUM NATURALIUM UNIVERSITATIS PEKINENSIS, V55, P171
+   Zeng B., 2008, THESIS LANZHOU U LAN, V0, P0
+   Zhang LF, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13245046
+   [张立峰 Zhang Lifeng], 2018, 遥感信息 REMOTE SENSING INFORMATION, V33, P46
+   Zhao F, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13224660
+   Zhu LJ, 2020, ECOL INDIC, V117, P0, DOI 10.1016/j.ecolind.2020.106545
+NR 43
+TC 0
+Z9 0
+U1 16
+U2 19
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 6957
+EP 6971
+DI 10.1109/JSTARS.2022.3200521
+PG 15
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 4G5VF
+UT WOS:000849263100001
+DA 2023-04-26
+ER
+
+PT J
+AU Li, Y
+   Zhang, Y
+   Cui, WG
+   Lei, BY
+   Kuang, XH
+   Zhang, T
+AF Li, Yang
+   Zhang, Yue
+   Cui, Weigang
+   Lei, Baiying
+   Kuang, Xihe
+   Zhang, Teng
+TI Dual Encoder-Based Dynamic-Channel Graph Convolutional Network With Edge Enhancement for Retinal Vessel Segmentation
+SO IEEE TRANSACTIONS ON MEDICAL IMAGING
+LA English
+DT Article
+DE Image edge detection; Biomedical imaging; Image segmentation; Feature extraction; Deep learning; Convolution; Decoding; Retinal vessel segmentation; dual encoder; dynamic graph convolution network; edge enhancement; deep learning
+ID blood-vessels; u-net; interest reconstruction; neural-networks; feature fusion; images; region; connectivity; algorithm; model
+AB Retinal vessel segmentation with deep learning technology is a crucial auxiliary method for clinicians to diagnose fundus diseases. However, the deep learning approaches inevitably lose the edge information, which contains spatial features of vessels while performing down-sampling, leading to the limited segmentation performance of fine blood vessels. Furthermore, the existing methods ignore the dynamic topological correlations among feature maps in the deep learning framework, resulting in the inefficient capture of the channel characterization. To address these limitations, we propose a novel dual encoder-based dynamic-channel graph convolutional network with edge enhancement (DE-DCGCN-EE) for retinal vessel segmentation. Specifically, we first design an edge detection-based dual encoder to preserve the edge of vessels in down-sampling. Secondly, we investigate a dynamic-channel graph convolutional network to map the image channels to the topological space and synthesize the features of each channel on the topological map, which solves the limitation of insufficient channel information utilization. Finally, we study an edge enhancement block, aiming to fuse the edge and spatial features in the dual encoder, which is beneficial to improve the accuracy of fine blood vessel segmentation. Competitive experimental results on five retinal image datasets validate the efficacy of the proposed DE-DCGCN-EE, which achieves more remarkable segmentation results against the other state-of-the-art methods, indicating its potential clinical application.
+C1 [Li, Yang; Zhang, Yue; Cui, Weigang] Beihang Univ, Sch Automat Sci & Elect Engn, Beijing 100190, Peoples R China.
+   [Lei, Baiying] Shenzhen Univ, Sch Biomed Engn, Natl Reg Key Technol Engn Lab Med Ultrasound, Shenzhen 518060, Guangdong, Peoples R China.
+   [Kuang, Xihe; Zhang, Teng] Univ Hong Kong, Fac Med, Dept Orthopaed & Traumatol, Hong Kong, Peoples R China.
+C3 Beihang University; Shenzhen University; University of Hong Kong
+RP Zhang, Y (corresponding author), Beihang Univ, Sch Automat Sci & Elect Engn, Beijing 100190, Peoples R China.
+EM liyang@buaa.edu.cn; zhangyue_ustb@163.com; cwg1994@buaa.edu.cn; leiby@szu.edu.cn; tgzhang@hku.hk; tony.kuangxh@hotmail.com
+FU National Natural Science Foundation of China [U1809209, 61671042, 61403016]; Beijing Natural Science Foundation; Beijing United Imaging Research Institute of Intelligent Imaging Foundation [L182015, 4172037, CRIBJQY202103]
+CR Abramoff Michael D, 2010, IEEE REV BIOMED ENG, V3, P169, DOI 10.1109/RBME.2010.2084567
+   [Anonymous], 2015, INT C MED IM COMP CO, V0, P0
+   Anthimopoulos M, 2019, IEEE J BIOMED HEALTH, V23, P714, DOI 10.1109/JBHI.2018.2818620
+   CHAUDHURI S, 1989, IEEE T MED IMAGING, V8, P263, DOI 10.1109/42.34715
+   Chen BZ, 2020, IEEE J BIOMED HEALTH, V24, P2292, DOI 10.1109/JBHI.2020.2967084
+   Cui ZM, 2021, IEEE T MED IMAGING, V40, P3604, DOI 10.1109/TMI.2021.3090432
+   Ding L, 2021, IEEE T MED IMAGING, V40, P2748, DOI 10.1109/TMI.2020.3027665
+   Fan Z, 2019, IEEE T IMAGE PROCESS, V28, P2367, DOI 10.1109/TIP.2018.2885495
+   Fraz MM, 2012, IEEE T BIO-MED ENG, V59, P2538, DOI 10.1109/TBME.2012.2205687
+   Fu J, 2021, IEEE T NEUR NET LEAR, V32, P2547, DOI 10.1109/TNNLS.2020.3006524
+   Gao CL, 2021, KNOWL-BASED SYST, V214, P0, DOI 10.1016/j.knosys.2021.106754
+   Ghadiri F, 2011, 2011 1ST INTERNATIONAL ECONFERENCE ON COMPUTER AND KNOWLEDGE ENGINEERING (ICCKE), V0, PP189, DOI 10.1109/ICCKE.2011.6413349
+   Gori M, 2005, IEEE IJCNN, V0, P729
+   Gu R, 2021, IEEE T MED IMAGING, V40, P699, DOI 10.1109/TMI.2020.3035253
+   Gu ZW, 2019, IEEE T MED IMAGING, V38, P2281, DOI 10.1109/TMI.2019.2903562
+   Guo K, 2021, IEEE T INTELL TRANSP, V22, P1138, DOI 10.1109/TITS.2019.2963722
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Hoover A, 2000, IEEE T MED IMAGING, V19, P203, DOI 10.1109/42.845178
+   Huang HM, 2020, I S BIOMED IMAGING, V0, PP763, DOI 10.1109/ISBI45749.2020.9098654
+   Orlando JI, 2017, IEEE T BIO-MED ENG, V64, P16, DOI 10.1109/TBME.2016.2535311
+   Ilayarajaa KT., 2020, INT C SYST COMPUT AU, V0, PP1, DOI 10.1109/ICSCAN49426.2020.9262446
+   Kaul C, 2019, I S BIOMED IMAGING, V0, P455
+   Kittler J, 1983, IMAGE VISION COMPUT, V1, P37, DOI 10.1016/0262-8856(83)90006-9
+   Law MWK, 2007, IEEE T MED IMAGING, V26, P1224, DOI 10.1109/TMI.2007.903231
+   Li KQ, 2021, IEEE J BIOMED HEALTH, V25, P2071, DOI 10.1109/JBHI.2020.3028180
+   Li LZ, 2020, IEEE WINT CONF APPL, V0, PP3645, DOI 10.1109/WACV45572.2020.9093621
+   Li X, 2021, IEEE T IND INFORM, V17, P1958, DOI 10.1109/TII.2020.2993842
+   Li Y, 2022, IEEE T MED IMAGING, V41, P237, DOI 10.1109/TMI.2021.3110829
+   Li Y, 2021, IEEE T NEUR SYS REH, V29, P1534, DOI 10.1109/TNSRE.2021.3099908
+   Li Y, 2022, IEEE T CYBERNETICS, V52, P12189, DOI 10.1109/TCYB.2021.3071860
+   Li Y, 2020, IEEE T MED IMAGING, V39, P2818, DOI 10.1109/TMI.2020.2976825
+   Li Y, 2020, IEEE T NEUR SYS REH, V28, P782, DOI 10.1109/TNSRE.2020.2973434
+   Loshchilov Ilya, 2016, ARXIV160803983, V0, P0
+   Luo ZL, 2017, IEEE T KNOWL DATA EN, V29, P2125, DOI 10.1109/TKDE.2017.2720734
+   Marin D, 2011, IEEE T MED IMAGING, V30, P146, DOI 10.1109/TMI.2010.2064333
+   Mendonca AM, 2006, IEEE T MED IMAGING, V25, P1200, DOI 10.1109/TMI.2006.879955
+   Mo Zhang, 2020, MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION - MICCAI 2020. 23RD INTERNATIONAL CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12265), V0, PP775, DOI 10.1007/978-3-030-59722-1_75
+   Mou L, 2021, MED IMAGE ANAL, V67, P0, DOI 10.1016/j.media.2020.101874
+   Mou L, 2020, IEEE T MED IMAGING, V39, P1392, DOI 10.1109/TMI.2019.2950051
+   Mou L, 2019, LECT NOTES COMPUT SC, V11764, P721, DOI 10.1007/978-3-030-32239-7_80
+   Oktay O, 2018, ARXIV, V0, P0
+   Qin AY, 2019, IEEE GEOSCI REMOTE S, V16, P241, DOI 10.1109/LGRS.2018.2869563
+   Qu Z, 2019, IEEE ACCESS, V7, P57604, DOI 10.1109/ACCESS.2019.2914151
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Roy AG, 2019, IEEE T MED IMAGING, V38, P540, DOI 10.1109/TMI.2018.2867261
+   Sanchez V, 2018, IEEE T MED IMAGING, V37, P2211, DOI 10.1109/TMI.2018.2824819
+   Scarselli F, 2009, IEEE T NEURAL NETWOR, V20, P81, DOI 10.1109/TNN.2008.2005141
+   Seo H, 2020, IEEE T MED IMAGING, V39, P1316, DOI 10.1109/TMI.2019.2948320
+   Sheng B, 2019, IEEE T CYBERNETICS, V49, P2707, DOI 10.1109/TCYB.2018.2833963
+   Shin SY, 2019, MED IMAGE ANAL, V58, P0, DOI 10.1016/j.media.2019.101556
+   Staal J, 2004, IEEE T MED IMAGING, V23, P501, DOI 10.1109/TMI.2004.825627
+   Sun L, 2020, IEEE T MED IMAGING, V39, P2000, DOI 10.1109/TMI.2019.2962792
+   Tang XL, 2020, APPL SOFT COMPUT, V93, P0, DOI 10.1016/j.asoc.2020.106353
+   Tang ZQ, 2020, IEEE T PATTERN ANAL, V42, P2038, DOI 10.1109/TPAMI.2019.2907634
+   Tolias YA, 1998, IEEE T MED IMAGING, V17, P263, DOI 10.1109/42.700738
+   Valsesia D, 2020, IEEE T IMAGE PROCESS, V29, P8226, DOI 10.1109/TIP.2020.3013166
+   VERHEIJ LF, 1991, IEEE T MED IMAGING, V10, P200, DOI 10.1109/42.79478
+   Wan S, 2020, IEEE T GEOSCI REMOTE, V58, P3162, DOI 10.1109/TGRS.2019.2949180
+   Wang B, 2021, IEEE J BIOMED HEALTH, V25, P1128, DOI 10.1109/JBHI.2020.3011178
+   Wei JH, 2022, IEEE T MED IMAGING, V41, P292, DOI 10.1109/TMI.2021.3111679
+   Wei Wang, 2020, MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION - MICCAI 2020. 23RD INTERNATIONAL CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12265), V0, PP796, DOI 10.1007/978-3-030-59722-1_77
+   Wu HS, 2021, MED IMAGE ANAL, V70, P0, DOI 10.1016/j.media.2021.102025
+   Xia WJ, 2021, IEEE T MED IMAGING, V40, P3459, DOI 10.1109/TMI.2021.3088344
+   Xia Y, 2014, IEEE T MED IMAGING, V33, P593, DOI 10.1109/TMI.2013.2291622
+   Yan QS, 2021, IEEE J BIOMED HEALTH, V25, P2629, DOI 10.1109/JBHI.2020.3042069
+   Yan ZQ, 2018, IEEE T MED IMAGING, V37, P1045, DOI 10.1109/TMI.2017.2778748
+   Yu LF, 2006, IEEE T MED IMAGING, V25, P869, DOI 10.1109/TMI.2006.872329
+   Zhang J, 2018, IEEE T BIO-MED ENG, V65, P1151, DOI 10.1109/TBME.2017.2787025
+   Zhang J, 2016, IEEE T MED IMAGING, V35, P2631, DOI 10.1109/TMI.2016.2587062
+   Zhang J, 2021, MED IMAGE ANAL, V73, P0, DOI 10.1016/j.media.2021.102183
+   Zhang XK, 2020, IEEE T NEUR NET LEAR, V31, P3047, DOI 10.1109/TNNLS.2019.2935173
+   Zhao FQ, 2021, IEEE T MED IMAGING, V40, P1217, DOI 10.1109/TMI.2021.3050072
+   Zhou X, 2020, IEEE T CYBERNETICS, V50, P1460, DOI 10.1109/TCYB.2018.2883970
+   Zhou ZL, 2021, IEEE T BIG DATA, V7, P559, DOI 10.1109/TBDATA.2019.2919570
+   Zhu YZ, 2020, IEEE INT C BIOINFORM, V0, PP952, DOI 10.1109/BIBM49941.2020.9313089
+NR 77
+TC 10
+Z9 10
+U1 27
+U2 67
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0278-0062
+EI 1558-254X
+J9 IEEE T MED IMAGING
+JI IEEE Trans. Med. Imaging
+PD AUG 15
+PY 2022
+VL 41
+IS 8
+BP 1975
+EP 1989
+DI 10.1109/TMI.2022.3151666
+PG 15
+WC Computer Science, Interdisciplinary Applications; Engineering, Biomedical; Engineering, Electrical & Electronic; Imaging Science & Photographic Technology; Radiology, Nuclear Medicine & Medical Imaging
+SC Computer Science; Engineering; Imaging Science & Photographic Technology; Radiology, Nuclear Medicine & Medical Imaging
+GA 3P0ZM
+UT WOS:000837269000007
+PM 35167444
+DA 2023-04-26
+ER
+
+PT J
+AU Lin, SW
+   Chen, N
+   Zhou, QN
+   Lin, TM
+   Li, HG
+AF Lin, Siwei
+   Chen, Nan
+   Zhou, Qianqian
+   Lin, Tinmin
+   Li, Huange
+TI A Scheme for Quickly Simulating Extraterrestrial Solar Radiation over Complex Terrain on a Large Spatial-Temporal Span-A Case Study over the Entirety of China
+SO REMOTE SENSING
+LA English
+DT Article
+DE extraterrestrial solar radiation; DEM; terrain shielding effect; spatial-temporal; machine learning algorithm
+ID possible sunshine duration; artificial neural-network; rugged terrains; model; slope; geomorphology; algorithms; prediction; parameters; spectrum
+AB Extraterrestrial solar radiation (ESR) is the essential basic background for solar radiation, which determines the occurrence of the weather and atmospheric phenomena. Since the influence of ESR variation on actual rugged terrain is a diverse, complex, and dynamic process, simulating ESR over a large spatial-temporal span, especially with a high-resolution digital elevation model (DEM), is a significant challenge. In this paper, we developed a new scheme for simulating ESR over the entirety of China using a DEM with a resolution of 30 m. To fully consider regional terrain status, the feature variables used were elevation, slope, and aspects of the located grid and the surrounding four grids to reveal the topography. In addition, latitude was used as a feature variable to consider the geographical location, and the month number was used to consider the duration. On the basis of different geographical locations, the training dataset was established from 20,000 grids. With the feature variable composition and training dataset, a backpropagation artificial neural network (BP ANN) was found to have the best performance compared with the other three machine learning methods in simulating ESR for a DEM. In terms of the proposed scheme and BP ANN, we drew an ESR map of China with a resolution of 30 m. The determination coefficient of the simulation result achieved 0.99 and the root-mean-square error was less than 50 MJ/m(2) in all sample areas, confirming its remarkable accuracy. In terms of efficiency, the time consumption of ESR simulated using the proposed scheme shrinks over 150 times in all sample areas compared to that simulated via the theoretical model. Simultaneously, the developed scheme was also used to simulate an ESR for a DEM with a resolution of 90 m to verify the universality and robustness of the developed scheme. In addition, we used the proposed scheme to derive the direct solar radiation and global solar radiation, thereby further proving the reliability and applicability of our study. Overall, our work convincingly proved that the proposed scheme is a potential and effective approach for quickly simulating ESR with high accuracy. This study provides the basis for different solar radiation inversions of long time series and large spatial scales, offering additional insights for simulating ESR on a large spatial-temporal span.
+C1 [Lin, Siwei; Chen, Nan; Zhou, Qianqian; Lin, Tinmin; Li, Huange] Fuzhou Univ, Minist Educ, Key Lab Spatial Data Min & Informat Sharing, Fuzhou 350116, Peoples R China.
+   [Lin, Siwei; Chen, Nan; Zhou, Qianqian; Lin, Tinmin; Li, Huange] Fuzhou Univ, Acad Digital China Fujian, Fuzhou 350116, Peoples R China.
+C3 Fuzhou University; Fuzhou University
+RP Chen, N (corresponding author), Fuzhou Univ, Minist Educ, Key Lab Spatial Data Min & Informat Sharing, Fuzhou 350116, Peoples R China.; Chen, N (corresponding author), Fuzhou Univ, Acad Digital China Fujian, Fuzhou 350116, Peoples R China.
+EM n195520011@fzu.edu.cn; chennan@fzu.edu.cn; 210310014@fzu.edu.cn; lintingmin_66@163.com; 132865@fzu.edu.cn
+FU National Natural Science Foundation of China [41771423, 41491339, 41930102, 41601408]
+CR ABBOTT MB, 1986, J HYDROL, V87, P61, DOI 10.1016/0022-1694(86)90115-0
+   Ahmad MJ, 2011, INT J ENERG RES, V35, P271, DOI 10.1002/er.1690
+   Al Daoud E., 2019, INT J COMPUT INFORM, V13, P6, DOI 10.5281/ZENODO.3607805
+   Ambreen R., 2015, J GEOGRAP INFOR SYST, V7, P65, DOI 10.4236/jgis.2015.71006
+   Ambreen R, 2011, J MT SCI-ENGL, V8, P427, DOI 10.1007/s11629-011-2004-z
+   Angstrom A., 1924, Q J ROY METEOR SOC, V50, P121, DOI 10.1002/QJ.49705021008
+   Bennett KP, 1998, IEEE WORLD CONGRESS ON COMPUTATIONAL INTELLIGENCE, V0, PP2396, DOI 10.1109/IJCNN.1998.687237
+   Bhatkhande DS, 2003, WATER RES, V37, P1223, DOI 10.1016/S0043-1354(02)00490-6
+   Burrough P., 2015, PRINCIPLES GEOGRAPHI, V0, P0
+   Cao DY, 2021, REMOTE SENS LETT, V12, P674, DOI 10.1080/2150704X.2021.1925371
+   Chang DH, 2000, REMOTE SENS ENVIRON, V74, P534, DOI 10.1016/S0034-4257(00)00144-9
+   Chen J, 2014, REMOTE SENS ENVIRON, V149, P213, DOI 10.1016/j.rse.2014.04.013
+   Chen N, 2020, FRONT EARTH SCI-PRC, V14, P171, DOI 10.1007/s11707-019-0770-z
+   Chen N, 2020, EARTH SCI INFORM, V13, P695, DOI 10.1007/s12145-020-00456-7
+   Chen N, 2020, J MT SCI-ENGL, V17, P133, DOI 10.1007/s11629-018-5246-1
+   Chen TQ, 2016, KDD16: PROCEEDINGS OF THE 22ND ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, PP785, DOI 10.1145/2939672.2939785
+   [程维明 Cheng Weiming], 2019, 地理学报 ACTA GEOGRAPHICA SINICA, V74, P839
+   Cheng WM, 2011, J GEOGR SCI, V21, P771, DOI 10.1007/s11442-011-0879-9
+   Corripio JG, 2003, INT J GEOGR INF SCI, V17, P1, DOI 10.1080/713811744
+   DOZIER J, 1990, IEEE T GEOSCI REMOTE, V28, P963, DOI 10.1109/36.58986
+   FALK RS, 1983, MATH COMPUT, V40, P537, DOI 10.2307/2007529
+   Fu B., 1983, MOUNTAIN CLIMATE, V0, P0
+   Fu P., 2000, P 4 INT C, V0, P0
+   Fu PD, 2002, COMPUT ELECTRON AGR, V37, P25, DOI 10.1016/S0168-1699(02)00115-1
+   Gao G., 1982, RAD BALANCE HEAT BAL, V0, P0
+   GATES DM, 1966, SCIENCE, V151, P523, DOI 10.1126/science.151.3710.523
+   GREENWOOD JA, 1950, J AM STAT ASSOC, V45, P257, DOI 10.2307/2280683
+   Haykin S, 1999, NEURAL NETWORKS COMP, V0, P0
+   [和清华 HE Qing-hua], 2010, 自然资源学报 JOURNAL OF NATURAL RESOURCES, V25, P308
+   Heydari SS, 2018, REMOTE SENS ENVIRON, V204, P648, DOI 10.1016/j.rse.2017.09.035
+   HORN BKP, 1981, P IEEE, V69, P14, DOI 10.1109/PROC.1981.11918
+   Iqbal M., 1983, INTRO SOLAR RAD, V0, P0
+   Jain P.C, 1988, SOL WIND TECHNOL, V5, P41, DOI 10.1016/0741-983X(88)90088-4
+   Jarvis A., 2008, HOLE FILLED SRTM GLO, V0, P0
+   Jiang YN, 2009, ENERGY, V34, P1276, DOI 10.1016/j.energy.2009.05.009
+   Kazak JK, 2018, ENERGIES, V11, P0, DOI 10.3390/en11082105
+   Li Jun, 2005, TRANSACTIONS OF THE CHINESE SOCIETY OF AGRICULTURAL ENGINEERING, V21, P141
+   Li X, 1999, CHINESE SCI BULL, V44, P1345, DOI 10.1007/BF02885977
+   Li Z., 1988, ACTA METEOROL SIN, V0, P461
+   Liang Dong, 2013, TRANSACTIONS OF THE CHINESE SOCIETY OF AGRICULTURAL ENGINEERING, V29, P117
+   Lin SW, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13193926
+   Lin SW, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10020056
+   Liu H, 2021, REMOTE SENS ENVIRON, V258, P0, DOI 10.1016/j.rse.2021.112364
+   Lu WF, 2019, REMOTE SENS ENVIRON, V229, P213, DOI 10.1016/j.rse.2019.04.009
+   Ma XJ, 2018, ELECTRON COMMER R A, V31, P24, DOI 10.1016/j.elerap.2018.08.002
+   MATTHEWS LK, 1985, J SOL ENERG-T ASME, V107, P29, DOI 10.1115/1.3267649
+   McKinney W.M., 1965, GEOGRAPHY VIA USE GL, V0, P0
+   Moorthy SMK, 2020, IEEE T GEOSCI REMOTE, V58, P3057, DOI 10.1109/TGRS.2019.2947198
+   Ning J.L.C., 1999, ACTA METEOROL SIN, V57, P198
+   Noble WS, 2006, NAT BIOTECHNOL, V24, P1565, DOI 10.1038/nbt1206-1565
+   Qazi A, 2015, J CLEAN PROD, V104, P1, DOI 10.1016/j.jclepro.2015.04.041
+   Shi C, 2021, IEEE T GEOSCI REMOTE, V59, P9861, DOI 10.1109/TGRS.2020.3038892
+   Shi GY, 2008, J APPL METEOROL CLIM, V47, P1006, DOI 10.1175/2007JAMC1493.1
+   SMITH JA, 1993, IEEE T GEOSCI REMOTE, V31, P1102, DOI 10.1109/36.263783
+   Su H, 2021, INT J APPL EARTH OBS, V102, P0, DOI 10.1016/j.jag.2021.102440
+   Su H, 2021, REMOTE SENS ENVIRON, V260, P0, DOI 10.1016/j.rse.2021.112465
+   Su H, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142294
+   Tang GA, 2008, SCI CHINA SER E, V51, P175, DOI 10.1007/s11431-008-5002-9
+   Tang WJ, 2018, J GEOPHYS RES-ATMOS, V123, P1724, DOI 10.1002/2017JD028005
+   TEMPS RC, 1977, SOL ENERGY, V19, P179, DOI 10.1016/0038-092X(77)90056-1
+   Urban G, 2017, THEOR APPL CLIMATOL, V129, P77, DOI 10.1007/s00704-016-1762-5
+   Voigt G, 1979, MAGNETOS BOUND LAYER, V148, P315
+   [王炳忠 Wang Bingzhong], 2012, 应用气象学报 JOURNAL OF APPLIED METEOROLGICAL SCIENCE, V23, P505
+   Wang L, 2014, J GEOGR SCI, V24, P980, DOI 10.1007/s11442-014-1132-0
+   Wang Li, 2009, 2009 1ST INTERNATIONAL CONFERENCE ON INFORMATION SCIENCE AND ENGINEERING (ICISE 2009), V0, PP2042, DOI 10.1109/ICISE.2009.513
+   Wang XP, 2020, INT J REMOTE SENS, V41, P953, DOI 10.1080/01431161.2019.1654142
+   Wang Y., 2007, MAR SCI B, V9, P1
+   Weng D, 1987, CHIN J SOL ENERGY, V0, PP9, DOI 10.13878/j.cnki.dqkxxb.1987.01.002
+   Weng D., 1964, ACTA METEOROL SIN, V34, P304
+   Whiteman C. D., 1986, ENVIRONMENTAL SOFTWARE, V1, P164, DOI 10.1016/0266-9838(86)90020-1
+   Wilson JP, 2012, GEOMORPHOLOGY, V137, P107, DOI 10.1016/j.geomorph.2011.03.012
+   Wu GF, 2007, ENERG CONVERS MANAGE, V48, P2447, DOI 10.1016/j.enconman.2007.04.011
+   Xiong LY, 2021, J GEOGR SCI, V31, P456, DOI 10.1007/s11442-021-1853-9
+   Yan X, 2020, IEEE T GEOSCI REMOTE, V58, P8427, DOI 10.1109/TGRS.2020.2987896
+   Yang FH, 2007, REMOTE SENS ENVIRON, V110, P109, DOI 10.1016/j.rse.2007.02.016
+   Yang SX, 2018, REMOTE SENS ENVIRON, V204, P448, DOI 10.1016/j.rse.2017.10.011
+   Zeng Y, 2005, CHINESE J GEOPHYS-CH, V48, P1028
+   Zeng Y, 2003, PROG NAT SCI-MATER, V13, P761, DOI 10.1080/10020070312331344380
+   Zeng Y., 2005, CHINESE J GEOPHYS-CH, V48, P680
+   [曾燕 Zeng Yan], 2003, 地理学报 ACTA GEOGRAPHICA SINICA, V58, P810
+   Zeng Yan, 2005, JOURNAL OF GEOGRAPHICAL SCIENCES, V15, P439, DOI 10.1360/gs050407
+   Zhang Gang, 2015, GEOMATICS AND INFORMATION SCIENCE OF WUHAN UNIVERSITY, V40, P834, DOI 10.13203/j.whugis2014120
+   [张刚 Zhang Gang], 2014, 地理与地理信息科学 GEOGRAPHY AND GEO-INFORMATION SCIENCE, V30, P11
+   Zhang JY, 2017, RENEW SUST ENERG REV, V70, P314, DOI 10.1016/j.rser.2016.11.124
+   Zhang J, 2019, J CHEM INF MODEL, V59, P4150, DOI 10.1021/acs.jcim.9b00633
+   Zhou J, 2005, ENERG CONVERS MANAGE, V46, P257, DOI 10.1016/j.enconman.2004.02.020
+   [周文臻 Zhou Wenzhen], 2018, 地球信息科学学报 JOURNAL OF GEO-INFORMATION SCIENCE, V20, P186
+   Zuo D, 1963, ACTA METEOROLOGICA, V33, P78
+NR 88
+TC 1
+Z9 1
+U1 3
+U2 13
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD APR 15
+PY 2022
+VL 14
+IS 7
+BP 
+EP 
+DI 10.3390/rs14071753
+PG 20
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 0M4SB
+UT WOS:000782144700001
+DA 2023-04-26
+ER

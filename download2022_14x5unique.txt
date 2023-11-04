@@ -1,0 +1,523 @@
+
+PT J
+AU Xu, YX
+   Zhu, HC
+   Hu, CY
+   Liu, HY
+   Cheng, Y
+AF Xu, Yuexue
+   Zhu, Hongchun
+   Hu, Changyu
+   Liu, Haiying
+   Cheng, Yu
+TI Deep learning of DEM image texture for landform classification in the Shandong area, China
+SO FRONTIERS OF EARTH SCIENCE
+LA English
+DT Review
+DE DEM image texture; comprehensive texture factor; texture spatial pattern features; Convolutional Neural Network; landform classification
+ID neural-networks; topography; watersheds; accuracy; model; scale
+AB Landforms are an important element of natural geographical environment, and textures are the research basis for the spatial differentiation, evolution features, and analysis rules of the landform. Using the regional difference of texture to describe the spatial distribution pattern of macro landform features is helpful to the landform classification and identification. Digital elevation model (DEM) image texture, which gives full expression to texture difference, is key data source to reflect the surface features and landform classification. Following the texture analysis, landform features analysis is assistant to different landforms classification, even in landform boundary. With the increasing accuracy requirement of landform information acquisition in geomorphic thematic mapping, hierarchical landform classification has become the focus and difficulty in research. Recently, the pattern recognition represented by Convolutional Neural Network has made great achievements in landform research, whose multichannel feature fusion structure satisfies the network structure of different landform classification. In this paper, DEM image texture was taken as the data source, and gray level co-occurrence matrix was applied to extract texture measures. Owing to the similarity of similar landform and the difference of different landform in a certain scale, a comprehensive texture factor reflecting landform features was proposed, and the spatial distribution pattern of landform features was systematically analyzed. On this basis, the coupling relationship between texture and landform type was explored. Thus, the deep learning method of Convolutional Neural Network is used to train the texture features, and the second-class landform classification is carried out through softmax. The classification results in small relief and mid-relief low mountains, overall accuracy are 84.35% and 69.95% respectively, while kappa coefficient are 0.72 and 0.40 respectively, were compared to that of traditional unsupervised landform classification results, and the superiority of Convolutional Neural Network classification was verified, it approximately improved 6% in overall accuracy and 0.4 in kappa coefficient.
+C1 [Xu, Yuexue; Zhu, Hongchun; Hu, Changyu; Cheng, Yu] Shandong Univ Sci & Technol, Coll Geodesy & Geomat, Qingdao 266590, Peoples R China.
+   [Liu, Haiying] Shandong Univ Sci & Technol, Coll Comp Sci & Engn, Qingdao 266590, Peoples R China.
+C3 Shandong University of Science & Technology; Shandong University of Science & Technology
+RP Zhu, HC (corresponding author), Shandong Univ Sci & Technol, Coll Geodesy & Geomat, Qingdao 266590, Peoples R China.
+EM sdny_xa@163.com
+FU National Natural Science Foundation of China [41930102, 41971339]; SDUST Research Fund [2019TDJH103]
+CR Ahmed J, 2019, 2019 2ND INTERNATIONAL CONFERENCE ON COMMUNICATION, V0, P178, DOI 10.1109/C-CODE.2019.8680969
+   Arrell KE, 2007, COMPUT GEOSCI-UK, V33, P1366, DOI 10.1016/j.cageo.2007.05.005
+   BAND LE, 1986, WATER RESOUR RES, V22, P15, DOI 10.1029/WR022i001p00015
+   Basu S, 2018, NEURAL NETWORKS, V97, P173, DOI 10.1016/j.neunet.2017.10.001
+   Bricher PK, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0072093
+   Bugnicourt P, 2018, GEOMORPHOLOGY, V317, P23, DOI 10.1016/j.geomorph.2018.03.017
+   Chen N, 2020, EARTH SCI INFORM, V13, P695, DOI 10.1007/s12145-020-00456-7
+   Chen N, 2014, EARTH SCI INFORM, V7, P277, DOI 10.1007/s12145-014-0154-6
+   Chen WT, 2014, REMOTE SENS ENVIRON, V152, P291, DOI 10.1016/j.rse.2014.07.004
+   Chen YS, 2017, IEEE GEOSCI REMOTE S, V14, P2355, DOI 10.1109/LGRS.2017.2764915
+   [程维明 Cheng Weiming], 2014, 地理科学进展 PROGRESS IN GEOGRAPHY, V33, P23
+   Chowdhury PR, 2011, IEEE J-STARS, V4, P171, DOI 10.1109/JSTARS.2010.2062491
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   De Reu J, 2013, GEOMORPHOLOGY, V186, P39, DOI 10.1016/j.geomorph.2012.12.015
+   Ding H, 2018, J MT SCI-ENGL, V15, P577, DOI 10.1007/s11629-017-4551-4
+   Dragut L, 2006, GEOMORPHOLOGY, V81, P330, DOI 10.1016/j.geomorph.2006.04.013
+   Du L, 2019, ISPRS J PHOTOGRAMM, V158, P63, DOI 10.1016/j.isprsjprs.2019.09.018
+   Eisank C., 2011, GEOMORPHOMETRY, V2011, P125
+   Franklin SE, 2017, PHOTOGRAMM ENG REM S, V83, P27, DOI 10.14358/PERS.83.1.27
+   Fu JD, 2018, IOP C SER EARTH ENV, V108, P0, DOI 10.1088/1755-1315/108/3/032025
+   Guvenc G, 2011, J ADV NURS, V67, P428, DOI 10.1111/j.1365-2648.2010.05450.x
+   Halls JN, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071109
+   HARALICK RM, 1973, IEEE T SYST MAN CYB, VSMC3, P610, DOI 10.1109/TSMC.1973.4309314
+   Ikechukwu M. N., 2017, JOURNAL OF GEOGRAPHIC INFORMATION SYSTEM, V9, P354, DOI 10.4236/jgis.2017.93022
+   Iwahashi J, 2007, GEOMORPHOLOGY, V86, P409, DOI 10.1016/j.geomorph.2006.09.012
+   KAISER HF, 1958, PSYCHOMETRIKA, V23, P187, DOI 10.1007/BF02289233
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Li SJ, 2020, GEOMORPHOLOGY, V354, P0, DOI 10.1016/j.geomorph.2020.107045
+   [李阳 Li Yang], 2019, 干旱区资源与环境 JOURNAL OF ARID LAND RESOURCES AND ENVIRONMENT, V33, P78
+   Liu K, 2013, GEOMORPHOMETRY, V0, P1
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mao MK., 1993, SCI GEOGRAPHICA SINI, V13, P26
+   Meneses BM, 2015, SCI TOTAL ENVIRON, V527, P439, DOI 10.1016/j.scitotenv.2015.04.092
+   Mezaal MR, 2018, CATENA, V167, P147, DOI 10.1016/j.catena.2018.04.038
+   Mokarram M, 2015, MODEL EARTH SYST ENV, V1, P0, DOI 10.1007/s40808-015-0055-9
+   Napitupulu D., 2017, INDONES J ELECT ENG, V5, P697
+   Nisha Sahu, 2014, AGROPEDOLOGY, V24, P166
+   Piloyan A, 2017, QUAEST GEOGR, V36, P93, DOI 10.1515/quageo-2017-0007
+   Prima ODA, 2006, GEOMORPHOLOGY, V78, P373, DOI 10.1016/j.geomorph.2006.02.005
+   Puissant A, 2005, INT J REMOTE SENS, V26, P733, DOI 10.1080/01431160512331316838
+   Rwanga S. S., 2017, INTERNATIONAL JOURNAL OF GEOSCIENCES, V8, P611, DOI 10.4236/ijg.2017.84033
+   Sharma A, 2010, GEO-SPAT INF SCI, V13, P201, DOI 10.1007/s11806-010-0342-6
+   Shi BH, 2013, HUAXIA ARCHAEOL, V04, P34
+   Shumack S, 2020, EARTH SURF PROC LAND, V45, P2417, DOI 10.1002/esp.4888
+   STORY M, 1986, PHOTOGRAMM ENG REM S, V52, P397
+   Tang GA, 2015, J GEOGR SCI, V25, P1452, DOI 10.1007/s11442-015-1245-0
+   Ungureanu T, 2017, J GEOCHEM EXPLOR, V176, P20, DOI 10.1016/j.gexplo.2016.08.012
+   Volpi M, 2013, INT J APPL EARTH OBS, V20, P77, DOI 10.1016/j.jag.2011.10.013
+   [王琛智 Wang Chenzhi], 2015, 地球信息科学学报 JOURNAL OF GEO-INFORMATION SCIENCE, V17, P45
+   Wieczorek M, 2014, GEOMORPHOLOGY, V206, P133, DOI 10.1016/j.geomorph.2013.10.005
+   Wongsuphasawat K, 2018, IEEE T VIS COMPUT GR, V24, P1, DOI 10.1109/TVCG.2017.2744878
+   [许炯心 XU Jiongxin], 2009, 地理学报 ACTA GEOGRAPHICA SINICA, V64, P1375
+   [赵荣 Zhao Rong], 2019, 测绘科学 SCIENCE OF SURVEYING AND MAPPING, V44, P248
+   Zhao WF, 2017, J MT SCI-ENGL, V14, P885, DOI 10.1007/s11629-016-4320-9
+   Zhao WD, 2019, REMOTE SENS LETT, V10, P449, DOI 10.1080/2150704X.2019.1569274
+   Zhi H, 2014, MAR GEOL, V357, P37, DOI 10.1016/j.margeo.2014.07.012
+   [周成虎 ZHOU Chenghu], 2009, 地球信息科学 GEO-INFORMATION SCIENCE, V11, P707
+   Zhu HC, 2018, J MT SCI-ENGL, V15, P2637, DOI 10.1007/s11629-018-5000-8
+   Zhu HC, 2019, FRONT EARTH SCI-PRC, V13, P641, DOI 10.1007/s11707-019-0751-2
+   Zhu HC, 2018, FRONT EARTH SCI-PRC, V12, P431, DOI 10.1007/s11707-018-0696-x
+NR 60
+TC 3
+Z9 4
+U1 4
+U2 43
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 2095-0195
+EI 2095-0209
+J9 FRONT EARTH SCI-PRC
+JI Front. Earth Sci.
+PD JUN 15
+PY 2022
+VL 16
+IS 2
+BP 352
+EP 367
+DI 10.1007/s11707-021-0884-y
+EA JUL 2021
+PG 16
+WC Geosciences, Multidisciplinary
+SC Geology
+GA 4F9DU
+UT WOS:000672115500001
+DA 2023-04-26
+ER
+
+PT J
+AU Fu, X
+   Liu, YF
+   Zhu, Q
+   Ge, DQ
+   Li, Y
+   Zeng, HW
+AF Fu, Xiao
+   Liu, Yuefan
+   Zhu, Qing
+   Ge, Daqing
+   Li, Yun
+   Zeng, Haowei
+TI Reliable assessment approach of landslide susceptibility in broad areas based on optimal slope units and negative samples involving priori knowledge
+SO INTERNATIONAL JOURNAL OF DIGITAL EARTH
+LA English
+DT Article
+DE Slope units; mapping units; landslide susceptibility assessment; digital elevation model; certainty factor; machine learning
+ID fuzzy multicriteria; gis; hazard; models
+AB Reliable assessment of landslide susceptibility in broad areas of terrain remains challenging due to complex topography and poor representation of randomly selected negative samples. Assessment in broad areas is now primarily based on grid units, which do not have a clear physical meaning like slope units, and their accuracy is not ideal. Nevertheless, the large amount of manual editing, due to the incorrectly generated horizontal and vertical lines during slope unit partitioning, limits using slope units for rapid assessment over large areas. Hence, this paper proposes a reliable susceptibility assessment approach to solve this problem based on optimal slope units and negative samples involving prior knowledge. Precisely, an algorithm to automatically extract slope units is designed to eliminate fragmented and erroneous units. Second, a samples labeling index (SLI) is defined based on the certainty factors model to select negative samples reasonably. Sichuan Province, China is selected for experimental analysis, with the results demonstrate that the optimized slope unit and the negative samples selection strategy consider prior knowledge achieve better results in the random forest model, support vector machine model, and artificial neural network model. In particular, the composite performance index AUC of artificial neural network model improved from 0.81 to 0.90.
+C1 [Fu, Xiao; Liu, Yuefan; Zhu, Qing; Zeng, Haowei] Southwest Jiaotong Univ, Fac Geosci & Environm Engn, Chengdu, Peoples R China.
+   [Ge, Daqing] China Aero Geophys Surveying & Remote Sensing Ctr, Beijing, Peoples R China.
+   [Li, Yun] Lanzhou Jiaotong Univ, Fac Geomat, Lanzhou, Peoples R China.
+C3 Southwest Jiaotong University; Lanzhou Jiaotong University
+RP Zhu, Q (corresponding author), 999 Xian Rd, Chengdu, Sichuan, Peoples R China.
+EM zhuqing@swjtu.edu.cn
+FU National Natural Science Foundation of China [41941019]; Identification of potential geohazards by integrated remote sensing technologies [DD20211365]
+CR Abu El-Magd SA, 2021, EARTH SCI INFORM, V14, P1227, DOI 10.1007/s12145-021-00653-y
+   Akinci H, 2021, NAT HAZARDS, V108, P1515, DOI 10.1007/s11069-021-04743-4
+   Ali SKA, 2022, NAT HAZARDS, V113, P1601, DOI 10.1007/s11069-022-05360-5
+   Ali SA, 2021, GEOSCI FRONT, V12, P857, DOI 10.1016/j.gsf.2020.09.004
+   Alvioli M, 2016, GEOSCI MODEL DEV, V9, P3975, DOI 10.5194/gmd-9-3975-2016
+   CARRARA A, 1995, ADV NAT TECHNOL HAZ, V5, P135
+   CARRARA A, 1991, EARTH SURF PROCESSES, V16, P427, DOI 10.1002/esp.3290160505
+   Chefaoui RM, 2008, ECOL MODEL, V210, P478, DOI 10.1016/j.ecolmodel.2007.08.010
+   Chen Z, 2020, GEOCARTO INT, V35, P1641, DOI 10.1080/10106049.2019.1582716
+   Costache R, 2021, GEOCARTO INT, V0, P0, DOI DOI 10.1080/10106049.2021.1973115
+   Dahal RK, 2012, GEOMAT NAT HAZ RISK, V3, P161, DOI 10.1080/19475705.2011.629007
+   Erener A, 2012, ENVIRON EARTH SCI, V66, P859, DOI 10.1007/s12665-011-1297-0
+   Giles PT, 1998, GEOMORPHOLOGY, V21, P251, DOI 10.1016/S0169-555X(97)00064-0
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Heckerman David., 1986, MACHINE INTELLIGENCE, V0, P0
+   Hu Q, 2020, GEOMORPHOLOGY, V351, P0, DOI 10.1016/j.geomorph.2019.106975
+   Huang FM, 2021, LANDSLIDES, V18, P3715, DOI 10.1007/s10346-021-01756-9
+   Jacobs L, 2020, GEOMORPHOLOGY, V356, P0, DOI 10.1016/j.geomorph.2020.107084
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Lin CH, 2018, ENG GEOL, V246, P310, DOI 10.1016/j.enggeo.2018.10.004
+   Liu LL, 2022, B ENG GEOL ENVIRON, V81, P0, DOI 10.1007/s10064-022-02836-3
+   Martinello C, 2021, J MAPS, V17, P152, DOI 10.1080/17445647.2020.1805807
+   Qi JD, 2020, J MANUF PROCESS, V59, P302, DOI 10.1016/j.jmapro.2020.09.061
+   Pham QB, 2021, GEOMAT NAT HAZ RISK, V12, P1741, DOI 10.1080/19475705.2021.1944330
+   Romstad B., 2009, P GEOMORPHOMETRY, V31, P55
+   Romstad B, 2012, GEOMORPHOLOGY, V139, P293, DOI 10.1016/j.geomorph.2011.10.031
+   Shortliffe E.H., 1975, MATH BIOSCI, V23, P351, DOI 10.1016/0025-5564(75)90047-4
+   Thomas AV, 2021, J GEOVIS SPAT ANAL, V5, P0, DOI 10.1007/s41651-021-00090-x
+   van Westen CJ, 2006, B ENG GEOL ENVIRON, V65, P167, DOI 10.1007/s10064-005-0023-0
+   Wang K, 2019, B ENG GEOL ENVIRON, V78, P4139, DOI 10.1007/s10064-018-1389-0
+   Xiao CC, 2010, SCI CHINA TECHNOL SC, V53, P75, DOI 10.1007/s11431-010-3219-x
+   Yalcin A, 2007, NAT HAZARDS, V41, P201, DOI 10.1007/s11069-006-9030-0
+   Zeng HW, 2022, INT J GEOGR INF SCI, V36, P2270, DOI 10.1080/13658816.2022.2103819
+   Zhu AX, 2019, CATENA, V183, P0, DOI 10.1016/j.catena.2019.104188
+NR 34
+TC 0
+Z9 0
+U1 0
+U2 0
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1753-8947
+EI 1753-8955
+J9 INT J DIGIT EARTH
+JI Int. J. Digit. Earth
+PD JUN 15
+PY 2022
+VL 15
+IS 1
+BP 2495
+EP 2510
+DI 10.1080/17538947.2022.2159549
+PG 16
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA 8Z5FM
+UT WOS:000933403900001
+DA 2023-04-26
+ER
+
+PT J
+AU Stephens, C
+   Exton, C
+AF Stephens, Conor
+   Exton, Chris
+TI Balancing Multiplayer Games across Player Skill Levels using Deep Reinforcement Learning
+SO ICAART: PROCEEDINGS OF THE 14TH INTERNATIONAL CONFERENCE ON AGENTS AND ARTIFICIAL INTELLIGENCE - VOL 3
+LA English
+DT Proceedings Paper
+DE Artificial Intelligence; Reinforcement Learning; Games Design; Deep Learning
+AB The balance or perceived fairness of Level & Character design within multiplayer games depends on the skill level of the players within the game, skills or abilities that have high contributions but require low skill, feel unfair for less skill players and can become the dominant strategy and playstyle if left unchecked. Player skill influences the viable tactics for different map designs, with some strategies only possible for the best players. Level designers hope to create various maps within the game world that are suited to different strategies, giving players interesting choices when deciding what to do next. This paper proposes using deep learning to measure the connection between player skills and balanced level design. This tool can be added to Unity game engine allowing designers to see the impact of their changes on the level's design on win-rate probability for different skilled teams. The tool is comprised of a neural network which takes as input the level layout as a stacked 2D one hot encoded array alongside the player parameters, skill rating chosen characters; the neural network output is the win rate probability between 0-1 for team 1. Data for this neural network is generated using learning agents that are learning the game using self-play (Silver et al., 2017) and the level data that is used for training the neural network is generated using procedural content generation (PCG) techniques.
+C1 [Stephens, Conor; Exton, Chris] Univ Limerick, Limerick, Ireland.
+C3 University of Limerick
+RP Stephens, C (corresponding author), Univ Limerick, Limerick, Ireland.
+FU Lero: The Irish Software Research Centre
+CR Cohen A., 2021, ABS211105992 CORR, V0, P0
+   Credits E, 2012, BALANCING SKILL THE, V0, P0
+   Elo A.E., 1978, RATING CHESSPLAYERS, V0, P0
+   Gisslen L., 2021, ABS210304847 CORR, V0, P0
+   Herbrich R., 2007, ADV NEURAL INFORM PR, V0, P569
+   Juliani A., 2018, ABS180902627 CORR, V0, P0
+   KARAVOLOS D, 2019, IEEE T GAMES, V0, P0
+   Karavolos D, 2018, IEEE CONF COMPU INTE, V0, P277
+   Liapis A., 2019, P IEEE C GAM, V0, P1
+   Narayan S, 1997, INFORM SCIENCES, V99, P69, DOI 10.1016/S0020-0255(96)00200-9
+   Nystrom R., 2014, GAME PROGRAMMING PAT, V0, P0
+   Silver D, 2018, SCIENCE, V362, P1140, DOI 10.1126/science.aar6404
+   Skyline, 2017, OV HARD HER SKILL CE, V0, P0
+   Stephens C., 2020, FDN DIGITAL GAMES, V0, P0
+   Zaykov Y, 2018, TRUESKILL 2 IMPROVED, V0, P0
+NR 15
+TC 0
+Z9 0
+U1 0
+U2 4
+PU SCITEPRESS
+PI SETUBAL
+PA AV D MANUELL, 27A 2 ESQ, SETUBAL, 2910-595, PORTUGAL
+SN 2184-433X
+EI 
+J9 ICAART
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 827
+EP 833
+DI 10.5220/0010914200003116
+PG 7
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications; Computer Science, Software Engineering; Computer Science, Theory & Methods
+SC Computer Science
+GA BS8PH
+UT WOS:000774776400101
+DA 2023-04-26
+ER
+
+PT J
+AU Das, R
+   Wegmann, KW
+AF Das, Raja
+   Wegmann, Karl W.
+TI Evaluation of machine learning-based algorithms for landslide detection across satellite sensors for the 2019 Cyclone Idai event, Chimanimani District, Zimbabwe
+SO LANDSLIDES
+LA English
+DT Article
+DE Machine learning; Landslide mapping; Remote sensing; Landslide volume estimation
+ID earthquake-induced landslides; climate-change; shallow landslides; erosion; impact; hazard; south; inventory; frequency; accuracy
+AB Changes in climatic patterns, manifested as intensified cyclones and torrential rainfalls in a warming world will inevitably impact the frequency of landslides. One such climatic extreme, Cyclone Idai (March 2019), caused significant havoc across southeastern Africa, including Mozambique, Malawi, and eastern Zimbabwe, by triggering thousands of landslides and widespread concurrent flooding, both of which resulted in substantial loss of life. The study was conducted in the Chimanimani District of eastern Zimbabwe to understand the impact of Cyclone Idai on landslide initiation, quantify the volume of mobilized hillslope material during the event, and compare the event-triggered material release against the annual erosional yield across the study area using machine learning and remote sensing techniques. We evaluated satellite imagery of various resolutions, namely, PlanetScope (3m/px),RapidEye (5m/px), and Sentinel-2 (tom/px) and three machine learning algorithms: artificial neural network (ANN), random forest (RF), and support vector machine (SVM) to identify landslides and compared the efficacy of the models. A total of nine predictor variables derived from the satellite imagery and a 3o-m ASTER Global Digital Elevation Model were employed to identify landslides and differentiate them from concurrent hydrological flooding. The models classified the study area into three classes: (i) landslides, (ii) flooding, and (iii) unaffected area. The RF model using PlanetScope satellite data attained the highest prediction accuracy of 97.88%, whereas the accuracy of other machine learning model-satellite data combinations ranged between 94.58 and 97.27%. Subsequently, landslide size thresholds were applied on the initially mapped landslides to eliminate noise and uncertainty from the data before estimating the final Cyclone Idai event-triggered landslide volume. A probability density function, which corresponds to a logarithmic plot of non-cumulative landslide frequency against the mapped landslide area, was employed to calculate landslide size thresholds using divergence and rollover point cutoff values. Finally, a landslide area-to-volume power-law scaling relationship was exploited to derive landslide volumes in the study area that ranged between 6.8 x 10(6) to 14.7 x 10(6) m(3) and 9.0 x 10(6) to 19.6 x 10(6) m(3) for divergence and rollover point thresholds, respectively, across the different combinations of machine learning models and satellite sensors. The estimated landslide volume indicates hillslope material liberated by Cyclone Idai was 269 to 345 times greater than the estimated annual average background denudation of the study area computed from a topography-based local erosion model.
+C1 [Das, Raja; Wegmann, Karl W.] North Carolina State Univ, Ctr Geospatial Analyt, 2800 Faucette Dr, Raleigh, NC 27695 USA.
+   [Wegmann, Karl W.] North Carolina State Univ, Dept Marine Earth & Atmospher Sci, 2800 Faucette Dr, Raleigh, NC 27695 USA.
+C3 North Carolina State University; North Carolina State University
+RP Das, R (corresponding author), North Carolina State Univ, Ctr Geospatial Analyt, 2800 Faucette Dr, Raleigh, NC 27695 USA.
+EM rdas3@ncsu.edu; kwwegman@ncsu.edu
+CR AHNERT F, 1970, AM J SCI, V268, P243, DOI 10.2475/ajs.268.3.243
+   Althuwaynee OF, 2015, LANDSLIDES, V12, P861, DOI 10.1007/s10346-014-0512-y
+   Behling R, 2016, REMOTE SENS ENVIRON, V186, P88, DOI 10.1016/j.rse.2016.07.017
+   Behling R, 2014, REMOTE SENS-BASEL, V6, P8026, DOI 10.3390/rs6098026
+   Borgatti L, 2010, GEOMORPHOLOGY, V120, P56, DOI 10.1016/j.geomorph.2009.09.015
+   Bucknam RC, 2001, US GEOLOGICAL SURVEY, V0, P0
+   Button A, 1977, STRATIGRAPHIC HIST M, V0, P0
+   Campforts B, 2020, GEOSCI MODEL DEV, V13, P3863, DOI 10.5194/gmd-13-3863-2020
+   Cardinali M, 2006, NAT HAZARD EARTH SYS, V6, P237, DOI 10.5194/nhess-6-237-2006
+   Chanza N, 2020, INT J DISAST RISK SC, V11, P655, DOI 10.1007/s13753-020-00290-x
+   Chingombe W, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su13073773
+   Ciabatta L, 2016, J HYDROL, V541, P285, DOI 10.1016/j.jhydrol.2016.02.007
+   Ciervo F, 2017, LANDSLIDES, V14, P1043, DOI 10.1007/s10346-016-0743-1
+   Crozier MJ, 2010, GEOMORPHOLOGY, V124, P260, DOI 10.1016/j.geomorph.2010.04.009
+   Dragut L, 2010, INT J GEOGR INF SCI, V24, P859, DOI 10.1080/13658810903174803
+   Foody GM, 2010, REMOTE SENS ENVIRON, V114, P2271, DOI 10.1016/j.rse.2010.05.003
+   Froude MJ, 2018, NAT HAZARD EARTH SYS, V18, P2161, DOI 10.5194/nhess-18-2161-2018
+   Gariano SL, 2016, EARTH-SCI REV, V162, P227, DOI 10.1016/j.earscirev.2016.08.011
+   Geertsema M, 2009, LANDSLIDES - DISASTER RISK REDUCTION, V0, PP589, DOI 10.1007/978-3-540-69970-5_31
+   Ghosh S, 2012, ENG GEOL, V128, P49, DOI 10.1016/j.enggeo.2011.03.016
+   Gold R, 2004, COMPARATIVE STUDY AE, V0, P0
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Guzzetti F, 2012, EARTH-SCI REV, V112, P42, DOI 10.1016/j.earscirev.2012.02.001
+   Haque U, 2019, SCI TOTAL ENVIRON, V682, P673, DOI 10.1016/j.scitotenv.2019.03.415
+   Huffman G.J., 2019, GPM IMERG FINAL PREC, V0, P0, DOI DOI 10.5067/GPM/IMERG/3B-HH/06
+   Huggel C, 2012, EARTH SURF PROC LAND, V37, P77, DOI 10.1002/esp.2223
+   Hungr O, 2016, LANDSLIDES AND ENGINEERED SLOPES: EXPERIENCE, V0, P0
+   Jaboyedoff M, 2012, NAT HAZARDS, V61, P5, DOI 10.1007/s11069-010-9634-2
+   Kasai M, 2009, GEOMORPHOLOGY, V113, P57, DOI 10.1016/j.geomorph.2009.06.004
+   Koppen W., 1884, METEOROL Z, V1, P215
+   Korup O, 2009, EARTH SURF PROC LAND, V34, P1315, DOI 10.1002/esp.1830
+   Kunedzimwe F., 2021, CYCLONES SO AFRICA, V0, PP229, DOI 10.1007/978-3-030-74303-1_15
+   Kusangaya S, 2014, PHYS CHEM EARTH, V67-69, P47, DOI 10.1016/j.pce.2013.09.014
+   Lahusen SR, 2020, SCI ADV, V6, P0, DOI 10.1126/sciadv.aba6790
+   Larsen IJ, 2010, NAT GEOSCI, V3, P247, DOI 10.1038/NGEO776
+   Larsen MC, 1900, P153, V0, P0, DOI DOI 10.3133/pp1789f
+   Lee S, 2006, ADV SPACE RES, V38, P2261, DOI 10.1016/j.asr.2006.03.036
+   Li ZB, 2016, REMOTE SENS ENVIRON, V187, P76, DOI 10.1016/j.rse.2016.10.008
+   Lu P, 2019, REMOTE SENS ENVIRON, V231, P0, DOI 10.1016/j.rse.2019.111235
+   Malamud BD, 2004, EARTH SURF PROC LAND, V29, P687, DOI 10.1002/esp.1064
+   Malherbe J, 2013, CLIM DYNAM, V40, P2867, DOI 10.1007/s00382-012-1635-2
+   Martha TR, 2013, GEOMORPHOLOGY, V184, P139, DOI 10.1016/j.geomorph.2012.12.001
+   Martha TR, 2012, ISPRS J PHOTOGRAMM, V67, P105, DOI 10.1016/j.isprsjprs.2011.11.004
+   Martha TR, 2010, GEOMORPHOLOGY, V116, P24, DOI 10.1016/j.geomorph.2009.10.004
+   Mondini AC, 2011, REMOTE SENS ENVIRON, V115, P1743, DOI 10.1016/j.rse.2011.03.006
+   Mondini AC, 2011, GEOMORPHOLOGY, V134, P440, DOI 10.1016/j.geomorph.2011.07.021
+   Montgomery DR, 2002, EARTH PLANET SC LETT, V201, P481, DOI 10.1016/S0012-821X(02)00725-2
+   Mukwakwami J, 2012, STRUCTURAL GEOLOGY U, V0, P0
+   Munsaka E, 2021, INT J DISAST RISK SC, V12, P689, DOI 10.1007/s13753-021-00370-6
+   Muthige MS, 2018, ENVIRON RES LETT, V13, P0, DOI 10.1088/1748-9326/aabc60
+   Niang I, 2014, CLIMATE CHANGE 2014: IMPACTS, V0, P0
+   Nichol J, 2005, INT J REMOTE SENS, V26, P1913, DOI 10.1080/01431160512331314047
+   Olden JD, 2004, ECOL MODEL, V178, P389, DOI 10.1016/j.ecolmodel.2004.03.013
+   Olofsson P, 2014, REMOTE SENS ENVIRON, V148, P42, DOI 10.1016/j.rse.2014.02.015
+   Parker RN, 2015, EARTH SURF DYNAM, V3, P501, DOI 10.5194/esurf-3-501-2015
+   PEARCE AJ, 1986, GEOLOGY, V14, P52, DOI 10.1130/0091-7613(1986)14<52:EOELOS>2.0.CO;2
+   Pillay MT, 2019, CLIM RES, V79, P23, DOI 10.3354/cr01575
+   Planet Team, 1900, P1, V0, P0
+   Sangelantoni L, 2018, NAT HAZARDS, V93, P849, DOI 10.1007/s11069-018-3328-6
+   Scheip CM, 2021, NAT HAZARD EARTH SYS, V21, P1495, DOI 10.5194/nhess-21-1495-2021
+   Schlogel R, 2015, GEOMORPHOLOGY, V231, P314, DOI 10.1016/j.geomorph.2014.11.031
+   Schulz WH, 2004, US GEOLOGICAL SURVEY, V0, P0
+   Sidle RC, 2006, WATER RESOUR MONOGR, V18, P312, DOI 10.1029/WM018
+   Simonett D. S., 1967, LANDFORM STUDIES AUS, V0, P64
+   Soldati M, 2004, CATENA, V55, P141, DOI 10.1016/S0341-8162(03)00113-9
+   Stocklmayer V, 1978, GEOLOGY COUNTRY INYA, V0, P0
+   Stumpf A, 2011, REMOTE SENS ENVIRON, V115, P2564, DOI 10.1016/j.rse.2011.05.013
+   Tanyas H, 2019, EARTH SURF PROC LAND, V44, P900, DOI 10.1002/esp.4543
+   Tanyas H, 2018, EARTH SURF PROC LAND, V43, P1836, DOI 10.1002/esp.4359
+   Tsai F, 2010, NAT HAZARD EARTH SYS, V10, P2179, DOI 10.5194/nhess-10-2179-2010
+   UNICEF, 2020, ON YEAR CYCL ID 2 5, V0, P0
+   United Nation Children Education Fund (UNICEF), 2019, UNICEF ZIMB CYCL ID, V0, P0
+   Van den Eeckhaut M, 2007, EARTH PLANET SC LETT, V256, P588, DOI 10.1016/j.epsl.2007.01.040
+   Warren Matthew, 2019, NATURE, V0, P0, DOI DOI 10.1038/d41586-019-00981-6
+   Watson R, 1969, GEOLOGY CASHEL MELSE, V0, P0
+   Weirich F, 2007, GEOMORPHOLOGY, V87, P352, DOI 10.1016/j.geomorph.2006.10.003
+NR 76
+TC 0
+Z9 0
+U1 9
+U2 12
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1612-510X
+EI 1612-5118
+J9 LANDSLIDES
+JI Landslides
+PD DEC 15
+PY 2022
+VL 19
+IS 12
+BP 2965
+EP 2981
+DI 10.1007/s10346-022-01912-9
+EA AUG 2022
+PG 17
+WC Engineering, Geological; Geosciences, Multidisciplinary
+SC Engineering; Geology
+GA 5W9RV
+UT WOS:000840286800001
+DA 2023-04-26
+ER
+
+PT J
+AU Xu, ZH
+   Peng, J
+   Zhang, HB
+   Liu, YX
+   Dong, JQ
+   Qiu, SJ
+AF Xu, Zihan
+   Peng, Jian
+   Zhang, Hanbing
+   Liu, Yanxu
+   Dong, Jianquan
+   Qiu, Sijing
+TI Exploring spatial correlations between ecosystem services and sustainable development goals: a regional-scale study from China
+SO LANDSCAPE ECOLOGY
+LA English
+DT Article
+DE Ecosystem services; Sustainable Development Goals; Urbanization; Spatial zoning; Cluster analysis
+ID health; management; insights; impacts; linking; bundles; areas; food
+AB Context Ecosystem services (ESs) are the bridge connecting natural capital and social development. Incorporating ESs into social-ecological management strategy helps to achieve the Sustainable Development Goals (SDGs). However, there is currently a lack of quantitative exploration of the correlations between ES and SDGs, especially from a spatial zoning perspective. Objectives This study attempted to explore spatial correlations between ESs and SDGs to support sustainable landscape planning in Guangdong Province, China. Methods The self-organizing feature map neural network analysis was used to characterize the spatial clustering of eight types of ESs and three types of SDGs, and the spatial explanatory power of ESs for SDGs in different zones was analyzed with the application of geographical detector. Results Guangdong Province was divided into four zones based on spatial clustering: ecological regulation dominant zone (Zone 1), production-ecology transition zone (Zone 2), key grain production zone (Zone 3), and high well-being zone (Zone 4). The high ESs values were concentrated in the Zone 1, and the high SDGs values were concentrated in the Zone 4. In the Zone 1, habitat quality and soil conservation had high explanatory power for no poverty, while water yield and soil conservation had high explanatory power for zero hunger. In the Zone 2, water yield and habitat quality had high explanatory power for no poverty. In the Zone 3, grain production and tropical cyclone impact mitigation had high explanatory power for no poverty, while soil conservation had high explanatory power for zero hunger. In the Zone 4, grain production had high explanatory power for no poverty, while landscape recreation had high explanatory power for good health. Conclusions The spatial correlations between ESs and SDGs were obviously different among regions with different social-ecological backgrounds. When implementing SDGs-oriented sustainable landscape planning, targeted strategies are needed based on the correlations between ESs and SDGs in different regions.
+C1 [Xu, Zihan; Peng, Jian; Zhang, Hanbing; Dong, Jianquan; Qiu, Sijing] Peking Univ, Coll Urban & Environm Sci, Lab Earth Surface Proc, Minist Educ, Beijing 100871, Peoples R China.
+   [Liu, Yanxu] Beijing Normal Univ, Fac Geog Sci, State Key Lab Earth Surface Proc & Resource Ecol, Beijing 100875, Peoples R China.
+C3 Peking University; Beijing Normal University
+RP Peng, J (corresponding author), Peking Univ, Coll Urban & Environm Sci, Lab Earth Surface Proc, Minist Educ, Beijing 100871, Peoples R China.
+EM zihan_xu@pku.edu.cn; jianpeng@urban.pku.edu.cn; zhb_19@pku.edu.cn; yanxuliu@bnu.edu.cn; djquan@pku.edu.cn; qsjing6688@126.com
+FU National Natural Science Foundation of China [U20A2084]
+CR Adshead D, 2019, GLOBAL ENVIRON CHANG, V59, P0, DOI 10.1016/j.gloenvcha.2019.101975
+   Aiga H, 2019, BMC PUBLIC HEALTH, V19, P0, DOI 10.1186/s12889-019-7013-9
+   Alam KM, 2021, RES TRANSP ECON, V88, P0, DOI 10.1016/j.retrec.2020.100974
+   Anderson CB, 2019, SUSTAIN SCI, V14, P543, DOI 10.1007/s11625-018-0643-5
+   Baro F, 2017, ECOSYST SERV, V24, P147, DOI 10.1016/j.ecoser.2017.02.021
+   Bethwell C, 2022, ECOSYST SERV, V53, P0, DOI 10.1016/j.ecoser.2021.101402
+   CHANG Y, 1994, B WORLD HEALTH ORGAN, V72, P105
+   Chen HS, 2017, SUSTAINABILITY-BASEL, V9, P0, DOI 10.3390/su9061002
+   Costanza R, 2017, ECOSYST SERV, V28, P1, DOI 10.1016/j.ecoser.2017.09.008
+   Cumming GS, 2018, P NATL ACAD SCI USA, V115, P9533, DOI 10.1073/pnas.1807026115
+   Cumming GS, 2017, ECOSYSTEMS, V20, P649, DOI 10.1007/s10021-016-0089-5
+   De Carvalho RM, 2019, ENVIRON POLLUT, V245, P844, DOI 10.1016/j.envpol.2018.10.114
+   de Groot RS, 2010, ECOL COMPLEX, V7, P260, DOI 10.1016/j.ecocom.2009.10.006
+   Deal RL, 2012, FOREST POLICY ECON, V17, P69, DOI 10.1016/j.forpol.2011.12.007
+   Dou HS, 2020, J CLEAN PROD, V256, P0, DOI 10.1016/j.jclepro.2020.120444
+   Fetahi T, 2011, ECOL MODEL, V222, P804, DOI 10.1016/j.ecolmodel.2010.09.038
+   Frayne B, 2015, GEOFORUM, V65, P1, DOI 10.1016/j.geoforum.2015.06.025
+   Gao Y, 2014, J URBAN PLAN DEV, V140, P0, DOI 10.1061/(ASCE)UP.1943-5444.0000170
+   Geijzendorffer IR, 2017, ENVIRON SCI POLICY, V74, P40, DOI 10.1016/j.envsci.2017.04.017
+   Glade S, 2022, INT J DISAST RISK RE, V80, P0, DOI 10.1016/j.ijdrr.2022.103190
+   Gonzalez-Pier E, 2016, LANCET GLOB HEALTH, V4, PE714, DOI 10.1016/S2214-109X(16)30181-4
+   Guangdong Health and Family Planning Yearbook, 2016, FAM PLANN COMM GUANG, V0, P0
+   Guangdong Statistical Yearbook, 2021, STAT BUR GUANGD PROV, V0, P0
+   Guangdong Statistical Yearbook, 2016, STAT BUR GUANGD PROV, V0, P0
+   Han XJ, 2020, ENVIRON DEV, V34, P0, DOI 10.1016/j.envdev.2020.100525
+   Hedblom M, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-46099-7
+   Hong T, 2021, CITIES, V117, P0, DOI 10.1016/j.cities.2021.103299
+   Huang LX, 2020, J URBAN MANAG, V9, P104, DOI 10.1016/j.jum.2019.11.005
+   Huang QX, 2020, ECOSYST SERV, V43, P0, DOI 10.1016/j.ecoser.2020.101106
+   Huang Z., 2017, CHIN PRIMARY HLTH CA, V31, P35
+   ICSU I.S.S.C., 2015, REV SUST DEV GOALS S, V0, P0
+   IPBES, 2016, DEC SCOP REP IPBES G, V0, P0
+   Johnson JA, 2019, ECOL APPL, V29, P0, DOI 10.1002/eap.1985
+   Kallis G, 2013, ECOL ECON, V94, P97, DOI 10.1016/j.ecolecon.2013.07.002
+   Keesing F, 2010, NATURE, V468, P647, DOI 10.1038/nature09575
+   kohonen T., 1995, RENDICONTI CIRCOLO M, V44, P506, DOI 10.1007/BF02844683
+   Lan F, 2020, CITIES, V100, P0, DOI 10.1016/j.cities.2019.102454
+   Li DH, 2022, LANDSCAPE URBAN PLAN, V227, P0, DOI 10.1016/j.landurbplan.2022.104544
+   Li J, 2018, CITIES, V81, P172, DOI 10.1016/j.cities.2018.04.006
+   Li SC, 2010, ENVIRON MODELL SOFTW, V25, P1789, DOI 10.1016/j.envsoft.2010.06.011
+   Lindeman RL, 1942, ECOLOGY, V23, P399, DOI 10.2307/1930126
+   Liu LJ, 2020, SUSTAIN SCI, V15, P297, DOI 10.1007/s11625-019-00758-w
+   Liu TS., 2018, MAR FORECASTS, V35, P68
+   Liu YX, 2019, J ENVIRON MANAGE, V249, P0, DOI 10.1016/j.jenvman.2019.109315
+   Lopez-Valcarcel BG, 2008, VALUE HEALTH, V11, P88, DOI 10.1111/j.1524-4733.2007.00217.x
+   Lu YL, 2019, SCI ADV, V5, P0, DOI 10.1126/sciadv.aau9413
+   MA (Millennium Ecosystem Assessment), 2005, EC HUM WELL BEING CU, V0, P829
+   Mandle L, 2021, NAT SUSTAIN, V4, P161, DOI 10.1038/s41893-020-00625-y
+   Pham NTT, 2020, CLIM RISK MANAG, V28, P0, DOI 10.1016/j.crm.2020.100215
+   Ninan KN, 2016, ECOSYST SERV, V20, P1, DOI 10.1016/j.ecoser.2016.05.001
+   Ono A.J., 2021, PEOPLE NAT, V0, PP1, DOI 10.1002/pan3.10188
+   Pan XY, 2019, GLOB ECOL CONSERV, V18, P0, DOI 10.1016/j.gecco.2019.e00630
+   Peng J, 2020, ECOSYST SERV, V46, P0, DOI 10.1016/j.ecoser.2020.101199
+   Peng J, 2020, LANDSCAPE ECOL, V35, P421, DOI 10.1007/s10980-019-00956-y
+   Peng J, 2019, SCI TOTAL ENVIRON, V660, P765, DOI 10.1016/j.scitotenv.2019.01.023
+   Peng J, 2017, AGR ECOSYST ENVIRON, V246, P221, DOI 10.1016/j.agee.2017.06.007
+   Pretty J, 2018, SCIENCE, V362, P908, DOI 10.1126/science.aav0294
+   Reyers B, 2020, NAT ECOL EVOL, V4, P1011, DOI 10.1038/s41559-020-1230-6
+   Santora JA, 2020, NAT COMMUN, V11, P0, DOI 10.1038/s41467-019-14215-w
+   Segre H, 2020, J APPL ECOL, V57, P2041, DOI 10.1111/1365-2664.13713
+   Smith P, 2019, ANNU REV ENV RESOUR, V44, P255, DOI 10.1146/annurev-environ-101718-033129
+   Stephanakis IM, 2013, NEUROCOMPUTING, V107, P97, DOI 10.1016/j.neucom.2012.09.010
+   Su J, 2021, NAT COMMUN, V12, P0, DOI 10.1038/s41467-021-25349-1
+   Su Y, 2021, NAT CLIM CHANGE, V11, P628, DOI 10.1038/s41558-021-01075-w
+   Sun Y, 2020, J CLEAN PROD, V255, P0, DOI 10.1016/j.jclepro.2020.120285
+   Thacker S, 2019, NAT SUSTAIN, V2, P324, DOI 10.1038/s41893-019-0256-8
+   United Nations, 2015, TRANSF OUR WORLD 203, V0, P0
+   Valenzuela N, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-40597-4
+   Vasseur L, 2017, AMBIO, V46, P731, DOI 10.1007/s13280-017-0918-6
+   Vaz AS, 2017, ECOSYST SERV, V23, P94, DOI 10.1016/j.ecoser.2016.11.017
+   Vince G, 2011, SCIENCE, V334, P32, DOI 10.1126/science.334.6052.32
+   von Dohren P, 2019, ECOSYST SERV, V40, P0, DOI 10.1016/j.ecoser.2019.101031
+   Wang J, 2022, HABITAT INT, V125, P0, DOI 10.1016/j.habitatint.2022.102598
+   Wang JF, 2010, INT J GEOGR INF SCI, V24, P107, DOI 10.1080/13658810802443457
+   [王劲峰 Wang Jinfeng], 2017, 地理学报 ACTA GEOGRAPHICA SINICA, V72, P116
+   Wang XC, 2017, ECOSYST SERV, V27, P113, DOI 10.1016/j.ecoser.2017.08.013
+   Ward M, 2018, ECOSYST SERV, V29, P56, DOI 10.1016/j.ecoser.2017.10.023
+   West PC, 2019, ONE EARTH, V1, P303, DOI 10.1016/j.oneear.2019.11.002
+   Wood SLR, 2018, ECOSYST SERV, V29, P70, DOI 10.1016/j.ecoser.2017.10.010
+   Xiao Q, 2017, J CLEAN PROD, V163, PS172, DOI 10.1016/j.jclepro.2016.09.012
+   Xu K, 2013, HYDROL PROCESS, V27, P2557, DOI 10.1002/hyp.9368
+   Xu Z., 2022, SCI TOTAL ENV, V850, P0
+   Xu ZC, 2020, NAT SUSTAIN, V3, P964, DOI 10.1038/s41893-020-0572-z
+   Xu ZC, 2020, NATURE, V577, P74, DOI 10.1038/s41586-019-1846-3
+   Xu ZH, 2022, ENVIRON SCI POLICY, V135, P6, DOI 10.1016/j.envsci.2022.04.010
+   Xu ZH, 2022, LANDSCAPE URBAN PLAN, V217, P0, DOI 10.1016/j.landurbplan.2021.104258
+   Xu ZH, 2020, SCI TOTAL ENVIRON, V705, P0, DOI 10.1016/j.scitotenv.2019.135853
+   Yang SQ, 2020, GEOGR SUSTAIN, V1, P321, DOI 10.1016/j.geosus.2020.09.004
+   Yang YY, 2019, J CLEAN PROD, V225, P11, DOI 10.1016/j.jclepro.2019.03.242
+   Zhen HY, 2021, ECOSYST SERV, V50, P0, DOI 10.1016/j.ecoser.2021.101323
+   Zheng H, 2019, P NATL ACAD SCI USA, V116, P8623, DOI 10.1073/pnas.1819501116
+   Zheng W, 2019, ENERG ECON, V80, P153, DOI 10.1016/j.eneco.2019.01.004
+NR 92
+TC 1
+Z9 1
+U1 76
+U2 76
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0921-2973
+EI 1572-9761
+J9 LANDSCAPE ECOL
+JI Landsc. Ecol.
+PD DEC 15
+PY 2022
+VL 37
+IS 12
+BP 3201
+EP 3221
+DI 10.1007/s10980-022-01542-5
+EA OCT 2022
+PG 21
+WC Ecology; Geography, Physical; Geosciences, Multidisciplinary
+SC Environmental Sciences & Ecology; Physical Geography; Geology
+GA 6N7BG
+UT WOS:000875581400002
+DA 2023-04-26
+ER
