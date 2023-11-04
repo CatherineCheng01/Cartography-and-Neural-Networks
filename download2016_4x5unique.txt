@@ -1,0 +1,540 @@
+
+PT J
+AU Zhu, Z
+   Gallant, AL
+   Woodcock, CE
+   Pengra, B
+   Olofsson, P
+   Loveland, TR
+   Jin, S
+   Dahal, D
+   Yang, L
+   Auch, RF
+AF Zhu, Zhe
+   Gallant, Alisa L.
+   Woodcock, Curtis E.
+   Pengra, Bruce
+   Olofsson, Pontus
+   Loveland, Thomas R.
+   Jin, Suming
+   Dahal, Devendra
+   Yang, Limin
+   Auch, Roger F.
+TI Optimizing selection of training and auxiliary data for operational land cover classification for the LCMAP initiative
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Continuous Change Detection and Classification (CCDC); Training strategy; Auxiliary data; Land cover classification; Landsat
+ID random forest classification; ancillary data; image classification; cloud shadow; sample selection; neural-network; snow detection; united-states; accuracy; tm
+AB The U.S. Geological Survey's Land Change Monitoring, Assessment, and Projection (LCMAP) initiative is a new end-to-end capability to continuously track and characterize changes in land cover, use, and condition to better support research and applications relevant to resource management and environmental change. Among the LCMAP product suite are annual land cover maps that will be available to the public. This paper describes an approach to optimize the selection of training and auxiliary data for deriving the thematic land cover maps based on all available clear observations from Landsats 4-8. Training data were selected from map products of the U.S. Geological Survey's Land Cover Trends project. The Random Forest classifier was applied for different classification scenarios based on the Continuous Change Detection and Classification (CCDC) algorithm. We found that extracting training data proportionally to the occurrence of land cover classes was superior to an equal distribution of training data per class, and suggest using a total of 20,000 training pixels to classify an area about the size of a Landsat scene. The problem of unbalanced training data was alleviated by extracting a minimum of 600 training pixels and a maximum of 8000 training pixels per class. We additionally explored removing outliers contained within the training data based on their spectral and spatial criteria, but observed no significant improvement in classification results. We also tested the importance of different types of auxiliary data that were available for the conterminous United States, including: (a) five variables used by the National Land Cover Database, (b) three variables from the cloud screening "Function of mask" (Fmask) statistics, and (c) two variables from the change detection results of CCDC. We found that auxiliary variables such as a Digital Elevation Model and its derivatives (aspect, position index, and slope), potential wetland index, water probability, snow probability, and cloud probability improved the accuracy of land cover classification. Compared to the original strategy of the CCDC algorithm (500 pixels per class), the use of the optimal strategy improved the classification accuracies substantially (15-percentage point increase in overall accuracy and 4-percentage point increase in minimum accuracy). (C) 2016 International Society for Photogrammetry and Remote Sensing, Inc. (ISPRS). Published by Elsevier B.V. All rights reserved.
+C1 [Zhu, Zhe] Texas Tech Univ, Dept Geosci, MS 1053,Sci Bldg 125, Lubbock, TX 79409 USA.
+   [Gallant, Alisa L.; Loveland, Thomas R.; Auch, Roger F.] US Geol Survey, Earth Resources Observat & Sci EROS Ctr, 47914 252nd St, Sioux Falls, SD 57198 USA.
+   [Woodcock, Curtis E.; Olofsson, Pontus] Boston Univ, Dept Earth & Environm, 685 Commonwealth Ave, Boston, MA 02215 USA.
+   [Pengra, Bruce; Dahal, Devendra; Yang, Limin] US Geol Survey, SGT, Earth Resources Observat & Sci EROS Ctr, 47914 252nd St, Sioux Falls, SD 57198 USA.
+   [Zhu, Zhe; Jin, Suming] US Geol Survey, ASRC InuTeq, Earth Resources Observat & Sci EROS Ctr, 47914 252nd St, Sioux Falls, SD 57198 USA.
+C3 Texas Tech University System; Texas Tech University; United States Department of the Interior; United States Geological Survey; Boston University; Stinger Ghaffarian Technologies, Inc. (SGT); United States Department of the Interior; United States Geological Survey; United States Department of the Interior; United States Geological Survey
+RP Zhu, Z (corresponding author), Texas Tech Univ, Dept Geosci, MS 1053,Sci Bldg 125, Lubbock, TX 79409 USA.
+EM zhe.zhu@ttu.edu
+FU USGS [G13PC00028, G15PC00012]
+CR Anderson J. R., 1976, LAND USE LAND COVER, V964, P0
+   [Anonymous], 1999, COMPUTER PROCESSING, V0, P0
+   Archer KJ, 2008, COMPUT STAT DATA AN, V52, P2249, DOI 10.1016/j.csda.2007.08.015
+   Auch R.F., 2015, US GEOLOGICAL SURV C, V0, P190
+   Auch R.F., 2012, REMOTE SENSING LAND, V0, P351
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Calzia P.J., 2012, 1794A30 US GEOL SURV, V0, P303
+   Chan JCW, 2008, REMOTE SENS ENVIRON, V112, P2999, DOI 10.1016/j.rse.2008.02.011
+   Chawla NV, 2002, J ARTIF INTELL RES, V16, P321, DOI 10.1613/jair.953
+   Chen J, 2015, ISPRS J PHOTOGRAMM, V103, P7, DOI 10.1016/j.isprsjprs.2014.09.002
+   Cochran W G, 1977, SAMPLING TECHNIQUES, V0, P0
+   Corcoran JM, 2013, REMOTE SENS-BASEL, V5, P3212, DOI 10.3390/rs5073212
+   Cracknell MJ, 2014, COMPUT GEOSCI-UK, V63, P22, DOI 10.1016/j.cageo.2013.10.008
+   Cutler DR, 2007, ECOLOGY, V88, P2783, DOI 10.1890/07-0539.1
+   Davis J.C., 1986, STAT DATA ANAL GEOLO, V0, P646
+   Estabrooks A, 2004, COMPUT INTELL-US, V20, P18, DOI 10.1111/j.0824-7935.2004.t01-1-00228.x
+   Foody GM, 2006, REMOTE SENS ENVIRON, V103, P179, DOI 10.1016/j.rse.2006.04.001
+   Foody GM, 1997, INT J REMOTE SENS, V18, P799, DOI 10.1080/014311697218764
+   FOODY GM, 1995, INT J GEOGR INF SYST, V9, P527, DOI 10.1080/02693799508902054
+   Freeman EA, 2012, ECOL MODEL, V233, P1, DOI 10.1016/j.ecolmodel.2012.03.007
+   Friedl M.A., 2000, NOTE PROCEDURES USED, V0, P0
+   Friedl MA, 2002, REMOTE SENS ENVIRON, V83, P287, DOI 10.1016/S0034-4257(02)00078-0
+   Friedl MA, 2010, REMOTE SENS ENVIRON, V114, P168, DOI 10.1016/j.rse.2009.08.016
+   Fry JA, 2011, PHOTOGRAMM ENG REM S, V77, P859
+   Gallant AL, 2004, ENVIRON MANAGE, V34, PS89, DOI 10.1007/s00267-003-0145-3
+   Gallant AL, 2015, REMOTE SENS-BASEL, V7, P10938, DOI 10.3390/rs70810938
+   Gesch D, 2002, PHOTOGRAMM ENG REM S, V68, P5
+   Gislason PO, 2006, PATTERN RECOGN LETT, V27, P294, DOI 10.1016/j.patrec.2005.08.011
+   Gong P, 2013, INT J REMOTE SENS, V34, P2607, DOI 10.1080/01431161.2012.748992
+   Gopal S, 1999, REMOTE SENS ENVIRON, V67, P230, DOI 10.1016/S0034-4257(98)00088-1
+   Ham J, 2005, IEEE T GEOSCI REMOTE, V43, P492, DOI 10.1109/TGRS.2004.842481
+   Hammond TO, 1996, INT J REMOTE SENS, V17, P1261, DOI 10.1080/01431169608949085
+   Hodge VJ, 2004, ARTIF INTELL REV, V22, P85, DOI 10.1023/B:AIRE.0000045502.10941.a9
+   Homer C, 2007, PHOTOGRAMM ENG REM S, V73, P337
+   Homer C, 2015, PHOTOGRAMM ENG REM S, V81, P345, DOI 10.14358/PERS.81.5.345
+   Huang C, 2002, INT J REMOTE SENS, V23, P725, DOI 10.1080/01431160110040323
+   Jin HR, 2014, INT J REMOTE SENS, V35, P2067, DOI 10.1080/01431161.2014.885152
+   Lawrence RL, 2006, REMOTE SENS ENVIRON, V100, P356, DOI 10.1016/j.rse.2005.10.014
+   Ling C. X., 1998, PROCEEDINGS FOURTH INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, P73
+   Loveland TR, 2002, PHOTOGRAMM ENG REM S, V68, P1091
+   Loveland TR, 2000, INT J REMOTE SENS, V21, P1303, DOI 10.1080/014311600210191
+   Lu D, 2007, INT J REMOTE SENS, V28, P823, DOI 10.1080/01431160600746456
+   MASELLI F, 1995, ISPRS J PHOTOGRAMM, V50, P2, DOI 10.1016/0924-2716(95)98210-Q
+   Mellor A, 2015, ISPRS J PHOTOGRAMM, V105, P155, DOI 10.1016/j.isprsjprs.2015.03.014
+   Millard K, 2015, REMOTE SENS-BASEL, V7, P8489, DOI 10.3390/rs70708489
+   MILLER RG, 1974, BIOMETRIKA, V61, P1
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Olofsson P, 2014, REMOTE SENS ENVIRON, V148, P42, DOI 10.1016/j.rse.2014.02.015
+   OMERNIK JM, 1987, ANN ASSOC AM GEOGR, V77, P118, DOI 10.1111/j.1467-8306.1987.tb00149.x
+   Ozdogan M, 2008, REMOTE SENS ENVIRON, V112, P3520, DOI 10.1016/j.rse.2008.04.010
+   Pal M, 2005, INT J REMOTE SENS, V26, P217, DOI 10.1080/01431160412331269698
+   Pal M, 2003, REMOTE SENS ENVIRON, V86, P554, DOI 10.1016/S0034-4257(03)00132-9
+   PIPER J, 1992, PATTERN RECOGN LETT, V13, P685, DOI 10.1016/0167-8655(92)90097-J
+   Radoux J, 2014, REMOTE SENS-BASEL, V6, P3965, DOI 10.3390/rs6053965
+   Rayner J.N., 1971, INTRO SPECTRAL ANAL, V0, P174
+   Rindfuss RR, 2004, P NATL ACAD SCI USA, V101, P13976, DOI 10.1073/pnas.0401545101
+   Rodriguez-Galiano VF, 2012, REMOTE SENS ENVIRON, V121, P93, DOI 10.1016/j.rse.2011.12.003
+   Rodriguez-Galiano VF, 2012, ISPRS J PHOTOGRAMM, V67, P93, DOI 10.1016/j.isprsjprs.2011.11.002
+   Rogan J, 2003, PHOTOGRAMM ENG REM S, V69, P793, DOI 10.14358/PERS.69.7.793
+   ROUSSEEUW PJ, 1990, J AM STAT ASSOC, V85, P633, DOI 10.2307/2289995
+   Schmidt Gail L., 2013, LANDSAT ECOSYSTEM DI, V0, P0
+   Soille P., 2003, MORPHOLOGICAL IMAGE, V0, P0
+   Soulard C.E., 2014, US GEOLOGICAL SURVEY, V844, P10, DOI 10.3133/DS844
+   STRAHLER AH, 1980, REMOTE SENS ENVIRON, V10, P135, DOI 10.1016/0034-4257(80)90011-5
+   Stuckens J, 2000, REMOTE SENS ENVIRON, V71, P282, DOI 10.1016/S0034-4257(99)00083-8
+   Taylor J.L., 2015, STATUS TRENDS LAND C, V1794, P0, DOI 10.3133/pp1794B
+   Turner BL, 2007, P NATL ACAD SCI USA, V104, P20666, DOI 10.1073/pnas.0704119104
+   U.S. Geological Survey, 2016, LANDS 8 PROD GUID VE, V0, P0
+   Verikas A, 2011, PATTERN RECOGN, V44, P330, DOI 10.1016/j.patcog.2010.08.011
+   Vogelmann JE, 1998, ENVIRON MONIT ASSESS, V51, P415, DOI 10.1023/A:1005996900217
+   Weiss GM, 2003, J ARTIF INTELL RES, V19, P315, DOI 10.1613/jair.1199
+   WILEN BO, 1995, VEGETATIO, V118, P153, DOI 10.1007/BF00045197
+   Wright C, 2007, REMOTE SENS ENVIRON, V107, P582, DOI 10.1016/j.rse.2006.10.019
+   Wulder MA, 2008, REMOTE SENS ENVIRON, V112, P955, DOI 10.1016/j.rse.2007.07.004
+   Wulder MA, 2016, REMOTE SENS ENVIRON, V185, P271, DOI 10.1016/j.rse.2015.11.032
+   Yan L, 2015, REMOTE SENS ENVIRON, V158, P478, DOI 10.1016/j.rse.2014.11.024
+   Zhen Z, 2013, INT J REMOTE SENS, V34, P6914, DOI 10.1080/01431161.2013.810822
+   Zhu Z, 2015, REMOTE SENS ENVIRON, V162, P67, DOI 10.1016/j.rse.2015.02.009
+   Zhu Z, 2015, REMOTE SENS ENVIRON, V159, P269, DOI 10.1016/j.rse.2014.12.014
+   Zhu Z, 2014, REMOTE SENS ENVIRON, V152, P217, DOI 10.1016/j.rse.2014.06.012
+   Zhu Z, 2014, REMOTE SENS ENVIRON, V144, P152, DOI 10.1016/j.rse.2014.01.011
+   Zhu Z, 2012, REMOTE SENS ENVIRON, V118, P83, DOI 10.1016/j.rse.2011.10.028
+   Zhu Z, 2012, REMOTE SENS ENVIRON, V117, P72, DOI 10.1016/j.rse.2011.07.020
+NR 84
+TC 103
+Z9 104
+U1 6
+U2 62
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD DEC 15
+PY 2016
+VL 122
+IS 
+BP 206
+EP 221
+DI 10.1016/j.isprsjprs.2016.11.004
+PG 16
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA EG0JT
+UT WOS:000390719600015
+DA 2023-04-26
+ER
+
+PT J
+AU Pan, JH
+   Wang, WG
+   Li, JF
+AF Pan, Jinghu
+   Wang, Weiguo
+   Li, Junfeng
+TI Building probabilistic models of fire occurrence and fire risk zoning using logistic regression in Shanxi Province, China
+SO NATURAL HAZARDS
+LA English
+DT Article
+DE Fire risk; Logistic regression; Zoning; MODIS; Shanxi Province
+ID geographically weighted regression; artificial neural-networks; predicting forest-fire; fuel moisture-content; wildfire occurrence; spatial-patterns; ignition probability; boreal forest; usa; danger
+AB Fires are a recurrent environmental and economic emergency throughout the world. Fire risk analysis and forest fire risk zoning are important aspects of forest fire management. MODIS remote sensing datasets for Shanxi Province from 2002 to 2012 were used to build a spatial logistic forest fire risk model, based on the spatial distribution of forest fires and forest fire-influencing factors, using geographic information system technology. A forest fire risk zoning study was conducted at a large temporal scale and a provincial spatial scale. The resulting logistic model of forest fire risk, built with spatial sampling, showed a good fit (p < 0.05) between the distribution of forest fires and forest fire impact factors. The relative operating characteristic value was 0.757, and a probability distribution map for forest fire was developed, using layer computing. The forest fire area of Shanxi Province was divided into zones of zero, low, moderate, high and extremely high fire risk. The influences of altitude (GC), land-use type (LT), land surface temperature (LST), normalized difference vegetation index (NDVI) and global vegetation moisture index (GVMI) on fire events presented significant spatial variability, whereas the influences of slope and distance to the nearest path exhibited insignificant spatial variability in Shanxi Province. The influences of NDVI and LST on fire events were significant throughout Shanxi Province, whereas the influences of GC, LT and GVMI were only significant locally. Seven fire-prevention regions were delineated, based on the fire-influencing factors. Different fire-prevention policies and emphases should be taken into consideration for each of the seven fire-prone regions.
+C1 [Pan, Jinghu; Wang, Weiguo; Li, Junfeng] Northwest Normal Univ, Coll Geog & Environm Sci, 967 Anning East Rd, Lanzhou 730070, Peoples R China.
+C3 Northwest Normal University - China
+RP Pan, JH (corresponding author), Northwest Normal Univ, Coll Geog & Environm Sci, 967 Anning East Rd, Lanzhou 730070, Peoples R China.
+EM panjh-nwnu@163.com
+FU National Nature Science Foundation of China [41361040]; Nature Science Foundation of Gansu Province [1506RJZA117]; Fundamental Research Funds for the Provincial Universities of Gansu Province [2014-63]
+CR [Anonymous], 2000, APPL LOGISTIC REGRES, V0, P0, DOI DOI 10.1002/0471722146
+   Avila-Flores D, 2010, CHINESE GEOGR SCI, V20, P491, DOI 10.1007/s11769-010-0437-x
+   Badia A, 2011, APPL GEOGR, V31, P930, DOI 10.1016/j.apgeog.2011.01.016
+   Bar Massada A, 2013, INT J WILDLAND FIRE, V22, P174, DOI 10.1071/WF11178
+   Bianchini G, 2010, J COMPUT SCI-NETH, V1, P229, DOI 10.1016/j.jocs.2010.07.005
+   Bisquert M, 2012, INT J WILDLAND FIRE, V21, P1025, DOI 10.1071/WF11105
+   Botequim B, 2013, IFOREST, V6, P217, DOI 10.3832/ifor0821-006
+   CARTER GM, 1974, J AM STAT ASSOC, V69, P880, DOI 10.2307/2286157
+   Catry FX, 2009, EUR J FOREST RES, V128, P231, DOI 10.1007/s10342-009-0259-5
+   Ceccato P, 2002, REMOTE SENS ENVIRON, V82, P188, DOI 10.1016/S0034-4257(02)00037-8
+   Chang Y, 2013, LANDSCAPE ECOL, V28, P1989, DOI 10.1007/s10980-013-9935-4
+   CHOU YH, 1993, ENVIRON MANAGE, V17, P129, DOI 10.1007/BF02393801
+   Chuvieco E, 2009, INT J WILDLAND FIRE, V18, P430, DOI 10.1071/WF08020
+   CLARKE KC, 1994, PHOTOGRAMM ENG REM S, V60, P1355
+   Cleland DT, 2004, LANDSCAPE ECOL, V19, P311, DOI 10.1023/B:LAND.0000030437.29258.3c
+   de Vasconcelos MJP, 2001, PHOTOGRAMM ENG REM S, V67, P73
+   del Hoyo LV, 2011, EUR J FOREST RES, V130, P983, DOI 10.1007/s10342-011-0488-2
+   Dickson BG, 2006, LANDSCAPE ECOL, V21, P747, DOI 10.1007/s10980-005-5475-x
+   Dillon GK, 2011, ECOSPHERE, V2, P0, DOI 10.1890/ES11-00271.1
+   Dimitrakopoulos AP, 2001, FIRE TECHNOL, V37, P143, DOI 10.1023/A:1011641601076
+   Dlamini WM, 2011, GEOJOURNAL, V76, P283, DOI 10.1007/s10708-010-9362-x
+   Eskandari S, 2015, INT J APPL EARTH OBS, V42, P57, DOI 10.1016/j.jag.2015.05.006
+   Geldenhuys CJ, 1996, BIODIVERSITY OF AFRICAN PLANTS, V0, P317
+   Guisan A, 2002, ECOL MODEL, V157, P89, DOI 10.1016/S0304-3800(02)00204-1
+   HANLEY JA, 1982, RADIOLOGY, V143, P29, DOI 10.1148/radiology.143.1.7063747
+   Hawbaker TJ, 2013, ECOL APPL, V23, P565, DOI 10.1890/12-1816.1
+   Hegeman EE, 2014, LANDSCAPE ECOL, V29, P1587, DOI 10.1007/s10980-014-0078-z
+   HENDERSON M, 2005, HUM ECOL REV, V12, P169
+   Hering AS, 2009, ENVIRON ECOL STAT, V16, P225, DOI 10.1007/s10651-007-0080-6
+   Jung J, 2013, NAT HAZARDS, V65, P2129, DOI 10.1007/s11069-012-0465-1
+   Kandya A. K., 1998, INDIAN FORESTER, V124, P531
+   Li XiaoWei, 2012, JOURNAL OF RESOURCES AND ECOLOGY, V3, P105
+   Liu ZH, 2012, GLOBAL CHANGE BIOL, V18, P2041, DOI 10.1111/j.1365-2486.2012.02649.x
+   Lozano FJ, 2008, REMOTE SENS ENVIRON, V112, P708, DOI 10.1016/j.rse.2007.06.006
+   Maeda EE, 2009, INT J APPL EARTH OBS, V11, P265, DOI 10.1016/j.jag.2009.03.003
+   Maingi JK, 2007, INT J WILDLAND FIRE, V16, P23, DOI 10.1071/WF06007
+   Martinez-Fernandez J, 2013, NAT HAZARD EARTH SYS, V13, P311, DOI 10.5194/nhess-13-311-2013
+   Matthews SA, 2012, DEMOGR RES, V26, P151, DOI 10.4054/DemRes.2012.26.6
+   McCune B., 2002, ANAL ECOLOGICAL COMM, V28, P0
+   Mohammadi F, 2014, SMALL-SCALE FOR, V13, P117, DOI 10.1007/s11842-013-9244-4
+   Moreira F, 2011, J ENVIRON MANAGE, V92, P2389, DOI 10.1016/j.jenvman.2011.06.028
+   Ruiz JAM, 2012, REMOTE SENS ENVIRON, V117, P407, DOI 10.1016/j.rse.2011.10.017
+   Nadeau LB, 2006, ENVIRON MONIT ASSESS, V120, P127, DOI 10.1007/s10661-005-9053-0
+   Oliveira S, 2012, FOREST ECOL MANAG, V275, P117, DOI 10.1016/j.foreco.2012.03.003
+   Pew KL, 2001, FOREST ECOL MANAG, V140, P1, DOI 10.1016/S0378-1127(00)00271-1
+   Preisler HK, 2011, INT J WILDLAND FIRE, V20, P508, DOI 10.1071/WF09087
+   Renard Q, 2012, INT J WILDLAND FIRE, V21, P368, DOI 10.1071/WF10109
+   Vega-Garcia C, 2006, LANDSCAPE ECOL, V21, P595, DOI 10.1007/s10980-005-4119-5
+   Vilar L, 2010, INT J WILDLAND FIRE, V19, P325, DOI 10.1071/WF09030
+   Wang LT, 2013, NAT HAZARDS, V65, P819, DOI 10.1007/s11069-012-0391-2
+   Wooster M., 2013, THERMAL INFRARED REM, V17, P347
+   Wu ZW, 2014, SCI TOTAL ENVIRON, V493, P472, DOI 10.1016/j.scitotenv.2014.06.011
+   XU D., 2005, J FORESTRY RES, V16, P169, DOI 10.1007/BF02856809
+   Xu D, 2006, SCI CHINA SER E, V49, P140, DOI 10.1007/s11434-006-8115-1
+   Yang J, 2007, FOREST SCI, V53, P1
+   Yebra M, 2008, AGR FOREST METEOROL, V148, P523, DOI 10.1016/j.agrformet.2007.12.005
+   Zhang HJ, 2014, INT J WILDLAND FIRE, V23, P1130, DOI 10.1071/WF13195
+NR 57
+TC 24
+Z9 30
+U1 7
+U2 71
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 0921-030X
+EI 1573-0840
+J9 NAT HAZARDS
+JI Nat. Hazards
+PD APR 15
+PY 2016
+VL 81
+IS 3
+BP 1879
+EP 1899
+DI 10.1007/s11069-016-2160-0
+PG 21
+WC Geosciences, Multidisciplinary; Meteorology & Atmospheric Sciences; Water Resources
+SC Geology; Meteorology & Atmospheric Sciences; Water Resources
+GA DG7TC
+UT WOS:000372285600023
+DA 2023-04-26
+ER
+
+PT J
+AU Wu, YL
+   Li, WP
+   Wang, QQ
+   Liu, QQ
+   Yang, DD
+   Xing, ML
+   Pei, YB
+   Yan, SS
+AF Wu, Yanli
+   Li, Wenping
+   Wang, Qiqing
+   Liu, Qiangqiang
+   Yang, Dongdong
+   Xing, Maolin
+   Pei, Yabing
+   Yan, Shishun
+TI Landslide susceptibility assessment using frequency ratio, statistical index and certainty factor models for the Gangu County, China
+SO ARABIAN JOURNAL OF GEOSCIENCES
+LA English
+DT Article
+DE Landslide; Susceptibility mapping; Frequency ratio (FR); Statistical index (SI); Certainty factor (CF); Geographic information system (GIS)
+ID analytical hierarchy process; logistic-regression model; remote-sensing data; black-sea region; neural-network; spatial prediction; golestan province; likelihood ratio; dempster-shafer; gis technology
+AB The purpose of this paper is to produce a reliable susceptibility mapping using frequency ratio (FR), statistical index (SI), and certainty factor (CF) models with the aid of geographic information system (GIS) for the Gangu County, Gansu Province, China. First, a total of 328 landslide locations were detected by literatures, aerial photographs and field surveys; meanwhile, a landslide inventory map was constructed mainly based on landslide locations. Then, 230 (70 %) landslides were randomly selected for modeling, and the remaining 98 (30 %) landslides were used for the model validation. In order to produce a susceptibility map, 12 landslide influencing factors were selected from the database: slope angle, slope aspect, plan curvature, profile curvature, altitude, distance to faults, distance to rivers, distance to roads, NDVI, land use, rainfall, and lithology. Whereafter, the landslide susceptibility maps were mapped using landslide influencing factors based on the FR, SI, and CF models. Finally, the accuracy of the landslide susceptibility maps developed from the three models was validated using area under the curve (AUC) analysis. Through the analysis, it is seen that the prediction accuracy of the three models was 75.62% for FR model, 75.71% for SI model, and 75.56 % for CF model, respectively. According to the results, three models show almost similar results, while SI model performs slightly better than other models and the map produced by SI model represents the most appropriate properties. In addition, the study area was classified into five classes, such as very low, low, moderate, high, and very high. The landslide susceptibility maps can be helpful to select site and mitigate landslide hazards in the study area.
+C1 [Wu, Yanli; Li, Wenping; Wang, Qiqing; Liu, Qiangqiang; Yang, Dongdong; Xing, Maolin; Pei, Yabing; Yan, Shishun] China Univ Min & Technol, Sch Resources & Geosci, Xuzhou 221116, Peoples R China.
+C3 China University of Mining & Technology
+RP Li, WP (corresponding author), China Univ Min & Technol, Sch Resources & Geosci, Xuzhou 221116, Peoples R China.
+EM wpligroup@163.com
+FU State Key Program of National Natural Science of China [41430643]; National Program on Key Basic Research Project [2015CB251601]
+CR Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   Althuwaynee OF, 2014, CATENA, V114, P21, DOI 10.1016/j.catena.2013.10.011
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Binaghi E, 1998, NAT HAZARDS, V17, P77, DOI 10.1023/A:1008001724538
+   Bourenane H, 2014, B ENG GEOL ENVIRON, V0, P1
+   Carrara A, 1999, NAT HAZARDS, V20, P117, DOI 10.1023/A:1008097111310
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   Chung CF, 1993, NONRENEWABLE RESOURC, V2, P122, DOI 10.1007/BF02272809
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   Constantin M, 2011, ENVIRON EARTH SCI, V63, P397, DOI 10.1007/s12665-010-0724-y
+   Dai FC, 2001, ENVIRON GEOL, V40, P381, DOI 10.1007/s002540000163
+   Dai FC, 2002, ENG GEOL, V64, P65, DOI 10.1016/S0013-7952(01)00093-X
+   Demir G, 2013, NAT HAZARDS, V65, P1481, DOI 10.1007/s11069-012-0418-8
+   Bui DT, 2011, NAT HAZARDS, V59, P1413, DOI 10.1007/s11069-011-9844-2
+   Dou J., 2014, LANDSLIDE SCI SAFER, V0, P419
+   Ercanoglu M, 2004, ENG GEOL, V75, P229, DOI 10.1016/j.enggeo.2004.06.001
+   Ercanoglu M, 2004, NAT HAZARDS, V32, P1, DOI 10.1023/B:NHAZ.0000026786.85589.4a
+   Falaschi F, 2009, NAT HAZARDS, V50, P551, DOI 10.1007/s11069-009-9356-5
+   Glade T, 2001, ADV NAT TECH HAZ RES, V17, P153
+   Greco R, 2007, ENG GEOL, V89, P47, DOI 10.1016/j.enggeo.2006.09.006
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Guzzetti F, 2006, GEOMORPHOLOGY, V81, P166, DOI 10.1016/j.geomorph.2006.04.007
+   Ilia I, 2015, ENGINEERING GEOLOGY FOR SOCIETY AND TERRITORY, VOL 2: LANDSLIDE PROCESSES, P1199, DOI 10.1007/978-3-319-09057-3_210
+   JADE S, 1993, ENG GEOL, V36, P91, DOI 10.1016/0013-7952(93)90021-4
+   Kanungo DP, 2011, NAT HAZARDS, V59, P1491, DOI 10.1007/s11069-011-9847-z
+   Kayastha P, 2013, COMPUT GEOSCI-UK, V52, P398, DOI 10.1016/j.cageo.2012.11.003
+   Lan HX, 2004, ENG GEOL, V76, P109, DOI 10.1016/j.enggeo.2004.06.009
+   Lee S, 2005, ENVIRON GEOL, V47, P982, DOI 10.1007/s00254-005-1228-z
+   Lee S, 2005, INT J REMOTE SENS, V26, P1477, DOI 10.1080/01431160412331331012
+   Lee S, 2004, INT J REMOTE SENS, V25, P2037, DOI 10.1080/01431160310001618734
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Lee S, 2007, LANDSLIDES, V4, P327, DOI 10.1007/s10346-007-0088-x
+   Liu C, 2013, NAT HAZARDS, V69, P1477, DOI 10.1007/s11069-013-0759-y
+   Mohammady M, 2012, J ASIAN EARTH SCI, V61, P221, DOI 10.1016/j.jseaes.2012.10.005
+   Nandi A, 2008, GEORISK, V2, P16, DOI 10.1080/17499510701842221
+   Nefeslioglu HA, 2010, MATH PROBL ENG, V2010, P0, DOI 10.1155/2010/901095
+   Nefeslioglu HA, 2008, GEOMORPHOLOGY, V94, P401, DOI 10.1016/j.geomorph.2006.10.036
+   Ohlmacher GC, 2003, ENG GEOL, V69, P331, DOI 10.1016/S0013-7952(03)00069-3
+   Oztekin B, 2005, ENVIRON GEOL, V49, P124, DOI 10.1007/s00254-005-0071-6
+   Park S, 2013, ENVIRON EARTH SCI, V68, P1443, DOI 10.1007/s12665-012-1842-5
+   PAUDITS P., 2002, P 1 EUR C LANDSL PRA, V0, P437
+   Pourghasemi HR, 2013, NAT HAZARDS, V69, P749, DOI 10.1007/s11069-013-0728-5
+   Pourghasemi HR, 2013, J EARTH SYST SCI, V122, P349, DOI 10.1007/s12040-013-0282-2
+   Pourghasemi HR, 2013, ARAB J GEOSCI, V6, P2351, DOI 10.1007/s12517-012-0532-7
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pourghasemi HR, 2012, CATENA, V97, P71, DOI 10.1016/j.catena.2012.05.005
+   Pradhan B, 2010, IEEE T GEOSCI REMOTE, V48, P4164, DOI 10.1109/TGRS.2010.2050328
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Raman R, 2012, GEORISK, V6, P145, DOI 10.1080/17499518.2011.637504
+   Rautela P., 2000, INT J APPL EARTH OBS, V2, P153, DOI 10.1016/S0303-2434(00)85009-6
+   Regmi AD, 2014, ARAB J GEOSCI, V7, P725, DOI 10.1007/s12517-012-0807-z
+   Saadatkhah N, 2014, GEOTECHNICAL GEOLOGI, V0, P1
+   Saha AK, 2005, LANDSLIDES, V2, P61, DOI 10.1007/s10346-004-0039-8
+   Sidle R.C., 2006, LANDSLIDES PROCESSES, V18, P0
+   Solaimani K, 2013, ARAB J GEOSCI, V6, P2557, DOI 10.1007/s12517-012-0526-5
+   Suzen ML, 2004, ENVIRON GEOL, V45, P665, DOI 10.1007/s00254-003-0917-8
+   Tay L.T., 2014, LANDSLIDE SCI SAFER, V0, P521
+   van Westen C.J., 2004, LANDSLIDES EVALUATIO, V1, P39, DOI 10.1201/B16816-6
+   Van Westen C.J., 1997, ILWIS 21 WINDOWS APP, V0, P0
+   Wan S, 2010, NAT HAZARDS, V52, P211, DOI 10.1007/s11069-009-9366-3
+   Wan SA, 2009, KNOWL-BASED SYST, V22, P580, DOI 10.1016/j.knosys.2009.07.008
+   Wang L, 2011, J GEOMECHANICS, V4, P010
+   Wieczorek G., 1984, B ASS ENG GEOLOGISTS, V21, P337, DOI 10.2113/GSEEGEOSCI.XXI.3.337
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yalcin A, 2007, NAT HAZARDS, V41, P201, DOI 10.1007/s11069-006-9030-0
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Yilmaz C, 2012, ENVIRON EARTH SCI, V65, P2161, DOI 10.1007/s12665-011-1196-4
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Zare M, 2013, ARAB J GEOSCI, V6, P2873, DOI 10.1007/s12517-012-0610-x
+NR 69
+TC 68
+Z9 71
+U1 3
+U2 40
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1866-7511
+EI 1866-7538
+J9 ARAB J GEOSCI
+JI Arab. J. Geosci.
+PD FEB 15
+PY 2016
+VL 9
+IS 2
+BP 
+EP 
+DI 10.1007/s12517-015-2112-0
+PG 16
+WC Geosciences, Multidisciplinary
+SC Geology
+GA DF5GT
+UT WOS:000371380500002
+DA 2023-04-26
+ER
+
+PT J
+AU Zhu, JJ
+   Chen, Z
+   Liu, XB
+AF Zhu, Jinjie
+   Chen, Zhen
+   Liu, Xianbin
+TI Effects of distance-dependent delay on small-world neuronal networks
+SO PHYSICAL REVIEW E
+LA English
+DT Article
+ID neural-networks; synchronization; noise; oscillations; stability; order
+AB We study firing behaviors and the transitions among them in small-world noisy neuronal networks with electrical synapses and information transmission delay. Each neuron is modeled by a two-dimensional Rulkov map neuron. The distance between neurons, which is a main source of the time delay, is taken into consideration. Through spatiotemporal patterns and interspike intervals as well as the interburst intervals, the collective behaviors are revealed. It is found that the networks switch from resting state into intermittent firing state under Gaussian noise excitation. Initially, noise-induced firing behaviors are disturbed by small time delays. Periodic firing behaviors with irregular zigzag patterns emerge with an increase of the delay and become progressively regular after a critical value is exceeded. More interestingly, in accordance with regular patterns, the spiking frequency doubles compared with the former stage for the spiking neuronal network. A growth of frequency persists for a larger delay and a transition to antiphase synchronization is observed. Furthermore, it is proved that these transitions are generic also for the bursting neuronal network and the FitzHugh-Nagumo neuronal network. We show these transitions due to the increase of time delay are robust to the noise strength, coupling strength, network size, and rewiring probability.
+C1 [Zhu, Jinjie; Chen, Zhen; Liu, Xianbin] Nanjing Univ Aeronaut & Astronaut, Coll Aerosp Engn, State Key Lab Mech & Control Mech Struct, Nanjing 210016, Peoples R China.
+C3 Nanjing University of Aeronautics & Astronautics
+RP Zhu, JJ; Liu, XB (corresponding author), Nanjing Univ Aeronaut & Astronaut, Coll Aerosp Engn, State Key Lab Mech & Control Mech Struct, Nanjing 210016, Peoples R China.
+EM jinjiezhu@nuaa.edu.cn; xbliu@nuaa.edu.cn
+FU National Natural Science Foundation of China [11472126, 11232007]; State Key Laboratory of Mechanics and Control of Mechanical Structures (Nanjing University of Aeronautics and Astronautics) [0113G01]; Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD)
+CR Adhikari BM, 2011, CHAOS, V21, P0, DOI 10.1063/1.3584822
+   Ali MS, 2015, NEUROCOMPUTING, V158, P167, DOI 10.1016/j.neucom.2015.01.056
+   Barahona M, 2002, PHYS REV LETT, V89, P0, DOI 10.1103/PhysRevLett.89.054101
+   Bassett DS, 2006, NEUROSCIENTIST, V12, P512, DOI 10.1177/1073858406293182
+   Batista CAS, 2007, PHYS REV E, V76, P0, DOI 10.1103/PhysRevE.76.016218
+   Dhamala M, 2004, PHYS REV LETT, V92, P0, DOI 10.1103/PhysRevLett.92.074104
+   Ermentrout B, 2009, PHILOS T R SOC A, V367, P1097, DOI 10.1098/rsta.2008.0259
+   Feng ZG, 2011, IEEE T NEURAL NETWOR, V22, P976, DOI 10.1109/TNN.2011.2128341
+   FITZHUGH R, 1961, BIOPHYS J, V1, P445, DOI 10.1016/S0006-3495(61)86902-6
+   Gopalsamy K, 1996, PHYSICA D, V89, P395, DOI 10.1016/0167-2789(95)00203-0
+   HINDMARSH JL, 1984, PROC R SOC SER B-BIO, V221, P87, DOI 10.1098/rspb.1984.0024
+   HODGKIN AL, 1952, J PHYSIOL-LONDON, V117, P500, DOI 10.1113/jphysiol.1952.sp004764
+   Humphries MD, 2006, P ROY SOC B-BIOL SCI, V273, P503, DOI 10.1098/rspb.2005.3354
+   Ivanchenko MV, 2004, PHYS REV LETT, V93, P0, DOI 10.1103/PhysRevLett.93.134101
+   Jeong SO, 2002, PHYS REV LETT, V89, P0, DOI 10.1103/PhysRevLett.89.154104
+   Ko TW, 2007, PHYS REV E, V76, P0, DOI 10.1103/PhysRevE.76.056206
+   Lago-Fernandez LF, 2000, PHYS REV LETT, V84, P2758, DOI 10.1103/PhysRevLett.84.2758
+   Lakshmanan S, 2014, NEUROCOMPUTING, V129, P392, DOI 10.1016/j.neucom.2013.09.020
+   Lindner B, 2004, PHYS REP, V392, P321, DOI 10.1016/j.physrep.2003.10.015
+   Lorach H, 2015, NAT MED, V21, P476, DOI 10.1038/nm.3851
+   MORRIS C, 1981, BIOPHYS J, V35, P193, DOI 10.1016/S0006-3495(81)84782-0
+   Perc M, 2007, CHAOS SOLITON FRACT, V31, P280, DOI 10.1016/j.chaos.2005.10.018
+   Perlikowski P, 2010, PHYS REV E, V82, P0, DOI 10.1103/PhysRevE.82.036208
+   Rosenblum MG, 1997, PHYS REV LETT, V78, P4193, DOI 10.1103/PhysRevLett.78.4193
+   Rulkov NF, 2002, PHYS REV E, V65, P0, DOI 10.1103/PhysRevE.65.041922
+   Rulkov NF, 2001, PHYS REV LETT, V86, P183, DOI 10.1103/PhysRevLett.86.183
+   Tang GN, 2011, PHYS REV E, V84, P0, DOI 10.1103/PhysRevE.84.046207
+   Trojanowski K, 2013, ACTA PHYS POL B, V44, P991, DOI 10.5506/APhysPolB.44.919
+   Wang QY, 2007, NEW J PHYS, V9, P0, DOI 10.1088/1367-2630/9/10/383
+   Wang QY, 2007, EPL-EUROPHYS LETT, V77, P0, DOI 10.1209/0295-5075/77/10004
+   Wang QY, 2009, CHAOS, V19, P0, DOI 10.1063/1.3133126
+   Wang QY, 2008, EPL-EUROPHYS LETT, V83, P0, DOI 10.1209/0295-5075/83/50008
+   Watts DJ, 1998, NATURE, V393, P440, DOI 10.1038/30918
+   Yanchuk S, 2011, CHAOS, V21, P0, DOI 10.1063/1.3665200
+   Zheng YH, 2014, COGN NEURODYNAMICS, V8, P143, DOI 10.1007/s11571-013-9257-x
+NR 35
+TC 12
+Z9 12
+U1 0
+U2 29
+PU AMER PHYSICAL SOC
+PI COLLEGE PK
+PA ONE PHYSICS ELLIPSE, COLLEGE PK, MD 20740-3844 USA
+SN 2470-0045
+EI 2470-0053
+J9 PHYS REV E
+JI Phys. Rev. E
+PD APR 28
+PY 2016
+VL 93
+IS 4
+BP 
+EP 
+DI 10.1103/PhysRevE.93.042417
+PG 7
+WC Physics, Fluids & Plasmas; Physics, Mathematical
+SC Physics
+GA DK5MD
+UT WOS:000374963100002
+PM 27176338
+DA 2023-04-26
+ER
+
+PT J
+AU Taghizadeh-Mehrjardi, R
+   Nabiollahi, K
+   Kerry, R
+AF Taghizadeh-Mehrjardi, R.
+   Nabiollahi, K.
+   Kerry, R.
+TI Digital mapping of soil organic carbon at multiple depths using different data mining techniques in Baneh region, Iran
+SO GEODERMA
+LA English
+DT Article
+DE Artificial neural network; Support vector regression; k-nearest neighbor; Random forest; Regression tree model; Genetic programming
+ID artificial neural-networks; spatial-distribution; classification; forests; stocks
+AB This study aimed to map SOC lateral, and vertical variations down to 1 m depth in a semi-arid region in Kurdistan Province, Iran. Six data mining techniques namely; artificial neural networks, support vector regression, k-nearest neighbor, random forests, regression tree models, and genetic programming were combined with equal-area smoothing splines to develop, evaluate and compare their effectiveness in achieving this aim. Using the conditioned Latin hypercube sampling method, 188 soil profiles in the study area were sampled and soil organic carbon content (SOC) measured. Eighteen ancillary data variables derived from a digital elevation model and Landsat 8 images were used to represent predictive soil forming factors in this study area. Findings showed that normalized difference vegetation index and wetness index were the most useful ancillary data for SOC mapping in the upper (0-15 cm) and bottom (60-100 cm) of soil profiles, respectively. According to 5-fold cross validation, artificial neural networks (ANN) showed the highest performance for prediction of SOC in the four standard depths compared to all other data mining techniques. ANNs resulted in the lowest root mean square error and highest Lin's concordance coefficient which ranged from 0.07 to 020 log (kg/m(3)) and 0.68 to 0.41, respectively, with the first value in each range being for the top of the profile and second for the bottom. Furthermore, ANNs increased performance of spatial prediction compared to the other data mining algorithms by up to 36, 23, 21 and 13% for each soil depth, respectively, starting from the top of the profile. Overall, results showed that prediction of subsurface SOC variation needs improvement and the challenge remains to find appropriate covariates that can explain it. (C) 2015 Elsevier B.V. All rights reserved.
+C1 [Taghizadeh-Mehrjardi, R.] Ardakan Univ, Fac Agr & Nat Resources, Ardakan, Iran.
+   [Nabiollahi, K.] Univ Kurdistan, Fac Agr, Sanandaj, Iran.
+   [Kerry, R.] Brigham Young Univ, Dept Geog, Provo, UT 84602 USA.
+C3 University of Kurdistan; Brigham Young University
+RP Taghizadeh-Mehrjardi, R (corresponding author), Ardakan Univ, Fac Agr & Nat Resources, Ardakan, Iran.
+EM rtaghizadeh@ardakan.ac.ir
+CR [Anonymous], 2010, KEYS SOIL TAX, V0, P0
+   [Anonymous], 2008, LEICA GEOSYSTEM GEOS, V0, P0
+   Besalatpour AA, 2013, CATENA, V111, P72, DOI 10.1016/j.catena.2013.07.001
+   Bishop TFA, 1999, GEODERMA, V91, P27, DOI 10.1016/S0016-7061(99)00003-8
+   Chagas CD, 2013, REV BRAS CIENC SOLO, V37, P339, DOI 10.1590/S0100-06832013000200005
+   Cheng-Ping Z., 2011, 2 INT C DIG MAN AUT, V0, P0
+   Dai FQ, 2014, ECOL INDIC, V45, P184, DOI 10.1016/j.ecolind.2014.04.003
+   De Jong K.A., 1975, THESIS U MICHIGAN, V0, P0
+   Hengl T, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0125814
+   Holland J. H., 1992, ADAPTATION NATURAL S, V0, P0, DOI DOI 10.7551/mitpress/1090.001.0001 10.7551/mitpress/1090.001.0001
+   Hsu SH, 2009, EXPERT SYST APPL, V36, P7947, DOI 10.1016/j.eswa.2008.10.065
+   Karunaratne SB, 2014, GEODERMA, V219, P14, DOI 10.1016/j.geoderma.2013.12.005
+   Kempen B, 2011, GEODERMA, V162, P107, DOI 10.1016/j.geoderma.2011.01.010
+   Koza J. R., 1992, GENETIC PROGRAMMING, V1, P0
+   Lacoste M, 2014, GEODERMA, V213, P296, DOI 10.1016/j.geoderma.2013.07.002
+   Liu F, 2013, SOIL SCI SOC AM J, V77, P1241, DOI 10.2136/sssaj2012.0317
+   Malone BP, 2009, GEODERMA, V154, P138, DOI 10.1016/j.geoderma.2009.10.007
+   Malone BP, 2014, GEODERMA, V232, P34, DOI 10.1016/j.geoderma.2014.04.033
+   Mansuy N, 2014, GEODERMA, V235, P59, DOI 10.1016/j.geoderma.2014.06.032
+   Martin MP, 2011, BIOGEOSCIENCES, V8, P1053, DOI 10.5194/bg-8-1053-2011
+   Mathworks, 2010, MATLAB VERS 7 0, V0, P0
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   McKenzie N., 2000, TERRAIN ANAL PRINCIP, V0, P0
+   Minasny B, 2006, COMPUT GEOSCI-UK, V32, P1378, DOI 10.1016/j.cageo.2005.12.009
+   Minasny B, 2013, ADV AGRON, V118, P1, DOI 10.1016/B978-0-12-405942-9.00001-3
+   Mishra U, 2009, SOIL SCI SOC AM J, V73, P614, DOI 10.2136/sssaj2007.0410
+   Mulder VL, 2011, GEODERMA, V162, P1, DOI 10.1016/j.geoderma.2010.12.018
+   Nemes A, 2006, SOIL SCI SOC AM J, V70, P327, DOI 10.2136/sssaj2005.0128
+   Padarian J, 2012, SOIL RES, V50, P443, DOI 10.1071/SR12139
+   Parasuraman K, 2007, SOIL SCI SOC AM J, V71, P1676, DOI 10.2136/sssaj2006.0396
+   Quinlan J.R, 2001, CUBIST INFORM TUTORI, V0, P0
+   Taghizadeh-Mehrjardi R, 2015, GEODERMA, V253, P67, DOI 10.1016/j.geoderma.2015.04.008
+   Taghizadeh-Mehrjardi R, 2014, GEODERMA, V213, P15, DOI 10.1016/j.geoderma.2013.07.020
+   Walkley A., 1934, EXPT SOIL SCI, V79, P459
+   Welikala RA, 2015, COMPUT MED IMAG GRAP, V43, P64, DOI 10.1016/j.compmedimag.2015.03.003
+   Were K, 2015, ECOL INDIC, V52, P394, DOI 10.1016/j.ecolind.2014.12.028
+   Wilding L. P., 1985, SOIL SPATIAL VARIABILITY, V0, P166
+NR 37
+TC 131
+Z9 139
+U1 8
+U2 112
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0016-7061
+EI 1872-6259
+J9 GEODERMA
+JI Geoderma
+PD MAR 15
+PY 2016
+VL 266
+IS 
+BP 98
+EP 110
+DI 10.1016/j.geoderma.2015.12.003
+PG 13
+WC Soil Science
+SC Agriculture
+GA DD1LB
+UT WOS:000369682100010
+DA 2023-04-26
+ER

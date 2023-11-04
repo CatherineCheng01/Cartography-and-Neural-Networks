@@ -1,0 +1,482 @@
+
+PT J
+AU Caicedo, JPR
+   Verrelst, J
+   Munoz-Mari, J
+   Moreno, J
+   Camps-Valls, G
+AF Rivera Caicedo, Juan Pablo
+   Verrelst, Jochem
+   Munoz-Mari, Jordi
+   Moreno, Jose
+   Camps-Valls, Gustavo
+TI Toward a Semiautomatic Machine Learning Retrieval of Biophysical Parameters
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Biophysical parameter retrieval; CHRIS; graphical user interface (GUI) toolbox; HyMap; leaf area index (LAI); leaf chlorophyll content (LCC); machine learning; nonparametric regression; Sentinel-2 (S2)
+ID neural-network estimation; leaf chlorophyll content; green lai; sentinel-2; regression; inversion; surface; performances; algorithms; principles
+AB Biophysical parameters such as leaf chlorophyll content (LCC) and leaf area index (LAI) are standard vegetation products that can be retrieved from Earth observation imagery. This paper introduces a new machine learning regression algorithms (MLRAs) toolbox into the scientific Automated Radiative Transfer Models Operator (ARTMO) software package. ARTMO facilitates retrieval of biophysical parameters from remote observations in a MATLAB graphical user interface (GUI) environment. The MLRA toolbox enables analyzing the predictive power of various MLRAs in a semiautomatic and systematic manner, and applying a selected MLRA to multispectral or hyperspectral imagery for mapping applications. It contains both linear and nonlinear state-of-the-art regression algorithms, in particular linear feature extraction via principal component regression (PCR), partial least squares regression (PLSR), decision trees (DTs), neural networks (NNs), kernel ridge regression (KRR), and Gaussian processes regression (GPR). The performance of multiple implemented regression strategies has been evaluated against the SPARC dataset (Barrax, Spain) and simulated Sentinel-2 (8 bands), CHRIS (62 bands) and HyMap (125 bands) observations. In general, nonlinear regression algorithms (NN, KRR, and GPR) outperformed linear techniques (PCR and PLSR) in terms of accuracy, bias, and robustness. Most robust results along gradients of training/validation partitioning and noise variance were obtained by KRR while GPR delivered most accurate estimations. We applied a GPR model to a hyperspectral HyMap flightline to map LCC and LAI. We exploited the associated uncertainty intervals to gain insight in the per-pixel performance of the model.
+C1 [Rivera Caicedo, Juan Pablo; Verrelst, Jochem; Munoz-Mari, Jordi; Moreno, Jose; Camps-Valls, Gustavo] Univ Valencia, IPL, Valencia 46980, Spain.
+C3 University of Valencia
+RP Caicedo, JPR (corresponding author), Univ Valencia, IPL, Valencia 46980, Spain.
+EM juan.rivera@uv.es; jochem.verrelst@uv.es; jordi.munoz@uv.es; jose.moreno@uv.es; gustavo.camps@uv.es
+FU Spanish Ministry of Science and Innovation [AYA2010-21432-C02-01]; Spanish Ministry of Economy and Competitiveness (MINECO) [TIN2012-38102-C03-01]; ESA PARCS [4000105078/11/NL/AF]
+CR Alonso L., 2005, P 3 CHRIS PRAB WORKS, V0, P0
+   [Anonymous], 1975, PRIMARY PRODUCTIVITY, V0, P0
+   Arenas-Garcia J, 2013, IEEE SIGNAL PROC MAG, V30, P16, DOI 10.1109/MSP.2013.2250591
+   Bacour C, 2006, REMOTE SENS ENVIRON, V105, P313, DOI 10.1016/j.rse.2006.07.014
+   Baret F, 2013, REMOTE SENS ENVIRON, V137, P299, DOI 10.1016/j.rse.2012.12.027
+   Baret F, 2008, ADVANCES IN LAND REMOTE SENSING: SYSTEM, V0, P0
+   Barnsley MJ, 2004, IEEE T GEOSCI REMOTE, V42, P1512, DOI 10.1109/TGRS.2004.827260
+   Breiman L., 1984, CLASSIFICATION REGRE, V0, P0, DOI DOI 10.1002/widm.8
+   Camps-Valls G., 2009, KERNEL METHODS REMOT, V0, P0
+   Camps-Valls G., 2012, SYNTH LECT IMAGE VID, V12, P1
+   Camps-Valls G., 2009, P IEEE INT GEOSC REM, V0, P0
+   Camps-Valls G., 2013, SIMPLER SIMPLE ED MA, V0, P0
+   Camps-Valls G, 2012, IEEE T GEOSCI REMOTE, V50, P1759, DOI 10.1109/TGRS.2011.2168963
+   Cho MA, 2007, INT J APPL EARTH OBS, V9, P414, DOI 10.1016/j.jag.2007.02.001
+   Coops NC, 2003, IEEE T GEOSCI REMOTE, V41, P1338, DOI 10.1109/TGRS.2003.813135
+   Delegido J, 2013, EUR J AGRON, V46, P42, DOI 10.1016/j.eja.2012.12.001
+   Delegido J, 2011, SENSORS-BASEL, V11, P7063, DOI 10.3390/s110707063
+   Dorigo WA, 2007, INT J APPL EARTH OBS, V9, P165, DOI 10.1016/j.jag.2006.05.003
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Fernandez G., 2005, P SPARC WORKSH, V0, P0
+   Friedman J., 2009, ELEMENTS STAT LEARNI, V0, P0
+   Gandia S, 2004, ESA SP, V578, P40
+   GELADI P, 1986, ANAL CHIM ACTA, V185, P1, DOI 10.1016/0003-2670(86)80028-9
+   Gianelle D, 2007, INT J REMOTE SENS, V28, P1547, DOI 10.1080/01431160600658180
+   Gianquinto G, 2011, EUR J AGRON, V35, P135, DOI 10.1016/j.eja.2011.05.005
+   Gopal S, 1996, IEEE T GEOSCI REMOTE, V34, P398, DOI 10.1109/36.485117
+   Guanter L, 2005, IEEE T GEOSCI REMOTE, V43, P2908, DOI 10.1109/TGRS.2005.857915
+   Haykin S, 1999, NEURAL NETWORKS COMP, V0, P0
+   Jolliffe IT, 2002, PRINCIPAL COMPONENT, V0, P0, DOI DOI 10.1007/b98835
+   Kimes DS, 1998, INT J REMOTE SENS, V19, P2639, DOI 10.1080/014311698214433
+   Lazaro-Gredilla M, 2014, IEEE GEOSCI REMOTE S, V11, P838, DOI 10.1109/LGRS.2013.2279695
+   Liang SL, 2003, IEEE T GEOSCI REMOTE, V41, P1260, DOI 10.1109/TGRS.2003.813203
+   Lichtenthaler HK, 1996, J PLANT PHYSIOL, V148, P599, DOI 10.1016/S0176-1617(96)80081-2
+   LICHTENTHALER HK, 1987, METHOD ENZYMOL, V148, P350
+   Malenovsky Z, 2012, REMOTE SENS ENVIRON, V120, P91, DOI 10.1016/j.rse.2011.09.026
+   Pasolli L, 2010, IEEE GEOSCI REMOTE S, V7, P464, DOI 10.1109/LGRS.2009.2039191
+   Peters J, 2017, ADAPT COMPUT MACH LE, V0, P0
+   Rivera J., 2014, REMOTE SENS, V0, P0
+   Rivera JP, 2013, REMOTE SENS-BASEL, V5, P3280, DOI 10.3390/rs5073280
+   Seeger Matthias, 2004, INT J NEURAL SYST, V14, P69, DOI 10.1142/S0129065704001899
+   Shawe-Taylor J., 2004, KERNEL METHODS PATTE, V0, P0, DOI DOI 10.1017/CBO9780511809682
+   Shen X., 2012, ACM INT C P SER, V0, P25
+   SMITH JA, 1993, IEEE T GEOSCI REMOTE, V31, P1102, DOI 10.1109/36.263783
+   Tuia D, 2011, IEEE J-STSP, V5, P606, DOI 10.1109/JSTSP.2011.2139193
+   Verger A, 2008, REMOTE SENS ENVIRON, V112, P2789, DOI 10.1016/j.rse.2008.01.006
+   Verger A, 2011, REMOTE SENS ENVIRON, V115, P415, DOI 10.1016/j.rse.2010.09.012
+   Verrelst J., 2011, P EARSEL 7 SIG IM SP, V0, P11
+   Verrelst J, 2013, ISPRS J PHOTOGRAMM, V86, P157, DOI 10.1016/j.isprsjprs.2013.09.012
+   Verrelst J, 2014, IEEE T GEOSCI REMOTE, V52, P257, DOI 10.1109/TGRS.2013.2238242
+   Verrelst J, 2013, IEEE J-STARS, V6, P867, DOI 10.1109/JSTARS.2012.2222356
+   Verrelst J, 2012, REMOTE SENS-BASEL, V4, P2866, DOI 10.3390/rs4092866
+   Verrelst J, 2012, IEEE T GEOSCI REMOTE, V50, P1832, DOI 10.1109/TGRS.2011.2168962
+   Verrelst J, 2012, REMOTE SENS ENVIRON, V118, P127, DOI 10.1016/j.rse.2011.11.002
+   Wang SZ, 2012, PROC INT C TOOLS ART, V0, PP1151, DOI 10.1109/ICTAI.2012.164
+   Weiss M, 1999, REMOTE SENS ENVIRON, V70, P293, DOI 10.1016/S0034-4257(99)00045-0
+   Wold H., 1985, ENCY STAT SCI, V6, P581, DOI 10.1002/0471667196
+   WOLD S, 1987, CHEMOMETR INTELL LAB, V2, P37, DOI 10.1016/0169-7439(87)80084-9
+   Ye XJ, 2007, PRECIS AGRIC, V8, P111, DOI 10.1007/s11119-007-9032-2
+NR 58
+TC 79
+Z9 86
+U1 4
+U2 39
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD APR 15
+PY 2014
+VL 7
+IS 4
+BP 1249
+EP 1259
+DI 10.1109/JSTARS.2014.2298752
+PG 11
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA AG4LB
+UT WOS:000335390000023
+DA 2023-04-26
+ER
+
+PT J
+AU Yusof, NM
+   Pradhan, B
+AF Yusof, Norbazlan M.
+   Pradhan, Biswajeet
+TI Landslide susceptibility mapping along PLUS expressways in Malaysia using probabilistic based model in GIS
+SO 7TH IGRSM INTERNATIONAL REMOTE SENSING & GIS CONFERENCE AND EXHIBITION
+LA English
+DT Proceedings Paper
+ID artificial neural-networks; multiple logistic-regression; 3 test areas; frequency ratio; statistical-analysis; likelihood ratio; hazard; verification; maps; multivariate
+AB PLUS Berhad holds the concession for a total of 987 km of toll expressways in Malaysia, the longest of which is the North-South Expressway or NSE. Acting as the 'backbone' of the west coast of the peninsula, the NSE stretches from the Malaysian-Thai border in the north to the border with neighbouring Singapore in the south, linking several major cities and towns along the way. North-South Expressway in Malaysia contributes to the country economic development through trade, social and tourism sector. Presently, the highway is good in terms of its condition and connection to every state but some locations need urgent attention. Stability of slopes at these locations is of most concern as any instability can cause danger to the motorist. In this paper, two study locations have been analysed; they are Gua Tempurung (soil slope) and Jelapang (rock slope) which are obviously having two different characteristics. These locations passed through undulating terrain with steep slopes where landslides are common and the probability of slope instability due to human activities in surrounding areas is high. A combination of twelve (12) landslide conditioning factors database on slope stability such as slope degree and slope aspect were extracted from IFSAR (interoferometric synthetic aperture radar) while landuse, lithology and structural geology were constructed from interpretation of high resolution satellite data from World View II, Quickbird and Ikonos. All this information was analysed in geographic information system (GIS) environment for landslide susceptibility mapping using probabilistic based frequency ratio model. Consequently, information on the slopes such as inventories, condition assessments and maintenance records were assessed through total expressway maintenance management system or better known as TEMAN. The above mentioned system is used by PLUS as an asset management and decision support tools for maintenance activities along the highways as well as for data quality checking and integrity. In this study, TEMAN data were further analysed and subsequently integrated with landslide susceptible map for Gua Tempurung and Jelapang area in Perak.
+C1 [Yusof, Norbazlan M.] Persada PLUS, PLUS Berhad, KM15 New Klang Valley Expressway, Petaling Jaya 47301, Selangor, Malaysia.
+   [Pradhan, Biswajeet] Univ Putra Malaysia, Dept Civil Engn, Fac Engn, Serdang, Selangor, Malaysia.
+C3 Universiti Putra Malaysia
+RP Yusof, NM (corresponding author), Persada PLUS, PLUS Berhad, KM15 New Klang Valley Expressway, Petaling Jaya 47301, Selangor, Malaysia.
+EM bazlan@plus.uemnet.com
+CR Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Ali F. H., 2006, AMERICAN JOURNAL OF ENVIRONMENTAL SCIENCES, V2, P146, DOI 10.3844/ajessp.2006.146.153
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P699, DOI 10.1080/014311697217224
+   Atkinson PM, 1998, COMPUT GEOSCI-UK, V24, P373, DOI 10.1016/S0098-3004(97)00117-9
+   Ayalew L, 2005, ENG GEOL, V81, P432, DOI 10.1016/j.enggeo.2005.08.004
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Basheer IA, 2000, J MICROBIOL METH, V43, P3, DOI 10.1016/S0167-7012(00)00201-3
+   Biswajeet P, 2010, DISASTER ADV, V3, P26
+   Caniani D, 2008, NAT HAZARDS, V45, P55, DOI 10.1007/s11069-007-9169-3
+   Catani F, 2005, LANDSLIDES, V2, P329, DOI 10.1007/s10346-005-0021-0
+   Chang TC, 2006, ENG GEOL, V85, P270, DOI 10.1016/j.enggeo.2006.02.007
+   Chau KT, 2005, LANDSLIDES, V2, P280, DOI 10.1007/s10346-005-0024-x
+   Clerici A, 2002, GEOMORPHOLOGY, V48, P349, DOI 10.1016/S0169-555X(02)00079-X
+   Cruden D.M., 1996, LANDSLIDES INVESTIGA, V0, P36
+   Dahal RK, 2008, ENVIRON GEOL, V54, P311, DOI 10.1007/s00254-007-0818-3
+   Dai FC, 2001, ENVIRON GEOL, V40, P381, DOI 10.1007/s002540000163
+   Dai FC, 2002, GEOMORPHOLOGY, V42, P213, DOI 10.1016/S0169-555X(01)00087-3
+   Ercanoglu M, 2004, NAT HAZARDS, V32, P1, DOI 10.1023/B:NHAZ.0000026786.85589.4a
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   Gokceoglu C, 2000, ENG GEOL, V55, P277, DOI 10.1016/S0013-7952(99)00083-6
+   Gomez H, 2005, ENG GEOL, V78, P11, DOI 10.1016/j.enggeo.2004.10.004
+   Lee S, 2006, NAT HAZARD EARTH SYS, V6, P687, DOI 10.5194/nhess-6-687-2006
+   Lee S, 2005, ENVIRON GEOL, V48, P778, DOI 10.1007/s00254-005-0019-x
+   Lee S, 2005, INT J REMOTE SENS, V26, P1477, DOI 10.1080/01431160412331331012
+   Lee S, 2004, ENVIRON MANAGE, V34, P223, DOI 10.1007/s00267-003-0077-3
+   Lee S, 2004, INT J REMOTE SENS, V25, P2037, DOI 10.1080/01431160310001618734
+   Lee S, 2003, GEOSCI J, V7, P243, DOI 10.1007/BF02910291
+   Lee S, 2004, ENG GEOL, V71, P289, DOI 10.1016/S0013-7952(03)00142-X
+   Lee S, 2003, EARTH SURF PROC LAND, V28, P1361, DOI 10.1002/esp.593
+   Lee S, 2003, ENVIRON GEOL, V44, P820, DOI 10.1007/s00254-003-0825-y
+   Lee S, 2002, ENVIRON GEOL, V43, P120, DOI 10.1007/s00254-002-0616-x
+   Lee S, 2002, GEOMORPHOLOGY, V46, P149, DOI 10.1016/S0169-555X(02)00057-0
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Lee S, 2007, EARTH SURF PROC LAND, V32, P2133, DOI 10.1002/esp.1517
+   Lee S, 2007, LANDSLIDES, V4, P327, DOI 10.1007/s10346-007-0088-x
+   Lee S, 2007, ENVIRON GEOL, V52, P615, DOI 10.1007/s00254-006-0491-y
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2006, J EARTH SYST SCI, V115, P661, DOI 10.1007/s12040-006-0004-0
+   Lee S, 2006, ENVIRON GEOL, V50, P847, DOI 10.1007/s00254-006-0256-7
+   Lee S, 2006, MATH GEOL, V38, P199, DOI 10.1007/s11004-005-9012-x
+   Lee S, 2006, ADV SPACE RES, V38, P2261, DOI 10.1016/j.asr.2006.03.036
+   Moody A, 2004, S-P BKS GEOPHYS SCI, V0, P219
+   Neaupane KM, 2004, ENG GEOL, V74, P213, DOI 10.1016/j.enggeo.2004.03.010
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Ohlmacher GC, 2003, ENG GEOL, V69, P331, DOI 10.1016/S0013-7952(03)00069-3
+   PAOLA JD, 1995, INT J REMOTE SENS, V16, P3033, DOI 10.1080/01431169508954607
+   Pistocchi A, 2002, ENVIRON GEOL, V41, P765, DOI 10.1007/s002540100440
+   Pradhan B, 2006, ADV SPACE RES-SERIES, V37, P698, DOI 10.1016/j.asr.2005.03.137
+   Pradhan B., 2007, EARTH SCI FRONTIER, V14, P143, DOI 10.1016/S1872-5791(08)60008-1
+   Pradhan B, 2011, ENVIRON EARTH SCI, V63, P329, DOI 10.1007/s12665-010-0705-1
+   Pradhan B, 2011, ENVIRON ECOL STAT, V18, P471, DOI 10.1007/s10651-010-0147-7
+   Pradhan B, 2010, IEEE T GEOSCI REMOTE, V48, P4164, DOI 10.1109/TGRS.2010.2050328
+   Pradhan B, 2010, GEOMAT NAT HAZ RISK, V1, P199, DOI 10.1080/19475705.2010.498151
+   Pradhan B, 2010, INT J COMPUT INT SYS, V3, P370, DOI 10.2991/ijcis.2010.3.3.12
+   Pradhan B, 2010, ENVIRON ENG GEOSCI, V16, P107, DOI 10.2113/gseegeosci.16.2.107
+   Pradhan B, 2010, COMPUT ENVIRON URBAN, V34, P216, DOI 10.1016/j.compenvurbsys.2009.12.004
+   Pradhan B, 2010, ADV SPACE RES, V45, P1244, DOI 10.1016/j.asr.2010.01.006
+   Pradhan B, 2010, PHOTOGRAMM FERNERKUN, V0, PP17, DOI 10.1127/1432-8364/2010/0037
+   Pradhan B, 2010, ARAB J GEOSCI, V3, P319, DOI 10.1007/s12517-009-0089-2
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Pradhan B, 2009, APPL GEOMAT, V1, P3, DOI 10.1007/s12518-009-0001-5
+   Pradhan B, 2010, LANDSLIDES, V7, P13, DOI 10.1007/s10346-009-0183-2
+   Pradhan B, 2009, INT J PHYS SCI, V4, P1
+   Pradhan B, 2008, J APPL REMOTE SENS, V2, P0, DOI 10.1117/1.3026536
+   Roslan Z.A., 1997, IAHS PUBL, V245, P0
+   Santacana N, 2003, NAT HAZARDS, V30, P281, DOI 10.1023/B:NHAZ.0000007169.28860.80
+   Schalkoff R.J., 1997, ENG GEOL, V71, P303
+   Suzen ML, 2004, ENVIRON GEOL, V45, P665, DOI 10.1007/s00254-003-0917-8
+   Swingler K., 1996, APPL NEURAL NETWORKS, V0, P0
+   Tangestani MH, 2004, AUST J EARTH SCI, V51, P439, DOI 10.1111/j.1400-0952.2004.01068.x
+   Varnes D.J., 1984, LANDSLIDE HAZARD ZON, V0, P0
+   Wesley Hines J., 1997, FUZZY NEURAL APPROAC, V0, P0
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Youssef AM, 2009, NAT HAZARD EARTH SYS, V9, P751, DOI 10.5194/nhess-9-751-2009
+   Zhou WY, 1999, IEEE T GEOSCI REMOTE, V37, P771, DOI 10.1109/36.752193
+NR 76
+TC 4
+Z9 4
+U1 1
+U2 11
+PU IOP PUBLISHING LTD
+PI BRISTOL
+PA DIRAC HOUSE, TEMPLE BACK, BRISTOL BS1 6BE, ENGLAND
+SN 1755-1307
+EI 
+J9 IOP C SER EARTH ENV
+JI IOP Conf. Ser. Earth Envir. Sci.
+PD JUN 15
+PY 2014
+VL 20
+IS 
+BP 
+EP 
+DI 10.1088/1755-1315/20/1/012031
+PG 22
+WC Environmental Sciences; Geography, Physical; Remote Sensing
+SC Environmental Sciences & Ecology; Physical Geography; Remote Sensing
+GA BB8KD
+UT WOS:000346761600031
+DA 2023-04-26
+ER
+
+PT J
+AU Bishta, AZ
+   Sonbul, AR
+   Kashghari, W
+AF Bishta, Adel Zein
+   Sonbul, Abdullah Rasheed
+   Kashghari, Wuadee
+TI Utilization of supervised classification in structural and lithological mapping of Wadi Al-Marwah Area, NW Arabian Shield, Saudi Arabia
+SO ARABIAN JOURNAL OF GEOSCIENCES
+LA English
+DT Article
+DE Lithological or structural mapping; Wadi Al-Marwah; Supervised classification
+ID thematic mapper data; neural-networks; landsat; egypt
+AB Wadi Al-Marwah area is located in the northwestern part of the Arabian Shield, Saudi Arabia. It is mainly covered by Precambrian igneous and sedimentary rock units. This area was not subjected to previous detailed lithological or structural mapping. This study aims to apply supervised classification technique of remotely sensed digital satellite data of Landsat 7 for detailed lithological and structural mapping of the area. The fusion between multispectral Enhanced Thematic Mapper (ETM)+ data and high-resolution panchromatic ETM+ band-8 produced a color composite fused image for the study area, scale 1:50,000. The structural lineaments of the study area were extracted and interpreted from the digital imageries data. Little discrepancies or improvements were detected when combining the supervised classification results with the Landsat ratios or principal component analysis. These highlighted the benefits of multispectral classification, especially in terms of lithologic discrimination. The overall results of image processing techniques, applied in this work, were excellent and succeeded in the performance of a more detailed and accurate lithological and structural maps (scale 1:50,000) than the previous published maps for the investigated area.
+C1 [Bishta, Adel Zein; Sonbul, Abdullah Rasheed; Kashghari, Wuadee] King Abdulaziz Univ, Fac Earth Sci, Jeddah 21441, Saudi Arabia.
+C3 King Abdulaziz University
+RP Bishta, AZ (corresponding author), King Abdulaziz Univ, Fac Earth Sci, Jeddah 21441, Saudi Arabia.
+EM adel_zein2@yahoo.com
+CR Bernstein Ralph, 1978, DIGITAL IMAGE PROCES, V0, P0
+   BISCHOF H, 1992, IEEE T GEOSCI REMOTE, V30, P482, DOI 10.1109/36.142926
+   Bishta AZ, 2010, JKAU EARTH SCI, V21, P1
+   Bishta AZ, 2008, JKAU EARTH SCI, V21, P193
+   Bishta AZ., 2004, 3 INT S GEOPH TANT U, V0, P541
+   Bishta AZ., 2010, JKAU EARTH SCI, V21, P27
+   Brown DG, 1998, GEOMORPHOLOGY, V21, P233, DOI 10.1016/S0169-555X(97)00063-9
+   Curran P. J., 1985, PRINCIPLES REMOTE SE, V0, P0
+   DAVIES FB, 1982, J GEOL, V90, P467, DOI 10.1086/628707
+   Davis PA, 1987, PHOTOGRAMM ENG REMOT, V55, P1147
+   KANELLOPOULOS I, 1993, P INT GEOSC REM SENS, V0, P511
+   Lechi G., 1988, 11 INT TRAIN COURS A, V0, P0
+   Leech DP, 2003, INT J REMOTE SENS, V24, P3709, DOI 10.1080/0143116031000102520
+   Lillesand T., 2015, REMOTE SENSING IMAGE, V0, P0
+   Mather P. M., 1987, COMPUTER PROCESSING, V0, P0
+   Mostafa ME, 2004, INT J REMOTE SENS, V25, P1
+   PAOLA JD, 1994, INT GEOSCI REMOTE SE, V0, PP1404, DOI 10.1109/IGARSS.1994.399452
+   PCI, 1997, US PCI SOFTW 1997, V2, P0
+   PCI, 2004, GEOM 9 2004 VERS 9 1, V0, P0
+   Richards J. A., 1995, REMOTE SENSING DIGIT, V0, P0
+   Sabins F.F., 1997, REMOTE SENSING PRINC, V3, P0
+   Schowengerdt R.A., 1983, TECHNIQUES IMAGE PRO, V0, P0
+   Skidmore AK, 1997, PHOTOGRAMM ENG REM S, V63, P501
+   Solaiman B, 1994, P INT GEOSC REM SENS, V3, P1413
+   SULTAN M, 1987, GEOL SOC AM BULL, V99, P748, DOI 10.1130/0016-7606(1987)99<748:LMIARW>2.0.CO;2
+   SULTAN M, 1986, GEOLOGY, V14, P995, DOI 10.1130/0091-7613(1986)14<995:MOSITE>2.0.CO;2
+NR 26
+TC 8
+Z9 8
+U1 0
+U2 9
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1866-7511
+EI 1866-7538
+J9 ARAB J GEOSCI
+JI Arab. J. Geosci.
+PD SEP 15
+PY 2014
+VL 7
+IS 9
+BP 3855
+EP 3869
+DI 10.1007/s12517-013-1044-9
+PG 15
+WC Geosciences, Multidisciplinary
+SC Geology
+GA AN8RP
+UT WOS:000340872000036
+DA 2023-04-26
+ER
+
+PT J
+AU Umar, Z
+   Pradhan, B
+   Ahmad, A
+   Jebur, MN
+   Tehrany, MS
+AF Umar, Zahrul
+   Pradhan, Biswajeet
+   Ahmad, Anuar
+   Jebur, Mustafa Neamah
+   Tehrany, Mahyat Shafapour
+TI Earthquake induced landslide susceptibility mapping using an integrated ensemble frequency ratio and logistic regression models in West Sumatera Province, Indonesia
+SO CATENA
+LA English
+DT Article
+DE Landslide; Earthquake; Ensemble; Geographic information system (GIS); Remote sensing (RS); Indonesia
+ID neural-network model; support vector machine; hoa binh province; golestan province; hierarchy process; sumatran fault; fuzzy-logic; gis; hazard; area
+AB An 8 Richter Scale (RS) earthquake struck West Sumatra on Wednesday, 30 September 2009, at 17.16 pm which led to huge number of landslides. Hence a comprehensive landslide susceptibility mapping (LSM) should be produced in order to reduce the damages to people and infrastructures. In the international landslide literature, various statistical methods such as frequency ratio (FR) and logistic regression (LR) have been widely used individually for LSM, but they have some weaknesses. FR which is able to perform bivariate statistical analysis (BSA) assesses the influence of classes of each conditioning factor on landslide occurrence. However, the correlation between the factors is mostly neglected. On the other hand, LR is able to analyze the relationship among the factors while it is not capable to evaluate the classes of each landslide conditioning factor. This paper aims to propose an ensemble method of FR and LR in order to overcome their weak points. For LSM, a landslide inventory map with a total of 87 landslide locations was extracted from various sources. Then the landslide inventory was randomly divided into two datasets 70% for training the models and the remaining 30% was used for validation purpose. The landslide conditioning factors consist of: altitude, curvature, river, SPI, rainfall, soil type, soil texture, land use/cover (LULC), peak ground acceleration (PGA), geology, slope, aspect, lineament and topographic wetness index (TWI). Four PGA of 7.5, 8, 8.6 and 9 were acquired and PGA 8 which was related to the 2009 earthquake was used to generate the model. Finally, the produced landslide susceptibility maps were validated using an area under the (ROC) curve method. For the model which was derived by PGA 8, the validation results showed 84% and 78% success and prediction rates respectively. Furthermore, the prediction rates for the models made by PGA 7.2, 8.6 and 9 are 79%, 78% and 81% respectively. The result proved the reasonable efficiency of the proposed method for earthquake induced landslide susceptibility mapping. Also the proposed ensemble method can be used in other hazard studies as it is capable to produce rapid and accurate assessment for disaster management and decision making. (C) 2014 Elsevier B.V. All rights reserved.
+C1 [Umar, Zahrul; Ahmad, Anuar] Univ Teknol Malaysia, Fac Geoinformat & Real Estate, Dept Geomat Engn, Skudai, Johor, Malaysia.
+   [Pradhan, Biswajeet; Jebur, Mustafa Neamah; Tehrany, Mahyat Shafapour] Univ Putra Malaysia, Fac Engn, Dept Civil Engn, Serdang 43400, Selangor, Malaysia.
+C3 Universiti Teknologi Malaysia; Universiti Putra Malaysia
+RP Pradhan, B (corresponding author), Univ Putra Malaysia, Fac Engn, Dept Civil Engn, Serdang 43400, Selangor, Malaysia.
+EM biswajeet24@gmail.com
+CR Akgun A, 2012, COMPUT GEOSCI-UK, V38, P23, DOI 10.1016/j.cageo.2011.04.012
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Bai S., 2012, P INT C INF CYB COMP, V0, P0
+   Barredo J., 2000, SPAIN INT J APPL EAR, V2, P9, DOI 10.1016/S0303-2434(00)85022-9
+   BENEDIKTSSON JA, 1990, IEEE T GEOSCI REMOTE, V28, P540, DOI 10.1109/TGRS.1990.572944
+   BUI DT, 2013, VIETNAM NAT HAZARDS, V66, P707, DOI 10.1007/S11069-012-0510-0
+   Chau KW, 2005, J HYDROL ENG, V10, P485, DOI 10.1061/(ASCE)1084-0699(2005)10:6(485)
+   Chen FW, 2012, PADDY WATER ENVIRON, V10, P209, DOI 10.1007/s10333-012-0319-1
+   Chi K.H., 2002, INF SCI, V34, P54
+   Choi J, 2010, ENVIRON EARTH SCI, V60, P473, DOI 10.1007/s12665-009-0188-0
+   Bui DT, 2012, GEOMORPHOLOGY, V171, P12, DOI 10.1016/j.geomorph.2012.04.023
+   Bui DT, 2012, MATH PROBL ENG, V2012, P0, DOI 10.1155/2012/974638
+   Bui DT, 2012, COMPUT GEOSCI-UK, V45, P199, DOI 10.1016/j.cageo.2011.10.031
+   Bui DT, 2012, CATENA, V96, P28, DOI 10.1016/j.catena.2012.04.001
+   FUKUSHIMA Y, 1990, B SEISMOL SOC AM, V80, P757
+   Ghalkhani H., 2012, WATER ENV J, V0, P0
+   Gupta RP, 2008, INT J APPL EARTH OBS, V10, P330, DOI 10.1016/j.jag.2008.01.003
+   ISLAM I, 1986, B INDONES ECON STUD, V22, P80, DOI 10.1080/00074918612331334834
+   Jebur MN, 2015, GEOMAT NAT HAZ RISK, V6, P741, DOI 10.1080/19475705.2013.860407
+   KARIG DE, 1974, ANNU REV EARTH PL SC, V2, P51, DOI 10.1146/annurev.ea.02.050174.000411
+   Konadu DD, 2009, APPROPRIATE TECHNOLOGIES FOR ENVIRONMENTAL PROTECTION IN THE DEVELOPING WORLD, V0, PP325, DOI 10.1007/978-1-4020-9139-1_31
+   Lee S, 2005, ENVIRON GEOL, V48, P778, DOI 10.1007/s00254-005-0019-x
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2006, J EARTH SYST SCI, V115, P661, DOI 10.1007/s12040-006-0004-0
+   Lee S, 2006, ENVIRON GEOL, V50, P847, DOI 10.1007/s00254-006-0256-7
+   LEO GW, 1980, J VOLCANOL GEOTH RES, V7, P139, DOI 10.1016/0377-0273(80)90024-4
+   Liu YB, 2005, WATER RESOUR MANAG, V19, P605, DOI 10.1007/s11269-005-6808-x
+   Luzi L, 2000, ENG GEOL, V58, P313, DOI 10.1016/S0013-7952(00)00041-7
+   Magliulo P, 2008, NAT HAZARDS, V47, P411, DOI 10.1007/s11069-008-9230-x
+   Maier HR, 2000, ENVIRON MODELL SOFTW, V15, P101, DOI 10.1016/S1364-8152(99)00007-9
+   MCCAFFREY R, 1991, GEOLOGY, V19, P881, DOI 10.1130/0091-7613(1991)019<0881:SVASOT>2.3.CO;2
+   McFadden D, 1973, FRONTIERS ECONOMETRI, V0, PP105, DOI 10.1108/EB028592
+   Mohammady M, 2012, J ASIAN EARTH SCI, V61, P221, DOI 10.1016/j.jseaes.2012.10.005
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   Oh HJ, 2010, ENVIRON EARTH SCI, V60, P1317, DOI 10.1007/s12665-009-0272-5
+   Ozdemir A, 2013, J ASIAN EARTH SCI, V64, P180, DOI 10.1016/j.jseaes.2012.12.014
+   Park S, 2013, ENVIRON EARTH SCI, V68, P1443, DOI 10.1007/s12665-012-1842-5
+   Pourghasemi HR, 2013, J EARTH SYST SCI, V122, P349, DOI 10.1007/s12040-013-0282-2
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2011, INT J REMOTE SENS, V32, P4075, DOI 10.1080/01431161.2010.484433
+   Pradhan B, 2010, GEO-SPAT INF SCI, V13, P93, DOI 10.1007/s11806-010-0236-7
+   Pradhan B, 2011, ENVIRON EARTH SCI, V63, P329, DOI 10.1007/s12665-010-0705-1
+   Pradhan B, 2010, ENVIRON ENG GEOSCI, V16, P107, DOI 10.2113/gseegeosci.16.2.107
+   Pradhan B, 2010, ADV SPACE RES, V45, P1244, DOI 10.1016/j.asr.2010.01.006
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Pradhan B, 2010, LANDSLIDES, V7, P13, DOI 10.1007/s10346-009-0183-2
+   Prawirodirdjo L, 2000, J GEOPHYS RES-SOL EA, V105, P28343, DOI 10.1029/2000JB900150
+   Saha AK, 2005, LANDSLIDES, V2, P61, DOI 10.1007/s10346-004-0039-8
+   Sarkar S, 2004, PHOTOGRAMM ENG REM S, V70, P617, DOI 10.14358/PERS.70.5.617
+   Sidle R.C., 2006, WATER RESOUR RES, V0, P0, DOI DOI 10.1029/WM018
+   Sieh K, 2000, J GEOPHYS RES-SOL EA, V105, P28295, DOI 10.1029/2000JB900120
+   Subramanian N, 2012, INT J PROD ECON, V138, P215, DOI 10.1016/j.ijpe.2012.03.036
+   Tilmant A, 2002, J WATER RES PL-ASCE, V128, P390, DOI 10.1061/(ASCE)0733-9496(2002)128:6(390)
+   Van Asch TWJ, 1999, GEOMORPHOLOGY, V30, P25, DOI 10.1016/S0169-555X(99)00042-2
+   van Westen CJ, 2008, ENG GEOL, V102, P112, DOI 10.1016/j.enggeo.2008.03.010
+   Van Westen CJ, 2003, NAT HAZARDS, V30, P399, DOI 10.1023/B:NHAZ.0000007097.42735.9e
+   Van Westen CJ, 2000, SURV GEOPHYS, V21, P241, DOI 10.1023/A:1006794127521
+   vanWesten CJ, 1996, EARTH SURF PROCESSES, V21, P853, DOI 10.1002/(SICI)1096-9837(199609)21:9&lt;853::AID-ESP676&gt;3.0.CO;2-C
+   Wan S, 2010, NAT HAZARDS, V52, P211, DOI 10.1007/s11069-009-9366-3
+   Wan S, 2010, INT J GEOGR INF SCI, V24, P623, DOI 10.1080/13658810802587709
+   Wan S, 2012, INT J GEOGR INF SCI, V26, P747, DOI 10.1080/13658816.2011.613397
+   Wan SA, 2009, KNOWL-BASED SYST, V22, P580, DOI 10.1016/j.knosys.2009.07.008
+   Westerveld J., 1953, P PAC SCI C NZ, V0, P0
+   Wieczorek G., 1984, B ASS ENG GEOLOGISTS, V21, P337, DOI 10.2113/GSEEGEOSCI.XXI.3.337
+   Wilkinson SM, 2012, NAT HAZARDS, V63, P521, DOI 10.1007/s11069-012-0164-y
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Yin JH, 2010, J ASIAN EARTH SCI, V37, P452, DOI 10.1016/j.jseaes.2009.12.002
+   Yin YP, 2009, LANDSLIDES, V6, P139, DOI 10.1007/s10346-009-0148-5
+   Zhou JW, 2013, J ASIAN EARTH SCI, V76, P70, DOI 10.1016/j.jseaes.2013.08.007
+NR 71
+TC 221
+Z9 229
+U1 9
+U2 148
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0341-8162
+EI 1872-6887
+J9 CATENA
+JI Catena
+PD JUL 15
+PY 2014
+VL 118
+IS 
+BP 124
+EP 135
+DI 10.1016/j.catena.2014.02.005
+PG 12
+WC Geosciences, Multidisciplinary; Soil Science; Water Resources
+SC Geology; Agriculture; Water Resources
+GA AY5FI
+UT WOS:000347598000012
+DA 2023-04-26
+ER
+
+PT J
+AU Uglev, V
+   Sukhinin, D
+AF Uglev, Victor
+   Sukhinin, Dmitry
+TI Automated Education: Tendency for Scientific Approaches Convergence
+SO PROCEEDINGS OF THE 2ND INTERNATIONAL CONFERENCE ON APPLIED SOCIAL SCIENCE RESEARCH
+LA English
+DT Proceedings Paper
+DE education; cognitive psychology; artificial intelligence; neuroscience; computational neuroscience; neuroinformatics; cognitive maps
+AB In this paper we discussing the possibility of the complex use of advances in area of pedagogic, psychology, neuroscience and informatics for the creation of teaching and learned systems of new generation. It is shown that the theoretical basis of automated education people (educational systems and program-mathematical models) and machines (neural network simulation and intellectual robotic systems) can be integrated into a new scientific direction.
+C1 [Uglev, Victor] Siberian Fed Univ, Robot & Artificial Intelligent Lab, Zheleznogorsk, Russia.
+   [Sukhinin, Dmitry] Univ Med Ctr Hamburg Eppendorf, Inst Computat Neurosci, Hamburg, Germany.
+C3 Siberian Federal University; University of Hamburg; University Medical Center Hamburg-Eppendorf
+EM uglev-v@yandex.ru; d.sukhinin@gmail.com
+CR Anokhin P. K., 1974, BIOL NEUROPHYSIOLOGY, V0, P0
+   [Anonymous], 2003, ARTIF INTELL, V0, P0
+   Eliasmith C, 2012, SCIENCE, V338, P1202, DOI 10.1126/science.1225266
+   Felleman DJ, 1991, CEREB CORTEX, V1, P1, DOI 10.1093/cercor/1.1.1
+   Fuster JM, 2003, CORTEX MIND UNIFYING, V0, P0
+   Kandel ER, 2001, BIOSCIENCE REP, V21, P565, DOI 10.1023/A:1014775008533
+   Khnykin A, 2011, LECT NOTES COMPUT SC, V6693, P167, DOI 10.1007/978-3-642-21303-8_23
+   Mashbits E. I., 1988, PSYCHOL PEDAGOGICAL, V0, P0
+   Merolla P., 2011, IEEE CUST INT CIRC C, V0, PP1, DOI 10.1109/CICC.2011.6055294
+   Muntean CI, 2011, PROC INT C VIRTUAL L, V0, P323
+   Nechaev YI, 2002, LECT NOTES COMPUT SC, V2329, P683
+   OReilly RC, 2006, SCIENCE, V314, P91, DOI 10.1126/science.1127242
+   Shepherd GM, 1998, TRENDS NEUROSCI, V21, P460, DOI 10.1016/S0166-2236(98)01300-9
+   Solso R. L., 1999, MIND BRAIN SCI 21 CE, V0, P0
+   Sukhinin D., 2013, C ABSTR NEU IN PRESS, V0, P0, DOI DOI 10.3389/conf.fninf.2013.09.00007
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Uglev V., 2014, SCI ED, V0, P0
+   Uglev V., 2012, OPEN DISTANCE LEARNI, V0, P17
+   Uglev V., 2013, INT SIB C CONTR COMM, V0, PP1, DOI 10.1109/SIBCON.2013.6693651
+   Uglev V, 2014, AASRI PROC, V6, P66, DOI 10.1016/j.aasri.2014.05.010
+   Vygotsky L., 1935, MENTAL DEV CHILDREN, V0, P33
+   Wang YX, 2009, FUND INFORM, V90, P203, DOI 10.3233/FI-2009-0015
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 1
+PU ATLANTIS PRESS
+PI PARIS
+PA 29 AVENUE LAVMIERE, PARIS, 75019, FRANCE
+SN 1951-6851
+EI 
+J9 ADV INTEL SYS RES
+PD JUN 15
+PY 2014
+VL 104
+IS 
+BP 20
+EP 23
+DI 
+PG 4
+WC Social Sciences, Interdisciplinary
+SC Social Sciences - Other Topics
+GA BB8BX
+UT WOS:000346281500006
+DA 2023-04-26
+ER

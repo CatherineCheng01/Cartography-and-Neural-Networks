@@ -1,0 +1,514 @@
+
+PT J
+AU Yan, WJ
+   Weber, C
+   Wermter, S
+AF Yan, Wenjie
+   Weber, Cornelius
+   Wermter, Stefan
+TI Learning indoor robot navigation using visual and sensorimotor map information
+SO FRONTIERS IN NEUROROBOTICS
+LA English
+DT Article
+DE spatial cognition; neural networks; robot navigation; cognitive system; environment learning
+ID head-direction cells; freely moving rats; anterior thalamus; decision-making; model; hippocampus; postsubiculum; network; circuit; nucleus
+AB As a fundamental research topic, autonomous indoor robot navigation continues to be a challenge in unconstrained real-world indoor environments. Although many models for map-building and planning exist, it is difficult to integrate them due to the high amount of noise, dynamics, and complexity. Addressing this challenge, this paper describes a neural model for environment mapping and robot navigation based on learning spatial knowledge. Considering that a person typically moves within a room without colliding with objects, this model learns the spatial knowledge by observing the person's movement using a ceiling-mounted camera. A robot can plan and navigate to any given position in the room based on the acquired map, and adapt it based on having identified possible obstacles. In addition, salient visual features are learned and stored in the map during navigation. This anchoring of visual features in the map enables the robot to find and navigate to a target object by showing an image of it. We implement this model on a humanoid robot and tests are conducted in a home-like environment. Results of our experiments show that the learned sensorimotor map masters complex navigation tasks.
+C1 [Yan, Wenjie; Weber, Cornelius; Wermter, Stefan] Univ Hamburg, Dept Comp Sci, Knowledge Technol Grp, D-22527 Hamburg, Germany.
+C3 University of Hamburg
+RP Yan, WJ (corresponding author), Univ Hamburg, Dept Comp Sci, Knowledge Technol Grp, Vogt Kolln Str 30, D-22527 Hamburg, Germany.
+EM yan@informatik.uni-hamburg.de
+FU European Commission under the 7th Framework Programme (FP7) [2010-248085]
+CR ABRAMOWITZ M, 1965, HDB MATH FUNCTIONS, V0, P374
+   Amaral D., 2006, HIPPOCAMPUS BOOK, V0, P0
+   AMARI SI, 1977, BIOL CYBERN, V27, P77, DOI 10.1007/BF00337259
+   Bay H, 2006, LECT NOTES COMPUT SC, V3951, P404, DOI 10.1007/11744023_32
+   Bellotto N, 2008, ROBOT AUTON SYST, V56, P143, DOI 10.1016/j.robot.2007.07.001
+   Blair HT, 1998, NEURON, V21, P1387, DOI 10.1016/S0896-6273(00)80657-1
+   BLAIR HT, 1995, J NEUROSCI, V15, P6260
+   Burgess N, 2002, NEURON, V35, P625, DOI 10.1016/S0896-6273(02)00830-9
+   CHEN LL, 1994, EXP BRAIN RES, V101, P8, DOI 10.1007/BF00243212
+   Cho JW, 2001, BEHAV NEUROSCI, V115, P3, DOI 10.1037//0735-7044.115.1.3
+   Collett M, 1998, NATURE, V394, P269, DOI 10.1038/28378
+   Cuperlier N., 2005, LECT NOTES COMPUTER, V0, P147
+   Cuperlier Nicolas, 2007, FRONT NEUROROBOT, V1, P3, DOI 10.3389/neuro.12.003.2007
+   Deneve S., 2005, ADV NEURAL INFORM PR, V0, P353
+   Eriksson PS, 1998, NAT MED, V4, P1313, DOI 10.1038/3305
+   Erlhagen W, 2006, J NEURAL ENG, V3, PR36, DOI 10.1088/1741-2560/3/3/R02
+   Fritzke B., 1995, ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 7, V0, P625
+   Giese M.A., 1998, DYNAMIC NEURAL FIELD, V0, P0
+   Gorchetchnikov A, 2007, NEURAL NETWORKS, V20, P182, DOI 10.1016/j.neunet.2006.11.007
+   Herbort O, 2010, STUD COMPUT INTELL, V264, P85
+   Huang Y., 2009, FRONTIERS SYSTEMS NE, V0, P0, DOI DOI 10.3389/conf.neuro.06.2009.03.048
+   LAVOIE AM, 1994, BRAIN RES, V638, P157, DOI 10.1016/0006-8993(94)90645-9
+   Marsland S, 2002, NEURAL NETWORKS, V15, P1041, DOI 10.1016/S0893-6080(02)00078-3
+   Martinet LE, 2011, PLOS COMPUT BIOL, V7, P0, DOI 10.1371/journal.pcbi.1002045
+   Milford M, 2010, INT J ROBOT RES, V29, P1131, DOI 10.1177/0278364909340592
+   Milford MJ, 2004, IEEE INT CONF ROBOT, V0, PP403, DOI 10.1109/ROBOT.2004.1307183
+   MIZUMORI SJY, 1993, J NEUROSCI, V13, P4015
+   Montello DR., 2001, INT ENCY SOCIAL BEHA, V7, P14771, DOI 10.1016/B0-08-043076-7/02492-X
+   Murphy R.R., 2019, INTRO AI ROBOTICS, V0, P0
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   Pennartz CMA, 2011, TRENDS NEUROSCI, V34, P548, DOI 10.1016/j.tins.2011.08.001
+   Penner MR, 2012, PROG NEUROBIOL, V96, P96, DOI 10.1016/j.pneurobio.2011.08.010
+   Samsonovich A, 1997, J NEUROSCI, V17, P5900
+   Samsonovich AV, 2005, LEARN MEMORY, V12, P193, DOI 10.1101/lm.85205
+   Taube JS, 1998, HIPPOCAMPUS, V8, P87, DOI 10.1002/(SICI)1098-1063(1998)8:2<87::AID-HIPO1>3.0.CO;2-4
+   TAUBE JS, 1990, J NEUROSCI, V10, P420
+   TAUBE JS, 1995, J NEUROSCI, V15, P70
+   TAUBE JS, 1990, J NEUROSCI, V10, P436
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Torta E, 2011, ACMIEEE INT CONF HUM, V0, PP273, DOI 10.1145/1957656.1957767
+   Toussaint M, 2006, NEURAL COMPUT, V18, P1132, DOI 10.1162/neco.2006.18.5.1132
+   van der Meer MAA, 2010, FRONT NEUROSCI-SWITZ, V4, P0, DOI 10.3389/neuro.01.006.2010
+   Weber C, 2008, LECT NOTES COMPUT SC, V5163, P740, DOI 10.1007/978-3-540-87536-9_76
+   Weber C, 2007, NEUROCOMPUTING, V70, P2552, DOI 10.1016/j.neucom.2006.05.014
+   Weiller Daniel, 2010, FRONT NEUROROBOT, V4, P2, DOI 10.3389/fnbot.2010.00002
+   Wilson R, 2009, P ADV NEUR INF PROC, V22, P2062
+   Witkowski M, 2007, ADAPT BEHAV, V15, P307, DOI 10.1177/1059712307082092
+   Wolpert DM, 2011, NAT REV NEUROSCI, V12, P739, DOI 10.1038/nrn3112
+   Wyss R, 2006, PLOS BIOL, V4, P836, DOI 10.1371/journal.pbio.0040120
+   Yan W., 2012, P 2012 INT JOINT C N, V0, P1146
+   Yan WJ, 2013, ROBOTIC VISION: TECHNOLOGIES FOR MACHINE LEARNING AND VISION APPLICATIONS, V0, PP257, DOI 10.4018/978-1-4666-2672-0.ch015
+   Yan WJ, 2011, J AMB INTEL SMART EN, V3, P237, DOI 10.3233/AIS-2011-0111
+   Zetzsche C, 2009, SPATIAL VISION, V22, P409, DOI 10.1163/156856809789476074
+NR 54
+TC 8
+Z9 8
+U1 1
+U2 11
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 1662-5218
+EI 
+J9 FRONT NEUROROBOTICS
+JI Front. Neurorobotics
+PD JUN 15
+PY 2013
+VL 7
+IS 
+BP 
+EP 
+DI 10.3389/fnbot.2013.00015
+PG 14
+WC Computer Science, Artificial Intelligence; Robotics; Neurosciences
+SC Computer Science; Robotics; Neurosciences & Neurology
+GA V36UW
+UT WOS:000209236900005
+PM 24109451
+DA 2023-04-26
+ER
+
+PT J
+AU Ramirez-Moreno, DF
+   Schwartz, O
+   Ramirez-Villegas, JF
+AF Ramirez-Moreno, David F.
+   Schwartz, Odelia
+   Ramirez-Villegas, Juan F.
+TI A saliency-based bottom-up visual attention model for dynamic scenes analysis
+SO BIOLOGICAL CYBERNETICS
+LA English
+DT Article
+DE Visual attention; Saliency map; Motion saliency; Neural network; Synaptic depression; Neural latency; Asymmetry phenomenon; Lyapunov stability
+ID top-down; conjunction search; neuronal-activity; spatial structure; motion detection; map model; cortex; asymmetry; color; guidance
+AB This work proposes a model of visual bottom-up attention for dynamic scene analysis. Our work adds motion saliency calculations to a neural network model with realistic temporal dynamics [(e.g., building motion salience on top of De Brecht and Saiki Neural Networks 19:1467-1474, (2006)]. The resulting network elicits strong transient responses to moving objects and reaches stability within a biologically plausible time interval. The responses are statistically different comparing between earlier and later motion neural activity; and between moving and non-moving objects. We demonstrate the network on a number of synthetic and real dynamical movie examples. We show that the model captures the motion saliency asymmetry phenomenon. In addition, the motion salience computation enables sudden-onset moving objects that are less salient in the static scene to rise above others. Finally, we include strong consideration for the neural latencies, the Lyapunov stability, and the neural properties being reproduced by the model.
+C1 [Ramirez-Moreno, David F.; Ramirez-Villegas, Juan F.] Univ Autonoma Occidente, Dept Phys, Cali, Colombia.
+   [Schwartz, Odelia] Yeshiva Univ, Albert Einstein Coll Med, Dominick P Purpura Dept Neurosci, New York, NY 10033 USA.
+   [Schwartz, Odelia] Yeshiva Univ, Albert Einstein Coll Med, Dept Syst & Computat Biol, New York, NY 10033 USA.
+C3 Universidad Autonoma de Occidente; Yeshiva University; Yeshiva University
+RP Ramirez-Moreno, DF (corresponding author), Univ Autonoma Occidente, Dept Phys, Cali, Colombia.
+EM dramirez@uao.edu.co
+CR Abbott LF, 1997, SCIENCE, V275, P220, DOI 10.1126/science.275.5297.221
+   Andino SLG, 2012, FRONT BEHAV NEUROSCI, V6, P0, DOI 10.3389/fnbeh.2012.00038
+   BERGEN JR, 1983, NATURE, V303, P696, DOI 10.1038/303696a0
+   Bollman M, 1997, INTEGRATION STATIC D, V0, P483
+   Borst A, 2000, NAT NEUROSCI, V3, P1168, DOI 10.1038/81435
+   BURT PJ, 1983, IEEE T COMMUN, V31, P532, DOI 10.1109/TCOM.1983.1095851
+   Burt PJ, 1988, P INT C PATT REC HAG, V1, P977
+   Cauller L, 1995, BEHAV BRAIN RES, V71, P163, DOI 10.1016/0166-4328(95)00032-1
+   Chen B, 2005, THESIS TEXAS TU TEXA, V0, P0
+   Chen LQ, 2003, MULTIMEDIA SYST, V9, P1
+   Coen-Cagli R, 2012, PLOS COMPUT BIOL, V8, P0, DOI 10.1371/journal.pcbi.1002405
+   Connor CE, 2004, CURR BIOL, V14, PR850, DOI 10.1016/j.cub.2004.09.041
+   Conway BR, 2009, NEUROSCIENTIST, V15, P274, DOI 10.1177/1073858408331369
+   Conway BR, 2001, J NEUROSCI, V21, P2768, DOI 10.1523/JNEUROSCI.21-08-02768.2001
+   de Brecht M, 2006, NEURAL NETWORKS, V19, P1467, DOI 10.1016/j.neunet.2005.12.004
+   Deco G, 2004, VISION RES, V44, P621, DOI 10.1016/j.visres.2003.09.037
+   DESIMONE R, 1995, ANNU REV NEUROSCI, V18, P193, DOI 10.1146/annurev-psych-122414-033400
+   Desimone R, 1989, NEURAL MECH VISUAL P, V0, P267
+   Engel S, 1997, NATURE, V388, P68, DOI 10.1038/40398
+   FAHY FL, 1993, EXP BRAIN RES, V96, P457
+   Fix J, 2011, COGN COMPUT, V3, P279, DOI 10.1007/s12559-010-9083-y
+   Gao D., 2007, P IEEE INT C COMP VI, V0, P0
+   GREENSPAN H, 1994, 1994 IEEE COMPUTER SOCIETY CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION, V0, P222, DOI 10.1109/CVPR.1994.323833
+   Hamker FH, 2004, VISION RES, V44, P501, DOI 10.1016/j.visres.2003.09.033
+   Hamker FH, 2006, BIOSYSTEMS, V86, P91, DOI 10.1016/j.biosystems.2006.03.010
+   Horowitz TS, 2007, PERCEPTION, V36, P1624, DOI 10.1068/p5683
+   Ibbotson M, 2001, IDENTIFICATION MECH, V0, P0
+   Itti L, 2004, IEEE T IMAGE PROCESS, V13, P1304, DOI 10.1109/TIP.2004.834657
+   Itti L, 1998, IEEE T PATTERN ANAL, V20, P1254, DOI 10.1109/34.730558
+   Itti L, 2001, NAT REV NEUROSCI, V2, P194, DOI 10.1038/35058500
+   Itti L, 2000, VISION RES, V40, P1489, DOI 10.1016/S0042-6989(99)00163-7
+   JONIDES J, 1988, PERCEPT PSYCHOPHYS, V43, P346, DOI 10.3758/BF03208805
+   Kusunoki M, 2000, VISION RES, V40, P1459, DOI 10.1016/S0042-6989(99)00212-6
+   Li ZP, 1999, P NATL ACAD SCI USA, V96, P10530, DOI 10.1073/pnas.96.18.10530
+   Li ZP, 2002, TRENDS COGN SCI, V6, P9, DOI 10.1016/S1364-6613(00)01817-9
+   Liu T, 2007, P IEEE COMP SOC C CO, V0, P0
+   Lopez MT, 2006, PATTERN RECOGN LETT, V27, P469, DOI 10.1016/j.patrec.2005.09.010
+   Mahadevan V, 2010, IEEE T PATTERN ANAL, V32, P171, DOI 10.1109/TPAMI.2009.112
+   Matsuno T, 2006, BEHAV BRAIN RES, V172, P219, DOI 10.1016/j.bbr.2006.05.004
+   Maunsell JHR, 2006, TRENDS NEUROSCI, V29, P317, DOI 10.1016/j.tins.2006.04.001
+   Meso AI, 2009, BIOL CYBERN, V100, P361, DOI 10.1007/s00422-009-0307-8
+   Mira J, 2008, NEUROCOMPUTING, V71, P704, DOI 10.1016/j.neucom.2007.10.005
+   Mundhenk TN, 2005, BIOL CYBERN, V93, P188, DOI 10.1007/s00422-005-0577-8
+   Nagy AL, 1996, VISION RES, V36, P2837, DOI 10.1016/0042-6989(96)00046-6
+   Navalpakkam V, 2005, VISION RES, V45, P205, DOI 10.1016/j.visres.2004.07.042
+   Navalpakkam V, 2002, LECT NOTES COMPUT SC, V2525, P453
+   Navalpakkam V., 2006, P IEEE C COMP VIS PA, V1, P1
+   Nothdurft HC, 2000, VISION RES, V40, P1183, DOI 10.1016/S0042-6989(00)00031-6
+   Oliva A, 2003, IEEE IMAGE PROC, V0, PP253, DOI 10.1109/icip.2003.1246946
+   Park SJ, 2002, NEUROCOMPUTING, V49, P417, DOI 10.1016/S0925-2312(02)00637-9
+   Peters RJ, 2005, VISION RES, V45, P2397, DOI 10.1016/j.visres.2005.03.019
+   Pomplun M., 2007, INTEGRATED MODELS CO, V0, P120
+   Ramirez-Villegas JF, 2013, BIOL CYBERN, V107, P39, DOI 10.1007/s00422-012-0522-6
+   Rapantzikos K, 2007, IET IMAGE PROCESS, V1, P237, DOI 10.1049/iet-ipr:20060040
+   Reynolds JH, 2009, NEURON, V61, P168, DOI 10.1016/j.neuron.2009.01.002
+   Royden CS, 2001, PERCEPT PSYCHOPHYS, V63, P436, DOI 10.3758/BF03194410
+   Santos A, 2011, NEUROIMAGE, V54, P3111, DOI 10.1016/j.neuroimage.2010.11.024
+   Schrater PR, 2000, NAT NEUROSCI, V3, P64, DOI 10.1038/71134
+   SEJNOWSKI TJ, 1988, SCIENCE, V241, P1299, DOI 10.1126/science.3045969
+   Serre T, 2006, IEEE T PATTERN ANAL, V29, P1
+   Shen K, 2007, J VISION, V7, P0, DOI 10.1167/7.5.15
+   Shoemaker PA, 2001, PROC SPIE, V4591, P316, DOI 10.1117/12.449162
+   Sobel KV, 2009, ACTA PSYCHOL, V132, P22, DOI 10.1016/j.actpsy.2009.06.003
+   Thompson KG, 2005, PROG BRAIN RES, V147, P251, DOI 10.1016/S0079-6123(04)47019-8
+   Torralba A, 2006, PSYCHOL REV, V113, P766, DOI 10.1037/0033-295X.113.4.766
+   Trapp S, 2012, ADV COGN PSYCHOL, V8, P1, DOI 10.2478/v10053-008-0096-y
+   TREISMAN A, 1988, PSYCHOL REV, V95, P15, DOI 10.1037/0033-295X.95.1.15
+   TREISMAN AM, 1980, COGNITIVE PSYCHOL, V12, P97, DOI 10.1016/0010-0285(80)90005-5
+   TSO DY, 1988, J NEUROSCI, V8, P1712
+   Tsodyks M, 1998, NEURAL COMPUT, V10, P821, DOI 10.1162/089976698300017502
+   Tsotsos JK, 2005, COMPUT VIS IMAGE UND, V100, P3, DOI 10.1016/j.cviu.2004.10.011
+   Tsotsos JK, 2001, INT J COMPUT VISION, V45, P265, DOI 10.1023/A:1013666302043
+   Walther D, 2006, NEURAL NETWORKS, V19, P1395, DOI 10.1016/j.neunet.2006.10.001
+   WILSON HR, 1973, KYBERNETIK, V13, P55, DOI 10.1007/BF00288786
+   Wilson HR, 2004, SPIKES DECISIONS ACT, V0, P0
+   Wolfe JM, 2003, J EXP PSYCHOL HUMAN, V29, P483, DOI 10.1037/0096-1523.29.2.483
+   Wolfe JM, 2001, PERCEPT PSYCHOPHYS, V63, P381, DOI 10.3758/BF03194406
+   YANTIS S, 1993, J EXP PSYCHOL HUMAN, V19, P676, DOI 10.1037/0096-1523.19.3.676
+   Zhaoping L, 2006, NETWORK-COMP NEURAL, V17, P301, DOI 10.1080/09548980600931995
+NR 79
+TC 8
+Z9 10
+U1 0
+U2 26
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 0340-1200
+EI 1432-0770
+J9 BIOL CYBERN
+JI Biol. Cybern.
+PD APR 15
+PY 2013
+VL 107
+IS 2
+BP 141
+EP 160
+DI 10.1007/s00422-012-0542-2
+PG 20
+WC Computer Science, Cybernetics; Neurosciences
+SC Computer Science; Neurosciences & Neurology
+GA 115LH
+UT WOS:000316813200002
+PM 23314730
+DA 2023-04-26
+ER
+
+PT J
+AU Suh, J
+   Choi, Y
+   Park, HD
+   Yoon, SH
+   Go, WR
+AF Suh, Jangwon
+   Choi, Yosoon
+   Park, Hyeong-Dong
+   Yoon, Suk-Ho
+   Go, Wa-Ra
+TI Subsidence Hazard Assessment at the Samcheok Coalfield, South Korea: A Case Study Using GIS
+SO ENVIRONMENTAL & ENGINEERING GEOSCIENCE
+LA English
+DT Article
+DE Mining; Mine Subsidence Prediction; Geographic Information Systems (GIS); Frequency Ratio (FR); Analytic Hierarchy Process (AHP)
+ID artificial neural-networks; landslide susceptibility; ground subsidence; coal-mine; prediction; reclamation
+AB This paper presents a case study of subsidence hazard assessment using geographic information systems (GIS) in an abandoned coal mine area in South Korea. A spatial database was constructed using mine drift maps, topographic maps, geologic maps, borehole data, and subsidence inventory maps representing the locations of past subsidence occurrences. Eight factor layers (drift depth, drift density, distance from nearest drift, distance from nearest railroad, rock mass rating, groundwater depth, slope, and surface runoff accumulation) were extracted from the spatial database to examine the relationships between the factors and past subsidence occurrences (training data set). A frequency ratio (FR) model was used to establish rating classes for each factor, and an analytic hierarchy process (AHP) model was used to establish weightings for the factors. The two models were integrated to combine multiple factor layers into a subsidence hazard map. When the area under the curve technique was used to verify the subsidence hazard map, by comparing the determined hazard rankings with past subsidence occurrences (validation data set), the FR model and FR-AHP integrated model showed 97 percent and 94 percent accuracies, respectively, in predicting subsidence occurrences. Finally, the subsidence hazard map based on the FR model was overlain with exposure intensity and vulnerability maps to generate a priority setting map, representing the relative risk of mine subsidence to buildings. The priority setting map can be used by planners and developers to identify and prioritize areas requiring more detailed investigations of mine subsidence hazards and risks.
+C1 [Suh, Jangwon; Park, Hyeong-Dong] Seoul Natl Univ, Dept Energy Syst Engn, Seoul 151744, South Korea.
+   [Choi, Yosoon] Pukyong Natl Univ, Dept Energy Resources Engn, Pusan 608737, South Korea.
+   [Yoon, Suk-Ho; Go, Wa-Ra] Mine Reclamat Corp, Inst Mine Reclamat Technol, Seoul 110727, South Korea.
+C3 Seoul National University (SNU); Pukyong National University; Mine Reclamation Corporation
+RP Choi, Y (corresponding author), Pukyong Natl Univ, Dept Energy Resources Engn, Pusan 608737, South Korea.
+EM yspower7@gmail.com
+FU Mine Reclamation Technology Development Project; MIRECO; Engineering Research Institute, Seoul National University, South Korea
+CR Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Ambrozic T, 2003, COMPUT GEOSCI-UK, V29, P627, DOI 10.1016/S0098-3004(03)00044-X
+   Bascetin A, 2007, ENVIRON GEOL, V52, P663, DOI 10.1007/s00254-006-0495-7
+   Bieniawski ZT., 1989, ENG ROCK MASS CLASSI, V0, P127
+   Choi JK, 2010, ENVIRON EARTH SCI, V59, P1009, DOI 10.1007/s12665-009-0093-6
+   Choi Y, 2008, B ENG GEOL ENVIRON, V67, P251, DOI 10.1007/s10064-008-0131-8
+   Choi Y, 2011, COMPUT GEOSCI-UK, V37, P1035, DOI 10.1016/j.cageo.2010.07.008
+   Choi Y, 2009, INT J GEOGR INF SCI, V23, P1541, DOI 10.1080/13658810802385245
+   Coal Industry Promotion Board, 1999, FUND INV REP STAB TE, V0, P7
+   Dahal RK, 2008, ENVIRON GEOL, V54, P311, DOI 10.1007/s00254-007-0818-3
+   Donnelly LJ, 2001, ENG GEOL, V59, P103, DOI 10.1016/S0013-7952(00)00068-5
+   Fell R, 2008, ENG GEOL, V102, P85, DOI 10.1016/j.enggeo.2008.03.022
+   Geological Society of Korea, 1999, GEOLOGY KOREA, V0, P0
+   Keller EA, 2007, NATURAL HAZARDS EART, V0, P0
+   Kim KD, 2006, ENVIRON GEOL, V50, P1183, DOI 10.1007/s00254-006-0290-5
+   Kim KD, 2009, ENVIRON GEOL, V58, P61, DOI 10.1007/s00254-008-1492-9
+   Kim SM, 2012, COMPUT GEOSCI-UK, V46, P84, DOI 10.1016/j.cageo.2012.04.007
+   Kratzsch H., 1983, MINING SUBSIDENCE EN, V0, P0
+   Malinowska A, 2010, INT J ROCK MECH MIN, V47, P238, DOI 10.1016/j.ijrmms.2009.09.009
+   Mancini F, 2009, ENG GEOL, V109, P170, DOI 10.1016/j.enggeo.2009.06.018
+   Mancini F, 2009, ENVIRON GEOL, V58, P381, DOI 10.1007/s00254-008-1597-1
+   Mine Reclamation Corporation (MIRECO), 2008, TECHN REP DEV GROUND, V0, P123
+   Oh HJ, 2011, ENVIRON EARTH SCI, V64, P347, DOI 10.1007/s12665-010-0855-1
+   Oh HJ, 2010, ENG GEOL, V115, P36, DOI 10.1016/j.enggeo.2010.06.015
+   SAATY TL, 1977, J MATH PSYCHOL, V15, P234, DOI 10.1016/0022-2496(77)90033-5
+   Suh J, 2011, ENVIRON EARTH SCI, V63, P619, DOI 10.1007/s12665-010-0729-6
+   Thompson JA, 2011, ENVIRON EARTH SCI, V62, P973, DOI 10.1007/s12665-010-0582-7
+   Waltham A.C., 1989, GROUND SUBSIDENCE, V0, P0
+   Waltham T, 2011, ENG GEOL, V118, P29, DOI 10.1016/j.enggeo.2010.11.007
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+NR 30
+TC 17
+Z9 17
+U1 2
+U2 33
+PU GEOLOGICAL SOC AMER, INC
+PI BOULDER
+PA PO BOX 9140, BOULDER, CO 80301-9140 USA
+SN 1078-7275
+EI 1558-9161
+J9 ENVIRON ENG GEOSCI
+JI Environ. Eng. Geosci.
+PD FEB 15
+PY 2013
+VL 19
+IS 1
+BP 69
+EP 83
+DI 10.2113/gseegeosci.19.1.69
+PG 15
+WC Engineering, Environmental; Engineering, Geological; Geosciences, Multidisciplinary
+SC Engineering; Geology
+GA 264FR
+UT WOS:000327862900004
+DA 2023-04-26
+ER
+
+PT J
+AU Lee, S
+   Park, I
+   Koo, BJ
+   Ryu, JH
+   Choi, JK
+   Woo, HJ
+AF Lee, Saro
+   Park, Inhye
+   Koo, Bon Joo
+   Ryu, Joo-Hyung
+   Choi, Jong-Kuk
+   Woo, Han Jun
+TI Macrobenthos habitat potential mapping using GIS-based artificial neural network models
+SO MARINE POLLUTION BULLETIN
+LA English
+DT Article
+DE Habitat mapping; Tidal flat; Artificial neural network; Geographic information system (GIS); Remote sensing
+ID landslide susceptibility; tidal flats; usa; classification; replacement; scale; korea; river; bay
+AB This paper proposes and tests a method of producing macrobenthos habitat potential maps in Hwangdo tidal flat, Korea based on an artificial neural network. Samples of macrobenthos were collected during field work, and eight control factors were compiled as a spatial database from remotely sensed data and GIS analysis. The macrobenthos habitat potential maps were produced using an artificial neural network model. Macrobenthos habitat potential maps were made for Macrophthalmus dilatatus, Cerithideopsilla cingulata, and Armandia lanceolata. The maps were validated by compared with the surveyed habitat locations. A strong correlation between the potential maps and species locations was revealed. The validation result showed average accuracies of 74.9%, 78.32%, and 73.27% for M. dilatatus, C. cingulata, and A. lanceolata, respectively. A GIS-based artificial neural network model combined with remote sensing techniques is an effective tool for mapping the areas of macrobenthos habitat potential in tidal flats. (c) 2012 Published by Elsevier Ltd.
+C1 [Lee, Saro; Park, Inhye] Korea Inst Geosci & Mineral Resources KIGAM, Geosci Informat Ctr, Taejon 305350, South Korea.
+   [Koo, Bon Joo] Korea Inst Ocean Sci & Technol, Marine Ecosyst Res Div, Ansan 426744, South Korea.
+   [Ryu, Joo-Hyung; Choi, Jong-Kuk] Korea Inst Ocean Sci & Technol, Korea Ocean Satellite Ctr, Ansan 426744, South Korea.
+   [Woo, Han Jun] Korea Inst Ocean Sci & Technol, Maritime Secur Res Ctr, Ansan 426744, South Korea.
+C3 Korea Institute of Geoscience & Mineral Resources (KIGAM); Korea Institute of Ocean Science & Technology (KIOST); Korea Institute of Ocean Science & Technology (KIOST); Korea Institute of Ocean Science & Technology (KIOST)
+RP Choi, JK (corresponding author), Korea Inst Ocean Sci & Technol, Korea Ocean Satellite Ctr, 787 Haean No, Ansan 426744, South Korea.
+EM jhchoi@kiost.ac
+FU Ministry of Land, Transport and Maritime Affairs, Korea; Functional Improvement of Korea Ocean Satellite Center project; Korea Institute of Ocean Science and Technology (KIOST); Public Applications Research of Satellite Data; Korea Aerospace Research Institute (KARI)
+CR [Anonymous], 1980, PETROGRAPHY SEDIMENT, V0, P0
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P699, DOI 10.1080/014311697217224
+   Brambilla M, 2009, BIOL CONSERV, V142, P2033, DOI 10.1016/j.biocon.2009.03.033
+   Brooks TM, 2006, SCIENCE, V313, P58, DOI 10.1126/science.1127609
+   Bustami Rosmina, 2007, IAENG INTERNATIONAL JOURNAL OF COMPUTER SCIENCE, V34, P228
+   Choi J, 2010, ENVIRON EARTH SCI, V60, P473, DOI 10.1007/s12665-009-0188-0
+   Choi JK, 2011, ECOL MODEL, V222, P1522, DOI 10.1016/j.ecolmodel.2010.12.008
+   Choi JK, 2011, MAR GEOL, V280, P205, DOI 10.1016/j.margeo.2010.10.022
+   Choi JK, 2011, MAR POLLUT BULL, V62, P564, DOI 10.1016/j.marpolbul.2010.11.028
+   Choi JK, 2010, ESTUAR COAST SHELF S, V88, P125, DOI 10.1016/j.ecss.2010.03.019
+   Choi JK, 2010, ENVIRON EARTH SCI, V59, P1009, DOI 10.1007/s12665-009-0093-6
+   Dobrzanski L. A., 2009, J ACHIEVEMENTS MAT M, V32, P37
+   Folk R.L., 1957, J SEDIMENT PETROL, V27, P3, DOI 10.1306/74d70646-2b21-11d7-8648000102c1865
+   Folk R.L., 1966, SEDIMENTOLOGY, V6, P73, DOI 10.1111/j.1365-3091.1966.tb01572.x
+   Fulton JW, 2010, ECOL MODEL, V221, P540, DOI 10.1016/j.ecolmodel.2009.10.019
+   Galparsoro I, 2009, ECOL MODEL, V220, P556, DOI 10.1016/j.ecolmodel.2008.11.003
+   Garcia-Rodriguez MJ, 2010, NAT HAZARD EARTH SYS, V10, P1307, DOI 10.5194/nhess-10-1307-2010
+   GARRETT JH, 1994, J COMPUT CIVIL ENG, V8, P129, DOI 10.1061/(ASCE)0887-3801(1994)8:2(129)
+   Grech A, 2010, AQUAT CONSERV, V20, P437, DOI 10.1002/aqc.1107
+   Hatten JR, 2009, ECOL MODEL, V220, P3638, DOI 10.1016/j.ecolmodel.2009.03.006
+   Hoja D, 2000, INT GEOSCI REMOTE SE, V0, PP1889, DOI 10.1109/IGARSS.2000.858157
+   Jorgensen RH, 2009, FLORA, V204, P289, DOI 10.1016/j.flora.2008.03.002
+   Kim Y.S., 1996, J KOREAN EARTH SCI S, V17, P357
+   Koo BJ, 2007, J SEA RES, V58, P302, DOI 10.1016/j.seares.2007.07.002
+   Koo Bon Joo, 2005, OCEAN SCIENCE JOURNAL, V40, P221
+   Koperski P, 2010, J LIMNOL, V69, P88, DOI 10.4081/jlimnol.2010.88
+   Krumbein W.C., 1938, J SEDIMENT PETROL, V8, P84, DOI 10.1306/D4269008-2B26-11D7-8648000102C1865D
+   Lee Jae-Hac, 1998, JOURNAL OF THE KOREAN SOCIETY OF OCEANOGRAPHY, V33, P18
+   Lee YK, 2011, J COASTAL RES, V27, P857, DOI 10.2112/JCOASTRES-D-10-00150.1
+   Oh HJ, 2011, INT J COAL GEOL, V86, P58, DOI 10.1016/j.coal.2010.11.009
+   Oh HJ, 2010, ENVIRON EARTH SCI, V60, P1317, DOI 10.1007/s12665-009-0272-5
+   Ottaviani D, 2009, ECOL MODEL, V220, P111, DOI 10.1016/j.ecolmodel.2008.09.014
+   PAOLA JD, 1995, INT J REMOTE SENS, V16, P3033, DOI 10.1080/01431169508954607
+   Pavel M, 2011, COMPUT GEOSCI-UK, V37, P554, DOI 10.1016/j.cageo.2010.10.006
+   Poplar-Jeffers IO, 2009, RESTOR ECOL, V17, P404, DOI 10.1111/j.1526-100X.2008.00396.x
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Ryu JH, 2004, ESTUAR COAST SHELF S, V60, P491, DOI 10.1016/j.ecss.2004.02.009
+   Ryu JH, 2002, REMOTE SENS ENVIRON, V83, P442, DOI 10.1016/S0034-4257(02)00059-7
+   Ryu JH, 2008, ESTUAR COAST SHELF S, V78, P623, DOI 10.1016/j.ecss.2008.01.020
+   So J.G., 1998, J KOREAN SOC COASTAL, V10, P151
+   van der Wal D, 2008, MAR ECOL PROG SER, V367, P57, DOI 10.3354/meps07535
+   Wesley Hines J., 1997, FUZZY NEURAL APPROAC, V0, P0
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yap C.K., 2003, J TROP AGR SCI, V26, P139
+   Yoo Jae-Won, 2007, OCEAN SCIENCE JOURNAL, V42, P69
+   Zhou WY, 1999, IEEE T GEOSCI REMOTE, V37, P771, DOI 10.1109/36.752193
+NR 46
+TC 18
+Z9 20
+U1 1
+U2 38
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0025-326X
+EI 1879-3363
+J9 MAR POLLUT BULL
+JI Mar. Pollut. Bull.
+PD FEB 15
+PY 2013
+VL 67
+IS 1-2
+BP 177
+EP 186
+DI 10.1016/j.marpolbul.2012.10.023
+PG 10
+WC Environmental Sciences; Marine & Freshwater Biology
+SC Environmental Sciences & Ecology; Marine & Freshwater Biology
+GA 111MV
+UT WOS:000316526300034
+PM 23260647
+DA 2023-04-26
+ER
+
+PT J
+AU Lin, GF
+   Lin, HY
+   Chou, YC
+AF Lin, Gwo-Fong
+   Lin, Hsuan-Yu
+   Chou, Yang-Ching
+TI Development of a real-time regional-inundation forecasting model for the inundation warning system
+SO JOURNAL OF HYDROINFORMATICS
+LA English
+DT Article
+DE inundation warning system; K-means clustering algorithm; rainfall-inundation forecasting; support vector machine
+ID artificial neural-networks; flood frequency-analysis; prediction; regression; precipitation; watersheds; simulation; design; series
+AB Accurate forecasts of the inundation depth are necessary for inundation warning and mitigation. In this paper, a real-time regional forecasting model is proposed to yield 1- to 3-h lead time inundation maps. First, the K-means based cluster analysis is developed to group the inundation depths and to indentify the control points. Second, the support vector machine is used as the computational method to develop the point forecasting module to yield inundation forecasts for each control point. Third, based on the forecasted depths and the geographic information, the spatial expansion module is developed to expand the point forecasts to the spatial forecasts. An actual application to Siluo Township, Taiwan, is conducted to demonstrate the advantage of the proposed model. The results indicate that the proposed model can provide accurate inundation maps for 1- to 3-h lead times. The accurate long lead time forecasts can extend the lead time to allow sufficient time to take emergency measures. Furthermore, the proposed model is an efficient process that can be trained rapidly with real-time data and is more suitable to be integrated with the decision support system. In conclusion, the proposed modeling technique is expected to be useful to support the inundation warning systems.
+C1 [Lin, Gwo-Fong; Lin, Hsuan-Yu; Chou, Yang-Ching] Natl Taiwan Univ, Dept Civil Engn, Taipei 10617, Taiwan.
+C3 National Taiwan University
+RP Lin, GF (corresponding author), Natl Taiwan Univ, Dept Civil Engn, Taipei 10617, Taiwan.
+FU National Science Council, Taiwan [NSC 101-2625-M-002-007]
+CR Adamowski J, 2012, J HYDROINFORM, V14, P731, DOI 10.2166/hydro.2011.044
+   Bates PD, 2000, J HYDROL, V236, P54, DOI 10.1016/S0022-1694(00)00278-X
+   Carsell K. M., 2004, NATURAL HAZARDS REVIEW, V5, P131, DOI 10.1061/(ASCE)1527-6988(2004)5:3(131)
+   Chang CC, 2011, ACM T INTEL SYST TEC, V2, P0, DOI 10.1145/1961189.1961199
+   Chang LC, 2010, J HYDROL, V385, P257, DOI 10.1016/j.jhydrol.2010.02.028
+   Chau KW, 2010, J HYDROINFORM, V12, P458, DOI 10.2166/hydro.2010.032
+   Chen AS, 2006, NAT HAZARDS, V37, P107, DOI 10.1007/s11069-005-4659-7
+   Chen L, 2011, HYDROL PROCESS, V25, P2573, DOI 10.1002/hyp.8132
+   Cherkassky V, 1997, IEEE TRANS NEURAL NETW, V8, P1564, DOI 10.1109/TNN.1997.641482
+   Chung CH, 2012, HYDROL EARTH SYST SC, V16, P255, DOI 10.5194/hess-16-255-2012
+   Cristianini N, 2000, INTRO SUPPORT VECTOR, V0, P0
+   de Vos NJ, 2005, HYDROL EARTH SYST SC, V9, P111, DOI 10.5194/hess-9-111-2005
+   Giustolisi O, 2006, HYDROLOG SCI J, V51, P502, DOI 10.1623/hysj.51.3.502
+   Govindaraju RS, 2000, J HYDROL ENG, V5, P124
+   Govindaraju RS, 2000, J HYDROL ENG, V5, P115
+   Grover R., 2006, HDB MARKETING RES US, V0, P0
+   Guo WD, 2007, J MECH, V23, P399, DOI 10.1017/S1727719100001453
+   Hu TS, 2007, NORD HYDROL, V38, P235, DOI 10.2166/nh.2007.010
+   Isik S, 2008, J HYDROL ENG, V13, P824, DOI 10.1061/(ASCE)1084-0699(2008)13:9(824)
+   Johnson RA., 2002, APPL MULTIVARIATE ST, V0, P0
+   Kia MB, 2012, ENVIRON EARTH SCI, V67, P251, DOI 10.1007/s12665-011-1504-z
+   Kuiry SN, 2010, J HYDRAUL ENG, V136, P493, DOI 10.1061/(ASCE)HY.1943-7900.0000211
+   Lane SN, 1998, HYDROL PROCESS, V12, P1131, DOI 10.1002/(SICI)1099-1085(19980630)12:8&lt;1131::AID-HYP611&gt;3.0.CO;2-K
+   Lin GF, 2005, HYDROL PROCESS, V19, P937, DOI 10.1002/hyp.5550
+   Lin GF, 2008, HYDROL PROCESS, V22, P2524, DOI 10.1002/hyp.6849
+   Lin GF, 2013, HYDROL PROCESS, V27, P3115, DOI 10.1002/hyp.9428
+   Lin GF, 2013, J HYDROINFORM, V15, P952, DOI 10.2166/hydro.2013.155
+   Lin GF, 2013, J HYDROL, V486, P334, DOI 10.1016/j.jhydrol.2013.02.012
+   Lin GF, 2010, ADV WATER RESOUR, V33, P887, DOI 10.1016/j.advwatres.2010.04.016
+   Lin GF, 2009, WATER RESOUR RES, V45, P0, DOI 10.1029/2009WR007911
+   Lin GF, 2009, J HYDROL, V372, P17, DOI 10.1016/j.jhydrol.2009.03.032
+   Lin JY, 2006, HYDROLOG SCI J, V51, P599, DOI 10.1623/hysj.51.4.599
+   Liong SY, 2002, J AM WATER RESOUR AS, V38, P173, DOI 10.1111/j.1752-1688.2002.tb01544.x
+   Lopez P, 2008, RENEW ENERG, V33, P2266, DOI 10.1016/j.renene.2007.12.020
+   MacQueen J.B., 1967, PROC 5 BERKELEY S MA, V0, P281
+   Maier HR, 2000, ENVIRON MODELL SOFTW, V15, P101, DOI 10.1016/S1364-8152(99)00007-9
+   Maity R, 2010, HYDROL PROCESS, V24, P917, DOI 10.1002/hyp.7535
+   Meshgi A, 2009, STOCH ENV RES RISK A, V23, P119, DOI 10.1007/s00477-007-0201-7
+   Neal J, 2012, HYDROL PROCESS, V26, P2264, DOI 10.1002/hyp.8339
+   Nourani V, 2013, J HYDROL, V476, P228, DOI 10.1016/j.jhydrol.2012.10.054
+   Nourani V, 2012, J HYDROL ENG, V17, P1368, DOI 10.1061/(ASCE)HE.1943-5584.0000587
+   Nourani V, 2010, ENVIRON ENG SCI, V27, P411, DOI 10.1089/ees.2009.0353
+   Pan TY, 2011, NAT HAZARD EARTH SYS, V11, P771, DOI 10.5194/nhess-11-771-2011
+   Nguyen PKT, 2012, HYDROL PROCESS, V26, P2878, DOI 10.1002/hyp.8347
+   Pramanik N, 2011, J HYDROINFORM, V13, P49, DOI 10.2166/hydro.2010.040
+   Remesan R, 2010, J HYDROINFORM, V12, P396, DOI 10.2166/hydro.2010.063
+   Saf B, 2009, WATER RESOUR MANAG, V23, P531, DOI 10.1007/s11269-008-9287-z
+   Satyanarayana P, 2008, J GEOPHYS RES-ATMOS, V113, P0, DOI 10.1029/2008JD010412
+   Seyoum SD, 2012, J HYDRAUL ENG-ASCE, V138, P23, DOI 10.1061/(ASCE)HY.1943-7900.0000485
+   Sivapragasam C, 2005, NORD HYDROL, V36, P37
+   Vapnik VN, 1998, STAT LEARNING THEORY, V0, P0
+   Wang WC, 2009, J HYDROL, V374, P294, DOI 10.1016/j.jhydrol.2009.06.019
+   Wei SK, 2012, HYDROL PROCESS, V26, P281, DOI 10.1002/hyp.8227
+   Wu CL, 2008, J HYDROL, V358, P96, DOI 10.1016/j.jhydrol.2008.05.028
+   Wu CL, 2011, J HYDROL, V399, P394, DOI 10.1016/j.jhydrol.2011.01.017
+   Yang CY, 2011, IRRIG DRAIN, V60, P71, DOI 10.1002/ird.672
+   Yu XY, 2007, J HYDROL, V332, P290, DOI 10.1016/j.jhydrol.2006.07.003
+   Yu XY, 2004, J HYDROINFORM, V6, P209, DOI 10.2166/hydro.2004.0016
+NR 58
+TC 19
+Z9 19
+U1 0
+U2 11
+PU IWA PUBLISHING
+PI LONDON
+PA REPUBLIC-EXPORT BLDG, UNITS 1 04 & 1 05, 1 CLOVE CRESCENT, LONDON, ENGLAND
+SN 1464-7141
+EI 1465-1734
+J9 J HYDROINFORM
+JI J. Hydroinform.
+PD OCT 15
+PY 2013
+VL 15
+IS 4
+BP 1391
+EP 1407
+DI 10.2166/hydro.2013.202
+PG 17
+WC Computer Science, Interdisciplinary Applications; Engineering, Civil; Environmental Sciences; Water Resources
+SC Computer Science; Engineering; Environmental Sciences & Ecology; Water Resources
+GA 251BM
+UT WOS:000326902800023
+DA 2023-04-26
+ER

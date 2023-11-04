@@ -1,0 +1,593 @@
+
+PT J
+AU Ghamisi, P
+   Hofle, B
+   Zhu, XX
+AF Ghamisi, Pedram
+   Hoefle, Bernhard
+   Zhu, Xiao Xiang
+TI Hyperspectral and LiDAR Data Fusion Using Extinction Profiles and Deep Convolutional Neural Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Convolutional neural network (CNN); deep learning; extinction profile (EP); graph-based feature fusion (GBFF); hyperspectral; light detection and ranging (LiDAR); random forest (RF); support vector machines (SVMs)
+ID spectral-spatial classification; land-cover classification; laser-scanning data; remote-sensing data; segmentation; extraction; algorithm; framework
+AB This paper proposes a novel framework for the fusion of hyperspectral and light detection and ranging-derived rasterized data using extinction profiles (EPs) and deep learning. In order to extract spatial and elevation information from both the sources, EPs that include different attributes (e.g., height, area, volume, diagonal of the bounding box, and standard deviation) are taken into account. Then, the derived features are fused via either feature stacking or graph-based feature fusion. Finally, the fused features are fed to a deep learning-based classifier (convolutional neural network with logistic regression) to ultimately produce the classification map. The proposed approach is applied to two datasets acquired in Houston, TX, USA, and Trento, Italy. Results indicate that the proposed approach can achieve accurate classification results compared to other approaches. It should be noted that, in this paper, the concept of deep learning has been used for the first time to fuse LiDAR and hyperspectral features, which provides new opportunities for further research.
+C1 [Ghamisi, Pedram; Zhu, Xiao Xiang] Tech Univ Munich, German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-80333 Munich, Germany.
+   [Ghamisi, Pedram; Zhu, Xiao Xiang] Tech Univ Munich, Signal Proc Earth Observat, D-80333 Munich, Germany.
+   [Hoefle, Bernhard] Heidelberg Univ, Inst Geog, GIScience, D-69120 Heidelberg, Germany.
+C3 Helmholtz Association; German Aerospace Centre (DLR); Technical University of Munich; Technical University of Munich; Ruprecht Karls University Heidelberg
+RP Ghamisi, P; Zhu, XX (corresponding author), Tech Univ Munich, German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-80333 Munich, Germany.; Ghamisi, P; Zhu, XX (corresponding author), Tech Univ Munich, Signal Proc Earth Observat, D-80333 Munich, Germany.
+EM p.ghamisi@gmail.com; hoefle@uni-heidelberg.de; xiao.zhu@dlr.de
+FU Alexander von Humboldt Fellowship; Helmholtz Young Investigators Group [VH-NG-1018]; Directorate For Geosciences; Division Of Earth Sciences [1339015] Funding Source: National Science Foundation
+CR Asner GP, 2008, REMOTE SENS ENVIRON, V112, P1942, DOI 10.1016/j.rse.2007.11.016
+   Bazi Y, 2006, IEEE T GEOSCI REMOTE, V44, P3374, DOI 10.1109/TGRS.2006.880628
+   Belgiu M, 2014, REMOTE SENS-BASEL, V6, P1347, DOI 10.3390/rs6021347
+   Benediktsson JA, 2015, ARTECH HSE REMOTE SE, V0, P1
+   Benediktsson JA, 2005, IEEE T GEOSCI REMOTE, V43, P480, DOI 10.1109/TGRS.2004.842478
+   Bengio Y, 2006, P ADV NEUR INF PROC, V0, PP153, DOI 10.7551/MITPRESS/7503.003.0024
+   Bernabe S, 2014, IEEE GEOSCI REMOTE S, V11, P288, DOI 10.1109/LGRS.2013.2256336
+   Blackburn GA, 2002, REMOTE SENS ENVIRON, V82, P311, DOI 10.1016/S0034-4257(02)00049-4
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Carlinet E, 2014, IEEE T IMAGE PROCESS, V23, P3885, DOI 10.1109/TIP.2014.2336551
+   Chen Q, 2007, PHOTOGRAMM ENG REM S, V73, P109
+   Chen YS, 2016, IEEE T GEOSCI REMOTE, V54, P6232, DOI 10.1109/TGRS.2016.2584107
+   Chen YS, 2015, IEEE J-STARS, V8, P2381, DOI 10.1109/JSTARS.2015.2388577
+   Chen YS, 2014, IEEE J-STARS, V7, P2094, DOI 10.1109/JSTARS.2014.2329330
+   Dalla Mura M, 2010, IEEE T GEOSCI REMOTE, V48, P3747, DOI 10.1109/TGRS.2010.2048116
+   Dalponte M, 2008, IEEE T GEOSCI REMOTE, V46, P1416, DOI 10.1109/TGRS.2008.916480
+   Debes C, 2014, IEEE J-STARS, V7, P2405, DOI 10.1109/JSTARS.2014.2305441
+   Fauvel M, 2008, IEEE T GEOSCI REMOTE, V46, P3804, DOI 10.1109/TGRS.2008.922034
+   Fauvel M, 2009, EURASIP J ADV SIG PR, V0, P0, DOI DOI 10.1155/2009/783194
+   Gamba P., 2005, INFORMATION FUSION, V6, P319, DOI 10.1016/j.inffus.2005.02.007
+   Ghamisi P., 2015, THESIS, V0, P0
+   Ghamisi P, 2016, IEEE GEOSCI REMOTE S, V13, P1641, DOI 10.1109/LGRS.2016.2600244
+   Ghamisi P, 2016, IEEE GEOSCI REMOTE S, V13, P1537, DOI 10.1109/LGRS.2016.2595108
+   Ghamisi P, 2016, IEEE T GEOSCI REMOTE, V54, P5631, DOI 10.1109/TGRS.2016.2561842
+   Ghamisi P, 2015, INT J IMAGE DATA FUS, V6, P189, DOI 10.1080/19479832.2015.1055833
+   Ghamisi P, 2015, IEEE T GEOSCI REMOTE, V53, P2335, DOI 10.1109/TGRS.2014.2358934
+   Ghamisi P, 2015, IEEE T GEOSCI REMOTE, V53, P2935, DOI 10.1109/TGRS.2014.2367010
+   Ghamisi P, 2015, IEEE GEOSCI REMOTE S, V12, P309, DOI 10.1109/LGRS.2014.2337320
+   Ghamisi P, 2014, IEEE J-STARS, V7, P2147, DOI 10.1109/JSTARS.2014.2298876
+   Ghamisi P, 2014, IEEE T GEOSCI REMOTE, V52, P5771, DOI 10.1109/TGRS.2013.2292544
+   Ghamisi P, 2014, IEEE T GEOSCI REMOTE, V52, P2382, DOI 10.1109/TGRS.2013.2260552
+   Ghamisi P, 2014, IEEE T GEOSCI REMOTE, V52, P2565, DOI 10.1109/TGRS.2013.2263282
+   Hall Robert K, 2009, ENVIRON MONIT ASSESS, V159, P63, DOI 10.1007/s10661-008-0613-y
+   Heiden U, 2012, LANDSCAPE URBAN PLAN, V105, P361, DOI 10.1016/j.landurbplan.2012.01.001
+   Hinton GE, 2006, NEURAL COMPUT, V18, P1527, DOI 10.1162/neco.2006.18.7.1527
+   Hofle B, 2012, ISPRS J PHOTOGRAMM, V67, P134, DOI 10.1016/j.isprsjprs.2011.12.003
+   HUGHES GF, 1968, IEEE T INFORM THEORY, V14, P55, DOI 10.1109/TIT.1968.1054102
+   Jochem A, 2009, SENSORS-BASEL, V9, P5241, DOI 10.3390/s90705241
+   Khodadadzadeh M, 2015, IEEE J-STARS, V8, P2971, DOI 10.1109/JSTARS.2015.2432037
+   Koetz B, 2008, FOREST ECOL MANAG, V256, P263, DOI 10.1016/j.foreco.2008.04.025
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   LeCun Y., 1995, HDB BRAIN THEORY NEU, V3361, P0, DOI 10.5555/303568.303704
+   Li J, 2010, IEEE T GEOSCI REMOTE, V48, P4085, DOI 10.1109/TGRS.2010.2060550
+   Liao W., 2014, P 5 WORKSH EARSEL SP, V0, P34
+   Liao WZ, 2015, IEEE GEOSCI REMOTE S, V12, P552, DOI 10.1109/LGRS.2014.2350263
+   Lucas RM, 2008, INT J REMOTE SENS, V29, P1553, DOI 10.1080/01431160701736497
+   Matheron G., 1967, ELEMENTS THEPRIE MIL, V0, P0
+   Mundt JT, 2006, PHOTOGRAMM ENG REM S, V72, P47, DOI 10.14358/PERS.72.1.47
+   Pedergnana M, 2012, IEEE J-STSP, V6, P856, DOI 10.1109/JSTSP.2012.2208177
+   Rutzinger M, 2008, SENSORS-BASEL, V8, P4505, DOI 10.3390/s8084505
+   Salakhutdinov R, 2009, ARTIFICIAL INTELLIGE, V0, P0
+   Scherer D, 2010, LECT NOTES COMPUT SC, V6354, P92, DOI 10.1007/978-3-642-15825-4_10
+   Scholkopf B, 1998, NEURAL COMPUT, V10, P1299, DOI 10.1162/089976698300017467
+   Soille P., 2003, MORPHOLOGICAL IMAGE, V0, P0
+   Souza R, 2015, IEEE IMAGE PROC, V0, PP3620, DOI 10.1109/ICIP.2015.7351479
+   Souza R, 2015, LECT NOTES COMPUT SC, V9082, P63, DOI 10.1007/978-3-319-18720-4_6
+   Sugumaran R., 2007, P URB REM SENS JOINT, V0, PP1, DOI 10.1109/URS.2007.371845
+   Tarabalka Y, 2010, IEEE T GEOSCI REMOTE, V48, P4122, DOI 10.1109/TGRS.2010.2062526
+   Tarabalka Y, 2010, IEEE T SYST MAN CY B, V40, P1267, DOI 10.1109/TSMCB.2009.2037132
+   Tomljenovic I, 2015, REMOTE SENS-BASEL, V7, P3826, DOI 10.3390/rs70403826
+   Vachier C., 1995, IEEE WORKSH NONL SIG, VI, P254
+   Voss M, 2008, SENSORS-BASEL, V8, P3020, DOI 10.3390/s8053020
+NR 62
+TC 103
+Z9 106
+U1 9
+U2 11
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2017
+VL 10
+IS 6
+BP 3011
+EP 3024
+DI 10.1109/JSTARS.2016.2634863
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA FB8WE
+UT WOS:000406419400055
+DA 2023-04-26
+ER
+
+PT J
+AU Mira, M
+   Ninyerola, M
+   Batalla, M
+   Pesquer, L
+   Pons, X
+AF Mira, Maria
+   Ninyerola, Miquel
+   Batalla, Meritxell
+   Pesquer, Lluis
+   Pons, Xavier
+TI Improving Mean Minimum and Maximum Month-to-Month Air Temperature Surfaces Using Satellite-Derived Land Surface Temperature
+SO REMOTE SENSING
+LA English
+DT Article
+DE air surface temperature; land surface temperature; spatial interpolation; climatological modeling; remote sensing
+ID split-window algorithm; spatial interpolation; neural-network; modis; validation; radiation; precipitation; refinements; retrieval; products
+AB Month-to-month air temperature (T-air) surfaces are increasingly demanded to feed quantitative models related to a wide range of fields, such as hydrology, ecology or climate change studies. Geostatistical interpolation techniques provide such continuous and objective surfaces of climate variables, while the use of remote sensing data may improve the estimates, especially when temporal resolution is detailed enough. The main goal of this study is to propose an empirical methodology for improving the month-to-month T-air mapping (minimum and maximum) using satellite land surface temperatures (LST) besides of meteorological data and geographic information. The methodology consists on multiple regression analysis combined with the spatial interpolation of residual errors using the inverse distance weighting. A leave-one-out cross-validation procedure has been included in order to compare predicted with observed values. Different operational daytime and nighttime LST products corresponding to the four months more characteristic of the seasonal dynamics of a Mediterranean climate have been considered for a thirteen-year period. The results can be considered operational given the feasibility of the models employed (linear dependence on predictors that are nowadays easily available), the robustness of the leave-one-out cross-validation procedure and the improvement in accuracy achieved when compared to classical T-air modeling results. Unlike what is considered by most studies, it is shown that nighttime LST provides a good proxy not only for minimum T-air, but also for maximum T-air. The improvement achieved by the inclusion of remote sensing LST products was higher for minimum T-air (up to 0.35 K on December), especially over forests and rugged lands. Results are really encouraging, as there are generally few meteorological stations in zones with these characteristics, clearly showing the usefulness of remote sensing to improve information about areas that are difficult to access or simply with a poor availability of conventional meteorological data.
+C1 [Mira, Maria; Pons, Xavier] Univ Autonoma Barcelona, Dept Geog, GRUMETS Res Grp, Edif B, Bellaterra 08193, Catalonia, Spain.
+   [Ninyerola, Miquel] Univ Autonoma Barcelona, Dept Anim Biol Plant Biol & Ecol, GRUMETS Res Grp, Bellaterra 08193, Catalonia, Spain.
+   [Batalla, Meritxell; Pesquer, Lluis] Univ Autonoma Barcelona, GRUMETS Res Grp, CREAF, Edif C, Bellaterra 08193, Catalonia, Spain.
+C3 Autonomous University of Barcelona; Autonomous University of Barcelona; Autonomous University of Barcelona; Centro de Investigacion Ecologica y Aplicaciones Forestales (CREAF)
+RP Mira, M (corresponding author), Univ Autonoma Barcelona, Dept Geog, GRUMETS Res Grp, Edif B, Bellaterra 08193, Catalonia, Spain.
+EM maria.mira@uab.cat; miquel.ninyerola@uab.cat; meritxell.batalla@creaf.uab.cat; l.pesquer@creaf.uab.cat; xavier.pons@uab.cat
+FU Spanish Ministry of Economy and Competitiveness through the project ACAPI [CGL2015-69888-P MINECO/FEDER]; post-doctoral contract "Juan de la Cierva"; Government of Catalonia [2014 SGR1491]; ICREA Academia Excellence in Research
+CR [Anonymous], 1992, 194 WMO, V0, P0
+   [Anonymous], 1996, ATLES CLIMATIC CATAL, V0, P0
+   [Anonymous], 1996, MODELOS SISTEMAS INF, V0, P0
+   [Anonymous], 2015, MOD11B3 MODIS TERRA, V0, P0
+   [Anonymous], 2005, ATLAS CLIM TICO DIGI, V0, P0
+   Bastiaanssen WGM, 1998, J HYDROL, V212, P213, DOI 10.1016/S0022-1694(98)00254-6
+   BECKER F, 1990, INT J REMOTE SENS, V11, P369, DOI 10.1080/01431169008955028
+   Benali A, 2012, REMOTE SENS ENVIRON, V124, P108, DOI 10.1016/j.rse.2012.04.024
+   Boehner J., 2002, SOIL CLASSIFICATION, V0, P213
+   Cai YL, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030233
+   Chen FG, 2015, INT J CLIMATOL, V35, P2131, DOI 10.1002/joc.4113
+   Chow V.T., 1998, APPL HYDROLOGY, V0, P0
+   Coll C, 1997, J GEOPHYS RES-ATMOS, V102, P16697, DOI 10.1029/97JD00929
+   Cresswell MP, 1999, INT J REMOTE SENS, V20, P1125, DOI 10.1080/014311699212885
+   Cristobal J, 2008, J GEOPHYS RES-ATMOS, V113, P0, DOI 10.1029/2007JD009318
+   Czajkowski KP, 2000, PROF GEOGR, V52, P345, DOI 10.1111/0033-0124.00230
+   DESCHAMPS PY, 1980, BOUND-LAY METEOROL, V18, P131, DOI 10.1007/BF00121320
+   Hengl T, 2012, THEOR APPL CLIMATOL, V107, P265, DOI 10.1007/s00704-011-0464-2
+   Huang R, 2015, REMOTE SENS-BASEL, V7, P8728, DOI 10.3390/rs70708728
+   Ibanez J.J., 2006, P 5 EUR C REG GEOSC, VII, P278
+   IDSO SB, 1981, WATER RESOUR RES, V17, P295, DOI 10.1029/WR017i002p00295
+   Jang JD, 2004, INT J REMOTE SENS, V25, P4541, DOI 10.1080/01431160310001657533
+   Kuhn KG, 2002, J MED ENTOMOL, V39, P621, DOI 10.1603/0022-2585-39.4.621
+   Kustas WP, 2003, PHOTOGRAMM ENG REM S, V69, P631, DOI 10.14358/PERS.69.6.631
+   Kustas WP, 1996, HYDROLOG SCI J, V41, P495, DOI 10.1080/02626669609491522
+   Meyer H, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090732
+   Mira M, 2016, REMOTE SENS ENVIRON, V175, P251, DOI 10.1016/j.rse.2015.12.054
+   Mostovoy GV, 2006, GISCI REMOTE SENS, V43, P78, DOI 10.2747/1548-1603.43.1.78
+   Mutiibwa D, 2015, IEEE J-STARS, V8, P4762, DOI 10.1109/JSTARS.2015.2468594
+   Niclos R, 2014, IEEE GEOSCI REMOTE S, V11, P1380, DOI 10.1109/LGRS.2013.2293540
+   Ninyerola M, 2000, INT J CLIMATOL, V20, P1823, DOI 10.1002/1097-0088(20001130)20:14<1823::AID-JOC566>3.0.CO;2-B
+   Ninyerola M, 2007, THEOR APPL CLIMATOL, V89, P195, DOI 10.1007/s00704-006-0264-2
+   Ninyerola M, 2007, INT J CLIMATOL, V27, P1231, DOI 10.1002/joc.1462
+   Noi PT, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8121002
+   Pons X, 2008, INT J CLIMATOL, V28, P1821, DOI 10.1002/joc.1676
+   PRABHAKARA C, 1974, J GEOPHYS RES, V79, P5039, DOI 10.1029/JC079i033p05039
+   Prihodko L, 1997, REMOTE SENS ENVIRON, V60, P335, DOI 10.1016/S0034-4257(96)00216-7
+   Prince SD, 1995, J BIOGEOGR, V22, P815, DOI 10.2307/2845983
+   Pypker TG, 2009, WATER RESOUR RES, V45, P0, DOI 10.1029/2008WR007050
+   Sahin M, 2012, ADV SPACE RES, V50, P973, DOI 10.1016/j.asr.2012.06.021
+   Shen L, 2015, OPEN GEOSCI, V7, P27, DOI 10.1515/geo-2015-0005
+   Snyder WC, 1998, INT J REMOTE SENS, V19, P2753, DOI 10.1080/014311698214497
+   Solomon S, 2007, AR4 CLIMATE CHANGE 2007: THE PHYSICAL SCIENCE BASIS, V0, P1
+   Stisen S, 2007, REMOTE SENS ENVIRON, V110, P262, DOI 10.1016/j.rse.2007.02.025
+   Sun YJ, 2005, THEOR APPL CLIMATOL, V80, P37, DOI 10.1007/s00704-004-0079-y
+   Vancutsem C, 2010, REMOTE SENS ENVIRON, V114, P449, DOI 10.1016/j.rse.2009.10.002
+   Vazquez DP, 1997, REMOTE SENS ENVIRON, V62, P215, DOI 10.1016/S0034-4257(97)00091-6
+   Vicente-Serrano SM, 2004, INT J REMOTE SENS, V25, P2871, DOI 10.1080/01431160410001685009
+   Vogt JV, 1997, INT J CLIMATOL, V17, P1559, DOI 10.1002/(SICI)1097-0088(19971130)17:14<1559::AID-JOC211>3.0.CO;2-5
+   Wan Z, 2004, INT J REMOTE SENS, V25, P261, DOI 10.1080/0143116031000116417
+   Wan Z., 1999, MODIS LAND SURFACE T, V0, P75
+   Wan Z., 2013, COLLECTION 6 MODIS L, V0, P0
+   Wan ZM, 2008, REMOTE SENS ENVIRON, V112, P59, DOI 10.1016/j.rse.2006.06.026
+   Wan ZM, 2014, REMOTE SENS ENVIRON, V140, P36, DOI 10.1016/j.rse.2013.08.027
+   Wan ZM, 2002, REMOTE SENS ENVIRON, V83, P163, DOI 10.1016/S0034-4257(02)00093-7
+   Wan ZM, 1996, IEEE T GEOSCI REMOTE, V34, P892, DOI 10.1109/36.508406
+   Xu YM, 2014, INT J REMOTE SENS, V35, P8108, DOI 10.1080/01431161.2014.978957
+   Yang YZ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050410
+   Yao YH, 2012, J GEOGR SCI, V22, P152, DOI 10.1007/s11442-012-0918-1
+   Zaksek K, 2009, ISPRS J PHOTOGRAMM, V64, P414, DOI 10.1016/j.isprsjprs.2009.02.006
+   Zeng LL, 2015, REMOTE SENS-BASEL, V7, P951, DOI 10.3390/rs70100951
+   Zhu WB, 2013, REMOTE SENS ENVIRON, V130, P62, DOI 10.1016/j.rse.2012.10.034
+NR 67
+TC 11
+Z9 11
+U1 0
+U2 13
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD DEC 15
+PY 2017
+VL 9
+IS 12
+BP 
+EP 
+DI 10.3390/rs9121313
+PG 24
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA FR7GM
+UT WOS:000419235700109
+DA 2023-04-26
+ER
+
+PT J
+AU Shao, ZF
+   Zhang, LJ
+   Wang, L
+AF Shao, Zhenfeng
+   Zhang, Linjing
+   Wang, Lei
+TI Stacked Sparse Autoencoder Modeling Using the Synergy of Airborne LiDAR and Satellite Optical and SAR Data to Map Forest Above-Ground Biomass
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Biomass; deep learning (DL); Landsat 8; light detection and ranging (LiDAR); stacked sparse autoencoder network (SSAE); Sentinel-1A
+ID nearest-neighbor imputation; support vector regression; alos palsar data; etm plus data; canopy cover; landsat-tm; biophysical parameters; prior knowledge; inventory data; point density
+AB Timely, spatially complete, and reliable forest aboveground biomass (AGB) data are a prerequisite to support forest management and policy formulation. Traditionally, forest AGB is spatially estimated by integrating satellite images, in particular, optical data, with field plots from forest inventory programs. However, field data are limited in remote and unmanaged areas. In addition, optical reflectance usually saturates at high-density biomass level and is subject to cloud contaminations. Thus, this study aimed to developa deep learning based workflow for mapping forest AGB by integrating Landsat 8 and Sentinel-1A images with airborne light detection and ranging (LiDAR) data. A reference AGB map was derived from the wall-to-wall LiDAR data and field measurements. The LiDAR plots-stratified random samples of forest biomass extracted from the LiDAR simulated strips in the reference map-were adopted as a surrogate for traditional field plots. In addition to the deep learning model, i.e., stacked sparse autoencoder network (SSAE), five different prediction techniques including multiple stepwise linear regressions, K-nearest neighbor, support vector machine, back propagation neural networks, and random forest were individually used to establish the relationship between LiDAR-derived forest biomass and the satellite predictors. Optical variables (Landsat 8 OLI), SAR variables (Sentinel-1A), and their combined variables were individually input to the six prediction models. Results showed that the SSAE model had the best performance forthe forest biomass estimation. The combined optical and microwave dataset as explanatory variables improved the modeling performance compared to either the optical-only or microwave-only data, regardless of prediction algorithms. The best mapping accuracy was obtained by the SSAE model with inputs of optical and microwave integrated metrics that yielded R-2 of 0.812, root mean squared error (RMSE) of 21.753 Mg/ha, and relative RMSE (RMSEr) of 14.457%. Overall, the SSAE model with inputs of combined Landsat 8 OLI and Sentinel-1A information could result in accurate estimation of forest biomass by using the stratification-sampled and LiDAR-derived AGB as ground reference data. The modeling workflow has the potential to promote future forest growth monitoring and carbon stock assessment across large areas.
+C1 [Shao, Zhenfeng; Zhang, Linjing; Wang, Lei] Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan 430079, Hubei, Peoples R China.
+   [Shao, Zhenfeng; Zhang, Linjing; Wang, Lei] Wuhan Univ, Collaborat Innovat Ctr Geospatial Technol, Wuhan 430079, Hubei, Peoples R China.
+C3 Wuhan University; Wuhan University
+RP Zhang, LJ (corresponding author), Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan 430079, Hubei, Peoples R China.; Zhang, LJ (corresponding author), Wuhan Univ, Collaborat Innovat Ctr Geospatial Technol, Wuhan 430079, Hubei, Peoples R China.
+EM shaozhenfeng@whu.edu.cn; zhanglinjing@whu.edu.cn; wlei@whu.edu.cn
+FU National Key Technologies Research and Development Program [2016YFB0502603]; Fundamental Research Funds for the Central Universities [2042016kf0179, 2042016kf1019]; Guangzhou Science and Technology Project [201604020070]; National Administration of Surveying, Mapping and Geoinformation [2015NGCM]; Wuhan Chen Guang Project [2016070204010114]; Special task of technical innovation in Hubei Province [2016AAA018]
+CR Ahmed OS, 2015, ISPRS J PHOTOGRAMM, V101, P89, DOI 10.1016/j.isprsjprs.2014.11.007
+   [Anonymous], 1996, J ECOL, V0, P0
+   Attarchi S, 2014, REMOTE SENS-BASEL, V6, P3693, DOI 10.3390/rs6053693
+   Basuki TM, 2013, INT J REMOTE SENS, V34, P4871, DOI 10.1080/01431161.2013.777486
+   Bousquet O., 2004, LECT NOTES COMPUTER, V3176, P0
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   C. R. Team, 2013, TEAM RDC R LANG ENV, V1, P12
+   Carreiras JMB, 2012, REMOTE SENS ENVIRON, V121, P426, DOI 10.1016/j.rse.2012.02.012
+   Chand TRK, 2007, INT J REMOTE SENS, V28, P4985, DOI 10.1080/01431160701253295
+   Chang KT, 2012, INT GEOSCI REMOTE SE, V0, PP6376, DOI 10.1109/IGARSS.2012.6352718
+   Chen BQ, 2015, ISPRS J PHOTOGRAMM, V102, P148, DOI 10.1016/j.isprsjprs.2014.12.011
+   Chen G, 2011, PHOTOGRAMM ENG REM S, V77, P733, DOI 10.14358/PERS.77.7.733
+   Chen YS, 2014, IEEE J-STARS, V7, P2094, DOI 10.1109/JSTARS.2014.2329330
+   Chirici G, 2016, REMOTE SENS ENVIRON, V174, P1, DOI 10.1016/j.rse.2015.11.010
+   Cohen WB, 2002, ECOSYSTEMS, V5, P122, DOI 10.1007/s10021-001-0060-X
+   Cougo MF, 2015, REMOTE SENS-BASEL, V7, P17097, DOI 10.3390/rs71215873
+   Deng SQ, 2014, REMOTE SENS-BASEL, V6, P7878, DOI 10.3390/rs6097878
+   Dube T, 2015, ISPRS J PHOTOGRAMM, V108, P12, DOI 10.1016/j.isprsjprs.2015.06.002
+   Dube T, 2015, ISPRS J PHOTOGRAMM, V101, P36, DOI 10.1016/j.isprsjprs.2014.11.001
+   Duncanson LI, 2010, CAN J REMOTE SENS, V36, P129, DOI 10.5589/m10-037
+   El-Askary H, 2014, INT J REMOTE SENS, V35, P2327, DOI 10.1080/01431161.2014.894656
+   Falkowski MJ, 2010, CAN J FOREST RES, V40, P184, DOI 10.1139/X09-183
+   Fassnacht FE, 2014, REMOTE SENS ENVIRON, V154, P102, DOI 10.1016/j.rse.2014.07.028
+   Gao S, 2013, INT J APPL EARTH OBS, V24, P1, DOI 10.1016/j.jag.2013.02.002
+   Gatziolis D., 2012, COMPARISON LIDAR PHO, V0, P0
+   Gleason CJ, 2011, GISCI REMOTE SENS, V48, P141, DOI 10.2747/1548-1603.48.2.141
+   Godwin C, 2015, LANDSCAPE URBAN PLAN, V136, P97, DOI 10.1016/j.landurbplan.2014.12.007
+   Hame T, 2013, IEEE J-STARS, V6, P92, DOI 10.1109/JSTARS.2013.2241020
+   Hawbaker T. J., 2009, J GEOPHYS RES-ATMOS, V114, P363
+   He QS, 2012, INT J REMOTE SENS, V33, P710, DOI 10.1080/01431161.2011.577829
+   Healey SP, 2006, REMOTE SENS ENVIRON, V101, P115, DOI 10.1016/j.rse.2005.12.006
+   Hilker T, 2008, CAN J REMOTE SENS, V34, P5, DOI 10.5589/m08-004
+   Houghton RA, 2009, J GEOPHYS RES-BIOGEO, V114, P0, DOI 10.1029/2009JG000935
+   Hudak AT, 2008, REMOTE SENS ENVIRON, V112, P2232, DOI 10.1016/j.rse.2007.10.009
+   Hudak AT, 2002, REMOTE SENS ENVIRON, V82, P397, DOI 10.1016/S0034-4257(02)00056-1
+   Hyyppa J, 2012, REMOTE SENS-BASEL, V4, P1190, DOI 10.3390/rs4051190
+   Inoue Y, 2002, REMOTE SENS ENVIRON, V81, P194, DOI 10.1016/S0034-4257(01)00343-1
+   Kattenborn T, 2015, INT J APPL EARTH OBS, V35, P359, DOI 10.1016/j.jag.2014.10.008
+   Kelsey KC, 2014, REMOTE SENS-BASEL, V6, P6407, DOI 10.3390/rs6076407
+   Korhonen L, 2013, INT J REMOTE SENS, V34, P8172, DOI 10.1080/01431161.2013.833361
+   Korhonen L, 2011, REMOTE SENS ENVIRON, V115, P1065, DOI 10.1016/j.rse.2010.12.011
+   Krahwinkler P., 2011, P IEEE INT GEOSC REM, V0, P949
+   Labrecque S, 2006, FOREST ECOL MANAG, V226, P129, DOI 10.1016/j.foreco.2006.01.030
+   Latifi H, 2012, INT J REMOTE SENS, V33, P6668, DOI 10.1080/01431161.2012.693969
+   Latifi H, 2010, FORESTRY, V83, P395, DOI 10.1093/forestry/cpq022
+   Li M, 2014, IEEE J-STARS, V7, P3143, DOI 10.1109/JSTARS.2014.2304642
+   Li W, 2015, INT J APPL EARTH OBS, V41, P88, DOI 10.1016/j.jag.2015.04.020
+   Liang H., 2016, NEURAL NETWORK FEATU, V8, P99, DOI 10.3390/rs8020099
+   Lu DS, 2006, INT J REMOTE SENS, V27, P1297, DOI 10.1080/01431160500486732
+   Mitchard ETA, 2011, REMOTE SENS ENVIRON, V115, P2861, DOI 10.1016/j.rse.2010.02.022
+   Naesset E, 2002, REMOTE SENS ENVIRON, V80, P88, DOI 10.1016/S0034-4257(01)00290-5
+   Pahlevan N, 2013, IEEE J-STARS, V6, P360, DOI 10.1109/JSTARS.2012.2235174
+   Panda SS, 2010, REMOTE SENS-BASEL, V2, P673, DOI 10.3390/rs2030673
+   Shao ZF, 2016, SENSORS-BASEL, V16, P0, DOI 10.3390/s16060834
+   Singh KK, 2016, IEEE J-STARS, V9, P3210, DOI 10.1109/JSTARS.2016.2522960
+   Singh KK, 2015, ISPRS J PHOTOGRAMM, V101, P310, DOI 10.1016/j.isprsjprs.2014.12.021
+   Stojanova D, 2010, ECOL INFORM, V5, P256, DOI 10.1016/j.ecoinf.2010.03.004
+   Su YJ, 2016, REMOTE SENS ENVIRON, V173, P187, DOI 10.1016/j.rse.2015.12.002
+   Tian X, 2014, INT J REMOTE SENS, V35, P7339, DOI 10.1080/01431161.2014.967888
+   Tian X, 2012, INT J APPL EARTH OBS, V14, P160, DOI 10.1016/j.jag.2011.09.010
+   Tsui OW, 2013, REMOTE SENS ENVIRON, V139, P340, DOI 10.1016/j.rse.2013.08.012
+   Tuia D, 2011, IEEE GEOSCI REMOTE S, V8, P804, DOI 10.1109/LGRS.2011.2109934
+   Verrelst J, 2012, REMOTE SENS ENVIRON, V118, P127, DOI 10.1016/j.rse.2011.11.002
+   Wulder MA, 2006, REMOTE SENS ENVIRON, V101, P150, DOI 10.1016/j.rse.2005.12.010
+   Wulder MA, 2003, CAN J REMOTE SENS, V29, P536, DOI 10.5589/m03-032
+   Wulder MA, 2012, REMOTE SENS ENVIRON, V121, P196, DOI 10.1016/j.rse.2012.02.001
+   Yu YT, 2016, IEEE T GEOSCI REMOTE, V54, P4130, DOI 10.1109/TGRS.2016.2537830
+   Yu YT, 2015, IEEE J-STARS, V8, P709, DOI 10.1109/JSTARS.2014.2347276
+   Zald HSJ, 2016, REMOTE SENS ENVIRON, V176, P188, DOI 10.1016/j.rse.2016.01.015
+   Zald HSJ, 2014, REMOTE SENS ENVIRON, V143, P26, DOI 10.1016/j.rse.2013.12.013
+   Zhang L, 2016, IEEE GEOSCI REMOTE S, V13, P1359, DOI 10.1109/LGRS.2016.2586109
+   Zhang L, 2015, IEEE J-STARS, V8, P4895, DOI 10.1109/JSTARS.2015.2467377
+NR 72
+TC 65
+Z9 69
+U1 9
+U2 82
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD DEC 15
+PY 2017
+VL 10
+IS 12
+BP 5569
+EP 5582
+DI 10.1109/JSTARS.2017.2748341
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA FR2BE
+UT WOS:000418871200021
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, JS
+   Du, J
+   Zhang, SL
+   Liu, D
+   Hu, YL
+   Hu, JS
+   Wei, S
+   Dai, LR
+AF Zhang, Jianshu
+   Du, Jun
+   Zhang, Shiliang
+   Liu, Dan
+   Hu, Yulong
+   Hu, Jinshui
+   Wei, Si
+   Dai, Lirong
+TI Watch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition
+SO PATTERN RECOGNITION
+LA English
+DT Article
+DE Handwritten mathematical expression; recognition; Neural network; Attention
+ID features
+AB Machine recognition of a handwritten mathematical expression (HME) is challenging due to the ambiguities of handwritten symbols and the two-dimensional structure of mathematical expressions. Inspired by recent work in deep learning, we present Watch, Attend and Parse (WAP), a novel end-to-end approach based on neural network that learns to recognize HMEs in a two-dimensional layout and outputs them as one-dimensional character sequences in LaTeX format. Inherently unlike traditional methods, our proposed model avoids problems that stem from symbol segmentation, and it does not require a predefined expression grammar. Meanwhile, the problems of symbol recognition and structural analysis are handled, respectively, using a watcher and a parser. We employ a convolutional neural network encoder that takes HME images as input as the watcher and employ a recurrent neural network decoder equipped with an attention mechanism as the parser to generate LaTeX sequences. Moreover, the correspondence between the input expressions and the output LaTeX sequences is learned automatically by the attention mechanism. We validate the proposed approach on a benchmark published by the CROHME international competition. Using the official training dataset, WAP significantly outperformed the state-of-the-art method with an expression recognition accuracy of 46.55% on CROHME 2014 and 44.55% on CROHME 2016. (C) 2017 Elsevier Ltd. All rights reserved.
+C1 [Zhang, Jianshu; Du, Jun; Zhang, Shiliang; Dai, Lirong] Univ Sci & Technol China, Natl Engn Lab Speech & Language Informat Proc, Hefei, Anhui, Peoples R China.
+   [Liu, Dan; Hu, Yulong; Hu, Jinshui; Wei, Si] IFLYTEK Res, Hefei, Anhui, Peoples R China.
+C3 Chinese Academy of Sciences; University of Science & Technology of China, CAS
+RP Du, J (corresponding author), Univ Sci & Technol China, Natl Engn Lab Speech & Language Informat Proc, Hefei, Anhui, Peoples R China.
+EM xysszjs@mail.ustc.edu.cn; jundu@ustc.edu.cn; zsl2008@mail.ustc.edu.cn; danliu@iflytek.com; ylhu3@iflytek.com; jshu@iflytek.com; siwei@iflytek.com; lrdai@ustc.edu.cn
+FU National Natural Science Foundation of China [61671422, U1613211]; Chinese Academy of Sciences [XDB02070006]; National Key Research and Development Program of China [2016YFB1001300]
+CR Alvaro F, 2016, PATTERN RECOGN, V51, P135, DOI 10.1016/j.patcog.2015.09.013
+   Alvaro F, 2014, PATTERN RECOGN LETT, V35, P58, DOI 10.1016/j.patrec.2012.09.023
+   Anderson R. H., 1967, PROC ACM S INTERACTI, V0, PP436, DOI 10.1145/2402536.2402585
+   [Anonymous], 2014, 2 INT C LEARN REPR, V0, P0
+   Awal AM, 2014, PATTERN RECOGN LETT, V35, P68, DOI 10.1016/j.patrec.2012.10.024
+   Bahdanau D, 2016, ARXIV, V0, P0
+   Bai ZL, 2005, PROC INT CONF DOC, V0, P262
+   Bandanau D, 2016, INT CONF ACOUST SPEE, V0, PP4945, DOI 10.1109/ICASSP.2016.7472618
+   BELAID A, 1984, IEEE T PATTERN ANAL, V6, P105, DOI 10.1109/TPAMI.1984.4767483
+   Chan KF, 2001, PATTERN RECOGN, V34, P1671, DOI 10.1016/S0031-3203(00)00102-3
+   Chan W., 2015, CORR, V0, P0
+   Cho K., 2014, P 2014 C EMP METH NA, V0, PP1724, DOI 10.3115/v1/d14-1179
+   Cho K., 2015, ARXIV151107916, V0, P0
+   Chorowski J, 2014, PROC NIPS DEEP LEARN, V0, P1
+   Chou P. A., 1989, PROCEEDINGS OF THE SPIE - THE INTERNATIONAL SOCIETY FOR OPTICAL ENGINEERING, V1199, P852, DOI 10.1117/12.970095
+   Chung J, 2014, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1412.3555
+   Ciresan DC, 2010, NEURAL COMPUT, V22, P3207, DOI 10.1162/NECO_a_00052
+   Corbetta M, 2002, NAT REV NEUROSCI, V3, P201, DOI 10.1038/nrn755
+   Deng Y., 2016, WHAT YOU GET IS WHAT, V0, P0
+   Dietterich TG, 2000, LECT NOTES COMPUT SC, V1857, P1, DOI 10.1007/3-540-45014-9_1
+   Du J, 2017, INT J DOC ANAL RECOG, V20, P69, DOI 10.1007/s10032-017-0280-z
+   Graves Alex, 2011, ADV NEURAL INFORM PR, V24, P2348, DOI 10.5555/2986459.2986721
+   Hirata NST, 2015, PATTERN RECOGN, V48, P837, DOI 10.1016/j.patcog.2014.09.015
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Jaderberg M., 2014, WORKSH DEEP LEARN NI, V0, P0
+   Jaderberg M, 2016, INT J COMPUT VISION, V116, P1, DOI 10.1007/s11263-015-0823-z
+   Jaekyu Ha, 1995, PROCEEDINGS OF THE THIRD INTERNATIONAL CONFERENCE ON DOCUMENT ANALYSIS AND RECOGNITION, V0, PP956, DOI 10.1109/ICDAR.1995.602060
+   Kam-Fai Chan, 2000, INTERNATIONAL JOURNAL ON DOCUMENT ANALYSIS AND RECOGNITION, V3, P3, DOI 10.1007/PL00013549
+   Karpathy A, 2015, PROC CVPR IEEE, V0, PP3128, DOI 10.1109/CVPR.2015.7298932
+   Klakow D, 2002, SPEECH COMMUN, V38, P19, DOI 10.1016/S0167-6393(01)00041-3
+   Kosmala A, 1998, INT C PATT RECOG, V0, PP1306, DOI 10.1109/ICPR.1998.711941
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lamport L., 1994, DOCUMENT PREPARATION, V0, P0
+   Lavirotte S, 1998, P SOC PHOTO-OPT INS, V3305, P44, DOI 10.1117/12.304644
+   Lee CY, 2016, PROC CVPR IEEE, V0, PP2231, DOI 10.1109/CVPR.2016.245
+   Lee H.-J., 1993, PROCEEDINGS OF THE SECOND INTERNATIONAL CONFERENCE ON DOCUMENT ANALYSIS AND RECOGNITION (CAT. NO.93TH0578-5), V0, PP502, DOI 10.1109/ICDAR.1993.395686
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Luong M.-T., 2014, ARXIV14108206, V0, P0
+   Luong MT, 2015, EMNLP, V0, P0
+   MacLean S, 2015, PATTERN RECOGN, V48, P2433, DOI 10.1016/j.patcog.2015.02.017
+   MacLean S, 2013, INT J DOC ANAL RECOG, V16, P139, DOI 10.1007/s10032-012-0184-x
+   Miller EG, 1998, FIFTEENTH NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE (AAAI-98) AND TENTH CONFERENCE ON INNOVATIVE APPLICATIONS OF ARTIFICAL INTELLIGENCE (IAAI-98) - PROCEEDINGS, V0, P784
+   Mouchere H, 2014, INT CONF FRONT HAND, V0, PP791, DOI 10.1109/ICFHR.2014.138
+   Mouchere H., 2016, INT C FRONT HANDWR R, V0, P0
+   Rensink RA, 2000, VIS COGN, V7, P17, DOI 10.1080/135062800394667
+   Rhee TH, 2009, PATTERN RECOGN, V42, P3192, DOI 10.1016/j.patcog.2008.10.036
+   Shi B., 2016, IEEE T PATTERN ANAL, V0, P0
+   Simonyan K., 2014, ARXIV14091556, V0, P0
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Sutskever I., 2014, ADV NEURAL INFORM PR, V27, P3104
+   Tu ZP, 2016, PROCEEDINGS OF THE 54TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS, VOL 1, P76
+   Vinyals O., 2015, P NIPS, V0, P2773
+   Vinyals O, 2015, PROC CVPR IEEE, V0, PP3156, DOI 10.1109/CVPR.2015.7298935
+   Wang T, 2012, INT C PATT RECOG, V0, P3304
+   WINKLER HJ, 1995, INT CONF ACOUST SPEE, V0, PP2459, DOI 10.1109/ICASSP.1995.480046
+   Xu K, 2015, PR MACH LEARN RES, V37, P2048
+   Yamamoto IL, 2006, 10 INT WORKSH FRONT, V0, P0
+   Zanibbi R, 2002, IEEE T PATTERN ANAL, V24, P1455, DOI 10.1109/TPAMI.2002.1046157
+   Zanibbi R, 2012, INT J DOC ANAL RECOG, V15, P331, DOI 10.1007/s10032-011-0174-4
+   Zeiler M.D., 2012, ARXIV12125701, V0, P0
+   Zhang J., 2016, INTERSPEECH 2016, V0, P1785
+NR 62
+TC 93
+Z9 93
+U1 3
+U2 36
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0031-3203
+EI 1873-5142
+J9 PATTERN RECOGN
+JI Pattern Recognit.
+PD NOV 15
+PY 2017
+VL 71
+IS 
+BP 196
+EP 206
+DI 10.1016/j.patcog.2017.06.017
+PG 11
+WC Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA FC6YK
+UT WOS:000406987400016
+DA 2023-04-26
+ER
+
+PT J
+AU Xue, ZH
+   Du, PJ
+   Li, J
+   Su, HJ
+AF Xue, Zhaohui
+   Du, Peijun
+   Li, Jun
+   Su, Hongjun
+TI Sparse graph regularization for robust crop mapping using hyperspectral remotely sensed imagery with very few in situ data
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Hyperspectral remote sensing; Crop mapping; Sparse graph regularization (SGR); Heihe watershed; CASI/SASI
+ID spectral-spatial classification; land-cover classification; support vector machines; neural-network; component analysis; rotation forest; training data; discrimination; segmentation; growth
+AB The generally limited availability of training data relative to the usually high data dimension pose a great challenge to accurate classification of hyperspectral imagery, especially for identifying crops character-ized with highly correlated spectra. However, traditional parametric classification models are problematic due to the need of non-singular class-specific covariance matrices. In this research, a novel sparse graph regularization (SGR) method is presented, aiming at robust crop mapping using hyperspectral imagery with very few in situ data. The core of SGR lies in propagating labels from known data to unknown, which is triggered by: (1) the fraction matrix generated for the large unknown data by using an effective sparse representation algorithm with respect to the few training data serving as the dictionary; (2) the prediction function estimated for the few training data by formulating a regularization model based on sparse graph. Then, the labels of large unknown data can be obtained by maximizing the posterior probability distribution based on the two ingredients. SGR is more discriminative, data-adaptive, robust to noise, and efficient, which is unique with regard to previously proposed approaches and has high- potentials in discriminating crops, especially when facing insufficient training data and high dimensional spectral space. The study area is located at Zhangye basin in the middle reaches of Heihe watershed, Gansu, China, where eight crop types were mapped with Compact Airborne Spectrographic Imager (CASI) and Shortwave Infrared Airborne Spectrogrpahic Imager (SASI) hyperspectral data. Experimental results demonstrate that the proposed method significantly outperforms other traditional and state-of-the-art methods. (C) 2016 International Society for Photogrammetry and Remote Sensing, Inc. (ISPRS). Published by Elsevier B.V. All rights reserved.
+C1 [Xue, Zhaohui; Su, Hongjun] Hohai Univ, Sch Earth Sci & Engn, Nanjing 211100, Jiangsu, Peoples R China.
+   [Du, Peijun] Nanjing Univ, Key Lab Satellite Mapping Technol & Applicat, Natl Adm Surveying Mapping & Geoinformat China, Nanjing 210023, Jiangsu, Peoples R China.
+   [Du, Peijun] Nanjing Univ, Jiangsu Prov Key Lab Geog Informat Sci & Technol, Nanjing 210023, Jiangsu, Peoples R China.
+   [Du, Peijun] Nanjing Univ, Jiangsu Ctr Collaborat Innovat Geog Informat Reso, Nanjing 210023, Jiangsu, Peoples R China.
+   [Li, Jun] Sun Yat Sen Univ, Sch Geog & Planning, Ctr Integrated Geog Informat Anal, Guangdong Prov Key Lab Urbanizat & Geosimulat, Guangzhou 510275, Guangdong, Peoples R China.
+C3 Hohai University; Nanjing University; Nanjing University; Nanjing University; Sun Yat Sen University
+RP Du, PJ (corresponding author), Nanjing Univ, Jiangsu Prov Key Lab Geog Informat Sci & Technol, Nanjing 210023, Jiangsu, Peoples R China.
+EM dupjrs@gmail.com
+FU Natural Science Foundation of China [41601347]; Natural Science Foundation of Jiangsu Province [BK20160860]; Fundamental Research Funds for the Central Universities [2015B29214]
+CR Bandos TV, 2009, IEEE T GEOSCI REMOTE, V47, P862, DOI 10.1109/TGRS.2008.2005729
+   Bazi Y, 2010, IEEE T GEOSCI REMOTE, V48, P186, DOI 10.1109/TGRS.2009.2023983
+   Becker-Reshef I, 2010, REMOTE SENS-BASEL, V2, P1589, DOI 10.3390/rs2061589
+   Boykov Y, 2001, IEEE T PATTERN ANAL, V23, P1222, DOI 10.1109/34.969114
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Camps-Valls G, 2004, IEEE T GEOSCI REMOTE, V42, P1530, DOI 10.1109/TGRS.2004.827262
+   Camps-Valls G., 2009, KERNEL METHODS REMOT, V0, P0
+   Camps-Valls G, 2007, IEEE T GEOSCI REMOTE, V45, P3044, DOI 10.1109/TGRS.2007.895416
+   Camps-Valls G, 2014, IEEE SIGNAL PROC MAG, V31, P45, DOI 10.1109/MSP.2013.2279179
+   Chang C.-I., 2003, HYPERSPECTRAL IMAGIN, V0, P0
+   Chen Y, 2013, IEEE T GEOSCI REMOTE, V51, P217, DOI 10.1109/TGRS.2012.2201730
+   Chen Y, 2011, IEEE T GEOSCI REMOTE, V49, P3973, DOI 10.1109/TGRS.2011.2129595
+   Cheng B, 2010, IEEE T IMAGE PROCESS, V19, P858, DOI 10.1109/TIP.2009.2038764
+   Congalton R.G., 2008, ASSESSING ACCURACY R, V0, P0
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Delalleau Olivier, 2005, P 10 INT WORKSHOP AR, V0, P96
+   Dias JM, 2010, INVESTIGACAO, V0, PP1, DOI 10.14195/978-989-26-0193-9
+   Doraiswamy PC, 2004, REMOTE SENS ENVIRON, V92, P548, DOI 10.1016/j.rse.2004.05.017
+   Du PJ, 2015, IEEE J-STSP, V9, P1089, DOI 10.1109/JSTSP.2015.2423260
+   Du PJ, 2015, ISPRS J PHOTOGRAMM, V105, P38, DOI 10.1016/j.isprsjprs.2015.03.002
+   Eddy PR, 2008, PHOTOGRAMM ENG REM S, V74, P1249, DOI 10.14358/PERS.74.10.1249
+   Fang LY, 2014, IEEE T GEOSCI REMOTE, V52, P7738, DOI 10.1109/TGRS.2014.2318058
+   Fauvel M, 2013, P IEEE, V101, P652, DOI 10.1109/JPROC.2012.2197589
+   Feng RY, 2016, IEEE T GEOSCI REMOTE, V54, P2855, DOI 10.1109/TGRS.2015.2506612
+   Feng RY, 2014, ISPRS J PHOTOGRAMM, V97, P9, DOI 10.1016/j.isprsjprs.2014.07.009
+   Foody GM, 2004, REMOTE SENS ENVIRON, V93, P107, DOI 10.1016/j.rse.2004.06.017
+   Foody GM, 1996, INT J REMOTE SENS, V17, P1317, DOI 10.1080/01431169608948706
+   FOODY GM, 1995, ISPRS J PHOTOGRAMM, V50, P2, DOI 10.1016/0924-2716(95)90116-V
+   FOODY GM, 1992, PHOTOGRAMM ENG REM S, V58, P1335
+   Foody GM, 2004, PHOTOGRAMM ENG REM S, V70, P627, DOI 10.14358/PERS.70.5.627
+   Galvao LS, 2009, REMOTE SENS ENVIRON, V113, P846, DOI 10.1016/j.rse.2008.12.010
+   Gomez-Chova L, 2008, IEEE GEOSCI REMOTE S, V5, P336, DOI 10.1109/LGRS.2008.916070
+   He Z, 2014, IEEE T GEOSCI REMOTE, V52, P5150, DOI 10.1109/TGRS.2013.2287022
+   Jackson Q, 2002, IEEE T GEOSCI REMOTE, V40, P1082, DOI 10.1109/TGRS.2002.1010895
+   Jensen J.R., 2005, INTRO DIGITAL IMAGE, V3rd, P0
+   Koenig K, 2015, ISPRS J PHOTOGRAMM, V104, P112, DOI 10.1016/j.isprsjprs.2015.03.003
+   Li J, 2015, IEEE T GEOSCI REMOTE, V53, P1592, DOI 10.1109/TGRS.2014.2345739
+   Li J, 2013, IEEE T GEOSCI REMOTE, V51, P4816, DOI 10.1109/TGRS.2012.2230268
+   Li J, 2013, IEEE T GEOSCI REMOTE, V51, P844, DOI 10.1109/TGRS.2012.2205263
+   Li J, 2012, IEEE T GEOSCI REMOTE, V50, P809, DOI 10.1109/TGRS.2011.2162649
+   Li J, 2011, IEEE T GEOSCI REMOTE, V49, P3947, DOI 10.1109/TGRS.2011.2128330
+   Li J, 2010, IEEE T GEOSCI REMOTE, V48, P4085, DOI 10.1109/TGRS.2010.2060550
+   Liu W, 2012, P IEEE, V100, P2624, DOI 10.1109/JPROC.2012.2197809
+   Ma WK, 2014, IEEE SIGNAL PROC MAG, V31, P67, DOI 10.1109/MSP.2013.2279731
+   Mariotto I, 2013, REMOTE SENS ENVIRON, V139, P291, DOI 10.1016/j.rse.2013.08.002
+   Mathur A, 2008, INT J REMOTE SENS, V29, P2227, DOI 10.1080/01431160701395203
+   Melgani F, 2004, IEEE T GEOSCI REMOTE, V42, P1778, DOI 10.1109/TGRS.2004.831865
+   Mianji FA, 2011, IEEE T GEOSCI REMOTE, V49, P2100, DOI 10.1109/TGRS.2010.2103381
+   Munoz-Mari J, 2010, IEEE T GEOSCI REMOTE, V48, P3188, DOI 10.1109/TGRS.2010.2045764
+   Nasrabadi NM, 2014, IEEE SIGNAL PROC MAG, V31, P34, DOI 10.1109/MSP.2013.2278992
+   Nidamanuri RR, 2011, ISPRS J PHOTOGRAMM, V66, P683, DOI 10.1016/j.isprsjprs.2011.05.001
+   Pacheco A, 2010, REMOTE SENS ENVIRON, V114, P2219, DOI 10.1016/j.rse.2010.04.024
+   Pengra BW, 2007, REMOTE SENS ENVIRON, V108, P74, DOI 10.1016/j.rse.2006.11.002
+   Ran Q, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.097298
+   Rao NR, 2008, INT J REMOTE SENS, V29, P131, DOI 10.1080/01431160701241779
+   Rodriguez JJ, 2006, IEEE T PATTERN ANAL, V28, P1619, DOI 10.1109/TPAMI.2006.211
+   Senthilnath J, 2013, IEEE J-STARS, V6, P861, DOI 10.1109/JSTARS.2012.2217941
+   Song BQ, 2014, IEEE T GEOSCI REMOTE, V52, P5122, DOI 10.1109/TGRS.2013.2286953
+   Thenkabail PS, 2013, IEEE J-STARS, V6, P427, DOI 10.1109/JSTARS.2013.2252601
+   Tropp JA, 2007, IEEE T INFORM THEORY, V53, P4655, DOI 10.1109/TIT.2007.909108
+   Waske B, 2010, IEEE T GEOSCI REMOTE, V48, P2880, DOI 10.1109/TGRS.2010.2041784
+   Wright J, 2010, P IEEE, V98, P1031, DOI 10.1109/JPROC.2010.2044470
+   Wright J, 2009, IEEE T PATTERN ANAL, V31, P210, DOI 10.1109/TPAMI.2008.79
+   Xia JS, 2015, IEEE T GEOSCI REMOTE, V53, P4768, DOI 10.1109/TGRS.2015.2409195
+   Xia JS, 2014, IEEE GEOSCI REMOTE S, V11, P239, DOI 10.1109/LGRS.2013.2254108
+   Xiao Q., 2013, HIWATER VISIBLE NEAR, V0, P0
+   Xue ZH, 2015, IEEE T GEOSCI REMOTE, V53, P6114, DOI 10.1109/TGRS.2015.2432059
+   Xue ZH, 2015, IEEE T GEOSCI REMOTE, V53, P70, DOI 10.1109/TGRS.2014.2318332
+   Xue ZH, 2014, IEEE J-STARS, V7, P2131, DOI 10.1109/JSTARS.2014.2307091
+   Xue ZH, 2014, IEEE J-STARS, V7, P1142, DOI 10.1109/JSTARS.2013.2294956
+   Yang CH, 2013, P IEEE, V101, P582, DOI 10.1109/JPROC.2012.2196249
+   Yang XJ, 2011, PHOTOGRAMM ENG REM S, V77, P27, DOI 10.14358/PERS.77.1.27
+   Zhang CY, 2012, REMOTE SENS ENVIRON, V124, P310, DOI 10.1016/j.rse.2012.05.015
+   Zhang HY, 2014, IEEE J-STARS, V7, P2056, DOI 10.1109/JSTARS.2013.2264720
+   Zhang M., 2014, HIWATER LAND COVER M, V0, P0
+   Zhang M., 2013, HIWATER DATASET VEGE, V0, P0
+   Zhang YD, 2011, SENSORS-BASEL, V11, P4721, DOI 10.3390/s110504721
+   Zhong YF, 2016, ISPRS J PHOTOGRAMM, V119, P49, DOI 10.1016/j.isprsjprs.2016.04.008
+   ZHOU D, 2004, IN ADVANCES IN NEURA, V0, P321
+NR 80
+TC 16
+Z9 16
+U1 4
+U2 61
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD FEB 15
+PY 2017
+VL 124
+IS 
+BP 1
+EP 15
+DI 10.1016/j.isprsjprs.2016.12.003
+PG 15
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA EK7CD
+UT WOS:000394082400001
+DA 2023-04-26
+ER
