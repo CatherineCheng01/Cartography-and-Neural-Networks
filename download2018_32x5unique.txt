@@ -1,0 +1,524 @@
+
+PT J
+AU Behrens, T
+   Schmidt, K
+   Rossel, RAV
+   Gries, P
+   Scholten, T
+   MacMillan, RA
+AF Behrens, T.
+   Schmidt, K.
+   Rossel, R. A. Viscarra
+   Gries, P.
+   Scholten, T.
+   MacMillan, R. A.
+TI Spatial modelling with Euclidean distance fields and machine learning
+SO EUROPEAN JOURNAL OF SOIL SCIENCE
+LA English
+DT Article
+ID geographically weighted regression; organic-carbon; soil property; prediction; map
+AB This study introduces a hybrid spatial modelling framework, which accounts for spatial non-stationarity, spatial autocorrelation and environmental correlation. A set of geographic spatially autocorrelated Euclidean distance fields (EDF) was used to provide additional spatially relevant predictors to the environmental covariates commonly used for mapping. The approach was used in combination with machine-learning methods, so we called the method Euclidean distance fields in machine-learning (EDM). This method provides advantages over other prediction methods that integrate spatial dependence and state factor models, for example, regression kriging (RK) and geographically weighted regression (GWR). We used seven generic (EDFs) and several commonly used predictors with different regression algorithms in two digital soil mapping (DSM) case studies and compared the results to those achieved with ordinary kriging (OK), RK and GWR as well as the multiscale methods ConMap, ConStat and contextual spatial modelling (CSM). The algorithms tested in EDM were a linear model, bagged multivariate adaptive regression splines (MARS), radial basis function support vector machines (SVM), Cubist, random forest (RF) and a neural network (NN) ensemble. The study demonstrated that DSM with EDM provided results comparable to RK and to the contextual multiscale methods. Best results were obtained with Cubist, RF and bagged MARS. Because the tree-based approaches produce discontinuous response surfaces, the resulting maps can show visible artefacts when only the EDFs are used as predictors (i.e. no additional environmental covariates). Artefacts were not obvious for SVM and NN and to a lesser extent bagged MARS. An advantage of EDM is that it accounts for spatial non-stationarity and spatial autocorrelation when using a small set of additional predictors. The EDM is a new method that provides a practical alternative to more conventional spatial modelling and thus it enhances the DSM toolbox.
+C1 [Behrens, T.; Schmidt, K.; Gries, P.; Scholten, T.] Univ Tubingen, Dept Geosci Soil Sci & Geomorphol, Rumelinstr 19-23, D-72074 Tubingen, Germany.
+   [Rossel, R. A. Viscarra] CSIRO Land & Water, GPO Box 1700, Canberra, ACT 2601, Australia.
+   [MacMillan, R. A.] LandMapper Environm Solut Inc, 7415 118 St NW, Edmonton, AB, Canada.
+C3 Eberhard Karls University of Tubingen; Commonwealth Scientific & Industrial Research Organisation (CSIRO)
+RP Behrens, T (corresponding author), Univ Tubingen, Dept Geosci Soil Sci & Geomorphol, Rumelinstr 19-23, D-72074 Tubingen, Germany.
+EM thorsten.behrens@uni-tuebingen.de
+FU German Research Foundation (DFG) under the PedoScale project [BE 4023/3-1]
+CR [Anonymous], 1963, ECON GEOL, V0, P0, DOI DOI 10.2113/GSECONGEO.58.8.1246
+   Begleiter R., 2008, CS200801, V0, P0
+   Behrens T, 2018, GEODERMA, V310, P128, DOI 10.1016/j.geoderma.2017.09.015
+   Behrens T, 2005, J PLANT NUTR SOIL SC, V168, P21, DOI 10.1002/jpln.200421414
+   Behrens T, 2010, EUR J SOIL SCI, V61, P133, DOI 10.1111/j.1365-2389.2009.01205.x
+   Behrens T, 2014, GEODERMA, V213, P578, DOI 10.1016/j.geoderma.2013.07.031
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Breiman L., 1984, CLASSIFICATION REGRE, V0, P0, DOI DOI 10.1002/widm.8
+   Brunsdon C, 1996, GEOGR ANAL, V28, P281, DOI 10.1111/j.1538-4632.1996.tb00936.x
+   Bui E, 2009, GLOBAL BIOGEOCHEM CY, V23, P0, DOI 10.1029/2009GB003506
+   Conrad O., 2017, SYSTEM AUTOMATED GEO, V0, P0
+   de Knegt HJ, 2010, ECOLOGY, V91, P2455, DOI 10.1890/09-1359.1
+   FRIEDMAN JH, 1991, ANN STAT, V19, P1, DOI 10.1214/aos/1176347963
+   Gollini I, 2015, J STAT SOFTW, V63, P1
+   Grimm R, 2008, GEODERMA, V146, P102, DOI 10.1016/j.geoderma.2008.05.008
+   HENGL T., 2003, COMP KRIGING EXTERNA, V0, P0
+   Jenny H., 1941, FACTORS SOIL FORMATI, V0, P0, DOI DOI 10.1097/00010694-194111000-00009
+   Karatzoglou A., 2004, J STAT SOFTW, V11, P1, DOI 10.18637/jss.v011.i09
+   KRUMBEIN WC, 1959, J GEOPHYS RES, V64, P823, DOI 10.1029/JZ064i007p00823
+   Kumar S, 2012, GEODERMA, V189, P627, DOI 10.1016/j.geoderma.2012.05.022
+   Matern B., 1960, TECHNICAL REPORT, V0, P0
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   Mezzalira S., 1965, B I GEOGRAFICO GEOLO, V43, P0
+   Moran CJ, 2002, INT J GEOGR INF SCI, V16, P533, DOI 10.1080/13658810210138715
+   NEUMAN SP, 1984, J INT ASS MATH GEOL, V16, P499, DOI 10.1007/BF01886329
+   ODEH IOA, 1994, GEODERMA, V63, P197, DOI 10.1016/0016-7061(94)90063-9
+   Oliver M. A., 1990, INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SYSTEMS, V4, P313, DOI 10.1080/02693799008941549
+   Paez A, 2004, GEOGR ANAL, V36, P299, DOI 10.1353/geo.2004.0017
+   Pebesma EJ, 2004, COMPUT GEOSCI-UK, V30, P683, DOI 10.1016/j.cageo.2004.03.012
+   Quinlan J. R., 1992, PROCEEDINGS OF THE 5TH AUSTRALIAN JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE. AI 92, V0, P343
+   Rao C., 1999, LINEAR MODELS LEAST, V0, P0
+   ROSENFELD A, 1968, PATTERN RECOGN, V1, P33, DOI 10.1016/0031-3203(68)90013-7
+   Rossel RAV, 2015, SOIL RES, V53, P845, DOI 10.1071/SR14366
+   Rossel RAV, 2010, GEODERMA, V158, P46, DOI 10.1016/j.geoderma.2009.12.025
+   Rossel RAV, 2014, GLOBAL CHANGE BIOL, V20, P2953, DOI 10.1111/gcb.12569
+   Schmidt K, 2014, GEODERMA, V232, P243, DOI 10.1016/j.geoderma.2014.05.013
+   Schmidt K, 2008, GEODERMA, V146, P138, DOI 10.1016/j.geoderma.2008.05.010
+   Sun W, 2012, GEODERMA, V171, P16, DOI 10.1016/j.geoderma.2011.02.010
+   Unwin D., 1975, CONCEPTS TECHNIQUES, V5, P0
+   Venables W. N., 2002, MODERN APPL STAT S P, V0, P0
+   Webster R, 2007, GEOSTATISTICS ENV SC, V0, P0
+   Wood J, 1996, THESIS, V0, P0
+NR 43
+TC 58
+Z9 60
+U1 2
+U2 54
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1351-0754
+EI 1365-2389
+J9 EUR J SOIL SCI
+JI Eur. J. Soil Sci.
+PD SEP 15
+PY 2018
+VL 69
+IS 5
+BP 757
+EP 770
+DI 10.1111/ejss.12687
+PG 14
+WC Soil Science
+SC Agriculture
+GA GS2NP
+UT WOS:000443387700001
+DA 2023-04-26
+ER
+
+PT J
+AU Ahmed, B
+   Rahman, MS
+   Islam, R
+   Sammonds, P
+   Zhou, C
+   Uddin, K
+   Al-Hussaini, TM
+AF Ahmed, Bayes
+   Rahman, Md Shahinoor
+   Islam, Rahenul
+   Sammonds, Peter
+   Zhou, Chao
+   Uddin, Kabir
+   Al-Hussaini, Tahmeed M.
+TI Developing a Dynamic Web-GIS Based Landslide Early Warning System for the Chittagong Metropolitan Area, Bangladesh
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE landslides; early warning system; remote sensing; GIS; susceptibility mapping; rainfall thresholds; disaster risk reduction
+ID support vector machine; rainfall thresholds; shallow landslides; probability; improve; hazard; model
+AB This article aims to develop a Web-GIS based landslide early warning system (EWS) for the Chittagong Metropolitan Area (CMA), Bangladesh, where, in recent years, rainfall-induced landslides have caused great losses of lives and property. A method for combining static landslide susceptibility maps and rainfall thresholds is proposed by introducing a purposely-build hazard matrix. To begin with, eleven factor maps: soil permeability; surface geology; landcover; altitude; slope; aspect; distance to stream; fault line; hill cut; road cut; and drainage network along with a detailed landslide inventory map were produced. These maps were used, and four methods were applied: artificial neural network (ANN); multiple regressions; principal component analysis; and support vector machine to produce landslide susceptibility maps. After model validation, the ANN map was found best fitting and was classified into never warning, low, medium, and high susceptibility zones. Rainfall threshold analysis (1960-2017) revealed consecutive 5-day periods of rainfall of 71-282 mm could initiate landslides in CMA. Later, the threshold was classified into three rainfall rates: low rainfall (70-160 mm), medium rainfall (161-250 mm), and high rainfall (>250 mm). Each landslide was associated with a hazard class (no warning vs. warning state) based on the assumption that the higher the susceptibility, the lower the rainfall. Finally, the EWS was developed using various libraries and frameworks that is connected with a reliable online-based weather application programming interface. The system is publicly available, dynamic, and replicable to similar contexts and is able to disseminate alerts five days in advance via email notifications. The proposed EWS is novel and the first of its kind in Bangladesh, and can be applied to mitigate landslide disaster risks.
+C1 [Ahmed, Bayes; Sammonds, Peter] UCL, Inst Risk & Disaster Reduct, Gower St, London WC1E 6BT, England.
+   [Rahman, Md Shahinoor] George Mason Univ, Ctr Spatial Informat Sci & Syst, Fairfax, VA 22030 USA.
+   [Rahman, Md Shahinoor; Al-Hussaini, Tahmeed M.] BUET, BUET JIDPUS, Dhaka 1000, Bangladesh.
+   [Islam, Rahenul] icddr b, Dhaka 1212, Bangladesh.
+   [Zhou, Chao] China Univ Geosci, Engn Fac, Wuhan 430074, Hubei, Peoples R China.
+   [Uddin, Kabir] Int Ctr Integrated Mt Dev ICIMOD, Geospatial Solut Theme, Kathmandu 44073, Nepal.
+   [Al-Hussaini, Tahmeed M.] BUET, Dept Civil Engn, Dhaka 1000, Bangladesh.
+C3 University of London; University College London; George Mason University; Bangladesh University of Engineering & Technology (BUET); International Centre for Diarrhoeal Disease Research (ICDDR); China University of Geosciences; Bangladesh University of Engineering & Technology (BUET)
+RP Ahmed, B (corresponding author), UCL, Inst Risk & Disaster Reduct, Gower St, London WC1E 6BT, England.
+EM bayesahmed@gmail.com; mrahma25@masonlive.gmu.edu; rahen.rangan@gmail.com; p.sammonds@ucl.ac.uk; zhouchao_rs@163.com; kabir.uddin@icimod.org; htahmeed@yahoo.com
+FU International Centre for Integrated Mountain Development (ICIMOD)/SERVIR-Himalaya Small Grants Programme [SERVIR-H 2014 016]; University College London (UCL)
+CR AHMED B, 2017, THESIS, V0, P0
+   Ahmed B, 2014, LANDSLIDE INVENTORY, V0, P0
+   Ahmed B, 2018, NAT HAZARDS REV, V19, P0, DOI 10.1061/(ASCE)NH.1527-6996.0000290
+   Ahmed B, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040304
+   Ahmed B, 2015, NAT HAZARDS, V79, P1707, DOI 10.1007/s11069-015-1922-4
+   Ahmed B, 2015, LANDSLIDES, V12, P1077, DOI 10.1007/s10346-014-0521-x
+   Ahmed B, 2012, ISPRS INT J GEO-INF, V1, P3, DOI 10.3390/ijgi1010003
+   Ahmed B, 2013, ISPRS INT GEO-INF, V2, P577, DOI 10.3390/ijgi2030577
+   Aleotti P, 2004, ENG GEOL, V73, P247, DOI 10.1016/j.enggeo.2004.01.007
+   [Anonymous], 2015, DIS AS PAC 2015 YEAR, V0, P0
+   [Anonymous], 2005, ANAL GLOBAL LANDSLID, V0, P0
+   [Anonymous], 2012, CDMP 2 LANDSL INV LA, V0, P0
+   [Anonymous], 2013, BBS DISTR STAT 2011, V0, P0
+   [Anonymous], 2012, CDMP 2 RAINF TRIGG L, V0, P0
+   Aufli M.J., 2016, GEOLOGIJA-LJUBLJANA, V59, P259, DOI 10.5474/geologija.2016.016
+   Brammer Hugh., 2012, PHYS GEOGRAPHY BANGL, V0, P0
+   CAINE N, 1980, GEOGR ANN A, V62, P23, DOI 10.2307/520449
+   Calvello M, 2015, INT J DISAST RISK RE, V12, P3, DOI 10.1016/j.ijdrr.2014.10.005
+   Couture R, 2013, LANDSLIDES GLOBAL RI, V0, P315
+   Feizizadeh B, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2918-z
+   Gabet EJ, 2004, GEOMORPHOLOGY, V63, P131, DOI 10.1016/j.geomorph.2004.03.011
+   Glade T, 2000, PURE APPL GEOPHYS, V157, P1059, DOI 10.1007/s000240050017
+   Intrieri E, 2012, ENG GEOL, V147, P124, DOI 10.1016/j.enggeo.2012.07.017
+   Kalantar B, 2018, GEOMAT NAT HAZ RISK, V9, P49, DOI 10.1080/19475705.2017.1407368
+   Kayastha P, 2013, LANDSLIDES, V10, P785, DOI 10.1007/s10346-012-0361-5
+   Kelman I., 2014, EARLY WARNING SYSTEM, V0, PP89, DOI 10.1007/978-94-017-8598-3_5
+   Kelman I., 2006, DISASTER PREVENTION, V15, P178, DOI 10.1108/09653560610654329
+   Kelman I, 2018, DISASTER PREV MANAG, V27, P370, DOI 10.1108/DPM-12-2017-0318
+   Kirschbaum D, 2018, EARTHS FUTURE, V6, P505, DOI 10.1002/2017EF000715
+   Kirschbaum DB, 2010, NAT HAZARDS, V52, P561, DOI 10.1007/s11069-009-9401-4
+   Lagomarsino D, 2013, LANDSLIDES, V10, P91, DOI 10.1007/s10346-012-0376-y
+   Liao ZH, 2010, LANDSLIDES, V7, P317, DOI 10.1007/s10346-010-0219-7
+   Merghadi A, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7070268
+   Michoud C, 2013, NAT HAZARD EARTH SYS, V13, P2659, DOI 10.5194/nhess-13-2659-2013
+   Mirus BB, 2018, LANDSLIDES, V15, P1909, DOI 10.1007/s10346-018-0995-z
+   Persits F.M., 1997, DIGITAL GEOLOGIC GEO, V0, P0
+   Peruccacci S, 2017, GEOMORPHOLOGY, V290, P39, DOI 10.1016/j.geomorph.2017.03.031
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Rabby YW, 2019, LANDSLIDES, V16, P633, DOI 10.1007/s10346-018-1107-9
+   Rahman MS, 2017, J MT SCI-ENGL, V14, P1919, DOI 10.1007/s11629-016-4220-z
+   Salvatici T, 2018, NAT HAZARD EARTH SYS, V18, P1919, DOI 10.5194/nhess-18-1919-2018
+   Segoni S, 2015, NAT HAZARD EARTH SYS, V15, P853, DOI 10.5194/nhess-15-853-2015
+   Segoni S, 2014, NAT HAZARD EARTH SYS, V14, P2637, DOI 10.5194/nhess-14-2637-2014
+   Segoni S, 2018, FRONT EARTH SC-SWITZ, V6, P0, DOI 10.3389/feart.2018.00085
+   Segoni S, 2018, NAT HAZARD EARTH SYS, V18, P807, DOI 10.5194/nhess-18-807-2018
+   Segoni S, 2015, LANDSLIDES, V12, P773, DOI 10.1007/s10346-014-0502-0
+   Shabbir MNSK, 2016, INT CONF ELECTR ENG, V0, P0
+   Shrestha S, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6110365
+   Van Westen C., 2010, P MOUNTAIN RISKS INT, V0, P24
+   Vapnik V., 2013, NATURE STAT LEARNING, V0, P0, DOI DOI 10.1007/978-1-4757-2440-0
+   Wieczorek GF, 2005, S-P BKS GEOPHYS SCI, V0, P325
+   Wu CH, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6110367
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V60, P505, DOI 10.1007/s12665-009-0191-5
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Zhang X., 2004, CLIM RES BRANCH ENV, V0, P13
+   Zhou C, 2018, COMPUT GEOSCI-UK, V112, P23, DOI 10.1016/j.cageo.2017.11.019
+NR 59
+TC 30
+Z9 30
+U1 4
+U2 38
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. Geo-Inf.
+PD DEC 15
+PY 2018
+VL 7
+IS 12
+BP 
+EP 
+DI 10.3390/ijgi7120485
+PG 28
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA HH0GK
+UT WOS:000455392100033
+DA 2023-04-26
+ER
+
+PT J
+AU Jamali, AA
+   Zarekia, S
+   Randhir, TO
+AF Jamali, A. A.
+   Zarekia, S.
+   Randhir, T. O.
+TI RISK ASSESSMENT OF SAND DUNE DISASTER IN RELATION TO GEOMORPHIC PROPERTIES AND VULNERABILITY IN THE SADUQ-YAZD ERG
+SO APPLIED ECOLOGY AND ENVIRONMENTAL RESEARCH
+LA English
+DT Article
+DE neural network; sand dunes; satellite image; remote sensing; Yazd; Iran
+ID desert; field; organization; management; california; patterns; barchan; county; egypt
+AB Sand dunes occupy a vast expanse of desert area in Iran and they are considered as a threat for urban areas and agricultural lands. Erg is an area of desert covered with shifting sand dunes. Saduq (Ashkezar) city, located in the west and northwest of the Yazd City, Iran, is surrounded by these mobile sand dunes. The aim of this study was the risk assessment of sand dune disaster in relation to geomorphic properties and vulnerability. The methods of satellite imageries, multi-layer perceptron (MLP) neural network, and geographic information system (GIS) were used. Sand dunes changes were mapped, and field surveys were carried out to resolve any ambiguities. The results show that the sand dunes in the center of Erg have moved closer to the city and agricultural lands. The dunes displacement (movement) was dependence to size, cover and shape and direction of them. These analyses can help to city governor and mayor for preventing of dunes offense toward the city.
+C1 [Jamali, A. A.] Islamic Azad Univ, Maybod Branch, Dept GIS RS & Watershed Management, Maybod, Iran.
+   [Zarekia, S.] AREEO, Yazd Agr & Nat Resources Res & Educ Ctr, Rangeland & Forest Res Div, Yazd, Iran.
+   [Randhir, T. O.] Univ Massachusetts, Dept Environm Conservat, Amherst, MA 01003 USA.
+C3 Islamic Azad University; University of Massachusetts System; University of Massachusetts Amherst
+RP Jamali, AA (corresponding author), Islamic Azad Univ, Maybod Branch, Dept GIS RS & Watershed Management, Maybod, Iran.
+EM jamaliaa@maybodiau.ac.ir; s.zarekia@areeo.ac.ir; randhir@eco.umass.edu
+FU Maybod Branch-Islamic Azad University
+CR Al-Masrahy MA, 2013, AEOLIAN RES, V11, P155, DOI 10.1016/j.aeolia.2013.06.004
+   [Anonymous], 1990, AEOLIAN SAND SAND DU, V0, P0
+   Baas ACW, 2007, GEOMORPHOLOGY, V91, P311, DOI 10.1016/j.geomorph.2007.04.012
+   Baghestani N., 2015, J RANGE SCI, V5, P153
+   Bullard JE, 2011, EARTH SURF PROC LAND, V36, P1534, DOI 10.1002/esp.2189
+   Cooke R. U., 1973, GEOMORPHOLOGY DESERT, V0, P0
+   El-Banna M.S, 2004, THESIS, V0, P0
+   Elbelrhiti H, 2005, NATURE, V437, P720, DOI 10.1038/nature04058
+   Elbelrhiti H, 2012, GEOMORPHOLOGY, V138, P181, DOI 10.1016/j.geomorph.2011.08.033
+   Emami J., 2014, INDIAN J FUNDAMENTAL, V4, P1124
+   EVANS JR, 1962, J GEOL, V70, P107, DOI 10.1086/626798
+   Gad A., 2016, GLOBAL ADV RES J AGR, V5, P0
+   Gad A, 2011, PROCD SOC BEHV, V19, P641, DOI 10.1016/j.sbspro.2011.05.180
+   Ghadiry M, 2012, EGYPT J REMOTE SENS, V15, P53, DOI 10.1016/j.ejrs.2012.04.001
+   Grow T., 1979, STUDY GLOBAL SAND SE, V0, P0
+   Hegazy Ibrahim Rizk, 2015, INTERNATIONAL JOURNAL OF SUSTAINABLE BUILT ENVIRONMENT, V4, P117, DOI 10.1016/j.ijsbe.2015.02.005
+   Hereher M.E., 2000, THESIS, V0, P0
+   Hugenholtz CH, 2010, EARTH SURF PROC LAND, V35, P986, DOI 10.1002/esp.2013
+   Jamali AA., 2009, INT J GEOINFORMATICS, V5, P25
+   Julien Y, 2011, INT J APPL EARTH OBS, V13, P711, DOI 10.1016/j.jag.2011.05.008
+   Kamel A., 1982, EGYPTIAN J GEOLOGY, V1982, P57
+   Kocurek G, 2005, GEOMORPHOLOGY, V72, P94, DOI 10.1016/j.geomorph.2005.05.005
+   Kocurek G, 1999, SEDIMENTOLOGY, V46, P505, DOI 10.1046/j.1365-3091.1999.00227.x
+   Kocurek G, 2010, EARTH SURF PROC LAND, V35, P51, DOI 10.1002/esp.1913
+   Lancaster N., 1995, GEOMORPHOLOGY DESERT, V0, P0
+   Li Z S, 2000, J SEDIMENT RES, V5, P73
+   Livingstone I, 2007, EARTH-SCI REV, V80, P239, DOI 10.1016/j.earscirev.2006.09.004
+   McCulloch Warren S., 1943, BULL MATH BIOPHYS, V5, P115, DOI 10.1007/BF02459570
+   Mesbahzadeh T, 2012, J AGR SCI TECH-IRAN, V14, P919
+   Meyer T., 2016, REFERENCE MODULE EAR, V0, P0
+   Mili S, 2016, PROCEDIA ENVIRON SCI, V34, P525, DOI 10.1016/j.proenv.2016.04.046
+   Mirhosseini S. M., 2016, DESERT, V21, P76
+   Potter C., 2016, J REMOTE SENS GIS, V5, P1, DOI 10.4172/2469-4134.1000164
+   Saqqa W, 2004, GEOMORPHOLOGY, V62, P63, DOI 10.1016/j.geomorph.2004.02.002
+   SWEET ML, 1988, SEDIMENTOLOGY, V35, P939, DOI 10.1111/j.1365-3091.1988.tb01739.x
+   Tang ZH, 2011, COAST MANAGE, V39, P105, DOI 10.1080/08920753.2010.540708
+   Tavakkolifard A., 2013, DESERT, V18, P163
+   Tsoar H, 2002, EARTH SURF PROC LAND, V27, P1147, DOI 10.1002/esp.417
+   Tsoar H., 1983, WIND TUNNEL MODELING, V0, P0
+   Wilkins DE, 2007, GEOMORPHOLOGY, V83, P48, DOI 10.1016/j.geomorph.2006.06.009
+   Wu Z., 2003, AEOLIAN LANDFORM SAN, V0, P261
+   Xiao JH, 2015, J ARID LAND, V7, P10, DOI 10.1007/s40333-014-0074-9
+   Zhang SH, 2014, AGR WATER MANAGE, V133, P65, DOI 10.1016/j.agwat.2013.10.016
+NR 43
+TC 8
+Z9 8
+U1 4
+U2 10
+PU CORVINUS UNIV BUDAPEST
+PI BUDAPEST
+PA VILLANYI UT 29/43, BUDAPEST, H-1118, HUNGARY
+SN 1589-1623
+EI 1785-0037
+J9 APPL ECOL ENV RES
+JI Appl. Ecol. Environ. Res.
+PD JUN 15
+PY 2018
+VL 16
+IS 1
+BP 579
+EP 590
+DI 10.15666/aeer/1601_579590
+PG 12
+WC Ecology; Environmental Sciences
+SC Environmental Sciences & Ecology
+GA FV2GK
+UT WOS:000424382600038
+DA 2023-04-26
+ER
+
+PT J
+AU Alam, MS
+   Duffy, P
+   Hyde, B
+   McNabola, A
+AF Alam, Md. Saniul
+   Duffy, Paul
+   Hyde, Bernard
+   McNabola, Aonghus
+TI Downscaling national road transport emission to street level: A case study in Dublin, Ireland
+SO JOURNAL OF CLEANER PRODUCTION
+LA English
+DT Article
+DE Transport; Spatial; Emission; Mapping; Policy
+ID co2 emissions; traffic emissions; bottom-up; inventory; system; hermesv2.0; spain; model; scale
+AB Emissions from road transport are routinely prepared at the national scale in many countries under different national and international policies, directives and legislation. Scaling down this emission to the smaller geographical area is considered as a top-down approach. Several methods have been previously applied to scaling down emission, however these have often reported inconsistent findings in comparison with emission distribution using a bottom-up approach. Carbon dioxide and particulate matter (smaller than about 2.5 mu m) emissions from a national road transport estimation in Ireland were dis-aggregated among four counties in the Greater Dublin Area and subsequently distributed at a finer spatial scale (0.5 x 0.5 km(2)). Spatial coverage of the proxy variables, spatial weight distribution and appropriate representation of the fleet characteristics were identified as main sources of difference in distributed spatial emissions between top-down and bottom-up approaches. The first two issues were addressed in this paper by predicting missing or absent traffic volume from limited datasets, and the later was addressed by considering the fleet and mileage data from national annual vehicle test data at county level. A neural network model was applied to predict traffic volume which showed a 51% precision in prediction performance. Emission distribution was also performed for comparison purposes using a more conventional road density-based approach, where a correlation analysis showed an inconsistency between the two approaches. The results of this study highlighted that if the fleet characteristics at county level were not considered, the estimated emission would be different by -1.6 to -8.6% (Carbon dioxide) and -12.6 to 0.03% (Particulate matter) for passenger cars and -3.57-13.6% (Carbon dioxide) and -0.054-16.8% (Particulate matter) for light and heavy duty vehicles, depending on the counties in question. This study revealed that a share of 22.6% and 21.1% of national carbon dioxide and particulate matter emission occurred in Dublin County alone, and Dublin city was attributed to approximately 10.5% carbon dioxide and 9.8% particulate matter of the national total. The particulate matter in Dublin County was 14.3-22.4% higher than surrounding counties, and carbon dioxide emissions in Dublin city were two times higher than that of the towns and urban areas in the surrounding three counties. This study provides a combination of methods for producing finer scale spatial estimation of emission to facilitate abatement strategies and mitigation action plans at county and municipality level for the reduction of emission, better air quality and climate. The study highlights the necessity of reliable spatial distribution methods for assigning emission at a finer scale. (C) 2018 Elsevier Ltd. All rights reserved.
+C1 [Alam, Md. Saniul; McNabola, Aonghus] Trinity Coll Dublin, Dept Civil Struct & Environm Engn, Coll Green, Dublin 2, Ireland.
+   [Alam, Md. Saniul; Duffy, Paul; Hyde, Bernard] Environm Protect Agcy, Monaghan, Ireland.
+C3 Trinity College Dublin
+RP Alam, MS (corresponding author), Trinity Coll Dublin, Dept Civil Struct & Environm Engn, Coll Green, Dublin 2, Ireland.
+EM alamms@tcd.ie; p.duffy@epa.ie; B.Hyde@epa.ie; amcnabol@tcd.ie
+FU EPA Research Programme [2014-CCRP-FS.18]
+CR Alam M. S., 2015, J AIR WASTE MANAG AS, V65, P0
+   Alam MS, 2017, TRANSPORT RES D-TR E, V56, P18, DOI 10.1016/j.trd.2017.07.011
+   Alam MS, 2017, APPL ENERG, V189, P283, DOI 10.1016/j.apenergy.2016.12.062
+   Borge R, 2012, ATMOS ENVIRON, V62, P461, DOI 10.1016/j.atmosenv.2012.08.073
+   Brondfield MN, 2012, ENVIRON POLLUT, V170, P113, DOI 10.1016/j.envpol.2012.06.003
+   CSO, 2016, POP ACT PERC CHANG 2, V0, P0
+   CSO-Central Statistics Office, 2013, TRANSP OMN 2013, V0, P0
+   CSO-Central Statistics Office, 2017, BOUND LAYERS GIS SHA, V0, P0
+   DCC NRA, 2017, REP TRENDS MOD SHAR, V0, P0
+   Dublin City Council Codema, 2010, DUBL CIT SUST EN ACT, V0, P0
+   Duffy P., 2017, NATL INVENTORY REPOR, V0, P0
+   EPA: Environmental; Protection Agency, 2017, COMMUNICATION, V0, P0
+   ESIN-Center for International Earth Sdence Information Network, 2013, GRIDD POP WORLD GPW, V0, P0
+   Fameli KM, 2015, SCI TOTAL ENVIRON, V505, P770, DOI 10.1016/j.scitotenv.2014.10.015
+   Gately CK, 2013, ENVIRON SCI TECHNOL, V47, P2423, DOI 10.1021/es304238v
+   Gioli B, 2015, ATMOS ENVIRON, V115, P246, DOI 10.1016/j.atmosenv.2015.05.068
+   Guevara M, 2017, SCI TOTAL ENVIRON, V584, P882, DOI 10.1016/j.scitotenv.2017.01.135
+   Guevara M, 2014, ATMOS ENVIRON, V98, P134, DOI 10.1016/j.atmosenv.2014.08.067
+   Guevara M, 2013, ATMOS ENVIRON, V81, P209, DOI 10.1016/j.atmosenv.2013.08.053
+   Hanlon E.M., 1950, COMMUNICATION, V0, P0
+   III-Transport Infrastructure Ireland, 2017, ILL TRAFFIC DATA SIT, V0, P0
+   Keenan D., 2015, COMMUNICATION, V0, P0
+   Lopez-Aparicio S, 2017, ATMOS ENVIRON, V154, P285, DOI 10.1016/j.atmosenv.2017.02.004
+   Ma J, 2014, COMPUT ENVIRON URBAN, V45, P78, DOI 10.1016/j.compenvurbsys.2014.02.006
+   NRA-National Roads Authority, 2012, PROJ APPR GUID UN 16, V0, P0
+   NTA-National Transport Authority, 2016, MOD SERV FRAM REG MO, V0, P0
+   Ntziachristos L, 2009, ENVIRON SCI ENG, V0, PP491, DOI 10.1007/978-3-540-88351-7_37
+   Nyhan M, 2016, ATMOS ENVIRON, V140, P352, DOI 10.1016/j.atmosenv.2016.06.018
+   OSMF-OpenStreetMap Foundation, 2013, OPENSTREETMAP DAT EX, V0, P0
+   Pallavidino L, 2014, ATMOS POLLUT RES, V5, P648, DOI 10.5094/APR.2014.074
+   Perugu H, 2017, ATMOS ENVIRON, V155, P210, DOI 10.1016/j.atmosenv.2017.02.020
+   Requia WJ, 2017, J CLEAN PROD, V148, P845, DOI 10.1016/j.jclepro.2017.02.010
+   SEAI-Sustainable Energy Authority of Ireland, 2014, COMMUNICATION, V0, P0
+   Sun SD, 2016, ATMOS ENVIRON, V147, P190, DOI 10.1016/j.atmosenv.2016.09.065
+   [郑君瑜 ZHENG Junyu], 2009, 环境科学学报 ACTA SCIENTIAE CIRCUMSTANTIAE, V29, P815
+NR 36
+TC 18
+Z9 18
+U1 3
+U2 35
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0959-6526
+EI 1879-1786
+J9 J CLEAN PROD
+JI J. Clean Prod.
+PD MAY 10
+PY 2018
+VL 183
+IS 
+BP 797
+EP 809
+DI 10.1016/j.jclepro.2018.02.206
+PG 13
+WC Green & Sustainable Science & Technology; Engineering, Environmental; Environmental Sciences
+SC Science & Technology - Other Topics; Engineering; Environmental Sciences & Ecology
+GA GC4OH
+UT WOS:000429763800069
+DA 2023-04-26
+ER
+
+PT J
+AU Garosi, Y
+   Sheklabadi, M
+   Pourghasemi, HR
+   Besalatpour, AA
+   Conoscenti, C
+   Van Oost, K
+AF Garosi, Younes
+   Sheklabadi, Mohsen
+   Pourghasemi, Hamid Reza
+   Besalatpour, Ali Asghar
+   Conoscenti, Christian
+   Van Oost, Kristof
+TI Comparison of differences in resolution and sources of controlling factors for gully erosion susceptibility mapping
+SO GEODERMA
+LA English
+DT Article
+DE Gully erosion; Machine learning model; Remote sensing data; Robustness; Topographic attribute
+ID catchment northern calabria; artificial neural-networks; machine learning-models; landslide susceptibility; soil-erosion; dem resolution; grid size; gis; regression; bivariate
+AB Gully erosion has been identified as an important soil degradation process and sediment source, especially in arid and semiarid areas. Thus, it is useful to identify the spatial occurrence of this form of water erosion in the landscape and the most vulnerable areas. In this study, we explored the effects of different pixel sizes on some controlling factors extracted from a digital elevation model and remote sensing data when producing a gully erosion susceptibility map (GESM) of Ekbatan Dam Basin, Hamadan, Iran. An inventory map of the gully landforms was prepared based on global positioning system routes of the gullies, extensive field surveys, and visual interpretations of satellite images obtained from Google Earth. Five data sets with pixel sizes ranging from 2 to 30 m were obtained using topographic attributes and remote sensing data comprising the elevation, slope degree, slope aspect, catchment area, plan curvature, profile curvature, stream power index, topographic position index, topographic wetness index, land use, and normalized difference vegetation index, which can affect the distribution of gully erosion. For each data set, 70% and 30% of the data were selected randomly for calibrating and validating the models, respectively. The statistical relationships between the occurrence of gully erosion and controlling factors were calculated using four machine-learning models, i.e., generalized linear model, boosted regression tree (BRT), multivariate adaptive regression spline, and artificial neural network (ANN). Statistical tests comprising the kappa coefficient and the area under the receiver operating characteristic curve (AUC) were calculated for both the calibration and validation data sets to estimate the optimal pixel size. The results showed that among the data sets with different pixel sizes, the optimal pixel size was 10 m for each model. In addition, the capacity of the four techniques for modeling gully erosion occurrence was quite stable when the calibration and validation samples were changed in the data set. Finally, based on three changes of the calibration and validation data sets with a pixel size of 10 m, the BRT and ANN models obtained outstanding performance (AUC > 0.9), where they had the highest goodness-of-fit and predictive power, and thus the greatest robustness to changes in the calibration/validation data (i.e., lowest sensitivity to altering calibration/ validation data). Our results demonstrate the importance of selecting a suitable pixel size when producing a GESM for soil and water management practices.
+C1 [Garosi, Younes; Sheklabadi, Mohsen] Bu Ali Sina Univ, Fac Agr, Dept Soil Sci, Hamadan, Iran.
+   [Pourghasemi, Hamid Reza] Shiraz Univ, Dept Nat Resources & Environm Engn, Coll Agr, Shiraz, Iran.
+   [Besalatpour, Ali Asghar] Inter 3 GmbH Inst Ressources Management, Otto Suhr Allee 59, D-10585 Berlin, Germany.
+   [Conoscenti, Christian] Univ Palermo, Dept Earth & Sea Sci DISTEM, Via Archirafi 22, I-90123 Palermo, Italy.
+   [Van Oost, Kristof] FNRS, Fonds Rech Sci, Rue Egmont 5, B-1000 Brussels, Belgium.
+   [Van Oost, Kristof] Catholic Univ Louvain, TECLIM Georges Lemaitre Ctr Earth & Climate Res, BE-1348 Louvain La Neuve, Belgium.
+C3 Bu Ali Sina University; Shiraz University; University of Palermo; Fonds de la Recherche Scientifique - FNRS; Universite Catholique Louvain
+RP Sheklabadi, M (corresponding author), Bu Ali Sina Univ, Fac Agr, Dept Soil Sci, Hamadan, Iran.
+EM sheklabadi@basu.ac.ir; hr.pourghasemi@shirazu.ac.ir; christian.conoscenti@unipa.it; kristof.vanoost@uclouvain.be
+FU FNRS/FRFC project [J.0.065.17]
+CR Abeare S. M., 2009, THESIS STATE U BATON, V0, P0
+   Aertsen W, 2011, ENVIRON MODELL SOFTW, V26, P929, DOI 10.1016/j.envsoft.2011.01.003
+   Akgun A, 2011, COMPUT GEOSCI-UK, V37, P1515, DOI 10.1016/j.cageo.2010.09.006
+   Alirezaei H., 2005, MORPHO CLIMATIC CLAS, V0, P0
+   Allouche O, 2006, J APPL ECOL, V43, P1223, DOI 10.1111/j.1365-2664.2006.01214.x
+   [Anonymous], 2017, R LANG ENV STAT COMP, V0, P0
+   [Anonymous], 2000, WILEY SERIES PROBABI, V0, P0, DOI DOI 10.1002/0471722146
+   Balshi MS, 2009, GLOBAL CHANGE BIOL, V15, P578, DOI 10.1111/j.1365-2486.2008.01679.x
+   Bernknopf R.L., 1988, ENV ENG GEOSCI, V25, P39, DOI 10.2113/GSEEGEOSCI.XXV.1.39
+   Breiman L, 2017, CLASSIFICATION REGRE, V1st, P0
+   Carty DM, 2011, ARCH ORAL BIOL, V60, P45
+   CHANG KT, 1991, CARTOGR GEOGR INFORM, V18, P69, DOI 10.1559/152304091783805626
+   Claessens L, 2005, EARTH SURF PROC LAND, V30, P461, DOI 10.1002/esp.1155
+   Conforti M, 2014, CATENA, V113, P236, DOI 10.1016/j.catena.2013.08.006
+   Conforti M, 2011, NAT HAZARDS, V56, P881, DOI 10.1007/s11069-010-9598-2
+   Conoscenti C, 2008, NAT HAZARDS, V46, P287, DOI 10.1007/s11069-007-9188-0
+   Conoscenti C, 2014, GEOMORPHOLOGY, V204, P399, DOI 10.1016/j.geomorph.2013.08.021
+   Conoscenti C, 2013, ENVIRON EARTH SCI, V70, P1179, DOI 10.1007/s12665-012-2205-y
+   CRAVEN P, 1979, NUMER MATH, V31, P377, DOI 10.1007/BF01437407
+   Bui DT, 2012, GEOMORPHOLOGY, V171, P12, DOI 10.1016/j.geomorph.2012.04.023
+   Dragut L, 2009, COMPUT GEOSCI-UK, V35, P1875, DOI 10.1016/j.cageo.2008.10.008
+   Elith J, 2008, J ANIM ECOL, V77, P802, DOI 10.1111/j.1365-2656.2008.01390.x
+   Eustace AH, 2011, EUR J SOIL SCI, V62, P431, DOI 10.1111/j.1365-2389.2011.01375.x
+   Falaschi F, 2009, NAT HAZARDS, V50, P551, DOI 10.1007/s11069-009-9356-5
+   Felicisimo AM, 2004, GEOGRAPHICAL INFORM, V0, P143
+   FRIEDMAN JH, 1991, ANN STAT, V19, P1, DOI 10.1214/aos/1176347963
+   Geissen V, 2007, GEODERMA, V139, P277, DOI 10.1016/j.geoderma.2007.01.002
+   Gutierrez AG, 2009, ECOL MODEL, V220, P3630, DOI 10.1016/j.ecolmodel.2009.06.020
+   Gomez-Gutierrez A, 2015, NAT HAZARDS, V79, PS291, DOI 10.1007/s11069-015-1703-0
+   Guisan A, 2002, ECOL MODEL, V157, P89, DOI 10.1016/S0304-3800(02)00204-1
+   Hengl T, 2006, COMPUT GEOSCI-UK, V32, P1283, DOI 10.1016/j.cageo.2005.11.008
+   ITT VIS, 2008, ENVI 4 5 US GUID, V0, P0
+   Kia MB, 2012, ENVIRON EARTH SCI, V67, P251, DOI 10.1007/s12665-011-1504-z
+   Kim KD, 2009, ENVIRON GEOL, V58, P61, DOI 10.1007/s00254-008-1492-9
+   Kuhn M, 2008, J STAT SOFTW, V28, P1, DOI 10.18637/jss.v028.i05
+   LANDIS JR, 1977, BIOMETRICS, V33, P159, DOI 10.2307/2529310
+   Lasko TA, 2005, J BIOMED INFORM, V38, P404, DOI 10.1016/j.jbi.2005.02.008
+   Lechner AM, 2009, REMOTE SENS ENVIRON, V113, P2194, DOI 10.1016/j.rse.2009.06.002
+   Lee S, 2003, EARTH SURF PROC LAND, V28, P1361, DOI 10.1002/esp.593
+   Liang X, 2004, J HYDROL, V298, P287, DOI 10.1016/j.jhydrol.2003.07.007
+   Lu XY, 2017, INT SOIL WATER CONSE, V5, P241, DOI 10.1016/j.iswcr.2017.06.002
+   Luca F, 2011, GEOMORPHOLOGY, V134, P297, DOI 10.1016/j.geomorph.2011.07.006
+   Marker M, 2011, GEOMORPHOLOGY, V125, P530, DOI 10.1016/j.geomorph.2010.10.022
+   Magliulo P, 2012, ENVIRON EARTH SCI, V67, P1801, DOI 10.1007/s12665-012-1634-y
+   Maunder MN, 2004, FISH RES, V70, P141, DOI 10.1016/j.fishres.2004.08.002
+   Milborrow S, 2017, R PROJECT STAT COMPU, V0, P0
+   Moisen GG, 2002, ECOL MODEL, V157, P209, DOI 10.1016/S0304-3800(02)00197-7
+   Naghibi SA, 2015, WATER RESOUR MANAG, V29, P5217, DOI 10.1007/s11269-015-1114-8
+   Nefeslioglu HA, 2008, GEOMORPHOLOGY, V94, P401, DOI 10.1016/j.geomorph.2006.10.036
+   Negnevitsky M., 2002, ARTIFICIAL INTELLIGE, V0, P0
+   OBrien RM, 2007, QUAL QUANT, V41, P673, DOI 10.1007/s11135-006-9018-6
+   Olaya V., 2004, GENTLE INTRO SAGA GI, V0, P0
+   Planning Consultant Engineers, 2008, EX DET EKB DAM, V0, P0
+   Poesen J, 2003, CATENA, V50, P91, DOI 10.1016/S0341-8162(02)00143-1
+   Pourghasemi HR, 2017, SCI TOTAL ENVIRON, V609, P764, DOI 10.1016/j.scitotenv.2017.07.198
+   Pourghasemi HR, 2017, THEOR APPL CLIMATOL, V130, P609, DOI 10.1007/s00704-016-1919-2
+   Pradhan B, 2010, ADV SPACE RES, V45, P1244, DOI 10.1016/j.asr.2010.01.006
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Rahmati O, 2017, GEOMORPHOLOGY, V298, P118, DOI 10.1016/j.geomorph.2017.09.006
+   Rahmati O, 2016, NAT HAZARDS, V82, P1231, DOI 10.1007/s11069-016-2239-7
+   Ridgeway G, 2017, R PROJECT STAT COMPU, V0, P0
+   Ripley B, 2016, R PROJECT STAT COMPU, V0, P0
+   Saito H, 2009, GEOMORPHOLOGY, V109, P108, DOI 10.1016/j.geomorph.2009.02.026
+   Samani AN, 2010, WATER RESOUR MANAG, V24, P1531, DOI 10.1007/s11269-009-9512-4
+   Schapire RE, 2003, LECT NOTES STAT, V171, P149, DOI 10.1007/978-0-387-21579-2_9
+   Schicker R, 2012, GEOMORPHOLOGY, V161, P40, DOI 10.1016/j.geomorph.2012.03.036
+   Schoorl JM, 2000, EARTH SURF PROC LAND, V25, P1025, DOI 10.1002/1096-9837(200008)25:9<1025::AID-ESP116>3.0.CO;2-Z
+   Soil Survey Staff, 2014, KEYS SOIL TAXONOMY, V0, P0
+   Svoray T, 2009, EARTH SURF PROC LAND, V34, P1970, DOI 10.1002/esp.1873
+   Thompson JA, 2001, GEODERMA, V100, P67, DOI 10.1016/S0016-7061(00)00081-1
+   Valentin C, 2005, CATENA, V63, P132, DOI 10.1016/j.catena.2005.06.001
+   Vanacker V, 2003, GEOMORPHOLOGY, V52, P299, DOI 10.1016/S0169-555X(02)00263-5
+   Vandekerckhove L, 2000, EARTH SURF PROC LAND, V25, P1201, DOI 10.1002/1096-9837(200010)25:11&lt;1201::AID-ESP131&gt;3.0.CO;2-L
+   Vorpahl P, 2012, ECOL MODEL, V239, P27, DOI 10.1016/j.ecolmodel.2011.12.007
+   Wechsler SP, 2007, HYDROL EARTH SYST SC, V11, P1481, DOI 10.5194/hess-11-1481-2007
+   Williams G, 2011, USE R, V0, PP3, DOI 10.1007/978-1-4419-9890-3
+   Youssef AM, 2016, LANDSLIDES, V13, P839, DOI 10.1007/s10346-015-0614-1
+   Zabihi M, 2018, CATENA, V161, P1, DOI 10.1016/j.catena.2017.10.010
+   Zhang JX, 2008, INT J GEOGR INF SCI, V22, P925, DOI 10.1080/13658810701776817
+   ZHANG WH, 1994, WATER RESOUR RES, V30, P1019, DOI 10.1029/93WR03553
+   Zhou QM, 2004, COMPUT GEOSCI-UK, V30, P369, DOI 10.1016/j.cageo.2003.07.005
+NR 81
+TC 79
+Z9 87
+U1 6
+U2 150
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0016-7061
+EI 1872-6259
+J9 GEODERMA
+JI Geoderma
+PD NOV 15
+PY 2018
+VL 330
+IS 
+BP 65
+EP 78
+DI 10.1016/j.geoderma.2018.05.027
+PG 14
+WC Soil Science
+SC Agriculture
+GA GM6YJ
+UT WOS:000438324600007
+DA 2023-04-26
+ER

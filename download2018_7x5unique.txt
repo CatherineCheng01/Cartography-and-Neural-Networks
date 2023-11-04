@@ -1,0 +1,625 @@
+
+PT J
+AU Zhang, WX
+   Witharana, C
+   Liljedahl, AK
+   Kanevskiy, M
+AF Zhang, Weixing
+   Witharana, Chandi
+   Liljedahl, Anna K.
+   Kanevskiy, Mikhail
+TI Deep Convolutional Neural Networks for Automated Characterization of Arctic Ice-Wedge Polygons in Very High Spatial Resolution Aerial Imagery
+SO REMOTE SENSING
+LA English
+DT Article
+DE deep learning; arctic; ice-wedge polygons; Mask-RCNN; VHSR imagery
+ID ground-ice; vegetation composition; thaw subsidence; permafrost; degradation; coast; thermokarst; dynamics; patterns; terrain
+AB The microtopography associated with ice-wedge polygons governs many aspects of Arctic ecosystem, permafrost, and hydrologic dynamics from local to regional scales owing to the linkages between microtopography and the flow and storage of water, vegetation succession, and permafrost dynamics. Wide-spread ice-wedge degradation is transforming low-centered polygons into high-centered polygons at an alarming rate. Accurate data on spatial distribution of ice-wedge polygons at a pan-Arctic scale are not yet available, despite the availability of sub-meter-scale remote sensing imagery. This is because the necessary spatial detail quickly produces data volumes that hamper both manual and semi-automated mapping approaches across large geographical extents. Accordingly, transforming big imagery into 'science-ready' insightful analytics demands novel image-to-assessment pipelines that are fueled by advanced machine learning techniques and high-performance computational resources. In this exploratory study, we tasked a deep-learning driven object instance segmentation method (i.e., the Mask R-CNN) with delineating and classifying ice-wedge polygons in very high spatial resolution aerial orthoimagery. We conducted a systematic experiment to gauge the performances and interoperability of the Mask R-CNN across spatial resolutions (0.15 m to 1 m) and image scene contents (a total of 134 km(2) ) near Nuiqsut, Northern Alaska. The trained Mask R-CNN reported mean average precisions of 0.70 and 0.60 at thresholds of 0.50 and 0.75, respectively. Manual validations showed that approximately 95% of individual ice-wedge polygons were correctly delineated and classified, with an overall classification accuracy of 79%. Our findings show that the Mask R-CNN is a robust method to automatically identify ice-wedge polygons from fine-resolution optical imagery. Overall, this automated imagery-enabled intense mapping approach can provide a foundational framework that may propel future pan-Arctic studies of permafrost thaw, tundra landscape evolution, and the role of high latitudes in the global climate system.
+C1 [Zhang, Weixing; Witharana, Chandi] Univ Connecticut, Dept Nat Resources & Environm, Storrs, CT 06269 USA.
+   [Zhang, Weixing; Witharana, Chandi] Univ Connecticut, Eversource Energy Ctr, Storrs, CT 06269 USA.
+   [Zhang, Weixing] Univ Connecticut, Dept Geog, Storrs, CT 06269 USA.
+   [Liljedahl, Anna K.; Kanevskiy, Mikhail] Univ Alaska, WERC, Fairbanks, AK 99775 USA.
+C3 University of Connecticut; University of Connecticut; University of Connecticut; University of Alaska System; University of Alaska Fairbanks
+RP Witharana, C (corresponding author), Univ Connecticut, Dept Nat Resources & Environm, Storrs, CT 06269 USA.; Witharana, C (corresponding author), Univ Connecticut, Eversource Energy Ctr, Storrs, CT 06269 USA.
+EM weixing.zhang@uconn.edu; chandi.witharana@uconn.edu; akliljedahl@alaska.edu; mkanevskiy@alaska.edu
+FU U.S. National Science Foundation's Office of Polar Programs [1720875]; Office of Polar Programs (OPP); Directorate For Geosciences [1720875] Funding Source: National Science Foundation
+CR Abolt CJ, 2017, PERMAFROST PERIGLAC, V28, P347, DOI 10.1002/ppp.1909
+   Alaska EPSCoR, 2013, AER ORTH NUIQS, V0, P0
+   Alaska EPSCoR, 2013, AER ORTH CREA CREEK, V0, P0
+   Albrecht F, 2010, INT ARCH PHOTOGRAMM, V38-4-C7, P0
+   [Anonymous], 2016, NAT METHODS, V0, P0, DOI DOI 10.1038/nmeth.3707
+   [Anonymous], 1999, CAN J REMOTE SENS, V0, P0, DOI DOI 10.1080/07038992.1999.10855261
+   [Anonymous], 1979, GEOCRYOLOGY SURVEY P, V0, P0
+   [Anonymous], 2017, IEEE I CONF COMP VIS, V0, P0, DOI DOI 10.1109/ICCV.2017.322
+   Bandeira L, 2010, PATTERN RECOGN LETT, V31, P1175, DOI 10.1016/j.patrec.2010.03.017
+   BILLINGS WD, 1980, ARCTIC ALPINE RES, V12, P413, DOI 10.2307/1550492
+   BLACK RF, 1976, QUATERNARY RES, V6, P3, DOI 10.1016/0033-5894(76)90037-5
+   BLACK RF, 1954, GEOL SOC AM BULL, V65, P839, DOI 10.1130/0016-7606(1954)65[839:PR]2.0.CO;2
+   Black RobertF., 1982, GLACIAL GEOMORPHOLOG, V0, PP247, DOI 10.1007/978-94-011-6491-7_9
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   BRITTON M. E., 1957, OREGON STATE COLLEGE 18TH ANNUAL BIOLOGY COLLOQUIUM, V0, P26
+   Chen L.C., 2017, ARXIV171204837, V0, P0
+   Chen ZH, 2017, CAN J REMOTE SENS, V43, P513, DOI 10.1080/07038992.2017.1370367
+   Christiansen HH, 2016, PERMAFROST PERIGLAC, V27, P365, DOI 10.1002/ppp.1920
+   Dafflon B, 2016, GEOPHYSICS, V81, PWA247, DOI 10.1190/GEO2015-0175.1
+   Dai JF, 2016, PROC CVPR IEEE, V0, PP3150, DOI 10.1109/CVPR.2016.343
+   Ding P, 2018, ISPRS J PHOTOGRAMM, V141, P208, DOI 10.1016/j.isprsjprs.2018.05.005
+   Dostovalov B. N., 1963, P PERMAFROST INT C, V0, P102
+   DREW J. V., 1962, ARCTIC, V15, P109
+   Duguay CR, 2005, GEOPH MONOG SERIES, V163, P91
+   Engstrom R, 2005, NORD HYDROL, V36, P219
+   Everett K.R., 1980, GEOBOTANICAL ATLAS P, V0, P14
+   Fraser RH, 2016, ARCT SCI, V2, P79, DOI 10.1139/as-2016-0008
+   French H.M, 2018, PERIGLACIAL ENV, V0, P515
+   French H, 2010, EARTH-SCI REV, V101, P190, DOI 10.1016/j.earscirev.2010.04.002
+   Fritz M, 2016, QUATERNARY SCI REV, V147, P279, DOI 10.1016/j.quascirev.2016.02.008
+   Frost G. V, 2014, P ARCT CHANG 2014 C, V0, P58
+   Frost GV, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081312
+   Gangodagamage C, 2014, WATER RESOUR RES, V50, P6339, DOI 10.1002/2013WR014283
+   Gevaert CM, 2018, ISPRS J PHOTOGRAMM, V142, P106, DOI 10.1016/j.isprsjprs.2018.06.001
+   Gunther F, 2015, CRYOSPHERE, V9, P151, DOI 10.5194/tc-9-151-2015
+   Haltigin TW, 2012, PERMAFROST PERIGLAC, V23, P178, DOI 10.1002/ppp.1741
+   He K., 2015, PROC CVPR IEEE, V5, P6
+   Helbig M, 2013, HYDROGEOL J, V21, P133, DOI 10.1007/s10040-012-0933-4
+   HUSSEY KM, 1966, ARCTIC, V19, P162
+   Jones BM, 2017, AMBIO, V46, P769, DOI 10.1007/s13280-017-0915-9
+   Jones BM, 2015, SCI REP-UK, V5, P0, DOI 10.1038/srep15865
+   Jorgenson MT, 2015, J GEOPHYS RES-EARTH, V120, P2280, DOI 10.1002/2015JF003602
+   Jorgenson MT, 2016, PERMAFROST PERIGLAC, V27, P324, DOI 10.1002/ppp.1914
+   Jorgenson MT, 2015, CLIMATIC CHANGE, V130, P131, DOI 10.1007/s10584-014-1302-1
+   Jorgenson MT, 2006, GEOPHYS RES LETT, V33, P0, DOI 10.1029/2005GL024960
+   Kaab A, 2008, PERMAFROST PERIGLAC, V19, P107, DOI 10.1002/ppp.619
+   Kanevskiy M, 2013, COLD REG SCI TECHNOL, V85, P56, DOI 10.1016/j.coldregions.2012.08.002
+   Kanevskiy M, 2017, GEOMORPHOLOGY, V297, P20, DOI 10.1016/j.geomorph.2017.09.001
+   Kanevskiy M, 2016, GEOMORPHOLOGY, V253, P370, DOI 10.1016/j.geomorph.2015.10.023
+   Kokelj SV, 2014, J GEOPHYS RES-EARTH, V119, P2032, DOI 10.1002/2014JF003085
+   Lachenbruch A. H, 1962, SPEC PAP GEOL SOC AM, V70, P0
+   Lara MJ, 2015, GLOBAL CHANGE BIOL, V21, P1634, DOI 10.1111/gcb.12757
+   Leffingwell EDK, 1915, J GEOL, V23, P635
+   Li Y., 2016, P IEEE C COMP VIS PA, V0, P0
+   Liljedahl A. K, 2012, 10 INT C PERM, V0, P0
+   Liljedahl AK, 2016, NAT GEOSCI, V9, P312, DOI 10.1038/ngeo2674
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Liu S, 2018, PROC CVPR IEEE, V0, PP8759, DOI 10.1109/CVPR.2018.00913
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lousada M, 2018, SCI TOTAL ENVIRON, V615, P1574, DOI 10.1016/j.scitotenv.2017.09.153
+   Ma Y, 2015, FUTURE GENER COMP SY, V51, P47, DOI 10.1016/j.future.2014.10.029
+   Mackay J. R, 1975, PERMAFROST, V2, P185
+   Mackay JR, 2000, GEOGR PHYS QUATERN, V54, P41, DOI 10.7202/004846ar
+   MACKAY JR, 1972, ANN ASSOC AM GEOGR, V62, P1, DOI 10.1111/j.1467-8306.1972.tb00839.x
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Minke M, 2009, PERMAFROST PERIGLAC, V20, P357, DOI 10.1002/ppp.663
+   Mora C, 2015, GEOGR ANN A, V97, P473, DOI 10.1111/geoa.12088
+   Morin P, 2014, P AGU FALL M 2014 SA, V0, PB54F
+   Murton JB., 2013, TREATISE GEOMORPHOLO, V8, P173, DOI 10.1016/B978-0-12-374739-6.00206-2
+   Muster S, 2012, TELLUS B, V64, P0, DOI 10.3402/tellusb.v64i0.17301
+   Necsoiu M, 2013, ENVIRON RES LETT, V8, P0, DOI 10.1088/1748-9326/8/2/025007
+   Oliva M, 2014, SOLID EARTH, V5, P901, DOI 10.5194/se-5-901-2014
+   Paine J. G., 2015, REMOTE SENSING WETLA, V0, PP413, DOI 10.1201/B18210-23
+   Penatti Otavio A. B., 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP44, DOI 10.1109/CVPRW.2015.7301382
+   Perreault N, 2017, ARCT SCI, V3, P237, DOI 10.1139/as-2016-0047
+   Pesek O, 2018, THESIS, V0, P0
+   Pewe T. L, 1975, QUATERNARY GEOLOGY A, V835, P0
+   Pina P, 2006, LECT NOTES COMPUT SC, V4142, P691
+   Pina P, 2008, PLANET SPACE SCI, V56, P1919, DOI 10.1016/j.pss.2008.09.020
+   Pollard W., 2015, GEOQUEBEC 2015 P 68, V0, P0
+   Raynolds MK, 2014, GLOBAL CHANGE BIOL, V20, P1211, DOI 10.1111/gcb.12500
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Romanovskii N.N., 1977, FORMIROVANIE POLIGON, V0, P215
+   Romera-Paredes B., 2016, ECCV, V0, P0
+   Schirrmeister L., 2013, ENCY QUATERNARY SCI, V3, P542, DOI 10.1016/B978-0-444-53643-3.00106-0
+   Shiklomanov NI, 2013, GEOPHYS RES LETT, V40, P6356, DOI 10.1002/2013GL058295
+   Shur Y., 2012, P 10 INT C PERM SAL, V0, P0
+   Shur Y.L., 1998, COLLECTION NORDICANA, V55, P993
+   Skurikhin A. N, 2014, P 2014 IEEE SW S IM, V0, P0
+   Skurikhin AN, 2013, REMOTE SENS LETT, V4, P1077, DOI 10.1080/2150704X.2013.840404
+   Smith B, 1995, P INT C SPAT INF THE, V0, P0
+   Steedman AE, 2017, PERMAFROST PERIGLAC, V28, P66, DOI 10.1002/ppp.1880
+   Swanson D, 1951, NPSARCNNRR20161248, V0, P0
+   Templeton M, 2017, THESIS, V0, P0
+   Ulrich M, 2011, GEOMORPHOLOGY, V134, P197, DOI 10.1016/j.geomorph.2011.07.002
+   Ulrich M, 2014, PERMAFROST PERIGLAC, V25, P151, DOI 10.1002/ppp.1810
+   Vogt L, 2012, PLOS ONE, V7, P0, DOI 10.1371/journal.pone.0048603
+   Vtyurin B. I, 1975, PODZEMNYE LDY SSSR, V0, P214
+   Wainwright HM, 2015, J GEOPHYS RES-BIOGEO, V120, P788, DOI 10.1002/2014JG002799
+   Walker D.A., 1980, 8014 CRREL, V0, P24
+   Webber P. J., 1978, VEGETATION AND PRODUCTION ECOLOGY OF AN ALASKAN ARCTIC TUNDRA., V0, P37
+   Westermann S, 2015, REMOTE SENSING OF THE CRYOSPHERE, V0, P307
+   Witharana C, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8050375
+   Wolter J, 2016, POLAR RES-SWEDEN, V35, P0, DOI 10.3402/polar.v35.27489
+   Youn C, 2014, P 2014 ANN C EXTR SC, V0, P0
+NR 109
+TC 67
+Z9 67
+U1 2
+U2 48
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD SEP 15
+PY 2018
+VL 10
+IS 9
+BP 
+EP 
+DI 10.3390/rs10091487
+PG 31
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HA1QF
+UT WOS:000449993800167
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, JT
+   Feng, QL
+   Gong, JH
+   Zhou, JP
+   Liang, JM
+   Li, Y
+AF Liu, Jiantao
+   Feng, Quanlong
+   Gong, Jianhua
+   Zhou, Jieping
+   Liang, Jianming
+   Li, Yi
+TI Winter wheat mapping using a random forest classifier combined with multi-temporal and multi-sensor data
+SO INTERNATIONAL JOURNAL OF DIGITAL EARTH
+LA English
+DT Article
+DE Winter wheat; random forest; phenology; Landsat-8; GF-1
+ID land-cover classification; artificial neural-networks; spectral mixture analysis; paddy rice agriculture; time-series data; area estimation; crop phenology; vegetation; index; imagery
+AB Wheat is a major staple food crop in China. Accurate and cost-effective wheat mapping is exceedingly critical for food production management, food security warnings, and food trade policy-making in China. To reduce confusion between wheat and non-wheat crops for accurate growth stage wheat mapping, we present a novel approach that combines a random forest (RF) classifier with multi-sensor and multi-temporal image data. This study aims to (1) determine whether an RF combined with multi-sensor and multi-temporal imagery can achieve accurate winter wheat mapping, (2) to find out whether the proposed approach can provide improved performance over the traditional classifiers, and (3) examine the feasibility of deriving reliable estimates of winter wheat-growing areas from medium-resolution remotely sensed data. Winter wheat mapping experiments were conducted in Boxing County. The experimental results suggest that the proposed method can achieve good performance, with an overall accuracy of 92.9% and a kappa coefficient () of 0.858. The winter wheat acreage was estimated at 33,895.71ha with a relative error of only 9.3%. The effectiveness and feasibility of the proposed approach has been evaluated through comparison with other image classification methods. We conclude that the proposed approach can provide accurate delineation of winter wheat areas.
+C1 [Liu, Jiantao; Gong, Jianhua; Zhou, Jieping; Li, Yi] Chinese Acad Sci, Inst Remote Sensing & Digital Earth, State Key Lab Remote Sensing Sci, Beijing 100101, Peoples R China.
+   [Liu, Jiantao; Gong, Jianhua] Univ Chinese Acad Sci, Beijing, Peoples R China.
+   [Feng, Quanlong] Beijing Piesat Informat Technol Co Ltd, Beijing, Peoples R China.
+   [Gong, Jianhua] Zhejiang CAS Applicat Ctr Geoinformat, Jiashan, Peoples R China.
+   [Liang, Jianming] Arizona State Univ, Sch Life Sci, Tempe, AZ USA.
+C3 Chinese Academy of Sciences; The Institute of Remote Sensing & Digital Earth, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Arizona State University; Arizona State University-Tempe
+RP Gong, JH (corresponding author), Chinese Acad Sci, Inst Remote Sensing & Digital Earth, State Key Lab Remote Sensing Sci, Beijing 100101, Peoples R China.
+EM gongjh@radi.ac.cn
+FU European Space Agency; National Remote Sensing Centre of China [10668]; National Natural Science Foundation of China [41471341]; '135' Strategy Planning of the Institute of Remote Sensing and Digital Earth, CAS [Y3SG1500CX]
+CR Adam EM, 2012, INT J REMOTE SENS, V33, P552, DOI 10.1080/01431161.2010.543182
+   Akar O, 2015, INT J REMOTE SENS, V36, P442, DOI 10.1080/01431161.2014.995276
+   [Anonymous], 2014, FAO STAT YB 2013, V0, P0
+   Belgiu M, 2016, ISPRS J PHOTOGRAMM, V114, P24, DOI 10.1016/j.isprsjprs.2016.01.011
+   Binzhou, 2015, BINZH STAT YB, V0, P0
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chen DM, 2002, PHOTOGRAMM ENG REM S, V68, P1155
+   Cleve C, 2008, COMPUT ENVIRON URBAN, V32, P317, DOI 10.1016/j.compenvurbsys.2007.10.001
+   Crnojevic V, 2014, J APPL REMOTE SENS, V8, P0, DOI 10.1117/1.JRS.8.083512
+   Dong JW, 2015, REMOTE SENS ENVIRON, V160, P99, DOI 10.1016/j.rse.2015.01.004
+   Durgun YO, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8070585
+   Fang HL, 1998, INT J REMOTE SENS, V19, P3411, DOI 10.1080/014311698214073
+   Feng QL, 2015, SUSTAINABILITY-BASEL, V7, P14834, DOI 10.3390/su71114834
+   Feng QL, 2015, WATER-SUI, V7, P1437, DOI 10.3390/w7041437
+   Feng QL, 2015, REMOTE SENS-BASEL, V7, P1074, DOI 10.3390/rs70101074
+   Foody GM, 2004, PHOTOGRAMM ENG REM S, V70, P627, DOI 10.14358/PERS.70.5.627
+   Ghosh A, 2014, APPL GEOGR, V48, P31, DOI 10.1016/j.apgeog.2014.01.003
+   Gomez C, 2016, ISPRS J PHOTOGRAMM, V116, P55, DOI 10.1016/j.isprsjprs.2016.03.008
+   Hao PY, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.096035
+   Heinl M, 2009, INT J APPL EARTH OBS, V11, P423, DOI 10.1016/j.jag.2009.08.002
+   HUETE A R, 1988, REMOTE SENSING OF ENVIRONMENT, V25, P295
+   HUETE AR, 1992, REMOTE SENS ENVIRON, V41, P143, DOI 10.1016/0034-4257(92)90074-T
+   Li KN, 2014, EUR J AGRON, V59, P1, DOI 10.1016/j.eja.2014.04.007
+   Li QZ, 2014, J APPL REMOTE SENS, V8, P0, DOI 10.1117/1.JRS.8.083657
+   Li XX, 2013, INT J REMOTE SENS, V34, P771, DOI 10.1080/01431161.2012.714508
+   Liu JT, 2016, INT J REMOTE SENS, V37, P1845, DOI 10.1080/01431161.2016.1165888
+   Lu CH, 2013, FIELD CROP RES, V143, P98, DOI 10.1016/j.fcr.2012.09.015
+   Lu D, 2007, INT J REMOTE SENS, V28, P823, DOI 10.1080/01431160600746456
+   Ma YP, 2008, INT J APPL EARTH OBS, V10, P426, DOI 10.1016/j.jag.2007.09.002
+   MOA, 2015, PROV FARM SEAS DAT, V0, P0
+   Mountrakis G, 2011, ISPRS J PHOTOGRAMM, V66, P247, DOI 10.1016/j.isprsjprs.2010.11.001
+   Pal M, 2005, INT J REMOTE SENS, V26, P1007, DOI 10.1080/01431160512331314083
+   Pan YZ, 2012, REMOTE SENS ENVIRON, V119, P232, DOI 10.1016/j.rse.2011.10.011
+   Pontius RG, 2011, INT J REMOTE SENS, V32, P4407, DOI 10.1080/01431161.2011.552923
+   Rodriguez-Galiano VF, 2012, REMOTE SENS ENVIRON, V121, P93, DOI 10.1016/j.rse.2011.12.003
+   Rodriguez-Galiano VF, 2012, ISPRS J PHOTOGRAMM, V67, P93, DOI 10.1016/j.isprsjprs.2011.11.002
+   Siachalou S, 2015, REMOTE SENS-BASEL, V7, P3633, DOI 10.3390/rs70403633
+   Singha M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8060479
+   Siyal AA, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.095986
+   Song XF, 2012, INT J REMOTE SENS, V33, P3301, DOI 10.1080/01431161.2011.568531
+   Sun HS, 2012, INT J REMOTE SENS, V33, P5026, DOI 10.1080/01431161.2012.657366
+   Szantoi Z, 2013, INT J APPL EARTH OBS, V23, P204, DOI 10.1016/j.jag.2013.01.003
+   United Nations, 2013, POP DEV ENV 2013, V2013, P0
+   USGS, 2015, LANDSAT8DATAUSERSHAN, V0, P0
+   van Beijma S, 2014, REMOTE SENS ENVIRON, V149, P118, DOI 10.1016/j.rse.2014.04.010
+   Vanhellemont Q, 2014, REMOTE SENS ENVIRON, V145, P105, DOI 10.1016/j.rse.2014.01.009
+   Vermote EF, 1997, IEEE T GEOSCI REMOTE, V35, P675, DOI 10.1109/36.581987
+   Wang D, 2015, INT J REMOTE SENS, V36, P5208, DOI 10.1080/01431161.2015.1093197
+   Watts J., 2008, INT ARCH PHOTOGRAMM, V37, P579
+   Weng QH, 2009, INT J REMOTE SENS, V30, P4807, DOI 10.1080/01431160802665926
+   Xiao X, 2002, INT J REMOTE SENS, V23, P3579, DOI 10.1080/01431160110106069
+   Xiao XM, 2006, REMOTE SENS ENVIRON, V100, P95, DOI 10.1016/j.rse.2005.10.004
+   Xiao XM, 2005, REMOTE SENS ENVIRON, V95, P480, DOI 10.1016/j.rse.2004.12.009
+   Zhai YS, 2006, COMPUT ELECTRON AGR, V54, P53, DOI 10.1016/j.compag.2006.08.001
+   Zhang YZ, 2014, REMOTE SENS ENVIRON, V141, P155, DOI 10.1016/j.rse.2013.10.028
+   Zhou Y, 2014, REMOTE SENS LETT, V5, P862, DOI 10.1080/2150704X.2014.973996
+NR 56
+TC 32
+Z9 35
+U1 6
+U2 74
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1753-8947
+EI 1753-8955
+J9 INT J DIGIT EARTH
+JI Int. J. Digit. Earth
+PD JUN 15
+PY 2018
+VL 11
+IS 8
+BP 783
+EP 802
+DI 10.1080/17538947.2017.1356388
+PG 20
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA GJ3GK
+UT WOS:000435179200002
+DA 2023-04-26
+ER
+
+PT J
+AU Bornaetxea, T
+   Rossi, M
+   Marchesini, I
+   Alvioli, M
+AF Bornaetxea, Txomin
+   Rossi, Mauro
+   Marchesini, Ivan
+   Alvioli, Massimiliano
+TI Effective surveyed area and its role in statistical landslide susceptibility assessments
+SO NATURAL HAZARDS AND EARTH SYSTEM SCIENCES
+LA English
+DT Article
+ID artificial neural-networks; logistic-regression; slope units; inventory; models; hazard; delineation; zonation; event
+AB Geomorphological field mapping is a conventional method used to prepare landslide inventories. The approach is typically hampered by the accessibility and visibility, during field campaigns for landslide mapping, of the different portions of the study area. Statistical significance of landslide susceptibility maps can be significantly reduced if the classification algorithm is trained in unsurveyed regions of the study area, for which landslide absence is typically assumed, while ignorance about landslide presence should actually be acknowledged. We compare different landslide susceptibility zonations obtained by training the classification model either in the entire study area or in the only portion of the area that was actually surveyed, which we name effective surveyed area. The latter was delineated by an automatic procedure specifically devised for the purpose, which uses information gathered during surveys, along with landslide locations. The method was tested in Gipuzkoa Province (Basque Country), north of the Iberian Peninsula, where digital thematic maps were available and a landslide survey was performed. We prepared the landslide susceptibility maps and the associated uncertainty within a logistic regression model, using both slope units and regular grid cells as the reference mapping unit. Results indicate that the use of effective surveyed area for landslide susceptibility zonation is a valid approach that minimises the limitations stemming from unsurveyed regions at landslide mapping time. Use of slope units as mapping units, instead of grid cells, mitigates the uncertainties introduced by training the automatic classifier within the entire study area. Our method pertains to data preparation and, as such, the relevance of our conclusions is not limited to the logistic regression but are valid for virtually all the existing multivariate landslide susceptibility models.
+C1 [Bornaetxea, Txomin] Univ Basque Country, UPV EHU, Fac Arts, Dept Geog Prehist & Archaeol, C Tomas y Valiente S-N, Vitoria 01006, Spain.
+   [Rossi, Mauro; Marchesini, Ivan; Alvioli, Massimiliano] CNR, Ist Ric Protez Idrogeol, Via Madonna Alta 126, I-06128 Perugia, Italy.
+C3 University of Basque Country; Consiglio Nazionale delle Ricerche (CNR); Istituto di Ricerca per la Protezione Idrogeologica (IRPI-CNR)
+RP Bornaetxea, T (corresponding author), Univ Basque Country, UPV EHU, Fac Arts, Dept Geog Prehist & Archaeol, C Tomas y Valiente S-N, Vitoria 01006, Spain.
+EM txominbornaetxea@ehu.eus
+FU Cultural Landscape and Heritage UNESCO Chair of the University of the Basque Country (UPV/EHU); Basque government [IT1029-16]
+CR Alvioli M, 2018, GEOMAT NAT HAZ RISK, V9, P544, DOI 10.1080/19475705.2018.1458050
+   Alvioli M, 2018, SCI TOTAL ENVIRON, V630, P1528, DOI 10.1016/j.scitotenv.2018.02.315
+   Alvioli M, 2016, GEOSCI MODEL DEV, V9, P3975, DOI 10.5194/gmd-9-3975-2016
+   Amorim S. F., 2012, THESIS, V0, P0
+   [Anonymous], 2005, ANAL GLOBAL LANDSLID, V0, P0
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Ba QQ, 2018, EARTH SCI INFORM, V11, P373, DOI 10.1007/s12145-018-0335-9
+   Blais-Stevens A, 2012, B ENG GEOL ENVIRON, V71, P447, DOI 10.1007/s10064-012-0421-z
+   Brabb EE, 1984, P 4 INT S LANDSLIDES, V1, P307
+   Camilo DC, 2017, ENVIRON MODELL SOFTW, V97, P145, DOI 10.1016/j.envsoft.2017.08.003
+   Gonzalez-Hidalgo JC, 2011, INT J CLIMATOL, V31, P715, DOI 10.1002/joc.2115
+   CARRARA A, 1995, ADV NAT TECHNOL HAZ, V5, P135
+   CARRARA A, 1991, EARTH SURF PROCESSES, V16, P427, DOI 10.1002/esp.3290160505
+   Carrara A, 2008, GEOMORPHOLOGY, V94, P353, DOI 10.1016/j.geomorph.2006.10.033
+   Casagli N., 2017, GEOENVIRONMENTAL DIS, V4, P1, DOI 10.1186/s40677-017-0073-1
+   Cascini L, 2008, ENG GEOL, V102, P164, DOI 10.1016/j.enggeo.2008.03.016
+   Catani F, 2005, GEOMORPHOLOGY, V66, P119, DOI 10.1016/j.geomorph.2004.08.012
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   Corominas J, 2011, TECH REP, V0, P0
+   Corominas J., 2017, SLOPE SAFETY PREPARE, V0, P0
+   Costanzo D, 2014, LANDSLIDES, V11, P639, DOI 10.1007/s10346-013-0415-3
+   Cruden D. M., 1960, TRANSPORTATION RES B, V0, P36
+   Das I, 2010, GEOMORPHOLOGY, V114, P627, DOI 10.1016/j.geomorph.2009.09.023
+   Davison A.C, 1997, CAMBRIDGE SERIES STA, V1, P0
+   Efron B., 1992, BREAKTHROUGHS STAT, V0, PP569, DOI 10.1007/978-1-4612-4380-9_41
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Felicisimo A, 2013, LANDSLIDES, V10, P175, DOI 10.1007/s10346-012-0320-1
+   Fiorucci F, 2011, GEOMORPHOLOGY, V129, P59, DOI 10.1016/j.geomorph.2011.01.013
+   Fiorucci F, 2018, NAT HAZARD EARTH SYS, V18, P405, DOI 10.5194/nhess-18-405-2018
+   Murillo-Garcia FG, 2015, LANDSLIDES, V12, P277, DOI 10.1007/s10346-014-0473-1
+   Gutierrez F, 2010, GEOMORPHOLOGY, V124, P95, DOI 10.1016/j.geomorph.2010.10.020
+   Guzzetti F, 2005, GEOMORPHOLOGY, V72, P272, DOI 10.1016/j.geomorph.2005.06.002
+   Guzzetti F, 2006, GEOMORPHOLOGY, V81, P166, DOI 10.1016/j.geomorph.2006.04.007
+   Guzzetti F, 2012, EARTH-SCI REV, V112, P42, DOI 10.1016/j.earscirev.2012.02.001
+   Herrera G, 2009, ENG GEOL, V105, P220, DOI 10.1016/j.enggeo.2009.02.009
+   INGEMISA, 1995, TECH REP, V0, P0
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Lemeshow S., 2013, APPL LOGISTIC REGRES, V398, P0
+   Liberatoscioli E., 2017, REV GEOMORFOLOGIE, V19, P29
+   Lombardo L, 2015, NAT HAZARDS, V79, P1621, DOI 10.1007/s11069-015-1915-3
+   Malamud BD, 2004, EARTH SURF PROC LAND, V29, P687, DOI 10.1002/esp.1064
+   Minelli A, 2014, ENVIRON IMPACT ASSES, V49, P70, DOI 10.1016/j.eiar.2014.07.002
+   Mondini AC, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9060554
+   Mucher CA, 2010, ECOL INDIC, V10, P87, DOI 10.1016/j.ecolind.2009.03.018
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Rodrigues M, 2010, ENVIRON IMPACT ASSES, V30, P240, DOI 10.1016/j.eiar.2009.10.004
+   Rosi A, 2018, LANDSLIDES, V15, P5, DOI 10.1007/s10346-017-0861-4
+   Rossi M, 2016, GEOSCI MODEL DEV, V9, P3533, DOI 10.5194/gmd-9-3533-2016
+   Rossi M, 2010, GEOMORPHOLOGY, V114, P129, DOI 10.1016/j.geomorph.2009.06.020
+   Santacana Quintas N., 2001, THESIS, V0, P0
+   Santangelo M, 2015, NAT HAZARD EARTH SYS, V15, P2111, DOI 10.5194/nhess-15-2111-2015
+   Schicker R. D., 2010, THESIS, V0, P0
+   Schlogel R, 2018, GEOMORPHOLOGY, V301, P10, DOI 10.1016/j.geomorph.2017.10.018
+   Trigila A, 2015, GEOMORPHOLOGY, V249, P119, DOI 10.1016/j.geomorph.2015.06.001
+   Valagussa A, 2017, ADVANCING CULTURE OF LIVING WITH LANDSLIDES, VOL 2: ADVANCES IN LANDSLIDE SCIENCE, P1035, DOI 10.1007/978-3-319-53498-5_117
+   den Eeckhaut M, 2006, GEOMORPHOLOGY, V76, P392, DOI 10.1016/j.geomorph.2005.12.003
+   Van Den Eeckhaut M, 2012, LANDSLIDES, V9, P357, DOI 10.1007/s10346-011-0299-z
+   Wang F, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6060172
+   Wang YT, 2015, J MT SCI-ENGL, V12, P268, DOI 10.1007/s11629-014-3134-x
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Zezere JL, 2017, SCI TOTAL ENVIRON, V589, P250, DOI 10.1016/j.scitotenv.2017.02.188
+   Zhou C, 2018, COMPUT GEOSCI-UK, V112, P23, DOI 10.1016/j.cageo.2017.11.019
+NR 65
+TC 24
+Z9 24
+U1 7
+U2 15
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLEE 1E, GOTTINGEN, 37081, GERMANY
+SN 1561-8633
+EI 1684-9981
+J9 NAT HAZARD EARTH SYS
+JI Nat. Hazards Earth Syst. Sci.
+PD SEP 14
+PY 2018
+VL 18
+IS 9
+BP 2455
+EP 2469
+DI 10.5194/nhess-18-2455-2018
+PG 15
+WC Geosciences, Multidisciplinary; Meteorology & Atmospheric Sciences; Water Resources
+SC Geology; Meteorology & Atmospheric Sciences; Water Resources
+GA GT7PX
+UT WOS:000444721900004
+DA 2023-04-26
+ER
+
+PT J
+AU Maharana, A
+   Nsoesie, EO
+AF Maharana, Adyasha
+   Nsoesie, Elaine Okanyene
+TI Use of Deep Learning to Examine the Association of the Built Environment With Prevalence of Neighborhood Adult Obesity
+SO JAMA NETWORK OPEN
+LA English
+DT Article
+ID body-mass index; fast-food restaurants; physical-activity; urban sprawl; united-states; health; overweight; risk; weight; classification
+AB IMPORTANCE More than one-third of the adult population in the United States is obese. Obesity has been linked to factors such as genetics, diet, physical activity, and the environment. However, evidence indicating associations between the built environment and obesity has varied across studies and geographical contexts. OBJECTIVE To propose an approach for consistent measurement of the features of the built environment (ie, both natural and modified elements of the physical environment) and its association with obesity prevalence to allow for comparison across studies. DESIGN The cross-sectional study was conducted from February 14 through October 31, 2017. A convolutional neural network, a deep learning approach, was applied to approximately 150 000 high-resolution satellite images from Google Static Maps API (application programing interface) to extract features of the built environment in Los Angeles, California; Memphis, Tennessee; San Antonio, Texas; and Seattle (representing Seattle, Tacoma, and Bellevue), Washington. Data on adult obesity prevalence were obtained from the Centers for Disease Control and Prevention's 500 Cities project. Regression models were used to quantify the association between the features and obesity prevalence across census tracts. MAIN OUTCOMES AND MEASURES Model-estimated obesity prevalence (obesity defined as body mass index >= 30, calculated as weight in kilograms divided by height in meters squared) based on built environment information. RESULTS The study included 1695 census tracts in 6 cities. The age-adjusted obesity prevalence was 18.8% (95% Cl. 18.6%48.9%) for Bellevue. 22.4% (95% Cl. 22.3%-22.5%) for Seattle, 30.8% (95% Cl, 30.6%-31.0%) for Tacoma, 26.7% (95% Cl. 26.7%-26.8%) for Los Angeles, 36.3% (95% Cl. 36.2%-36.5%) for Memphis. and 32.9% (95% Cl, 32.8%-32.9%) for San Antonio. Features of the built environment explained 64.8% (root mean square error [RMSE), 4.3) of the variation in obesity prevalence across all census tracts. Individually, the variation explained was 55.8% (RMSE, 3.2) for Seattle (213 census tracts), 56.1% (RMSE, 4.2) for Los Angeles (993 census tracts), 73.3% (RMSE, 4.5) for Memphis (178 census tracts), and 61.5% (RMSE, 3.5) for San Antonio (311 census tracts). CONCLUSIONS AND RELEVANCE This study illustrates that convolutional neural networks can be used to automate the extraction of features of the built environment from satellite images for studying health indicators. Understanding the association between specific features of the built environment and obesity prevalence can lead to structural changes that could encourage physical activity and decreases in obesity prevalence.
+C1 [Maharana, Adyasha] Univ Washington, Dept Biomed Informat & Med Educ, Seattle, WA 98121 USA.
+   [Nsoesie, Elaine Okanyene] Univ Washington, Inst Hlth Metr & Evaluat, 2301 Fifth Ave,Ste 600, Seattle, WA 98121 USA.
+C3 University of Washington; University of Washington Seattle; Institute for Health Metrics & Evaluation; University of Washington; University of Washington Seattle
+RP Nsoesie, EO (corresponding author), Univ Washington, Inst Hlth Metr & Evaluat, 2301 Fifth Ave,Ste 600, Seattle, WA 98121 USA.
+EM en22@uw.edu
+FU RobertWood Johnson Foundation [73362]
+CR Afshin A, 2017, NEW ENGL J MED, V377, P13, DOI 10.1056/NEJMoa1614362
+   Babey SH, 2008, AM J PREV MED, V34, P345, DOI 10.1016/j.amepre.2008.01.020
+   Black JL, 2008, NUTR REV, V66, P2, DOI 10.1111/j.1753-4887.2007.00001.x
+   Booth K. M., 2005, JOURNAL OF THE AMERICAN DIETETIC ASSOCIATION, V105, P110, DOI 10.1016/j.jada.2005.02.045
+   Burdette HL, 2004, PREV MED, V38, P57, DOI 10.1016/j.ypmed.2003.09.029
+   Casagrande SS, 2009, AM J PREV MED, V36, P174, DOI 10.1016/j.amepre.2008.09.037
+   Centers for Disease Control and Prevention, 2007, AB HLTH PLAC, V0, P0
+   Centers for Disease Control and Prevention, 2016, OV OB AD OB FACTS, V0, P0
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Doyle S, 2006, J AM PLANN ASSOC, V72, P19, DOI 10.1080/01944360608976721
+   Dwyer-Lindgren L, 2013, POPUL HEALTH METR, V11, P0, DOI 10.1186/1478-7954-11-7
+   Ellaway A, 2005, BMJ-BRIT MED J, V331, P611, DOI 10.1136/bmj.38575.664549.F7
+   Esteva A, 2017, NATURE, V542, P115, DOI 10.1038/nature21056
+   Ewing R, 2003, AM J HEALTH PROMOT, V18, P47, DOI 10.4278/0890-1171-18.1.47
+   Ewing R, 2006, AM J PREV MED, V31, P464, DOI 10.1016/j.amepre.2006.08.020
+   Ferreira I, 2007, OBES REV, V8, P129, DOI 10.1111/j.1467-789X.2006.00264.x
+   Frank LD, 2004, AM J PREV MED, V27, P87, DOI 10.1016/j.amepre.2004.04.011
+   Friedman J., 2001, SPRINGER SERIES STAT, V0, P0
+   Ghosh S, 2017, NAT REV GENET, V18, P731, DOI 10.1038/nrg.2017.72
+   Giles-Corti B, 2003, AM J HEALTH PROMOT, V18, P93, DOI 10.4278/0890-1171-18.1.93
+   Gordon-Larsen P, 2006, PEDIATRICS, V117, P417, DOI 10.1542/peds.2005-0058
+   Inagami S, 2006, AM J PREV MED, V31, P10, DOI 10.1016/j.amepre.2006.03.019
+   Jafar TH, 2005, CIRCULATION, V111, P1291, DOI 10.1161/01.CIR.0000157699.87728.F1
+   Jean N, 2016, SCIENCE, V353, P790, DOI 10.1126/science.aaf7894
+   Jeffery RW, 2006, INT J BEHAV NUTR PHY, V3, P0, DOI 10.1186/1479-5868-3-2
+   Kaczynski AT, 2008, J PHYS ACT HEALTH, V5, P619, DOI 10.1123/jpah.5.4.619
+   Kelly-Schwartz AC, 2004, J PLAN EDUC RES, V24, P184, DOI 10.1177/0739456X04267713
+   Kuczmarski MF, 2001, J AM DIET ASSOC, V101, P28, DOI 10.1016/S0002-8223(01)00008-6
+   Li FZ, 2008, AM J PREV MED, V35, P38, DOI 10.1016/j.amepre.2008.03.021
+   Li F, 2009, AM J EPIDEMIOL, V169, P401, DOI 10.1093/aje/kwn398
+   Lopez R, 2004, AM J PUBLIC HEALTH, V94, P1574, DOI 10.2105/AJPH.94.9.1574
+   Lopez-Zetina J, 2006, HEALTH PLACE, V12, P656, DOI 10.1016/j.healthplace.2005.09.001
+   Lovasi GS, 2009, EPIDEMIOL REV, V31, P7, DOI 10.1093/epirev/mxp005
+   Maddock J, 2004, AM J HEALTH PROMOT, V19, P137, DOI 10.4278/0890-1171-19.2.137
+   Marmanis D, 2016, IEEE GEOSCI REMOTE S, V13, P105, DOI 10.1109/LGRS.2015.2499239
+   McCormack G, 2004, J SCI MED SPORT, V7, P81, DOI 10.1016/S1440-2440(04)80282-2
+   Merrill RM, 2009, PREV CHRONIC DIS, V6, P0
+   Mobley LR, 2006, AM J PREV MED, V30, P327, DOI 10.1016/j.amepre.2005.12.001
+   Morland K, 2006, AM J PREV MED, V30, P333, DOI 10.1016/j.amepre.2005.11.003
+   Nelson MC, 2006, AM J PREV MED, V31, P109, DOI 10.1016/j.amepre.2006.03.026
+   Nguyen QC, 2018, J EPIDEMIOL COMMUN H, V72, P260, DOI 10.1136/jech-2017-209456
+   Papas MA, 2007, EPIDEMIOL REV, V29, P129, DOI 10.1093/epirev/mxm009
+   Razavian AS, 2014, IEEE COMPUT SOC CONF, V0, PP512, DOI 10.1109/CVPRW.2014.131
+   Reed J, 2007, J AM COLL HEALTH, V56, P199, DOI 10.3200/JACH.56.2.199-208
+   Rundle A, 2007, AM J HEALTH PROMOT, V21, P326, DOI 10.4278/0890-1171-21.4s.326
+   Rundle A, 2009, ENVIRON HEALTH PERSP, V117, P442, DOI 10.1289/ehp.11590
+   Rutt CD, 2005, PREV MED, V40, P831, DOI 10.1016/j.ypmed.2004.09.035
+   Saelens BE, 2003, AM J PUBLIC HEALTH, V93, P1552, DOI 10.2105/AJPH.93.9.1552
+   Sturm R, 2005, PUBLIC HEALTH, V119, P1059, DOI 10.1016/j.puhe.2005.05.007
+   Yang Y, 2010, PROC 18 SIGSPATIAL I, V0, P0, DOI DOI 10.1145/1869790.1869829
+   Zheng W, 2011, NEW ENGL J MED, V364, P719, DOI 10.1056/NEJMoa1010679
+NR 56
+TC 42
+Z9 42
+U1 10
+U2 23
+PU AMER MEDICAL ASSOC
+PI CHICAGO
+PA 330 N WABASH AVE, STE 39300, CHICAGO, IL 60611-5885 USA
+SN 2574-3805
+EI 
+J9 JAMA NETW OPEN
+JI JAMA Netw. Open
+PD AUG 15
+PY 2018
+VL 1
+IS 4
+BP 
+EP 
+DI 10.1001/jamanetworkopen.2018.1535
+PG 14
+WC Medicine, General & Internal
+SC General & Internal Medicine
+GA HD6JG
+UT WOS:000452643200028
+PM 30646134
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, T
+   Abd-Elrahman, A
+   Morton, J
+   Wilhelm, VL
+AF Liu, Tao
+   Abd-Elrahman, Amr
+   Morton, Jon
+   Wilhelm, Victor L.
+TI Comparing fully convolutional networks, random forest, support vector machine, and patch-based deep convolutional neural networks for object-based wetland mapping using images from small unmanned aircraft system
+SO GISCIENCE & REMOTE SENSING
+LA English
+DT Article
+DE FCN; deep learning; convolutional neural network; OBIA; UAS
+ID spatial-resolution imagery; remote-sensing imagery; aerial vehicle; feature representation; ecosystem services; land-cover; lidar data; classification; extraction; platform
+AB Deep learning networks have shown great success in several computer vision applications, but its implementation in natural land cover mapping in the context of object-based image analysis (OBIA) is rarely explored area especially in terms of the impact of training sample size on the performance comparison. In this study, two representatives of deep learning networks including fully convolutional networks (FCN) and patch-based deep convolutional neural networks (DCNN), and two conventional classifiers including random forest and support vector machine were implemented within the framework of OBIA to classify seven natural land cover types. We assessed the deep learning classifiers using different training sample sizes and compared their performance with traditional classifiers. FCN was implemented using two types of training samples to investigate its ability to utilize object surrounding information.Our results indicate that DCNN may produce inferior performance compared to conventional classifiers when the training sample size is small, but it tends to show substantially higher accuracy than the conventional classifiers when the training sample size becomes large. The results also imply that FCN is more efficient in utilizing the information in the training sample than DCNN and conventional classifiers, with higher if not similar achieved accuracy regardless of sample size. DCNN and FCN tend to show similar performance for the large sample size when the training samples used for training the FCN do not contain object surrounding label information. However, with the ability of utilizing surrounding label information, FCN always achieved much higher accuracy than all the other classification methods regardless of the number of training samples.
+C1 [Liu, Tao; Abd-Elrahman, Amr] Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.
+   [Liu, Tao; Abd-Elrahman, Amr] Univ Florida, Gulf Coast Res Ctr, Plant City, FL 33563 USA.
+   [Morton, Jon] US Army Corps Engineers, South Florida Restorat Off, W Palm Beach, FL USA.
+   [Wilhelm, Victor L.] US Army Corps Engineers, Surveying & Mapping Branch, Jacksonville, FL USA.
+C3 State University System of Florida; University of Florida; State University System of Florida; University of Florida; United States Department of Defense; United States Army; U.S. Army Corps of Engineers; United States Department of Defense; United States Army; U.S. Army Corps of Engineers
+RP Liu, T (corresponding author), Univ Florida, Sch Forest Resources & Conservat, Gainesville, FL 32611 USA.; Liu, T (corresponding author), Univ Florida, Gulf Coast Res Ctr, Plant City, FL 33563 USA.
+EM taoliu@ufl.edu
+CR Ahmed MAA, 2017, J ENVIRON MANAGE, V199, P158, DOI 10.1016/j.jenvman.2017.05.013
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   Arthington JD, 2007, RANGELAND ECOL MANAG, V60, P12, DOI 10.2111/05-074R1.1
+   Belgiu M, 2016, ISPRS J PHOTOGRAMM, V114, P24, DOI 10.1016/j.isprsjprs.2016.01.011
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Camacho-de Coca F, 2004, REMOTE SENS ENVIRON, V90, P63, DOI 10.1016/j.rse.2003.11.019
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Davis Steven M., 1994, P419, V0, P0
+   Developer E., 2012, TRIMBL ECOGNITION DE, V0, P0
+   Diaz-Uriarte R, 2006, BMC BIOINFORMATICS, V7, P0, DOI 10.1186/1471-2105-7-3
+   Dragut L, 2014, ISPRS J PHOTOGRAMM, V88, P119, DOI 10.1016/j.isprsjprs.2013.11.018
+   eCognition, 2012, FEAT REF, V0, P0
+   Fernandez T, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100837
+   Ferriter A., 2004, 2004 EV CONS REP, V0, P11
+   Gleason CJ, 2012, REMOTE SENS ENVIRON, V125, P80, DOI 10.1016/j.rse.2012.07.006
+   Grybas H, 2017, GISCI REMOTE SENS, V54, P515, DOI 10.1080/15481603.2017.1287238
+   Han YX, 2005, INT GEOSCI REMOTE SE, V0, P3109
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hinton G, 2012, IEEE SIGNAL PROC MAG, V29, P82, DOI 10.1109/MSP.2012.2205597
+   Hinton GE, 2006, NEURAL COMPUT, V18, P1527, DOI 10.1162/neco.2006.18.7.1527
+   Holm L. G., 1977, THE WORLDS WORST WEEDS., V0, P0
+   Hsu CW, 2002, IEEE T NEURAL NETWOR, V13, P415, DOI 10.1109/72.991427
+   Hu W, 2015, J SENSORS, V2015, P0, DOI 10.1155/2015/258619
+   Huval B., 2015, AN EMPIRICAL EVALUAT, V0, P0, DOI DOI 10.1002/PI.4767
+   Im J, 2008, INT J REMOTE SENS, V29, P399, DOI 10.1080/01431160601075582
+   Im J, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5917-6
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   JENSEN JR, 1995, PHOTOGRAMM ENG REM S, V61, P199
+   Ke YH, 2010, REMOTE SENS ENVIRON, V114, P1141, DOI 10.1016/j.rse.2010.01.002
+   Keddy P.A., 2000, WETLAND ECOLOGY PRIN, V0, P0
+   Koukal T, 2012, IEEE J-STARS, V5, P30, DOI 10.1109/JSTARS.2012.2184527
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lee S, 2017, ATMOS MEAS TECH, V10, P1559, DOI 10.5194/amt-10-1859-2017
+   Li LY, 2015, REMOTE SENS ENVIRON, V164, P142, DOI 10.1016/j.rse.2015.04.009
+   Li MC, 2016, INT J APPL EARTH OBS, V49, P87, DOI 10.1016/j.jag.2016.01.011
+   Li M, 2014, IEEE J-STARS, V7, P3143, DOI 10.1109/JSTARS.2014.2304642
+   Li ZB, 2016, REMOTE SENS ENVIRON, V187, P76, DOI 10.1016/j.rse.2016.10.008
+   Liu M, 2013, SENSOR ACTUAT B-CHEM, V177, P970, DOI 10.1016/j.snb.2012.11.071
+   Liu T, 2015, ISPRS J PHOTOGRAMM, V110, P34, DOI 10.1016/j.isprsjprs.2015.10.002
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lu B, 2017, ISPRS J PHOTOGRAMM, V128, P73, DOI 10.1016/j.isprsjprs.2017.03.011
+   Ma L, 2017, ISPRS J PHOTOGRAMM, V130, P277, DOI 10.1016/j.isprsjprs.2017.06.001
+   Ma XR, 2016, ISPRS J PHOTOGRAMM, V120, P99, DOI 10.1016/j.isprsjprs.2016.09.001
+   Makantasis K, 2015, INT GEOSCI REMOTE SE, V0, PP4959, DOI 10.1109/IGARSS.2015.7326945
+   MARMANIS D, 2016, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/J.ISPRSJPRS.2017.11.009
+   Martinez-Lopez J, 2014, INT J APPL EARTH OBS, V26, P193, DOI 10.1016/j.jag.2013.07.005
+   McGwire KC, 2013, INT J REMOTE SENS, V34, P1615, DOI 10.1080/01431161.2012.723836
+   Mitsch WJ., 2015, WETLANDS, V5, P0
+   Murakami T, 2012, COMPUT ELECTRON AGR, V89, P70, DOI 10.1016/j.compag.2012.08.003
+   Nair V, 2010, ICML, V27, P807
+   Pajares G, 2015, PHOTOGRAMM ENG REM S, V81, P281, DOI 10.14358/PERS.81.4.281
+   Pal M, 2005, INT J REMOTE SENS, V26, P217, DOI 10.1080/01431160412331269698
+   Pande-Chhetri R, 2017, EUR J REMOTE SENS, V50, P564, DOI 10.1080/22797254.2017.1373602
+   Park S, 2016, AGR FOREST METEOROL, V216, P157, DOI 10.1016/j.agrformet.2015.10.011
+   Pastor E, 2011, GEOCARTO INT, V26, P113, DOI 10.1080/10106049.2010.531769
+   Peppa MV, 2016, INT ARCH PHOTOGRAMM, V41, P895, DOI 10.5194/isprsarchives-XLI-B5-895-2016
+   Piramanayagam S, 2016, PROC SPIE, V10004, P0, DOI 10.1117/12.2243169
+   Primicerio J, 2012, PRECIS AGRIC, V13, P517, DOI 10.1007/s11119-012-9257-6
+   Rango A, 2006, ENVIRON PRAC, V8, P159, DOI 10.1017/S1466046606060224
+   Rhee J, 2017, AGR FOREST METEOROL, V237, P105, DOI 10.1016/j.agrformet.2017.02.011
+   Rutchey K., 2006, VEGETATION CLASSIFIC, V0, P0
+   Saito G., 2014, 35 AS C REM SENS, V0, P0
+   Samseemoung G, 2012, PRECIS AGRIC, V13, P611, DOI 10.1007/s11119-012-9271-8
+   Scherer D, 2010, LECT NOTES COMPUT SC, V6354, P92, DOI 10.1007/978-3-642-15825-4_10
+   Scholkopf Bernhard, 2001, LEARNING KERNELS SUP, V0, P0
+   Sheikh P., 2002, FLORIDA EVERGLADES R, V0, P0
+   Sherrah J., 2016, ABS160602585 CORR, V0, P0
+   Silver D, 2016, NATURE, V529, P484, DOI 10.1038/nature16961
+   Simonyan K, 2015, ARXIV, V0, P0
+   Skeele R. C., 2016, AERIAL VEHICLE PATH, V0, P455
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Statnikov A, 2008, BMC BIOINFORMATICS, V9, P0, DOI 10.1186/1471-2105-9-319
+   Suk HI, 2014, NEUROIMAGE, V101, P569, DOI 10.1016/j.neuroimage.2014.06.077
+   Suzuki T, 2010, J ROBOT MECHATRON, V22, P212, DOI 10.20965/jrm.2010.p0212
+   Swain H.M., 2013, RANGELANDS, V35, P75, DOI 10.2111/RANGELANDS-D-13-00053.1
+   Szantoi Z, 2013, INT J APPL EARTH OBS, V23, P204, DOI 10.1016/j.jag.2013.01.003
+   Vedaldi A, 2015, MM15: PROCEEDINGS OF THE 2015 ACM MULTIMEDIA CONFERENCE, V0, PP689, DOI 10.1145/2733373.2807412
+   Vetrivel A, 2018, ISPRS J PHOTOGRAMM, V140, P45, DOI 10.1016/j.isprsjprs.2017.03.001
+   Wang CX, 2016, GISCI REMOTE SENS, V53, P283, DOI 10.1080/15481603.2016.1148229
+   Wright C, 2007, REMOTE SENS ENVIRON, V107, P582, DOI 10.1016/j.rse.2006.10.019
+   Xie M, 2015, TRANSFER LEARNING DE, V0, P0
+   Yegnanarayana B., 2009, ARTIFICIAL NEURAL NE, V0, P0
+   Yu Q, 2006, PHOTOGRAMM ENG REM S, V72, P799, DOI 10.14358/PERS.72.7.799
+   Yue JW, 2012, INTELL AUTOM SOFT CO, V18, P1043, DOI 10.1080/10798587.2008.10643309
+   Zarco-Tejada PJ, 2012, REMOTE SENS ENVIRON, V117, P322, DOI 10.1016/j.rse.2011.10.007
+   Zedler JB, 2005, ANNU REV ENV RESOUR, V30, P39, DOI 10.1146/annurev.energy.30.050504.144248
+   Zedler JB, 2004, CRIT REV PLANT SCI, V23, P431, DOI 10.1080/07352680490514673
+   Zeggada A, 2017, IEEE GEOSCI REMOTE S, V14, P694, DOI 10.1109/LGRS.2017.2671922
+   Zhang PZ, 2016, ISPRS J PHOTOGRAMM, V116, P24, DOI 10.1016/j.isprsjprs.2016.02.013
+   Zhao WQ, 2019, IEEE T SYST MAN CY-S, V49, P1254, DOI 10.1109/TSMC.2017.2724440
+   Zhao WS, 2016, DISCRET MATH ALGORIT, V8, P0, DOI 10.1142/S1793830916500063
+   Zhong P., 2017, IEEE T GEOSCI REMOTE, V0, P0, DOI DOI 10.1109/TGRS.2017.2755542
+   Zweig CL, 2015, WETLANDS, V35, P303, DOI 10.1007/s13157-014-0612-4
+NR 97
+TC 172
+Z9 176
+U1 13
+U2 191
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1548-1603
+EI 1943-7226
+J9 GISCI REMOTE SENS
+JI GISci. Remote Sens.
+PD JUN 15
+PY 2018
+VL 55
+IS 2
+BP 243
+EP 264
+DI 10.1080/15481603.2018.1426091
+PG 22
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA FZ8JR
+UT WOS:000427855000006
+DA 2023-04-26
+ER

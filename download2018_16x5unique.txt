@@ -1,0 +1,516 @@
+
+PT J
+AU Chen, KQ
+   Weinmann, M
+   Sun, X
+   Yan, ML
+   Hinz, S
+   Jutzi, B
+   Weinmann, M
+AF Chen, Kaiqiang
+   Weinmann, Michael
+   Sun, Xian
+   Yan, Menglong
+   Hinz, Stefan
+   Jutzi, Boris
+   Weinmann, Martin
+TI SEMANTIC SEGMENTATION OF AERIAL IMAGERY VIA MULTI-SCALE SHUFFLING CONVOLUTIONAL NEURAL NETWORKS WITH DEEP SUPERVISION
+SO ISPRS TC I MID-TERM SYMPOSIUM INNOVATIVE SENSING - FROM SENSORS TO METHODS AND APPLICATIONS
+LA English
+DT Proceedings Paper
+DE Semantic Segmentation; Aerial Imagery; Multi-Modal Data; Multi-Scale; CNN; Deep Supervision
+ID point clouds
+AB In this paper, we address the semantic segmentation of aerial imagery based on the use of multi-modal data given in the form of true orthophotos and the corresponding Digital Surface Models (DSMs). We present the Deeply-supervised Shuffling Convolutional Neural Network (DSCNN) representing a multi-scale extension of the Shuffling Convolutional Neural Network (SCNN) with deep supervision. Thereby, we take the advantage of the SCNN involving the shuffling operator to effectively upsample feature maps and then fuse multiscale features derived from the intermediate layers of the SCNN, which results in the Multi-scale Shuffling Convolutional Neural Network (MSCNN). Based on the MSCNN, we derive the DSCNN by introducing additional losses into the intermediate layers of the MSCNN. In addition, we investigate the impact of using different sets of hand-crafted radiometric and geometric features derived from the true orthophotos and the DSMs on the semantic segmentation task. For performance evaluation, we use a commonly used benchmark dataset. The achieved results reveal that both multi-scale fusion and deep supervision contribute to an improvement in performance. Furthermore, the use of a diversity of hand-crafted radiometric and geometric features as input for the DSCNN does not provide the best numerical results, but smoother and improved detections for several objects.
+C1 [Chen, Kaiqiang; Sun, Xian; Yan, Menglong] Chinese Acad Sci, Key Lab Technol Geospatial Informat Proc & Applic, Inst Elect, Beijing, Peoples R China.
+   [Chen, Kaiqiang] Univ Chinese Acad Sci, Beijing, Peoples R China.
+   [Weinmann, Michael] Univ Bonn, Inst Comp Sci 2, Bonn, Germany.
+   [Hinz, Stefan; Jutzi, Boris; Weinmann, Martin] Karlsruhe Inst Technol, Inst Photogrammetry & Remote Sensing, Karlsruhe, Germany.
+C3 Chinese Academy of Sciences; Institute of Electronics, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; University of Bonn; Helmholtz Association; Karlsruhe Institute of Technology
+RP Chen, KQ (corresponding author), Chinese Acad Sci, Key Lab Technol Geospatial Informat Proc & Applic, Inst Elect, Beijing, Peoples R China.; Chen, KQ (corresponding author), Univ Chinese Acad Sci, Beijing, Peoples R China.
+EM chenkaiqiang14@mails.ucas.ac.cn; mw@cs.uni-bonn.de; sunxian@mail.ie.ac.cn; yanmenglong@gmail.com; stefan.hinz@kit.edu; boris.jutzi@kit.edu; martin.weinmann@kit.edu
+FU foundation of China Scholarship Council [201704910608]
+CR [Anonymous], 2016, ARXIV160600915, V0, P0
+   [Anonymous], 2015, COMPUTER SCI, V0, P0
+   [Anonymous], 2016, ARXIV161203144, V0, P0
+   Audebert N, 2018, ISPRS J PHOTOGRAMM, V140, P20, DOI 10.1016/j.isprsjprs.2017.11.011
+   Audebert N, 2017, LECT NOTES COMPUT SC, V10111, P180, DOI 10.1007/978-3-319-54181-5_12
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Chen K., 2018, ISPRS ANN PHOTOGRAMM, VIV-2, P65
+   Chen KQ, 2018, IEEE GEOSCI REMOTE S, V15, P173, DOI 10.1109/LGRS.2017.2778181
+   Chen KQ, 2017, INT GEOSCI REMOTE SE, V0, P1672
+   Chen L.-C., 2014, ARXIV14127062, V0, P0
+   Chen L.-C., 2017, RETHINKING ATROUS CO, V0, P0
+   Chen Tianqi, 2015, ARXIV151201274, V0, P0
+   Cramer M, 2010, PHOTOGRAMM FERNERKUN, V0, PP73, DOI 10.1127/1432-8364/2010/0041
+   Demantke J, 2011, INT ARCH PHOTOGRAMM, V38-5, P97
+   Gerke M., 2014, USE STAIR VISION LIB, V0, P0
+   Gerke M, 2014, ISPRS J PHOTOGRAMM, V87, P78, DOI 10.1016/j.isprsjprs.2013.10.011
+   Gevers T, 1999, PATTERN RECOGN, V32, P453, DOI 10.1016/S0031-3203(98)00036-3
+   Gitelson AA, 1998, ADV SPACE RES, V22, P689, DOI 10.1016/S0273-1177(97)01133-2
+   Hackel T, 2016, ISPRS ANN PHOTO REM, V3, P177, DOI 10.5194/isprsannals-III-3-177-2016
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lee C.-Y., 2014, DEEPLY SUPERVISED NE, V0, P0
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Marmanis D, 2016, ISPRS ANN PHOTO REM, V3, P473, DOI 10.5194/isprsannals-III-3-473-2016
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Paisitkriangkrai S, 2016, IEEE J-STARS, V9, P2868, DOI 10.1109/JSTARS.2016.2582921
+   Pauly M, 2003, COMPUT GRAPH FORUM, V22, P281, DOI 10.1111/1467-8659.00675
+   Rottensteiner F., 2012, ISPRS ANN PHOTOGRAMM, V0, P293
+   ROUSE JW, 1974, MONITORING VERNAL AD, V0, P0
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Sherrah J., 2016, ARXIV160602585, V0, P0
+   Shi WZ, 2016, PROC CVPR IEEE, V0, PP1874, DOI 10.1109/CVPR.2016.207
+   Simonyan K, 2015, ARXIV, V0, P0
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Weinmann M., 2016, RECONSTRUCTION ANAL, V1st, P0
+   Weinmann M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010002
+   Zhao H, 2016, ARXIV161201105CS, V0, P0
+   2017, 1900, P5157, V0, P0
+   2017, 1900, P1561, V0, P0, DOI DOI 10.1109/CVPRW.2017.200
+NR 43
+TC 8
+Z9 8
+U1 1
+U2 4
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLE 1E, GOTTINGEN, 37081, GERMANY
+SN 2194-9042
+EI 2194-9050
+J9 ISPRS ANN PHOTO REM
+PD JUN 15
+PY 2018
+VL 4-1
+IS 
+BP 29
+EP 36
+DI 10.5194/isprs-annals-IV-1-29-2018
+PG 8
+WC Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA BM6YB
+UT WOS:000467487300004
+DA 2023-04-26
+ER
+
+PT J
+AU Bogdan, PA
+   Rowley, AGD
+   Rhodes, O
+   Furber, SB
+AF Bogdan, Petrut A.
+   Rowley, Andrew G. D.
+   Rhodes, Oliver
+   Furber, Steve B.
+TI Structural Plasticity on the SpiNNaker Many-Core Neuromorphic System
+SO FRONTIERS IN NEUROSCIENCE
+LA English
+DT Article
+DE SpiNNaker; structural synaptic plasticity; synaptic rewiring; neuromorphic computing; spiking neural networks; topographic map; synaptogenesis
+ID synaptic plasticity; neurons; maps; connectivity; competition; experience; models; power
+AB The structural organization of cortical areas is not random, with topographic maps commonplace in sensory processing centers. This topographical organization allows optimal wiring between neurons, multimodal sensory integration, and performs input dimensionality reduction. In this work, a model of topographic map formation is implemented on the SpiNNaker neuromorphic platform, running in realtime using point neurons, and making use of both synaptic rewiring and spike-timing dependent plasticity (STDP). In agreement with Bamford et al. (2010), we demonstrate that synaptic rewiring refines an initially rough topographic map over and beyond the ability of STDP, and that input selectivity learnt through STDP is embedded into the network connectivity through rewiring. Moreover, we show the presented model can be used to generate topographic maps between layers of neurons with minimal initial connectivity, and stabilize mappings which would otherwise be unstable through the inclusion of lateral inhibition.
+C1 [Bogdan, Petrut A.; Rowley, Andrew G. D.; Rhodes, Oliver; Furber, Steve B.] Univ Manchester, Sch Comp Sci, Manchester, Lancs, England.
+C3 University of Manchester
+RP Bogdan, PA (corresponding author), Univ Manchester, Sch Comp Sci, Manchester, Lancs, England.
+EM petrut.bogdan@manchester.ac.uk
+FU EPSRC [EP/D07908X/1, EP/G015740/1]; EU ICT flagship Human Brain Project [112020 720270, 112020 785907]; European Research Council under the European Union's Seventh Framework Programme (FP7/2007-2013)/ERC grant [320689]; EPSRC [EP/D07908X/1, EP/G015740/1] Funding Source: UKRI
+CR Bamford SA, 2010, NEURAL NETWORKS, V23, P517, DOI 10.1016/j.neunet.2010.01.005
+   Benson DL, 2001, NAT REV NEUROSCI, V2, P899, DOI 10.1038/35104078
+   Bi GQ, 1998, J NEUROSCI, V18, P10464, DOI 10.1523/jneurosci.18-24-10464.1998
+   Brown AD, 2015, IEEE T COMPUT, V64, P1769, DOI 10.1109/TC.2014.2329686
+   Buffelli M, 2004, NEWS PHYSIOL SCI, V19, P85, DOI 10.1152/nips.01464.2003
+   Butz M, 2013, PLOS COMPUT BIOL, V9, P0, DOI 10.1371/journal.pcbi.1003259
+   Cajal S, 1928, DEGENERATION REGENER, V0, P0
+   Chklovskii DB, 2004, ANNU REV NEUROSCI, V27, P369, DOI 10.1146/annurev.neuro.27.070203.144226
+   Davison Andrew P, 2008, FRONT NEUROINFORM, V2, P11, DOI 10.3389/neuro.11.011.2008
+   Deiss SR, 1998, PULSED NEURAL NETWORKS, V0, P157
+   Diaz-Pier S, 2016, FRONT NEUROANAT, V10, P0, DOI 10.3389/fnana.2016.00057
+   Diehl PU, 2014, IEEE IJCNN, V0, PP4288, DOI 10.1109/IJCNN.2014.6889876
+   Dvorkin R, 2016, PLOS BIOL, V14, P0, DOI 10.1371/journal.pbio.1002572
+   Elliott T, 1999, J NEUROSCI, V19, P7951
+   Favero M, 2010, NEUROSCIENCE, V167, P343, DOI 10.1016/j.neuroscience.2010.01.055
+   Furber S, 2016, J NEURAL ENG, V13, P0, DOI 10.1088/1741-2560/13/5/051001
+   Furber SB, 2014, P IEEE, V102, P652, DOI 10.1109/JPROC.2014.2304638
+   Furber SB, 2013, IEEE T COMPUT, V62, P2454, DOI 10.1109/TC.2012.142
+   George R., 2017, IEEE BIOMEDICAL CIRC, V0, PP1, DOI 10.1109/BIOCAS.2017.8325074
+   Grueber WB, 2010, CSH PERSPECT BIOL, V2, P0, DOI 10.1101/cshperspect.a001750
+   Hawkins J, 2016, FRONT NEURAL CIRCUIT, V10, P0, DOI 10.3389/fncir.2016.00023
+   Hellwig B, 2000, BIOL CYBERN, V82, P111, DOI 10.1007/PL00007964
+   Holmes NP, 2005, CURR BIOL, V15, PR762, DOI 10.1016/j.cub.2005.08.058
+   Holtmaat AJGD, 2005, NEURON, V45, P279, DOI 10.1016/j.neuron.2005.01.003
+   Holtmaat A, 2009, NAT REV NEUROSCI, V10, P647, DOI 10.1038/nrn2699
+   Iglesias J, 2005, BIOSYSTEMS, V79, P11, DOI 10.1016/j.biosystems.2004.09.016
+   Jin X., 2010, 2010 INT JOINT C NEU, V0, P0
+   Kaas JH, 1997, BRAIN RES BULL, V44, P107, DOI 10.1016/S0361-9230(97)00094-4
+   Kalisman N, 2005, P NATL ACAD SCI USA, V102, P880, DOI 10.1073/pnas.0407088102
+   Kappel D, 2018, ENEURO, V5, P0, DOI 10.1523/ENEURO.0301-17.2018
+   Kappel D, 2015, PLOS COMPUT BIOL, V11, P0, DOI 10.1371/journal.pcbi.1004485
+   Kleim JA, 2002, P NATL ACAD SCI USA, V99, P13228, DOI 10.1073/pnas.202483399
+   Lamprecht R, 2004, NAT REV NEUROSCI, V5, P45, DOI 10.1038/nrn1301
+   Le Be JV, 2006, P NATL ACAD SCI USA, V103, P13214, DOI 10.1073/pnas.0604691103
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Liu Q, 2016, FRONT NEUROSCI-SWITZ, V10, P0, DOI 10.3389/fnins.2016.00496
+   Lledo PM, 2006, NAT REV NEUROSCI, V7, P179, DOI 10.1038/nrn1867
+   Maass W, 2004, J COMPUT SYST SCI, V69, P593, DOI 10.1016/j.jcss.2004.04.001
+   Markram H, 1997, SCIENCE, V275, P213, DOI 10.1126/science.275.5297.213
+   Mascaro A. L. A., 2016, BIOMEDICAL OPTICS 20, V0, P0, DOI DOI 10.1364/BRAIN.2016.BTh3D.3
+   Mikaitis M, 2018, FRONT NEUROSCI-SWITZ, V12, P0, DOI 10.3389/fnins.2018.00105
+   Mombaerts P, 1996, CELL, V87, P675, DOI 10.1016/S0092-8674(00)81387-2
+   Morrison A, 2008, BIOL CYBERN, V98, P459, DOI 10.1007/s00422-008-0233-1
+   Mundy A, 2016, 2016 IEEE 17TH INTERNATIONAL CONFERENCE ON HIGH PERFORMANCE SWITCHING AND ROUTING (HPSR), V0, PP148, DOI 10.1109/HPSR.2016.7525659
+   Navaridas J, 2009, ICS09: PROCEEDINGS OF THE 2009 ACM SIGARCH INTERNATIONAL CONFERENCE ON SUPERCOMPUTING, V0, PP286, DOI 10.1145/1542275.1542317
+   Olshausen BA, 2004, CURR OPIN NEUROBIOL, V14, P481, DOI 10.1016/j.conb.2004.07.007
+   Pfister JP, 2006, J NEUROSCI, V26, P9673, DOI 10.1523/JNEUROSCI.1425-06.2006
+   Poirazi P, 2001, NEURON, V29, P779, DOI 10.1016/S0896-6273(01)00252-5
+   Qiao N, 2015, FRONT NEUROSCI-SWITZ, V9, P0, DOI 10.3389/fnins.2015.00141
+   Rinke S, 2016, INT SYM COMP ARCHIT, V0, PP1, DOI 10.1109/SBAC-PAD.2016.9
+   Robinson TE, 1997, J NEUROSCI, V17, P8491
+   Roy S, 2017, IEEE T NEUR NET LEAR, V28, P900, DOI 10.1109/TNNLS.2016.2582517
+   Roy S, 2014, IEEE T BIOMED CIRC S, V8, P681, DOI 10.1109/TBCAS.2014.2362969
+   Russo SJ, 2010, TRENDS NEUROSCI, V33, P267, DOI 10.1016/j.tins.2010.02.002
+   Song S, 2001, NEURON, V32, P339, DOI 10.1016/S0896-6273(01)00451-2
+   Song S, 2000, NAT NEUROSCI, V3, P919, DOI 10.1038/78829
+   Spiess R, 2016, FRONT COMPUT NEUROSC, V10, P0, DOI 10.3389/fncom.2016.00093
+   Stepanyants A, 2002, NEURON, V34, P275, DOI 10.1016/S0896-6273(02)00652-9
+   Stokes AB, 2016, SPYNNAKER 3 0 0, V0, P0
+   Stuart G, 1997, TRENDS NEUROSCI, V20, P125, DOI 10.1016/S0166-2236(96)10075-8
+   VanOoyen A, 2017, REWIRING BRAIN: A COMPUTATIONAL APPROACH TO STRUCTURAL PLASTICITY IN THE ADULT BRAIN, V0, P1
+   Vogels TP, 2011, SCIENCE, V334, P1569, DOI 10.1126/science.1211095
+   Xu TH, 2009, NATURE, V462, P915, DOI 10.1038/nature08389
+   Zecevic N, 1991, CEREB CORTEX, V1, P510, DOI 10.1093/cercor/1.6.510
+NR 64
+TC 8
+Z9 8
+U1 0
+U2 4
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 
+EI 1662-453X
+J9 FRONT NEUROSCI-SWITZ
+JI Front. Neurosci.
+PD JUL 2
+PY 2018
+VL 12
+IS 
+BP 
+EP 
+DI 10.3389/fnins.2018.00434
+PG 20
+WC Neurosciences
+SC Neurosciences & Neurology
+GA GL3BG
+UT WOS:000437001500001
+PM 30034320
+DA 2023-04-26
+ER
+
+PT J
+AU Priyaa, SS
+   Jeyakanthan, VS
+   Genitha, CH
+   Sanjeevi, S
+AF Priyaa, S. Shanmuga
+   Jeyakanthan, V. S.
+   Genitha, C. Heltin
+   Sanjeevi, S.
+TI Estimation of Water-Spread Area of Singoor Reservoir, Southern India by Super Resolution Mapping of Multispectral Satellite Images
+SO JOURNAL OF THE INDIAN SOCIETY OF REMOTE SENSING
+LA English
+DT Article
+DE Super resolution mapping; Sub-pixel classification; Per-pixel classification; Reservoir water-spread area estimation
+ID landsat thematic mapper; neural-network; cover; pixel; classifications; model
+AB Estimation of reservoir water-spread area is often carried out by field surveys which are cumbersome, time consuming, expensive and involves more man power. Hence, such surveys cannot be carried out periodically. To overcome this issue, satellite images are used, wherein the reservoir water-spread is estimated by conventional per-pixel classification such as the maximum likelihood and minimum distance to mean approaches that often results in inaccurate estimate of water-spread area due to the presence of mixed pixels. High cost and non-availability of high resolution images demands the use of an alternative approach that can give accurate information about the reservoir water-spread area. In this work, IRS, LISS III images of moderate (24 m) resolution were used for accurate estimation of the water-spread area of Singoor reservoir, southern India. The reservoir water-spread areas were extracted using per-pixel classification, sub-pixel classification and super resolution mapping approaches. These results were validated with the water-spread areas obtained from field data of the same dates. The error produced by the per-pixel approach was 6.66%, while it was 4.37% for the sub-pixel approach and a meagre 1.71% for the super-resolution approach. Fairly less error produced by the super resolution mapping technique implies that it is an efficient approach for accurate quantification of reservoir water-spread area. The estimated water-spread can be used in a simple volume estimation formula to estimate the capacity of the reservoir.
+C1 [Priyaa, S. Shanmuga; Sanjeevi, S.] Anna Univ, Dept Geol, Madras, Tamil Nadu, India.
+   [Jeyakanthan, V. S.] Natl Inst Hydrol, Kakinada, India.
+   [Genitha, C. Heltin] St Josephs Coll Engn, Madras, Tamil Nadu, India.
+C3 Anna University; Anna University Chennai; St. Joseph's College of Engineering, Chennai
+RP Priyaa, SS (corresponding author), Anna Univ, Dept Geol, Madras, Tamil Nadu, India.
+EM priyaasakthi@gmail.com
+CR Aplin P, 2001, INT J REMOTE SENS, V22, P2853, DOI 10.1080/01431160110053176
+   Atkinson PM, 2008, QUANT GEO G, V15, P307
+   Atkinson P. M., 1997, INNOVATIONS GIS, V4, P166
+   Bastin L, 1997, INT J REMOTE SENS, V18, P3629, DOI 10.1080/014311697216847
+   Eismann MT, 2005, IEEE T GEOSCI REMOTE, V43, P455, DOI 10.1109/TGRS.2004.837324
+   Foody GM, 2005, INT J REMOTE SENS, V26, P5381, DOI 10.1080/01431160500213292
+   Foody GM, 1996, INT J REMOTE SENS, V17, P1317, DOI 10.1080/01431169608948706
+   FOODY GM, 1994, INT J REMOTE SENS, V15, P619, DOI 10.1080/01431169408954100
+   Genitha C. Heltin, 2010, 2010 RECENT ADVANCES IN SPACE TECHNOLOGY SERVICES AND CLIMATE CHANGE (RSTSCC), V0, PP114, DOI 10.1109/RSTSCC.2010.5712813
+   Goel MK, 2002, HYDROLOG SCI J, V47, PS81, DOI 10.1080/02626660209493024
+   Heller R. C., 1979, PHOTOGRAMMETRIC ENG, V57, P119
+   Holland J, 2013, ISPRS J PHOTOGRAMM, V75, P48, DOI 10.1016/j.isprsjprs.2012.10.002
+   Hung MC, 2005, INT J REMOTE SENS, V26, P1815, DOI 10.1080/0143116042000298324
+   Jensen JR, 1999, PHOTOGRAMM ENG REM S, V65, P611
+   Jensen R., 1996, INTRO DIGITAL IMAGE, V0, P0
+   Jeyakanthan VS, 2011, GEOCARTO INT, V26, P305, DOI 10.1080/10106049.2011.556755
+   KEENE KM, 1980, ENVIRON GEOL, V3, P107, DOI 10.1007/BF02473477
+   Lunetta R., 1999, PHOTOGRAMMETRIC ENG, V45, P1379
+   Magendran T, 2014, INT J APPL EARTH OBS, V26, P413, DOI 10.1016/j.jag.2013.09.004
+   MANAVALAN P, 1993, PHOTOGRAMM ENG REM S, V59, P1389
+   Mas JF, 1999, INT J REMOTE SENS, V20, P139, DOI 10.1080/014311699213659
+   Mertens KC, 2003, INT J REMOTE SENS, V24, P4241, DOI 10.1080/01431160310001595073
+   Muad AM, 2012, INT J APPL EARTH OBS, V15, P79, DOI 10.1016/j.jag.2011.06.002
+   Muslim A. M., 2011, ISPRS P, V0, P34
+   Nguyen MQ, 2006, IEEE T GEOSCI REMOTE, V44, P736, DOI 10.1109/TGRS.2005.861752
+   NRSA (National Remote Sensing Agency) Data Center, 2004, IRSPNRSANDCHB0104, V0, P22
+   OLESON KW, 1995, REMOTE SENS ENVIRON, V54, P98, DOI 10.1016/0034-4257(95)00100-F
+   Peng DZ, 2006, J HYDROL ENG, V11, P165, DOI 10.1061/(ASCE)1084-0699(2006)11:2(165)
+   Ramsey EW, 1997, J COASTAL RES, V13, P281
+   RIDD MK, 1995, INT J REMOTE SENS, V16, P2165, DOI 10.1080/01431169508954549
+   Sanjeevi S., 2008, INT ARCH PHOTOGRAMM, V37, P1189
+   Schowengerdt R. A., 1997, REMOTE SENSING MODEL, V0, P0
+   SETTLE JJ, 1993, INT J REMOTE SENS, V14, P1159, DOI 10.1080/01431169308904402
+   Shalan MA, 2003, INT J REMOTE SENS, V24, P3179, DOI 10.1080/0143116031000094791
+   Taha LGE, 2010, APPL GEOMAT, V2, P177, DOI 10.1007/s12518-010-0033-x
+   Tatem AJ, 2002, REMOTE SENS ENVIRON, V79, P1, DOI 10.1016/S0034-4257(01)00229-2
+   VANDERMEER F, 1995, INT J REMOTE SENS, V16, P3189, DOI 10.1080/01431169508954622
+   Yuan D, 1998, REMOTE SENS ENVIRON, V66, P166, DOI 10.1016/S0034-4257(98)00068-6
+   Zhang J, 2001, INT J REMOTE SENS, V22, P615, DOI 10.1080/01431160050505883
+NR 39
+TC 3
+Z9 3
+U1 0
+U2 6
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 0255-660X
+EI 0974-3006
+J9 J INDIAN SOC REMOTE
+JI J. Indian Soc. Remote Sens.
+PD JAN 15
+PY 2018
+VL 46
+IS 1
+BP 121
+EP 130
+DI 10.1007/s12524-017-0666-x
+PG 10
+WC Environmental Sciences; Remote Sensing
+SC Environmental Sciences & Ecology; Remote Sensing
+GA FT8LR
+UT WOS:000423404800013
+DA 2023-04-26
+ER
+
+PT J
+AU Ngo, PTT
+   Hoang, ND
+   Pradhan, B
+   Nguyen, QK
+   Tran, XT
+   Nguyen, QM
+   Nguyen, VN
+   Samui, P
+   Bui, DT
+AF Phuong-Thao Thi Ngo
+   Nhat-Duc Hoang
+   Pradhan, Biswajeet
+   Quang Khanh Nguyen
+   Xuan Truong Tran
+   Quang Minh Nguyen
+   Viet Nghia Nguyen
+   Samui, Pijush
+   Bui, Dieu Tien
+TI A Novel Hybrid Swarm Optimized Multilayer Neural Network for Spatial Prediction of Flash Floods in Tropical Areas Using Sentinel-1 SAR Imagery and Geospatial Data
+SO SENSORS
+LA English
+DT Article
+DE flash floods; Sentinel-1; GIS; artificial neural network; firefly algorithm; Levenberg-Marquardt backpropagation
+ID support vector machine; artificial-intelligence approach; fisher discriminant-analysis; weights-of-evidence; susceptibility assessment; logistic-regression; frequency ratio; statistical-models; firefly algorithm; random-forest
+AB Flash floods are widely recognized as one of the most devastating natural hazards in the world, therefore prediction of flash flood-prone areas is crucial for public safety and emergency management. This research proposes a new methodology for spatial prediction of flash floods based on Sentinel-1 SAR imagery and a new hybrid machine learning technique. The SAR imagery is used to detect flash flood inundation areas, whereas the new machine learning technique, which is a hybrid of the firefly algorithm (FA), Levenberg-Marquardt (LM) backpropagation, and an artificial neural network (named as FA-LM-ANN), was used to construct the prediction model. The Bac Ha Bao Yen (BHBY) area in the northwestern region of Vietnam was used as a case study. Accordingly, a Geographical Information System (GIS) database was constructed using 12 input variables (elevation, slope, aspect, curvature, topographic wetness index, stream power index, toposhade, stream density, rainfall, normalized difference vegetation index, soil type, and lithology) and subsequently the output of flood inundation areas was mapped. Using the database and FA-LM-ANN, the flash flood model was trained and verified. The model performance was validated via various performance metrics including the classification accuracy rate, the area under the curve, precision, and recall. Then, the flash flood model that produced the highest performance was compared with benchmarks, indicating that the combination of FA and LM backpropagation is proven to be very effective and the proposed FA-LM-ANN is a new and useful tool for predicting flash flood susceptibility.
+C1 [Phuong-Thao Thi Ngo; Quang Khanh Nguyen] Hanoi Univ Min & Geol, Fac Informat Technol, 18 Pho Vien, Hanoi 10000, Vietnam.
+   [Nhat-Duc Hoang] Duy Tan Univ, Inst Res & Dev, Fac Civil Engn, Da Nang 550000, Vietnam.
+   [Pradhan, Biswajeet] Univ Technol Sydney, Fac Engn & IT, CAMGIS, Sydney, NSW 2007, Australia.
+   [Pradhan, Biswajeet] Sejong Univ, Dept Energy & Mineral Resources Engn, 209 Neungdong Ro, Seoul 05006, South Korea.
+   [Xuan Truong Tran; Quang Minh Nguyen; Viet Nghia Nguyen] Hanoi Univ Min & Geol, Fac Geomat & Land Adm, 18 Pho Vien, Hanoi 10000, Vietnam.
+   [Samui, Pijush] Ton Duc Thang Univ, Geog Informat Sci Res Grp, Ho Chi Minh City 700000, Vietnam.
+   [Samui, Pijush] Ton Duc Thang Univ, Fac Environm & Labour Safety, Ho Chi Minh City 700000, Vietnam.
+   [Bui, Dieu Tien] Univ South Eastern Norway, Dept Business & IT, Geog Informat Syst Grp, N-3800 Bo I Telemark, Norway.
+C3 Hanoi University of Mining & Geology; Duy Tan University; University of Technology Sydney; Sejong University; Hanoi University of Mining & Geology; Ton Duc Thang University; Ton Duc Thang University
+RP Samui, P (corresponding author), Ton Duc Thang Univ, Geog Informat Sci Res Grp, Ho Chi Minh City 700000, Vietnam.; Samui, P (corresponding author), Ton Duc Thang Univ, Fac Environm & Labour Safety, Ho Chi Minh City 700000, Vietnam.
+FU Ministry of Education and Training of Vietnam [B2018-MDA-18DT]
+CR Abderrezzak KE, 2009, NAT HAZARDS, V50, P433, DOI 10.1007/s11069-008-9300-0
+   Aditian A, 2018, GEOMORPHOLOGY, V318, P101, DOI 10.1016/j.geomorph.2018.06.006
+   Ahmadlou M, 2019, GEOCARTO INT, V34, P1252, DOI 10.1080/10106049.2018.1474276
+   Ahmed N., 2018, ADV DATA INFORM SCI, V0, P361
+   Al-Abadi AM, 2018, ARAB J GEOSCI, V11, P0, DOI 10.1007/s12517-018-3584-5
+   Amitrano D, 2018, IEEE T GEOSCI REMOTE, V56, P3290, DOI 10.1109/TGRS.2018.2797536
+   Archer DR, 2018, J FLOOD RISK MANAG, V11, PS121, DOI 10.1111/jfr3.12187
+   Asencio-Cortes G, 2017, NEURAL COMPUT APPL, V28, P1043, DOI 10.1007/s00521-015-2121-7
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Bai SB, 2010, GEOMORPHOLOGY, V115, P23, DOI 10.1016/j.geomorph.2009.09.025
+   Basheer IA, 2000, J MICROBIOL METH, V43, P3, DOI 10.1016/S0167-7012(00)00201-3
+   Beale MH, 2018, NEURAL NETWORK TOOLB, V0, P0
+   Bednarik M, 2010, PHYS CHEM EARTH, V35, P162, DOI 10.1016/j.pce.2009.12.002
+   Pham BT, 2017, THEOR APPL CLIMATOL, V128, P255, DOI 10.1007/s00704-015-1702-9
+   Borga M, 2011, ENVIRON SCI POLICY, V14, P834, DOI 10.1016/j.envsci.2011.05.017
+   Chapi K, 2017, ENVIRON MODELL SOFTW, V95, P229, DOI 10.1016/j.envsoft.2017.06.012
+   Chen W, 2017, CATENA, V151, P147, DOI 10.1016/j.catena.2016.11.032
+   Cheng M. Y., 2017, NEURAL COMPUT APPL, V0, P0
+   Clement MA, 2018, J FLOOD RISK MANAG, V11, P152, DOI 10.1111/jfr3.12303
+   Bui DK, 2018, CONSTR BUILD MATER, V180, P320, DOI 10.1016/j.conbuildmat.2018.05.201
+   Dai KR, 2016, REMOTE SENS ENVIRON, V186, P501, DOI 10.1016/j.rse.2016.09.009
+   Bui DT, 2017, GEOSCI MODEL DEV, V10, P3391, DOI 10.5194/gmd-10-3391-2017
+   Bui DT, 2016, J HYDROL, V540, P317, DOI 10.1016/j.jhydrol.2016.06.027
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Dudley JJ, 2018, ACM T INTERACT INTEL, V8, P0, DOI 10.1145/3185517
+   Faccini F, 2015, ENGINEERING GEOLOGY FOR SOCIETY AND TERRITORY, VOL 5: URBAN GEOLOGY, P0
+   Faris H, 2018, APPL INTELL, V48, P445, DOI 10.1007/s10489-017-0967-3
+   Fister I, 2013, SWARM EVOL COMPUT, V13, P34, DOI 10.1016/j.swevo.2013.06.001
+   Ghasemiyeh R, 2017, CYBERNET SYST, V48, P365, DOI 10.1080/01969722.2017.1285162
+   Gourley JJ, 2017, B AM METEOROL SOC, V98, P361, DOI 10.1175/BAMS-D-15-00247.1
+   GSO, 2017, LAO C STAT YB 2016, V0, P0
+   Hacibeyoglu M, 2018, SCI PROGRAMMING-NETH, V2018, P0, DOI 10.1155/2018/1435810
+   HAGAN MT, 1994, IEEE T NEURAL NETWOR, V5, P989, DOI 10.1109/72.329697
+   He BS, 2018, NAT HAZARDS, V90, P407, DOI 10.1007/s11069-017-3052-7
+   Heaton J., 2008, INTRO NEURAL NETWORK, V0, P0
+   Hoang N. D., 2017, ADV APPL GEOSPATIAL, V0, P239
+   Hong HY, 2018, CATENA, V163, P399, DOI 10.1016/j.catena.2018.01.005
+   Hong HY, 2018, SCI TOTAL ENVIRON, V621, P1124, DOI 10.1016/j.scitotenv.2017.10.114
+   Nguyen HQ, 2015, HYDROLOGY-BASEL, V2, P242, DOI 10.3390/hydrology2040242
+   Hou L, 2017, J COMPUT CIVIL ENG, V31, P0, DOI 10.1061/(ASCE)CP.1943-5487.0000639
+   Jaddi NS, 2018, ENG APPL ARTIF INTEL, V67, P246, DOI 10.1016/j.engappai.2017.09.012
+   Kalantar B, 2018, GEOMAT NAT HAZ RISK, V9, P49, DOI 10.1080/19475705.2017.1407368
+   Khosravi K, 2018, SCI TOTAL ENVIRON, V627, P744, DOI 10.1016/j.scitotenv.2018.01.266
+   Khosravi K, 2016, NAT HAZARDS, V83, P947, DOI 10.1007/s11069-016-2357-2
+   Kuok K. K., 2018, J WATER CLIM CHANG, V0, P0
+   LEE JS, 1980, IEEE T PATTERN ANAL, V2, P165, DOI 10.1109/TPAMI.1980.4766994
+   Lee S, 2017, GEOMAT NAT HAZ RISK, V8, P1185, DOI 10.1080/19475705.2017.1308971
+   Li H, 2017, CATALYSTS, V7, P0, DOI 10.3390/catal7100306
+   Li YQ, 2018, IMMS 2019: 2019 2ND INTERNATIONAL CONFERENCE ON INFORMATION MANAGEMENT AND MANAGEMENT SCIENCES, V0, PP123, DOI 10.1145/3357292.3357320
+   Liu WC, 2011, NAT HAZARDS, V58, P1057, DOI 10.1007/s11069-010-9711-6
+   Lucia A, 2018, SCI TOTAL ENVIRON, V640, P315, DOI 10.1016/j.scitotenv.2018.05.186
+   Martinez-Alvarez F, 2013, KNOWL-BASED SYST, V50, P198, DOI 10.1016/j.knosys.2013.06.011
+   Martinovic K, 2016, ENG GEOL, V215, P1, DOI 10.1016/j.enggeo.2016.10.011
+   Matwork, 2017, STAT MACH LEARN TOOL, V0, P0
+   Montavon G., 2012, NEURAL NETWORKS TRIC, V0, P0
+   Nandi A, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5323-0
+   NationalWeather Service (NWS), 2018, WHAT IS FLASH FLOOD, V0, P0
+   Hoang ND, 2018, B ENG GEOL ENVIRON, V77, P191, DOI 10.1007/s10064-016-0924-0
+   Ojha VK, 2017, ENG APPL ARTIF INTEL, V60, P97, DOI 10.1016/j.engappai.2017.01.013
+   Papagiannaki K, 2017, SPRINGER ATMOS SCI, V0, PP217, DOI 10.1007/978-3-319-35095-0_31
+   Pham B.T, 2018, B ENG GEOL ENV, V0, P0
+   Qi CC, 2018, J COMPUT CIVIL ENG, V32, P0, DOI 10.1061/(ASCE)CP.1943-5487.0000779
+   Le TPQ, 2007, J HYDROL, V334, P199, DOI 10.1016/j.jhydrol.2006.10.020
+   Rahmati O, 2017, WATER RESOUR MANAG, V31, P1473, DOI 10.1007/s11269-017-1589-6
+   Reyes J, 2013, APPL SOFT COMPUT, V13, P1314, DOI 10.1016/j.asoc.2012.10.014
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Sachdeva S., 2017, P 2017 8 INT C COMP, V0, P1
+   Sahoo GB, 2006, J HYDROL, V327, P525, DOI 10.1016/j.jhydrol.2005.11.059
+   Satir O, 2016, GEOMAT NAT HAZ RISK, V7, P1645, DOI 10.1080/19475705.2015.1084541
+   Shafizadeh-Moghadam H, 2018, J ENVIRON MANAGE, V217, P1, DOI 10.1016/j.jenvman.2018.03.089
+   Siahkamari S, 2018, GEOCARTO INT, V33, P927, DOI 10.1080/10106049.2017.1316780
+   Soodi HA, 2018, COMPUT INTEL NEUROSC, V2018, P0, DOI 10.1155/2018/6381610
+   Tehrany MS, 2015, CATENA, V125, P91, DOI 10.1016/j.catena.2014.10.017
+   Tehrany MS, 2014, J HYDROL, V512, P332, DOI 10.1016/j.jhydrol.2014.03.008
+   Termeh SVR, 2018, SCI TOTAL ENVIRON, V615, P438, DOI 10.1016/j.scitotenv.2017.09.262
+   Tran TH, 2016, J COMPUT CIVIL ENG, V30, P0, DOI 10.1061/(ASCE)CP.1943-5487.0000599
+   Tilahun SL, 2017, ARTIF INTELL REV, V0, P0
+   Twele A, 2016, INT J REMOTE SENS, V37, P2990, DOI 10.1080/01431161.2016.1192304
+   Tzavella K, 2018, NAT HAZARDS, V91, PS29, DOI 10.1007/s11069-017-3102-1
+   van Erkel AR, 1998, EUR J RADIOL, V27, P88, DOI 10.1016/S0720-048X(97)00157-5
+   Volkmann THM, 2010, WATER RESOUR RES, V46, P0, DOI 10.1029/2010WR009145
+   Wang DY, 2017, APPL ENERG, V190, P390, DOI 10.1016/j.apenergy.2016.12.134
+   Woodruff SC, 2019, MITIG ADAPT STRAT GL, V24, P53, DOI 10.1007/s11027-018-9794-z
+   Yaghini M, 2013, ENG APPL ARTIF INTEL, V26, P293, DOI 10.1016/j.engappai.2012.01.023
+   Yang XS, 2010, INT J BIO-INSPIR COM, V2, P78, DOI 10.1504/IJBIC.2010.032124
+   Yang XS, 2009, LECT NOTES COMPUT SC, V5792, P169, DOI 10.1007/978-3-642-04944-6_14
+   Yates DN, 2000, J APPL METEOROL, V39, P815, DOI 10.1175/1520-0450(2000)039<0815:POAFFI>2.0.CO;2
+   Youssef AM, 2011, ENVIRON EARTH SCI, V62, P611, DOI 10.1007/s12665-010-0551-1
+NR 89
+TC 71
+Z9 72
+U1 8
+U2 32
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD NOV 15
+PY 2018
+VL 18
+IS 11
+BP 
+EP 
+DI 10.3390/s18113704
+PG 26
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA HC1YJ
+UT WOS:000451598900114
+PM 30384451
+DA 2023-04-26
+ER
+
+PT J
+AU Li, ZH
+   Chen, GH
+   Peng, BN
+   Zhu, XQ
+AF Li, Zehao
+   Chen, Guanghao
+   Peng, Bingnan
+   Zhu, Xiaoqing
+TI Robot Navigation Method based on Intelligent Evolution
+SO PROCEEDINGS OF 2018 IEEE 4TH INFORMATION TECHNOLOGY AND MECHATRONICS ENGINEERING CONFERENCE (ITOEC 2018)
+LA English
+DT Proceedings Paper
+DE Intelligent Evolution; Maze Path Planning; Map Building; Reinforcement Learning
+AB Robot navigation is important symbol of its intelligent level, especially under dynamic environment. In this paper, a robot navigation method based on intelligent evolution is proposed, and Tolman Mouse Maze Experiment is reproduced by robot rather than mouse. Firstly the topological map of the indoor environment is built by Self-Organizing Map (SOM) method based on random traversal, then the path planning method based on reinforcement learning, during the navigation process, the environment of the maze will change, and the robot can automatically update its topological map according to the environment change by adjusting its neural network structure, so as to reach the goal as soon as possible. The validity of the proposed method is proved by simulation results based on MATLAB and gazebo, moreover physical experiments carried on Turtlebot robot both reproduced Tolman Mouse Maze Experiment, so our intelligent evolution algorithm made robot as clever as animal being able to find the short path to the goal.
+C1 [Li, Zehao] Univ Southern Calif, Comp Sci Dept, Los Angeles, CA 90010 USA.
+   [Chen, Guanghao] Shanghai Normal Univ, Comp Sci & Technol, Shanghai 201418, Peoples R China.
+   [Peng, Bingnan] Northeastern Univ, Software Coll, Shenyang 110169, Liaoning, Peoples R China.
+   [Zhu, Xiaoqing] Beijing Univ Technol, Fac Informat Technol, Beijing 100124, Peoples R China.
+C3 University of Southern California; Shanghai Normal University; Northeastern University - China; Beijing University of Technology
+RP Zhu, XQ (corresponding author), Beijing Univ Technol, Fac Informat Technol, Beijing 100124, Peoples R China.
+EM alex.zhuxq@bjut.edu.cn
+FU Beijing Natural Science Foundation [4174083]; National Natural Science Foundation of China [61773027]; Key Project of S&T Plan of Beijing Municipal Commission of Education [KZ201610005010]
+CR Cappelle C, 2012, J INTELL ROBOT SYST, V66, P377, DOI 10.1007/s10846-011-9594-0
+   Fierro R, 1998, IEEE T NEURAL NETWOR, V9, P589, DOI 10.1109/72.701173
+   Gonzalez D, 2016, IEEE T INTELL TRANSP, V17, P1135, DOI 10.1109/TITS.2015.2498841
+   Karaman S, 2011, INT J ROBOT RES, V30, P846, DOI 10.1177/0278364911406761
+   Kober J, 2013, INT J ROBOT RES, V32, P1238, DOI 10.1177/0278364913495721
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   MARTINETZ TM, 1993, IEEE T NEURAL NETWOR, V4, P558, DOI 10.1109/72.238311
+   [阮晓钢 Ruan Xiaogang], 2010, 控制工程 CONTROL ENGINEERING OF CHINA, V17, P856
+   Thrun S, 1998, ARTIF INTELL, V99, P21, DOI 10.1016/S0004-3702(97)00078-7
+   Vlassis N A, 1998, KOHONENS SELF ORGANI, V0, P0
+   Wang CD, 2009, OPTOELECTRON LETT, V5, P64, DOI 10.1007/s11801-009-8142-7
+   Yan Zhuang, 2005, CONTROL DECISION MAK, V20, P815
+   Yu Naigong, 2011, COMPUTER MEASUREMENT & CONTROL, V19, P2810
+   尹峻松, 2004, 中国科学. E辑 技术科学 SCIENCE IN CHINA, V34, P1094
+NR 14
+TC 1
+Z9 1
+U1 0
+U2 3
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2018
+VL 0
+IS 
+BP 620
+EP 624
+DI 
+PG 5
+WC Automation & Control Systems; Engineering, Electrical & Electronic; Engineering, Mechanical
+SC Automation & Control Systems; Engineering
+GA BO0JU
+UT WOS:000491408500121
+DA 2023-04-26
+ER

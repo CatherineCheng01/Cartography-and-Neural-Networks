@@ -1,0 +1,472 @@
+
+PT J
+AU Li, X
+   Yao, XJ
+   Fang, Y
+AF Li, Xiang
+   Yao, Xiaojing
+   Fang, Yi
+TI Building-A-Nets: Robust Building Extraction From High-Resolution Remote Sensing Images With Adversarial Networks
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Adversarial network; building extraction; fully convolutional DenseNet (FC-DenseNet); remote sensing; structural feature learning
+AB With the proliferation of high-resolution remote sensing sensor and platforms, vast amounts of aerial image data are becoming easily accessed. High-resolution aerial images provide sufficient structural and texture information for image recognition while also raise new challenges for existing segmentation methods. In recent years, deep neural networks have gained much attention in remote sensing field and achieved remarkable performance for high-resolution remote sensing images segmentation. However, there still exists spatial inconsistency problems caused by independently pixelwise classification while ignoring high-order regularities. In this paper, we developed a novel deep adversarial network, named Building-A-Nets, that jointly trains a deep convolutional neural network (generator) and an adversarial discriminator network for the robust segmentation of building rooftops in remote sensing images. More specifically, the generator produces pixelwise image classification map using a fully convolutional DenseNet model, whereas the discriminator tends to enforce forms of high-order structural features learned from ground-truth label map. The generator and discriminator compete with each other in an adversarial learning process until the equivalence point is reached to produce the optimal segmentation map of building objects. Meanwhile, a soft weight coefficient is adopted to balance the operation of the pixelwise classification and high-order structural feature learning. Experimental results show that our Building-A-Net can successfully detect and rectify spatial inconsistency on aerial images while archiving superior performances compared to other state-of-the-art building extraction methods.
+C1 [Li, Xiang; Yao, Xiaojing] Chinese Acad Sci, Inst Remote Sensing & Digital Earth, Beijing 100094, Peoples R China.
+   [Li, Xiang; Fang, Yi] NYU, Dept Elect & Comp Engn, Brooklyn, NY 11201 USA.
+   [Fang, Yi] New York Univ Abu Dhabi, Dept Elect & Comp Engn, Abu Dhabi 129188, U Arab Emirates.
+C3 Chinese Academy of Sciences; The Institute of Remote Sensing & Digital Earth, CAS; New York University; New York University Tandon School of Engineering
+RP Fang, Y (corresponding author), NYU, Dept Elect & Comp Engn, Brooklyn, NY 11201 USA.; Fang, Y (corresponding author), New York Univ Abu Dhabi, Dept Elect & Comp Engn, Abu Dhabi 129188, U Arab Emirates.
+EM xl1845@nyu.edu; yaoxj@radi.ac.cn; yfang@nyu.edu
+FU Jiangsu Province Geographic Information Research Project [JSCHKY201720]; National Science technology Support Plan Project of China [2015BAJ02B00]; China Scholarship Council [201704910704]
+CR Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   Arjovsky M., 2017, ARXIV170107875, V0, P0
+   Arnab A, 2016, LECT NOTES COMPUT SC, V9906, P524, DOI 10.1007/978-3-319-46475-6_33
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Barbu A, 2009, IEEE T IMAGE PROCESS, V18, P2451, DOI 10.1109/TIP.2009.2028254
+   Berthelot D., 2017, ARXIV170310717, V0, P0
+   Bischke B., 2017, ARXIV170905932, V0, P0
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Csurka G, 2013, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2013, V0, P0, DOI DOI 10.5244/C.27.32
+   Fulkerson B, 2009, IEEE I CONF COMP VIS, V0, P670
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   HUANG G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Jegou S, 2017, IEEE COMPUT SOC CONF, V0, PP1175, DOI 10.1109/CVPRW.2017.156
+   Khalel A., 2018, ARXIV180304953, V0, P0
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krahenbuhl P., 2011, P ADV NEUR INF PROC, V0, P109
+   Ladicky L, 2009, IEEE I CONF COMP VIS, V0, PP739, DOI 10.1109/ICCV.2009.5459248
+   Lin GS, 2017, PROC CVPR IEEE, V0, PP5168, DOI 10.1109/CVPR.2017.549
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Luc P., 2016, ARXIV161108408, V0, P0
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Mnih V., 2013, MACHINE LEARNING AER, V0, P0
+   Mottaghi R, 2014, PROC CVPR IEEE, V0, PP891, DOI 10.1109/CVPR.2014.119
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Saito S, 2016, J IMAGING SCI TECHN, V60, P0, DOI 10.2352/J.ImagingSci.Technol.2016.60.1.010402
+   Szegedy, 2014, INTRIGUING PROPERTIE, V0, P0, DOI DOI 10.1109/CVPR.2015.7298594
+   Tielemanm T., 2012, COURSERA NEURAL NETW, V0, P0
+   Verbeek J., 2008, P ADV NEURAL INF PRO, V0, P1553
+   Visin F, 2016, IEEE COMPUT SOC CONF, V0, PP426, DOI 10.1109/CVPRW.2016.60
+   Yu F., 2016, INT C LEARN REPR ICL, V0, P1
+   Zhao J, 2016, 2016 IEEE MTT-S INTERNATIONAL WIRELESS SYMPOSIUM (IWS), V0, P0, DOI DOI 10.1109/ICSSSM.2016.7538614
+   Zheng S, 2015, IEEE I CONF COMP VIS, V0, PP1529, DOI 10.1109/ICCV.2015.179
+   Zhong ZL, 2016, INT GEOSCI REMOTE SE, V0, PP1591, DOI 10.1109/IGARSS.2016.7729406
+   Zuo T., 2016, PROC ASIAN C COMPUT, V0, P291
+NR 36
+TC 56
+Z9 56
+U1 4
+U2 44
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD OCT 15
+PY 2018
+VL 11
+IS 10
+BP 3680
+EP 3687
+DI 10.1109/JSTARS.2018.2865187
+PG 8
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA GX7KV
+UT WOS:000447950200025
+DA 2023-04-26
+ER
+
+PT J
+AU Li, Z
+   Luo, LG
+   Liu, YD
+   Sheng, GH
+   Jiang, XC
+AF Li, Zhen
+   Luo, Lingen
+   Liu, Yadong
+   Sheng, Gehao
+   Jiang, Xiuchen
+TI UHF Partial Discharge Localization Algorithm Based on Compressed Sensing
+SO IEEE TRANSACTIONS ON DIELECTRICS AND ELECTRICAL INSULATION
+LA English
+DT Article
+DE Partial discharge; RSSI; fingerprint; compressed sensing; PSO; BP neural network
+ID signal recovery; power transformers; sparsity; pursuit
+AB Partial discharge (PD) localization is an effective way to detect the insulation problem of power equipment. Considering the environmental adaptability and low hardware cost, a novel ultrahigh frequency (UHF) PD localization algorithm based on received signal strength indication (RSSI) fingerprint is proposed. The methodology includes two stages: in the offline, the RSSI fingerprint map is established by filed test and the BP neural network is trained. Particle swarm optimization (PSO) algorithm is also adopted to choose the initial weight of the BP neural network. In the online stage, the PD sources localization which consists of two steps is deployed. Firstly, a preliminary localization achieved by trained BP neural network. Secondly, more accurate localization result is obtained using compressive sensing (CS) algorithm. Furthermore, since the UHF signal is sensitive to the layouts change of detection area, it is necessary to update the fingerprint map timely from practical application point of view, which is also a time-consuming process. To reduce the workload of fingerprint map updating, a reconstruction algorithm based on CS theory is proposed, by which the fingerprint map can be rebuilt by only a subset of original fingerprint data. A filed experiment in the substation is performed and the results show that, the average localization error of the CS algorithm is 0.89 meter and 90.4% localization errors are less than 2 meters. The results proved the accuracy and effectiveness of our proposed localization algorithm.
+C1 [Li, Zhen; Luo, Lingen; Liu, Yadong; Sheng, Gehao; Jiang, Xiuchen] Shanghai Jiao Tong Univ, Dept Elect Engn, Shanghai, Peoples R China.
+C3 Shanghai Jiao Tong University
+RP Li, Z (corresponding author), Shanghai Jiao Tong Univ, Dept Elect Engn, Shanghai, Peoples R China.
+FU National Natural Science Foundation of China [51477100]; national basic research program of China (973 program) [2014CB239506]; science and technology project of state grid corporation in China
+CR Abd Rahman MS, 2016, IEEE T DIELECT EL IN, V23, P1088, DOI 10.1109/TDEI.2015.005070
+   Akl A, 2010, INT CONF ACOUST SPEE, V0, PP2270, DOI 10.1109/ICASSP.2010.5495895
+   Baraniuk R, 2008, CONSTR APPROX, V28, P253, DOI 10.1007/s00365-007-9003-x
+   Baraniuk RG, 2007, IEEE SIGNAL PROC MAG, V24, P118, DOI 10.1109/MSP.2007.4286571
+   Candes E.J., 2006, COMMUN PURE APPL MAT, V59, P410
+   Candes E.J., 2008, CR MATH, V346, P592
+   Candes EJ, 2006, IEEE T INFORM THEORY, V52, P489, DOI 10.1109/TIT.2005.862083
+   Candes E, 2007, INVERSE PROBL, V23, P969, DOI 10.1088/0266-5611/23/3/008
+   Candes EJ, 2008, IEEE SIGNAL PROC MAG, V25, P21, DOI 10.1109/MSP.2007.914731
+   Candes EJ, 2006, IEEE T INFORM THEORY, V52, P5406, DOI 10.1109/TIT.2006.885507
+   Candes EJ, 2008, J FOURIER ANAL APPL, V14, P877, DOI 10.1007/s00041-008-9045-x
+   Chen S., 2001, SIAM J SCI COMPUT, V58, P33, DOI 10.1137/51064827596304010
+   Ding GM, 2013, 2013 5TH IEEE INTERNATIONAL SYMPOSIUM ON MICROWAVE, V0, PROPAGATION AND EMC TECHNOLOGIES FOR WIRELESS COMMUNICATIONS (MAPE)
+   Donoho DL, 2006, IEEE T INFORM THEORY, V52, P1289, DOI 10.1109/TIT.2006.871582
+   Figueiredo MAT, 2007, IEEE J-STSP, V1, P586, DOI 10.1109/JSTSP.2007.910281
+   Hou HJ, 2015, IEEE T POWER DELIVER, V30, P472, DOI 10.1109/TPWRD.2014.2344014
+   Hu Quan-wei, 2011, 2011 1ST INTERNATIONAL CONFERENCE ON ELECTRIC POWER EQUIPMENT - SWITCHING TECHNOLOGY, V0, PP513, DOI 10.1109/ICEPE-ST.2011.6123042
+   Iorkyase E. T., 2015, LOUGHB ANT PROP C UK, V0, P1
+   Li DX, 2016, I C COMM SOFTW NET, V0, PP298, DOI 10.1109/ICCSN.2016.7586668
+   Mirzaei HR, 2015, IEEE T DIELECT EL IN, V22, P448, DOI 10.1109/TDEI.2014.004249
+   Mirzaei HR, 2013, IEEE ELECTR INSUL M, V29, P26, DOI 10.1109/MEI.2013.6457597
+   Mor AR, 2016, IEEE T DIELECT EL IN, V23, P428, DOI 10.1109/TDEI.2015.005395
+   Needell D, 2009, APPL COMPUT HARMON A, V26, P301, DOI 10.1016/j.acha.2008.07.002
+   Rahman MS, 2012, ARAB J SCI ENG, V37, P1043, DOI 10.1007/s13369-012-0218-1
+   Ray A, 2015, IEEE T INFORM THEORY, V61, P3457, DOI 10.1109/TIT.2015.2427354
+   Romberg J, 2008, IEEE SIGNAL PROC MAG, V25, P14, DOI 10.1109/MSP.2007.914729
+   Sinaga HH, 2012, IEEE T DIELECT EL IN, V19, P1891, DOI 10.1109/TDEI.2012.6396945
+   Tropp JA, 2007, IEEE T INFORM THEORY, V53, P4655, DOI 10.1109/TIT.2007.909108
+   Tsaig Y, 2006, SIGNAL PROCESS, V86, P549, DOI 10.1016/j.sigpro.2005.05.029
+   Varadarajan B, 2011, IEEE SIGNAL PROC LET, V18, P27, DOI 10.1109/LSP.2010.2090143
+   Yaacob MM, 2014, PHOTONIC SENS, V4, P325, DOI 10.1007/s13320-014-0146-7
+   Youssef M, 2008, WIREL NETW, V14, P357, DOI 10.1007/s11276-006-0725-7
+   Zhang RB, 2011, AEU-INT J ELECTRON C, V65, P1023, DOI 10.1016/j.aeue.2011.03.019
+   Zhang Y, 2013, J OPER RES SOC CHINA, V1, P79, DOI 10.1007/s40305-013-0010-2
+NR 34
+TC 22
+Z9 22
+U1 0
+U2 13
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1070-9878
+EI 1558-4135
+J9 IEEE T DIELECT EL IN
+JI IEEE Trns. Dielectr. Electr. Insul.
+PD FEB 15
+PY 2018
+VL 25
+IS 1
+BP 21
+EP 29
+DI 10.1109/TDEI.2018.006611
+PG 9
+WC Engineering, Electrical & Electronic; Physics, Applied
+SC Engineering; Physics
+GA FZ5NR
+UT WOS:000427641500004
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, S
+   Quan, D
+   Liang, XF
+   Ning, MD
+   Guo, YH
+   Jiao, LC
+AF Wang, Shuang
+   Quan, Dou
+   Liang, Xuefeng
+   Ning, Mengdan
+   Guo, Yanhe
+   Jiao, Licheng
+TI A deep learning framework for remote sensing image registration
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep neural network; Image registration; Remote sensing image; Self-learning; Transfer learning
+ID sample consensus; neural-networks; algorithm; features; sift; representations
+AB We propose an effective deep neural network aiming at remote sensing image registration problem. Unlike conventional methods doing feature extraction and feature matching separately, we pair patches from sensed and reference images, and then learn the mapping directly between these patch-pairs and their matching labels for later registration. This end-to-end architecture allows us to optimize the whole processing (learning mapping function) through information feedback when training the network, which is lacking in conventional methods. In addition, to alleviate the small data issue of remote sensing images for training, our proposal introduces a self-learning by learning the mapping function using images and their transformed copies. Moreover, we apply a transfer learning to reduce the huge computation cost in the training stage. It does not only speed up our framework, but also get extra performance gains. The comprehensive experiments conducted on seven sets of remote sensing images, acquired by Radarsat, SPOT and Landsat, show that our proposal improves the registration accuracy up to 2.4-53.7%. (C) 2017 International Society for Photogrammetry and Remote Sensing, Inc. (ISPRS). Published by Elsevier B.V. All rights reserved.
+C1 [Wang, Shuang; Quan, Dou; Ning, Mengdan; Guo, Yanhe; Jiao, Licheng] Xidian Univ, Int Res Ctr Intelligent Percept & Computat, Minist Educ, Key Lab Intelligent Percept & Image Understanding, Xian 710071, Shaanxi, Peoples R China.
+   [Liang, Xuefeng] Kyoto Univ, Grad Sch Informat, IST, Kyoto, Japan.
+C3 Xidian University; Kyoto University
+RP Liang, XF (corresponding author), Kyoto Univ, Grad Sch Informat, IST, Kyoto, Japan.
+EM shwang.xd@gmail.com; xliang@i.kyoto-u.ac.jp
+FU National Science Foundation of China [61771379]; National Basic Research Program (973 Program) of China [2013CB329402]; Fund for Foreign Scholars in University Research and Teaching Programs (the 111 Project) [B07048]; Program for Cheung Kong Scholars and Innovative Research Team in University [IRT_15R53]; JSPS [15K00236]; National Natural Science Foundation of China [61571342]; Grants-in-Aid for Scientific Research [15K00236] Funding Source: KAKEN
+CR [Anonymous], 2014, NIPS, V0, P0
+   Bay H, 2008, COMPUT VIS IMAGE UND, V110, P346, DOI 10.1016/j.cviu.2007.09.014
+   Bengio Y, 2009, FOUND TRENDS MACH LE, V2, P1, DOI 10.1561/2200000006
+   Cheng G, 2016, PROC CVPR IEEE, V0, PP2884, DOI 10.1109/CVPR.2016.315
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Cheng G, 2015, IEEE T GEOSCI REMOTE, V53, P4238, DOI 10.1109/TGRS.2015.2393857
+   Dellinger F, 2015, IEEE T GEOSCI REMOTE, V53, P453, DOI 10.1109/TGRS.2014.2323552
+   Erhan D, 2010, J MACH LEARN RES, V11, P625
+   Fan B, 2013, IEEE GEOSCI REMOTE S, V10, P657, DOI 10.1109/LGRS.2012.2216500
+   Fan JW, 2015, IEEE GEOSCI REMOTE S, V12, P562, DOI 10.1109/LGRS.2014.2351396
+   Farabet C, 2013, IEEE T PATTERN ANAL, V35, P1915, DOI 10.1109/TPAMI.2012.231
+   FISCHLER MA, 1981, COMMUN ACM, V24, P381, DOI 10.1145/358669.358692
+   Goncalves H, 2011, IEEE T GEOSCI REMOTE, V49, P2589, DOI 10.1109/TGRS.2011.2109389
+   Goncalves H, 2009, IEEE GEOSCI REMOTE S, V6, P292, DOI 10.1109/LGRS.2008.2012441
+   Gong MG, 2016, IEEE T NEUR NET LEAR, V27, P125, DOI 10.1109/TNNLS.2015.2435783
+   Gong MG, 2014, IEEE T GEOSCI REMOTE, V52, P4328, DOI 10.1109/TGRS.2013.2281391
+   Graves A, 2013, INT CONF ACOUST SPEE, V0, PP6645, DOI 10.1109/ICASSP.2013.6638947
+   Han JW, 2015, IEEE T GEOSCI REMOTE, V53, P3325, DOI 10.1109/TGRS.2014.2374218
+   Han XF, 2015, PROC CVPR IEEE, V0, PP3279, DOI 10.1109/CVPR.2015.7298948
+   Heo YS, 2009, PROC CVPR IEEE, V0, PP445, DOI 10.1109/CVPRW.2009.5206507
+   Hinton G., 2010, NEURAL NETWORKS TRIC, V9, P1, DOI 10.1007/978-3-642-35289-8_32
+   Hinton GE, 2002, NEURAL COMPUT, V14, P1771, DOI 10.1162/089976602760128018
+   Hinton G, 2012, IEEE SIGNAL PROC MAG, V29, P82, DOI 10.1109/MSP.2012.2205597
+   Hinton GE, 2006, NEURAL COMPUT, V18, P1527, DOI 10.1162/neco.2006.18.7.1527
+   Jacqueline L.M., 2017, IEEE INT GEOSC REM S, V0, P0
+   Kern JP, 2007, IEEE T GEOSCI REMOTE, V45, P1494, DOI 10.1109/TGRS.2007.892599
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kupfer B, 2015, IEEE GEOSCI REMOTE S, V12, P379, DOI 10.1109/LGRS.2014.2343471
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Liang JY, 2014, IEEE T GEOSCI REMOTE, V52, P603, DOI 10.1109/TGRS.2013.2242895
+   Liu J, 2018, IEEE T NEUR NET LEAR, V29, P545, DOI 10.1109/TNNLS.2016.2636227
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Ma JL, 2010, IEEE T GEOSCI REMOTE, V48, P2829, DOI 10.1109/TGRS.2010.2042813
+   Ma WP, 2017, IEEE GEOSCI REMOTE S, V14, P3, DOI 10.1109/LGRS.2016.2600858
+   Ma XR, 2016, ISPRS J PHOTOGRAMM, V120, P99, DOI 10.1016/j.isprsjprs.2016.09.001
+   Maes F, 1997, IEEE T MED IMAGING, V16, P187, DOI 10.1109/42.563664
+   Matas J, 2004, IMAGE VISION COMPUT, V22, P761, DOI 10.1016/j.imavis.2004.02.006
+   Morel JM, 2009, SIAM J IMAGING SCI, V2, P438, DOI 10.1137/080732730
+   Parmehr E.G., 2012, ISPRS ANN PHOTOGRAMM, V7, P301, DOI 10.5194/isprsannals-I-7-303-2012
+   Patel Manish I., 2015, 2015 INTERNATIONAL CONFERENCE ON ADVANCED COMPUTING AND COMMUNICATION SYSTEMS (ICACCS). PROCEEDINGS, V0, PP1, DOI 10.1109/ICACCS.2015.7324130
+   Reddy BS, 1996, IEEE T IMAGE PROCESS, V5, P1266, DOI 10.1109/83.506761
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Romero A, 2016, IEEE T GEOSCI REMOTE, V54, P1349, DOI 10.1109/TGRS.2015.2478379
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Schwind P, 2010, INT J REMOTE SENS, V31, P1959, DOI 10.1080/01431160902927622
+   Scott GJ, 2017, IEEE GEOSCI REMOTE S, V14, P549, DOI 10.1109/LGRS.2017.2657778
+   Sedaghat A, 2011, IEEE T GEOSCI REMOTE, V49, P4516, DOI 10.1109/TGRS.2011.2144607
+   Simo-Serra E, 2015, IEEE I CONF COMP VIS, V0, PP118, DOI 10.1109/ICCV.2015.22
+   Simonyan K, 2015, ARXIV, V0, P0
+   Suri S, 2010, IEEE T GEOSCI REMOTE, V48, P939, DOI 10.1109/TGRS.2009.2034842
+   Triggs, 2005, PROC CVPR IEEE, V1, P886, DOI 10.1109/CVPR.2005.177
+   Vincent P, 2010, J MACH LEARN RES, V11, P3371
+   Wang SH, 2012, IEEE GEOSCI REMOTE S, V9, P649, DOI 10.1109/LGRS.2011.2177437
+   Wu GR, 2016, IEEE T BIO-MED ENG, V63, P1505, DOI 10.1109/TBME.2015.2496253
+   Wu Y, 2015, IEEE GEOSCI REMOTE S, V12, P43, DOI 10.1109/LGRS.2014.2325970
+   Xu C, 2016, INT ARCH PHOTOGRAMM, V41, P593, DOI 10.5194/isprsarchives-XLI-B7-593-2016
+   Xu XC, 2016, ISPRS J PHOTOGRAMM, V122, P97, DOI 10.1016/j.isprsjprs.2016.10.005
+   Yang K, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9060581
+   Yao XW, 2016, IEEE T GEOSCI REMOTE, V54, P3660, DOI 10.1109/TGRS.2016.2523563
+   Ye YX, 2017, IEEE T GEOSCI REMOTE, V55, P2941, DOI 10.1109/TGRS.2017.2656380
+   Ye YX, 2017, IEEE GEOSCI REMOTE S, V14, P564, DOI 10.1109/LGRS.2017.2660067
+   Ye YX, 2014, ISPRS J PHOTOGRAMM, V90, P83, DOI 10.1016/j.isprsjprs.2014.01.009
+   Yuanxin YE, 2016, ISPRS ANN PHOTO REM, V3, P9, DOI 10.5194/isprsannals-III-1-9-2016
+   ZAGORUYKO S, 2015, PROC CVPR IEEE, V0, PP4353, DOI 10.1109/CVPR.2015.7299064
+   Zhang PZ, 2016, ISPRS J PHOTOGRAMM, V116, P24, DOI 10.1016/j.isprsjprs.2016.02.013
+   Zhao WZ, 2016, IEEE T GEOSCI REMOTE, V54, P4544, DOI 10.1109/TGRS.2016.2543748
+   Zhao WZ, 2016, ISPRS J PHOTOGRAMM, V113, P155, DOI 10.1016/j.isprsjprs.2016.01.004
+   Zhou PC, 2016, MULTIDIM SYST SIGN P, V27, P925, DOI 10.1007/s11045-015-0370-3
+   Zitova B, 2003, IMAGE VISION COMPUT, V21, P977, DOI 10.1016/S0262-8856(03)00137-9
+NR 71
+TC 155
+Z9 164
+U1 26
+U2 201
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD NOV 15
+PY 2018
+VL 145
+IS 
+BP 148
+EP 164
+DI 10.1016/j.isprsjprs.2017.12.012
+PG 17
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA GZ1JW
+UT WOS:000449125400010
+DA 2023-04-26
+ER
+
+PT J
+AU Beritelli, F
+   Capizzi, G
+   Lo Sciuto, G
+   Napoli, C
+   Scaglione, F
+AF Beritelli, Francesco
+   Capizzi, Giacomo
+   Lo Sciuto, Grazia
+   Napoli, Chiristian
+   Scaglione, Francesco
+TI Rainfall Estimation Based on the Intensity of the Received Signal in a LTE/4G Mobile Terminal by Using a Probabilistic Neural Network
+SO IEEE ACCESS
+LA English
+DT Article
+DE Feature extraction techniques; LTE; probabilistic neural network; radio signal attenuation; rainfall estimation
+AB Rainfall estimation based on the impact of rain on electromagnetic waves is a novel methodology that has had notable advancements during the last few years. Many studies conducted on this topic in the past considered only the electromagnetic waves with frequencies greater than 10 GHz since the rainfall impact on the electromagnetic wave attenuation is reduced at lower frequencies. Over the last few years, some authors have demonstrated that there can be a non-negligible attenuation even on the signals received on a global system for mobile communications mobile terminal in presence of rain. In this paper, we propose a new classification method based on a probabilistic neural network to obtain an accurate classification between four rainfall intensities (no rain, weak rain, moderate rain, and heavy rain). The innovative rainfall classification method is based on three received signal level (RSL) local features of the 4G/LTE: the instantaneous RSL, the average RSL value, and its variance calculated by using a sliding window. The proposed method exhibits good performance, obtaining an overall correct classification rate of 96.7%. Almost all papers on this topic present in the literature focus on electromagnetic waves with frequencies greater than 10 GHz, in which the rain impact is more relevant, according to the rain attenuation model. However, only the 4G/LTE signal has such widespread geographic coverage, so the proposed classification method can provide noticeable improvements in the creation of rainfall maps with higher spatial resolution.
+C1 [Beritelli, Francesco; Capizzi, Giacomo; Lo Sciuto, Grazia; Scaglione, Francesco] Univ Catania, Dept Elect Elect & Informat Engn, I-95125 Catania, Italy.
+   [Napoli, Chiristian] Univ Catania, Dept Math & Comp Sci, I-95125 Catania, Italy.
+C3 University of Catania; University of Catania
+RP Beritelli, F (corresponding author), Univ Catania, Dept Elect Elect & Informat Engn, I-95125 Catania, Italy.
+EM francesco.beritelli@dieei.unict.it
+CR Ancona F, 1997, NEURAL COMPUT APPL, V5, P152, DOI 10.1007/BF01413860
+   [Anonymous], 2006, MACH LEARN, V0, P0
+   [Anonymous], 2005, P8383 ITUR, V0, P0
+   Barnea SN, 2017, LECT NOTES ARTIF INT, V10246, P378, DOI 10.1007/978-3-319-59060-8_34
+   Beritelli F, 2018, BIOMED ENG LETT, V8, P77, DOI 10.1007/s13534-017-0046-z
+   Beritelli F, 2017, LECT NOTES ARTIF INT, V10314, P505, DOI 10.1007/978-3-319-60840-2_36
+   Bonanno F, 2015, 2015 INTERNATIONAL CONFERENCE ON CLEAN ELECTRICAL POWER (ICCEP), V0, PP602, DOI 10.1109/ICCEP.2015.7177554
+   Brito A., 2016, J COMPUT SCI, V15, P1
+   Cheng L, 2016, IEEE ACCESS, V4, P9978, DOI 10.1109/ACCESS.2016.2639049
+   Cherkassky D, 2014, IEEE T GEOSCI REMOTE, V52, P2350, DOI 10.1109/TGRS.2013.2259832
+   Fang SH, 2016, IEEE T VEH TECHNOL, V65, P6444, DOI 10.1109/TVT.2015.2479591
+   Guo HS, 2016, LECT NOTES COMPUT SC, V9798, P13, DOI 10.1007/978-3-319-42836-9_2
+   Gupta M.M., 2003, STATIC DYNAMIC NEURA, V0, P0
+   Kestwal M. C., 2014, INT J MICROW SCI TEC, V2014, P0, DOI 10.1155/2014/9584982-S2.0-84903647945
+   Kevin S., 2012, FLASH FLOODS FORECAS, V0, P0
+   Kumar V, 2014, INDIAN J SCI TECHNOL, V7, P1183
+   Lazri M, 2018, ATMOS RES, V203, P118, DOI 10.1016/j.atmosres.2017.12.006
+   Lazri M, 2013, ADV SPACE RES, V52, P1450, DOI 10.1016/j.asr.2013.07.036
+   Messer H, 2016, IEEE GLOB CONF SIG, V0, PP1012, DOI 10.1109/GlobalSIP.2016.7905994
+   Ojo J. S., 2008, PROGRESS IN ELECTROMAGNETICS RESEARCH B, V5, P207, DOI 10.2528/PIERB08021201
+   Ostrometzky J, 2014, PR IEEE SEN ARRAY, V0, PP193, DOI 10.1109/SAM.2014.6882373
+   Overeem A, 2013, P NATL ACAD SCI USA, V110, P2741, DOI 10.1073/pnas.1217961110
+   PARZEN E, 1962, ANN MATH STAT, V33, P1065, DOI 10.1214/aoms/1177704472
+   Ripley B. D., 2008, PATTERN RECOGNITION, V0, P0
+   Sharma A., 2010, INT J ADV ENG APPL, V2010, P83
+   SPECHT DF, 1990, NEURAL NETWORKS, V3, P109, DOI 10.1016/0893-6080(90)90049-Q
+   Wang HJ, 2017, IEEE ACCESS, V5, P23157, DOI 10.1109/ACCESS.2017.2749331
+NR 27
+TC 28
+Z9 28
+U1 0
+U2 6
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2018
+VL 6
+IS 
+BP 30865
+EP 30873
+DI 10.1109/ACCESS.2018.2839699
+PG 9
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA GL4BQ
+UT WOS:000437091200001
+DA 2023-04-26
+ER
+
+PT J
+AU Brown, AR
+   Petropoulos, GP
+   Ferentinos, KP
+AF Brown, Alexander R.
+   Petropoulos, George P.
+   Ferentinos, Konstantinos P.
+TI Appraisal of the Sentinel-1 & 2 use in a large-scale wildfire assessment: A case study from Portugal's fires of 2017
+SO APPLIED GEOGRAPHY
+LA English
+DT Article
+DE Sentinel-1; Sentinel-2; Burnt area mapping; Burn severity; RUSLE; Soil erodibility; Support vector machines; Maximum likelihood; Agriculture; Forestry; Earth observation; GIS
+ID burnt area delineation; forest-fire; soil-erosion; classification; severity; imagery; selection; support; mission; msi
+AB The recent launch of Sentinel missions offers a unique opportunity to assess the impacts of wildfires at higher spatial and spectral resolution provided by those Earth Observing (EO) systems. Herein, an assessment of the Sentinel-1 & 2 to map burnt areas has been conducted. Initially the use of Sentinel-2 solely was explored, and then in combination with Sentinel-1 and derived radiometric indices. As a case study, the large wildfire occurred in Pedrogao Grande, Portugal in 2017 was used. Burnt area estimates from the European Forest Fires Information System (EFFIS) were used as reference. Burnt area was delineated using the Maximum Likelihood (MI) and Support Vector Machines (SVMs) classifiers, and two multi-index methods. Following this, burn severity was assessed using SVMs and Artificial Neural Networks (ANNs), again for both standalone Sentinel-2 data and in combination with Sentinel-1 and spectral indices. Soil erosion predictions were evaluated using the Revised Universal Soil Loss Equation (RUSLE) model. The effect of the land cover derived from CORINE operational product was also evaluated across the burnt area and severity maps. SVMs produced the most accurate burnt area map, resulting a 94.8% overall accuracy and a Kappa coefficient of 0.90. SVMs also achieved the highest accuracy in burn severity levels estimation, with an overall accuracy of 77.9% and a kappa of 0.710. From an algorithmic perspective, implementation of the techniques applied herein, is based on EO imagery analysis provided nowadays globally at no cost. It is also robust and adaptable, being potentially integrated with other high EO data available. All in all, our study contributes to the understanding of Mediterranean landscape dynamics and corroborates the usefulness of Sentinels data in wildfire studies.
+C1 [Brown, Alexander R.] Aberystwyth Univ, Dept Geog & Earth Sci, Aberystwyth SY23 3DB, Dyfed, Wales.
+   [Petropoulos, George P.] Hellen Agr Org Demeter, Inst Ind & Forage Crops, Dept Soil & Water Resources, Larisa, Greece.
+   [Ferentinos, Konstantinos P.] Hellen Agr Org Demeter, Inst Soil & Water Resources, Dept Agr Engn, Athens, Greece.
+C3 Aberystwyth University
+RP Petropoulos, GP (corresponding author), Hellen Agr Org Demeter, Inst Ind & Forage Crops, Dept Soil & Water Resources, Larisa, Greece.
+EM petropoulos.george@gmail.com
+FU NERC's Newton Fund RCUK project Towards a Fire Early Warning System for Indonesia (ToFEWSI); FP7-People project ENViSIon-EO [752094]; NERC [NE/P014801/1] Funding Source: UKRI
+CR [Anonymous], 2013, INT J ADV RES COMPUT, V0, P0
+   Chatziantoniou A, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121259
+   Chen W, 2016, GEOMAT NAT HAZ RISK, V7, P384, DOI 10.1080/19475705.2014.925982
+   Colson D, 2018, INT J APPL EARTH OBS, V73, P262, DOI 10.1016/j.jag.2018.06.011
+   De Leeuw J, 2006, INT J REMOTE SENS, V27, P223, DOI 10.1080/01431160500275762
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Elatawneh A, 2014, INT J DIGIT EARTH, V7, P194, DOI 10.1080/17538947.2012.671378
+   Evans A., 2014, EXPLORING POTENTIAL, V0, P0
+   Fernandez C, 2016, ECOL ENG, V87, P132, DOI 10.1016/j.ecoleng.2015.11.047
+   Fernandez-Manso A, 2016, INT J APPL EARTH OBS, V50, P170, DOI 10.1016/j.jag.2016.03.005
+   Fine TL., 2006, FEEDFORWARD NEURAL N, V0, P0
+   Foody GM, 2015, INT GEOSCI REMOTE SE, V0, PP4987, DOI 10.1109/IGARSS.2015.7326952
+   Foody GM, 2002, REMOTE SENS ENVIRON, V80, P185, DOI 10.1016/S0034-4257(01)00295-4
+   Foucher S., 2009, GEOSC REM SENS S JUL, V4, P1
+   Ganteaume A, 2013, FOREST ECOL MANAG, V294, P76, DOI 10.1016/j.foreco.2012.06.055
+   Geudtner D, 2014, INT GEOSCI REMOTE SE, V0, PP1457, DOI 10.1109/IGARSS.2014.6946711
+   Hirschmugl M, 2017, 2017 9TH INTERNATIONAL WORKSHOP ON THE ANALYSIS OF MULTITEMPORAL REMOTE SENSING IMAGES (MULTITEMP), V0, P0
+   Huang HY, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100873
+   Inbar A, 2014, GEODERMA, V221, P131, DOI 10.1016/j.geoderma.2014.01.015
+   INE, 2014, STAT INF PEDR GRAND, V0, P0
+   Ireland G, 2015, APPL GEOGR, V56, P232, DOI 10.1016/j.apgeog.2014.11.016
+   Jones S, 2017, GUARDIAN, V0, P0
+   Kalivas DP, 2013, NONLINEAR PROC GEOPH, V20, P397, DOI 10.5194/npg-20-397-2013
+   Karamesouti M, 2016, GEODERMA, V261, P44, DOI 10.1016/j.geoderma.2015.06.025
+   Kavzoglu T, 2003, INT J REMOTE SENS, V24, P4907, DOI 10.1080/0143116031000114851
+   Lamine S, 2018, GEOCARTO INT, V33, P862, DOI 10.1080/10106049.2017.1307460
+   Lavreniuk M, 2017, 2017 IEEE FIRST UKRAINE CONFERENCE ON ELECTRICAL AND COMPUTER ENGINEERING (UKRCON), V0, PP912, DOI 10.1109/UKRCON.2017.8100381
+   Lillesand T., 2015, REMOTE SENSING IMAGE, V0, P0
+   Liu WL, 2016, NAT HAZARDS, V81, P971, DOI 10.1007/s11069-015-2115-x
+   Lv CS, 2017, I C INTELL COMPUT TE, V0, PP100, DOI 10.1109/ICICTA.2017.29
+   Magesh N. S., 2016, ENVIRON EARTH SCI, V75, P1
+   Malenovsky Z, 2012, REMOTE SENS ENVIRON, V120, P91, DOI 10.1016/j.rse.2011.09.026
+   Markogianni V., 2018, REMOTE SENSING MDPI, V10, P1
+   Marques S, 2011, EUR J FOREST RES, V130, P775, DOI 10.1007/s10342-010-0470-4
+   Moreira A, 2013, IEEE GEOSC REM SEN M, V1, P6, DOI 10.1109/MGRS.2013.2248301
+   Moreira F, 2001, LANDSCAPE ECOL, V16, P557, DOI 10.1023/A:1013130528470
+   Morgan P, 2014, INT J WILDLAND FIRE, V23, P1045, DOI 10.1071/WF13058
+   Navarro G, 2017, INT J APPL EARTH OBS, V58, P97, DOI 10.1016/j.jag.2017.02.003
+   Notarnicola C., 2017, P 2017 9 INT WORKSH, V0, PP1, DOI 10.1109/Multi-Temp.2017.8035225
+   Novelli A, 2016, INT J APPL EARTH OBS, V52, P403, DOI 10.1016/j.jag.2016.07.011
+   Oertel D., 2010, DETECTION MONITORING, V0, P0
+   Oliveira SLJ, 2012, INT J WILDLAND FIRE, V21, P48, DOI 10.1071/WF10131
+   OTSU N, 1979, IEEE T SYST MAN CYB, V9, P62, DOI 10.1109/TSMC.1979.4310076
+   Petropoulos GP, 2012, INT J APPL EARTH OBS, V18, P344, DOI 10.1016/j.jag.2012.02.004
+   Petropoulos GP, 2011, INT J APPL EARTH OBS, V13, P70, DOI 10.1016/j.jag.2010.06.008
+   Petropoulos GP, 2010, SENSORS-BASEL, V10, P1967, DOI 10.3390/s100301967
+   Quintano C, 2013, REMOTE SENS ENVIRON, V136, P76, DOI 10.1016/j.rse.2013.04.017
+   Roy D. P, 2013, FIRE PHENOMENA EARTH, V0, PP77, DOI 10.1002/9781118529539.CH5
+   Running SW, 2006, SCIENCE, V313, P927, DOI 10.1126/science.1130370
+   Said YA, 2015, NAT HAZARDS, V78, P1609, DOI 10.1007/s11069-015-1792-9
+   Sertel E, 2016, GEOMAT NAT HAZ RISK, V7, P1198, DOI 10.1080/19475705.2015.1050608
+   Shahab-UI-Islam, 2017, INT BHURBAN C APPL S, V0, PP795, DOI 10.1109/IBCAST.2017.7868146
+   Srivastava PK, 2012, ADV SPACE RES, V50, P1250, DOI 10.1016/j.asr.2012.06.032
+   Stroppiana D, 2015, REMOTE SENS-BASEL, V7, P1320, DOI 10.3390/rs70201320
+   Vega JA, 2015, ECOL ENG, V74, P206, DOI 10.1016/j.ecoleng.2014.10.019
+   Vhengani L, 2015, INT GEOSCI REMOTE SE, V0, PP4153, DOI 10.1109/IGARSS.2015.7326740
+   Wan-Kadir W. H., 2012, INCREASING ACCURACY, V0, P0
+   Whyte A, 2018, ENVIRON MODELL SOFTW, V104, P40, DOI 10.1016/j.envsoft.2018.01.023
+NR 58
+TC 26
+Z9 27
+U1 0
+U2 28
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0143-6228
+EI 1873-7730
+J9 APPL GEOGR
+JI Appl. Geogr.
+PD NOV 15
+PY 2018
+VL 100
+IS 
+BP 78
+EP 89
+DI 10.1016/j.apgeog.2018.10.004
+PG 12
+WC Geography
+SC Geography
+GA HD5LI
+UT WOS:000452571300008
+DA 2023-04-26
+ER

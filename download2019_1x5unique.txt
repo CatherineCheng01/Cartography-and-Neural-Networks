@@ -1,0 +1,486 @@
+
+PT J
+AU Yue, K
+   Yang, L
+   Li, RR
+   Hu, W
+   Zhang, F
+   Li, W
+AF Yue, Kai
+   Yang, Lei
+   Li, Ruirui
+   Hu, Wei
+   Zhang, Fan
+   Li, Wei
+TI TreeUNet: Adaptive Tree convolutional neural networks for subdecimeter aerial image segmentation
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Aerial imagery; Semantic segmentation; Tree structures; Adaptive network; ISPRS; CNN
+AB Fine-grained semantic segmentation results are typically difficult to obtain for subdecimeter aerial imagery segmentation as a result of complex remote sensing content and optical conditions. Recently, convolutional neural networks (CNNs) have shown outstanding performance on this task. Although many deep neural network structures and techniques have been applied to improve accuracy, few have attended to improving the differentiation of easily confused classes. In this paper, we propose TreeUNet, a tool that uses an adaptive network to increase the classification rate at the pixel level. Specifically, based on a deep semantic model infrastructure, a Tree-CNN block in which each node represents a ResNeXt unit is constructed adaptively in accordance with the confusion matrix and the proposed TreeCutting algorithm. By transmitting feature maps through concatenating connections, the Tree-CNN block fuses multiscale features and learns best weights for the model. In experiments on the ISPRS two-dimensional Vaihingen and Potsdam semantic labelling datasets, the results obtained by TreeUNet are competitive among published state-of-the-art methods. Detailed comparison and analysis show that the improvement brought by the adaptive Tree-CNN block is significant.
+C1 [Yue, Kai; Yang, Lei; Li, Ruirui; Hu, Wei; Zhang, Fan; Li, Wei] Beijing Univ Chem Technol, Beijing, Peoples R China.
+   [Yue, Kai; Yang, Lei; Li, Ruirui; Hu, Wei; Zhang, Fan; Li, Wei] Coll Informat Sci & Technol, North Third Ring Rd 15, Beijing 100029, Peoples R China.
+C3 Beijing University of Chemical Technology
+RP Li, RR (corresponding author), Beijing Univ Chem Technol, Beijing, Peoples R China.
+EM liruirui@mail.buct.edu.cn
+FU National Natural Science Foundation of China [61871413]
+CR Audebert N, 2017, LECT NOTES COMPUTER, V0, P0
+   Audebert N, 2018, ISPRS J PHOTOGRAMM, V140, P20, DOI 10.1016/j.isprsjprs.2017.11.011
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bengio E., 2015, CONDITIONAL COMPUTAT, V0, P0
+   Boykov YY, 2001, EIGHTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, VOL I, PROCEEDINGS
+   Chen L.-C., 2018, LECT NOTES COMPUTER, V0, P0
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Cu WH, 2011, INTELL AUTOM SOFT CO, V17, P969
+   Deng J., 2011, ADV NEURAL INFORM PR, V0, PP567, DOI 10.5555/2986459.2986523
+   Di YA, 2017, INT ARCH PHOTOGRAMM, V42-1, P247, DOI 10.5194/isprs-archives-XLII-1-W1-247-2017
+   Figurnov M, 2017, PROC CVPR IEEE, V0, PP1790, DOI 10.1109/CVPR.2017.194
+   Gao TS, 2011, IEEE I CONF COMP VIS, V0, PP2072, DOI 10.1109/ICCV.2011.6126481
+   Gerke M., 2014, USE STAIR VISION LIB, V0, P0, DOI DOI 10.13140/2.1.5015.9683
+   Gould S, 2011, STAIR VISION LIB V2, V0, P0
+   Grady L, 2004, IEEE PATTERN ANAL MA, VXX, P1
+   Grady L, 2006, IEEE T PATTERN ANAL, V28, P1768, DOI 10.1109/TPAMI.2006.233
+   Griffin G, 2008, 26 IEEE C COMP VIS P, V0, P0
+   ISPRS, 2016, INT SOC PHOT REM SEN, V0, P0
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Leroux S, 2017, KNOWL INF SYST, V52, P791, DOI 10.1007/s10115-017-1029-1
+   Li RR, 2018, IEEE J-STARS, V11, P3954, DOI 10.1109/JSTARS.2018.2833382
+   Li ZZ, 2016, LECT NOTES COMPUT SC, V9908, P614, DOI 10.1007/978-3-319-46493-0_37
+   Liu YS, 2017, IEEE COMPUT SOC CONF, V0, PP1561, DOI 10.1109/CVPRW.2017.200
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P7092, DOI 10.1109/TGRS.2017.2740362
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Marszalek M, 2008, LECT NOTES COMPUT SC, V5305, P479, DOI 10.1007/978-3-540-88693-8_35
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Odena A, 2017, ARXIV170207780, V0, P0, DOI DOI 10.1051/0004-6361/201527329
+   Ouma YO, 2008, INT J REMOTE SENS, V29, P3417, DOI 10.1080/01431160701601782
+   Paisitkriangkrai S, 2016, IEEE J-STARS, V9, P2868, DOI 10.1109/JSTARS.2016.2582921
+   Reis S, 2011, ISPRS J PHOTOGRAMM, V66, P652, DOI 10.1016/j.isprsjprs.2011.04.006
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Rusu Andrei A., 2016, PROGRESSIVE, V0, P0
+   Sherrah J., 2016, ABS160602585 CORR, V0, P0
+   Shi JB, 2000, IEEE T PATTERN ANAL, V22, P888, DOI 10.1109/34.868688
+   Simonyan K, 2015, ARXIV, V0, P0
+   Srivastava N., 2013, P ADV NEUR INF PROC, V0, PP1, DOI 10.1017/S0272263100006331
+   Tanno R., 2018, ARXIV180706699, V0, P0
+   Volpi M, 2018, ISPRS J PHOTOGRAMM, V144, P48, DOI 10.1016/j.isprsjprs.2018.06.007
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Wang HZ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050446
+   Wang T, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010024
+   Wilkinson M, 2011, J ASTHMA, V48, P188, DOI 10.3109/02770903.2011.554939
+   Xiao TJ, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP177, DOI 10.1145/2647868.2654926
+   Yan ZC, 2015, IEEE I CONF COMP VIS, V0, PP2740, DOI 10.1109/ICCV.2015.314
+   Ye W, 2009, J COMPUT DES COMPUT, V21, P0
+   Yoon Jaehong, 2017, ICLR, V0, P0
+   Yu H, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8030259
+NR 50
+TC 82
+Z9 83
+U1 1
+U2 51
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD OCT 15
+PY 2019
+VL 156
+IS 
+BP 1
+EP 13
+DI 10.1016/j.isprsjprs.2019.07.007
+PG 13
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA JA3YP
+UT WOS:000487765800001
+DA 2023-04-26
+ER
+
+PT J
+AU Nguyen, H
+   Mehrabi, M
+   Kalantar, B
+   Moayedi, H
+   Abdullahi, MM
+AF Hoang Nguyen
+   Mehrabi, Mohammad
+   Kalantar, Bahareh
+   Moayedi, Hossein
+   Abdullahi, Mu'azu Mohammed
+TI Potential of hybrid evolutionary approaches for assessment of geo-hazard landslide susceptibility mapping
+SO GEOMATICS NATURAL HAZARDS & RISK
+LA English
+DT Article
+DE Geo-hazard zonation; landslide susceptibility mapping; geographic information system; artificial neural network; hybrid evolutionary algorithms
+ID support vector machine; analytical hierarchy process; artificial neural-networks; logistic-regression; frequency ratio; particle swarm; fuzzy-logic; feedforward networks; gis; models
+AB As a prevalent disaster, landslides cause severe loss of property and human life worldwide. The specific objective of this study is to evaluate the capability of artificial neural network (ANN) synthesized with artificial bee colony (ABC) and particle swarm optimization (PSO) evolutionary algorithms, in order to draw the landslide susceptibility map (LSM) at Golestan province, Iran. The required spatial database was created from 12 landslide conditioning factors. The area under curve (AUC) criterion was used to assess the integrity of employed predictive approaches. In this regard, the calculated AUCs of 90.10%, 85.70%, 80.30% and 76.60%, respectively, for SI, PSO-ANN, ABC-ANN and ANN showed that all models have enough accuracy for simulating the LSM, although SI presents the best performance. The landslide vulnerability map obtained by PSO-ANN model is more accurate than other intelligent techniques. In addition, training the ANN with ABC and PSO optimization algorithms conduced to enhancing the reliability of this model. Note that, a total of 76.72%, 23.96%, 30.55% and 5.37% of the study area were labeled as perilous (High and Very high susceptibility classes), respectively by SI, PSO-ANN, ABC-ANN and ANN results.
+C1 [Hoang Nguyen] Duy Tan Univ, Inst Res & Dev, Da Nang, Vietnam.
+   [Mehrabi, Mohammad] Kermanshah Univ Technol, Dept Civil Engn, Kermanshah, Iran.
+   [Kalantar, Bahareh] RIKEN Ctr Adv Intelligence Project, Goal Oriented Technol Res Grp, Disaster Resilience Sci Team, Tokyo, Japan.
+   [Moayedi, Hossein] Ton Duc Thang Univ, Dept Management Sci & Technol Dev, Ho Chi Minh City, Vietnam.
+   [Moayedi, Hossein] Ton Duc Thang Univ, Fac Civil Engn, Ho Chi Minh City, Vietnam.
+   [Abdullahi, Mu'azu Mohammed] Univ Hafr Al Batin, Civil Engn Dept, Hafar al Batin, Eastern Provinc, Saudi Arabia.
+C3 Duy Tan University; Kermanshah University of Technology; RIKEN; Ton Duc Thang University; Ton Duc Thang University; Hafr Albatin University
+RP Moayedi, H (corresponding author), Ton Duc Thang Univ, Dept Management Sci & Technol Dev, Ho Chi Minh City, Vietnam.; Moayedi, H (corresponding author), Ton Duc Thang Univ, Fac Civil Engn, Ho Chi Minh City, Vietnam.
+EM hossein.moayedi@tdtu.edu.vn
+FU Ton Duc Thang University (Vietnam); Duy Tan University (Vietnam)
+CR Alnaqi AA, 2019, ENERG CONVERS MANAGE, V183, P137, DOI 10.1016/j.enconman.2019.01.005
+   Althuwaynee OF, 2014, CATENA, V114, P21, DOI 10.1016/j.catena.2013.10.011
+   [Anonymous], 2017, NEURAL COMPUTING APP, V0, P0
+   Arora MK, 2004, INT J REMOTE SENS, V25, P559, DOI 10.1080/0143116031000156819
+   Asadi A, 2011, INT J ELECTROCHEM SC, V6, P1135
+   Asadi A, 2011, INT J ELECTROCHEM SC, V6, P1146
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Balamurugan G, 2016, NAT HAZARDS, V84, P465, DOI 10.1007/s11069-016-2434-6
+   Bui DT, 2017, LANDSLIDES, V14, P447, DOI 10.1007/s10346-016-0711-9
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   Chaytor JD, 2016, PURE APPL GEOPHYS, V173, P4101, DOI 10.1007/s00024-016-1363-3
+   Chen W, 2019, CATENA, V172, P212, DOI 10.1016/j.catena.2018.08.025
+   Chen W, 2017, GEOMORPHOLOGY, V297, P69, DOI 10.1016/j.geomorph.2017.09.007
+   Chen W, 2017, CATENA, V157, P310, DOI 10.1016/j.catena.2017.05.034
+   Chen W, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-4795-7
+   Chen W, 2015, ARAB J GEOSCI, V8, P1829, DOI 10.1007/s12517-014-1554-0
+   Cheng MY, 2015, NAT HAZARDS, V78, P1961, DOI 10.1007/s11069-015-1813-8
+   Clerc M, 2002, IEEE T EVOLUT COMPUT, V6, P58, DOI 10.1109/4235.985692
+   Dong Y, 2017, PROCEDIA ENGINEER, V175, P357, DOI 10.1016/j.proeng.2017.01.045
+   Eberhart R., 1995, P 6 INT S MICR HUM S, V194, P2
+   El-Bakry MY, 2003, CHAOS SOLITON FRACT, V18, P995, DOI 10.1016/S0960-0779(03)00068-7
+   Ercanoglu M, 2004, ENG GEOL, V75, P229, DOI 10.1016/j.enggeo.2004.06.001
+   Ercanoglu M, 2002, ENVIRON GEOL, V41, P720, DOI 10.1007/s00254-001-0454-2
+   Farrokhzad F, 2011, GEOL CARPATH, V62, P477, DOI 10.2478/v10096-011-0034-7
+   Gao W, 2019, DISCRETE CONT DYN-S, V12, P711, DOI 10.3934/dcdss.2019045
+   Gao W, 2019, DISCRETE CONT DYN-S, V12, P877, DOI 10.3934/dcdss.2019058
+   Gao W, 2018, INFORM SCIENCES, V467, P35, DOI 10.1016/j.ins.2018.07.049
+   Gao W, 2018, ARAB J CHEM, V11, P793, DOI 10.1016/j.arabjc.2017.12.024
+   Gao W, 2018, SAUDI J BIOL SCI, V25, P1212, DOI 10.1016/j.sjbs.2017.11.022
+   HAGAN MT, 1994, IEEE T NEURAL NETWOR, V5, P989, DOI 10.1109/72.329697
+   Haykin S, 1999, NEURAL NETWORKS COMP, V0, P0
+   Hong HY, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6981-2
+   Hong HY, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2094-y
+   HORNIK K, 1989, NEURAL NETWORKS, V2, P359, DOI 10.1016/0893-6080(89)90020-8
+   Hu SY, 2018, J FORESTRY RES, V29, P1443, DOI 10.1007/s11676-017-0529-x
+   Karaboga D., 2005, IDEA BASED HONEY BEE, V0, P0
+   Karaboga D, 2007, P INT C MOD DEC ART, V0, P0
+   Koopialipoor Mohammadreza, 2019, SOFT COMPUTING, V23, P5913, DOI 10.1007/s00500-018-3253-3
+   Lee S, 2004, ENG GEOL, V71, P289, DOI 10.1016/S0013-7952(03)00142-X
+   Lian C, 2013, NAT HAZARDS, V66, P759, DOI 10.1007/s11069-012-0517-6
+   Meng QK, 2016, B ENG GEOL ENVIRON, V75, P923, DOI 10.1007/s10064-015-0786-x
+   Moayedi H, 2018, INT J GEOMECH, V18, P0, DOI 10.1061/(ASCE)GM.1943-5622.0001125
+   Moayedi H, 2019, NEURAL COMPUT APPL, V31, P7429, DOI 10.1007/s00521-018-3555-5
+   Moayedi H, 2019, ENG COMPUT-GERMANY, V35, P967, DOI 10.1007/s00366-018-0644-0
+   Moayedi H, 2018, APPL SOFT COMPUT, V66, P208, DOI 10.1016/j.asoc.2018.02.027
+   Moayedi H, 2018, ENG COMPUT-GERMANY, V34, P347, DOI 10.1007/s00366-017-0545-7
+   Moayedi H, 2018, GEOTECH GEOL ENG, V36, P1, DOI 10.1007/s10706-017-0321-x
+   Moayedi H, 2011, DISASTER PREV MANAG, V20, P115, DOI 10.1108/09653561111126067
+   Mokoena BT, 2018, GEO-SPAT INF SCI, V21, P322, DOI 10.1080/10095020.2018.1519349
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Mosallanezhad M, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-3285-5
+   Mozumder Mohammad Mojibul Hoque, 2018, AQUACULTURE AND FISHERIES, V3, P38, DOI 10.1016/j.aaf.2017.12.002
+   Nandy S, 2012, 12092548 ARXIV, V0, P0
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   Parsons T, 2014, J GEOPHYS RES-SOL EA, V119, P8502, DOI 10.1002/2014JB011514
+   Pourghasemi HR, 2013, NAT HAZARDS, V69, P749, DOI 10.1007/s11069-013-0728-5
+   Pourghasemi HR, 2016, GEOMAT NAT HAZ RISK, V7, P861, DOI 10.1080/19475705.2014.984247
+   Pourghasemi HR, 2013, J EARTH SYST SCI, V122, P349, DOI 10.1007/s12040-013-0282-2
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pourghasemi HR, 2012, CATENA, V97, P71, DOI 10.1016/j.catena.2012.05.005
+   Pradhan B, 2010, J INDIAN SOC REMOTE, V38, P301, DOI 10.1007/s12524-010-0020-z
+   Pradhan B, 2010, LANDSLIDES, V7, P13, DOI 10.1007/s10346-009-0183-2
+   Regmi AD, 2016, J MT SCI-ENGL, V13, P1941, DOI 10.1007/s11629-015-3688-2
+   Regmi AD, 2014, ARAB J GEOSCI, V7, P725, DOI 10.1007/s12517-012-0807-z
+   Sarangi P.P., 2014, INTELL COMPUT NEW IN, V243, P511, DOI 10.1007/978-81-322-1665-0_49
+   Shahri AA, 2016, GEOTECH GEOL ENG, V34, P745, DOI 10.1007/s10706-016-9976-y
+   Vakhshoori V, 2016, GEOMAT NAT HAZ RISK, V7, P1731, DOI 10.1080/19475705.2016.1144655
+   Van Westen C.J., 1997, ILWIS 21 WINDOWS APP, V0, P0
+   Wang QQ, 2015, J EARTH SYST SCI, V124, P1399, DOI 10.1007/s12040-015-0624-3
+   WANG SC, 2003, KLUWER INT SER ENG C, V0, P3
+   Wu XL, 2014, ENVIRON EARTH SCI, V71, P4725, DOI 10.1007/s12665-013-2863-4
+   Xie ZT, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6640-7
+   Xu C, 2012, GEOMORPHOLOGY, V145, P70, DOI 10.1016/j.geomorph.2011.12.040
+   Yavari-Ramshe S, 2016, LANDSLIDES, V13, P1325, DOI 10.1007/s10346-016-0734-2
+   Yesilnacar E.K., 2005, APPL COMPUTATIONAL I, V0, P200
+   Youssef AM, 2015, ENVIRON EARTH SCI, V73, P3745, DOI 10.1007/s12665-014-3661-3
+   Zou JG, 2018, GEO-SPAT INF SCI, V21, P149, DOI 10.1080/10095020.2017.1386848
+NR 78
+TC 84
+Z9 85
+U1 4
+U2 30
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1947-5705
+EI 1947-5713
+J9 GEOMAT NAT HAZ RISK
+JI Geomat. Nat. Hazards Risk
+PD JAN 1
+PY 2019
+VL 10
+IS 1
+BP 1667
+EP 1693
+DI 10.1080/19475705.2019.1607782
+PG 27
+WC Geosciences, Multidisciplinary; Meteorology & Atmospheric Sciences; Water Resources
+SC Geology; Meteorology & Atmospheric Sciences; Water Resources
+GA IG1BG
+UT WOS:000473524300001
+DA 2023-04-26
+ER
+
+PT J
+AU Li, XK
+   Caragea, D
+   Zhang, HY
+   Imran, M
+AF Li, Xukun
+   Caragea, Doina
+   Zhang, Huaiyu
+   Imran, Muhammad
+TI Localizing and quantifying infrastructure damage using class activation mapping approaches
+SO SOCIAL NETWORK ANALYSIS AND MINING
+LA English
+DT Article
+DE Image analysis; Convolutional neural networks (CNN); Class activation mapping (CAM) approaches; Damage localization; Bridge; building; and road damage
+AB Traditional post-disaster assessment of damage heavily relies on expensive geographic information system (GIS) data, especially remote sensing image data. In recent years, social media have become a rich source of disaster information that may be useful in assessing damage at a lower cost. Such information includes text (e.g., tweets) or images posted by eyewitnesses of a disaster. Most of the existing research explores the use of text in identifying situational awareness information useful for disaster response teams. The use of social media images to assess disaster damage is limited. We have recently proposed a novel approach, based on convolutional neural networks and class activation mapping, to locate building damage in a disaster image and to quantify the degree of the damage. In this paper, we study the usefulness of the proposed approach for other categories of infrastructure damage, specifically bridge and road damage, and compare two-class activation mapping approaches in this context. Experimental results show that our proposed approach enables the use of social network images for post-disaster infrastructure damage assessment and provides an inexpensive and feasible alternative to the more expensive GIS approach.
+C1 [Li, Xukun; Caragea, Doina] Kansas State Univ, Dept Comp Sci, Manhattan, KS 66506 USA.
+   [Zhang, Huaiyu] Kansas State Univ, Dept Stat, Manhattan, KS 66506 USA.
+   [Imran, Muhammad] Hamad Bin Khalifa Univ, Qatar Comp Res Inst, Doha, Qatar.
+C3 Kansas State University; Kansas State University; Qatar Foundation (QF); Hamad Bin Khalifa University-Qatar; Qatar Computing Research Institute
+RP Caragea, D (corresponding author), Kansas State Univ, Dept Comp Sci, Manhattan, KS 66506 USA.
+EM xukun@ksu.edu; dcaragea@ksu.edu; huaiyu@ksu.edu; mimran@hbku.edu.qa
+FU National Science Foundation; Amazon Web Services [IIS-1741345]
+CR Alam F., 2017, P 2017 IEEE ACM INT, V0, PP601, DOI 10.1145/3110025.3110164
+   [Anonymous], 2014, NIPS, V0, P0
+   Ashktorab Z., 2014, ISCRAM, V0, P354
+   Attari N, 2017, PR INT CONF DATA SC, V0, PP50, DOI 10.1109/DSAA.2017.72
+   Bica M, 2017, CSCW17: PROCEEDINGS OF THE 2017 ACM CONFERENCE ON COMPUTER SUPPORTED COOPERATIVE WORK AND SOCIAL COMPUTING, V0, PP1262, DOI 10.1145/2998181.2998212
+   Caragea C, 2016, P ISCRAM BRAZ, V0, P0
+   Castillo C, 2016, BIG CRISIS DATA: SOCIAL MEDIA IN DISASTERS AND TIME-CRITICAL SITUATIONS, V0, P0
+   Cha YJ, 2017, COMPUT-AIDED CIV INF, V32, P361, DOI 10.1111/mice.12263
+   Chattopadhyay A, 2017, ARXIVABS171011063 CO, V0, P0
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Enenkel M, 2018, ARXIVABS180202631 CO, V0, P0
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Fan YD, 2017, INT J DISAST RISK SC, V8, P471, DOI 10.1007/s13753-017-0143-8
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Guan XY, 2014, NAT HAZARDS, V74, P837, DOI 10.1007/s11069-014-1217-1
+   Gueguen L, 2015, PROC CVPR IEEE, V0, PP1321, DOI 10.1109/CVPR.2015.7298737
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   HUANG QY, 2015, ISPRS INT J GEO-INF, V4, P1549, DOI 10.3390/JIGI4031549
+   Imran M, 2015, ACM COMPUT SURV, V47, P0, DOI 10.1145/2771588
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kryvasheyeu Y, 2016, SCI ADV, V2, P0, DOI 10.1126/sciadv.1500779
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Li HM, 2018, J CONTING CRISIS MAN, V26, P16, DOI 10.1111/1468-5973.12194
+   Li XK, 2018, 2018 IEEE/ACM INTERNATIONAL CONFERENCE ON ADVANCES IN SOCIAL NETWORKS ANALYSIS AND MINING (ASONAM), V0, P194
+   Maeda H, 2018, COMPUT-AIDED CIV INF, V33, P1127, DOI 10.1111/mice.12387
+   Meier P., 2015, DIGITAL HUMANITARIAN, V0, P0
+   Nguyen D.T., 2017, P 2017 IEEE ACM INT, V0, PP569, DOI 10.1145/3110025.3110109
+   Nguyen DT, 2016, ARXIVABS160803902 CO, V0, P0
+   Nia KR, 2017, 2017 14TH CONFERENCE ON COMPUTER AND ROBOT VISION (CRV 2017), V0, PP95, DOI 10.1109/CRV.2017.54
+   Palen L, 2016, SCIENCE, V353, P224, DOI 10.1126/science.aag2579
+   Resch B, 2018, CARTOGR GEOGR INF SC, V45, P362, DOI 10.1080/15230406.2017.1356242
+   Rusk N, 2016, NAT METHODS, V13, P35, DOI 10.1038/nmeth.3707
+   Selvaraju RR, 2020, INT J COMPUT VISION, V128, P336, DOI 10.1007/s11263-019-01228-7
+   Sen A, 2015, INT CONF COMMUN SYST, V0, P0
+   Simonyan K, 2015, ARXIV, V0, P0
+   Vetrivel A, 2018, ISPRS J PHOTOGRAMM, V140, P45, DOI 10.1016/j.isprsjprs.2017.03.001
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Xie S, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090759
+   Yuan FX, 2018, INT J DISAST RISK RE, V28, P758, DOI 10.1016/j.ijdrr.2018.02.003
+   Zhou B., 2016, P 2016 IEEE C COMPUT, V0, PP2921, DOI 10.1109/CVPR.2016.319
+NR 40
+TC 5
+Z9 5
+U1 1
+U2 8
+PU SPRINGER WIEN
+PI WIEN
+PA SACHSENPLATZ 4-6, PO BOX 89, A-1201 WIEN, AUSTRIA
+SN 1869-5450
+EI 1869-5469
+J9 SOC NETW ANAL MIN
+JI Soc. Netw. Anal. Min.
+PD AUG 8
+PY 2019
+VL 9
+IS 1
+BP 
+EP 
+DI 10.1007/s13278-019-0588-4
+PG 15
+WC Computer Science, Information Systems
+SC Computer Science
+GA IQ0VM
+UT WOS:000480469200001
+DA 2023-04-26
+ER
+
+PT J
+AU Aliabad, FA
+   Shojaei, S
+   Zare, M
+   Ekhtesasi, MR
+AF Aliabad, F. Arabi
+   Shojaei, S.
+   Zare, M.
+   Ekhtesasi, M. R.
+TI Assessment of the fuzzy ARTMAP neural network method performance in geological mapping using satellite images and Boolean logic
+SO INTERNATIONAL JOURNAL OF ENVIRONMENTAL SCIENCE AND TECHNOLOGY
+LA English
+DT Article
+DE Fuzzy ARTMAP; Remote sensing; Shirkooh; Boolean logic; Geological map
+AB Currently, in executive comparative studies and even in the research studies of natural resources, the use of maps produced by the geological survey forms the basis of geological studies. However, in recent years, remote sensing technology has been introduced as a new and efficient tool for geological studies which in addition to the accuracy has other benefits such as access to the arduous mountainous areas or inaccessible that can help us to prepare geological maps with more accuracy. The purpose of this study is to compare geological survey geological maps with a scale of 1: 100,000, and produced and modified by Google Earth maps by using fuzzy ARTMAP artificial neural network method. For this purpose, the geological map of a part of Yazd-Shirkooh watershed prepared by using Landsat 7 image by fuzzy ARTMAP artificial neural network method with Kappa coefficient of 89%. Also, geological survey and Google Earth map prepared. Graphic map obtained from the visual interpretation of Google Earth images with the ground control was considered as the base map and comparing it with other maps evaluated by using Boolean logic. By using the sampling network created 100 points which 62 points were in the study area and 56 cases in the fuzzy ARTMAP map and 52 cases in the geological survey map were consistent with the base map. Due to reduced cost and time and no limits of time and space, fuzzy ARTMAP is a suitable method for the preparation of geological maps.
+C1 [Aliabad, F. Arabi; Zare, M.; Ekhtesasi, M. R.] Yazd Univ, Dept Management Arid & Desert Reg, Yazd, Iran.
+   [Shojaei, S.] Islamic Azad Univ, Zahedan Branch, Young Researchers & Elite Club, Zahedan, Iran.
+C3 University of Yazd; Islamic Azad University
+RP Shojaei, S (corresponding author), Islamic Azad Univ, Zahedan Branch, Young Researchers & Elite Club, Zahedan, Iran.
+EM s_shojaei@ut.ac.ir
+CR ABRAMS MJ, 1983, ECON GEOL, V78, P591, DOI 10.2113/gsecongeo.78.4.591
+   Alami Nia Z, 2010, J EC GEOL, V1, P432
+   Alavi Panah K, 2009, APPL REMOTE SENSING, V0, P0
+   [Anonymous], 1987, INTRO DIGITAL IMAGE, V0, P0
+   CARPENTER GA, 1991, NEURAL NETWORKS, V4, P565, DOI 10.1016/0893-6080(91)90012-T
+   Chang, 1996, FUZZY SETS FUZZY LOG, V0, PP180, DOI 10.1142/9789814261302_0012
+   CHAVEZ PS, 1982, J APPL PHOTOGR ENG, V8, P23
+   Gil-Sanchez L, 2015, APPL SOFT COMPUT, V30, P421, DOI 10.1016/j.asoc.2014.12.037
+   Honarmand MV, 2004, GEOSCI J, V51, P110
+   Lillesand T., 2014, REMOTE SENSING IMAGE, V0, P0
+   Lu D, 2004, INT J REMOTE SENS, V25, P2365, DOI 10.1080/0143116031000139863
+   Pahlayani H, 2017, MODEL EARTH SYST ENV, V3, P0, DOI 10.1007/s40808-017-0305-0
+   Ramadan TM, 2004, J AFR EARTH SCI, V40, P89, DOI 10.1016/j.jafrearsci.2004.06.003
+   Tangestani M. H., 2000, IRAN INT J APPL EART, V2, P140, DOI 10.1016/S0303-2434(00)85007-2
+   Zare Shooraki P, 2015, WATERSHED ENG MANAG, V9, P11
+NR 15
+TC 17
+Z9 17
+U1 0
+U2 7
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1735-1472
+EI 1735-2630
+J9 INT J ENVIRON SCI TE
+JI Int. J. Environ. Sci. Technol.
+PD JUL 15
+PY 2019
+VL 16
+IS 7
+BP 3829
+EP 3838
+DI 10.1007/s13762-018-1795-7
+PG 10
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA IC2GB
+UT WOS:000470777200088
+DA 2023-04-26
+ER
+
+PT J
+AU Nassar, MR
+   McGuire, JT
+   Ritz, H
+   Kable, JW
+AF Nassar, Matthew R.
+   McGuire, Joseph T.
+   Ritz, Harrison
+   Kable, Joseph W.
+TI Dissociable Forms of Uncertainty-Driven Representational Change Across the Human Brain
+SO JOURNAL OF NEUROSCIENCE
+LA English
+DT Article
+DE fMRI; learning; orbitofrontal cortex; representational similarity; uncertainty
+ID orbitofrontal cortex; cognitive map; neuromodulation; information; dynamics; patterns; identity; context; model; afni
+AB Environmental change can lead decision makers to shift rapidly among different behavioral regimes. These behavioral shifts can be accompanied by rapid changes in the firing pattern of neural networks. However, it is unknown what the populations of neurons that participate in such "network reset" phenomena are representing. Here, we investigated the following: (1) whether and where rapid changes in multivariate activity patterns are observable with fMRI during periods of rapid behavioral change and (2) what types of representations give rise to these phenomena. We did so by examining fluctuations in multivoxel patterns of BOLD activity from male and female human subjects making sequential inferences about the state of a partially observable and discontinuously changing variable. We found that, within the context of this sequential inference task, the multivariate patterns of activity in a number of cortical regions contain representations that change more rapidly during periods of uncertainty following a change in behavioral context. In motor cortex, this phenomenon was indicative of discontinuous change in behavioral outputs, whereas in visual regions, the same basic phenomenon was evoked by tracking of salient environmental changes. In most other cortical regions, including dorsolateral prefrontal and anterior cingulate cortex, the phenomenon was most consistent with directly encoding the degree of uncertainty. However, in a few other regions, including orbitofrontal cortex, the phenomenon was best explained by representations of a shifting context that evolve more rapidly during periods of rapid learning. These representations may provide a dynamic substrate for learning that facilitates rapid disengagement from learned responses during periods of change.
+C1 [Nassar, Matthew R.; Ritz, Harrison] Brown Univ, Carney Inst Brain Sci, Dept Cognit Linguist & Psychol Sci, Providence, RI 02912 USA.
+   [McGuire, Joseph T.] Boston Univ, Dept Psychol & Brain Sci, Boston, MA 02215 USA.
+   [Kable, Joseph W.] Univ Penn, Dept Psychol, Philadelphia, PA 19143 USA.
+C3 Brown University; Boston University; University of Pennsylvania
+RP Nassar, MR (corresponding author), Brown Univ, Carney Inst Brain Sci, Dept Cognit Linguist & Psychol Sci, Providence, RI 02912 USA.
+EM matthew_nassar@brown.edu
+FU National Science Foundation [1533623, NSF BCS-1755757]; National Institutes of Health [R01-MH098899, F32-DA030870, F32-MH102009-01A1, K99AG054732]; Division Of Behavioral and Cognitive Sci; Direct For Social, Behav & Economic Scie [1533623] Funding Source: National Science Foundation
+CR Adams R. P., 2007, BAYESIAN ONLINE CHAN, V0, P0
+   Behrens TEJ, 2007, NAT NEUROSCI, V10, P1214, DOI 10.1038/nn1954
+   Browning M, 2015, NAT NEUROSCI, V18, P590, DOI 10.1038/nn.3961
+   Chan SCY, 2016, J NEUROSCI, V36, P7817, DOI 10.1523/JNEUROSCI.0659-16.2016
+   Chikazoe J, 2014, NAT NEUROSCI, V17, P1114, DOI 10.1038/nn.3749
+   Cox RW, 2012, NEUROIMAGE, V62, P743, DOI 10.1016/j.neuroimage.2011.08.056
+   Cox RW, 1996, COMPUT BIOMED RES, V29, P162, DOI 10.1006/cbmr.1996.0014
+   Doya K, 2008, NAT NEUROSCI, V11, P410, DOI 10.1038/nn2077
+   Durstewitz D, 2010, NEURON, V66, P438, DOI 10.1016/j.neuron.2010.03.029
+   Ezzyat Y, 2014, NEURON, V81, P1179, DOI 10.1016/j.neuron.2014.01.042
+   Ezzyat Y, 2011, PSYCHOL SCI, V22, P243, DOI 10.1177/0956797610393742
+   Gardumi A, 2016, NEUROIMAGE, V132, P32, DOI 10.1016/j.neuroimage.2016.02.033
+   Gershman SJ, 2010, CURR OPIN NEUROBIOL, V20, P251, DOI 10.1016/j.conb.2010.02.008
+   Gershman SJ, 2010, PSYCHOL REV, V117, P197, DOI 10.1037/a0017808
+   Hendriks MHA, 2017, FRONT NEUROL, V8, P0, DOI 10.3389/fneur.2017.00222
+   Howard JD, 2018, NAT COMMUN, V9, P0, DOI 10.1038/s41467-018-04055-5
+   Howard JD, 2015, P NATL ACAD SCI USA, V112, P5195, DOI 10.1073/pnas.1503550112
+   Howard MW, 2011, TOP COGN SCI, V3, P48, DOI 10.1111/j.1756-8765.2010.01112.x
+   Howard MW, 2002, J MATH PSYCHOL, V46, P269, DOI 10.1006/jmps.2001.1388
+   Hsieh LT, 2014, NEURON, V81, P1165, DOI 10.1016/j.neuron.2014.01.015
+   Jenkinson M, 2002, NEUROIMAGE, V17, P825, DOI 10.1006/nimg.2002.1132
+   Jenkinson M, 2012, NEUROIMAGE, V62, P782, DOI 10.1016/j.neuroimage.2011.09.015
+   Karlsson MP, 2012, SCIENCE, V338, P135, DOI 10.1126/science.1226518
+   Klein-Flugge MC, 2013, J NEUROSCI, V33, P3202, DOI 10.1523/JNEUROSCI.2532-12.2013
+   Kragel PA, 2018, NAT NEUROSCI, V21, P283, DOI 10.1038/s41593-017-0051-7
+   Krugel LK, 2009, P NATL ACAD SCI USA, V106, P17951, DOI 10.1073/pnas.0905191106
+   Manning JR, 2011, P NATL ACAD SCI USA, V108, P12893, DOI 10.1073/pnas.1015174108
+   McGuire JT, 2014, NEURON, V84, P870, DOI 10.1016/j.neuron.2014.10.013
+   Mumford JA, 2012, NEUROIMAGE, V59, P2636, DOI 10.1016/j.neuroimage.2011.08.076
+   Nassar MR, 2016, NAT COMMUN, V7, P0, DOI 10.1038/ncomms11609
+   Nassar MR, 2012, NAT NEUROSCI, V15, P1040, DOI 10.1038/nn.3130
+   Nassar MR, 2010, J NEUROSCI, V30, P12366, DOI 10.1523/JNEUROSCI.0822-10.2010
+   Nichols TE, 2002, HUM BRAIN MAPP, V15, P1, DOI 10.1002/hbm.1058
+   Nili H, 2014, PLOS COMPUT BIOL, V10, P0, DOI 10.1371/journal.pcbi.1003553
+   Op de Beeck HP, 2010, NEUROIMAGE, V49, P1943, DOI 10.1016/j.neuroimage.2009.02.047
+   Powell NJ, 2016, NAT COMMUN, V7, P0, DOI 10.1038/ncomms12830
+   Reynolds JR, 2007, COGNITIVE SCI, V31, P613, DOI 10.1080/15326900701399913
+   Schuck NW, 2016, NEURON, V91, P1402, DOI 10.1016/j.neuron.2016.08.019
+   Schuck NW, 2015, NEURON, V86, P331, DOI 10.1016/j.neuron.2015.03.015
+   Schultz W, 1997, SCIENCE, V275, P1593, DOI 10.1126/science.275.5306.1593
+   Shapiro ML, 2014, NEURON, V81, P964, DOI 10.1016/j.neuron.2014.02.034
+   Smith SM, 2004, NEUROIMAGE, V23, PS208, DOI 10.1016/j.neuroimage.2004.07.051
+   Stalnaker TA, 2014, NAT COMMUN, V5, P0, DOI 10.1038/ncomms4926
+   Tervo DGR, 2014, CELL, V159, P21, DOI 10.1016/j.cell.2014.08.037
+   Vickery TJ, 2011, NEURON, V72, P166, DOI 10.1016/j.neuron.2011.08.011
+   Walther A, 2016, NEUROIMAGE, V137, P188, DOI 10.1016/j.neuroimage.2015.12.012
+   Wilson RC, 2014, NEURON, V81, P267, DOI 10.1016/j.neuron.2013.11.005
+   Wilson RC, 2010, NEURAL COMPUT, V22, P2452, DOI 10.1162/NECO_a_00007
+   Yu AJ, 2005, NEURON, V46, P681, DOI 10.1016/j.neuron.2005.04.026
+NR 49
+TC 22
+Z9 22
+U1 0
+U2 2
+PU SOC NEUROSCIENCE
+PI WASHINGTON
+PA 11 DUPONT CIRCLE, NW, STE 500, WASHINGTON, DC 20036 USA
+SN 0270-6474
+EI 
+J9 J NEUROSCI
+JI J. Neurosci.
+PD FEB 27
+PY 2019
+VL 39
+IS 9
+BP 1688
+EP 1698
+DI 10.1523/JNEUROSCI.1713-18.2018
+PG 11
+WC Neurosciences
+SC Neurosciences & Neurology
+GA HM8ZW
+UT WOS:000459773500009
+PM 30523066
+DA 2023-04-26
+ER

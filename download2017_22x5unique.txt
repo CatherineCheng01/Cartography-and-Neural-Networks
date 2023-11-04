@@ -1,0 +1,643 @@
+
+PT J
+AU Zheng, NN
+   Liu, ZY
+   Ren, PJ
+   Ma, YQ
+   Chen, ST
+   Yu, SY
+   Xue, JR
+   Chen, BD
+   Wang, FY
+AF Zheng, Nan-ning
+   Liu, Zi-yi
+   Ren, Peng-ju
+   Ma, Yong-qiang
+   Chen, Shi-tao
+   Yu, Si-yu
+   Xue, Jian-ru
+   Chen, Ba-dong
+   Wang, Fei-yue
+TI Hybrid-augmented intelligence: collaboration and cognition
+SO FRONTIERS OF INFORMATION TECHNOLOGY & ELECTRONIC ENGINEERING
+LA English
+DT Review
+DE Human-machine collaboration; Hybrid-augmented intelligence; Cognitive computing; Intuitive reasoning; Causal model; Cognitive mapping; Visual scene understanding; Self-driving cars
+ID artificial-intelligence; neural-networks; ibm watson; perception; management; causality; systems; memory; robot
+AB The long-term goal of artificial intelligence (AI) is to make machines learn and think like human beings. Due to the high levels of uncertainty and vulnerability in human life and the open-ended nature of problems that humans are facing, no matter how intelligent machines are, they are unable to completely replace humans. Therefore, it is necessary to introduce human cognitive capabilities or human-like cognitive models into AI systems to develop a new form of AI, that is, hybrid-augmented intelligence. This form of AI or machine intelligence is a feasible and important developing model. Hybrid-augmented intelligence can be divided into two basic models: one is human-in-the-loop augmented intelligence with human-computer collaboration, and the other is cognitive computing based augmented intelligence, in which a cognitive model is embedded in the machine learning system. This survey describes a basic framework for human-computer collaborative hybrid-augmented intelligence, and the basic elements of hybrid-augmented intelligence based on cognitive computing. These elements include intuitive reasoning, causal models, evolution of memory and knowledge, especially the role and basic principles of intuitive reasoning for complex problem solving, and the cognitive learning framework for visual scene understanding based on memory and reasoning. Several typical applications of hybrid-augmented intelligence in related fields are given.
+C1 [Zheng, Nan-ning; Liu, Zi-yi; Ren, Peng-ju; Ma, Yong-qiang; Chen, Shi-tao; Yu, Si-yu; Xue, Jian-ru; Chen, Ba-dong] Xi An Jiao Tong Univ, Inst Artificial Intelligence & Robot, Xian 710049, Peoples R China.
+   [Zheng, Nan-ning; Liu, Zi-yi; Ren, Peng-ju; Ma, Yong-qiang; Chen, Shi-tao; Yu, Si-yu; Xue, Jian-ru; Chen, Ba-dong] Xi An Jiao Tong Univ, Natl Engn Lab Visual Informat Proc Applicat, Xian 710049, Peoples R China.
+   [Wang, Fei-yue] Chinese Acad Sci, Inst Automat, State Key Lab Management & Control Complex Syst, Beijing 100190, Peoples R China.
+C3 Xi'an Jiaotong University; Xi'an Jiaotong University; Chinese Academy of Sciences; Institute of Automation, CAS
+RP Zheng, NN (corresponding author), Xi An Jiao Tong Univ, Inst Artificial Intelligence & Robot, Xian 710049, Peoples R China.; Zheng, NN (corresponding author), Xi An Jiao Tong Univ, Natl Engn Lab Visual Informat Proc Applicat, Xian 710049, Peoples R China.
+EM nnzheng@mail.xjtu.edu.cn
+FU Chinese Academy of Engineering; National Natural Science Foundation of China [L1522023]; National Basic Research Program (973) of China [2015CB351703]; National Key Research and Development Plan [2016YFB1001004, 2016YFB1000903]
+CR Ando R., 2007, P 2 BIOCREATIVE CHAL, V0, P101
+   Ando R. K, 2005, 14 TEXT RETRIEVAL C, V0, P1
+   [Anonymous], 1997, COMPUTATIONAL INTELL, V0, P0
+   [Anonymous], 1967, NATURE HUMAN INTELLI, V0, P0
+   [Anonymous], 2014, COMPUT RES REPOSITOR, V0, P0
+   Atif Y., 2015, J AMB INTEL HUM COMP, V6, P1
+   Ball MO, 2001, TRANSPORTATION ANALY, V0, P17
+   Barnes Michael J., 2013, ENGINEERING PSYCHOLOGY AND COGNITIVE ERGONOMICS. APPLICATIONS AND SERVICES. 10TH INTERNATIONAL CONFERENCE, V0, P243, DOI 10.1007/978-3-642-39354-9_27
+   Boman IL, 2015, DISABIL REHABIL-ASSI, V10, P365, DOI 10.3109/17483107.2014.913712
+   Bradley AP, 1997, PATTERN RECOGN, V30, P1145, DOI 10.1016/S0031-3203(96)00142-2
+   Browne CB, 2012, IEEE T COMP INTEL AI, V4, P1, DOI 10.1109/TCIAIG.2012.2186810
+   Campbell M, 2002, ARTIF INTELL, V134, P57, DOI 10.1016/S0004-3702(01)00129-1
+   Chen D., 2016, IEEE T PATTERN ANAL, V39, P141
+   Chen Y, 2016, CLIN THER, V38, P688, DOI 10.1016/j.clinthera.2015.12.001
+   Cimbala S. J., 2012, ARTIFICIAL INTELLIGE, V0, P0
+   De Rocquigny E., 2008, UNCERTAINTY IND PRAC, V0, P0
+   Denton E. L., 2015, ADV NEURAL INFORM PR, V0, P0
+   DIAS MG, 1988, BRIT J DEV PSYCHOL, V6, P207, DOI 10.1111/j.2044-835X.1988.tb01095.x
+   Dounias G., 2003, P WORKSH INT AD SYST, V0, P0
+   Eakin H, 2006, ANNU REV ENV RESOUR, V31, P365, DOI 10.1146/annurev.energy.30.050504.144352
+   Fei-Yue W., 2004, COMPLEX SYSTEMS COMP, V1, P25
+   Ferreira FJO, 2010, APPL RADIAT ISOTOPES, V68, P1012, DOI 10.1016/j.apradiso.2010.01.019
+   Fire A, 2016, ACM T INTEL SYST TEC, V7, P0, DOI 10.1145/2809782
+   Fischbein H, 2002, INTUITION SCI MATH E, V1st, P0
+   Fjellheim R., 2008, INT EN C EXH, V0, P1
+   Fogel D., 1995, EVOLUTIONARY COMPUTA, V0, P0
+   FREYD JJ, 1983, MEM COGNITION, V11, P342, DOI 10.3758/BF03202447
+   FUNAHASHI K, 1993, NEURAL NETWORKS, V6, P801, DOI 10.1016/S0893-6080(05)80125-X
+   Gil Y, 2014, SCIENCE, V346, P171, DOI 10.1126/science.1259439
+   Gilbert G. R., 2010, RTOMPHFM182, V0, P0
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   Goodfellow Ian J, 2014, ARXIV14126572, V0, P0
+   Graves A., 2014, ARXIV14105401, V0, P0
+   Graves A, 2016, NATURE, V538, P471, DOI 10.1038/nature20101
+   Graves A, 2013, INT CONF ACOUST SPEE, V0, PP6645, DOI 10.1109/ICASSP.2013.6638947
+   Griffiths TL, 2010, TRENDS COGN SCI, V14, P357, DOI 10.1016/j.tics.2010.05.004
+   Hagan M.T., 2002, NEURAL NETWORK DESIG, V0, P0
+   Hiovska K., 2012, EC STUDIES ANALYSES, V6, P62
+   Hiskens IA, 2001, IEEE T POWER SYST, V16, P389, DOI 10.1109/59.932273
+   Hoffman R., 1998, THESIS, V0, P0
+   Holland J., 1975, Q REV BIOL, V0, P0
+   Honey CJ, 2010, NEUROIMAGE, V52, P766, DOI 10.1016/j.neuroimage.2010.01.071
+   Hu P., 2013, SCI RES MANAG, VV, P90
+   Hu P., 2010, INT C BIOINF BIOM EN, V0, P1
+   Hughes D, 2016, BJU INT, V117, P940, DOI 10.1111/bju.13401
+   Im D. Y., 2009, ISIS P 10 S ADV INT, V0, P213
+   IOFFE AD, 1979, SIAM J CONTROL OPTIM, V17, P266, DOI 10.1137/0317021
+   Janis IL, 1977, DECISION MAKING PSYC, V0, P0
+   Jennings NR, 2000, ARTIF INTELL, V117, P277, DOI 10.1016/S0004-3702(99)00107-1
+   Johnson M, 2014, J HUM-ROBOT INTERACT, V3, P43, DOI 10.5898/JHRI.3.1.Johnson
+   Johnson S, 1998, DEVELOPMENTAL SCI, V1, P233, DOI 10.1111/1467-7687.00036
+   Jordan M. I., 2016, P 28 ACM PAR ALG ARC, V0, P47
+   Kamar E., 2016, ARTIF INTELL, V0, P0
+   Kourtzi Z, 2000, J COGNITIVE NEUROSCI, V12, P48, DOI 10.1162/08989290051137594
+   Lake BM, 2017, BEHAV BRAIN SCI, V40, P0, DOI 10.1017/S0140525X16001837
+   Lake BM, 2015, SCIENCE, V350, P1332, DOI 10.1126/science.aab3050
+   Ledford H, 2015, NATURE, V525, P308, DOI 10.1038/525308a
+   Lewis D. D., 1998, MACHINE LEARNING: ECML-98. 10TH EUROPEAN CONFERENCE ON MACHINE LEARNING. PROCEEDINGS, V0, PP4, DOI 10.1007/BFb0026666
+   Lillicrap T. P., 2016, INT C LEARN REPR ICL, V0, P0
+   Lippmann R. P., 1987, IEEE ASSP MAGAZINE, V4, P4, DOI 10.1145/44571.44572
+   Marchiori D, 2008, SCIENCE, V319, P1111, DOI 10.1126/science.1151185
+   MARR D, 1977, ARTIF INTELL, V9, P37, DOI 10.1016/0004-3702(77)90013-3
+   MARTIN J, 2007, MEANING 21 CENTURY V, V0, P0
+   McCarthy J., 1987, SOME PHILOS PROBLEMS, V0, P0
+   Mikolov T, 2010, 11TH ANNUAL CONFERENCE OF THE INTERNATIONAL SPEECH COMMUNICATION ASSOCIATION 2010 (INTERSPEECH 2010), VOLS 1-2, P1045
+   MINSKY M, 1961, P IRE, V49, P8, DOI 10.1109/JRPROC.1961.287775
+   MIZUMOTO M, 1982, FUZZY SET SYST, V8, P253, DOI 10.1016/S0165-0114(82)80004-3
+   Mnih V., 2013, ARXIV, V0, P0
+   Mnih V, 2015, NATURE, V518, P529, DOI 10.1038/nature14236
+   Moran J., 1985, SELECTIVE ATTENTION, V0, P0
+   MUIR BM, 1994, ERGONOMICS, V37, P1905, DOI 10.1080/00140139408964957
+   NASH JF, 1950, P NATL ACAD SCI USA, V36, P48, DOI 10.1073/pnas.36.1.48
+   Navigli R, 2012, ARTIF INTELL, V193, P217, DOI 10.1016/j.artint.2012.07.001
+   Newell Allen, 1972, HUMAN PROBLEM SOLVIN, V0, P0
+   Nilsson N.J., 1965, LEARNING MACHINES FD, V0, P0
+   NISSEN MJ, 1987, COGNITIVE PSYCHOL, V19, P1, DOI 10.1016/0010-0285(87)90002-8
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Norman KA, 2003, PSYCHOL REV, V110, P611, DOI 10.1037/0033-295X.110.4.611
+   OKeefe J., 1978, HIPPOCAMPUS COGNITIV, V0, P0
+   OLeary DE, 2013, IEEE INTELL SYST, V28, P96, DOI 10.1109/MIS.2013.39
+   OGURA T, 1989, IEEE J SOLID-ST CIRC, V24, P1014, DOI 10.1109/4.34086
+   Pan YH, 2016, ENGINEERING, V2, P409, DOI 10.1016/J.ENG.2016.04.018
+   Park CC, 2015, ADV NEUR IN, V28, P0
+   Premack D, 1997, J COGNITIVE NEUROSCI, V9, P848, DOI 10.1162/jocn.1997.9.6.848
+   Pylyshyn Z., 1984, COMPUTATION COGNITIO, V0, P0
+   Rachlin H, 2012, BEHAV ANALYST, V35, P1
+   Radford A., 2015, 4 INT C LEARNING REP, V0, P0
+   RASHEVSKY N, 1964, PROG BIOCYBERN, V42, P188
+   Rasmussen CE, 2000, ADV NEUR IN, V12, P554
+   Rehder B, 2001, J EXP PSYCHOL GEN, V130, P323, DOI 10.1037//0096-3445.130.3.323
+   Russell S, 1995, ARTIFICIAL INTELLIGE, V0, P0
+   Salimans T, 2016, ADV NEUR IN, V29, P0
+   Salvi C, 2016, THINK REASONING, V22, P443, DOI 10.1080/13546783.2016.1141798
+   Samuel A L, 1988, COMPUTER GAMES, VI, P206
+   Saripalli S, 2003, IEEE T ROBOTIC AUTOM, V19, P371, DOI 10.1109/TRA.2003.810239
+   Saxe R, 2006, ACTA PSYCHOL, V123, P144, DOI 10.1016/j.actpsy.2006.05.005
+   Schlottmann A, 2006, ACTA PSYCHOL, V123, P112, DOI 10.1016/j.actpsy.2006.05.006
+   Schwartz T, 2016, LECT NOTES ARTIF INT, V9872, P131, DOI 10.1007/978-3-319-45889-2_10
+   Selfridge O. G., 1988, NAT PHYS LAB C, V0, P511
+   Shader RI, 2016, CLIN THER, V38, P1, DOI 10.1016/j.clinthera.2015.12.008
+   Sharp CS, 2001, IEEE INT CONF ROBOT, V0, PP1720, DOI 10.1109/ROBOT.2001.932859
+   SHRIVASTAVA P, 1995, ACAD MANAGE REV, V20, P118, DOI 10.2307/258889
+   Shuaibu BM, 2015, ARTIF INTELL REV, V43, P259, DOI 10.1007/s10462-012-9375-6
+   Silver D, 2016, NATURE, V529, P484, DOI 10.1038/nature16961
+   Simon H.A, 1969, SCI ARTIFICIAL, V0, P0
+   Son D, 2014, NAT NANOTECHNOL, V9, P397, DOI 10.1038/NNANO.2014.38
+   Sternberg R. J., 1983, EDUC PSYCHOL-US, V18, P51, DOI https://doi.org/10.1080/00461528309529261
+   STERNBERG RJ, 1984, BEHAV BRAIN SCI, V7, P269, DOI 10.1017/S0140525X00044629
+   Sun Y, 2014, PROC CVPR IEEE, V0, PP1891, DOI 10.1109/CVPR.2014.244
+   Szegedy, 2014, INTRIGUING PROPERTIE, V0, P0, DOI DOI 10.1109/CVPR.2015.7298594
+   SZOLOVITS P, 1988, ANN INTERN MED, V108, P80, DOI 10.7326/0003-4819-108-1-80
+   Tenenbaum JB, 2011, SCIENCE, V331, P1279, DOI 10.1126/science.1192788
+   Thielscher M, 2001, ARTIF INTELL, V131, P1, DOI 10.1016/S0004-3702(01)00131-X
+   Thielscher M, 1997, ARTIF INTELL, V89, P317, DOI 10.1016/S0004-3702(96)00033-1
+   Thrun S, 1998, AUTON ROBOT, V5, P253, DOI 10.1023/A:1008806205438
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Tremoulet PD, 2000, PERCEPTION, V29, P943, DOI 10.1068/p3101
+   TVERSKY A, 1983, PSYCHOL REV, V90, P293, DOI 10.1037/0033-295X.90.4.293
+   van den Oord A, 2016, PR MACH LEARN RES, V48, P0
+   VARAIYA P, 1993, IEEE T AUTOMAT CONTR, V38, P195, DOI 10.1109/9.250509
+   Waldrop MM, 2015, NATURE, V518, P20, DOI 10.1038/518020a
+   Walters Michael L., 2013, 2013 IEEE INTERNATIONAL SYMPOSIUM ON ROBOT AND HUMAN INTERACTIVE COMMUNICATION (RO-MAN), V0, PP691, DOI 10.1109/ROMAN.2013.6628393
+   Wang FY, 2016, IEEE-CAA J AUTOMATIC, V3, P345, DOI 10.1109/JAS.2016.7510067
+   Wang J. J., 2017, SEIEAT SIN INFORM, V47, P1
+   Wang LM, 2016, LECT NOTES COMPUT SC, V9912, P20, DOI 10.1007/978-3-319-46484-8_2
+   Wei P., 2016, IEEE T SOFTW ENG, V0, P0
+   Wei P, 2013, IEEE I CONF COMP VIS, V0, PP3136, DOI 10.1109/ICCV.2013.389
+   Williams RJ, 1989, NEURAL COMPUT, V1, P270, DOI 10.1162/neco.1989.1.2.270
+   WILLIAMS WM, 1988, INTELLIGENCE, V12, P351, DOI 10.1016/0160-2896(88)90002-5
+   Xiao C, 2016, PROCEEDINGS OF THE 54TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS, VOL 1, P1341
+   Yau S.S., 2003, ASEE 2003 ANN C EXP, V0, P13633
+   YEGNANARAYANA B, 1994, SADHANA-ACAD P ENG S, V19, P189, DOI 10.1007/BF02811896
+   Youseff L, 2008, GCE: 2008 GRID COMPUTING ENVIRONMENTS WORKSHOP, V0, P42
+   Zadeh L. A., 1996, ADV FUZZY SYSTEMS AP, V6, P238
+   Zhao Yan-Yan, 2010, JOURNAL OF SOFTWARE, V21, P1834, DOI 10.3724/SP.J.1001.2010.03832
+   Zheng NN, 2004, IEEE INTELL SYST, V19, P8
+NR 137
+TC 119
+Z9 144
+U1 68
+U2 430
+PU ZHEJIANG UNIV PRESS
+PI Hangzhou
+PA Xixi Campus, Zhejiang University, No. 148 Tianmushan Road, Hangzhou, Zhejiang, PEOPLES R CHINA
+SN 2095-9184
+EI 2095-9230
+J9 FRONT INFORM TECH EL
+JI Front. Inform. Technol. Elect. Eng.
+PD FEB 15
+PY 2017
+VL 18
+IS 2
+BP 153
+EP 179
+DI 10.1631/FITEE.1700053
+PG 27
+WC Computer Science, Information Systems; Computer Science, Software Engineering; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA EL3TE
+UT WOS:000394541400001
+DA 2023-04-26
+ER
+
+PT J
+AU Hong, HY
+   Ilia, I
+   Tsangaratos, P
+   Chen, W
+   Xu, C
+AF Hong, Haoyuan
+   Ilia, Ioanna
+   Tsangaratos, Paraskevas
+   Chen, Wei
+   Xu, Chong
+TI A hybrid fuzzy weight of evidence method in landslide susceptibility analysis on the Wuyuan area, China
+SO GEOMORPHOLOGY
+LA English
+DT Article
+DE Landslide susceptibility; Fuzzy logic; Weight of evidence; China
+ID artificial neural-networks; analytical hierarchy process; support vector machine; logistic-regression; certainty factor; frequency ratio; natural slopes; gis; hazard; prediction
+AB The present study proposed a hybrid fuzzy weight of evidence model for constructing a landslide susceptibility map in the Wuyuan area, China, where disastrous landslide events have occurred. The model combines the knowledge of experts obtained through a fuzzy logic approach and a hybrid weight of evidence method. The estimated knowledge-based fuzzy membership value of each environmental variable is combined with data based conditional probabilities to derive fuzzy posterior probabilities and landslide susceptibility. The developed model was compared with a landslide susceptibility map produced using the data-driven weight of evidence method, based on 510 landslide and non-landslide sites. The sites were identified by analyzing airborne imagery, field investigation and previous studies. Landside susceptibility for these sites was analyzed using 10 geoenvironmental variables: slope, aspect, lithology, soil, rainfall, plan curvature, the normalized difference vegetation index, distance to roads, distance to rivers and distance to faults. The resultant hybrid fuzzy weight of evidence method showed high predictive power, with the area under the success and predictive curves being 0.770 and 0.746, respectively. Additional analyses showed that the developed model could work effectively even with limited data.
+C1 [Hong, Haoyuan; Ilia, Ioanna; Tsangaratos, Paraskevas; Xu, Chong] China Earthquake Adm, Inst Geol, Key Lab Act Tecton & Volcano, 1 Huayanli,POB 9803, Beijing 100029, Peoples R China.
+   [Hong, Haoyuan] Nanjing Noma Univ, Coll Geog Sci, Nanjing 210023, Jiangsu, Peoples R China.
+   [Ilia, Ioanna; Tsangaratos, Paraskevas] Natl Tech Univ Athens, Dept Geol Studies, Sch Min & Met Engn, Heroon Polytech 9, Zografos 15780, Greece.
+   [Chen, Wei] Xian Univ Sci & Technol, Coll Geol & Environm, Xian 710054, Peoples R China.
+C3 China Earthquake Administration; Nanjing Normal University; National Technical University of Athens; Xi'an University of Science & Technology
+RP Ilia, I (corresponding author), China Earthquake Adm, Inst Geol, Key Lab Act Tecton & Volcano, 1 Huayanli,POB 9803, Beijing 100029, Peoples R China.
+EM honghaoyuan@qq.com; gilia@metal.ntua.gr
+FU National Natural Science Foundation of China [41472202, 41202235, 41401032]
+CR Akgun A, 2012, COMPUT GEOSCI-UK, V38, P23, DOI 10.1016/j.cageo.2011.04.012
+   Akgun A, 2007, ENVIRON GEOL, V51, P1377, DOI 10.1007/s00254-006-0435-6
+   Akinci H., 2011, INTERNATIONAL JOURNAL OF PHYSICAL SCIENCES, V6, P1015
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   [Anonymous], 2009, P 18 WORLD IMACS MOD, V0, P0
+   Binaghi E, 1998, NAT HAZARDS, V17, P77, DOI 10.1023/A:1008001724538
+   Bonham-Carter F, 1994, COMPUTER METHODS GEO, V0, P0
+   Bonham-Carter G., 1989, STAT APPL EARTH SCI, V89-9, P171
+   Can T, 2005, GEOMORPHOLOGY, V72, P250, DOI 10.1016/j.geomorph.2005.05.011
+   CARRARA A, 1995, ADV NAT TECHNOL HAZ, V5, P135
+   Castellanos Abella EA, 2007, LANDSLIDES, V4, P311, DOI 10.1007/s10346-007-0087-y
+   Cervi F, 2010, LANDSLIDES, V7, P433, DOI 10.1007/s10346-010-0207-y
+   Cheng Q., 1999, NAT RESOUR RES, V8, P27, DOI 10.1023/A:1021677510649
+   Chou SY, 2008, EUR J OPER RES, V189, P132, DOI 10.1016/j.ejor.2007.05.006
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   Dahal RK, 2008, GEOMORPHOLOGY, V102, P496, DOI 10.1016/j.geomorph.2008.05.041
+   Bui DT, 2013, NAT HAZARDS, V66, P707, DOI 10.1007/s11069-012-0510-0
+   Bui DT, 2012, GEOMORPHOLOGY, V171, P12, DOI 10.1016/j.geomorph.2012.04.023
+   Bui DT, 2012, MATH PROBL ENG, V2012, P0, DOI 10.1155/2012/974638
+   Bui DT, 2012, COMPUT GEOSCI-UK, V45, P199, DOI 10.1016/j.cageo.2011.10.031
+   Bui DT, 2012, CATENA, V96, P28, DOI 10.1016/j.catena.2012.04.001
+   Ercanoglu M, 2004, ENG GEOL, V75, P229, DOI 10.1016/j.enggeo.2004.06.001
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   ESRI, 2013, ARCGIS DESKT REL 10, V0, P0
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Feizizadeh B, 2013, NAT HAZARDS, V65, P2105, DOI 10.1007/s11069-012-0463-3
+   Fell R, 2008, ENG GEOL, V102, P99, DOI 10.1016/j.enggeo.2008.03.014
+   Glade T., 2005, LANDSLIDE HAZARD RIS, V0, P802
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   HANLEY JA, 1982, RADIOLOGY, V143, P29, DOI 10.1148/radiology.143.1.7063747
+   Ilia I., 2013, THESIS, V0, P328
+   Ilia I., 2010, GREECE B GEOL SOC GR, V3, P1590
+   Ilia I, 2016, LANDSLIDES, V13, P379, DOI 10.1007/s10346-015-0576-3
+   Kaufman A., 1991, INTRO FUZZY ARITHMET, V0, P384
+   Korup O., 2014, GEOL TODAY, V30, P26, DOI 10.1111/gto.12034
+   Kouli M, 2014, ENVIRON EARTH SCI, V72, P5197, DOI 10.1007/s12665-014-3389-0
+   Kouli M, 2010, NAT HAZARDS, V52, P599, DOI 10.1007/s11069-009-9403-2
+   Lan HX, 2004, ENG GEOL, V76, P109, DOI 10.1016/j.enggeo.2004.06.009
+   Lee CT, 2008, ENG GEOL, V100, P43, DOI 10.1016/j.enggeo.2008.03.004
+   Lee S, 2004, INT J REMOTE SENS, V25, P2037, DOI 10.1080/01431160310001618734
+   Lee S, 2003, EARTH SURF PROC LAND, V28, P1361, DOI 10.1002/esp.593
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2006, J EARTH SYST SCI, V115, P661, DOI 10.1007/s12040-006-0004-0
+   Magliulo P, 2008, NAT HAZARDS, V47, P411, DOI 10.1007/s11069-008-9230-x
+   Melchiorre C, 2008, GEOMORPHOLOGY, V94, P379, DOI 10.1016/j.geomorph.2006.10.035
+   Nandi A, 2010, ENG GEOL, V110, P11, DOI 10.1016/j.enggeo.2009.10.001
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Nefeslioglu HA, 2010, MATH PROBL ENG, V2010, P0, DOI 10.1155/2010/901095
+   Negnevitsky M, 2002, ARTIF INTELL, V0, P394
+   Neuhauser B, 2007, GEOMORPHOLOGY, V86, P12, DOI 10.1016/j.geomorph.2006.08.002
+   Neuhauser B, 2012, LANDSLIDES, V9, P511, DOI 10.1007/s10346-011-0305-5
+   Park NW, 2011, ENVIRON EARTH SCI, V62, P367, DOI 10.1007/s12665-010-0531-5
+   Porwal A., 2006, NAT RESOUR RES, V15, P1, DOI 10.1007/S11053-006-9012-7
+   Porwal A., 2003, NAT RESOUR RES, V12, P1, DOI 10.1023/A:1022693220894
+   Pourghasemi HR, 2013, NAT HAZARDS, V69, P749, DOI 10.1007/s11069-013-0728-5
+   Pourghasemi HR, 2013, ARAB J GEOSCI, V6, P2351, DOI 10.1007/s12517-012-0532-7
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan B, 2010, IEEE T GEOSCI REMOTE, V48, P4164, DOI 10.1109/TGRS.2010.2050328
+   Pradhan B, 2010, COMPUT ENVIRON URBAN, V34, P216, DOI 10.1016/j.compenvurbsys.2009.12.004
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Pradhan B, 2010, LANDSLIDES, V7, P13, DOI 10.1007/s10346-009-0183-2
+   Regmi NR, 2010, GEOMORPHOLOGY, V115, P172, DOI 10.1016/j.geomorph.2009.10.002
+   Rozos D, 2008, LANDSLIDES, V5, P261, DOI 10.1007/s10346-008-0117-4
+   Rozos D, 2006, P 11 INT C SOC MATH, V0, P[S08, 10]
+   Schuster R.L., 1996, LANDSLIDES INVESTIGA, VVolume 247, P12
+   Sezer EA, 2011, EXPERT SYST APPL, V38, P8208, DOI 10.1016/j.eswa.2010.12.167
+   Soeters R., 1996, LANDSLIDES INVESTIGA, V129-177, P0
+   SPSS Inc, 2007, SPSS WIND VERS 16 0, V0, P0
+   Sujatha ER, 2012, J EARTH SYST SCI, V121, P1337, DOI 10.1007/s12040-012-0230-6
+   Tangestani MH, 2009, J ASIAN EARTH SCI, V35, P66, DOI 10.1016/j.jseaes.2009.01.002
+   Thiery Y, 2007, GEOMORPHOLOGY, V92, P38, DOI 10.1016/j.geomorph.2007.02.020
+   Thiery Y, 2014, LANDSLIDES, V11, P411, DOI 10.1007/s10346-013-0390-8
+   Tsangaratos P., 2013, LANDSLIDE SCI PRACTI, V0, PP585, DOI 10.1007/978-3-642-31325-7_77
+   Tsangaratos P, 2016, LANDSLIDES, V13, P305, DOI 10.1007/s10346-015-0565-6
+   Tsangaratos P, 2014, NAT HAZARDS, V74, P1489, DOI 10.1007/s11069-014-1245-x
+   Vahidnia MH, 2010, COMPUT GEOSCI-UK, V36, P1101, DOI 10.1016/j.cageo.2010.04.004
+   Varnes D.J., 1984, LANDSLIDE HAZARD ZON, V0, P63
+   Xu C, 2012, GEOMORPHOLOGY, V145, P70, DOI 10.1016/j.geomorph.2011.12.040
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Yeon YK, 2010, ENG GEOL, V116, P274, DOI 10.1016/j.enggeo.2010.09.009
+   Yilmaz C, 2012, ENVIRON EARTH SCI, V65, P2161, DOI 10.1007/s12665-011-1196-4
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V61, P821, DOI 10.1007/s12665-009-0394-9
+   Youssef AM, 2015, ENVIRON EARTH SCI, V73, P8499, DOI 10.1007/s12665-014-4008-9
+   Youssef AM, 2015, GEOSCI J, V19, P113, DOI 10.1007/s12303-014-0032-8
+   Youssef AM, 2016, LANDSLIDES, V13, P839, DOI 10.1007/s10346-015-0614-1
+   Zimmermann H.J., 1991, FUZZY SET THEORY ITS, V0, P0
+NR 86
+TC 93
+Z9 95
+U1 6
+U2 75
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0169-555X
+EI 1872-695X
+J9 GEOMORPHOLOGY
+JI Geomorphology
+PD AUG 1
+PY 2017
+VL 290
+IS 
+BP 1
+EP 16
+DI 10.1016/j.geomorph.2017.04.002
+PG 16
+WC Geography, Physical; Geosciences, Multidisciplinary
+SC Physical Geography; Geology
+GA EZ9NC
+UT WOS:000405056100001
+DA 2023-04-26
+ER
+
+PT J
+AU Tsai, WP
+   Huang, SP
+   Cheng, ST
+   Shao, KT
+   Chang, FJ
+AF Tsai, Wen-Ping
+   Huang, Shih-Pin
+   Cheng, Su-Ting
+   Shao, Kwang-Tsao
+   Chang, Fi-John
+TI A data-mining framework for exploring the multi-relation between fish species and water quality through self-organizing map
+SO SCIENCE OF THE TOTAL ENVIRONMENT
+LA English
+DT Article
+DE Eco-hydrological environments; Water quality; Flow regime; Fish community; Artificial neural network (ANN); Self-organizing map (SOM)
+ID artificial neural-networks; river; community; restoration; resources; taiwan; flow; degradation; diversity; habitat
+AB The steep slopes of rivers can easily lead to large variations in river water quality during typhoon seasons in Taiwan, which may poses significant impacts on riverine eco-hydrological environments, This study aims to investigate the relationship between fish communities and water quality by using artificial neural networks (ANNs) for comprehending the upstream eco-hydrological system in northern Taiwan. We collected a total of 276 heterogeneous datasets with 8 water quality parameters and 25 fish species from 10 sampling sites. The self-organizing feature map (SOM) was used to cluster, analyze and visualize the heterogeneous datasets. Furthermore, the structuring index (SI) was adopted to determine the relative importance of each input variable of the SOM and identify the indicator factors. The clustering results showed that the SOM.could suitably reflect the spatial characteristics of fishery sampling sites. Besides, the patterns of water quality parameters and fish species could be distinguishably (visually) classified into three eco-water quality groupS: 1) typical upstream freshwater fishes that depended the most on dissolved oxygen (DO); 2) typical middle-lower reach riverine freshwater fishes that depended the most on total phosphorus (TP) and ammonia nitrogen; and 3) low lands or pond (reservoirs) freshwater fishes that depended the most on water temperature, suspended solids and chemical oxygen demand. According to the results of the SI, the representative indicators of water quality parameters and fish species consisted of DO, TP and Onychostoma barbatulum. This grouping result suggested that the methodology can be used as a guiding reference to comprehensively relate ecology to water quality. Our methods offer a cost-effective alternative to more traditional methods for identifying key water quality factors relating to fish species. In addition, visualizing the constructed topological maps of the SOM could produce detailed interrelation between water quality and the fish species of stream habitat units. (C) 2016 Elsevier B.V. All rights reserved.
+C1 [Tsai, Wen-Ping; Cheng, Su-Ting; Chang, Fi-John] Natl Taiwan Univ, Dept Bioenvironm Syst Engn, Taipei 10617, Taiwan.
+   [Huang, Shih-Pin; Shao, Kwang-Tsao] Acad Sinica, Biodivers Res Ctr, Taipei, Taiwan.
+C3 National Taiwan University; Academia Sinica - Taiwan
+RP Chang, FJ (corresponding author), Natl Taiwan Univ, Dept Bioenvironm Syst Engn, Taipei 10617, Taiwan.
+EM changfj@ntu.edu.tw
+FU Water Resources Planning Institute, Water Resources Agency, Taiwan [MOEAWRA1040202]; Ministry of Science and Technology [103-2313-B-002-016-MY3]
+CR Abdul HM, 2010, J WATER RESOUR PROT, V2, P629
+   Alvarez-Guerra M, 2008, ENVIRON INT, V34, P782, DOI 10.1016/j.envint.2008.01.006
+   [Anonymous], 1896, PHILOS T R SOC LOND, V0, P0
+   [Anonymous], 1996, WATER QUALITY ASSESS, V0, P0
+   [Anonymous], 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2_5
+   Assessment M. E., 2005, EC HUM WELL BEING BI, V42, P77
+   Bateman IJ, 2011, ENVIRON RESOUR ECON, V48, P177, DOI 10.1007/s10640-010-9418-x
+   Bennett SJ, 2011, GEOPHYS MONOGR SER, V194, P1, DOI 10.1029/2011GM001099
+   Cabral HN, 2012, ECOL INDIC, V19, P144, DOI 10.1016/j.ecolind.2011.08.005
+   Cade BS, 2003, FRONT ECOL ENVIRON, V1, P412, DOI 10.1890/1540-9295(2003)001[0412:AGITQR]2.0.CO;2
+   Campana D, 2014, GEOMORPHOLOGY, V221, P230, DOI 10.1016/j.geomorph.2014.06.016
+   Carr GM, 2008, WATER QUALITY ECOSYS, V0, P0
+   Cereghino R, 2009, ENVIRON MODELL SOFTW, V24, P945, DOI 10.1016/j.envsoft.2009.01.008
+   Chang FJ, 2007, HYDROL PROCESS, V21, P741, DOI 10.1002/hyp.6262
+   Chang FJ, 2013, J HYDROL, V476, P280, DOI 10.1016/j.jhydrol.2012.10.038
+   Chang FJ, 2011, J HYDROL, V409, P328, DOI 10.1016/j.jhydrol.2011.08.029
+   Chang FJ, 2010, J HYDROL, V384, P118, DOI 10.1016/j.jhydrol.2010.01.016
+   Chang FJ, 2009, J HYDROL, V376, P235, DOI 10.1016/j.jhydrol.2009.07.034
+   Chen I.S., 1999, FRESHWATER ESTUARINE, V0, P0
+   Chen I. S., 2005, PHOTOGRAPHIC GUIDE I, V0, P0
+   Chen I.S., 2010, ALIEN INVASIVE FRESH, V0, P0
+   Chen I.-S., 2011, SURVEY CONSERVATION, V0, P0
+   Chen I. S., 2009, INDICATOR SPECIES RI, V1, P0
+   Chen I-S, 2012, RED DATA BOOK FRESHW, V0, P0
+   Cheng S. T., 2016, SCI TOTAL ENV, V0, P0
+   Cheng ST, 2012, ECOL ENG, V42, P244, DOI 10.1016/j.ecoleng.2012.02.011
+   Cosgrove WJ, 2015, WATER RESOUR RES, V51, P4823, DOI 10.1002/2014WR016869
+   Cronin DT, 2014, ARCT ANTARCT ALP RES, V46, P891, DOI 10.1657/1938-4246-46.4.891
+   Ghilarov AM, 2000, OIKOS, V90, P408, DOI 10.1034/j.1600-0706.2000.900222.x
+   Grieu S, 2006, CHEM ENG J, V116, P1, DOI 10.1016/j.cej.2005.10.004
+   GROOM MJ, 2006, PRINCIPLES CONSERVAT, V0, P0
+   Hsu KL, 2002, WATER RESOUR RES, V38, P0, DOI 10.1029/2001WR000795
+   Hubert N, 2006, J BIOGEOGR, V33, P1414, DOI 10.1111/j.1365-2699.2006.01518.x
+   Kail J, 2012, ECOL INDIC, V18, P63, DOI 10.1016/j.ecolind.2011.09.038
+   Kalteh AM, 2008, ENVIRON MODELL SOFTW, V23, P835, DOI 10.1016/j.envsoft.2007.10.001
+   Kao YH, 2013, J HYDROL, V498, P274, DOI 10.1016/j.jhydrol.2013.06.009
+   Keeler BL, 2012, P NATL ACAD SCI USA, V109, P18619, DOI 10.1073/pnas.1215991109
+   Khanna D. R., 2013, INT ARAB J SCI ENG, V1, P09
+   Kiviluoto K, 1996, IEEE IJCNN, V0, PP294, DOI 10.1109/ICNN.1996.548907
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   Kwon YS, 2012, INT J ENV RES PUB HE, V9, P3629, DOI 10.3390/ijerph9103629
+   Liao GL, 2005, LECT NOTES COMPUT SC, V3696, P421, DOI 10.1007/11550822_66
+   Liu YG, 2006, J GEOPHYS RES-OCEANS, V111, P0, DOI 10.1029/2005JC003117
+   Liu ZH, 2012, FEMS MICROBIOL ECOL, V80, P30, DOI 10.1111/j.1574-6941.2011.01268.x
+   Lorenz CM, 1997, REGUL RIVER, V13, P501
+   Moerke AH, 2006, AQUAT SCI, V68, P193, DOI 10.1007/s00027-006-0837-2
+   Park SH, 2014, CR BIOL, V337, P545, DOI 10.1016/j.crvi.2014.07.003
+   Park Y.S., 2005, MODELLING COMMUNITY, V0, PP369, DOI 10.1007/3-540-26894-4_31
+   Park YS, 2006, ECOL INFORM, V1, P247, DOI 10.1016/j.ecoinf.2006.03.005
+   Park YS, 2003, ECOL MODEL, V160, P265, DOI 10.1016/S0304-3800(02)00258-2
+   Pedro-Monzonis M, 2016, SCI TOTAL ENVIRON, V565, P181, DOI 10.1016/j.scitotenv.2016.04.161
+   Piliere AFH, 2016, FRESHWATER BIOL, V61, P181, DOI 10.1111/fwb.12690
+   Piliere A, 2014, ECOL INDIC, V43, P215, DOI 10.1016/j.ecolind.2014.02.019
+   Piperac MS, 2016, SCI TOTAL ENVIRON, V551, P1, DOI 10.1016/j.scitotenv.2016.01.189
+   Russo T, 2016, FISH RES, V181, P34, DOI 10.1016/j.fishres.2016.04.005
+   Segurado P, 2016, SCI TOTAL ENVIRON, V562, P435, DOI 10.1016/j.scitotenv.2016.03.188
+   Suen JP, 2009, HYDROBIOLOGIA, V625, P223, DOI 10.1007/s10750-009-9710-3
+   Sun SK, 2016, SCI TOTAL ENVIRON, V550, P871, DOI 10.1016/j.scitotenv.2016.01.016
+   Tsai WP, 2016, ECOL ENG, V87, P9, DOI 10.1016/j.ecoleng.2015.11.015
+   Tsai WP, 2015, J HYDROL, V530, P634, DOI 10.1016/j.jhydrol.2015.10.024
+   Vesanto J., 1999, INTELLIGENT DATA ANALYSIS, V3, P111, DOI 10.1016/S1088-467X(99)00013-X
+   Vesanto J., 2000, TECHNICAL REPORT, V216, P216
+   Xu EG, 2016, SCI TOTAL ENVIRON, V559, P130, DOI 10.1016/j.scitotenv.2016.03.144
+   Zhan J. P., 1994, TAIZHONG XIAN DAJIA, V0, P0
+NR 64
+TC 56
+Z9 58
+U1 0
+U2 61
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0048-9697
+EI 1879-1026
+J9 SCI TOTAL ENVIRON
+JI Sci. Total Environ.
+PD FEB 1
+PY 2017
+VL 579
+IS 
+BP 474
+EP 483
+DI 10.1016/j.scitotenv.2016.11.071
+PG 10
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA EH6QA
+UT WOS:000391897800048
+PM 27866743
+DA 2023-04-26
+ER
+
+PT J
+AU Ayadi, M
+   Ben Zineb, A
+   Tabbane, S
+AF Ayadi, M.
+   Ben Zineb, A.
+   Tabbane, S.
+TI A UHF Path Loss Model Using Learning Machine for Heterogeneous Networks
+SO IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION
+LA English
+DT Article
+DE Back propagation; model calibration; neural network (NN); outdoor wave propagation
+ID wave-propagation; loss prediction; indoor
+AB In this paper, we present and evaluate a new propagation model for heterogeneous networks. The designed model is multiband, multienvironment, and is usable for short and long distance. For this research, a measurement campaign was conducted in Tunis (Tunisia) using continuous wave analog technology. It concerns the most used bands (450, 850, 1800, 2100, and 2600 MHz) in rural, suburban, and urban environments. Measurements are split into two independent and random sets. The first one is used for model training, whereas the second is used for model validation. The new model is based on neural networks, uses back propagation algorithm, and obtains its inputs from Standard Propagation Model, to which we have added more parameters such as frequency, environment type, land use distribution, and diffraction loss. Model variables are computed from accurate Digital Terrain Model and Land Used maps with 2-m resolution. The statistical analysis has shown that the developed model is accurate as we obtained the following metrics: 0.235-dB absolute mean error, 6.850-dB standard deviation, and 85% correlation factor. The obtained simulation results are then compared to SPM and ITU-R P. 1812-4 prediction, which are taken as reference to highlight the benefit of the new model.
+C1 [Ayadi, M.; Tabbane, S.] SupCom, Mediatron, Ariana 2083, Tunisia.
+   [Ben Zineb, A.] SupCom, Ooredoo Tunisie, Mahdia 5111, Tunisia.
+C3 Universite de Carthage; Universite de Carthage
+RP Ayadi, M (corresponding author), SupCom, Mediatron, Ariana 2083, Tunisia.
+EM ayadi@supcom.rnu.tn
+CR Amendolia SR, 2003, CHEMOMETR INTELL LAB, V69, P13, DOI 10.1016/S0169-7439(03)00094-7
+   [Anonymous], 2008, IST 4 027756 WINNER, V0, P0
+   Ayadi M, 2014, IEEE T WIREL COMMUN, V13, P5999, DOI 10.1109/TWC.2014.2339275
+   Ayadi M., 2005, P IEEE INT C EL CIRC, V0, P1
+   DEYGOUT J, 1991, IEEE T ANTENN PROPAG, V39, P1256, DOI 10.1109/8.97368
+   Erceg V., 2000, 80216 IEEE BROADB WI, V0, P0
+   Evans G., 1997, P 47 IEEE VEH TECHN, V0, P0
+   Garcia M. A., 2005, TECH REP, V0, P0
+   Gorce JM, 2007, IEEE T ANTENN PROPAG, V55, P938, DOI 10.1109/TAP.2007.891811
+   HATA M, 1980, IEEE T VEH TECHNOL, V29, P317, DOI 10.1109/T-VT.1980.23859
+   Kecman V., 2001, LEARNING SOFT COMPUT, Vvol 541, P0
+   Mgbe C. O., 2015, J MULTIDISCIPLINARY, V2, P204
+   Mom J.M., 2014, AM J ENG RES, V3, P270
+   Montiel E, 2003, IEEE T ANTENN PROPAG, V51, P3097, DOI 10.1109/TAP.2003.818781
+   OBrien WM, 2000, IEEE T VEH TECHNOL, V49, P622, DOI 10.1109/25.832994
+   Ostlin E, 2010, IEEE T VEH TECHNOL, V59, P2735, DOI 10.1109/TVT.2010.2050502
+   Paran K., 2008, PROGRESS IN ELECTROMAGNETICS RESEARCH B, V8, P243, DOI 10.2528/PIERB08062201
+   Piacentini M., 2010, COMPUTATIONAL MANAGE, V8, P371
+   Popescu I, 2001, TELSIKS 2001, VOL 1 & 2, PROCEEDINGS
+   Popescu I., 2006, P 2006 IEEE 17 INT S, V0, P1
+   Rice PL, 1965, 101 NBS US DEP COMM, V0, P0
+   Rojas R., 1996, SYSTEMATIC INTRO, V0, P0, DOI DOI 10.1007/978-3-642-61068-4{\_}7
+   Sarkar TK, 2003, IEEE ANTENN PROPAG M, V45, P51, DOI 10.1109/MAP.2003.1232163
+   Sotiroudis SP, 2013, IEEE ANTENN WIREL PR, V12, P364, DOI 10.1109/LAWP.2013.2251994
+NR 25
+TC 72
+Z9 78
+U1 0
+U2 14
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0018-926X
+EI 1558-2221
+J9 IEEE T ANTENN PROPAG
+JI IEEE Trans. Antennas Propag.
+PD JUL 15
+PY 2017
+VL 65
+IS 7
+BP 3675
+EP 3683
+DI 10.1109/TAP.2017.2705112
+PG 9
+WC Engineering, Electrical & Electronic; Telecommunications
+SC Engineering; Telecommunications
+GA FA4EB
+UT WOS:000405395500039
+DA 2023-04-26
+ER
+
+PT J
+AU Shanthi, S
+   Elangovan, K
+AF Shanthi, S.
+   Elangovan, K.
+TI Comparison of Landslides Susceptibility Analysis using AHP, SMCE and GIS for Nilgiris district, India
+SO INDIAN JOURNAL OF GEO-MARINE SCIENCES
+LA English
+DT Article
+DE Landslides; Susceptibility; Geographical Information System; Analytical Hierarchy Process Method; Spatial Multi Criteria Evaluation method; Nilgiris district
+ID analytical hierarchy process; logistic-regression; hazard assessment; neural-networks; turkey; risk; statistics; model; area
+AB In this study first locations of past occurrence were identified and an inventory form were created and integrated to GIS to derive landslide inventory map predictors. Secondly predictors causing landslides were identified from report of past landslides. Thirdly thematic maps of the identified predictors namely geomorphology, geology, drainage, rainfall, lineament, road, railway, soil, land use/land cover, slope and aspect were derived using Geographical Information System (GIS). Finally based on relative importance of factors and their categories influencing landslide susceptibility weights and ratings of predictors were calculated using two multi criteria approaches namely Analytical Hierarchy processes (AHP) and Spatial Multi Criteria Evaluation (SMCE). Weights and rating obtained for factors and predictors were overlayed using weighted overlay tool of GIS software to generate LS map with classified five zones namely very low, low, moderate, high and very high. Using field check and Receiver Operating Curve (ROC) the LS map were validated, using validate location set Area Under the Curve (AUC) AHP of 95.98% and SMCE of 98.86% were determined.
+C1 [Shanthi, S.] Avinashilingam Inst Home Sci & Higher Educ Women, Dept Civil Engn, Coimbatore 641108, Tamil Nadu, India.
+   [Elangovan, K.] PSG Coll Technol, Dept Civil Engn, Coimbatore 641004, Tamil Nadu, India.
+C3 Avinashilingam University for Women; PSG College Technology
+RP Shanthi, S (corresponding author), Avinashilingam Inst Home Sci & Higher Educ Women, Dept Civil Engn, Coimbatore 641108, Tamil Nadu, India.
+EM sshanthicivil@gmail.com
+CR Akgun A, 2011, LANDSLIDES, V0, P0, DOI DOI 10.1007/1007/S10346-011-0283-7
+   Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Akgun A, 2007, ENVIRON GEOL, V51, P1377, DOI 10.1007/s00254-006-0435-6
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Baeza C, 2010, ENVIRON EARTH SCI, V61, P507, DOI 10.1007/s12665-009-0361-5
+   Bai SB, 2011, ENVIRON EARTH SCI, V62, P139, DOI 10.1007/s12665-010-0509-3
+   Balachandran V., 1996, P INT C DIS MIT MADR, VI, P21
+   BRABB EE, 1991, EPISODES, V14, P52, DOI 10.18814/epiiugs/1991/v14i1/008
+   Carrara A., 1992, ITC J, V0, PP172, DOI 10.1016/S0169-555X(99)00078-1
+   Castellanos Abella EA, 2007, LANDSLIDES, V4, P311, DOI 10.1007/s10346-007-0087-y
+   Chalkias C, 2014, GEOSCIENCES, V4, P176, DOI 10.3390/geosciences4030176
+   Chauhan S, 2010, INT J APPL EARTH OBS, V12, P340, DOI 10.1016/j.jag.2010.04.006
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Corominas J, 2014, B ENG GEOL ENVIRON, V73, P209, DOI 10.1007/s10064-013-0538-8
+   Dai FC, 2001, ENVIRON GEOL, V40, P381, DOI 10.1007/s002540000163
+   Dhakal AS, 2000, PHOTOGRAMM ENG REM S, V66, P981
+   Dobrovolny E, 1971, GREAT ALASKA EARTHQU, V0, P735
+   Galli M, 2008, GEOMORPHOLOGY, V94, P268, DOI 10.1016/j.geomorph.2006.09.023
+   Ganapathy G. P., 2010, INTERNATIONAL JOURNAL OF GEOMATICS AND GEOSCIENCES, V1, P29
+   Gokceoglu C, 2005, ENG GEOL, V81, P65, DOI 10.1016/j.enggeo.2005.07.011
+   Guzzetti F, 2006, NAT HAZARD EARTH SYS, V6, P115, DOI 10.5194/nhess-6-115-2006
+   Guzzetti F, 2005, GEOMORPHOLOGY, V72, P272, DOI 10.1016/j.geomorph.2005.06.002
+   Guzzetti F, 2002, EARTH PLANET SC LETT, V195, P169, DOI 10.1016/S0012-821X(01)00589-1
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Guzzetti F, 2003, GEOMORPHOLOGY, V81, P161
+   Guzzetti Fausto, 2012, EARTH SCI REV CNR IR, V126, P1
+   HANLEY JA, 1982, RADIOLOGY, V143, P29, DOI 10.1148/radiology.143.1.7063747
+   Jaiswal P, 2011, NAT HAZARD EARTH SYS, V11, P1723, DOI 10.5194/nhess-11-1723-2011
+   Jaiswal P, 2010, NAT HAZARD EARTH SYS, V10, P1253, DOI 10.5194/nhess-10-1253-2010
+   Kanungo D., 2009, J S ASIA DISASTER ST, V2, P81
+   Karathikeyan V., 2013, INDIAN J ENG RES TEC, V1, P65
+   Komac M, 2006, GEOMORPHOLOGY, V74, P17, DOI 10.1016/j.geomorph.2005.07.005
+   Kumar SV, 2008, PHOTONIRVACHAK-J IND, V36, P105
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2006, J EARTH SYST SCI, V115, P661, DOI 10.1007/s12040-006-0004-0
+   Malamud BD, 2004, EARTH SURF PROC LAND, V29, P687, DOI 10.1002/esp.1064
+   Malczewski J., 1999, GIS MULTICRITERIA DE, V0, P0
+   Mejia-Navarro M., 1994, B ASS ENG GEOL, VXXXI, P459
+   Nalina P, 2014, J COMPUTER SCI, V10, P1107, DOI 10.3844/JCSSP.2014.1107.1114
+   Nalina P, 2014, AM J APPL SCI, V11, P445
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Oh HJ, 2009, ENVIRON GEOL, V57, P641, DOI 10.1007/s00254-008-1342-9
+   Pardeshi SD, 2013, SPRINGERPLUS, V2, P0, DOI 10.1186/2193-1801-2-523
+   Petschko H, 2014, NAT HAZARD EARTH SYS, V14, P95, DOI 10.5194/nhess-14-95-2014
+   Pourghasemi H., 2012, TERRIGENOUS MASS MOV, V0, P0, DOI DOI 10.1007/978-3-642-25495-6_2
+   Pourghasemi HR, 2014, ARAB J GEOSCI, V7, P1857, DOI 10.1007/s12517-012-0825-x
+   Pradhan B, 2011, ENVIRON EARTH SCI, V63, P329, DOI 10.1007/s12665-010-0705-1
+   Pradhan B, 2010, LANDSLIDES, V7, P13, DOI 10.1007/s10346-009-0183-2
+   Radbruch DH, 1970, 1970701485 US GEOL S, V70-1485, P36
+   Raj Naveen, 2011, INT J ENG SCI TECHNO, V3, P3260
+   Ramakrishnan S. S., 2004, NAT SEM GIS DEV MARC, V0, P0
+   Ramakrishnan S. S, 2002, INDIAN CARTOGRAPHER, V5, P192
+   Ramasamy S. M, 2008, INDIAN LANDSLIDES, V1, P45
+   Ramaswamy S.M, 2006, PREDICTIVE MODELLING, V0, P177
+   Saaty T, 1980, ANAL HIERARCHY PROCE, V0, P287
+   Saaty T. L, 2000, FUNDAMENTALS DECISIO, VVI, P478
+   Saaty TL, 2008, EUR J PURE APPL MATH, V1, P122
+   SAATY TL, 1977, J MATH PSYCHOL, V15, P234, DOI 10.1016/0022-2496(77)90033-5
+   Saaty TL, 2001, MODELS METHODS CONCE, V0, P333
+   Schuster R.L., 1996, LANDSLIDES INVESTIGA, VVolume 247, P12
+   Seshagiri D. N., 1982, GSI MISCELLANEOUS PU, V0, P0
+   Shou KJ, 2003, ENG GEOL, V68, P237, DOI 10.1016/S0013-7952(02)00230-2
+   Subramani T., 2014, INT J ENG RES APPL, V4, P139
+   Subramanian N, 2012, INT J PROD ECON, V138, P215, DOI 10.1016/j.ijpe.2012.03.036
+   den Eeckhaut M, 2006, GEOMORPHOLOGY, V76, P392, DOI 10.1016/j.geomorph.2005.12.003
+   van Westen CJ, 2006, B ENG GEOL ENVIRON, V65, P167, DOI 10.1007/s10064-005-0023-0
+   van Westen CJ, 2008, ENG GEOL, V102, P112, DOI 10.1016/j.enggeo.2008.03.010
+   van Westen Cees J., 2008, SPATIAL DATA LANDSLI, V0, P0
+   van Westen Cees J., 2011, P 2 WORLD LANDSL FOR, V0, P0
+   Van Westen CJ, 1994, MOUNTAIN ENV GEOGRAP, V0, P135
+   Venugopal D, 2004, J MT SCI-ENGL, V1, P74
+   Viveganandan S, 2012, INT J ADV REMOTE SEN, V1, P234
+   Wieczorek G., 1984, B ASS ENG GEOLOGISTS, V21, P337, DOI 10.2113/GSEEGEOSCI.XXI.3.337
+   Yalcin A, 2008, CATENA, V72, P1, DOI 10.1016/j.catena.2007.01.003
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Zhou G, 2003, ENG GEOL, V68, P373, DOI 10.1016/S0013-7952(02)00241-7
+   ZWEIG MH, 1993, CLIN CHEM, V39, P561
+NR 79
+TC 3
+Z9 3
+U1 0
+U2 1
+PU NATL INST SCIENCE COMMUNICATION-NISCAIR
+PI NEW DELHI
+PA DR K S KRISHNAN MARG, PUSA CAMPUS, NEW DELHI 110 012, INDIA
+SN 0379-5136
+EI 0975-1033
+J9 INDIAN J GEO-MAR SCI
+JI Indian J. Geo-Mar. Sci.
+PD APR 15
+PY 2017
+VL 46
+IS 4
+BP 802
+EP 814
+DI 
+PG 13
+WC Oceanography
+SC Oceanography
+GA FC5PO
+UT WOS:000406894400023
+DA 2023-04-26
+ER

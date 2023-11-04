@@ -1,0 +1,545 @@
+
+PT J
+AU Zeng, FX
+   Cheng, L
+   Li, N
+   Xia, N
+   Ma, L
+   Zhou, X
+   Li, MC
+AF Zeng, Fanxuan
+   Cheng, Liang
+   Li, Ning
+   Xia, Nan
+   Ma, Lei
+   Zhou, Xiao
+   Li, Manchun
+TI A Hierarchical Airport Detection Method Using Spatial Analysis and Deep Learning
+SO REMOTE SENSING
+LA English
+DT Article
+DE remote sensing (RS); deep learning (DL); spatial analysis; object-based target detection; airports
+ID remote-sensing images; airborne lidar data; object detection; neural-network; saliency; model; surface; fusion; city
+AB Airports have a profound impact on our lives, and uncovering their distribution around the world has great significance for research and development. However, existing airport databases are incomplete and have a high cost of updating. Thus, a fast and automatic worldwide airport detection method can be of significance for global airport detection at regular intervals. However, previous airport detection studies are usually based on single remote sensing (RS) imagery, which seems an overwhelming burden for worldwide airport detection with traversal searching. Thus, we propose a hierarchical airport detection method consisting of broad-scale extraction of worldwide candidate airport regions based on spatial analysis of released RS products, including impervious surfaces from FROM-GLC10 (fine resolution observation and monitoring of global land cover 10) product, building distribution from OSMs (open street maps) and digital surface model from AW3D30 (ALOS World 3D-30 m). Moreover, narrow-scale aircraft detection was initially conducted by the Faster R-CNN (regional-convolutional neural networks) deep learning method. To avoid overestimation of background regions by Faster R-CNN, a second CNN classifier is used to refine the class labeling with negative samples. Specifically, our research focuses on target airports with at least 2 km length in three experimental regions. Results show that spatial analysis reduced the possible regions to 0.56% of the total area of 75,691 km(2). The initial aircraft detection by Faster R-CNN had a mean user's accuracy of 88.90% and ensured that all the aircrafts could be detected. Then, by introducing the CNN reclassifier, the user's accuracy of aircraft detection was significantly increased to 94.21%. Finally, through an experienced threshold of aircraft number, 19 of the total 20 airports were detected correctly. Our results reveal the overall workflow is reliable for automatic and rapid airport detection around the world with the help of released RS products. This research promotes the application and progression of deep learning.
+C1 [Zeng, Fanxuan; Cheng, Liang; Li, Ning; Xia, Nan; Ma, Lei; Zhou, Xiao; Li, Manchun] Nanjing Univ, Jiangsu Prov Key Lab Geog Informat Sci & Technol, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.
+   [Zeng, Fanxuan; Cheng, Liang; Li, Ning; Xia, Nan; Ma, Lei; Zhou, Xiao; Li, Manchun] Nanjing Univ, Sch Geog & Ocean Sci, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.
+   [Cheng, Liang] Nanjing Univ, Collaborat Innovat Ctr South Sea Studies, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.
+   [Cheng, Liang] Collaborat Innovat Ctr Novel Software Technol & I, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.
+C3 Nanjing University; Nanjing University; Nanjing University
+RP Cheng, L (corresponding author), Nanjing Univ, Jiangsu Prov Key Lab Geog Informat Sci & Technol, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.; Cheng, L (corresponding author), Nanjing Univ, Sch Geog & Ocean Sci, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.; Cheng, L (corresponding author), Nanjing Univ, Collaborat Innovat Ctr South Sea Studies, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.; Cheng, L (corresponding author), Collaborat Innovat Ctr Novel Software Technol & I, 163 Xianlin Rd, Nanjing 210023, Jiangsu, Peoples R China.
+EM DG1827001@smail.nju.edu.cn; lcheng@nju.edu.cn; MG1827061@smail.nju.edu.cn; DG1627022@smail.nju.edu.cn; maleinju@nju.edu.cn; DG1727039@smail.nju.edu.cn; limanchun@nju.edu.cn
+FU National Key Research and Development Plan [2017YFB0504205]; National Science Foundation of China [41622109, 41371017, 41701374]; Natural Science Foundation of Jiangsu Province of China [BK20170640]
+CR [Anonymous], 2014, C COMPUTER VISION PA, V0, PP580, DOI 10.1109/CVPR.2014.81
+   Aytekin O, 2013, IEEE GEOSCI REMOTE S, V10, P471, DOI 10.1109/LGRS.2012.2210189
+   Bajardi P, 2011, PLOS ONE, V6, P0, DOI 10.1371/journal.pone.0016591
+   Branson S, 2018, ISPRS J PHOTOGRAMM, V135, P13, DOI 10.1016/j.isprsjprs.2017.11.008
+   Budak U, 2016, IEEE GEOSCI REMOTE S, V13, P1079, DOI 10.1109/LGRS.2016.2565706
+   Cao R, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101553
+   Chen CY, 2017, LECT NOTES COMPUT SC, V10115, P214, DOI 10.1007/978-3-319-54193-8_14
+   CHEN F, 2018, REMOTE SENS-BASEL, V10, P0
+   Chen Y, 2018, PROC CVPR IEEE, V0, PP3339, DOI 10.1109/CVPR.2018.00352
+   Chen Z, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010139
+   Cheng G, 2013, ISPRS J PHOTOGRAMM, V85, P32, DOI 10.1016/j.isprsjprs.2013.08.001
+   de Neufville R, 2008, EUR J TRANSP INFRAST, V8, P264
+   Ding P, 2018, ISPRS J PHOTOGRAMM, V141, P208, DOI 10.1016/j.isprsjprs.2018.05.005
+   Eggert C, 2017, IEEE INT CON MULTI, V0, PP421, DOI 10.1109/ICME.2017.8019550
+   Foody GM, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030266
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Gong P, 2019, SCI BULL, V64, P370, DOI 10.1016/j.scib.2019.03.002
+   Guo W, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010131
+   Han XB, 2017, INT GEOSCI REMOTE SE, V0, P3353
+   Kang J, 2018, ISPRS J PHOTOGRAMM, V145, P44, DOI 10.1016/j.isprsjprs.2018.02.006
+   Li XB, 2017, IEEE GEOSCI REMOTE S, V14, P2037, DOI 10.1109/LGRS.2017.2749478
+   Li Y, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9010067
+   Liu DH, 2004, 2004 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P761
+   Liu G, 2013, IEEE GEOSCI REMOTE S, V10, P573, DOI 10.1109/LGRS.2012.2214022
+   Liu NY, 2018, IEEE GEOSCI REMOTE S, V15, P434, DOI 10.1109/LGRS.2018.2792421
+   Liu W., 2016, P 14 EUROPEAN C ECCV, V0, P21
+   Luo Q.H., 2016, P 2016 IEEE INT GEOS, V0, P0
+   Ma L, 2019, ISPRS J PHOTOGRAMM, V152, P166, DOI 10.1016/j.isprsjprs.2019.04.015
+   Mallick J, 2013, ADV SPACE RES, V52, P639, DOI 10.1016/j.asr.2013.04.025
+   Paleari S, 2010, TRANSPORT RES E-LOG, V46, P198, DOI 10.1016/j.tre.2009.08.003
+   Perez-Hoyos A, 2012, INT J APPL EARTH OBS, V19, P72, DOI 10.1016/j.jag.2012.04.011
+   Polat N, 2015, MEASUREMENT, V63, P61, DOI 10.1016/j.measurement.2014.12.017
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Ren Y, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091470
+   See LM, 2006, IEEE T GEOSCI REMOTE, V44, P1740, DOI 10.1109/TGRS.2006.874750
+   Sellami A, 2019, EXPERT SYST APPL, V129, P246, DOI 10.1016/j.eswa.2019.04.006
+   Shukui Bo, 2010, 2010 PROCEEDINGS OF 3RD INTERNATIONAL CONGRESS ON IMAGE AND SIGNAL PROCESSING (CISP 2010), V0, PP1923, DOI 10.1109/CISP.2010.5647478
+   Song YZ, 2018, INT J GEOGR INF SCI, V32, P2447, DOI 10.1080/13658816.2018.1511793
+   Susaki J, 2012, REMOTE SENS-BASEL, V4, P1804, DOI 10.3390/rs4061804
+   Tadono T, 2016, INT ARCH PHOTOGRAMM, V41, P157, DOI 10.5194/isprsarchives-XLI-B4-157-2016
+   Tan YH, 2015, SENSORS-BASEL, V15, P23071, DOI 10.3390/s150923071
+   Tang GF, 2015, IEEE GEOSCI REMOTE S, V12, P2408, DOI 10.1109/LGRS.2015.2479681
+   Tao C, 2011, IEEE GEOSCI REMOTE S, V8, P128, DOI 10.1109/LGRS.2010.2051792
+   Wang GL, 2017, IEEE GEOSCI REMOTE S, V14, P851, DOI 10.1109/LGRS.2017.2683495
+   Wang YTJ, 2016, ISPRS INT J GEO-INF, V5, P0, DOI 10.3390/ijgi5070115
+   Xiao ZF, 2017, IEEE GEOSCI REMOTE S, V14, P1469, DOI 10.1109/LGRS.2017.2712638
+   Xu YL, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18072335
+   Yahaya SI, 2019, INT J REMOTE SENS, V40, P7966, DOI 10.1080/01431161.2019.1607982
+   Yang YD, 2017, IEEE GEOSCI REMOTE S, V14, P1293, DOI 10.1109/LGRS.2017.2708722
+   Yao XW, 2015, NEUROCOMPUTING, V164, P162, DOI 10.1016/j.neucom.2015.02.073
+   Yokoya N, 2015, IEEE J-STARS, V8, P2053, DOI 10.1109/JSTARS.2015.2404578
+   Yu YT, 2016, ISPRS J PHOTOGRAMM, V112, P50, DOI 10.1016/j.isprsjprs.2015.04.014
+   Zhang KQ, 2003, IEEE T GEOSCI REMOTE, V41, P872, DOI 10.1109/TGRS.2003.810682
+   Zhang L., 2016, P EUR C COMP VIS ECC, V0, P0
+   Zhang LB, 2017, IEEE J-STARS, V10, P1511, DOI 10.1109/JSTARS.2016.2620900
+   Zhang P, 2017, IEEE GEOSCI REMOTE S, V14, P1183, DOI 10.1109/LGRS.2017.2673118
+   Zhang WJ, 2015, PROC SPIE, V9815, P0, DOI 10.1117/12.2205827
+   Zhang YH, 2018, REMOTE SENS LETT, V9, P11, DOI 10.1080/2150704X.2017.1378452
+   Zhao DP, 2017, IEEE J-STARS, V10, P2855, DOI 10.1109/JSTARS.2017.2669335
+   Zhu D, 2015, IEEE GEOSCI REMOTE S, V12, P1096, DOI 10.1109/LGRS.2014.2384051
+   Zhu MM, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091062
+NR 62
+TC 21
+Z9 23
+U1 3
+U2 29
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD OCT 15
+PY 2019
+VL 11
+IS 19
+BP 
+EP 
+DI 10.3390/rs11192204
+PG 19
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA JN3VH
+UT WOS:000496827100018
+DA 2023-04-26
+ER
+
+PT J
+AU Averkin, AN
+   Bazarkina, DY
+   Pantserev, KA
+   Pashentsev, EN
+AF Averkin, Alexey N.
+   Bazarkina, Darya Yu
+   Pantserev, Konstantin A.
+   Pashentsev, Evgeny N.
+TI Artificial Intelligence in the Context of Psychological Security: Theoretical and Practical Implications
+SO PROCEEDINGS OF THE 11TH CONFERENCE OF THE EUROPEAN SOCIETY FOR FUZZY LOGIC AND TECHNOLOGY (EUSFLAT 2019)
+LA English
+DT Proceedings Paper
+DE Artificial Intelligence; Psychological Warfare; Predictive Analytics; Prognostic Weapons; Terrorism; Social Networks; Cognitive Maps; Hierarchy Method; Artificial Neural Networks; Genetic Algorithms; Psychological Security
+ID fuzzy cognitive maps
+AB The academic community cannot ignore the growing opportunities offered by artificial intelligence. Especially relevant are developments in this ares against the background of growing challenges and threats arising from the use of the digital environment by actors of psychological warfare - by strategists and tactics of "color revolutions' as well as terrorist and criminal groups. The main objective of the paper is to develop efective instruments to counter the destructive psychological impact on the individual, society, and the state. As a tool in such psychological warfare, the authors see the use of hybrid intellectual systems for decision support bazed on fuzzy cognitive maps, the method of hierarchies, and artificial neural networks. The authors also state for the creation of the mathematical models of decision support in psychological warfare and discuss the need for training based on data mining, obtained from the Internet, using deep learning networks.
+C1 [Averkin, Alexey N.] Russian Acad Sci, Fed Res Ctr Informat & Comp Sci, Vavilova Str 44,Bldg 2, Moscow 119333, Russia.
+   [Bazarkina, Darya Yu] Russian Presidential Acad Natl Econ & Publ Adm, Dept Int Secur & Foreign Policy Russia, Inst Law & Natl Secur, Vernadskogo Ave 82, Moscow 119571, Russia.
+   [Bazarkina, Darya Yu; Pashentsev, Evgeny N.] St Petersburg State Univ, Sch Int Relat, Smolny Str 1-3,Entrance 8, St Petersburg 191060, Russia.
+   [Pantserev, Konstantin A.] St Petersburg State Univ, Sch Int Relat, Dept Theory & Hist Int Relat, Smolny Str 1-3,Entrance 8, St Petersburg 191060, Russia.
+   [Pashentsev, Evgeny N.] Diplomat Acad, Inst Contemporay Int Studies, Bolshoi Kozlovsky Lane 4, Moscow 107078, Russia.
+C3 Russian Academy of Sciences; Russian Presidential Academy of National Economy & Public Administration; Saint Petersburg State University; Saint Petersburg State University
+RP Averkin, AN (corresponding author), Russian Acad Sci, Fed Res Ctr Informat & Comp Sci, Vavilova Str 44,Bldg 2, Moscow 119333, Russia.
+EM averkin2003@inbox.ru; bazarkina-icspsc@yandex.ru; pantserev@yandex.ru; icspsc@mail.ru
+FU Saint-Petersburg State University [26520757]
+CR [Anonymous], 2016, HOR 2020 WORK PROGR, V0, P0
+   [Anonymous], 2018, ART INT INT AFF DISR, V0, P0
+   [Anonymous], 2018, MALICIOUS USE ARTIFI, V0, P0
+   [Anonymous], 2018, PWC MIDDLE E, V0, P0
+   [Anonymous], 2014, NATL INTELLIGENCE ST, V0, P0
+   Banerjee G, 2009, DEFENCE SCI J, V59, P152, DOI 10.14429/dsj.59.1503
+   Davis PK., 2013, TECHNICAL REPORT, V0, P0
+   Glykas M, 2010, STUD FUZZ SOFT COMP, V247, P1, DOI 10.1007/978-3-642-03220-2
+   Goodman M., 2015, TRANSWORLD DIGITAL, V0, P0
+   Irving D., 2018, ARTIFICIAL IINTELLIG, V0, P0
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Osoba OA, 2017, J DEF MODEL SIMUL-AP, V14, P17, DOI 10.1177/1548512916680779
+   Papageorgiou E.I., 2014, FUZZY COGNITIVE MAPS, V0, P0
+   Perez C. E., 2017, NEXT AI MILESTONE BR, V0, P0
+   Perez C. E., 2017, BIOL INSPIRED SOFTWA, V0, P0
+   Perez C. E., 2016, ONLY WAY MAKE DEEP L, V0, P0
+   Wang H., 2017, COMPUTER SCI MACHINE, V0, P0
+   Wang ZB, 2016, EURASIP J WIREL COMM, V0, P0, DOI DOI 10.1186/s13638-016-0745-7
+NR 19
+TC 0
+Z9 0
+U1 2
+U2 6
+PU ATLANTIS PRESS
+PI PARIS
+PA 29 AVENUE LAVMIERE, PARIS, 75019, FRANCE
+SN 
+EI 2589-6644
+J9 ATL STUD UNCER MODEL
+PD JUN 15
+PY 2019
+VL 1
+IS 
+BP 101
+EP 107
+DI 
+PG 7
+WC Computer Science, Artificial Intelligence; Computer Science, Theory & Methods; Mathematics, Applied
+SC Computer Science; Mathematics
+GA BP6AG
+UT WOS:000558710000016
+DA 2023-04-26
+ER
+
+PT J
+AU Caletka, M
+   Michalkova, MS
+   Koli, M
+   Trizna, M
+AF Caletka, Martin
+   Michalkova, Monika Sulc
+   Koli, Martin
+   Trizna, Milan
+TI Quality of flood extents delineated by a non-hydrodynamic GIS tool
+SO CATENA
+LA English
+DT Article
+DE AIZM; Digital elevation model; Flood inundation; Flood maps; Flood marks; GIS
+ID bayesian neural-networks; inundation; uncertainty; models; river; calibration; parameters; lidar; risk; map
+AB Delineation of flood extents is an important task in various disciplines. Traditional sophisticated hydrodynamic or alternative non-hydrodynamic approaches can be used depending on the availability and quality of input data and, in particular, the purpose of the delineation. This work focuses on testing the accuracy of flooded areas computed by GIS-based non-hydrodynamic AIZM tool, which is undemanding in terms of input data and technological requirements. The flood delineation is carried out on the basis of flood height at a single point and its spreading along a stream line over a digital elevation model (DEM). In order to assess the tool's performance, flood inundations have been computed along 60 river reaches in the Czech Republic and compared with benchmarks inundations: (1) real flood events that occurred in 1997, 2002 and 2006, as mapped from aerial and satellite imagery and (2) flood hazard maps designed for flood events of 5-, 20- and 100-year return periods. The accuracy of the outputs is examined and interpreted in the context of the river reaches' specificities to identify generally favourable conditions as well as the key limitations of the model. The results outline that under certain conditions, the AIZM tool can be used as a reliable tool for flood extent delineation in data scarce areas (e.g. lacking hydrodynamic constants and channel bathymetry), for reconstruction of past flood events or for preliminary estimation of flooded areas.
+C1 [Caletka, Martin; Michalkova, Monika Sulc] Masaryk Univ, Fac Sci, Dept Geog, Kotlarska 2, Brno 61137, Czech Republic.
+   [Koli, Martin; Trizna, Milan] Comenius Univ, Fac Nat Sci, Dept Phys Geog & Geoecol, Ilkovicova 6, Bratislava 84215, Slovakia.
+   [Caletka, Martin] TG Masaryk Water Res Inst, Mojmirovo Namesti 16, Brno 61200, Czech Republic.
+C3 Masaryk University Brno; Comenius University Bratislava; T.G. Masaryk Water Research Institute
+RP Caletka, M (corresponding author), Masaryk Univ, Fac Sci, Dept Geog, Kotlarska 2, Brno 61137, Czech Republic.
+EM martin.caletka@mail.muni.cz
+FU Slovak Research and Development Agency [APVV-0625-11]; Department of Geography, Masaryk University [MUNI/A/1251/2017]
+CR Alho P, 2007, NAT HAZARDS, V41, P21, DOI 10.1007/s11069-006-9007-z
+   Alrajhi M, 2016, INT ARCH PHOTOGRAMM, V41, P0
+   Bales JD, 2009, J FLOOD RISK MANAG, V2, P139, DOI 10.1111/j.1753-318X.2009.01029.x
+   Ballesteros-Canovas JA, 2015, PROG PHYS GEOG, V39, P794, DOI 10.1177/0309133315608758
+   Bates BC, 2001, WATER RESOUR RES, V37, P937, DOI 10.1029/2000WR900363
+   Bates PD, 2004, HYDROL PROCESS, V18, P2593, DOI 10.1002/hyp.5649
+   Bates PD, 2000, J HYDROL, V236, P54, DOI 10.1016/S0022-1694(00)00278-X
+   BEVEN K, 1992, HYDROL PROCESS, V6, P279, DOI 10.1002/hyp.3360060305
+   Beven K., 1979, HYDROLOG SCI J, V24, P43, DOI 10.1080/02626667909491834
+   Beven K, 2014, HYDROL PROCESS, V28, P5897, DOI 10.1002/hyp.10082
+   Blazkova S, 2009, STRUCT INFRASTRUCT E, V5, P325, DOI 10.1080/15732470701189514
+   Brazdil R, 1999, CLIMATIC CHANGE, V43, P239, DOI 10.1023/A:1005550401857
+   Brazdil R, 2006, HYDROLOG SCI J, V51, P739, DOI 10.1623/hysj.51.5.739
+   Brocca L, 2009, FROM HEADWATERS TO THE OCEAN: HYDROLOGICAL CHANGES AND WATERSHED MANAGEMENT, V0, P175
+   Carrivick J.L., 2006, GEOL TODAY, V22, P60, DOI 10.1111/J.1365-2451.2006.00554.X
+   CLIFFORD P, 1993, J R STAT SOC B, V55, P53
+   Dal Cin C, 2005, NAT HAZARDS, V36, P237, DOI 10.1007/s11069-004-4551-x
+   De Risi R., 2014, B GEOL MINERO, V125, P331
+   De Risi R, 2015, J HYDROL, V527, P316, DOI 10.1016/j.jhydrol.2015.04.070
+   Degiorgis M, 2012, J HYDROL, V470, P302, DOI 10.1016/j.jhydrol.2012.09.006
+   Dodov BA, 2006, IEEE GEOSCI REMOTE S, V3, P410, DOI 10.1109/LGRS.2006.874161
+   Dottori F, 2013, WATER RESOUR RES, V49, P6079, DOI 10.1002/wrcr.20406
+   Falter D, 2013, HYDROL PROCESS, V27, P1331, DOI 10.1002/hyp.9553
+   Gaba C, 2017, HYDROLOG SCI J, V62, P1499, DOI 10.1080/02626667.2017.1330542
+   Hardy RJ, 1999, J HYDROL, V216, P124, DOI 10.1016/S0022-1694(99)00002-5
+   Hilldale RC, 2008, EARTH SURF PROC LAND, V33, P773, DOI 10.1002/esp.1575
+   Horritt MS, 2006, J HYDROL, V326, P153, DOI 10.1016/j.jhydrol.2005.10.027
+   Hwang Y, 2011, STOCH ENV RES RISK A, V25, P957, DOI 10.1007/s00477-011-0460-1
+   Jafarzadegan K, 2017, J HYDROL, V550, P650, DOI 10.1016/j.jhydrol.2017.04.053
+   Jalayer F, 2014, NAT HAZARDS, V73, P975, DOI 10.1007/s11069-014-1119-2
+   Jung Y, 2015, HYDROL PROCESS, V29, P624, DOI 10.1002/hyp.10185
+   Jung Y, 2014, WATER-SUI, V6, P2104, DOI 10.3390/w6072104
+   Jung Y, 2014, WATER-SUI, V6, P1280, DOI 10.3390/w6051280
+   Jung YH, 2012, J HYDROL ENG, V17, P507, DOI 10.1061/(ASCE)HE.1943-5584.0000476
+   Kavetski D, 2006, WATER RESOUR RES, V42, P0, DOI 10.1029/2005WR004368
+   Kirkby M, 1975, HYDROGRAPH MODELLING, V0, P0
+   Koli M., 2013, GIS OSTRAVA 2013 GEO, V0, P0
+   Kuczera G, 1998, J HYDROL, V211, P69, DOI 10.1016/S0022-1694(98)00198-X
+   Lagacherie P, 1996, IAHS-AISH P, V0, P191
+   Lampinen J, 2001, NEURAL NETWORKS, V14, P257, DOI 10.1016/S0893-6080(00)00098-8
+   LECLERC M, 1995, T AM FISH SOC, V124, P645, DOI 10.1577/1548-8659(1995)124<0645:TDHMAN>2.3.CO;2
+   Lehbab-Boukezzi Z, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-016-2771-5
+   Manfreda S, 2008, WIT TRANS ECOL ENVIR, V118, P47, DOI 10.2495/FRIAR080051
+   Manfreda S, 2015, NAT HAZARDS, V79, P735, DOI 10.1007/s11069-015-1869-5
+   Manfreda S, 2014, J HYDROL, V517, P863, DOI 10.1016/j.jhydrol.2014.06.009
+   Manfreda S, 2011, J HYDROL ENG, V16, P781, DOI 10.1061/(ASCE)HE.1943-5584.0000367
+   Mantovan P, 2006, J HYDROL, V330, P368, DOI 10.1016/j.jhydrol.2006.04.046
+   Martini P, 2004, NAT HAZARD EARTH SYS, V4, P165, DOI 10.5194/nhess-4-165-2004
+   McGlynn BL, 2003, WATER RESOUR RES, V39, P0, DOI 10.1029/2002WR001521
+   McInnes KL, 2015, AUST METEOROL OCEAN, V65, P127, DOI 10.22499/2.6501.009
+   Mersel MK, 2013, WATER RESOUR RES, V49, P3165, DOI 10.1002/wrcr.20176
+   Merwade V, 2008, ENVIRON MODELL SOFTW, V23, P1300, DOI 10.1016/j.envsoft.2008.03.005
+   Merwade V, 2008, J HYDROL ENG, V13, P608, DOI 10.1061/(ASCE)1084-0699(2008)13:7(608)
+   Motevalli A, 2016, STOCH ENV RES RISK A, V30, P1889, DOI 10.1007/s00477-016-1305-8
+   Murty PLN, 2014, COAST ENG, V93, P71, DOI 10.1016/j.coastaleng.2014.08.006
+   Nardi F, 2006, WATER RESOUR RES, V42, P0, DOI 10.1029/2005WR004155
+   Nardi F, 2013, IRRIG DRAIN, V62, P11, DOI 10.1002/ird.1818
+   Neal RM, 1996, STAT COMPUT, V6, P353, DOI 10.1007/BF00143556
+   Noman NS, 2001, J WATER RES PL-ASCE, V127, P394, DOI 10.1061/(ASCE)0733-9496(2001)127:6(394)
+   Papaioannou G, 2015, WATER RESOUR MANAG, V29, P399, DOI 10.1007/s11269-014-0817-6
+   Pappenberger F, 2005, J HYDROL, V302, P46, DOI 10.1016/j.jhydrol.2004.06.036
+   Parodi U, 2004, NAT HAZARDS, V31, P603, DOI 10.1023/B:NHAZ.0000024893.57284.0e
+   Podhoranyi M, 2015, ENVIRON EARTH SCI, V73, P1, DOI 10.1007/s12665-014-3390-7
+   Qin CZ, 2011, PRECIS AGRIC, V12, P32, DOI 10.1007/s11119-009-9152-y
+   Quadros N D, 2008, INT ARCH PHOTOGRAM R, V36, P1299
+   Raber GT, 2007, PHOTOGRAMM ENG REM S, V73, P793, DOI 10.14358/PERS.73.7.793
+   Renard B, 2013, WATER RESOUR RES, V49, P825, DOI 10.1002/wrcr.20087
+   Roca M, 2010, J FLOOD RISK MANAG, V3, P63, DOI 10.1111/j.1753-318X.2009.01055.x
+   Roux C, 2015, GEOMORPHOLOGY, V242, P29, DOI 10.1016/j.geomorph.2014.04.018
+   Samela C, 2017, ADV WATER RESOUR, V102, P13, DOI 10.1016/j.advwatres.2017.01.007
+   Samela C, 2016, J HYDROL ENG, V21, P0, DOI 10.1061/(ASCE)HE.1943-5584.0001272
+   Sanders BF, 2007, ADV WATER RESOUR, V30, P1831, DOI 10.1016/j.advwatres.2007.02.005
+   Seenath A, 2016, OCEAN COAST MANAGE, V120, P99, DOI 10.1016/j.ocecoaman.2015.11.019
+   Seo Y, 2012, WATER RESOUR RES, V48, P0, DOI 10.1029/2011WR011761
+   Shafii M, 2014, STOCH ENV RES RISK A, V28, P1493, DOI 10.1007/s00477-014-0855-x
+   Silhan K, 2015, GEOMORPHOLOGY, V234, P243, DOI 10.1016/j.geomorph.2014.12.041
+   Smeeckaert J, 2013, REMOTE SENS ENVIRON, V138, P134, DOI 10.1016/j.rse.2013.07.004
+   Smelik L, 2015, THESIS, V0, P0
+   Stedinger JR, 2008, WATER RESOUR RES, V44, P0, DOI 10.1029/2008WR006822
+   Tayefi V, 2007, HYDROL PROCESS, V21, P3190, DOI 10.1002/hyp.6523
+   Tonisson H, 2008, J COASTAL RES, V24, P602, DOI 10.2112/06-0631.1
+   Tsubaki R, 2013, J HYDROL, V486, P71, DOI 10.1016/j.jhydrol.2013.01.042
+   Chau VN, 2013, APPL GEOGR, V41, P65, DOI 10.1016/j.apgeog.2013.03.014
+   Wang Y, 2002, INT J REMOTE SENS, V23, P3681, DOI 10.1080/01431160110114484
+   Westaway RM, 2001, PHOTOGRAMM ENG REM S, V67, P1271
+   Williams WA, 2000, ENVIRON MONIT ASSESS, V64, P105, DOI 10.1023/A:1006471427421
+   Yin J, 2015, STOCH ENV RES RISK A, V29, P1063, DOI 10.1007/s00477-014-0939-7
+   Zhang KQ, 2013, CLIMATIC CHANGE, V118, P487, DOI 10.1007/s10584-012-0645-8
+   Zhang Q. W, 2006, GEOINFORMATICS 2006, V0, P0
+   Zhang XS, 2012, WATER RESOUR MANAG, V26, P2365, DOI 10.1007/s11269-012-0021-5
+   Zhang XS, 2011, J HYDROL, V409, P696, DOI 10.1016/j.jhydrol.2011.09.002
+NR 92
+TC 4
+Z9 4
+U1 3
+U2 66
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0341-8162
+EI 1872-6887
+J9 CATENA
+JI Catena
+PD APR 15
+PY 2019
+VL 175
+IS 
+BP 367
+EP 387
+DI 10.1016/j.catena.2018.12.032
+PG 21
+WC Geosciences, Multidisciplinary; Soil Science; Water Resources
+SC Geology; Agriculture; Water Resources
+GA HM3FG
+UT WOS:000459358500034
+DA 2023-04-26
+ER
+
+PT J
+AU Li, Y
+   Martinis, S
+   Wieland, M
+AF Li, Yu
+   Martinis, Sandro
+   Wieland, Marc
+TI Urban flood mapping with an active self-learning convolutional neural network based on TerraSAR-X intensity and interferometric coherence
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Urban flooding; Multi-temporal SAR; Interferometric coherence; Active learning; Self-learning; Convolution neural network
+ID sar images; land-cover; classification; areas; inundation
+AB Synthetic Aperture Radar (SAR) remote sensing has been widely used for flood mapping and monitoring. Nevertheless, flood detection in urban areas still proves to be particularly challenging by using SAR. In this paper, we assess the roles of SAR intensity and interferometric coherence in urban flood detection using multi-temporal TerraSAR-X data. We further introduce an active self-learning convolution neural network (A-SL CNN) framework to alleviate the effect of a limited annotated training dataset. The proposed framework selects informative unlabeled samples based on a temporal-ensembling CNN model. These samples are subsequently pseudo-labeled by a multi-scale spatial filter. Consistency regularization is introduced to penalize incorrect labels caused by pseudo-labeling. We show results for a case study that is centered on flooded areas in Houston, USA, during hurricane Harvey in August 2017. Our experiments show that multi-temporal intensity (pre- and coevent) plays the most important role in urban flood detection. Adding multi-temporal coherence can increase the reliability of the inundation map considerably. Meanwhile, encouraging results are achieved by the proposed A-SL CNN framework: the kappa statistic is improved from 0.614 to 0.686 in comparison to its supervised counterpart.
+C1 [Li, Yu; Martinis, Sandro; Wieland, Marc] German Aerosp Ctr DLR, German Remote Sensing Data Ctr DFD, Munchner Str 20, D-82234 Oberpfaffenhofen, Wessling, Germany.
+C3 Helmholtz Association; German Aerospace Centre (DLR)
+RP Li, Y (corresponding author), German Aerosp Ctr DLR, German Remote Sensing Data Ctr DFD, Munchner Str 20, D-82234 Oberpfaffenhofen, Wessling, Germany.
+FU China Scholarship Council (CSC)
+CR Amitrano D, 2018, IEEE T GEOSCI REMOTE, V56, P3290, DOI 10.1109/TGRS.2018.2797536
+   Amitrano D, 2016, IEEE J-STARS, V9, P3740, DOI 10.1109/JSTARS.2016.2555340
+   Amitrano D, 2015, IEEE T GEOSCI REMOTE, V53, P117, DOI 10.1109/TGRS.2014.2318997
+   BAI YB, 2018, IEEE GEOSCI REMOTE S, V15, P43, DOI 10.1109/LGRS.2017.2772349
+   Ball JE, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.042609
+   Bello OM, 2014, PROCD SOC BEHV, V120, P365, DOI 10.1016/j.sbspro.2014.02.114
+   Benz UC, 2004, ISPRS J PHOTOGRAMM, V58, P239, DOI 10.1016/j.isprsjprs.2003.10.002
+   Bruzzone L, 2006, IEEE T GEOSCI REMOTE, V44, P3363, DOI 10.1109/TGRS.2006.877950
+   Buda M, 2018, NEURAL NETWORKS, V106, P249, DOI 10.1016/j.neunet.2018.07.011
+   Camps-Valls G, 2007, IEEE T GEOSCI REMOTE, V45, P3044, DOI 10.1109/TGRS.2007.895416
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Chini M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020107
+   Chini M, 2017, IEEE T GEOSCI REMOTE, V55, P6975, DOI 10.1109/TGRS.2017.2737664
+   Chini M, 2012, IEEE GEOSCI REMOTE S, V9, P467, DOI 10.1109/LGRS.2011.2182495
+   Dellepiane SG, 2012, IEEE T GEOSCI REMOTE, V50, P2765, DOI 10.1109/TGRS.2011.2174999
+   Demir B, 2011, IEEE T GEOSCI REMOTE, V49, P1014, DOI 10.1109/TGRS.2010.2072929
+   Deng ZP, 2018, ISPRS J PHOTOGRAMM, V145, P3, DOI 10.1016/j.isprsjprs.2018.04.003
+   Dong Y, 1997, INT J REMOTE SENS, V18, P1351, DOI 10.1080/014311697218467
+   Dopido I, 2013, IEEE T GEOSCI REMOTE, V51, P4032, DOI 10.1109/TGRS.2012.2228275
+   Ferro A, 2011, IEEE GEOSCI REMOTE S, V8, P612, DOI 10.1109/LGRS.2010.2097580
+   Giustarini L, 2013, IEEE T GEOSCI REMOTE, V51, P2417, DOI 10.1109/TGRS.2012.2210901
+   He Z, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9101042
+   Huang B, 2018, REMOTE SENS ENVIRON, V214, P73, DOI 10.1016/j.rse.2018.04.050
+   Iervolino P, 2015, IEEE T GEOSCI REMOTE, V53, P2295, DOI 10.1109/TGRS.2014.2358501
+   Insom P, 2015, IEEE GEOSCI REMOTE S, V12, P1943, DOI 10.1109/LGRS.2015.2439575
+   Jean N, 2016, SCIENCE, V353, P790, DOI 10.1126/science.aaf7894
+   Kellenberger B, 2018, REMOTE SENS ENVIRON, V216, P139, DOI 10.1016/j.rse.2018.06.028
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Laine S., 2017, ICLR POSTER, V0, P1
+   Li F, 2018, IEEE T GEOSCI REMOTE, V56, P3, DOI 10.1109/TGRS.2017.2713123
+   Li HC, 2015, IEEE GEOSCI REMOTE S, V12, P2458, DOI 10.1109/LGRS.2015.2484220
+   Li YQ, 2018, IMMS 2019: 2019 2ND INTERNATIONAL CONFERENCE ON INFORMATION MANAGEMENT AND MANAGEMENT SCIENCES, V0, PP123, DOI 10.1145/3357292.3357320
+   Liu JG, 2001, INT J REMOTE SENS, V22, P2463, DOI 10.1080/01431160119991
+   Loshchilov Ilya, 2016, ARXIV160803983, V0, P0
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Marmanis D, 2016, IEEE GEOSCI REMOTE S, V13, P105, DOI 10.1109/LGRS.2015.2499239
+   Martinis S, 2011, IEEE T GEOSCI REMOTE, V49, P251, DOI 10.1109/TGRS.2010.2052816
+   Mason DC, 2014, INT J APPL EARTH OBS, V28, P150, DOI 10.1016/j.jag.2013.12.002
+   Mason DC, 2012, IEEE T GEOSCI REMOTE, V50, P3041, DOI 10.1109/TGRS.2011.2178030
+   Mason DC, 2010, IEEE T GEOSCI REMOTE, V48, P882, DOI 10.1109/TGRS.2009.2029236
+   Moreira A, 2013, IEEE GEOSC REM SEN M, V1, P6, DOI 10.1109/MGRS.2013.2248301
+   Munoz-Mari J, 2010, IEEE T GEOSCI REMOTE, V48, P3188, DOI 10.1109/TGRS.2010.2045764
+   NOAA, 2017, HURR HARV EM RESP IM, V0, P0
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Persello C, 2014, IEEE T GEOSCI REMOTE, V52, P6937, DOI 10.1109/TGRS.2014.2305805
+   POLYAK BT, 1992, SIAM J CONTROL OPTIM, V30, P838, DOI 10.1137/0330046
+   Pulvirenti L, 2011, REMOTE SENS ENVIRON, V115, P990, DOI 10.1016/j.rse.2010.12.002
+   Pulvirenti L, 2016, IEEE T GEOSCI REMOTE, V54, P1532, DOI 10.1109/TGRS.2015.2482001
+   Rasmus A., 2015, PROC 28 INT C NEURAL, V0, P3546
+   Refice A, 2014, IEEE J-STARS, V7, P2711, DOI 10.1109/JSTARS.2014.2305165
+   Rimba A.B., 2017, J GEOSCI ENV PROT, V05, P40, DOI 10.4236/gep.2017.51003
+   Rolnick David, 2017, DEEP LEARNING IS ROB, V0, P0
+   Salimans T, 2016, ADV NEUR IN, V29, P0
+   Schneider RZ, 2006, IEEE T GEOSCI REMOTE, V44, P971, DOI 10.1109/TGRS.2005.860950
+   Skakun S, 2010, COMPUT INFORM, V29, P1013
+   Tanguy M, 2017, REMOTE SENS ENVIRON, V198, P442, DOI 10.1016/j.rse.2017.06.042
+   Tarvainen A., 2017, ADV NEURAL INFORM PR, V0, P1195
+   Thiele A, 2007, IEEE T GEOSCI REMOTE, V45, P3583, DOI 10.1109/TGRS.2007.898440
+   TOBLER WR, 1970, ECON GEOGR, V46, P234, DOI 10.2307/143141
+   Tong XH, 2018, ISPRS J PHOTOGRAMM, V136, P144, DOI 10.1016/j.isprsjprs.2017.11.006
+   Touzi R, 1999, IEEE T GEOSCI REMOTE, V37, P135, DOI 10.1109/36.739146
+   Tralli DM, 2005, ISPRS J PHOTOGRAMM, V59, P185, DOI 10.1016/j.isprsjprs.2005.02.002
+   Tuia D, 2011, IEEE J-STSP, V5, P606, DOI 10.1109/JSTSP.2011.2139193
+   Twele A, 2016, INT J REMOTE SENS, V37, P2990, DOI 10.1080/01431161.2016.1192304
+   Vetrivel A, 2018, ISPRS J PHOTOGRAMM, V140, P45, DOI 10.1016/j.isprsjprs.2017.03.001
+   ZEBKER HA, 1992, IEEE T GEOSCI REMOTE, V30, P950, DOI 10.1109/36.175330
+   Zhan Y, 2018, IEEE GEOSCI REMOTE S, V15, P212, DOI 10.1109/LGRS.2017.2780890
+   Zhang C, 2019, REMOTE SENS ENVIRON, V221, P173, DOI 10.1016/j.rse.2018.11.014
+   Zhu L, 2018, IEEE T GEOSCI REMOTE, V56, P5046, DOI 10.1109/TGRS.2018.2805286
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 71
+TC 80
+Z9 81
+U1 6
+U2 51
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD JUN 15
+PY 2019
+VL 152
+IS 
+BP 178
+EP 191
+DI 10.1016/j.isprsjprs.2019.04.014
+PG 14
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HZ9EI
+UT WOS:000469158200014
+DA 2023-04-26
+ER
+
+PT J
+AU Feng, Y
+   Thiemann, F
+   Sester, M
+AF Feng, Yu
+   Thiemann, Frank
+   Sester, Monika
+TI Learning Cartographic Building Generalization with Deep Convolutional Neural Networks
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE cartography; map generalization; deep convolutional neural networks; geometry simplification
+ID classification
+AB Cartographic generalization is a problem, which poses interesting challenges to automation. Whereas plenty of algorithms have been developed for the different sub-problems of generalization (e.g., simplification, displacement, aggregation), there are still cases, which are not generalized adequately or in a satisfactory way. The main problem is the interplay between different operators. In those cases the human operator is the benchmark, who is able to design an aesthetic and correct representation of the physical reality. Deep learning methods have shown tremendous success for interpretation problems for which algorithmic methods have deficits. A prominent example is the classification and interpretation of images, where deep learning approaches outperform traditional computer vision methods. In both domains-computer vision and cartography-humans are able to produce good solutions. A prerequisite for the application of deep learning is the availability of many representative training examples for the situation to be learned. As this is given in cartography (there are many existing map series), the idea in this paper is to employ deep convolutional neural networks (DCNNs) for cartographic generalizations tasks, especially for the task of building generalization. Three network architectures, namely U-net, residual U-net and generative adversarial network (GAN), are evaluated both quantitatively and qualitatively in this paper. They are compared based on their performance on this task at target map scales 1:10,000, 1:15,000 and 1:25,000, respectively. The results indicate that deep learning models can successfully learn cartographic generalization operations in one single model in an implicit way. The residual U-net outperforms the others and achieved the best generalization performance.
+C1 [Feng, Yu; Thiemann, Frank; Sester, Monika] Leibniz Univ Hannover, Inst Cartog & Geoinformat, Appelstr 9a, D-30167 Hannover, Germany.
+C3 Leibniz University Hannover
+RP Feng, Y (corresponding author), Leibniz Univ Hannover, Inst Cartog & Geoinformat, Appelstr 9a, D-30167 Hannover, Germany.
+EM yu.feng@ikg.uni-hannover.de; frank.thiemann@ikg.uni-hannover.de; monika.sester@ikg.uni-hannover.de
+FU Open Access Fund of the Leibniz Universitat Hannover
+CR Abadi M, 2016, PROCEEDINGS OF OSDI16: 12TH USENIX SYMPOSIUM ON OPERATING SYSTEMS DESIGN AND IMPLEMENTATION, V0, P265
+   [Anonymous], 2018, INT ARCH PHOTOGRAMM, V0, P0, DOI DOI 10.5194/ISPRS-ARCHIVES-XLII-1-347-2018
+   Arjovsky M., 2017, ARXIV170107875, V0, P0
+   Badrinarayanan V, 2015, ARXIV150507293, V0, P0, DOI DOI 10.1109/TPAMI.2016.2644615
+   Chen KQ, 2018, IEEE GEOSCI REMOTE S, V15, P173, DOI 10.1109/LGRS.2017.2778181
+   Chen Y, 2018, PROC CVPR IEEE, V0, PP9465, DOI 10.1109/CVPR.2018.00986
+   Cheng BY, 2013, GISCI REMOTE SENS, V50, P527, DOI 10.1080/15481603.2013.823748
+   Damen J., 2008, P 11 ICA WORKSH GEN, V0, P1
+   Feng Y., 2018, P MEDIAEVAL 2018 WOR, V0, P27
+   Feng Y, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7020039
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hinton G., 2012, LECTURE 6A OVERVIEW, V0, P0
+   Isola P., 2017, PROC IEEE C COMPUT V, V0, P1125
+   Jager E., 1991, 15 C ICA, V0, P245
+   Kim T., 2017, INT C MACHINE LEARNI, V0, PP1857, DOI 10.48550/ARXIV.1703.05192
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Ledig C, 2017, PROC CVPR IEEE, V0, PP105, DOI 10.1109/CVPR.2017.19
+   Lee J, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6100309
+   Li Z, 2004, INT J GEOGR INF SCI, V18, P513, DOI 10.1080/13658810410001702021
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Mackaness W.A., 2011, GEN GEOGRAPHIC INFOR, V0, P0
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Mirza M., 2014, ARXIV14111784, V0, P0
+   MULLER JC, 1992, CARTOGR J, V29, P137
+   Mustiere S., 1998, P GEOGR INF SYST PLA, V0, P0
+   Peters T., 2018, SPATIAL BIG DATA MAC, V0, P48
+   Powitz B., 1993, INT ARCH PHOTOGRAMM, V29, P664
+   Regnauld N., 2007, GEN GEOGRAPHIC INFOR, V0, PP37, DOI 10.1016/B978-008045374-3/50005-3
+   Renard J., 2011, P 25 INT CART C ICC P 25 INT CART C ICC, V0, P0
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Sester M, 2005, DEVELOPMENTS IN SPATIAL DATA HANDLING, V0, PP355, DOI 10.1007/3-540-26772-7_27
+   Sester M, 2005, INT J GEOGR INF SCI, V19, P871, DOI 10.1080/13658810500161179
+   Sester M, 2000, INT J GEOGR INF SCI, V14, P1, DOI 10.1080/136588100240930
+   Sester M., 2008, P 11 AGILE INT C GEO, V0, P0
+   Sester M., 2018, ISPRS INT ARCH PHOTO, V42, P565, DOI https://doi.org/10.5194/ISPRS-ARCHIVES-XLII-4-565-2018
+   Shen YL, 2019, COMPUT ENVIRON URBAN, V75, P117, DOI 10.1016/j.compenvurbsys.2019.01.009
+   Simo-Serra E, 2018, ACM T GRAPHIC, V37, P0, DOI 10.1145/3132703
+   SIMOSERRA E, 2016, ACM T GRAPHIC, V35, P0
+   Springenberg J.T, 2015, P ICLR, V0, P0
+   Stoter J, 2014, CARTOGR GEOGR INF SC, V41, P1, DOI 10.1080/15230406.2013.824637
+   Thiemann F., 2018, 38 WISS TECHN JAHR D, V27, P0
+   Wang WX, 2016, J TRAFFIC TRANSP ENG, V3, P271, DOI 10.1016/j.jtte.2016.05.005
+   Weibel R, 1995, LECT NOTES COMPUT SC, V988, P139
+   Xu YY, 2017, INT J GEOGR INF SCI, V31, P1929, DOI 10.1080/13658816.2017.1341632
+   Yan XF, 2019, ISPRS J PHOTOGRAMM, V150, P259, DOI 10.1016/j.isprsjprs.2019.02.010
+   Zeiler M.D., 2012, ARXIV12125701, V0, P0
+   Zhang ZP, 2019, IEEE ACM T COMPUT BI, V16, P407, DOI 10.1109/TCBB.2017.2704587
+   Zhong ZY, 2015, PROC INT CONF DOC, V0, PP846, DOI 10.1109/ICDAR.2015.7333881
+   Zhou Q, 2017, CARTOGR J, V54, P254, DOI 10.1179/1743277414Y.0000000083
+   Zhu JY, 2017, IEEE I CONF COMP VIS, V0, PP2242, DOI 10.1109/ICCV.2017.244
+NR 54
+TC 34
+Z9 40
+U1 3
+U2 27
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD JUN 15
+PY 2019
+VL 8
+IS 6
+BP 
+EP 
+DI 10.3390/ijgi8060258
+PG 20
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA II6MC
+UT WOS:000475307000016
+DA 2023-04-26
+ER

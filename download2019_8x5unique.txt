@@ -1,0 +1,591 @@
+
+PT J
+AU Lamichhane, S
+   Kumar, L
+   Wilson, B
+AF Lamichhane, Sushil
+   Kumar, Lalit
+   Wilson, Brian
+TI Digital soil mapping algorithms and covariates for soil organic carbon mapping and their implications: A review
+SO GEODERMA
+LA English
+DT Review
+DE Algorithms; Covariates; Digital soil mapping; Soil organic carbon; Systematic mapping; Validation
+ID new-south-wales; geographically weighted regression; base-line map; artificial neural-networks; spatial prediction; land-use; random forest; climate-change; regional-scale; terrain attributes
+AB This article reviews the current research and applications of various digital soil mapping (DSM) techniques used to map Soil Organic Carbon (SOC) concentration and stocks following a systematic mapping approach from 2013 until present (18 February 2019). It is intended that this review of relevant literature will assist prospective researchers by identifying knowledge clusters and gaps in relation to the digital mapping of SOC. Of 120 studies, most were clustered in some specific countries such as China, Australia and the USA. The highest number publications were in 2016 and 2017. Regarding the predictive models, there was a progression from Linear Models towards Machine Learning (ML) techniques, and hybrid models in Regression Kriging (RK) framework performed better than individual models. Multiple Linear Regression (MLR) was the most frequently used method for predicting SOC, although it was outperformed by other ML techniques in most studies. Random Forest (RF) was found to perform better than MLR and other ML techniques in most comparative studies. Other common and competitive techniques were Cubist, Neural Network (NN), Boosted Regression Tree (BRT), Support Vector Machine (SVM) and Geographically Weighted Regression (GWR). Due to the inconsistency in various comparative studies, it would be advisable to calibrate the competitive algorithms using specific experimental datasets. This review also reveals the environmental covariates that have been identified as the most important by RF technique in recent years in regard to digital mapping of SOC, which may assist in selecting optimum sets of environmental covariates for mapping SOC. Covariates representing organism/organic activities were among the most frequent among top five covariates, followed by the variables representing climate and topography. Climate was reported to be influential in determining the variation in SOC level at regional scales, followed by parent materials, topography and land use. However, for mapping at a resolution that represents smaller areas such as a farm- or plot-scale, land use and vegetation indices were stated to be more influential in predicting SOC. Furthermore, unlike a previous review work, all recent studies in this review incorporated validation and 41% of them estimated spatially explicit prediction of uncertainty. Only 9.16% studies performed external validation, whereas most studies used data-splitting and cross-validation techniques which may not be the best options for datasets obtained through non-probability sampling.
+C1 [Lamichhane, Sushil; Kumar, Lalit; Wilson, Brian] Univ New England, Sch Environm & Rural Sci, Ecosyst Management Bldg W55, Armidale, NSW 2351, Australia.
+   [Lamichhane, Sushil] Nepal Agr Res Council, Soil Sci Div, Khumaltar, Lalitpur, Nepal.
+C3 University of New England
+RP Lamichhane, S (corresponding author), Univ New England, Sch Environm & Rural Sci, Ecosyst Management Bldg W55, Armidale, NSW 2351, Australia.
+EM slamichh@myune.edu.au
+FU International Postgraduate Research Award; University of New England, Armidale, NSW 2351, Australia
+CR Adhikari K, 2017, GEODERMA REG, V10, P115, DOI 10.1016/j.geodrs.2017.07.003
+   Adhikari K, 2015, SOIL SCI SOC AM J, V79, P155, DOI 10.2136/sssaj2014.09.0392
+   Adhikari K, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0105519
+   Adhikari K, 2013, SOIL SCI SOC AM J, V77, P860, DOI 10.2136/sssaj2012.0275
+   Aitkenhead MJ, 2016, GEODERMA, V262, P187, DOI 10.1016/j.geoderma.2015.08.034
+   Akpa SIC, 2016, GEODERMA, V271, P202, DOI 10.1016/j.geoderma.2016.02.021
+   [Anonymous], 2011, INTRO REMOTE SENSING, V0, P0
+   [Anonymous], 2015, PLOS ONE, V0, P0
+   [Anonymous], 2014, GEODERMA REG, V0, P0
+   Arrouays D, 2014, GLOBALSOILMAP: BASIS OF THE GLOBAL SPATIAL SOIL INFORMATION SYSTEM, V0, P9
+   Badgery WB, 2013, SOIL RES, V51, P645, DOI 10.1071/SR12358
+   Batjes NH, 1996, EUR J SOIL SCI, V47, P151, DOI 10.1111/ejss.12114_2
+   Bengio Y, 2009, FOUND TRENDS MACH LE, V2, P1, DOI 10.1561/2200000006
+   Bonfatti BR, 2016, GEODERMA, V261, P204, DOI 10.1016/j.geoderma.2015.07.016
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Brunsdon C, 1996, GEOGR ANAL, V28, P281, DOI 10.1111/j.1538-4632.1996.tb00936.x
+   Brus DJ, 2016, CATENA, V141, P46, DOI 10.1016/j.catena.2016.02.016
+   Brus DJ, 2011, EUR J SOIL SCI, V62, P394, DOI 10.1111/j.1365-2389.2011.01364.x
+   Bui E, 2009, GLOBAL BIOGEOCHEM CY, V23, P0, DOI 10.1029/2009GB003506
+   Castro-Franco M, 2015, SOIL SCI, V180, P74, DOI 10.1097/SS.0000000000000115
+   Ceddia M. B., 2017, REMOTE SENS, V9, P0
+   Chakan AA, 2017, ENVIRON MONIT ASSESS, V189, P0, DOI 10.1007/s10661-017-5830-9
+   Chartin C, 2017, GEODERMA REG, V9, P73, DOI 10.1016/j.geodrs.2016.12.006
+   Chen SC, 2018, SCI TOTAL ENVIRON, V630, P389, DOI 10.1016/j.scitotenv.2018.02.209
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Costa EM, 2018, J ENVIRON QUAL, V47, P718, DOI 10.2134/jeq2017.04.0178
+   Dai FQ, 2014, ECOL INDIC, V45, P184, DOI 10.1016/j.ecolind.2014.04.003
+   de Brogniez D, 2015, EUR J SOIL SCI, V66, P121, DOI 10.1111/ejss.12193
+   de Carvalho W, 2014, REV BRAS CIENC SOLO, V38, P706, DOI 10.1590/S0100-06832014000300003
+   de Menezes MD, 2016, SCI AGR, V73, P274, DOI 10.1590/0103-9016-2015-0071
+   Death G, 2007, ECOLOGY, V88, P243, DOI 10.1890/0012-9658(2007)88[243:BTFEMA]2.0.CO;2
+   Deng XF, 2018, AGR ECOSYST ENVIRON, V254, P213, DOI 10.1016/j.agee.2017.11.022
+   Dharumarajan S, 2017, GEODERMA REG, V10, P154, DOI 10.1016/j.geodrs.2017.07.005
+   Doblas-Miranda E, 2013, BIOGEOSCIENCES, V10, P8353, DOI 10.5194/bg-10-8353-2013
+   Domke GM, 2017, ECOL APPL, V27, P1223, DOI 10.1002/eap.1516
+   Dong W, 2019, GEODERMA, V340, P234, DOI 10.1016/j.geoderma.2019.01.018
+   Dorji T, 2014, FOREST ECOL MANAG, V318, P91, DOI 10.1016/j.foreco.2014.01.003
+   Drake JM, 2006, J APPL ECOL, V43, P424, DOI 10.1111/j.1365-2664.2006.01141.x
+   Elith J, 2008, J ANIM ECOL, V77, P802, DOI 10.1111/j.1365-2656.2008.01390.x
+   Eswaran H, 2000, GLOBAL CLIMATE CHANGE AND PEDOGENIC CARBONATES, V0, P15
+   Florinsky IV, 2012, EURASIAN SOIL SCI+, V45, P445, DOI 10.1134/S1064229312040047
+   Forkuor G, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0170478
+   Fotheringham A. S., 2002, GEOGRAPHICALLY WEIGH, V0, P0
+   GESSLER PE, 1995, INT J GEOGR INF SYST, V9, P421, DOI 10.1080/02693799508902047
+   Gomes LC, 2019, GEODERMA, V340, P337, DOI 10.1016/j.geoderma.2019.01.007
+   Gray JM, 2016, SOIL SCI SOC AM J, V80, P1296, DOI 10.2136/sssaj2016.02.0038
+   Gray JM, 2016, SOIL RES, V54, P49, DOI 10.1071/SR14307
+   Gray JM, 2015, SOIL SCI SOC AM J, V79, P1741, DOI 10.2136/sssaj2015.06.0224
+   Gray JM, 2015, SOIL RES, V53, P24, DOI 10.1071/SR13306
+   Grimm R, 2008, GEODERMA, V146, P102, DOI 10.1016/j.geoderma.2008.05.008
+   Grinand C, 2017, INT J APPL EARTH OBS, V54, P1, DOI 10.1016/j.jag.2016.09.002
+   Grunwald S, 2009, GEODERMA, V152, P195, DOI 10.1016/j.geoderma.2009.06.003
+   GSP, 2017, GLOB SOIL ORG CARB M, V0, P0
+   Guevara M, 2018, SOIL-GERMANY, V4, P173, DOI 10.5194/soil-4-173-2018
+   Guo PT, 2015, GEODERMA, V237, P49, DOI 10.1016/j.geoderma.2014.08.009
+   Hartemink AE, 2013, GEODERMA, V207, P256, DOI 10.1016/j.geoderma.2013.05.003
+   Hempel J., 2014, GLOBALSOILMAP BASIS, V0, P0
+   Hengl T, 2004, GEODERMA, V120, P75, DOI 10.1016/j.geoderma.2003.08.018
+   Hengl T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0169748
+   Hengl T, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0125814
+   Heuvelink GBM, 2016, GEODERMA REG, V7, P201, DOI 10.1016/j.geodrs.2016.04.002
+   Hinge G, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7374-x
+   Hobley E, 2015, PLANT SOIL, V390, P111, DOI 10.1007/s11104-015-2380-1
+   Hounkpatin OKL, 2018, CATENA, V166, P298, DOI 10.1016/j.catena.2018.04.013
+   Ingram JSI, 2001, AGR ECOSYST ENVIRON, V87, P111, DOI 10.1016/S0167-8809(01)00145-1
+   IUCN, 2015, LAND DEGR NEUTR IMPL, V0, P0
+   James KL, 2016, ENVIRON EVID, V5, P0, DOI 10.1186/s13750-016-0059-6
+   Jenny H., 1941, FACTORS SOIL FORMATI, V0, P0, DOI DOI 10.1097/00010694-194111000-00009
+   Jeong GY, 2017, CATENA, V154, P73, DOI 10.1016/j.catena.2017.02.006
+   Jobbagy EG, 2000, ECOL APPL, V10, P423, DOI 10.2307/2641104
+   Kalambukattu JG, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7367-9
+   Kassai P, 2018, GEOL CROAT, V71, P29, DOI 10.4154/gc.2018.04
+   Kempen B, 2019, GEODERMA, V337, P164, DOI 10.1016/j.geoderma.2018.09.011
+   Keskin H, 2018, GEODERMA, V326, P22, DOI 10.1016/j.geoderma.2018.04.004
+   Kidd D, 2015, SOIL RES, V53, P932, DOI 10.1071/SR14268
+   Kim J, 2016, J ENVIRON QUAL, V45, P1910, DOI 10.2134/jeq2016.03.0076
+   Kuhn M., 2013, APPL PREDICTIVE MODE, V0, P0, DOI DOI 10.1007/978-1-4614-6849-3
+   Kuhn M, 2018, CUBIST RULE INSTANCE, V0, P0
+   Kumar L, 1997, INT J GEOGR INF SCI, V11, P475, DOI 10.1080/136588197242266
+   KUMAR L, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101509
+   Kumar N, 2018, J INDIAN SOC REMOTE, V46, P705, DOI 10.1007/s12524-017-0738-y
+   Kumar S, 2015, CHEMOSPHERE, V127, P49, DOI 10.1016/j.chemosphere.2014.12.027
+   Kumar S, 2013, J GEOGR SCI, V23, P280, DOI 10.1007/s11442-013-1010-1
+   Kupfer JA, 2007, LANDSCAPE ECOL, V22, P837, DOI 10.1007/s10980-006-9058-2
+   Lacoste M, 2014, GEODERMA, V213, P296, DOI 10.1016/j.geoderma.2013.07.002
+   Lal R, 2004, SCIENCE, V304, P1623, DOI 10.1126/science.1097396
+   Laub M, 2018, GEODERMA, V330, P177, DOI 10.1016/j.geoderma.2018.05.020
+   Lek S, 1999, ECOL MODEL, V120, P65, DOI 10.1016/S0304-3800(99)00092-7
+   Li QQ, 2016, ARCH AGRON SOIL SCI, V62, P1541, DOI 10.1080/03650340.2016.1154543
+   Li Y, 2010, GEODERMA, V159, P63, DOI 10.1016/j.geoderma.2010.06.017
+   Liang ZZ, 2019, GEODERMA, V335, P47, DOI 10.1016/j.geoderma.2018.08.011
+   Liddicoat C, 2015, SOIL RES, V53, P956, DOI 10.1071/SR15100
+   Liu F, 2013, SOIL SCI SOC AM J, V77, P1241, DOI 10.2136/sssaj2012.0317
+   Liu F, 2012, GEODERMA, V171, P44, DOI 10.1016/j.geoderma.2011.05.007
+   Liu YL, 2015, SOIL TILL RES, V148, P46, DOI 10.1016/j.still.2014.12.002
+   Lornbardo L, 2018, GEODERMA, V318, P148, DOI 10.1016/j.geoderma.2017.12.011
+   Ma YX, 2017, GEODERMA REG, V10, P144, DOI 10.1016/j.geodrs.2017.06.002
+   Mahmoudabadi E, 2017, ENVIRON MONIT ASSESS, V189, P0, DOI 10.1007/s10661-017-6197-7
+   Malone BP, 2013, SOIL SCI SOC AM J, V77, P890, DOI 10.2136/sssaj2012.0419
+   Maynard JJ, 2017, GEODERMA, V285, P94, DOI 10.1016/j.geoderma.2016.09.024
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   MCKENZIE NJ, 1993, GEODERMA, V57, P329, DOI 10.1016/0016-7061(93)90049-Q
+   McNicol G, 2019, ENVIRON RES LETT, V14, P0, DOI 10.1088/1748-9326/aaed52
+   Meersmans J, 2009, GEODERMA, V152, P43, DOI 10.1016/j.geoderma.2009.05.015
+   Minasny B, 2013, ADV AGRON, V118, P1, DOI 10.1016/B978-0-12-405942-9.00001-3
+   Mirzaee S, 2016, CATENA, V145, P118, DOI 10.1016/j.catena.2016.05.023
+   MOORE ID, 1993, SOIL SCI SOC AM J, V57, P443, DOI 10.2136/sssaj1993.03615995005700020026x
+   Mosleh Z, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-016-5204-8
+   Mueller TG, 2003, SOIL SCI SOC AM J, V67, P258, DOI 10.2136/sssaj2003.0258
+   Mulder VL, 2016, SCI TOTAL ENVIRON, V573, P1352, DOI 10.1016/j.scitotenv.2016.07.066
+   Mulder VL, 2016, GEODERMA, V263, P16, DOI 10.1016/j.geoderma.2015.08.035
+   Nijbroek R, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10051610
+   Nussbaum M, 2014, GEOSCI MODEL DEV, V7, P1197, DOI 10.5194/gmd-7-1197-2014
+   Nussbaum M, 2018, SOIL-GERMANY, V4, P1, DOI 10.5194/soil-4-1-2018
+   Orton TG, 2014, GEODERMA, V230, P119, DOI 10.1016/j.geoderma.2014.04.016
+   Ottoy S, 2017, ECOL INDIC, V77, P139, DOI 10.1016/j.ecolind.2017.02.010
+   Ottoy S, 2017, SCI TOTAL ENVIRON, V589, P153, DOI 10.1016/j.scitotenv.2017.02.116
+   Padarian J, 2017, GEODERMA REG, V9, P17, DOI 10.1016/j.geodrs.2016.12.001
+   Padarian J, 2019, SOIL-GERMANY, V5, P79, DOI 10.5194/soil-5-79-2019
+   Pahlavan-Rad MR, 2018, GEODERMA REG, V15, P0, DOI 10.1016/j.geodrs.2018.e00195
+   Paul EA, 2016, SOIL BIOL BIOCHEM, V98, P109, DOI 10.1016/j.soilbio.2016.04.001
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   Peng G., 2013, PLOS ONE, V8, P0
+   Petropoulos GP, 2015, PHYS CHEM EARTH, V83-84, P36, DOI 10.1016/j.pce.2015.02.009
+   Piccini C, 2014, ECOL INDIC, V36, P301, DOI 10.1016/j.ecolind.2013.08.009
+   Poggio L, 2016, GEODERMA, V277, P69, DOI 10.1016/j.geoderma.2016.04.026
+   Poggio L, 2013, GEODERMA, V209, P1, DOI 10.1016/j.geoderma.2013.05.029
+   Qin CZ, 2012, GEODERMA, V171, P64, DOI 10.1016/j.geoderma.2011.06.006
+   Quinlan J. R., 1992, PROCEEDINGS OF THE 5TH AUSTRALIAN JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE. AI 92, V0, P343
+   Quinlan J R., 1993, P 10 INT C MACHINE L, Vvol 236-243, P0
+   Rabbi SMF, 2015, SCI REP-UK, V5, P0, DOI 10.1038/srep17866
+   RABBINGE R, 1994, FUTURE OF THE LAND, V0, P31
+   Ramcharan A, 2018, SOIL SCI SOC AM J, V82, P186, DOI 10.2136/sssaj2017.04.0122
+   Ramifehiarivo N, 2017, GEODERMA REG, V9, P29, DOI 10.1016/j.geodrs.2016.12.002
+   Ratnayake RR, 2016, GEODERMA REG, V7, P167, DOI 10.1016/j.geodrs.2016.03.002
+   Rial M, 2017, SCI TOTAL ENVIRON, V609, P1411, DOI 10.1016/j.scitotenv.2017.08.012
+   Rial M, 2017, CATENA, V156, P74, DOI 10.1016/j.catena.2017.03.020
+   Rodriguez-Lado L, 2015, GEODERMA, V245, P65, DOI 10.1016/j.geoderma.2015.01.015
+   Rojas LAR, 2018, J ENVIRON QUAL, V47, P735, DOI 10.2134/jeq2017.08.0329
+   Rossel RAV, 2015, SOIL RES, V53, P845, DOI 10.1071/SR14366
+   Rossel RAV, 2010, GEODERMA, V158, P46, DOI 10.1016/j.geoderma.2009.12.025
+   Rossel RAV, 2014, GLOBAL CHANGE BIOL, V20, P2953, DOI 10.1111/gcb.12569
+   Rudiyanto, 2018, GEODERMA, V313, P25, DOI 10.1016/j.geoderma.2017.10.018
+   Sayao VM, 2018, GEODERMA REG, V14, P0, DOI 10.1016/j.geodrs.2018.e00174
+   Schillaci C, 2017, SCI TOTAL ENVIRON, V601, P821, DOI 10.1016/j.scitotenv.2017.05.239
+   Schillaci C, 2017, GEODERMA, V286, P35, DOI 10.1016/j.geoderma.2016.10.019
+   Schulp CJE, 2008, GEODERMA, V146, P457, DOI 10.1016/j.geoderma.2008.06.016
+   She QS, 2008, ICNC 2008: FOURTH INTERNATIONAL CONFERENCE ON NATURAL COMPUTATION, VOL 2, PROCEEDINGS
+   Siewert MB, 2018, BIOGEOSCIENCES, V15, P1663, DOI 10.5194/bg-15-1663-2018
+   Sindayihebura A, 2017, CATENA, V156, P161, DOI 10.1016/j.catena.2017.04.003
+   Sleutel S, 2006, SOIL USE MANAGE, V22, P342, DOI 10.1111/j.1475-2743.2006.00045.x
+   Smola A. J, 1996, THESIS TU MUNCHEN, V0, P0
+   Somarathna PDSN, 2017, SOIL SCI SOC AM J, V81, P1413, DOI 10.2136/sssaj2016.11.0376
+   Somarathna PDSN, 2016, GEODERMA REG, V7, P38, DOI 10.1016/j.geodrs.2015.12.002
+   Song XD, 2016, GEODERMA, V261, P11, DOI 10.1016/j.geoderma.2015.06.024
+   Song XD, 2017, PEDOSPHERE, V27, P681, DOI 10.1016/S1002-0160(17)60445-4
+   Song YQ, 2017, SUSTAINABILITY-BASEL, V9, P0, DOI 10.3390/su9050754
+   Sreenivas K, 2014, J INDIAN SOC REMOTE, V42, P577, DOI 10.1007/s12524-013-0332-x
+   Sreenivas K, 2016, GEODERMA, V269, P160, DOI 10.1016/j.geoderma.2016.02.002
+   Sun XL, 2017, GEODERMA, V303, P118, DOI 10.1016/j.geoderma.2017.05.017
+   Taghizadeh-Mehrjardi R, 2016, GEODERMA, V266, P98, DOI 10.1016/j.geoderma.2015.12.003
+   Taghizadeh-Mehrjardi R, 2017, CARBON MANAG, V8, P277, DOI 10.1080/17583004.2017.1330593
+   Tan X, 2017, SOIL RES, V55, P318, DOI 10.1071/SR16177
+   Triantafilis J, 2009, AUST J SOIL RES, V47, P651, DOI 10.1071/SR08240
+   Van Apeldoorn D.F., 2014, GEODERMA REG, V2-3, P32
+   Vasenev VI, 2014, GEODERMA, V226, P103, DOI 10.1016/j.geoderma.2014.03.007
+   Vaysse K., 2015, GEODERMA REG, V4, P20, DOI 10.1016/J.GE0DRS.2014.11.003
+   Veronesi F, 2014, SCI TOTAL ENVIRON, V487, P578, DOI 10.1016/j.scitotenv.2014.02.061
+   Vitharana UWA, 2019, GEODERMA, V337, P55, DOI 10.1016/j.geoderma.2018.09.005
+   Wadoux AMJC, 2019, SOIL-GERMANY, V5, P107, DOI 10.5194/soil-5-107-2019
+   Walkley A, 1934, SOIL SCI, V37, P29, DOI 10.1097/00010694-193401000-00003
+   Wang B, 2018, SCI TOTAL ENVIRON, V630, P367, DOI 10.1016/j.scitotenv.2018.02.204
+   Wang DC, 2012, PEDOSPHERE, V22, P394, DOI 10.1016/S1002-0160(12)60025-3
+   Wang K, 2014, J SPAT SCI, V59, P91, DOI 10.1080/14498596.2013.812024
+   Wang S., 2016, SUSTAINABILITY, V8, P0
+   Wang S, 2018, GEODERMA, V314, P8, DOI 10.1016/j.geoderma.2017.10.052
+   Wang S, 2018, ECOL INDIC, V84, P263, DOI 10.1016/j.ecolind.2017.08.046
+   Wang S, 2017, GEODERMA, V305, P250, DOI 10.1016/j.geoderma.2017.05.048
+   Wang SZ, 2019, CATENA, V174, P248, DOI 10.1016/j.catena.2018.10.050
+   Wang Y, 2019, GEODERMA, V342, P55, DOI 10.1016/j.geoderma.2019.02.007
+   Wang YY, 2018, LAND DEGRAD DEV, V29, P26, DOI 10.1002/ldr.2833
+   Weil RR, 2016, NATURE PROPERTIES SO, V0, P0
+   Were K, 2016, J GEOGR SCI, V26, P102, DOI 10.1007/s11442-016-1257-4
+   Were K, 2015, ECOL INDIC, V52, P394, DOI 10.1016/j.ecolind.2014.12.028
+   Were KO, 2017, PEDOSPHERE, V27, P877, DOI 10.1016/S1002-0160(17)60461-2
+   Wiesmeier M, 2019, GEODERMA, V333, P149, DOI 10.1016/j.geoderma.2018.07.026
+   Wiesmeier M, 2011, PLANT SOIL, V340, P7, DOI 10.1007/s11104-010-0425-z
+   Wilson BR, 2011, SOIL USE MANAGE, V27, P437, DOI 10.1111/j.1475-2743.2011.00357.x
+   Wilson BR, 2013, SOIL RES, V51, P668, DOI 10.1071/SR12376
+   Wilson BR, 2010, AUST J SOIL RES, V48, P421, DOI 10.1071/SR09146
+   Yang JJ, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0125100
+   Yang L, 2019, GEODERMA, V340, P289, DOI 10.1016/j.geoderma.2019.01.015
+   Yang RM, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep21842
+   Yang RM, 2016, ECOL INDIC, V60, P870, DOI 10.1016/j.ecolind.2015.08.036
+   Yang RM, 2016, PEDOSPHERE, V26, P699, DOI 10.1016/S1002-0160(15)60078-9
+   Yang YH, 2007, BIOGEOCHEMISTRY, V84, P131, DOI 10.1007/s10533-007-9109-z
+   Yigini Y., 2018, SOIL ORGANIC CARBON, V2nd, P0
+   Yigini Y, 2016, SCI TOTAL ENVIRON, V557, P838, DOI 10.1016/j.scitotenv.2016.03.085
+   Zeng CY, 2016, GEODERMA, V281, P69, DOI 10.1016/j.geoderma.2016.06.033
+   Zeraatpisheh M, 2019, GEODERMA, V338, P445, DOI 10.1016/j.geoderma.2018.09.006
+   Zhang GL, 2017, J INTEGR AGR, V16, P2871, DOI 10.1016/S2095-3119(17)61762-3
+   Zhang SW, 2012, GEODERMA, V171, P35, DOI 10.1016/j.geoderma.2011.07.012
+   Zhao Cheng-Ping, 2011, PROCEEDINGS 2011 INTERNATIONAL CONFERENCE ON COMPUTER DISTRIBUTED CONTROL AND INTELLIGENT ENVIRONMENTAL MONITORING (CDCIEM 2011), V0, PP1673, DOI 10.1109/CDCIEM.2011.345
+   Zhao MS, 2014, ECOL INDIC, V39, P120, DOI 10.1016/j.ecolind.2013.12.015
+   Zhou Y, 2019, GEODERMA, V334, P124, DOI 10.1016/j.geoderma.2018.07.037
+   Zhou Y, 2019, SCI TOTAL ENVIRON, V647, P1230, DOI 10.1016/j.scitotenv.2018.08.016
+   Zhu AX, 2010, SOIL SCI SOC AM J, V74, P861, DOI 10.2136/sssaj2008.0411
+   Zinn YL, 2005, GEODERMA, V127, P168, DOI 10.1016/j.geoderma.2005.02.010
+NR 208
+TC 128
+Z9 133
+U1 57
+U2 283
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0016-7061
+EI 1872-6259
+J9 GEODERMA
+JI Geoderma
+PD OCT 15
+PY 2019
+VL 352
+IS 
+BP 395
+EP 413
+DI 10.1016/j.geoderma.2019.05.031
+PG 19
+WC Soil Science
+SC Agriculture
+GA IW7XM
+UT WOS:000485207300038
+DA 2023-04-26
+ER
+
+PT J
+AU Bosch, M
+   Abujder, RRRM
+   Gifford, C
+AF Bosch, Marc
+   Abujder, Rodrigo Rene Rai Munoz
+   Gifford, Christopher
+TI Towards Image and Video Super-Resolution for Improved Analytics from Overhead Imagery
+SO GEOSPATIAL INFORMATICS IX
+LA English
+DT Proceedings Paper
+DE super-resolution; generative adversarial networks (GANs); full motion video; satellite imagery; semantic segmentation; object detection; computer vision
+AB In this work, we address the problem of losing details in the overhead remote sensing image acquisition and generation process due to sensor resolution and distance to target by leveraging state-of-the-art deep neural network architectures. The goal is to recover such details by super-resolving the images acquired by overhead imaging sensors in order for human analysts to interpret data more accurately, and consequentially, for automated visual exploitation algorithms to be applied more effectively. We have developed a super-resolution framework operating on overhead full motion video (FMV) and still imagery (e.g. satellite images). Our framework consists of a neural network capable of learning the mapping between low and high resolution images in order to produce plausible details about the scene. Our framework combines Generative Adversarial Networks (GANs) and Recurrent Neural Networks (RNNs) to process low resolution signals both spatially and, in the case of FMV, temporally. We have applied the output of our system to several visual perception tasks, including object detection, object tracking, and semantic segmentation. We have also applied our methods to data from different geographical areas, sensors, and even modalities to demonstrate broad and generalized applicability.
+C1 [Bosch, Marc; Abujder, Rodrigo Rene Rai Munoz; Gifford, Christopher] Johns Hopkins Univ, Appl Phys Lab, 11100 Johns Hopkins Rd, Laurel, MD 20723 USA.
+   [Bosch, Marc] Accenture Fed Serv, 800 N Glebe Rd, Arlington, VA 22203 USA.
+C3 Johns Hopkins University; Johns Hopkins University Applied Physics Laboratory
+RP Bosch, M (corresponding author), Johns Hopkins Univ, Appl Phys Lab, 11100 Johns Hopkins Rd, Laurel, MD 20723 USA.; Bosch, M (corresponding author), Accenture Fed Serv, 800 N Glebe Rd, Arlington, VA 22203 USA.
+CR Bosch M., 2017, ARXIV E PRINTS, V0, P0
+   Denton E. L., 2015, ADV NEURAL INFORM PR, V0, PP1486, DOI 10.5555/
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Freeman W., 2000, P 34 ANN C INF SCI S, V0, P1841
+   Freeman WT, 2002, IEEE COMPUT GRAPH, V22, P56, DOI 10.1109/38.988747
+   Garcia D., 2016, IMAGE SUPERRESOLUTIO, V0, P0
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   Ilg E, 2017, PROC CVPR IEEE, V0, PP1647, DOI 10.1109/CVPR.2017.179
+   Kim J, 2016, IEEE CONF COMPUT, V0, P0
+   Lai WS, 2019, IEEE T PATTERN ANAL, V41, P2599, DOI 10.1109/TPAMI.2018.2865304
+   Lai WS, 2017, PROC CVPR IEEE, V0, PP5835, DOI 10.1109/CVPR.2017.618
+   Ledig C, 2017, PROC CVPR IEEE, V0, PP105, DOI 10.1109/CVPR.2017.19
+   Oh SM, 2011, PROC CVPR IEEE, V0, P0
+   Sajjadi M. S. M., 2017, P INT C COMP VIS ICC, V0, P0, DOI DOI 10.1109/CVPR.2019.00817
+   Schulter S, 2015, PROC CVPR IEEE, V0, PP3791, DOI 10.1109/CVPR.2015.7299003
+   Tao X, 2017, IEEE I CONF COMP VIS, V0, PP4482, DOI 10.1109/ICCV.2017.479
+   Yang JC, 2010, IEEE T IMAGE PROCESS, V19, P2861, DOI 10.1109/TIP.2010.2050625
+NR 17
+TC 0
+Z9 0
+U1 1
+U2 4
+PU SPIE-INT SOC OPTICAL ENGINEERING
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98227-0010 USA
+SN 0277-786X
+EI 1996-756X
+J9 PROC SPIE
+PD JUN 15
+PY 2019
+VL 10992
+IS 
+BP 
+EP 
+DI 10.1117/12.2518179
+PG 9
+WC Optics
+SC Optics
+GA BO1PP
+UT WOS:000502037900002
+DA 2023-04-26
+ER
+
+PT J
+AU Lin, A
+   Horvath, D
+   Marcou, G
+   Beck, B
+   Varnek, A
+AF Lin, Arkadii
+   Horvath, Dragos
+   Marcou, Gilles
+   Beck, Bernd
+   Varnek, Alexandre
+TI Multi-task generative topographic mapping in virtual screening
+SO JOURNAL OF COMPUTER-AIDED MOLECULAR DESIGN
+LA English
+DT Article
+DE Generative topographic mapping; Multi-task learning; Ligand-based virtual screening; Big data; Universal maps; ChEMBL; DUD; Neural networks
+ID chemogenomics
+AB The previously reported procedure to generate universal Generative Topographic Maps (GTMs) of the drug-like chemical space is in practice a multi-task learning process, in which both operational GTM parameters (example: map grid size) and hyperparameters (key example: the molecular descriptor space to be used) are being chosen by an evolutionary process in order to fit/select universal GTM manifolds. After selection (a one-time task aimed at optimizing the compromise in terms of neighborhood behavior compliance, over a large pool of various biological targets), for any further use the manifolds are ready to provide fit-free predictive models. Using any structure-activity setirrespectively whether the associated target served at map fitting stage or notthe generation or coloring a property landscape enables predicting the property for any external molecule, with zero additional fitable parameters involved. While previous works have signaled the excellent behavior of such models in aggressive three-fold cross-validation assessments of their predictive power, the present work wished to explore their behavior in Virtual Screening (VS), here simulated on hand of external DUD ligand and decoy series that are fully disjoint from the ChEMBL-extracted landscape coloring sets. Beyond the rather robust results of the universal GTM manifolds in this challenge, it could be shown that the descriptor spaces selected by the evolutionary multi-task learner were intrinsically able to serve as an excellent support for many other VS procedures, starting from parameter-free similarity searching, to local (target-specific) GTM models, to parameter-rich, nonlinear Random Forest and Neural Network approaches.
+C1 [Lin, Arkadii; Horvath, Dragos; Marcou, Gilles; Varnek, Alexandre] Univ Strasbourg, Fac Chem, Lab Chemoinformat, 4 Blaise Pascal Str, F-67081 Strasbourg, France.
+   [Lin, Arkadii; Beck, Bernd] Boehringer Ingelheim Pharma GmbH & Co KG, Dept Med Chem, Birkendorferstr 65, D-88397 Biberach, Germany.
+C3 UDICE-French Research Universities; Universites de Strasbourg Etablissements Associes; Universite de Strasbourg; Boehringer Ingelheim
+RP Varnek, A (corresponding author), Univ Strasbourg, Fac Chem, Lab Chemoinformat, 4 Blaise Pascal Str, F-67081 Strasbourg, France.
+EM varnek@unistra.fr
+FU European Union's Horizon 2020 research and innovation program under the Marie Sklodowska-Curie Grant [676434]
+CR Bieler M, 2011, J CHEM INF MODEL, V51, P1897, DOI 10.1021/ci200105t
+   Bishop CM, 1998, NEURAL COMPUT, V10, P215, DOI 10.1162/089976698300017953
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Brown JB, 2014, J COMPUT AID MOL DES, V28, P597, DOI 10.1007/s10822-014-9743-1
+   Dahl GE, 2013, INT CONF ACOUST SPEE, V0, PP8609, DOI 10.1109/ICASSP.2013.6639346
+   Gaspar HA, 2015, MOL INFORM, V34, P348, DOI 10.1002/minf.201400153
+   Gaspar HA, 2015, J CHEM INF MODEL, V55, P84, DOI 10.1021/ci500575y
+   Gaulton A, 2012, NUCLEIC ACIDS RES, V40, PD1100, DOI 10.1093/nar/gkr777
+   Heikamp K, 2013, J CHEM INF MODEL, V53, P791, DOI 10.1021/ci400090t
+   Horvath D, 2011, J COMPUT AID MOL DES, V25, P237, DOI 10.1007/s10822-011-9416-2
+   Hristozov D, 2007, J CHEM INF MODEL, V47, P2044, DOI 10.1021/ci700040r
+   Huang N, 2006, J MED CHEM, V49, P6789, DOI 10.1021/jm0608356
+   Jacob L, 2008, BMC BIOINFORMATICS, V9, P0, DOI 10.1186/1471-2105-9-363
+   Kaiser D, 2007, J MED CHEM, V50, P1698, DOI 10.1021/jm060604z
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kireeva N, 2012, MOL INFORM, V31, P301, DOI 10.1002/minf.201100163
+   KOHONEN T, 1990, P IEEE, V78, P1464, DOI 10.1109/5.58325
+   Lavecchia A, 2015, DRUG DISCOV TODAY, V20, P318, DOI 10.1016/j.drudis.2014.10.012
+   Lin A, 2018, CHEMMEDCHEM, V13, P540, DOI 10.1002/cmdc.201700561
+   Medina-Franco JL, 2013, DRUG DISCOV TODAY, V18, P495, DOI 10.1016/j.drudis.2013.01.008
+   Muegge I, 2006, DRUG DISCOV TODAY-TE, V3, P405
+   Papadatos G, 2009, J CHEM INF MODEL, V49, P195, DOI 10.1021/ci800302g
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   Rosenbaum L, 2013, J CHEMINFORMATICS, V5, P0, DOI 10.1186/1758-2946-5-33
+   Ruck D W, 1990, IEEE TRANS NEURAL NETW, V1, P296, DOI 10.1109/72.80266
+   Ruggiu F, 2017, ISIDA FRAGMENTOR 201, V0, P0
+   Ruggiu F, 2010, MOL INFORM, V29, P855, DOI 10.1002/minf.201000099
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Schneider G, 2003, J COMB CHEM, V5, P233, DOI 10.1021/cc020092j
+   Sidorov P, 2015, J COMPUT AID MOL DES, V29, P1087, DOI 10.1007/s10822-015-9882-z
+   Varnek, 2014, CHALLENGES, V5, P450, DOI 10.3390/challe5020450
+   Varnek A, 2009, J CHEM INF MODEL, V49, P133, DOI 10.1021/ci8002914
+   Xu YT, 2017, J CHEM INF MODEL, V57, P2490, DOI 10.1021/acs.jcim.7b00087
+NR 33
+TC 13
+Z9 13
+U1 0
+U2 10
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0920-654X
+EI 1573-4951
+J9 J COMPUT AID MOL DES
+JI J. Comput.-Aided Mol. Des.
+PD MAR 15
+PY 2019
+VL 33
+IS 3
+BP 331
+EP 343
+DI 10.1007/s10822-019-00188-x
+PG 13
+WC Biochemistry & Molecular Biology; Biophysics; Computer Science, Interdisciplinary Applications
+SC Biochemistry & Molecular Biology; Biophysics; Computer Science
+GA HO6KM
+UT WOS:000461038500002
+PM 30739238
+DA 2023-04-26
+ER
+
+PT J
+AU Tiwari, P
+   Upadhyay, SH
+AF Tiwari, Prashant
+   Upadhyay, S. H.
+TI Degradation assessment of ball bearings utilizing curvilinear component analysis
+SO PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS PART K-JOURNAL OF MULTI-BODY DYNAMICS
+LA English
+DT Article
+DE Bearings; performance degradation assessment; vibration monitoring; curvilinear component analysis; self-organizing map
+ID empirical mode decomposition; singular-value decomposition; remaining useful life; self-organizing map; performance degradation; feature-extraction; fault-diagnosis; neural-network; vibration; matrix
+AB The performance degradation assessment of ball bearings is of great importance to increase the efficiency and the reliability of rotating mechanical systems. The large dimensionality of feature space introduces a lot of noise and buries the potential information about faults hidden in the feature data. This paper proposes a novel health assessment method facilitated with two compatible methods, namely curvilinear component analysis and self-organizing map network. The novelty lies in the implementation of a vector quantization approach for the sub-manifolds in the feature space and to extract the fault signatures through nonlinear mapping technique. Curvilinear component analysis is a nonlinear mapping tool that can effectively represent the average manifold of the highly folded information and further preserves the local topology of the data. To answer the complications and to accomplish reliability and accuracy in bearing performance degradation assessment, the work is carried out with following steps; first, ensemble empirical mode decomposition is used to decompose the vibration signals into useful intrinsic mode functions; second, two fault features i.e. singular values and energy entropies are extracted from the envelopes of the intrinsic mode function signals; third, the extracted feature vectors under healthy conditions, further reduced with curvilinear component analysis are used to train the self-organizing map model; finally, the reduced test feature vectors are supplied to the trained self-organizing map and the confidence value is obtained. The effectiveness of the proposed technique is validated on three run-to-failure test signals with the different type of defects. The results indicate that the proposed technique detects the weak degradation earlier than the widely used indicators such as root mean square, kurtosis, self-organizing map-based minimum quantization error, and minimum quantization error-based on the principal component analysis.
+C1 [Tiwari, Prashant; Upadhyay, S. H.] Indian Inst Technol Roorkee, Dept Mech & Ind Engn, Roorkee 247667, Uttarakhand, India.
+   [Tiwari, Prashant] Natl Inst Technol Uttarakhand, Dept Mech Engn, Srinagar, Uttarakhand, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Roorkee; National Institute of Technology (NIT System); National Institute of Technology Uttarakhand
+RP Upadhyay, SH (corresponding author), Indian Inst Technol Roorkee, Dept Mech & Ind Engn, Roorkee 247667, Uttarakhand, India.
+EM shumefme@iitr.ac.in
+CR AINI R, 1995, P I MECH ENG C-J MEC, V209, P107, DOI 10.1243/PIME_PROC_1995_209_130_02
+   Baharudin E, 2016, P I MECH ENG K-J MUL, V230, P615, DOI 10.1177/1464419316635324
+   Bellini A, 2008, IEEE T IND ELECTRON, V55, P4109, DOI 10.1109/TIE.2008.2007527
+   Bin GF, 2012, MECH SYST SIGNAL PR, V27, P696, DOI 10.1016/j.ymssp.2011.08.002
+   Chandra NH, 2016, MECH SYST SIGNAL PR, V72-73, P105, DOI 10.1016/j.ymssp.2015.11.013
+   Cong FY, 2013, MECH SYST SIGNAL PR, V34, P218, DOI 10.1016/j.ymssp.2012.06.005
+   de Moura EP, 2011, MECH SYST SIGNAL PR, V25, P1765, DOI 10.1016/j.ymssp.2010.11.021
+   Delgado M, 2012, 2012 XXTH INTERNATIONAL CONFERENCE ON ELECTRICAL MACHINES (ICEM), V0, PP2472, DOI 10.1109/ICElMach.2012.6350231
+   Prieto MD, 2013, IEEE T IND ELECTRON, V60, P3398, DOI 10.1109/TIE.2012.2219838
+   Demartines P, 1997, IEEE T NEURAL NETWOR, V8, P148, DOI 10.1109/72.554199
+   Demartines Pierre, 1995, 15 C TRAIT SIGN IM F, V0, P0
+   Dybala J, 2014, APPL ACOUST, V77, P195, DOI 10.1016/j.apacoust.2013.09.001
+   Ece DG, 2011, EXPERT SYST APPL, V38, P8079, DOI 10.1016/j.eswa.2010.12.149
+   Heng A, 2009, MECH SYST SIGNAL PR, V23, P724, DOI 10.1016/j.ymssp.2008.06.009
+   Herault J, 1999, LECT NOTES COMPUT SC, V1607, P625
+   Hong S, 2014, DIGIT SIGNAL PROCESS, V27, P159, DOI 10.1016/j.dsp.2013.12.010
+   Huang NE, 1998, P ROY SOC A-MATH PHY, V454, P903, DOI 10.1098/rspa.1998.0193
+   Huang RQ, 2007, MECH SYST SIGNAL PR, V21, P193, DOI 10.1016/j.ymssp.2005.11.008
+   Jiang HM, 2016, MECH SYST SIGNAL PR, V72-73, P184, DOI 10.1016/j.ymssp.2015.10.003
+   Jiang L, 2013, MECH SYST SIGNAL PR, V41, P113, DOI 10.1016/j.ymssp.2013.05.017
+   KLEMA VC, 1980, IEEE T AUTOMAT CONTR, V25, P164, DOI 10.1109/TAC.1980.1102314
+   Kohonen T, 1995, SELF ORG MAPS, V0, P0
+   Laboratory of Computer and Information Science Helsinki University of Technology, 2005, SOM TOOLBOX, V0, P0
+   Li L, 2009, MEASUREMENT, V42, P796, DOI 10.1016/j.measurement.2009.01.001
+   Lynagh N, 2000, INT J MACH TOOL MANU, V40, P561, DOI 10.1016/S0890-6955(99)00076-0
+   Lynagh N, 1998, APPLICATION OF MULTI-VARIABLE SYSTEM TECHNIQUES (AMST 98), V0, P299
+   Murtagh PJ, 2007, P I MECH ENG K-J MUL, V221, P577, DOI 10.1243/14644193JMBD90
+   Patel SP, 2018, P IMECHE K, V0, P0, DOI DOI 10.1177/14644193187982901464419318798290
+   Qiu H, 2006, J SOUND VIB, V289, P1066, DOI 10.1016/j.jsv.2005.03.007
+   Qiu H, 2003, ADV ENG INFORM, V17, P127, DOI 10.1016/j.aei.2004.08.001
+   RAHNEJAT H, 1985, P I MECH ENG C-J MEC, V199, P181, DOI 10.1243/PIME_PROC_1985_199_113_02
+   Rai A, 2018, APPL SOFT COMPUT, V71, P36, DOI 10.1016/j.asoc.2018.06.038
+   Rai A, 2018, P I MECH ENG C-J MEC, V232, P1118, DOI 10.1177/0954406217700180
+   Rai A, 2017, MEASUREMENT, V111, P397, DOI 10.1016/j.measurement.2017.07.030
+   Rai A, 2017, MECH SYST SIGNAL PR, V93, P16, DOI 10.1016/j.ymssp.2017.02.003
+   Rubab I, 2014, INT CONF QUAL SOFTW, V0, PP1, DOI 10.1109/QSIC.2014.47
+   Singh A, 2019, APPL ACOUST, V144, P11, DOI 10.1016/j.apacoust.2017.04.015
+   Singh DS, 2016, MECH SYST SIGNAL PR, V81, P202, DOI 10.1016/j.ymssp.2016.03.007
+   Soni S, 2017, P I MECH ENG J-J ENG, V231, P41, DOI 10.1177/1350650116645027
+   TALLIAN TE, 1965, ASLE TRANS, V8, P195
+   Vafaei S, 2003, J SOUND VIB, V260, P67, DOI 10.1016/S0022-460X(02)00900-8
+   Vafaei S, 2002, INT J MACH TOOL MANU, V42, P1223, DOI 10.1016/S0890-6955(02)00049-4
+   Wang HC, 2014, J VIB CONTROL, V20, P2032, DOI 10.1177/1077546313483653
+   WARDLE FP, 1988, PRECIS ENG, V10, P221, DOI 10.1016/0141-6359(88)90057-8
+   Yu JB, 2011, MECH SYST SIGNAL PR, V25, P2573, DOI 10.1016/j.ymssp.2011.02.006
+   Yu K, 2017, APPL ACOUST, V121, P33, DOI 10.1016/j.apacoust.2017.01.023
+   Yu Y, 2006, J SOUND VIB, V294, P269, DOI 10.1016/j.jsv.2005.11.002
+   Zhang SB, 2016, J SOUND VIB, V379, P213, DOI 10.1016/j.jsv.2016.05.035
+   Zhang S, 2015, J FAIL ANAL PREV, V15, P691, DOI 10.1007/s11668-015-9999-3
+NR 49
+TC 5
+Z9 5
+U1 1
+U2 22
+PU SAGE PUBLICATIONS LTD
+PI LONDON
+PA 1 OLIVERS YARD, 55 CITY ROAD, LONDON EC1Y 1SP, ENGLAND
+SN 1464-4193
+EI 2041-3068
+J9 P I MECH ENG K-J MUL
+JI Proc. Inst. Mech Eng Pt K-J Multi-Body Dyn.
+PD SEP 15
+PY 2019
+VL 233
+IS 3
+BP 714
+EP 730
+DI 10.1177/1464419318817097
+PG 17
+WC Engineering, Mechanical; Mechanics
+SC Engineering; Mechanics
+GA IS9FG
+UT WOS:000482453400016
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, W
+   Lee, J
+AF Liu, Wei
+   Lee, Joonwhoan
+TI An Efficient Residual Learning Neural Network for Hyperspectral Image Superresolution
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Convolutional neural network (CNN); hyperspectral image (HSI); residual learning; superresolution (SR); three-dimensional (3-D) deconvolution; 3-D dilated convolution; 3-D subpixel convolution
+AB Deep learning, especially a discriminative model for image reconstruction, has shown great potential for single image superresolution (SR) of hyperspectral images (HSI). For HSI SR task, it is crucial to predicting each pixel according to the surrounding context, exploiting both spatial and spectral correlation information simultaneously. In this paper, an efficient three-dimensional (3-D) HSI SR convolution neural network (CNN) based on residual learning is proposed. The network builds convolutional layers in low-resolution (LR) space and extracts the features along both spatial and spectral dimensions using 3-D dilated kernel. Then, 3-D deconvolution is employed at the last layer, which enlarges the image to the desired size. By employing multibranch and multiscale fusion in the architecture, the network can learn a better and more complex LR to high-resolution mapping. The overall network combines the global with local residual learning to reduce training difficulty and improve the performance. The design philosophy of our model is to find the best tradeoff between performance and computational cost. We train the network in an end-to-end fashion, and the experimental results of the quantitative and qualitative evaluation show that our proposed method yields satisfactory SR performance.
+C1 [Liu, Wei; Lee, Joonwhoan] Chonbuk Natl Univ, Dept Comp Engn, Artificial Intelligence Lab, Jeonju Si 54896, South Korea.
+   [Liu, Wei] Hebei GEO Univ, Dept Informat Engn, Shijiazhuang 050000, Hebei, Peoples R China.
+C3 Jeonbuk National University; Hebei GEO University
+RP Lee, J (corresponding author), Chonbuk Natl Univ, Dept Comp Engn, Artificial Intelligence Lab, Jeonju Si 54896, South Korea.
+EM marinlwhb@gmail.com; chlee@chonbuk.ac.kr
+FU Korea Energy Technology Evaluation and Planning (KETEP) under Energy Efficiency and Resources Core Technology Program [20172510102150]
+CR Akhtar N, 2015, PROC CVPR IEEE, V0, PP3631, DOI 10.1109/CVPR.2015.7298986
+   Alparone L, 2007, IEEE T GEOSCI REMOTE, V45, P3012, DOI 10.1109/TGRS.2007.904923
+   [Anonymous], 2016, ARXIV160907009, V0, P0
+   Bruhn A, 2005, INT J COMPUT VISION, V61, P211, DOI 10.1023/B:VISI.0000045324.43199.43
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Dong C, 2016, LECT NOTES COMPUT SC, V9906, P391, DOI 10.1007/978-3-319-46475-6_25
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Dong WS, 2016, IEEE T IMAGE PROCESS, V25, P2337, DOI 10.1109/TIP.2016.2542360
+   Fang LY, 2018, NEUROCOMPUTING, V273, P171, DOI 10.1016/j.neucom.2017.08.019
+   Gao Q, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091495
+   Hardie RC, 1997, IEEE T IMAGE PROCESS, V6, P1621, DOI 10.1109/83.650116
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   HE KM, 2015, PROC CVPR IEEE, V0, PP5353, DOI 10.1109/CVPR.2015.7299173
+   Huang B, 2014, IEEE T GEOSCI REMOTE, V52, P1693, DOI 10.1109/TGRS.2013.2253612
+   HUANG G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Kim J, 2016, PROC CVPR IEEE, V0, PP1637, DOI 10.1109/CVPR.2016.181
+   Kim KI, 2010, IEEE T PATTERN ANAL, V32, P1127, DOI 10.1109/TPAMI.2010.25
+   Kumar Srivastava R., 2015, ARXIV150500387, V0, P0
+   LAI WS, 2017, PROC CVPR IEEE, V0, PP5835, DOI 10.1109/CVPR.2017.618
+   Lanaras C, 2015, IEEE I CONF COMP VIS, V0, PP3586, DOI 10.1109/ICCV.2015.409
+   Ledig C, 2017, PROC CVPR IEEE, V0, PP105, DOI 10.1109/CVPR.2017.19
+   Li J, 2012, IEEE T GEOSCI REMOTE, V50, P809, DOI 10.1109/TGRS.2011.2162649
+   Li WX, 2017, SUSTAINABILITY-BASEL, V9, P0, DOI 10.3390/su9010152
+   [李欣 Li Xin], 2018, 中国图象图形学报 JOURNAL OF IMAGE AND GRAPHICS, V23, P209
+   Li YS, 2017, NEUROCOMPUTING, V266, P29, DOI 10.1016/j.neucom.2017.05.024
+   Liebel L, 2016, INT ARCH PHOTOGRAMM, V41, P883, DOI 10.5194/isprsarchives-XLI-B3-883-2016
+   Lim B, 2017, IEEE COMPUT SOC CONF, V0, PP1132, DOI 10.1109/CVPRW.2017.151
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Mei SH, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9111139
+   Nair V, 2010, ICML, V27, P807
+   Pan ZX, 2013, IEEE T GEOSCI REMOTE, V51, P4864, DOI 10.1109/TGRS.2012.2230270
+   Pouliot D., 2018, REMOTE SENS, V10, P0
+   Shi WZ, 2016, PROC CVPR IEEE, V0, PP1874, DOI 10.1109/CVPR.2016.207
+   Simoes M, 2015, IEEE T GEOSCI REMOTE, V53, P3373, DOI 10.1109/TGRS.2014.2375320
+   Su YC, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121935
+   Szegedy, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Tai Y, 2017, PROC CVPR IEEE, V0, PP2790, DOI 10.1109/CVPR.2017.298
+   Tang ZM, 2018, NEUROCOMPUTING, V273, P37, DOI 10.1016/j.neucom.2017.07.061
+   Tao X., 2018, ARXIV180201770V1, V0, P0
+   Tian J, 2010, J VIS COMMUN IMAGE R, V21, P232, DOI 10.1016/j.jvcir.2010.01.001
+   Timofte R, 2015, LECT NOTES COMPUT SC, V9006, P111, DOI 10.1007/978-3-319-16817-3_8
+   Wang Y, 2016, IEEE ACCESS, V0, P0
+   Wang Y., 2017, REMOTE SENS, V9, P0
+   Wu W, 2016, J SYST ARCHITECT, V64, P63, DOI 10.1016/j.sysarc.2015.11.005
+   Xie S., 2017, ARXIV161105431V2, V0, P0
+   Yang DQ, 2015, 2015 IEEE INTERNATIONAL CONFERENCE ON DIGITAL SIGNAL PROCESSING (DSP), V0, PP196, DOI 10.1109/ICDSP.2015.7251858
+   Yang J., 2017, REMOTE SENS, V9, P0
+   Yuan Y, 2017, IEEE J-STARS, V10, P1963, DOI 10.1109/JSTARS.2017.2655112
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhang K, 2017, IEEE T IMAGE PROCESS, V26, P3142, DOI 10.1109/TIP.2017.2662206
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhang Yan, 2010, JOURNAL OF TSINGHUA UNIVERSITY (SCIENCE AND TECHNOLOGY), V50, P1743
+NR 54
+TC 17
+Z9 18
+U1 2
+U2 19
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD APR 15
+PY 2019
+VL 12
+IS 4
+BP 1240
+EP 1253
+DI 10.1109/JSTARS.2019.2901752
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA HT7PJ
+UT WOS:000464756600016
+DA 2023-04-26
+ER

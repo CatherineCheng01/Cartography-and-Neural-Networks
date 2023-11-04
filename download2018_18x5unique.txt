@@ -1,0 +1,423 @@
+
+PT J
+AU Branson, S
+   Wegner, JD
+   Hall, D
+   Lang, N
+   Schindler, K
+   Perona, P
+AF Branson, Steve
+   Wegner, Jan Dirk
+   Hall, David
+   Lang, Nico
+   Schindler, Konrad
+   Perona, Pietro
+TI From Google Maps to a fine-grained catalog of street trees
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; Image interpretation; Urban areas; Street trees; Very high resolution
+ID species classification; recognition; leaf; extraction; forest; shape
+AB Up-to-date catalogs of the urban tree population are of importance for municipalities to monitor and improve quality of life in cities. Despite much research on automation of tree mapping, mainly relying on dedicated airborne LiDAR or hyperspectral campaigns, tree detection and species recognition is still mostly done manually in practice. We present a fully automated tree detection and species recognition pipeline that can process thousands of trees within a few hours using publicly available aerial and street view images of Google Maps (TM). These data provide rich information from different viewpoints and at different scales from global tree shapes to bark textures. Our work-flow is built around a supervised classification that automatically learns the most discriminative features from thousands of trees and corresponding, publicly available tree inventory data. In addition, we introduce a change tracker that recognizes changes of individual trees at city-scale, which is essential to keep an urban tree inventory up-to-date. The system takes street-level images of the same tree location at two different times and classifies the type of change (e.g., tree has been removed). Drawing on recent advances in computer vision and machine learning, we apply convolutional neural networks (CNN) for all classification tasks. We propose the following pipeline: download all available panoramas and overhead images of an area of interest, detect trees per image and combine multi-view detections in a probabilistic framework, adding prior knowledge; recognize fine-grained species of detected trees. In a later, separate module, track trees over time, detect significant changes and classify the type of change. We believe this is the first work to exploit publicly available image data for city-scale street tree detection, species recognition and change tracking, exhaustively over several square kilometers, respectively many thousands of trees. Experiments in the city of Pasadena, California, USA show that we can detect >70% of the street trees, assign correct species to >80% for 40 different species, and correctly detect and classify changes in >90% of the cases. (C) 2017 International Society for Photogrammetry and Remote Sensing, Inc. (ISPRS). Published by Elsevier B.V. All rights reserved.
+C1 [Branson, Steve; Hall, David; Perona, Pietro] CALTECH, Computat Vis Lab, Pasadena, CA 91125 USA.
+   [Wegner, Jan Dirk; Lang, Nico; Schindler, Konrad] Swiss Fed Inst Technol, Photogrammetry & Remote Sensing, Zurich, Switzerland.
+C3 California Institute of Technology; Swiss Federal Institutes of Technology Domain; ETH Zurich
+RP Wegner, JD (corresponding author), Swiss Fed Inst Technol, Photogrammetry & Remote Sensing, Zurich, Switzerland.
+EM jan.wegner@geod.baug.ethz.ch
+CR Agarwal S, 2009, IEEE I CONF COMP VIS, V0, PP72, DOI 10.1109/ICCV.2009.5459148
+   Altwaijry H., 2016, P IEEE C COMP VIS PA, V0, P0
+   Angelova A, 2013, PROC CVPR IEEE, V0, PP811, DOI 10.1109/CVPR.2013.110
+   Anguelov D, 2010, COMPUTER, V43, P32, DOI 10.1109/MC.2010.170
+   [Anonymous], 2012, ISPRS ANN PHOTOGRAMM, V0, P0
+   [Anonymous], 2016, IEEE C COMP VIS PATT, V0, P0
+   [Anonymous], 1900, DOI 10.1007/3-540-27684-X_4 DOI 10.1007/3-540-27684-X, V0, P0
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Blaschko M., 2011, INT C EN MIN METH CO, V0, P0
+   Brandtberg T, 1998, MACH VISION APPL, V11, P64, DOI 10.1007/s001380050091
+   Brandtberg T, 2007, ISPRS J PHOTOGRAMM, V61, P325, DOI 10.1016/j.isprsjprs.2006.10.006
+   Branson S, 2013, PROC CVPR IEEE, V0, PP1806, DOI 10.1109/CVPR.2013.236
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Clark ML, 2005, REMOTE SENS ENVIRON, V96, P375, DOI 10.1016/j.rse.2005.03.009
+   Du JX, 2007, APPL MATH COMPUT, V185, P883, DOI 10.1016/j.amc.2006.07.072
+   Duan K., 2013, IEEE C COMP VIS PATT, V0, P580
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Goeau H., 2014, P INT C MULT RETR, V0, P527
+   Goeau H., 2013, P 21 ACM INT C MULT, V0, PP423, DOI 10.1145/2502081.2502251
+   Hadsell R, 2006, IEEE C COMP VIS PATT, V2, P1735, DOI 10.1109/CVPR.2006.100
+   Han XF, 2015, PROC CVPR IEEE, V0, PP3279, DOI 10.1109/CVPR.2015.7298948
+   Hays J., 2008, IEEE C COMP VIS PATT, V0, P0, DOI DOI 10.1109/CVPR.2008.4587784
+   Heikkinen V, 2011, IEEE T GEOSCI REMOTE, V49, P4539, DOI 10.1109/TGRS.2011.2141143
+   Heinzel J, 2012, INT J APPL EARTH OBS, V18, P101, DOI 10.1016/j.jag.2012.01.025
+   Hirschmugl M, 2007, REMOTE SENS ENVIRON, V110, P533, DOI 10.1016/j.rse.2007.02.029
+   Jaakkola A, 2010, ISPRS J PHOTOGRAMM, V65, P514, DOI 10.1016/j.isprsjprs.2010.08.002
+   Jia D, 2013, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2013.81
+   Jia Y, 2014, CAFFE CONVOLUTIONAL, V0, P0, DOI DOI 10.1145/2647868.2654889
+   Kaartinen H, 2012, REMOTE SENS-BASEL, V4, P950, DOI 10.3390/rs4040950
+   Kohli P, 2009, INT J COMPUT VISION, V82, P302, DOI 10.1007/s11263-008-0202-0
+   Korpela I, 2011, REMOTE SENS ENVIRON, V115, P2062, DOI 10.1016/j.rse.2011.04.008
+   Krahenbahl P., 2011, C NEUR INF PROC SYST, V0, P0
+   Krause J, 2014, INT C PATT RECOG, V0, PP26, DOI 10.1109/ICPR.2014.15
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kumar N, 2012, LECT NOTES COMPUT SC, V7573, P502, DOI 10.1007/978-3-642-33709-3_36
+   Lafarge F, 2012, INT J COMPUT VISION, V99, P69, DOI 10.1007/s11263-012-0517-8
+   Lafarge F, 2010, IEEE T PATTERN ANAL, V32, P1597, DOI 10.1109/TPAMI.2009.152
+   Lahivaara T, 2014, IEEE T GEOSCI REMOTE, V52, P2690, DOI 10.1109/TGRS.2013.2264548
+   Larsen M, 2011, INT J REMOTE SENS, V32, P5827, DOI 10.1080/01431161.2010.507790
+   Leckie DG, 2005, REMOTE SENS ENVIRON, V94, P311, DOI 10.1016/j.rse.2004.10.011
+   Lin TY, 2015, PROC CVPR IEEE, V0, PP5007, DOI 10.1109/CVPR.2015.7299135
+   Majdik AL, 2013, IEEE INT C INT ROBOT, V0, PP3979, DOI 10.1109/IROS.2013.6696925
+   McPherson EG, 2016, URBAN FOR URBAN GREE, V17, P104, DOI 10.1016/j.ufug.2016.03.013
+   Mouine S, 2013, LECT NOTES COMPUT SC, V7950, P205, DOI 10.1007/978-3-642-39094-4_24
+   Nowak David J., 2002, JOURNAL OF ARBORICULTURE, V28, P194
+   Paris C, 2015, IEEE T GEOSCI REMOTE, V53, P467, DOI 10.1109/TGRS.2014.2324016
+   Pu RL, 2012, REMOTE SENS ENVIRON, V124, P516, DOI 10.1016/j.rse.2012.06.011
+   Reitberger J, 2009, ISPRS J PHOTOGRAMM, V64, P561, DOI 10.1016/j.isprsjprs.2009.04.002
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Romana LA, 2017, URBAN FOR URBAN GREE, V22, P124, DOI 10.1016/j.ufug.2017.02.001
+   Roth KL, 2015, REMOTE SENS ENVIRON, V167, P135, DOI 10.1016/j.rse.2015.05.007
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Shan Q., 2014, INT C 3D VIS, V0, P0
+   Shotton J, 2006, LECT NOTES COMPUT SC, V3951, P1
+   Simo-Serra E, 2015, IEEE I CONF COMP VIS, V0, PP118, DOI 10.1109/ICCV.2015.22
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sun Q, 2015, ADV NEUR IN, V28, P0
+   Wah C, 2011, IEEE I CONF COMP VIS, V0, PP2524, DOI 10.1109/ICCV.2011.6126539
+   Waser LT, 2011, REMOTE SENS ENVIRON, V115, P76, DOI 10.1016/j.rse.2010.08.006
+   Wegner JD, 2015, ISPRS J PHOTOGRAMM, V108, P128, DOI 10.1016/j.isprsjprs.2015.07.002
+   Yao W, 2012, REMOTE SENS ENVIRON, V123, P368, DOI 10.1016/j.rse.2012.03.027
+   Zhang JJ, 2014, ISPRS J PHOTOGRAMM, V98, P44, DOI 10.1016/j.isprsjprs.2014.08.007
+   Zhang N, 2014, LECT NOTES COMPUT SC, V8689, P834, DOI 10.1007/978-3-319-10590-1_54
+NR 68
+TC 70
+Z9 71
+U1 9
+U2 92
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD JAN 15
+PY 2018
+VL 135
+IS 
+BP 13
+EP 30
+DI 10.1016/j.isprsjprs.2017.11.008
+PG 18
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA FU5LV
+UT WOS:000423895100002
+DA 2023-04-26
+ER
+
+PT J
+AU Mondal, S
+   Mandal, S
+AF Mondal, Subrata
+   Mandal, Sujit
+TI RS & GIS-based landslide susceptibility mapping of the Balason River basin, Darjeeling Himalaya, using logistic regression (LR) model
+SO GEORISK-ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
+LA English
+DT Article
+DE LR model; decision rules; -2 log likelihood; Cox & Snell R-square and Nagelkerke R-square; ROC curve; landslide susceptibility map
+ID artificial neural-networks; frequency ratio; hong-kong; rainfall thresholds; spatial prediction; hazard; earthquake; malaysia; zonation; island
+AB The present study deals with the preparation of a landslide susceptibility map of the Balason River basin, Darjeeling Himalaya, using a logistic regression model based on Geographic Information System and Remote Sensing. The landslide inventory map was prepared with a total of 295 landslide locations extracted from various satellite images and intensive field survey. Topographical maps, satellite images, geological, geomorphological, soil, rainfall and seismic data were collected, processed and constructed into a spatial database in a GIS environment. The chosen landslide-conditioning factors were altitude, slope aspect, slope angle, slope curvature, geology, geomorphology, soil, land use/land cover, normalised differential vegetation index, drainage density, lineament number density, distance from lineament, distance to drainage, stream power index, topographic wetted index, rainfall and peak ground acceleration. The produced landslide susceptibility map satisfied the decision rules and -2 Log likelihood, Cox & Snell R-Square and Nagelkerke R-Square values proved that all the independent variables were statistically significant. The receiver operating characteristic curve showed that the prediction accuracy of the landslide probability map was 96.10%. The proposed LR method can be used in other hazard/disaster studies and decision-making.
+C1 [Mondal, Subrata; Mandal, Sujit] Univ Gour Banga, Dept Geog, NH-34, Malda 732103, India.
+C3 University of Gour Banga
+RP Mondal, S (corresponding author), Univ Gour Banga, Dept Geog, NH-34, Malda 732103, India.
+EM subratapanchagram@gmail.com
+CR [Anonymous], 1996, LANDSLIDES INVESTIGA, V0, P0
+   Ardizzone F, 2002, NAT HAZARD EARTH SYS, V2, P3, DOI 10.5194/nhess-2-3-2002
+   Ayalew L, 2005, ENG GEOL, V81, P432, DOI 10.1016/j.enggeo.2005.08.004
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Beven K., 1979, HYDROLOG SCI J, V24, P43, DOI 10.1080/02626667909491834
+   Bhandari RK, 2007, DISASTER DEV, V1, P155
+   BIS, 2002, 18932002 BIS 1, V0, P0
+   Can T, 2005, GEOMORPHOLOGY, V72, P250, DOI 10.1016/j.geomorph.2005.05.011
+   Catani F, 2005, LANDSLIDES, V2, P329, DOI 10.1007/s10346-005-0021-0
+   Chau KT, 2004, COMPUT GEOSCI-UK, V30, P429, DOI 10.1016/j.cageo.2003.08.013
+   Cheng KS, 2004, ADV SPACE RES-SERIES, V33, P296, DOI 10.1016/S0273-1177(03)00471-X
+   Choi J, 2012, ENG GEOL, V124, P12, DOI 10.1016/j.enggeo.2011.09.011
+   Claessens L, 2006, LANDSCAPE ECOL, V21, P63, DOI 10.1007/s10980-005-5769-z
+   Crosta G, 1998, ENVIRON GEOL, V35, P131, DOI 10.1007/s002540050300
+   Dahal RK, 2008, GEOMORPHOLOGY, V100, P429, DOI 10.1016/j.geomorph.2008.01.014
+   Dai FC, 2002, GEOMORPHOLOGY, V42, P213, DOI 10.1016/S0169-555X(01)00087-3
+   Doratti M., 2002, BCIT GEOGRAPHICAL IN, V0, P0
+   Ercanoglu M, 2005, NAT HAZARD EARTH SYS, V5, P979, DOI 10.5194/nhess-5-979-2005
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   Giannecchini R, 2007, QUATERN INT, V171-72, P108, DOI 10.1016/j.quaint.2007.01.011
+   Greco R, 2007, ENG GEOL, V89, P47, DOI 10.1016/j.enggeo.2006.09.006
+   Hosmer DW., 2000, APPL LOGISTIC REGRES, V2, P373, DOI 10.1002/0471722146
+   Javed A, 2009, J INDIAN SOC REMOTE, V37, P261, DOI 10.1007/s12524-009-0016-8
+   Dominguez-Cuesta MJ, 2007, GEOMORPHOLOGY, V89, P358, DOI 10.1016/j.geomorph.2007.01.004
+   Kanungo DP, 2006, ENG GEOL, V85, P347, DOI 10.1016/j.enggeo.2006.03.004
+   Lama IL, 2003, THESIS, V0, P24
+   Lee S, 2007, LANDSLIDES, V4, P327, DOI 10.1007/s10346-007-0088-x
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2006, ENVIRON GEOL, V50, P847, DOI 10.1007/s00254-006-0256-7
+   Liu YB, 2005, WATER RESOUR MANAG, V19, P605, DOI 10.1007/s11269-005-6808-x
+   Magliulo P, 2008, NAT HAZARDS, V47, P411, DOI 10.1007/s11069-008-9230-x
+   Mandal B., 2016, MODELING EARTH SYSTE, V2, P343
+   Mandal S., 2014, PART SERIES SPRINGER, V0, P0
+   McFadden D, 1973, FRONTIERS ECONOMETRI, V0, PP105, DOI 10.1108/EB028592
+   Menard S. W., 2001, APPL LOGISTIC REGRES, V0, P111
+   Moeyersons J, 2004, ENG GEOL, V72, P73, DOI 10.1016/j.enggeo.2003.06.003
+   Mondal S, 2017, SPAT INF RES, V25, P337, DOI 10.1007/s41324-017-0101-y
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Moradi M., 2012, J BASIC APPL SCI RES, V2, P6715
+   Mousavi SZ, 2011, GEOMAT NAT HAZ RISK, V2, P33, DOI 10.1080/19475705.2010.532975
+   Nautiyal S. P., 1951, GEOLOGICAL REP UNPUB, V0, P0
+   NDMA, 2009, MAN LANDSL SNOW AV, V0, P144
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   OLEARY DW, 1976, GEOL SOC AM BULL, V87, P1463, DOI 10.1130/0016-7606(1976)87<1463:LLLSPN>2.0.CO;2
+   Patel D, 2012, ENVIRON EARTH SCI, V69, P2643, DOI 10.1007/S1266-5-012-2086-0
+   Peart MR, 2005, J ASIAN EARTH SCI, V25, P821, DOI 10.1016/j.jseaes.2004.08.004
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan B, 2010, ADV SPACE RES, V45, P1244, DOI 10.1016/j.asr.2010.01.006
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Pradhan B, 2010, LANDSLIDES, V7, P13, DOI 10.1007/s10346-009-0183-2
+   Raghukanth STG, 2012, GEOMAT NAT HAZ RISK, V3, P9, DOI 10.1080/19475705.2011.646323
+   Sabto M., 1991, THESIS, V0, P26
+   Saha AK, 2005, LANDSLIDES, V2, P61, DOI 10.1007/s10346-004-0039-8
+   Sengupta CK, 1995, DETAILED STUDY UNPUB, V0, P0
+   Sinha B. N., 1974, INSPECTION ALT UNPUB, V0, P0
+   STRAHLER AN, 1952, GEOL SOC AM BULL, V63, P1117, DOI 10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2
+   Tazik E., 2014, 2014 1 ISPRS INT C G, VXL-2, P0
+   Umar Z, 2014, CATENA, V118, P124, DOI 10.1016/j.catena.2014.02.005
+   van Westen CJ, 2003, GEOMORPHOLOGY, V54, P77, DOI 10.1016/S0169-555X(03)00057-6
+   Vivas L, 1992, ANDES VENEZOLANOS, V0, P0
+   Wieczorek G., 1984, B ASS ENG GEOLOGISTS, V21, P337, DOI 10.2113/GSEEGEOSCI.XXI.3.337
+   Yalcin A, 2008, CATENA, V72, P1, DOI 10.1016/j.catena.2007.01.003
+   Yesilnacar E.K., 2005, THESIS, V0, P0
+   Yu FC, 2006, NAT HAZARDS, V37, P153, DOI 10.1007/s11069-005-4661-0
+   Zezere JL, 2002, NAT HAZARD EARTH SYS, V2, P73, DOI 10.5194/nhess-2-73-2002
+   Zorn M, 2004, ACTA GEOGR SLOV, V44, P53, DOI 10.3986/AGS44203
+NR 66
+TC 30
+Z9 31
+U1 2
+U2 20
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1749-9518
+EI 1749-9526
+J9 GEORISK
+JI Georisk
+PD JUN 15
+PY 2018
+VL 12
+IS 1
+BP 29
+EP 44
+DI 10.1080/17499518.2017.1347949
+PG 16
+WC Engineering, Geological; Geosciences, Multidisciplinary
+SC Engineering; Geology
+GA GJ4ZL
+UT WOS:000435390900004
+DA 2023-04-26
+ER
+
+PT J
+AU Qin, S
+AF Qin, Shuo
+TI Depth Image Super-Resolution with Semantic and RGB Images Using CNN
+SO ICRAI 2018: PROCEEDINGS OF 2018 4TH INTERNATIONAL CONFERENCE ON ROBOTICS AND ARTIFICIAL INTELLIGENCE -
+LA English
+DT Proceedings Paper
+DE Depth Map; Super-Resolution; Semantic Information
+AB Depth images acquired by consumer depth sensors, such as Kinect and ToF, usually are of low resolution and insufficient quality. This limits the application of these depth sensors. Therefore, depth map enhancement is essential to its application. Most existing depth map super-resolution methods employ an RGB image of the same scene in the depth image as a guidance to up-sample the depth map. However, due to part of edges in RGB image do not occurrence in depth image, such as texture in RGB image, most existing methods will introduce a problem of texture-copy in these areas. To address this problem, we propose an approach that introduce semantic information of RGB image. On the other hand, existing methods rely on various kinds of explicit filter construction or hand-designed objective function. It is thus difficult to understand, improve, and accelerate them in a coherent framework. In this paper we use a learning-based approach to construct a joint filter based on Convolutional Neural Networks. In contrast to existing methods that consider only the RGB guidance image, our method can suppress the texture-copy problem. We validate the effectiveness of the proposed method through extensive comparisons with state-of-the-art methods on NYU v2 dataset. Experiment results show that our method suppress the texture-copy problem.
+C1 [Qin, Shuo] Beihang Univ, 37 Xueyuan Rd, Beijing, Peoples R China.
+C3 Beihang University
+RP Qin, S (corresponding author), Beihang Univ, 37 Xueyuan Rd, Beijing, Peoples R China.
+EM qin.shuo@foxmail.com
+CR Baker S, 2007, IEEE I CONF COMP VIS, V0, PP588, DOI 10.1109/cvpr.2007.383191
+   Chan D., 2008, WORKSHOP MULTICAMERA, V0, P0
+   Diebel J., 2005, P ADV NEUR INF PROC, V18, P291
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Ferstl D, 2015, IEEE I CONF COMP VIS, V0, PP513, DOI 10.1109/ICCV.2015.66
+   Ferstl D, 2013, IEEE I CONF COMP VIS, V0, PP993, DOI 10.1109/ICCV.2013.127
+   Gregor K., 2010, P 27 INT C MACH LEAR, V0, P399
+   Ham B, 2015, PROC CVPR IEEE, V0, PP4823, DOI 10.1109/CVPR.2015.7299115
+   He KM, 2010, LECT NOTES COMPUT SC, V6311, P1
+   Hirschmuller Heiko, 2007, COMPUTER VISION PATT, V0, P0, DOI DOI 10.1109/CVPR.2007.383248
+   Kopf J, 2007, ACM T GRAPHIC, V26, P0, DOI 10.1145/1239451.1239547
+   Li Y., 2016, DEEP JOINT IMAGE FIL, V0, P0
+   Liu MY, 2013, PROC CVPR IEEE, V0, PP169, DOI 10.1109/CVPR.2013.29
+   Mac Aodha O, 2012, LECT NOTES COMPUT SC, V7574, P71, DOI 10.1007/978-3-642-33712-3_6
+   Mandal S, 2014, IEEE IMAGE PROC, V0, PP3867, DOI 10.1109/ICIP.2014.7025785
+   Osendorfer C, 2014, LECT NOTES COMPUT SC, V8836, P250, DOI 10.1007/978-3-319-12643-2_31
+   Park J, 2011, IEEE I CONF COMP VIS, V0, PP1623, DOI 10.1109/ICCV.2011.6126423
+   Silberman N., 2012, INDOOR SEGMENTATION, V0, P0
+   Tomasi C, 1998, SIXTH INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP839, DOI 10.1109/ICCV.1998.710815
+   Vedaldi A, 2015, MM15: PROCEEDINGS OF THE 2015 ACM MULTIMEDIA CONFERENCE, V0, PP689, DOI 10.1145/2733373.2807412
+   Wang YZ, 2014, INT CONF ACOUST SPEE, V0, P0, DOI DOI 10.1109/ICASSP.2014.6853724
+   Wang ZF, 2016, INT C NETWB INFO, V0, PP370, DOI 10.1109/NBiS.2016.7
+   Wu HY, 2007, IEEE I CONF COMP VIS, V0, PP628, DOI 10.1109/cvpr.2007.383211
+NR 23
+TC 2
+Z9 2
+U1 0
+U2 8
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1515 BROADWAY, NEW YORK, NY 10036-9998 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2018
+VL 0
+IS 
+BP 1
+EP 5
+DI 10.1145/3297097.3297098
+PG 5
+WC Computer Science, Artificial Intelligence; Robotics
+SC Computer Science; Robotics
+GA BM9AM
+UT WOS:000470228200001
+DA 2023-04-26
+ER
+
+PT J
+AU Olszewski, R
+   Gnat, M
+   Fiedukowicz, A
+AF Olszewski, Robert
+   Gnat, Milosz
+   Fiedukowicz, Anna
+TI Artificial Neural Networks and Fuzzy Inference Systems for line simplification with Extended WEA Metric
+SO GEODESY AND CARTOGRAPHY
+LA English
+DT Article
+DE generalization of geographic information; line simplification; computational intelligence; ANN; FIS
+AB The issue of line simplification is one of the fundamental problems of generalisation of geographical information, and the proper parameterisation of simplification algorithms is essential for the correctness and cartographic quality of the results. The authors of this study have attempted to apply computational intelligence methods in order to create a cartographic knowledge base that would allow for non-standard parameterisation of WEA (Weighted Effective Area) simplification algorithm. The aim of the conducted research was to obtain two independent methods of non-linear weighting of multi-dimensional regression function that determines the "importance" of specific points on the line and their comparison to each other. The first proposed approach consisted in the preparation of a set of cartographically correct examples constituting a basis for teaching a neural network, while the other one consisted in defining inference rules using fuzzy logic. The obtained results demonstrate that both methods have great potential, although the proposed solutions require detailed parameterisation taking into account the specificity of geometric variety of the source data.
+C1 [Olszewski, Robert; Gnat, Milosz; Fiedukowicz, Anna] Warsaw Univ Technol, Fac Geodesy & Cartog, 1 Pl Politech, PL-00661 Warsaw, Poland.
+C3 Warsaw University of Technology
+RP Fiedukowicz, A (corresponding author), Warsaw Univ Technol, Fac Geodesy & Cartog, 1 Pl Politech, PL-00661 Warsaw, Poland.
+EM robert.olszewski@pw.edu.pl; milosz.gnat@pw.edu.pl; anna.fiedukowicz@pw.edu.pl
+CR [Anonymous], 1998, CARTOGR GEOGR INFORM, V0, P0, DOI DOI 10.1559/152304098782441750
+   Armstrong M, 1991, MAP GEN MAKING RULES, V0, P103
+   Balboa J. L. G, 2005, P ICC 2005 C, V0, P0
+   Douglas D. H., 1973, CARTOGRAPHICA INT J, V10, P112, DOI 10.3138/FM57-6770-U75U-7727
+   Imhof, 2015, CARTOGRAPHIC RELIEF, V0, P0
+   Laurini R., 1992, FUNDAMENTALS SPATIAL, V0, P0, DOI DOI 10.1016/B978-0-08-092420-5.50014-1
+   Liu WG, 2001, MASSIVE COMP, V2, P201
+   Mark D. M., 1991, MAP GEN MAKING RULES, V0, P86
+   MCMASTER RB, 1986, AM CARTOGRAPHER, V13, P103, DOI 10.1559/152304086783900059
+   Meng L., 1993, P 16 INT CART C COL, V1, P192
+   Meyer U, 1986, P AUT LOND, V2, P0
+   Miller HJ, 2009, CH CRC DATA MIN KNOW, V0, PP1, DOI 10.1201/9781420073980
+   MOLENAAR M, 1993, GEOINFORMATIONS SYST, V6, P22
+   MULLER JC, 1990, CARTOGR GEOGR INFORM, V17, P141, DOI 10.1559/152304090783813817
+   NICKERSON BG, 1991, MAP GEN MAKING RULES, V0, P40
+   Olszewski R., 2009, P ICA C SANT CHIL, V0, P0
+   Olszewski R., 2009, KARTOGRAFICZNE MODEL, V0, P3
+   Olszewski R, 2013, 16 GEN WORKSH 26 INT, V0, P0
+   PATTERSON DW, 1996, ARTIFICIAL NEURAL NE, V0, P0
+   Schylberg L, 1993, THESIS, V0, P0
+   Tadeusiewicz R., 1998, ELEMENTARNE WPROWADZ, V0, P0
+   Veregin H., 1999, CARTOGRAPHICA, V36, P25
+   VISVALINGAM M, 1993, CARTOGR J, V30, P46
+   Visvalingam M., 2014, EXPLORATIONS DIGITAL, V0, P0
+   Visvalingam M., 2015, EXPLORATIONS DIGITAL, V0, P0
+   WHITE ER, 1985, AM CARTOGRAPHER, V12, P17, DOI 10.1559/152304085783914703
+   ZADEH LA, 1973, IEEE T SYST MAN CYB, VSMC3, P28, DOI 10.1109/TSMC.1973.5408575
+   ZADEH LA, 1965, INFORM CONTROL, V8, P338, DOI 10.1016/S0019-9958(65)90241-X
+   Zhou S, 2005, DEVELOPMENTS IN SPATIAL DATA HANDLING, V0, PP369, DOI 10.1007/3-540-26772-7_28
+NR 29
+TC 1
+Z9 1
+U1 2
+U2 2
+PU POLSKA AKAD NAUK, POLISH ACAD SCIENCES
+PI WARSZAWA
+PA PL DEFILAD 1, WARSZAWA, 00-901, POLAND
+SN 2080-6736
+EI 2300-2581
+J9 GEOD CARTOGR
+JI Geod. Cartogr.
+PD DEC 15
+PY 2018
+VL 67
+IS 2
+BP 255
+EP 269
+DI 10.24425/118708
+PG 15
+WC Remote Sensing
+SC Remote Sensing
+GA HJ5LR
+UT WOS:000457223500006
+DA 2023-04-26
+ER
+
+PT J
+AU Shouno, O
+AF Shouno, Osamu
+TI Deep unsupervised learning of a topological map of vehicle maneuvers for characterizing driving styles
+SO 2018 21ST INTERNATIONAL CONFERENCE ON INTELLIGENT TRANSPORTATION SYSTEMS (ITSC)
+LA English
+DT Proceedings Paper
+DE deep learning; unsupervised learning; personalization; driving style; topological map
+AB In this paper we propose a deep learning approach to analyzing driving styles from multivariate timeseries of driving behaviors, a deep topological map of vehicle maneuvers. Our neural network learns a topological map that embeds and clusters short subsequences of driving behavior data in a latent space. Our approach is tested on a highway-driving dataset that contains driving behavior data recorded with 59 drivers using a driving simulator. The experiments demonstrated that our proposed method embedded the driving behavior data into a two-dimensional, topological map where extracted elemental driving behaviors are represented as clusters. Individual driving episodes can be compactly represented as estimated probabilistic distributions of elemental driving behaviors over the learned map. We further demonstrated that clusters of driving episodes, "driving styles", and their related features can be efficiently inferred in a data-driven manner by the application of a nonparametric Bayesian method to these estimated probabilistic distributions.
+C1 [Shouno, Osamu] Honda Res Inst Japan Co Ltd, Wako, Saitama, Japan.
+C3 Honda Motor Company
+RP Shouno, O (corresponding author), Honda Res Inst Japan Co Ltd, Wako, Saitama, Japan.
+EM shouno@jp.honda-ri.com
+CR Bando T., 2013, IEEE RSJ INT C INT R, V0, P0
+   Fuchida Y., 2016, IEEE INT VEH S 4, V0, P0
+   Kingma D.P, 2013, INT C LEARN REPR ICL, V0, P0
+   Kingma D.P., 2015, P INT C LEARN REPR, V0, P0
+   Liu HL, 2017, IEEE T INTELL TRANSP, V18, P2477, DOI 10.1109/TITS.2017.2649541
+   Recommendation I.G., 1988, INT TELECOMMUN UNION, V0, P0
+   Rezende DJ, 2014, PR MACH LEARN RES, V32, P1278
+   Salimans T., 2017, ICLR, V0, P0
+   Shaham Uri, 2018, INT C LEARN REPR ICL, V0, P0
+   Shan HH, 2008, IEEE DATA MINING, V0, PP530, DOI 10.1109/ICDM.2008.91
+   Takano W, 2008, 2008 IEEE/RSJ INTERNATIONAL CONFERENCE ON ROBOTS AND INTELLIGENT SYSTEMS, VOLS 1-3, P0
+   Taniguchi T., 2014, IEEE T INTE IN PRESS, V16, P1746
+   Taniguchi T., 2015, IEEE T INTELL TRANSP, V17, P810
+   Taniguchi T., 2012, IEEE INT VEH S 4, V0, P0
+   Taniguchi T, 2016, IEEE T SYST MAN CY-S, V46, P1300, DOI 10.1109/TSMC.2015.2465933
+   Tokuda T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0186566
+   Van Den Oord A, 2016, ARXIV160903499, V0, P125
+   van den Oord A, 2016, INT C MACH LEARN ICM, V0, P0
+   van der Maaten L., 2009, PROC INT C ARTIF INT, V0, P384
+   van der Maaten L, 2014, J MACH LEARN RES, V15, P3221
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Xie J., 2016, INT C MACH LEARN ICM, V0, P0
+   Yang JW, 2016, PROC CVPR IEEE, V0, PP5147, DOI 10.1109/CVPR.2016.556
+   Zheng Yin, 2016, ARXIV161105148, V0, P0
+NR 24
+TC 4
+Z9 4
+U1 2
+U2 9
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2153-0009
+EI 
+J9 IEEE INT C INTELL TR
+PD JUN 15
+PY 2018
+VL 0
+IS 
+BP 2917
+EP 2922
+DI 
+PG 6
+WC Automation & Control Systems; Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic; Transportation Science & Technology
+SC Automation & Control Systems; Computer Science; Engineering; Transportation
+GA BL9OB
+UT WOS:000457881302139
+DA 2023-04-26
+ER

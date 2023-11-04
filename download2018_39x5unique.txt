@@ -1,0 +1,472 @@
+
+PT J
+AU Huang, YH
+   Liu, XP
+   Li, X
+   Yan, YC
+   Ou, JP
+AF Huang, Yinghuai
+   Liu, Xiaoping
+   Li, Xia
+   Yan, Yuchao
+   Ou, Jinpei
+TI Comparing the Effects of Temporal Features Derived From Synthetic Time-Series NDVI on Fine Land Cover Classification
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article; Proceedings Paper
+DE Land cover classification; phenology features; spatiotemporal data fusion; time-series normalized difference vegetation index (NDVI)
+ID modis surface reflectance; remotely-sensed data; crop classification; random forest; data fusion; blending landsat; model; accuracy; images; areas
+AB Landsat data are an ideal data source for deriving fine-resolution land cover maps, and integrating temporal features extracted from time-series normalized difference vegetation index (NDVI) data achieves better performance. This paper compares the different roles of NDVI statistic features and phenology features in land cover classification at a finer scale. Time-series NDVI with fine resolution is first obtained by fusing Landsat-8 Operational Land Imager and moderate resolution imaging spectrometer (MODIS) NDVI via spatiotemporal fusion algorithm. Statistic and phenology features are then extracted from the fused data and added into random forest (RF) classifier. Performance under different classifiers and importance of phenology features are further discussed. Results show that both NDVI statistic features and phenology features have great effects on improving the classification accuracy after adding them to Landsat spectral bands. The overall accuracy is improved approximately 3% and 5%. Phenology features contain majority information of statistic features, and better reflect the seasonal variations of time-series NDVI, especially for vegetation types. Additionally, neural network classifier achieved similar trends of results with RF but lower accuracy, while support vector machine classifier seems to be poor in dealing with high-dimension temporal features, especially in regions with abundant vegetation. Among phenology features, maximum value, large integrated value, and base value have the highest importance scores, while start, end, and middle times of season provide extra information for identifying grass and nongrass.
+C1 [Huang, Yinghuai; Liu, Xiaoping; Yan, Yuchao; Ou, Jinpei] Sun Yat Sen Univ, Guangdong Key Lab Urbanizat & Geosimulat, Sch Geog & Planning, Guangzhou 510275, Guangdong, Peoples R China.
+   [Li, Xia] East China Normal Univ, Key Lab Geog Informat Sci, Minist Educ, Sch Geog Sci, Shanghai 200241, Peoples R China.
+C3 Sun Yat Sen University; East China Normal University
+RP Liu, XP (corresponding author), Sun Yat Sen Univ, Guangdong Key Lab Urbanizat & Geosimulat, Sch Geog & Planning, Guangzhou 510275, Guangdong, Peoples R China.
+EM huangyh73@mail2.sysu.edu.cn; liuxp3@mail.sysu.edu.cn; lixia@mail.sysu.edu.cn; 13484603157@163.com; happy-ojp@163.com
+FU National Key R & D Program of China [2017YFA0604404]; Key National Natural Science Foundation of China [41531176]; National Natural Science Foundation of China [41671398]
+CR Alcantara C, 2012, REMOTE SENS ENVIRON, V124, P334, DOI 10.1016/j.rse.2012.05.019
+   [Anonymous], 1976, LAND USE LAND COVER, V0, P0
+   [Anonymous], 1999, ENVIRON SCI-TOKYO, V0, P0
+   Bai LL, 2017, AGR WATER MANAGE, V188, P1, DOI 10.1016/j.agwat.2017.03.028
+   Chen B, 2017, ISPRS J PHOTOGRAMM, V124, P27, DOI 10.1016/j.isprsjprs.2016.12.008
+   Chen B, 2015, IEEE GEOSCI REMOTE S, V12, P2359, DOI 10.1109/LGRS.2015.2453999
+   Cihlar J, 2000, INT J REMOTE SENS, V21, P1093, DOI 10.1080/014311600210092
+   Congalton R. G., 2009, ASSESSING ACCURACY R, V11, P0
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Defries RS, 2000, INT J REMOTE SENS, V21, P1083, DOI 10.1080/014311600210083
+   Dong TF, 2016, INT J APPL EARTH OBS, V49, P63, DOI 10.1016/j.jag.2016.02.001
+   Foody GM, 2002, REMOTE SENS ENVIRON, V80, P185, DOI 10.1016/S0034-4257(01)00295-4
+   Fu DJ, 2015, ISPRS INT J GEO-INF, V4, P2542, DOI 10.3390/ijgi4042542
+   Gartner P, 2016, REMOTE SENS ENVIRON, V177, P237, DOI 10.1016/j.rse.2016.01.028
+   Gao F, 2006, IEEE T GEOSCI REMOTE, V44, P2207, DOI 10.1109/TGRS.2006.872081
+   Gao F, 2017, REMOTE SENS ENVIRON, V188, P9, DOI 10.1016/j.rse.2016.11.004
+   Hansen AJ, 2007, ECOL APPL, V17, P974, DOI 10.1890/05-1098
+   Hansen MC, 2000, INT J REMOTE SENS, V21, P1331, DOI 10.1080/014311600210209
+   Hao PY, 2015, REMOTE SENS-BASEL, V7, P5347, DOI 10.3390/rs70505347
+   Huete A, 2002, REMOTE SENS ENVIRON, V83, P195, DOI 10.1016/S0034-4257(02)00096-2
+   Jarihani AA, 2014, REMOTE SENS-BASEL, V6, P9213, DOI 10.3390/rs6109213
+   Jia K, 2014, INT J APPL EARTH OBS, V33, P32, DOI 10.1016/j.jag.2014.04.015
+   Jia K, 2014, ISPRS J PHOTOGRAMM, V93, P49, DOI 10.1016/j.isprsjprs.2014.04.004
+   Jonsson P, 2004, COMPUT GEOSCI-UK, V30, P833, DOI 10.1016/j.cageo.2004.05.006
+   Jonsson P, 2002, IEEE T GEOSCI REMOTE, V40, P1824, DOI 10.1109/TGRS.2002.802519
+   Jonsson P., 2015, TIMESAT 3 2 PARALLEL, V0, P0
+   Li AN, 2015, ISPRS INT J GEO-INF, V4, P1423, DOI 10.3390/ijgi4031423
+   Li QT, 2015, REMOTE SENS-BASEL, V7, P16091, DOI 10.3390/rs71215820
+   Liu JY, 2003, INT J REMOTE SENS, V24, P2485, DOI 10.1080/01431160110115582
+   Liu XP, 2018, REMOTE SENS ENVIRON, V209, P227, DOI 10.1016/j.rse.2018.02.055
+   Liu XP, 2017, LANDSCAPE URBAN PLAN, V168, P94, DOI 10.1016/j.landurbplan.2017.09.019
+   Lunetta RS, 2006, REMOTE SENS ENVIRON, V105, P142, DOI 10.1016/j.rse.2006.06.018
+   Mcalpine CA, 2009, GLOBAL CHANGE BIOL, V15, P2206, DOI 10.1111/j.1365-2486.2009.01939.x
+   Pal M, 2005, INT J REMOTE SENS, V26, P217, DOI 10.1080/01431160412331269698
+   Singh D, 2011, INT J APPL EARTH OBS, V13, P59, DOI 10.1016/j.jag.2010.06.007
+   [宋春桥 Song Chunqiao], 2011, 地球信息科学学报, V13, P133
+   Tatsumi K, 2015, COMPUT ELECTRON AGR, V115, P171, DOI 10.1016/j.compag.2015.05.001
+   Tian F, 2013, REMOTE SENS-BASEL, V5, P4255, DOI 10.3390/rs5094255
+   TUCKER CJ, 1986, INT J REMOTE SENS, V7, P1395, DOI 10.1080/01431168608948944
+   TUCKER CJ, 1979, REMOTE SENS ENVIRON, V8, P127, DOI 10.1016/0034-4257(79)90013-0
+   Vermote E. F., 2013, 2 SIMULATION SATELLI, V0, P0
+   Wang CZ, 2017, ISPRS J PHOTOGRAMM, V124, P133, DOI 10.1016/j.isprsjprs.2016.12.002
+   Wardlow BD, 2008, REMOTE SENS ENVIRON, V112, P1096, DOI 10.1016/j.rse.2007.07.019
+   Wu MQ, 2018, INFORM FUSION, V40, P34, DOI 10.1016/j.inffus.2017.06.005
+   Xu BX, 2012, INT J DATA WAREHOUS, V8, P44, DOI 10.4018/jdwm.2012040103
+   Xu ZG, 2018, IEEE GEOSCI REMOTE S, V15, P789, DOI 10.1109/LGRS.2018.2806223
+   Yan YC, 2018, INT J APPL EARTH OBS, V72, P11, DOI 10.1016/j.jag.2018.05.013
+   Yan YC, 2018, SCI TOTAL ENVIRON, V613, P1417, DOI 10.1016/j.scitotenv.2017.09.139
+   [张景华 ZHANG Jinghua], 2011, 资源科学 RESOURCES SCIENCE, V33, P1195
+   Zhu XL, 2016, REMOTE SENS ENVIRON, V172, P165, DOI 10.1016/j.rse.2015.11.016
+   Zhu XL, 2010, REMOTE SENS ENVIRON, V114, P2610, DOI 10.1016/j.rse.2010.05.032
+NR 51
+TC 3
+Z9 3
+U1 2
+U2 23
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD DEC 15
+PY 2018
+VL 11
+IS 12
+BP 4618
+EP 4629
+DI 10.1109/JSTARS.2018.2869528
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA HH1EN
+UT WOS:000455462100007
+DA 2023-04-26
+ER
+
+PT J
+AU Yang, CX
+   Li, WJ
+   Lin, ZY
+AF Yang, Chenxi
+   Li, Wenjing
+   Lin, Zhiyong
+TI Vehicle Object Detection in Remote Sensing Imagery Based on Multi-Perspective Convolutional Neural Network
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE multi-perspective convolutional neural network; object detection; remote sensing imagery; Faster R-CNN
+AB Most traditional object detection approaches have a deficiency of features, slow detection speed, and high false-alarm rate. To solve these problems, we propose a multi-perspective convolutional neural network (Multi-PerNet) to extract remote sensing imagery features. Regions with CNN features (R-CNN) is a milestone in applying CNN method to object detection. With the help of the great feature extraction and classification performance of CNN, the transformation of object detection problem is realized by the Region Proposal method. Multi-PerNet trains a vehicle object detection model in remote sensing imagery based on Faster R-CNN. During model training, sample images and the labels are inputs, and the output is a detection model. First, Multi-PerNet extracts the feature map. Meanwhile, the area distribution and object-area aspect ratio in the sample images are obtained by k-means clustering. Then, the Faster R-CNN region proposal network generates the candidate windows based on the k-means clustering results. Features of candidate windows can be obtained by mapping candidate windows to the feature map. Finally, the candidate window and its features are inputted to the classifier to be trained to obtain the detection model. Experiment results show that the Multi-PerNet model detection accuracy is improved by 10.1% compared with the model obtained by ZF-net and 1.6% compared with the model obtained by PVANet. Moreover, the model size is reduced by 21.3%.
+C1 [Yang, Chenxi; Li, Wenjing] Wuhan Univ Sci & Technol, Ind Safety Engn Technol Res Ctr Hubei Prov, Sch Resources & Environm Engn, Wuhan 430081, Hubei, Peoples R China.
+   [Lin, Zhiyong] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Hubei, Peoples R China.
+C3 Wuhan University of Science & Technology; Wuhan University
+RP Lin, ZY (corresponding author), Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Hubei, Peoples R China.
+EM YoungTsHenHsi@126.com; liwenjing@wust.edu.cn; zhylin@whu.edu.cn
+FU National Science Foundation of China [41271449]
+CR Alba-Flores R., 2005, EVALUATION USE HIGH, V0, P0
+   [Anonymous], 2014, C COMPUTER VISION PA, V0, PP580, DOI 10.1109/CVPR.2014.81
+   Cai ZW, 2016, LECT NOTES COMPUT SC, V9908, P354, DOI 10.1007/978-3-319-46493-0_22
+   Dou J, 2015, NAT HAZARDS, V78, P1749, DOI 10.1007/s11069-015-1799-2
+   Dou J, 2015, NAT HAZARDS, V78, P1021, DOI 10.1007/s11069-015-1756-0
+   Dou J, 2015, REMOTE SENS-BASEL, V7, P4318, DOI 10.3390/rs70404318
+   Duan Sheng-ye, 2013, COMPUTER ENGINEERING, V39, P192, DOI 10.3969/j.issn.1000-3428.2013.05.042
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Glorot X, 2011, P INT JOINT C ARTIFI, V0, P0
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang J, 2017, J APPL PHYS, V43, P1
+   Kim Kye-Hyeon, 2016, ARXIV PREPRINT ARXIV, V0, P0
+   Kong T, 2016, PROC CVPR IEEE, V0, PP845, DOI 10.1109/CVPR.2016.98
+   Lei Z, 2012, IEEE T GEOSCI REMOTE, V50, P1206, DOI 10.1109/TGRS.2011.2166966
+   Li Yan, 2001, JOURNAL OF HUAZHONG UNIVERSITY OF SCIENCE AND TECHNOLOGY, V29, P10
+   Qi SX, 2015, IEEE GEOSCI REMOTE S, V12, P1451, DOI 10.1109/LGRS.2015.2408355
+   Redmon J., 2016, P 2016 IEEE C COMP V, V0, P0
+   Redmon J., 2017, PROC IEEE C COMPUT V, V0, P0
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Shang W., 2016, PROC ICML, V0, P2217
+   Simonyan K, 2015, ARXIV, V0, P0
+   Uijlings JRR, 2013, INT J COMPUT VISION, V104, P154, DOI 10.1007/s11263-013-0620-5
+   Wang HQ, 2010, SPECTROSC SPECT ANAL, V30, P3316, DOI 10.3964/j.issn.1000-0593(2010)12-3316-04
+   [姚相坤 Yao Xiangkun], 2017, 计算机工程 COMPUTER ENGINEERING, V43, P259
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zeng J, 2014, J IMAGE GR, V19, P593
+   Zhang Z. A, 2005, STUDY HARBOR TARGET, V0, P0
+NR 27
+TC 8
+Z9 10
+U1 3
+U2 19
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD JUL 15
+PY 2018
+VL 7
+IS 7
+BP 
+EP 
+DI 10.3390/ijgi7070249
+PG 16
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA GU3CE
+UT WOS:000445150900016
+DA 2023-04-26
+ER
+
+PT J
+AU Kang, YY
+   Ding, XR
+   Ge, XP
+AF Kang Yanyan
+   Ding Xianrong
+   Ge Xiaoping
+TI Using Geostationary Ocean Color Imager to Map the Diurnal Dynamics of Suspended Sediment Concentration in Estuary Area
+SO JOURNAL OF COASTAL RESEARCH
+LA English
+DT Article; Proceedings Paper
+DE GOCI; suspended sediment concentration; artificial neural
+ID coastal waters; turbid waters; matter; reflectance
+AB Geostationary ocean color imager (GOCI), the first in-orbit operation of the geostationary satellite ocean color sensor, provides hourly observations of the covered area. Quick atmospheric correction (QUAC) algorithm was used for GOCI data to remove the atmospheric effects and an artificial neural network (ANN) inversion model (multi-layer feed forward neural network) was proposed to derive suspended sediment concentration (SSC) via GOCI in coastal waters of Yongjiang estuary, China. This model has three parts those are the input layer with eight nodes, two hidden layers with seventeen nodes in each layer, and output layer with one node. Compared with in-suit situ measurements taken in the Yongjiang estuary, the inversion model produces a superior performance compared with two other experience models (a linear regression model and an exponent model). Based on these atmospheric correction and ANN model, hourly SSC maps from GOCI data were generated. These maps revealed that SSC of Yongjiang estuary suffers from obvious spatial-temporal variation mainly affected by tide and topography.
+C1 [Kang Yanyan] Hohai Univ, Coll Oceanog, Nanjing, Jiangsu, Peoples R China.
+   [Ding Xianrong; Ge Xiaoping] Hohai Univ, Coll Hydrol & Water Resources, Nanjing, Jiangsu, Peoples R China.
+C3 Hohai University; Hohai University
+RP Kang, YY (corresponding author), Hohai Univ, Coll Oceanog, Nanjing, Jiangsu, Peoples R China.
+EM kangyanyan@hhu.edu.cn
+FU National key research and development program [2016YFC1401507]; Major International (Regional) Joint Research Project [51620105005]; Natural Science Foundation of Jiangsu Province [BK20170875]; Fundamental Research Funds for the Central Universities
+CR Binding CE, 2005, REMOTE SENS ENVIRON, V94, P373, DOI 10.1016/j.rse.2004.11.002
+   Chen J, 2014, ENVIRON EARTH SCI, V71, P1105, DOI 10.1007/s12665-013-2514-9
+   Choi JK, 2014, REMOTE SENS ENVIRON, V146, P24, DOI 10.1016/j.rse.2013.05.032
+   Doxaran D, 2002, INT J REMOTE SENS, V23, P5079, DOI 10.1080/0143116021000009912
+   GORDON HR, 1988, J GEOPHYS RES-ATMOS, V93, P10909, DOI 10.1029/JD093iD09p10909
+   He XQ, 2013, REMOTE SENS ENVIRON, V133, P225, DOI 10.1016/j.rse.2013.01.023
+   Miller RL, 2004, REMOTE SENS ENVIRON, V93, P259, DOI 10.1016/j.rse.2004.07.012
+   Nechad B, 2010, REMOTE SENS ENVIRON, V114, P854, DOI 10.1016/j.rse.2009.11.022
+   Schlunz B, 2000, INT J EARTH SCI, V88, P599, DOI 10.1007/s005310050290
+   Volpe V, 2011, REMOTE SENS ENVIRON, V115, P44, DOI 10.1016/j.rse.2010.07.013
+   Xie DF, 2009, CONT SHELF RES, V29, P1757, DOI 10.1016/j.csr.2009.03.009
+   Yun C.X., 1981, OCEANOL LIMNOL SINIC, V12, P391
+   Zhang MW, 2014, REMOTE SENS ENVIRON, V146, P136, DOI 10.1016/j.rse.2013.09.033
+   Zhang MW, 2010, REMOTE SENS ENVIRON, V114, P392, DOI 10.1016/j.rse.2009.09.016
+NR 14
+TC 0
+Z9 0
+U1 2
+U2 21
+PU COASTAL EDUCATION & RESEARCH FOUNDATION
+PI COCONUT CREEK
+PA 5130 NW 54TH STREET, COCONUT CREEK, FL 33073 USA
+SN 0749-0208
+EI 1551-5036
+J9 J COASTAL RES
+JI J. Coast. Res.
+PD MAY 15
+PY 2018
+VL 0
+IS 
+BP 101
+EP 105
+DI 10.2112/SI85-021.1
+PG 5
+WC Environmental Sciences; Geography, Physical; Geosciences, Multidisciplinary
+SC Environmental Sciences & Ecology; Physical Geography; Geology
+GA GP8PE
+UT WOS:000441173100021
+DA 2023-04-26
+ER
+
+PT J
+AU Gholami, V
+   Booij, MJ
+   Tehrani, EN
+   Hadian, MA
+AF Gholami, V.
+   Booij, M. J.
+   Tehrani, E. Nikzad
+   Hadian, M. A.
+TI Spatial soil erosion estimation using an artificial neural network (ANN) and field plot data
+SO CATENA
+LA English
+DT Article
+DE Field plots; Sediment; Multi Layer Perceptron network; GIS; Erosion map
+ID simulated rainfall; western juniper; runoff; prediction; model; water; vegetation; streamflow; slopes; scale
+AB Soil erosion and sediment transport measurement is a time-consuming and difficult step yet important part of hydrological studies. Hence, use of models has become commonplace in estimating soil erosion and sediment transport. In this study, we used an artificial neural network (ANN) to simulate soil erosion rates. A geographic information system (GIS) was used as a pre-processor and post-processor tool to present the spatial variation of the soil erosion rate. The ANN was trained, optimized and verified using data from the Kasilian watershed located in the northern part of Iran. Field plots were used to estimate soil erosion values on the hillslopes. A Multi Layer Perceptron (MLP) network was adopted, where the soil erosion rate was the output variable and the rainfall intensity and amount, air and soil temperature, soil moisture, vegetation cover and slope were the inputs. After the training process, the network was tested. According to the test results, the ANN can estimate soil erosion with an acceptable level (coefficient of determination = 0.94, mean squared error = 0.04). The verified network and its inputs were used to estimate soil erosion rates on the hillslopes. Finally, a soil erosion rate map was generated based on the results of the verified network and GIS capabilities. The results confirm the high potential when coupling an ANN and a GIS in soil erosion estimation and mapping on the hillslopes.
+C1 [Gholami, V.] Univ Guilan, Dept Range & Watershed Management, Fac Nat Resources, Sowmeh Sara 1144, Guilan, Iran.
+   [Gholami, V.] Univ Guilan, Fac Nat Resources, Dept Water Engn & Environm, Sowmeh Sara 1144, Guilan, Iran.
+   [Booij, M. J.] Univ Twente, Fac Engn Technol, Dept Water Engn & Management, Enschede, Netherlands.
+   [Tehrani, E. Nikzad] Mazandaran Reg Water Co, Sari, Iran.
+   [Hadian, M. A.] Mazandaran Agr & Nat Resources Res & Educ Ctr, Dept Soil Conservat & Watershed Management, Sari, Iran.
+C3 University of Guilan; University of Guilan; University of Twente
+RP Gholami, V (corresponding author), Univ Guilan, Dept Range & Watershed Management, Fac Nat Resources, Sowmeh Sara 1144, Guilan, Iran.; Gholami, V (corresponding author), Univ Guilan, Fac Nat Resources, Dept Water Engn & Environm, Sowmeh Sara 1144, Guilan, Iran.
+EM Gholami.vahid@guilan.ac.ir
+CR Akay AE, 2008, BUILD ENVIRON, V43, P687, DOI 10.1016/j.buildenv.2007.01.047
+   Aldrich GA, 2005, RANGELAND ECOL MANAG, V58, P542, DOI 10.2111/04-164R2.1
+   Anctil F, 2005, J HYDROL ENG, V10, P85, DOI 10.1061/(ASCE)1084-0699(2005)10:1(85)
+   [Anonymous], 1978, AGR HDB, V0, P0
+   Ascough JC, 1997, T ASAE, V40, P921, DOI 10.13031/2013.21343
+   BOHM P, 1995, CATENA, V25, P63, DOI 10.1016/0341-8162(94)00042-D
+   Brodowski R., 2004, ACTA AGROPH, V4, P619
+   Cattan P, 2009, J HYDROL, V368, P251, DOI 10.1016/j.jhydrol.2009.02.020
+   Davies KW, 2011, BIOL CONSERV, V144, P2573, DOI 10.1016/j.biocon.2011.07.016
+   de la Rosa D, 1999, AGR ECOSYST ENVIRON, V73, P211, DOI 10.1016/S0167-8809(99)00050-X
+   DESCROIX L, 1995, B LAB RHOD GEOMORPHO, V33, P1
+   Dixon B., 2004, J SPA HYDROL, V14, P1, DOI 10.1016/j.jhydrol.2004.11.010
+   EVANS R, 1995, PROG PHYS GEOG, V19, P115, DOI 10.1177/030913339501900106
+   Foster G. R., 2001, P SUST GLOB FARM 10, V0, P0
+   Gholami V, 2017, NAT HAZARDS, V85, P1835, DOI 10.1007/s11069-016-2667-4
+   Gholami V., 2016, APPL WATER SCI, V0, P1
+   Gholami V, 2013, SOIL WATER RES, V8, P158, DOI 10.17221/13/2012-SWR
+   Gholzom EH, 2012, SOIL WATER RES, V7, P166, DOI 10.17221/18/2012-SWR
+   Govindaraju RS, 2000, J HYDROL ENG, V5, P115
+   Harris TM, 1998, NATO ASI SER SER I, V55, P461
+   Isik S, 2013, J HYDROL, V485, P103, DOI 10.1016/j.jhydrol.2012.08.032
+   Joel A, 2002, HYDROL PROCESS, V16, P1467, DOI 10.1002/hyp.356
+   Keim RF, 2006, ADV WATER RESOUR, V29, P974, DOI 10.1016/j.advwatres.2005.07.017
+   Kirkby MJ, 2005, CATENA, V62, P136, DOI 10.1016/j.catena.2005.05.002
+   Krause P., 2005, ADV GEOSCIENCES, V5, P89, DOI 10.5194/ADGEO-5-89-2005
+   Lane L. J., 1989, 2 NSERI USDA AGR RES, V0, P0
+   Licznar P, 2003, CATENA, V51, P89, DOI 10.1016/S0341-8162(02)00147-9
+   Lim TS, 2000, MACH LEARN, V40, P203, DOI 10.1023/A:1007608224229
+   Martinez-Casasnovas J.A., 1998, THESIS, V0, P0
+   Masson JM., 1971, THESIS, V0, P0
+   Molla T, 2017, SOLID EARTH, V8, P13, DOI 10.5194/se-8-13-2017
+   Moreno-de las Heras M., 2010, WATER RESOUR RES, V46, P1
+   Naghdi R., 2017, ENVIRON EARTH SCI, V76, P2
+   Nearing MA, 1999, SOIL SCI SOC AM J, V63, P1829, DOI 10.2136/sssaj1999.6361829x
+   Pastor M., 1995, OLIVA, V0, P64
+   Pickup G, 2000, EARTH SURF PROC LAND, V25, P535, DOI 10.1002/(SICI)1096-9837(200005)25:5<535::AID-ESP91>3.0.CO;2-N
+   Pierson FB, 2007, RANGELAND ECOL MANAG, V60, P285, DOI 10.2111/1551-5028(2007)60[285:RAEACW]2.0.CO;2
+   Poesen JWA, 1997, PROG PHYS GEOG, V21, P157, DOI 10.1177/030913339702100201
+   Renard K.G., 1996, PREDICTING SOIL EROS, V0, P0
+   Sachs E, 2017, CATENA, V158, P213, DOI 10.1016/j.catena.2017.07.007
+   Samani N, 2007, J HYDROL, V340, P1, DOI 10.1016/j.jhydrol.2007.03.017
+   Sun JM, 2016, CATENA, V136, P128, DOI 10.1016/j.catena.2015.02.019
+   Tokar AS, 1999, J HYDROL ENG, V4, P232, DOI 10.1061/(ASCE)1084-0699(1999)4:3(232)
+   Uson A., 1998, THESIS, V0, P0
+   WISCHMEIER WALTER H., 1958, TRANS AMER GEOPHYS UNION, V39, P285
+   Yair A., 1974, SIMULATED RAINSTORM, V21, P121
+   Yanosek KA, 2006, J SOIL WATER CONSERV, V61, P45
+   Zhang XC, 1996, T ASAE, V39, P855, DOI 10.13031/2013.27570
+   Zhao ZY, 2009, COMPUT ELECTRON AGR, V65, P36, DOI 10.1016/j.compag.2008.07.008
+NR 49
+TC 59
+Z9 60
+U1 1
+U2 35
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0341-8162
+EI 1872-6887
+J9 CATENA
+JI Catena
+PD APR 15
+PY 2018
+VL 163
+IS 
+BP 210
+EP 218
+DI 10.1016/j.catena.2017.12.027
+PG 9
+WC Geosciences, Multidisciplinary; Soil Science; Water Resources
+SC Geology; Agriculture; Water Resources
+GA FZ1JD
+UT WOS:000427332000019
+DA 2023-04-26
+ER
+
+PT J
+AU Li, N
+   Xiao, KY
+   Sun, L
+   Li, SM
+   Zi, JW
+   Wang, K
+   Song, XL
+   Ding, JH
+   Li, CB
+AF Li, Nan
+   Xiao, Keyan
+   Sun, Li
+   Li, Shengmiao
+   Zi, Jianwei
+   Wang, Kun
+   Song, Xianglong
+   Ding, Jianhua
+   Li, Cangbai
+TI Part I: A resource estimation based on mineral system modelling prospectivity approaches and analogical analysis: A case study of the MVT Pb-Zn deposits in Huayuan district, China
+SO ORE GEOLOGY REVIEWS
+LA English
+DT Article
+DE Undiscovered resources assessment; Mineral system approach; Mineral deposit model; Modelling; Volumetric method
+ID western-australia; neural-network; gold deposits; exploration; prediction; regression; province; weights; terrane
+AB Several techniques have been proposed to predict undiscovered mineral resources at the regional scale by integrating multiple spatial datasets and mineral deposit models using Geographical Information Systems (GIS). An unresolved issue, however, is that predictive proxies are two-dimensional GIS layers at a regional scale, whereas mineralising processes occur in four dimensions (i.e., space and time). In the past 10 years, mineral system modelling approaches have been proposed and developed for the critical doubt that are described in terms of two characteristics: spatial scales and relevant geochemical processes. This paper demonstrates the modelling and combination of multiple scales based on mineral system prospectivity analysis and then present a resource estimation method that involves the calculation of three variables. In applying a GIS-based approach to a mineral system, we compared the resource estimation in a trap on the district scale to the extrapolation of reserve estimations of representative deposits in the same mineral system. The procedure used for the implementation of this method includes: (i) the incorporation of a descriptive model based on the mineral deposit type; (ii) the digitalization of the favourable characteristics of the type of investigated deposit; (iii) the implementation of the mineral system theory (approach) to-pinpoint the locations of potential structural or stratigraphic traps at the district scale using GIS-based two-dimensional prospectivity mapping; (iv) the calculation of similarities and ore bearing ratios; (v) the restructuring of models of favourable features at multiple scales (i.e., district and ore deposit scales); and (vi) the assessment of undiscovered mineral resources in traps. This method was used to estimate MVT-type Pb-Zn mineralisation in a promising potential region in northwestern Hunan Province, China. In addition, this study is divided into two parts, and this paper mainly describes the methodology.
+C1 [Li, Nan; Xiao, Keyan; Sun, Li; Wang, Kun; Song, Xianglong; Ding, Jianhua; Li, Cangbai] Chinese Acad Geol Sci, Inst Mineral Resources, Lab Metallogeny & Mineral Resource Assessment, MLR, Beijing 100037, Peoples R China.
+   [Li, Nan; Xiao, Keyan] Univ Western Australia, Ctr Explorat Targeting, ARC Ctr Excellence Core Crust Fluid Syst, 35 Stirling Highway, Crawley, WA 6009, Australia.
+   [Zi, Jianwei] Curtin Univ, Dept Appl Geol, Kent St, Bentley, WA 6102, Australia.
+   [Li, Shengmiao] Hunan Inst Geol Survey, Mineral Branch, Changsha 410116, Hunan, Peoples R China.
+C3 Chinese Academy of Geological Sciences; University of Western Australia; Curtin University
+RP Li, N; Sun, L (corresponding author), Chinese Acad Geol Sci, Inst Mineral Resources, Lab Metallogeny & Mineral Resource Assessment, MLR, Beijing 100037, Peoples R China.
+EM Nan.Li@uwa.edu.au; sunli0727@163.com
+FU National Natural Science Foundation of China (NNSFC) [41672330]; National Key Research and Development Program of China [2017YFC0601501]; National Mineral Resources Assessment Initiative in China [1212011120140]
+CR [Anonymous], 1901, B SOC VAUD SCI NAT, V0, P0
+   [Anonymous], 2001, P INT S, V0, P0
+   BLISS JD, 1993, MINERAL DEPOSIT MODE, V40, P693
+   Bonham-Carter G., 1989, STAT APPL EARTH SCI, V89-9, P171
+   Bonham-Carter GF., 1994, GEOGRAPHIC INFORM SY, V13, P398
+   Boulesteix AL, 2004, STAT APPL GENET MOL, V3, P0, DOI 10.2202/1544-6115.1075
+   Boyer CM, 1998, INT J COAL GEOL, V35, P349, DOI 10.1016/S0166-5162(97)00041-4
+   Brown WM, 2000, AUST J EARTH SCI, V47, P757, DOI 10.1046/j.1440-0952.2000.00807.x
+   Carranza EJM, 2008, ORE GEOL REV, V33, P536, DOI 10.1016/j.oregeorev.2007.07.001
+   Carranza EJM., 2005, NAT RESOUR RES, V14, P47, DOI 10.1007/s11053-005-4678-9
+   Carranza EJM, 2009, MINER DEPOSITA, V44, P915, DOI 10.1007/s00126-009-0250-6
+   Chen M., 2008, RESOURCES ENV ENG, V22, P151
+   [陈明辉 Cheng Minghui], 2011, 地质与勘探 GEOLOGY AND PROSPECTING, V47, P251
+   Cheng Q., 1996, NONRENEWABLE RESOUR, V5, P117, DOI 10.1007/BF02257585
+   Cheng Q., 1999, NAT RESOUR RES, V8, P27, DOI 10.1023/A:1021677510649
+   Cheng QM, 2007, ORE GEOL REV, V32, P314, DOI 10.1016/j.oregeorev.2006.10.002
+   Cheng QM, 2015, MATH GEOSCI, V47, P591, DOI 10.1007/s11004-014-9578-2
+   China Geological Survey, 2013, REP CHIN NAT MIN RES, V0, P604
+   Cong Y., 2017, ORE GEOL REV, V0, P0
+   Cox D.P., 1986, US GOVT PRINTING OFF, V0, P0
+   Cui N., 2017, ORE GEOL REV, V0, P0
+   Davis J.C., 1993, COMPUTERS GEOLOGY 25, V0, PP13, DOI 10.1093/OSO/9780195085938.003.0007
+   Drew L. J., 1997, UNDISCOVERED PETROLE, V0, P210
+   Feng Z., 1999, J PALEOGR, V1, P75
+   Feng Z. Z., 1986, ACTA SEDIMENTOLOGICA, V4, P28
+   [冯增昭 Feng Zengzhao], 2004, 古地理学报 JOURNAL OF PALAEOGEOGRAPHY, V6, P3
+   Fu S., 2011, NONFERROUS MET SECT, V63, P27
+   Gonzalez-Alvarez I, 2010, ORE GEOL REV, V38, P168, DOI 10.1016/j.oregeorev.2010.04.003
+   Guj P, 2011, ECON GEOL, V106, P241, DOI 10.2113/econgeo.106.2.241
+   Hagemann SG, 2016, ORE GEOL REV, V76, P504, DOI 10.1016/j.oregeorev.2015.12.012
+   Hronsky JMA, 2008, AUST J EARTH SCI, V55, P3, DOI 10.1080/08120090701581356
+   Huang G. F., 2011, HUNAN I GEOL SUR, V0, P253
+   Joly A, 2015, ORE GEOL REV, V71, P673, DOI 10.1016/j.oregeorev.2015.06.007
+   Joly A, 2012, ORE GEOL REV, V48, P349, DOI 10.1016/j.oregeorev.2012.05.004
+   KINGSTON GA, 1978, J INT ASS MATH GEOL, V10, P495, DOI 10.1007/BF02461980
+   Knox-Robinson CM, 2000, AUST J EARTH SCI, V47, P929, DOI 10.1046/j.1440-0952.2000.00816.x
+   Li SM., 2016, THESIS CHINA U GEOSC, V0, P0
+   Liu You-ping, 2010, BULLETIN OF MINERALOGY, V0, P0
+   Lorber A., 1987, J CHEMOMETR, V1, P19, DOI 10.1002/cem.1180010105
+   McCuaig TC, 2014, SOC ECON GEOL SPEC P, V0, P153
+   McCuaig TC, 2010, ORE GEOL REV, V38, P128, DOI 10.1016/j.oregeorev.2010.05.008
+   Merriam DF., 2004, NATURAL RESOURCES RE, V13, P265, DOI 10.1007/s11053-004-0134-5
+   Meyer R. F., 1978, MATH GEOL, V10, P501
+   Perrouty S, 2014, ORE GEOL REV, V63, P252, DOI 10.1016/j.oregeorev.2014.05.011
+   Porwal A, 2006, COMPUT GEOSCI-UK, V32, P1, DOI 10.1016/j.cageo.2005.03.018
+   Porwal A, 2004, MATH GEOL, V36, P803, DOI 10.1023/B:MATG.0000041180.34176.65
+   Porwal A, 2010, ORE GEOL REV, V38, P184, DOI 10.1016/j.oregeorev.2010.04.002
+   Porwal A., 2003, EXPLOR MIN GEOL, V10, P155
+   Porwal A., 2006, NAT RESOUR RES, V15, P1, DOI 10.1007/S11053-006-9012-7
+   Porwal A., 2003, NAT RESOUR RES, V12, P1, DOI 10.1023/A:1022693220894
+   Porwal A, 2015, ORE GEOL REV, V71, P477, DOI 10.1016/j.oregeorev.2015.04.017
+   Singer D.A., 2001, NAT RESOUR RES, V10, P137, DOI 10.1023/A:1011552810482
+   Singer DA, 1996, MATH GEOL, V28, P1017, DOI 10.1007/BF02068587
+   Singer DA, 1993, NAT RESOUR RES, V2, P69
+   Singer DA., 2010, QUANTITATIVE MINERAL, V0, PP219, DOI 10.1093/oso/9780195399592.001.0001
+   Singer DA, 2008, MATH GEOSCI, V40, P33, DOI 10.1007/s11004-007-9127-3
+   Singer DA, 2006, MATH GEOL, V38, P465, DOI 10.1007/s11004-005-9023-7
+   [唐菊兴 Tang Juxing], 2010, 地球学报 ACTA GEOSCIENTIA SINICA, V31, P495
+   TRIPATHI VS, 1979, J GEOCHEM EXPLOR, V11, P263, DOI 10.1016/0375-6742(79)90004-9
+   Voroshilov VG, 2009, GEOL ORE DEPOSIT+, V51, P1, DOI 10.1134/S1075701509010012
+   Wang GW, 2015, ORE GEOL REV, V71, P592, DOI 10.1016/j.oregeorev.2015.03.002
+   Wang H., 1999, PARTIAL LEAST SQUARE, V0, P0
+   Wang K, 2017, ORE GEOL REV, V91, P1130, DOI 10.1016/j.oregeorev.2017.09.015
+   WOLD S, 1984, SIAM J SCI STAT COMP, V5, P735, DOI 10.1137/0905052
+   Wybom L. A. I., 1994, AUSTR I MINING METAL, V5, P0
+   Xiao K. X., 2017, ORE GEOL REV, V0, P0
+   Xue C. J., 2015, THESIS CHINA U GEOSC, V0, P0
+   Yang S., 2003, HUNAN GEOL, V22, P107
+   [杨绍祥 YANG Shaoxiang], 2007, 地质通报 GEOLOGICAL BULLETIN OF CHINA, V26, P899
+   Yuan, 2013, MECH ENG, V6, P1
+   Zhang S. H., 2017, ORE GEOL REV, V0, P0
+   [赵鹏大 Zhao Pengda], 2003, 地学前缘 EARTH SCIENCE FRONTIERS, V10, P455
+   [赵鹏大 Zhao Pengda], 2002, 地球科学 EARTH SCIENCE, V27, P482
+   Zhong Jiusi, 2007, LAND RESOURCES, V4, P52
+   Zhu YS, 1997, PROSPECTIVITY MAPPIN, V0, P0
+NR 76
+TC 12
+Z9 13
+U1 8
+U2 35
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0169-1368
+EI 1872-7360
+J9 ORE GEOL REV
+JI Ore Geol. Rev.
+PD OCT 15
+PY 2018
+VL 101
+IS 
+BP 966
+EP 984
+DI 10.1016/j.oregeorev.2018.02.014
+PG 19
+WC Geology; Mineralogy; Mining & Mineral Processing
+SC Geology; Mineralogy; Mining & Mineral Processing
+GA GX9BB
+UT WOS:000448092400053
+DA 2023-04-26
+ER

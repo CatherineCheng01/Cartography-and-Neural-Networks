@@ -1,0 +1,460 @@
+
+PT J
+AU Dong, L
+   Yan, Q
+   Zheng, FL
+AF Dong, Luan
+   Yan, Qin
+   Zheng, Fengling
+TI Robust graticule intersection localization for rotated topographic maps
+SO MACHINE VISION AND APPLICATIONS
+LA English
+DT Article
+DE Topographic maps; Graticule intersections; Object detection; Convolutional neural networks; Geometric calibration
+AB Graticule intersections in topographic maps are usually considered to be suitable candidates for reference points in geometric calibration because the corresponding geographical information can be directly retrieved from the maps or derived from sheet numbers. Previous research on automatic corner point detection relies on the assumption that scanned maps are not rotated, which is rarely practical. To address this issue, a semantic segmentation approach for accurate graticule intersection localization is proposed in this paper. A fully convolutional network is utilized to provide pixel level information about the locations of specific rectangular objects at the corners of map frames by dense classification in regions of interest. The globally optimal segmentation of the foreground rotated object is obtained by the graph cuts technique. The bounding box of the rotated object is further retrieved with the minimum-area enclosing rectangle algorithm. Finally, the coordinates of graticule intersections are derived in accordance with the positions of the sliding windows and the relative locations of the vertices of the objects. The proposed method reduces the average localization error to 1.5 pixels, which is 32.4% lower than that of the baseline model. The standard deviation of localization error is 0.91 pixels, which aligns with an average of 52% improvements to the baseline model in the location variance metric.
+C1 [Dong, Luan; Yan, Qin] Hohai Univ, Coll Comp & Informat, Nanjing, Jiangsu, Peoples R China.
+   [Dong, Luan] Xinjiang Agr Univ, Coll Comp & Informat Engn, Urumqi, Peoples R China.
+   [Zheng, Fengling] Xinjiang Agr Univ, Coll Prataculturae & Environm Sci, Urumqi, Peoples R China.
+   [Zheng, Fengling] Xinjiang Acad Anim Sci, Grassland Res Inst, Urumqi, Peoples R China.
+C3 Hohai University; Xinjiang Agricultural University; Xinjiang Agricultural University; Chinese Academy of Agricultural Sciences; Institute of Grassland Research, CAAS
+RP Dong, L (corresponding author), Hohai Univ, Coll Comp & Informat, Nanjing, Jiangsu, Peoples R China.; Dong, L (corresponding author), Xinjiang Agr Univ, Coll Comp & Informat Engn, Urumqi, Peoples R China.
+EM dl@xjau.edu.cn; yan_qin@hhu.edu.cn; xjzheng@sina.com
+FU National Natural Science Foundation of China [61563053, 31460625]
+CR [Anonymous], 2018, SMORMS3, V0, P0
+   [Anonymous], 2018, SLOTH, V0, P0
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Boykov Y, 2004, IEEE T PATTERN ANAL, V26, P1124, DOI 10.1109/TPAMI.2004.60
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Cheng G, 2019, IEEE T IMAGE PROCESS, V28, P265, DOI 10.1109/TIP.2018.2867198
+   Cheng G, 2016, ISPRS J PHOTOGRAMM, V117, P11, DOI 10.1016/j.isprsjprs.2016.03.014
+   Dong L, 2018, EARTH SCI INFORM, V11, P47, DOI 10.1007/s12145-017-0317-3
+   Dong XP, 2016, IEEE T IMAGE PROCESS, V25, P516, DOI 10.1109/TIP.2015.2505184
+   Gidaris S., 2016, P BRIT MACH VIS C BM, V0, P0, DOI DOI 10.5244/C.30.90
+   Gidaris S, 2015, IEEE I CONF COMP VIS, V0, PP1134, DOI 10.1109/ICCV.2015.135
+   Guo F, 2018, IEEE T CYBERNETICS, V48, P3159, DOI 10.1109/TCYB.2017.2761361
+   Han JW, 2018, IEEE SIGNAL PROC MAG, V35, P84, DOI 10.1109/MSP.2017.2749125
+   He K, 2017, P IEEE INT C COMP VI, V0, PP2961, DOI 10.1109/CVPR.2014.81
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Kampffmeyer M, 2016, IEEE COMPUT SOC CONF, V0, PP680, DOI 10.1109/CVPRW.2016.90
+   Krahenbuhl P., 2011, P ADV NEUR INF PROC, V0, P109
+   Lafferty J., 2001, P INT C MACH LEARN, V2001, P282
+   Li Y., 2017, IEEE C COMP VIS PATT, V0, P0, DOI DOI 10.1109/CVPR.2017.199
+   Liu FY, 2016, IEEE T PATTERN ANAL, V38, P2024, DOI 10.1109/TPAMI.2015.2505283
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lu XX, 2018, IEEE T GEOSCI REMOTE, V56, P2183, DOI 10.1109/TGRS.2017.2776321
+   Lu XQ, 2018, IEEE T GEOSCI REMOTE, V56, P1704, DOI 10.1109/TGRS.2017.2767068
+   Lu XQ, 2015, IEEE T CYBERNETICS, V45, P1967, DOI 10.1109/TCYB.2014.2362959
+   Lu XQ, 2014, IEEE T GEOSCI REMOTE, V52, P2746, DOI 10.1109/TGRS.2013.2265322
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Pinheiro P. H. O., 2015, NIPS, V0, P1990
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Shen JB, 2018, IEEE T IMAGE PROCESS, V27, P2688, DOI 10.1109/TIP.2018.2795740
+   Shen JB, 2017, IEEE T IMAGE PROCESS, V26, P4911, DOI 10.1109/TIP.2017.2722691
+   Shen JB, 2016, IEEE T IMAGE PROCESS, V25, P5933, DOI 10.1109/TIP.2016.2616302
+   Tokui S., 2015, P WORKSH MACH LEARN, V0, P0
+   Toussaint G, 1983, P IEEE, V0, P0
+   Uijlings JRR, 2013, INT J COMPUT VISION, V104, P154, DOI 10.1007/s11263-013-0620-5
+   Wang WG, 2018, IEEE T IMAGE PROCESS, V27, P38, DOI 10.1109/TIP.2017.2754941
+   Wang WG, 2018, IEEE T IMAGE PROCESS, V27, P2368, DOI 10.1109/TIP.2017.2787612
+   Wang WG, 2018, IEEE T PATTERN ANAL, V40, P20, DOI 10.1109/TPAMI.2017.2662005
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Zhang DW, 2017, IEEE T PATTERN ANAL, V39, P865, DOI 10.1109/TPAMI.2016.2567393
+   Zhang SY, 2018, IEEE IPCCC, V0, P0
+   Zhang WZ, 2018, IEEE T GEOSCI REMOTE, V56, P3587, DOI 10.1109/TGRS.2018.2802785
+NR 44
+TC 1
+Z9 1
+U1 1
+U2 7
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0932-8092
+EI 1432-1769
+J9 MACH VISION APPL
+JI Mach. Vis. Appl.
+PD JUN 15
+PY 2019
+VL 30
+IS 4
+BP 737
+EP 747
+DI 10.1007/s00138-019-01025-9
+PG 11
+WC Computer Science, Artificial Intelligence; Computer Science, Cybernetics; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA IA3SL
+UT WOS:000469483000014
+DA 2023-04-26
+ER
+
+PT J
+AU Papageorgiou, KI
+   Poczeta, K
+   Papageorgiou, E
+   Gerogiannis, VC
+   Stamoulis, G
+AF Papageorgiou, Konstantinos, I
+   Poczeta, Katarzyna
+   Papageorgiou, Elpiniki
+   Gerogiannis, Vassilis C.
+   Stamoulis, George
+TI Exploring an Ensemble of Methods that Combines Fuzzy Cognitive Maps and Neural Networks in Solving the Time Series Prediction Problem of Gas Consumption in Greece
+SO ALGORITHMS
+LA English
+DT Article
+DE fuzzy cognitive maps; neural networks; time series forecasting; ensemble learning; prediction; machine learning; natural gas
+ID load forecasting-model; natural-gas; genetic algorithm; demand; combination; arima; optimization; software; averages
+AB This paper introduced a new ensemble learning approach, based on evolutionary fuzzy cognitive maps (FCMs), artificial neural networks (ANNs), and their hybrid structure (FCM-ANN), for time series prediction. The main aim of time series forecasting is to obtain reasonably accurate forecasts of future data from analyzing records of data. In the paper, we proposed an ensemble-based forecast combination methodology as an alternative approach to forecasting methods for time series prediction. The ensemble learning technique combines various learning algorithms, including SOGA (structure optimization genetic algorithm)-based FCMs, RCGA (real coded genetic algorithm)-based FCMs, efficient and adaptive ANNs architectures, and a hybrid structure of FCM-ANN, recently proposed for time series forecasting. All ensemble algorithms execute according to the one-step prediction regime. The particular forecast combination approach was specifically selected due to the advanced features of each ensemble component, where the findings of this work evinced the effectiveness of this approach, in terms of prediction accuracy, when compared against other well-known, independent forecasting approaches, such as ANNs or FCMs, and the long short-term memory (LSTM) algorithm as well. The suggested ensemble learning approach was applied to three distribution points that compose the natural gas grid of a Greek region. For the evaluation of the proposed approach, a real-time series dataset for natural gas prediction was used. We also provided a detailed discussion on the performance of the individual predictors, the ensemble predictors, and their combination through two well-known ensemble methods (the average and the error-based) that are characterized in the literature as particularly accurate and effective. The prediction results showed the efficacy of the proposed ensemble learning approach, and the comparative analysis demonstrated enough evidence that the approach could be used effectively to conduct forecasting based on multivariate time series.
+C1 [Papageorgiou, Konstantinos, I; Stamoulis, George] Univ Thessaly, Dept Comp Sci & Telecommun, Lamia 35100, Greece.
+   [Poczeta, Katarzyna] Kielce Univ Technol, Dept Informat Syst, PL-25541 Kielce, Poland.
+   [Papageorgiou, Elpiniki; Gerogiannis, Vassilis C.] Univ Thessaly Gaiopolis, Fac Technol, Gaiopolis 41500, Larissa, Greece.
+C3 Kielce University of Technology
+RP Papageorgiou, KI (corresponding author), Univ Thessaly, Dept Comp Sci & Telecommun, Lamia 35100, Greece.; Gerogiannis, VC (corresponding author), Univ Thessaly Gaiopolis, Fac Technol, Gaiopolis 41500, Larissa, Greece.
+EM konpapageorgiou@uth.gr; k.piotrowska@tu.kielce.pl; elpinikipapageorgiou@uth.gr; vgerogian@uth.gr; georges@cs.uth.gr
+CR Adhikari R, 2015, PROCEDIA COMPUT SCI, V48, P14, DOI 10.1016/j.procs.2015.04.104
+   Adhikari R, 2014, ARTIF INTELL REV, V42, P529, DOI 10.1007/s10462-012-9361-z
+   Akpinar M., 2013, INT C APPL INF COMM, V0, P1
+   Akpinar M, 2017, ENERGIES, V10, P0, DOI 10.3390/en10060781
+   Al Shalabi L, 2006, DEPCOS-RELCOMEX 2006, V0, P207
+   Anagnostis A., 2019, P 10 INT C INF INT S, V0, P0
+   [Anonymous], 1999, NEURAL NETWORKS COMP, V0, P0
+   Azadeh A, 2010, ENERG POLICY, V38, P1529, DOI 10.1016/j.enpol.2009.11.036
+   Behrouznia A, 2010, INT C INTELL ADV SYS, V2010, P1, DOI 10.1109/ICIAS.2010.5716160
+   Bodyanskiy Y, 2006, EUR J OPER RES, V175, P1357, DOI 10.1016/j.ejor.2005.02.012
+   Box G, 1994, TIME SERIES ANAL FOR, V3rd, P0
+   Breiman L, 1996, MACH LEARN, V24, P49
+   Brown AM, 2005, COMPUT METH PROG BIO, V79, P89, DOI 10.1016/j.cmpb.2005.02.007
+   Candito P, 2015, ELECTRON J QUAL THEO, V0, P1
+   Chandra DR, 2013, 2013 INTERNATIONAL CONFERENCE ON POWER, V0, P630, DOI 10.1109/ICPEC.2013.6527734
+   Che JX, 2015, NEUROCOMPUTING, V151, P364, DOI 10.1016/j.neucom.2014.09.028
+   Chen CF, 2012, KNOWL-BASED SYST, V26, P281, DOI 10.1016/j.knosys.2011.09.002
+   Chen Tian, 2018, SHANGHAI ARCH PSYCHIATRY, V30, P60, DOI 10.11919/j.issn.1002-0829.218014
+   Chu FL, 2008, TOURISM MANAGE, V29, P79, DOI 10.1016/j.tourman.2007.04.003
+   CLEMEN RT, 1989, INT J FORECASTING, V5, P559, DOI 10.1016/0169-2070(89)90012-5
+   Dickerson J.A., 1994, PRESENCE, V3, P173, DOI 10.1162/pres.1994.3.2.173
+   Doganis P, 2006, J FOOD ENG, V75, P196, DOI 10.1016/j.jfoodeng.2005.03.056
+   Donkor EA, 2014, J WATER RES PLAN MAN, V140, P146, DOI 10.1061/(ASCE)WR.1943-5452.0000314
+   Ediger VS, 2007, ENERG POLICY, V35, P1701, DOI 10.1016/j.enpol.2006.05.009
+   Fagiani M, 2015, NEUROCOMPUTING, V170, P448, DOI 10.1016/j.neucom.2015.04.098
+   Fogel E, 2006, SIAM PROC S, V0, P3
+   Freund Y., 1996, MACHINE LEARNING. PROCEEDINGS OF THE THIRTEENTH INTERNATIONAL CONFERENCE (ICML 96), V0, P148
+   Froelich W, 2014, INT J APPROX REASON, V55, P1319, DOI 10.1016/j.ijar.2014.02.006
+   GEMAN S, 1992, NEURAL COMPUT, V4, P1, DOI 10.1162/neco.1992.4.1.1
+   Gorucu FB, 2004, ENERG SOURCE, V26, P299, DOI 10.1080/00908310490256626
+   Herrera F, 1998, ARTIF INTELL REV, V12, P265, DOI 10.1023/A:1006504901164
+   Holzinger A., 2018, 2018 WORLD S DIGITAL, V0, P55
+   Homenda W, 2015, ADV INTELL SYST, V323, P859, DOI 10.1007/978-3-319-11310-4_75
+   Homenda W, 2014, IEEE INT FUZZY SYST, V0, PP2055, DOI 10.1109/FUZZ-IEEE.2014.6891719
+   Hossain S, 2008, COMPUT EDUC, V51, P1569, DOI 10.1016/j.compedu.2008.03.002
+   Jastriebow A, 2014, B POL ACAD SCI-TECH, V62, P735, DOI 10.2478/bpasts-2014-0079
+   Jayalakshmi T., 2011, INT J COMPUT THEORY, V3, P89
+   Kardaras D., 1997, ADV IND ENG APPL PRA, V0, P63
+   Karimi H, 2014, ENERGY SYST, V5, P571, DOI 10.1007/s12667-014-0128-2
+   Khashei M, 2013, INT J COMPUT INT SYS, V6, P954, DOI 10.1080/18756891.2013.809937
+   Khotanzad A., 1999, IJCNN99. INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS. PROCEEDINGS (CAT. NO.99CH36339), V0, PP4069, DOI 10.1109/IJCNN.1999.830812
+   Khotanzad A, 2000, IEEE T NEURAL NETWOR, V11, P464, DOI 10.1109/72.839015
+   Kim M, 2019, P 2019 INT C DAT MIN, V0, PP6, DOI 10.1145/3335656.3335658
+   Kizilaslan Recep, 2008, 2008 FIRST INTERNATIONAL CONFERENCE ON THE APPLICATIONS OF DIGITAL INFORMATION AND WEB TECHNOLOGIES, V0, PP448, DOI 10.1109/ICADIWT.2008.4664390
+   Kizilaslan R, 2009, NEURAL NETW WORLD, V19, P191
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kotsilieris T, 2019, INFORMATICA-LITHUAN, V0, P1
+   Kreiss J., 2012, TIME SERIES ANAL MET, V0, P0
+   Krogh A, 1997, PHYS REV E, V55, P811, DOI 10.1103/PhysRevE.55.811
+   Kumar K, 1999, APPL ACOUST, V58, P283, DOI 10.1016/S0003-682X(98)00078-4
+   Lee KY, 1998, IEEE T POWER SYST, V13, P101, DOI 10.1109/59.651620
+   Lemke C, 2010, NEUROCOMPUTING, V73, P2006, DOI 10.1016/j.neucom.2009.09.020
+   Li HZ, 2013, KNOWL-BASED SYST, V37, P378, DOI 10.1016/j.knosys.2012.08.015
+   Lin WY, 2012, IEEE T SYST MAN CY C, V42, P421, DOI 10.1109/TSMCC.2011.2170420
+   Livieris I, 2008, SURVEY ALGORITHMS TR, V0, P0
+   Livieris IE, 2019, ELECTRONICS-SWITZ, V8, P0, DOI 10.3390/electronics8091005
+   Livieris IE, 2019, ALGORITHMS, V12, P0, DOI 10.3390/a12040085
+   Livieris IE, 2019, ALGORITHMS, V12, P0, DOI 10.3390/a12030064
+   Lu X, 2015, APPL SOFT COMPUT, V32, P13, DOI 10.1016/j.asoc.2015.03.037
+   MAKRIDAKIS S, 1983, MANAGE SCI, V29, P987, DOI 10.1287/mnsc.29.9.987
+   Meade N, 2015, INT J FORECASTING, V31, P1105, DOI 10.1016/j.ijforecast.2014.09.003
+   Musilek P, 2006, IEEE IJCNN, V0, P3736
+   Nayak SC, 2012, PROCEEDINGS OF THE 2012 WORLD CONGRESS ON INFORMATION AND COMMUNICATION TECHNOLOGIES, V0, PP602, DOI 10.1109/WICT.2012.6409147
+   PALM FC, 1992, J FORECASTING, V11, P687, DOI 10.1002/for.3980110806
+   Panapakidis IP, 2017, ENERGY, V118, P231, DOI 10.1016/j.energy.2016.12.033
+   Papageorgiou E.I., 2014, INTELLIGENT SYSTEMS, V54, P0, DOI 10.1007/978-3-642-39739-4
+   Papageorgiou EI, 2017, NEUROCOMPUTING, V232, P113, DOI 10.1016/j.neucom.2016.10.072
+   Perrone M.P., 1993, THESIS, V0, P0
+   Poczeta K., 2018, P IEEE 2018 C EL PRO, V0, P1
+   Poczeta K, 2018, ADV INTELL SYST, V743, P93, DOI 10.1007/978-3-319-77179-3_9
+   Poczeta K, 2018, PROC INT C TOOLS ART, V0, PP1026, DOI 10.1109/ICTAI.2018.00158
+   Poczeta K, 2015, ACSIS-ANN COMPUT SCI, V5, P547, DOI 10.15439/2015F296
+   Potocnik P, 2014, APPL ENERG, V129, P94, DOI 10.1016/j.apenergy.2014.04.102
+   Raza MQ, 2015, RENEW SUST ENERG REV, V50, P1352, DOI 10.1016/j.rser.2015.04.065
+   Salmeron JL, 2016, KNOWL-BASED SYST, V105, P29, DOI 10.1016/j.knosys.2016.04.023
+   SCHAPIRE RE, 1990, MACH LEARN, V5, P197, DOI 10.1007/BF00116037
+   Sebalj D, 2017, EC SOC DEVELOP, V0, P29
+   Soldo B, 2012, APPL ENERG, V92, P26, DOI 10.1016/j.apenergy.2011.11.003
+   Stach W, 2005, FUZZY SET SYST, V153, P371, DOI 10.1016/j.fss.2005.01.009
+   Szoplik J, 2015, ENERGY, V85, P208, DOI 10.1016/j.energy.2015.03.084
+   Tamba J.G., 2018, INT J ENERGY EC POLI, V8, P216
+   Taspinar F, 2013, ENERG BUILDINGS, V56, P23, DOI 10.1016/j.enbuild.2012.10.023
+   Viet N.H., 2003, P 13 IEEE WORKSH NEU, V0, P759
+   Wang De-ming, 2012, JOURNAL OF ZHEJIANG UNIVERSITY. ENGINEERING SCIENCE, V46, P837, DOI 10.3785/j.issn.1008-973X.2012.05.010
+   Wei N, 2019, J ENERG RESOUR-ASME, V141, P0, DOI 10.1115/1.4041413
+   Weron R, 2014, INT J FORECASTING, V30, P1030, DOI 10.1016/j.ijforecast.2014.08.008
+   WOLPERT DH, 1992, NEURAL NETWORKS, V5, P241, DOI 10.1016/S0893-6080(05)80023-1
+   Yu F, 2014, APPL ENERG, V134, P102, DOI 10.1016/j.apenergy.2014.07.104
+   Yu Hye-Kyung, 2013, OSONG PUBLIC HEALTH RES PERSPECT, V4, P358, DOI 10.1016/j.phrp.2013.10.009
+   Zeng YR, 2017, ENERGY, V127, P381, DOI 10.1016/j.energy.2017.03.094
+   Zhang GP, 2003, NEUROCOMPUTING, V50, P159, DOI 10.1016/S0925-2312(01)00702-0
+NR 91
+TC 14
+Z9 14
+U1 0
+U2 4
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1999-4893
+J9 ALGORITHMS
+JI Algorithms
+PD NOV 15
+PY 2019
+VL 12
+IS 11
+BP 
+EP 
+DI 10.3390/a12110235
+PG 27
+WC Computer Science, Artificial Intelligence; Computer Science, Theory & Methods
+SC Computer Science
+GA JS0OB
+UT WOS:000500012900008
+DA 2023-04-26
+ER
+
+PT J
+AU Paris, C
+   Bruzzone, L
+AF Paris, Claudia
+   Bruzzone, Lorenzo
+TI AUTOMATIC EXTRACTION OF WEAK LABELED SAMPLES FROM EXISTING THEMATIC PRODUCTS FOR TRAINING CONVOLUTIONAL NEURAL NETWORKS
+SO 2019 IEEE INTERNATIONAL GEOSCIENCE AND REMOTE SENSING SYMPOSIUM (IGARSS 2019)
+LA English
+DT Proceedings Paper
+DE Weak labeled samples; thematic maps; deep learning; satellite image classification; remote sensing
+ID benchmark
+AB The accuracy in classification of remote sensing (RS) images using deep learning architectures is affected by the lack of large sets of training samples. Although a significant effort is currently devoted to generate databases of annotated satellite images, these datasets may not be large enough to accurately model at global level different types of land-cover surfaces. To solve such a problem, this paper presents an unsupervised approach which aims to exploit the RS image that has to be classified and publicly available thematic products to generate a training database of weak samples representative of the considered study area. First, we harmonize the thematic map and the RS image. Then, samples having the highest probability to be correctly associated to their labels are extracted from the map by exploiting the information provided by the RS image to be classified. Finally, the weak labeled samples are used to train a convolutional neural network (CNN). Experimental results obtained training a CNN on Sentinel 2 images with weak labels extracted from the 2018 corine land cover (CLC) map demonstrate the effectiveness of the proposed method.
+C1 [Paris, Claudia; Bruzzone, Lorenzo] Univ Trento, Dept Informat Engn & Comp Sci, Povo, Trento, Italy.
+C3 University of Trento
+RP Paris, C (corresponding author), Univ Trento, Dept Informat Engn & Comp Sci, Povo, Trento, Italy.
+EM claudia.paris@unitn.it; lorenzo.bruzzone@unitn.it
+CR [Anonymous], 2019, ARXIV190206148, V0, P0
+   de Oca AMM, 2017, IEEE J-STARS, V10, P2462, DOI 10.1109/JSTARS.2017.2697003
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Feranec J., 2016, EUROPEAN LANDSCAPE D, V0, P0
+   Helber P, 2018, INT GEOSCI REMOTE SE, V0, P204
+   Herold M, 2006, IEEE T GEOSCI REMOTE, V44, P1719, DOI 10.1109/TGRS.2006.871219
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Romero A, 2016, IEEE T GEOSCI REMOTE, V54, P1349, DOI 10.1109/TGRS.2015.2478379
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Yu B, 2018, IEEE J-STARS, V11, P3252, DOI 10.1109/JSTARS.2018.2860989
+   Zou Q, 2015, IEEE GEOSCI REMOTE S, V12, P2321, DOI 10.1109/LGRS.2015.2475299
+NR 12
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2153-6996
+EI 
+J9 INT GEOSCI REMOTE SE
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 5722
+EP 5725
+DI 
+PG 4
+WC Geosciences, Multidisciplinary; Remote Sensing
+SC Geology; Remote Sensing
+GA BO5ZH
+UT WOS:000519270605126
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, H
+   Ni, WP
+   Yan, WD
+   Xiang, DL
+   Wu, JZ
+   Yang, XL
+   Bian, H
+AF Zhang, Han
+   Ni, Weiping
+   Yan, Weidong
+   Xiang, Deliang
+   Wu, Junzheng
+   Yang, Xiaoliang
+   Bian, Hui
+TI Registration of Multimodal Remote Sensing Image Based on Deep Fully Convolutional Neural Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Fully convolutional; hard negative sample; multi-modal image registration; Siamese neural network
+AB Multimodal image registration is the fundamental technique for scene analysis with series remote sensing images of different spectrum region. Due to the highly nonlinear radiometric relationship, it is quite challenging to find common features between images of different modal types. This paper resorts to the deep neural network, and tries to learn descriptors for multimodal image patch matching, which is the key issue of image registration. A Siamese fully convolutional network is set up and trained with a novel loss function, which adopts the strategy of maximizing the feature distance between positive and hard negative samples. The two branches of the Siamese network are connected by the convolutional operation, resulting in the similarity score between the two input image patches. The similarity score value is used, not only for correspondence point location, but also for outlier identification. A generalized workflow for deep feature based multimodal RS image registration is constructed, including the training data curation, candidate feature point generation, and outlier removal. The proposed network is tested on a variety of optical, near infrared, thermal infrared, SAR, and map images. Experiment results verify the superiority over other state-of-the-art approaches.
+C1 [Zhang, Han; Yan, Weidong; Wu, Junzheng; Yang, Xiaoliang; Bian, Hui] Northwest Inst Nucl Technol, Remote Sensing Data Proc Lab, Xian 710024, Shaanxi, Peoples R China.
+   [Ni, Weiping] Northwest Inst Nucl Technol, Xian 710024, Shaanxi, Peoples R China.
+   [Ni, Weiping] Xidian Univ, Sch Elect Engn, Xian 710071, Shaanxi, Peoples R China.
+   [Xiang, Deliang] KTH Royal Inst Technol, Div Geoinformat, S-10044 Stockholm, Sweden.
+C3 Northwest Institute of Nuclear Technology - China; Northwest Institute of Nuclear Technology - China; Xidian University; Royal Institute of Technology
+RP Zhang, H (corresponding author), Northwest Inst Nucl Technol, Remote Sensing Data Proc Lab, Xian 710024, Shaanxi, Peoples R China.
+EM zhang.han@aliyun.com; niweiping@nint.ac.cn; yanweidong@nint.ac.cn; xiangdeliang@gmail.com; wujz01@163.com; yangxiaoliang@nint.ac.cn; bianhui@nint.ac.cn
+CR Alcantarilla PF, 2013, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2013, V0, P0, DOI DOI 10.5244/C.27.13
+   Baruch E., 2018, ARXIV181012941, V0, P0
+   Bay H, 2006, LECT NOTES COMPUT SC, V3951, P404, DOI 10.1007/11744023_32
+   Bertinetto L, 2016, LECT NOTES COMPUT SC, V9914, P850, DOI 10.1007/978-3-319-48881-3_56
+   Brown M, 2007, INT J COMPUT VISION, V74, P59, DOI 10.1007/s11263-006-0002-3
+   Burger W., 2009, PRINCIPLES DIGITAL I, V0, P0
+   Dare P, 2001, ISPRS J PHOTOGRAMM, V56, P13, DOI 10.1016/S0924-2716(01)00031-4
+   Dellinger F, 2015, IEEE T GEOSCI REMOTE, V53, P453, DOI 10.1109/TGRS.2014.2323552
+   Dong JM, 2015, PROC CVPR IEEE, V0, PP5097, DOI 10.1109/CVPR.2015.7299145
+   Dosovitskiy A, 2016, IEEE T PATTERN ANAL, V38, P1734, DOI 10.1109/TPAMI.2015.2496141
+   Dosovitskiy A, 2015, IEEE I CONF COMP VIS, V0, PP2758, DOI 10.1109/ICCV.2015.316
+   Fischer P., 2014, ABS14055769 CORR, V0, P0
+   Girard N., 2018, P AS C COMP VIS, V0, P378
+   Han XF, 2015, PROC CVPR IEEE, V0, PP3279, DOI 10.1109/CVPR.2015.7298948
+   Han Y, 2014, IEEE T GEOSCI REMOTE, V52, P5612, DOI 10.1109/TGRS.2013.2291001
+   Handa A, 2016, LECT NOTES COMPUT SC, V9915, P67, DOI 10.1007/978-3-319-49409-8_9
+   Haris M, 2018, PROC CVPR IEEE, V0, PP1664, DOI 10.1109/CVPR.2018.00179
+   Harris C., 1988, P 4 ALV VIS C, V15, P147
+   He HQ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020355
+   Hong TD, 2005, PHOTOGRAMM ENG REM S, V71, P585, DOI 10.14358/PERS.71.5.585
+   Hughes LH, 2018, IEEE GEOSCI REMOTE S, V15, P784, DOI 10.1109/LGRS.2018.2799232
+   Ke Y, 2004, PROC CVPR IEEE, V0, P506
+   Kumar BGV, 2016, PROC CVPR IEEE, V0, PP5385, DOI 10.1109/CVPR.2016.581
+   Lenc K, 2016, LECT NOTES COMPUT SC, V9915, P100, DOI 10.1007/978-3-319-49409-8_11
+   Li B, 2012, IEEE GEOSCI REMOTE S, V9, P574, DOI 10.1109/LGRS.2011.2175434
+   LI H, 1995, IEEE T IMAGE PROCESS, V4, P320, DOI 10.1109/83.366480
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Merkle N, 2018, IEEE J-STARS, V11, P1811, DOI 10.1109/JSTARS.2018.2803212
+   Merkle N, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9060586
+   Mikolajczyk K, 2005, IEEE T PATTERN ANAL, V27, P1615, DOI 10.1109/TPAMI.2005.188
+   Mishchuk Anastasiya, 2017, ADV NEURAL INFORM PR, V0, P0
+   Pan C, 2008, INT J REMOTE SENS, V29, P569, DOI 10.1080/01431160701294687
+   Peng C, 2017, PROC CVPR IEEE, V0, PP1743, DOI 10.1109/CVPR.2017.189
+   Quan D, 2018, INT GEOSCI REMOTE SE, V0, P6215
+   Rublee E, 2011, IEEE I CONF COMP VIS, V0, PP2564, DOI 10.1109/ICCV.2011.6126544
+   Schmid C, 2000, INT J COMPUT VISION, V37, P151, DOI 10.1023/A:1008199403446
+   Schonberger JL, 2017, PROC CVPR IEEE, V0, PP6959, DOI 10.1109/CVPR.2017.736
+   Simo-Serra E, 2015, IEEE I CONF COMP VIS, V0, PP118, DOI 10.1109/ICCV.2015.22
+   Tian YR, 2017, PROC CVPR IEEE, V0, PP6128, DOI 10.1109/CVPR.2017.649
+   Triggs, 2005, PROC CVPR IEEE, V1, P886, DOI 10.1109/CVPR.2005.177
+   TSAI VJD, 1993, INT J GEOGR INF SYST, V7, P501, DOI 10.1080/02693799308901979
+   Vincent P., 2008, P INT C MACH LEARN I, V0, P0, DOI DOI 10.1145/1390156.1390294
+   Walters-Williams J, 2009, LECT NOTES ARTIF INT, V5589, P389, DOI 10.1007/978-3-642-02962-2_49
+   Wang S, 2018, ISPRS J PHOTOGRAMM, V145, P148, DOI 10.1016/j.isprsjprs.2017.12.012
+   Yang X, 2017, NEUROIMAGE, V158, P378, DOI 10.1016/j.neuroimage.2017.07.008
+   Ye FM, 2018, IEEE GEOSCI REMOTE S, V15, P232, DOI 10.1109/LGRS.2017.2781741
+   Ye YX, 2017, IEEE T GEOSCI REMOTE, V55, P2941, DOI 10.1109/TGRS.2017.2656380
+   Yi KM, 2016, LECT NOTES COMPUT SC, V9910, P467, DOI 10.1007/978-3-319-46466-4_28
+   Yu L, 2008, COMPUT GEOSCI-UK, V34, P838, DOI 10.1016/j.cageo.2007.10.005
+   Zhang H, 2018, NEUROCOMPUTING, V275, P2645, DOI 10.1016/j.neucom.2017.11.050
+   Zhang Z., 2018, ARXIV180709562, V0, P0
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+   Zitova B, 2003, IMAGE VISION COMPUT, V21, P977, DOI 10.1016/S0262-8856(03)00137-9
+   Zou Will, 2012, ADV NEURAL INFORM PR, V0, P3
+NR 54
+TC 54
+Z9 56
+U1 10
+U2 79
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD AUG 15
+PY 2019
+VL 12
+IS 8
+BP 3028
+EP 3042
+DI 10.1109/JSTARS.2019.2916560
+PG 15
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA JA0UZ
+UT WOS:000487530100037
+DA 2023-04-26
+ER
+
+PT J
+AU Sarker, C
+   Mejias, L
+   Maire, F
+   Woodley, A
+AF Sarker, Chandrama
+   Mejias, Luis
+   Maire, Frederic
+   Woodley, Alan
+TI Evaluation of the Impact of Image Spatial Resolution in Designing a Context-based Fully Convolution Neural Networks for Flood Mapping
+SO 2019 DIGITAL IMAGE COMPUTING: TECHNIQUES AND APPLICATIONS (DICTA)
+LA English
+DT Proceedings Paper
+DE remote sensing; convolutional neural network application; contextual classification; flood mapping
+AB In this paper, our main aim is to investigate the context-based pixel-wise classification using a fully convolutional neural networks model for flood extent mapping from multispectral remote sensing images. Our approach helps to overcome the limitation of the conventional classification methods with low generalisation ability that used per-pixel spectral information for pixel-wise classification. In this study, a comparative analysis with conventional pixel-wise SVM classifier shows that our proposed model has higher generalisation ability for flooded area detection. By using remote sensing images with different spatial resolutions we also aim to investigate the relationship between image-sensor resolution and neighbourhood window size for context-based classification. Instead of fine-tuning a pre-established deep neural network model, we developed a preliminary base model with two convolutional layers. The model was tested on images with two different spatial resolutions of 3 meters (PlanetScope image) and 30 meters (Landsat-5 Thematic Mapper). During training phase we determined the structure of the convolutional layer as well as the appropriate size of the contextual neighbourhood for those two data types. Preliminary results showed that with increasing the scale of spatial resolutions the required neighbourhood size for training samples also increases. We tested different neighbourhood sized training samples to train the model and the analysis of the performance of those models showed that a 11 x 11 neighbourhood window for PlanetScope data and a 3 x 3 neighbourhood window for Landsat data were found to be the optimum size for classification. Insights from this work may be used to design efficient classifiers in scenarios where data with different resolutions are available.
+C1 [Sarker, Chandrama; Mejias, Luis; Maire, Frederic; Woodley, Alan] Queensland Univ Technol, Sch Elect Engn & Comp Sci, Brisbane, Qld, Australia.
+C3 Queensland University of Technology (QUT)
+RP Sarker, C (corresponding author), Queensland Univ Technol, Sch Elect Engn & Comp Sci, Brisbane, Qld, Australia.
+EM chandrama.sarker@hdr.qut.edu.au; luis.mejias@qut.edu.au; frederic.maire@qut.edu.au; alan.woodley@qut.edu.au
+CR Ahmad A, 2013, PROCEDIA ENGINEER, V53, P472, DOI 10.1016/j.proeng.2013.02.061
+   Amit S., 2017, INT EL S KNOWL CREAT, V0, P1
+   Aziz K, 2014, STOCH ENV RES RISK A, V28, P541, DOI 10.1007/s00477-013-0771-5
+   Ba J, 2015, P 3 INT C LEARN REPR, V0, P0
+   Chandran S, 2016, ANNU IEEE IND CONF, V0, P0
+   Dao PD, 2015, REMOTE SENS-BASEL, V7, P5077, DOI 10.3390/rs70505077
+   Guillaume G., 2017, P MEDIAEVAL 2017 WOR, V0, P0
+   Gurney C. M., 1983, PHOTOGRAMMETRIC ENG, V49, P155
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mathworks, 2019, CONTR POINT REG, V0, P0
+   Mueller N, 2016, REMOTE SENS ENVIRON, V174, P341, DOI 10.1016/j.rse.2015.11.003
+   Nogueira K, 2018, IEEE GEOSCI REMOTE S, V15, P1446, DOI 10.1109/LGRS.2018.2845549
+   Notti D., 2018, REMOTE SENSING, V10, P1
+   Planet, 2018, PLAN IM PROD SPEC, V0, P0
+   Pulvirenti L., 2011, REMOTE SENSING ENV, V115, P0
+   Rosebroke D., 2018, UNDERSTANDING CONVOL, V0, P0
+   Saranya C., 2013, INT J ENG TECHNOL, V5, P2701
+   Zhao J, 2016, IEEE T IMAGE PROCESS, V25, P0, DOI 10.1109/TIP.2016.2577886
+NR 19
+TC 1
+Z9 1
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 338
+EP 345
+DI 
+PG 8
+WC Computer Science, Theory & Methods; Imaging Science & Photographic Technology
+SC Computer Science; Imaging Science & Photographic Technology
+GA BO8QY
+UT WOS:000529063300047
+DA 2023-04-26
+ER

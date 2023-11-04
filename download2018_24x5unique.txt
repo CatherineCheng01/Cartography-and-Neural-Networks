@@ -1,0 +1,494 @@
+
+PT J
+AU Tuia, D
+   Volpi, M
+   Moser, G
+AF Tuia, Devis
+   Volpi, Michele
+   Moser, Gabriele
+TI Decision Fusion With Multiple Spatial Supports by Conditional Random Fields
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Classification; conditional random fields (CRF); convolutional neural networks (CNNs); hierarchical models; region-based analysis; semantic labeling
+ID markov random-fields; land-cover; energy minimization; classification; images; model; information; networks
+AB Classification of remotely sensed images into land cover or land use is highly dependent on geographical information at least at two levels. First, land cover classes are observed in a spatially smooth domain separated by sharp region boundaries. Second, land classes and observation scale are also tightly intertwined: they tend to be consistent within areas of homogeneous appearance, or regions, in the sense that all pixels within a roof should be classified as roof, independently on the spatial support used for the classification. In this paper, we follow these two observations and encode them as priors in an energy minimization framework based on conditional random fields (CRFs), where classification results obtained at pixel and region levels are probabilistically fused. The aim is to enforce the final maps to be consistent not only in their own spatial supports (pixel and region) but also across supports, i.e., by getting the predictions on the pixel lattice and on the set of regions to agree. To this end, we define an energy function with three terms: 1) a data term for the individual elements in each support (support-specific nodes); 2) spatial regularization terms in a neighborhood for each of the supports (support-specific edges); and 3) a regularization term between individual pixels and the region containing each of them (intersupports edges). We utilize these priors in a unified energy minimization problem that can be optimized by standard solvers. The proposed 2L (sic) CRF model consists of a CRF defined over a bipartite graph, i.e., two interconnected layers within a single graph accounting for interlattice connections. 2L (sic) CRF is tested on two very high-resolution data sets involving submetric satellite and subdecimeter aerial data. In all cases, 2L (sic) CRF improves the result obtained by the independent base model (either random forests or convolutional neural networks) and by standard CRF models enforcing smoothness in the spatial domain.
+C1 [Tuia, Devis; Volpi, Michele] Univ Zurich, MultiModal Remote Sensing Grp, CH-8006 Zurich, Switzerland.
+   [Tuia, Devis] Wageningen Univ & Res, GeoInformat Sci & Remote Sensing Lab, NL-6708 PB Wageningen, Netherlands.
+   [Volpi, Michele] Swiss Fed Inst Technol, Swiss Data Sci Ctr, CH-8006 Zurich, Switzerland.
+   [Moser, Gabriele] Univ Genoa, Dept Elect Elect Telecommun Engn & Naval Architec, I-16145 Genoa, Italy.
+C3 University of Zurich; Wageningen University & Research; Swiss Federal Institutes of Technology Domain; ETH Zurich; University of Genoa
+RP Tuia, D (corresponding author), Univ Zurich, MultiModal Remote Sensing Grp, CH-8006 Zurich, Switzerland.; Tuia, D (corresponding author), Wageningen Univ & Res, GeoInformat Sci & Remote Sensing Lab, NL-6708 PB Wageningen, Netherlands.
+EM devis.tuia@wur.nl; michele.volpi@datascience.ch; gabriele.moser@unige.it
+FU Swiss National Science Foundation through "Multimodal Machine Learning for Remote Sensing Information Fusion" [150593]
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   Albert L, 2017, ISPRS J PHOTOGRAMM, V130, P63, DOI 10.1016/j.isprsjprs.2017.04.006
+   [Anonymous], 2001, 18 INT C MACHINE LEA, V0, P0
+   Audebert N, 2017, LECT NOTES COMPUT SC, V10111, P180, DOI 10.1007/978-3-319-54181-5_12
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Berni JAJ, 2009, IEEE T GEOSCI REMOTE, V47, P722, DOI 10.1109/TGRS.2008.2010457
+   Besag J., 1993, J APPL STAT, V20, P63, DOI 10.1080/02664769300000059
+   Bishop C. M., 2006, PATTERN RECOGNITION, V0, P0
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Boykov Y, 2001, IEEE T PATTERN ANAL, V23, P1222, DOI 10.1109/34.969114
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Budak U, 2016, IEEE GEOSCI REMOTE S, V13, P1079, DOI 10.1109/LGRS.2016.2565706
+   Campos-Taberner M, 2016, IEEE J-STARS, V9, P5547, DOI 10.1109/JSTARS.2016.2569162
+   Dalla Mura M, 2010, IEEE T GEOSCI REMOTE, V48, P3747, DOI 10.1109/TGRS.2010.2048116
+   Felzenszwalb PF, 2004, INT J COMPUT VISION, V59, P167, DOI 10.1023/B:VISI.0000022288.19776.77
+   GEMAN S, 1984, IEEE T PATTERN ANAL, V6, P721, DOI 10.1109/TPAMI.1984.4767596
+   Gimenez J, 2015, IEEE J-STARS, V8, P195, DOI 10.1109/JSTARS.2014.2323713
+   HARIHARAN B, 2015, PROC CVPR IEEE, V0, PP447, DOI 10.1109/CVPR.2015.7298642
+   Hedhli I, 2016, IEEE T GEOSCI REMOTE, V54, P6333, DOI 10.1109/TGRS.2016.2580321
+   Hoberg T, 2015, IEEE T GEOSCI REMOTE, V53, P659, DOI 10.1109/TGRS.2014.2326886
+   Huang LH, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8060483
+   Huang YZ, 2008, PROC CVPR IEEE, V0, P2000
+   Joulin A., 2010, PROC CVPR IEEE, V0, PP1943, DOI 10.1109/CVPR.2010.5539868
+   Kato Z, 2011, FOUND TRENDS SIGNAL, V5, P1, DOI 10.1561/2000000035
+   Kohli P, 2008, PROC CVPR IEEE, V0, P587
+   Kolmogorov V, 2006, IEEE T PATTERN ANAL, V28, P1568, DOI 10.1109/TPAMI.2006.200
+   Konstantinidis D, 2017, IEEE J-STARS, V10, P888, DOI 10.1109/JSTARS.2016.2602439
+   Lagrange A, 2015, INT GEOSCI REMOTE SE, V0, PP4173, DOI 10.1109/IGARSS.2015.7326745
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Li S.Z., 2009, MARKOV RANDOM FIELD, V0, P0
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Luo C., 2014, ISPRS ANN PHOTOGRAMM, V2, P79
+   Maggiori E., 2016, HIGH RESOLUTION SEMA, V0, P0
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Marcos D., 2017, P ICCV, V0, P0
+   Marcos D, 2016, PROC CVPR IEEE, V0, PP5091, DOI 10.1109/CVPR.2016.550
+   Marmanis D., 2016, CLASSIFICATION EDGE, V0, P0
+   Melgani F, 2003, IEEE T GEOSCI REMOTE, V41, P2478, DOI 10.1109/TGRS.2003.817269
+   Ming-Yu Liu, 2011, 2011 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR), V0, PP2097, DOI 10.1109/CVPR.2011.5995323
+   Moser G, 2016, IEEE T GEOSCI REMOTE, V54, P5054, DOI 10.1109/TGRS.2016.2547027
+   Moser G, 2013, P IEEE, V101, P631, DOI 10.1109/JPROC.2012.2211551
+   Pacifici F, 2009, REMOTE SENS ENVIRON, V113, P1276, DOI 10.1016/j.rse.2009.02.014
+   Rey N, 2017, REMOTE SENS ENVIRON, V200, P341, DOI 10.1016/j.rse.2017.08.026
+   Roig G, 2011, IEEE I CONF COMP VIS, V0, PP563, DOI 10.1109/ICCV.2011.6126289
+   Rother C., 2006, P IEEE COMPUTER SOC, V1, P993, DOI 10.1109/CVPR.2006.91
+   Scarpa G, 2009, IEEE T IMAGE PROCESS, V18, P1830, DOI 10.1109/TIP.2009.2020534
+   Schindler K, 2012, IEEE T GEOSCI REMOTE, V50, P4534, DOI 10.1109/TGRS.2012.2192741
+   Serpico SB, 2006, IEEE T GEOSCI REMOTE, V44, P3695, DOI 10.1109/TGRS.2006.881118
+   Sherrah Jamie, 2016, ARXIV160602585, V0, P0, DOI DOI 10.48550/ARXIV.1606.02585
+   Simonyan K, 2015, ARXIV, V0, P0
+   Smits PC, 1997, IEEE T GEOSCI REMOTE, V35, P844, DOI 10.1109/36.602527
+   Solberg AHS, 1996, IEEE T GEOSCI REMOTE, V34, P100, DOI 10.1109/36.481897
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Sutton C, 2012, FOUND TRENDS MACH LE, V4, P267, DOI 10.1561/2200000013
+   SWAIN PH, 1978, IEEE T SYST MAN CYB, V8, P879
+   Szeliski R, 2006, LECT NOTES COMPUT SC, V3952, P16
+   Tomic T, 2012, IEEE ROBOT AUTOM MAG, V19, P46, DOI 10.1109/MRA.2012.2206473
+   Tu JH, 2016, IEEE GEOSCI REMOTE S, V13, P1817, DOI 10.1109/LGRS.2016.2614298
+   Tuia D, 2016, INT GEOSCI REMOTE SE, V0, PP3290, DOI 10.1109/IGARSS.2016.7729851
+   Tuia D, 2015, ISPRS J PHOTOGRAMM, V105, P272, DOI 10.1016/j.isprsjprs.2015.01.006
+   Tuia D, 2014, IEEE T GEOSCI REMOTE, V52, P6062, DOI 10.1109/TGRS.2013.2294724
+   Vapnik V., 2000, NATURE STAT LEARNING, V0, P0
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Volpi M, 2015, IEEE COMPUT SOC CONF, V0, P0, DOI DOI 10.1109/CVPRW.2015.7301377
+   Volpi M, 2015, 2015 JOINT URBAN REMOTE SENSING EVENT (JURSE), V0, P0
+   Wainwright MJ, 2008, FOUND TRENDS MACH LE, V1, P1, DOI 10.1561/2200000001
+   Wegner JD, 2016, PROC CVPR IEEE, V0, PP6014, DOI 10.1109/CVPR.2016.647
+   Wegner JD, 2015, ISPRS J PHOTOGRAMM, V108, P128, DOI 10.1016/j.isprsjprs.2015.07.002
+   Willsky AS, 2002, P IEEE, V90, P1396, DOI 10.1109/JPROC.2002.800717
+   Wu TF, 2004, J MACH LEARN RES, V5, P975
+   Xiao PF, 2017, IEEE T GEOSCI REMOTE, V55, P1587, DOI 10.1109/TGRS.2016.2627638
+   Zahawi RA, 2015, BIOL CONSERV, V186, P287, DOI 10.1016/j.biocon.2015.03.031
+   Zhu QQ, 2016, IEEE GEOSCI REMOTE S, V13, P747, DOI 10.1109/LGRS.2015.2513443
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 75
+TC 17
+Z9 17
+U1 0
+U2 16
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2018
+VL 56
+IS 6
+BP 3277
+EP 3289
+DI 10.1109/TGRS.2018.2797316
+PG 13
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA GH3UT
+UT WOS:000433328400022
+DA 2023-04-26
+ER
+
+PT J
+AU Wei, Y
+   Chang, MC
+   Ying, YM
+   Lim, SN
+   Lyu, SW
+AF Wei, Yi
+   Chang, Ming-Ching
+   Ying, Yiming
+   Lim, Ser Nam
+   Lyu, Siwei
+TI Explain Black-box Image Classifications Using Superpixel-based Interpretation
+SO 2018 24TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION (ICPR)
+LA English
+DT Proceedings Paper
+AB How to best understand and interpret the decisions of deep neural networks is a crucial topic, as the impact of intelligent deep network systems is prevalent in many applications. We propose a superpixel based method to interpret and explain the results of black-box deep networks in the widely-applied image classification tasks. We perform probabilistic prediction difference analysis upon one or more superpixels clustered from image pixels. Our method generates a superpixel score map visualization that can provide rich interpretation regarding image components. Such interpretation provides supportive/ unsupportive likelihood of image regions upon the decisions performed by the black-box classifier. We compare our method against state-of-art pixelwise interpretation methods over the latest deep neural network classifiers on the ImageNet dataset. Results show that our method produces more consistent interpretations in less computation time. Our method also supports interactive interpretation, where users can acquire explanations on specified regions through a convenient interface for a prompt reaction.
+C1 [Wei, Yi; Chang, Ming-Ching; Ying, Yiming; Lyu, Siwei] SUNY Albany, Albany, NY 12222 USA.
+   [Lim, Ser Nam] GE Global Res Ctr, Niskayuna, NY USA.
+C3 State University of New York (SUNY) System; State University of New York (SUNY) Albany; General Electric
+RP Wei, Y (corresponding author), SUNY Albany, Albany, NY 12222 USA.
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Fong RC, 2017, IEEE I CONF COMP VIS, V0, PP3449, DOI 10.1109/ICCV.2017.371
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Letham B, 2015, ANN APPL STAT, V9, P1350, DOI 10.1214/15-AOAS848
+   Montavon G, 2017, PATTERN RECOGN, V65, P211, DOI 10.1016/j.patcog.2016.11.008
+   Ribeiro MT, 2016, P 22 ACM SIGKDD INT, V0, PP1135, DOI 10.1145/2939672.2939778
+   Robnik-Sikonja M, 2008, IEEE T KNOWL DATA EN, V20, P589, DOI 10.1109/TKDE.2007.190734
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Si ZZ, 2013, IEEE T PATTERN ANAL, V35, P2189, DOI 10.1109/TPAMI.2013.35
+   Simonyan K, 2014, WORKSH INT C LEARN R, V0, P0, DOI DOI 10.48550/ARXIV.1312.6034
+   Simonyan K, 2015, ARXIV, V0, P0
+   Yosinski J., 2015, ARXIV150606579, V0, P0
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhang Q., 2017, IEEE C COMP VIS PATT, V0, P0
+   Zintgraf L. M., 2017, 5 INT C LEARN REPR I, V0, P0
+NR 17
+TC 3
+Z9 3
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1051-4651
+EI 
+J9 INT C PATT RECOG
+PD JUN 15
+PY 2018
+VL 0
+IS 
+BP 1640
+EP 1645
+DI 
+PG 6
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA BL7LC
+UT WOS:000455146801108
+DA 2023-04-26
+ER
+
+PT J
+AU Li, ZL
+   Bagan, H
+   Yamagata, Y
+AF Li, Zhaoling
+   Bagan, Hasi
+   Yamagata, Yoshiki
+TI Analysis of spatiotemporal land cover changes in Inner Mongolia using self-organizing map neural network and grid cells method
+SO SCIENCE OF THE TOTAL ENVIRONMENT
+LA English
+DT Article
+DE Grid cell; Inner Mongolia; Land use and cover change; MODIS; Self-organizing map
+ID spatial-patterns; classification; china; grassland; temperature; ecosystem; forest; model
+AB Land use has changed dramatically in the Inner Mongolia Autonomous Region because of rapid economic growth and human disturbances. However, little information is available about the medium-and long-term land use changes in this region. The effects of ecological recovery policies have also been evaluated rarely. In this study, we employed the self-organizing map neural network method to identify the land cover changes in Inner Mongolia between 2000 and 2014. MOD13Q1, Landsat, and DMSP/OLS night-time light data were used as the data resources. The dynamic change map was characterized using the grid cell method. The results showed that urban area of Inner Mongolia increased by more than five times during the 15-year study period, while the mining area also increased. In addition, 35.3% of the farmland was changed into grassland, which may have been caused by the "Grain to Green" policy. The most significant environmental issue in Inner Mongolia is the loss of wetland. >40% of the wetland was converted into other land use types between 2000 and 2014. Grassland increased by 6.05%, but areas of open water and woodland remained about the same. In terms of the geographical distribution, cropland increased in the eastern and middle parts of the region. The transformation from wetland to grassland mainly occurred in the north. Grassland degradation occurred in the west. Thus, environmental policy has resulted in some ecological improvements in Inner Mongolia. However, new environmental problems associated with rapid economic development should be addressed in a timely manner. (C) 2018 Elsevier B.V. All rights reserved.
+C1 [Li, Zhaoling; Yamagata, Yoshiki] Natl Inst Environm Studies, Ctr Global Environm Res, 16-2 Onogawa, Tsukuba, Ibaraki 3050053, Japan.
+   [Bagan, Hasi] Shanghai Normal Univ, Inst Urban Studies, 100 Guilin Rd, Shanghai 200234, Peoples R China.
+C3 National Institute for Environmental Studies - Japan; Shanghai Normal University
+RP Bagan, H (corresponding author), Shanghai Normal Univ, Inst Urban Studies, 100 Guilin Rd, Shanghai 200234, Peoples R China.
+EM hasi.bagan@nies.go.jp
+FU NSFC [41771372, 41730642]; Environment Research and Technology Development Fund of the Ministry of the Environment, Japan [S-10]
+CR Alvarez-Berrios NL, 2013, AMBIO, V42, P29, DOI 10.1007/s13280-012-0344-8
+   [Anonymous], 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2_5
+   [Anonymous], 1995, NEURAL NETWORKS PATT, V0, P0
+   Bagan H, 2008, PHOTOGRAMM ENG REM S, V74, P333, DOI 10.14358/PERS.74.3.333
+   Bagan H, 2012, REMOTE SENS ENVIRON, V127, P210, DOI 10.1016/j.rse.2012.09.011
+   Bagan H, 2010, IEEE J-STARS, V3, P168, DOI 10.1109/JSTARS.2010.2046627
+   Bagan H, 2007, J APPL REMOTE SENS, V1, P0, DOI 10.1117/1.2819344
+   Buhe A, 2007, ADV SPACE RES, V39, P39, DOI 10.1016/j.asr.2006.02.056
+   Chuai XW, 2013, INT J CLIMATOL, V33, P1696, DOI 10.1002/joc.3543
+   Clark WW, 2010, UTIL POLICY, V18, P29, DOI 10.1016/j.jup.2007.07.005
+   Cracknell MJ, 2015, REMOTE SENS ENVIRON, V165, P86, DOI 10.1016/j.rse.2015.04.029
+   Dai GS, 2014, ENERG POLICY, V67, P146, DOI 10.1016/j.enpol.2013.12.033
+   Dong JW, 2011, ENVIRON MONIT ASSESS, V179, P137, DOI 10.1007/s10661-010-1724-9
+   Elvidge CD, 1999, REMOTE SENS ENVIRON, V68, P77, DOI 10.1016/S0034-4257(98)00098-4
+   Elvidge CD, 2009, 2009 JOINT URBAN REMOTE SENSING EVENT, VOLS 1-3, P1665
+   FULLEN MA, 1994, AMBIO, V23, P131
+   Gomez C, 2016, ISPRS J PHOTOGRAMM, V116, P55, DOI 10.1016/j.isprsjprs.2016.03.008
+   Govedarica M, 2015, PROC SPIE, V9535, P0, DOI 10.1117/12.2192331
+   Guan H, 2016, J GEOPHYS RES-ATMOS, V121, P5336, DOI 10.1002/2016JD025139
+   Hagner O, 2007, REMOTE SENS ENVIRON, V110, P438, DOI 10.1016/j.rse.2006.08.017
+   Hardoy J.E., 2013, ENV PROBLEMS URBANIZ, V2nd ed., P0
+   Hasegawa T, 2017, SCI TOTAL ENVIRON, V580, P787, DOI 10.1016/j.scitotenv.2016.12.025
+   He C, 2005, J ARID ENVIRON, V63, P814, DOI 10.1016/j.jaridenv.2005.03.028
+   Hilker T, 2009, REMOTE SENS ENVIRON, V113, P1613, DOI 10.1016/j.rse.2009.03.007
+   Huang B, 2007, GEODERMA, V139, P336, DOI 10.1016/j.geoderma.2007.02.012
+   Huang JH, 2009, RANGELAND DEGRADATION AND RECOVERY IN CHINAS PASTORAL LANDS, V0, PP120, DOI 10.1079/9781845934965.0120
+   Huete AR, 1997, REMOTE SENS ENVIRON, V59, P440, DOI 10.1016/S0034-4257(96)00112-5
+   IGSNRR (Institute of Geographic Sciences and Natural Resources Research CAS), 2015, BOTH AR VEG COV NAT, V0, P0
+   Inner Mongolia Autonomous Regional Bureau of Statistics, 2016, INN MONG STAT YB 201, V0, P0
+   Ji CY, 2000, PHOTOGRAMM ENG REM S, V66, P1451
+   John R, 2009, ENVIRON RES LETT, V4, P0, DOI 10.1088/1748-9326/4/4/045010
+   Li A, 2012, LANDSCAPE ECOL, V27, P969, DOI 10.1007/s10980-012-9751-2
+   [李谢辉 LI Xiehui], 2006, 资源科学 RESOURCES SCIENCE, V28, P102
+   Li ZY, 2017, ECOL MODEL, V353, P86, DOI 10.1016/j.ecolmodel.2016.07.019
+   Lillesand T., 2014, REMOTE SENSING IMAGE, V0, P0
+   Liu JY, 2014, J GEOGR SCI, V24, P195, DOI 10.1007/s11442-014-1082-6
+   Liu JY, 2010, J GEOGR SCI, V20, P483, DOI 10.1007/s11442-010-0483-4
+   Longbotham N, 2012, IEEE T GEOSCI REMOTE, V50, P1155, DOI 10.1109/TGRS.2011.2165548
+   Lv XM, 2016, FRONT PLANT SCI, V7, P0, DOI 10.3389/fpls.2016.00073
+   [蒙吉军 MENG Jijun], 2011, 自然资源学报 JOURNAL OF NATURAL RESOURCES, V26, P578
+   Myagmartseren P, 2017, MATH PROBL ENG, V2017, P0, DOI 10.1155/2017/2819795
+   Niu ZG, 2012, CHINESE SCI BULL, V57, P2813, DOI 10.1007/s11434-012-5093-3
+   Powell B., 2010, INSIDE CHINAS RUNAWA, V0, P0
+   Qian TN, 2014, IEEE J-STARS, V7, P1675, DOI 10.1109/JSTARS.2014.2301152
+   [史泽鹏 Shi Zepeng], 2012, 中国农学通报 CHINESE AGRICULTURAL SCIENCE BULLETIN, V28, P273
+   Srivastava PK, 2012, ADV SPACE RES, V50, P1250, DOI 10.1016/j.asr.2012.06.032
+   State Forest Administration, 2014, MAIN RES 2 NAT SURV, V0, P0
+   Su YongZhong, 2003, SCIENTIA AGRICULTURA SINICA, V36, P928
+   Terrado M, 2016, SCI TOTAL ENVIRON, V540, P63, DOI 10.1016/j.scitotenv.2015.03.064
+   Tong SQ, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090776
+   van Vliet J, 2017, GLOBAL ENVIRON CHANG, V43, P107, DOI 10.1016/j.gloenvcha.2017.02.001
+   Wei Y, 2014, LANDSCAPE URBAN PLAN, V128, P1, DOI 10.1016/j.landurbplan.2014.04.015
+   Woodworth MD, 2015, CITIES, V43, P115, DOI 10.1016/j.cities.2014.11.017
+   Wu JG, 2015, LANDSCAPE ECOL, V30, P1579, DOI 10.1007/s10980-015-0209-1
+   [殷贺 YIN He], 2011, 地理学报 ACTA GEOGRAPHICA SINICA, V66, P653
+   Zhang QL, 2013, REMOTE SENS ENVIRON, V129, P32, DOI 10.1016/j.rse.2012.10.022
+   Zhang ZX, 2014, REMOTE SENS ENVIRON, V149, P142, DOI 10.1016/j.rse.2014.04.004
+   Zou CJ, 2007, ECOL RES, V22, P135, DOI 10.1007/s11284-006-0009-9
+NR 59
+TC 34
+Z9 37
+U1 5
+U2 73
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0048-9697
+EI 1879-1026
+J9 SCI TOTAL ENVIRON
+JI Sci. Total Environ.
+PD SEP 15
+PY 2018
+VL 636
+IS 
+BP 1180
+EP 1191
+DI 10.1016/j.scitotenv.2018.04.361
+PG 12
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA GK9TR
+UT WOS:000436599000116
+PM 29913580
+DA 2023-04-26
+ER
+
+PT J
+AU Zhou, RY
+   Wu, DS
+   Fang, LM
+   Xu, AJ
+   Lou, XW
+AF Zhou, Ruyi
+   Wu, Dasheng
+   Fang, Luming
+   Xu, Aijun
+   Lou, Xiongwei
+TI A Levenberg-Marquardt Backpropagation Neural Network for Predicting Forest Growing Stock Based on the Least-Squares Equation Fitting Parameters
+SO FORESTS
+LA English
+DT Article
+DE Levenberg-Marquardt backpropagation (LM-BP); forest growing stock; predicting; least-squares equation
+ID volume estimation; tree density; stand volume
+AB Traditional field surveys are expensive, time-consuming, laborious, and difficult to perform, especially in mountainous and dense forests, which imposes a burden on forest management personnel and researchers. This study focuses on predicting forest growing stock, one of the most significant parameters of a forest resource assessment. First, three schemes were designedScheme 1, based on the study samples with mixed tree species; Scheme 2, based on the study samples divided into dominant tree species groups; and Scheme 3, based on the study samples divided by dominant tree species groupsthe evaluation factors are fitted by least-squares equations, and the non-significant fitted-factors are removed. Second, an overall evaluation indicator system with 17 factors was established. Third, remote sensing images of Landsat Thematic Mapper, digital elevation model, and the inventory for forest management planning and design were integrated in the same database. Lastly, a backpropagation neural network based on the Levenberg-Marquardt algorithm was used to predict the forest growing stock. The results showed that the group estimation precision exceeded 90%, which is the highest standard of total sampling precision of inventory for forest management planning and design in China. The prediction results for distinguishing dominant tree species were better than for mixed dominant tree species. The results also showed that the performance metrics for prediction could be improved by least-squares equation fitting and significance filtering of the evaluation factors.
+C1 [Zhou, Ruyi; Wu, Dasheng; Fang, Luming; Xu, Aijun; Lou, Xiongwei] Zhejiang A&F Univ, Key Lab Forestry Intelligent Monitoring & Informa, Linan 311300, Zhejiang, Peoples R China.
+   [Zhou, Ruyi; Wu, Dasheng; Fang, Luming; Xu, Aijun; Lou, Xiongwei] Zhejiang A&F Univ, Sch Informat Engn, Linan 311300, Zhejiang, Peoples R China.
+C3 Zhejiang A&F University; Zhejiang A&F University
+RP Wu, DS (corresponding author), Zhejiang A&F Univ, Key Lab Forestry Intelligent Monitoring & Informa, Linan 311300, Zhejiang, Peoples R China.; Wu, DS (corresponding author), Zhejiang A&F Univ, Sch Informat Engn, Linan 311300, Zhejiang, Peoples R China.
+EM yyzlwwhy@126.com; 19940019@zafu.edu.cn; fluming@126.com; xuaj1976@163.com; lxwzjfc@163.com
+FU Zhejiang provincial key science and technology project [2018C02013]; Zhejiang provincial major science and technology project [2011C12047]; Zhejiang A & F University's professionals supporting project [2014FR078]
+CR [Anonymous], 2012, THESIS, V0, P0
+   Brown SL, 1999, FOREST ECOL MANAG, V123, P81, DOI 10.1016/S0378-1127(99)00017-1
+   Buckley David S., 1999, NORTHERN JOURNAL OF APPLIED FORESTRY, V16, P25
+   Castano-Santamaria J, 2013, FOREST ECOL MANAG, V307, P63, DOI 10.1016/j.foreco.2013.07.014
+   Chirici G, 2003, MODELLING FOREST SYSTEMS, V0, PP41, DOI 10.1079/9780851996936.0041
+   Chirici G, 2008, REMOTE SENS ENVIRON, V112, P2686, DOI 10.1016/j.rse.2008.01.002
+   Chowdhury TA, 2014, REMOTE SENS ENVIRON, V155, P129, DOI 10.1016/j.rse.2014.05.007
+   Debeljak M, 2014, ECOL INDIC, V41, P30, DOI 10.1016/j.ecolind.2014.01.010
+   [邓立斌 Deng Libin], 2002, 西北林学院学报 JOURNAL OF NORTHWEST FORESTRY COLLEGE, V17, P87
+   Franco-Lopez H, 2001, REMOTE SENS ENVIRON, V77, P251, DOI 10.1016/S0034-4257(01)00209-7
+   Haykin S., 2010, NEURAL NETWORKS LEAR, V3/E, P0
+   Hong W., 1998, J NAT RES, V01, P69
+   Hua Z. L., 2008, WATER RESOURCES PROT, V24, P22
+   Hudak A.T., 2001, INT ARCH PHOTOGRAMM, V0, P0
+   Jian X.C., 2012, J CHONGQING U TECHNO, V26, P11
+   Karjalainen T, 2003, FOREST POLICY ECON, V5, P141, DOI 10.1016/S1389-9341(03)00021-2
+   Lamb SM, 2018, FORESTS, V9, P0, DOI 10.3390/f9040167
+   Lek S, 1999, ECOL MODEL, V120, P65, DOI 10.1016/S0304-3800(99)00092-7
+   Li J., 2012, ADV COMPUTER SCI INF, V0, P553
+   Lin ChengLai, 2000, JOURNAL OF FUJIAN COLLEGE OF FORESTRY, V20, P227
+   Liu A., 2006, THESIS, V0, P0
+   Ma LL, 2010, LECT NOTES ARTIF INT, V6291, P591, DOI 10.1007/978-3-642-15280-1_57
+   Makela H, 2004, FOREST ECOL MANAG, V196, P245, DOI 10.1016/j.foreco.2004.02.049
+   McRoberts RE, 2013, REMOTE SENS ENVIRON, V128, P268, DOI 10.1016/j.rse.2012.10.007
+   McRoberts RE, 2012, REMOTE SENS ENVIRON, V125, P157, DOI 10.1016/j.rse.2012.07.002
+   Miao Xinying, 2011, COMPUTER ENGINEERING AND APPLICATIONS, V47, P220, DOI 10.3778/j.issn.1002-8331.2011.01.063
+   Mohammadi J, 2010, INT J REMOTE SENS, V31, P2959, DOI 10.1080/01431160903140811
+   Mohammadi J, 2011, PROCEDIA ENVIRON SCI, V7, P299, DOI 10.1016/j.proenv.2011.07.052
+   Mohammadi Z, 2018, J FORESTRY RES, V29, P1205, DOI 10.1007/s11676-017-0556-7
+   Robinson AP, 2003, FOREST ECOL MANAG, V172, P53, DOI 10.1016/S0378-1127(02)00041-5
+   Scrinzi G, 2007, ECOL MODEL, V206, P331, DOI 10.1016/j.ecolmodel.2007.04.001
+   Shaban S., 2011, P 32 ASIAN C REMOTE, V0, P887
+   Shataee S, 2011, PROCEDIA ENVIRON SCI, V7, P68, DOI 10.1016/j.proenv.2011.07.013
+   Tokola Timo, 1997, SILVA FENNICA, V31, P67
+   [汪少华 Wang Shaohua], 2011, 生态学报 ACTA ECOLOGICA SINICA, V31, P998
+   Wang Z.P., 2013, ENV SCI SURV, V32, P98
+   Wei XiaoHui, 2012, JOURNAL OF ZHEJIANG A&F UNIVERSITY, V29, P661
+   Wu D., 2014, COMPUTER MODELLING N, V18, P131
+   Wu DaSheng, 2015, JOURNAL OF AGRICULTURAL SCIENCE (TORONTO), V7, P18
+   Xie H.Q., 2004, J FUJIAN FOR SCI TEC, V1, P34
+   [许炜敏 XU Weimin], 2011, 福建林学院学报 JOURNAL OF FUJIAN COLLEGE OF FORESTRY, V31, P151
+   Zhang D.F., 2009, DESIGN NEURAL NETWOR, V0, P0
+   Zhao Z., 2007, AFFORESTATION PLANNI, V0, P0
+   [郑春玲 Zheng Chunling], 2010, 纺织学报 JOURNAL OF TEXTILE RESEARCH, V31, P82
+   2010, 1900, P1, V0, P0
+NR 45
+TC 14
+Z9 15
+U1 2
+U2 19
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 1999-4907
+EI 
+J9 FORESTS
+JI Forests
+PD DEC 15
+PY 2018
+VL 9
+IS 12
+BP 
+EP 
+DI 10.3390/f9120757
+PG 16
+WC Forestry
+SC Forestry
+GA HG6CW
+UT WOS:000455069600029
+DA 2023-04-26
+ER
+
+PT J
+AU Yu, B
+   Yang, L
+   Chen, F
+AF Yu, Bo
+   Yang, Lu
+   Chen, Fang
+TI Semantic Segmentation for High Spatial Resolution Remote Sensing Images Based on Convolution Neural Network and Pyramid Pooling Module
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Remotely sensed images; semantic segmentation
+ID classification
+AB Semantic segmentation provides a practical way to segment remotely sensed images into multiple ground objects simultaneously, which can be potentially applied to multiple remote sensed related aspects. Current classification algorithms in remotely sensed images are mostly limited by different imaging conditions, the multiple ground objects are difficult to be separated from each other due to high intraclass spectral variances and interclass spectral similarities. In this study, we propose an end-to-end framework to semantically segment high-resolution aerial images without postprocessing to refine the segmentation results. The framework provides a pixel-wise segmentation result, comprising convolutional neural network structure and pyramid pooling module, which aims to extract feature maps at multiple scales. The proposed model is applied to the ISPRS Vaihingen benchmark dataset from the ISPRS 2D Semantic Labeling Challenge. Its segmentation results are compared with previous state-of-the-art method UZ _1, UPB and three other methods that segment images into objects of all the classes (including clutter/background) based on true orthophoto tiles, and achieve the highest overall accuracy of 87.8% over the published performances, to the best of our knowledge. The results validate the efficiency of the proposed model in segmenting multiple ground objects from remotely sensed images simultaneously.
+C1 [Yu, Bo; Chen, Fang] Chinese Acad Sci, Inst Remote Sensing & Digital Earth, Key Lab Digital Earth Sci, Beijing 100094, Peoples R China.
+   [Yang, Lu] Beijing Univ Posts & Telecommun, Beijing 100876, Peoples R China.
+   [Chen, Fang] Chinese Acad Sci, Inst Remote Sensing & Digital Earth, Hainan Key Lab Earth Observat, Sanya 572029, Peoples R China.
+   [Chen, Fang] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+C3 Chinese Academy of Sciences; The Institute of Remote Sensing & Digital Earth, CAS; Beijing University of Posts & Telecommunications; Chinese Academy of Sciences; The Institute of Remote Sensing & Digital Earth, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS
+RP Chen, F (corresponding author), Chinese Acad Sci, Inst Remote Sensing & Digital Earth, Key Lab Digital Earth Sci, Beijing 100094, Peoples R China.; Chen, F (corresponding author), Chinese Acad Sci, Inst Remote Sensing & Digital Earth, Hainan Key Lab Earth Observat, Sanya 572029, Peoples R China.
+EM yubo@radi.ac.cn; soeaver@bupt.edu.cn; chenfang@radi.ac.cn
+FU Strategic Priority Research Program of the Chinese Academy of Sciences [XDA19030101]; National Key R&D Program of China [2017YFE0100800]; National Natural Science Foundation of China [41601451]
+CR Achanta R., 2010, EPFLREPORT149300, V0, P0
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   [Anonymous], 2017, AAAI CONF ARTIF INTE, V0, P0, DOI DOI 10.1609/AAAI.V31I1.11231
+   [Anonymous], 1995, NEURAL NETWORKS PATT, V0, P0
+   [Anonymous], 2014, 2D SEM LAB CONT, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Chen GZ, 2018, IEEE J-STARS, V11, P1633, DOI 10.1109/JSTARS.2018.2810320
+   Chen L.-C., 2015, P IEEE INT C COMP VI, V0, P1742
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Cheng DC, 2017, IEEE J-STARS, V10, P5769, DOI 10.1109/JSTARS.2017.2747599
+   Choromanska A., 2015, P 18 INT C ART INT S, V38, P13
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Cordts M, 2016, PROC CVPR IEEE, V0, PP3213, DOI 10.1109/CVPR.2016.350
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Fan JC, 2009, PATTERN RECOGN, V42, P2527, DOI 10.1016/j.patcog.2009.04.013
+   Gerke M., 2014, USE STAIR VISION LIB, V0, P0, DOI DOI 10.13140/2.1.5015.9683
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Glorot X., 2011, P 14 INT C ART INT S, V0, P315
+   Hazirbas C, 2017, LECT NOTES COMPUT SC, V10111, P213, DOI 10.1007/978-3-319-54181-5_14
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   HE KM, 2015, PROC CVPR IEEE, V0, PP5353, DOI 10.1109/CVPR.2015.7299173
+   Huang X, 2008, IEEE T GEOSCI REMOTE, V46, P4173, DOI 10.1109/TGRS.2008.2002577
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Jegou H, 2012, IEEE T PATTERN ANAL, V34, P1704, DOI 10.1109/TPAMI.2011.235
+   Jia YQ, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP675, DOI 10.1145/2647868.2654889
+   Krahenbuhl P., 2011, P ADV NEUR INF PROC, V0, P109
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   LeCun Y, 1998, LECT NOTES COMPUT SC, V1524, P9, DOI 10.1007/3-540-49430-8_2
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Li H., 2018, ISPRS SEMANTIC LABEL, V0, P0
+   Long Y, 2017, IEEE T GEOSCI REMOTE, V55, P2486, DOI 10.1109/TGRS.2016.2645610
+   Marmanis D, 2016, ISPRS ANN PHOTO REM, V3, P473, DOI 10.5194/isprsannals-III-3-473-2016
+   Nair V, 2010, ICML, V27, P807
+   NAM H, 2016, PROC CVPR IEEE, V0, PP4293, DOI 10.1109/CVPR.2016.465
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Park E, 2016, IEEE WINT CONF APPL, V0, P0
+   Qin XL, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON PROGNOSTICS AND HEALTH MANAGEMENT (ICPHM), V0, PP1, DOI 10.1109/ICPHM.2017.7998297
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Simonyan K, 2015, ARXIV, V0, P0
+   Speldekamp T., 2015, TECH REP, V0, P0, DOI DOI 10.13140/2.1.5015.9683
+   Sujatha C, 2015, EURASIP J IMAGE VIDE, V0, P0, DOI DOI 10.1186/s13640-015-0062-9
+   Tarabalka Y, 2010, PATTERN RECOGN, V43, P2367, DOI 10.1016/j.patcog.2010.01.016
+   Tarabalka Y, 2010, IEEE T GEOSCI REMOTE, V48, P4122, DOI 10.1109/TGRS.2010.2062526
+   Tilton JC, 2012, IEEE T GEOSCI REMOTE, V50, P4454, DOI 10.1109/TGRS.2012.2190079
+   Tschannen M, 2017, EUR SIGNAL PR CONF, V0, PP61, DOI 10.23919/EUSIPCO.2017.8081169
+   Tseng Huihsin, 2005, P 4 SIGHAN WORKSH CH, V171, P0
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Wang HZ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050446
+   Wang L, 2009, COMPUT MED IMAG GRAP, V33, P520, DOI 10.1016/j.compmedimag.2009.04.010
+   Wang PS, 2017, INT GEOSCI REMOTE SE, V0, PP1562, DOI 10.1109/IGARSS.2017.8127268
+   Wei YC, 2016, IEEE T PATTERN ANAL, V38, P1901, DOI 10.1109/TPAMI.2015.2491929
+   Zheng C, 2015, IEEE J-STARS, V8, P1924, DOI 10.1109/JSTARS.2014.2361756
+NR 60
+TC 108
+Z9 111
+U1 4
+U2 61
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD SEP 15
+PY 2018
+VL 11
+IS 9
+BP 3252
+EP 3261
+DI 10.1109/JSTARS.2018.2860989
+PG 10
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA GT4OW
+UT WOS:000444485100023
+DA 2023-04-26
+ER

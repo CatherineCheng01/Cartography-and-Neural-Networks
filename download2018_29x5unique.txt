@@ -1,0 +1,432 @@
+
+PT J
+AU Peng, Z
+   Gao, S
+   Xiao, B
+   Guo, ST
+   Yang, YY
+AF Peng, Zhe
+   Gao, Shang
+   Xiao, Bin
+   Guo, Songtao
+   Yang, Yuanyuan
+TI CrowdGIS: Updating Digital Maps via Mobile Crowdsensing
+SO IEEE TRANSACTIONS ON AUTOMATION SCIENCE AND ENGINEERING
+LA English
+DT Article
+DE Digital map update; mobile crowdsensing
+AB Accurate digital maps play a crucial role in various location-based services and applications. However, store information is usually missing or outdated in current maps. In this paper, we propose CrowdGIS, an automatic store self-updating system for digital maps that leverages street views and sensing data crowdsourced from mobile users. We first develop a new weighted artificial neural network to learn the underlying relationship between estimated positions and real positions to localize user's shooting positions. Then, a novel text detection method is designed by considering two valuable features, including the color and texture information of letters. In this way, we can recognize complete store name instead of individual letters as in the previous study. Furthermore, we transfer the shooting position to the location of recognized stores in the map. Finally, CrowdGIS considers three updating categories (replacing, adding, and deleting) to update changed stores in the map based on the kernel density estimate model. We implement CrowdGIS and conduct extensive experiments in a real outdoor region for 1 month. The evaluation results demonstrate that CrowdGIS effectively accommodates store variations and updates stores to maintain an up-to-date map with high accuracy. Note to Practitioners-This paper was motivated by the problem of automatically updating digital maps in a manner of mobile crowdsensing. Existing approaches can update stores in maps through a manual survey or update roads automatically from mobile crowdsensing data. Since the store information is a crucial component in digital map, this paper suggests a novel approach to automatically update stores in digital maps through mobile crowdsensing. This is necessary, in general, because the accuracy of digital map will directly affect the quality of various location-based services. Therefore, the system proposed in this paper is useful for engineers and developers to obtain precise digital maps for localization, navigation, automatic drive, etc.
+C1 [Peng, Zhe; Gao, Shang; Xiao, Bin] Hong Kong Polytech Univ, Dept Comp, Hong Kong, Hong Kong, Peoples R China.
+   [Xiao, Bin] Hong Kong Polytech Univ, Shenzhen Res Inst, Shenzhen 518000, Peoples R China.
+   [Guo, Songtao] Southwest Univ, Coll Elect & Informat Engn, Chongqing 400715, Peoples R China.
+   [Yang, Yuanyuan] SUNY Stony Brook, Dept Elect & Comp Engn, Stony Brook, NY 11794 USA.
+C3 Hong Kong Polytechnic University; Hong Kong Polytechnic University; Southwest University - China; State University of New York (SUNY) System; State University of New York (SUNY) Stony Brook
+RP Xiao, B (corresponding author), Hong Kong Polytech Univ, Dept Comp, Hong Kong, Hong Kong, Peoples R China.
+EM cszpeng@comp.polyu.edu.hk; cssgao@comp.polyu.edu.hk; csbxiao@comp.polyu.edu.hk; stguo@swu.edu.cn; yuanyuan.yang@stonybrook.edu
+FU National Natural Science Foundation of China [61772446];  [HK PolyU 4-ZZFF]
+CR Alzantot Moustafa, 2012, P 20 INT C ADV GEOGR, V0, PP99, DOI 10.1145/2424321.2424335
+   Bailey T, 2006, IEEE ROBOT AUTOM MAG, V13, P108, DOI 10.1109/MRA.2006.1678144
+   Botev ZI, 2010, ANN STAT, V38, P2916, DOI 10.1214/10-AOS799
+   Cheng SL, 2016, INTERDISCIP SCI, V8, P65, DOI 10.1007/s12539-015-0106-y
+   Chenshu Wu, 2015, 2015 IEEE CONFERENCE ON COMPUTER COMMUNICATIONS (INFOCOM). PROCEEDINGS, V0, PP2497, DOI 10.1109/INFOCOM.2015.7218639
+   Civera J, 2015, IEEE T AUTOM SCI ENG, V12, P396, DOI 10.1109/TASE.2015.2409511
+   Jain AK, 1996, IEEE T PATTERN ANAL, V18, P267, DOI 10.1109/34.485555
+   Li JW, 2017, COMPUT COMMUN, V105, P33, DOI 10.1016/j.comcom.2016.08.011
+   Liu K, 2012, P 20 INT C ADV GEOGR, V0, P0, DOI DOI 10.1145/2424321.2424429
+   Liu X, 2016, IEEE T MOBILE COMPUT, V15, P840, DOI 10.1109/TMC.2014.2381252
+   Manjunath BS, 1996, IEEE T PATTERN ANAL, V18, P837, DOI 10.1109/34.531803
+   Manweiler J., 2012, P 10 INT C MOBILE SY, V0, P211
+   Mohanarajah G, 2015, IEEE T AUTOM SCI ENG, V12, P423, DOI 10.1109/TASE.2015.2408456
+   Mur-Artal R, 2017, IEEE T ROBOT, V33, P1255, DOI 10.1109/TRO.2017.2705103
+   Nawaz S., 2013, P 19 ANN INT C MOB C, V0, P0, DOI DOI 10.1145/2500423.2500438
+   Pass G., 1997, P 4 ACM INT C MULT, V0, PP65, DOI 10.1145/244130.244148
+   Rife J, 2004, IEEE POSITION LOCAT, V0, P439
+   Shen Guobin, 2013, P 10 USENIX S NETWOR, V0, P85
+   Shu YC, 2015, MOBICOM 15: PROCEEDINGS OF THE 21ST ANNUAL INTERNATIONAL CONFERENCE ON MOBILE COMPUTING AND NETWORKING, V0, PP512, DOI 10.1145/2789168.2790099
+   Sturm P, 2014, PINHOLE CAMERA MODEL, V0, P0, DOI DOI 10.1007/978-0-387-31439-6472
+   Sutskever I., 2014, ADV NEURAL INFORM PR, V27, P3104
+   Tian Zhang, 1996, SIGMOD RECORD, V25, P103, DOI 10.1145/235968.233324
+   Vanegas CA, 2012, IEEE T VIS COMPUT GR, V18, P1627, DOI 10.1109/TVCG.2012.30
+   Wang Y., 2013, P 11 ANN INT C MOB S, V0, P469
+   Xiaohu Y., 2017, PROC 9 INT C WIRELES, V0, P1
+   Yang F., 2016, P IEEE NUCL SCI S ME, V0, PP1, DOI 10.1109/NSSMIC.2016.8069692
+   Yang F, 2011, LECT NOTES COMPUT SC, V6495, P39, DOI 10.1007/978-3-642-19282-1_4
+   Yao C, 2014, IEEE T IMAGE PROCESS, V23, P4737, DOI 10.1109/TIP.2014.2353813
+   Yin J, 2008, IEEE T MOBILE COMPUT, V7, P869, DOI 10.1109/TMC.2007.70764
+   Yuan YX, 2018, IEEE T CYBERNETICS, V48, P2074, DOI 10.1109/TCYB.2017.2726818
+   Yuan YX, 2017, MED PHYS, V44, P1379, DOI 10.1002/mp.12147
+   Yuan YX, 2017, IEEE T AUTOM SCI ENG, V14, P149, DOI 10.1109/TASE.2016.2610579
+   Yutian Wen, 2015, 2015 IEEE CONFERENCE ON COMPUTER COMMUNICATIONS (INFOCOM). PROCEEDINGS, V0, PP2479, DOI 10.1109/INFOCOM.2015.7218637
+   Zhang L, 2013, PROC CVPR IEEE, V0, PP1586, DOI 10.1109/CVPR.2013.208
+   Zhang Z., 2011, P QUANZHOU C MANAGEM, V0, P109
+NR 35
+TC 22
+Z9 23
+U1 1
+U2 14
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1545-5955
+EI 1558-3783
+J9 IEEE T AUTOM SCI ENG
+JI IEEE Trans. Autom. Sci. Eng.
+PD JAN 15
+PY 2018
+VL 15
+IS 1
+BP 369
+EP 380
+DI 10.1109/TASE.2017.2761793
+PG 12
+WC Automation & Control Systems
+SC Automation & Control Systems
+GA FS0XS
+UT WOS:000419498100029
+DA 2023-04-26
+ER
+
+PT J
+AU Lunga, D
+   Yang, HL
+   Reith, A
+   Weaver, J
+   Yuan, JY
+   Bhaduri, B
+AF Lunga, Dalton
+   Yang, Hsiuhan Lexie
+   Reith, Andrew
+   Weaver, Jeanette
+   Yuan, Jiangye
+   Bhaduri, Budhendra
+TI Domain-Adapted Convolutional Networks for Satellite Image Classification: A Large-Scale Interactive Learning Workflow
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Adaptation model; image classification; remote sensing; semi-supervised learning; supervised learning
+ID remote-sensing images; manifold; adaptation; retrieval; alignment
+AB Satellite imagery often exhibits large spatial extent areas that encompass object classes with considerable variability. This often limits large-scale model generalization with machine learning algorithms. Notably, acquisition conditions, including dates, sensor position, lighting condition, and sensor types, often translate into class distribution shifts introducing complex nonlinear factors and hamper the potential impact of machine learning classifiers. This paper investigates the challenge of exploiting satellite images using convolutional neural networks (CNN) for settlement classification where the class distribution shifts are significant. We present a large-scale human settlement mapping workflow based-off multiple modules to adapt a pretrained CNN to address the negative impact of distribution shift on classification performance. To extend a locally trained classifier onto large spatial extents areas we introduce several submodules: First, a human-in-the-loop element for relabeling of misclassified target domain samples to generate representative examples for model adaptation; second, an efficient hashing module to minimize redundancy and noisy samples from themass-selected examples; and third, a novel relevance ranking module tominimize the dominance of source example on the target domain. The workflow presents a novel and practical approach to achieve large-scale domain adaptation with binary classifiers that are based-off CNN features. Experimental evaluations are conducted on areas of interest that encompass various image characteristics, including multisensors, multitemporal, and multiangular conditions. Domain adaptation is assessed on source-target pairs through the transfer loss and transfer ratio metrics to illustrate the utility of the workflow.
+C1 [Lunga, Dalton; Yang, Hsiuhan Lexie; Reith, Andrew; Weaver, Jeanette; Yuan, Jiangye; Bhaduri, Budhendra] Oak Ridge Natl Lab, Comp & Computat Sci Directorate, Oak Ridge, TN 37830 USA.
+C3 United States Department of Energy (DOE); Oak Ridge National Laboratory
+RP Lunga, D (corresponding author), Oak Ridge Natl Lab, Comp & Computat Sci Directorate, Oak Ridge, TN 37830 USA.
+EM lungadd@ornl.gov; yangh@ornl.gov; reithae@ornl.gov; weaverje@ornl.gov; yuanj@ornl.gov; bhaduribl@ornl.gov
+FU UT-Battelle, LLC [DE-AC05-00OR22725]; U.S. Department of Energy; United States Government
+CR Alajlan N, 2014, IEEE GEOSCI REMOTE S, V11, P259, DOI 10.1109/LGRS.2013.2255258
+   [Anonymous], 2012, MACH LEARN, V0, P0
+   [Anonymous], 2010, P 13 INT C ARTIFICIA, V0, P0
+   Bahirat K, 2012, IEEE T GEOSCI REMOTE, V50, P2810, DOI 10.1109/TGRS.2011.2174154
+   Basaeed E, 2016, INT J REMOTE SENS, V37, P1671, DOI 10.1080/01431161.2016.1159745
+   Bergstra JBO., 2010, P PYTH SCI COMP C SC, V0, P0
+   Blanchart P, 2014, IEEE J-STARS, V7, P1127, DOI 10.1109/JSTARS.2014.2302333
+   Bruzzone L, 2001, IEEE T GEOSCI REMOTE, V39, P456, DOI 10.1109/36.905255
+   Bruzzone L, 2009, IEEE T GEOSCI REMOTE, V47, P3180, DOI 10.1109/TGRS.2009.2019636
+   Choe H., 2016, ARXIV161002273, V0, P0
+   Crawford MM, 2013, P IEEE, V101, P593, DOI 10.1109/JPROC.2012.2231951
+   Daume H, 2006, J ARTIF INTELL RES, V26, P101, DOI 10.1613/jair.1872
+   Demir B, 2016, IEEE T GEOSCI REMOTE, V54, P892, DOI 10.1109/TGRS.2015.2469138
+   Demir B, 2014, IEEE T GEOSCI REMOTE, V52, P1272, DOI 10.1109/TGRS.2013.2249522
+   Donahue B, 2015, 2015 IEEE AEROSPACE CONFERENCE, V0, P0
+   Duchi J, 2011, J MACH LEARN RES, V12, P2121
+   Gal Y., 2016, P NIPS BAYES DEEP LE, V0, P0
+   Glorot Xavier, 2011, P 28 INT C MACH LEAR, V0, PP97, DOI 10.1177/1753193411430810
+   Gomez-Chova L, 2015, P IEEE, V103, P1560, DOI 10.1109/JPROC.2015.2449668
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Graesser J, 2012, IEEE J-STARS, V5, P1164, DOI 10.1109/JSTARS.2012.2190383
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Hinton G., 2002, P 15 INT C NEURAL IN, V15, P857, DOI 10.1109/TSMCB.2011.2106208
+   Hinton G., 2012, LNCS, V7700, P599, DOI 10.1007/978-3-642-35289-8_32
+   Hinton GE, 2006, NEURAL COMPUT, V18, P1527, DOI 10.1162/neco.2006.18.7.1527
+   Hu W, 2015, J SENSORS, V2015, P0, DOI 10.1155/2015/258619
+   Kim W, 2010, IEEE T GEOSCI REMOTE, V48, P4110, DOI 10.1109/TGRS.2010.2076287
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Kulis B., 2009, P IEEE INT C COMP VI, V0, P0
+   Li MK, 2006, IEEE T PATTERN ANAL, V28, P1251, DOI 10.1109/TPAMI.2006.156
+   Lunga D, 2014, IEEE SIGNAL PROC MAG, V31, P55, DOI 10.1109/MSP.2013.2279894
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Matasci G, 2015, ISPRS J PHOTOGRAMM, V107, P99, DOI 10.1016/j.isprsjprs.2015.05.004
+   Matasci G, 2012, IEEE J-STARS, V5, P1335, DOI 10.1109/JSTARS.2012.2202881
+   NESTEROV IE, 1983, DOKL AKAD NAUK SSSR+, V269, P543
+   NVIDIA, 2016, NVIDIA CUDNN NVIDIA, V0, P0
+   Oquab M, 2014, PROC CVPR IEEE, V0, PP1717, DOI 10.1109/CVPR.2014.222
+   Paisitkriangkrai S, 2016, IEEE J-STARS, V9, P2868, DOI 10.1109/JSTARS.2016.2582921
+   Patlolla Dilip R., 2012, P 1 ACM SIGSPATIAL I, V0, PP43, DOI 10.1145/2447481.2447487
+   Persello C, 2016, IEEE T GEOSCI REMOTE, V54, P2615, DOI 10.1109/TGRS.2015.2503885
+   Persello C, 2014, IEEE T GEOSCI REMOTE, V52, P6652, DOI 10.1109/TGRS.2014.2300189
+   Ruder Sebastian, 2016, ARXIV160904747, V0, P0
+   Rujoiu-Mare MR, 2016, PROCEDIA ENVIRON SCI, V32, P244, DOI 10.1016/j.proenv.2016.03.029
+   Salakhutdinov R., 2007, P 24 ACM INT C MACH, V0, P791
+   Shawe-Taylor John, 2004, KERNEL METHODS PATTE, V0, P6
+   Sherrah J., 2016, ARXIV160602585, V0, P0
+   Sun H, 2016, IEEE J-STARS, V9, P2901, DOI 10.1109/JSTARS.2015.2500961
+   Tuia D., 2017, IEEE GEOSCI REMOTE S, V0, P0
+   Tuia D, 2014, IEEE T GEOSCI REMOTE, V52, P7708, DOI 10.1109/TGRS.2014.2317499
+   Tuia D, 2013, IEEE T GEOSCI REMOTE, V51, P329, DOI 10.1109/TGRS.2012.2200045
+   van de Sande KEA, 2011, IEEE T MULTIMEDIA, V13, P60, DOI 10.1109/TMM.2010.2091400
+   Vatsavai RR, 2013, 2013 JOINT URBAN REMOTE SENSING EVENT (JURSE), V0, PP246, DOI 10.1109/JURSE#.2013.6550711
+   Volpi M, 2015, ISPRS J PHOTOGRAMM, V107, P50, DOI 10.1016/j.isprsjprs.2015.02.005
+   Yang HL, 2016, IEEE J-STARS, V9, P543, DOI 10.1109/JSTARS.2015.2449738
+   Yoshua B., 2012, ARXIV12065533, V0, P0
+   Zhong ZS, 2016, IEEE T GEOSCI REMOTE, V54, P4461, DOI 10.1109/TGRS.2016.2542342
+NR 57
+TC 22
+Z9 24
+U1 2
+U2 19
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD MAR 15
+PY 2018
+VL 11
+IS 3
+BP 962
+EP 977
+DI 10.1109/JSTARS.2018.2795753
+PG 16
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA FZ2QI
+UT WOS:000427425000025
+DA 2023-04-26
+ER
+
+PT J
+AU Whittington, JCR
+   Muller, TH
+   Mark, S
+   Barry, C
+   Behrens, TEJ
+AF Whittington, James C. R.
+   Muller, Timothy H.
+   Mark, Shirley
+   Barry, Caswell
+   Behrens, Timothy E. J.
+TI Generalisation of structural knowledge in the hippocampal-entorhinal system
+SO ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 31 (NIPS 2018)
+LA English
+DT Proceedings Paper
+ID conceptual knowledge; spatial map; memory; representations; cells; rats
+AB A central problem to understanding intelligence is the concept of generalisation. This allows previously learnt structure to be exploited to solve tasks in novel situations differing in their particularities. We take inspiration from neuroscience, specifically the hippocampal-entorhinal system known to be important for generalisation. We propose that to generalise structural knowledge, the representations of the structure of the world, i.e. how entities in the world relate to each other, need to be separated from representations of the entities themselves. We show, under these principles, artificial neural networks embedded with hierarchy and fast Hebbian memory, can learn the statistics of memories and generalise structural knowledge. Spatial neuronal representations mirroring those found in the brain emerge, suggesting spatial cognition is an instance of more general organising principles. We further unify many entorhinal cell types as basis functions for constructing transition graphs, and show these representations effectively utilise memories. We experimentally support model assumptions, showing a preserved relationship between entorhinal grid and hippocampal place cells across environments.
+C1 [Whittington, James C. R.; Muller, Timothy H.; Behrens, Timothy E. J.] Univ Oxford, Oxford, England.
+   [Mark, Shirley; Barry, Caswell] UCL, London, England.
+C3 University of Oxford; University of London; University College London
+RP Whittington, JCR; Muller, TH (corresponding author), Univ Oxford, Oxford, England.
+EM james.whittington@magd.ox.ac.uk; timothymuller127@gmail.com; s.mark@ucl.ac.uk; caswell.barry@ucl.ac.uk; behrens@fmrib.ox.ac.uk
+FU Wellcome Trust Senior Research Fellowship [WT104765MA]; James S. McDonnell Foundation Award [JSMF220020372]; EPSRC scholarship; MRC scholarship
+CR Aronov D, 2017, NATURE, V543, P719, DOI 10.1038/nature21692
+   Banino A, 2018, NATURE, V557, P429, DOI 10.1038/s41586-018-0102-6
+   Barry C, 2012, P NATL ACAD SCI USA, V109, P17687, DOI 10.1073/pnas.1209918109
+   Bostock E, 1991, HIPPOCAMPUS, V1, P193, DOI 10.1002/hipo.450010207
+   Buckmaster CA, 2004, J NEUROSCI, V24, P9811, DOI 10.1523/JNEUROSCI.1532-04.2004
+   Bush D, 2015, NEURON, V87, P507, DOI 10.1016/j.neuron.2015.07.006
+   Constantinescu AO, 2016, SCIENCE, V352, P1464, DOI 10.1126/science.aaf0941
+   Cueva Christopher J., 2018, EMERGENCE GRID LIKE, V0, P1
+   Deshmukh SS, 2013, HIPPOCAMPUS, V23, P253, DOI 10.1002/hipo.22101
+   Dordek Y, 2016, ELIFE, V5, P0, DOI 10.7554/eLife.10094
+   Dusek JA, 1997, P NATL ACAD SCI USA, V94, P7109, DOI 10.1073/pnas.94.13.7109
+   Fyhn M, 2007, NATURE, V446, P190, DOI 10.1038/nature05601
+   Gemici Mevlana, 2017, GENERATIVE TEMPORAL, V0, P1
+   Hafting T, 2005, NATURE, V436, P801, DOI 10.1038/nature03721
+   Hassabis D, 2017, NEURON, V95, P245, DOI 10.1016/j.neuron.2017.06.011
+   Hassabis D, 2007, P NATL ACAD SCI USA, V104, P1726, DOI 10.1073/pnas.0610561104
+   Hoydal O. A., 2018, BIORXIV, V0, P0, DOI DOI 10.1101/286286
+   Jimenez Rezende Danilo, 2014, STOCHASTIC BACKPROPA, V0, P0, DOI DOI 10.1051/0004-6361/201527329
+   Kingma D. P., 2013, ARXIV13126114, V0, P0
+   Kjelstrup KB, 2008, SCIENCE, V321, P140, DOI 10.1126/science.1157086
+   Komorowski RW, 2009, J NEUROSCI, V29, P9918, DOI 10.1523/JNEUROSCI.1378-09.2009
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Krupic J, 2012, SCIENCE, V337, P853, DOI 10.1126/science.1222403
+   Kumaran D, 2009, NEURON, V63, P889, DOI 10.1016/j.neuron.2009.07.030
+   Lei Ba Jimmy, 2016, ADV NEURAL INFORM PR, V0, P1
+   Leutgeb Stefan, 2005, INDEPENDENT CODES SP, V0, P619
+   MCCLELLAND JL, 1995, PSYCHOL REV, V102, P419, DOI 10.1037/0033-295X.102.3.419
+   Mnih V, 2015, NATURE, V518, P529, DOI 10.1038/nature14236
+   Monaco JD, 2011, J NEUROSCI, V31, P9414, DOI 10.1523/JNEUROSCI.1433-11.2011
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   Solstad T, 2008, SCIENCE, V322, P1865, DOI 10.1126/science.1166466
+   Stachenfeld KL, 2017, NAT NEUROSCI, V20, P1643, DOI 10.1038/nn.4650
+   Stemmler M, 2015, SCI ADV, V1, P0, DOI 10.1126/science.1500816
+   Stensola H, 2012, NATURE, V492, P72, DOI 10.1038/nature11649
+   TAUBE JS, 1990, J NEUROSCI, V10, P420
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Tsao A, 2018, NATURE, V561, P57, DOI 10.1038/s41586-018-0459-6
+   Whittington JCR, 2017, NEURAL COMPUT, V29, P1229, DOI 10.1162/NECO_a_00949
+   Wood ER, 1999, NATURE, V397, P613, DOI 10.1038/17605
+NR 39
+TC 6
+Z9 6
+U1 0
+U2 3
+PU NEURAL INFORMATION PROCESSING SYSTEMS (NIPS)
+PI LA JOLLA
+PA 10010 NORTH TORREY PINES RD, LA JOLLA, CALIFORNIA 92037 USA
+SN 1049-5258
+EI 
+J9 ADV NEUR IN
+PD JUN 15
+PY 2018
+VL 31
+IS 
+BP 
+EP 
+DI 
+PG 12
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA BM3CA
+UT WOS:000461852003008
+DA 2023-04-26
+ER
+
+PT J
+AU Attaf, D
+   Djerriri, K
+   Cheriguene, SR
+   Karoui, MS
+AF Attaf, Dalila
+   Djerriri, Khelifa
+   Cheriguene, Sarah Rabia
+   Karoui, Moussa Sofiane
+TI One-Dimensional Convolution Neural Networks for Object-Based Feature Selection
+SO IMAGE AND SIGNAL PROCESSING FOR REMOTE SENSING XXIV
+LA English
+DT Proceedings Paper
+DE Very High Spatial Resolution Imagery; Feature Selection; Geographic Object-Based Image Analysis; Deep Learning; 1-D Convolutional Neural Network
+ID classification
+AB Recently, the new Geographic object-based image analysis (GEOBIA) was proposed as an alternative classification approach to pixel based ones. In GEOBIA, image segments can be depicted with various attributes such as spectral, texture, shape, deep features and context, and hence final classification can produce better land cover/use map. The presence of such a large number of features poses significant challenges to standard machine learning methods and has rendered many existing classification techniques impractical. In this work, we are interested to feature selection techniques, which are employed to reduce the dimensionality of the data while keeping the most of its expressive power. Inspired by recent works in remote sensing using Convolutional Neural Networks (CNNs), especially for hyperspectral band selection, a feature selection approach based on One-Dimensional Convolutional Neural Networks (1-D CNN) is proposed in this study. All object-based features are used to train the 1-D CNN to obtain well trained model. After testing different feature combinations, we use the well trained model to obtain their test classification accuracies, and finally we select the subset of features with the highest precision. In our experiments, we evaluate our feature selection approach on 30-cm resolution colour infrared (CIR) aerial orthoimagery. A multi-resolution segmentation is performed to segment the images into regions, which are characterized later using various spectral, textural and spatial attributes to form the final object-based feature dataset. The obtained experimental results show that the proposed method can achieve satisfactory results when compared with traditional feature selection approaches.
+C1 [Attaf, Dalila; Djerriri, Khelifa; Cheriguene, Sarah Rabia; Karoui, Moussa Sofiane] Ctr Tech Spatiales, Dept Observat Terre, Arzew 31200, Oran, Algeria.
+C3 Algerian Space Agency (ASAL)
+RP Attaf, D (corresponding author), Ctr Tech Spatiales, Dept Observat Terre, Arzew 31200, Oran, Algeria.
+EM dalila.attaf@gmail.com
+CR Benz UC, 2004, ISPRS J PHOTOGRAMM, V58, P239, DOI 10.1016/j.isprsjprs.2003.10.002
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Breiman L., 2017, CLASSIFICATION REGRE, V0, P0
+   Chandrashekar G, 2014, COMPUT ELECTR ENG, V40, P16, DOI 10.1016/j.compeleceng.2013.11.024
+   Guyon I, 2002, MACH LEARN, V46, P389, DOI 10.1023/A:1012487302797
+   Hu W, 2015, J SENSORS, V2015, P0, DOI 10.1155/2015/258619
+   Johnson B, 2013, ISPRS J PHOTOGRAMM, V83, P40, DOI 10.1016/j.isprsjprs.2013.05.008
+   Johnson BA, 2013, REMOTE SENS LETT, V4, P131, DOI 10.1080/2150704X.2012.705440
+   Marcano-Cedeno A., 2010, IECON 2010 - 36TH ANNUAL CONFERENCE OF IEEE INDUSTRIAL ELECTRONICS, V0, PP2845, DOI 10.1109/IECON.2010.5675075
+   Pang ZY, 2015, COMPUT MATH METHOD M, V2015, P0, DOI 10.1155/2015/450531
+   Somol P, 2004, IEEE T PATTERN ANAL, V26, P900, DOI 10.1109/TPAMI.2004.28
+   Wu H., 2017, DATA CLASSIFICATION, V9, P298, DOI 10.3390/rs9030298
+   Yue J, 2015, REMOTE SENS LETT, V6, P468, DOI 10.1080/2150704X.2015.1047045
+   Zhan Y, 2017, INT GEOSCI REMOTE SE, V0, PP3660, DOI 10.1109/IGARSS.2017.8127792
+   Zhan Y, 2017, IEEE GEOSCI REMOTE S, V14, P2365, DOI 10.1109/LGRS.2017.2765339
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 17
+TC 1
+Z9 1
+U1 1
+U2 8
+PU SPIE-INT SOC OPTICAL ENGINEERING
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98227-0010 USA
+SN 0277-786X
+EI 1996-756X
+J9 PROC SPIE
+PD JUN 15
+PY 2018
+VL 10789
+IS 
+BP 
+EP 
+DI 10.1117/12.2325640
+PG 8
+WC Remote Sensing; Optics
+SC Remote Sensing; Optics
+GA BL7PL
+UT WOS:000455305000049
+DA 2023-04-26
+ER
+
+PT J
+AU Sachdeva, S
+   Bhatia, T
+   Verma, AK
+AF Sachdeva, Shruti
+   Bhatia, Tarunpreet
+   Verma, A. K.
+TI GIS-based evolutionary optimized Gradient Boosted Decision Trees for forest fire susceptibility mapping
+SO NATURAL HAZARDS
+LA English
+DT Article
+DE Wildfires; Forest fire susceptibility mapping; Gradient Boosted Decision Trees; Evolutionary Optimization; Machine learning; Geographic Information System
+ID binary logistic-regression; model; patterns; danger; system; risk; iran
+AB Rampant pasture burning has lead to various forest fires taking their toll over the health of many forests. Nanda Devi Biosphere Reserve, located in the northern part of India, witnessed a majority of these incidents in the recent past, though, it remains comprehensively untouched from research studies. The scale of these wildfires has led to an immense requirement of preventive measures to be taken for recuperating from such events. This requires for an in-depth analysis of the study area, its history of wildfires and their causes. These efforts would assist in laying a blueprint for a contingency plan in the event of a wildfire. This work proposes an evolutionary optimized gradient boosted decision trees for preparing wildfire susceptibility maps for the study area that would aid in the government's forest preservation and disaster management activities. The study took 18 ignition factors of elevation, slope, aspect, plan curvature, topographic position index, topographic water index, normalized difference vegetation index, soil texture, temperature, rainfall, aridity index, potential evapotranspiration, relative humidity, wind speed, land cover and distance from roads, rivers and habitations into consideration. The study revealed that approximately 1432.025 km(2) of area was very highly susceptible to forest fires while 1202.356 km(2) was highly susceptible to forest fires. The proposed model was compared against various machine learning models such as random forest, neural networks and support vector machines, and it outperformed them by achieving an overall accuracy of 95.5%. The proposed model demonstrated good prospects for application in the field of hazard susceptibility mappings.
+C1 [Sachdeva, Shruti; Bhatia, Tarunpreet; Verma, A. K.] Thapar Univ, Dept Comp Sci & Engn, Patiala, Punjab, India.
+C3 Thapar Institute of Engineering & Technology
+RP Sachdeva, S (corresponding author), Thapar Univ, Dept Comp Sci & Engn, Patiala, Punjab, India.
+EM sachdeva_shruti@yahoo.in
+CR Adab H, 2013, NAT HAZARDS, V65, P1723, DOI 10.1007/s11069-012-0450-8
+   [Anonymous], 2017, WILDFIRE TODAY, V0, P0
+   [Anonymous], 2016, FIR SMOK FOR FIR NUM, V0, P0
+   [Anonymous], 2017, FOR FIR IND, V0, P0
+   [Anonymous], 2016, UND BURN ISS IND FOR, V0, P0
+   Arpaci A, 2014, APPL GEOGR, V53, P258, DOI 10.1016/j.apgeog.2014.05.015
+   Batista A. C., 2000, FLORESTA, V30, P45
+   Bermudez PD, 2009, INT J WILDLAND FIRE, V18, P983, DOI 10.1071/WF07044
+   Branke J., 2012, EVOLUTIONARY OPTIMIZ, V3, P0
+   Chuvieco E, 2004, REMOTE SENS ENVIRON, V92, P322, DOI 10.1016/j.rse.2004.01.019
+   Conedera M, 2011, FOREST ECOL MANAG, V261, P2179, DOI 10.1016/j.foreco.2010.08.013
+   Bui DT, 2017, AGR FOREST METEOROL, V233, P32, DOI 10.1016/j.agrformet.2016.11.002
+   Bui DT, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5919-4
+   Bui DT, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040347
+   Ding C, 2016, SUSTAINABILITY-BASEL, V8, P0, DOI 10.3390/su8111100
+   Earth Policy Institute, 2017, WILDF REG OBS FUT PR, V0, P0
+   Eugenio FC, 2016, J ENVIRON MANAGE, V173, P65, DOI 10.1016/j.jenvman.2016.02.021
+   FERRAZ S. F. B., 1998, SCI FOR, V53, P39
+   Ghinoi A, 2005, GEOMORPHOLOGY, V66, P305, DOI 10.1016/j.geomorph.2004.09.018
+   Hargrove WW, 1994, USING EMBYR LARGE SC, V0, P0
+   Keane R.E., 1998, DEV INPUT DATA LAYER, V0, P0
+   Lentile LB, 2006, INT J WILDLAND FIRE, V15, P557, DOI 10.1071/WF05096
+   Linn R, 2002, INT J WILDLAND FIRE, V11, P233, DOI 10.1071/WF02007
+   Lombardo L, 2015, NAT HAZARDS, V79, P1621, DOI 10.1007/s11069-015-1915-3
+   Lopes AMG, 2002, ENVIRON MODELL SOFTW, V17, P269, DOI 10.1016/S1364-8152(01)00072-X
+   McGrattan K.B., 2000, FIRE DYNAMICS SIMULA, V0, P0
+   Pastor E, 2003, PROG ENERG COMBUST, V29, P139, DOI 10.1016/S0360-1285(03)00017-0
+   Pourghasemi HR, 2016, SCAND J FOREST RES, V31, P80, DOI 10.1080/02827581.2015.1052750
+   Rajeev K., 2002, INT J APPL EARTH OBS, V4, P1, DOI 10.1016/S0303-2434(02)00006-5
+   Sangal PM, 1981, P NAT SEM FOR FIR CO, V0, P0
+   Satir O, 2016, GEOMAT NAT HAZ RISK, V7, P1645, DOI 10.1080/19475705.2015.1084541
+   Sturtevant BR, 2009, ECOL MODEL, V220, P3380, DOI 10.1016/j.ecolmodel.2009.07.030
+   Suryabhagavan KV, 2016, TROP ECOL, V57, P33
+   Van Wagner C.E., 1987, DEV STRUCTURE CANADI, V0, P0
+   Vilar L, 2010, INT J WILDLAND FIRE, V19, P325, DOI 10.1071/WF09030
+   Wotton BM, 2003, CLIMATIC CHANGE, V60, P275, DOI 10.1023/A:1026075919710
+   Xiangwei Gao, 2011, PROCEEDINGS OF THE 2011 IEEE INTERNATIONAL CONFERENCE ON SPATIAL DATA MINING AND GEOGRAPHICAL KNOWLEDGE SERVICES (ICSDM 2011), V0, PP593, DOI 10.1109/ICSDM.2011.5969116
+   Xue Y, 2018, SOFT COMPUT, V22, P2935, DOI 10.1007/s00500-017-2547-1
+   Yang J, 2007, FOREST SCI, V53, P1
+   Youssef AM, 2016, LANDSLIDES, V13, P839, DOI 10.1007/s10346-015-0614-1
+NR 40
+TC 56
+Z9 56
+U1 3
+U2 66
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0921-030X
+EI 1573-0840
+J9 NAT HAZARDS
+JI Nat. Hazards
+PD JUL 15
+PY 2018
+VL 92
+IS 3
+BP 1399
+EP 1418
+DI 10.1007/s11069-018-3256-5
+PG 20
+WC Geosciences, Multidisciplinary; Meteorology & Atmospheric Sciences; Water Resources
+SC Geology; Meteorology & Atmospheric Sciences; Water Resources
+GA GH8JD
+UT WOS:000433913500007
+DA 2023-04-26
+ER

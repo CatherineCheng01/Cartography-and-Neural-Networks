@@ -1,0 +1,412 @@
+
+PT J
+AU Ferreira, AA
+   Borges, RA
+   Paparini, C
+   Ciraolo, L
+   Radicella, SM
+AF Ferreira, Arthur Amaral
+   Borges, Renato Alves
+   Paparini, Claudia
+   Ciraolo, Luigi
+   Radicella, Sandro M.
+TI Short-term estimation of GNSS TEC using a neural network model in Brazil
+SO ADVANCES IN SPACE RESEARCH
+LA English
+DT Article
+DE TEC modeling; Neural Network; GLONASS data network; TEC calibration
+ID total electron-content; space weather; radio flux; gps; equatorial; prediction; station
+AB This work presents a novel Neural Network (NN) model to estimate Total Electron Content (TEC) from Global Navigation Satellite Systems (GNSS) measurements in three distinct sectors in Brazil. The purpose of this work is to start the investigations on the development of a regional model that can be used to determine the vertical TEC over Brazil, aiming future applications on a near real-time frame estimations and short-term forecasting. The NN is used to estimate the GNSS TEC values at void locations, where no dual-frequency GNSS receiver that may be used as a source of data to GNSS TEC estimation is available. This approach is particularly useful for GNSS single-frequency users that rely on corrections of ionospheric range errors by TEC models. GNSS data from the first GLONASS network for research and development (GLONASS R&D network) installed in Latin America, and from the Brazilian Network for Continuous Monitoring of the GNSS (RMBC) were used on TEC calibration. The input parameters of the NN model are based on features known to influence TEC values, such as geographic location of the GNSS receiver, magnetic activity, seasonal and diurnal variations, and solar activity. Data from two ten-days periods (from DoY 154 to 163 and from 282 to 291) are used to train the network. Three distinct analyses have been carried out in order to assess time-varying and spatial performance of the model. At the spatial performance analysis, for each region, a set of stations is chosen to provide training data to the NN, and after the training procedure, the NN is used to estimate vTEC behavior for the test station which data were not presented to the NN in training process. An analysis is done by comparing, for each testing station, the estimated NN vTEC delivered by the NN and reference calibrated vTEC. Also, as a second analysis, the network ability to forecast one day after the time interval (DoY 292) based on information of the second period of investigation is also assessed in order to verify the feasibility on using low amount of data for short-term forecasting. In a third analysis, the spatial performance of the NN model is assessed and compared against CODE Global Ionospheric Maps during the geomagnetic storm registered on 13th and 14th October 2016. The results obtained from the three described analyses indicate that even using a ten-days period of data to train the network, the proposed NN model provides good spatial performance and presents to be a promising tool for short-term forecasting. The results obtained in the analysis presented a root mean squared error less than 7.9 TECU in all scenarios under investigation. (C) 2017 COSPAR. Published by Elsevier Ltd. All rights reserved.
+C1 [Ferreira, Arthur Amaral; Borges, Renato Alves] Univ Brasilia UnB, Dept Elect Engn, BR-70910900 Brasilia, DF, Brazil.
+   [Paparini, Claudia; Ciraolo, Luigi; Radicella, Sandro M.] Abdus Salam Int Ctr Theoret Phys ICTP, Str Costiera 11, I-34151 Trieste, Italy.
+   [Paparini, Claudia] Abdus Salaam Int Ctr Theoret Phys, Trieste, Italy.
+   [Paparini, Claudia] ESSP SAS European Satellite Syst Provider, Toulouse, France.
+C3 Universidade de Brasilia; Abdus Salam International Centre for Theoretical Physics (ICTP); Abdus Salam International Centre for Theoretical Physics (ICTP)
+RP Ferreira, AA (corresponding author), Univ Brasilia UnB, Dept Elect Engn, BR-70910900 Brasilia, DF, Brazil.
+EM arthur.af.ferreira@gmail.com; raborges@ene.unb.br; claudia.paparini@gmail.com; lciraolo@ictp.it; rsandro@ictp.it
+FU Russian joint stock company JCmuch less thanRPCmuch less thanPSImuch greater than; Brazilian agency CAPES
+CR Aguirre L. A., 2004, PHYS REV E, V69, P1
+   Akala AO, 2013, ANN GEOPHYS-GERMANY, V31, P2085, DOI 10.5194/angeo-31-2085-2013
+   BARTELS J, 1957, ANN INT GEOPHYS YEAR, V4, P227, DOI 10.1016/B978-1-4832-1304-0.50007-5
+   Bhuyan PK, 2007, ADV SPACE RES, V39, P830, DOI 10.1016/j.asr.2006.12.042
+   Borre K., 2012, ALGORITHMS GLOBAL PO, V1, P0
+   Braasch M. S., 1996, GLOBAL POSITIONING S, V1, P547, DOI 10.2514/5.9781600866388.0547.0568
+   Cesaroni C, 2015, J SPACE WEATHER SPAC, V5, P0, DOI 10.1051/swsc/2015038
+   Ciraolo L, 2007, J GEODESY, V81, P111, DOI 10.1007/s00190-006-0093-1
+   Denardini CM, 2016, ADV SPACE RES, V58, P1960, DOI 10.1016/j.asr.2016.03.011
+   Denardini CM, 2016, ADV SPACE RES, V58, P1940, DOI 10.1016/j.asr.2016.03.013
+   Elmas ZG, 2011, ANN GEOPHYS-GERMANY, V29, P1383, DOI 10.5194/angeo-29-1383-2011
+   Habarulema JB, 2007, J ATMOS SOL-TERR PHY, V69, P1842, DOI 10.1016/j.jastp.2007.09.002
+   Habarulema JB, 2009, ADV SPACE RES, V43, P1711, DOI 10.1016/j.asr.2008.08.020
+   Haykin S., 1999, NEURAL NETWORKS COMP, V1, P0
+   Haykin S., 2009, NEURAL NETWORKS LEAR, V1, P0
+   Hofmann-Wellenhof B., 2008, GNSS GLOBAL NAVIGATI, V1, P0
+   Hoque MM, 2015, J GEODESY, V89, P391, DOI 10.1007/s00190-014-0783-z
+   Langley R.B., 1992, PUBLICATIONS GEODESY, V36, P97
+   Leandro RF, 2007, STUD GEOPHYS GEOD, V51, P279, DOI 10.1007/s11200-007-0015-6
+   Liu ZP, 2016, GEOD GEODYN, V7, P356, DOI 10.1016/j.geog.2016.05.009
+   Mannucci AJ, 1998, RADIO SCI, V33, P565, DOI 10.1029/97RS02707
+   Martins SAM, 2013, J CONTROL AUTOM ELEC, V24, P764, DOI 10.1007/s40313-013-0071-9
+   Mukherjee S, 2010, ADV SPACE RES, V46, P291, DOI 10.1016/j.asr.2010.03.024
+   Okoh D, 2016, GEOD GEODYN, V7, P19, DOI 10.1016/j.geog.2016.03.003
+   Rovira-Garcia A, 2015, IEEE T GEOSCI REMOTE, V53, P4596, DOI 10.1109/TGRS.2015.2402598
+   Takahashi H, 2014, ADV SPACE RES, V54, P385, DOI 10.1016/j.asr.2014.01.032
+   Tapping KF, 2013, SPACE WEATHER, V11, P394, DOI 10.1002/swe.20064
+   Webster Iain R., 1993, THESIS, V0, P0
+   Yu X, 2015, STEM CELLS INT, V2015, P0, DOI 10.1155/2015/619290
+   Zhao J, 2008, CHINESE J ASTRON AST, V8, P472, DOI 10.1088/1009-9271/8/4/11
+NR 30
+TC 10
+Z9 11
+U1 0
+U2 16
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0273-1177
+EI 1879-1948
+J9 ADV SPACE RES
+JI Adv. Space Res.
+PD OCT 15
+PY 2017
+VL 60
+IS 8
+BP 1765
+EP 1776
+DI 10.1016/j.asr.2017.06.001
+PG 12
+WC Engineering, Aerospace; Astronomy & Astrophysics; Geosciences, Multidisciplinary; Meteorology & Atmospheric Sciences
+SC Engineering; Astronomy & Astrophysics; Geology; Meteorology & Atmospheric Sciences
+GA FJ3GZ
+UT WOS:000412620000018
+DA 2023-04-26
+ER
+
+PT J
+AU Al-Abadi, AM
+AF Al-Abadi, Alaa M.
+TI A novel geographical information system-based Ant Miner algorithm model for delineating groundwater flowing artesian well boundary: a case study from Iraqi southern and western deserts
+SO ENVIRONMENTAL EARTH SCIENCES
+LA English
+DT Article
+DE Ant colony; Hydrogeology; Arid regions; Pattern analysis; Iraq
+ID logistic-regression; feature-selection; neural-networks; decision-tree; colony; optimization; area
+AB The Ant Miner algorithm was compared with the bivariate frequency ratio (FR) and boosted regression trees (BRT) algorithms in terms of its capacity to assess groundwater potential. A geospatial dataset was prepared that contains two components: a flowing well inventory map and eleven factors relevant to groundwater conditions. Average nearest neighbor technique was used to investigate the spatial pattern of flowing wells and to find the appropriate distance between flowing and nonflowing points in the study area. A wrapper approach known as random forest classifier and a filtering approach known as information gain ratio were used to identify the most relevant groundwater factors. The developed models were validated via the area under the operating characteristic curve. Results revealed that the Ant Miner model performed better in terms of both success (0.944) and prediction (0.92) rates compared to FR and BRT. Furthermore, the Ant Miner algorithm derived five simple, easily interpreted rules for predicting groundwater potential that can be used by hydrogeologists for identifying potential groundwater well locations with minimal effort and cost.
+C1 [Al-Abadi, Alaa M.] Univ Basrah, Coll Sci, Dept Geol, Basrah, Iraq.
+C3 University of Basrah
+RP Al-Abadi, AM (corresponding author), Univ Basrah, Coll Sci, Dept Geol, Basrah, Iraq.
+EM alaaatiaa@gmail.com
+CR Abeare S. M., 2009, THESIS STATE U BATON, V0, P0
+   Abraham A, 2003, EVOLUTIONARY COMPUTA, V2, P1284
+   Ahmed Z, 2012, 2012585 QUEENS U SCH, V0, P51
+   Al-Abadi AM, 2016, SUST WAT RESOUR MAN, V2, P265, DOI 10.1007/s40899-016-0056-5
+   Al-Abadi AM, 2016, MODEL EARTH SYST ENV, V2, P0, DOI 10.1007/s40808-016-0150-6
+   Al-Abadi AM, 2017, APPL WATER SCI, V7, P699, DOI 10.1007/s13201-015-0283-1
+   Bonham-Carter G. F., 1994, GEOGRAPHIC INFORM SY, V0, P0
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Bullnheimer B, 1997, 1 VIENN U EC, V0, P17
+   Carranza EJM, 2015, COMPUT GEOSCI-UK, V74, P60, DOI 10.1016/j.cageo.2014.10.004
+   CLARK PJ, 1954, ECOLOGY, V35, P445, DOI 10.2307/1931034
+   COLORNI A, 1992, FROM ANIM ANIMAT, V0, P134
+   Corsini A, 2009, GEOMORPHOLOGY, V111, P79, DOI 10.1016/j.geomorph.2008.03.015
+   Costa EP, 2007, LECT NOTES COMPUT SC, V4643, P126
+   de Winnaar G, 2007, PHYS CHEM EARTH, V32, P1058, DOI 10.1016/j.pce.2007.07.009
+   Dorigo M., 1997, IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION, V1, P53, DOI 10.1109/4235.585892
+   Dorigo M, 1996, IEEE T SYST MAN CY B, V26, P29, DOI 10.1109/3477.484436
+   Dorigo M, 2004, ANT COLONY OPTIMIZAT, V0, P320
+   Elith J, 2008, J ANIM ECOL, V77, P802, DOI 10.1111/j.1365-2656.2008.01390.x
+   Aouragh MH, 2017, GEOMAT NAT HAZ RISK, V8, P194, DOI 10.1080/19475705.2016.1181676
+   Handl J, 2006, ARTIF LIFE, V12, P35, DOI 10.1162/106454606775186400
+   Israil M, 2006, J SPAT HYDROL, V6, P34
+   Jassim S.Z., 2006, GEOLOGY IRAQ, V0, P431
+   Kohavi R, 1997, ARTIF INTELL, V97, P273, DOI 10.1016/S0004-3702(97)00043-X
+   Kuhn M, 2013, APPL PREDICTIVE MODE, V0, P0, DOI DOI 10.1007/978-1-4614-6849-3
+   Kursa MB, 2010, J STAT SOFTW, V36, P1, DOI 10.18637/jss.v036.i11
+   Lai CG, 2016, J HYDROL, V542, P268, DOI 10.1016/j.jhydrol.2016.09.003
+   Lee S, 2015, SUSTAINABILITY-BASEL, V7, P13416, DOI 10.3390/su71013416
+   Lee S, 2012, HYDROGEOL J, V20, P1511, DOI 10.1007/s10040-012-0894-7
+   Liu B, 2003, IEEE WIC INT C INT A, V0, P0, DOI DOI 10.1109/IAT.2003.1241052
+   Liu XP, 2008, IEEE T GEOSCI REMOTE, V46, P4198, DOI 10.1109/TGRS.2008.2001754
+   Maniezzo V, 1991, 91016 DIP EL POL MIL, V0, P0
+   McDonald RC, 1990, AUSTR SOIL LAND SURV, V0, P0
+   Naghibi SA, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-015-5049-6
+   Naghibi SA, 2015, EARTH SCI INFORM, V8, P171, DOI 10.1007/s12145-014-0145-7
+   Nampak H, 2014, J HYDROL, V513, P283, DOI 10.1016/j.jhydrol.2014.02.053
+   Nilsson R, 2007, J MACH LEARN RES, V8, P589
+   Oh HJ, 2011, J HYDROL, V399, P158, DOI 10.1016/j.jhydrol.2010.12.027
+   Omkar SN, 2008, ENG APPL ARTIF INTEL, V21, P1381, DOI 10.1016/j.engappai.2008.02.004
+   Ozdemir A, 2011, J HYDROL, V411, P290, DOI 10.1016/j.jhydrol.2011.10.010
+   Pacheco FAL, 2002, HYDROGEOL J, V10, P239, DOI 10.1007/s10040-001-0186-0
+   Pacheco FAL, 2014, J HYDROL, V513, P13, DOI 10.1016/j.jhydrol.2014.03.036
+   Parpinelli RS, 2002, IEEE T EVOLUT COMPUT, V6, P321, DOI 10.1109/TEVC.2002.802452
+   Parsons RM, 1955, GROUNDWATER RESOURCE, V4, P142
+   Peterson W, 1954, IRE T PGIT, V4, P171, DOI 10.1109/TIT.1954.1057460
+   Pourtaghi ZS, 2014, HYDROGEOL J, V22, P643, DOI 10.1007/s10040-013-1089-6
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Van Bellen RC, 1959, IRAQ INTERN GEOL CON, V3, P333
+   Wang ZL, 2015, J HYDROL, V527, P1130, DOI 10.1016/j.jhydrol.2015.06.008
+   Witten IH, 2011, MOR KAUF D, V0, P1
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Zare M, 2013, ARAB J GEOSCI, V6, P2873, DOI 10.1007/s12517-012-0610-x
+   Zou KH, 2007, CIRCULATION, V115, P654, DOI 10.1161/CIRCULATIONAHA.105.594929
+NR 53
+TC 6
+Z9 6
+U1 1
+U2 16
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 1866-6280
+EI 1866-6299
+J9 ENVIRON EARTH SCI
+JI Environ. Earth Sci.
+PD AUG 15
+PY 2017
+VL 76
+IS 15
+BP 
+EP 
+DI 10.1007/s12665-017-6876-2
+PG 19
+WC Environmental Sciences; Geosciences, Multidisciplinary; Water Resources
+SC Environmental Sciences & Ecology; Geology; Water Resources
+GA FD5BF
+UT WOS:000407545200027
+DA 2023-04-26
+ER
+
+PT J
+AU Chagas, CD
+   Pinheiro, HSK
+   de Carvalho, W
+   dos Anjos, LHC
+   Pereira, NR
+   Bhering, SB
+AF Chagas, Cesar da Silva
+   Koenow Pinheiro, Helena Saraiva
+   de Carvalho Junior, Waldir
+   Cunha dos Anjos, Lucia Helena
+   Pereira, Nilson Rendeiro
+   Bhering, Silvio Barge
+TI Data mining methods applied to map soil units on tropical hillslopes in Rio de Janeiro, Brazil
+SO GEODERMA REGIONAL
+LA English
+DT Article
+DE Terrain attributes; Artificial neural network; Random forest; Decision tree; Soil mapping
+ID artificial neural-networks; elevation models; landscape; classification; attributes
+AB A soil survey is the main source of soil spatial information and is very useful in supporting land use decisions, especially for agronomic purposes. However, the continuity of soil surveying in Brazil has been compromised due the minimal amount of government investment in the sector. The goal of this study was to evaluate the performance of three data mining methods-decision trees (DT), random forest (RF), and artificial neural networks (ANN)-with R software to predict soil map units from the Guapi-Macacu watershed in Rio de Janeiro State, Brazil. Terrain attributes derived from a digital elevation model (DEM), remote sensing data (Landsat 5), and a geology map were used as predictors. Evaluation of the models' performance was based on statistical indices obtained from a confusion matrix by using validation samples. Furthermore, a comparison was performed to analyze the agreement between the maps created from the models and from a conventional soil map (legacy data); sampling locations were not used as input data in the training process. The results indicated better performance from the RF model compared with the DT and ANN models. The accuracy was calculated through validation samples indicating values in the Kappa index corresponding to 0.76 (RF), 0.72 (ANN) and 0.66 (DT). A comparison between the maps obtained from the models and the conventional soil map exhibited better agreement with the RF model (68.7%), followed by the ANN (62.8%), and DT (62.3%) models. The classification accuracy, obtained through comparisons with sampling locations, exhibited correct classification of 57.6% in the RF model, 56.8% in the DT, and 56.1% in the ANN model; the conventional soil map had 69.7% correct classification. In general, most of the confusion between soil map units was observed in Haplic Gleysols, Haplic Acrisols (Clayic) and Fluvisols. In terms of covariates importance, in general, the terrain attributes derived from the DEM had more influence as predictor covariates than the indices obtained from the Landsat data. The application of data mining can improve the methods applied to soil map units, thereby contributing to increasing information related to soil-landscape relationships and enhancing the products of soil surveys. (c) 2017 Elsevier B.V. All rights reserved.
+C1 [Chagas, Cesar da Silva; de Carvalho Junior, Waldir; Pereira, Nilson Rendeiro; Bhering, Silvio Barge] Embrapa Solos, Rio De Janeiro, RJ, Brazil.
+   [Koenow Pinheiro, Helena Saraiva; Cunha dos Anjos, Lucia Helena] Fed Rural Univ Rio De Janeiro UFRRJ, Dept Soil Sci Agron Inst, Seropedica, RJ, Brazil.
+C3 Empresa Brasileira de Pesquisa Agropecuaria (EMBRAPA); Universidade Federal Rural do Rio de Janeiro (UFRRJ)
+RP Pinheiro, HSK (corresponding author), BR 465 Km 7,Campus UFRRJ, BR-23897000 Seropedica, RJ, Brazil.
+EM lenask@gmail.com
+FU National Counsel of Technological and Scientific Development - CNPq (Brazil) [480515/2013-1]; Coordination of Improvement of Higher Level Personnel - CAPES (Brazil); Federal Rural University of Rio de Janeiro - Agronomy Institute (Brazil); Embrapa Solos (Brazil)
+CR Adhikari K, 2014, GEODERMA, V214, P101, DOI 10.1016/j.geoderma.2013.09.023
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P699, DOI 10.1080/014311697217224
+   Barthold FK, 2013, J ARID ENVIRON, V88, P194, DOI 10.1016/j.jaridenv.2012.08.004
+   Behrens T, 2007, DEV SOIL SCI, V31, P353
+   Behrens T, 2005, J PLANT NUTR SOIL SC, V168, P21, DOI 10.1002/jpln.200421414
+   Boruvka L, 2007, DEV SOIL SCI, V31, P415
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Brus DJ, 2011, EUR J SOIL SCI, V62, P394, DOI 10.1111/j.1365-2389.2011.01364.x
+   Cavazzi S, 2013, GEODERMA, V195, P111, DOI 10.1016/j.geoderma.2012.11.020
+   Chagas C.S., 2006, THESIS, V0, P2006
+   Chagas CD, 2013, REV BRAS CIENC SOLO, V37, P339, DOI 10.1590/S0100-06832013000200005
+   Chagas CD, 2010, PESQUI AGROPECU BRAS, V45, P497, DOI 10.1590/S0100-204X2010000500009
+   Collard F., 2014, GEODERMA REG, V1, P21, DOI 10.1016/j.geodrs.2014.07.001
+   Congalton R.G., 2008, ASSESSING ACCURACY R, V0, P0
+   CONGALTON RG, 1986, IEEE T GEOSCI REMOTE, V24, P169, DOI 10.1109/TGRS.1986.289546
+   Crivelenti RC, 2009, PESQUI AGROPECU BRAS, V44, P1707, DOI 10.1590/S0100-204X2009001200021
+   de Arruda GP, 2013, REV BRAS CIENC SOLO, V37, P327, DOI 10.1590/S0100-06832013000200004
+   de Carvalho W, 2014, GEODERMA, V232, P479, DOI 10.1016/j.geoderma.2014.06.007
+   Embrapa, 2003, B PESQUISA DESENVOLV, V32, P242
+   Embrapa, 2006, CTR NAC PESQ SOL SIS, V0, P0
+   Giasson E, 2011, SCI AGR, V68, P167, DOI 10.1590/S0103-90162011000200006
+   Grimm R, 2008, GEODERMA, V146, P102, DOI 10.1016/j.geoderma.2008.05.008
+   Heung B, 2014, GEODERMA, V214, P141, DOI 10.1016/j.geoderma.2013.09.016
+   IUSS Working Group, 2014, WORLD SOIL RESOURCES, V106, P0
+   Kempen B, 2009, GEODERMA, V151, P311, DOI 10.1016/j.geoderma.2009.04.023
+   Kheir RB, 2010, ENVIRON POLLUT, V158, P520, DOI 10.1016/j.envpol.2009.08.009
+   Pinheiro HSK, 2012, PESQUI AGROPECU BRAS, V47, P1384, DOI 10.1590/S0100-204X2012000900024
+   LANDIS JR, 1977, BIOMETRICS, V33, P159, DOI 10.2307/2529310
+   Lorenzetti R, 2015, GEODERMA, V237, P237, DOI 10.1016/j.geoderma.2014.09.006
+   Minasny B, 2006, COMPUT GEOSCI-UK, V32, P1378, DOI 10.1016/j.cageo.2005.12.009
+   Moonjun R, 2010, PROGR SOIL SCI, V2, P151, DOI 10.1007/978-90-481-8863-5_13
+   Odgers NP, 2014, GEODERMA, V214, P91, DOI 10.1016/j.geoderma.2013.09.024
+   Pinheiro H. S. K., 2015, THESIS, V0, P0
+   Pinheiro HSK, 2012, THESIS, V0, P0
+   Rad MRP, 2014, GEODERMA, V232, P97, DOI 10.1016/j.geoderma.2014.04.036
+   Roudier P, 2012, DIGITAL SOIL ASSESSMENTS AND BEYOND, V0, P227
+   Silva L. D., 2001, GEOLOGIA ESTADO RIO, V0, P1
+   Soil Survey Staff, 2014, KEYS SOIL TAXONOMY, V12th, P0
+   Stum AK, 2010, PROGR SOIL SCI, V2, P179, DOI 10.1007/978-90-481-8863-5_15
+   Vieira C. A. O., 2000, THESIS, V0, P0
+   Yang L, 2011, SOIL SCI SOC AM J, V75, P1044, DOI 10.2136/sssaj2010.0002
+   Zell A, 1995, STUTTGART NEURAL NET, V0, P0
+   Zhu AX, 2000, WATER RESOUR RES, V36, P663, DOI 10.1029/1999WR900315
+NR 44
+TC 13
+Z9 13
+U1 0
+U2 2
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2352-0094
+EI 
+J9 GEODERMA REG
+JI Geoderma Reg.
+PD JUN 15
+PY 2017
+VL 9
+IS 
+BP 47
+EP 55
+DI 10.1016/j.geodrs.2017.03.004
+PG 9
+WC Soil Science
+SC Agriculture
+GA VH8WR
+UT WOS:000457277600006
+DA 2023-04-26
+ER
+
+PT J
+AU Noguchi, W
+   Iizuka, H
+   Yamamoto, M
+AF Noguchi, Wataru
+   Iizuka, Hiroyuki
+   Yamamoto, Masahito
+TI Cognitive map self-organization from subjective visuomotor experiences in a hierarchical recurrent neural network
+SO ADAPTIVE BEHAVIOR
+LA English
+DT Article
+DE Cognitive map; self-organization; hierarchical recurrent neural network; visuomotor integration
+ID spatial representation; place cells; grid cells; navigation; model; rats
+AB Animals develop and use cognitive maps, which are internal models of the external environment, to understand the spatial characteristics of their natural environment. Previous studies have shown that a hierarchical structure of recurrent neural networks contributes to the extraction of high-level concepts in sequential sensorimotor experiences. However, the previous studies did not focus on the spatial aspects of these experiences and did not acquire cognitive maps. We modified previous models and trained the proposed model with the visuomotor experiences of an agent in a simulated two-dimensional environment. The proposed model was trained to predict future visual and motion inputs even when only one modality was provided (crossmodal prediction). The proposed model correctly predicted visual images, even when the agent experienced unknown paths. Comparisons of the crossmodal predictions of the models under different conditions revealed that the crossmodal predictions related to motion resulted in self-organization of the cognitive map. Further experiments of mental simulation abilities showed that two-way crossmodal predictions (from vision and motion only) were required for consistent generation of vision and motion. These results indicated that predictive learning involving integrated vision and motion was necessary for self-organization of spatial recognition with a cognitive map.
+C1 [Noguchi, Wataru; Iizuka, Hiroyuki; Yamamoto, Masahito] Hokkaido Univ, Grad Sch Informat Sci & Technol, Sapporo, Hokkaido, Japan.
+C3 Hokkaido University
+RP Noguchi, W (corresponding author), Hokkaido Univ, Grad Sch Informat Sci & Technol, Kita Ku, Kita 14,Nishi 9, Sapporo, Hokkaido 0600814, Japan.
+EM noguchi@complex.ist.hokudai.ac.jp
+FU Grants-in-Aid for Scientific Research [15K05884] Funding Source: KAKEN
+CR Abadi M, 2016, TENSORFLOW SYSTEM LA, V0, P0
+   Villacorta-Atienza JA, 2013, IEEE T NEUR NET LEAR, V24, P2075, DOI 10.1109/TNNLS.2013.2271645
+   Chen GF, 2013, P NATL ACAD SCI USA, V110, P378, DOI 10.1073/pnas.1215834110
+   Cho K., 2014, PROC 8 WORKSHOP SYNT, V0, PP103, DOI 10.3115/V1/W14-4012
+   Choi M., 2016, PREDICTIVE CODING DY, V0, P0
+   Chung J, 2014, NIPS 2014 WORKSH DEE, V0, P0
+   Clevert D. - A., 2016, ARXIV151107289, V0, P1
+   Davidson TJ, 2009, NEURON, V63, P497, DOI 10.1016/j.neuron.2009.07.027
+   Fyhn M, 2004, SCIENCE, V305, P1258, DOI 10.1126/science.1099901
+   HELD R, 1963, J COMP PHYSIOL PSYCH, V56, P872, DOI 10.1037/h0040546
+   Hwang J., 2016, 6 JOINT IEEE INT C D, V0, P0
+   Jauffret A, 2015, FRONT NEUROROBOTICS, V9, P0, DOI 10.3389/fnbot.2015.00001
+   Jung M, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0131214
+   KAWATO M, 1987, BIOL CYBERN, V57, P169, DOI 10.1007/BF00364149
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   McNaughton BL, 2006, NAT REV NEUROSCI, V7, P663, DOI 10.1038/nrn1932
+   Milford M. J., 2004, IEEE INT C ROB AUT I, V0, P0
+   Moller R, 2008, COGNITIVE SCI, V32, P504, DOI 10.1080/03640210802035241
+   Moser EI, 2008, ANNU REV NEUROSCI, V31, P69, DOI 10.1146/annurev.neuro.31.061307.090723
+   MULLER RU, 1987, J NEUROSCI, V7, P1951
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   Olafsdottir HF, 2015, ELIFE, V4, P0, DOI 10.7554/eLife.06063
+   Paine RW, 2005, ADAPT BEHAV, V13, P211, DOI 10.1177/105971230501300303
+   Philipona D, 2003, NEURAL COMPUT, V15, P2029, DOI 10.1162/089976603322297278
+   Shi X., 2015, ADV NEURAL INFORM PR, V28, P802, DOI 10.5555/2969239.2969329
+   Tani J, 1996, IEEE T SYST MAN CY B, V26, P421, DOI 10.1109/3477.499793
+   Tani J, 1999, NEURAL NETWORKS, V12, P1131, DOI 10.1016/S0893-6080(99)00060-X
+   TAUBE JS, 1990, J NEUROSCI, V10, P420
+   Terekhov AV, 2016, FRONT ROBOT AI, V3, P0, DOI 10.3389/frobt.2016.00004
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Villacorta-Atienza JA, 2015, BIOL CYBERN, V109, P307, DOI 10.1007/s00422-015-0644-8
+   Williams R.J., 1995, BACK PROPAG THEORY A, V433, P17
+   Wyss R, 2006, PLOS BIOL, V4, P836, DOI 10.1371/journal.pbio.0040120
+   Yamashita Y, 2008, PLOS COMPUT BIOL, V4, P0, DOI 10.1371/journal.pcbi.1000220
+NR 35
+TC 6
+Z9 6
+U1 1
+U2 12
+PU SAGE PUBLICATIONS LTD
+PI LONDON
+PA 1 OLIVERS YARD, 55 CITY ROAD, LONDON EC1Y 1SP, ENGLAND
+SN 1059-7123
+EI 1741-2633
+J9 ADAPT BEHAV
+JI Adapt. Behav.
+PD JUN 15
+PY 2017
+VL 25
+IS 3
+BP 129
+EP 146
+DI 10.1177/1059712317711487
+PG 18
+WC Computer Science, Artificial Intelligence; Psychology, Experimental; Social Sciences, Interdisciplinary
+SC Computer Science; Psychology; Social Sciences - Other Topics
+GA FA4YU
+UT WOS:000405450600002
+DA 2023-04-26
+ER
+
+PT J
+AU Chandiok, A
+   Chaturvedi, DK
+AF Chandiok, Ashish
+   Chaturvedi, D. K.
+TI Biologically Inspired Techniques for Cognitive Decision-Making
+SO PROCEEDINGS OF THE INTERNATIONAL CONFERENCE ON DATA ENGINEERING AND COMMUNICATION TECHNOLOGY, ICDECT 2016, VOL 2
+LA English
+DT Proceedings Paper
+DE Biological; Cognitive; Neural network; Fuzzy; Cognitive map architecture
+ID map; systems
+AB In this paper, Artificial Biologically Inspired Techniques based on perceptions related to human cognitive decision-making is presented by proposing a novel BICIT (Biologically Inspired Cognitive Information Theory) architecture. These ideas openly associate neuro-biological brain actions that can explain advanced cognitive meanings comprehended by the mind. This architectural model on the one side elucidates inherent complications in human cognitive sciences, clarifying the behaviour of real-world interaction. On the other hand, points to prototypes of mind in the synergism of neural and fuzzy hybrid cognitive map systems. These structures can contend in forecasting, pattern recognition and classification jobs with neural networks and reasoning tasks with the fuzzy cognitive expert decision making.
+C1 [Chandiok, Ashish; Chaturvedi, D. K.] Dayalbagh Educ Inst, Fac Engn, Agra, Uttar Pradesh, India.
+C3 Dayalbagh Educational Institute (DEI)
+RP Chandiok, A (corresponding author), Dayalbagh Educ Inst, Fac Engn, Agra, Uttar Pradesh, India.
+EM a.chandiok@gmail.com; dkc.foe@gmail.com
+CR Chong HQ, 2007, ARTIF INTELL REV, V28, P103, DOI 10.1007/s10462-009-9094-9
+   Elomda B. M., 2014, IEEE INT C ENG TECHN, V0, P1
+   Kar S, 2014, APPL SOFT COMPUT, V15, P243, DOI 10.1016/j.asoc.2013.10.014
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Malkawi M., 2013, J HUMAN CENTRIC COMP, V3, P1
+   Miao Y, 2001, IEEE T FUZZY SYST, V9, P760, DOI 10.1109/91.963762
+   Papageorgiou E, 2003, LECT NOTES ARTIF INT, V2903, P256
+   Papageorgiou EI, 2006, INT J HUM-COMPUT ST, V64, P727, DOI 10.1016/j.ijhcs.2006.02.009
+   Papageorgiou EI, 2012, COMPUT METH PROG BIO, V105, P233, DOI 10.1016/j.cmpb.2011.09.006
+   Papageorgiou EI, 2011, APPL SOFT COMPUT, V11, P500, DOI 10.1016/j.asoc.2009.12.010
+   Singh P, 2013, KNOWL-BASED SYST, V46, P12, DOI 10.1016/j.knosys.2013.01.030
+   Stylios CD, 2004, IEEE T SYST MAN CY A, V34, P155, DOI 10.1109/TSMCA.2003.818878
+   Stylios CD, 2008, APPL SOFT COMPUT, V8, P1243, DOI 10.1016/j.asoc.2007.02.022
+   Subramanian Kartick, 2013, IEEE TRANSACTIONS ON FUZZY SYSTEMS, V21, P1080, DOI 10.1109/TFUZZ.2013.2242894
+   Vernon D, 2007, IEEE T EVOLUT COMPUT, V11, P151, DOI 10.1109/TEVC.2006.890274
+   Wei X, 2015, IEEE T FUZZY SYST, V23, P72, DOI 10.1109/TFUZZ.2015.2390226
+NR 16
+TC 1
+Z9 1
+U1 0
+U2 1
+PU SPRINGER-VERLAG SINGAPORE PTE LTD
+PI SINGAPORE
+PA SINGAPORE, SINGAPORE
+SN 2194-5357
+EI 2194-5365
+J9 ADV INTELL SYST
+PD JUN 15
+PY 2017
+VL 469
+IS 
+BP 353
+EP 361
+DI 10.1007/978-981-10-1678-3_34
+PG 9
+WC Computer Science, Artificial Intelligence; Computer Science, Hardware & Architecture; Computer Science, Theory & Methods; Robotics
+SC Computer Science; Robotics
+GA BH2KE
+UT WOS:000399004300034
+DA 2023-04-26
+ER

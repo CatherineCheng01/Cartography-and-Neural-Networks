@@ -1,0 +1,523 @@
+
+PT J
+AU Yang, H
+   Wu, PH
+   Yao, XD
+   Wu, YL
+   Wang, B
+   Xu, YY
+AF Yang, Hui
+   Wu, Penghai
+   Yao, Xuedong
+   Wu, Yanlan
+   Wang, Biao
+   Xu, Yongyang
+TI Building Extraction in Very High Resolution Imagery by Dense-Attention Networks
+SO REMOTE SENSING
+LA English
+DT Article
+DE building extraction; deep learning; attention mechanism; very high resolution; imagery
+ID lidar data; neural-network; urban areas; data fusion; rgb
+AB Building extraction from very high resolution (VHR) imagery plays an important role in urban planning, disaster management, navigation, updating geographic databases, and several other geospatial applications. Compared with the traditional building extraction approaches, deep learning networks have recently shown outstanding performance in this task by using both high-level and low-level feature maps. However, it is difficult to utilize different level features rationally with the present deep learning networks. To tackle this problem, a novel network based on DenseNets and the attention mechanism was proposed, called the dense-attention network (DAN). The DAN contains an encoder part and a decoder part which are separately composed of lightweight DenseNets and a spatial attention fusion module. The proposed encoder-decoder architecture can strengthen feature propagation and effectively bring higher-level feature information to suppress the low-level feature and noises. Experimental results based on public international society for photogrammetry and remote sensing (ISPRS) datasets with only red-green-blue (RGB) images demonstrated that the proposed DAN achieved a higher score (96.16% overall accuracy (OA), 92.56% F1 score, 90.56% mean intersection over union (MIOU), less training and response time and higher-quality value) when compared with other deep learning methods.
+C1 [Yang, Hui] Wuhan Univ, Sch Resource & Environm Sci, Wuhan 430079, Hubei, Peoples R China.
+   [Yang, Hui; Wu, Penghai; Yao, Xuedong; Wu, Yanlan; Wang, Biao] Anhui Univ, Sch Resources & Environm Engn, Hefei 230601, Anhui, Peoples R China.
+   [Wu, Penghai; Wu, Yanlan] Anhui Univ, Inst Phys Sci & Informat Technol, Hefei 230601, Anhui, Peoples R China.
+   [Wu, Penghai; Wu, Yanlan; Wang, Biao] Anhui Engn Res Ctr Geog Informat Intelligent Tech, Hefei 230601, Anhui, Peoples R China.
+   [Xu, Yongyang] China Univ Geosci, Dept Informat Engn, Wuhan 430074, Hubei, Peoples R China.
+C3 Wuhan University; Anhui University; Anhui University; China University of Geosciences
+RP Wu, PH; Wu, YL (corresponding author), Anhui Univ, Sch Resources & Environm Engn, Hefei 230601, Anhui, Peoples R China.; Wu, PH; Wu, YL (corresponding author), Anhui Univ, Inst Phys Sci & Informat Technol, Hefei 230601, Anhui, Peoples R China.; Wu, PH; Wu, YL (corresponding author), Anhui Engn Res Ctr Geog Informat Intelligent Tech, Hefei 230601, Anhui, Peoples R China.
+EM yanghui@whu.edu.cn; wuph@ahu.edu.cn; yaoxd9501@163.com; wylmq@sina.com; wangbiao-rs@ahu.edu.cn; yongyangxu@cug.edu.cn
+FU National Natural Science Foundation of China [41501376, 41571400]; Natural Science Foundation of Anhui Province [1608085MD83]; Key Laboratory of Earth Observation and Geospatial Information Science of NASG [201805]; Science Research Project of Anhui Education Department [KJ2018A0007]; open fund for Discipline Construction, Institute of Physical Science and Information Technology, Anhui University
+CR Ahmadi S, 2010, INT J APPL EARTH OBS, V12, P150, DOI 10.1016/j.jag.2010.02.001
+   Aljumaily H, 2017, J COMPUT CIVIL ENG, V31, P0, DOI 10.1061/(ASCE)CP.1943-5487.0000674
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   [Anonymous], 2015, ICLR, V0, P0
+   [Anonymous], 2016, ARXIV161106612, V0, P0
+   [Anonymous], 2017, ARXIV170605587V3, V0, P0
+   Audebert N, 2018, ISPRS J PHOTOGRAMM, V140, P20, DOI 10.1016/j.isprsjprs.2017.11.011
+   Awrangjeb M, 2014, IEEE J-STARS, V7, P4184, DOI 10.1109/JSTARS.2014.2318694
+   Badrinarayanan V., 2016, ARXIV151100561V3, V0, P0
+   Bittner K, 2017, INT ARCH PHOTOGRAMM, V42-1, P481, DOI 10.5194/isprs-archives-XLII-1-W1-481-2017
+   Campos-Taberner M, 2016, IEEE J-STARS, V9, P5547, DOI 10.1109/JSTARS.2016.2569162
+   Chen Kan, 2015, ARXIV151105960V2, V0, P0
+   Chen L, 2017, PROC CVPR IEEE, V0, PP6298, DOI 10.1109/CVPR.2017.667
+   Du SJ, 2017, ISPRS J PHOTOGRAMM, V130, P294, DOI 10.1016/j.isprsjprs.2017.06.005
+   Fu JL, 2017, PROC CVPR IEEE, V0, PP4476, DOI 10.1109/CVPR.2017.476
+   Ghanea M, 2016, INT J REMOTE SENS, V37, P5234, DOI 10.1080/01431161.2016.1230287
+   Ghanea M, 2014, INT J REMOTE SENS, V35, P5094, DOI 10.1080/01431161.2014.933278
+   Ghiasi G, 2016, LECT NOTES COMPUT SC, V9907, P519, DOI 10.1007/978-3-319-46487-9_32
+   Gilani SAN, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8030258
+   Hu J., 2018, ARXIV170901507V2, V0, P0
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Huang X, 2011, PHOTOGRAMM ENG REM S, V77, P721, DOI 10.14358/PERS.77.7.721
+   Huang ZM, 2016, INT GEOSCI REMOTE SE, V0, PP1835, DOI 10.1109/IGARSS.2016.7729471
+   Itti L, 2001, NAT REV NEUROSCI, V2, P194, DOI 10.1038/35058500
+   Jegou S, 2017, IEEE COMPUT SOC CONF, V0, PP1175, DOI 10.1109/CVPRW.2017.156
+   Jin XY, 2005, EURASIP J APPL SIG P, V2005, P2196, DOI 10.1155/ASP.2005.2196
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   Kuen J, 2016, PROC CVPR IEEE, V0, PP3668, DOI 10.1109/CVPR.2016.399
+   Li E, 2017, IEEE J-STARS, V10, P906, DOI 10.1109/JSTARS.2016.2603184
+   Li H., 2018, ARXIV180510180V2, V0, P0
+   Li L, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091350
+   Niemeyer J, 2014, ISPRS J PHOTOGRAMM, V87, P152, DOI 10.1016/j.isprsjprs.2013.11.001
+   Ok AO, 2013, ISPRS J PHOTOGRAMM, V86, P21, DOI 10.1016/j.isprsjprs.2013.09.004
+   Pleiss G, 2017, ARXIV170706990V1, V0, P0
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Saito S, 2016, J IMAGING SCI TECHN, V60, P0, DOI 10.2352/J.ImagingSci.Technol.2016.60.1.010402
+   Sun Y, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091459
+   Vakalopoulou M, 2015, INT GEOSCI REMOTE SE, V0, PP1873, DOI 10.1109/IGARSS.2015.7326158
+   Vo AV, 2016, IEEE J-STARS, V9, P5560, DOI 10.1109/JSTARS.2016.2581843
+   Wang F, 2017, PROC CVPR IEEE, V0, PP6450, DOI 10.1109/CVPR.2017.683
+   Wang HZ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050446
+   Xu K., 2015, CMPUTER SCI, V0, P0
+   Xu YY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010144
+   Yang HL, 2018, IEEE J-STARS, V11, P2600, DOI 10.1109/JSTARS.2018.2835377
+   Yang YB, 2018, PROC CVPR IEEE, V0, PP2413, DOI 10.1109/CVPR.2018.00256
+   Yang ZC, 2016, PROC CVPR IEEE, V0, PP21, DOI 10.1109/CVPR.2016.10
+   Yao L, 2015, IEEE I CONF COMP VIS, V0, PP4507, DOI 10.1109/ICCV.2015.512
+   Yu B, 2018, IEEE J-STARS, V11, P3252, DOI 10.1109/JSTARS.2018.2860989
+   Yu CQ, 2018, PROC CVPR IEEE, V0, PP1857, DOI 10.1109/CVPR.2018.00199
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+NR 50
+TC 64
+Z9 70
+U1 6
+U2 31
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 2072-4292
+EI 
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD NOV 15
+PY 2018
+VL 10
+IS 11
+BP 
+EP 
+DI 10.3390/rs10111768
+PG 16
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HC3WO
+UT WOS:000451733800099
+DA 2023-04-26
+ER
+
+PT J
+AU Zhuo, XY
+   Fraundorfer, F
+   Kurz, F
+   Reinartz, P
+AF Zhuo, Xiangyu
+   Fraundorfer, Friedrich
+   Kurz, Franz
+   Reinartz, Peter
+TI Optimization of OpenStreetMap Building Footprints Based on Semantic Information of Oblique UAV Images
+SO REMOTE SENSING
+LA English
+DT Article
+DE building footprint; oblique UAV images; semantic segmentation; deep neural network
+ID extraction; segmentation
+AB Building footprint information is vital for 3D building modeling. Traditionally, in remote sensing, building footprints are extracted and delineated from aerial imagery and/or LiDAR point cloud. Taking a different approach, this paper is dedicated to the optimization of OpenStreetMap (OSM) building footprints exploiting the contour information, which is derived from deep learning-based semantic segmentation of oblique images acquired by the Unmanned Aerial Vehicle (UAV). First, a simplified 3D building model of Level of Detail 1 (LoD 1) is initialized using the footprint information from OSM and the elevation information from Digital Surface Model (DSM). In parallel, a deep neural network for pixel-wise semantic image segmentation is trained in order to extract the building boundaries as contour evidence. Subsequently, an optimization integrating the contour evidence from multi-view images as a constraint results in a refined 3D building model with optimized footprints and height. Our method is leveraged to optimize OSM building footprints for four datasets with different building types, demonstrating robust performance for both individual buildings and multiple buildings regardless of image resolution. Finally, we compare our result with reference data from German Authority Topographic-Cartographic Information System (ATKIS). Quantitative and qualitative evaluations reveal that the original OSM building footprints have large offset, but can be significantly improved from meter level to decimeter level after optimization.
+C1 [Zhuo, Xiangyu; Fraundorfer, Friedrich; Kurz, Franz; Reinartz, Peter] German Aerosp Ctr, Remote Sensing Technol Inst, D-82234 Wessling, Germany.
+   [Zhuo, Xiangyu] Tech Univ Munich, Remote Sensing Technol, D-80333 Munich, Germany.
+   [Fraundorfer, Friedrich] Graz Univ Technol, Inst Comp Graph & Vis, A-8010 Graz, Austria.
+C3 Helmholtz Association; German Aerospace Centre (DLR); Technical University of Munich; Graz University of Technology
+RP Zhuo, XY (corresponding author), German Aerosp Ctr, Remote Sensing Technol Inst, D-82234 Wessling, Germany.; Zhuo, XY (corresponding author), Tech Univ Munich, Remote Sensing Technol, D-80333 Munich, Germany.
+EM xiangyu.zhuo@dlr.de; fraundorfer@icg.tugraz.at; franz.kurz@dlr.de; Peter.Reinartz@dlr.de
+FU German Academic Exchange Service (DAAD:DLR/DAAD Research Fellowship) [50019750]
+CR Aicardi I, 2016, INT ARCH PHOTOGRAMM, V41, P835, DOI 10.5194/isprsarchives-XLI-B1-835-2016
+   Arnab A., 2016, P 14 EUR C COMP VIS, V0, P0
+   Awrangjeb M, 2014, REMOTE SENS-BASEL, V6, P3716, DOI 10.3390/rs6053716
+   Bittner K, 2017, INT ARCH PHOTOGRAMM, V42-1, P481, DOI 10.5194/isprs-archives-XLII-1-W1-481-2017
+   BORGEFORS G, 1986, COMPUT VISION GRAPH, V34, P344, DOI 10.1016/S0734-189X(86)80047-0
+   DAngelo P., 2011, ISPRS HANN WORKSH HA, V0, P0
+   Dai YC, 2017, INT J DIGIT EARTH, V10, P1077, DOI 10.1080/17538947.2016.1269841
+   Dini GR, 2013, INT ARCH PHOTOGRAMM, V40-1, P81
+   Dornaika F, 2016, EXPERT SYST APPL, V58, P130, DOI 10.1016/j.eswa.2016.03.024
+   Fan HC, 2014, INT J GEOGR INF SCI, V28, P700, DOI 10.1080/13658816.2013.867495
+   Gevaert CM, 2017, ISPRS J PHOTOGRAMM, V125, P225, DOI 10.1016/j.isprsjprs.2017.01.017
+   Goetz M, 2013, INT J GEOGR INF SCI, V27, P845, DOI 10.1080/13658816.2012.721552
+   Hammoudi K, 2009, P OBJ EXTR 3D CIT MO, V0, P0
+   Huang ZM, 2016, INT GEOSCI REMOTE SE, V0, PP1835, DOI 10.1109/IGARSS.2016.7729471
+   Kurz F, 2014, INT ARCH PHOTOGRAMM, V40-1, P189, DOI 10.5194/isprsarchives-XL-1-189-2014
+   Lafarge F, 2012, INT J COMPUT VISION, V99, P69, DOI 10.1007/s11263-012-0517-8
+   Li Y, 2013, OPTIK, V124, P5357, DOI 10.1016/j.ijleo.2013.03.045
+   Lingua A, 2017, INT ARCH PHOTOGRAMM, V42-4, P107, DOI 10.5194/isprs-archives-XLII-4-W2-107-2017
+   Mongus D, 2012, ISPRS J PHOTOGRAMM, V67, P1, DOI 10.1016/j.isprsjprs.2011.10.002
+   MULLER S, 2005, INT ARCH PHOTOGRAMME, V36, P143
+   MULLER W., 2000, INT ARCH PHOTOGRAM R, V33, P710
+   Muller W., 1998, INT ARCH PHOTOGRAMM, V32, P411
+   Nex F, 2013, ISPRS ANN PHOTO REM, VII-3/W3, P61, DOI 10.5194/isprsannals-II-3-W3-61-2013
+   Ok AO, 2013, INT ARCH PHOTOGRAMM, V40-1, P269
+   Onyango FA, 2017, INT ARCH PHOTOGRAMM, V42-1, P599, DOI 10.5194/isprs-archives-XLII-1-W1-599-2017
+   POWELL MJD, 1964, COMPUT J, V7, P155, DOI 10.1093/comjnl/7.2.155
+   PRESS WH, 1989, NUMERICAL RECIPES, V0, P0
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Shih F.Y., 2009, IMAGE PROCESSING MAT, V0, P0
+   Sirmacek B, 2008, 23RD INTERNATIONAL SYMPOSIUM ON COMPUTER AND INFORMATION SCIENCES, V0, P6
+   Vacca G, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6120393
+   Wegner J.D., 2009, INT ARCH PHOTOGRAM 3, V38, P0
+   Xiao J, 2015, INT J IMAGE DATA FUS, V6, P270, DOI 10.1080/19479832.2015.1050073
+   Xie FF, 2012, INT ARCH PHOTOGRAMM, V39-B1, P469
+   Yang BS, 2013, IEEE GEOSCI REMOTE S, V10, P766, DOI 10.1109/LGRS.2012.2222342
+   Zheng S., 2015, P INT C COMP VIS ICC, V0, P0
+   Zhou QY, 2010, LECT NOTES COMPUT SC, V6313, P115
+   Zhu QS, 2015, INT ARCH PHOTOGRAMM, V44, P199, DOI 10.5194/isprsarchives-XL-4-W5-199-2015
+   Zhuo XY, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040376
+NR 40
+TC 18
+Z9 18
+U1 2
+U2 32
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD APR 15
+PY 2018
+VL 10
+IS 4
+BP 
+EP 
+DI 10.3390/rs10040624
+PG 18
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA GJ3IU
+UT WOS:000435187500136
+DA 2023-04-26
+ER
+
+PT J
+AU Jiang, T
+   Liu, XN
+   Wu, L
+AF Jiang, Tian
+   Liu, Xiangnan
+   Wu, Ling
+TI Method for Mapping Rice Fields in Complex Landscape Areas Based on Pre-Trained Convolutional Neural Network from HJ-1 A/B Data
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE mapping rice fields; complex landscape; convolutional neural network; transfer learning; time series of vegetation index
+ID time-series; phenological features; landsat-images; classification; agriculture; emission; asia
+AB Accurate and timely information about rice planting areas is essential for crop yield estimation, global climate change and agricultural resource management. In this study, we present a novel pixel-level classification approach that uses convolutional neural network (CNN) model to extract the features of enhanced vegetation index (EVI) time series curve for classification. The goal is to explore the practicability of deep learning techniques for rice recognition in complex landscape regions, where rice is easily confused with the surroundings, by using mid-resolution remote sensing images. A transfer learning strategy is utilized to fine tune a pre-trained CNN model and obtain the temporal features of the EVI curve. Support vector machine (SVM), a traditional machine learning approach, is also implemented in the experiment. Finally, we evaluate the accuracy of the two models. Results show that our model performs better than SVM, with the overall accuracies being 93.60% and 91.05%, respectively. Therefore, this technique is appropriate for estimating rice planting areas in southern China on the basis of a pre-trained CNN model by using time series data. And more opportunity and potential can be found for crop classification by remote sensing and deep learning technique in the future study.
+C1 [Jiang, Tian; Liu, Xiangnan; Wu, Ling] China Univ Geosci, Sch Informat Engn, Beijing 100083, Peoples R China.
+C3 China University of Geosciences
+RP Liu, XN (corresponding author), China Univ Geosci, Sch Informat Engn, Beijing 100083, Peoples R China.
+EM 15810071678@163.com; liuxn@cugb.edu.cn; wuling@cugb.edu.cn
+CR Arvor D, 2011, INT J REMOTE SENS, V32, P7847, DOI 10.1080/01431161.2010.531783
+   Belgiu M, 2018, REMOTE SENS ENVIRON, V204, P509, DOI 10.1016/j.rse.2017.10.005
+   BISCHOF H, 1992, IEEE T GEOSCI REMOTE, V30, P482, DOI 10.1109/36.142926
+   Boureau Y. L., 2010, P 27 INT C MACH LEAR, V0, PP111, DOI 10.5555/3104322.3104338
+   Chen JS, 2011, MATH COMPUT MODEL, V54, P1037, DOI 10.1016/j.mcm.2010.11.033
+   Di Vittorio CA, 2018, REMOTE SENS ENVIRON, V204, P1, DOI 10.1016/j.rse.2017.11.001
+   Dong JW, 2016, REMOTE SENS ENVIRON, V185, P142, DOI 10.1016/j.rse.2016.02.016
+   Dong JW, 2015, REMOTE SENS ENVIRON, V160, P99, DOI 10.1016/j.rse.2015.01.004
+   Elert E, 2014, NATURE, V514, PS50, DOI 10.1038/514S50a
+   Enkhzaya T., 2011, INTERNATIONAL JOURNAL OF ENVIRONMENTAL STUDIES, V68, P9, DOI 10.1080/00207233.2010.535281
+   FAOSTAT, 1994, STAT DAT FOOD AGR OR, V0, P0
+   Gallego FJ, 2004, INT J REMOTE SENS, V25, P3019, DOI 10.1080/01431160310001619607
+   Gnanamanickam SS, 2009, PROG BIOL CONTROL, V8, P1, DOI 10.1007/978-90-481-2465-7_1
+   Godfray HCJ, 2010, SCIENCE, V327, P812, DOI 10.1126/science.1185383
+   Guan XD, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010019
+   Huete A, 2002, REMOTE SENS ENVIRON, V83, P195, DOI 10.1016/S0034-4257(02)00096-2
+   Jeong YS, 2011, PATTERN RECOGN, V44, P2231, DOI 10.1016/j.patcog.2010.09.022
+   Jia K, 2014, REMOTE SENS-BASEL, V6, P11518, DOI 10.3390/rs61111518
+   Jia YQ, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP675, DOI 10.1145/2647868.2654889
+   Jiang ZY, 2008, REMOTE SENS ENVIRON, V112, P3833, DOI 10.1016/j.rse.2008.06.006
+   Jonsson P, 2004, COMPUT GEOSCI-UK, V30, P833, DOI 10.1016/j.cageo.2004.05.006
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Liao J, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10072570
+   Liu MX, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050772
+   Matthews RB, 2000, NUTR CYCL AGROECOSYS, V58, P141, DOI 10.1023/A:1009894619446
+   Maus V, 2016, IEEE J-STARS, V9, P3729, DOI 10.1109/JSTARS.2016.2517118
+   Miller J, 2018, COMPUT GEOSCI-UK, V118, P79, DOI 10.1016/j.cageo.2018.05.012
+   Mountrakis G, 2011, ISPRS J PHOTOGRAMM, V66, P247, DOI 10.1016/j.isprsjprs.2010.11.001
+   MYNENI RB, 1995, IEEE T GEOSCI REMOTE, V33, P481, DOI 10.1109/36.377948
+   Nair V, 2010, ICML, V27, P807
+   Oguro Y, 2001, ADV SPACE RES, V28, P195, DOI 10.1016/S0273-1177(01)00345-3
+   Orozco-Alzate M, 2015, COMPUT GEOSCI-UK, V85, P86, DOI 10.1016/j.cageo.2015.06.007
+   Palafox LF, 2017, COMPUT GEOSCI-UK, V101, P48, DOI 10.1016/j.cageo.2016.12.015
+   Pan XZ, 2010, INT J REMOTE SENS, V31, P585, DOI 10.1080/01431160902894442
+   Petropoulos GP, 2012, COMPUT GEOSCI-UK, V41, P99, DOI 10.1016/j.cageo.2011.08.019
+   Sass RL, 2002, P NATL ACAD SCI USA, V99, P11993, DOI 10.1073/pnas.202483599
+   Seshadri S, 2007, CURR SCI INDIA, V93, P1346
+   Suk-Young Hong, 1999, IEEE 1999 INTERNATIONAL GEOSCIENCE AND REMOTE SENSING SYMPOSIUM. IGARSS99 (CAT. NO.99CH36293), V0, PP732, DOI 10.1109/IGARSS.1999.774422
+   [孙华生 SUN Hua-sheng], 2009, 遥感学报 JOURNAL OF REMOTE SENSING, V13, P1122
+   TUCKER CJ, 1979, REMOTE SENS ENVIRON, V8, P127, DOI 10.1016/0034-4257(79)90013-0
+   van der Gon HD, 2000, GLOBAL BIOGEOCHEM CY, V14, P61, DOI 10.1029/1999GB900096
+   Vogado LHS, 2018, ENG APPL ARTIF INTEL, V72, P415, DOI 10.1016/j.engappai.2018.04.024
+   Wang J, 2015, REMOTE SENS-BASEL, V7, P3467, DOI 10.3390/rs70403467
+   [王乾坤 Wang Qiankun], 2015, 地球信息科学学报 JOURNAL OF GEO-INFORMATION SCIENCE, V17, P732
+   Weiss Karl, 2016, JOURNAL OF BIG DATA, V3, P0, DOI 10.1186/s40537-016-0043-6
+   WESTE N, 1983, IEEE T COMPUT, V32, P731, DOI 10.1109/TC.1983.1676311
+   Xiao X, 2002, INT J REMOTE SENS, V23, P3009, DOI 10.1080/01431160110107734
+   Xiao XM, 2006, REMOTE SENS ENVIRON, V100, P95, DOI 10.1016/j.rse.2005.10.004
+   Xiao XM, 2005, REMOTE SENS ENVIRON, V95, P480, DOI 10.1016/j.rse.2004.12.009
+   Youssef AA, 2004, IEEE T POWER DELIVER, V19, P272, DOI 10.1109/TPWRD.2003.820178
+   Yue J, 2015, REMOTE SENS LETT, V6, P468, DOI 10.1080/2150704X.2015.1047045
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+   Zhang Xia, 2006, TRANSACTIONS OF THE CHINESE SOCIETY OF AGRICULTURAL ENGINEERING, V22, P128
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 54
+TC 20
+Z9 22
+U1 5
+U2 42
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD NOV 15
+PY 2018
+VL 7
+IS 11
+BP 
+EP 
+DI 10.3390/ijgi7110418
+PG 18
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA HB8CZ
+UT WOS:000451313900005
+DA 2023-04-26
+ER
+
+PT J
+AU Mozgovoy, D
+   Hnatushenko, V
+   Vasyliev, V
+AF Mozgovoy, Dmitriy
+   Hnatushenko, Volodymyr
+   Vasyliev, Volodymyr
+TI Accuracy Evaluation of Automated Object Recognition Using Multispectral Aerial Images and Neural Network
+SO TENTH INTERNATIONAL CONFERENCE ON DIGITAL IMAGE PROCESSING (ICDIP 2018)
+LA English
+DT Proceedings Paper
+DE multispectral aerial images; convolutional neural network; accuracy evaluation; map updating
+AB A methodology of accuracy evaluation of automated object recognition using sub-meter spatial resolution multispectral aerial images and neural network is proposed. The methodology is applied to detection of 5 land cover classes from visible and infrared images using a multilevel convolutional neural network (CNN). In this work the well-known indicators of accuracy classification have been chosen: the confusion matrix and Kappa coefficient. Image processing results are analyzed. It is shown that the recognized object boundaries are delineated with sufficiently high accuracy and classes are well separated. The results of testing confirmed sufficiently high qualitative and quantitative indicators of the developed methodology (classification accuracy, sustainability, reproducibility).
+C1 [Mozgovoy, Dmitriy; Hnatushenko, Volodymyr; Vasyliev, Volodymyr] EOS Data Analyt, 1906 El Camino Real, Menlo Pk, CA 94027 USA.
+   [Mozgovoy, Dmitriy; Hnatushenko, Volodymyr; Vasyliev, Volodymyr] Oles Gonchar Dnipro Natl Univ, 72 Gagarina Av, Dnipro, Ukraine.
+C3 Ministry of Education & Science of Ukraine; Oles Honchar Dnipro National University
+RP Mozgovoy, D (corresponding author), EOS Data Analyt, 1906 El Camino Real, Menlo Pk, CA 94027 USA.; Mozgovoy, D (corresponding author), Oles Gonchar Dnipro Natl Univ, 72 Gagarina Av, Dnipro, Ukraine.
+EM dmitriy.mozgovoy@eosda.com
+CR [曹林林 Cao Linlin], 2016, 测绘科学 SCIENCE OF SURVEYING AND MAPPING, V41, P170
+   Hnatushenko V.V., 2016, AUTOMATIC VEGETATION, V0, P66
+   Hordiiuk DM, 2017, 2017 IEEE INTERNATIONAL YOUNG SCIENTISTS FORUM ON APPLIED PHYSICS AND ENGINEERING (YSF), V0, PP363, DOI 10.1109/YSF.2017.8126648
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Kashtan VJ, 2017, 2017 IEEE INTERNATIONAL YOUNG SCIENTISTS FORUM ON APPLIED PHYSICS AND ENGINEERING (YSF), V0, PP355, DOI 10.1109/YSF.2017.8126647
+   Radovic M, 2017, J IMAGING, V3, P0, DOI 10.3390/jimaging3020021
+   Shedlovska Y. I., 2016, INT YOUNG SCI FOR AP, V0, P0, DOI DOI 10.1109/YSF.2016.7753827
+NR 8
+TC 2
+Z9 2
+U1 0
+U2 2
+PU SPIE-INT SOC OPTICAL ENGINEERING
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98227-0010 USA
+SN 0277-786X
+EI 1996-756X
+J9 PROC SPIE
+PD JUN 15
+PY 2018
+VL 10806
+IS 
+BP 
+EP 
+DI 10.1117/12.2502905
+PG 8
+WC Optics; Imaging Science & Photographic Technology
+SC Optics; Imaging Science & Photographic Technology
+GA BL5UP
+UT WOS:000452819600016
+DA 2023-04-26
+ER
+
+PT J
+AU Shi, TZ
+   Guo, L
+   Chen, YY
+   Wang, WX
+   Shi, Z
+   Li, QQ
+   Wu, GF
+AF Shi, Tiezhu
+   Guo, Long
+   Chen, Yiyun
+   Wang, Weixi
+   Shi, Zhou
+   Li, Qingquan
+   Wu, Guofeng
+TI Proximal and remote sensing techniques for mapping of soil contamination with heavy metals
+SO APPLIED SPECTROSCOPY REVIEWS
+LA English
+DT Review
+DE Environmental; spectroscopy
+ID infrared reflectance spectroscopy; partial least-squares; geographically weighted regression; artificial neural-networks; spatial-distribution; organic-carbon; urban soils; geostatistical analyses; agricultural topsoils; field spectroscopy
+AB Heavy metal soil contamination is a severe environmental problem globally, and its mapping is vital for environmental managers and policymakers to determine its distributions and hotspots. This paper reviewed multiple proximal and remote sensing spectroscopy for convenient and inexpensive method of obtaining soil reflectance spectroscopy or environmental covariates, which can be used for mapping heavy metal soil contamination. Furthermore, spatial prediction using proximal remote-sensed data and environmental covariates was discussed. We suggested that mapping of the spatial distributions of metal species may be important due to the different bioavailabilities and toxicities of various species. The assimilation of multiple proximal/remote-sensed sensors may promote the horizontal and vertical mapping of soil heavy metals. Moreover, combining the advantages of satellite and unmanned aerial vehicle-based hyperspectral imaging systems will facilitate the development of a space-aeronautic incorporation hyperspectral observation technology that can monitor soil environment rapidly and accurately at a large scale.
+C1 [Shi, Tiezhu; Wang, Weixi; Li, Qingquan; Wu, Guofeng] Shenzhen Univ, Natl Adm Surveying Mapping & GeoInformat, Key Lab Geoenvironm Monitoring Coastal Zone, 3688 Nanhai Rd, Shenzhen 518060, Guangdong, Peoples R China.
+   [Shi, Tiezhu; Wang, Weixi; Li, Qingquan; Wu, Guofeng] Shenzhen Univ, Shenzhen Key Lab Spatial Smart Sensing & Serv, 3688 Nanhai Rd, Shenzhen 518060, Guangdong, Peoples R China.
+   [Shi, Tiezhu; Wang, Weixi] Shenzhen Univ, Sch Architecture & Urban Planning, Shenzhen, Peoples R China.
+   [Shi, Tiezhu; Wu, Guofeng] Shenzhen Univ, Coll Life Sci & Oceanog, Shenzhen, Peoples R China.
+   [Guo, Long] Huazhong Agr Univ, Coll Resources & Environm, Wuhan, Hubei, Peoples R China.
+   [Chen, Yiyun] Wuhan Univ, Sch Resource & Environm Sci, Wuhan, Hubei, Peoples R China.
+   [Shi, Zhou] Zhejiang Univ, Inst Appl Remote Sensing & Informat Technol, Hangzhou, Zhejiang, Peoples R China.
+   [Shi, Zhou] Zhejiang Univ, Coll Environm & Resource Sci, Hangzhou, Zhejiang, Peoples R China.
+C3 Shenzhen University; Shenzhen University; Shenzhen University; Shenzhen University; Huazhong Agricultural University; Wuhan University; Zhejiang University; Zhejiang University
+RP Wu, GF (corresponding author), Shenzhen Univ, Natl Adm Surveying Mapping & GeoInformat, Key Lab Geoenvironm Monitoring Coastal Zone, 3688 Nanhai Rd, Shenzhen 518060, Guangdong, Peoples R China.; Wu, GF (corresponding author), Shenzhen Univ, Shenzhen Key Lab Spatial Smart Sensing & Serv, 3688 Nanhai Rd, Shenzhen 518060, Guangdong, Peoples R China.
+EM guofeng.wu@szu.edu.cn
+FU National Natural Science Foundation of China; National Key R&D Program of China; Basic Research Program of Shenzhen Science and Technology Innovation Committee; Scientific Research Foundation for Newly High-End Talents of Shenzhen University; Shenzhen Future Industry Development Funding Program
+CR [Anonymous], 1997, GEOSTATISTICS NATURA, V0, P0
+   [Anonymous], 1900, DOI 10.2113/GSECONGEO:58.8.1246, V0, P0
+   [Anonymous], 1966, J S AFR I MIN METALL, V0, P0
+   [Anonymous], 1941, FACTORS SOIL FORMATI, V0, P0
+   Baveye PC, 2015, J HAZARD MATER, V285, P137, DOI 10.1016/j.jhazmat.2014.11.043
+   Behrens T, 2005, J PLANT NUTR SOIL SC, V168, P21, DOI 10.1002/jpln.200421414
+   Bertin EP., 1975, PRINCIPLES PRACTICE, V0, P0
+   Bishop TFA, 2001, GEODERMA, V103, P149, DOI 10.1016/S0016-7061(01)00074-X
+   Brevik EC, 2016, GEODERMA, V264, P256, DOI 10.1016/j.geoderma.2015.05.017
+   BURGESS TM, 1980, J SOIL SCI, V31, P315, DOI 10.1111/j.1365-2389.1980.tb02084.x
+   Butler OT, 2012, J ANAL ATOM SPECTROM, V27, P187, DOI 10.1039/c1ja90057a
+   Chen T, 2016, SCI TOTAL ENVIRON, V565, P155, DOI 10.1016/j.scitotenv.2016.04.163
+   Chen T, 2015, ENVIRON POLLUT, V206, P217, DOI 10.1016/j.envpol.2015.07.009
+   Choe E, 2008, REMOTE SENS ENVIRON, V112, P3222, DOI 10.1016/j.rse.2008.03.017
+   Diek S, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8110906
+   Du CW, 2011, APPL SPECTROSC REV, V46, P405, DOI 10.1080/05704928.2011.570837
+   Facchinelli A, 2001, ENVIRON POLLUT, V114, P313, DOI 10.1016/S0269-7491(00)00243-8
+   Farr TG, 2007, REV GEOPHYS, V45, P0, DOI 10.1029/2005RG000183
+   Florinsky IV, 2002, ENVIRON MODELL SOFTW, V17, P295, DOI 10.1016/S1364-8152(01)00067-6
+   Fotheringham A.S., 2003, GWR 3 SOFTWARE GEOGR, V0, P0
+   FOY CD, 1978, ANNU REV PLANT PHYS, V29, P511, DOI 10.1146/annurev.pp.29.060178.002455
+   Garcia MJM, 2001, WATER AIR SOIL POLL, V131, P329
+   Gerighausen H., 2012, APPL ENV SOIL SCI, V1, P629
+   GESSLER PE, 1995, INT J GEOGR INF SYST, V9, P421, DOI 10.1080/02693799508902047
+   Goge F, 2012, CHEMOMETR INTELL LAB, V110, P168, DOI 10.1016/j.chemolab.2011.11.003
+   Guerrero C, 2010, GEODERMA, V158, P66, DOI 10.1016/j.geoderma.2009.12.021
+   Guo GH, 2012, J ENVIRON SCI-CHINA, V24, P410, DOI 10.1016/S1001-0742(11)60762-6
+   Guo L, 2017, GEODERMA, V285, P280, DOI 10.1016/j.geoderma.2016.10.010
+   [韩春梅 HAN Chunmei], 2005, 生态学杂志 CHINESE JOURNAL OF ECOLOGY, V24, P1499
+   Harris P, 2010, MATH GEOSCI, V42, P657, DOI 10.1007/s11004-010-9284-7
+   Hengl T, 2004, GEODERMA, V120, P75, DOI 10.1016/j.geoderma.2003.08.018
+   Hengl T., 2003, TECHNICAL NOTE ITC, V51, P1
+   Horta A, 2015, GEODERMA, V241, P180, DOI 10.1016/j.geoderma.2014.11.024
+   Hotelling H, 1936, BIOMETRIKA, V28, P321, DOI 10.1093/biomet/28.3-4.321
+   Hou XD, 2004, APPL SPECTROSC REV, V39, P1, DOI 10.1081/ASR-120028867
+   Igne B, 2010, J NEAR INFRARED SPEC, V18, P167, DOI 10.1255/jnirs.883
+   Imperato M, 2003, ENVIRON POLLUT, V124, P247, DOI 10.1016/S0269-7491(02)00478-5
+   Ji WJ, 2016, SOIL TILL RES, V155, P492, DOI 10.1016/j.still.2015.06.004
+   Jiang QH, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090755
+   John L. Z., 2010, JR STAT SOC A, V173, P693, DOI 10. 1111/j. 1467-985X. 2010. 00646_6. x
+   Kalnicky DJ, 2001, J HAZARD MATER, V83, P93, DOI 10.1016/S0304-3894(00)00330-7
+   Kemper T, 2004, PROC SPIE, V5574, P224, DOI 10.1117/12.565626
+   Khan S, 2008, ENVIRON POLLUT, V152, P686, DOI 10.1016/j.envpol.2007.06.056
+   Kheir RB, 2014, J GEOCHEM EXPLOR, V147, P250, DOI 10.1016/j.gexplo.2014.05.015
+   Kooistra L, 2001, ANAL CHIM ACTA, V446, P97, DOI 10.1016/S0003-2670(01)01265-X
+   Kumar S, 2012, GEODERMA, V189, P627, DOI 10.1016/j.geoderma.2012.05.022
+   Lado LR, 2008, GEODERMA, V148, P189, DOI 10.1016/j.geoderma.2008.09.020
+   Lane PW, 2002, EUR J SOIL SCI, V53, P241, DOI 10.1046/j.1365-2389.2002.00440.x
+   LASLETT GM, 1987, J SOIL SCI, V38, P325, DOI 10.1111/j.1365-2389.1987.tb02148.x
+   Lee CS, 2006, SCI TOTAL ENVIRON, V356, P45, DOI 10.1016/j.scitotenv.2005.03.024
+   Li S, 2015, ENVIRON SCI TECHNOL, V49, P4980, DOI 10.1021/es504272x
+   Li XD, 2004, ENVIRON POLLUT, V129, P113, DOI 10.1016/j.envpol.2003.09.030
+   Li Y, 2011, PROCEDIA ENVIRON SCI, V10, P1953, DOI 10.1016/j.proenv.2011.09.306
+   Liu XY, 2008, PROG PHYS GEOG, V32, P31, DOI 10.1177/0309133308089496
+   Liu YL, 2015, SOIL TILL RES, V148, P46, DOI 10.1016/j.still.2014.12.002
+   Liu YL, 2014, ACTA AGR SCAND B-S P, V64, P267, DOI 10.1080/09064710.2014.906644
+   Liu YL, 2013, SCIENCE, V339, P1382, DOI 10.1126/science.339.6126.1382-b
+   Maas S, 2010, ENVIRON POLLUT, V158, P2294, DOI 10.1016/j.envpol.2010.02.001
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   McBratney AB, 2000, GEODERMA, V97, P293, DOI 10.1016/S0016-7061(00)00043-4
+   McGrath D, 2004, ENVIRON POLLUT, V127, P239, DOI 10.1016/j.envpol.2003.07.002
+   McKenzie NJ, 1999, GEODERMA, V89, P67, DOI 10.1016/S0016-7061(98)00137-2
+   MILLER CK, 2001, CHEM PRINCIPLES NEAR, V0, P0
+   MOORE ID, 1993, SOIL SCI SOC AM J, V57, P443, DOI 10.2136/sssaj1993.03615995005700020026x
+   Mulder VL, 2011, GEODERMA, V162, P1, DOI 10.1016/j.geoderma.2010.12.018
+   Navas A, 2002, APPL GEOCHEM, V17, P961, DOI 10.1016/S0883-2927(02)00006-9
+   ODEH IOA, 1994, GEODERMA, V63, P197, DOI 10.1016/0016-7061(94)90063-9
+   ODEH IOA, 1995, GEODERMA, V67, P215, DOI 10.1016/0016-7061(95)00007-B
+   Odeh IOA, 2000, GEODERMA, V97, P237, DOI 10.1016/S0016-7061(00)00041-0
+   Ordonez A, 2003, ARCH ENVIRON CON TOX, V44, P160, DOI 10.1007/s00244-002-2005-6
+   Peng Y, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8121003
+   Ren HY, 2009, PEDOSPHERE, V19, P719, DOI 10.1016/S1002-0160(09)60167-3
+   Martin JAR, 2006, ENVIRON POLLUT, V144, P1001, DOI 10.1016/j.envpol.2006.01.045
+   Romic M, 2003, ENVIRON GEOL, V43, P795, DOI 10.1007/s00254-002-0694-9
+   Rossel RAV, 2008, AUST J SOIL RES, V46, P1, DOI 10.1071/SR07099
+   Rossel RAV, 2016, EARTH-SCI REV, V155, P198, DOI 10.1016/j.earscirev.2016.01.012
+   Rossel RAV, 2017, ENVIRON SCI TECHNOL, V51, P5630, DOI 10.1021/acs.est.7b00889
+   Rossel RAV, 2006, GEODERMA, V131, P59, DOI 10.1016/j.geoderma.2005.03.007
+   Saby N, 2006, SCI TOTAL ENVIRON, V367, P212, DOI 10.1016/j.scitotenv.2005.11.028
+   Scull P, 2003, PROG PHYS GEOG, V27, P171, DOI 10.1191/0309133303pp366ra
+   Shefsky S., 1997, INT S FIELD SCREEN M, V0, P29
+   Shi TZ, 2014, APPL SPECTROSC, V68, P831, DOI 10.1366/13-07294
+   Shi TZ, 2014, J HAZARD MATER, V265, P166, DOI 10.1016/j.jhazmat.2013.11.059
+   Shi Z, 2015, EUR J SOIL SCI, V66, P679, DOI 10.1111/ejss.12272
+   Siebielec G, 2004, J ENVIRON QUAL, V33, P2056, DOI 10.2134/jeq2004.2056
+   Singh AK, 1999, ENVIRON GEOL, V39, P90, DOI 10.1007/s002540050439
+   Soriano-Disla JM, 2014, APPL SPECTROSC REV, V49, P139, DOI 10.1080/05704928.2013.811081
+   Stenberg B, 2010, ADV AGRON, V107, P163, DOI 10.1016/S0065-2113(10)07005-7
+   Sun CY, 2013, CHEMOSPHERE, V92, P517, DOI 10.1016/j.chemosphere.2013.02.063
+   Sun X. L., 2013, CHINESE J SOIL SCI, V44, P752
+   TESSIER A, 1979, ANAL CHEM, V51, P844, DOI 10.1021/ac50043a017
+   Tian JY, 2017, INT J APPL EARTH OBS, V61, P22, DOI 10.1016/j.jag.2017.05.002
+   Tuzen M, 2003, MICROCHEM J, V74, P289, DOI 10.1016/S0026-265X(03)00035-3
+   Vohland M, 2011, EUR J SOIL SCI, V62, P598, DOI 10.1111/j.1365-2389.2011.01369.x
+   Vohland M, 2009, J PLANT NUTR SOIL SC, V172, P201, DOI 10.1002/jpln.200700087
+   vonSteiger B, 1996, ENVIRON POLLUT, V94, P205, DOI 10.1016/S0269-7491(96)00060-7
+   Wang J, 2014, J SOLID STATE CHEM, V216, P1, DOI 10.1016/j.jssc.2014.04.008
+   WEBSTER R, 1992, J SOIL SCI, V43, P177, DOI 10.1111/j.1365-2389.1992.tb00128.x
+   WEBSTER R, 1977, J SOIL SCI, V28, P196, DOI 10.1111/j.1365-2389.1977.tb02306.x
+   WEBSTER R, 1994, GEODERMA, V62, P1, DOI 10.1016/0016-7061(94)90024-8
+   Wei BG, 2010, MICROCHEM J, V94, P99, DOI 10.1016/j.microc.2009.09.014
+   Were K, 2015, ECOL INDIC, V52, P394, DOI 10.1016/j.ecolind.2014.12.028
+   Wetterlind J, 2010, EUR J SOIL SCI, V61, P823, DOI 10.1111/j.1365-2389.2010.01283.x
+   Wilford J, 2016, APPL GEOCHEM, V66, P275, DOI 10.1016/j.apgeochem.2015.08.012
+   Wu CY, 2010, WATER AIR SOIL POLL, V209, P377, DOI 10.1007/s11270-009-0206-6
+   Wu YZ, 2007, SOIL SCI SOC AM J, V71, P918, DOI 10.2136/sssaj2006.0285
+   Wu YZ, 2011, SOIL SCI, V176, P196, DOI 10.1097/SS.0b013e3182114717
+   Wu YZ, 2005, APPL GEOCHEM, V20, P1051, DOI 10.1016/j.apgeochem.2005.01.009
+   Wu YZ, 2005, ENVIRON SCI TECHNOL, V39, P873, DOI 10.1021/es0492642
+   Xie YF, 2011, CHEMOSPHERE, V82, P468, DOI 10.1016/j.chemosphere.2010.09.053
+   Yasrebi J., 2009, RESEARCH JOURNAL OF BIOLOGICAL SCIENCES, V4, P93
+   Zarco-Tejada PJ, 2013, AGR FOREST METEOROL, V171, P281, DOI 10.1016/j.agrformet.2012.12.013
+   Zarco-Tejada PJ, 2012, REMOTE SENS ENVIRON, V117, P322, DOI 10.1016/j.rse.2011.10.007
+   Zhang CS, 2006, ENVIRON POLLUT, V142, P501, DOI 10.1016/j.envpol.2005.10.028
+   Zhang CS, 2011, APPL GEOCHEM, V26, P1239, DOI 10.1016/j.apgeochem.2011.04.014
+   Zhang HH, 2011, J GEOCHEM EXPLOR, V109, P86, DOI 10.1016/j.gexplo.2010.10.014
+   Zhou Q. X., 2001, ENV BIOCH GLOBAL ENV, V0, P0
+NR 117
+TC 36
+Z9 36
+U1 11
+U2 192
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 0570-4928
+EI 1520-569X
+J9 APPL SPECTROSC REV
+JI Appl. Spectrosc. Rev.
+PD JUN 15
+PY 2018
+VL 53
+IS 10
+BP 783
+EP 805
+DI 10.1080/05704928.2018.1442346
+PG 23
+WC Instruments & Instrumentation; Spectroscopy
+SC Instruments & Instrumentation; Spectroscopy
+GA GM6LT
+UT WOS:000438280100002
+DA 2023-04-26
+ER

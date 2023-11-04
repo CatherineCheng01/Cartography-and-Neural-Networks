@@ -1,0 +1,716 @@
+
+PT J
+AU Shukla, G
+   Garg, RD
+   Srivastava, HS
+   Garg, PK
+AF Shukla, Gaurav
+   Garg, Rahul Dev
+   Srivastava, Hari Shanker
+   Garg, Pradeep Kumar
+TI Implementation of random forest algorithm for crop mapping across an aridic to ustic area of Indian states
+SO JOURNAL OF APPLIED REMOTE SENSING
+LA English
+DT Article
+DE random forest; crop classification; predictor variables
+ID support vector machine; artificial neural-network; landsat thematic mapper; nitrogen mineralization; landscape patterns; vegetation index; etm plus; classification; cover; performance
+AB The purpose of this study is to effectively implement random forest algorithm for crop classification of large areas and to check the classification capability of different variables. To incorporate dependency of crops in different variables namely, texture, phenological, parent material and soil, soil moisture, topographic, vegetation, and climate, 35 digital layers are prepared using different satellite data (ALOS DEM, Landsat-8, MODIS NDVI, RISAT-1, and Sentinel-1A) and climatic data (precipitation and temperature). The importance of variables is also calculated based on mean decrease in accuracy and mean decrease in Gini score. Importance and capabilities of variables for crop mapping have been discussed. Variables associated with spectral responses have shown greater importance in comparison to topographic and climate variables. The spectral range (0.85 to 0.88 mu m) of the near-infrared band is the most useful variable with the highest scores. The topographic variable and elevation have secured the second place rank in the both scores. This indicates the importance of spectral responses as well as of topography in model development. Climate variables have not shown as much importance as others, but in association with others, they cause a decrease in the out of bag (OOB) error rate. In addition to the OOB data, a 20% independent dataset of training samples is used to evaluate RF model. Results showthatRF has good capability for crop classification. (C) 2017 Society of Photo-Optical Instrumentation Engineers (SPIE)
+C1 [Shukla, Gaurav; Garg, Rahul Dev; Garg, Pradeep Kumar] Indian Inst Technol, Dept Civil Engn, Geomat Engn, Roorkee, Uttar Pradesh, India.
+   [Srivastava, Hari Shanker] Indian Space Res Org, Indian Inst Remote Sensing, Dehra Dun, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Roorkee; Department of Space (DoS), Government of India; Indian Space Research Organisation (ISRO); Indian Institute of Remote Sensing (IIRS)
+RP Shukla, G (corresponding author), Indian Inst Technol, Dept Civil Engn, Geomat Engn, Roorkee, Uttar Pradesh, India.
+EM gaur.knit@gmail.com
+CR Akbari M, 2006, INT J REMOTE SENS, V27, P4117, DOI 10.1080/01431160600784192
+   Alrababah MA, 2006, INT J REMOTE SENS, V27, P2703, DOI 10.1080/01431160500522700
+   An Q, 2007, NEW ZEAL J AGR RES, V50, P1013, DOI 10.1080/00288230709510380
+   [Anonymous], 2015, TAUDEM V 5 3, V0, P0
+   Arenas-Toledo JM, 2011, INT J REMOTE SENS, V32, P5021, DOI 10.1080/01431161.2010.495096
+   ASF DAAC, 2015, AL SAT FAC DISTR ACT, V0, P0
+   Beltran CM, 2001, PHOTOGRAMM ENG REM S, V67, P1177
+   Bocco M, 2014, INT J REMOTE SENS, V35, P3651, DOI 10.1080/01431161.2014.915436
+   Bodily J. M., 2005, THESIS, V0, P0
+   Boerner REJ, 2000, LANDSCAPE ECOL, V15, P425, DOI 10.1023/A:1008179702536
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Brisco B., 1998, CAN J REMOTE SENS, V24, P315, DOI 10.1080/07038992.1998.10855254
+   Chavez PS, 1996, PHOTOGRAMM ENG REM S, V62, P1025
+   Chen CF, 2012, GISCI REMOTE SENS, V49, P117, DOI 10.2747/1548-1603.49.1.117
+   Classification and Regression by RandomForest, 2015, DOC R PACK RAND, V0, P0
+   Cole N. J., 2004, THESIS, V0, P0
+   COSTACABRAL MC, 1994, WATER RESOUR RES, V30, P1681, DOI 10.1029/93WR03512
+   CRAN/dismo, 2016, COMPR R ARCH NETW PA, V0, P0
+   Deschamps B, 2012, CAN J REMOTE SENS, V38, P60, DOI 10.5589/m12-012
+   DICE LR, 1945, ECOLOGY, V26, P297, DOI 10.2307/1932409
+   Emery X, 2005, MATH GEOL, V37, P295, DOI 10.1007/s11004-005-1560-6
+   Escuin S, 2008, INT J REMOTE SENS, V29, P1053, DOI 10.1080/01431160701281072
+   FAIRFIELD J, 1991, WATER RESOUR RES, V27, P709, DOI 10.1029/90WR02658
+   Fan C, 2014, INT J REMOTE SENS, V35, P7263, DOI 10.1080/01431161.2014.967891
+   Franklin SE, 2011, INT J REMOTE SENS, V32, P2185, DOI 10.1080/01431161003674642
+   Genuer R, 2010, PATTERN RECOGN LETT, V31, P2225, DOI 10.1016/j.patrec.2010.03.014
+   GESSLER PE, 1995, INT J GEOGR INF SYST, V9, P421, DOI 10.1080/02693799508902047
+   GOI/OGDPI Government of India/Open Government Data Platform India, 2015, TRANSP SOC CLIM AGR, V0, P0
+   Gupta DK, 2016, COMPUT ELECTRON AGR, V123, P64, DOI 10.1016/j.compag.2016.02.004
+   Haboudane D, 2002, REMOTE SENS ENVIRON, V81, P416, DOI 10.1016/S0034-4257(02)00018-4
+   Harris R, 2003, INT J REMOTE SENS, V24, P4835, DOI 10.1080/0143116031000068178
+   Huete A, 2002, REMOTE SENS ENVIRON, V83, P195, DOI 10.1016/S0034-4257(02)00096-2
+   Hutchinson TF, 1999, PLANT ECOL, V144, P177, DOI 10.1023/A:1009804020976
+   Ippoliti-Ramilo GA, 2003, INT J REMOTE SENS, V24, P1521, DOI 10.1080/01431160010007105
+   Iverson LR, 1997, LANDSCAPE ECOL, V12, P331, DOI 10.1023/A:1007989813501
+   Khan A, 2016, INT J REMOTE SENS, V37, P1391, DOI 10.1080/01431161.2016.1151572
+   Kumar P, 2017, GEOCARTO INT, V32, P206, DOI 10.1080/10106049.2015.1132483
+   Kumar P, 2015, INT J REMOTE SENS, V36, P1604, DOI 10.1080/2150704X.2015.1019015
+   Labatut V, 2011, 5 INT C INF TECHN AL, V0, P1
+   Long JA, 2013, GISCI REMOTE SENS, V50, P418, DOI 10.1080/15481603.2013.817150
+   Manjunath KR, 2015, INT J REMOTE SENS, V36, P6008, DOI 10.1080/01431161.2015.1110259
+   Mathur A, 2008, INT J REMOTE SENS, V29, P2227, DOI 10.1080/01431160701395203
+   Maxwell S. K., 2008, GEOCARTO INTERNATIONAL, V23, P169, DOI 10.1080/10106040701207399
+   Mellor A, 2013, REMOTE SENS-BASEL, V5, P2838, DOI 10.3390/rs5062838
+   Metternicht G., 2010, INT J REMOTE SENS, V24, P2855
+   Moore I. D., 1993, MODELLING CHANGE IN ENVIRONMENTAL SYSTEMS., V0, P189
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Morris SJ, 1998, LANDSCAPE ECOL, V13, P215, DOI 10.1023/A:1007967630020
+   Murthy CS, 2003, INT J REMOTE SENS, V24, P4871, DOI 10.1080/0143116031000070490
+   Neild SJ, 2007, SOIL SCI SOC AM J, V71, P245, DOI 10.2136/sssaj2006-0049
+   PANIGRAHY S, 1992, INT J REMOTE SENS, V13, P2943, DOI 10.1080/01431169208904092
+   Papritz A., 2002, SPATIAL STAT REMOTE, V0, P83
+   Peng Li, 2014, REMOTE SENSING, V6, P310, DOI 10.3390/rs6010310
+   PRINCE SD, 1995, WATER AIR SOIL POLL, V82, P509, DOI 10.1007/BF01182860
+   QUINN P, 1991, HYDROL PROCESS, V5, P59, DOI 10.1002/hyp.3360050106
+   Randomforest-matlab, 2015, GOOGL COD ARCH CLASS, V0, P0
+   Rilwani ML, 2011, INT J REMOTE SENS, V32, P3539, DOI 10.1080/01431161.2010.523022
+   Rodriguez-Galiano VF, 2014, INT J DIGIT EARTH, V7, P492, DOI 10.1080/17538947.2012.748848
+   Rouse J., 1973, NASA SP, V0, P309
+   Salford Systems, 2015, RAND FOR SOFTW HELP, V0, P0
+   Sarkar A, 2008, INT J REMOTE SENS, V29, P5479, DOI 10.1080/01431160802007665
+   Scull P, 2005, ECOL MODEL, V181, P1, DOI 10.1016/j.ecolmodel.2004.06.036
+   Seto KC, 2005, INT J REMOTE SENS, V26, P563, DOI 10.1080/01431160512331299270
+   Shukla G., 2014, J INDIAN WATER RESOU, V34, P17
+   Shukla G, 2018, GEOCARTO INT, V33, P240, DOI 10.1080/10106049.2016.1240721
+   Singh D, 2006, INT J REMOTE SENS, V27, P4101, DOI 10.1080/01431160600735988
+   Sonobe R., 2016, GEOCARTO INT, V0, P1
+   Sonobe R, 2014, INT J REMOTE SENS, V35, P7898, DOI 10.1080/01431161.2014.978038
+   Sonobe R, 2014, REMOTE SENS LETT, V5, P157, DOI 10.1080/2150704X.2014.889863
+   Srivastava HS, 2009, IEEE T GEOSCI REMOTE, V47, P2528, DOI 10.1109/TGRS.2009.2018448
+   Stum A. K., 2010, THESIS, V0, P0
+   Tadono T., 2014, ISPRS ANN PHOTOGRAMM, VII-4, P71, DOI 10.5194/isprsannals-II-4-71-2014
+   Takaku J., 2014, ISPRS ANN PHOTOGRAMM, V4, P243, DOI 10.5194/ISPRSARCHIVES-XL-4-243-2014
+   Tan CP, 2011, INT J REMOTE SENS, V32, P7057, DOI 10.1080/01431161.2011.613414
+   Tarboton DG, 1997, WATER RESOUR RES, V33, P309, DOI 10.1029/96WR03137
+   USDA/NRCS United States Department of Agriculture/Natural Resources Conservation Service, 2015, JAV NEWH SIM MOD JNS, V0, P0
+   USGS Earth Explorer, 2015, LANDS 8 LIT PROD, V0, P0
+   USGS Landsat 8, 2015, PROD GUID US USGS LA, V0, P0
+   Wang XL, 2016, J APPL REMOTE SENS, V10, P0, DOI 10.1117/1.JRS.10.036017
+   WBG/CCKP, 2015, ENV DIS RISK SOC CLI, V0, P0
+   Wei BH, 2014, REMOTE SENS LETT, V5, P386, DOI 10.1080/2150704X.2014.912765
+   Zhang C, 2015, INT J REMOTE SENS, V36, P4483, DOI 10.1080/01431161.2015.1084552
+NR 82
+TC 5
+Z9 5
+U1 0
+U2 16
+PU SPIE-SOC PHOTO-OPTICAL INSTRUMENTATION ENGINEERS
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98225 USA
+SN 
+EI 1931-3195
+J9 J APPL REMOTE SENS
+JI J. Appl. Remote Sens.
+PD APR 13
+PY 2017
+VL 11
+IS 
+BP 
+EP 
+DI 10.1117/1.JRS.11.026005
+PG 18
+WC Environmental Sciences; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Remote Sensing; Imaging Science & Photographic Technology
+GA ET2RC
+UT WOS:000400120800001
+DA 2023-04-26
+ER
+
+PT J
+AU Rahmati, O
+   Tahmasebipour, N
+   Haghizadeh, A
+   Pourghasemi, HR
+   Feizizadeh, B
+AF Rahmati, Omid
+   Tahmasebipour, Nasser
+   Haghizadeh, Ali
+   Pourghasemi, Hamid Reza
+   Feizizadeh, Bakhtiar
+TI Evaluation of different machine learning models for predicting and mapping the susceptibility of gully erosion
+SO GEOMORPHOLOGY
+LA English
+DT Article
+DE Gully erosion; Spatial prediction; Machine learning; Robustness
+ID artificial neural-network; support vector machine; topographic wetness index; analytical hierarchy process; catchment northern calabria; binary logistic-regression; weights-of-evidence; hoa binh province; landslide susceptibility; soil-erosion
+AB Gully erosion constitutes a serious problem for land degradation in a wide range of environments. The main objective of this research was to compare the performance of seven state-of-the-art machine learning models (SVM with four kernel types, BP-ANN, RF, and BRT) to model the occurrence of gully erosion in the Kashkan-Poldokhtar Watershed, Iran. In the first step, a gully inventory map consisting of 65 gully polygons was prepared through field surveys. Three different sample data sets (S1, S2, and S3), including both positive and negative cells (70% for training and 30% for validation), were randomly prepared to evaluate the robustness of the models. To model the gully erosion susceptibility, 12 geo-environmental factors were selected as predictors. Finally, the goodness-of-fit and prediction skill of the models were evaluated by different criteria, including efficiency percent, kappa coefficient, and the area under the ROC curves (AUC). In terms of accuracy, the RF, RBF-SVM, BRT, and P-SVM models performed excellently both in the degree of fitting and in predictive performance (AUC values well above 0.9), which resulted in accurate predictions. Therefore, these models can be used in other gully erosion studies, as they are capable of rapidly producing accurate and robust gully erosion susceptibility maps (GESMs) for decision-making and soil and water management practices. Furthermore, it was found that performance of RF and RBF-SVM for modelling gully erosion occurrence is quite stable when the learning and validation samples are changed. (C) 2017 Elsevier B.V. All rights reserved.
+C1 [Rahmati, Omid; Tahmasebipour, Nasser; Haghizadeh, Ali] Lorestan Univ, Fac Nat Resources & Agr, Dept Watershed Management, Lorestan, Iran.
+   [Pourghasemi, Hamid Reza] Shiraz Univ, Dept Nat Resources & Environm Engn, Coll Agr, Shiraz, Iran.
+   [Feizizadeh, Bakhtiar] Univ Tabriz, Dept Remote Sensing & GIS, Tabriz 51368, Iran.
+C3 Lorestan University; Shiraz University; University of Tabriz
+RP Tahmasebipour, N (corresponding author), Lorestan Univ, Fac Nat Resources & Agr, Dept Watershed Management, Lorestan, Iran.
+EM Tahmasebi.n@lu.ac.ir
+FU Department of Watershed Management Engineering, Faculty of Agriculture, Lorestan University, Iran
+CR Aertsen W, 2010, ECOL MODEL, V221, P1119, DOI 10.1016/j.ecolmodel.2010.01.007
+   Agnesi V, 2011, LANDF ANAL, V7, P15
+   Akgun A, 2007, ENVIRON GEOL, V51, P1377, DOI 10.1007/s00254-006-0435-6
+   Akgun A, 2012, LANDSLIDES, V9, P93, DOI 10.1007/s10346-011-0283-7
+   Akgun A, 2011, COMPUT GEOSCI-UK, V37, P1515, DOI 10.1016/j.cageo.2010.09.006
+   Gallardo-Cruz J, 2009, LANDSCAPE ECOL, V24, P473, DOI 10.1007/s10980-009-9332-1
+   Allouche O, 2006, J APPL ECOL, V43, P1223, DOI 10.1111/j.1365-2664.2006.01214.x
+   Angileri SE, 2016, GEOMORPHOLOGY, V262, P61, DOI 10.1016/j.geomorph.2016.03.018
+   [Anonymous], 2006, KEYS SOIL TAX, V0, P0
+   [Anonymous], 1979, HYDROL SCI B, V0, P0
+   [Anonymous], 2003, TECHNICAL REPORT, V0, P0
+   Archer KJ, 2008, COMPUT STAT DATA AN, V52, P2249, DOI 10.1016/j.csda.2007.08.015
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P699, DOI 10.1080/014311697217224
+   Ballabio C, 2012, MATH GEOSCI, V44, P47, DOI 10.1007/s11004-011-9379-9
+   Basheer IA, 2000, J MICROBIOL METH, V43, P3, DOI 10.1016/S0167-7012(00)00201-3
+   Beavis SG, 2000, GEOMORPHOLOGY, V33, P59, DOI 10.1016/S0169-555X(99)00110-5
+   Begueria S, 2006, NAT HAZARDS, V37, P315, DOI 10.1007/s11069-005-5182-6
+   Belayneh L., 2014, ETHOPIA ETHIOPIAN J, V7, P720, DOI 10.4314/ejesm.v7i1.3S
+   Billi P, 2003, CATENA, V50, P353, DOI 10.1016/S0341-8162(02)00131-5
+   Biswajeet Pradhan, 2007, 地学前缘 EARTH SCIENCE FRONTIERS, V14, P143, DOI 10.1016/S1872-5791(08)60008-1
+   Blomqvist MM, 2000, OIKOS, V90, P582, DOI 10.1034/j.1600-0706.2000.900316.x
+   Boardman J, 2003, CATENA, V50, P165, DOI 10.1016/S0341-8162(02)00144-3
+   BOUAZIZ M., 2011, GEOSCI FRONT, V2, P237, DOI 10.1016/J.GSF.2011.03.004
+   Bouchnak H, 2009, CATENA, V78, P170, DOI 10.1016/j.catena.2009.04.003
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   BUFALO M, 1992, GEODERMA, V52, P133, DOI 10.1016/0016-7061(92)90079-M
+   Cama M, 2017, GEOMORPHOLOGY, V288, P52, DOI 10.1016/j.geomorph.2017.03.025
+   Cama M, 2015, NAT HAZARD EARTH SYS, V15, P1785, DOI 10.5194/nhess-15-1785-2015
+   Camps-Valls G, 2004, NEUROCOMPUTING, V62, P501, DOI 10.1016/j.neucom.2004.07.004
+   Cao DS, 2010, CHEMOMETR INTELL LAB, V100, P1, DOI 10.1016/j.chemolab.2009.09.002
+   Carpenter SR, 2005, P NATL ACAD SCI USA, V102, P10002, DOI 10.1073/pnas.0503959102
+   CARRARA A, 1991, EARTH SURF PROCESSES, V16, P427, DOI 10.1002/esp.3290160505
+   Caruana R, 2006, P 23 INT C MACHINE L, V0, PP161, DOI 10.1145/1143844.1143865.
+   Castillo C, 2014, EARTH SURF PROC LAND, V39, P2002, DOI 10.1002/esp.3595
+   Catani F, 2013, NAT HAZARD EARTH SYS, V13, P2815, DOI 10.5194/nhess-13-2815-2013
+   Chang TC, 2007, NAT HAZARDS, V42, P209, DOI 10.1007/s11069-006-9069-y
+   Chang TC, 2006, ENG GEOL, V85, P270, DOI 10.1016/j.enggeo.2006.02.007
+   Chaplot V, 2005, CATENA, V63, P167, DOI 10.1016/j.catena.2005.06.003
+   Chaplot V, 2005, CATENA, V63, P318, DOI 10.1016/j.catena.2005.06.008
+   Cherkassky V, 1997, IEEE TRANS NEURAL NETW, V8, P1564, DOI 10.1109/TNN.1997.641482
+   Choi J, 2012, ENG GEOL, V124, P12, DOI 10.1016/j.enggeo.2011.09.011
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   Conforti M, 2014, CATENA, V113, P236, DOI 10.1016/j.catena.2013.08.006
+   Conforti M, 2011, NAT HAZARDS, V56, P881, DOI 10.1007/s11069-010-9598-2
+   Conoscenti C, 2008, NAT HAZARDS, V46, P287, DOI 10.1007/s11069-007-9188-0
+   Conoscenti C, 2016, GEOMORPHOLOGY, V261, P222, DOI 10.1016/j.geomorph.2016.03.006
+   Conoscenti C, 2014, GEOMORPHOLOGY, V204, P399, DOI 10.1016/j.geomorph.2013.08.021
+   Conoscenti C, 2013, ENVIRON EARTH SCI, V70, P1179, DOI 10.1007/s12665-012-2205-y
+   Dai Q, 2008, BIOINFORMATICS, V24, P2296, DOI 10.1093/bioinformatics/btn436
+   Damasevicius R, 2010, TOP, V18, P339, DOI 10.1007/s11750-010-0152-x
+   Dickie JA, 2012, LAND DEGRAD DEV, V23, P534, DOI 10.1002/ldr.2170
+   Dickson ME, 2016, ENVIRON MODELL SOFTW, V76, P117, DOI 10.1016/j.envsoft.2015.10.029
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Bui DT, 2012, GEOMORPHOLOGY, V171, P12, DOI 10.1016/j.geomorph.2012.04.023
+   Bui DT, 2012, MATH PROBL ENG, V2012, P0, DOI 10.1155/2012/974638
+   Bui DT, 2012, CATENA, V96, P28, DOI 10.1016/j.catena.2012.04.001
+   Dou J, 2015, NAT HAZARDS, V78, P1749, DOI 10.1007/s11069-015-1799-2
+   Dube F, 2014, PHYS CHEM EARTH, V67-69, P145, DOI 10.1016/j.pce.2014.02.002
+   Duman TY, 2005, ENG GEOL, V77, P99, DOI 10.1016/j.enggeo.2004.08.005
+   Ekholm P, 2012, J ENVIRON MANAGE, V93, P140, DOI 10.1016/j.jenvman.2011.09.010
+   Elith J, 2008, J ANIM ECOL, V77, P802, DOI 10.1111/j.1365-2656.2008.01390.x
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   Fattet M, 2011, CATENA, V87, P60, DOI 10.1016/j.catena.2011.05.006
+   Fernandes J, 2017, CATENA, V153, P39, DOI 10.1016/j.catena.2017.01.034
+   Fernandez-Illescas CP, 2001, WATER RESOUR RES, V37, P2863, DOI 10.1029/2000WR000121
+   Food and Agricultural Organization -FAO, 1965, SOIL ER WAT SOM MEAS, V0, P81
+   Fox GA, 2016, ENVIRON MANAGE, V57, P945, DOI 10.1007/s00267-016-0671-9
+   Franca S, 2015, ENVIRON MODELL SOFTW, V66, P17, DOI 10.1016/j.envsoft.2014.12.010
+   Frattini P, 2010, ENG GEOL, V111, P62, DOI 10.1016/j.enggeo.2009.12.004
+   Galli M, 2008, GEOMORPHOLOGY, V94, P268, DOI 10.1016/j.geomorph.2006.09.023
+   Gallus D., 2008, HEADWAY SPATIAL DATA, V0, PP55, DOI 10.1007/978-3-540-68566-1_4
+   Gee G., 1986, METHODS SOIL ANAL, V1, P404
+   Geissen V, 2007, GEODERMA, V139, P277, DOI 10.1016/j.geoderma.2007.01.002
+   Geroy IJ, 2011, HYDROL PROCESS, V25, P3836, DOI 10.1002/hyp.8281
+   Glade T., 2005, LANDSLIDE HAZARD RIS, V1, P41, DOI 10.1002/9780470012659.CH2
+   Goh ATC, 2007, COMPUT GEOTECH, V34, P410, DOI 10.1016/j.compgeo.2007.06.001
+   Gutierrez AG, 2009, ECOL MODEL, V220, P3630, DOI 10.1016/j.ecolmodel.2009.06.020
+   Gutierrez AG, 2009, EARTH SURF PROC LAND, V34, P1894, DOI 10.1002/esp.1881
+   Gomez H, 2005, ENG GEOL, V78, P11, DOI 10.1016/j.enggeo.2004.10.004
+   Gomez-Gutierrez A, 2015, NAT HAZARDS, V79, PS291, DOI 10.1007/s11069-015-1703-0
+   Gorsevski PV, 2016, LANDSLIDES, V13, P467, DOI 10.1007/s10346-015-0587-0
+   Grabs T, 2009, J HYDROL, V373, P15, DOI 10.1016/j.jhydrol.2009.03.031
+   Gromping U, 2009, AM STAT, V63, P308, DOI 10.1198/tast.2009.08199
+   Guntner A, 2004, WATER RESOUR RES, V40, P0, DOI 10.1029/2003WR002864
+   Guzzetti F, 2006, GEOMORPHOLOGY, V81, P166, DOI 10.1016/j.geomorph.2006.04.007
+   Gyssels G, 2002, SOIL TILL RES, V64, P189, DOI 10.1016/S0167-1987(01)00263-X
+   Harvey A., 1982, BADLAND GEOMORPHOLOGY AND PIPING, V0, P317
+   Hoehler FK, 2000, J CLIN EPIDEMIOL, V53, P499, DOI 10.1016/S0895-4356(99)00174-2
+   Hong HY, 2016, GEOMORPHOLOGY, V259, P105, DOI 10.1016/j.geomorph.2016.02.012
+   Hughes A. O., 2001, TECHNICAL REPORT, V26, P0
+   Iranian Department of Water Resources Management (IDWRM), 2013, WEATH CLIM REP, V0, P0
+   Jin YF, 2014, GLOBAL ECOL BIOGEOGR, V23, P358, DOI 10.1111/geb.12135
+   Jungerius PD, 2002, EARTH SURF PROC LAND, V27, P1237, DOI 10.1002/esp.423
+   Kanevski M., 2009, THEORY APPL SOFTWARE, V0, P0
+   Kheir RB, 2007, EARTH SURF PROC LAND, V32, P1770, DOI 10.1002/esp.1501
+   Kia MB, 2012, ENVIRON EARTH SCI, V67, P251, DOI 10.1007/s12665-011-1504-z
+   Kim KD, 2009, ENVIRON GEOL, V58, P61, DOI 10.1007/s00254-008-1492-9
+   Kontijevskis A, 2007, PROTEINS, V68, P305, DOI 10.1002/prot.21415
+   Kuhnert PM, 2010, ENVIRONMETRICS, V21, P493, DOI 10.1002/env.999
+   Kumar BM, 2006, TROPICAL HOMEGARDENS, V0, P0
+   LANDIS JR, 1977, BIOMETRICS, V33, P159, DOI 10.2307/2529310
+   Lee S, 2004, ENG GEOL, V71, P289, DOI 10.1016/S0013-7952(03)00142-X
+   Lee S, 2003, EARTH SURF PROC LAND, V28, P1361, DOI 10.1002/esp.593
+   Lee S, 2003, ENVIRON GEOL, V44, P820, DOI 10.1007/s00254-003-0825-y
+   Lee S, 2007, LANDSLIDES, V4, P327, DOI 10.1007/s10346-007-0088-x
+   Lee S, 2012, ENVIRON MANAGE, V49, P347, DOI 10.1007/s00267-011-9766-5
+   Lesschen JP, 2007, CATENA, V71, P110, DOI 10.1016/j.catena.2006.05.014
+   Li H, 2016, SOIL TILL RES, V155, P157, DOI 10.1016/j.still.2015.07.018
+   Liu Y, 2012, COMPUT GEOSCI-UK, V42, P47, DOI 10.1016/j.cageo.2012.02.006
+   Lombardo L, 2015, NAT HAZARDS, V79, P1621, DOI 10.1007/s11069-015-1915-3
+   Luca F, 2011, GEOMORPHOLOGY, V134, P297, DOI 10.1016/j.geomorph.2011.07.006
+   Marker M, 2011, GEOMORPHOLOGY, V125, P530, DOI 10.1016/j.geomorph.2010.10.022
+   Maestre FT, 2002, PLANT SOIL, V241, P279, DOI 10.1023/A:1016172308462
+   Magliulo P, 2012, ENVIRON EARTH SCI, V67, P1801, DOI 10.1007/s12665-012-1634-y
+   Magliulo P, 2010, J MAPS, V6, P435, DOI 10.4113/jom.2010.1116
+   Maier HR, 2000, ENVIRON MODELL SOFTW, V15, P101, DOI 10.1016/S1364-8152(99)00007-9
+   Marjanovic M, 2011, ENG GEOL, V123, P225, DOI 10.1016/j.enggeo.2011.09.006
+   Marmion M, 2008, EARTH SURF PROC LAND, V33, P2241, DOI 10.1002/esp.1695
+   Martinez-Casasnovas JA, 2004, GEOMORPHOLOGY, V58, P305, DOI 10.1016/j.geomorph.2003.08.005
+   Martinez-Casasnovas JA, 2003, CATENA, V50, P293, DOI 10.1016/S0341-8162(02)00134-0
+   McCloskey GL, 2016, GEOMORPHOLOGY, V266, P96, DOI 10.1016/j.geomorph.2016.05.009
+   Micheletti N, 2014, MATH GEOSCI, V46, P33, DOI 10.1007/s11004-013-9511-0
+   Min JH, 2005, EXPERT SYST APPL, V28, P603, DOI 10.1016/j.eswa.2004.12.008
+   Mohammady M, 2012, J ASIAN EARTH SCI, V61, P221, DOI 10.1016/j.jseaes.2012.10.005
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Motsinger AA, 2007, 2007 IEEE SYMPOSIUM ON COMPUTATIONAL INTELLIGENCE IN BIOINFORMATICS AND COMPUTATIONAL BIOLOGY, V0, P1
+   Mouton AM, 2010, ECOL MODEL, V221, P1995, DOI 10.1016/j.ecolmodel.2010.04.017
+   Nagarajan R., 2000, B ENG GEOL ENVIRON, V0, PP275, DOI 10.1007/s100649900032
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Nefeslioglu HA, 2008, GEOMORPHOLOGY, V94, P401, DOI 10.1016/j.geomorph.2006.10.036
+   Ni JR, 2008, GEOMORPHOLOGY, V93, P233, DOI 10.1016/j.geomorph.2007.02.015
+   Nyssen J, 2002, EARTH SURF PROC LAND, V27, P1267, DOI 10.1002/esp.404
+   Oh HJ, 2011, INT J COAL GEOL, V86, P58, DOI 10.1016/j.coal.2010.11.009
+   Park S, 2013, ENVIRON EARTH SCI, V68, P1443, DOI 10.1007/s12665-012-1842-5
+   Pei T, 2010, ECOL INDIC, V10, P610, DOI 10.1016/j.ecolind.2009.10.005
+   Poesen J, 2003, CATENA, V50, P91, DOI 10.1016/S0341-8162(02)00143-1
+   Poesen J, 1998, NATO ASI SER SER I, V55, P285
+   POESEN J, 1993, FARM LAND EROSION IN TEMPERATE PLAINS ENVIRONMENTS AND HILLS, V0, P221
+   Poesen JW, 1996, IAHS-AISH P, V0, P251
+   Polykretis C, 2015, B ENG GEOL ENVIRON, V74, P27, DOI 10.1007/s10064-014-0607-7
+   Popp JH, 2000, ECOL MODEL, V130, P131, DOI 10.1016/S0304-3800(00)00201-5
+   Poudyal CP, 2010, ENVIRON EARTH SCI, V61, P1049, DOI 10.1007/s12665-009-0426-5
+   Pourghasemi HR, 2013, NAT HAZARDS, V69, P749, DOI 10.1007/s11069-013-0728-5
+   Pourghasemi HR, 2013, J EARTH SYST SCI, V122, P349, DOI 10.1007/s12040-013-0282-2
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan B, 2010, J INDIAN SOC REMOTE, V38, P301, DOI 10.1007/s12524-010-0020-z
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2010, IEEE T GEOSCI REMOTE, V48, P4164, DOI 10.1109/TGRS.2010.2050328
+   Pradhan B, 2010, COMPUT ENVIRON URBAN, V34, P216, DOI 10.1016/j.compenvurbsys.2009.12.004
+   Pradhan B, 2010, ADV SPACE RES, V45, P1244, DOI 10.1016/j.asr.2010.01.006
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Prasad AM, 2006, ECOSYSTEMS, V9, P181, DOI 10.1007/s10021-005-0054-1
+   Pullar D, 2000, ENVIRON MODELL SOFTW, V15, P451, DOI 10.1016/S1364-8152(00)00023-2
+   Rahmati O, 2017, SCI TOTAL ENVIRON, V579, P913, DOI 10.1016/j.scitotenv.2016.10.176
+   Rahmati O, 2016, NAT HAZARDS, V82, P1231, DOI 10.1007/s11069-016-2239-7
+   Razandi Y, 2015, EARTH SCI INFORM, V8, P867, DOI 10.1007/s12145-015-0220-8
+   Regmi AD, 2014, J MT SCI-ENGL, V11, P1266, DOI 10.1007/s11629-013-2847-6
+   Rekolainen S., 2006, SOIL EROSION EUROPE, V0, P0, DOI DOI 10.1002/0470859202.ch55
+   Ridgeway G., 2013, GBM GEN BOOSTED REGR, V0, P0
+   ROBSON A, 1992, HYDROL PROCESS, V6, P199, DOI 10.1002/hyp.3360060208
+   Saito H, 2009, GEOMORPHOLOGY, V109, P108, DOI 10.1016/j.geomorph.2009.02.026
+   Samani AN, 2010, WATER RESOUR MANAG, V24, P1531, DOI 10.1007/s11269-009-9512-4
+   Samani AN, 2009, J ASIAN EARTH SCI, V35, P180, DOI 10.1016/j.jseaes.2009.02.004
+   Samui P, 2008, ENVIRON GEOL, V56, P255, DOI 10.1007/s00254-007-1161-4
+   Samui P, 2013, GEOMAT NAT HAZ RISK, V4, P1, DOI 10.1080/19475705.2012.684725
+   San BT, 2014, INT J APPL EARTH OBS, V26, P399, DOI 10.1016/j.jag.2013.09.010
+   Schapire RE, 2003, LECT NOTES STAT, V171, P149, DOI 10.1007/978-0-387-21579-2_9
+   Schicker R, 2012, GEOMORPHOLOGY, V161, P40, DOI 10.1016/j.geomorph.2012.03.036
+   Scholkopf B, 2001, NEURAL COMPUT, V13, P1443, DOI 10.1162/089976601750264965
+   Segoni S, 2015, LANDSLIDES, V12, P773, DOI 10.1007/s10346-014-0502-0
+   Shellberg JG, 2016, GEOMORPHOLOGY, V266, P105, DOI 10.1016/j.geomorph.2016.04.021
+   Shen CY, 2007, J MATER PROCESS TECH, V183, P412, DOI 10.1016/j.jmatprotec.2006.10.036
+   Sidorchuk A, 2003, CATENA, V50, P507, DOI 10.1016/S0341-8162(02)00123-6
+   Smolska E, 2007, CATENA, V71, P122, DOI 10.1016/j.catena.2006.10.009
+   Sorensen R, 2006, HYDROL EARTH SYST SC, V10, P101, DOI 10.5194/hess-10-101-2006
+   Strobl C, 2007, BMC BIOINFORMATICS, V8, P0, DOI 10.1186/1471-2105-8-25
+   Strobl C, 2008, BMC BIOINFORMATICS, V9, P0, DOI 10.1186/1471-2105-9-307
+   Suzen ML, 2004, ENVIRON GEOL, V45, P665, DOI 10.1007/s00254-003-0917-8
+   Svetnik V, 2003, J CHEM INF COMP SCI, V43, P1947, DOI 10.1021/ci034160g
+   Svoray T, 2012, EARTH SURF PROC LAND, V37, P607, DOI 10.1002/esp.2273
+   Svoray T, 2009, EARTH SURF PROC LAND, V34, P1970, DOI 10.1002/esp.1873
+   Takken I, 2001, GEOMORPHOLOGY, V37, P1, DOI 10.1016/S0169-555X(00)00059-3
+   Tehrany MS, 2015, STOCH ENV RES RISK A, V29, P1149, DOI 10.1007/s00477-015-1021-9
+   Tehrany MS, 2015, CATENA, V125, P91, DOI 10.1016/j.catena.2014.10.017
+   Tehrany MS, 2014, J HYDROL, V512, P332, DOI 10.1016/j.jhydrol.2014.03.008
+   Tehrany MS, 2013, J HYDROL, V504, P69, DOI 10.1016/j.jhydrol.2013.09.034
+   Thornes JB, 2005, LAND DEGRAD DEV, V16, P127, DOI 10.1002/ldr.655
+   USDA-SCS, 1966, PROC DET RAT LAND DA, V0, P0
+   Valentin C, 2005, CATENA, V63, P132, DOI 10.1016/j.catena.2005.06.001
+   Vandekerckhove L, 2003, CATENA, V50, P329, DOI 10.1016/S0341-8162(02)00132-7
+   Vandekerckhove L, 2000, EARTH SURF PROC LAND, V25, P1201, DOI 10.1002/1096-9837(200010)25:11&lt;1201::AID-ESP131&gt;3.0.CO;2-L
+   Vapnik Vladimir, 1998, STAT LEARNING THEORY, V0, PP1, DOI 10.1007/978-1-4419-1428-6_5864
+   Weaver A. B., 1991, GEOJOURNAL, V23, P29, DOI 10.1007/BF00204406
+   Wiesmeier M, 2011, PLANT SOIL, V340, P7, DOI 10.1007/s11104-010-0425-z
+   Wu YQ, 2008, GEOMORPHOLOGY, V101, P683, DOI 10.1016/j.geomorph.2008.03.008
+   Wu YQ, 2005, CATENA, V63, P154, DOI 10.1016/j.catena.2005.06.002
+   Xu C, 2012, GEOMORPHOLOGY, V145, P70, DOI 10.1016/j.geomorph.2011.12.040
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Yesilnacar E.K., 2005, THESIS, V0, P0
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Yuan LF, 2006, INT GEOSCI REMOTE SE, V0, PP4221, DOI 10.1109/IGARSS.2006.1083
+   Zakerinejad R, 2015, NAT HAZARDS, V79, PS25, DOI 10.1007/s11069-015-1700-3
+   Zakerinejad R, 2014, GEOGR FIS DIN QUAT, V37, P67, DOI 10.4461/GFDQ.2014.37.7
+   Zare M, 2013, ARAB J GEOSCI, V6, P2873, DOI 10.1007/s12517-012-0610-x
+   Zhang Z, 2002, COMPOS SCI TECHNOL, V62, P1001, DOI 10.1016/S0266-3538(02)00036-2
+   Zhao ZY, 2009, COMPUT ELECTRON AGR, V65, P36, DOI 10.1016/j.compag.2008.07.008
+   Zhou P, 2008, CATENA, V75, P319, DOI 10.1016/j.catena.2008.07.010
+   Zucca C, 2006, CATENA, V68, P87, DOI 10.1016/j.catena.2006.03.015
+NR 211
+TC 148
+Z9 152
+U1 7
+U2 71
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0169-555X
+EI 1872-695X
+J9 GEOMORPHOLOGY
+JI Geomorphology
+PD DEC 1
+PY 2017
+VL 298
+IS 
+BP 118
+EP 137
+DI 10.1016/j.geomorph.2017.09.006
+PG 20
+WC Geography, Physical; Geosciences, Multidisciplinary
+SC Physical Geography; Geology
+GA FN1SQ
+UT WOS:000415771900009
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, HS
+   Yang, B
+   Fang, T
+   Huo, H
+AF Zhang, Haosheng
+   Yang, Bo
+   Fang, Tao
+   Huo, Hong
+TI Learning Deep Features for Classification of Typical Ecological Environmental Elements in High-Resolution Remote Sensing Images
+SO 2017 10TH INTERNATIONAL SYMPOSIUM ON COMPUTATIONAL INTELLIGENCE AND DESIGN (ISCID), VOL. 1
+LA English
+DT Proceedings Paper
+DE deep learning; deep convolutional neural network (DCNN); high-resolution remote sensing images; ecological environmental elements
+AB Ecological environmental elements are greatly related to both humans and nature. The rapid development of remote sensing technology has provided us more and more high-resolution remote sensing images for monitoring these elements timely and objectively. However, it has been a great challenge to recognize these elements from such images due to their diversity and complexity. In this paper, a classification approach of ecological environmental elements based on deep learning features of objects is proposed. At first, a deep convolutional neural network (DCNN) is trained for discriminating different ecological environmental elements. To extract deep features of irregular-shaped regions, sub images are clipped from each region and used to represent the corresponding region. Then, deep features of these sub images are extracted by the trained DCNN. After that, the softmax classifier is used to predict class probabilities of all sub images. The class of one region is determined by considering the class probabilities of its sub-images according to the "winner takes-all" strategy. Finally, the thematic maps of ecological environmental elements are achieved. The proposed approach is evaluated by the classification experiments on a test set of typical ecological environmental elements in high-resolution remote sensing images, and the classification accuracy reaches to 98.44%. Moreover, the classification accuracy on irregular shaped regions also reaches to 96.77%. These results have testified the effectiveness of the proposed approach.
+C1 [Zhang, Haosheng; Fang, Tao; Huo, Hong] Shanghai Jiao Tong Univ, Dept Automat, Minist Educ, Key Lab Syst Control & Informat Proc, Shanghai 200240, Peoples R China.
+   [Yang, Bo] Southwest Jiaotong Univ, Sch Phys Sci & Technol, Chengdu 611756, Sichuan, Peoples R China.
+C3 Shanghai Jiao Tong University; Southwest Jiaotong University
+RP Zhang, HS (corresponding author), Shanghai Jiao Tong Univ, Dept Automat, Minist Educ, Key Lab Syst Control & Informat Proc, Shanghai 200240, Peoples R China.
+EM hszhang1995@gmail.com; ybswjt4000@my.swjtu.edu.cn; tfang@sjtu.edu.cn; huohong@sjtu.edu.cn
+FU National Science and Technology Major Project [21-Y20A06-9001-17/18]; National Natural Science Foundation of China [41571402]; Science Fund for Creative Research Groups of the National Natural Science Foundation of China [61221003]; Shanghai Jiao Tong University Agri-X Fund [Agri-X2015004]
+CR [Anonymous], 2014, 2 INT C LEARN REPR, V0, P0
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Gao Y, 2006, INT J REMOTE SENS, V27, P4039, DOI 10.1080/01431160600702632
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Langkvist M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040329
+   Nair V, 2010, ICML, V27, P807
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Simonyan K, 2015, ARXIV, V0, P0
+   Verdoliva L., 2015, ARXIV PREPRINT ARXIV, V28, P627
+   Yang Y, 2010, PROC 18 SIGSPATIAL I, V0, P0, DOI DOI 10.1145/1869790.1869829
+NR 12
+TC 0
+Z9 0
+U1 2
+U2 5
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2165-1701
+EI 2473-3547
+J9 INT SYM COMPUT INTEL
+PD JUN 15
+PY 2017
+VL 0
+IS 
+BP 223
+EP 227
+DI 10.1109/ISCID.2017.200
+PG 5
+WC Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BJ8DA
+UT WOS:000427991100050
+DA 2023-04-26
+ER
+
+PT J
+AU Azizkhani, M
+   Vakili, A
+   Noorollahi, Y
+   Naseri, F
+AF Azizkhani, Mostafa
+   Vakili, Abdullah
+   Noorollahi, Younes
+   Naseri, Farzin
+TI Potential survey of photovoltaic power plants using Analytical Hierarchy Process (AHP) method in Iran
+SO RENEWABLE & SUSTAINABLE ENERGY REVIEWS
+LA English
+DT Review
+DE Photovoltaic; Geographic information system; Remote sensing; Analytical Hierarchy Process
+ID solar-radiation statistics; artificial neural-network; information-system; energy potentials; tilt angle; gis; model; database; environment; performance
+AB Solar energy plays a crucial and high-priority role in protecting and maintaining our future environment. One of the most important and outstanding factor in building a power plant is how to choose the appropriate and suitable site for solar power plants. The purpose of this research is to investigate the most felicitous locations in order to establish the photovoltaic power stations in Iran.it is highly recommended to closely consider the economical and geographical conditions. The required data were mostly obtained from satellite images and ground measurements. The principle in this paper forms some effective factors made up of in site selection and developed some guidelines about how to divide them into four categories including the value of solar radiation on earth's surface, the economic features, the technical factors and geographical considerations. It is extremely necessary to recognize the need to closely examine an important issue that these factors were analyzed and weighted by Analytical Hierarchy Process (AHP) and then the potential map was extracted. An understanding and appreciation of results represent appropriate locations namely Fars and Sistan and Baluchistan provinces which have higher potential to build Photovoltaic power plants. Ultimately, through research, it has been developed a model and map with maximum efficiency for gaining a deeper understanding of the most suitable location for the fixed panel power plant which was obtained.
+C1 [Azizkhani, Mostafa] KN Toosi Univ Technol, Ubiquitous & Mobile GIS Lab, Tehran, Iran.
+   [Vakili, Abdullah] Grad Univ Adv Technol, Inst Sci & High Technol & Environm Sci, Civil Engn & Geodesy, Kerman, Iran.
+   [Noorollahi, Younes] Univ Tehran, Dept Renewable Energy, Fac New Sci & Technol, Tehran, Iran.
+   [Naseri, Farzin] Grad Univ Adv Technol, Dept Ecol, Inst Sci & High Technol & Environm Sci, Kerman, Iran.
+C3 K. N. Toosi University of Technology; Graduate University of Advanced Technology; University of Tehran; Graduate University of Advanced Technology
+RP Azizkhani, M (corresponding author), KN Toosi Univ Technol, Ubiquitous & Mobile GIS Lab, Tehran, Iran.
+CR Aghajanian A, 1995, ASIA PAC POPUL J, V10, P3
+   Alamdari P, 2013, RENEW SUST ENERG REV, V21, P778, DOI 10.1016/j.rser.2012.12.052
+   Angatrom A., 1924, Q J R METEOROL SOC, V50, P121, DOI 10.1002/qj.49705021008
+   [Anonymous], 2005, WIND SOLAR POWER SYS, V0, P0
+   Asakereh A., 2014, INT J ADV SCI TECHNO, V68, P37, DOI 10.14257/ijast.2014.68.04
+   Asnaghi A, 2012, RENEW SUST ENERG REV, V16, P3383, DOI 10.1016/j.rser.2012.02.017
+   Assmann D., 2006, RENEWABLE ENERGY GLO, V0, P0
+   Barrett E. C., 2013, INTRO ENV REMOTE SEN, V0, P0
+   Benghanem M, 2011, APPL ENERG, V88, P1427, DOI 10.1016/j.apenergy.2010.10.001
+   Besarati SM, 2013, RENEW ENERG, V53, P193, DOI 10.1016/j.renene.2012.11.012
+   BIRD RE, 1984, SOL ENERGY, V32, P461, DOI 10.1016/0038-092X(84)90260-3
+   Bird RE, 1981, SIMPLIFIED CLEAR SKY, V0, P0
+   Bocca A, 2015, RENEW SUST ENERG REV, V49, P291, DOI 10.1016/j.rser.2015.04.138
+   Boxwell M., 2012, SOLAR ELECT HDB SIMP, V0, P0
+   Byrne J, 2015, RENEW SUST ENERG REV, V41, P830, DOI 10.1016/j.rser.2014.08.023
+   Cebecauer T, 2010, P ASES NAT SOL C PHO, V0, P0
+   Chimres N, 2016, RENEW SUST ENERG REV, V58, P198, DOI 10.1016/j.rser.2015.11.005
+   DANESHYAR M, 1978, SOL ENERGY, V21, P345, DOI 10.1016/0038-092X(78)90013-0
+   Dubey S, 2013, ENRGY PROCED, V33, P311, DOI 10.1016/j.egypro.2013.05.072
+   Duffle J. A., 1980, SOLAR ENG THERMAL PR, V0, P0
+   Fadai D, 2007, RENEW SUST ENERG REV, V11, P173, DOI 10.1016/j.rser.2005.01.011
+   Farzanegan MR, 2009, ENERG ECON, V31, P134, DOI 10.1016/j.eneco.2008.09.003
+   Freitas S, 2015, RENEW SUST ENERG REV, V41, P915, DOI 10.1016/j.rser.2014.08.060
+   Gastli A, 2011, RENEW SUST ENERG REV, V15, P1851, DOI 10.1016/j.rser.2010.12.015
+   Gastli A, 2010, RENEW SUST ENERG REV, V14, P790, DOI 10.1016/j.rser.2009.08.018
+   Gastli A, 2010, RENEW SUST ENERG REV, V14, P821, DOI 10.1016/j.rser.2009.08.020
+   Gorjian S, 2015, RENEW SUST ENERG REV, V48, P571, DOI 10.1016/j.rser.2015.04.009
+   Gunerhan H, 2007, BUILD ENVIRON, V42, P779, DOI 10.1016/j.buildenv.2005.09.012
+   Hernandez-Escobedo Q, 2015, RENEW SUST ENERG REV, V43, P216, DOI 10.1016/j.rser.2014.10.025
+   Hofierka J, 2014, MORAV GEOGR REP, V22, P26, DOI 10.2478/mgr-2014-0009
+   Huld T, 2012, SOL ENERGY, V86, P1803, DOI 10.1016/j.solener.2012.03.006
+   Jafarpur K., 1989, SOLAR & WIND TECHNOLOGY, V6, P177, DOI 10.1016/0741-983X(89)90028-3
+   Janke JR, 2010, RENEW ENERG, V35, P2228, DOI 10.1016/j.renene.2010.03.014
+   Kashani AH, 2014, INT J SUSTAIN ENERGY, V33, P883, DOI 10.1080/14786451.2013.784317
+   Keshavarz SA, 2012, INT J RENEW ENERGY R, V2, P665
+   Khosroshahi KA., 2009, ELECT J, V22, P74, DOI 10.1016/j.tej.2009.01.002
+   King DL, 1997, IEEE PHOT SPEC CONF, V0, PP1113, DOI 10.1109/PVSC.1997.654283
+   Komor P., 2004, RENEWABLE ENERGY POL, V0, P0
+   Matthijsen J, 2000, J GEOPHYS RES-ATMOS, V105, P5069, DOI 10.1029/1999JD900937
+   Meyer R, 2011, STANDARDIZING BENCHM, V0, P0
+   Meyer R, 2003, P 2003 ISES SOL WORL, V0, P14
+   Minelli A, 2014, ENVIRON IMPACT ASSES, V49, P70, DOI 10.1016/j.eiar.2014.07.002
+   Mohammadi K, 2014, ENERGY, V67, P117, DOI 10.1016/j.energy.2014.02.024
+   Moini S., 2011, RECENT ADV ENV ENERG, V2011, P1
+   Mondino E.B., 2014, ENERGY PROCEDIA, V0, P0, DOI DOI 10.1016/J.EGYPR0.2014.02.178
+   MYERS DR, 1989, SOL CELLS, V27, P455, DOI 10.1016/0379-6787(89)90055-0
+   PALTRIDGE GW, 1976, SOL ENERGY, V18, P235, DOI 10.1016/0038-092X(76)90022-0
+   PEREZ R, 1987, SOL ENERGY, V39, P221, DOI 10.1016/S0038-092X(87)80031-2
+   Perez R, 2002, SOL ENERGY, V73, P307, DOI 10.1016/S0038-092X(02)00122-6
+   Ramachandra TV, 2011, RENEW SUST ENERG REV, V15, P3178, DOI 10.1016/j.rser.2011.04.007
+   RIETVELD MR, 1978, AGR METEOROL, V19, P243, DOI 10.1016/0002-1571(78)90014-6
+   Rosenbloom D, 2014, RENEW SUST ENERG REV, V40, P488, DOI 10.1016/j.rser.2014.07.135
+   Rumbayan M, 2012, RENEW SUST ENERG REV, V16, P1437, DOI 10.1016/j.rser.2011.11.024
+   SAATY RW, 1987, MATH MODELLING, V9, P161, DOI 10.1016/0270-0255(87)90473-8
+   Saaty T.L., 2008, INT J SERV SCI, V1, P83, DOI 10.1504/IJSSCI.2008.017590
+   Saaty T.L., 2012, INT SERIES OPERATION, V0, P0
+   Sabziparvar AA, 2007, ENERGY, V32, P649, DOI 10.1016/j.energy.2006.05.005
+   SAMIMI J, 1994, SOL ENERGY, V52, P401, DOI 10.1016/0038-092X(94)90117-K
+   Sanchez-Lozano JM, 2016, J CLEAN PROD, V127, P387, DOI 10.1016/j.jclepro.2016.04.005
+   Sanchez-Lozano JM, 2016, SPATIAL ANAL USING G, V0, P207
+   Sanchez-Lozano JM, 2014, RENEW ENERG, V66, P478, DOI 10.1016/j.renene.2013.12.038
+   Satkin M, 2014, RENEW SUST ENERG REV, V32, P579, DOI 10.1016/j.rser.2014.01.054
+   Saxton KE, 2006, SOIL SCI SOC AM J, V70, P1569, DOI 10.2136/sssaj2005.0117
+   Senpinar A, 2012, APPL ENERG, V92, P677, DOI 10.1016/j.apenergy.2011.07.043
+   Shafiee S, 2009, ENERG POLICY, V37, P181, DOI 10.1016/j.enpol.2008.08.016
+   Shiroudi A, 2012, J RENEW SUSTAIN ENER, V4, P0, DOI 10.1063/1.4754440
+   Singh A, 2016, RENEW SUST ENERG REV, V58, P397, DOI 10.1016/j.rser.2015.12.056
+   Singh GK, 2013, ENERGY, V53, P1, DOI 10.1016/j.energy.2013.02.057
+   Sorensen B, 2001, SOL ENERG MAT SOL C, V67, P503, DOI 10.1016/S0927-0248(00)00319-6
+   Suri M, 2005, INT J SUSTAIN ENERGY, V24, P55, DOI 10.1080/14786450512331329556
+   Tahri M, 2015, RENEW SUST ENERG REV, V51, P1354, DOI 10.1016/j.rser.2015.07.054
+   TASDEMIROGLU E, 1991, ENERGY, V16, P787, DOI 10.1016/0360-5442(91)90030-P
+   Theodoridou I, 2012, RENEW SUST ENERG REV, V16, P6239, DOI 10.1016/j.rser.2012.03.075
+   Uyan M, 2013, RENEW SUST ENERG REV, V28, P11, DOI 10.1016/j.rser.2013.07.042
+   Yadav AK, 2013, RENEW SUST ENERG REV, V23, P503, DOI 10.1016/j.rser.2013.02.027
+   Yanar TA, 2006, INFORM SCIENCES, V176, P1067, DOI 10.1016/j.ins.2005.02.006
+   Yeo IA, 2014, APPL ENERG, V119, P99, DOI 10.1016/j.apenergy.2013.12.060
+   Zelenka A, 1992, TECHNIQUES SUPPLEMEN, V0, P9
+NR 78
+TC 47
+Z9 47
+U1 1
+U2 32
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 1364-0321
+EI 
+J9 RENEW SUST ENERG REV
+JI Renew. Sust. Energ. Rev.
+PD AUG 15
+PY 2017
+VL 75
+IS 
+BP 1198
+EP 1206
+DI 10.1016/j.rser.2016.11.103
+PG 9
+WC Green & Sustainable Science & Technology; Energy & Fuels
+SC Science & Technology - Other Topics; Energy & Fuels
+GA EU9YG
+UT WOS:000401395000095
+DA 2023-04-26
+ER
+
+PT J
+AU Xu, ZW
+   Mountrakis, G
+   Quackenbush, LJ
+AF Xu, Zewei
+   Mountrakis, Giorgos
+   Quackenbush, Lindi J.
+TI Impervious surface extraction in imbalanced datasets: integrating partial results and multi-temporal information in an iterative one-class classifier
+SO INTERNATIONAL JOURNAL OF REMOTE SENSING
+LA English
+DT Article
+ID training sample selection; support vector machines; image classification; neural-networks; synergistic use; cover; area; requirements; generation; landscape
+AB Accurate urban land use/cover monitoring is an essential step towards a sustainable future. As a key part of the classification process, the characteristics of reference data can significantly affect classification accuracy and quality of produced maps. However, ideal reference data is not always readily available; users frequently have difficulty generating sufficient reference data for some classes given time, cost, data availability, expertise level, or other limitations. This study aims at dealing with this lack of sufficiently balanced reference data by presenting a modified hybrid one-class support vector data description (SVDD) model. The underlying hypothesis is that the lack of balanced reference data can be overcome through integration of partially extracted results and multi-temporal spectral information. The partially extracted results, defined as highly accurate classified pixels identified in previous algorithmic iterations, allow a gradual increase of the available training data. Furthermore, the method incorporates a voting system that integrates multi-temporal images using the SVDD algorithm. We applied this hybrid method to binary impervious classification of multi-temporal Landsat Thematic Mapper imagery from Central New York with imbalanced reference data. The proposed hybrid one-class SVDD model achieved a 5-6% improvement in overall accuracy and 0.05-0.09 in kappa than the typical one-class SVDD benchmark. While the method was tested on a single site (albeit with an unusually high reference dataset size of > 870,000 pixels) we feel confident to suggest implementation of our methodology in other sites over the traditional method. This is because our approach automatically reverts to the traditional method when voting is inconsistent or there is a limited number of highly accurately classified pixels to assist future iterations. Future work could explore the quantity and temporal specificity (e.g. benefits of specific months) of the multi-temporal image selection and/or test other one-class classifiers.
+C1 [Xu, Zewei; Mountrakis, Giorgos; Quackenbush, Lindi J.] SUNY Coll Environm Sci & Forestry, Dept Environm Resources Engn, 1 Forestry Dr, Syracuse, NY 13210 USA.
+C3 State University of New York (SUNY) System; State University of New York (SUNY) College of Environmental Science & Forestry
+RP Mountrakis, G (corresponding author), SUNY Coll Environm Sci & Forestry, Dept Environm Resources Engn, 1 Forestry Dr, Syracuse, NY 13210 USA.
+EM gmountrakis@esf.edu
+CR [Anonymous], 2006, REMOTE SENSING DIGIT, V0, P0
+   Banerjee A, 2007, IEEE IMAGE PROC, V0, P1797
+   Banerjee A, 2006, IEEE T GEOSCI REMOTE, V44, P2282, DOI 10.1109/TGRS.2006.873019
+   Bauer M., 2005, P PEC 16 C AM SOC PH, V0, P0
+   Bauer M. E., 2003, 2 INT WORKSH AN MULT, V0, P368
+   Braun M., 2004, P SPIE 10 INT S REM, V0, P0
+   Carlson TN, 1997, REMOTE SENS ENVIRON, V62, P241, DOI 10.1016/S0034-4257(97)00104-1
+   Chang CC, 2011, ACM T INTEL SYST TEC, V2, P0, DOI 10.1145/1961189.1961199
+   Civco D. L, 1997, INVESTMENT MANAGE WE, V0, P124
+   Crane M., 2005, P ISPRS JOINT C 5 IN, V0, P0
+   Dougherty M, 2004, PHOTOGRAMM ENG REM S, V70, P1275, DOI 10.14358/PERS.70.11.1275
+   Elmore AJ, 2010, REMOTE SENS ENVIRON, V114, P2384, DOI 10.1016/j.rse.2010.05.004
+   Fernandez A, 2011, LECT NOTES ARTIF INT, V6678, P1, DOI 10.1007/978-3-642-21219-2_1
+   Flanagan M., 2001, P AM SOC PHOT REM SE, V0, P23
+   Foody GM, 2006, REMOTE SENS ENVIRON, V104, P1, DOI 10.1016/j.rse.2006.03.004
+   Gao BC, 1996, REMOTE SENS ENVIRON, V58, P257, DOI 10.1016/S0034-4257(96)00067-3
+   Guccione P, 2015, IEEE T GEOSCI REMOTE, V53, P3615, DOI 10.1109/TGRS.2014.2380475
+   Guerschman JP, 2003, INT J REMOTE SENS, V24, P3381, DOI 10.1080/0143116021000021288
+   Guo QH, 2005, ECOL MODEL, V182, P75, DOI 10.1016/j.ecolmodel.2004.07.012
+   Gurram P, 2012, IEEE GEOSCI REMOTE S, V9, P943, DOI 10.1109/LGRS.2012.2187040
+   HARALICK RM, 1973, IEEE T SYST MAN CYB, VSMC3, P610, DOI 10.1109/TSMC.1973.4309314
+   Hedjam R., 2016, CHANGE BINARY CHANGE, V2, P11
+   Henits L, 2016, INT J REMOTE SENS, V37, P3439, DOI 10.1080/01431161.2015.1125558
+   Herold N., 2003, ASPRS ANN C P ANCH A, V0, P0
+   Hsu C.W., 2003, TECH REP, V0, P0
+   Iyer SV, 2002, INT GEOSCI REMOTE SE, V0, PP2959, DOI 10.1109/IGARSS.2002.1026836
+   Japkowicz N., 2002, INTELLIGENT DATA ANALYSIS, V6, P429
+   Ji M., 1999, GEOCARTO INT, V14, P33, DOI 10.1080/10106049908542126
+   Jia K, 2015, GEOCARTO INT, V30, P882, DOI 10.1080/10106049.2014.997310
+   Jia K, 2014, REMOTE SENS LETT, V5, P148, DOI 10.1080/2150704X.2014.889862
+   Jiaqi Wang, 2005, INTERNATIONAL JOURNAL OF BUSINESS INTELLIGENCE AND DATA MINING, V1, P54, DOI 10.1504/IJBIDM.2005.007318
+   Jin HR, 2013, INT J REMOTE SENS, V34, P5468, DOI 10.1080/01431161.2013.791760
+   Johnson BA, 2013, INT J REMOTE SENS, V34, P6969, DOI 10.1080/01431161.2013.810825
+   Kang PS, 2006, LECT NOTES COMPUT SC, V4232, P837
+   Khatami R, 2016, REMOTE SENS ENVIRON, V177, P89, DOI 10.1016/j.rse.2016.02.028
+   Khazai S, 2012, IEEE GEOSCI REMOTE S, V9, P594, DOI 10.1109/LGRS.2011.2176101
+   Lai C, 2004, INT J PATTERN RECOGN, V18, P867, DOI 10.1142/S0218001404003459
+   Lee CY, 2012, APPL SOFT COMPUT, V12, P2481, DOI 10.1016/j.asoc.2012.03.051
+   Lee S, 2006, IEEE T GEOSCI REMOTE, V44, P1642, DOI 10.1109/TGRS.2006.869984
+   Li L, 2004, PROCEEDINGS FROM THE FIFTH IEEE SYSTEMS, V0, P82
+   Li PJ, 2011, INT GEOSCI REMOTE SE, V0, PP1409, DOI 10.1109/IGARSS.2011.6049330
+   Li WK, 2011, IEEE T GEOSCI REMOTE, V49, P717, DOI 10.1109/TGRS.2010.2058578
+   Lin SW, 2008, APPL SOFT COMPUT, V8, P1505, DOI 10.1016/j.asoc.2007.10.012
+   Lo CS, 2012, COMPUT MATH APPL, V64, P1153, DOI 10.1016/j.camwa.2012.03.033
+   Lu DS, 2006, REMOTE SENS ENVIRON, V102, P146, DOI 10.1016/j.rse.2006.02.010
+   Lu DS, 2011, ISPRS J PHOTOGRAMM, V66, P798, DOI 10.1016/j.isprsjprs.2011.08.004
+   Lu DS, 2011, ISPRS J PHOTOGRAMM, V66, P298, DOI 10.1016/j.isprsjprs.2010.10.010
+   Luo L, 2012, INT J REMOTE SENS, V33, P365, DOI 10.1080/01431161.2010.532177
+   Luo L, 2011, ISPRS J PHOTOGRAMM, V66, P579, DOI 10.1016/j.isprsjprs.2011.03.002
+   Luo L, 2010, REMOTE SENS ENVIRON, V114, P1220, DOI 10.1016/j.rse.2010.01.008
+   Madlener R, 2011, SUSTAIN CITIES SOC, V1, P45, DOI 10.1016/j.scs.2010.08.006
+   Manevitz LM, 2002, J MACH LEARN RES, V2, P139, DOI 10.1162/15324430260185574
+   Mountrakis G, 2008, PHOTOGRAMM ENG REM S, V74, P1178
+   Mountrakis G, 2011, REMOTE SENS ENVIRON, V115, P1162, DOI 10.1016/j.rse.2010.12.018
+   Mountrakis G, 2011, ISPRS J PHOTOGRAMM, V66, P247, DOI 10.1016/j.isprsjprs.2010.11.001
+   Mountrakis G, 2009, PHOTOGRAMM ENG REM S, V75, P831, DOI 10.14358/PERS.75.7.831
+   Munoz-Mari J, 2007, INT GEOSCI REMOTE SE, V0, PP1509, DOI 10.1109/IGARSS.2007.4423095
+   Munoz-Mari J, 2010, IEEE T GEOSCI REMOTE, V48, P3188, DOI 10.1109/TGRS.2010.2045764
+   Peters J, 2017, ADAPT COMPUT MACH LE, V0, P0
+   Powell RL, 2007, REMOTE SENS ENVIRON, V106, P253, DOI 10.1016/j.rse.2006.09.005
+   RIDD MK, 1995, INT J REMOTE SENS, V16, P2165, DOI 10.1080/01431169508954549
+   Ritter G, 1997, PATTERN RECOGN LETT, V18, P525, DOI 10.1016/S0167-8655(97)00049-4
+   Roberts DA, 1998, REMOTE SENS ENVIRON, V65, P267, DOI 10.1016/S0034-4257(98)00037-6
+   Ruirui Ji, 2008, 2008 2ND INTERNATIONAL CONFERENCE ON BIOINFORMATICS AND BIOMEDICAL ENGINEERING (ICBBE 08), V0, P371
+   Sakla W, 2011, IEEE GEOSCI REMOTE S, V8, P384, DOI 10.1109/LGRS.2010.2078795
+   Sanchez-Hernandez C, 2007, IEEE T GEOSCI REMOTE, V45, P1061, DOI 10.1109/TGRS.2006.890414
+   Scholkopf B, 1999, ADVANCES IN KERNEL METHODS, V0, P327
+   Schueler T. R., 1994, WATERSHED PROTECTION, V1, P100
+   Senf A, 2006, LECT NOTES COMPUT SC, V4233, P140
+   Seo J., 2004, P IEEE AC SPEECH SIG, V5, P5
+   Serpico SB, 1997, INT GEOSCI REMOTE SE, V0, PP1202, DOI 10.1109/IGARSS.1997.606397
+   Shackelford AK, 2003, IEEE T GEOSCI REMOTE, V41, P2354, DOI 10.1109/TGRS.2003.815972
+   Shawe-Taylor J., 2004, KERNEL METHODS PATTE, V0, P0, DOI DOI 10.1017/CBO9780511809682
+   Smith A. J., 2000, SUBPIXEL ESTIMATES I, V0, P0
+   Tarassenko L., 1995, FOURTH INTERNATIONAL CONFERENCE ON `ARTIFICIAL NEURAL NETWORKS (CONF. PUBL. NO.409), V0, PP442, DOI 10.1049/cp:19950597
+   Tax DMJ, 1999, PATTERN RECOGN LETT, V20, P1191, DOI 10.1016/S0167-8655(99)00087-2
+   Tax DMJ, 2004, MACH LEARN, V54, P45, DOI 10.1023/B:MACH.0000008084.60811.49
+   Tax DMJ, 2002, J MACH LEARN RES, V2, P155, DOI 10.1162/15324430260185583
+   Theissler A., 2013, P WASET INT C MACH I, V7, P1135
+   United Nations, 2008, DEP EC SOC AFF POP D, V0, P0
+   Van de Voorde T, 2009, INT J REMOTE SENS, V30, P4785, DOI 10.1080/01431160802665918
+   Vapnik V., 1979, ESTIMATION DEPENDENC, V27, P5165
+   Vapnik V., 2000, NATURE STAT LEARNING, V0, P0
+   Waske B, 2009, LECT NOTES COMPUT SC, V5519, P375, DOI 10.1007/978-3-642-02326-2_38
+   Weng QH, 2012, REMOTE SENS ENVIRON, V117, P34, DOI 10.1016/j.rse.2011.02.030
+   Wolf AF, 2012, PROC SPIE, V8390, P0, DOI 10.1117/12.917717
+   Wu CS, 2003, REMOTE SENS ENVIRON, V84, P493, DOI 10.1016/S0034-4257(02)00136-0
+   Wu MR, 2009, IEEE T PATTERN ANAL, V31, P2088, DOI 10.1109/TPAMI.2009.24
+   Xin D, 2001, NEURAL NETWORKS FOR SIGNAL PROCESSING XI, V0, PP481, DOI 10.1109/NNSP.2001.943152
+   Yang LM, 2003, CAN J REMOTE SENS, V29, P230, DOI 10.5589/m02-098
+   Yang XJ, 2006, IEEE GEOSCI REMOTE S, V3, P6, DOI 10.1109/LGRS.2005.853929
+   Yu X., 2008, P 19 INT C PATT REC, V0, P0
+   Zeng ZH, 2006, PROCEEDINGS OF THE SEVENTH INTERNATIONAL CONFERENCE ON AUTOMATIC FACE AND GESTURE RECOGNITION - PROCEEDINGS OF THE SEVENTH INTERNATIONAL CONFERENCE, V0, P281
+   Zheng B, 2012, REMOTE SENS ENVIRON, V117, P177, DOI 10.1016/j.rse.2011.09.016
+NR 94
+TC 9
+Z9 11
+U1 1
+U2 22
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 0143-1161
+EI 1366-5901
+J9 INT J REMOTE SENS
+JI Int. J. Remote Sens.
+PD JUN 15
+PY 2017
+VL 38
+IS 1
+BP 43
+EP 63
+DI 10.1080/01431161.2016.1259677
+PG 21
+WC Remote Sensing; Imaging Science & Photographic Technology
+SC Remote Sensing; Imaging Science & Photographic Technology
+GA EF2AI
+UT WOS:000390126200003
+DA 2023-04-26
+ER

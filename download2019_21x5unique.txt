@@ -1,0 +1,521 @@
+
+PT J
+AU Leng, JX
+   Liu, Y
+   Chen, S
+AF Leng, Jiaxu
+   Liu, Ying
+   Chen, Shang
+TI Context-aware attention network for image recognition
+SO NEURAL COMPUTING & APPLICATIONS
+LA English
+DT Article
+DE Convolution neural network; Context learning; Attention transfer
+ID convolutional networks; object detection
+AB Existing recognition methods based on deep learning have achieved impressive performance. However, most of these algorithms do not fully utilize the contexts and discriminative parts, which limit the recognition performance. In this paper, we propose a context-aware attention network that imitates the human visual attention mechanism. The proposed network mainly consists of a context learning module and an attention transfer module. Firstly, we design the context learning module that carries on contextual information transmission along four directions: left, right, top and down to capture valuable contexts. Second, the attention transfer module is proposed to generate attention maps that contain different attention regions, benefiting for extracting discriminative features. Specially, the attention maps are generated through multiple glimpses. In each glimpse, we generate the corresponding attention map and apply it to the next glimpse. This means that our attention is shifting constantly, and the shift is not random but is closely related to the last attention. Finally, we consider all located attention regions to achieve accurate image recognition. Experimental results show that our method achieves state-of-the-art performance with 97.68% accuracy, 82.42% accuracy, 80.32% accuracy and 86.12% accuracy on CIFAR-10, CIFAR-100, Caltech-256 and CUB-200, respectively.
+C1 [Leng, Jiaxu; Liu, Ying] Univ Chinese Acad Sci, Sch Comp Sci & Technol, Beijing 101400, Peoples R China.
+   [Leng, Jiaxu; Liu, Ying] Chinese Acad Sci, Data Min & High Performance Comp Lab, Beijing 101400, Peoples R China.
+   [Liu, Ying] Chinese Acad Sci, Key Lab Big Data Min & Knowledge Management, Beijing 100190, Peoples R China.
+   [Chen, Shang] Guilin Univ Elect Technol, Sch Informat & Commun, Guilin 541004, Peoples R China.
+C3 Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Chinese Academy of Sciences; Chinese Academy of Sciences; Guilin University of Electronic Technology
+RP Liu, Y (corresponding author), Univ Chinese Acad Sci, Sch Comp Sci & Technol, Beijing 101400, Peoples R China.; Liu, Y (corresponding author), Chinese Acad Sci, Data Min & High Performance Comp Lab, Beijing 101400, Peoples R China.; Liu, Y (corresponding author), Chinese Acad Sci, Key Lab Big Data Min & Knowledge Management, Beijing 100190, Peoples R China.
+EM yingliu@ucas.ac.cn
+CR [Anonymous], 2015, P 3 INT C LEARN REPR, V0, P0
+   [Anonymous], 1997, NEURAL COMPUT, V0, P0
+   Bertinetto L, 2016, LECT NOTES COMPUT SC, V9914, P850, DOI 10.1007/978-3-319-48881-3_56
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen L, 2017, PROC CVPR IEEE, V0, PP6298, DOI 10.1109/CVPR.2017.667
+   Courty N, 2017, IEEE T PATTERN ANAL, V39, P1853, DOI 10.1109/TPAMI.2016.2615921
+   Das D, 2018, IEEE IMAGE PROC, V0, PP3758, DOI 10.1109/ICIP.2018.8451152
+   Das D, 2018, ENG APPL ARTIF INTEL, V73, P80, DOI 10.1016/j.engappai.2018.05.001
+   Divvala SK, 2009, PROC CVPR IEEE, V0, PP1271, DOI 10.1109/CVPRW.2009.5206532
+   Fu JL, 2017, PROC CVPR IEEE, V0, PP4476, DOI 10.1109/CVPR.2017.476
+   Galleguillos C, 2008, PROC CVPR IEEE, V0, P3552
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Girshick R, 2016, IEEE T PATTERN ANAL, V38, P142, DOI 10.1109/TPAMI.2015.2437384
+   Griffin G., 2007, CALTECH 256 OBJECT C, V0, P0
+   Itti L, 2001, NAT REV NEUROSCI, V2, P194, DOI 10.1038/35058500
+   Ji YZ, 2018, NEUROCOMPUTING, V322, P130, DOI 10.1016/j.neucom.2018.09.061
+   Kim K, 2005, REAL-TIME IMAGING, V11, P172, DOI 10.1016/j.rti.2004.12.004
+   Krizhevsky A, 2009, CIFAR 10, V0, P0
+   Larochelle H., 2010, ADV NEURAL INFORM PR, V23, P1243
+   Leng JX, 2019, NEURAL COMPUT APPL, V31, P6549, DOI 10.1007/s00521-018-3486-1
+   Li FF, 2007, COMPUT VIS IMAGE UND, V106, P59, DOI 10.1016/j.cviu.2005.09.012
+   Nam H, 2016, PROC CVPR IEEE, V0, PP4293, DOI 10.1109/CVPR.2016.465
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Oliver NM, 2000, IEEE T PATTERN ANAL, V22, P831, DOI 10.1109/34.868684
+   Redmon J., 2016, 1612 ARXIV, V0, P0
+   Santra A, 2017, ADV GEOSPAT TECH, V0, PP1, DOI 10.4018/978-1-5225-1814-3
+   Seo P.H., 2016, PREPRINT ARXIV160602, V0, P0
+   Srivastava RK, 2015, ADV NEUR IN, V28, P0
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Uijlings JRR, 2013, INT J COMPUT VISION, V104, P154, DOI 10.1007/s11263-013-0620-5
+   Wang F., 2017, ARXIV170406904, V0, P0
+   Wang F, 2017, PROC CVPR IEEE, V0, PP6450, DOI 10.1109/CVPR.2017.683
+   Wang J, 2016, ARXIV160306765 CORR, V0, P0
+   Welinder P., 2010, CALIFORNIA I TECHNOL, V0, P0
+   Xiao TJ, 2015, PROC CVPR IEEE, V0, PP842, DOI 10.1109/CVPR.2015.7298685
+   Xu K, 2015, PR MACH LEARN RES, V37, P2048
+   Zhang HJ, 2019, NEURAL COMPUT APPL, V31, P7361, DOI 10.1007/s00521-018-3579-x
+   Zhao B, 2016, ARXIV160608572, V0, P0
+   Zisserman A., 2015, ICLR, V0, P0
+NR 40
+TC 11
+Z9 13
+U1 4
+U2 23
+PU SPRINGER LONDON LTD
+PI LONDON
+PA 236 GRAYS INN RD, 6TH FLOOR, LONDON WC1X 8HL, ENGLAND
+SN 0941-0643
+EI 1433-3058
+J9 NEURAL COMPUT APPL
+JI Neural Comput. Appl.
+PD DEC 15
+PY 2019
+VL 31
+IS 12
+BP 9295
+EP 9305
+DI 10.1007/s00521-019-04281-y
+PG 11
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA JJ3GZ
+UT WOS:000494051000082
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, ZM
+   Wang, B
+   Buyantuev, A
+   He, X
+   Gao, W
+   Wang, YJ
+   Dawazhaxi
+   Yang, ZJ
+AF Zhang, Zhiming
+   Wang, Bin
+   Buyantuev, Alexander
+   He, Xiong
+   Gao, Wei
+   Wang, Yajin
+   Dawazhaxi
+   Yang, Zijiang
+TI Urban agglomeration of Kunming and Yuxi cities in Yunnan, China: the relative importance of government policy drivers and environmental constraints
+SO LANDSCAPE ECOLOGY
+LA English
+DT Article
+DE Urbanization; Policy of Kunming-Yuxi city integration; Lacunarity index; Spatial trend surface analysis
+ID land-use change; driving forces; spatiotemporal patterns; plan implementation; statistical-methods; lacunarity analysis; landscape change; spatial-pattern; neural-networks; expansion
+AB Context Political decisions and policies, as well as bio-physical factors are very important drivers of urban agglomeration, yet studies researching links between those factors, decision-making and landscape change associated with these processes are lacking. Objectives The objective of this study was to explore the urban agglomeration pattern and process of Kunming-Yuxi driven by recent political and economic decisions, as well as topographic factors. Methods We used multi-temporal Landsat imagery to create land cover maps and detect land cover changes from 2000 to 2015. The spatial trend surface analysis and lacunarity index were used to quantify the homogenization process of urbanization between Kunming and Yuxi. Results Land cover maps showed that built-up area increased remarkably reaching about 13% of the total area in 2015, and agricultural land declined from 12.2% in 2000 to 6.7% in 2015. Moreover, more than 90% of urban areas are located in flat areas. Spatial trends revealed the agglomeration of Kunming and Yuxi city. The lacunarity analysis also indicated that the homogeneity of built-up space increased resulting in increased connectivity of the cities. Conclusions Spatial trends and lacunarity analyses support the finding that moderate urban homogenization and agglomeration formation took place during the past 15 years. The "Integration of urban agglomeration of Kunming and Yuxi cities" agreement signed by the governments of the two cities in 2011, along with other similar policies, has contributed to the urban expansion. Moreover, because of the rough topography of Yunnan Plateau, the urban growth has also been shaped by topographic patterns.
+C1 [Zhang, Zhiming; Wang, Bin; Gao, Wei; Dawazhaxi] Yunnan Univ, Sch Ecol & Environm Sci, Kunming 650091, Yunnan, Peoples R China.
+   [Zhang, Zhiming; Wang, Bin; Gao, Wei; Dawazhaxi] Yunnan Univ, Yunnan Key Lab Plateau Mt Ecol & Restorat Degrade, Kunming 650091, Yunnan, Peoples R China.
+   [Buyantuev, Alexander] SUNY Albany, Dept Geog & Planning, Albany, NY 12222 USA.
+   [He, Xiong; Wang, Yajin; Yang, Zijiang] Yunnan Univ, Sch Architecture & Planning, Kunming, Yunnan, Peoples R China.
+C3 Yunnan University; Yunnan University; State University of New York (SUNY) System; State University of New York (SUNY) Albany; Yunnan University
+RP Yang, ZJ (corresponding author), Yunnan Univ, Sch Architecture & Planning, Kunming, Yunnan, Peoples R China.
+EM kmzjy@126.com
+FU National Natural Science Foundation of China [41761040, 41361046]; foundation of Innovation in Culture Adaptation: Fostering Sustainable Community-Based Natural Resource Management in the South-Western Ethnic Minority Region, China [15XSH023]
+CR ALLAIN C, 1991, PHYS REV A, V44, P3552, DOI 10.1103/PhysRevA.44.3552
+   [Anonymous], 2012, WORLD URBANIZATION P, V0, P0
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P699, DOI 10.1080/014311697217224
+   Baigent E, 2004, PROG HUM GEOG, V28, P687, DOI 10.1191/0309132504ph514oa
+   BATTEN DF, 1995, URBAN STUD, V32, P313, DOI 10.1080/00420989550013103
+   BENEDIKTSSON JA, 1990, IEEE T GEOSCI REMOTE, V28, P540, DOI 10.1109/TGRS.1990.572944
+   Braimoh AK, 2007, LAND USE POLICY, V24, P502, DOI 10.1016/j.landusepol.2006.09.001
+   Burgi M, 2004, LANDSCAPE ECOL, V19, P857, DOI 10.1007/s10980-004-0245-8
+   Chen Y. P., 2017, THESIS, V0, P0
+   Dale MRT, 2000, LANDSCAPE ECOL, V15, P467, DOI 10.1023/A:1008176601940
+   DING Y, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/SU10030765
+   Dong PL, 2009, COMPUT GEOSCI-UK, V35, P2100, DOI 10.1016/j.cageo.2009.04.001
+   Duan D, 2012, PLANNERS, V4, P91
+   Eastman JR, 2016, IDRISI TERRSET USERS, V0, P0
+   Fang CL, 2017, LANDSCAPE URBAN PLAN, V162, P126, DOI 10.1016/j.landurbplan.2017.02.014
+   Feitelson E, 2017, LAND USE POLICY, V61, P251, DOI 10.1016/j.landusepol.2016.11.017
+   Gennaio M, 2008, THESIS, V0, P0
+   Grimm NB, 2008, SCIENCE, V319, P756, DOI 10.1126/science.1150195
+   Gu C, 2012, FRONT ARCHIT RES, V1, P101, DOI 10.1016/j.foar.2012.02.013
+   Han J., 2001, DATA MINING CONCEPTS, V0, P0
+   Jiang WG, 2016, ECOL ENG, V88, P112, DOI 10.1016/j.ecoleng.2015.12.014
+   Kipnis BA, 1997, URBAN STUD, V34, P489, DOI 10.1080/0042098976096
+   Kuang WH, 2014, LANDSCAPE URBAN PLAN, V132, P121, DOI 10.1016/j.landurbplan.2014.08.015
+   Li GD, 2018, LANDSCAPE URBAN PLAN, V174, P63, DOI 10.1016/j.landurbplan.2018.03.004
+   Li XM, 2013, APPL GEOGR, V38, P1, DOI 10.1016/j.apgeog.2012.11.004
+   Liu JY, 2005, AMBIO, V34, P450, DOI 10.1639/0044-7447(2005)034[0450:SPADFO]2.0.CO;2
+   Liu M, 2016, GEOINFORMATICS RESOU, V0, P0
+   Liu YX, 2016, ECOL INDIC, V62, P289, DOI 10.1016/j.ecolind.2015.11.006
+   Long Y, 2012, LANDSCAPE URBAN PLAN, V108, P103, DOI 10.1016/j.landurbplan.2012.08.005
+   Mas JF, 2008, INT J REMOTE SENS, V29, P617, DOI 10.1080/01431160701352154
+   McIntyre NE, 2000, LANDSCAPE ECOL, V15, P313, DOI 10.1023/A:1008148514268
+   Muller K, 2010, LANDSCAPE URBAN PLAN, V98, P3, DOI 10.1016/j.landurbplan.2010.07.004
+   National Bureau of Statistics of the peoples Republic of China, 2017, TAB 2010 POP CENS PE, V0, P0
+   Peng J, 2017, HABITAT INT, V60, P81, DOI 10.1016/j.habitatint.2016.12.005
+   Peng J, 2016, ECOL INDIC, V61, P500, DOI 10.1016/j.ecolind.2015.10.002
+   Peng J, 2016, ECOL INDIC, V60, P1017, DOI 10.1016/j.ecolind.2015.09.008
+   Peng J, 2008, SENSORS-BASEL, V8, P8201, DOI 10.3390/s8128201
+   Plotnick RE, 1996, PHYS REV E, V53, P5461, DOI 10.1103/PhysRevE.53.5461
+   Pontius RG, 2000, PHOTOGRAMM ENG REM S, V66, P1011
+   Pontius RG, 2002, PHOTOGRAMM ENG REM S, V68, P1041
+   Rahman MR, 2009, GEO-SPAT INF SCI, V12, P123, DOI 10.1007/s11806-009-0249-2
+   Roces-Diaz JV, 2014, ECOL INDIC, V36, P495, DOI 10.1016/j.ecolind.2013.09.010
+   Schneeberger N, 2007, LAND USE POLICY, V24, P349, DOI 10.1016/j.landusepol.2006.04.003
+   Seto KC, 2011, PLOS ONE, V6, P0, DOI 10.1371/journal.pone.0023777
+   Sexton JO, 2013, REMOTE SENS ENVIRON, V129, P42, DOI 10.1016/j.rse.2012.10.025
+   Thiha, 2007, ENVIRON CONSERV, V34, P164, DOI 10.1017/S037689290700389X
+   Tian L, 2011, CITIES, V28, P11, DOI 10.1016/j.cities.2010.07.002
+   Wang M, 2017, HABITAT INT, V64, P85, DOI 10.1016/j.habitatint.2017.04.008
+   Wei CZ, 2017, HABITAT INT, V59, P32, DOI 10.1016/j.habitatint.2016.11.007
+   Wu J, 2008, LANDSC J, V27, P41, DOI 10.3368/LJ.27.1.41
+   Wu J., 2013, LANDSCAPE ECOLOGY SU, V0, P37
+   Wu JG, 2010, LANDSCAPE ECOL, V25, P1, DOI 10.1007/s10980-009-9444-7
+   Wu JG, 2014, LANDSCAPE URBAN PLAN, V125, P222, DOI 10.1016/j.landurbplan.2014.02.010
+   Wu JG, 2011, ECOL COMPLEX, V8, P1, DOI 10.1016/j.ecocom.2010.03.002
+   Wu WJ, 2015, LANDSCAPE URBAN PLAN, V134, P93, DOI 10.1016/j.landurbplan.2014.10.010
+   Yang YM, 2004, BIODIVERS CONSERV, V13, P813, DOI 10.1023/B:BIOC.0000011728.46362.3c
+   Yin HW, 2018, CITIES, V81, P214, DOI 10.1016/j.cities.2018.04.010
+   Yu WJ, 2018, SCI TOTAL ENVIRON, V634, P1362, DOI 10.1016/j.scitotenv.2018.04.039
+   Zhang L, 2003, HABITAT INT, V27, P459, DOI 10.1016/S0197-3975(02)00071-1
+   Zhang ZM, 2014, REMOTE SENS-BASEL, V6, P1026, DOI 10.3390/rs6021026
+   Zhang ZH, 2013, APPL GEOGR, V45, P193, DOI 10.1016/j.apgeog.2013.09.013
+   Zhou WQ, 2019, ECOL INDIC, V96, P54, DOI 10.1016/j.ecolind.2017.10.035
+   Zhou WQ, 2011, LANDSCAPE ECOL, V26, P645, DOI 10.1007/s10980-011-9589-z
+NR 63
+TC 15
+Z9 17
+U1 10
+U2 59
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0921-2973
+EI 1572-9761
+J9 LANDSCAPE ECOL
+JI Landsc. Ecol.
+PD MAR 15
+PY 2019
+VL 34
+IS 3
+BP 663
+EP 679
+DI 10.1007/s10980-019-00790-2
+PG 17
+WC Ecology; Geography, Physical; Geosciences, Multidisciplinary
+SC Environmental Sciences & Ecology; Physical Geography; Geology
+GA HS3CY
+UT WOS:000463741600014
+DA 2023-04-26
+ER
+
+PT J
+AU Zhao, G
+   Pang, B
+   Xu, ZX
+   Peng, DZ
+   Xu, LY
+AF Zhao, Gang
+   Pang, Bo
+   Xu, Zongxue
+   Peng, Dingzhi
+   Xu, Liyang
+TI Assessment of urban flood susceptibility using semi-supervised machine learning model
+SO SCIENCE OF THE TOTAL ENVIRONMENT
+LA English
+DT Article
+DE Flood susceptibility; Urban area; Semi-supervised machine learning model; Weakly labeled support vector machine; Beijing
+ID land-use; cluster-analysis; risk-assessment; climate-change; river-basin; regression; urbanization; inundation; runoff; future
+AB In order to identify flood-prone areas with limited flood inventories, a semi-supervised machine learning model -the weakly labeled support vector machine (WELLSVM)-is used to assess urban flood susceptibility in this study. A spatial database is collected from metropolitan areas in Beijing, including flood inventories from 2004 to 2014 and nine metrological, geographical, and anthropogenic explanatory factors. Urban flood susceptibility is mapped and compared using logistic regression, artificial neural networks, and a support vector machine. Model performances are evaluated using four evaluation indices (accuracy, precision, recall, and F-score) as well as the receiver operating characteristic curve. The results show that WELLSVM can better utilize the spatial information (unlabeled data), and it outperforms all comparison models. The high-quality WELLSVM flood susceptibility map is thus applicable to efficient urban flood management. (c) 2018 Elsevier B.V. All rights reserved.
+C1 [Zhao, Gang; Pang, Bo; Xu, Zongxue; Peng, Dingzhi] Beijing Normal Univ, Coll Water Sci, Beijing 100875, Peoples R China.
+   [Zhao, Gang; Pang, Bo; Xu, Zongxue; Peng, Dingzhi] Beijing Key Lab Urban Hydrol Cycle & Sponge City, Beijing 100875, Peoples R China.
+   [Zhao, Gang] Univ Bristol, Sch Geog Sci, Bristol BS8 1SS, Avon, England.
+   [Xu, Liyang] Northwestern Polytech Univ, Sch Aeronaut, Xian 710072, Shaanxi, Peoples R China.
+C3 Beijing Normal University; University of Bristol; Northwestern Polytechnical University
+RP Pang, B (corresponding author), Room 9718,Jingshi Bldg,Xinjiekouwai St 19, Beijing 100875, Peoples R China.
+EM pb@bnu.edu.cn
+FU National Key Research and Development Program of China [2017YFC1502701]; innovation base cultivating & development project (2017) from Beijing Municipal Science and Technology Commission [Z171100002217080]; National Natural Science Foundation of China [51879008]; China Scholarship Council [201700260088]
+CR Abdellatif M, 2015, NAT HAZARDS, V79, P1059, DOI 10.1007/s11069-015-1892-6
+   [Anonymous], 2000, P 17 INT C MACH LEAR, V0, P0
+   [Anonymous], 2015, INT J CONTROL AUTOM, V0, P0, DOI DOI 10.14257/IJCA.2015.8.1.04
+   Ashley RM, 2005, WATER SCI TECHNOL, V52, P265, DOI 10.2166/wst.2005.0142
+   Barbosa AE, 2012, WATER RES, V46, P6787, DOI 10.1016/j.watres.2012.05.029
+   Bennett KP, 1999, ADV NEUR IN, V11, P368
+   Beven K., 1979, HYDROLOG SCI J, V24, P43, DOI 10.1080/02626667909491834
+   BMBS (Beijing Municipal Bureau of Statistics), 2016, BEIJ STAT YB 2016, V0, P0
+   Boser B. E., 1992, PROCEEDINGS OF THE FIFTH ANNUAL ACM WORKSHOP ON COMPUTATIONAL LEARNING THEORY, V0, PP144, DOI 10.1145/130385.130401
+   Boyd S., 2004, CONVEX OPTIMIZATION, V0, P0, DOI DOI 10.1017/CBO9780511804441
+   BURN DH, 1989, J WATER RES PL-ASCE, V115, P567, DOI 10.1061/(ASCE)0733-9496(1989)115:5(567)
+   Burrough P., 2015, PRINCIPLES GEOGRAPHI, V0, P0
+   Chapi K, 2017, ENVIRON MODELL SOFTW, V95, P229, DOI 10.1016/j.envsoft.2017.06.012
+   Cheng T, 2017, MATH PROBL ENG, V2017, P0, DOI 10.1155/2017/5659197
+   Chowdary VM, 2013, WATER RESOUR MANAG, V27, P3555, DOI 10.1007/s11269-013-0364-6
+   COX DR, 1958, J R STAT SOC B, V20, P215
+   Dai ZX, 2018, SCI TOTAL ENVIRON, V626, P1136, DOI 10.1016/j.scitotenv.2018.01.165
+   Esfahani MS, 2014, BIOINFORMATICS, V30, P242, DOI 10.1093/bioinformatics/btt662
+   Fernandez DS, 2010, ENG GEOL, V111, P90, DOI 10.1016/j.enggeo.2009.12.006
+   FORGY EW, 1965, BIOMETRICS, V21, P768
+   Goonetilleke A, 2005, J ENVIRON MANAGE, V74, P31, DOI 10.1016/j.jenvman.2004.08.006
+   Goyal MK, 2012, INT J CLIMATOL, V32, P552, DOI 10.1002/joc.2286
+   Henonin J, 2015, URBAN WATER J, V12, P52, DOI 10.1080/1573062X.2013.851710
+   Irwin EG, 2007, P NATL ACAD SCI USA, V104, P20672, DOI 10.1073/pnas.0705527105
+   Jahani B, 2019, THEOR APPL CLIMATOL, V137, P1257, DOI 10.1007/s00704-018-2666-3
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Kia MB, 2012, ENVIRON EARTH SCI, V67, P251, DOI 10.1007/s12665-011-1504-z
+   Kim SJ, 2008, SIAM J OPTIMIZ, V19, P1344, DOI 10.1137/060677586
+   Kubal C, 2009, NAT HAZARD EARTH SYS, V9, P1881, DOI 10.5194/nhess-9-1881-2009
+   Li YF, 2013, J MACH LEARN RES, V14, P2151
+   Moazenzadeh R, 2018, ENG APPL COMP FLUID, V12, P584, DOI 10.1080/19942060.2018.1482476
+   Muis S, 2015, SCI TOTAL ENVIRON, V538, P445, DOI 10.1016/j.scitotenv.2015.08.068
+   Neal JC, 2010, ENVIRON MODELL SOFTW, V25, P398, DOI 10.1016/j.envsoft.2009.11.007
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   Ozdemir H, 2013, HYDROL EARTH SYST SC, V17, P4015, DOI 10.5194/hess-17-4015-2013
+   Pang B, 2017, ADV METEOROL, V2017, P0, DOI 10.1155/2017/7265178
+   Pourali SH, 2016, APPL SPAT ANAL POLIC, V9, P39, DOI 10.1007/s12061-014-9130-2
+   Powers D. M., 2011, J MACH LEARN TECHNOL, V0, P0
+   Pradhan B., 2010, J SPAT HYDROL, V9, P0
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Singh A., 2009, ADV NEURAL INFORM PR, V21, P1513
+   Tang ZQ, 2018, STOCH ENV RES RISK A, V32, P701, DOI 10.1007/s00477-017-1431-y
+   Tehrany MS, 2015, STOCH ENV RES RISK A, V29, P1149, DOI 10.1007/s00477-015-1021-9
+   Tehrany MS, 2015, CATENA, V125, P91, DOI 10.1016/j.catena.2014.10.017
+   Tehrany MS, 2014, ENVIRON EARTH SCI, V72, P4001, DOI 10.1007/s12665-014-3289-3
+   Tehrany MS, 2014, J HYDROL, V512, P332, DOI 10.1016/j.jhydrol.2014.03.008
+   Termeh SVR, 2018, SCI TOTAL ENVIRON, V615, P438, DOI 10.1016/j.scitotenv.2017.09.262
+   Wang XQ, 2009, SCI CHINA SER D, V52, P250, DOI 10.1007/s11430-009-0019-x
+   Wang ZL, 2015, J HYDROL, V527, P1130, DOI 10.1016/j.jhydrol.2015.06.008
+   Woznicki SA, 2019, SCI TOTAL ENVIRON, V647, P942, DOI 10.1016/j.scitotenv.2018.07.353
+   Wu XS, 2017, J HYDROL, V547, P428, DOI 10.1016/j.jhydrol.2017.02.020
+   Xu Z., 2010, P 27 INT C MACH LEAR, V0, P1175
+   Xu ZX, 2016, P INT ASS HYDROL SCI, V373, P7, DOI 10.5194/piahs-373-7-2016
+   Yao L, 2015, URBAN FOR URBAN GREE, V14, P300, DOI 10.1016/j.ufug.2015.02.014
+   Zhang SH, 2014, J HYDROL, V517, P260, DOI 10.1016/j.jhydrol.2014.05.044
+   Zhao G, 2018, SCI TOTAL ENVIRON, V615, P1133, DOI 10.1016/j.scitotenv.2017.10.037
+   Zhao J, 2014, URBAN WATER J, V11, P557, DOI 10.1080/1573062X.2013.833636
+   Zhu X, 2009, SYNTH LECT ARTIF INT, V3, P1, DOI 10.2200/s00196ed1v01y200906aim006
+NR 58
+TC 100
+Z9 103
+U1 32
+U2 190
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0048-9697
+EI 1879-1026
+J9 SCI TOTAL ENVIRON
+JI Sci. Total Environ.
+PD APR 1
+PY 2019
+VL 659
+IS 
+BP 940
+EP 949
+DI 10.1016/j.scitotenv.2018.12.217
+PG 10
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA HJ6JK
+UT WOS:000457293700093
+PM 31096424
+DA 2023-04-26
+ER
+
+PT J
+AU Kim, SM
+   Shin, J
+   Baek, S
+   Ryu, JH
+AF Kim, Soo Mee
+   Shin, Jisun
+   Baek, Seungjae
+   Ryu, Joo-Hyung
+TI U-Net Convolutional Neural Network Model for Deep Red Tide Learning Using GOCI
+SO JOURNAL OF COASTAL RESEARCH
+LA English
+DT Article
+DE Red tide detection; GOCI; convolutional neural network (CNN); U-Net
+ID color imager goci; karenia-brevis; algal blooms; system; sea
+AB GOCI launched in 2010 is a geostationary satellite image sensor that monitors ocean color. It captures 8-band spectral satellite images of northeast Asian regions hourly, eight times a day. The spatial resolution of GOCI is about 500 m. GOCI is capable of monitoring a large ocean area for sensing various events such as red tide occurrences, tidal movement changes and ocean disasters. In this study, we propose a deep convolutional neural network model, U-Net, for automatic pixel-based detection of red tide occurrence from the spectral images captured by GOCI. We construct two training datasets with GOCI images and the corresponding red-tide index maps (RI maps) accumulated through 2011 to 2018. The RI maps indicate where red tides occurred and what kind of red tide species were there. U-Net consists of five U-shaped encoder and decoder layers to extract spectral features relating to red-tide species from GOCI images. We compared the performances of U-Nets trained from two datasets (i) consisting of only four spectral bands and (ii) consisting of all six spectral bands. The RI maps predicted by the trained U-Nets showed considerably matching spatial occurrence tendencies of three red tide species to the ground truths for validation images. The mean target accuracy with the four-band dataset was 13 % lower than that with the six-band dataset. The trained U-Net for pixel-wise red tide detection would be able to effectively inspect red tide occurrences in the huge area of water surrounding the Korean peninsula.
+C1 [Kim, Soo Mee; Baek, Seungjae] KIOST, Maritime ICT R&D Ctr, Busan, South Korea.
+   [Shin, Jisun; Ryu, Joo-Hyung] KIOST, Korea Ocean Satellite Ctr, Busan, South Korea.
+   [Shin, Jisun] KMOU, KIOST, Ocean Sci & Technol Sch, Busan, South Korea.
+C3 Korea Institute of Ocean Science & Technology (KIOST); Korea Institute of Ocean Science & Technology (KIOST); Korea Maritime & Ocean University
+RP Kim, SM (corresponding author), KIOST, Maritime ICT R&D Ctr, Busan, South Korea.
+EM smeekim@kiost.ac.kr
+FU Base research for building a wide integrated surveillance system of marine territory - Ministry of Oceans and Fisheries (MOF); "Development of the support vessel and systems for the offshore field test and evaluation of offshore equipments" - Ministry of Oceans and Fisheries (MOF); "Techniques development for the satellite monitoring of macroalgae bloom in the Yellow Sea" project of the China-Korea Joint Ocean Research Center)
+CR Ahn YH, 2006, HARMFUL ALGAE, V5, P213, DOI 10.1016/j.hal.2005.07.007
+   Ahn YH, 2006, REMOTE SENS ENVIRON, V103, P419, DOI 10.1016/j.rse.2006.04.007
+   Anderson DM, 2009, OCEAN COAST MANAGE, V52, P342, DOI 10.1016/j.ocecoaman.2009.04.006
+   Bishop C. M., 2006, PATTERN RECOGNITION, V0, P0
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Cannizzaro JP, 2008, CONT SHELF RES, V28, P137, DOI 10.1016/j.csr.2004.04.007
+   Cheng WJ, 2009, IEEE SYS MAN CYBERN, V0, PP1864, DOI 10.1109/ICSMC.2009.5346189
+   Choi J. Y., 1998, J KOREAN SOC OCEANOG, V3, P45
+   Choi J, 2012, J GEOPHYS RES-OCEANS, V117, P0, DOI 10.1029/2012JC007984
+   CHOI JY, 1993, J OCEANOLOGICAL SOC, V28, P272
+   Dasarathy B.V., 1991, NEAREST NEIGHBOR NN, V0, P0
+   Hu CM, 2005, REMOTE SENS ENVIRON, V97, P311, DOI 10.1016/j.rse.2005.05.013
+   Hu Y., 2018, INT ARCH PHOTOGRAMME, V3, P573, DOI 10.5194/ISPRS-ARCHIVES-XLII-3-573-2018
+   Kim W, 2016, REMOTE SENS ENVIRON, V184, P482, DOI 10.1016/j.rse.2016.07.031
+   Ma Y, 2006, SPECTROSC SPECT ANAL, V26, P2302
+   Murphy KP, 2012, MACHINE LEARNING: A PROBABILISTIC PERSPECTIVE, V0, P245
+   Noh JH, 2018, HARMFUL ALGAE, V73, P129, DOI 10.1016/j.hal.2018.02.006
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Ryu Joo-Hyung, 2012, OCEAN SCIENCE JOURNAL, V47, P223, DOI 10.1007/s12601-012-0024-4
+   Shin JS, 2017, KOREAN J REMOTE SENS, V33, P213, DOI 10.7780/kjrs.2017.33.2.9
+   Son YB, 2012, KOREAN J REMOTE SENS, V28, P531, DOI 10.7780/kjrs.2012.28.5.6
+   Son YB, 2012, KOREAN J REMOTE SENS, V28, P255, DOI 10.7780/kjrs.2012.28.2.255
+   Son Young Baek, 2012, OCEAN SCIENCE JOURNAL, V47, P359, DOI 10.1007/s12601-012-0034-2
+   Stumpf R. P., 2007, REMOTE SENSING COAST, V0, P0
+   Stumpf RP, 2001, HUM ECOL RISK ASSESS, V7, P1363, DOI 10.1080/20018091095050
+   Tomlinson MC, 2004, REMOTE SENS ENVIRON, V91, P293, DOI 10.1016/j.rse.2004.02.014
+   Vapnik V., 2000, NATURE STAT LEARNING, V0, P0
+   Wang GL, 2011, PROCEDIA ENVIRON SCI, V11, P1561, DOI 10.1016/j.proenv.2011.12.235
+   Yoon H.J., 2004, J KOREA I INFORM COM, V8, P938
+NR 29
+TC 18
+Z9 19
+U1 12
+U2 56
+PU COASTAL EDUCATION & RESEARCH FOUNDATION
+PI COCONUT CREEK
+PA 5130 NW 54TH STREET, COCONUT CREEK, FL 33073 USA
+SN 0749-0208
+EI 1551-5036
+J9 J COASTAL RES
+JI J. Coast. Res.
+PD SUM 15
+PY 2019
+VL 0
+IS 
+BP 302
+EP 309
+DI 10.2112/SI90-038.1
+PG 8
+WC Environmental Sciences; Geography, Physical; Geosciences, Multidisciplinary
+SC Environmental Sciences & Ecology; Physical Geography; Geology
+GA IX5HE
+UT WOS:000485714500039
+DA 2023-04-26
+ER
+
+PT J
+AU Monteiro, J
+   Martins, B
+   Murrieta-Flores, P
+   Pires, JM
+AF Monteiro, Joao
+   Martins, Bruno
+   Murrieta-Flores, Patricia
+   Pires, Joao M.
+TI Spatial Disaggregation of Historical Census Data Leveraging Multiple Sources of Ancillary Information
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE spatial disaggregation; regression analysis; deep learning; historical census data
+ID absolute error mae; areal interpolation; infant-mortality; high-resolution; population; transportation; railways; rmse
+AB High-resolution population grids built from historical census data can ease the analyses of geographical population changes, at the same time also facilitating the combination of population data with other GIS layers to perform analyses on a wide range of topics. This article reports on experiments with a hybrid spatial disaggregation technique that combines the ideas of dasymetric mapping and pycnophylactic interpolation, using modern machine learning methods to combine different types of ancillary variables, in order to disaggregate historical census data into a 200 m resolution grid. We specifically report on experiments related to the disaggregation of historical population counts from three different national censuses which took place around 1900, respectively in Great Britain, Belgium, and the Netherlands. The obtained results indicate that the proposed method is indeed highly accurate, outperforming simpler disaggregation schemes based on mass-preserving areal weighting or pycnophylactic interpolation. The best results were obtained using modern regression methods (i.e., gradient tree boosting or convolutional neural networks, depending on the case study), which previously have only seldom been used for spatial disaggregation.
+C1 [Monteiro, Joao; Martins, Bruno] Univ Lisbon, IST INESC ID, P-1649004 Lisbon, Portugal.
+   [Murrieta-Flores, Patricia] Univ Lancaster, Digital Humanities Hub, Lancaster LA1 4YW, England.
+   [Pires, Joao M.] Univ NOVA Lisboa, FCT NOVA LINCS, P-1099085 Lisbon, Portugal.
+C3 INESC-ID; Universidade de Lisboa; Lancaster University; Universidade Nova de Lisboa
+RP Monteiro, J (corresponding author), Univ Lisbon, IST INESC ID, P-1649004 Lisbon, Portugal.
+EM joao.miguel.monteiro@tecnico.ulisboa.pt
+FU Fundacao para a Ciencia e Tecnologia (FCT) [PTDC/EEI-SCR/1743/2014, PTDC/CCI-CIF/32607/2017]; Thales Portugal; Fundacao para a Ciencia e Tecnologia (FCT), through INESC-ID multi-annual funding from the PIDDAC programme [UID/CEC/50021/2019]; Fundação para a Ciência e a Tecnologia [PTDC/CCI-CIF/32607/2017, PTDC/EEI-SCR/1743/2014] Funding Source: FCT; ESRC [ES/R003890/1] Funding Source: UKRI
+CR Acharya, 2007, ACM UBIQUITY, V2007, P4, DOI 10.1145/1322464.1317488
+   Atkinson P, 2017, ECON HIST REV, V70, P1268, DOI 10.1111/ehr.12488
+   Atkinson P, 2017, DEMOGR RES, V36, P1337, DOI 10.4054/DemRes.2017.36.44
+   Badrinarayanan V, 2015, ARXIV150507293, V0, P0, DOI DOI 10.1109/TPAMI.2016.2644615
+   Bakillah M, 2014, INT J GEOGR INF SCI, V28, P1940, DOI 10.1080/13658816.2014.909045
+   Banfield RE, 2007, IEEE T PATTERN ANAL, V29, P173, DOI 10.1109/TPAMI.2007.250609
+   Bhaduri B., 2002, GEOINFORMATICS, V0, P34
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Briggs DJ, 2007, REMOTE SENS ENVIRON, V108, P451, DOI 10.1016/j.rse.2006.11.020
+   Chai T, 2014, GEOSCI MODEL DEV, V7, P1247, DOI 10.5194/gmd-7-1247-2014
+   Chen Tianqi, 2016, P 22 ACM SIGKDD INT, V0, P0
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Corbane C, 2017, BIG EARTH DATA, V1, P118, DOI 10.1080/20964471.2017.1397899
+   De Oliveira S.A., 2019, P DIG HUM C UTR NETH, V0, P0
+   Deville P, 2014, P NATL ACAD SCI USA, V111, P15888, DOI 10.1073/pnas.1408439111
+   Dias M., 2019, P EPIA C ART INT VIL, V0, P0
+   Dmowska A, 2017, COMPUT ENVIRON URBAN, V61, P13, DOI 10.1016/j.compenvurbsys.2016.08.006
+   Donaldson C.E., 2017, J TOUR HIST, V2, P329
+   Donaldson C, 2015, J VICT CULT, V20, P287, DOI 10.1080/13555502.2015.1058089
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Doupe P., 2016, P ANN S COMP DEV NAI, V0, P0
+   DOXSEYWHITFIELD E, 2015, PAP APPL GEOGR, V0001, P0
+   Enflo K, 2018, J HIST GEOGR, V62, P51, DOI 10.1016/j.jhg.2018.05.001
+   Florczyk AJ, 2016, IEEE J-STARS, V9, P1978, DOI 10.1109/JSTARS.2015.2485662
+   Franch X, 2013, HIST METHOD, V46, P144, DOI 10.1080/01615440.2013.803414
+   Freire S., 2016, ASS GEOGRAPHIC INFOR, V0, P0
+   Freire S., 2015, P IEEE INT GEOSC REM, V0, P0
+   Fuchs R, 2013, BIOGEOSCIENCES, V10, P1543, DOI 10.5194/bg-10-1543-2013
+   Fuchs R, 2015, GLOBAL CHANGE BIOL, V21, P299, DOI 10.1111/gcb.12714
+   Goerlich FJ, 2013, INT J GEOGR INF SCI, V27, P2247, DOI 10.1080/13658816.2013.799283
+   GOODCHILD MF, 1993, ENVIRON PLANN A, V25, P383, DOI 10.1068/a250383
+   Gregory I. N., 2002, COMPUTERS, V0, P0
+   Gregory IN, 2010, J R STAT SOC A STAT, V173, P31, DOI 10.1111/j.1467-985X.2009.00598.x
+   Gregory IN, 2005, J R STAT SOC A STAT, V168, P419, DOI 10.1111/j.1467-985X.2005.00356.x
+   Hu J, 2018, 2017 IEEE C COMP VIS, V0, P0
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Klusener S, 2014, DEMOGR RES, V30, P1849, DOI 10.4054/DemRes.2014.30.68
+   Kotavaara O, 2011, J INTERDISCIPL HIST, V42, P89, DOI 10.1162/JINH_a_00206
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Lloyd CD, 2014, EXPLORING SPATIAL SCALE IN GEOGRAPHY, V0, P29
+   Lloyd CT, 2017, SCI DATA, V4, P0, DOI 10.1038/sdata.2017.1
+   Logan JR, 2014, PROF GEOGR, V66, P412, DOI 10.1080/00330124.2014.905156
+   Lyn U.E., 2001, GIM INT, V15, P43
+   Malone BP, 2012, COMPUT GEOSCI-UK, V41, P119, DOI 10.1016/j.cageo.2011.08.021
+   Monteiro J, 2018, INT J DATA SCI ANAL, V5, P189, DOI 10.1007/s41060-017-0080-z
+   Murrieta-Flores P, 2015, T GIS, V19, P296, DOI 10.1111/tgis.12106
+   Patel NN, 2017, T GIS, V21, P317, DOI 10.1111/tgis.12214
+   Pesaresi M., 2016, JRC97705 PUBL OFF EU, V0, P0
+   Porter C, 2015, HEALTH PLACE, V36, P25, DOI 10.1016/j.healthplace.2015.08.010
+   Quinlan R.J., 1992, P AUSTR JOINT C ART, V0, P0
+   Ramachandran P., 2017, ARXIV171005941, V0, P0
+   Rawat W, 2017, NEURAL COMPUT, V29, P2352, DOI 10.1162/NECO_a_00990
+   Robinson C., 2017, P ACM SIGSPATIAL WOR, V0, P0
+   Roudier P, 2017, COMPUT ELECTRON AGR, V142, P91, DOI 10.1016/j.compag.2017.08.021
+   Schneider A, 2009, ENVIRON RES LETT, V4, P0, DOI 10.1088/1748-9326/4/4/044003
+   Schroeder JP, 2007, GEOGR ANAL, V39, P311, DOI 10.1111/j.1538-4632.2007.00706.x
+   Schroeder JP, 2017, COMPUT ENVIRON URBAN, V62, P53, DOI 10.1016/j.compenvurbsys.2016.10.001
+   Sridharan H, 2013, GEOGR ANAL, V45, P238, DOI 10.1111/gean.12010
+   Srinivas S, 2016, FRONT ROBOT AI, V2, P0, DOI 10.3389/frobt.2015.00036
+   Stevens FR, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0107042
+   Tadono T., 2016, ISPRS ANN PHOTOGRAMM, V3, P0
+   Takaku J, 2016, ISPRS ANN PHOTO REM, V3, P25, DOI 10.5194/isprsannals-III-4-25-2016
+   Tatem AJ, 2017, SCI DATA, V4, P0, DOI 10.1038/sdata.2017.4
+   Tiecke T.G., 2017, MAPP WORLD POPUL ONE, V0, P0, DOI DOI 10.1596/33700
+   TOBLER WR, 1979, J AM STAT ASSOC, V74, P519, DOI 10.2307/2286968
+   Wardrop NA, 2018, P NATL ACAD SCI USA, V115, P3529, DOI 10.1073/pnas.1715305115
+   Willmott CJ, 2005, CLIMATE RES, V30, P79, DOI 10.3354/cr030079
+   Zamir A. R., 2016, COMPUTER SCI COMPUTE, V0, P0
+   Zhang C., 2011, ANN GIS, V17, P1, DOI 10.1080/19475683.2010.540258
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhao Y, 2017, INT J REMOTE SENS, V38, P1180, DOI 10.1080/01431161.2017.1280634
+NR 71
+TC 13
+Z9 13
+U1 0
+U2 4
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD AUG 15
+PY 2019
+VL 8
+IS 8
+BP 
+EP 
+DI 10.3390/ijgi8080327
+PG 22
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA IT6LG
+UT WOS:000482985000026
+DA 2023-04-26
+ER

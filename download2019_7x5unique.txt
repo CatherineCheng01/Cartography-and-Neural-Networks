@@ -1,0 +1,478 @@
+
+PT J
+AU Shamsolmoali, P
+   Zareapoor, M
+   Wang, RL
+   Zhou, HY
+   Yang, J
+AF Shamsolmoali, Pourya
+   Zareapoor, Masoumeh
+   Wang, Ruili
+   Zhou, Huiyu
+   Yang, Jie
+TI A Novel Deep Structure U-Net for Sea-Land Segmentation in Remote Sensing Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Deep neural network (DNN); dense network (DenseNet); remote sensing images; sea-land segmentation; U-Net
+ID water/land segmentation; semantic segmentation; neural-network; classification; extraction; coastline; energy
+AB Sea-land segmentation is an important process for many key applications in remote sensing. Proper operative sea-land segmentation for remote sensing images remains a challenging issue due to complex and diverse transition between sea and land. Although several convolutional neural networks (CNNs) have been developed for sea-land segmentation, the performance of these CNNs is far from the expected target. This paper presents a novel deep neural network structure for pixel-wise sea-land segmentation, a residual Dense U-Net (RDU-Net), in complex and high-density remote sensing images. RDU-Net is a combination of both downsampling and upsampling paths to achieve satisfactory results. In each downsampling and upsampling path, in addition to the convolution layers, several densely connected residual network blocks are proposed to systematically aggregate multiscale contextual information. Each dense network block contains multilevel convolution layers, short-range connections, and an identity mapping connection, which facilitates features reuse in the network and makes full use of the hierarchical features from the original images. These proposed blocks have a certain number of connections that are designed with shorter distance backpropagation between the layers and can significantly improve segmentation results while minimizing computational costs. We have performed extensive experiments on two real datasets, Google-Earth and ISPRS, and compared the proposed RDU-Net against several variations of dense networks. The experimental results show that RDU-Net outperforms the other state-of-the-art approaches on the sea-land segmentation tasks.
+C1 [Shamsolmoali, Pourya; Zareapoor, Masoumeh; Yang, Jie] Shanghai Jiao Tong Univ, Inst Image Proc & Pattern Recognit, Shanghai 200240, Peoples R China.
+   [Wang, Ruili] Cent South Univ Forestry & Technol, Sch Logist & Transportat, Changsha 410004, Hunan, Peoples R China.
+   [Wang, Ruili] Massey Univ, Sch Nat & Computat Sci, Palmerston North 4474, New Zealand.
+   [Zhou, Huiyu] Univ Leicester, Dept Informat, Leicester LE1 7RH, Leics, England.
+C3 Shanghai Jiao Tong University; Central South University of Forestry & Technology; Massey University; University of Leicester
+RP Wang, RL (corresponding author), Cent South Univ Forestry & Technol, Sch Logist & Transportat, Changsha 410004, Hunan, Peoples R China.
+EM pshams55@gmail.com; mzarea@sjtu.edu.cn; ruili.wang@massey.ac.nz; hz143@leicester.ac.uk; jieyang@sjtu.edu.cn
+FU National Science Foundation of China [61572315, 6151101179]; 973 Plan, China [2015CB856004]; Marsden Fund of New Zealand; U.K. EPSRC [EP/N011074/1]; Royal Society-Newton Advanced Fellowship [NA160342]; European Union [720325]; EPSRC [EP/N011074/1] Funding Source: UKRI
+CR Akbarizadeh G, 2012, IEEE T GEOSCI REMOTE, V50, P4358, DOI 10.1109/TGRS.2012.2194787
+   Alom MZ, 2018, ARXIV180206955, V0, P0, DOI DOI 10.1109/NAECON.2018.8556686
+   Amini S, 2018, GEO-SPAT INF SCI, V21, P127, DOI 10.1080/10095020.2017.1399674
+   An M, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18061898
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Basaeed E, 2016, INT J REMOTE SENS, V37, P1671, DOI 10.1080/01431161.2016.1159745
+   Chen F, 2018, IEEE J-STARS, V11, P1858, DOI 10.1109/JSTARS.2018.2833485
+   Chen GZ, 2018, IEEE J-STARS, V11, P1633, DOI 10.1109/JSTARS.2018.2810320
+   Chen X, 2012, IET MICROW ANTENNA P, V6, P263, DOI 10.1049/iet-map.2011.0177
+   Chen Y., 2017, PROC C ADV NEURAL IN, V0, P4467
+   Chollet F., 2015, DATA SCI CENT, V7, P0
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Coates A., 2011, ADV NEURAL INF PROCE, V0, PP2528, DOI 10.1016/J.PSYCHRES.2009.03.008
+   Drozdzal M, 2016, LECT NOTES COMPUT SC, V10008, P179, DOI 10.1007/978-3-319-46976-8_19
+   Gao X, 2018, IEEE ACCESS, V6, P39401, DOI 10.1109/ACCESS.2018.2856088
+   Guichi Liu, 2016, ADVANCES IN MULTIMEDIA INFORMATION PROCESSING - PCM 2016. 17TH PACIFIC-RIM CONFERENCE ON MULTIMEDIA. PROCEEDINGS: LNCS 9916, V0, PP479, DOI 10.1007/978-3-319-48890-5_47
+   Guven HE, 2016, IEEE T COMPUT IMAG, V2, P235, DOI 10.1109/TCI.2016.2580498
+   Han M, 2016, NEUROCOMPUTING, V198, P27, DOI 10.1016/j.neucom.2015.08.121
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hu H., 2017, P INT C LEARN REPR, V0, P0
+   Hu ZW, 2018, IEEE J-STARS, V11, P2461, DOI 10.1109/JSTARS.2018.2833102
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Jiang W, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050755
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kolsch A, 2017, PROC INT CONF DOC, V0, PP1318, DOI 10.1109/ICDAR.2017.217
+   Lguensat R, 2018, INT GEOSCI REMOTE SE, V0, PP1764, DOI 10.1109/IGARSS.2018.8518411
+   Li CL, 2017, 2017 INTERNATIONAL CONFERENCE ON COMPUTER SYSTEMS, V0, P1608
+   Li RR, 2018, IEEE J-STARS, V11, P3954, DOI 10.1109/JSTARS.2018.2833382
+   Liu H, 2004, INT J REMOTE SENS, V25, P937, DOI 10.1080/0143116031000139890
+   Liu WC, 2017, IEEE GEOSCI REMOTE S, V14, P2443, DOI 10.1109/LGRS.2017.2768300
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Luo WJ, 2016, ADV NEUR IN, V29, P0
+   Ma L, 2017, MATH PROBL ENG, V2017, P0, DOI 10.1155/2017/4728425
+   Mao CL, 2015, CHINESE J ELECTRON, V24, P361, DOI 10.1049/cje.2015.04.023
+   Mohamed R., 2005, P INT C INF FUS, V0, P813
+   Nogueira K., 2018, IEEE T GEOSCI REMOTE, V0, P0
+   Pestunov I. A., 2017, P INT C INF TECHN NA, V0, P194
+   Quan T M, 2016, ARXIV161205360, V0, P0
+   Richards JA, 1986, REMOTE SENSING DIGIT, V0, P0
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Savarese P., 2017, P INT C LEARN REPR, V0, P0
+   Scheidegger S, 2018, IEEE INT VEH SYM, V0, P433
+   Schneider S, 2018, 2018 15TH CONFERENCE ON COMPUTER AND ROBOT VISION (CRV), V0, PP321, DOI 10.1109/CRV.2018.00052
+   Shen L, 2018, MATER ENERG, V12, P1
+   Silveira M, 2008, IEEE IMAGE PROC, V0, PP1896, DOI 10.1109/ICIP.2008.4712150
+   Sziranyi T, 2014, IEEE GEOSCI REMOTE S, V11, P1544, DOI 10.1109/LGRS.2014.2300873
+   Tirandaz Z, 2016, IEEE J-STARS, V9, P1244, DOI 10.1109/JSTARS.2015.2492552
+   Tong T, 2017, IEEE I CONF COMP VIS, V0, PP4809, DOI 10.1109/ICCV.2017.514
+   Wan MJ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071039
+   Wang D, 2017, INT J REMOTE SENS, V38, P4327, DOI 10.1080/01431161.2017.1317938
+   Xia Y., 2014, INT J SIGNAL PROCESS, V7, P237, DOI 10.14257/ijsip.2014.7.3.19.
+   Yang G, 2014, IEEE GEOSCI REMOTE S, V11, P641, DOI 10.1109/LGRS.2013.2273552
+   Yu B, 2018, IEEE J-STARS, V11, P3252, DOI 10.1109/JSTARS.2018.2860989
+   Yuan JY, 2014, IEEE T GEOSCI REMOTE, V52, P16, DOI 10.1109/TGRS.2012.2234755
+   Zhang LB, 2014, J APPL REMOTE SENS, V8, P0, DOI 10.1117/1.JRS.8.083542
+   Zhang T, 2013, REMOTE SENS-BASEL, V5, P4470, DOI 10.3390/rs5094470
+   Zhang XD, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070755
+   Zhang ZP, 2019, IEEE ACM T COMPUT BI, V16, P407, DOI 10.1109/TCBB.2017.2704587
+   Zhong H, 2011, INT GEOSCI REMOTE SE, V0, PP2661, DOI 10.1109/IGARSS.2011.6049750
+   Zoph B, 2018, PROC CVPR IEEE, V0, PP8697, DOI 10.1109/CVPR.2018.00907
+NR 62
+TC 51
+Z9 54
+U1 4
+U2 77
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD SEP 15
+PY 2019
+VL 12
+IS 9
+BP 3219
+EP 3232
+DI 10.1109/JSTARS.2019.2925841
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA JD2DR
+UT WOS:000489785800007
+DA 2023-04-26
+ER
+
+PT J
+AU Gargiulo, M
+   Dell'Aglio, DAG
+   Iodice, A
+   Riccio, D
+   Ruello, G
+AF Gargiulo, M.
+   Dell'Aglio, D. A. G.
+   Iodice, A.
+   Riccio, D.
+   Ruello, G.
+TI A CNN-based Super-resolution Technique for Active Fire Detection on Sentinel-2 Data
+SO 2019 PHOTONICS & ELECTROMAGNETICS RESEARCH SYMPOSIUM - SPRING (PIERS-SPRING)
+LA English
+DT Proceedings Paper
+ID areas
+AB Remote Sensing applications can benefit from a relatively fine spatial resolution multispectral (MS) images and a high revisit frequency ensured by the twin satellites Sentinel-2. Unfortunately, only four out of thirteen bands are provided at the highest resolution of 10 meters, and the others at 20 or 60 meters. For instance the Short-Wave Infrared (SWIR) bands, provided at 20 meters, are very useful to detect active fires. Aiming to a more detailed Active Fire Detection (AFD) maps, we propose a super-resolution data fusion method based on Convolutional Neural Network (CNN) to move towards the 10-m spatial resolution the SWIR bands. The proposed CNN-based solution is compared to alternative methods in terms of some accuracy metrics. Moreover we have tested the super-resolved bands from an application point of view by monitoring active fire through classic indices. Advantages and limits of our proposed approach are validated on specific geographical area (the mount Vesuvius, close to Naples) that was damaged by widespread fires during the summer of 2017.
+C1 [Gargiulo, M.; Dell'Aglio, D. A. G.; Iodice, A.; Riccio, D.; Ruello, G.] Univ Naples Federico II, Naples, Italy.
+C3 University of Naples Federico II
+RP Gargiulo, M (corresponding author), Univ Naples Federico II, Naples, Italy.
+CR Alparone L, 2007, IEEE T GEOSCI REMOTE, V45, P3012, DOI 10.1109/TGRS.2007.904923
+   [Anonymous], 2016, OVERVIEW GRADIENT DE, V0, P0
+   Barducci A, 2002, INFRARED PHYS TECHN, V43, P119, DOI 10.1016/S1350-4495(02)00129-9
+   CHAVEZ PS, 1991, PHOTOGRAMM ENG REM S, V57, P295
+   Chuvieco, 1997, REV REMOTE SENSING M, V0, P127
+   Cicala L., 2018, P 2018 IEEE INT C EN, V0, PP1, DOI 10.1109/EE1.2018.8385269
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Gargiulo M., 2018, IGARSS, V0, P0
+   Guan XD, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010019
+   Guo W, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010131
+   Jagalingam P, 2015, AQUAT PR, V4, P133, DOI 10.1016/j.aqpro.2015.02.019
+   Joshi N, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010070
+   Julian K. D., 1743, NEURAL NETWORK GUIDA, V0, P0
+   Kant Y, 2000, INT J REMOTE SENS, V21, P1749, DOI 10.1080/014311600210029
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Marchetti M., 2017, FORESTA RIV SELVICOL, V0, PP202, DOI 10.3832/efor2537-014
+   Mascolo L., 2013, ESA SPECIAL PUBLICAT, V713, P0
+   Masi G, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8070594
+   Oliva P., 2015, REMOTE SENSING ENV, V185, P0
+   Ross C, 2020, TRANSPORTATION, V0, P0
+   Scarpa G, 2018, IEEE T GEOSCI REMOTE, V56, P5443, DOI 10.1109/TGRS.2018.2817393
+   Tajbakhsh N, 2016, IEEE T MED IMAGING, V35, P1299, DOI 10.1109/TMI.2016.2535302
+   Verhegghen A, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8120986
+   Vivone G, 2015, IEEE T GEOSCI REMOTE, V53, P2565, DOI 10.1109/TGRS.2014.2361734
+   Wald L, 2002, DATA FUSION DEFINITI, V0, P0
+   Wang Z, 2002, IEEE SIGNAL PROC LET, V9, P81, DOI 10.1109/97.995823
+NR 27
+TC 6
+Z9 6
+U1 2
+U2 6
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1559-9450
+EI 
+J9 PR ELECTROMAGN RES S
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 418
+EP 426
+DI 
+PG 9
+WC Engineering, Electrical & Electronic; Optics; Physics, Applied
+SC Engineering; Optics; Physics
+GA BP4BS
+UT WOS:000550769300060
+DA 2023-04-26
+ER
+
+PT J
+AU Wurm, M
+   Stark, T
+   Zhu, XX
+   Weigand, M
+   Taubenbock, H
+AF Wurm, Michael
+   Stark, Thomas
+   Zhu, Xiao Xiang
+   Weigand, Matthias
+   Taubenboeck, Hannes
+TI Semantic segmentation of slums in satellite images using transfer learning on fully convolutional neural networks
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Slums; FCN; Convolutional neural networks; Deep learning; Transfer learning
+ID high-resolution; informal settlements; classification; space
+AB Unprecedented urbanization in particular in countries of the global south result in informal urban development processes, especially in mega cities. With an estimated 1 billion slum dwellers globally, the United Nations have made the fight against poverty the number one sustainable development goal. To provide better infrastructure and thus a better life to slum dwellers, detailed information on the spatial location and size of slums is of crucial importance. In the past, remote sensing has proven to be an extremely valuable and effective tool for mapping slums. The nature of used mapping approaches by machine learning, however, made it necessary to invest a lot of effort in training the models. Recent advances in deep learning allow for transferring trained fully convolutional networks (FCN) from one data set to another. Thus, in our study we aim at analyzing transfer learning capabilities of FCNs to slum mapping in various satellite images. A model trained on very high resolution optical satellite imagery from QuickBird is transferred to Sentinel-2 and TerraSAR-X data. While free-of-charge Sentinel 2 data is widely available, its comparably lower resolution makes slum mapping a challenging task. TerraSAR-X data on the other hand, has a higher resolution and is considered a powerful data source for infra-urban structure analysis. Due to the different image characteristics of SAR compared to optical data, however, transferring the model could not improve the performance of semantic segmentation but we observe very high accuracies for mapped slums in the optical data: QuickBird image obtains 86-88% (positive prediction value and sensitivity) and a significant increase for Sentinel-2 applying transfer learning can be observed (from 38 to 55% and from 79 to 85% for PPV and sensitivity, respectively). Using transfer learning proofs extremely valuable in retrieving information on small-scaled urban structures such as slum patches even in satellite images of decametric resolution.
+C1 [Wurm, Michael; Weigand, Matthias; Taubenboeck, Hannes] German Aerosp Ctr DLR, German Remote Sensing Data Ctr DFD, D-82234 Oberpfaffenhofen, Germany.
+   [Stark, Thomas; Zhu, Xiao Xiang] TUM, Signal Proc Earth Observat SiPEO, D-80333 Munich, Germany.
+   [Zhu, Xiao Xiang] German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Oberpfaffenhofen, Germany.
+   [Weigand, Matthias] Univ Wurzburg, Dept Remote Sensing, D-97074 Wurzburg, Germany.
+C3 Helmholtz Association; German Aerospace Centre (DLR); Technical University of Munich; Helmholtz Association; German Aerospace Centre (DLR); University of Wurzburg
+RP Wurm, M (corresponding author), German Aerosp Ctr DLR, German Remote Sensing Data Ctr DFD, D-82234 Oberpfaffenhofen, Germany.
+EM michael.wurm@dlr.de
+FU European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme [ERC-2016-StG-714087]
+CR Amnesty International, 2016, MILL MENSCH LEB SLUM, V0, P0
+   Aytar Y, 2011, IEEE I CONF COMP VIS, V0, PP2252, DOI 10.1109/ICCV.2011.6126504
+   Baud I, 2010, INT J APPL EARTH OBS, V12, P359, DOI 10.1016/j.jag.2010.04.008
+   Burdett R., 2010, LIVING ENDLESS CITY, V0, P8
+   Castelluccio M., 2015, LAND USE CLASSIFICAT, V0, P0
+   Deng J., 2009, P IEEE C COMP VIS PA, V0, P248
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Friesen J, 2018, HABITAT INT, V73, P79, DOI 10.1016/j.habitatint.2018.02.002
+   Girshick R, 2016, IEEE T PATTERN ANAL, V38, P142, DOI 10.1109/TPAMI.2015.2437384
+   Gong MG, 2017, ISPRS J PHOTOGRAMM, V129, P212, DOI 10.1016/j.isprsjprs.2017.05.001
+   Graesser J, 2012, IEEE J-STARS, V5, P1164, DOI 10.1109/JSTARS.2012.2190383
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Huang X, 2015, IEEE T GEOSCI REMOTE, V53, P3639, DOI 10.1109/TGRS.2014.2380779
+   Hughes LH, 2018, IEEE GEOSCI REMOTE S, V15, P784, DOI 10.1109/LGRS.2018.2799232
+   Jain S, 2007, INT J REMOTE SENS, V28, P3227, DOI 10.1080/01431160600705122
+   Jean N, 2016, SCIENCE, V353, P790, DOI 10.1126/science.aaf7894
+   Kang J, 2018, ISPRS J PHOTOGRAMM, V145, P44, DOI 10.1016/j.isprsjprs.2018.02.006
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   Kingma DP, 2015, 3 INT C LEARN REPR I, V0, P0
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kuffer M, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040384
+   Kuffer M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8060455
+   Kuffer M, 2016, IEEE J-STARS, V9, P1830, DOI 10.1109/JSTARS.2016.2538563
+   Kuffer M, 2014, COMPUT ENVIRON URBAN, V48, P138, DOI 10.1016/j.compenvurbsys.2014.07.012
+   Lin TY, 2014, LECT NOTES COMPUT SC, V8693, P740, DOI 10.1007/978-3-319-10602-1_48
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Ma ZG, 2014, INT J COMPUT VISION, V109, P60, DOI 10.1007/s11263-014-0717-5
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mahabir R, 2018, URBAN SCI, V2, P0, DOI 10.3390/urbansci2010008
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Marmanis D, 2016, IEEE GEOSCI REMOTE S, V13, P105, DOI 10.1109/LGRS.2015.2499239
+   Mou L, 2017, IEEE J-STARS, V10, P3435, DOI 10.1109/JSTARS.2017.2696823
+   Mou LC, 2018, IEEE T GEOSCI REMOTE, V56, P391, DOI 10.1109/TGRS.2017.2748160
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Oquab M, 2014, PROC CVPR IEEE, V0, PP1717, DOI 10.1109/CVPR.2014.222
+   Owen KK, 2013, APPL GEOGR, V38, P107, DOI 10.1016/j.apgeog.2012.11.016
+   Pan B, 2018, ISPRS J PHOTOGRAMM, V145, P108, DOI 10.1016/j.isprsjprs.2017.11.003
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Penatti Otavio A. B., 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP44, DOI 10.1109/CVPRW.2015.7301382
+   Persello C, 2017, IEEE GEOSCI REMOTE S, V14, P2325, DOI 10.1109/LGRS.2017.2763738
+   Salakhutdinov R, 2011, PROC CVPR IEEE, V0, PP1481, DOI 10.1109/CVPR.2011.5995720
+   Sandborn A, 2016, IEEE J-STARS, V9, P1970, DOI 10.1109/JSTARS.2016.2519843
+   Schmitt A, 2018, INT J APPL EARTH OBS, V64, P181, DOI 10.1016/j.jag.2017.09.006
+   Shekkizhar S., 2017, FCN TENSORFLOW, V0, P0
+   Sivic J, 2003, COMP VIS P 9 IEEE IN, V0, P0
+   Sun Z, 2012, PROCEEDINGS OF INTERNATIONAL CONFERENCE ON COMPUTER VISION IN REMOTE SENSING, V0, P268
+   Taubenbocic H., 2015, GLOBALE URBANISIERUN, V0, P171
+   Taubenbock H, 2018, APPL GEOGR, V92, P150, DOI 10.1016/j.apgeog.2018.02.002
+   UN Habitat,, 2016, SLUM ALMANAC 2015 20, V0, P0
+   UN (United Nations), 2015, WORLD URB PROSP 2014, V0, P0
+   United Nations, 2017, SUST DEV GOALS REP, V0, P0
+   Wurm M, 2018, REMOTE SENS LETT, V9, P41, DOI 10.1080/2150704X.2017.1384586
+   Wurm M, 2017, REMOTE SENS ENVIRON, V194, P190, DOI 10.1016/j.rse.2017.03.030
+   Xia JS, 2017, INT GEOSCI REMOTE SE, V0, P4762
+   Zhu QQ, 2016, IEEE GEOSCI REMOTE S, V13, P747, DOI 10.1109/LGRS.2015.2513443
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+   Zipf G.K., 1941, NATL UNITY DISUNITY, V0, P0
+   Zisserma A, 2014, P INT C LEARN REPR, V0, P0
+   Zou Q, 2015, IEEE GEOSCI REMOTE S, V12, P2321, DOI 10.1109/LGRS.2015.2475299
+NR 59
+TC 160
+Z9 164
+U1 24
+U2 105
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD APR 15
+PY 2019
+VL 150
+IS 
+BP 59
+EP 69
+DI 10.1016/j.isprsjprs.2019.02.006
+PG 11
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HS7ZS
+UT WOS:000464088400005
+DA 2023-04-26
+ER
+
+PT J
+AU Xu, ZK
+   Chen, ZX
+   Yi, WW
+   Gui, QL
+   Hou, W
+   Ding, MY
+AF Xu, Zekai
+   Chen, Zixuan
+   Yi, Weiwei
+   Gui, Qiuling
+   Hou, Wenguang
+   Ding, Mingyue
+TI Deep gradient prior network for DEM super-resolution: Transfer learning from image to DEM
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Super-resolution; Digital elevation model; Gradient reconstruction; Convolutional neural network; Transfer learning
+AB Digital elevation model (DEM) super-resolution (SR) aims to increase the spatial resolution of a DEM through data processing, rather than using sensors with higher accuracy. Inspired by the success of convolutional neural networks (CNNs) in image SR, this study introduces the CNN into DEM SR. However, directly training a robust network for DEM SR has remained a challenge as it has been difficult to obtain sufficient high-resolution DEM samples. Therefore, we proposed a novel method that includes two measures to address this issue. The first is to design a deep CNN for acquiring gradient prior knowledge. Based on this prior, high-resolution gradient maps of the studied DEM can be estimated. The second measure is to introduce transfer learning, which applies the knowledge learned from the natural image to the DEM SR problem. Therefore, a CNN is pretrained by the gradient of numerous high-resolution natural images and then fine-tuned with the gradient maps of some DEM training data. Finally, the high-resolution DEM is reconstructed under the constraints of the estimated gradient maps and the original low-resolution DEM. Overall, the experiments indicate that the proposed framework is superior to current state-of-the-art methods.
+C1 [Xu, Zekai; Chen, Zixuan; Yi, Weiwei; Gui, Qiuling; Hou, Wenguang; Ding, Mingyue] Huazhong Univ Sci & Technol, Sch Life Sci & Technol, Wuhan 430074, Hubei, Peoples R China.
+C3 Huazhong University of Science & Technology
+RP Hou, W (corresponding author), Huazhong Univ Sci & Technol, Sch Life Sci & Technol, Wuhan 430074, Hubei, Peoples R China.
+EM houwenguang99@163.com
+FU National Natural Science Foundation of China [41371426, 41611530696]
+CR Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   ARAI K, 1993, INT GEOSCI REMOTE SE, V0, PP1975, DOI 10.1109/IGARSS.1993.322050
+   Babacan SD, 2008, IEEE IMAGE PROC, V0, PP641, DOI 10.1109/ICIP.2008.4711836
+   Bishop T. F. A., 1999, PRECISION AGRICULTURE 99, V0, P635
+   Chang H, 2004, PROC CVPR IEEE, V0, PP275, DOI 10.1109/cvpr.2004.1315043
+   Chantas GK, 2007, IEEE T IMAGE PROCESS, V16, P1821, DOI 10.1109/TIP.2007.896664
+   Chen YJ, 2017, IEEE T PATTERN ANAL, V39, P1256, DOI 10.1109/TPAMI.2016.2596743
+   Chen ZX, 2016, INT ARCH PHOTOGRAMM, V41, P247, DOI 10.5194/isprsarchives-XLI-B3-247-2016
+   Dong C, 2016, LECT NOTES COMPUT SC, V9906, P391, DOI 10.1007/978-3-319-46475-6_25
+   Dong C, 2014, LECT NOTES COMPUT SC, V8692, P184, DOI 10.1007/978-3-319-10593-2_13
+   Farsiu S, 2004, IEEE T IMAGE PROCESS, V13, P1327, DOI 10.1109/TIP.2004.834669
+   Freeman WT, 2002, IEEE COMPUT GRAPH, V22, P56, DOI 10.1109/38.988747
+   Gong MG, 2017, ISPRS J PHOTOGRAMM, V129, P212, DOI 10.1016/j.isprsjprs.2017.05.001
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   HUBEL DH, 1962, J PHYSIOL-LONDON, V160, P106, DOI 10.1113/jphysiol.1962.sp006837
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Jhee H, 2013, REMOTE SENS LETT, V4, P325, DOI 10.1080/2150704X.2012.729869
+   Jian Sun, 2003, COMP VIS PATT REC 20, V2, P0
+   Kaiser P., 2017, IEEE T GEOSCI REMOTE, V99, P1
+   Karkee M, 2008, BIOSYST ENG, V101, P293, DOI 10.1016/j.biosystemseng.2008.09.010
+   Kellndorfer J, 2004, REMOTE SENS ENVIRON, V93, P339, DOI 10.1016/j.rse.2004.07.017
+   Kim J, 2016, IEEE CONF COMPUT, V0, P0
+   Kim KI, 2010, IEEE T PATTERN ANAL, V32, P1127, DOI 10.1109/TPAMI.2010.25
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Ledig C, 2017, PROC CVPR IEEE, V0, PP105, DOI 10.1109/CVPR.2017.19
+   Li X, 2001, IEEE T IMAGE PROCESS, V10, P1521, DOI 10.1109/83.951537
+   Li XL, 2010, SIGNAL PROCESS, V90, P405, DOI 10.1016/j.sigpro.2009.05.028
+   Lim B, 2017, IEEE COMPUT SOC CONF, V0, PP1132, DOI 10.1109/CVPRW.2017.151
+   Lindstrom P, 2001, IEEE VISUAL, V0, PP363, DOI 10.1109/VISUAL.2001.964533
+   Maini R., 2009, INT J IMAGE PROCESS, V3, P1
+   Mallat S, 2010, IEEE T IMAGE PROCESS, V19, P2889, DOI 10.1109/TIP.2010.2049927
+   Matsugu M, 2003, NEURAL NETWORKS, V16, P555, DOI 10.1016/S0893-6080(03)00115-1
+   Nair V, 2010, ICML, V27, P807
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Penatti Otavio A. B., 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP44, DOI 10.1109/CVPRW.2015.7301382
+   Roweis ST, 2000, SCIENCE, V290, P2323, DOI 10.1126/science.290.5500.2323
+   Schulter S, 2015, PROC CVPR IEEE, V0, PP3791, DOI 10.1109/CVPR.2015.7299003
+   Shi WZ, 2016, PROC CVPR IEEE, V0, PP1874, DOI 10.1109/CVPR.2016.207
+   Sun J, 2011, IEEE T IMAGE PROCESS, V20, P1529, DOI 10.1109/TIP.2010.2095871
+   Thevenaz P, 2000, BIOMED EN S, V0, P393
+   Tian J, 2011, SIGNAL IMAGE VIDEO P, V5, P329, DOI 10.1007/s11760-010-0204-6
+   Timofte R, 2017, IEEE COMPUT SOC CONF, V0, PP1110, DOI 10.1109/CVPRW.2017.149
+   Tsai Roger Y., 1984, ADV COMPUTER VISUAL, V0, P317
+   Xu ZK, 2015, ISPRS J PHOTOGRAMM, V110, P48, DOI 10.1016/j.isprsjprs.2015.10.009
+   Yue LW, 2015, INT J GEOGR INF SCI, V29, P2095, DOI 10.1080/13658816.2015.1063639
+   Zhang KB, 2012, IEEE T IMAGE PROCESS, V21, P4544, DOI 10.1109/TIP.2012.2208977
+NR 46
+TC 22
+Z9 23
+U1 9
+U2 48
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD APR 15
+PY 2019
+VL 150
+IS 
+BP 80
+EP 90
+DI 10.1016/j.isprsjprs.2019.02.008
+PG 11
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HS7ZS
+UT WOS:000464088400007
+DA 2023-04-26
+ER
+
+PT J
+AU Fink, W
+AF Fink, Wolfgang
+TI Paths to Non-Deterministic Autonomy: Practical & Qualitative Considerations towards a Hawking-Musk-esque Nightmare
+SO MICRO- AND NANOTECHNOLOGY SENSORS, SYSTEMS, AND APPLICATIONS XI
+LA English
+DT Proceedings Paper
+DE Non-deterministic autonomy; true randomness; objective global feature extraction and analysis; stochastic optimization framework; self-organization; self-configuration; self-adaptation; working hypothesis generation
+ID fuzzy-logic; optimization
+AB Current computational approaches, such as Artificial Intelligence, artificial neural networks, expert systems, fuzzy logic, fuzzy-cognitive maps, other rule-based approaches, etc., fundamentally do not lend themselves to building non-deterministic autonomous reasoning systems. Especially for AI, high hopes were raised more than 50 years ago, but AI has largely failed to deliver on its promises and still does. As such, the paper discusses different ingredients and approaches towards completely non-deterministic autonomous systems that are based on and exhibit critical capabilities, such as, but not limited to, self-organization, self-configuration, and self-adaptation. As such, any two initially identical autonomous systems will exhibit diverging and ultimately completely unpredictable developmental trajectories over time, once exposed to the same or similar environment, and even more so, once exposed to different environments.
+C1 [Fink, Wolfgang] Univ Arizona, Coll Engn, Visual & Autonomous Explorat Syst Res Lab, 1230 E Speedway Blvd, Tucson, AZ 85721 USA.
+C3 University of Arizona
+RP Fink, W (corresponding author), Univ Arizona, Coll Engn, Visual & Autonomous Explorat Syst Res Lab, 1230 E Speedway Blvd, Tucson, AZ 85721 USA.
+EM wfink@email.arizona.edu
+FU Edward & Maria Keonjian Endowment at the University of Arizona
+CR [Anonymous], 1989, GENETIC ALGORITHM SE, V0, P0
+   [Anonymous], 1900, PATENT NO. 9424489 9424489, V0, P0
+   [Anonymous], 1900, PATENT NO. 7734063 7734063, V0, P0
+   [Anonymous], 1900, PATENT NO. 9122956 9122956, V0, P0
+   [Anonymous], 1975, ADAPTATION NATURAL A, V0, P0
+   [Anonymous], 2012, ROBOT TEACHES ITSELF, V0, P0
+   [Anonymous], 1900, PATENT NO. 20170254657, V0, P0
+   [Anonymous], 1900, PATENT NO. 6990406 B2 6990406, V0, P0
+   [Anonymous], 1900, PATENT NO. 7742845 7742845, V0, P0
+   Baker VR, 2017, WATER RESOUR RES, V53, P1770, DOI 10.1002/2016WR020078
+   Brooks A J-W, 2018, P SPIE, V0, P0
+   CHAMBERLIN TC, 1890, SCIENCE, V15, P92, DOI 10.1126/SCIENCE.NS-15.366.92
+   FARMER JD, 1986, PHYSICA D, V22, P187, DOI 10.1016/0167-2789(86)90240-X
+   Fink W, 2005, PLANET SPACE SCI, V53, P1419, DOI 10.1016/j.pss.2005.07.013
+   Fink Wolfgang, 2009, PROCEEDINGS OF THE SPIE - THE INTERNATIONAL SOCIETY FOR OPTICAL ENGINEERING, V7331, P0, DOI 10.1117/12.821836
+   Fink W, 2018, P SPIE, V0, P0
+   Fink W, 2007, 7 IAA INT C LOW COST, V0, P0
+   Fink W, 2008, PLANET MARS RES FOCU, V0, P0
+   Fink W, 2015, IEEE AEROSPACE C P, V0, P0
+   Fink W., 2015, 46 LUN PLAN SCI C CD, V0, P0
+   Fink W, 2019, IEEE AEROSPACE C P, V0, P0
+   Fink W., 2006, P IEEE WORLD C COMP, V0, P11116
+   Fink W, 2008, AEROSP CONF PROC, V0, P1841
+   Fink W, 2008, P SOC PHOTO-OPT INS, V6960, PN9600, DOI 10.1117/12.784440
+   Fink W, 2017, PROC SPIE, V10194, P0, DOI 10.1117/12.2257333
+   Fink W, 2010, J FIELD ROBOT, V27, P268, DOI 10.1002/rob.20323
+   Goldberg S, 1983, THESIS, V0, P0
+   HOLLAND JH, 1981, 34 U MICH COGN SCI D, V0, P0
+   HOLLAND JH, 1986, MACHINE LEARNING, V2, P0
+   HOLLAND JH, 1978, FOSSIL RECORD, V0, P0
+   Kean S, 2010, SCIENCE, V329, P508, DOI 10.1126/science.329.5991.508
+   KIRKPATRICK S, 1983, SCIENCE, V220, P671, DOI 10.1126/science.220.4598.671
+   Koza J. R., 1992, GENETIC PROGRAMMING, V1, P0
+   Landau LD, 1976, COURSE THEORETICAL P, V1, P0
+   Lee S., 2005, IEEE AER C MARCH, V0, P0, DOI DOI 10.1109/AERO.2005.1559377
+   Lee S, 2006, IEEE AER C, V0, P0, DOI DOI 10.1109/AERO.2006.1656038
+   MAMDANI EH, 1975, INT J MAN MACH STUD, V7, P1, DOI 10.1016/S0020-7373(75)80002-2
+   MAMDANI EH, 1977, IEEE T COMPUT, V26, P1182, DOI 10.1109/TC.1977.1674779
+   METROPOLIS N, 1953, J CHEM PHYS, V21, P1087, DOI 10.1063/1.1699114
+   Press WH, 1991, NUMERICAL RECIPES C, V0, P286
+NR 40
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPIE-INT SOC OPTICAL ENGINEERING
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98227-0010 USA
+SN 0277-786X
+EI 1996-756X
+J9 PROC SPIE
+PD JUN 15
+PY 2019
+VL 10982
+IS 
+BP 
+EP 
+DI 10.1117/12.2518335
+PG 10
+WC Nanoscience & Nanotechnology; Optics
+SC Science & Technology - Other Topics; Optics
+GA BN5TR
+UT WOS:000484733200038
+DA 2023-04-26
+ER
