@@ -1,0 +1,461 @@
+
+PT J
+AU Zhou, LC
+   Gu, XD
+AF Zhou, Lecheng
+   Gu, Xiaodong
+TI Embedding topological features into convolutional neural network salient object detection
+SO NEURAL NETWORKS
+LA English
+DT Article
+DE Conditional random field; Convolutional neural network; Salient object detection; Topological feature
+ID attention; model
+AB Salient object detection can be applied as a critical preprocessing step in many computer vision tasks. Recent studies of salient object detection mainly employed convolutional neural networks (CNNs) for mining high-level semantic properties. However, the existing methods can still be improved to find precise semantic information in different scenarios. In particular, in the two main methods employed for salient object detection, the patchwise detection models might ignore spatial structures among regions and the fully convolution-based models mainly consider semantic features in a global manner. In this paper, we proposed a salient object detection framework by embedding topological features into a deep neural network for extracting semantics. We segment the input image and compute weight for each region with low-level features. The weighted segmentation result is called a topological map and it provides an additional channel for the CNN to emphasize the structural integrity and locality during the extraction of semantic features. We also utilize the topological map for saliency refinement based on a conditional random field at the end of our model. Experimental results on six benchmark datasets demonstrated that our proposed framework achieves competitive performance compared to other state-of-the-art methods. (C) 2019 Elsevier Ltd. All rights reserved.
+C1 [Zhou, Lecheng; Gu, Xiaodong] Fudan Univ, Dept Elect Engn, Shanghai 200433, Peoples R China.
+C3 Fudan University
+RP Gu, XD (corresponding author), Fudan Univ, Dept Elect Engn, Shanghai 200433, Peoples R China.
+EM 17210720052@fudan.edu.cn; xdgu@fudan.edu.cn
+FU National Natural Science Foundation of China [61771145, 61371148]
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   Achanta R, 2009, PROC CVPR IEEE, V0, PP1597, DOI 10.1109/CVPRW.2009.5206596
+   Alpert S, 2007, PROC CVPR IEEE, V0, P359
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Borji A., 2014, ARXIV14115878, V0, P0
+   Borji A, 2012, LECT NOTES COMPUT SC, V7573, P414, DOI 10.1007/978-3-642-33709-3_30
+   Cai S., 2018, INT JOINT C ART INT, V0, P0
+   Cao FL, 2018, INFORM SCIENCES, V456, P34, DOI 10.1016/j.ins.2018.05.006
+   Chen TS, 2016, IEEE T NEUR NET LEAR, V27, P1135, DOI 10.1109/TNNLS.2015.2506664
+   Cheng MM, 2011, PROC CVPR IEEE, V0, PP409, DOI 10.1109/CVPR.2011.5995344
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Felzenszwalb PF, 2004, INT J COMPUT VISION, V59, P167, DOI 10.1023/B:VISI.0000022288.19776.77
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Gordo A, 2016, LECT NOTES COMPUT SC, V9910, P241, DOI 10.1007/978-3-319-46466-4_15
+   Gu XD, 2013, COMPUT VIS IMAGE UND, V117, P1400, DOI 10.1016/j.cviu.2013.05.004
+   He SF, 2015, INT J COMPUT VISION, V115, P330, DOI 10.1007/s11263-015-0822-0
+   Hou QB, 2017, PROC CVPR IEEE, V0, PP5300, DOI 10.1109/CVPR.2017.563
+   Itti L, 2004, IEEE T IMAGE PROCESS, V13, P1304, DOI 10.1109/TIP.2004.834657
+   Itti L, 1998, IEEE T PATTERN ANAL, V20, P1254, DOI 10.1109/34.730558
+   Jia Y, 2014, CAFFE CONVOLUTIONAL, V0, P0, DOI DOI 10.1145/2647868.2654889
+   Jiang BW, 2013, IEEE I CONF COMP VIS, V0, PP1665, DOI 10.1109/ICCV.2013.209
+   Jiang HZ, 2013, PROC CVPR IEEE, V0, PP2083, DOI 10.1109/CVPR.2013.271
+   Krahenbuhl P., 2011, P ADV NEUR INF PROC, V0, P109
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Lee GY, 2016, PROC CVPR IEEE, V0, PP660, DOI 10.1109/CVPR.2016.78
+   Li GB, 2018, IEEE T NEUR NET LEAR, V29, P6038, DOI 10.1109/TNNLS.2018.2817540
+   Li GB, 2015, PROC CVPR IEEE, V0, PP5455, DOI 10.1109/CVPR.2015.7299184
+   Li HY, 2017, NEUROCOMPUTING, V226, P212, DOI 10.1016/j.neucom.2016.11.056
+   Li X, 2016, IEEE T IMAGE PROCESS, V25, P3919, DOI 10.1109/TIP.2016.2579306
+   Li XH, 2013, IEEE I CONF COMP VIS, V0, PP2976, DOI 10.1109/ICCV.2013.370
+   Li Y, 2014, PROC CVPR IEEE, V0, PP280, DOI 10.1109/CVPR.2014.43
+   Liu NA, 2016, PROC CVPR IEEE, V0, PP678, DOI 10.1109/CVPR.2016.80
+   Liu T, 2011, IEEE T PATTERN ANAL, V33, P353, DOI 10.1109/TPAMI.2010.70
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Luo ZM, 2017, PROC CVPR IEEE, V0, PP6593, DOI 10.1109/CVPR.2017.698
+   Margolin R, 2013, VISUAL COMPUT, V29, P381, DOI 10.1007/s00371-012-0740-x
+   Martin DR, 2004, IEEE T PATTERN ANAL, V26, P530, DOI 10.1109/TPAMI.2004.1273918
+   Murabito F, 2018, COMPUT VIS IMAGE UND, V172, P67, DOI 10.1016/j.cviu.2018.03.005
+   Parkhurst D, 2002, VISION RES, V42, P107, DOI 10.1016/S0042-6989(01)00250-4
+   Simonyan K, 2015, ARXIV, V0, P0
+   Wang H, 2018, NEURAL NETWORKS, V101, P47, DOI 10.1016/j.neunet.2018.02.005
+   Wang LJ, 2015, PROC CVPR IEEE, V0, PP3183, DOI 10.1109/CVPR.2015.7298938
+   Wang X, 2016, IEEE IMAGE PROC, V0, P1042
+   Wang ZX, 2017, IEEE I CONF COMP VIS, V0, PP464, DOI 10.1109/ICCV.2017.58
+   Wei YC, 2016, IEEE T PATTERN ANAL, V38, P1901, DOI 10.1109/TPAMI.2015.2491929
+   Wu HF, 2014, VISUAL COMPUT, V30, P229, DOI 10.1007/s00371-013-0823-3
+   Xie YL, 2013, IEEE T IMAGE PROCESS, V22, P1689, DOI 10.1109/TIP.2012.2216276
+   Yan Q, 2013, PROC CVPR IEEE, V0, PP1155, DOI 10.1109/CVPR.2013.153
+   Yang C, 2013, PROC CVPR IEEE, V0, PP3166, DOI 10.1109/CVPR.2013.407
+   You J, 2016, PATTERN RECOGN LETT, V84, P85, DOI 10.1016/j.patrec.2016.08.018
+   Yunchao Wei, 2017, 2017 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP6488, DOI 10.1109/CVPR.2017.687
+   Zhao F, 2015, PROC CVPR IEEE, V0, PP1556, DOI 10.1109/CVPR.2015.7298763
+   Zhao R, 2015, PROC CVPR IEEE, V0, PP1265, DOI 10.1109/CVPR.2015.7298731
+   Zhu WJ, 2014, PROC CVPR IEEE, V0, PP2814, DOI 10.1109/CVPR.2014.360
+NR 55
+TC 14
+Z9 14
+U1 2
+U2 21
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0893-6080
+EI 1879-2782
+J9 NEURAL NETWORKS
+JI Neural Netw.
+PD JAN 15
+PY 2020
+VL 121
+IS 
+BP 308
+EP 318
+DI 10.1016/j.neunet.2019.09.009
+PG 11
+WC Computer Science, Artificial Intelligence; Neurosciences
+SC Computer Science; Neurosciences & Neurology
+GA JT3WE
+UT WOS:000500922700024
+PM 31586858
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, HY
+   Wang, XS
+   Chen, CLP
+   Cheng, YH
+AF Wang, Haoyu
+   Wang, Xuesong
+   Chen, C. L. Philip
+   Cheng, Yuhu
+TI Hyperspectral Image Classification Based on Domain Adaptation Broad Learning
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Manifolds; Feature extraction; Earth; Data mining; Remote sensing; Support vector machines; Neural networks; Broad learning; classification; domain adaptation; hyperspectral image (HSI)
+ID remote-sensing images; network
+AB Hyperspectral images (HSI) are widely applied in numerous fields for their rich spatial and spectral information. However, in these applications, we always face the situation that the available labeled samples are limited or absent. Therefore, we propose an HSI classification method based on domain adaptation broad learning (DABL). First, according to the importance of the marginal and conditional distributions, the maximum mean discrepancy is used in mapped features to adapt these distributions between source and target domains. Meanwhile the manifold regularization is added to maintain the manifold structure of the input HSI data. Second, to further reduce the distribution difference and maintain manifold structure, the domain adaptation and manifold regularization are added to the output layer of DABL. Finally, the output weights can be easily calculated by the ridge regression theory. Experimental results on three real HSI datasets demonstrate the effectiveness of our proposed DABL.
+C1 [Wang, Haoyu; Wang, Xuesong; Cheng, Yuhu] China Univ Min & Technol, Minist Educ, Xuzhou Key Lab Artificial Intelligence & Big Data, Engn Res Ctr Intelligent Control Underground Spac, Xuzhou 221116, Jiangsu, Peoples R China.
+   [Wang, Haoyu; Wang, Xuesong; Cheng, Yuhu] China Univ Min & Technol, Sch Informat & Control Engn, Xuzhou 221116, Jiangsu, Peoples R China.
+   [Chen, C. L. Philip] South China Univ Technol, Sch Comp Sci & Engn, Guangzhou 510006, Peoples R China.
+   [Chen, C. L. Philip] Univ Macau, Dept Comp & Informat Sci, Fac Sci & Technol, Macau 999078, Peoples R China.
+C3 China University of Mining & Technology; China University of Mining & Technology; South China University of Technology; University of Macau
+RP Cheng, YH (corresponding author), China Univ Min & Technol, Minist Educ, Xuzhou Key Lab Artificial Intelligence & Big Data, Engn Res Ctr Intelligent Control Underground Spac, Xuzhou 221116, Jiangsu, Peoples R China.; Cheng, YH (corresponding author), China Univ Min & Technol, Sch Informat & Control Engn, Xuzhou 221116, Jiangsu, Peoples R China.
+EM wanghaoyucumt@163.com; wangxuesongcumt@163.com; philip.chen@ieee.org; chengyuhu@163.com
+FU National Natural Science Foundation of China [61976215, 61772532, 61751202, U1813203]
+CR Aydemir MS, 2019, IEEE J-STARS, V12, P3615, DOI 10.1109/JSTARS.2019.2921033
+   Ben-David S., 2007, ADV NEURAL INFORM PR, V0, PP137, DOI 10.7551/MITPRESS/7503.003.0022
+   Bruzzone L, 2010, IEEE T PATTERN ANAL, V32, P770, DOI 10.1109/TPAMI.2009.57
+   Chen C., 2017, IEEE T NEURAL NETWOR, V29, P10, DOI 10.1109/TNNLS.2017.2716952
+   Chen YM, 2019, IEEE T CYBERNETICS, V49, P1909, DOI 10.1109/TCYB.2018.2816981
+   Ding Y, 2020, IEEE T GEOSCI REMOTE, V58, P1747, DOI 10.1109/TGRS.2019.2948361
+   Feng S, 2020, IEEE T CYBERNETICS, V50, P414, DOI 10.1109/TCYB.2018.2857815
+   Ganin Y, 2015, PR MACH LEARN RES, V37, P1180
+   Ghasrodashti EK, 2018, IEEE J-STARS, V11, P4101, DOI 10.1109/JSTARS.2018.2789401
+   GREEN AA, 1988, IEEE T GEOSCI REMOTE, V26, P65, DOI 10.1109/36.3001
+   Gretton A., 2007, P ADV NEUR INF PROC, V0, PP513, DOI 10.5555/2188385.2188410
+   Gu YF, 2017, IEEE T GEOSCI REMOTE, V55, P6547, DOI 10.1109/TGRS.2017.2729882
+   Hang RL, 2016, IEEE T GEOSCI REMOTE, V54, P783, DOI 10.1109/TGRS.2015.2465899
+   Jin JW, 2018, SCI CHINA INFORM SCI, V61, P0, DOI 10.1007/s11432-017-9421-3
+   Kang XD, 2018, IEEE J-STARS, V11, P1166, DOI 10.1109/JSTARS.2017.2767185
+   Kaufman S, 2012, ACM T KNOWL DISCOV D, V6, P0, DOI 10.1145/2382577.2382579
+   Kong Y, 2019, IEEE GEOSCI REMOTE S, V16, P1741, DOI 10.1109/LGRS.2019.2907598
+   Kong Y, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050685
+   Li W, 2015, IEEE T GEOSCI REMOTE, V53, P3681, DOI 10.1109/TGRS.2014.2381602
+   Long MS, 2013, IEEE I CONF COMP VIS, V0, PP2200, DOI 10.1109/ICCV.2013.274
+   Matasci G, 2015, IEEE T GEOSCI REMOTE, V53, P3550, DOI 10.1109/TGRS.2014.2377785
+   Melgani F, 2004, IEEE T GEOSCI REMOTE, V42, P1778, DOI 10.1109/TGRS.2004.831865
+   Meroni M, 2016, IEEE T GEOSCI REMOTE, V54, P795, DOI 10.1109/TGRS.2015.2466438
+   Munoz-Mari J, 2012, IEEE T GEOSCI REMOTE, V50, P3751, DOI 10.1109/TGRS.2012.2185504
+   Othman E, 2017, IEEE T GEOSCI REMOTE, V55, P4441, DOI 10.1109/TGRS.2017.2692281
+   Pan SJ, 2011, IEEE T NEURAL NETWOR, V22, P199, DOI 10.1109/TNN.2010.2091281
+   Peng JT, 2019, IEEE GEOSCI REMOTE S, V16, P972, DOI 10.1109/LGRS.2018.2889789
+   Rajan S, 2008, IEEE T GEOSCI REMOTE, V46, P1231, DOI 10.1109/TGRS.2007.910220
+   Riz E, 2016, PROC SPIE, V10004, P0, DOI 10.1117/12.2241982
+   Santara A, 2017, IEEE T GEOSCI REMOTE, V55, P5293, DOI 10.1109/TGRS.2017.2705073
+   Sun H, 2016, IEEE J-STARS, V9, P2901, DOI 10.1109/JSTARS.2015.2500961
+   Sun Q, 2011, IEEE INT CONF TRUST, V0, PP509, DOI 10.1109/TrustCom.2011.66
+   Sun Z, 2013, IEEE GEOSCI REMOTE S, V10, P1224, DOI 10.1109/LGRS.2012.2236818
+   Tan K, 2015, IEEE J-STARS, V8, P4647, DOI 10.1109/JSTARS.2015.2453411
+   Tu B, 2019, IEEE J-STARS, V12, P3602, DOI 10.1109/JSTARS.2019.2924930
+   Tuia D, 2016, ISPRS J PHOTOGRAMM, V120, P1, DOI 10.1016/j.isprsjprs.2016.07.004
+   Tuia D, 2016, IEEE GEOSC REM SEN M, V4, P41, DOI 10.1109/MGRS.2016.2548504
+   Wang JD, 2018, PROCEEDINGS OF THE 2018 ACM MULTIMEDIA CONFERENCE (MM18), V0, PP402, DOI 10.1145/3240508.3240512
+   Wang ZM, 2019, IEEE GEOSCI REMOTE S, V16, P1155, DOI 10.1109/LGRS.2018.2889967
+   Wu J, 2019, IEEE T CONTROL NETW, V6, P863, DOI 10.1109/TCNS.2018.2880299
+   Xia JS, 2017, INT GEOSCI REMOTE SE, V0, P4762
+   Xia JS, 2017, IEEE J-STARS, V10, P4605, DOI 10.1109/JSTARS.2017.2720259
+   Zhang MM, 2018, IEEE T IMAGE PROCESS, V27, P2623, DOI 10.1109/TIP.2018.2809606
+   Zhou X, 2018, IEEE T GEOSCI REMOTE, V56, P5863, DOI 10.1109/TGRS.2018.2827308
+   Zhou X, 2017, IEEE T COMPUT IMAG, V3, P822, DOI 10.1109/TCI.2017.2752150
+NR 45
+TC 19
+Z9 19
+U1 3
+U2 26
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 3006
+EP 3018
+DI 10.1109/JSTARS.2020.3001198
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA MF0AR
+UT WOS:000545015900001
+DA 2023-04-26
+ER
+
+PT J
+AU Grazina, L
+   Rodrigues, PJ
+   Igrejas, G
+   Nunes, MA
+   Mafra, I
+   Arlorio, M
+   Oliveira, MBPP
+   Amaral, JS
+AF Grazina, Liliana
+   Rodrigues, P. J.
+   Igrejas, Getulio
+   Nunes, Maria A.
+   Mafra, Isabel
+   Arlorio, Marco
+   Oliveira, M. Beatriz P. P.
+   Amaral, Joana S.
+TI Machine Learning Approaches Applied to GC-FID Fatty Acid Profiles to Discriminate Wild from Farmed Salmon
+SO FOODS
+LA English
+DT Article
+DE authenticity; fish; Salmo salar L.; fatty acids; mislabeling; chemometrics; machine learning
+ID atlantic salmon; stable-isotopes; health-benefits; salar; fish; origin; classification; identification; substitution; dha
+AB In the last decade, there has been an increasing demand for wild-captured fish, which attains higher prices compared to farmed species, thus being prone to mislabeling practices. In this work, fatty acid composition coupled to advanced chemometrics was used to discriminate wild from farmed salmon. The lipids extracted from salmon muscles of different production methods and origins (26 wild from Canada, 25 farmed from Canada, 24 farmed from Chile and 25 farmed from Norway) were analyzed by gas chromatography with flame ionization detector (GC-FID). All the tested chemometric approaches, namely principal components analysis (PCA), t-distributed stochastic neighbor embedding (t-SNE) and seven machine learning classifiers, namely k-nearest neighbors (kNN), decision tree, support vector machine (SVM), random forest, artificial neural networks (ANN), naive Bayes and AdaBoost, allowed for differentiation between farmed and wild salmons using the 17 features obtained from chemical analysis. PCA did not allow clear distinguishing between salmon geographical origin since farmed samples from Canada and Chile overlapped. Nevertheless, using the 17 features in the models, six out of the seven tested machine learning classifiers allowed a classification accuracy of >= 99%, with ANN, naive Bayes, random forest, SVM and kNN presenting 100% accuracy on the test dataset. The classification models were also assayed using only the best features selected by a reduction algorithm and the best input features mapped by t-SNE. The classifier kNN provided the best discrimination results because it correctly classified all samples according to production method and origin, ultimately using only the three most important features (16:0, 18:2n6c and 20:3n3 + 20:4n6). In general, the classifiers presented good generalization with the herein proposed approach being simple and presenting the advantage of requiring only common equipment existing in most labs.
+C1 [Grazina, Liliana; Nunes, Maria A.; Mafra, Isabel; Oliveira, M. Beatriz P. P.] Univ Porto, Fac Farm, REQUIMTE LAQV, Rua Jorge Viterbo Ferreira 228, P-4050313 Porto, Portugal.
+   [Rodrigues, P. J.; Igrejas, Getulio] Inst Politecn Braganca, Res Ctr Digitalizat & Intelligent Robot CeDRI, Campus Santa Apolonia, P-5300253 Braganca, Portugal.
+   [Arlorio, Marco] Univ Piemonte Orientale, Food Chem Unit, Dipartimento Sci Farmaco, Largo Donegani 2-3, I-28100 Novara, Italy.
+   [Amaral, Joana S.] Inst Politecn Braganca, Ctr Invest Montanha CIMO, Campus Sta Apolonia, P-5301857 Braganca, Portugal.
+C3 Universidade do Porto; Instituto Politecnico de Braganca; University of Eastern Piedmont Amedeo Avogadro; Instituto Politecnico de Braganca
+RP Mafra, I (corresponding author), Univ Porto, Fac Farm, REQUIMTE LAQV, Rua Jorge Viterbo Ferreira 228, P-4050313 Porto, Portugal.; Amaral, JS (corresponding author), Inst Politecn Braganca, Ctr Invest Montanha CIMO, Campus Sta Apolonia, P-5301857 Braganca, Portugal.
+EM li_grazina@hotmail.com; pjsr@ipb.pt; igrejas@ipb.pt; antonianun@gmail.com; isabel.mafra@ff.up.pt; marco.arlorio@uniupo.it; beatoliv@ff.up.pt; jamaral@ipb.pt
+FU European project FOODINTEGRITY (FP7-KBBE-2013-single-stage) [613688]; FCT (Fundacao para a Ciencia e Tecnologia, Portugal) [UIDB 50006/2020, UIDB 00690/2020, UIDB/5757/2020]; FCT by POPH-QREN [SFRH/BD/132462/2017, SFRH/BD/130131/2017]; FSE; MCTES
+CR ALTMAN NS, 1992, AM STAT, V46, P175, DOI 10.2307/2685209
+   Amaral JS, 2003, J AGR FOOD CHEM, V51, P7698, DOI 10.1021/jf030451d
+   Aursand M, 2000, J AM OIL CHEM SOC, V77, P659, DOI 10.1007/s11746-000-0106-5
+   Aursand M, 2009, J AGR FOOD CHEM, V57, P3444, DOI 10.1021/jf8039268
+   Axelson DE, 2009, J AGR FOOD CHEM, V57, P7634, DOI 10.1021/jf9013235
+   Blanchet C, 2005, LIPIDS, V40, P529, DOI 10.1007/s11745-005-1414-0
+   BLIGH EG, 1959, CAN J BIOCHEM PHYS, V37, P911
+   Cline E, 2012, FOOD RES INT, V45, P388, DOI 10.1016/j.foodres.2011.10.043
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Dempson JB, 2004, ECOL FRESHW FISH, V13, P176, DOI 10.1111/j.1600-0633.2004.00057.x
+   FAO Food and Agriculture Organization (FAO), 2020, GLOBEFISH HIGHL ISS, V0, P0
+   FAO Food and Agriculture Organization (FAO), 2016, SALM COMM STAT UPD, V0, P0
+   Fernandes TJR, 2021, CRIT REV FOOD SCI, V61, P3904, DOI 10.1080/10408398.2020.1811200
+   Fiorino GM, 2019, FOOD RES INT, V116, P1258, DOI 10.1016/j.foodres.2018.10.013
+   Freund Y., 1999, JOURNAL OF JAPANESE SOCIETY FOR ARTIFICIAL INTELLIGENCE, V14, P771
+   Jolliffe I., 2011, PRINCIPAL COMPONENT, V0, P0
+   Kapper K, 2016, FOOD CONTROL, V59, P478, DOI 10.1016/j.foodcont.2015.06.024
+   Larsen R, 2011, BIOTECHNOL ADV, V29, P508, DOI 10.1016/j.biotechadv.2011.05.017
+   Lundebye AK, 2017, ENVIRON RES, V155, P49, DOI 10.1016/j.envres.2017.01.026
+   Martinez I, 2009, FOOD CHEM, V116, P766, DOI 10.1016/j.foodchem.2009.03.026
+   Masoum S, 2007, ANAL BIOANAL CHEM, V387, P1499, DOI 10.1007/s00216-006-1025-x
+   Megdal PA, 2009, LIPIDS, V44, P569, DOI 10.1007/s11745-009-3294-6
+   Molkentin J, 2007, EUR FOOD RES TECHNOL, V224, P535, DOI 10.1007/s00217-006-0314-0
+   Molkentin J, 2015, FOOD CONTROL, V53, P55, DOI 10.1016/j.foodcont.2015.01.003
+   Norvig P., 2016, ARTIF INTELL, V0, P0
+   QUINLAN JR, 1987, INT J MAN MACH STUD, V27, P221, DOI 10.1016/S0020-7373(87)80053-6
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Shahidi F, 2018, ANNU REV FOOD SCI T, V9, P345, DOI 10.1146/annurev-food-111317-095850
+   Swanson D, 2012, ADV NUTR, V3, P1, DOI 10.3945/an.111.000893
+   Thomas F, 2008, J AGR FOOD CHEM, V56, P989, DOI 10.1021/jf072370d
+   Tin Kam Ho, 1995, PROCEEDINGS OF THE THIRD INTERNATIONAL CONFERENCE ON DOCUMENT ANALYSIS AND RECOGNITION, V0, PP278, DOI 10.1109/ICDAR.1995.598994
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+NR 32
+TC 7
+Z9 8
+U1 3
+U2 20
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2304-8158
+J9 FOODS
+JI Foods
+PD NOV 15
+PY 2020
+VL 9
+IS 11
+BP 
+EP 
+DI 10.3390/foods9111622
+PG 15
+WC Food Science & Technology
+SC Food Science & Technology
+GA OX1IF
+UT WOS:000593326700001
+PM 33171721
+DA 2023-04-26
+ER
+
+PT J
+AU Abolt, CJ
+   Young, MH
+AF Abolt, Charles J.
+   Young, Michael H.
+TI High-resolution mapping of spatial heterogeneity in ice wedge polygon geomorphology near Prudhoe Bay, Alaska
+SO SCIENTIFIC DATA
+LA English
+DT Article; Data Paper
+ID climate-change; degradation; permafrost; flux; co2
+AB It is well known that microtopography associated with ice wedge polygons drives pronounced, meter-scale spatial gradients in hydrologic and ecological processes on the tundra. However, highresolution maps of polygonal geomorphology are rarely available, due to the complexity and subtlety of ice wedge polygon relief at landscape scales. Here we present a sub-meter resolution map of >10(6) discrete ice wedge polygons across a similar to 1200 km(2) landscape, delineated within a lidar-derived digital elevation model. The delineation procedure relies on a convolutional neural network paired with a set of common image processing operations and permits explicit measurement of relative elevation at the center of each ice wedge polygon. The resulting map visualizes meter-to kilometer-scale spatial gradients in polygonal geomorphology across an extensive landscape with unprecedented detail. This high-resolution inventory of polygonal geomorphology provides rich spatial context for extrapolating observations of environmental processes across the landscape. The map also represents an extensive baseline dataset for quantifying contemporary land surface deformation (i.e., thermokarst) at the survey area, through future topographic surveys.
+C1 [Abolt, Charles J.] Univ Texas Austin, Dept Geol Sci, Austin, TX 78712 USA.
+   [Abolt, Charles J.; Young, Michael H.] Univ Texas Austin, Bur Econ Geol, Austin, TX 78712 USA.
+   [Abolt, Charles J.] Los Alamos Natl Lab, Earth & Environm Sci Div, Los Alamos, NM 87545 USA.
+C3 University of Texas System; University of Texas Austin; University of Texas System; University of Texas Austin; United States Department of Energy (DOE); Los Alamos National Laboratory
+RP Abolt, CJ (corresponding author), Univ Texas Austin, Dept Geol Sci, Austin, TX 78712 USA.; Abolt, CJ (corresponding author), Univ Texas Austin, Bur Econ Geol, Austin, TX 78712 USA.; Abolt, CJ (corresponding author), Los Alamos Natl Lab, Earth & Environm Sci Div, Los Alamos, NM 87545 USA.
+EM cabolt@lanl.gov
+FU NASA Earth and Space Science Fellowship [80NSSC17K0376]; Next Generation Ecosystem Experiments Arctic (NGEE-Arctic) project - Office of Biological and Environmental Research in the U.S. Deparment of Energy Office of Science (DOE) [ERKP757]; Great Bear Petroleum LLC
+CR Abolt CJ, 2020, J GEOPHYS RES-EARTH, V125, P0, DOI 10.1029/2019JF005349
+   Abolt CJ, 2019, CRYOSPHERE, V13, P237, DOI 10.5194/tc-13-237-2019
+   Abolt CJ, 2018, CRYOSPHERE, V12, P1957, DOI 10.5194/tc-12-1957-2018
+   Abolt CJ, 2017, PERMAFROST PERIGLAC, V28, P347, DOI 10.1002/ppp.1909
+   Alaska Department of Natural Resources, 2016, AER PHOT IM ORTH COR, V0, P0
+   Farquharson L. M., 2019, ARCTIC GEOPHYS RES L, V46, P0
+   Gamon JA, 2012, ENVIRON RES LETT, V7, P0, DOI 10.1088/1748-9326/7/1/015502
+   Helbig M, 2013, HYDROGEOL J, V21, P133, DOI 10.1007/s10040-012-0933-4
+   Jorgenson MT, 2015, J GEOPHYS RES-EARTH, V120, P2280, DOI 10.1002/2015JF003602
+   Jorgenson M.T., 2013, LANDSCAPE LEVEL ECOL, V0, P0
+   Jorgenson MT, 2007, J GEOPHYS RES-EARTH, V112, P0, DOI 10.1029/2006JF000531
+   Jorgenson MT, 2006, GEOPHYS RES LETT, V33, P0, DOI 10.1029/2005GL024960
+   Kanevskiy M, 2017, GEOMORPHOLOGY, V297, P20, DOI 10.1016/j.geomorph.2017.09.001
+   Lachenbruch AH, 1962, MECH THERMAL CONTRAC, V0, P0
+   Lara MJ, 2018, SCI DATA, V5, P0, DOI 10.1038/sdata.2018.58
+   Lara MJ, 2015, GLOBAL CHANGE BIOL, V21, P1634, DOI 10.1111/gcb.12757
+   Leffingwell E. K., 1919, J GEOL, V23, P635
+   Liljedahl AK, 2016, NAT GEOSCI, V9, P312, DOI 10.1038/ngeo2674
+   Mackay JR, 2000, GEOGR PHYS QUATERN, V54, P41, DOI 10.7202/004846ar
+   Morse PD, 2013, J GEOPHYS RES-EARTH, V118, P1320, DOI 10.1002/jgrf.20086
+   Olivas PC, 2011, ARCT ANTARCT ALP RES, V43, P256, DOI 10.1657/1938-4246-43.2.256
+   Paine J. G., 2015, REMOTE SENSING WETLA, V0, P0
+   Rawlinson SE, 1993, REPORT INVESTIGATION, V0, P0
+   Raynolds MK, 2014, GLOBAL CHANGE BIOL, V20, P1211, DOI 10.1111/gcb.12500
+   Schuur EAG, 2015, NATURE, V520, P171, DOI 10.1038/nature14338
+   Soille P., 2004, MORPHOLOGICAL IMAGE, V0, P0, DOI DOI 10.1007/978-3-662-05088-0_9
+   Wainwright HM, 2015, J GEOPHYS RES-BIOGEO, V120, P788, DOI 10.1002/2014JG002799
+   WALKER DA, 1991, ECOL MONOGR, V61, P437, DOI 10.2307/2937050
+   Zhang WX, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091487
+   Zona D, 2011, J GEOPHYS RES-BIOGEO, V116, P0, DOI 10.1029/2009JG001241
+NR 30
+TC 12
+Z9 12
+U1 0
+U2 2
+PU NATURE PUBLISHING GROUP
+PI LONDON
+PA MACMILLAN BUILDING, 4 CRINAN ST, LONDON N1 9XW, ENGLAND
+SN 
+EI 2052-4463
+J9 SCI DATA
+JI Sci. Data
+PD MAR 10
+PY 2020
+VL 7
+IS 1
+BP 
+EP 
+DI 10.1038/s41597-020-0423-9
+PG 7
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA ME8XT
+UT WOS:000544938400001
+PM 32157088
+DA 2023-04-26
+ER
+
+PT J
+AU Gu, YY
+   Wang, YD
+   Dong, SH
+AF Gu, Yanyan
+   Wang, Yandong
+   Dong, Shihai
+TI Public Traffic Congestion Estimation Using an Artificial Neural Network
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE public transport network; congestion estimation; genetic algorithm; big data
+ID genetic algorithm; road networks; bus; design; optimization; time; transport; priority; pattern; systems
+AB Alleviating public traffic congestion is an efficient and effective way to improve the travel time reliability and quality of public transport services. The existing public network optimization models usually ignored the essential impact of public traffic congestion on the performance of public transport service. To address this problem, this study proposes a data-based methodology to estimate the traffic congestion of road segments between bus stops (RSBs). The proposed methodology involves two steps: (1) Extracting three traffic indicators of the RSBs from smart card data and bus trajectory data; (2) The self-organizing map (SOM) is used to cluster and effectively recognize traffic patterns embedded in the RSBs. Furthermore, a congestion index for ranking the SOM clusters is developed to determine the congested RSBs. A case study using real-world datasets from a public transport system validates the proposed methodology. Based on the congested RSBs, an exploratory example of public transport network optimization is discussed and evaluated using a genetic algorithm. The clustering results showed that the SOM could suitably reflect the traffic characteristics and estimate traffic congestion of the RSBs. The results obtained in this study are expected to demonstrate the usefulness of the proposed methodology in sustainable public transport improvements.
+C1 [Gu, Yanyan; Wang, Yandong; Dong, Shihai] Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan 430079, Peoples R China.
+   [Wang, Yandong] Collaborat Innovat Ctr Geospatial Informat Techno, Wuhan 430079, Peoples R China.
+   [Wang, Yandong] East China Univ Technol, Fac Geomat, Nanchang 330013, Jiangxi, Peoples R China.
+C3 Wuhan University; East China University of Technology
+RP Wang, YD (corresponding author), Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan 430079, Peoples R China.; Wang, YD (corresponding author), Collaborat Innovat Ctr Geospatial Informat Techno, Wuhan 430079, Peoples R China.; Wang, YD (corresponding author), East China Univ Technol, Fac Geomat, Nanchang 330013, Jiangxi, Peoples R China.
+EM yyg@whu.edu.cn; ydwang@whu.edu.cn; shihaiD@whu.edu.cn
+FU National Key Research Program of China [2016YFB0501403]; National Natural Science Foundation of China [41271399]; China Special Fund for Surveying, Mapping and Geoinformation Research in the Public Interest [201512015]
+CR An S, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7040128
+   Bagloee SA, 2017, PUBLIC TRANSPORT, V9, P571, DOI 10.1007/s12469-017-0159-x
+   Ceder A, 2015, TRANSPORT RES B-METH, V74, P40, DOI 10.1016/j.trb.2015.01.006
+   Chakroborty P, 2003, COMPUT-AIDED CIV INF, V18, P184, DOI 10.1111/1467-8667.00309
+   Chen BY, 2012, TRANSPORT RES A-POL, V46, P501, DOI 10.1016/j.tra.2011.11.018
+   Chien SI, 2004, TRANSPORT PLAN TECHN, V27, P211, DOI 10.1080/0308106042000226899
+   Daraio C, 2016, EUR J OPER RES, V248, P1, DOI 10.1016/j.ejor.2015.05.059
+   Delmelle EM, 2012, COMPUT ENVIRON URBAN, V36, P445, DOI 10.1016/j.compenvurbsys.2012.01.002
+   Dou MX, 2020, CITIES, V99, P0, DOI 10.1016/j.cities.2020.102620
+   Fan W, 2006, J TRANSP ENG-ASCE, V132, P40, DOI 10.1061/(ASCE)0733-947X(2006)132:1(40)
+   Farber S, 2017, J TRANSP LAND USE, V10, P0, DOI 10.5198/jtlu.2017.980
+   Gao PC, 2016, ISPRS INT J GEO-INF, V5, P0, DOI 10.3390/ijgi5030034
+   Guler SI, 2016, TRANSPORT RES C-EMER, V63, P51, DOI 10.1016/j.trc.2015.12.005
+   He F., 2015, P 6 INT C GREEN INT, V0, P425
+   Ibarra-Rojas OJ, 2015, TRANSPORT RES B-METH, V77, P38, DOI 10.1016/j.trb.2015.03.002
+   Ibeas A, 2010, TRANSPORT RES E-LOG, V46, P446, DOI 10.1016/j.tre.2009.11.001
+   Jenelius E, 2013, TRANSPORT RES B-METH, V53, P64, DOI 10.1016/j.trb.2013.03.008
+   Kohonen T., 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2_1
+   Kohonen T., 1995, SELF ORG MAPS, V0, P175
+   Kong XJ, 2016, FUTURE GENER COMP SY, V61, P97, DOI 10.1016/j.future.2015.11.013
+   LEBLANC LJ, 1988, TRANSPORT RES B-METH, V22, P383, DOI 10.1016/0191-2615(88)90042-2
+   Li H, 2009, TRANSPORT RES REC, V0, PP24, DOI 10.3141/2111-04
+   Li ZK, 2019, LAND USE POLICY, V82, P269, DOI 10.1016/j.landusepol.2018.12.003
+   Litman, 2015, EVALUATING ACTIVE TR, V0, P0
+   Liu XD, 2017, J PUBLIC TRANSPORT, V20, P104, DOI 10.5038/2375-0901.20.1.6
+   Mesbah M, 2011, IEEE T INTELL TRANSP, V12, P908, DOI 10.1109/TITS.2011.2144974
+   Nassir N, 2015, TRANSPORTATION, V42, P683, DOI 10.1007/s11116-015-9601-6
+   Nayeem MA, 2014, TRANSPORT RES C-EMER, V46, P30, DOI 10.1016/j.trc.2014.05.002
+   Nguyen-Phuoc DQ, 2018, TRANSPORT RES A-POL, V117, P1, DOI 10.1016/j.tra.2018.08.005
+   Nikolic M, 2014, EXPERT SYST APPL, V41, P7200, DOI 10.1016/j.eswa.2014.05.034
+   Nikolic M, 2013, EXPERT SYST APPL, V40, P5945, DOI 10.1016/j.eswa.2013.05.002
+   Olawoyin R, 2013, EXPERT SYST APPL, V40, P3634, DOI 10.1016/j.eswa.2012.12.069
+   Ruiz M, 2017, J TRANSP GEOGR, V58, P220, DOI 10.1016/j.jtrangeo.2016.12.005
+   Ruiz-Aguilar JJ, 2015, TRANSPORT RES C-EMER, V56, P393, DOI 10.1016/j.trc.2015.04.024
+   Shieh SL, 2012, EXPERT SYST APPL, V39, P11924, DOI 10.1016/j.eswa.2012.02.181
+   Tirachini A, 2014, TRANSPORT RES B-METH, V61, P33, DOI 10.1016/j.trb.2014.01.003
+   Tirachini A, 2014, TRANSPORT RES A-POL, V59, P37, DOI 10.1016/j.tra.2013.10.010
+   Tirachini A, 2013, TRANSPORTMETRICA A, V9, P28, DOI 10.1080/18128602.2010.520277
+   Wang Q, 2018, PATTERN RECOGN, V75, P272, DOI 10.1016/j.patcog.2017.03.030
+   Wang Y, 2017, IEEE T INTELL TRANSP, V18, P2443, DOI 10.1109/TITS.2016.2644725
+   Wang YQ, 2017, PERVASIVE MOB COMPUT, V41, P470, DOI 10.1016/j.pmcj.2017.03.015
+   Weng JC, 2016, ADV MECH ENG, V8, P0, DOI 10.1177/1687814016678162
+   Wu H, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8070313
+   Xu L, 2013, PROCD SOC BEHV, V96, P2084, DOI 10.1016/j.sbspro.2013.08.235
+   Yang YJ, 2017, NEUROCOMPUTING, V267, P344, DOI 10.1016/j.neucom.2017.06.017
+   Yu B, 2015, TRANSPORT RES C-EMER, V55, P310, DOI 10.1016/j.trc.2015.02.014
+   Yu QY, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8060264
+   Zhang KS, 2017, J TRANSP LAND USE, V10, P675
+   Zheng Y, 2014, ACM T INTEL SYST TEC, V5, P0, DOI 10.1145/2629592
+NR 50
+TC 11
+Z9 11
+U1 2
+U2 17
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. Geo-Inf.
+PD MAR 15
+PY 2020
+VL 9
+IS 3
+BP 
+EP 
+DI 10.3390/ijgi9030152
+PG 17
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA KZ8MN
+UT WOS:000523512400034
+DA 2023-04-26
+ER

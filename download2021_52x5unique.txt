@@ -1,0 +1,415 @@
+
+PT J
+AU Xu, L
+   Ma, AL
+AF Xu, Lei
+   Ma, Ailong
+TI Coarse-to-fine waterlogging probability assessment based on remote sensing image and social media data
+SO GEO-SPATIAL INFORMATION SCIENCE
+LA English
+DT Article
+DE Remote sensing; social media; urban waterlogging; data fusion
+ID random forest classifier; difference water index; flood extent; resolution; twitter; surface; ndwi
+AB Urban waterlogging probability assessment is critical to emergency response and policymaking. Remote Sensing (RS) is a rich and reliable data source for waterlogging monitoring and evaluation through water body extraction derived from the pre- and post-disaster RS images. However, RS images are usually limited to the revisit cycle and cloud cover. To solve this issue, social media data have been considered as another data source which are immune to the weather such as clouds and can reflect the real-time public response for disaster, which leads itself a compensation for RS images. In this paper, we propose a coarse-to-fine waterlogging probability assessment framework based on multisource data including real-time social media data, near real-time RS image and historical geographic information, in which a coarse waterlogging probability map is refined by using the real-time information extracted from social media data to acquire a more accurate waterlogging probability. Firstly, to generate a coarse waterlogging probability map, the historical inundated areas are derived from Digital Elevation Model (DEM) and historical waterlogging points, then the geographic features are extracted from DEM and RS image, which will be input to a Random Forest (RF) classifier to estimate the likelihood of hazards. Secondly, the real-time waterlogging-related information is extracted from social media data, where the Convolutional Neural Network (CNN) model is applied to exploit the semantic information of sentences by capturing the local and position-invariant features using convolution kernel. Finally, fine waterlogging probability map scan be generated based on morphological method, in which real-time waterlogging-related social media data are taken as isolated highlight point and used to refine the coarse waterlogging probability map by a gray dilation pattern considering the distance-decay effect. The 2016 Wuhan waterlogging and 2018 Chengdu waterlogging are taken as case studies to demonstrate the effectiveness of the proposed framework. It can be concluded from the results that by integrating RS image and social media data, more accurate waterlogging probability maps can be generated, which can be further applied for inundated areas identification and disaster monitoring.
+C1 [Xu, Lei; Ma, Ailong] Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan, Peoples R China.
+   [Xu, Lei; Ma, Ailong] Wuhan Univ, Collaborat Innovat Ctr Geospatial Technol, Wuhan, Peoples R China.
+C3 Wuhan University; Wuhan University
+RP Ma, AL (corresponding author), Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan, Peoples R China.; Ma, AL (corresponding author), Wuhan Univ, Collaborat Innovat Ctr Geospatial Technol, Wuhan, Peoples R China.
+EM maailong007@whu.edu.cn
+FU China Postdoctoral Science Foundation [2017M622522]
+CR Abel F., 2012, WWW 12 P 21 ANN C WO, V0, PP305, DOI 10.1145/2187980.2188035
+   Atkinson GM, 2007, SEISMOL RES LETT, V78, P362, DOI 10.1785/gssrl.78.3.362
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Brivio PA, 2002, INT J REMOTE SENS, V23, P429, DOI 10.1080/01431160010014729
+   Carlson TN, 1997, REMOTE SENS ENVIRON, V62, P241, DOI 10.1016/S0034-4257(97)00104-1
+   Cervone G, 2016, INT J REMOTE SENS, V37, P100, DOI 10.1080/01431161.2015.1117684
+   Chae J, 2012, IEEE CONF VIS ANAL, V0, PP143, DOI 10.1109/VAST.2012.6400557
+   Chowdhury S. R., 2013, PROC 10 INT ISCRAM C, V0, P1
+   de Albuquerque JP, 2015, INT J GEOGR INF SCI, V29, P667, DOI 10.1080/13658816.2014.996567
+   Feng QL, 2015, WATER-SUI, V7, P1437, DOI 10.3390/w7041437
+   Feyisa GL, 2014, REMOTE SENS ENVIRON, V140, P23, DOI 10.1016/j.rse.2013.08.029
+   Foresti GL, 2015, J AMB INTEL HUM COMP, V6, P239, DOI 10.1007/s12652-014-0227-x
+   Gao BC, 1996, REMOTE SENS ENVIRON, V58, P257, DOI 10.1016/S0034-4257(96)00067-3
+   GOWARD SN, 1991, REMOTE SENS ENVIRON, V35, P257, DOI 10.1016/0034-4257(91)90017-Z
+   Herfort B, 2014, LECT NOTES GEOINF CA, V0, PP55, DOI 10.1007/978-3-319-03611-3_4
+   Huang X, 2018, ANN GIS, V24, P113, DOI 10.1080/19475683.2018.1450787
+   Huang X, 2018, IEEE T GEOSCI REMOTE, V56, P4691, DOI 10.1109/TGRS.2018.2835306
+   Ilieva RT, 2018, NAT SUSTAIN, V1, P553, DOI 10.1038/s41893-018-0153-6
+   Islam MM, 2000, HYDROL PROCESS, V14, P605, DOI 10.1002/(SICI)1099-1085(20000228)14:3&lt;605::AID-HYP957&gt;3.0.CO;2-L
+   Jackway PT, 1996, IEEE T PATTERN ANAL, V18, P38, DOI 10.1109/34.476009
+   Jony R. I., 2018, 2018 DIGITAL IMAGE C, V0, P1
+   Kim Y., 2014, CONVOLUTIONAL NEURAL, V0, P0, DOI DOI 10.3115/V1/D14-1181
+   Li J, 2017, P IEEE, V105, P1900, DOI 10.1109/JPROC.2017.2684460
+   Lopez-Fuentes L., 2017, MEDIAEVAL, V0, P1
+   Miller HJ, 2004, ANN ASSOC AM GEOGR, V94, P284, DOI 10.1111/j.1467-8306.2004.09402005.x
+   Mosavi A, 2018, WATER-SUI, V10, P0, DOI 10.3390/w10111536
+   Nie LQ, 2020, ACM T INFORM SYST, V38, P0, DOI 10.1145/3380954
+   Okolloh O., 2009, PARTICIPATORY LEARN, V59, P65
+   Pal M, 2005, INT J REMOTE SENS, V26, P217, DOI 10.1080/01431160412331269698
+   Panteras G, 2018, INT J REMOTE SENS, V39, P1459, DOI 10.1080/01431161.2017.1400193
+   Power R, 2014, LECT NOTES BUS INF P, V196, P218
+   Robinson B., 2013, P WORKSH LANG PROC C, V0, P0
+   Robinson B, 2013, PROCEEDINGS OF THE 22ND INTERNATIONAL CONFERENCE ON WORLD WIDE WEB (WWW13 COMPANION), V0, P999
+   Rogstadius J, 2013, IBM J RES DEV, V57, P0, DOI 10.1147/JRD.2013.2260692
+   Rosser JF, 2017, NAT HAZARDS, V87, P103, DOI 10.1007/s11069-017-2755-0
+   Sakai T, 2011, PANCREAS, V40, P403, DOI 10.1097/MPA.0b013e318204e815
+   Smith L, 2017, J FLOOD RISK MANAG, V10, P370, DOI 10.1111/jfr3.12154
+   Sun DL, 2011, IEEE J-STARS, V4, P814, DOI 10.1109/JSTARS.2011.2125778
+   Tyshchuk Y., 2012, 2012 45TH HAWAII INTERNATIONAL CONFERENCE ON SYSTEM SCIENCES (HICSS), V0, PP818, DOI 10.1109/HICSS.2012.536
+   Wald DJ, 2011, ANN GEOPHYS-ITALY, V54, P688, DOI 10.4401/ag-5354
+   Wang Y, 2002, INT J REMOTE SENS, V23, P3681, DOI 10.1080/01431160110114484
+   Weng QH, 2008, INT J APPL EARTH OBS, V10, P68, DOI 10.1016/j.jag.2007.05.002
+   Xie C, 2016, INT J DIGIT EARTH, V9, P925, DOI 10.1080/17538947.2016.1170215
+   Xu F., 2015, THESIS, V0, P0
+   Xu HQ, 2006, INT J REMOTE SENS, V27, P3025, DOI 10.1080/01431160600589179
+   Xu Z., 2015, P 1 ACM SIGSPATIAL I, V0, P1
+   Yang HB, 2011, PROCEDIA ENVIRON SCI, V10, P2619, DOI 10.1016/j.proenv.2011.09.407
+   Yin J, 2012, IEEE INTELL SYST, V27, P52, DOI 10.1109/MIS.2012.6
+   Zhang FF, 2011, PROCEDIA ENVIRON SCI, V11, P1482, DOI 10.1016/j.proenv.2011.12.223
+   Zhang NY, 2016, COMPUT INTEL NEUROSC, V2016, P0, DOI 10.1155/2016/3264587
+   Zhang Y., 2015, SENSITIVITY ANAL AND, V0, P0
+NR 52
+TC 8
+Z9 8
+U1 13
+U2 57
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1009-5020
+EI 1993-5153
+J9 GEO-SPAT INF SCI
+JI Geo-Spat. Inf. Sci.
+PD APR 3
+PY 2021
+VL 24
+IS 2
+BP 279
+EP 301
+DI 10.1080/10095020.2020.1812445
+EA SEP 2020
+PG 23
+WC Remote Sensing
+SC Remote Sensing
+GA SM1HW
+UT WOS:000570782600001
+DA 2023-04-26
+ER
+
+PT J
+AU Rahman, Z
+   Roytman, L
+   Kadik, A
+   Rosy, D
+   Nandi, P
+   Rahman, S
+   Mahmud, A
+AF Rahman, Zahidur
+   Roytman, Leonid
+   Kadik, Abdelhamid
+   Rosy, Dilara
+   Nandi, Pradipta
+   Rahman, Shahedur
+   Mahmud, Ataul
+TI Public health precautions for preventing malaria using environmental data
+SO GEOSPATIAL INFORMATICS XI
+LA English
+DT Proceedings Paper
+DE Malaria; GIS; ANN; AVHRR; VHI; Data; satellite remote sensing
+ID vegetation
+AB Considering the public health impact of a global pandemic, the reliance on data to understand disease outbreak is important now more than ever. Malaria is the most common mosquito-transmitted disease endemic to certain regions, leading to millions of serious illnesses and deaths each year. Because mosquito vectors are sensitive to environmental conditions such as temperature, precipitation, and humidity, it is possible to map areas currently or imminently at high risk for disease outbreaks using satellite remote sensing. In this paper the authors propose the development of an operational geospatial system for malaria early warning. This can be done by bringing together geographic information system (GIS) tools, artificial neural networks (ANN) for efficient pattern recognition, the best available ground-based environmental data such as epidemiological and vector ecology data, and current satellite remote sensing capabilities. The authors use Vegetation Health Indices (VHI) derived from visible and infrared radiances measured by satellite-mounted Advanced Very High Resolution Radiometers (AVHRR) and available weekly at 4-km resolution as one predictor of malaria risk in Bangladesh. As a study area, we focus on Bangladesh where malaria is a serious public health threat. The technology developed will, however, be largely portable to other countries in the world and applicable to other disease threats. A malaria early warning system will be a boon to international public health, enabling resources to be focused where they will do the most good for stopping pandemics, and will be an invaluable decision support tool for national security assessment and potential troop deployment in regions susceptible to disease outbreaks.
+C1 [Rahman, Zahidur; Kadik, Abdelhamid] CUNY, LaGuardia Community Coll, Dept Math Engn & Comp Sci, 31-10 Thomson Ave, Long Isl City, NY 11101 USA.
+   [Roytman, Leonid] CUNY, Dept Elect Engn, City Coll, 138 St & Convent Ave, New York, NY USA.
+   [Rosy, Dilara] Marks Home Care, Rego Park, NY 11374 USA.
+   [Nandi, Pradipta] All India Inst Med Sci, New Delhi, India.
+   [Rahman, Shahedur] Get Well Med Care PC, Jamaica, NY 11432 USA.
+   [Mahmud, Ataul] Dhaka Elect Supply Corp, Dhaka, Bangladesh.
+C3 City University of New York (CUNY) System; City University of New York (CUNY) System; City College of New York (CUNY); All India Institute of Medical Sciences (AIIMS) New Delhi
+RP Rahman, Z (corresponding author), CUNY, LaGuardia Community Coll, Dept Math Engn & Comp Sci, 31-10 Thomson Ave, Long Isl City, NY 11101 USA.
+CR Curran P., 1980, PROGR PHYS GEOGRAPHY, V4, P315, DOI 10.1177/030913338000400301
+   Gutman G., 1990, B AM MET SOC, V71, P1058
+   Iyengar M. O. T., 1942, JOUR MALARIA INST INDIA, V4, P435
+   Iyengar M. Q. T., 1944, JOUR MALARIA INST INDIA, V5, P435
+   JUSTICE CO, 1985, INT J REMOTE SENS, V6, P1271, DOI 10.1080/01431168508948281
+   Kogan F. N., 2002, AM GEOPHYS UNION EOS, V83, P557, DOI 10.1029/2002EO000382
+   Kogan FN, 2001, ADV SPACE RES, V28, P149, DOI 10.1016/S0273-1177(01)00329-5
+   KOGAN FN, 1990, INT J REMOTE SENS, V11, P1405, DOI 10.1080/01431169008955102
+   MALINGREAU JP, 1986, INT J REMOTE SENS, V7, P1121, DOI 10.1080/01431168608948914
+   McMichael A J., 1996, CLIMATE CHANGE HUMAN, V0, P297
+   TARPLEY JD, 1984, J CLIM APPL METEOROL, V23, P491, DOI 10.1175/1520-0450(1984)023<0491:GVIFTN>2.0.CO;2
+NR 11
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPIE-INT SOC OPTICAL ENGINEERING
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98227-0010 USA
+SN 0277-786X
+EI 1996-756X
+J9 PROC SPIE
+PD JUN 15
+PY 2021
+VL 11733
+IS 
+BP 
+EP 
+DI 10.1117/12.2583919
+PG 9
+WC Computer Science, Information Systems; Remote Sensing; Optics; Imaging Science & Photographic Technology
+SC Computer Science; Remote Sensing; Optics; Imaging Science & Photographic Technology
+GA BS2VD
+UT WOS:000706984300013
+DA 2023-04-26
+ER
+
+PT J
+AU Avdeeva, ZK
+   Grebenyuk, EA
+   Kovriga, SV
+AF Avdeeva, Zinaida K.
+   Grebenyuk, Elena A.
+   Kovriga, Svetlana, V
+TI Construction of Multi-step Price Forecasts in Commodity Markets Based on Qualitative and Quantitative Data Analysis Methods
+SO ADVANCES IN PRODUCTION MANAGEMENT SYSTEMS: ARTIFICIAL INTELLIGENCE FOR SUSTAINABLE AND RESILIENT PRODUCTION SYSTEMS, APMS 2021, PT I
+LA English
+DT Article; Proceedings Paper
+DE Manufacturing system; Multi-step forecasting quantitative and qualitative forecasting; Cognitive map; Monitoring; Time series
+ID cognitive maps; neural-networks; prediction; model
+AB The article proposes a method for constructing and correcting a multistep forecast for the year ahead (with a monthly breakdown) of prices for raw materials and products of industrial enterprises. The proposed approach consists in the formation of a price forecast taking into account 1) the price of the predicted indicator, the prices of goods participating in the product value chain, and macro indicators (time series); 2) information about the strength and direction of environmental factors affecting the market. Structured information about the effects of the external environment is the result of processing expert knowledge and hypotheses from heterogeneous information sources, through analysis and modeling on a cognitive map of the situation (CCS). We form a forecast by constructing an ensemble of time series models, each of which reflects the dependence of the target indicator on its past values and the prices of related products, the composition of which is determined by the results of cognitive modeling and time series analysis. Based on the results of monitoring on the cognitive map of the situation, conducting in order to analyze possible changes in the external environment and digital monitoring of prices, to identify changes in prices modes, we perform a forecast correction. The results obtained in this study show that the use of cognitive modeling and monitoring of changes improve the accuracy of predictions.
+C1 [Avdeeva, Zinaida K.; Grebenyuk, Elena A.; Kovriga, Svetlana, V] RAS, Trapeznikov VA Inst Control Sci, Moscow, Russia.
+C3 Russian Academy of Sciences
+RP Avdeeva, ZK (corresponding author), RAS, Trapeznikov VA Inst Control Sci, Moscow, Russia.
+EM kovriga@ipu.ru
+CR Byrne JP, 2013, J DEV ECON, V101, P16, DOI 10.1016/j.jdeveco.2012.09.002
+   Froelich W, 2014, INT J APPROX REASON, V55, P1319, DOI 10.1016/j.ijar.2014.02.006
+   Grebenyuk E.A., 2020, P 13 INT C MLSD, V0, P0
+   Homenda W, 2017, NEUROCOMPUTING, V232, P3, DOI 10.1016/j.neucom.2016.08.119
+   Hong T, 2004, EXPERT SYST, V21, P243, DOI 10.1111/j.1468-0394.2004.00282.x
+   Jiang H, 2011, CONSTR MANAG ECON, V29, P969, DOI 10.1080/01446193.2011.611522
+   Lin L, 2020, PHYSICA A, V543, P0, DOI 10.1016/j.physa.2019.123532
+   Liu C, 2021, RES INT BUS FINANC, V55, P0, DOI 10.1016/j.ribaf.2020.101318
+   Makarenko DI, 2018, IFAC PAPERSONLINE, V51, P522, DOI 10.1016/j.ifacol.2018.11.273
+   Nikiforov IV, 2000, IEEE T INFORM THEORY, V46, P2740, DOI 10.1109/18.887891
+   Papageorgiou EI, 2017, NEUROCOMPUTING, V232, P113, DOI 10.1016/j.neucom.2016.10.072
+   Parot A, 2019, INTELL SYST ACCOUNT, V26, P3, DOI 10.1002/isaf.1440
+   Sa-ngasoongsong A, 2012, INT J PROD ECON, V140, P875, DOI 10.1016/j.ijpe.2012.07.009
+   Shan D, 2018, INT J INNOV COMPUT I, V14, P1583, DOI 10.24507/ijicic.14.05.1583
+   Tang L, 2020, APPL ENERG, V257, P0, DOI 10.1016/j.apenergy.2019.114033
+   Tang L, 2015, INT J INF TECH DECIS, V14, P141, DOI 10.1142/S0219622015400015
+   Zhang X, 2009, ENERG ECON, V31, P768, DOI 10.1016/j.eneco.2009.04.003
+NR 17
+TC 0
+Z9 0
+U1 1
+U2 1
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 1868-4238
+EI 1868-422X
+J9 IFIP ADV INF COMM TE
+PD JUN 15
+PY 2021
+VL 630
+IS 
+BP 623
+EP 631
+DI 10.1007/978-3-030-85874-2_68
+PG 9
+WC Computer Science, Information Systems; Telecommunications
+SC Computer Science; Telecommunications
+GA BS4DM
+UT WOS:000717630100068
+DA 2023-04-26
+ER
+
+PT J
+AU Tengtrairat, N
+   Woo, WL
+   Parathai, P
+   Aryupong, C
+   Jitsangiam, P
+   Rinchumphu, D
+AF Tengtrairat, Naruephorn
+   Woo, Wai Lok
+   Parathai, Phetcharat
+   Aryupong, Chuchoke
+   Jitsangiam, Peerapong
+   Rinchumphu, Damrongsak
+TI Automated Landslide-Risk Prediction Using Web GIS and Machine Learning Models
+SO SENSORS
+LA English
+DT Article
+DE landslide risk prediction; geographic information system; google map; machine learning; linear regression; artificial intelligence; long short-term memory
+ID induced shallow landslides; logistic-regression; displacement prediction; optimization; phetchabun; province; network; index; area
+AB Spatial susceptible landslide prediction is the one of the most challenging research areas which essentially concerns the safety of inhabitants. The novel geographic information web (GIW) application is proposed for dynamically predicting landslide risk in Chiang Rai, Thailand. The automated GIW system is coordinated between machine learning technologies, web technologies, and application programming interfaces (APIs). The new bidirectional long short-term memory (Bi-LSTM) algorithm is presented to forecast landslides. The proposed algorithm consists of 3 major steps, the first of which is the construction of a landslide dataset by using Quantum GIS (QGIS). The second step is to generate the landslide-risk model based on machine learning approaches. Finally, the automated landslide-risk visualization illustrates the likelihood of landslide via Google Maps on the website. Four static factors are considered for landslide-risk prediction, namely, land cover, soil properties, elevation and slope, and a single dynamic factor i.e., precipitation. Data are collected to construct a geospatial landslide database which comprises three historical landslide locations-Phu Chifa at Thoeng District, Ban Pha Duea at Mae Salong Nai, and Mai Salong Nok in Mae Fa Luang District, Chiang Rai, Thailand. Data collection is achieved using QGIS software to interpolate contour, elevation, slope degree and land cover from the Google satellite images, aerial and site survey photographs while the physiographic and rock type are on-site surveyed by experts. The state-of-the-art machine learning models have been trained i.e., linear regression (LR), artificial neural network (ANN), LSTM, and Bi-LSTM. Ablation studies have been conducted to determine the optimal parameters setting for each model. An enhancement method based on two-stage classifications has been presented to improve the landslide prediction of LSTM and Bi-LSTM models. The landslide-risk prediction performances of these models are subsequently evaluated using real-time dataset and it is shown that Bi-LSTM with Random Forest (Bi-LSTM-RF) yields the best prediction performance. Bi-LSTM-RF model has improved the landslide-risk predicting performance over LR, ANNs, LSTM, and Bi-LSTM in terms of the area under the receiver characteristic operator (AUC) scores by 0.42, 0.27, 0.46, and 0.47, respectively. Finally, an automated web GIS has been developed and it consists of software components including the trained models, rainfall API, Google API, and geodatabase. All components have been interfaced together via JavaScript and Node.js tool.
+C1 [Tengtrairat, Naruephorn; Parathai, Phetcharat] Payap Univ, Sch Software Engn, Chiang Mai 50000, Thailand.
+   [Woo, Wai Lok] Northumbria Univ, Dept Comp & Informat Sci, Newcastle Upon Tyne NE1 8ST, Tyne & Wear, England.
+   [Aryupong, Chuchoke; Jitsangiam, Peerapong; Rinchumphu, Damrongsak] Chiang Mai Univ, Ctr Excellence Nat Disaster Management CENDIM, Chiang Mai 50200, Thailand.
+   [Aryupong, Chuchoke; Jitsangiam, Peerapong; Rinchumphu, Damrongsak] Chiang Mai Univ, Dept Civil Engn, Fac Engn, Chiang Mai 50200, Thailand.
+C3 Northumbria University; Chiang Mai University; Chiang Mai University
+RP Woo, WL (corresponding author), Northumbria Univ, Dept Comp & Informat Sci, Newcastle Upon Tyne NE1 8ST, Tyne & Wear, England.
+EM naruephorn_t@payap.ac.th; wailok.woo@northumbria.ac.uk; phetcharat@payap.ac.th; chuchoke.a@cmu.ac.th; peerapong@eng.cmu.ac.th; damrongsak.r@cmu.ac.th
+FU Thailand Science Research and Innovation, Thailand
+CR Abraham MT, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12030804
+   An K, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10020293
+   Batar AK, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10030114
+   Battineni G, 2019, MACHINES, V7, P0, DOI 10.3390/machines7040074
+   Chang ZL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030502
+   Chen W, 2018, B ENG GEOL ENVIRON, V77, P647, DOI 10.1007/s10064-017-1010-y
+   Chen YY, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19092047
+   Chow TE, 2008, T GIS, V12, P179, DOI 10.1111/j.1467-9671.2008.01094.x
+   Cui WQ, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9040194
+   Dai FC, 2001, ENG GEOL, V59, P253, DOI 10.1016/S0013-7952(00)00077-6
+   Bui DT, 2016, INT J DIGIT EARTH, V9, P1077, DOI 10.1080/17538947.2016.1169561
+   DiGangi Elizabeth A., 2013, REMETHODHUMAN SK, V0, P0, DOI DOI 10.1016/B978-0-12-385189-5.11001-5
+   Fowze JSM, 2012, GEOTEXT GEOMEMBRANES, V30, P50, DOI 10.1016/j.geotexmem.2011.01.007
+   Golovko D, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090943
+   Hamad RA, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10155293
+   Hong-Hong Wang, 2020, 2020 IEEE INTERNATIONAL CONFERENCE ON INDUSTRIAL APPLICATION OF ARTIFICIAL INTELLIGENCE (IAAI), V0, PP149, DOI 10.1109/IAAI51705.2020.9332814
+   Hu BZ, 2021, IEEE T IMAGE PROCESS, V30, P472, DOI 10.1109/TIP.2020.3036770
+   Huang FM, 2021, CATENA, V202, P0, DOI 10.1016/j.catena.2021.105250
+   Huang FM, 2020, LANDSLIDES, V17, P2919, DOI 10.1007/s10346-020-01473-9
+   Hungr O, 2014, LANDSLIDES, V11, P167, DOI 10.1007/s10346-013-0436-y
+   Inoue N., 2014, P 19 IAHR APD C 2014, V0, P0
+   Iqbal MZ, 2021, INT J ENERG RES, V45, P1449, DOI 10.1002/er.5954
+   Jiang HW, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10217830
+   Jiang SH, 2020, ENG GEOL, V271, P0, DOI 10.1016/j.enggeo.2020.105597
+   Jing L, 2019, NEURAL COMPUT, V31, P765, DOI 10.1162/neco_a_01174
+   Kadavi PR, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081252
+   Kaderuppan SS, 2020, IEEE ACCESS, V8, P214801, DOI 10.1109/ACCESS.2020.3040319
+   Koh BHD, 2019, IEEE ACCESS, V7, P32482, DOI 10.1109/ACCESS.2019.2903571
+   Koh BHD, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21020603
+   Komori D, 2018, CLIM RISK MANAG, V20, P126, DOI 10.1016/j.crm.2018.03.002
+   Liu J, 2018, ENTROPY-SWITZ, V20, P0, DOI 10.3390/e20110868
+   Moresi FV, 2020, GEOSCIENCES, V10, P0, DOI 10.3390/geosciences10080309
+   Nobaew B., 2010, J INF SCI TECHNOL, V1, P11
+   Ono K, 2014, NAT HAZARDS, V74, P2089, DOI 10.1007/s11069-014-1292-3
+   Parathai P, 2019, CIRC SYST SIGNAL PR, V38, P5786, DOI 10.1007/s00034-019-01156-4
+   Parathai P., 2017, P 2 INT C INF TECHN, V0, P0
+   Parathai P, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20164368
+   Pourghasemi HR, 2013, NAT HAZARDS, V69, P749, DOI 10.1007/s11069-013-0728-5
+   Qi Q, 2020, 2020 IEEE 13TH INTERNATIONAL CONFERENCE ON WEB SERVICES (ICWS 2020), V0, PP413, DOI 10.1109/ICWS49710.2020.00060
+   Rodriguez-Rodriguez I, 2021, APPL SCI-BASEL, V11, P0, DOI 10.3390/app11041742
+   Roy AC, 2019, INT CONF ADV ELECTR, V0, PP874, DOI 10.1109/ICAEE48663.2019.8975696
+   Ruan LF, 2020, NEUROCOMPUTING, V417, P441, DOI 10.1016/j.neucom.2020.07.093
+   Schein AI, 2007, MACH LEARN, V68, P235, DOI 10.1007/s10994-007-5019-5
+   Sepulveda NE, 2020, MACHINES, V8, P0, DOI 10.3390/machines8040066
+   Siami-Namini S, 2019, IEEE INT CONF BIG DA, V0, PP3285, DOI 10.1109/BigData47090.2019.9005997
+   Tengtrairat N., 2017, P 2 INT C INF TECHN, V0, P0
+   Nhu VH, 2020, INT J ENV RES PUB HE, V17, P0, DOI 10.3390/ijerph17082749
+   Wang HJ, 2021, ENG GEOL, V288, P0, DOI 10.1016/j.enggeo.2021.106103
+   Woo WL, 2020, IEEE INSTRU MEAS MAG, V23, P71, DOI 10.1109/MIM.2020.9062691
+   Xie PH, 2019, IEEE ACCESS, V7, P54305, DOI 10.1109/ACCESS.2019.2912419
+   Yang JT, 2019, GEOMORPHOLOGY, V324, P62, DOI 10.1016/j.geomorph.2018.09.019
+   Yousefi S, 2020, SCI REP-UK, V10, P0, DOI 10.1038/s41598-020-69233-2
+   Youssef AM, 2015, GEOSCI J, V19, P113, DOI 10.1007/s12303-014-0032-8
+   Yumuang S, 2006, ENVIRON GEOL, V51, P545, DOI 10.1007/s00254-006-0351-9
+   Zhang YG, 2021, NAT HAZARDS, V105, P783, DOI 10.1007/s11069-020-04337-6
+   Zhu L, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20061576
+NR 56
+TC 11
+Z9 11
+U1 10
+U2 35
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD JUL 15
+PY 2021
+VL 21
+IS 13
+BP 
+EP 
+DI 10.3390/s21134620
+PG 32
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA TF9LX
+UT WOS:000671037200001
+PM 34283153
+DA 2023-04-26
+ER
+
+PT J
+AU Yu, QT
+   Liu, W
+   Goncalves, WN
+   Marcato, J
+   Li, J
+AF Yu, Qiutong
+   Liu, Wei
+   Goncalves, Wesley Nunes
+   Marcato Junior, Jose
+   Li, Jonathan
+TI Spatial Resolution Enhancement for Large-Scale Land Cover Mapping via Weakly Supervised Deep Learning
+SO PHOTOGRAMMETRIC ENGINEERING AND REMOTE SENSING
+LA English
+DT Article
+ID data fusion; segmentation; multisource; reflectance
+AB Multispectral satellite imagery is the primary data source for monitoring land cover change and characterizing land cover globally. However, the consistency of land cover monitoring is limited by the spatial and temporal resolutions of the acquired satellite images. The public availability of daily highresolution images is still scarce. This paper aims to fill this gap by proposing a novel spatiotemporal fusion method to enhance daily low spatial resolution land cover mapping using a weakly supervised deep convolutional neural network. We merge Sentinel images and moderate resolution imaging spectroradiometer (MODIS)-derived thematic land cover maps under the application background of massive remote sensing data and the large spatial resolution gaps between MODIS data and Sentinel images. The neural network training was conducted on the public data set SEN12MS, while the validation and testing used ground truth data from the 2020 IEEE Geoscience and Remote Sensing Society data fusion contest. The proposed data fusion method shows that the synthesized land cover map has significantly higher spatial resolution than the corresponding MODIS-derived land cover map. The ensemble approach can be implemented for generating highresolution time series of satellite images by fusing fine images from Sentinel-1 and -2 and daily coarse images from MODIS.
+C1 [Yu, Qiutong; Liu, Wei; Li, Jonathan] Univ Waterloo, Dept Geog & Environm Management, Waterloo, ON, Canada.
+   [Goncalves, Wesley Nunes; Marcato Junior, Jose] Fed Univ Mato Grosso do Sul UFMS, Fac Engn Architecture & Urbanism & Geog, Campo Grande, MS, Brazil.
+C3 University of Waterloo; Universidade Federal de Mato Grosso do Sul
+RP Li, J (corresponding author), Univ Waterloo, Dept Geog & Environm Management, Waterloo, ON, Canada.
+EM junli@uwaterloo.ca
+CR Ayhan B, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12081333
+   Chan L, 2021, INT J COMPUT VISION, V129, P361, DOI 10.1007/s11263-020-01373-4
+   Chen B, 2017, ISPRS J PHOTOGRAMM, V124, P27, DOI 10.1016/j.isprsjprs.2016.12.008
+   Chen GS, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9091816
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen YY, 2018, PHOTOGRAMM ENG REM S, V84, P629, DOI 10.14358/PERS.84.10.629
+   Di Gregorio A., 2005, LAND COVER CLASSIFIC, V0, P0
+   Du ZR, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070888
+   Fung CH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11182077
+   Gao F, 2006, IEEE T GEOSCI REMOTE, V44, P2207, DOI 10.1109/TGRS.2006.872081
+   Gevaert CM, 2015, REMOTE SENS ENVIRON, V156, P34, DOI 10.1016/j.rse.2014.09.012
+   Ghamisi P, 2019, IEEE GEOSC REM SEN M, V7, P6, DOI 10.1109/MGRS.2018.2890023
+   Hilker T, 2009, REMOTE SENS ENVIRON, V113, P1613, DOI 10.1016/j.rse.2009.03.007
+   Huang B, 2018, REMOTE SENS ENVIRON, V214, P73, DOI 10.1016/j.rse.2018.04.050
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   LEE JS, 1981, COMPUT VISION GRAPH, V15, P380, DOI 10.1016/S0146-664X(81)80018-4
+   Loveland TR, 1997, ACTA ASTRONAUT, V41, P681, DOI 10.1016/S0094-5765(98)00050-2
+   Schmitt M., 2019, ISPRS ANN PHOTOGRAMM, V0, P0, DOI DOI 10.5194/isprs-annals-IV-2-W7-153-2019(
+   Song HH, 2018, IEEE J-STARS, V11, P821, DOI 10.1109/JSTARS.2018.2797894
+   Song XP, 2017, GEO-SPAT INF SCI, V20, P141, DOI 10.1080/10095020.2017.1323522
+   Sulla-Menashe D, 2019, REMOTE SENS ENVIRON, V222, P183, DOI 10.1016/j.rse.2018.12.013
+   Sun Y, 2019, PHOTOGRAMM ENG REM S, V85, P907, DOI 10.14358/PERS.85.12.907
+   Wang BW, 2018, INTL CONF POWER SYST, V0, PP4573, DOI 10.1109/POWERCON.2018.8601672
+   Wang J, 2015, INT J REMOTE SENS, V36, P3659, DOI 10.1080/01431161.2015.1047049
+   Xie DF, 2016, SENSORS-BASEL, V16, P0, DOI 10.3390/s16020207
+   Zhu XL, 2016, REMOTE SENS ENVIRON, V172, P165, DOI 10.1016/j.rse.2015.11.016
+   Zhu XL, 2010, REMOTE SENS ENVIRON, V114, P2610, DOI 10.1016/j.rse.2010.05.032
+   Zurita-Milla R, 2008, IEEE GEOSCI REMOTE S, V5, P453, DOI 10.1109/LGRS.2008.919685
+NR 28
+TC 1
+Z9 2
+U1 5
+U2 17
+PU AMER SOC PHOTOGRAMMETRY
+PI BETHESDA
+PA 5410 GROSVENOR LANE SUITE 210, BETHESDA, MD 20814-2160 USA
+SN 0099-1112
+EI 2374-8079
+J9 PHOTOGRAMM ENG REM S
+JI Photogramm. Eng. Remote Sens.
+PD JUN 15
+PY 2021
+VL 87
+IS 6
+BP 405
+EP 412
+DI 10.14358/PERS.87.6.405
+PG 8
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA UU0GF
+UT WOS:000698483300007
+DA 2023-04-26
+ER

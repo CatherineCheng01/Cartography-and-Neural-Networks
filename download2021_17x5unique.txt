@@ -1,0 +1,437 @@
+
+PT J
+AU Chen, M
+   Briffa, JA
+   Valentino, G
+   Farrugia, RA
+AF Chen, Mang
+   Briffa, Johann A.
+   Valentino, Gianluca
+   Farrugia, Reuben A.
+TI Stereo Matching Of Remote Sensing Images Using Deep Stereo Matching
+SO IMAGE AND SIGNAL PROCESSING FOR REMOTE SENSING XXVII
+LA English
+DT Proceedings Paper
+DE deep learning; digital elevation model; earth observation; stereo vision
+AB Very high resolution satellite images can be used to generate stereoscopic digital elevation models (DEMs), efficiently and at scale, as exemplified by the upcoming CO3D mission, which aims to produce worldwide DEMs by the end of 2025. In this paper we present a deep learning stereo-vision algorithm, integrated in the Stereo Pipeline for Pushbroom Images (S2P) framework. The proposed stereo matching method applies a Siamese convolutional neural network (CNN) to construct a cost volume. A median filter is applied to every slice in the cost volume to enforce spatial smoothness, and another CNN estimates a confidence map which is used to derive the final disparity map. Simulation results on the IARPA dataset show that the proposed method improves completeness by 4.5%, compared to the state of the art. A qualitative assessment also shows that the proposed method generates DEMs with less noise.
+C1 [Chen, Mang; Briffa, Johann A.; Valentino, Gianluca; Farrugia, Reuben A.] Univ Malta, Dept Commun & Comp Engn, Msida, Malta.
+C3 University of Malta
+RP Farrugia, RA (corresponding author), Univ Malta, Dept Commun & Comp Engn, Msida, Malta.
+EM reuben.farrugia@tum.edu.mt
+FU Malta Council for Science Technology; Foundation for Science and Technology, through the MCST-CNES Space Bilateral Fund
+CR Bagnardi M, 2016, GEOPHYS RES LETT, V43, P6267, DOI 10.1002/2016GL069457
+   Bosch M, 2016, IEEE APP IMG PAT, V0, P0
+   Facciolo G, 2017, IEEE COMPUT SOC CONF, V0, PP1542, DOI 10.1109/CVPRW.2017.198
+   Hirschmuller H, 2008, IEEE T PATTERN ANAL, V30, P328, DOI 10.1109/TPAMl.2007.1166
+   Hosni A, 2013, IEEE T PATTERN ANAL, V35, P504, DOI 10.1109/TPAMI.2012.156
+   Kim S, 2019, PROC CVPR IEEE, V0, PP205, DOI 10.1109/CVPR.2019.00029
+   Knobelreiter P, 2018, INT GEOSCI REMOTE SE, V0, P4379
+   Krauss T, 2015, INT ARCH PHOTOGRAMM, V40-3, P115, DOI 10.5194/isprsarchives-XL-3-W2-115-2015
+   Laga Hamid, 2020, IEEE T PATTERN ANAL, V0, P0
+   Lebe`gue L., 2020, INT ARCH PHOTOGRAMME, V43, P299
+   Panagiotakis E, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7030118
+   Qin R., 2017, ASPRS IGTF ANN C, V0, P0
+   Scharstein D, 2014, LECT NOTES COMPUT SC, V8753, P31, DOI 10.1007/978-3-319-11752-2_3
+   Tsanis IK, 2014, J HYDROINFORM, V16, P1, DOI 10.2166/hydro.2013.197
+   Youssefi D., 2020, IEEE INT GEOSC REM S, V0, P0
+   Zbontar J, 2016, J MACH LEARN RES, V17, P0
+NR 16
+TC 1
+Z9 1
+U1 4
+U2 10
+PU SPIE-INT SOC OPTICAL ENGINEERING
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98227-0010 USA
+SN 0277-786X
+EI 1996-756X
+J9 PROC SPIE
+PD JUN 15
+PY 2021
+VL 11862
+IS 
+BP 
+EP 
+DI 10.1117/12.2597702
+PG 6
+WC Computer Science, Artificial Intelligence; Remote Sensing; Optics; Imaging Science & Photographic Technology
+SC Computer Science; Remote Sensing; Optics; Imaging Science & Photographic Technology
+GA BS7DU
+UT WOS:000759218100007
+DA 2023-04-26
+ER
+
+PT J
+AU Adamiak, M
+   Bedkowski, K
+   Majchrowska, A
+AF Adamiak, Maciej
+   Bedkowski, Krzysztof
+   Majchrowska, Anna
+TI Aerial Imagery Feature Engineering Using Bidirectional Generative Adversarial Networks: A Case Study of the Pilica River Region, Poland
+SO REMOTE SENSING
+LA English
+DT Article
+DE machine learning; generative adversarial networks; feature engineering; orthophoto; unsupervised segmentation
+AB Generative adversarial networks (GANs) are a type of neural network that are characterized by their unique construction and training process. Utilizing the concept of the latent space and exploiting the results of a duel between different GAN components opens up interesting opportunities for computer vision (CV) activities, such as image inpainting, style transfer, or even generative art. GANs have great potential to support aerial and satellite image interpretation activities. Carefully crafting a GAN and applying it to a high-quality dataset can result in nontrivial feature enrichment. In this study, we have designed and tested an unsupervised procedure capable of engineering new features by shifting real orthophotos into the GAN's underlying latent space. Latent vectors are a low-dimensional representation of the orthophoto patches that hold information about the strength, occurrence, and interaction between spatial features discovered during the network training. Latent vectors were combined with geographical coordinates to bind them to their original location in the orthophoto. In consequence, it was possible to describe the whole research area as a set of latent vectors and perform further spatial analysis not on RGB images but on their lower-dimensional representation. To accomplish this goal, a modified version of the big bidirectional generative adversarial network (BigBiGAN) has been trained on a fine-tailored orthophoto imagery dataset covering the area of the Pilica River region in Poland. Trained models, precisely the generator and encoder, have been utilized during the processes of model quality assurance and feature engineering, respectively. Quality assurance was performed by measuring model reconstruction capabilities and by manually verifying artificial images produced by the generator. The feature engineering use case, on the other hand, has been presented in a real research scenario that involved splitting the orthophoto into a set of patches, encoding the patch set into the GAN latent space, grouping similar patches latent codes by utilizing hierarchical clustering, and producing a segmentation map of the orthophoto.
+C1 [Adamiak, Maciej] SoftwareMill, PL-02791 Warsaw, Poland.
+   [Bedkowski, Krzysztof] Univ Lodz, Fac Geog Sci, Inst Urban Geog Tourism & Geoinformat, PL-90139 Lodz, Poland.
+   [Majchrowska, Anna] Univ Lodz, Fac Geog Sci, Dept Phys Geog, PL-90139 Lodz, Poland.
+C3 University of Lodz; University of Lodz
+RP Adamiak, M (corresponding author), SoftwareMill, PL-02791 Warsaw, Poland.
+EM maciej.adamiak@softwaremill.com; krzysztof.bedkowski@geo.uni.lodz.pl; anna.majchrowska@geo.uni.lodz.pl
+CR Adamczyk J., 2013, ECOLOGICAL QUESTIONS, V17, P9, DOI 10.12775/ecoq-2013-0012
+   Adamczyk J., 2006, ROCZ GEOMATYKI ANN G, V4, P37
+   Adamiak M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12162628
+   [Anonymous], 2021, ARXIV151106434, V0, P0
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P699, DOI 10.1080/014311697217224
+   Bialousz S., 2010, ARCHIWUM FOTOGRAM KA, V21, P21
+   Brock A., 2019, 18091109 ARXIV, V0, P0
+   Burdziakowski P, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12162586
+   Cabezas M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12203431
+   Chen YS, 2014, IEEE J-STARS, V7, P2094, DOI 10.1109/JSTARS.2014.2329330
+   Deora P., 2020, 19100606 ARXIV, V0, P0
+   Domingos P, 2012, COMMUN ACM, V55, P78, DOI 10.1145/2347736.2347755
+   Donahue J., 2017, 16050978 ARXIV, V0, P0
+   Donahue J., 2019, 19070254 ARXIV, V0, P0
+   Dong RM, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091418
+   DOWSON DC, 1982, J MULTIVARIATE ANAL, V12, P450, DOI 10.1016/0047-259X(82)90077-X
+   elaniewicz A., 2011, TECTONIC REGIONALIZA, V0, P0
+   Frogner C., 2015, 15060543 ARXIV, V0, P0
+   Gulrajani I., 2017, 17040002 ARXIV, V0, P0
+   HARALICK RM, 1985, COMPUT VISION GRAPH, V29, P100, DOI 10.1016/S0734-189X(85)90153-7
+   HARALICK RM, 1973, IEEE T SYST MAN CYB, VSMC3, P610, DOI 10.1109/TSMC.1973.4309314
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Iwaniak A., 2002, ACTA SCIENTIARUM POL, V1, P5
+   Goodfellow IJ, 2014, ARXIV, V0, P0, DOI DOI 10.1145/3422622
+   Kingma DP, 2019, FOUND TRENDS MACH LE, V12, P4, DOI 10.1561/2200000056
+   Kondracki J., 1977, PHYS GEOGRAPHIC REGI, V0, P0
+   Korhonen J, 2012, INT WORK QUAL MULTIM, V0, PP37, DOI 10.1109/QoMEX.2012.6263880
+   Kosinski K, 2007, ARCHIWUM FOTOGRAM KA, V17a, P385
+   Kosinski K, 2005, ROCZ GEOMATYKI ANN G, V3, P69
+   Kot R, 2012, PROBLEMY EKOLOGII KR, V33, P87
+   Krawiec K., 2006, ARCHIWUM FOTOGRAM KA, V16, P361
+   Krysiak S, 2008, PROBL EKOL KRAJ, V21, P299
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Lang S, 2004, EKOL BRATISLAVA, V23, P148
+   Lewinski S, 2007, ROCZ GEOMATYKI ANN G, V5, P63
+   Lewinski S., 2006, ROCZNIKI GEOMETYKI, V4, P139
+   Luus FPS, 2015, IEEE GEOSCI REMOTE S, V12, P2448, DOI 10.1109/LGRS.2015.2483680
+   Miyato T., 2018, 18020595 ARXIV, V0, P0
+   Mukherjee S, 2019, AAAI CONF ARTIF INTE, V0, P4610
+   Oledzki J.R., 1992, GEOGRAPHICAL CONDITI, V0, P0
+   Oledzki J.R, 2001, TELEDETEKCJA SRODOWI, V38, P302
+   Salimans T., 2016, 16060349 ARXIV, V0, P0
+   Sobczak M., 2005, IMAGING SPECTROSCOPY, V0, P763
+   Solon J, 2002, PR GEOGR, V185, P193
+   Solon J, 2018, GEOGR POL, V91, P143, DOI 10.7163/GPol.0115
+   Szegedy C., 2014, GOING DEEPER CONVOLU, V0, P0
+   Thanh-Tung H., 2020, 18070401 ARXIV, V0, P0
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   WARD JH, 1963, J AM STAT ASSOC, V58, P236, DOI 10.2307/2282967
+   Weyk P., 2006, ROCZ GEOMATYKI ANN G, V4, P227
+   Zagajewski B, 2010, TELEDETEKCJA SRODOWI, V43, P1
+   Zhao WZ, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12050843
+   Zhou S., 2019, 190401121 ARXIV, V0, P0
+NR 54
+TC 3
+Z9 3
+U1 0
+U2 11
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD JAN 15
+PY 2021
+VL 13
+IS 2
+BP 
+EP 
+DI 10.3390/rs13020306
+PG 21
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA PY3LD
+UT WOS:000611947900001
+DA 2023-04-26
+ER
+
+PT J
+AU Wiwatcharakoses, C
+   Berrar, D
+AF Wiwatcharakoses, Chayut
+   Berrar, Daniel
+TI A self-organizing incremental neural network for continual supervised learning
+SO EXPERT SYSTEMS WITH APPLICATIONS
+LA English
+DT Article
+DE Catastrophic forgetting; Concept drift; Continual learning; Incremental learning; Supervised learning
+AB Continual learning algorithms can adapt to changes of data distributions, new classes, and even completely new tasks without catastrophically forgetting previously acquired knowledge. Here, we present a novel self-organizing incremental neural network, GSOINN+, for continual supervised learning. GSOINN+ learns a topological mapping of the input data to an undirected network and uses a weighted nearest-neighbor rule with fractional distance for classification. GSOINN+ learns incrementally-new classification tasks do not need to be specified a priori, and no rehearsal of previously learned tasks with stored training sets is required. In a series of sequential learning experiments, we show that GSOINN+ can mitigate catastrophic forgetting, even when completely new tasks are to be learned.
+C1 [Wiwatcharakoses, Chayut; Berrar, Daniel] Tokyo Inst Technol, Data Sci Lab, Meguro Ku, 2-12-1-S3-70 Ookayama, Tokyo 1528550, Japan.
+C3 Tokyo Institute of Technology
+RP Berrar, D (corresponding author), Tokyo Inst Technol, Data Sci Lab, Meguro Ku, 2-12-1-S3-70 Ookayama, Tokyo 1528550, Japan.
+EM wiwatcharakoses.c.aa@m.titech.ac.jp; daniel.berrar@ict.e.titech.ac.jp
+FU Japanese Ministry of Education, Culture, Sports, Science and Technology
+CR Aggarwal CC, 2001, LECT NOTES COMPUT SC, V1973, P420
+   Aljundi Rahaf, 2019, INT C LEARN REPR, V0, P0
+   Benavoli A, 2017, J MACH LEARN RES, V18, P0
+   BRUSKE J, 1995, NEURAL COMPUT, V7, P845, DOI 10.1162/neco.1995.7.4.845
+   Cohen G, 2017, ABS170205373 CORR, V0, P0
+   Flesch T, 2018, P NATL ACAD SCI USA, V115, PE10313, DOI 10.1073/pnas.1800755115
+   Francois D, 2007, IEEE T KNOWL DATA EN, V19, P873, DOI 10.1109/TKDE.2007.1037
+   FRITZKE B, 1994, NEURAL NETWORKS, V7, P1441, DOI 10.1016/0893-6080(94)90091-4
+   Fritzke B., 1994, INT C NEUR INF PROC, V0, P625
+   Furao S, 2007, NEURAL NETWORKS, V20, P893, DOI 10.1016/j.neunet.2007.07.008
+   Furao S, 2008, NEURAL NETWORKS, V21, P1537, DOI 10.1016/j.neunet.2008.07.001
+   Kirkpatricka J, 2017, P NATL ACAD SCI USA, V114, P3521, DOI 10.1073/pnas.1611835114
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   Kruschke JK., 2015, DOING BAYESIAN DATA, V0, PP265, DOI 10.1016/B978-0-12-405888-0.00010-6
+   Kruschke JK, 2018, PSYCHON B REV, V25, P178, DOI 10.3758/s13423-016-1221-4
+   Li ZZ, 2016, LECT NOTES COMPUT SC, V9908, P614, DOI 10.1007/978-3-319-46493-0_37
+   Liu B, 2017, FRONT COMPUT SCI-CHI, V11, P359, DOI 10.1007/s11704-016-6903-6
+   Lomonaco V., 2017, CORL, V78, P17
+   Marsland S, 2002, NEURAL NETWORKS, V15, P1041, DOI 10.1016/S0893-6080(02)00078-3
+   Mccloskey M., 1989, PSYCHOL LEARN MOTIV, V24, P109, DOI 10.1016/S0079-7421(08)60536-8
+   Nakamura Y, 2017, IEEE T NEUR NET LEAR, V28, P8, DOI 10.1109/TNNLS.2015.2489225
+   Parisi GI, 2018, FRONT NEUROROBOTICS, V12, P0, DOI 10.3389/fnbot.2018.00078
+   Parisi GI, 2019, NEURAL NETWORKS, V113, P54, DOI 10.1016/j.neunet.2019.01.012
+   Parisi GI, 2017, NEURAL NETWORKS, V96, P137, DOI 10.1016/j.neunet.2017.09.001
+   Parisi GI, 2015, FRONT NEUROROBOTICS, V9, P1, DOI 10.3389/fnbot.2015.00003
+   Rebuffi SA, 2017, PROC CVPR IEEE, V0, PP5533, DOI 10.1109/CVPR.2017.587
+   Rios A, 2019, PROCEEDINGS OF THE TWENTY-EIGHTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P3332
+   Rusu Andrei A., 2016, PROGRESSIVE, V0, P0
+   Ruvolo P., 2013, P INT C MACHINE LEAR, V28, P507
+   Shen FR, 2006, NEURAL NETWORKS, V19, P90, DOI 10.1016/j.neunet.2005.04.006
+   Wiwatcharakoses C, 2019, PROCEEDINGS OF THE TWENTY-EIGHTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P6476
+   Wiwatcharakoses C, 2020, EXPERT SYST APPL, V143, P0, DOI 10.1016/j.eswa.2019.113069
+   Xiao H., 2017, ARXIV170807747, V0, P0
+NR 33
+TC 8
+Z9 8
+U1 3
+U2 20
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0957-4174
+EI 1873-6793
+J9 EXPERT SYST APPL
+JI Expert Syst. Appl.
+PD DEC 15
+PY 2021
+VL 185
+IS 
+BP 
+EP 
+DI 10.1016/j.eswa.2021.115662
+EA AUG 2021
+PG 9
+WC Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic; Operations Research & Management Science
+SC Computer Science; Engineering; Operations Research & Management Science
+GA WH0PD
+UT WOS:000707390300001
+DA 2023-04-26
+ER
+
+PT J
+AU Lai, YQ
+   Wang, HL
+   Sun, XL
+AF Lai, Yu-Qing
+   Wang, Hui-Li
+   Sun, Xiao-Lin
+TI A comparison of importance of modelling method and sample size for mapping soil organic matter in Guangdong, China
+SO ECOLOGICAL INDICATORS
+LA English
+DT Article
+DE Digital soil mapping; Modelling method; Sample size; Soil organic matter
+ID geographically weighted regression; spatial prediction; neural-network; carbon; interpolation; indicators; variables; density; error
+AB Digital soil mapping (DSM) is the most widely used method for producing spatial information of soil organic matter (SOM). Accuracy of the information is generally determined by modelling methods and sample sizes used for DSM. However, different studies present different importance of modelling method and sample size on accuracy of DSM, while they do not explore various combinations of modelling method and sample size. Based on the studies, it is supposed that there exists an optimal combination of modelling method and sample size for producing information of SOM accurately and economically. With SOM data of 1861 soil samples collected in Guangdong, China, the present study first assessed importance of modelling method and sample size and then examined if an optimal combination of modelling method and sample size existed for the area. Six modelling methods were explored, while 12 sample sizes were used, ranging from 100 to 1200 with an interval of 100. For each size, 10 repeated samples were randomly taken from a data of 1311 samples which were randomly selected from all the 1861 soil samples based on the probability distribution of the SOM data. The results showed that, for small sample sizes, the modelling methods have a greater impact on accuracy of DSM. However, for large sample sizes, e.g., more than 1000, the sample sizes have a much greater impact. Due to the varying importance of modelling method and sample size, there exists an optimal combination of modelling method and sample size for spatial prediction of SOM in the area, i.e., the combination of regression kriging and a sample size of 800. Thus, for economically producing detailed and accurate information on spatial distribution of SOM, it is recommended that a series of modelling methods and sample sizes are tried to identify an optimal combination of modelling method and sample size.
+C1 [Lai, Yu-Qing; Sun, Xiao-Lin] Sun Yat Sen Univ, Sch Geog & Planning, Guangzhou 510275, Peoples R China.
+   [Wang, Hui-Li] Guangxi Forestry Res Inst, Nanning 530002, Peoples R China.
+C3 Sun Yat Sen University
+RP Sun, XL (corresponding author), Sun Yat Sen Univ, Rm D303-1,Dihuan Bldg,135 Xingang West Rd, Guangzhou 510275, Peoples R China.
+EM sxiaolin@mail.sysu.edu.cn
+FU National Natural Science Foundation of China [41771246, 42071062]
+CR Agricultural Chemistry Committee of China, 1983, CONV METH SOIL AGR C, V0, P70
+   Bohner J., 2006, SAGA ANAL MODELLING, V115, P13
+   Boubehziz S, 2020, CATENA, V190, P0, DOI 10.1016/j.catena.2020.104539
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Broomhead D. S., 1988, COMPLEX SYSTEMS, V2, P321
+   Brunsdon C, 1996, GEOGR ANAL, V28, P281, DOI 10.1111/j.1538-4632.1996.tb00936.x
+   Conrad O, 2015, GEOSCI MODEL DEV, V8, P1991, DOI 10.5194/gmd-8-1991-2015
+   Dharumarajan S, 2019, GEODERMA REG, V16, P0, DOI 10.1016/j.geodrs.2019.e00204
+   Ellinger M, 2019, SOIL-GERMANY, V5, P275, DOI 10.5194/soil-5-275-2019
+   Forkuor G, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0170478
+   Fotheringham A. S., 2002, GEOGRAPHICALLY WEIGH, V0, P0
+   Gautam R, 2011, BIOSYST ENG, V110, P20, DOI 10.1016/j.biosystemseng.2011.06.002
+   Guo PT, 2013, NUTR CYCL AGROECOSYS, V95, P333, DOI 10.1007/s10705-013-9566-9
+   Hengl T, 2004, GEODERMA, V120, P75, DOI 10.1016/j.geoderma.2003.08.018
+   Hijmans RJ, 2005, INT J CLIMATOL, V25, P1965, DOI 10.1002/joc.1276
+   Ihaka R., 1996, J COMPUTNL GRAPH STA, V5, P299, DOI 10.2307/1390807
+   Ishwaran H, 2008, ANN APPL STAT, V2, P841, DOI 10.1214/08-AOAS169
+   IUSS Working Group WRB, 2015, WORLD REFERENCE BASE, V0, P0
+   Khaledian Y, 2020, APPL MATH MODEL, V81, P401, DOI 10.1016/j.apm.2019.12.016
+   Kravchenko AN, 2007, AGRON J, V99, P12, DOI 10.2134/agronj2005.0251
+   Kuang B, 2012, EUR J SOIL SCI, V63, P421, DOI 10.1111/j.1365-2389.2012.01456.x
+   Lagacherie P, 2020, GEODERMA, V375, P0, DOI 10.1016/j.geoderma.2020.114503
+   Lamichhane S, 2019, GEODERMA, V352, P395, DOI 10.1016/j.geoderma.2019.05.031
+   Lark RM, 2006, EUR J SOIL SCI, V57, P787, DOI 10.1111/j.1365-2389.2005.00768.x
+   Li N, 2019, CATENA, V181, P0, DOI 10.1016/j.catena.2019.04.034
+   Li Y, 2010, GEODERMA, V159, P63, DOI 10.1016/j.geoderma.2010.06.017
+   Long J, 2020, ECOL INDIC, V110, P0, DOI 10.1016/j.ecolind.2019.105926
+   Long J, 2018, ECOL INDIC, V93, P562, DOI 10.1016/j.ecolind.2018.05.044
+   Mahmoudzadeh H, 2020, GEODERMA REG, V21, P0, DOI 10.1016/j.geodrs.2020.e00260
+   Manlay RJ, 2007, AGR ECOSYST ENVIRON, V119, P217, DOI 10.1016/j.agee.2006.07.011
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   Meinshausen N, 2006, J MACH LEARN RES, V7, P983
+   Minasny B, 2007, GEODERMA, V140, P324, DOI 10.1016/j.geoderma.2007.04.028
+   Mishra U, 2010, SOIL TILL RES, V107, P88, DOI 10.1016/j.still.2010.02.005
+   Morgan J., 2003, ACAD INFORM MANAGEME, V6, P77
+   Pang S, 2009, AGR SCI CHINA, V8, P1369, DOI 10.1016/S1671-2927(08)60349-1
+   Pebesma EJ, 1998, COMPUT GEOSCI-UK, V24, P17, DOI 10.1016/S0098-3004(97)00082-4
+   Somarathna PDSN, 2017, SOIL SCI SOC AM J, V81, P1413, DOI 10.2136/sssaj2016.11.0376
+   Song XD, 2016, GEODERMA, V261, P11, DOI 10.1016/j.geoderma.2015.06.024
+   Sun XL, 2019, CATENA, V181, P0, DOI 10.1016/j.catena.2019.104092
+   Sun XL, 2019, PEDOSPHERE, V29, P577, DOI 10.1016/S1002-0160(19)60801-5
+   Tziachris P, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9040276
+   Wadoux AMJC, 2020, EARTH-SCI REV, V210, P0, DOI 10.1016/j.earscirev.2020.103359
+   Wadoux AMJC, 2019, GEODERMA, V355, P0, DOI 10.1016/j.geoderma.2019.113913
+   Webster R, 2007, GEOSTATISTICS ENV SC, V0, P0
+   Webster R., 1993, GEOSTATISTICS TROIA, V1, P0
+   Wiesmeier M, 2019, GEODERMA, V333, P149, DOI 10.1016/j.geoderma.2018.07.026
+   Zhang SW, 2012, GEODERMA, V171, P35, DOI 10.1016/j.geoderma.2011.07.012
+   Zhang ZQ, 2015, ENVIRON EARTH SCI, V73, P2287, DOI 10.1007/s12665-014-3580-3
+NR 49
+TC 6
+Z9 6
+U1 7
+U2 23
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1470-160X
+EI 1872-7034
+J9 ECOL INDIC
+JI Ecol. Indic.
+PD JUL 15
+PY 2021
+VL 126
+IS 
+BP 
+EP 
+DI 10.1016/j.ecolind.2021.107618
+EA MAR 2021
+PG 11
+WC Biodiversity Conservation; Environmental Sciences
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA RY3GG
+UT WOS:000647803200006
+DA 2023-04-26
+ER
+
+PT J
+AU Rybnikova, N
+   Mirkes, EM
+   Gorban, AN
+AF Rybnikova, Nataliya
+   Mirkes, Evgeny M.
+   Gorban, Alexander N.
+TI CNN-Based Spectral Super-Resolution of Panchromatic Night-Time Light Imagery: City-Size-Associated Neighborhood Effects
+SO SENSORS
+LA English
+DT Article
+DE night-time light (NTL); panchromatic; red; green; blue (RGB) bands; international space station (ISS); convolutional neural network (CNN); neighborhood effect
+ID artificial-light; economic-activity; exposure; population; pollution; obesity
+AB Data on artificial night-time light (NTL), emitted from the areas, and captured by satellites, are available at a global scale in panchromatic format. In the meantime, data on spectral properties of NTL give more information for further analysis. Such data, however, are available locally or on a commercial basis only. In our recent work, we examined several machine learning techniques, such as linear regression, kernel regression, random forest, and elastic map models, to convert the panchromatic NTL images into colored ones. We compared red, green, and blue light levels for eight geographical areas all over the world with panchromatic light intensities and characteristics of built-up extent from spatially corresponding pixels and their nearest neighbors. In the meantime, information from more distant neighboring pixels might improve the predictive power of models. In the present study, we explore this neighborhood effect using convolutional neural networks (CNN). The main outcome of our analysis is that the neighborhood effect goes in line with the geographical extent of metropolitan areas under analysis: For smaller areas, optimal input image size is smaller than for bigger ones. At that, for relatively large cities, the optimal input image size tends to differ for different colors, being on average higher for red and lower for blue lights. Compared to other machine learning techniques, CNN models emerged comparable in terms of Pearson's correlation but showed performed better in terms of WMSE, especially for testing datasets.
+C1 [Rybnikova, Nataliya; Mirkes, Evgeny M.; Gorban, Alexander N.] Univ Leicester, Dept Math, Leicester LE1 7RH, Leics, England.
+   [Rybnikova, Nataliya] Univ Haifa, Dept Nat Resources & Environm Management, IL-3498838 Haifa, Israel.
+   [Rybnikova, Nataliya] Univ Haifa, Dept Geog & Environm Studies, IL-3498838 Haifa, Israel.
+   [Mirkes, Evgeny M.; Gorban, Alexander N.] Lobachevsky Univ, Inst Informat Technol Math & Mech, Nizhnii Novgorod 603105, Russia.
+C3 University of Leicester; University of Haifa; University of Haifa; Lobachevsky State University of Nizhni Novgorod
+RP Rybnikova, N (corresponding author), Univ Leicester, Dept Math, Leicester LE1 7RH, Leics, England.; Rybnikova, N (corresponding author), Univ Haifa, Dept Nat Resources & Environm Management, IL-3498838 Haifa, Israel.; Rybnikova, N (corresponding author), Univ Haifa, Dept Geog & Environm Studies, IL-3498838 Haifa, Israel.
+EM nataliya.rybnikova@gmail.com; m322@leicester.ac.uk; a.n.gorban@leicester.ac.uk
+FU Council for Higher Education of Israel; Ministry of Science and Higher Education of the Russian Federation [075-15-2021-634]
+CR AESCHBACHER J, 2017, P IEEE INT C COMPUTE, V0, P0
+   [Anonymous], 2010, OPEN GEOGRAPHY J, V0, P0, DOI DOI 10.2174/1874923201003010147
+   ARAD B, 2016, P 14 EUROPEAN C, V0, P0, DOI DOI 10.1007/978-3-319-46478-7
+   Arun PV, 2020, SIGNAL PROCESS, V169, P0, DOI 10.1016/j.sigpro.2019.107394
+   Bennie J, 2015, REMOTE SENS-BASEL, V7, P2715, DOI 10.3390/rs70302715
+   Bugeau A, 2014, IEEE T IMAGE PROCESS, V23, P298, DOI 10.1109/TIP.2013.2288929
+   Cajochen C, 2005, J CLIN ENDOCR METAB, V90, P1311, DOI 10.1210/jc.2004-0957
+   Can Y. B., 2018, ARXIV180404647, V0, P0
+   Cheong JY, 2017, IEEE SIGNAL PROC LET, V24, P1252, DOI 10.1109/LSP.2017.2721104
+   Chia AYS, 2011, ACM T GRAPHIC, V30, P0, DOI 10.1145/2024156.2024190
+   Cinzano P, 2000, MON NOT R ASTRON SOC, V318, P641, DOI 10.1046/j.1365-8711.2000.03562.x
+   Deshpande A, 2015, IEEE I CONF COMP VIS, V0, PP567, DOI 10.1109/ICCV.2015.72
+   Doll CNH, 2006, ECOL ECON, V57, P75, DOI 10.1016/j.ecolecon.2005.03.007
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Ebener Steeve, 2005, INT J HEALTH GEOGR, V4, P5, DOI 10.1186/1476-072X-4-5
+   Elvidge C.D., 2013, P ASIA PACIFIC ADV N, V35, P0, DOI 10.7125/APAN.35.7
+   Elvidge CD, 1997, INT J REMOTE SENS, V18, P1373, DOI 10.1080/014311697218485
+   Falchi F, 2019, J ENVIRON MANAGE, V248, P0, DOI 10.1016/j.jenvman.2019.06.128
+   Falchi F, 2016, SCI ADV, V2, P0, DOI 10.1126/sciadv.1600377
+   Galliani S., 2017, ARXIV170309470, V0, P0, DOI DOI 10.48550/arXiv.1703.09470
+   Guk E, 2020, ISPRS J PHOTOGRAMM, V163, P121, DOI 10.1016/j.isprsjprs.2020.02.016
+   Haim A., 2013, LIGHT POLLUTION NEW, V0, P0, DOI DOI 10.1007/978-94-007-6220-6
+   Hopkins GR, 2018, FRONT ECOL ENVIRON, V16, P472, DOI 10.1002/fee.1828
+   Hu ZY, 2018, ENVIRON POLLUT, V239, P30, DOI 10.1016/j.envpol.2018.04.021
+   Ironi R., 2005, PROC EGSR, V29, P201
+   Kawakami R., 2011, 2011 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR), V0, PP2329, DOI 10.1109/CVPR.2011.5995457
+   Kloog I, 2009, CHRONOBIOL INT, V26, P108, DOI 10.1080/07420520802694020
+   Kloog I, 2010, CANCER CAUSE CONTROL, V21, P2059, DOI 10.1007/s10552-010-9624-4
+   Larsson G, 2016, LECT NOTES COMPUT SC, V9908, P577, DOI 10.1007/978-3-319-46493-0_35
+   McFadden E, 2014, AM J EPIDEMIOL, V180, P245, DOI 10.1093/aje/kwu117
+   Mellander C, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0139779
+   Milanfar, 2017, SUPER RESOLUTION IMA, V0, P0
+   Naemura, 2009, INT C COMP GRAPH INT, V0, P0, DOI DOI 10.1145/1597990.1598049
+   Nasrollahi K, 2014, MACH VISION APPL, V25, P1423, DOI 10.1007/s00138-014-0623-4
+   Park SC, 2003, IEEE SIGNAL PROC MAG, V20, P21, DOI 10.1109/MSP.2003.1203207
+   Roman M. O., 2019, BLACK MARBLE USER GU, V0, P0
+   Rybnikova NA, 2016, INT J OBESITY, V40, P815, DOI 10.1038/ijo.2015.255
+   Rybnikova N, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3076011
+   Rybnikova NA, 2017, ISPRS J PHOTOGRAMM, V128, P212, DOI 10.1016/j.isprsjprs.2017.03.021
+   Sutton P, 2001, INT J REMOTE SENS, V22, P3061, DOI 10.1080/01431160010007015
+   Truong TD, 2018, PROCEEDINGS OF THE 7TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION APPLICATIONS AND METHODS (ICPRAM 2018), V0, PP675, DOI 10.5220/0006752006750682
+   Tian CW, 2021, IEEE T MULTIMEDIA, V23, P1489, DOI 10.1109/TMM.2020.2999182
+   Tian J, 2011, SIGNAL IMAGE VIDEO P, V5, P329, DOI 10.1007/s11760-010-0204-6
+   Timofte R, 2013, IEEE I CONF COMP VIS, V0, PP1920, DOI 10.1109/ICCV.2013.241
+   Tselios V, 2020, ENVIRON PLAN B-URBAN, V47, P553, DOI 10.1177/2399808318788567
+   Veitch JA, 2008, LIGHTING RES TECHNOL, V40, P133, DOI 10.1177/1477153507086279
+   Wang, 2017, GLOBAL HUMAN BUILT U, V0, P0
+   Wang XY, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20041142
+   Wang ZH, 2021, IEEE T PATTERN ANAL, V43, P3365, DOI 10.1109/TPAMI.2020.2982166
+   Xiao AR, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18041194
+   Zhang XD, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18082587
+   Zhiyong H., 2012, IMAGE COLORIZATION U, V0, PP369, DOI 10.1145/2393347.2393402
+NR 53
+TC 2
+Z9 2
+U1 1
+U2 3
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD NOV 15
+PY 2021
+VL 21
+IS 22
+BP 
+EP 
+DI 10.3390/s21227662
+PG 16
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA XJ3YD
+UT WOS:000726726900001
+PM 34833738
+DA 2023-04-26
+ER

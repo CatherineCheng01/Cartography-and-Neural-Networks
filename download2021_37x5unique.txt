@@ -1,0 +1,470 @@
+
+PT J
+AU Shi, XZ
+   Fu, SL
+   Chen, J
+   Wang, F
+   Xu, F
+AF Shi, Xianzheng
+   Fu, Shilei
+   Chen, Jin
+   Wang, Feng
+   Xu, Feng
+TI Object-Level Semantic Segmentation on the High-Resolution Gaofen-3 FUSAR-Map Dataset
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Image segmentation; Radar polarimetry; Semantics; Synthetic aperture radar; Earth; Buildings; Image resolution; 2020 GaoFen challenge; encoder&#8211; decoder network; FUSAR; map dataset; GaoFen-3 (GF-3) single -polarization SAR images; object-level semantic segmentation
+ID convolutional neural-network; land-cover classification; sar; imagery
+AB Land cover classification with SAR images mainly focuses on the utilization of fully polarimetric SAR (PolSAR) images. The conventional task of PolSAR classification is single-pixel-based region-level classification using polarimetric target decomposition. In recent years, a large number of high-resolution SAR images have become available, most of which are single-polarization. This article explores the potential of object-level semantic segmentation of high-resolution single-pol SAR images, in particular tailored for the Gaofen-3 (GF-3) sensor. First, a well-annotated GF-3 segmentation dataset "FUSAR-Map" is presented for SAR semantic segmentation. It is based on four data sources: GF-3 single-pol SAR images, Google Earth optical remote sensing images, Google Earth digital maps, and building footprint vector data. It consists of 610 high-resolution GF-3 single-pol SAR images with the size of 1024 x 1024. Second, an encoder-decoder network based on transfer learning is employed to implement semantic segmentation of GF-3 SAR images. For the FUSAR-Map dataset, an optical image pretrained deep convolution neural network (DCNN) is fine-tuned with the SAR training dataset. Experiments on the FUSAR-Map dataset demonstrate the feasibility of object-level semantic segmentation with high-resolution GF-3 single-pol SAR images. Also, our algorithm obtains fourth place about the PolSAR image semantic segmentation on the "2020 Gaofen Challenge on Automated High-Resolution Earth Observation Image Interpretation." The new dataset and the encoder-decoder network are intended as the benchmark data and baseline algorithm for further development of semantic segmentation with high-resolution SAR images. The FUSAR-Map and our algorithm are available at github.com/fudanxu/FUSAR-Map/.
+C1 [Shi, Xianzheng; Fu, Shilei; Wang, Feng; Xu, Feng] Fudan Univ, Key Lab Informat Sci Electromagnet Waves MoE, Shanghai 200433, Peoples R China.
+   [Chen, Jin] Beijing Inst Remote Sensing Informat, Beijing, Peoples R China.
+C3 Fudan University
+RP Wang, F; Xu, F (corresponding author), Fudan Univ, Key Lab Informat Sci Electromagnet Waves MoE, Shanghai 200433, Peoples R China.
+EM xzshi19@fudan.edu.cn; fusl17@fudan.edu.cn; chenjin_wonder@hotmail.com; fengwang@fudan.edu.cn; fengxu@fudan.edu.cn
+FU Natural Science Foundation of China [61991422, 61822107]
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   [Anonymous], 2020, GAOFEN CHALLENGE AUT, V0, P0
+   Arisoy S, 2016, IEEE GEOSCI REMOTE S, V13, P1721, DOI 10.1109/LGRS.2016.2605583
+   Badrinarayanan V, 2015, ARXIV150507293, V0, P0, DOI DOI 10.1109/TPAMI.2016.2644615
+   Cantorna D, 2019, APPL SOFT COMPUT, V84, P0, DOI 10.1016/j.asoc.2019.105716
+   Chen L.-C., 2018, P EUR C COMP VIS ECC, V0, PP801, DOI 10.1007/978-3-030-01234-2_49
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen Q, 2013, IEEE T GEOSCI REMOTE, V51, P1817, DOI 10.1109/TGRS.2012.2205389
+   Chollet F, 2016, PROC CVPR IEEE, V0, P0, DOI DOI 10.48550/arXiv.1610.02357
+   Cordts M, 2016, PROC CVPR IEEE, V0, PP3213, DOI 10.1109/CVPR.2016.350
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Dumitru CO, 2015, IEEE J-STARS, V8, P1635, DOI 10.1109/JSTARS.2014.2363595
+   HE N, 2020, IEEE J-STARS, V63, P0
+   Henry C, 2018, IEEE GEOSCI REMOTE S, V15, P1867, DOI 10.1109/LGRS.2018.2864342
+   Hou XY, 2020, SCI CHINA INFORM SCI, V63, P0, DOI 10.1007/s11432-019-2772-5
+   Jafari M, 2015, IEEE J-STARS, V8, P3595, DOI 10.1109/JSTARS.2014.2387374
+   Jain A, 2019, ADV SPACE RES, V63, P813, DOI 10.1016/j.asr.2018.09.027
+   Jiao LC, 2015, IEEE J-STARS, V8, P3876, DOI 10.1109/JSTARS.2015.2429137
+   Kang J, 2020, IEEE T GEOSCI REMOTE, V58, P8905, DOI 10.1109/TGRS.2020.2991657
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Lazebnik S., 2006, P IEEE INT C COMP VI, V0, PP2169, DOI 10.1109/CVPR.2006.68
+   Li GY, 2012, ISPRS J PHOTOGRAMM, V70, P26, DOI 10.1016/j.isprsjprs.2012.03.010
+   Li YC, 2017, SCI CHINA INFORM SCI, V60, P0, DOI 10.1007/s11432-016-0572-3
+   Liu CX, 2019, PROC CVPR IEEE, V0, PP82, DOI 10.1109/CVPR.2019.00017
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Mohammadimanesh F, 2019, ISPRS J PHOTOGRAMM, V151, P223, DOI 10.1016/j.isprsjprs.2019.03.015
+   Negri RG, 2016, IEEE J-STARS, V9, P5369, DOI 10.1109/JSTARS.2016.2594133
+   Qin XL, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON PROGNOSTICS AND HEALTH MANAGEMENT (ICPHM), V0, PP1, DOI 10.1109/ICPHM.2017.7998297
+   Ren YX, 2019, IEEE T GEOSCI REMOTE, V57, P5923, DOI 10.1109/TGRS.2019.2903096
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Rossi C, 2015, IEEE T GEOSCI REMOTE, V53, P900, DOI 10.1109/TGRS.2014.2330377
+   Salehi M, 2014, IEEE J-STARS, V7, P1394, DOI 10.1109/JSTARS.2013.2273074
+   Shahzad M, 2019, IEEE T GEOSCI REMOTE, V57, P1100, DOI 10.1109/TGRS.2018.2864716
+   Simonyan K, 2015, ARXIV, V0, P0
+   Tao ML, 2015, IEEE T GEOSCI REMOTE, V53, P2481, DOI 10.1109/TGRS.2014.2360943
+   Uhlmann S, 2014, IEEE T GEOSCI REMOTE, V52, P2197, DOI 10.1109/TGRS.2013.2258675
+   WU W, 2019, SCI CHINA INFORM SCI, V16, P977
+   Xu F, 2020, SCI CHINA INFORM SCI, V63, P0, DOI 10.1007/s11432-020-2810-x
+   Yang ZY, 2020, IEEE T SYST MAN CY-S, V50, P2524, DOI 10.1109/TSMC.2018.2820084
+   Yosinski J., 2015, ARXIV150606579, V0, P0
+   Zhang ZM, 2017, IEEE T GEOSCI REMOTE, V55, P7177, DOI 10.1109/TGRS.2017.2743222
+   Zhou Y, 2016, IEEE GEOSCI REMOTE S, V13, P1935, DOI 10.1109/LGRS.2016.2618840
+   Zou B, 2020, IEEE J-STARS, V13, P609, DOI 10.1109/JSTARS.2020.2968966
+NR 43
+TC 14
+Z9 16
+U1 8
+U2 27
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 3107
+EP 3119
+DI 10.1109/JSTARS.2021.3063797
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA RE9UV
+UT WOS:000634496000003
+DA 2023-04-26
+ER
+
+PT J
+AU Morone, P
+   Yilan, G
+   Imbert, E
+AF Morone, Piergiuseppe
+   Yilan, Gulsah
+   Imbert, Enrica
+TI Using fuzzy cognitive maps to identify better policy strategies to valorize organic waste flows: An Italian case study
+SO JOURNAL OF CLEANER PRODUCTION
+LA English
+DT Article
+DE Italy; Circular bioeconomy; Organic fraction of municipal solid waste; Policy scenarios; (OFMSW); Policy mixes; Organic fraction of municipal solid waste (OFMSW)
+ID municipal solid-waste; circular bioeconomy; european-union; sustainability; management; food; biorefinery; transition; models; sector
+AB In Europe, there is a vast amount of municipal waste available. The organic fraction of municipal solid waste (OFMSW) represents a particularly valuable part of this waste, due to its potential to be employed to produce a range of value-added products. While several studies have addressed the utilization of the OFMSW in the Italian context, an overall picture of how the circular bioeconomy (CBE) model is being implemented in Italy is lacking. Accordingly, the present study investigated the status quo of the Italian bioeconomy sector, focusing on the use of the OFMSW as feedstock. The research aimed at increasing our understanding of barriers to the effective adoption of the CBE and identifying effective policy strategies. Specifically, a fuzzy cognitive mapping technique using an artificial neural network model was used to assess the impact of both single policy measures and policy mixes on a sample of selected outcomes, including human health, the environment, profitability and biorefinery approach. The results clearly showed that excessive bureaucracy, linear logic and technology-based solutions ignoring the complex characteristics of waste planning activities were the most important variables influencing the implementation of the CBE in Italy. Moreover, the results suggested that a policy mix combining economic and financial support policies for sustainable activities alongside improvements to waste collection systems could generate the highest positive effect on all considered outcomes.
+C1 [Morone, Piergiuseppe; Yilan, Gulsah; Imbert, Enrica] UniteUna Sapienza Univ Rome, Bioecon Transit Res Grp, I-00161 Rome, Italy.
+   [Yilan, Gulsah] Marmara Univ, Dept Chem Engn, Goztepe Campus, TR-34722 Istanbul, Turkey.
+C3 Marmara University
+RP Morone, P (corresponding author), UniteUna Sapienza Univ Rome, Bioecon Transit Res Grp, I-00161 Rome, Italy.
+EM piergiuseppe.morone@unitelma.it
+FU German Federal Ministry for Education and Research (BMBF) [Forderkennzeichen 031B0781A]
+CR Al-Khatib IA, 2010, J ENVIRON MANAGE, V91, P1131, DOI 10.1016/j.jenvman.2010.01.003
+   [Anonymous], 2020, SERIE GENERALE, V177, P0
+   Awasthi MK, 2019, RENEW SUST ENERG REV, V111, P115, DOI 10.1016/j.rser.2019.05.017
+   Barampouti EM, 2019, RENEW SUST ENERG REV, V110, P298, DOI 10.1016/j.rser.2019.04.005
+   Paes LAB, 2019, J CLEAN PROD, V239, P0, DOI 10.1016/j.jclepro.2019.118086
+   Bovino C, 2014, RIFIUTI IMBALLAGGI M, V0, P393
+   Brandao AS, 2021, J CLEAN PROD, V295, P0, DOI 10.1016/j.jclepro.2021.126407
+   Carus M, 2018, IND BIOTECHNOL, V0, P0, DOI DOI 10.1089/IND.2018.29121.MCA
+   Cucchiella F, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9112221
+   DAdamo I, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su13041861
+   DAdamo I, 2019, RESOURCES-BASEL, V8, P0, DOI 10.3390/resources8030151
+   DAdamo I, 2019, WASTE MANAGE, V95, P102, DOI 10.1016/j.wasman.2019.06.005
+   DAmato D, 2017, J CLEAN PROD, V168, P716, DOI 10.1016/j.jclepro.2017.09.053
+   Demichelis F, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11154213
+   Di Maria F, 2020, WASTE MANAGE, V103, P437, DOI 10.1016/j.wasman.2020.01.005
+   Ding Y, 2021, J CLEAN PROD, V293, P0, DOI 10.1016/j.jclepro.2021.126144
+   Edjabou ME, 2021, J CLEAN PROD, V295, P0, DOI 10.1016/j.jclepro.2021.126439
+   Edjabou ME, 2015, WASTE MANAGE, V36, P12, DOI 10.1016/j.wasman.2014.11.009
+   European Commission, 2020, CIRC EC STR ENV, V0, P0
+   Eurostat, 2020, 1 POP EST, V0, P0
+   Eurostat, 2021, MUN WAST STAT, V0, P0
+   Falcone PM, 2020, LAND USE POLICY, V96, P0, DOI 10.1016/j.landusepol.2020.104680
+   Falcone PM, 2017, ENERGY RES SOC SCI, V33, P105, DOI 10.1016/j.erss.2017.09.007
+   Fatimah YA, 2020, J CLEAN PROD, V269, P0, DOI 10.1016/j.jclepro.2020.122263
+   Fava F, 2015, NEW BIOTECHNOL, V32, P100, DOI 10.1016/j.nbt.2013.11.003
+   Ferrari AM, 2021, J CLEAN PROD, V286, P0, DOI 10.1016/j.jclepro.2020.125314
+   Ghisellini P, 2020, J CLEAN PROD, V243, P0, DOI 10.1016/j.jclepro.2019.118360
+   Huertas-Valdivia I, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12156211
+   ISPRA (Istituto Superiore per la Protezione e la Ricerca Ambientale), 2020, 9788844810306 ISBN I, V0, P0
+   Kirchherr J, 2018, ECOL ECON, V150, P264, DOI 10.1016/j.ecolecon.2018.04.028
+   Kurniawan TA, 2021, ENVIRON POLLUT, V277, P0, DOI 10.1016/j.envpol.2021.116741
+   Ladu L, 2020, FOREST POLICY ECON, V110, P0, DOI 10.1016/j.forpol.2019.05.023
+   Li N, 2018, RESOUR CONSERV RECY, V130, P109, DOI 10.1016/j.resconrec.2017.11.008
+   Lopolito A, 2020, METHODSX, V7, P0, DOI 10.1016/j.mex.2020.100877
+   Lytras G, 2021, WASTE BIOMASS VALORI, V12, P1677, DOI 10.1007/s12649-020-01108-z
+   Fernandez-Gonzalez JM, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12114798
+   Marino A, 2020, SCI TOTAL ENVIRON, V729, P0, DOI 10.1016/j.scitotenv.2020.138142
+   Marrucci L, 2020, WASTE MANAGE, V105, P594, DOI 10.1016/j.wasman.2020.03.002
+   Martinkus N, 2019, BIOMASS BIOENERG, V128, P0, DOI 10.1016/j.biombioe.2019.105330
+   Moretto G, 2020, WATER RES, V170, P0, DOI 10.1016/j.watres.2019.115371
+   Morone P, 2020, CURR OPIN GREEN SUST, V23, P55, DOI 10.1016/j.cogsc.2020.02.006
+   Morone P, 2019, J CLEAN PROD, V208, P563, DOI 10.1016/j.jclepro.2018.10.075
+   Ozesmi U, 2004, ECOL MODEL, V176, P43, DOI 10.1016/j.ecolmodel.2003.10.027
+   Priyadarshini P, 2020, BIORESOURCE TECHNOL, V304, P0, DOI 10.1016/j.biortech.2020.123018
+   Romano G, 2020, WASTE MANAGE, V118, P573, DOI 10.1016/j.wasman.2020.08.057
+   S Venkata Mohan, 2018, N BIOTECHNOL, V40, P60, DOI 10.1016/j.nbt.2017.06.006
+   Salmenpera H, 2021, J CLEAN PROD, V280, P0, DOI 10.1016/j.jclepro.2020.124339
+   San Paolo Intesa, 2020, BIOECONOMIA EUROPA 6, V0, P0
+   Sanz-Hernandez A, 2019, J CLEAN PROD, V224, P107, DOI 10.1016/j.jclepro.2019.03.168
+   Sisto R, 2017, J CLEAN PROD, V168, P302, DOI 10.1016/j.jclepro.2017.08.186
+   Stegmann P., 2020, RESOURCES CONSERVATI, V6, P0, DOI 10.1016/j.rcrx.2019.100029
+   Thurer M, 2018, J CLEAN PROD, V181, P608, DOI 10.1016/j.jclepro.2017.12.130
+   Tomic T, 2020, J ENVIRON MANAGE, V267, P0, DOI 10.1016/j.jenvman.2020.110564
+   Tsai FM, 2020, J CLEAN PROD, V275, P0, DOI 10.1016/j.jclepro.2020.124132
+   Tseng ML, 2020, RESOUR CONSERV RECY, V154, P0, DOI 10.1016/j.resconrec.2019.104601
+   Ubando AT, 2020, BIORESOURCE TECHNOL, V299, P0, DOI 10.1016/j.biortech.2019.122585
+   Vanhamaki S, 2020, RESOUR CONSERV RECY, V156, P0, DOI 10.1016/j.resconrec.2020.104716
+NR 58
+TC 13
+Z9 13
+U1 5
+U2 10
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0959-6526
+EI 1879-1786
+J9 J CLEAN PROD
+JI J. Clean Prod.
+PD OCT 15
+PY 2021
+VL 319
+IS 
+BP 
+EP 
+DI 10.1016/j.jclepro.2021.128722
+EA AUG 2021
+PG 12
+WC Green & Sustainable Science & Technology; Engineering, Environmental; Environmental Sciences
+SC Science & Technology - Other Topics; Engineering; Environmental Sciences & Ecology
+GA XM2BK
+UT WOS:000728638800005
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, K
+   Jiang, ZY
+   Xu, ML
+   Perc, M
+   Li, XL
+AF Liu, Kang
+   Jiang, Zhiyu
+   Xu, Mingliang
+   Perc, Matjaz
+   Li, Xuelong
+TI Tilt Correction Toward Building Detection of Remote Sensing Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Buildings; Synthetic aperture radar; Remote sensing; Detectors; Optical sensors; Object detection; Laser radar; Building detection; cost of building partition (CoBP); deep neural network (DNN); remote sensing; tilt correction (TC)
+ID reconstruction; saliency
+AB Building detection is a crucial task in the field of remote sensing, which can facilitate urban construction planning, disaster survey, and emergency landing. However, for large-size remote sensing images, the great majority of existing works have ignored the image tilt problem. This problem can result in partitioning buildings into separately oblique parts when the large-size images are partitioned. This is not beneficial to preserve semantic completeness of the building objects. Motivated by the above fact, we first propose a framework for detecting objects in a large-size image, particularly for building detection. The framework mainly consists of two phases. In the first phase, we particularly propose a tilt correction (TC) algorithm, which contains three steps: texture mapping, tilt angle assessment, and image rotation. In the second phase, building detection is performed with object detectors, especially deep-neural-network-based methods. Last but not least, the detection results will be inversely mapped to the original large-size image. Furthermore, a challenging dataset named Aerial Image Building Detection is contributed for the public research. To evaluate the TC method, we also define an evaluation metric to compute the cost of building partition. The experimental results demonstrate the effects of the proposed method for building detection.
+C1 [Liu, Kang] Chinese Acad Sci, Xian Inst Opt & Precis Mech, Shaanxi Key Lab Ocean Opt, Xian 710119, Peoples R China.
+   [Liu, Kang] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+   [Jiang, Zhiyu; Li, Xuelong] Northwestern Polytech Univ, Minist Ind & Informat Technol, Key Lab Intelligent Interact & Applicat, Xian 710072, Peoples R China.
+   [Jiang, Zhiyu; Li, Xuelong] Northwestern Polytech Univ, Sch Artificial Intelligence Opt & Elect, Xian 710072, Peoples R China.
+   [Xu, Mingliang] Zhengzhou Univ, Sch Informat Engn, Zhengzhou 450001, Peoples R China.
+   [Perc, Matjaz] Univ Maribor, Fac Nat Sci & Math, SL-2000 Maribor, Slovenia.
+C3 Chinese Academy of Sciences; Xi'an Institute of Optics & Precision Mechanics, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Northwestern Polytechnical University; Northwestern Polytechnical University; Zhengzhou University; University of Maribor
+RP Li, XL (corresponding author), Northwestern Polytech Univ, Minist Ind & Informat Technol, Key Lab Intelligent Interact & Applicat, Xian 710072, Peoples R China.; Li, XL (corresponding author), Northwestern Polytech Univ, Sch Artificial Intelligence Opt & Elect, Xian 710072, Peoples R China.
+EM liukang@opt.ac.cn; jiangzhiyu@nwpu.edu.cn; iexumingliang@zzu.edu.cn; matjaz.perc@gmail.com; li@nwpu.edu.cn
+FU Key Research Program of Frontier Sciences, Chinese Academy of Sciences [QYZDY-SSW-JSC044]; National Natural Science Foundation of China [61871470, 62001397]; Natural Science Basic Research Program of Shaanxi [2020JQ-212]; Open-Ended Foundation of National Radar Signal Processing Laboratory [61424010207]
+CR Adelipour S, 2018, IEEE J-STARS, V11, P4808, DOI 10.1109/JSTARS.2018.2876910
+   Agarwal L, 2018, INT GEOSCI REMOTE SE, V0, P4831
+   Alidoost F, 2018, PFG-J PHOTOGRAMM REM, V86, P235, DOI 10.1007/s41064-018-0060-5
+   [Anonymous], 2017, IEEE I CONF COMP VIS, V0, P0, DOI DOI 10.1109/ICCV.2017.322
+   Bai T, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12050762
+   Cai Z, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070848
+   Chen K., 2019, ARXIV190607155, V0, P0
+   Chen YM, 2014, IEEE J-STARS, V7, P4081, DOI 10.1109/JSTARS.2014.2306003
+   Dey EK, 2020, IEEE J-STARS, V13, P4030, DOI 10.1109/JSTARS.2020.3006258
+   Dong Z., 2020, P IEEE C COMPUTER VI, V0, P10519
+   Dong ZP, 2020, IEEE T GEOSCI REMOTE, V58, P2104, DOI 10.1109/TGRS.2019.2953119
+   Du L, 2020, IEEE T GEOSCI REMOTE, V58, P3366, DOI 10.1109/TGRS.2019.2953936
+   Duan KW, 2019, IEEE I CONF COMP VIS, V0, PP6568, DOI 10.1109/ICCV.2019.00667
+   Dubois C, 2016, ISPRS J PHOTOGRAMM, V114, P228, DOI 10.1016/j.isprsjprs.2016.02.009
+   Fang H, 2019, IEEE J-STARS, V12, P2695, DOI 10.1109/JSTARS.2019.2917605
+   Felzenszwalb PF, 2010, IEEE T PATTERN ANAL, V32, P1627, DOI 10.1109/TPAMI.2009.167
+   Ferro A, 2013, IEEE T GEOSCI REMOTE, V51, P935, DOI 10.1109/TGRS.2012.2205156
+   Girshick R, 2014, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2014.81
+   Hamaguchi R, 2018, INT GEOSCI REMOTE SE, V0, P1280
+   Huang J, 2018, INT GEOSCI REMOTE SE, V0, P3991
+   Huang X, 2017, IEEE J-STARS, V10, P654, DOI 10.1109/JSTARS.2016.2587324
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Jiang X, 2021, IEEE J-STARS, V14, P2699, DOI 10.1109/JSTARS.2020.3017934
+   Karadag OO, 2015, IEEE J-STARS, V8, P3305, DOI 10.1109/JSTARS.2015.2403617
+   Karimzadeh S, 2018, IEEE J-STARS, V11, P2668, DOI 10.1109/JSTARS.2018.2825399
+   Kong T, 2020, IEEE T IMAGE PROCESS, V29, P7389, DOI 10.1109/TIP.2020.3002345
+   Law H, 2018, LECT NOTES COMPUT SC, V11218, P765, DOI 10.1007/978-3-030-01264-9_45
+   Li JJ, 2020, REMOTE SENS LETT, V11, P640, DOI 10.1080/2150704X.2020.1750729
+   Li PY, 2018, CONFERENCE PROCEEDINGS OF 2018 4TH INTERNATIONAL CONFERENCE ON CONTROL, V0, P400
+   Li X., 1900, DOI 10.1360/SSI-2020-0165, V0, P0
+   Li XL, 2017, PROCEEDINGS OF THE TWENTY-SIXTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P2201
+   Li XL, 2017, AAAI CONF ARTIF INTE, V0, P4147
+   Lin Tsung-Yi, 2020, IEEE TRANS PATTERN ANAL MACH INTELL, V42, P318, DOI 10.1109/TPAMI.2018.2858826
+   Liu BL, 2018, J PHYS CONF SER, V976, P0, DOI 10.1088/1742-6596/976/1/012013
+   Liu W, 2021, IEEE J-STARS, V14, P2236, DOI 10.1109/JSTARS.2021.3052495
+   Liu W, 2016, LECT NOTES COMPUT SC, V9905, P21, DOI 10.1007/978-3-319-46448-0_2
+   Liu YB, 2018, IEEE J-STARS, V11, P3688, DOI 10.1109/JSTARS.2018.2866284
+   Lv ZY, 2021, IEEE GEOSCI REMOTE S, V18, P1284, DOI 10.1109/LGRS.2020.2998684
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Mahphood A, 2020, INT J REMOTE SENS, V41, P1067, DOI 10.1080/01431161.2019.1655176
+   Matas J, 2000, COMPUT VIS IMAGE UND, V78, P119, DOI 10.1006/cviu.1999.0831
+   Mousavi SM, 2020, IEEE T GEOSCI REMOTE, V58, P8211, DOI 10.1109/TGRS.2020.2988770
+   Norman M, 2020, GEOCARTO INT, V35, P1124, DOI 10.1080/10106049.2019.1573853
+   Reda K, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142240
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren S., 2015, PROC INT C NEURAL IN, V0, PP91, DOI 10.1109/ICCV.2015.169.
+   Shahzad M, 2019, IEEE T GEOSCI REMOTE, V57, P1100, DOI 10.1109/TGRS.2018.2864716
+   Shu Z, 2018, IEEE GEOSCI REMOTE S, V15, P1100, DOI 10.1109/LGRS.2018.2822760
+   Triggs, 2005, PROC CVPR IEEE, V1, P886, DOI 10.1109/CVPR.2005.177
+   Wang PJ, 2020, IEEE T GEOSCI REMOTE, V58, P3377, DOI 10.1109/TGRS.2019.2954328
+   Wang Q, 2019, IEEE T GEOSCI REMOTE, V57, P1155, DOI 10.1109/TGRS.2018.2864987
+   Xie Y., 1900, V34, V0, P777
+   Xu CY, 2020, IEEE T GEOSCI REMOTE, V58, P4353, DOI 10.1109/TGRS.2019.2963243
+   Yang DD, 2018, CAN J ELECT COMPUT E, V41, P145, DOI 10.1109/CJECE.2018.2867591
+   Yang JR, 2019, INT J REMOTE SENS, V40, P6036, DOI 10.1080/01431161.2019.1587200
+   Yao XW, 2015, NEUROCOMPUTING, V164, P162, DOI 10.1016/j.neucom.2015.02.073
+   Zhao ZZ, 2019, IEEE GEOSCI REMOTE S, V16, P1299, DOI 10.1109/LGRS.2019.2894896
+   Zhu DJ, 2020, NEUROCOMPUTING, V381, P40, DOI 10.1016/j.neucom.2019.10.065
+NR 58
+TC 6
+Z9 6
+U1 4
+U2 22
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 5854
+EP 5866
+DI 10.1109/JSTARS.2021.3083481
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA SV0RU
+UT WOS:000663535500017
+DA 2023-04-26
+ER
+
+PT J
+AU Shen, F
+   Liu, J
+   Wu, K
+AF Shen, Fang
+   Liu, Jing
+   Wu, Kai
+TI Multivariate Time Series Forecasting Based on Elastic Net and High-Order Fuzzy Cognitive Maps: A Case Study on Human Action Prediction Through EEG Signals
+SO IEEE TRANSACTIONS ON FUZZY SYSTEMS
+LA English
+DT Article
+DE Time series analysis; Electroencephalography; Forecasting; Prediction algorithms; Brain modeling; Predictive models; Proposals; 1D-convolutional neural network (1D-CNN); elastic net; electroencephalogram (EEG); fuzzy cognitive map (FCM); time series prediction
+ID management-system; neural-network; design; classification; performance; extraction; selection; auc
+AB Fuzzy cognitive maps (FCMs) have been successfully applied to time series forecasting. However, it still remains challenging to handle multivariate long nonstationary time series, such as EEG data, which may change rapidly and have patterns of trend. To overcome this limitation, in this article, we propose a fast prediction model to deal with multivariate long nonstationary time series based on the combination of elastic net and high order fuzzy cognitive map (HFCM), which is termed as ElasticNet(HFCM). The designed FCM models each variable by one node and the high-order FCM helps to capture the patterns of trend. A case study on predicting human actions through the Electroencephalogram (EEG) data in the form of multichannel long nonstationary time series is investigated based on the proposed prediction model. Specifically, we first predict EEG signals based on the historical data, then a 1D-convolutionary neural network (1D-CNN) is developed to classify the predicted time series. The experimental results on the Grasp-and-Lift dataset show that the proposal can predict the EEG data with lower prediction error compared with the other regression methods. The area under the curve scores obtained on the Grasp-and-Lift dataset by 1D-CNN are higher than those obtained by state-of-the-art classification methods for EEG data in most cases. These results illustrate that the proposal can predict and classify multivariate long nonstationary time series with high accuracy and efficiency.
+C1 [Shen, Fang; Liu, Jing; Wu, Kai] Xidian Univ, Key Lab Intelligent Percept & Image Understanding, Minist Educ, Xian 710071, Peoples R China.
+C3 Xidian University
+RP Liu, J (corresponding author), Xidian Univ, Key Lab Intelligent Percept & Image Understanding, Minist Educ, Xian 710071, Peoples R China.
+EM f.shen@qq.com; neouma@163.com; kaiwu@stu.xidian.edu.cn
+FU General Program of National Natural Science Foundation of China [61773300]
+CR Aguilar J., 2005, INT J COMPUT COGN, V3, P27
+   Ahmed A, 2018, CATENA, V170, P36, DOI 10.1016/j.catena.2018.06.003
+   Alghzawi A. Z., 2017, P INT C INT DEC TECH, V0, P246
+   Alomari MH, 2013, INT J ADV COMPUT SC, V4, P208
+   An J, 2016, INT CONF BIG DATA, V0, PP427, DOI 10.1109/BIGCOMP.2016.7425963
+   Anezakis VD, 2016, LECT NOTES ARTIF INT, V9875, P175, DOI 10.1007/978-3-319-45243-2_16
+   [Anonymous], 2015, GRASP LIFTEEGDETECTI, V0, P0
+   Barachant A., 2016, P 6 INT BRAIN COMP I, V0, P0
+   Buitinck L, 2013, ECML PKDD WORKSHOP L, V0, P108
+   Castillo O, 2011, APPL SOFT COMPUT, V11, P5590, DOI 10.1016/j.asoc.2011.04.005
+   Chi YX, 2016, IEEE T FUZZY SYST, V24, P71, DOI 10.1109/TFUZZ.2015.2426314
+   Cho H, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18041055
+   De Maio C, 2017, NEUROCOMPUTING, V256, P35, DOI 10.1016/j.neucom.2016.06.090
+   El-Kafrawy NM, 2014, COMM COM INF SC, V488, P189
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Froelich W, 2014, INT J APPROX REASON, V55, P1319, DOI 10.1016/j.ijar.2014.02.006
+   Hernandez LG, 2018, LECT NOTES COMPUT SC, V10880, P126, DOI 10.1007/978-3-319-92198-3_13
+   Huang J, 2005, IEEE T KNOWL DATA EN, V17, P299, DOI 10.1109/TKDE.2005.50
+   Jayashree LS, 2015, NEURAL COMPUT APPL, V26, P1963, DOI 10.1007/s00521-015-1864-5
+   Jochumsen M., 2015, MED BIOL ENG COMPUT, V54, P1
+   Kang J, 2016, SAFETY SCI, V87, P92, DOI 10.1016/j.ssci.2016.03.023
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Koulouriotis DE, 2001, IEEE C EVOL COMPUTAT, V0, PP364, DOI 10.1109/CEC.2001.934413
+   Kyriakarakos G, 2017, APPL ENERG, V187, P575, DOI 10.1016/j.apenergy.2016.11.077
+   Lobo JM, 2008, GLOBAL ECOL BIOGEOGR, V17, P145, DOI 10.1111/j.1466-8238.2007.00358.x
+   Lu W, 2014, KNOWL-BASED SYST, V70, P242, DOI 10.1016/j.knosys.2014.07.004
+   Luciw MD, 2014, SCI DATA, V1, P0, DOI 10.1038/sdata.2014.47
+   Lynn-Evans S, 2018, READING MINDS DEEP L, V0, P0
+   Melin P, 2012, EXPERT SYST APPL, V39, P3494, DOI 10.1016/j.eswa.2011.09.040
+   Papageorgiou EI, 2012, IEEE T INF TECHNOL B, V16, P143, DOI 10.1109/TITB.2011.2175937
+   Parsopoulos KE, 2003, IEEE C EVOL COMPUTAT, V0, P1440
+   Pedrycz W, 2016, IEEE T FUZZY SYST, V24, P120, DOI 10.1109/TFUZZ.2015.2428717
+   Poczeta K, 2018, STUD COMPUT INTELL, V717, P153, DOI 10.1007/978-3-319-59861-1_10
+   Rodin V, 2009, IEEE INT C BIOINF BI, V0, PP236, DOI 10.1109/BIBE.2009.23
+   Salmeron JL, 2016, KNOWL-BASED SYST, V105, P29, DOI 10.1016/j.knosys.2016.04.023
+   Solana-Gutierrez J, 2017, ECOL MODEL, V360, P260, DOI 10.1016/j.ecolmodel.2017.07.010
+   Song HJ, 2010, NEURAL NETWORKS, V23, P1264, DOI 10.1016/j.neunet.2010.08.003
+   Song HJ, 2010, IEEE T FUZZY SYST, V18, P233, DOI 10.1109/TFUZZ.2009.2038371
+   Soto J., 2014, INT J HYBRID INTELL, V11, P211, DOI 10.3233/HIS-140196
+   Soto J, 2017, STUD COMPUT INTELL, V667, P141, DOI 10.1007/978-3-319-47054-2_9
+   Soto J, 2015, ADV INTEL SYS RES, V89, P994
+   Stach W, 2005, FUZZY SET SYST, V153, P371, DOI 10.1016/j.fss.2005.01.009
+   Stach W., 2005, P S HUM CTR COMP C, V0, P64
+   Stach W, 2008, IEEE T FUZZY SYST, V16, P61, DOI 10.1109/TFUZZ.2007.902020
+   Stach W, 2006, NAFIPS 2006 - 2006 ANNUAL MEETING OF THE NORTH AMERICAN FUZZY INFORMATION PROCESSING SOCIETY, VOLS 1 AND 2, P166, DOI 10.1109/NAFIPS.2006.365402
+   Szwed P, 2016, MULTIMED TOOLS APPL, V75, P10667, DOI 10.1007/s11042-014-2047-6
+   Tibshirani R, 1996, J ROY STAT SOC B MET, V58, P267, DOI 10.1111/j.2517-6161.1996.tb02080.x
+   Tsadiras AK, 2008, INFORM SCIENCES, V178, P3880, DOI 10.1016/j.ins.2008.05.015
+   Varszegi K., 1900, DOI 10.1109/SMC.2016.7844566, V0, P0
+   Wu K, 2016, KNOWL-BASED SYST, V113, P23, DOI 10.1016/j.knosys.2016.09.010
+   Yang SC, 2018, IEEE T FUZZY SYST, V26, P3391, DOI 10.1109/TFUZZ.2018.2831640
+   Zeiler M.D., 2012, ARXIV12125701, V0, P0
+   Zou H, 2005, J R STAT SOC B, V67, P301, DOI 10.1111/j.1467-9868.2005.00503.x
+NR 53
+TC 9
+Z9 10
+U1 8
+U2 9
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1063-6706
+EI 1941-0034
+J9 IEEE T FUZZY SYST
+JI IEEE Trans. Fuzzy Syst.
+PD AUG 15
+PY 2021
+VL 29
+IS 8
+BP 2336
+EP 2348
+DI 10.1109/TFUZZ.2020.2998513
+PG 13
+WC Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA TU6HA
+UT WOS:000681134100025
+DA 2023-04-26
+ER
+
+PT J
+AU Vergini, ES
+   Groumpos, PP
+AF Vergini, Eleni S.
+   Groumpos, Peter P.
+TI Advanced State Fuzzy Cognitive Maps applied on nearly Zero Energy Building model
+SO IFAC PAPERSONLINE
+LA English
+DT Proceedings Paper
+DE Advanced state fuzzy cognitive maps; Zero energy building; Learning algorithms; State-space theory
+ID hebbian learning algorithm
+AB Fuzzy Cognitive Maps method combines the advantages of Fuzzy Logic, such as their human reasoning and linguistic features, with the advantages of Neural Networks, such as their low mathematical calculation requirements, in order to model complex dynamic systems on a wide variety of applications. The system variables and their interconnections are described using a graph and a weight matrix. Application of experts' knowledge leads towards more realistic system models. In addition, the implementation of state-space theory in combination with learning algorithms, lead to a new generation of Fuzzy Cognitive Maps, the Advanced State Fuzzy Cognitive Maps. All the above are implemented on a nearly Zero Energy Building model, using real weather data and presenting its annual energy response. Copyright (C) 2021 The Authors.
+C1 [Vergini, Eleni S.; Groumpos, Peter P.] Dept Elect & Comp Engn, Rion 19200, Greece.
+RP Vergini, ES (corresponding author), Dept Elect & Comp Engn, Rion 19200, Greece.
+EM vergini@ece.upatras.gr; groumpos@ece.upatras.gr
+CR Afram A, 2014, BUILD ENVIRON, V72, P343, DOI 10.1016/j.buildenv.2013.11.016
+   Clau J, 2017, IBPSA BUILDING SIMUL, V0, P0
+   De Coninck R, 2016, APPL ENERG, V162, P653, DOI 10.1016/j.apenergy.2015.10.114
+   DellAnna F, 2020, SMART SUSTAIN BUILT, V9, P413, DOI 10.1108/SASBE-09-2019-0121
+   Groumpos PP, 2010, STUD FUZZ SOFT COMP, V247, P1
+   Kannappan A, 2011, EXPERT SYST APPL, V38, P1282, DOI 10.1016/j.eswa.2010.06.069
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Mpelogianni Vassiliki, 2015, INTERNATIONAL JOURNAL OF MONITORING AND SURVEILLANCE TECHNOLOGIES RESEARCH, V3, P1, DOI 10.4018/IJMSTR.2015100101
+   OConnell N, 2014, RENEW SUST ENERG REV, V39, P686, DOI 10.1016/j.rser.2014.07.098
+   Papageorgiou EI, 2004, INT J APPROX REASON, V37, P219, DOI 10.1016/j.ijar.2004.01.001
+   Papageorgiou EI, 2012, IEEE T SYST MAN CY C, V42, P150, DOI 10.1109/TSMCC.2011.2138694
+   Papageorgiou EI, 2009, 2009 IEEE INTERNATIONAL CONFERENCE ON FUZZY SYSTEMS, VOLS 1-3, P2094, DOI 10.1109/FUZZY.2009.5277254
+   Perez-Lombard L, 2008, ENERG BUILDINGS, V40, P394, DOI 10.1016/j.enbuild.2007.03.007
+   Pless S., 2010, NATL RENEWABLE ENERG, V0, P0
+   Salom J, 2014, APPL ENERG, V136, P119, DOI 10.1016/j.apenergy.2014.09.018
+   Vergini ES, 2016, IFAC PAPERSONLINE, V49, P300, DOI 10.1016/j.ifacol.2016.11.083
+NR 16
+TC 3
+Z9 3
+U1 2
+U2 3
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2405-8963
+EI 
+J9 IFAC PAPERSONLINE
+JI IFAC PAPERSONLINE
+PD JUN 15
+PY 2021
+VL 54
+IS 13
+BP 533
+EP 538
+DI 10.1016/j.ifacol.2021.10.504
+EA NOV 2021
+PG 6
+WC Automation & Control Systems
+SC Automation & Control Systems
+GA WX1LI
+UT WOS:000718365000097
+DA 2023-04-26
+ER

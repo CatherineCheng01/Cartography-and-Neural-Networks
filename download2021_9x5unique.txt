@@ -1,0 +1,528 @@
+
+PT J
+AU Chen, B
+   Tu, Y
+   Song, YM
+   Theobald, D
+   Zhang, T
+   Ren, ZH
+   Li, XC
+   Yang, J
+   Wang, J
+   Wang, X
+   Gong, P
+   Bai, YQ
+   Xu, B
+AF Chen, Bin
+   Tu, Ying
+   Song, Yimeng
+   Theobald, David M.
+   Zhang, Tao
+   Ren, Zhehao
+   Li, Xuecao
+   Yang, Jun
+   Wang, Jie
+   Wang, Xi
+   Gong, Peng
+   Bai, Yuqi
+   Xu, Bing
+TI Mapping essential urban land use categories with open big data: Results for five metropolitan areas in the United States of America
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Land use classification; Block-level mapping; Geospatial big data; Ensemble learning; NAIP; Sentinel-1/2
+ID nighttime light; classification; information; cover; openstreetmap; points
+AB Urban land-use maps outlining the distribution, pattern, and composition of various land use types are critically important for urban planning, environmental management, disaster control, health protection, and biodiversity conservation. Recent advances in remote sensing and social sensing data and methods have shown great potentials in mapping urban land use categories, but they are still constrained by mixed land uses, limited predictors, non-localized models, and often relatively low accuracies. To inform these issues, we proposed a robust and cost-effective framework for mapping urban land use categories using openly available multi-source geo-spatial "big data". With street blocks generated from OpenStreetMap (OSM) data as the minimum classification unit, we integrated an expansive set of multi-scale spatially explicit information on land surface, vertical height, socio-economic attributes, social media, demography, and topography. We further proposed to apply the automatic ensemble learning that leverages a bunch of machine learning algorithms in deriving optimal urban land use classification maps. Results of block-level urban land use classification in five metropolitan areas of the United States found the overall accuracies of major-class (Level-I) and minor-class (Level-II) classification could be high as 91% and 86%, respectively. A multi-model comparison revealed that for urban land use classification with high-dimensional features, the multi-layer stacking ensemble models achieved better performance than base models such as random forest, extremely randomized trees, LightGBM, CatBoost, and neural networks. We found without very-high-resolution National Agriculture Imagery Program imagery, the classification results derived from Sentinel-1, Sentinel-2, and other open big data based features could achieve plausible overall accuracies of Level-I and Level-II classification at 88% and 81%, respectively. We also found that model transferability depended highly on the heterogeneity in characteristics of different regions. The methods and findings in this study systematically elucidate the role of data sources, classification methods, and feature transferability in block-level land use classifications, which have important implications for mapping multi-scale essential urban land use categories.
+C1 [Chen, Bin] Univ Hong Kong, Div Landscape Architecture, Fac Architecture, Hong Kong, Peoples R China.
+   [Tu, Ying; Zhang, Tao; Ren, Zhehao; Yang, Jun; Bai, Yuqi; Xu, Bing] Tsinghua Univ, Dept Earth Syst Sci, Key Lab Earth Syst Modeling, Minist Educ, Beijing 100084, Peoples R China.
+   [Song, Yimeng] Hong Kong Polytech Univ, Dept Land Surveying & Geoinformat, Hong Kong, Peoples R China.
+   [Song, Yimeng] Hong Kong Polytech Univ, Smart Cities Res Inst, Hong Kong, Peoples R China.
+   [Theobald, David M.] Conservat Planning Technol, Ft Collins, CO 80521 USA.
+   [Theobald, David M.] Colorado State Univ, Dept Fish Wildlife & Conservat Biol, Ft Collins, CO 80523 USA.
+   [Li, Xuecao] China Agr Univ, Coll Land Sci & Technol, Beijing 100083, Peoples R China.
+   [Yang, Jun; Bai, Yuqi; Xu, Bing] Tsinghua Univ, Tsinghua Urban Inst, Beijing 100084, Peoples R China.
+   [Yang, Jun; Bai, Yuqi; Xu, Bing] Tsinghua Univ, Ctr Hlth Cities, Inst China Sustainable Urbanizat, Beijing 100084, Peoples R China.
+   [Wang, Jie] Chinese Acad Sci, Aerosp Informat Res Inst, State Key Lab Remote Sensing Sci, Beijing 100101, Peoples R China.
+   [Wang, Xi] Tsinghua Univ, Cross Strait Inst, AI Earth Lab, Beijing 100084, Peoples R China.
+   [Gong, Peng] Univ Hong Kong, Dept Geog & Earth Sci, Hong Kong, Peoples R China.
+C3 University of Hong Kong; Tsinghua University; Hong Kong Polytechnic University; Hong Kong Polytechnic University; Colorado State University; China Agricultural University; Tsinghua University; Tsinghua University; Chinese Academy of Sciences; Tsinghua University; University of Hong Kong
+RP Chen, B (corresponding author), Univ Hong Kong, Div Landscape Architecture, Fac Architecture, Hong Kong, Peoples R China.; Bai, YQ; Xu, B (corresponding author), Tsinghua Univ, Dept Earth Syst Sci, Key Lab Earth Syst Modeling, Minist Educ, Beijing 100084, Peoples R China.
+EM binley.chen@hku.hk; yuqibai@tsinghua.edu.cn; bingxu@tsinghua.edu.cn
+FU Major Program of the National Natural Science Foundation of China [20201321441, 20201320003]; University of Hong Kong HKU-100 Scholars Fund
+CR Agarwala M, 2014, CONSERV SOC, V12, P437, DOI 10.4103/0972-4923.155592
+   Barrington-Leigh C, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0180698
+   Brown de Colstoun E. C., 2017, DOCUMENTATION GLOBAL, V0, P0, DOI DOI 10.7927/H4JD4TVQ
+   Chen B, 2017, SCI TOTAL ENVIRON, V609, P956, DOI 10.1016/j.scitotenv.2017.07.238
+   Chen B, 2017, ISPRS J PHOTOGRAMM, V124, P27, DOI 10.1016/j.isprsjprs.2016.12.008
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Clinton N, 2018, EARTHS FUTURE, V6, P40, DOI 10.1002/2017EF000536
+   Dobson JE, 2000, PHOTOGRAMM ENG REM S, V66, P849
+   Dorogush A.V., 2018, ARXIV, V0, P0
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Du SH, 2021, REMOTE SENS ENVIRON, V261, P0, DOI 10.1016/j.rse.2021.112480
+   Elvidge CD, 2017, INT J REMOTE SENS, V38, P5860, DOI 10.1080/01431161.2017.1342050
+   Erickson N., 2020, ICML WORKSH AUT MACH, V0, P0
+   Erol H, 2005, INT J REMOTE SENS, V26, P1229, DOI 10.1080/01431160512331326800
+   Evans, 2010, VITA WEBINAR SERIES, V0, P0
+   Frantz D, 2021, REMOTE SENS ENVIRON, V252, P0, DOI 10.1016/j.rse.2020.112128
+   Frias-Martinez V, 2012, PROCEEDINGS OF 2012 ASE/IEEE INTERNATIONAL CONFERENCE ON PRIVACY, V0, P0
+   Gao J, 2020, NAT COMMUN, V11, P0, DOI 10.1038/s41467-020-15788-7
+   GONG P, 1990, PHOTOGRAMM ENG REM S, V56, P67
+   GONG P, 1992, PHOTOGRAMM ENG REM S, V58, P423
+   Gong P, 2020, SCI BULL, V65, P182, DOI 10.1016/j.scib.2019.12.007
+   Gong P, 2020, REMOTE SENS ENVIRON, V236, P0, DOI 10.1016/j.rse.2019.111510
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Grimm NB, 2008, SCIENCE, V319, P756, DOI 10.1126/science.1150195
+   Guo W, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010131
+   Haklay M, 2010, ENVIRON PLANN B, V37, P682, DOI 10.1068/b35097
+   Hu TY, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020151
+   Huang X, 2021, ISPRS J PHOTOGRAMM, V175, P403, DOI 10.1016/j.isprsjprs.2021.03.019
+   Huang X, 2018, IEEE T GEOSCI REMOTE, V56, P4258, DOI 10.1109/TGRS.2018.2805829
+   Kennedy CM, 2019, GLOBAL CHANGE BIOL, V25, P811, DOI 10.1111/gcb.14549
+   Koppel K, 2017, INT J REMOTE SENS, V38, P6298, DOI 10.1080/01431161.2017.1353160
+   Lansley G, 2016, COMPUT ENVIRON URBAN, V58, P85, DOI 10.1016/j.compenvurbsys.2016.04.002
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Li XT, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13030477
+   Li XC, 2020, ENVIRON RES LETT, V15, P0, DOI 10.1088/1748-9326/ab9be3
+   Li XC, 2020, REMOTE SENS ENVIRON, V240, P0, DOI 10.1016/j.rse.2020.111705
+   Liu SJ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060690
+   Liu XP, 2017, INT J GEOGR INF SCI, V31, P1675, DOI 10.1080/13658816.2017.1324976
+   Liu XJ, 2016, ENVIRON PLANN B, V43, P341, DOI 10.1177/0265813515604767
+   Liu X, 2020, NAT NANOTECHNOL, V15, P307, DOI 10.1038/s41565-020-0641-5
+   Long Y, 2017, IEEE T GEOSCI REMOTE, V55, P2486, DOI 10.1109/TGRS.2016.2645610
+   Lu DS, 2006, REMOTE SENS ENVIRON, V102, P146, DOI 10.1016/j.rse.2006.02.010
+   Ma Y, 2012, ENSEMBLE MACHINE LEARNING: METHODS AND APPLICATIONS, V0, PP1, DOI 10.1007/978-1-4419-9326-7
+   Machado MR, 2019, INT CONF COMP SCI ED, V0, PP1111, DOI 10.1109/ICCSE.2019.8845529
+   Meijer JR, 2018, ENVIRON RES LETT, V13, P0, DOI 10.1088/1748-9326/aabd42
+   Mills S, 2013, PROC SPIE, V8866, P0, DOI 10.1117/12.2023107
+   Myint SW, 2011, REMOTE SENS ENVIRON, V115, P1145, DOI 10.1016/j.rse.2010.12.017
+   Pesaresi M, 2013, IEEE J-STARS, V6, P2102, DOI 10.1109/JSTARS.2013.2271445
+   Petropoulos GP, 2012, COMPUT GEOSCI-UK, V41, P99, DOI 10.1016/j.cageo.2011.08.019
+   Sarzynski A, 2014, URBAN GEOGR, V35, P25, DOI 10.1080/02723638.2013.823730
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Schneider A, 2009, ENVIRON RES LETT, V4, P0, DOI 10.1088/1748-9326/4/4/044003
+   Seto KC, 2009, CURR OPIN ENV SUST, V1, P89, DOI 10.1016/j.cosust.2009.07.012
+   Shi KF, 2014, REMOTE SENS LETT, V5, P358, DOI 10.1080/2150704X.2014.905728
+   Stevens FR, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0107042
+   Su M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091497
+   Tan B., 2017, PALISADES, V0, P0
+   Tatem AJ, 2017, SCI DATA, V4, P0, DOI 10.1038/sdata.2017.4
+   Theobald DM, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0094628
+   Torres R, 2012, REMOTE SENS ENVIRON, V120, P9, DOI 10.1016/j.rse.2011.05.028
+   Tu Y, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071058
+   UNDESA, 2014, WORLD URB PROSP 2011, V0, P0
+   Watts N, 2015, LANCET, V386, P1861, DOI 10.1016/S0140-6736(15)60854-6
+   Watts RD, 2007, SCIENCE, V316, P736, DOI 10.1126/science.1138141
+   Weiss Karl, 2016, JOURNAL OF BIG DATA, V3, P0, DOI 10.1186/s40537-016-0043-6
+   Wheater H, 2009, LAND USE POLICY, V26, PS251, DOI 10.1016/j.landusepol.2009.08.019
+   Xu B, 2020, SCI REMOTE SENS, V0, P0
+   Yao Y, 2017, INT J GEOGR INF SCI, V31, P825, DOI 10.1080/13658816.2016.1244608
+   Zhang C, 2019, REMOTE SENS ENVIRON, V221, P173, DOI 10.1016/j.rse.2018.11.014
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+   Zhang XY, 2017, ISPRS J PHOTOGRAMM, V132, P170, DOI 10.1016/j.isprsjprs.2017.09.007
+   Zhong YF, 2020, REMOTE SENS ENVIRON, V247, P0, DOI 10.1016/j.rse.2020.111838
+   Zhou YY, 2018, REMOTE SENS ENVIRON, V219, P206, DOI 10.1016/j.rse.2018.10.015
+NR 73
+TC 23
+Z9 24
+U1 15
+U2 67
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD AUG 15
+PY 2021
+VL 178
+IS 
+BP 203
+EP 218
+DI 10.1016/j.isprsjprs.2021.06.010
+EA JUN 2021
+PG 16
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA TE4AS
+UT WOS:000669954900015
+DA 2023-04-26
+ER
+
+PT J
+AU Dabija, A
+   Kluczek, M
+   Zagajewski, B
+   Raczko, E
+   Kycko, M
+   Al-Sulttani, AH
+   Tarda, A
+   Pineda, L
+   Corbera, J
+AF Dabija, Anca
+   Kluczek, Marcin
+   Zagajewski, Bogdan
+   Raczko, Edwin
+   Kycko, Marlena
+   Al-Sulttani, Ahmed H.
+   Tarda, Anna
+   Pineda, Lydia
+   Corbera, Jordi
+TI Comparison of Support Vector Machines and Random Forests for Corine Land Cover Mapping
+SO REMOTE SENSING
+LA English
+DT Article
+DE land cover mapping; Corine; Random Forest; Support Vector Machine; Braila; Catalonia; Warsaw
+ID species classification; neural-networks; accuracy; area; sentinel-2; scale
+AB Land cover information is essential in European Union spatial management, particularly that of invasive species, natural habitats, urbanization, and deforestation; therefore, the need for accurate and objective data and tools is critical. For this purpose, the European Union's flagship program, the Corine Land Cover (CLC), was created. Intensive works are currently being carried out to prepare a new version of CLC+ by 2024. The geographical, climatic, and economic diversity of the European Union raises the challenge to verify various test areas' methods and algorithms. Based on the Corine program's precise guidelines, Sentinel-2 and Landsat 8 satellite images were tested to assess classification accuracy and regional and spatial development in three varied areas of Catalonia, Poland, and Romania. The method is dependent on two machine learning algorithms, Random Forest (RF) and Support Vector Machine (SVM). The bias of classifications was reduced using an iterative of randomized training, test, and verification pixels. The ease of the implementation of the used algorithms makes reproducing the results possible and comparable. The results show that an SVM with a radial kernel is the best classifier, followed by RF. The high accuracy classes that can be updated and classes that should be redefined are specified. The methodology's potential can be used by developers of CLC+ products as a guideline for algorithms, sensors, and the possibilities and difficulties of classifying different CLC classes.
+C1 [Dabija, Anca; Kluczek, Marcin; Zagajewski, Bogdan; Raczko, Edwin; Kycko, Marlena; Al-Sulttani, Ahmed H.] Univ Warsaw, Fac Geog & Reg Studies, Chair Geomat & Informat Syst, Dept Geoinformat Cartog & Remote Sensing, PL-00927 Warsaw, Poland.
+   [Tarda, Anna; Pineda, Lydia; Corbera, Jordi] Cartog & Geol Inst Catalonia, Catalan Earth Observat Ctr, E-08038 Barcelona, Spain.
+C3 University of Warsaw
+RP Zagajewski, B (corresponding author), Univ Warsaw, Fac Geog & Reg Studies, Chair Geomat & Informat Syst, Dept Geoinformat Cartog & Remote Sensing, PL-00927 Warsaw, Poland.
+EM anca.dabija@uw.edu.pl; m.kluczek@student.uw.edu.pl; bogdan@uw.edu.pl; edwin.raczko@uw.edu.pl; m.kluczek@student.uw.edu.pl; ahmedh.alsulttani@uokufa.edu.iq; anna.tarda@icgc.cat; lydia.pineda@icgc.cat; jordi.corbera@icgc.cat
+FU European Union [734687]; Polish Ministry of Science and Higher Education (Ministerstwo Nauki i SzkolnictwaWyz. szego-MNiSW) [3934/H2020/2018/2, 379067/PnH/2017]
+CR Abdi AM, 2020, GISCI REMOTE SENS, V57, P1, DOI 10.1080/15481603.2019.1650447
+   Balzter H, 2015, REMOTE SENS-BASEL, V7, P14876, DOI 10.3390/rs71114876
+   Bandoc G, 2015, J GEOGR SCI, V25, P1307, DOI 10.1007/s11442-015-1236-1
+   Belgiu M, 2016, ISPRS J PHOTOGRAMM, V114, P24, DOI 10.1016/j.isprsjprs.2016.01.011
+   Bielecka E, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11172017
+   Biv R., 2020, RGDAL BINDINGS GEOSP, V0, P0
+   Boccacci P, 2010, SCI HORTIC-AMSTERDAM, V124, P128, DOI 10.1016/j.scienta.2009.12.015
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   BUTTNER G, 2006, 72006 EEA, V0, P90
+   Buttner G., 2017, 3436R0COPERNICUSEEA5, V0, P61
+   Cao XH, 2020, INT J REMOTE SENS, V41, P4528, DOI 10.1080/01431161.2020.1723172
+   Close O, 2018, LAND-BASEL, V7, P0, DOI 10.3390/land7040154
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Congalton RG, 2014, REMOTE SENS-BASEL, V6, P12070, DOI 10.3390/rs61212070
+   Demirkan DC, 2020, J APPL REMOTE SENS, V14, P0, DOI 10.1117/1.JRS.14.026524
+   Denize J, 2018, INT GEOSCI REMOTE SE, V0, P8271
+   Di Sabatino A, 2013, ECOL INDIC, V32, P259, DOI 10.1016/j.ecolind.2013.03.034
+   Diaz-Pacheco J, 2014, J LAND USE SCI, V9, P243, DOI 10.1080/1747423X.2012.761736
+   Fernandez-Nogueira D, 2020, LAND-BASEL, V9, P0, DOI 10.3390/land9010005
+   Foody GM, 2020, REMOTE SENS ENVIRON, V239, P0, DOI 10.1016/j.rse.2019.111630
+   Forkuor G, 2018, GISCI REMOTE SENS, V55, P331, DOI 10.1080/15481603.2017.1370169
+   Gallego FJ, 2011, INT J GEOGR INF SCI, V25, P2051, DOI 10.1080/13658816.2011.583653
+   Garcia-Alvarez D, 2017, INT J APPL EARTH OBS, V63, P55, DOI 10.1016/j.jag.2017.07.001
+   Gaujoux R., 2020, RNGTOOLS UTILITY FUN, V0, P0
+   Ghamisi P, 2019, IEEE GEOSC REM SEN M, V7, P6, DOI 10.1109/MGRS.2018.2890023
+   Golenia M., 2015, POL, V47, P203, DOI 10.1515/pcr-2015-0018
+   Gomez C, 2016, ISPRS J PHOTOGRAMM, V116, P55, DOI 10.1016/j.isprsjprs.2016.03.008
+   Gounaridis D, 2016, J MAPS, V12, P1055, DOI 10.1080/17445647.2015.1123656
+   Griffiths P, 2019, REMOTE SENS ENVIRON, V220, P135, DOI 10.1016/j.rse.2018.10.031
+   Gudmann A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12213580
+   Guidici D, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9060629
+   Hand D, 2018, STAT COMPUT, V28, P539, DOI 10.1007/s11222-017-9746-6
+   Hansen MC, 2012, REMOTE SENS ENVIRON, V122, P66, DOI 10.1016/j.rse.2011.08.024
+   Heinl M, 2009, INT J APPL EARTH OBS, V11, P423, DOI 10.1016/j.jag.2009.08.002
+   Hijmans RJ, 2020, RASTER GEOGRAPHIC DA, V0, P0
+   Holnicki P, 2017, ARCH ENVIRON PROT, V43, P48, DOI 10.1515/aep-2017-0005
+   Immitzer M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8030166
+   Jaffrain, 2017, COPERNICUS LAND MONI, V0, P214
+   Janitza S, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0201904
+   Jansen LJM, 2002, AGR ECOSYST ENVIRON, V91, P89, DOI 10.1016/S0167-8809(01)00243-2
+   Janssen S, 2008, ATMOS ENVIRON, V42, P4884, DOI 10.1016/j.atmosenv.2008.02.043
+   Jensen JR, 2015, INTRO DIGITAL IMAGE, V0, P656
+   Jozdani SE, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11141713
+   Karpatne A, 2016, IEEE GEOSC REM SEN M, V4, P8, DOI 10.1109/MGRS.2016.2528038
+   Keil M., 2015, ISPRS INT ARCH PHOTO, V0, PP1093, DOI 10.5194/isprsarchives-XL-7-W3-1093-2015
+   Krowczynska M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030408
+   Leinenkugel P, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192249
+   Liu T, 2018, GISCI REMOTE SENS, V55, P243, DOI 10.1080/15481603.2018.1426091
+   Marcinkowska-Ochtyra A, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10040570
+   Mayer B, 2005, ATMOS CHEM PHYS, V5, P1855, DOI 10.5194/acp-5-1855-2005
+   Mellor A, 2017, ISPRS J PHOTOGRAMM, V129, P151, DOI 10.1016/j.isprsjprs.2017.04.017
+   Meyer D, 2019, E1071 MISC FUNCTIONS, V0, P0, DOI DOI 10.1016/j.cell.2020.01.011
+   Muller K., 2020, DPLYR GRAMMAR DATA M, V0, P0
+   Novillo CJ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111717
+   Olofsson P, 2014, REMOTE SENS ENVIRON, V148, P42, DOI 10.1016/j.rse.2014.02.015
+   Pekkarinen A, 2009, ISPRS J PHOTOGRAMM, V64, P171, DOI 10.1016/j.isprsjprs.2008.09.004
+   Noi PT, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18010018
+   Phiri D, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142291
+   Podawca K, 2019, MISC GEOGR, V23, P215, DOI 10.2478/mgrsd-2019-0019
+   Pontius RG, 2011, INT J REMOTE SENS, V32, P4407, DOI 10.1080/01431161.2011.552923
+   Raczko E, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071111
+   Rodriguez-Galiano VF, 2012, ISPRS J PHOTOGRAMM, V67, P93, DOI 10.1016/j.isprsjprs.2011.11.002
+   Rovira J., 2019, OPEN ATMOSPHERIC SCI, V12, P14, DOI 10.2174/1874282301812010014
+   Sabat-Tomala A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030516
+   Sanchez-Espinosa A, 2019, J ENVIRON MANAGE, V247, P484, DOI 10.1016/j.jenvman.2019.06.084
+   Schlapfer D., 2016, ATMOSPHERICTOPOGRAPH, V0, P263
+   Sheykhmousa M, 2020, IEEE J-STARS, V13, P6308, DOI 10.1109/JSTARS.2020.3026724
+   Stathopoulou M, 2004, INT J REMOTE SENS, V25, P2301, DOI 10.1080/01431160310001618725
+   Stehman SV, 2019, REMOTE SENS ENVIRON, V231, P0, DOI 10.1016/j.rse.2019.05.018
+   Topaloglu RH, 2016, INT ARCH PHOTOGRAMM, V41, P1055, DOI 10.5194/isprsarchives-XLI-B8-1055-2016
+   Traczyk A., 2017, STUD OBSZ WIEJ, V47, P99, DOI 10.7163/SOW.47.6
+   Thinh TV, 2019, SOLA, V15, P28, DOI 10.2151/sola.2019-006
+   Ulmas P., 2020, 200302899 ARXIV, V0, P0
+   Vermote E, 2016, REMOTE SENS ENVIRON, V185, P46, DOI 10.1016/j.rse.2016.04.008
+   Vorovencii I, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-016-5446-5
+   Wallig M, 2020, FOREACH PROVIDES FOR, V0, P0
+   Weinmann M, 2018, INT GEOSCI REMOTE SE, V0, P4946
+   Weston S., 2019, DOPARALLEL FOR PAR A, V0, P0
+   Zeferino LB, 2020, INT J APPL EARTH OBS, V91, P0, DOI 10.1016/j.jag.2020.102128
+   Zoungrana BJB, 2015, REMOTE SENS-BASEL, V7, P12076, DOI 10.3390/rs70912076
+NR 80
+TC 26
+Z9 26
+U1 3
+U2 19
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD FEB 15
+PY 2021
+VL 13
+IS 4
+BP 
+EP 
+DI 10.3390/rs13040777
+PG 36
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA QQ3UY
+UT WOS:000624450400001
+DA 2023-04-26
+ER
+
+PT J
+AU Prado-Rujas, II
+   Garcia-Dopico, A
+   Serrano, E
+   Perez, MS
+AF Prado-Rujas, Ignacio-Iker
+   Garcia-Dopico, Antonio
+   Serrano, Emilio
+   Perez, Maria S.
+TI A Flexible and Robust Deep Learning-Based System for Solar Irradiance Forecasting
+SO IEEE ACCESS
+LA English
+DT Article
+DE Forecasting; Sensors; Predictive models; Robustness; Task analysis; Data models; Solar panels; Convolutional long short-term memory (Conv-LSTM); deep learning; irradiance map; solar irradiance; time series forecasting
+ID model
+AB Most studies about the solar forecasting topic do not analyze and exploit the temporal and spatial components that are inherent to such a task. Furthermore, they mostly focus just on precision and not on other meaningful features, such as flexibility and robustness. With the current energy production trends, where many solar panels are distributed across city rooftops, there is a need to manage all this information simultaneously and to be able to add and remove sensors as needed. Likewise, robust models need to be able to cope with (inevitable) sensor failure and continue producing reliable predictions. Due to all of this, solar forecasting models need to be as decoupled as possible from the number of data sources that feed them and their geographical distribution, enabling also the reusability of the models. This article contributes with a family of Deep Learning models for solar irradiance forecasting complying with the aforementioned features, i.e. flexibility and robustness. In the first stage, several Artificial Neural Networks are trained as a basis for predicting solar irradiance on several locations at the same time. Thereupon, a family of models that work with irradiance maps thanks to Convolutional Long Short-Term Memory layers is presented, obtaining forecast skills between 7.4% and 41% (depending on the location and horizon) compared to the baseline. The latter family comes with flexibility and robustness features, which are required in large-scale Intelligent Environments, such as Smart Cities. Working with irradiance maps means that new sensors can be added (or removed) as needed, without requiring rebuilding the model. Experiments carried out show that sensor failures have a mild impact on the prediction error for several forecast horizons.
+C1 [Prado-Rujas, Ignacio-Iker; Serrano, Emilio; Perez, Maria S.] Univ Politecn Madrid, ETSI Informat, Ontol Engn Grp, Madrid 28660, Spain.
+   [Garcia-Dopico, Antonio] Univ Politecn Madrid, ETSI Informat, DATSI Comp Sci, Madrid 28660, Spain.
+C3 Universidad Politecnica de Madrid; Universidad Politecnica de Madrid
+RP Perez, MS (corresponding author), Univ Politecn Madrid, ETSI Informat, Ontol Engn Grp, Madrid 28660, Spain.
+EM mperez@fi.upm.es
+FU Autonomous Region of Madrid through the program CABAHLA-CM [P2018/TCS-4423]; Euratom Research and Training Programme 2019-2020 ENTENTE [900018]; R&D project Datos 4.0: Retos y soluciones [TIN2016-78011-C4-4-R]; Grant AEI/FEDER, UE
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   Agrawal S., 2019, ARXIV191212132, V0, P0
+   Alzahrani A, 2017, PROCEDIA COMPUT SCI, V114, P304, DOI 10.1016/j.procs.2017.09.045
+   Silva RAE, 2018, SOL ENERGY, V163, P329, DOI 10.1016/j.solener.2018.01.095
+   Andreas A, 2010, **DATA OBJECT**, V0, P0, DOI DOI 10.5439/1052451
+   Arbizu-Barrena C, 2017, SOL ENERGY, V155, P1092, DOI 10.1016/j.solener.2017.07.045
+   Ayet A, 2018, SOL ENERGY, V164, P301, DOI 10.1016/j.solener.2018.02.068
+   BENGIO Y, 1994, IEEE T NEURAL NETWOR, V5, P157, DOI 10.1109/72.279181
+   Caldas M, 2019, RENEW ENERG, V143, P1643, DOI 10.1016/j.renene.2019.05.069
+   Chollet F, 2015, KERAS, V0, P0
+   Galicia A, 2019, KNOWL-BASED SYST, V163, P830, DOI 10.1016/j.knosys.2018.10.009
+   Grodi R, 2016, IEEE SOUTHEASTCON, V0, P0
+   Gruber I., 2017, COMPENDIUM WASTE MAN, V0, P0
+   HAURWITZ B, 1945, J METEOROL, V2, P154, DOI 10.1175/1520-0469(1945)002<0154:IIRTCA>2.0.CO;2
+   HAURWITZ B, 1946, J METEOROL, V3, P123, DOI 10.1175/1520-0469(1946)003<0123:IIRTCT>2.0.CO;2
+   Hinkelman LM, 2013, SOL ENERGY, V88, P192, DOI 10.1016/j.solener.2012.11.011
+   Holmgren W., 2018, **DATA OBJECT**, V3, P884, DOI 10.5281/zenodo.3585619
+   Hontoria L, 2002, SOL ENERGY, V72, P441, DOI 10.1016/S0038-092X(02)00010-5
+   Huang CJ, 2021, INT J ENERG RES, V45, P2511, DOI 10.1002/er.5945
+   Huang CJ, 2019, IEEE ACCESS, V7, P74822, DOI 10.1109/ACCESS.2019.2921238
+   Huang CJ, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18072220
+   Li Q, 2019, ENRGY PROCED, V158, P3808, DOI 10.1016/j.egypro.2019.01.868
+   Prado-Rujas I.-I., 2020, RESULTS GRAPHS DEEP, V0, P0
+   Qing XY, 2018, ENERGY, V148, P461, DOI 10.1016/j.energy.2018.01.177
+   Sergiou C, 2020, IEEE ACCESS, V8, P89007, DOI 10.1109/ACCESS.2020.2993527
+   Shi XJ, 2015, ADV NEUR IN, V28, P0
+   Wan HY, 2020, KNOWL-BASED SYST, V191, P0, DOI 10.1016/j.knosys.2019.105239
+   Wang YS, 2018, ENERGIES, V11, P0, DOI 10.3390/en11082163
+   Yang DZ, 2019, J RENEW SUSTAIN ENER, V11, P0, DOI 10.1063/1.5087462
+NR 29
+TC 11
+Z9 11
+U1 1
+U2 9
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2021
+VL 9
+IS 
+BP 12348
+EP 12361
+DI 10.1109/ACCESS.2021.3051839
+PG 14
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA PY1GH
+UT WOS:000611796400001
+DA 2023-04-26
+ER
+
+PT J
+AU McGlinchy, J
+   Muller, B
+   Johnson, B
+   Joseph, M
+   Diaz, J
+AF McGlinchy, Joseph
+   Muller, Brian
+   Johnson, Brian
+   Joseph, Maxwell
+   Diaz, Jeremy
+TI Fully Convolutional Neural Network for Impervious Surface Segmentation in Mixed Urban Environment
+SO PHOTOGRAMMETRIC ENGINEERING AND REMOTE SENSING
+LA English
+DT Article
+AB The urgency of creating appropriate, high-resolution data products such as impervious cover information has increased as cities face rapid growth as well as climate change and other environmental challenges. This work explores the use of fully convolutional neural networks (FCNNs)-specifically UNet with a ResNet-152 encoder-in mapping impervious surfaces at the pixel level from World View-2 in a mixed urban/residential environment. We investigate three-, four-, and eight-band multispectral inputs to the FCNN. Resulting maps are promising in both qualitative and quantitative assessment when compared to automated land use/land cover products. Accuracy was assessed by F1 and average precision (AP) scores, as well as receiver operating characteristic curves, with area under the curve (AUC) used as an additional accuracy metric. The four-band model shows the highest average test-set accuracies (F1, Al, and AUC of 0.709, 0.82, and 0.807, respectively), with higher AP and AUG than the automated land use/land cover products, indicating the utility of the blue-green-red-infrared channels for the FCNN. Improved performance was seen in residential areas, with worse performance in more densely developed areas.
+C1 [McGlinchy, Joseph; Johnson, Brian; Joseph, Maxwell; Diaz, Jeremy] Univ Colorado, Earth Lab, CIRES, Boulder, CO 80303 USA.
+   [Muller, Brian] Univ Colorado, Environm Sci, Boulder, CO 80303 USA.
+   [Johnson, Brian] Aerosp Corp, Longmont, CO USA.
+   [Diaz, Jeremy] Penn State Univ, State Coll, PA USA.
+C3 University of Colorado System; University of Colorado Boulder; University of Colorado System; University of Colorado Boulder; Aerospace Corporation - USA; Pennsylvania Commonwealth System of Higher Education (PCSHE); Pennsylvania State University
+RP McGlinchy, J (corresponding author), Univ Colorado, Earth Lab, CIRES, Boulder, CO 80303 USA.
+EM joseph.mcglinchy@colorado.edu
+FU Earth Lab through the University of Colorado Boulder's Grand Challenge Initiative
+CR DigitalGlobe, 2016, BUILT EXT, V0, P0
+   DigitalGlobe, 2016, AUT LAND COV CLASS, V0, P0
+   Iglovikov V., 2018, ARXIV180105746, V0, P1
+   Kokaly R.F., 2017, USGS SPECTRAL LIB VE, V1035, P0
+   Li RR, 2018, IEEE J-STARS, V11, P3954, DOI 10.1109/JSTARS.2018.2833382
+   Ma L, 2019, ISPRS J PHOTOGRAMM, V152, P166, DOI 10.1016/j.isprsjprs.2019.04.015
+   McGlinchy J., 2019, IGARSS 2019, V0, PPP
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Shao ZF, 2019, REMOTE SENS ENVIRON, V232, P0, DOI 10.1016/j.rse.2019.111338
+   Shvets AA, 2018, 2018 17TH IEEE INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND APPLICATIONS (ICMLA), V0, PP624, DOI 10.1109/ICMLA.2018.00100
+   Wang YL, 2019, IEEE GEOSC REM SEN M, V7, P64, DOI 10.1109/MGRS.2019.2927260
+   Weng QH, 2012, REMOTE SENS ENVIRON, V117, P34, DOI 10.1016/j.rse.2011.02.030
+   Wieland M, 2014, REMOTE SENS-BASEL, V6, P2912, DOI 10.3390/rs6042912
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 15
+TC 4
+Z9 4
+U1 1
+U2 17
+PU AMER SOC PHOTOGRAMMETRY
+PI BETHESDA
+PA 5410 GROSVENOR LANE SUITE 210, BETHESDA, MD 20814-2160 USA
+SN 0099-1112
+EI 2374-8079
+J9 PHOTOGRAMM ENG REM S
+JI Photogramm. Eng. Remote Sens.
+PD FEB 15
+PY 2021
+VL 87
+IS 2
+BP 117
+EP 123
+DI 10.14358/PERS.87.2.117
+PG 7
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA QA1AL
+UT WOS:000613182400007
+DA 2023-04-26
+ER
+
+PT J
+AU Ajadi, OA
+   Barr, J
+   Liang, SZ
+   Ferreira, R
+   Kumpatla, SP
+   Patel, R
+   Swatantran, A
+AF Ajadi, Olaniyi A.
+   Barr, Jeremiah
+   Liang, Sang-Zi
+   Ferreira, Rogerio
+   Kumpatla, Siva P.
+   Patel, Rinkal
+   Swatantran, Anu
+TI Large-scale crop type and crop area mapping across Brazil using synthetic aperture radar and optical imagery
+SO INTERNATIONAL JOURNAL OF APPLIED EARTH OBSERVATION AND GEOINFORMATION
+LA English
+DT Article
+DE Synthetic aperture radar; SAR; Machine learning; Xgboost; Crop classification; Neural networks; Harmonic function; Time series; Deep learning
+ID time; classification; minimization; phenology; stress; maize; sar
+AB Improved data on crop type and crop area from satellite imagery are invaluable for agronomy managers and are crucial for balancing agricultural expansion and forest degradation. However, large-scale maps of crop type and crop area using satellite imagery are not easily available in some regions, especially Brazil. Reasons for this include limited ground truth data, inadequate spatial and temporal satellite data availability, computational challenges, lack of cropland data and field boundaries. In this paper, we attempted to overcome some of these obstacles by using an ensemble of approaches to generate crop classification maps for Brazil. In order to compensate for the lack of abundant ground truth data in Brazil, we combined extensive field data and satellite input features from the United States with available field data and satellite input features from Brazil to train crop classification model for Brazil. Before applying the crop classification model for Brazil, we classified cropland areas using harmonic functions and delineated field boundaries using a supervised deep learning approach. Cropland masking and field boundary delineation allowed field-level mapping of crop type and crop area. Applying the crop classification model for Brazil in the states of Mato Grosso and Goias gave a true positive accuracy of 88% in the 2017/2018 summer growing season for soybean classification, 95% in the 2018 safrinha growing season for corn classification, and 86% in the 2018/2019 summer growing season for soybean classification. Our crop area estimates also showed a good agreement (correlation of 0.95 and mean absolute error of 0.64) with state-scale statistical data provided by the Companhia Nacional de Abastecimento (CONAB) in both summer and safrinha growing seasons adding further confidence to the results. These results suggest that extensive data from one geography can be used to train machine learning models in conjunction with limited field data from another geography. Accuracy assessments support the portability of crop classification model for Brazil with reasonable accuracy spatially, as tested in the state of Parana, and temporally, to the following year. The approaches and datasets presented in this paper provide building blocks for large-scale crop monitoring benefitting both public and private sectors.
+C1 [Ajadi, Olaniyi A.; Barr, Jeremiah; Liang, Sang-Zi; Ferreira, Rogerio; Kumpatla, Siva P.; Swatantran, Anu] Corteva AgriscienceTM, 7000 NW 62nd Ave, Johnston, IA 50131 USA.
+   [Patel, Rinkal] Granular, 8700 Crescent Chase, Johnston, IA 50131 USA.
+RP Ajadi, OA (corresponding author), Corteva AgriscienceTM, 7000 NW 62nd Ave, Johnston, IA 50131 USA.
+EM olaniyi.ajadi@corteva.com
+FU Corteva Agriscience(TM)
+CR Ajadi OA, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8060482
+   [Anonymous], 2014, SCIPY OPEN SOURCE SC, V0, P0
+   Picoli MCA, 2018, ISPRS J PHOTOGRAMM, V145, P328, DOI 10.1016/j.isprsjprs.2018.08.007
+   Arvor D, 2011, INT J REMOTE SENS, V32, P7847, DOI 10.1080/01431161.2010.531783
+   Bendini HD, 2019, INT J APPL EARTH OBS, V82, P0, DOI 10.1016/j.jag.2019.05.005
+   Branch MA, 1999, SIAM J SCI COMPUT, V21, P1, DOI 10.1137/S1064827595289108
+   BYRD RH, 1988, MATH PROGRAM, V40, P247, DOI 10.1007/BF01580735
+   Chen YL, 2018, INT J APPL EARTH OBS, V69, P133, DOI 10.1016/j.jag.2018.03.005
+   Man CD, 2018, INT J REMOTE SENS, V39, P1243, DOI 10.1080/01431161.2017.1399477
+   da Silva CA, 2020, COMPUT ELECTRON AGR, V169, P0, DOI 10.1016/j.compag.2019.105194
+   Gitelson A.A., 2003, REMOTE ESTIMATION LE, V0, P0
+   Gusso A, 2006, WORKSHOP P REMOTE SE, V36, P0
+   Gusso A, 2017, ACTA AMAZON, V47, P281, DOI 10.1590/1809-4392201700543
+   Gusso A, 2014, SCI WORLD J, V0, P0, DOI DOI 10.1155/2014/863141
+   Jayne T. S., 2010, VALUE ACCURATE CROP, V0, P0
+   Kastens JH, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0176168
+   Li WK, 2014, IEEE T GEOSCI REMOTE, V52, P4621, DOI 10.1109/TGRS.2013.2283082
+   Li WK, 2013, ECOGRAPHY, V36, P788, DOI 10.1111/j.1600-0587.2013.07585.x
+   Liu CA, 2019, J INTEGR AGR, V18, P506, DOI 10.1016/S2095-3119(18)62016-7
+   Loggenberg K, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020202
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Meyer FJ, 2015, ISPRS J PHOTOGRAMM, V100, P106, DOI 10.1016/j.isprsjprs.2014.05.009
+   More J. J., 1978, PROCEEDINGS OF THE BIENNIAL CONFERENCE ON NUMERICAL ANALYSIS, V0, P105
+   Mustapha IB, 2016, MOLECULES, V21, P0, DOI 10.3390/molecules21080983
+   Planells M., 2019, USING DENSE TIME SER, V0, P6231
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Sakamoto T, 2013, REMOTE SENS ENVIRON, V131, P215, DOI 10.1016/j.rse.2012.12.017
+   Sakamoto T, 2010, REMOTE SENS ENVIRON, V114, P2146, DOI 10.1016/j.rse.2010.04.019
+   Salvadora S, 2007, INTELL DATA ANAL, V11, P561, DOI 10.3233/IDA-2007-11508
+   SAVITZKY A, 1964, ANAL CHEM, V36, P1627, DOI 10.1021/ac60214a047
+   Shumway RH, 2011, SPRINGER TEXTS STAT, V0, PP1, DOI 10.1007/978-1-4419-7865-3
+   Skakun S, 2016, IEEE J-STARS, V9, P3712, DOI 10.1109/JSTARS.2015.2454297
+   Ustuner M., 2019, INT CONF AGRO-GEOINF, V0, P1
+   Van Tricht K, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101642
+   Xia YF, 2017, EXPERT SYST APPL, V78, P225, DOI 10.1016/j.eswa.2017.02.017
+   Xiong J, 2017, ISPRS J PHOTOGRAMM, V126, P225, DOI 10.1016/j.isprsjprs.2017.01.019
+   Zalles V, 2019, P NATL ACAD SCI USA, V116, P428, DOI 10.1073/pnas.1810301115
+   Zeng LL, 2016, REMOTE SENS ENVIRON, V181, P237, DOI 10.1016/j.rse.2016.03.039
+   Zhang F, 2015, REMOTE SENS-BASEL, V7, P15203, DOI 10.3390/rs71115203
+   Zhong LH, 2019, REMOTE SENS ENVIRON, V221, P430, DOI 10.1016/j.rse.2018.11.032
+NR 40
+TC 16
+Z9 17
+U1 10
+U2 46
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1569-8432
+EI 1872-826X
+J9 INT J APPL EARTH OBS
+JI Int. J. Appl. Earth Obs. Geoinf.
+PD MAY 15
+PY 2021
+VL 97
+IS 
+BP 
+EP 
+DI 10.1016/j.jag.2020.102294
+PG 16
+WC Remote Sensing
+SC Remote Sensing
+GA QE6AN
+UT WOS:000616288400001
+DA 2023-04-26
+ER

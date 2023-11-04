@@ -1,0 +1,632 @@
+
+PT J
+AU da Silva, SPP
+   Almeida, JS
+   Ohata, EF
+   Rodrigues, JJPC
+   de Albuquerque, VHC
+   Reboucas, PP
+AF da Silva, Suane Pires Pinheiro
+   Almeida, Jefferson Silva
+   Ohata, Elene Firmeza
+   Rodrigues, Joel J. P. C.
+   de Albuquerque, Victor Hugo C.
+   Reboucas Filho, Pedro Pedrosa
+TI Monocular Vision Aided Depth Map from RGB Images to Estimate of Localization and Support to Navigation of Mobile Robots
+SO IEEE SENSORS JOURNAL
+LA English
+DT Article
+DE Sensors; Mobile robots; Task analysis; Navigation; Feature extraction; Machine learning; Image sensors; Mobile robot localization; deep transfer learning; convolutional neural network; RGB-D mosaic images; machine learning; topological maps; indoor environment; computer vision
+AB Localization is one of the most challenging requirements needed for a mobile robots. Successful localization represents success in meeting the other principal requirements, such as perception and navigation. This article proposes a new approach for the localization of autonomous mobile robots using a Kinect sensor and the concept of Transfer Learning linked to Convolutional Neural Networks (CNNs). The images acquired from the sensor are applied in a mosaic form, which consists of the three color channels provided along with the depth information of the environment. Topological maps were used for indoor environment localization. The proposed computer vision system employed the Bayesian Classifier, k-Nearest Neighbor, Random Forest, Multi-layer Perceptron, and Support Vector Machine as the classifiers. The main focus of this work is the use of a unique configuration of RGB-D images transformed into a mosaic image, combined with the descriptive power of CNNs, in order to estimate the location of a mobile robot in an indoor environments. The results show that the proposed approach proved to be a convincing method for the tasks of localization and supporting the navigation of mobile robots; the results achieved 100% in Accuracy and in the F1-Score. The values obtained for the processing times were also suitable for a computer vision system, with 31.885ms, 0.040s, and 0.044s for the extraction, training, and classification stages, respectively. All these results were from the RGB-D mosaic images. The data demonstrated the relevance of the proposed work, providing a successful localization and, consequently, a successful navigation for mobile robots.
+C1 [da Silva, Suane Pires Pinheiro; Almeida, Jefferson Silva; Ohata, Elene Firmeza; de Albuquerque, Victor Hugo C.; Reboucas Filho, Pedro Pedrosa] Univ Fed Ceara, Programa Posgrad Engn Teleinformat, BR-60020181 Fortaleza, Ceara, Brazil.
+   [da Silva, Suane Pires Pinheiro; Almeida, Jefferson Silva; Ohata, Elene Firmeza; Reboucas Filho, Pedro Pedrosa] Inst Fed Educ Ciencia & Tecnol Ceara, Lab Proc Imagens Sinais & Comp Aplicada, BR-62815000 Fortaleza, Ceara, Brazil.
+   [Rodrigues, Joel J. P. C.] Univ Fed Piaui, Dept Elect Engn, BR-64049550 Teresina, Brazil.
+   [Rodrigues, Joel J. P. C.] Inst Telecomunicacoes, P-1049001 Lisbon, Portugal.
+   [Reboucas Filho, Pedro Pedrosa] Univ Fed Ceara, Programa Posgrad Engn Eletr, BR-60020181 Fortaleza, Ceara, Brazil.
+C3 Universidade Federal do Ceara; Instituto Federal do Ceara (IFCE); Universidade Federal do Piaui; Instituto de Telecomunicacoes; Universidade Federal do Ceara
+RP de Albuquerque, VHC (corresponding author), Univ Fed Ceara, Programa Posgrad Engn Teleinformat, BR-60020181 Fortaleza, Ceara, Brazil.
+EM victor.albuquerque@unifor.br
+FU FCT/MCTES; EU funds [UIDB/EEA/50008/2020]; Brazilian National Council for Scientific and Technological Development (CNPq) [309335/2017-5, 304315/2017-6, 430274/2018-1]; Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior-Brasil (CAPES) [001]; Brazilian National Council for Research and Development (CNPq) [431709/2018-1, 311973/2018-3]
+CR Al-Naji A, 2017, SENSORS-BASEL, V17, P0, DOI 10.3390/s17020286
+   Alexandre LA, 2016, ADV INTELL SYST, V302, P888, DOI 10.1007/978-3-319-08338-4_64
+   Barabas J, 2019, 2019 PROCEEDINGS OF THE 12TH INTERNATIONAL CONFERENCE ON MEASUREMENT (MEASUREMENT 2019), V0, P199
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chin WH, 2016, APPL SOFT COMPUT, V38, P269, DOI 10.1016/j.asoc.2015.09.031
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Ciabattoni L, 2017, IEEE I C CONS ELECT, V0, P15
+   da Nobrega RVM, 2020, NEURAL COMPUT APPL, V32, P11065, DOI 10.1007/s00521-018-3895-1
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Diop M, 2016, INT WORK ADV MOT, V0, PP400, DOI 10.1109/AMC.2016.7496383
+   Elaraby AF, 2018, 2018 IEEE 9TH ANNUAL INFORMATION TECHNOLOGY, V0, P247, DOI 10.1109/IEMCON.2018.8615020
+   Hamzeh O, 2015, 2015 10TH INTERNATIONAL SYMPOSIUM ON MECHATRONICS AND ITS APPLICATIONS (ISMA), V0, P0
+   Haykin S., 2008, NEURAL NETWORKS LEAR, V0, P0
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Howard A. G., 2017, MOBILENETS EFFICIENT, V0, P0
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Jiang R, 2017, IEEE ROBOT AUTOM LET, V2, P789, DOI 10.1109/LRA.2017.2651385
+   Karpathy A, 2014, PROC CVPR IEEE, V0, PP1725, DOI 10.1109/CVPR.2014.223
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Kurdi MM, 2017, 2017 NINTH INTERNATIONAL CONFERENCE ON ADVANCED COMPUTATIONAL INTELLIGENCE (ICACI), V0, PP30, DOI 10.1109/ICACI.2017.7974481
+   LeCun, 1989, ADV NEURAL INFORM PR, V2, P0, DOI 10.5555/2969830.2969879
+   Li Y, 2018, CHIN AUTOM CONGR, V0, PP1135, DOI 10.1109/CAC.2018.8623225
+   Lion KM, 2018, CONFERENCE PROCEEDINGS OF 2018 4TH INTERNATIONAL CONFERENCE ON CONTROL, V0, P465
+   Lukowska A, 2019, 2019 20TH INTERNATIONAL CARPATHIAN CONTROL CONFERENCE (ICCC), V0, P269
+   Molchanov P., 2016, ARXIV161106440 CORR, V0, P0
+   Nunes TM, 2014, NEUROCOMPUTING, V136, P103, DOI 10.1016/j.neucom.2014.01.020
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Prochazka A, 2016, SENSORS-BASEL, V16, P0, DOI 10.3390/s16070996
+   Ravindran R, 2018, MIDWEST SYMP CIRCUIT, V0, PP328, DOI 10.1109/MWSCAS.2018.8624037
+   Sabour S., 2017, DYNAMIC ROUTING CAPS, V0, P0
+   Sarbolandi H, 2015, COMPUT VIS IMAGE UND, V139, P1, DOI 10.1016/j.cviu.2015.05.006
+   Shukor SAA, 2016, 2016 6TH IEEE INTERNATIONAL CONFERENCE ON CONTROL SYSTEM, V0, P173, DOI 10.1109/ICCSCE.2016.7893566
+   Simonyan K, 2015, ARXIV, V0, P0
+   Somlyai L, 2013, IEEE 9TH INTERNATIONAL CONFERENCE ON COMPUTATIONAL CYBERNETICS (ICCC 2013), V0, PP131, DOI 10.1109/ICCCyb.2013.6617575
+   Song G, 2011, WOODHEAD PUBL SER TE, V0, P198
+   Sun XD, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON MULTISENSOR FUSION AND INTEGRATION FOR INTELLIGENT SYSTEMS (MFI), V0, P632
+   Szegedy, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Tang H. M., 2019, ARXIV190311921, V0, P0
+   Tang SJ, 2019, IEEE ACCESS, V7, P32019, DOI 10.1109/ACCESS.2019.2900990
+   Teke B, 2018, 2018 14TH IEEE/ASME INTERNATIONAL CONFERENCE ON MECHATRONIC AND EMBEDDED SYSTEMS AND APPLICATIONS (MESA), V0, P0
+   Theodoridis S, 2009, PATTERN RECOGNITION, V0, P1
+   Unutmaz B, 2019, SIG PROCESS COMMUN, V0, P0
+   Vapnik Vladimir, 1998, STAT LEARNING THEORY, V0, PP1, DOI 10.1007/978-1-4419-1428-6_5864
+   Weiss Karl, 2016, JOURNAL OF BIG DATA, V3, P0, DOI 10.1186/s40537-016-0043-6
+   Widyantara H, 2018, 2018 INTERNATIONAL CONFERENCE ON COMPUTER ENGINEERING, V0, P66, DOI 10.1109/CENIM.2018.8711381
+   Xie SN, 2017, PROC CVPR IEEE, V0, PP5987, DOI 10.1109/CVPR.2017.634
+   Zhang DW, 2016, INT J COMPUT VISION, V120, P215, DOI 10.1007/s11263-016-0907-4
+   Zoph B., 2016, ARXIV161101578, V0, P0
+NR 51
+TC 9
+Z9 9
+U1 2
+U2 44
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1530-437X
+EI 1558-1748
+J9 IEEE SENS J
+JI IEEE Sens. J.
+PD OCT15, 15
+PY 2020
+VL 20
+IS 20
+BP 12040
+EP 12048
+DI 10.1109/JSEN.2020.2964735
+PG 9
+WC Engineering, Electrical & Electronic; Instruments & Instrumentation; Physics, Applied
+SC Engineering; Instruments & Instrumentation; Physics
+GA NR7XU
+UT WOS:000571774500037
+DA 2023-04-26
+ER
+
+PT J
+AU Wilhelm, T
+   Geis, M
+   Puttschneider, J
+   Sievernich, T
+   Weber, T
+   Wohlfarth, K
+   Wohler, C
+AF Wilhelm, Thorsten
+   Geis, Melina
+   Puettschneider, Jens
+   Sievernich, Timo
+   Weber, Tobias
+   Wohlfarth, Kay
+   Woehler, Christian
+TI DoMars16k: A Diverse Dataset for Weakly Supervised Geomorphologic Analysis on Mars
+SO REMOTE SENSING
+LA English
+DT Article
+DE geomorphology; Mars; weak supervision; mapping; deep learning; semantic segmentation
+ID jezero crater; classification; deposits; system; camera; delta
+AB Mapping planetary surfaces is an intricate task that forms the basis for many geologic, geomorphologic, and geographic studies of planetary bodies. In this work, we present a method to automate a specific type of planetary mapping, geomorphic mapping, taking machine learning as a basis. Additionally, we introduce a novel dataset, termed DoMars16k, which contains 16,150 samples of fifteen different landforms commonly found on the Martian surface. We use a convolutional neural network to establish a relation between Mars Reconnaissance Orbiter Context Camera images and the landforms of the dataset. Afterwards, we employ a sliding-window approach in conjunction with a Markov Random field smoothing to create maps in a weakly supervised fashion. Finally, we provide encouraging results and carry out automated geomorphological analyses of Jezero crater, the Mars2020 landing site, and Oxia Planum, the prospective ExoMars landing site.
+C1 [Wilhelm, Thorsten; Geis, Melina; Puettschneider, Jens; Sievernich, Timo; Weber, Tobias; Wohlfarth, Kay; Woehler, Christian] TU Dortmund Univ, Image Anal Grp, D-44227 Dortmund, Germany.
+C3 Dortmund University of Technology
+RP Wilhelm, T (corresponding author), TU Dortmund Univ, Image Anal Grp, D-44227 Dortmund, Germany.
+EM thorsten2.wilhelm@tu-dortmund.de; melina.geis@udo.edu; jens.puettschneider@udo.edu; timo.sievernich@udo.edu; tobias.weber@udo.edu; kay.wohlfarth@tu-dortmund.de; christian.woehler@tu-dortmund.de
+FU Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) [269661170]
+CR Ahn J, 2018, PROC CVPR IEEE, V0, PP4981, DOI 10.1109/CVPR.2018.00523
+   Albee AL, 2001, J GEOPHYS RES-PLANET, V106, P23291, DOI 10.1029/2000JE001306
+   Arvidson RE, 2011, J GEOPHYS RES-PLANET, V116, P0, DOI 10.1029/2010JE003746
+   Aye KM, 2019, ICARUS, V319, P558, DOI 10.1016/j.icarus.2018.08.018
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Balme M.R, 2019, LUNAR PLANETARY SCI, V2132, P3011
+   Bandeira L, 2013, EARTH SURF PROC LAND, V38, P275, DOI 10.1002/esp.3323
+   Bandeira L, 2011, IEEE GEOSCI REMOTE S, V8, P626, DOI 10.1109/LGRS.2010.2098390
+   Bearman A, 2016, LECT NOTES COMPUT SC, V9911, P549, DOI 10.1007/978-3-319-46478-7_34
+   Bue BD, 2006, COMPUT GEOSCI-UK, V32, P604, DOI 10.1016/j.cageo.2005.09.004
+   Carr M.H., 2007, SURFACE MARS, V0, P0, DOI DOI 10.1017/CBO9780511536007
+   de Lima RP, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010086
+   DeLatte DM, 2019, ADV SPACE RES, V64, P1615, DOI 10.1016/j.asr.2019.07.017
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Ehlmann BL, 2008, NAT GEOSCI, V1, P355, DOI 10.1038/ngeo207
+   Fassett CI, 2005, GEOPHYS RES LETT, V32, P0, DOI 10.1029/2005GL023456
+   Fenton L., 2012, P 43 LUN PLAN SCI C, V0, P3011
+   Ferris JC, 2002, GEOPHYS RES LETT, V29, P0, DOI 10.1029/2002GL014936
+   Foroutan M, 2017, GEOMORPHOLOGY, V293, P156, DOI 10.1016/j.geomorph.2017.05.016
+   Fu K, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050544
+   Garcia-Arnay A., 2019, P 5 LUN PLAN SCI C W, V0, P2149
+   GDAL/OGR contributors, 2020, GDAL OGR GEOSP DAT A, V0, P0
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Goudge TA, 2015, J GEOPHYS RES-PLANET, V120, P775, DOI 10.1002/2014JE004782
+   Guo C., 2017, INT C MACH LEARN, V70, P1321, DOI 10.5555/3305381.3305518
+   Hansen CJ, 2010, ICARUS, V205, P283, DOI 10.1016/j.icarus.2009.07.021
+   Hargitai H., 2014, HUMMOCKY TERRAIN ENC, V0, PP1, DOI 10.1007/978-1-4614-9213-9_501-1
+   Hargitai H., 2014, MESOSCALE POSITIVE R, V0, PP1, DOI 10.1007/978-1-4614-9213-9_585-1
+   Hargitai H., 2019, PLANETARY MAPPING HI, V27, P64, DOI 10.1007/978-3-319-62849-3_2
+   Harris CR, 2020, NATURE, V585, P357, DOI 10.1038/s41586-020-2649-2
+   Harrison TN, 2015, ICARUS, V252, P236, DOI 10.1016/j.icarus.2015.01.022
+   Hauber E., 2020, REGIONAL GEOLOGIC MA, V0, P0, DOI DOI 10.5194/egusphere-egu2020-7773
+   Hayward RK, 2007, J GEOPHYS RES-PLANET, V112, P0, DOI 10.1029/2007JE002943
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Heverly M., 2016, P AIAA SPACE SEP, V0, P1
+   Hoeser T, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12101667
+   Hong S, 2017, IEEE SIGNAL PROC MAG, V34, P39, DOI 10.1109/MSP.2017.2742558
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Ivanov MA, 2020, SOLAR SYST RES+, V54, P1, DOI 10.1134/S0038094620010050
+   Jaeger WL, 2010, ICARUS, V205, P230, DOI 10.1016/j.icarus.2009.09.011
+   James P. B., 1992, MARS, V0, P934
+   Jasiewicz J., 2012, LUNAR PLANETARY SCI, V43, P1347
+   Kerner HR, 2019, IEEE J-STARS, V12, P3900, DOI 10.1109/JSTARS.2019.2936771
+   Kieffer HH, 2007, J GEOPHYS RES-PLANET, V112, P0, DOI 10.1029/2006JE002816
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lam S. K., 2015, P 2 WORKSHOP LLVM CO, V0, PP1, DOI 10.1145/2833157.2833162
+   Lanagan PD, 2001, GEOPHYS RES LETT, V28, P2365, DOI 10.1029/2001GL012932
+   Malin MC, 2001, J GEOPHYS RES-PLANET, V106, P23429, DOI 10.1029/2000JE001455
+   Malin MC, 2000, SCIENCE, V288, P2330, DOI 10.1126/science.288.5475.2330
+   Malin MC, 2007, J GEOPHYS RES-PLANET, V112, P0, DOI 10.1029/2006JE002808
+   Marmanis D, 2016, IEEE GEOSCI REMOTE S, V13, P105, DOI 10.1109/LGRS.2015.2499239
+   McEwen A. S, 2007, J GEOPHYS RES-PLANET, V112, P0, DOI 10.1029/2005JE002605
+   McKee E. D., 1979, U.S. GEOLOGICAL SURVEY, V0, P1
+   Murphy KP, 2012, MACHINE LEARNING: A PROBABILISTIC PERSPECTIVE, V0, P1
+   Ono M., 2020, SURF TRAV 2018 AIAA, V0, P0, DOI DOI 10.2514/6.2018-5419
+   Palafox LF, 2017, COMPUT GEOSCI-UK, V101, P48, DOI 10.1016/j.cageo.2016.12.015
+   Paszke, 2019, ADV NEURAL INFORM PR, V0, P8024
+   Pont-Tuset J, 2016, IEEE T PATTERN ANAL, V38, P0, DOI 10.1109/TPAMI.2015.2481406
+   Quantin C., 2016, 2018 P 47 LUN PLAN S, V0, P2863
+   Raschka S., 2017, PYTHON MACHINE LEARN, V0, P0
+   Rice M. S., 2013, INT J MARS SCI EXPLO, V8, P15, DOI 10.1555/MARS.2013.0002
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Rothery D.A., 2014, SMOOTH PLAINS ENCY P, V0, PP1, DOI 10.1007/978-1-4614-9213-9_356-1
+   Schon SC, 2012, PLANET SPACE SCI, V67, P28, DOI 10.1016/j.pss.2012.02.003
+   Schwamb ME, 2018, ICARUS, V308, P148, DOI 10.1016/j.icarus.2017.06.017
+   Simonyan K, 2015, ARXIV, V0, P0
+   Smith DE, 2001, J GEOPHYS RES-PLANET, V106, P23689, DOI 10.1029/2000JE001364
+   Smola A., 2020, DIVE DEEP LEARNING, V0, P0
+   Stepinski T, 2005, IEEE GEOSCI REMOTE S, V2, P260, DOI 10.1109/LGRS.2005.848509
+   Stepinski T.F., 2007, PROC NATL CONF ARTIF, V0, P1807
+   Stolarczyk JK, 2009, ANGEW CHEM INT EDIT, V48, P175, DOI 10.1002/anie.200803895
+   Sumbul G, 2019, INT GEOSCI REMOTE SE, V0, PP5901, DOI 10.1109/IGARSS.2019.8900532
+   Tajbakhsh N, 2016, IEEE T MED IMAGING, V35, P1299, DOI 10.1109/TMI.2016.2535302
+   Tan CQ, 2018, LECT NOTES COMPUT SC, V11141, P270, DOI 10.1007/978-3-030-01424-7_27
+   Tarnas JD, 2019, GEOPHYS RES LETT, V46, P12771, DOI 10.1029/2019GL085584
+   Thomas PC, 2009, ICARUS, V203, P352, DOI 10.1016/j.icarus.2009.05.014
+   Tian B, 1999, IEEE T NEURAL NETWOR, V10, P138, DOI 10.1109/72.737500
+   van der Walt S, 2014, PEERJ, V2, P0, DOI 10.7717/peerj.453
+   Viola P., 2001, P 2001 IEEE COMP SOC, V11, P0
+   Wagstaff K.L., 2018, P 32 2 AAAI C ART IN, V0, P0
+   Wang S, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12020207
+   Wang YX, 2017, ISPRS J PHOTOGRAMM, V129, P12, DOI 10.1016/j.isprsjprs.2017.04.014
+   Warner NH, 2020, GEOPHYS RES LETT, V47, P0, DOI 10.1029/2020GL089607
+   Wilhelm T, 2017, 2017 INTERNATIONAL CONFERENCE ON DIGITAL IMAGE COMPUTING - TECHNIQUES AND APPLICATIONS (DICTA), V0, P119
+   Williams N., 2020, P 51 LUN PLAN SCI C, V0, P2254
+   Wohlfarth K., 2018, 2018 10 IAPR WORKSH, V0, PP1, DOI 10.1109/PRRS.2018.8486379
+   Yosinski J, 2014, ADV NEUR IN, V27, P0
+   Zhou B., 2016, P 2016 IEEE C COMPUT, V0, PP2921, DOI 10.1109/CVPR.2016.319
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 90
+TC 13
+Z9 14
+U1 3
+U2 9
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD DEC 15
+PY 2020
+VL 12
+IS 23
+BP 
+EP 
+DI 10.3390/rs12233981
+PG 38
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA PD2YH
+UT WOS:000597556200001
+DA 2023-04-26
+ER
+
+PT J
+AU Peethambaran, B
+   Anbalagan, R
+   Kanungo, DP
+   Goswami, A
+   Shihabudheen, KV
+AF Peethambaran, Bipin
+   Anbalagan, R.
+   Kanungo, D. P.
+   Goswami, Ajanta
+   Shihabudheen, K., V
+TI A comparative evaluation of supervised machine learning algorithms for township level landslide susceptibility zonation in parts of Indian Himalayas
+SO CATENA
+LA English
+DT Article
+DE Landslide susceptibility zonation; Artificial neural network; Extreme learning machine; Support vector machine; Extreme learning adaptive neuro fuzzy; inference system
+ID artificial neural-network; support vector machines; hierarchy process ahp; logistic-regression; frequency ratio; fuzzy-logic; prediction; displacement; area; models
+AB Landslide susceptibility zonation (LSZ) has generally been regarded as the appropriate stride to begin scientific studies in mountainous terrains to alleviate the socio-economic consequences of landslides. Application of machine learning (ML) with geographic information system (GIS) is a promising fusion of technologies, for spatial prediction of landslide susceptibility with high precision, and has been applied widely in the past. However, the literatures of ML and GIS-based LSZ gives a fuzzy conclusion upon the righteous choice of ML technique among many state-of-the-art techniques, and do not present a probe on the aptitude of ML models for township level LSZ attempts. This research investigates such concern with a case study to figure out a robust technique, which can be a benchmark approach in future case studies and various comparisons strives across the sundry genre of ML. For that, the present attempt has been anchored to four different supervised ML algorithms including artificial neural network (ANN), extreme learning machine (ELM) of neural network (NN) genre, classical ML algorithm of support vector machine (SVM) and extreme learning adaptive neuro fuzzy inference system (ELANFIS) of neuro-fuzzy system genre. The Mussoorie Township, a famed hill station in the Indian State of Uttarakhand was chosen as the area for case study. A total of 13 landslide susceptibility maps (LSM) were produced. Spatial performance of these maps was compared and statistically validated with the help of landslide inventory of the study area. Amongst the LSMs, the LSM-ELANFIS-VII of ELANFIS model with 11 number of membership functions (MF) was found to be in better agreement with all the validation measures performed. In addition to the satisfactory performance on validation, the LSMs produced through ELANFIS display a unique trace of geomorphological features on it along with pragmatic scattering of landslide susceptibility classes - an omen that exhorts graduation of GIS-based LSZ to ensemble neuro-fuzzy ML models.
+C1 [Peethambaran, Bipin; Anbalagan, R.; Goswami, Ajanta] Indian Inst Technol Roorkee, Dept Earth Sci, Roorkee, Uttar Pradesh, India.
+   [Kanungo, D. P.] CSIR Cent Bldg Res Inst, Geohazard Risk Reduct GHRR Grp, Roorkee, Uttar Pradesh, India.
+   [Shihabudheen, K., V] Natl Inst Technol Calicut, Dept Elect Engn, Kattangal, Kerala, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Roorkee; Council of Scientific & Industrial Research (CSIR) - India; CSIR - Central Building Research Institute; National Institute of Technology (NIT System); National Institute of Technology Calicut
+RP Peethambaran, B (corresponding author), Indian Inst Technol Roorkee, Dept Earth Sci, Roorkee, Uttar Pradesh, India.
+EM bipinpeethambaran@gmail.com
+FU University Grant Commission (UGC) of India
+CR ANBALAGAN R, 1992, ENG GEOL, V32, P269, DOI 10.1016/0013-7952(92)90053-2
+   [Anonymous], 1999, NEURAL NETWORKS COMP, V0, P0
+   [Anonymous], 1995, NEURAL NETWORKS PATT, V0, P0
+   Arora MK, 2004, INT J REMOTE SENS, V25, P559, DOI 10.1080/0143116031000156819
+   Basheer IA, 2000, COMPUT-AIDED CIV INF, V15, P440, DOI 10.1111/0885-9507.00206
+   Binaghi E, 1998, NAT HAZARDS, V17, P77, DOI 10.1023/A:1008001724538
+   Pham BT, 2016, ENVIRON MODELL SOFTW, V84, P240, DOI 10.1016/j.envsoft.2016.07.005
+   Cao Y, 2016, LANDSLIDES, V13, P725, DOI 10.1007/s10346-015-0596-z
+   Catani F, 2013, NAT HAZARD EARTH SYS, V13, P2815, DOI 10.5194/nhess-13-2815-2013
+   Chen W, 2017, GEODERMA, V305, P314, DOI 10.1016/j.geoderma.2017.06.020
+   Choi J, 2012, ENG GEOL, V124, P12, DOI 10.1016/j.enggeo.2011.09.011
+   Colkesen I, 2016, J AFR EARTH SCI, V118, P53, DOI 10.1016/j.jafrearsci.2016.02.019
+   Conforti M, 2012, NAT HAZARDS, V61, P127, DOI 10.1007/s11069-011-9781-0
+   Bui DT, 2012, COMPUT GEOSCI-UK, V45, P199, DOI 10.1016/j.cageo.2011.10.031
+   Erener A, 2010, LANDSLIDES, V7, P55, DOI 10.1007/s10346-009-0188-x
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Frattini P, 2010, ENG GEOL, V111, P62, DOI 10.1016/j.enggeo.2009.12.004
+   Goetz JN, 2015, COMPUT GEOSCI-UK, V81, P1, DOI 10.1016/j.cageo.2015.04.007
+   Gomez H, 2005, ENG GEOL, V78, P11, DOI 10.1016/j.enggeo.2004.10.004
+   Gong P, 1996, PHOTOGRAMM ENG REM S, V62, P513
+   HANLEY JA, 1983, RADIOLOGY, V148, P839, DOI 10.1148/radiology.148.3.6878708
+   HECHTNIELSEN R, 1988, NEURAL NETWORKS, V1, P131, DOI 10.1016/0893-6080(88)90015-9
+   Huang GB, 2006, NEUROCOMPUTING, V70, P489, DOI 10.1016/j.neucom.2005.12.126
+   Jadid MN, 1996, ENG APPL ARTIF INTEL, V9, P309, DOI 10.1016/0952-1976(96)00021-8
+   JANG JSR, 1993, IEEE T SYST MAN CYB, V23, P665, DOI 10.1109/21.256541
+   JUANG CH, 1992, J GEOTECH ENG-ASCE, V118, P475, DOI 10.1061/(ASCE)0733-9410(1992)118:3(475)
+   Kanungo D., 2009, J S ASIA DISASTER ST, V2, P81
+   Kanungo DP, 2006, ENG GEOL, V85, P347, DOI 10.1016/j.enggeo.2006.03.004
+   Kanungo DP, 2005, P 2 IND INT C ART IN, V0, P1922
+   Kavzoglu T, 2009, INT J APPL EARTH OBS, V11, P352, DOI 10.1016/j.jag.2009.06.002
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Krecek J., 2012, MANAGEMENT MOUNTAIN, V0, P0
+   Kumar R, 2016, J GEOL SOC INDIA, V87, P271, DOI 10.1007/s12594-016-0395-8
+   Lee S, 2007, INT J REMOTE SENS, V28, P4763, DOI 10.1080/01431160701264227
+   Lian C, 2014, NEURAL COMPUT APPL, V24, P99, DOI 10.1007/s00521-013-1446-3
+   Lin GF, 2017, ENG GEOL, V224, P62, DOI 10.1016/j.enggeo.2017.05.009
+   Marjanovic M, 2011, ENG GEOL, V123, P225, DOI 10.1016/j.enggeo.2011.09.006
+   Masters T, 1994, PRACTICAL NEURAL NET, V0, P0
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   Peethambaran B, 2019, NAT HAZARDS, V96, P121, DOI 10.1007/s11069-018-3532-4
+   Peethambaran B, 2019, ENVIRON EARTH SCI, V78, P0, DOI 10.1007/s12665-019-8225-0
+   Peng L, 2014, GEOMORPHOLOGY, V204, P287, DOI 10.1016/j.geomorph.2013.08.013
+   Pourghasemi HR, 2018, CATENA, V162, P177, DOI 10.1016/j.catena.2017.11.022
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Sahana M, 2017, J MT SCI-ENGL, V14, P2150, DOI 10.1007/s11629-017-4404-1
+   Scholkopf B, 1999, IEEE T NEURAL NETWOR, V10, P1000, DOI 10.1109/72.788641
+   Schuster R.J., 1978, 176 TRB NAT RES COUN, V0, P11
+   Sezer EA, 2011, EXPERT SYST APPL, V38, P8208, DOI 10.1016/j.eswa.2010.12.167
+   Shihabudheen KV, 2017, APPL SOFT COMPUT, V61, P892, DOI 10.1016/j.asoc.2017.09.001
+   Shihabudheen KV, 2018, EXPERT SYST APPL, V92, P474, DOI 10.1016/j.eswa.2017.09.037
+   Shihabudheen KV, 2017, KNOWL-BASED SYST, V127, P100, DOI 10.1016/j.knosys.2017.04.007
+   Shihabudheen K.V., 2017, ARAB J GEOSCI, V0, P10
+   Sietsma J., 1988, IEEE INTERNATIONAL CONFERENCE ON NEURAL NETWORKS (IEEE CAT. NO.88CH2632-8), V0, PP325, DOI 10.1109/ICNN.1988.23864
+   TAKAGI T, 1985, IEEE T SYST MAN CYB, V15, P116, DOI 10.1109/TSMC.1985.6313399
+   Tien Bui D., 2012, MATH PROBL ENG, V0, P2012
+   Valdiya K. S., 1980, GEOLOGY KUMAON LESSE, V0, P0
+   Vapnik V., 2013, NATURE STAT LEARNING, V0, P0
+   Vieira BC, 2010, NAT HAZARD EARTH SYS, V10, P1829, DOI 10.5194/nhess-10-1829-2010
+   Wan SA, 2009, ENG GEOL, V108, P237, DOI 10.1016/j.enggeo.2009.06.014
+   Wang Q., 2017, CHINA REMOTE SENS, V0, P9
+   Yesilnacar E, 2006, INT J REMOTE SENS, V27, P253, DOI 10.1080/0143116050030042
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V61, P821, DOI 10.1007/s12665-009-0394-9
+   Zararsiz G., 2012, INT J COMPUT SCI ISS, V9, P355
+NR 66
+TC 23
+Z9 26
+U1 7
+U2 44
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0341-8162
+EI 1872-6887
+J9 CATENA
+JI Catena
+PD DEC 15
+PY 2020
+VL 195
+IS 
+BP 
+EP 
+DI 10.1016/j.catena.2020.104751
+PG 14
+WC Geosciences, Multidisciplinary; Soil Science; Water Resources
+SC Geology; Agriculture; Water Resources
+GA OE2KP
+UT WOS:000580366300016
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, LR
+   Tang, XM
+   Xie, JF
+   Gao, XM
+   Zhao, WJ
+   Mo, F
+   Zhang, G
+AF Liu, Lirong
+   Tang, Xinming
+   Xie, Junfeng
+   Gao, Xiaoming
+   Zhao, Wenji
+   Mo, Fan
+   Zhang, Gang
+TI Deep-Learning and Depth-Map Based Approach for Detection and 3-D Localization of Small Traffic Signs
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Convolution neural network (CNN); depth map; mobile mapping; three-dimensional (3-D) localization; traffic sign detection
+ID pole-like objects; point clouds; recognition; extraction; classification; color; algorithms; model
+AB The three-dimensional (3-D) geographic locations of street furniture, such as traffic signs, comprise the basic content of 3-D city construction, and such information is indispensable for periodic statistics for road management and maintenance. This article presents a novel solution for acquiring 3-D information on small traffic signs based on mobile mapping system (MMS) data. First, a lightweight backbone network called VGG-L under an optimized faster region-based convolutional neural network detection framework is proposed for the detection of small traffic signs. An urban traffic sign detection (UTSD) dataset is created based on panoramic images obtained from test areas. Detection results from the UTSD dataset show that VGG-L outperforms other popular networks and achieves a mean average precision of 75.4%, which is 4.2%-14.8% higher than those of VGG16, MobileNet, ResNet, and YOLOv3. Second, a novel depth-map-based 3-D spatial geolocation method is proposed for obtaining the 3-D geographic locations of the objects. Then, a center-based method is proposed to automatically extract the final 3-D vector of the target. Experimental results illustrate that the proposed method performs 3-D positioning and vectorization of the milestones and circular and triangular traffic signs, accurately and effectively, achieving greater than 86% recall and precision for the three types of targets in the test areas. The experiments demonstrate that the overall 3-D information acquisition scheme is feasible and has great application potential.
+C1 [Liu, Lirong; Tang, Xinming; Xie, Junfeng; Gao, Xiaoming; Mo, Fan] Minist Nat Resources, Land Satellite Remote Sensing Applicat Ctr, Beijing 100048, Peoples R China.
+   [Zhao, Wenji] Capital Normal Univ, Coll Resource Environm & Tourism, Beijing 100048, Peoples R China.
+   [Zhang, Gang] Chinese Acad Surveying & Mapping, Beijing 100830, Peoples R China.
+C3 Ministry of Natural Resources of the People's Republic of China; Capital Normal University; Chinese Academy of Surveying & Mapping
+RP Xie, JF (corresponding author), Minist Nat Resources, Land Satellite Remote Sensing Applicat Ctr, Beijing 100048, Peoples R China.
+EM liulirong1125@163.com; tangxinming99@qq.com; junfeng_xie@163.com; gaoxm@sasmac.cn; zhwenji1215@163.com; surveymofan@163.com; 43131904@qq.com
+FU National Key Research and Development Program [2017YFB0503004, 2017YFB0504201, D040106]; National Natural Science Foundation of China [41971426, 41971425]; China Postdoctoral Science Foundation [2019M650601]
+CR Aghdam HH, 2016, ROBOT AUTON SYST, V84, P97, DOI 10.1016/j.robot.2016.07.003
+   Aijazi AK, 2013, REMOTE SENS-BASEL, V5, P1624, DOI 10.3390/rs5041624
+   [Anonymous], 2017, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   [Anonymous], 2015, TZUTALIN LABELIMG, V0, P0
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Aoyagi Y, 1996, IEEE IND ELEC, V0, PP1838, DOI 10.1109/IECON.1996.570749
+   Arlicot A., 2009, P WORKSH LAS, V0, P205
+   Balali Vahid, 2015, COMPUTING IN CIVIL ENGINEERING 2015. INTERNATIONAL WORKSHOP ON COMPUTING IN CIVIL ENGINEERING. PROCEEDINGS, V0, P206
+   Balali V, 2017, ADV ENG INFORM, V32, P263, DOI 10.1016/j.aei.2017.03.006
+   Barnes N, 2008, IEEE T INTELL TRANSP, V9, P322, DOI 10.1109/TITS.2008.922935
+   Belaroussi R., 2009, PROC WORKSHOP APPL C, V0, P1
+   Brkic K., 2009, P ANN WORKSH AUSTR A, V0, P1
+   Burt A, 2019, METHODS ECOL EVOL, V10, P438, DOI 10.1111/2041-210X.13121
+   Chen, 2017, ARXIV170202138, V0, P0
+   Davis J, 2006, PROC 23 INT C MACH L, V0, PP233, DOI 10.1145/1143844.1143874
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Experiencor, 2018, EXPERIENCOR KERAS YO, V0, P0
+   Fleyeh H., 2005, P 16 MINI EURO C 10, V0, P644
+   Gao XW, 2006, J VIS COMMUN IMAGE R, V17, P675, DOI 10.1016/j.jvcir.2005.10.003
+   Gonzalez A, 2011, IEEE T INTELL TRANSP, V12, P485, DOI 10.1109/TITS.2010.2098029
+   Greenhalgh J, 2012, IEEE T INTELL TRANSP, V13, P1498, DOI 10.1109/TITS.2012.2208909
+   Gu YL, 2011, IEEE INT VEH SYM, V0, PP1054, DOI 10.1109/IVS.2011.5940513
+   Guan HY, 2018, IEEE J-STARS, V11, P1715, DOI 10.1109/JSTARS.2018.2810143
+   Hoferlin B, 2009, IEEE INT VEH SYM, V0, PP324, DOI 10.1109/IVS.2009.5164298
+   Houben S, 2013, IEEE INT C INTELL TR, V0, PP7, DOI 10.1109/ITSC.2013.6728595
+   Houben S, 2011, IEEE INT VEH SYM, V0, PP124, DOI 10.1109/IVS.2011.5940429
+   Huang PD, 2017, IEEE T INTELL TRANSP, V18, P2364, DOI 10.1109/TITS.2016.2639582
+   Jaakkola A, 2008, SENSORS-BASEL, V8, P5238, DOI 10.3390/s8095238
+   Jain A, 2019, NEURAL PROCESS LETT, V50, P3019, DOI 10.1007/s11063-019-09991-x
+   Jau U. L., 2008, P INT S INF TECHN, V0, P1
+   Jung J, 2019, ISPRS J PHOTOGRAMM, V147, P1, DOI 10.1016/j.isprsjprs.2018.11.012
+   Krylov VA, 2018, IEEE IMAGE PROC, V0, PP2745, DOI 10.1109/ICIP.2018.8451458
+   Kukko A, 2012, SENSORS-BASEL, V12, P11712, DOI 10.3390/s120911712
+   Kuo WJ, 2007, 2007 IEEE INTERNATIONAL CONFERENCE ON MULTIMEDIA AND EXPO, VOLS 1-5, P1427
+   Lehtomaki M, 2010, REMOTE SENS-BASEL, V2, P641, DOI 10.3390/rs2030641
+   Li D., 2013, ISPRS ANN PHOTOGRAMM, V2, P163, DOI 10.5194/ISPRSANNALS-II-5-W2-163-2013
+   Li L, 2016, REMOTE SENS LETT, V7, P249, DOI 10.1080/2150704X.2015.1126377
+   Lin TY, 2014, LECT NOTES COMPUT SC, V8693, P740, DOI 10.1007/978-3-319-10602-1_48
+   Loy G., 2004, 2004 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS (IROS) (IEEE CAT. NO.04CH37566), V0, P70
+   Bascon SM, 2010, COMPUT VIS IMAGE UND, V114, P373, DOI 10.1016/j.cviu.2009.12.002
+   Maldonado-Bascon S, 2007, IEEE T INTELL TRANSP, V8, P264, DOI 10.1109/TITS.2007.895311
+   Mo N, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030272
+   Pu S, 2011, ISPRS J PHOTOGRAMM, V66, PS28, DOI 10.1016/j.isprsjprs.2011.08.006
+   Qian RQ, 2015, 2015 11TH INTERNATIONAL CONFERENCE ON NATURAL COMPUTATION (ICNC), V0, PP791, DOI 10.1109/ICNC.2015.7378092
+   Redmon J., 2016, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Redmon J, 2018, ARXIV, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Ritter W., 1992, PROC INTELL VEHICLES, V0, P12
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Schnabel R, 2007, COMPUT GRAPH FORUM, V26, P214, DOI 10.1111/j.1467-8659.2007.01016.x
+   Shi ZW, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121891
+   Simonyan K, 2015, ARXIV, V0, P0
+   Stallkamp J, 2011, 2011 INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS (IJCNN), V0, PP1453, DOI 10.1109/IJCNN.2011.6033395
+   Steder B, 2011, IEEE INT CONF ROBOT, V0, PP2601, DOI 10.1109/ICRA.2011.5980187
+   Tian Y, 2019, IEEE T INTELL TRANSP, V20, P4466, DOI 10.1109/TITS.2018.2886283
+   Timofte R, 2014, MACH VISION APPL, V25, P633, DOI 10.1007/s00138-011-0391-3
+   Tsai LW, 2008, IET COMPUT VIS, V2, P164, DOI 10.1049/iet-cvi:20070058
+   Vennelakanti A, 2019, I SYMP CONSUM ELECTR, V0, P0
+   Wang HY, 2014, IEEE GEOSCI REMOTE S, V11, P1807, DOI 10.1109/LGRS.2014.2309965
+   Wang H, 2013, PROCEEDINGS OF THE 5TH (2013) INTERNATIONAL CONFERENCE ON FINANCIAL RISK AND CORPORATE FINANCE MANAGEMENT, VOLS I AND II, P1, DOI 10.1109/ijcnn.2013.6706812
+   Wang Z, 2015, IEEE T GEOSCI REMOTE, V53, P2409, DOI 10.1109/TGRS.2014.2359951
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Wen CL, 2016, IEEE T INTELL TRANSP, V17, P27, DOI 10.1109/TITS.2015.2418214
+   Wu Y, 2013, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2013, V0, P0, DOI DOI 10.5244/C.27.134
+   Xiao ZT, 2017, 2017 INTERNATIONAL CONFERENCE ON MACHINE VISION AND INFORMATION TECHNOLOGY (CMVIT), V0, PP111, DOI 10.1109/CMVIT.2017.26
+   Xiong CZ, 2016, 2016 IEEE INTERNATIONAL CONFERENCE ON SIGNAL AND IMAGE PROCESSING (ICSIP), V0, PP676, DOI 10.1109/SIPROCESS.2016.7888348
+   Yang BS, 2012, PHOTOGRAMM ENG REM S, V78, P331, DOI 10.14358/PERS.78.4.331
+   Yang Y, 2016, IEEE T INTELL TRANSP, V17, P2022, DOI 10.1109/TITS.2015.2482461
+   Yu YT, 2016, ISPRS J PHOTOGRAMM, V113, P106, DOI 10.1016/j.isprsjprs.2016.01.005
+   Yu YT, 2015, IEEE T INTELL TRANSP, V16, P2167, DOI 10.1109/TITS.2015.2399492
+   Yu YT, 2015, IEEE T GEOSCI REMOTE, V53, P1374, DOI 10.1109/TGRS.2014.2338915
+   Yuan X, 2014, IEEE T INTELL TRANSP, V15, P1466, DOI 10.1109/TITS.2014.2298912
+   Zhang JM, 2017, ALGORITHMS, V10, P0, DOI 10.3390/a10040127
+   ZHU Z, 2016, PROC CVPR IEEE, V0, PP2110, DOI 10.1109/CVPR.2016.232
+NR 76
+TC 10
+Z9 10
+U1 1
+U2 13
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 2096
+EP 2111
+DI 10.1109/JSTARS.2020.2966543
+PG 16
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA LU9QU
+UT WOS:000538081900009
+DA 2023-04-26
+ER
+
+PT J
+AU Huang, LC
+   Luo, J
+   Lin, ZJ
+   Niu, FJ
+   Liu, L
+AF Huang, Lingcao
+   Luo, Jing
+   Lin, Zhanju
+   Niu, Fujun
+   Liu, Lin
+TI Using deep learning to map retrogressive thaw slumps in the Beiluhe region (Tibetan Plateau) from CubeSat images
+SO REMOTE SENSING OF ENVIRONMENT
+LA English
+DT Article
+DE Convolutional neural network; Planet CubeSat; Permafrost thawing; Retrogressive thaw slumps; Tibetan plateau
+ID thermal state; richardson mountains; active-layer; permafrost; terrain; climate; basin; ecosystems; index; shan
+AB Retrogressive thaw slumps (RTSs) are among the most dynamic landforms in permafrost areas, and their formation can be attributed to the thawing of ice-rich permafrost. The spatial distribution and impacts of RTSs on the Tibetan Plateau are poorly understood due to their remote location and the technical challenges of automatic mapping. In this study, we innovatively applied DeepLabv3 +, a cutting-edge deep learning algorithm for semantic segmentation, to Planet CubeSat images, which are satellite images with high spatial and temporal resolution. Our method allows us to automatically delineate 220 RTSs within an area of 5200 km(2) with an average precision of 0.541. The corresponding precision, recall, and F1 score are 0.863, 0.833, and 0.848 respectively, when the threshold of intersection over union is 0.5. Moreover, approximately 100 experiments on k-fold cross-validation (k = 3, 5, and 10) and data augmentation show that our method is robust. And a test in a different geographic area shows that the generalization of the trained model is very good. We find that (1) most of the RTSs are small (areas < eight ha and perimeters < 2000 m) and (2) RTSs preferentially develop at locations with gentle slopes (four to eight degrees), and in areas lower than the surroundings (the mean topographic position index is - 0.17) and receiving less solar radiation (i.e., north-facing slopes). The results show that the method can map RTSs automatically from Planet CubeSat images and can potentially be applied to larger areas.
+C1 [Huang, Lingcao; Liu, Lin] Chinese Univ Hong Kong, Fac Sci, Earth Syst Sci Programme, Hong Kong, Peoples R China.
+   [Luo, Jing; Lin, Zhanju; Niu, Fujun] Chinese Acad Sci, Northwest Inst Ecoenvironm & Resources, Lanzhou, Peoples R China.
+C3 Chinese University of Hong Kong; Chinese Academy of Sciences
+RP Huang, LC (corresponding author), Chinese Univ Hong Kong, Fac Sci, Earth Syst Sci Programme, Hong Kong, Peoples R China.
+EM huanglingcao@link.cuhk.edu.hk
+FU NVIDIA Corporation; Hong Kong Research Grants Council [CUHK14300815]; CUHK Direct Grant for Research [4053282]; CUHK Global Scholarship Programme for Research Excellence
+CR Abolt CJ, 2019, CRYOSPHERE, V13, P237, DOI 10.5194/tc-13-237-2019
+   Akerman HJ, 2008, PERMAFROST PERIGLAC, V19, P279, DOI 10.1002/ppp.626
+   [Anonymous], 1974, CAN GEOTECH J, V0, P0, DOI DOI 10.1139/T74-052
+   [Anonymous], 1900, DOI 10.1038/NATURE14539, V0, P0
+   [Anonymous], 2017, PLANET APPL PROGRAM, V0, P0
+   [Anonymous], 2017, ARXIV, V0, P0
+   [Anonymous], 2000, PERMAFROST IN CHINA, V0, P0
+   [Anonymous], 2017, P 9 INT WORKSH AN MU, V0, P0
+   [Anonymous], 1974, MACKENZIE VALLEY NWT, V0, P0
+   Aragon B, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121867
+   Armstrong L, 2018, ARCT SCI, V4, P827, DOI 10.1139/as-2018-0016
+   Balser AW, 2014, J GEOPHYS RES-EARTH, V119, P1106, DOI 10.1002/2013JF002889
+   Biskaborn BK, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-018-08240-4
+   Bohner J, 2009, DEV SOIL SCI, V33, P195, DOI 10.1016/S0166-2481(08)00008-1
+   Brooker A, 2014, PERMAFROST PERIGLAC, V25, P243, DOI 10.1002/ppp.1819
+   BURN CR, 1989, ARCTIC, V42, P31
+   BURN CR, 1990, CAN GEOGR-GEOGR CAN, V34, P273, DOI 10.1111/j.1541-0064.1990.tb01092.x
+   Cassidy AE, 2017, ARCT SCI, V3, P179, DOI 10.1139/as-2016-0034
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   CHENG GD, 1983, COLD REG SCI TECHNOL, V8, P57
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Conrad O, 2015, GEOSCI MODEL DEV, V8, P1991, DOI 10.5194/gmd-8-1991-2015
+   Cooley SW, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121306
+   Czudek T., 1970, QUATERNARY RES, V1, P103, DOI 10.1016/0033-5894(70)90013-X
+   De Reu J, 2013, GEOMORPHOLOGY, V186, P39, DOI 10.1016/j.geomorph.2012.12.015
+   Everingham M, 2015, INT J COMPUT VISION, V111, P98, DOI 10.1007/s11263-014-0733-5
+   Farquharson LM, 2016, GEOMORPHOLOGY, V273, P116, DOI 10.1016/j.geomorph.2016.08.007
+   Farr TG, 2007, REV GEOPHYS, V45, P0, DOI 10.1029/2005RG000183
+   French French H. M. H. M., 2017, PERIGLACIAL ENV, V0, P0, DOI DOI 10.1002/9781119132820
+   Gooseff M., 2009, EOS T AGU, V90, P29, DOI 10.1029/2009EO040001
+   Grosse G, 2011, J GEOPHYS RES-BIOGEO, V116, P0, DOI 10.1029/2010JG001507
+   Guisan A, 1999, PLANT ECOL, V143, P107, DOI 10.1023/A:1009841519580
+   Guo W, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010131
+   Halepovic E, 2008, I S MOD ANAL SIM COM, V0, P131
+   Houborg R, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10060890
+   Houborg R, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090768
+   Huang LC, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10122067
+   Iimura H, 2010, J GEOPHYS RES-ATMOS, V115, P0, DOI 10.1029/2009JD012733
+   Jones MKW, 2019, ENVIRON RES LETT, V14, P0, DOI 10.1088/1748-9326/ab12fd
+   Jorgenson M. T., 2013, 8 20 THERMOKARST TER, V0, PP313, DOI 10.1016/B978-0-12-374739-6.00215-3
+   Jorgenson MT, 2005, CAN J FOREST RES, V35, P2100, DOI 10.1139/X05-153
+   Kokelj SV, 2013, PERMAFROST PERIGLAC, V24, P108, DOI 10.1002/ppp.1779
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lacelle D, 2015, GEOMORPHOLOGY, V235, P40, DOI 10.1016/j.geomorph.2015.01.024
+   Lacelle D, 2010, PERMAFROST PERIGLAC, V21, P1, DOI 10.1002/ppp.666
+   Lantuit H, 2008, GEOMORPHOLOGY, V95, P84, DOI 10.1016/j.geomorph.2006.07.040
+   Leibman MO, 2003, PERMAFROST, VOLS 1 AND 2, P651
+   LEIBMAN MO, 1995, PERMAFROST PERIGLAC, V6, P259, DOI 10.1002/ppp.3430060307
+   Lewkowicz AG, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-019-09314-7
+   Luo J, 2019, GEOMORPHOLOGY, V341, P79, DOI 10.1016/j.geomorph.2019.05.020
+   Luo J, 2015, SCI BULL, V60, P556, DOI 10.1007/s11434-015-0730-2
+   Marchenko SS, 2007, GLOBAL PLANET CHANGE, V56, P311, DOI 10.1016/j.gloplacha.2006.07.023
+   McFeeters SK, 1996, INT J REMOTE SENS, V17, P1425, DOI 10.1080/01431169608948714
+   Miles ES, 2018, CRYOSPHERE, V12, P3891, DOI 10.5194/tc-12-3891-2018
+   Nitze I, 2018, NAT COMMUN, V9, P0, DOI 10.1038/s41467-018-07663-3
+   Nitze I, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9070640
+   Nitze I, 2016, REMOTE SENS ENVIRON, V181, P27, DOI 10.1016/j.rse.2016.03.038
+   Niu FJ, 2016, LANDSLIDES, V13, P55, DOI 10.1007/s10346-014-0545-2
+   Niu FJ, 2014, NAT HAZARDS, V74, P1667, DOI 10.1007/s11069-014-1267-4
+   Niu FJ, 2012, COLD REG SCI TECHNOL, V83-84, P131, DOI 10.1016/j.coldregions.2012.07.007
+   Olefeldt D, 2016, NAT COMMUN, V7, P0, DOI 10.1038/ncomms13043
+   Osterkamp TE, 2007, J GEOPHYS RES-EARTH, V112, P0, DOI 10.1029/2006JF000578
+   Osterkamp TE, 2005, GLOBAL PLANET CHANGE, V49, P187, DOI 10.1016/j.gloplacha.2005.09.001
+   Ramage JL, 2017, J GEOPHYS RES-EARTH, V122, P1619, DOI 10.1002/2017JF004231
+   Romanovsky VE, 2010, PERMAFROST PERIGLAC, V21, P136, DOI 10.1002/ppp.683
+   Romanovsky VE, 2010, PERMAFROST PERIGLAC, V21, P106, DOI 10.1002/ppp.689
+   Rouse J.W., 1974, MONITORING VEGETATIO, V0, P0
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Schuster PF, 2018, GEOPHYS RES LETT, V45, P1463, DOI 10.1002/2017GL075571
+   Schuur EAG, 2015, NATURE, V520, P171, DOI 10.1038/nature14338
+   St Pierre KA, 2018, ENVIRON SCI TECHNOL, V52, P14099, DOI 10.1021/acs.est.8b05348
+   Stieglitz M, 2003, GEOPHYS RES LETT, V30, P0, DOI 10.1029/2003GL017337
+   Sun Z, 2017, GEOMORPHOLOGY, V293, P1, DOI 10.1016/j.geomorph.2017.04.045
+   Swanson DK, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10070983
+   Tong CJ, 1996, COLD REG SCI TECHNOL, V24, P101
+   WANG BL, 1995, CAN GEOTECH J, V32, P545, DOI 10.1139/t95-056
+   WOLD S, 1987, CHEMOMETR INTELL LAB, V2, P37, DOI 10.1016/0169-7439(87)80084-9
+   Wu QB, 2015, GLOBAL PLANET CHANGE, V124, P149, DOI 10.1016/j.gloplacha.2014.09.002
+   Yin GA, 2017, SCI TOTAL ENVIRON, V581, P472, DOI 10.1016/j.scitotenv2016.12.155
+   Zhang T, 2008, POLAR GEOGR, V31, P47, DOI 10.1080/10889370802175895
+   Zhang WX, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091487
+   Zhao L, 2010, PERMAFROST PERIGLAC, V21, P198, DOI 10.1002/ppp.688
+   Zwieback S, 2018, CRYOSPHERE, V12, P549, DOI 10.5194/tc-12-549-2018
+NR 86
+TC 48
+Z9 51
+U1 12
+U2 71
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0034-4257
+EI 1879-0704
+J9 REMOTE SENS ENVIRON
+JI Remote Sens. Environ.
+PD FEB 15
+PY 2020
+VL 237
+IS 
+BP 
+EP 
+DI 10.1016/j.rse.2019.111534
+PG 13
+WC Environmental Sciences; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Remote Sensing; Imaging Science & Photographic Technology
+GA KG3CE
+UT WOS:000509819300007
+DA 2023-04-26
+ER

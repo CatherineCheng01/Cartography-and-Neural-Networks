@@ -1,0 +1,427 @@
+
+PT J
+AU Li, YH
+   Gu, ST
+AF Li, Yihai
+   Gu, Shaotang
+TI Detecting Post Hurricane House Damage Using Geographic Information Related Multi-Resource Classification Model
+SO 2021 2ND INTERNATIONAL CONFERENCE ON BIG DATA & ARTIFICIAL INTELLIGENCE & SOFTWARE ENGINEERING (ICBASE 2021)
+LA English
+DT Proceedings Paper
+DE convolutional neural networks (CNNs); SCNN; image classification; geographic coordinate; multi- resource knowledge; multi resource CNN (MICNN); super resolution CNN with up sampling (SRCNN-US); Lota
+AB Hurricane, like other natural cataclysms that threaten human life and houses' damage detection after a hurricane, is always a problem that needs to be solved. It is vital to retrieving the building damage status for planning rescue and reconstruction after the cataclysm. In this study, the convolutional neural networks (CNN) were utilized to identify collapsed buildings from post hurricane satellite imagery with the proposed workflow. Test accuracy (TeA), training accuracy (TrA), bootstrap algorithm, Grad-CAM, and feature maps (FM) were used as evaluation metrics. To overcome the imbalance, problems like overfitting, random flip, random sheer and zoom, and early stopping approach were tested on the investigations. The results demonstrated that the building collapsed information can be retrieved by utilizing post-event imagery. Simple convolutional neural network (SCNN) is the standard to compare the other two architectures, which achieved TrA 74.39% and TeA 76.91%, spend 18.22s per epoch. After adding an additional super resolution block specifically designed. The super resolution CNN with up sampling (SRCNN-US) reached lower TrA 78.01% but higher TeA 73.80% by spending nearly 4 times more (78.14s). Moreover, the multi input redesigned SCNN (MICNN) architecture showed better performance, with TrA value from 74.39% to 84.97% and TeA from 76.91% to 78.81% but consumed only 0.22s more per epoch. Combining MICNN and SRCNN-US, the MI-SRCNN-US model achieved the highest accuracy on the test set, 80.36%, and time-consuming, 83.50s/epoch. The 50 times bootstrap investigation shows that the MICNN makes predictions under more certainty with more accuracy. In subsequent evaluations, Grad-CAM and feature maps also prove that MICNN pays more attention to the building's region rather than its surroundings. Therefore, the suitable method to promote classification performance is by using post-hurricane cataclysm satellite imagery together with related geographic coordinates information as the input of CNN.
+C1 [Li, Yihai] Shanxi Univ, Inst Math Sci & Appl Math, Taiyuan, Peoples R China.
+   [Gu, Shaotang] Univ Sydney USYD, Sch Comp Sci, Camperdown, NSW 2006, Australia.
+C3 Shanxi University
+RP Li, YH (corresponding author), Shanxi Univ, Inst Math Sci & Appl Math, Taiyuan, Peoples R China.
+EM pokemonarrive@gmail.com; shgu2901@uni.sydney.edu.au
+CR Albelwi S, 2016, 2016 15 IEEE INT C M, V0, P0
+   An Mai, 2020, 2020 7TH NAFOSTED CONFERENCE ON INFORMATION AND COMPUTER SCIENCE (NICS), V0, PP118, DOI 10.1109/NICS51282.2020.9335842
+   Bottou L, 2010, COMPSTAT2010: 19TH INTERNATIONAL CONFERENCE ON COMPUTATIONAL STATISTICS, V0, PP177, DOI 10.1007/978-3-7908-2604-3_16
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Dong X, 2013, NAT HAZARD EARTH SYS, V13, P3211, DOI 10.5194/nhess-13-3211-2013
+   Han J, 1995, LECT NOTES COMPUT SC, V930, P195
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Jaynes E. T., 2003, PROBABILITY THEORY L, V0, P0
+   Ji M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11101202
+   Krizhevsky A, 2014, ABS14045997 CORR, V0, P0
+   Murphy KP, 2012, MACHINE LEARNING: A PROBABILISTIC PERSPECTIVE, V0, P1
+   Powers D. M. W., 2011, J MACH LEARN TECHNOL, V2, P37
+   Rosenblatt W., 2015, POLY CANYON BRIDGE H, V0, P0
+   Selvaraju RR, 2020, INT J COMPUT VISION, V128, P336, DOI 10.1007/s11263-019-01228-7
+   Soni A, 2020, LECT NOTES CIVIL ENG, V33, P489, DOI 10.1007/978-981-13-7067-0_38
+   Yang WT, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13030504
+NR 21
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2021
+VL 0
+IS 
+BP 492
+EP 501
+DI 10.1109/ICBASE53849.2021.00098
+PG 10
+WC Computer Science, Artificial Intelligence; Computer Science, Software Engineering; Computer Science, Theory & Methods
+SC Computer Science
+GA BT1CC
+UT WOS:000796392500089
+DA 2023-04-26
+ER
+
+PT J
+AU Li, XL
+   Kong, WW
+   Liu, XL
+   Zhang, X
+   Wang, W
+   Chen, RQ
+   Sun, YQ
+   Liu, F
+AF Li, Xiaolong
+   Kong, Wenwen
+   Liu, Xiaoli
+   Zhang, Xi
+   Wang, Wei
+   Chen, Rongqin
+   Sun, Yongqi
+   Liu, Fei
+TI Application of Laser-Induced Breakdown Spectroscopy Coupled With Spectral Matrix and Convolutional Neural Network for Identifying Geographical Origins of Gentiana rigescens Franch
+SO FRONTIERS IN ARTIFICIAL INTELLIGENCE
+LA English
+DT Article
+DE geographical origin identification; variable importance measured; convolutional neural network; spectral matrix; Gentiana rigescens franch
+ID identification; classification
+AB Accurate geographical origin identification is of great significance to ensure the quality of traditional Chinese medicine (TCM). Laser-induced breakdown spectroscopy (LIBS) was applied to achieve the fast geographical origin identification of wild Gentiana rigescens Franch (G. rigescens Franch). However, LIBS spectra with too many variables could increase the training time of models and reduce the discrimination accuracy. In order to solve the problems, we proposed two methods. One was reducing the number of variables through two consecutive variable selections. The other was transforming the spectrum into spectral matrix by spectrum segmentation and recombination. Combined with convolutional neural network (CNN), both methods could improve the accuracy of discrimination. For the underground parts of G. rigescens Franch, the optimal accuracy in the prediction set for the two methods was 92.19 and 94.01%, respectively. For the aerial parts, the two corresponding accuracies were the same with the value of 94.01%. Saliency map was used to explain the rationality of discriminant analysis by CNN combined with spectral matrix. The first method could provide some support for LIBS portable instrument development. The second method could offer some reference for the discriminant analysis of LIBS spectra with too many variables by the end-to-end learning of CNN. The present results demonstrated that LIBS combined with CNN was an effective tool to quickly identify the geographical origin of G. rigescens Franch.
+C1 [Li, Xiaolong; Wang, Wei; Chen, Rongqin; Liu, Fei] Zhejiang Univ, Coll Biosyst Engn & Food Sci, Hangzhou, Peoples R China.
+   [Kong, Wenwen] Zhejiang A&F Univ, Coll Math & Comp Sci, Hangzhou, Peoples R China.
+   [Liu, Xiaoli; Zhang, Xi] Yunnan Univ Chinese Med, Sch Chinese Mat Med, Kunming, Yunnan, Peoples R China.
+   [Liu, Xiaoli] Yunnan Prov Key Lab Mol Biol Sinomed, Kunming, Yunnan, Peoples R China.
+   [Sun, Yongqi] Hangzhou Landa Sci & Technol Co Ltd, Hangzhou, Peoples R China.
+   [Liu, Fei] Minist Agr & Rural Affairs, Key Lab Spect Sensing, Hangzhou, Peoples R China.
+C3 Zhejiang University; Zhejiang A&F University; Yunnan University of Chinese Medicine; Ministry of Agriculture & Rural Affairs
+RP Liu, F (corresponding author), Zhejiang Univ, Coll Biosyst Engn & Food Sci, Hangzhou, Peoples R China.; Liu, XL (corresponding author), Yunnan Univ Chinese Med, Sch Chinese Mat Med, Kunming, Yunnan, Peoples R China.; Liu, XL (corresponding author), Yunnan Prov Key Lab Mol Biol Sinomed, Kunming, Yunnan, Peoples R China.; Liu, F (corresponding author), Minist Agr & Rural Affairs, Key Lab Spect Sensing, Hangzhou, Peoples R China.
+EM kmxunzi@aliyun.com; fliu@zju.edu.cn
+FU Science and Technology Department of Zhejiang Province [2021C02023]; National Natural Science Foundation of China [8166063]
+CR Acquarelli J, 2017, ANAL CHIM ACTA, V954, P22, DOI 10.1016/j.aca.2016.12.010
+   An S., 2003, J HARBIN U COMMER NA, V19, P14
+   Badmos S, 2020, FOOD RES INT, V134, P0, DOI 10.1016/j.foodres.2020.109218
+   Belayneh A, 2014, J HYDROL, V508, P418, DOI 10.1016/j.jhydrol.2013.10.052
+   Benos L, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21113758
+   Bolger JA, 2000, APPL SPECTROSC, V54, P181, DOI 10.1366/0003702001949375
+   Boucher TF, 2015, SPECTROCHIM ACTA B, V107, P1, DOI 10.1016/j.sab.2015.02.003
+   Bronzi B, 2020, FOOD CHEM, V315, P0, DOI 10.1016/j.foodchem.2020.126248
+   Chu YW, 2018, OPT EXPRESS, V26, P10119, DOI 10.1364/OE.26.010119
+   Dong X., 2015, HUBEI AGR SCI, V54, P5641
+   Feng L, 2019, IEEE ACCESS, V7, P64494, DOI 10.1109/ACCESS.2019.2917267
+   Fisher RA, 1936, ANN EUGENIC, V7, P179, DOI 10.1111/j.1469-1809.1936.tb02137.x
+   Kamilaris A, 2018, COMPUT ELECTRON AGR, V147, P70, DOI 10.1016/j.compag.2018.02.016
+   Kim D, 2018, APPL SPECTROSC, V72, P896, DOI 10.1177/0003702818758046
+   Li W, 2018, IEEE GEOSC REM SEN M, V6, P15, DOI 10.1109/MGRS.2018.2793873
+   Liu F, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19061453
+   Liu QS, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121330
+   Liu T, 2011, IEEE T PATTERN ANAL, V33, P353, DOI 10.1109/TPAMI.2010.70
+   Nie PC, 2019, SENSOR ACTUAT B-CHEM, V296, P0, DOI 10.1016/j.snb.2019.126630
+   Noll R, 2018, J ANAL ATOM SPECTROM, V33, P945, DOI 10.1039/c8ja00076j
+   Peng JY, 2017, SCI REP-UK, V7, P0, DOI 10.1038/srep44551
+   Shen Tao, 2019, YINGYONG SHENGTAI XUEBAO, V30, P2291, DOI 10.13287/j.1001-9332.201907.003
+   Shen T, 2019, MOLECULES, V24, P0, DOI 10.3390/molecules24142562
+   Shen TT, 2018, MOLECULES, V23, P0, DOI 10.3390/molecules23112930
+   Shi Ting-Ting, 2019, ZHONGGUO ZHONG YAO ZA ZHI, V44, P4073, DOI 10.19540/j.cnki.cjcmm.20190731.104
+   Stefas D, 2019, ATOMS, V7, P0, DOI 10.3390/atoms7030079
+   Strobl C, 2009, PSYCHOL METHODS, V14, P323, DOI 10.1037/a0016973
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Vapnik V, 2000, NEURAL COMPUT, V12, P2013, DOI 10.1162/089976600300015042
+   Wu S, 2019, IEEE T NEUR NET LEAR, V30, P2043, DOI 10.1109/TNNLS.2018.2876179
+   Yan TY, 2021, FRONT PLANT SCI, V12, P0, DOI 10.3389/fpls.2021.604510
+   Yu KQ, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep27574
+   Yu XJ, 2018, CHEMOMETR INTELL LAB, V172, P188, DOI 10.1016/j.chemolab.2017.12.010
+   Zhang JN, 2020, FRONT PLANT SCI, V11, P0, DOI 10.3389/fpls.2020.00821
+   Zhao J, 2010, BRIEF BIOINFORM, V11, P417, DOI 10.1093/bib/bbp063
+   Zhao Y, 2020, MEAT SCI, V165, P0, DOI 10.1016/j.meatsci.2020.108129
+   Zhao YL, 2020, ANAL METHODS-UK, V12, P2260, DOI 10.1039/d0ay00309c
+NR 37
+TC 1
+Z9 1
+U1 10
+U2 28
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 
+EI 2624-8212
+J9 FRONT ARTIF INTELL
+JI Front. Artif. Intell.
+PD JUN 15
+PY 2021
+VL 4
+IS 
+BP 
+EP 
+DI 10.3389/frai.2021.735533
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Information Systems
+SC Computer Science
+GA YT9WW
+UT WOS:000751704800149
+PM 34957390
+DA 2023-04-26
+ER
+
+PT J
+AU Gadasin, DV
+   Shvedov, AV
+   Kuzin, IA
+AF Gadasin, D., V
+   Shvedov, A., V
+   Kuzin, I. A.
+TI Reconstruction of a Three-Dimensional Scene from its Projections in Computer Vision Systems
+SO 2021 INTELLIGENT TECHNOLOGIES AND ELECTRONIC DEVICES IN VEHICLE AND ROAD TRANSPORT COMPLEX (TIRVED)
+LA English
+DT Proceedings Paper
+DE Three-dimensional reconstruction; computer vision; depth map; scene reconstruction; three-dimensional images; stereo mapping; CNN
+AB The problem of reconstructing a three-dimensional scene from its projections is one of the most urgent and studied among the problems solved by computer vision methods. Most often, such systems are implemented by creating geographically distributed complexes that require the transfer of a large amount of data between their components, which creates a large load on the transmission lines. Scene reconstruction using projections obtained from several observation points is a special case and is not always possible, especially when used in unmanned aerial vehicles or autonomous vehicles. To resolve these limitations, the possibility of using a computer stereoscopic vision system and a three-dimensional convolutional neural network capable of reconstructing a complete scene from a single image containing subjective characteristics of scene objects, such as color and depth, is considered in this work, creating its three-dimensional representation. The article describes the architecture and principle of operation of a neural network, and also builds a model of a computer stereo vision stand for image registration. An image formation algorithm is proposed for this model.
+C1 [Gadasin, D., V; Shvedov, A., V; Kuzin, I. A.] Moscow Tech Univ Commun & Informat, Moscow, Russia.
+C3 Moscow Technical University of Communications & Informatics
+RP Gadasin, DV (corresponding author), Moscow Tech Univ Commun & Informat, Moscow, Russia.
+EM dengadiplom@mail.ru; a.v.shvedov@mtuci.ru; IvanKuzin-forwork@yandex.ru
+CR Davies ER, 2004, MACHINE VISION THEOR, V0, P0
+   Fusiello A., 1997, IMAGE ANAL PROCESSIN, V1310, P0, DOI 10.1007/3-540-63507-6_259
+   Gadasin DV, 2021, 2021 SYSTEMS OF SIGNAL SYNCHRONIZATION, V0, P0, DOI 10.1109/SYNCHROINFO51390.2021.9488349
+   Gadasin DV, 2019, 2019 SYSTEMS OF SIGNALS GENERATING AND PROCESSING IN THE FIELD OF ON BOARD COMMUNICATIONS, V0, P0
+   Gadasin D.V., 2021, 2021 WAVE ELECT ITS, V0, PP1, DOI 10.1109/WECONF51603.2021.9470710
+   Gadasin D. V., 2020, 2020 INT C ENG MAN C, V0, PP1, DOI 10.1109/EMCTECH49634.2020.9261538
+   Gadasin DV, 2018, 2018 SYSTEMS OF SIGNALS GENERATING AND PROCESSING IN THE FIELD OF ON BOARD COMMUNICATIONS, V0, P0
+   Kotov A.P., 2016, MAT 2 INT C YOUTH SC, V0, P988
+   Lucas B. D., 1981, P 7 INT JOINT C ART, V0, P0
+   Roy S, 1998, SIXTH INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP492, DOI 10.1109/ICCV.1998.710763
+   Scharstein D, 2002, INT J COMPUT VISION, V47, P7, DOI 10.1023/A:1014573219977
+   Seitz Steven M, 2006, IEEE C COMP VIS PATT, V0, P0, DOI DOI 10.1109/CVPR.2006.19
+   Shvedov A. V., 1900, V2021, V0, PP1, DOI 10.1109/IEEECONF51389.2021.9416072
+   Shvedov A.V., 2020, P 2020 INT C ENG MAN, V0, P1
+   Zbontar J, 2015, PROC CVPR IEEE, V0, PP1592, DOI 10.1109/CVPR.2015.7298767
+   Zhang ZY, 2000, IEEE T PATTERN ANAL, V22, P1330, DOI 10.1109/34.888718
+NR 16
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2021
+VL 0
+IS 
+BP 
+EP 
+DI 10.1109/TIRVED53476.2021.9639161
+PG 8
+WC Automation & Control Systems; Transportation Science & Technology
+SC Automation & Control Systems; Transportation
+GA BS8EE
+UT WOS:000771713900040
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, ZW
+   Wu, J
+   Liu, XD
+   Garg, H
+AF Wang, Zengwen
+   Wu, Jian
+   Liu, Xiaodi
+   Garg, Harish
+TI New Framework for FCMs Using Dual Hesitant Fuzzy Sets with an Analysis of Risk Factors in Emergency Event
+SO INTERNATIONAL JOURNAL OF COMPUTATIONAL INTELLIGENCE SYSTEMS
+LA English
+DT Article
+DE Dual hesitant fuzzy sets; Fuzzy cognitive maps; Dual hesitant fuzzy cognitive maps; Similarity measure; Emergency decision-making
+ID attribute decision-making; nuclear-power-plant; cognitive map; similarity measures; management model; breast-cancer; distance; information; networks; feedback
+AB As a kind of soft computing tool with strong knowledge representation and causal reasoning ability, fuzzy cognitive maps (FCMs) is a product of fuzzy logic and neural network. A limitation of the current FCMs method is its inability to model the uncertainty that is introduced into a complex system due to the hesitancy of people. Dual hesitant fuzzy sets (DHFSs), which considers the membership and nonmembership degrees by a set of possible values respectively, is an effective tool to model the hesitancy and epistemic uncertainty. Thus, a novel extension of FCMs model called dual hesitant fuzzy cognitive maps (DHFCMs) is proposed in this paper. Firstly, motivated by the idea of Technique of Order Preference Similarity to the Ideal Solution (TOPSIS) method, a new similarity measure based on dual hesitant fuzzy distance measure is put forward, and its properties are also discussed. Then, detailed procedure and algorithm for DHFCMs are specified. Moreover, the application steps of the proposed met hod are provided. Finally, a case study on the huge explosion at 'Tianjin Port in China in 2015 is given to illustrate the rationality and effectiveness of the proposed method. (C) 2021 The Authors. Published by Atlantis Press B.V.
+C1 [Wang, Zengwen; Wu, Jian] Wuhan Univ, Researching Ctr Social Secur, Wuhan 430072, Hubei, Peoples R China.
+   [Liu, Xiaodi] Anhui Univ Technol, Sch Math & Phys, Maanshan 243002, Peoples R China.
+   [Liu, Xiaodi] Anhui Univ Technol, Key Lab Multidisciplinary Management & Control Co, Maanshan 243002, Peoples R China.
+   [Garg, Harish] Thapar Inst Engn & Technol Deemed Univ, Sch Math, Patiala 147004, Punjab, India.
+C3 Wuhan University; Anhui University of Technology; Anhui University of Technology; Thapar Institute of Engineering & Technology
+RP Liu, XD (corresponding author), Anhui Univ Technol, Sch Math & Phys, Maanshan 243002, Peoples R China.; Liu, XD (corresponding author), Anhui Univ Technol, Key Lab Multidisciplinary Management & Control Co, Maanshan 243002, Peoples R China.
+EM lxy1160@163.com
+FU National Natural Science Foundation of China [71601002, 72074001]; Foundation for Young Talents in College of Anhui Province [gxyqZD2018033]; major project of Humanities and Social Sciences of Ministry of Education of China [16JJD840008]; Open Fund of Key Laboratory of Anhui Higher Education Institutes [CS2020-02]; Fundamental Research Funds for the Central Universities [2020AI017]
+CR [Anonymous], 2006, THESIS, V0, P0
+   ATANASSOV KT, 1986, FUZZY SET SYST, V20, P87, DOI 10.1016/S0165-0114(86)80034-3
+   Baykasoglu A, 2015, INFORM SCIENCES, V301, P75, DOI 10.1016/j.ins.2014.12.048
+   Choi J, 2017, PUBLIC RELAT REV, V43, P1016, DOI 10.1016/j.pubrev.2017.09.004
+   Coban V, 2017, INT J COMPUT INT SYS, V10, P1149
+   Deng Julong, 1989, JOURNAL OF GREY SYSTEMS, V1, P1
+   Faubet P, 2008, GENETICS, V178, P1491, DOI 10.1534/genetics.107.082560
+   Feng Yan, 2013, APPLIED MECHANICS AND MATERIALS, V389, P136, DOI 10.4028/www.scientific.net/AMM.389.136
+   FU LM, 1991, SIMULATION, V56, P251, DOI 10.1177/003754979105600409
+   Garg H, 2018, ARAB J SCI ENG, V43, P3213, DOI 10.1007/s13369-017-2986-0
+   Garg H, 2018, SOFT COMPUT, V22, P4959, DOI 10.1007/s00500-018-3202-1
+   Garg H, 2017, INT J UNCERTAIN QUAN, V7, P229, DOI 10.1615/Int.J.UncertaintyQuantification.2017019801
+   Gitinavard H., 2017, INT J APPL MANAG SCI, V9, P253, DOI 10.1504/IJAMS.2017.088225
+   Hwang C.L., 1981, LECT NOTES EC MATH S, V0, P0
+   Iakovidis DK, 2011, IEEE T INF TECHNOL B, V15, P100, DOI 10.1109/TITB.2010.2093603
+   Kang I, 2004, EXPERT SYST APPL, V26, P545, DOI 10.1016/j.eswa.2003.10.012
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Lee S, 2000, INFORM MANAGE, V37, P37, DOI 10.1016/S0378-7206(99)00033-6
+   Levy JK, 2007, MATH COMPUT MODEL, V46, P906, DOI 10.1016/j.mcm.2007.03.001
+   Li Y, 2014, APPL SOFT COMPUT, V22, P504, DOI 10.1016/j.asoc.2014.03.042
+   Liao HC, 2014, INT J INF TECH DECIS, V13, P47, DOI 10.1142/S0219622014500035
+   Liu XD, 2019, ADAPT BEHAV, V27, P331, DOI 10.1177/1059712319858623
+   Liu XD, 2019, INT J COMPUT INT SYS, V12, P842, DOI 10.2991/ijcis.d.190722.001
+   Liu XD, 2018, TECHNOL ECON DEV ECO, V24, P1979, DOI 10.3846/tede.2018.5837
+   Liu XD, 2018, COMPLEXITY, V0, P0, DOI DOI 10.1155/2018/5145348
+   Liu XD, 2017, J BUS ECON MANAG, V18, P726, DOI 10.3846/16111699.2017.1341848
+   Liu Y, 2014, COMPUT OPER RES, V42, P75, DOI 10.1016/j.cor.2012.08.008
+   Liu Y, 2014, COMPUT OPER RES, V42, P49, DOI 10.1016/j.cor.2012.08.015
+   Miao Y, 2001, IEEE T FUZZY SYST, V9, P760, DOI 10.1109/91.963762
+   Ohnishi T, 2012, RADIAT RES, V177, P1, DOI 10.1667/RR2830.1
+   Osei-Bryson KM, 2004, COMPUT OPER RES, V31, P1165, DOI 10.1016/S0305-0548(03)00070-4
+   Papageorgiou EI, 2006, INT J HUM-COMPUT ST, V64, P727, DOI 10.1016/j.ijhcs.2006.02.009
+   Papageorgiou EI, 2015, COMPUT METH PROG BIO, V122, P123, DOI 10.1016/j.cmpb.2015.07.003
+   Papageorgiou EI, 2013, IEEE T FUZZY SYST, V21, P342, DOI 10.1109/TFUZZ.2012.2214224
+   Singh P, 2017, COMPUT APPL MATH, V36, P111, DOI 10.1007/s40314-015-0219-2
+   Song HJ, 2010, NEURAL NETWORKS, V23, P1264, DOI 10.1016/j.neunet.2010.08.003
+   Stach W, 2008, IEEE T FUZZY SYST, V16, P61, DOI 10.1109/TFUZZ.2007.902020
+   Su Z, 2015, J INTELL FUZZY SYST, V29, P731, DOI 10.3233/IFS-141474
+   Subramanian J, 2015, COMPUT METH PROG BIO, V118, P280, DOI 10.1016/j.cmpb.2015.01.001
+   Torra V, 2010, INT J INTELL SYST, V25, P529, DOI 10.1002/int.20418
+   Tzeng GH, 2010, SOFT COMPUT, V14, P1141, DOI 10.1007/s00500-009-0507-0
+   Voropai N. I., 2011, IFAC P, V44, P1658
+   Voropai N. I., 2013, IFAC P, V46, P245
+   Wada K, 2012, OCCUP ENVIRON MED, V69, P599, DOI 10.1136/oemed-2011-100587
+   Wang L., 2013, J APPL MATH, V2013, P12
+   Wang L, 2014, PROCEEDINGS OF 2014 IEEE INTERNATIONAL CONFERENCE ON PROGRESS IN INFORMATICS AND COMPUTING (PIC), V0, PP88, DOI 10.1109/PIC.2014.6972302
+   Wu J, 2019, IEEE ACCESS, V7, P7054, DOI 10.1109/ACCESS.2018.2890110
+   Yang SH, 2015, J INTELL FUZZY SYST, V28, P1533, DOI 10.3233/IFS-141436
+   Ye J, 2014, APPL MATH MODEL, V38, P659, DOI 10.1016/j.apm.2013.07.010
+   Ye X.R., 2006, THEORY PRACTICE CRIS, V0, P0
+   ZADEH LA, 1965, INFORM CONTROL, V8, P338, DOI 10.1016/S0019-9958(65)90241-X
+   Zhang BW, 2020, EUR J OPER RES, V287, P546, DOI 10.1016/j.ejor.2020.04.014
+   Zhang GQ, 2009, STOCH ENV RES RISK A, V23, P517, DOI 10.1007/s00477-008-0237-3
+   Zhang HJ, 2020, INFORM FUSION, V60, P65, DOI 10.1016/j.inffus.2020.03.001
+   Zhang HJ, 2020, IISE TRANS, V52, P1275, DOI 10.1080/24725854.2020.1731774
+   Zhang Z, 2020, KNOWL-BASED SYST, V204, P0, DOI 10.1016/j.knosys.2020.106240
+   Zhang Z, 2021, J OPER RES SOC, V72, P1914, DOI 10.1080/01605682.2020.1748529
+   Zhang Z, 2020, IEEE T FUZZY SYST, V28, P2875, DOI 10.1109/TFUZZ.2019.2949758
+   Zhou Q, 2011, SAFETY SCI, V49, P243, DOI 10.1016/j.ssci.2010.08.005
+   Zhou S, 2006, IEEE T FUZZY SYST, V14, P412, DOI 10.1109/TFUZZ.2006.876335
+   Zhu B, 2012, J APPL MATH, V0, P0, DOI DOI 10.1155/2012/879629
+NR 61
+TC 8
+Z9 8
+U1 13
+U2 30
+PU SPRINGERNATURE
+PI LONDON
+PA CAMPUS, 4 CRINAN ST, LONDON, N1 9XW, ENGLAND
+SN 1875-6891
+EI 1875-6883
+J9 INT J COMPUT INT SYS
+JI Int. J. Comput. Intell. Syst.
+PD JUN 15
+PY 2021
+VL 14
+IS 1
+BP 67
+EP 78
+DI 10.2991/ijcis.d.201015.001
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications
+SC Computer Science
+GA PU2UI
+UT WOS:000609160600002
+DA 2023-04-26
+ER
+
+PT J
+AU Zuo, YF
+   Fu, X
+   Liu, ZY
+   Huang, D
+AF Zuo, Yufan
+   Fu, Xiao
+   Liu, Zhiyuan
+   Huang, Di
+TI Short-term forecasts on individual accessibility in bus system based on neural network model
+SO JOURNAL OF TRANSPORT GEOGRAPHY
+LA English
+DT Article
+DE Individual accessibility; Bus system; Neural network model; Smart card records; Points of interest
+ID rapid-transit; equity; travel; quality; time
+AB Precise forecasts on individual accessibility in bus system can help make policies to accommodate fluctuating bus travel demand and promoting social equity. In this study, we propose a three-stage method for short-term forecasts on individual accessibility in bus system based on neural network (NN) model. In the first stage, a NN model is designed to tackle the nonlinear mapping between passengers' bus trip appearances in historical periods and those in the predicted period. A rate function, which considers bus trip generation rates of passengers, is then applied using outputs of the designed NN model. In the second stage, probabilities of origindestinations (ODs) chosen by passengers in the predicted period are calculated. In the third stage, land use information combined with results of previous two stages are used to obtain the individual accessibility in bus system in the predicted period. Compared to individual accessibility calculated by real data, it is found that the average errors of predicted results by the proposed method in weekdays and at weekends are only 8.37% and 10.13%, respectively. The results also demonstrate the capability of combining a NN model, traffic data and land use information to forecast the future spatial distribution of individual accessibility in transport system.
+C1 [Zuo, Yufan; Fu, Xiao; Liu, Zhiyuan] Southeast Univ, Jiangsu Prov Collaborat Innovat Ctr Modern Urban, Sch Transportat, Jiangsu Key Lab Urban ITS, Nanjing 211189, Peoples R China.
+   [Huang, Di] Hong Kong Polytech Univ, Dept Logist & Maritime Studies, Hong Kong, Peoples R China.
+C3 Southeast University - China; Hong Kong Polytechnic University
+RP Fu, X (corresponding author), Southeast Univ, Jiangsu Prov Collaborat Innovat Ctr Modern Urban, Sch Transportat, Jiangsu Key Lab Urban ITS, Nanjing 211189, Peoples R China.
+EM fuxiao@seu.edu.cn
+FU National Natural Science Foundation of China [71601045]; MOE (Ministry of Education in China) Project of Humanities, Social Sciences [20YJAZH083]; "Zhishan" Scholars Programs of Southeast University
+CR [Anonymous], 2014, INT C LEARN REPR ICL, V0, P0
+   Ben-Elia E, 2019, TRANSPORT RES A-POL, V120, P31, DOI 10.1016/j.tra.2018.11.017
+   Cao XY, 2010, INT J SUSTAIN TRANSP, V4, P347, DOI 10.1080/15568310903145212
+   Chen BY, 2019, TRANSPORT RES D-TR E, V75, P156, DOI 10.1016/j.trd.2019.08.027
+   Chen BY, 2018, ANN AM ASSOC GEOGR, V108, P1115, DOI 10.1080/24694452.2017.1411244
+   Cohen T, 2020, J TRANSP GEOGR, V88, P0, DOI 10.1016/j.jtrangeo.2020.102863
+   Devkota B, 2012, J TRANSP GEOGR, V24, P282, DOI 10.1016/j.jtrangeo.2012.03.007
+   El-Geneidy A, 2016, TRANSPORT RES A-POL, V91, P302, DOI 10.1016/j.tra.2016.07.003
+   Fu X., 2020, TRANSP A TRANSP SCI, V2, P1
+   Fu X, 2018, TRANSPORTATION, V45, P23, DOI 10.1007/s11116-016-9720-8
+   Geurs K, 2010, TRANSPORT RES D-TR E, V15, P382, DOI 10.1016/j.trd.2010.04.006
+   Gholamialam A, 2019, GEOGR ANAL, V51, P73, DOI 10.1111/gean.12159
+   Hu LQ, 2015, PROF GEOGR, V67, P154, DOI 10.1080/00330124.2014.886920
+   Huang J, 2019, CITIES, V86, P83, DOI 10.1016/j.cities.2018.11.021
+   Huang J, 2015, J TRANSP GEOGR, V48, P145, DOI 10.1016/j.jtrangeo.2015.09.004
+   Iacono M, 2010, J TRANSP GEOGR, V18, P133, DOI 10.1016/j.jtrangeo.2009.02.002
+   Jia R, 2018, ACCIDENT ANAL PREV, V121, P223, DOI 10.1016/j.aap.2018.09.018
+   Kim S, 2013, TRANSPORT RES REC, V0, PP109, DOI 10.3141/2357-13
+   Kwan MP, 2003, GEOGR ANAL, V35, P341
+   Lam WHK, 2018, IN C IND ENG ENG MAN, V0, PP1623, DOI 10.1109/IEEM.2018.8607359
+   Lee K, 2019, GEOGR ANAL, V51, P339, DOI 10.1111/gean.12166
+   Lessa DA, 2019, J TRANSP GEOGR, V77, P1, DOI 10.1016/j.jtrangeo.2019.04.004
+   Levine J., 2006, ZONED OUT REGULATION, V0, P0
+   Li HY, 2019, APPL SOFT COMPUT, V83, P0, DOI 10.1016/j.asoc.2019.105620
+   Liu L, 2016, GEOJOURNAL, V81, P817, DOI 10.1007/s10708-016-9739-6
+   Liu R., 2008, TRANSP RED, V59, P478
+   Liu ZC, 2020, J TRANSP ENG A-SYST, V146, P0, DOI 10.1061/JTEPBS.0000429
+   Liu ZY, 2019, TRANSPORT RES C-EMER, V108, P130, DOI 10.1016/j.trc.2019.09.006
+   Lucas K, 2016, TRANSPORTATION, V43, P473, DOI 10.1007/s11116-015-9585-2
+   Lucas K, 2012, TRANSPORT POLICY, V20, P107, DOI 10.1016/j.tranpol.2012.01.013
+   Ma ZL, 2014, TRANSPORT RES C-EMER, V39, P148, DOI 10.1016/j.trc.2013.12.008
+   Menon AK, 2017, CIKM17: PROCEEDINGS OF THE 2017 ACM CONFERENCE ON INFORMATION AND KNOWLEDGE MANAGEMENT, V0, PP2207, DOI 10.1145/3132847.3133058
+   Miller H, 2007, GEOGR COMPASS, V1, P503, DOI 10.1111/j.1749-8198.2007.00025.x
+   Mulley C, 2017, INT J SUSTAIN TRANSP, V11, P3, DOI 10.1080/15568318.2015.1106223
+   Neutens T, 2015, J TRANSP GEOGR, V43, P14, DOI 10.1016/j.jtrangeo.2014.12.006
+   Neutens T, 2010, APPL GEOGR, V30, P561, DOI 10.1016/j.apgeog.2010.05.006
+   Oviedo D, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11102795
+   Pan YJ, 2020, J TRANSP GEOGR, V83, P0, DOI 10.1016/j.jtrangeo.2020.102663
+   Pereira RHM, 2017, TRANSPORT REV, V37, P170, DOI 10.1080/01441647.2016.1257660
+   Polson NG, 2017, TRANSPORT RES C-EMER, V79, P1, DOI 10.1016/j.trc.2017.02.024
+   Rodriguez C, 2017, TRANSPORT RES REC, V0, PP35, DOI 10.3141/2634-06
+   Tsai TH, 2009, EXPERT SYST APPL, V36, P3728, DOI 10.1016/j.eswa.2008.02.071
+   van Wee B, 2011, EUR J TRANSP INFRAST, V11, P350
+   Xing HF, 2018, COMPUT ENVIRON URBAN, V72, P134, DOI 10.1016/j.compenvurbsys.2018.06.005
+   Xu MY, 2017, J TRANSP GEOGR, V62, P38, DOI 10.1016/j.jtrangeo.2017.05.010
+   Zhang JL, 2020, IET INTELL TRANSP SY, V14, P1210, DOI 10.1049/iet-its.2019.0873
+   Zhu JZ, 2014, TRANSPORT RES C-EMER, V47, P139, DOI 10.1016/j.trc.2014.06.011
+   Zuo YF, 2020, GEO-SPAT INF SCI, V23, P248, DOI 10.1080/10095020.2020.1783189
+NR 48
+TC 12
+Z9 12
+U1 12
+U2 40
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0966-6923
+EI 1873-1236
+J9 J TRANSP GEOGR
+JI J. Transp. Geogr.
+PD MAY 15
+PY 2021
+VL 93
+IS 
+BP 
+EP 
+DI 10.1016/j.jtrangeo.2021.103075
+EA MAY 2021
+PG 9
+WC Economics; Geography; Transportation
+SC Business & Economics; Geography; Transportation
+GA SO7RV
+UT WOS:000659173600005
+DA 2023-04-26
+ER

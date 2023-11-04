@@ -1,0 +1,596 @@
+
+PT J
+AU Yuan, LN
+   Li, L
+   Zhang, T
+   Chen, LQ
+   Liu, WQ
+   Hu, S
+   Yang, LH
+AF Yuan, Lina
+   Li, Long
+   Zhang, Ting
+   Chen, Longqian
+   Liu, Weiqiang
+   Hu, Sai
+   Yang, Longhua
+TI Modeling Soil Moisture from Multisource Data by Stepwise Multilinear Regression: An Application to the Chinese Loess Plateau
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE relative soil moisture; Chinese Loess Plateau; stepwise multilinear regression; dummy variables
+ID multiple-linear-regression; artificial neural-networks; land-surface model; water content; data assimilation; small catchment; amsr-e; temporal variations; dummy variables; re-vegetation
+AB This study aims to integrate multisource data to model the relative soil moisture (RSM) over the Chinese Loess Plateau in 2017 by stepwise multilinear regression (SMLR) in order to improve the spatial coverage of our previously published RSM. First, 34 candidate variables (12 quantitative and 22 dummy variables) from the Moderate Resolution Imaging Spectroradiometer (MODIS) and topographic, soil properties, and meteorological data were preprocessed. Then, SMLR was applied to variables without multicollinearity to select statistically significant (p-value < 0.05) variables. After the accuracy assessment, monthly, seasonal, and annual spatial patterns of RSM were mapped at 500 m resolution and evaluated. The results indicate that there was a high potential of SMLR to model RSM with the desired accuracy (best fit of the model with Pearson's r = 0.969, root mean square error = 0.761%, and mean absolute error = 0.576%) over the Chinese Loess Plateau. The variables of elevation (0-500 m and 2000-2500 m), precipitation, soil texture of loam, and nighttime land surface temperature can continuously be used in the regression models for all seasons. Including dummy variables improved the model fit both in calibration and validation. Moreover, the SMLR-modeled RSM achieved better spatial coverage than that of the reference RSM for almost all periods. This is a significant finding as the SMLR method supports the use of multisource data to complement and/or replace coarse resolution satellite imagery in the estimation of RSM.
+C1 [Yuan, Lina; Li, Long; Zhang, Ting; Chen, Longqian] China Univ Min & Technol, Sch Publ Policy & Management, Daxue Rd 1, Xuzhou 221116, Jiangsu, Peoples R China.
+   [Li, Long] Vrije Univ Brussel, Dept Geog & Earth Syst Sci, Pl Laan 2, B-1050 Brussels, Belgium.
+   [Liu, Weiqiang] China Univ Min & Technol, Sch Environm & Spatial Informat, Daxue Rd 1, Xuzhou 221116, Jiangsu, Peoples R China.
+   [Hu, Sai] Jiangsu Ocean Univ, Sch Humanities & Law, Cangwu Rd 59, Lianyungang 222005, Peoples R China.
+   [Yang, Longhua] Shanghai Gongjing Environm Protect Co Ltd, Dept Res & Dev, Yuanjiang Rd 525, Shanghai 201100, Peoples R China.
+C3 China University of Mining & Technology; Vrije Universiteit Brussel; China University of Mining & Technology; Jiangsu Ocean University
+RP Chen, LQ (corresponding author), China Univ Min & Technol, Sch Publ Policy & Management, Daxue Rd 1, Xuzhou 221116, Jiangsu, Peoples R China.
+EM lnyuan@cumt.edu.cn; long.li@cumt.edu.cn; tingzhang@cumt.edu.cn; chenlq@cumt.edu.cn; weiqiang.liu@cumt.edu.cn; saihu@jou.edu.cn; yanglh3@163.com
+FU Fundamental Research Funds for the Central Universities [2018ZDPY07]
+CR Abowarda AS, 2021, REMOTE SENS ENVIRON, V255, P0, DOI 10.1016/j.rse.2021.112301
+   Albertson JD, 2001, J HYDROL, V243, P101, DOI 10.1016/S0022-1694(00)00405-4
+   Awange JL, 2014, ADV WATER RESOUR, V74, P64, DOI 10.1016/j.advwatres.2014.07.012
+   Bayat AT, 2020, PROCEEDINGS OF 2020 IEEE INTERNATIONAL WORKSHOP ON METROLOGY FOR AGRICULTURE AND FORESTRY (METROAGRIFOR), V0, PP201, DOI 10.1109/MetroAgriFor50201.2020.9277557
+   Bortolini D, 2018, REV BRAS CIENC SOLO, V42, P0, DOI 10.1590/18069657rbcs20170250
+   Brust C, 2021, REMOTE SENS ENVIRON, V255, P0, DOI 10.1016/j.rse.2020.112277
+   Capodici F, 2020, GEOSCIENCES, V10, P0, DOI 10.3390/geosciences10010023
+   Carranza C, 2021, J HYDROL, V593, P0, DOI 10.1016/j.jhydrol.2020.125840
+   Cenci L, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121950
+   Chakravorty A, 2016, REMOTE SENS ENVIRON, V186, P514, DOI 10.1016/j.rse.2016.09.011
+   Chen DS, 2017, FORESTS, V8, P0, DOI 10.3390/f8080268
+   Chen JA, 2011, INT J REMOTE SENS, V32, P1165, DOI 10.1080/01431160903527421
+   Chen MX, 2020, EARTH SPACE SCI, V7, P0, DOI 10.1029/2020EA001108
+   Chen T, 2014, REMOTE SENS ENVIRON, V140, P330, DOI 10.1016/j.rse.2013.08.022
+   Chen ZL, 2019, CHEMOMETR INTELL LAB, V195, P0, DOI 10.1016/j.chemolab.2019.103874
+   Cheng L, 2019, INT J ENV RES PUB HE, V16, P0, DOI 10.3390/ijerph16193522
+   Claps P, 2004, P SOC PHOTO-OPT INS, V5232, P378, DOI 10.1117/12.510984
+   COHEN A, 1991, AM STAT, V45, P226, DOI 10.2307/2684296
+   Colliander A, 2017, IEEE GEOSCI REMOTE S, V14, P2107, DOI 10.1109/LGRS.2017.2753203
+   Cox NJ, 2019, STATA J, V19, P246, DOI 10.1177/1536867X19830921
+   Djamai N, 2016, REMOTE SENS ENVIRON, V184, P1, DOI 10.1016/j.rse.2016.06.010
+   Djamai N, 2015, REMOTE SENS ENVIRON, V170, P255, DOI 10.1016/j.rse.2015.09.013
+   Dong JZ, 2015, ADV WATER RESOUR, V83, P111, DOI 10.1016/j.advwatres.2015.05.017
+   Dorigo W, 2016, INT J APPL EARTH OBS, V48, P1, DOI 10.1016/j.jag.2016.02.007
+   Doubkova M, 2012, REMOTE SENS ENVIRON, V120, P188, DOI 10.1016/j.rse.2011.09.031
+   Dumedah G, 2014, ADV WATER RESOUR, V74, P231, DOI 10.1016/j.advwatres.2014.09.011
+   Dumedah G, 2014, J HYDROL, V515, P330, DOI 10.1016/j.jhydrol.2014.04.068
+   Ebrahimi-Khusfi M, 2018, INT J APPL EARTH OBS, V67, P148, DOI 10.1016/j.jag.2017.12.005
+   Eeftens M, 2012, ENVIRON SCI TECHNOL, V46, P11195, DOI 10.1021/es301948k
+   Elshorbagy A, 2008, J HYDROL, V362, P1, DOI 10.1016/j.jhydrol.2008.08.012
+   Fang B, 2014, J HYDROL, V516, P258, DOI 10.1016/j.jhydrol.2013.12.008
+   Fu BJ, 2003, CATENA, V54, P197, DOI 10.1016/S0341-8162(03)00065-1
+   Futing Liao T., 2012, SAGE ENCY SOCIAL SCI, V0, P1
+   Geng R, 2017, BIOSYST ENG, V160, P95, DOI 10.1016/j.biosystemseng.2017.06.001
+   Gupta DK, 2017, ADV SPACE RES, V59, P996, DOI 10.1016/j.asr.2016.11.032
+   Han JQ, 2018, J HYDROL, V563, P65, DOI 10.1016/j.jhydrol.2018.05.051
+   He J, 2013, THERM SCI, V17, P1375, DOI 10.2298/TSCI1305375H
+   Hirsch-Eshkol T, 2014, LAND, V3, P1015, DOI 10.3390/land3031015
+   Holgersson T, 2016, J APPL STAT, V43, P1564, DOI 10.1080/02664763.2015.1092711
+   Hu W, 2011, GEODERMA, V162, P260, DOI 10.1016/j.geoderma.2011.02.008
+   Huza J, 2014, J HYDROL, V516, P330, DOI 10.1016/j.jhydrol.2014.01.041
+   Jenkins DG, 2020, PLOS ONE, V15, P0, DOI 10.1371/journal.pone.0229345
+   Jiao L, 2018, FOREST ECOL MANAG, V424, P428, DOI 10.1016/j.foreco.2018.05.011
+   Jiao Q, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020156
+   Karthikeyan L, 2017, ADV WATER RESOUR, V109, P236, DOI 10.1016/j.advwatres.2017.09.010
+   Khaki M, 2020, AUST J EARTH SCI, V67, P265, DOI 10.1080/08120099.2019.1620855
+   Kim S., 2019, REMOTE SENSING EARTH, V2, P225, DOI 10.1007/s41976-019-00025-7
+   Koley S, 2020, GEODERMA, V378, P0, DOI 10.1016/j.geoderma.2020.114618
+   Kumar SV, 2018, REMOTE SENS ENVIRON, V204, P392, DOI 10.1016/j.rse.2017.10.016
+   Lee Y, 2019, AGR WATER MANAGE, V213, P580, DOI 10.1016/j.agwat.2018.09.004
+   Leng P, 2014, INT J REMOTE SENS, V35, P988, DOI 10.1080/01431161.2013.875237
+   Li FQ, 2010, ADV WATER RESOUR, V33, P201, DOI 10.1016/j.advwatres.2009.11.007
+   Li L, 2020, FORESTS, V11, P0, DOI 10.3390/f11020125
+   Li L, 2018, EARTH SURF PROC LAND, V43, P840, DOI 10.1002/esp.4284
+   Li XZ, 2017, J HYDROL, V555, P659, DOI 10.1016/j.jhydrol.2017.10.045
+   Liu D, 2017, J HYDROL, V553, P88, DOI 10.1016/j.jhydrol.2017.07.049
+   Liu D, 2017, J HYDROL, V547, P67, DOI 10.1016/j.jhydrol.2017.01.036
+   Liu D, 2016, J HYDROL, V538, P243, DOI 10.1016/j.jhydrol.2016.04.021
+   Liu MS, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12113085
+   Liu YXY, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125406
+   Liu Y, 2021, IEEE J-STARS, V14, P1292, DOI 10.1109/JSTARS.2020.3043628
+   Lu L, 2014, INT J REMOTE SENS, V35, P3797, DOI 10.1080/01431161.2014.919677
+   [马红章 Ma Hongzhang], 2014, 遥感学报 JOURNAL OF REMOTE SENSING, V18, P673
+   Maheu A, 2018, J HYDROL, V558, P532, DOI 10.1016/j.jhydrol.2018.01.065
+   Mahmoud MA, 2015, QUAL RELIAB ENG INT, V31, P851, DOI 10.1002/qre.1644
+   Malbeteau Y, 2016, INT J APPL EARTH OBS, V45, P221, DOI 10.1016/j.jag.2015.10.002
+   McNally A, 2016, INT J APPL EARTH OBS, V48, P96, DOI 10.1016/j.jag.2016.01.001
+   Merlin O, 2015, REMOTE SENS-BASEL, V7, P3783, DOI 10.3390/rs70403783
+   Moon H, 2015, TERR ATMOS OCEAN SCI, V26, P599, DOI 10.3319/TAO.2015.04.22.01(Hy)
+   Nakamura K, 2017, CHEMOSPHERE, V186, P501, DOI 10.1016/j.chemosphere.2017.07.131
+   Niu CY, 2015, SOLID EARTH, V6, P1157, DOI 10.5194/se-6-1157-2015
+   Pahlavan-Rad MR, 2020, CATENA, V194, P0, DOI 10.1016/j.catena.2020.104715
+   Palombo A, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19071515
+   Pan J, 2017, ENVIRON SCI POLLUT R, V24, P23953, DOI 10.1007/s11356-017-9974-5
+   Panciera R, 2011, REMOTE SENS ENVIRON, V115, P3343, DOI 10.1016/j.rse.2011.07.017
+   Pasolli L, 2011, CAN J REMOTE SENS, V37, P535
+   Piles M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11010095
+   PRICE JC, 1985, REMOTE SENS ENVIRON, V18, P59, DOI 10.1016/0034-4257(85)90038-0
+   Qiu Y, 2003, CATENA, V54, P173, DOI 10.1016/S0341-8162(03)00064-X
+   Qiu Y, 2010, J ARID ENVIRON, V74, P208, DOI 10.1016/j.jaridenv.2009.08.003
+   Rahimi-Ajdadi F, 2018, MEASUREMENT, V121, P179, DOI 10.1016/j.measurement.2018.02.060
+   Raoult N, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111786
+   Sabaghy S, 2018, REMOTE SENS ENVIRON, V209, P551, DOI 10.1016/j.rse.2018.02.065
+   Sandells MJ, 2008, ADV WATER RESOUR, V31, P1433, DOI 10.1016/j.advwatres.2008.01.012
+   Santi E, 2018, INT J APPL EARTH OBS, V65, P114, DOI 10.1016/j.jag.2017.10.010
+   Sharma MJ, 2015, APPL MATH COMPUT, V253, P126, DOI 10.1016/j.amc.2014.12.050
+   Sharma S, 2021, INT J WILDLAND FIRE, V30, P57, DOI 10.1071/WF19193
+   Sharma S, 2018, RANGELAND ECOL MANAG, V71, P356, DOI 10.1016/j.rama.2018.01.001
+   Singh A.K., 2019, J SOIL SALIN WATER Q, V11, P68
+   Soleimani R, 2020, COMMUN SOIL SCI PLAN, V51, P2297, DOI 10.1080/00103624.2020.1822385
+   Spennemann PC, 2018, INT J APPL EARTH OBS, V64, P96, DOI 10.1016/j.jag.2017.08.016
+   Su CH, 2013, GLOBAL PLANET CHANGE, V101, P119, DOI 10.1016/j.gloplacha.2012.12.014
+   Sun AY, 2018, ADV WATER RESOUR, V112, P203, DOI 10.1016/j.advwatres.2017.12.019
+   Tagesson T, 2018, REMOTE SENS ENVIRON, V206, P424, DOI 10.1016/j.rse.2017.12.036
+   Tasumi M, 2013, AGR WATER MANAGE, V118, P22, DOI 10.1016/j.agwat.2012.10.019
+   Tayfur G, 2014, J HYDROL, V510, P363, DOI 10.1016/j.jhydrol.2013.12.045
+   Wagle P, 2014, REMOTE SENS ENVIRON, V152, P1, DOI 10.1016/j.rse.2014.05.010
+   Wang H, 2020, REMOTE SENS LETT, V11, P455, DOI 10.1080/2150704X.2020.1730469
+   Wang S, 2013, CATENA, V101, P122, DOI 10.1016/j.catena.2012.10.006
+   Wang SS, 2016, INT J APPL EARTH OBS, V48, P110, DOI 10.1016/j.jag.2015.10.010
+   Wang XH, 2018, ECOL INDIC, V95, P320, DOI 10.1016/j.ecolind.2018.07.058
+   Wang YK, 2021, J HYDROL, V593, P0, DOI 10.1016/j.jhydrol.2020.125865
+   Wang YQ, 2018, GEODERMA, V322, P1, DOI 10.1016/j.geoderma.2018.02.007
+   Wang ZX, 2019, ECON LETT, V177, P69, DOI 10.1016/j.econlet.2019.01.021
+   Wu C.L., 2020, ISPRS INT ARCH PHOTO, V42, P895, DOI 10.5194/isprs-archives-XLII-3-W10-895-2020
+   Wu ZH, 2019, ENVIRON EARTH SCI, V78, P0, DOI 10.1007/s12665-019-8111-9
+   Xin QC, 2020, INT J APPL EARTH OBS, V93, P0, DOI 10.1016/j.jag.2020.102189
+   Xin ZB, 2011, REG ENVIRON CHANGE, V11, P149, DOI 10.1007/s10113-010-0127-3
+   Xu CY, 2020, INT J APPL EARTH OBS, V91, P0, DOI 10.1016/j.jag.2020.102156
+   Xu L, 2015, REMOTE SENS-BASEL, V7, P14646, DOI 10.3390/rs71114646
+   Xu Q, 2003, ADV ATMOS SCI, V20, P849, DOI 10.1007/BF02915509
+   Yang RW, 2017, J MT SCI-ENGL, V14, P2284, DOI 10.1007/s11629-016-4262-2
+   Yang XY, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7040145
+   Yu BW, 2018, CATENA, V165, P125, DOI 10.1016/j.catena.2018.01.020
+   Yuan LA, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13040589
+   Yuan LN, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12183040
+   Zaussinger F, 2019, HYDROL EARTH SYST SC, V23, P897, DOI 10.5194/hess-23-897-2019
+   Zhang BQ, 2019, AGR FOREST METEOROL, V264, P247, DOI 10.1016/j.agrformet.2018.10.010
+   Zhang DJ, 2016, SENSORS-BASEL, V16, P0, DOI 10.3390/s16081308
+   Zhang X, 2016, CAN J REMOTE SENS, V42, P136, DOI 10.1080/07038992.2016.1175928
+   Zhao CL, 2017, CATENA, V158, P55, DOI 10.1016/j.catena.2017.06.006
+   Zhao JL, 2016, BIOGEOSCIENCES, V13, P4735, DOI 10.5194/bg-13-4735-2016
+   Zhao L, 2014, REMOTE SENS ENVIRON, V152, P345, DOI 10.1016/j.rse.2014.07.005
+NR 123
+TC 5
+Z9 5
+U1 10
+U2 34
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD APR 15
+PY 2021
+VL 10
+IS 4
+BP 
+EP 
+DI 10.3390/ijgi10040233
+PG 29
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA RR4JD
+UT WOS:000643065700001
+DA 2023-04-26
+ER
+
+PT J
+AU Zitzlsberger, G
+   Podhoranyi, M
+   Svaton, V
+   Lazecky, M
+   Martinovic, J
+AF Zitzlsberger, Georg
+   Podhoranyi, Michal
+   Svaton, Vaclav
+   Lazecky, Milan
+   Martinovic, Jan
+TI Neural Network-Based Urban Change Monitoring with Deep-Temporal Multispectral and SAR Remote Sensing Data
+SO REMOTE SENSING
+LA English
+DT Article
+DE urban change detection; continuous urban monitoring; neural network; SAR; optical multispectral; deep-temporal; ERS-1; ERS-2; Landsat 5 TM; Sentinel 1; Sentinel 2
+ID built-up index; impervious surface; extraction; land; classification; framework; space; pixel; area
+AB Remote-sensing-driven urban change detection has been studied in many ways for decades for a wide field of applications, such as understanding socio-economic impacts, identifying new settlements, or analyzing trends of urban sprawl. Such kinds of analyses are usually carried out manually by selecting high-quality samples that binds them to small-scale scenarios, either temporarily limited or with low spatial or temporal resolution. We propose a fully automated method that uses a large amount of available remote sensing observations for a selected period without the need to manually select samples. This enables continuous urban monitoring in a fully automated process. Furthermore, we combine multispectral optical and synthetic aperture radar (SAR) data from two eras as two mission pairs with synthetic labeling to train a neural network for detecting urban changes and activities. As pairs, we consider European Remote Sensing (ERS-1/2) and Landsat 5 Thematic Mapper (TM) for 1991-2011 and Sentinel 1 and 2 for 2017-2021. For every era, we use three different urban sites-Limassol, Rotterdam, and Liege-with at least 500 km(2) each, and deep observation time series with hundreds and up to over a thousand of samples. These sites were selected to represent different challenges in training a common neural network due to atmospheric effects, different geographies, and observation coverage. We train one model for each of the two eras using synthetic but noisy labels, which are created automatically by combining state-of-the-art methods, without the availability of existing ground truth data. To combine the benefit of both remote sensing types, the network models are ensembles of optical- and SAR-specialized sub-networks. We study the sensitivity of urban and impervious changes and the contribution of optical and SAR data to the overall solution. Our implementation and trained models are available publicly to enable others to utilize fully automated continuous urban monitoring.
+C1 [Zitzlsberger, Georg; Podhoranyi, Michal; Svaton, Vaclav; Lazecky, Milan; Martinovic, Jan] VSB Tech Univ Ostrava, IT4Innovat, Ostrava 70800, Czech Republic.
+   [Lazecky, Milan] Univ Leeds, Sch Earth & Environm, Leeds LS2 9JT, W Yorkshire, England.
+C3 Technical University of Ostrava; University of Leeds
+RP Zitzlsberger, G (corresponding author), VSB Tech Univ Ostrava, IT4Innovat, Ostrava 70800, Czech Republic.
+EM georg.zitzlsberger@vsb.cz
+FU ESA via the Blockchain ENabled DEep Learning for Space Data (BLENDED) project [4000129481/19/I-IT4I]; Ministry of Education, Youth and Sports from the National Programme of Sustainability (NPS II) project "IT4Innovations excellence in science" [LQ1602]; Ministry of Education, Youth and Sports of the Czech Republic [90140, OPEN-21-31]
+CR [Anonymous], 2018, CORR, V0, P0
+   Ansari RA, 2020, REMOTE SENS APPL, V20, P0, DOI 10.1016/j.rsase.2020.100418
+   Ban YF, 2012, IEEE J-STARS, V5, P1087, DOI 10.1109/JSTARS.2012.2201135
+   Benedek C, 2009, IEEE T GEOSCI REMOTE, V47, P3416, DOI 10.1109/TGRS.2009.2022633
+   Benedetti A, 2018, INT GEOSCI REMOTE SE, V0, P1962
+   Canty MJ, 2008, REMOTE SENS ENVIRON, V112, P1025, DOI 10.1016/j.rse.2007.07.013
+   Chen J., 2016, P WORKSH TRACK INT C, V0, P0
+   Chen JY, 2020, EUR J REMOTE SENS, V53, P274, DOI 10.1080/22797254.2020.1820383
+   Chen JY, 2019, J APPL REMOTE SENS, V13, P0, DOI 10.1117/1.JRS.13.016502
+   Chen THK, 2020, REMOTE SENS ENVIRON, V251, P0, DOI 10.1016/j.rse.2020.112096
+   Conradsen K, 2016, IEEE T GEOSCI REMOTE, V54, P3007, DOI 10.1109/TGRS.2015.2510160
+   Daudt RC, 2018, IEEE IMAGE PROC, V0, PP4063, DOI 10.1109/ICIP.2018.8451652
+   Daudt RC, 2018, INT GEOSCI REMOTE SE, V0, P2115
+   Demir I, 2018, IEEE COMPUT SOC CONF, V0, PP172, DOI 10.1109/CVPRW.2018.00031
+   Deng CB, 2020, REMOTE SENS ENVIRON, V238, P0, DOI 10.1016/j.rse.2018.10.011
+   Deng JS, 2008, INT J REMOTE SENS, V29, P4823, DOI 10.1080/01431160801950162
+   Diakogiannis FI, 2020, ISPRS J PHOTOGRAMM, V162, P94, DOI 10.1016/j.isprsjprs.2020.01.013
+   Esch T, 2020, INT J DIGIT EARTH, V13, P136, DOI 10.1080/17538947.2018.1548655
+   Esch T, 2017, ISPRS J PHOTOGRAMM, V134, P30, DOI 10.1016/j.isprsjprs.2017.10.012
+   Estoque RC, 2015, ECOL INDIC, V56, P205, DOI 10.1016/j.ecolind.2015.03.037
+   Faridatul MI, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7120453
+   Fisher P, 1997, INT J REMOTE SENS, V18, P679, DOI 10.1080/014311697219015
+   Gal Yarin, 2016, ADV NEURAL INFORM PR, V2016, P1019
+   Glorot X., 2011, P 14 INT C ART INT S, V0, P315
+   Gomez-Chova L, 2006, PATTERN RECOGN LETT, V27, P234, DOI 10.1016/j.patrec.2005.08.004
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Guha S, 2021, QUATERN INT, V575, P249, DOI 10.1016/j.quaint.2020.06.041
+   Huang B., 2018, ARXIV180512219, V0, P0
+   Huang B., 2019, ARXIV180512219, V0, P0
+   Isensee F, 2021, NAT METHODS, V18, P203, DOI 10.1038/s41592-020-01008-z
+   Jafari M, 2016, EUR J REMOTE SENS, V49, P513, DOI 10.5721/EuJRS20164927
+   Jiang M, 2020, ISPRS J PHOTOGRAMM, V169, P93, DOI 10.1016/j.isprsjprs.2020.08.023
+   Jing CB, 2021, REMOTE SENS ENVIRON, V255, P0, DOI 10.1016/j.rse.2021.112293
+   Ju C, 2018, J APPL STAT, V45, P2800, DOI 10.1080/02664763.2018.1441383
+   Kendall MG, 1938, BIOMETRIKA, V30, P81, DOI 10.2307/2332226
+   King MD, 2013, IEEE T GEOSCI REMOTE, V51, P3826, DOI 10.1109/TGRS.2012.2227333
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kundu K, 2020, J INDIAN SOC REMOTE, V48, P1535, DOI 10.1007/s12524-020-01177-6
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Lehner A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020173
+   Lu DS, 2011, ISPRS J PHOTOGRAMM, V66, P298, DOI 10.1016/j.isprsjprs.2010.10.010
+   Ma J, 2021, MED IMAGE ANAL, V71, P0, DOI 10.1016/j.media.2021.102035
+   Manzoni M, 2021, REMOTE SENS ENVIRON, V253, P0, DOI 10.1016/j.rse.2020.112152
+   Marconcini M, 2020, SCI DATA, V7, P0, DOI 10.1038/s41597-020-00580-5
+   Mitra D, 2018, APPL GEOGR, V97, P109, DOI 10.1016/j.apgeog.2018.04.012
+   Moreira A, 2013, IEEE GEOSC REM SEN M, V1, P6, DOI 10.1109/MGRS.2013.2248301
+   Muro J, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100795
+   Nguyen L., 2019, J AMBIENT INTELL HUM, V0, PP1, DOI 10.1007/S12652-019-01276-4
+   Nguyen T., 2020, P INT C LEARN REPR I, V0, P0
+   Nielsen AA, 2017, INT GEOSCI REMOTE SE, V0, PP3901, DOI 10.1109/IGARSS.2017.8127854
+   Pandey D, 2020, ADV SPACE RES, V66, P1829, DOI 10.1016/j.asr.2020.06.038
+   Patra S, 2007, LECT NOTES COMPUT SC, V4815, P161
+   Qin YW, 2017, ISPRS J PHOTOGRAMM, V124, P89, DOI 10.1016/j.isprsjprs.2016.12.011
+   Reina GA, 2020, FRONT NEUROSCI-SWITZ, V14, P0, DOI 10.3389/fnins.2020.00065
+   Roth HR, 2018, COMPUT MED IMAG GRAP, V66, P90, DOI 10.1016/j.compmedimag.2018.03.001
+   Roy M, 2014, IEEE GEOSCI REMOTE S, V11, P49, DOI 10.1109/LGRS.2013.2245855
+   Shahroudnejad A., 2021, ARXIV2021210201792, V0, P0
+   Shi X., 2015, ADV NEURAL INFORM PR, V28, P802, DOI 10.5555/2969239.2969329
+   SINGH A, 1989, INT J REMOTE SENS, V10, P989, DOI 10.1080/01431168908903939
+   Sinha S, 2020, ADV SPACE RES, V66, P1372, DOI 10.1016/j.asr.2020.05.040
+   Song H., 2020, ARXIV200708199, V0, P0
+   Susaki J, 2014, REMOTE SENS ENVIRON, V155, P334, DOI 10.1016/j.rse.2014.09.006
+   Valentin B, 2021, P 2021 C BIG DATA SP, V0, PP97, DOI 10.2760/125905.
+   Wania A, 2014, APPL GEOGR, V46, P35, DOI 10.1016/j.apgeog.2013.10.005
+   Xiao PF, 2016, ISPRS J PHOTOGRAMM, V119, P402, DOI 10.1016/j.isprsjprs.2016.07.003
+   Xu HQ, 2006, INT J REMOTE SENS, V27, P3025, DOI 10.1080/01431160600589179
+   Xu HQ, 2010, PHOTOGRAMM ENG REM S, V76, P557, DOI 10.14358/PERS.76.5.557
+   Yoo C, 2019, ISPRS J PHOTOGRAMM, V157, P155, DOI 10.1016/j.isprsjprs.2019.09.009
+   You YN, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12152460
+   Zhang HS, 2016, LANDSCAPE URBAN PLAN, V151, P55, DOI 10.1016/j.landurbplan.2016.03.009
+   Zhang M, 2020, IEEE T GEOSCI REMOTE, V58, P7232, DOI 10.1109/TGRS.2020.2981051
+   Zhang SH, 2018, IEEE ACCESS, V6, P41224, DOI 10.1109/ACCESS.2018.2857405
+   Zhong JL, 2020, J CLEAN PROD, V259, P0, DOI 10.1016/j.jclepro.2020.120754
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+   Zinkevich M., 2010, NEURAL INFORM PROCES, V0, P0
+NR 75
+TC 5
+Z9 5
+U1 7
+U2 31
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD AUG 15
+PY 2021
+VL 13
+IS 15
+BP 
+EP 
+DI 10.3390/rs13153000
+PG 31
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA TW3JO
+UT WOS:000682301100001
+DA 2023-04-26
+ER
+
+PT J
+AU Pang, JT
+   Zhang, R
+   Yu, B
+   Liao, MJ
+   Lv, JC
+   Xie, LX
+   Li, S
+   Zhan, JY
+AF Pang, Jiatai
+   Zhang, Rui
+   Yu, Bin
+   Liao, Mingjie
+   Lv, Jichao
+   Xie, Lingxiao
+   Li, Song
+   Zhan, Junyu
+TI Pixel-level rice planting information monitoring in Fujin City based on time-series SAR imagery
+SO INTERNATIONAL JOURNAL OF APPLIED EARTH OBSERVATION AND GEOINFORMATION
+LA English
+DT Article
+DE Rice planting information; Phenological analysis; Sentinel-1A; Fully convolutional neural network; Fujin City
+ID paddy rice; sentinel-1; extraction; southeast
+AB As the core issues of agricultural remote sensing, the mapping of crop planting and dynamic monitoring of crop growth in the urban area have always been limited by complex climatic conditions that induced optical image shortages. Considering that the backscattering signals of SAR image data are sensitive to crop phenological period, the paper presents a fully convolutional neural network (FCN) model to realize the wide-area planting thematic mapping at the pixel level. Taking Fujin City of Heilongjiang province in China as a specific study area, we selected rice as the typical research object and obtained urban-scale rice planting thematic mapping using Sentinel-1A image data derived from April to October 2020. Based on the proposed FCN classification method, the rice extraction precision is up to 95.7%, and the kappa coefficient is 0.90. Comparative analysis indicated that the proposed model is superior to the traditional random forest classification model in extraction precision and kappa coefficient. Further analysis showed that the rice growth cycle in Fujin City was consistent with the time series of VH/VV polarization coefficient ratio and had prominent phenological cycle characteristics. Relevant research data and results proved that high-precision planting thematic mapping at an urban scale could be achieved based on time series SAR image data sets. And the proposed FCN classification model is helping to dynamic monitoring of crop growth and related phenological research.
+C1 [Pang, Jiatai; Zhang, Rui; Yu, Bin; Liao, Mingjie; Lv, Jichao; Xie, Lingxiao; Li, Song; Zhan, Junyu] South West Jiaotong Univ, Fac Geosci & Environm Engn, Chengdu 610031, Sichuan, Peoples R China.
+   [Zhang, Rui] Southwest Jiaotong Univ, State Prov Joint Engn Lab Spatial Informat Techno, Chengdu 610031, Sichuan, Peoples R China.
+C3 Southwest Jiaotong University; Southwest Jiaotong University
+RP Zhang, R (corresponding author), Southwest Jiaotong Univ, Chengdu, Peoples R China.
+EM zhangrui@swjtu.edu.cn
+FU National Natural Science Foundation of China [41771402]; Sichuan Scienceand Technology Program [2018JY0564, 2019ZDZX0042, 2020JDTD0003, 2020YJ0322]
+CR Bachelet D, 1994, GEOCARTO INT, V10, P23, DOI 10.1080/10106049509354476
+   Belgiu M, 2018, REMOTE SENS ENVIRON, V204, P509, DOI 10.1016/j.rse.2017.10.005
+   Boschetti M, 2017, REMOTE SENS ENVIRON, V194, P347, DOI 10.1016/j.rse.2017.03.029
+   Cai YT, 2019, ADV SPACE RES, V64, P2233, DOI 10.1016/j.asr.2019.08.042
+   Carfagna E, 2005, INT STAT REV, V73, P389
+   Chen HL, 2008, 2008 ISECS INTERNATIONAL COLLOQUIUM ON COMPUTING, V0, P0
+   Choudhury I., 2007, ENVISAT S P, V0, P0
+   Clauss K, 2018, INT J REMOTE SENS, V39, P1399, DOI 10.1080/01431161.2017.1404162
+   Friesen J, 2012, IEEE T GEOSCI REMOTE, V50, P2595, DOI 10.1109/TGRS.2012.2193889
+   Frolking S, 2002, GLOBAL BIOGEOCHEM CY, V16, P0, DOI 10.1029/2001GB001425
+   Guan XD, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010019
+   He YL, 2021, INT J APPL EARTH OBS, V101, P0, DOI 10.1016/j.jag.2021.102351
+   Huang JingFeng, 2013, TRANSACTIONS OF THE CHINESE SOCIETY OF AGRICULTURAL ENGINEERING, V29, P166
+   Kuenzer C, 2013, INT J REMOTE SENS, V34, P2101, DOI 10.1080/01431161.2012.738946
+   Kurtz C, 2014, ISPRS J PHOTOGRAMM, V87, P122, DOI 10.1016/j.isprsjprs.2013.11.003
+   Lasko K, 2018, IEEE J-STARS, V11, P498, DOI 10.1109/JSTARS.2017.2784784
+   Liu JJ, 2018, INT CONF AGRO-GEOINF, V0, P211
+   Oliphant AJ, 2019, INT J APPL EARTH OBS, V81, P110, DOI 10.1016/j.jag.2018.11.014
+   Pan YQ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040374
+   Park S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030447
+   Raman M., 2019, ISPRS INT ARCH PHOTO, VXLII-3/W6, P141
+   Schaufler S, 2018, REMOTE SENS LETT, V9, P799, DOI 10.1080/2150704X.2018.1480071
+   Shwetank. J. Bhatia K., 2010, PROC 1, V0, P0
+   Steele-Dunne SC, 2017, IEEE J-STARS, V10, P2249, DOI 10.1109/JSTARS.2016.2639043
+   Tan LF, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.097091
+   Torbick N, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9020119
+   Veloso A, 2017, REMOTE SENS ENVIRON, V199, P415, DOI 10.1016/j.rse.2017.07.015
+   Xiao XM, 2006, REMOTE SENS ENVIRON, V100, P95, DOI 10.1016/j.rse.2005.10.004
+   Xu YH, 2020, IEEE T BIG DATA, V6, P492, DOI 10.1109/TBDATA.2019.2923243
+   You NS, 2021, SCI DATA, V8, P0, DOI 10.1038/s41597-021-00827-9
+   Zhou L, 2013, ECOL INFORM, V18, P69, DOI 10.1016/j.ecoinf.2013.05.003
+NR 31
+TC 8
+Z9 8
+U1 10
+U2 47
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1569-8432
+EI 1872-826X
+J9 INT J APPL EARTH OBS
+JI Int. J. Appl. Earth Obs. Geoinf.
+PD DEC 15
+PY 2021
+VL 104
+IS 
+BP 
+EP 
+DI 10.1016/j.jag.2021.102551
+PG 11
+WC Remote Sensing
+SC Remote Sensing
+GA WD0SC
+UT WOS:000704656600001
+DA 2023-04-26
+ER
+
+PT J
+AU Khoshboresh-Masouleh, M
+   Shah-Hosseini, R
+AF Khoshboresh-Masouleh, Mehdi
+   Shah-Hosseini, Reza
+TI A Deep Multi-Modal Learning Method and a New RGB-Depth Data Set for Building Roof Extraction
+SO PHOTOGRAMMETRIC ENGINEERING AND REMOTE SENSING
+LA English
+DT Article
+ID convolutional neural-networks; dsm
+AB This study focuses on tackling the challenge of building mapping in multi-modal remote sensing data by proposing a novel, deep superpixel-wise convolutional neural network called DeepQuantized-Net, plus a new red, green, blue (RGB)-depth data set named IND. DeepQuantized-Net incorporated two practical ideas in segmentation: first, improving the object pattern with the exploitation of superpixels instead of pixels, as the imaging unit in DeepQuantized-Net. Second, the reduction of computational cost. The generated data set includes 294 RGB-depth images (256 training images and 38 test images) from different locations in the state of Indiana in the U.S., with 1024 x 1024 pixels and a spatial resolution of 0.5 ft that covers different cities. The experimental results using the IND data set demonstrates the mean F1 scores and the average Intersection over Union scores could increase by approximately 7.0% and 7.2% compared to other methods, respectively.
+C1 [Khoshboresh-Masouleh, Mehdi; Shah-Hosseini, Reza] Univ Tehran, Coll Engn, Sch Surveying & Geospatial Engn, Tehran, Iran.
+C3 University of Tehran
+RP Khoshboresh-Masouleh, M (corresponding author), Univ Tehran, Coll Engn, Sch Surveying & Geospatial Engn, Tehran, Iran.
+EM m.khoshboresh@ut.ac.ir
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   Akbulut Z, 2018, J INDIAN SOC REMOTE, V46, P2057, DOI 10.1007/s12524-018-0871-2
+   Bayanlou MR, 2020, PROC SPIE, V11525, P0, DOI 10.1117/12.2580533
+   Bi Q, 2020, IEEE GEOSCI REMOTE S, V17, P1603, DOI 10.1109/LGRS.2019.2949930
+   Bi Q, 2020, IEEE T IMAGE PROCESS, V29, P4911, DOI 10.1109/TIP.2020.2975718
+   Bi Q, 2020, NEUROCOMPUTING, V377, P345, DOI 10.1016/j.neucom.2019.11.068
+   Bi Q, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050482
+   Chen HH, 2014, MULTIMED TOOLS APPL, V72, P1961, DOI 10.1007/s11042-013-1492-y
+   Gavankar NL, 2018, EUR J REMOTE SENS, V51, P182, DOI 10.1080/22797254.2017.1416676
+   Gersho A., 1992, VECTOR QUANTIZATION, V0, P587
+   Gray R. M., 1992, IMAGE AND TEXT COMPRESSION, V0, P3
+   Gu LJ, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.045501
+   Hu JL, 2019, COMPUT INTEL NEUROSC, V2019, P0, DOI 10.1155/2019/5065214
+   Jin DB, 2020, TRAIT SIGNAL, V37, P807, DOI 10.18280/ts.370513
+   Khoshboresh Masouleh M., 2019, INT ARCH PHOTOGRAMM, V0, PP615, DOI 10.5194/ISPRSARCHIVES-XLII-4-W18-615-2019
+   Khoshboresh-Masouleh M, 2020, EUR J REMOTE SENS, V53, P316, DOI 10.1080/22797254.2020.1850179
+   Khoshboresh-Masouleh M, 2020, COMPUT INTEL NEUROSC, V2020, P0, DOI 10.1155/2020/8811630
+   Khoshboresh-Masouleh M, 2020, J APPL REMOTE SENS, V14, P0, DOI 10.1117/1.JRS.14.034503
+   Kohonen T., 1995, SELF ORG MAPS, V0, PP175, DOI 10.1007/978-3-642-97610-0_6
+   Koppanyi Z, 2019, MULTIMODAL SCENE UNDERSTANDING: ALGORITHMS, V0, P41, DOI 10.1016/B978-0-12-817358-9.00009-3
+   Laurent C, 2016, INT CONF ACOUST SPEE, V0, PP2657, DOI 10.1109/ICASSP.2016.7472159
+   Liu L, 2021, POSTGRAD MED, V133, P265, DOI 10.1080/00325481.2020.1803666
+   Maier A, 2019, Z MED PHYS, V29, P86, DOI 10.1016/j.zemedi.2018.12.003
+   Masouleh MK, 2020, APPL GEOMAT, V12, P107, DOI 10.1007/s12518-019-00285-4
+   Masouleh MK, 2019, ISPRS J PHOTOGRAMM, V155, P172, DOI 10.1016/j.isprsjprs.2019.07.009
+   Masouleh MK, 2019, J APPL REMOTE SENS, V13, P0, DOI 10.1117/1.JRS.13.024508
+   Masouleh MK, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.046018
+   Mohammedhasan M, 2020, TRAIT SIGNAL, V37, P711, DOI 10.18280/ts.370503
+   Mousa YA, 2019, PHOTOGRAMM REC, V34, P85, DOI 10.1111/phor.12275
+   ODDO LA, 1992, P SOC PHOTO-OPT INS, V1623, P91, DOI 10.1117/12.58059
+   Salhi Khalid, 2019, IAENG INTERNATIONAL JOURNAL OF COMPUTER SCIENCE, V46, P134
+   Sefercik UG, 2014, EUR J REMOTE SENS, V47, P575, DOI 10.5721/EuJRS20144732
+   Shi WZ, 2018, J INDIAN SOC REMOTE, V46, P2003, DOI 10.1007/s12524-018-0868-x
+   Singh G, 2015, PROC SPIE, V9401, P0, DOI 10.1117/12.2083500
+   Sun JX, 2019, PROC SPIE, V11155, P0, DOI 10.1117/12.2532662
+   Trastour F., 2019, P SPIE, V11155, P0, DOI 10.1117/12.2533149
+   Uzar M, 2014, EUR J REMOTE SENS, V47, P1, DOI 10.5721/EuJRS20144701
+   Wang C., 2020, INT J APPL MATH, V50, P1
+   Wang RS, 2016, J APPL REMOTE SENS, V10, P0, DOI 10.1117/1.JRS.10.016022
+   Wicht M, 2019, EUR J REMOTE SENS, V52, P58, DOI 10.1080/22797254.2019.1617642
+   Wu GM, 2019, INT GEOSCI REMOTE SE, V0, PP158, DOI 10.1109/IGARSS.2019.8900475
+   WuDunn M, 2020, PROC SPIE, V11398, P0, DOI 10.1117/12.2558399
+   Xiang HH, 2020, APPL INTELL, V50, P2411, DOI 10.1007/s10489-020-01678-4
+   Xu B, 2015, COMPUT INTEL NEUROSC, V2015, P0, DOI 10.1155/2015/832093
+   Xu YY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010144
+   Zhang CS, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.026005
+   Zhang XR, 2020, TRAIT SIGNAL, V37, P793, DOI 10.18280/ts.370511
+   Zheng QH, 2020, ENG LET, V28, P80
+NR 48
+TC 7
+Z9 7
+U1 1
+U2 12
+PU AMER SOC PHOTOGRAMMETRY
+PI BETHESDA
+PA 5410 GROSVENOR LANE SUITE 210, BETHESDA, MD 20814-2160 USA
+SN 0099-1112
+EI 2374-8079
+J9 PHOTOGRAMM ENG REM S
+JI Photogramm. Eng. Remote Sens.
+PD OCT 15
+PY 2021
+VL 87
+IS 10
+BP 759
+EP 766
+DI 10.14358/PERS.21-00007R2
+PG 8
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA UU0GQ
+UT WOS:000698484400008
+DA 2023-04-26
+ER
+
+PT J
+AU Chi, J
+   Kim, HC
+AF Chi, Junhwa
+   Kim, Hyun-Cheol
+TI Retrieval of daily sea ice thickness from AMSR2 passive microwave data using ensemble convolutional neural networks
+SO GISCIENCE & REMOTE SENSING
+LA English
+DT Article
+DE AMSR2; Arctic sea ice; convolutional neural network; deep learning; passive microwave; sea ice thickness
+ID melt season; classification; cryosat-2; freeboard; drift; enhancement; algorithm; ocean
+AB Recently, measurement of sea ice thickness (SIT) has received increasing attention due to the importance of thinning ice in the context of global warming. Although altimeter sensors onboard satellite missions enable continuous SIT measurements over larger areas compared to in situ observations, these sensors are inadequate for mapping daily Arctic SIT because of their small footprints. We exploited passive microwave data from AMSR2 (Advanced Microwave Scanning Radiometer 2) by incorporating a state-of-the-art deep learning (DL) approach to address this limitation. Passive microwave data offer better temporal resolutions than those from a single altimeter sensors, but are rarely used for SIT estimations due to their limited physical relationship with SIT. In this study, we proposed an ensemble DL model with different modalities to produce daily pan-Arctic SIT retrievals. The proposed model determined the hidden and unknown relationships between the brightness temperatures of AMSR2 channels and SITs measured by CryoSat-2 (CS2) from the extended input features defined by our feature augmentation strategy. Although AMSR2-based SITs agreed well with CS2-derived gridded SIT values, they had similar uncertainties and errors in the CS2 SIT measurements, particularly for thin ice. However, based on quantitative validations using long-term unseen data and IceBridge data, the proposed retrieval model consistently generated SITs from AMSR2 at 25 km spatial resolution, regardless of time and space.
+C1 [Chi, Junhwa; Kim, Hyun-Cheol] Korea Polar Res Inst, Ctr Remote Sensing & GIS, Incheon, South Korea.
+C3 Korea Polar Research Institute (KOPRI)
+RP Kim, HC (corresponding author), Korea Polar Res Inst, Ctr Remote Sensing & GIS, Incheon, South Korea.
+EM kimhc@kopri.re.kr
+FU Korea Polar Research Institute [PE21040]
+CR Aaboe S., 2016, EUMETSAT, V250, P1
+   Agarap Abien Fred, 2018, ARXIV PREPRINT ARXIV, V0, P0
+   Alexandrov V, 2010, CRYOSPHERE, V4, P373, DOI 10.5194/tc-4-373-2010
+   Bellman R.E., 2015, ADAPTIVE CONTROL PRO, V0, P0
+   Brochu E., 2010, ARXIV PREPRINT ARXIV, V0, P0
+   Cavalieri DJ, 1999, J GEOPHYS RES-OCEANS, V104, P15803, DOI 10.1029/1999JC900081
+   CAVALIERI DJ, 1984, J GEOPHYS RES-ATMOS, V89, P5355, DOI 10.1029/JD089iD04p05355
+   Chi J, 2019, REMOTE SENS ENVIRON, V231, P0, DOI 10.1016/j.rse.2019.05.023
+   Chi J, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121305
+   COMISO JC, 1986, J GEOPHYS RES-OCEANS, V91, P975, DOI 10.1029/JC091iC01p00975
+   Comiso JC, 2008, GEOPHYS RES LETT, V35, P0, DOI 10.1029/2007GL031972
+   Durner GM, 2017, GLOBAL CHANGE BIOL, V23, P3460, DOI 10.1111/gcb.13746
+   Fernandez-Delgado M, 2014, J MACH LEARN RES, V15, P3133
+   Gardner MW, 1998, ATMOS ENVIRON, V32, P2627, DOI 10.1016/S1352-2310(97)00447-0
+   GLOERSEN P, 1986, J GEOPHYS RES-OCEANS, V91, P3913, DOI 10.1029/JC091iC03p03913
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Han H, 2020, GISCI REMOTE SENS, V57, P650, DOI 10.1080/15481603.2020.1767857
+   Helm, 2016, AWI CRYOSAT 2 SEA IC, V0, P0
+   Huang SZ, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19092018
+   Ince T, 2016, IEEE T IND ELECTRON, V63, P7067, DOI 10.1109/TIE.2016.2582729
+   Ivanova N, 2015, CRYOSPHERE, V9, P1797, DOI 10.5194/tc-9-1797-2015
+   Iwamoto K, 2014, J GEOPHYS RES-OCEANS, V119, P3574, DOI 10.1002/2013JC009749
+   Kaleschke L, 2012, GEOPHYS RES LETT, V39, P0, DOI 10.1029/2012GL050916
+   Kaleschke L, 2015, INT GEOSCI REMOTE SE, V0, PP5232, DOI 10.1109/IGARSS.2015.7327014
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Koenig L, 2010, EOS T AM GEOPHYS UN, V91, P333, DOI 10.1029/2010E0380002
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kurtz NT, 2014, CRYOSPHERE, V8, P1217, DOI 10.5194/tc-8-1217-2014
+   Kurtz NT, 2013, CRYOSPHERE, V7, P1035, DOI 10.5194/tc-7-1035-2013
+   Kurtz NT, 2011, GEOPHYS RES LETT, V38, P0, DOI 10.1029/2011GL049216
+   Kwok R, 2019, J GEOPHYS RES-OCEANS, V124, P6942, DOI 10.1029/2019JC015486
+   Kwok R, 2011, J GEOPHYS RES-OCEANS, V116, P0, DOI 10.1029/2011JC007371
+   Laxon SW, 2013, GEOPHYS RES LETT, V40, P732, DOI 10.1002/grl.50193
+   Lee SM, 2018, J GEOPHYS RES-ATMOS, V123, P9220, DOI 10.1029/2018JD028688
+   Lee S, 2020, IEEE T BIO-MED ENG, V67, P2669, DOI 10.1109/TBME.2020.2967802
+   Li T, 2014, IEEE IMAGE PROC, V0, PP5132, DOI 10.1109/ICIP.2014.7026039
+   Liu YH, 2020, CRYOSPHERE, V14, P1325, DOI 10.5194/tc-14-1325-2020
+   Lund B, 2018, J GEOPHYS RES-OCEANS, V123, P4298, DOI 10.1029/2018JC013769
+   Maggiori E, 2016, INT GEOSCI REMOTE SE, V0, PP5071, DOI 10.1109/IGARSS.2016.7730322
+   Markus T, 2000, IEEE T GEOSCI REMOTE, V38, P1387, DOI 10.1109/36.843033
+   MARKUS T, 1998, ANTAR RES S, V74, P19
+   Markus T, 2009, J GEOPHYS RES-OCEANS, V114, P0, DOI 10.1029/2009JC005436
+   Martin S, 2004, J GEOPHYS RES-OCEANS, V109, P0, DOI 10.1029/2004JC002428
+   Nakayama Y, 2012, J PHYS OCEANOGR, V42, P179, DOI 10.1175/JPO-D-11-018.1
+   Naoki K, 2008, J GEOPHYS RES-OCEANS, V113, P0, DOI 10.1029/2007JC004270
+   Okuyama A, 2015, IEEE T GEOSCI REMOTE, V53, P4568, DOI 10.1109/TGRS.2015.2402204
+   Peng DD, 2019, IEEE ACCESS, V7, P10278, DOI 10.1109/ACCESS.2018.2888842
+   Peng G, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091328
+   Proshutinsky A, 2002, GEOPHYS RES LETT, V29, P0, DOI 10.1029/2002GL015847
+   Qu YR, 2019, ACM T INFORM SYST, V37, P0, DOI 10.1145/3233770
+   Ricker R, 2017, CRYOSPHERE, V11, P1607, DOI 10.5194/tc-11-1607-2017
+   Sak H, 2014, INTERSPEECH, V0, P338
+   Smith DM, 1998, GEOPHYS RES LETT, V25, P655, DOI 10.1029/98GL00251
+   Spreen G, 2008, J GEOPHYS RES-OCEANS, V113, P0, DOI 10.1029/2005JC003384
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Stroeve JC, 2014, GEOPHYS RES LETT, V41, P1216, DOI 10.1002/2013GL058951
+   Stroeve JC, 2012, CLIMATIC CHANGE, V110, P1005, DOI 10.1007/s10584-011-0101-1
+   Tamura T, 2011, J GEOPHYS RES-OCEANS, V116, P0, DOI 10.1029/2010JC006586
+   Tilling RL, 2018, ADV SPACE RES, V62, P1203, DOI 10.1016/j.asr.2017.10.051
+   VANT MR, 1978, J APPL PHYS, V49, P1264, DOI 10.1063/1.325018
+   Vinnikov KY, 1999, SCIENCE, V286, P1934, DOI 10.1126/science.286.5446.1934
+   Wang L, 2016, IEEE T GEOSCI REMOTE, V54, P4524, DOI 10.1109/TGRS.2016.2543660
+   Xiao F, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20247011
+   Yoshizawa E, 2018, J ATMOS OCEAN TECH, V35, P2147, DOI 10.1175/JTECH-D-18-0034.1
+   Yu XR, 2017, GISCI REMOTE SENS, V54, P741, DOI 10.1080/15481603.2017.1323377
+   Zou Q, 2015, IEEE GEOSCI REMOTE S, V12, P2321, DOI 10.1109/LGRS.2015.2475299
+NR 66
+TC 3
+Z9 3
+U1 3
+U2 13
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1548-1603
+EI 1943-7226
+J9 GISCI REMOTE SENS
+JI GISci. Remote Sens.
+PD AUG 18
+PY 2021
+VL 58
+IS 6
+BP 812
+EP 830
+DI 10.1080/15481603.2021.1943213
+EA JUL 2021
+PG 19
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA UR5NM
+UT WOS:000673377900001
+DA 2023-04-26
+ER

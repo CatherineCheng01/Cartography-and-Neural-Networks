@@ -1,0 +1,478 @@
+
+PT J
+AU Zi, Y
+   Xie, FY
+   Zhang, N
+   Jiang, ZG
+   Zhu, WT
+   Zhang, HP
+AF Zi, Yue
+   Xie, Fengying
+   Zhang, Ning
+   Jiang, Zhiguo
+   Zhu, Wentao
+   Zhang, Haopeng
+TI Thin Cloud Removal for Multispectral Remote Sensing Images Using Convolutional Neural Networks Combined With an Imaging Model
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Clouds; Remote sensing; Cloud computing; Earth; Artificial satellites; Imaging; Satellites; Convolutional neural network (CNN); multispectral remote sensing images; thin cloud removal; thin cloud thickness map
+ID haze detection
+AB Multispectral remote sensing images are often degraded by clouds, resulting in the reduced efficiency and accuracy of image interpretation. Thin cloud removal is one of the most important and significant tasks for optical multispectral images. In this article, we propose a novel thin cloud removal method for multispectral images, which is a combination of traditional methods and deep learning methods. First, we adopt U-Net to estimate the reference thin cloud thickness map of the cloudy image. Then, a convolutional neural network named Slope-Net is designed to estimate the thickness coefficient of each band relative to the reference thin cloud thickness map to obtain the thin cloud thickness maps of different bands. Finally, the recovered clear image can be obtained by subtracting the thin cloud thickness maps from the cloudy image according to the traditional thin cloud imaging model. To train U-Net and Slope-Net, a wavelength-dependent thin cloud simulation method is presented to generate a labeled dataset composed of synthetic cloudy images, corresponding clear images, reference thin cloud thickness maps, and thickness coefficients. Qualitative and quantitative comparison experiments are conducted on both synthetic cloudy images and real cloudy images from the Landsat 8 Operational Land Imager. The results indicate that the proposed method can effectively remove thin clouds in multispectral images with various land cover types and maintain good color fidelity.
+C1 [Zi, Yue; Xie, Fengying; Jiang, Zhiguo; Zhang, Haopeng] Beihang Univ, Beijing Adv Innovat Ctr Biomed Engn, Sch Astronaut, Beijing 100191, Peoples R China.
+   [Zhang, Ning; Zhu, Wentao] Shanghai Aerosp Elect Technol Inst, Shanghai 201109, Peoples R China.
+   [Zi, Yue; Xie, Fengying; Jiang, Zhiguo; Zhang, Haopeng] Beihang Univ, Image Proc Ctr, Sch Astronaut, Beijing 100191, Peoples R China.
+C3 Beihang University; Beihang University
+RP Xie, FY (corresponding author), Beihang Univ, Beijing Adv Innovat Ctr Biomed Engn, Sch Astronaut, Beijing 100191, Peoples R China.; Xie, FY (corresponding author), Beihang Univ, Image Proc Ctr, Sch Astronaut, Beijing 100191, Peoples R China.
+EM ziyue91@buaa.eud.cn; xfy_73@buaa.edu.cn; dzs.zhangning@gmail.com; jiangzg@buaa.edu.cn; 337938145@qq.com; zhanghaopeng@buaa.edu.cn
+FU National Key Research and Development Program of China [2019YFC1510905]; Beijing Natural Science Foundation [4192032]; NationalNatural Science Foundation of China [61871011, 61771031]
+CR Berk A., 1985, AFGLTR83018, V0, P0
+   Cai BL, 2016, IEEE T IMAGE PROCESS, V25, P5187, DOI 10.1109/TIP.2016.2598681
+   CHAVEZ PS, 1988, REMOTE SENS ENVIRON, V24, P459, DOI 10.1016/0034-4257(88)90019-3
+   Chavez PS, 1996, PHOTOGRAMM ENG REM S, V62, P1025
+   Du Y, 2002, IEEE T GEOSCI REMOTE, V40, P210, DOI 10.1109/36.981363
+   Enomoto K, 2017, IEEE COMPUT SOC CONF, V0, PP1533, DOI 10.1109/CVPRW.2017.197
+   Gonalves LT, 2017, SIBGRAPI, V0, PP436, DOI 10.1109/SIBGRAPI.2017.64
+   Hadjimitsis DG, 2004, INT J REMOTE SENS, V25, P3651, DOI 10.1080/01431160310001647993
+   He KM, 2011, IEEE T PATTERN ANAL, V33, P2341, DOI 10.1109/TPAMI.2010.168
+   ISAACS RG, 1987, APPL OPTICS, V26, P1272, DOI 10.1364/AO.26.001272
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Li JY, 2019, IEEE GEOSCI REMOTE S, V16, P472, DOI 10.1109/LGRS.2018.2874084
+   Li WB, 2019, ISPRS J PHOTOGRAMM, V153, P137, DOI 10.1016/j.isprsjprs.2019.05.003
+   Liu J, 2014, OPT EXPRESS, V22, P618, DOI 10.1364/OE.22.000618
+   Liu Q, 2017, SIGNAL PROCESS, V137, P33, DOI 10.1016/j.sigpro.2017.01.036
+   Makarau A, 2016, IEEE GEOSCI REMOTE S, V13, P379, DOI 10.1109/LGRS.2016.2515110
+   Makarau A, 2014, IEEE T GEOSCI REMOTE, V52, P5895, DOI 10.1109/TGRS.2013.2293662
+   Markchom T, 2018, 2018 4TH INTERNATIONAL CONFERENCE ON FRONTIERS OF SIGNAL PROCESSING (ICFSP 2018), V0, PP100, DOI 10.1109/ICFSP.2018.8552064
+   MITCHELL OR, 1977, IEEE T GEOSCI REMOTE, V15, P137, DOI 10.1109/TGE.1977.6498971
+   Pacifici F, 2014, IEEE T GEOSCI REMOTE, V52, P6241, DOI 10.1109/TGRS.2013.2295819
+   Qin MJ, 2017, LECT NOTES COMPUT SC, V10666, P664, DOI 10.1007/978-3-319-71607-7_58
+   Qin MJ, 2018, IEEE J-STARS, V11, P1645, DOI 10.1109/JSTARS.2018.2812726
+   Ren WQ, 2016, LECT NOTES COMPUT SC, V9906, P154, DOI 10.1007/978-3-319-46475-6_10
+   Richter R, 1996, INT J REMOTE SENS, V17, P1201, DOI 10.1080/01431169608949077
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Shen HF, 2014, ISPRS J PHOTOGRAMM, V96, P224, DOI 10.1016/j.isprsjprs.2014.06.011
+   Vermote EF, 1997, IEEE T GEOSCI REMOTE, V35, P675, DOI 10.1109/36.581987
+   Xie FY, 2018, IEEE ACCESS, V6, P67982, DOI 10.1109/ACCESS.2018.2879893
+   Xu M, 2019, ISPRS J PHOTOGRAMM, V149, P215, DOI 10.1016/j.isprsjprs.2019.01.025
+   Xu M, 2014, INT GEOSCI REMOTE SE, V0, PP2511, DOI 10.1109/IGARSS.2014.6946983
+   Zhang R., 2018, P SPIE, V0, P0
+   Zhou BX, 2019, INT GEOSCI REMOTE SE, V0, PP1434, DOI 10.1109/IGARSS.2019.8898644
+NR 32
+TC 15
+Z9 15
+U1 3
+U2 30
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 3811
+EP 3823
+DI 10.1109/JSTARS.2021.3068166
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA RP8HD
+UT WOS:000641963300002
+DA 2023-04-26
+ER
+
+PT J
+AU An, FP
+   Liu, JE
+   Bai, L
+AF An, Feng-Ping
+   Liu, Jun-e
+   Bai, Lei
+TI Pedestrian Reidentification Algorithm Based on Deconvolution Network Feature Extraction-Multilayer Attention Mechanism Convolutional Neural Network
+SO JOURNAL OF SENSORS
+LA English
+DT Article
+ID person reidentification
+AB Pedestrian reidentification is a key technology in large-scale distributed camera systems. It can quickly and efficiently detect and track target people in large-scale distributed surveillance networks. The existing traditional pedestrian reidentification methods have problems such as low recognition accuracy, low calculation efficiency, and weak adaptive ability. Pedestrian reidentification algorithms based on deep learning have been widely used in the field of pedestrian reidentification due to their strong adaptive ability and high recognition accuracy. However, the pedestrian recognition method based on deep learning has the following problems: first, during the learning process of the deep learning model, the initial value of the convolution kernel is usually randomly assigned, which makes the model learning process easily fall into a local optimum. The second is that the model parameter learning method based on the gradient descent method exhibits gradient dispersion. The third is that the information transfer of pedestrian reidentification sequence images is not considered. In view of these issues, this paper first examines the feature map matrix from the original image through a deconvolution neural network, uses it as a convolution kernel, and then performs layer-by-layer convolution and pooling operations. Then, the second derivative information of the error function is directly obtained without calculating the Hessian matrix, and the momentum coefficient is used to improve the convergence of the backpropagation, thereby suppressing the gradient dispersion phenomenon. At the same time, to solve the problem of information transfer of pedestrian reidentification sequence images, this paper proposes a memory network model based on a multilayer attention mechanism, which uses the network to effectively store image visual information and pedestrian behavior information, respectively. It can solve the problem of information transmission. Based on the above ideas, this paper proposes a pedestrian reidentification algorithm based on deconvolution network feature extraction-multilayer attention mechanism convolutional neural network. Experiments are performed on the related data sets using this algorithm and other major popular human reidentification algorithms. The results show that the pedestrian reidentification method proposed in this paper not only has strong adaptive ability but also has significantly improved average recognition accuracy and rank-1 matching rate compared with other mainstream methods.
+C1 [An, Feng-Ping] Huaiyin Normal Univ, Sch Phys & Elect Elect Engn, Huaian 223300, JS, Peoples R China.
+   [An, Feng-Ping] Beijing Inst Technol, Sch Informat & Elect, Beijing 100081, BJ, Peoples R China.
+   [Liu, Jun-e] Beijing Wuzi Univ, Sch Informat, Beijing 100061, BJ, Peoples R China.
+   [Bai, Lei] North China Inst Sci & Technol, Hebei IoT Monitoring Engn Technol Res Ctr, Langfang 065201, HB, Peoples R China.
+C3 Huaiyin Normal University; Beijing Institute of Technology; Beijing Wuzi University; North China Institute Science & Technology
+RP An, FP (corresponding author), Huaiyin Normal Univ, Sch Phys & Elect Elect Engn, Huaian 223300, JS, Peoples R China.; An, FP (corresponding author), Beijing Inst Technol, Sch Informat & Elect, Beijing 100081, BJ, Peoples R China.; Liu, JE (corresponding author), Beijing Wuzi Univ, Sch Informat, Beijing 100061, BJ, Peoples R China.; Bai, L (corresponding author), North China Inst Sci & Technol, Hebei IoT Monitoring Engn Technol Res Ctr, Langfang 065201, HB, Peoples R China.
+EM anfengping@163.com; 2924175349@qq.com; zhouxianwei1961@163.com
+FU National Natural Science Foundation of China [61701188]; China Postdoctoral Science Foundation [2019M650512]; Natural Science Foundation of Jiangsu Province [BK20201479]; Scientific, technological innovation service capacity building-high-level discipline construction (city level), Beijing Intelligent Logistics System Collaborative Innovation Center [BILSCIC-2019KF-22]; Hebei IoT Monitoring Engineering Technology Research Center [IOT202004]
+CR Ali M. F. T, 2018, PROC EUR C COMPUT VI, V0, P122
+   Bai S, 2019, PROC CVPR IEEE, V0, PP740, DOI 10.1109/CVPR.2019.00083
+   Bak S, 2018, LECT NOTES COMPUT SC, V11217, P193, DOI 10.1007/978-3-030-01261-8_12
+   Chen KZ, 2020, NEUROCOMPUTING, V382, P259, DOI 10.1016/j.neucom.2019.11.094
+   Cui HC, 2019, IEEE T COMP PACK MAN, V9, P1785, DOI 10.1109/TCPMT.2019.2930741
+   Gheissari N., 2006, P C COMPUTER VISION, V2, P1528, DOI 10.1109/CVPR.2006.223
+   Han H, 2021, IEEE T INTELL TRANSP, V22, P394, DOI 10.1109/TITS.2019.2958741
+   Hinton GE, 2006, SCIENCE, V313, P504, DOI 10.1126/science.1127647
+   Hou RB, 2019, PROC CVPR IEEE, V0, PP7176, DOI 10.1109/CVPR.2019.00735
+   Jia JR, 2017, COMPUT VIS IMAGE UND, V160, P87, DOI 10.1016/j.cviu.2017.04.003
+   Khagi B, 2019, INT J IMAG SYST TECH, V29, P297, DOI 10.1002/ima.22316
+   Layne R, 2012, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2012, V0, P0, DOI DOI 10.5244/C.26.24
+   Li DW, 2017, PROC CVPR IEEE, V0, PP7398, DOI 10.1109/CVPR.2017.782
+   Li W, 2017, PATTERN RECOGN, V61, P327, DOI 10.1016/j.patcog.2016.08.001
+   Li W, 2014, PROC CVPR IEEE, V0, PP152, DOI 10.1109/CVPR.2014.27
+   Liang M, 2015, PROC CVPR IEEE, V0, PP3367, DOI 10.1109/CVPR.2015.7298958
+   Liao SC, 2015, PROC CVPR IEEE, V0, PP2197, DOI 10.1109/CVPR.2015.7298832
+   Lin YT, 2019, PATTERN RECOGN, V95, P151, DOI 10.1016/j.patcog.2019.06.006
+   Liu H, 2018, IEEE T CIRC SYST VID, V28, P2788, DOI 10.1109/TCSVT.2017.2715499
+   Ma F, 2020, IEEE T INF FOREN SEC, V15, P115, DOI 10.1109/TIFS.2019.2917160
+   Mitra V, 2017, SPEECH COMMUN, V89, P103, DOI 10.1016/j.specom.2017.03.003
+   Monroe ME, 2007, BIOINFORMATICS, V23, P2021, DOI 10.1093/bioinformatics/btm281
+   Nanda A, 2019, MULTIMED TOOLS APPL, V78, P3885, DOI 10.1007/s11042-017-4875-7
+   Pedagadi S, 2013, PROC CVPR IEEE, V0, PP3318, DOI 10.1109/CVPR.2013.426
+   Salehian S, 2019, IEEE I C SIGNAL IMAG, V0, PP192, DOI 10.1109/ICSIPA45851.2019.8977728
+   Schumann A, 2017, IEEE COMPUT SOC CONF, V0, PP1435, DOI 10.1109/CVPRW.2017.186
+   Sun XX, 2019, PROC CVPR IEEE, V0, PP608, DOI 10.1109/CVPR.2019.00070
+   Sun YF, 2019, PROC CVPR IEEE, V0, PP393, DOI 10.1109/CVPR.2019.00048
+   Xiao T, 2016, PROC CVPR IEEE, V0, PP1249, DOI 10.1109/CVPR.2016.140
+   Xiong W, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P5934
+   Xu J, 2018, PROC CVPR IEEE, V0, PP2119, DOI 10.1109/CVPR.2018.00226
+   Xu SJ, 2017, IEEE I CONF COMP VIS, V0, PP4743, DOI 10.1109/ICCV.2017.507
+   Yao HT, 2019, IEEE T IMAGE PROCESS, V28, P2860, DOI 10.1109/TIP.2019.2891888
+   Zajdel W, 2005, IEEE INT CONF ROBOT, V0, P2081
+   Zhang L, 2016, PROC CVPR IEEE, V0, PP1239, DOI 10.1109/CVPR.2016.139
+   Zhao R, 2013, PROC CVPR IEEE, V0, PP3586, DOI 10.1109/CVPR.2013.460
+   Zheng L, 2019, IEEE T IMAGE PROCESS, V28, P4500, DOI 10.1109/TIP.2019.2910414
+   Zhong Z, 2018, LECT NOTES COMPUT SC, V11217, P176, DOI 10.1007/978-3-030-01261-8_11
+   Zhou JH, 2018, PROC CVPR IEEE, V0, PP5373, DOI 10.1109/CVPR.2018.00563
+   Zhou JH, 2017, IEEE I CONF COMP VIS, V0, PP2439, DOI 10.1109/ICCV.2017.265
+NR 40
+TC 1
+Z9 1
+U1 1
+U2 5
+PU HINDAWI LTD
+PI LONDON
+PA ADAM HOUSE, 3RD FLR, 1 FITZROY SQ, LONDON, W1T 5HF, ENGLAND
+SN 1687-725X
+EI 1687-7268
+J9 J SENSORS
+JI J. Sens.
+PD JAN 28
+PY 2021
+VL 2021
+IS 
+BP 
+EP 
+DI 10.1155/2021/9463092
+PG 12
+WC Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Engineering; Instruments & Instrumentation
+GA QG3NO
+UT WOS:000617496300001
+DA 2023-04-26
+ER
+
+PT J
+AU Sun, L
+   Lan, YF
+AF Sun, Lei
+   Lan, Yufeng
+TI Statistical downscaling of daily temperature and precipitation over China using deep learning neural models: Localization and comparison with other methods
+SO INTERNATIONAL JOURNAL OF CLIMATOLOGY
+LA English
+DT Article
+DE China; convolutional neural network; intercomparison; statistical downscaling
+ID scale climate data; regional climate; extreme precipitation; part i; cmip5; machine; cordex; configuration; projections; framework
+AB Convolutional neural network (CNN) is an effective tool for extracting interpretable information from big data and has been recently used as a promising approach for statistical downscaling. In this study, CNN models of different configurations are used to downscale daily temperature and precipitation over China with the use of large-scale atmospheric variables from ECMWF Interim reanalysis (ERI) and high-resolution gridded observations as predictors and predictands respectively. A 21-year period from 1979 to 1999 is used for calibration and a relatively warmer period during 2000-2017 is used for validation, which helps to examine the extrapolation capability of models. It is shown that model performance varies among different configurations. For a realistic multi-site downscaling over whole China, the convolutional process is indispensable and much more spatial features are required to parameterize temperature characteristics than precipitation. As compared with ERI, CNN model shows added value in reproducing geographic distributions of seasonal mean climate and seasonal cycle as well as reducing biases in mean and extreme percentiles for both temperature and precipitation. However, ERI performs better in terms of temporal correlations. Then the model is further compared with Generalized Linear regression Model (GLM) and two quantile mapping based techniques including bias correction and spatial disaggregation (BCSD) and bias correction and climate imprint (BCCI). It is shown that bias correction methods show superior performances to other models in reducing biases and representing temporal correlations especially for precipitation. CNN model achieves better precipitation downscaling performances than GLM. It also achieves good skills in reproducing seasonal cycle of temperature and frequency distributions of daily precipitation, and presents better stabilities between the calibration and validation period. These results indicate that CNN model has good potential for downscaling application over large regions (e.g., continents).
+C1 [Sun, Lei] Nanjing Univ Informat Sci & Technol, Sch Atmospher Sci, Climate Environm & Sustainabil Ctr, Nanjing, Peoples R China.
+   [Lan, Yufeng] Guangxi Meteorol Training Ctr, Nanning, Peoples R China.
+C3 Nanjing University of Information Science & Technology
+RP Sun, L (corresponding author), Nanjing Univ Informat Sci & Technol, Sch Atmospher Sci, Climate Environm & Sustainabil Ctr, Nanjing, Peoples R China.
+EM sunlei@nuist.edu.cn
+FU Nanjing University of Information Science and Technology; Meteorological Research Program of Guangxi [2019TG03]
+CR Alizamir M, 2018, ENVIRON PROG SUSTAIN, V37, P1853, DOI 10.1002/ep.12856
+   [Anonymous], 2014, CLIM CHANG 2013, V0, P0, DOI DOI 10.1017/CBO9781107415324
+   Ardabili S, 2020, LECT NOTE NETW SYST, V101, P52, DOI 10.1007/978-3-030-36841-8_5
+   Ayar PV, 2016, CLIM DYNAM, V46, P1301, DOI 10.1007/s00382-015-2647-5
+   Bano-Medina J, 2020, GEOSCI MODEL DEV, V13, P2109, DOI 10.5194/gmd-13-2109-2020
+   Bao JW, 2015, J GEOPHYS RES-ATMOS, V120, P8227, DOI 10.1002/2015JD023275
+   Bedia J, 2020, GEOSCI MODEL DEV, V13, P1711, DOI 10.5194/gmd-13-1711-2020
+   Burger G, 2012, J CLIMATE, V25, P4366, DOI 10.1175/JCLI-D-11-00408.1
+   Burger G, 2009, WATER RESOUR RES, V45, P0, DOI 10.1029/2009WR007779
+   Cannon AJ, 2008, J HYDROMETEOROL, V9, P1284, DOI 10.1175/2008JHM960.1
+   Chen L, 2014, J GEOPHYS RES-ATMOS, V119, P5767, DOI 10.1002/2013JD021190
+   Chen YY, 2011, J GEOPHYS RES-ATMOS, V116, P0, DOI 10.1029/2011JD015921
+   Chu JT, 2010, THEOR APPL CLIMATOL, V99, P149, DOI 10.1007/s00704-009-0129-6
+   Dee DP, 2011, Q J ROY METEOR SOC, V137, P553, DOI 10.1002/qj.828
+   Eden JM, 2014, J CLIMATE, V27, P312, DOI 10.1175/JCLI-D-13-00063.1
+   Eum HI, 2017, INT J CLIMATOL, V37, P3381, DOI 10.1002/joc.4924
+   Giorgi F., 2009, BULLETIN - WORLD METEOROLOGICAL ORGANIZATION, V58, P175
+   Giorgi F, 2015, ANNU REV ENV RESOUR, V40, P467, DOI 10.1146/annurev-environ-102014-021217
+   Gutierrez JM, 2019, INT J CLIMATOL, V39, P3750, DOI 10.1002/joc.5462
+   Gutmann E, 2014, WATER RESOUR RES, V50, P7167, DOI 10.1002/2014WR015559
+   Ham YG, 2019, NATURE, V573, P568, DOI 10.1038/s41586-019-1559-7
+   Hersbach H, 2020, Q J ROY METEOR SOC, V146, P1999, DOI 10.1002/qj.3803
+   Hessami M, 2008, ENVIRON MODELL SOFTW, V23, P813, DOI 10.1016/j.envsoft.2007.10.004
+   Huang J, 2011, STOCH ENV RES RISK A, V25, P781, DOI 10.1007/s00477-010-0441-9
+   Huffman GJ, 2007, J HYDROMETEOROL, V8, P38, DOI 10.1175/JHM560.1
+   Hunter RD, 2005, J APPL METEOROL, V44, P1501, DOI 10.1175/JAM2295.1
+   Hutengs C, 2016, REMOTE SENS ENVIRON, V178, P127, DOI 10.1016/j.rse.2016.03.006
+   Jacob D, 2014, REG ENVIRON CHANGE, V14, P563, DOI 10.1007/s10113-013-0499-2
+   Jiang ZH, 2015, J CLIMATE, V28, P8603, DOI 10.1175/JCLI-D-15-0099.1
+   Liang XZ, 2019, CLIM DYNAM, V52, P2159, DOI 10.1007/s00382-018-4257-5
+   Liang XZ, 2012, B AM METEOROL SOC, V93, P1363, DOI 10.1175/BAMS-D-11-00180.1
+   Liang XZ, 2004, J CLIMATE, V17, P3510, DOI 10.1175/1520-0442(2004)017&lt;3510:RCMSOU&gt;2.0.CO;2
+   Liu SY, 2013, CLIM DYNAM, V41, P1871, DOI 10.1007/s00382-012-1632-5
+   Liu YH, 2019, ATMOS RES, V224, P99, DOI 10.1016/j.atmosres.2019.03.022
+   Liu ZF, 2011, INT J CLIMATOL, V31, P2006, DOI 10.1002/joc.2211
+   Maraun D, 2010, REV GEOPHYS, V48, P0, DOI 10.1029/2009RG000314
+   Maraun D, 2015, EARTHS FUTURE, V3, P1, DOI 10.1002/2014EF000259
+   Maurer EP, 2008, HYDROL EARTH SYST SC, V12, P551
+   Maurer EP, 2010, HYDROL EARTH SYST SC, V14, P1125, DOI 10.5194/hess-14-1125-2010
+   Meehl GA, 2007, B AM METEOROL SOC, V88, P1383, DOI 10.1175/BAMS-88-9-1383
+   Monjo R, 2016, INT J CLIMATOL, V36, P757, DOI 10.1002/joc.4380
+   Murphy J, 1999, J CLIMATE, V12, P2256, DOI 10.1175/1520-0442(1999)012<2256:AEOSAD>2.0.CO;2
+   Hoai ND, 2011, J APPL MATH, V0, P0, DOI DOI 10.1155/2011/246286
+   NELDER JA, 1972, J R STAT SOC SER A-G, V135, P370, DOI 10.2307/2344614
+   Pan BX, 2019, WATER RESOUR RES, V55, P2301, DOI 10.1029/2018WR024090
+   RACSKO P, 1991, ECOL MODEL, V57, P27, DOI 10.1016/0304-3800(91)90053-4
+   Reichstein M, 2019, NATURE, V566, P195, DOI 10.1038/s41586-019-0912-1
+   Sachindra DA, 2018, ATMOS RES, V212, P240, DOI 10.1016/j.atmosres.2018.05.022
+   Sheffield J, 2006, J CLIMATE, V19, P3088, DOI 10.1175/JCLI3790.1
+   Sillmann J, 2013, J GEOPHYS RES-ATMOS, V118, P1716, DOI 10.1002/jgrd.50203
+   Spak S, 2007, J GEOPHYS RES-ATMOS, V112, P0, DOI 10.1029/2005JD006712
+   Sun Y, 2014, NAT CLIM CHANGE, V4, P1082, DOI 10.1038/NCLIMATE2410
+   Sunyer MA, 2015, HYDROL EARTH SYST SC, V19, P1827, DOI 10.5194/hess-19-1827-2015
+   Tang JP, 2016, J GEOPHYS RES-ATMOS, V121, P2110, DOI 10.1002/2015JD023977
+   Taylor KE, 2012, B AM METEOROL SOC, V93, P485, DOI 10.1175/BAMS-D-11-00094.1
+   Tripathi S, 2006, J HYDROL, V330, P621, DOI 10.1016/j.jhydrol.2006.04.030
+   Vandal T, 2019, THEOR APPL CLIMATOL, V137, P557, DOI 10.1007/s00704-018-2613-3
+   Wang L, 2014, INT J CLIMATOL, V34, P2059, DOI 10.1002/joc.3822
+   Wang WG, 2013, J GEOPHYS RES-ATMOS, V118, P4049, DOI 10.1002/jgrd.50393
+   Wang Y, 2005, GEOPHYS RES LETT, V32, P0, DOI 10.1029/2005GL023344
+   Wen X, 2016, THEOR APPL CLIMATOL, V126, P369, DOI 10.1007/s00704-015-1584-x
+   Werner AT, 2016, HYDROL EARTH SYST SC, V20, P1483, DOI 10.5194/hess-20-1483-2016
+   Wilby R. L., 2002, ENVIRONMENTAL MODELLING & SOFTWARE, V17, P147, DOI 10.1016/S1364-8152(01)00060-3
+   Wilby RL, 1997, PROG PHYS GEOG, V21, P530, DOI 10.1177/030913339702100403
+   Wilks D. S., 2011, STAT METHODS ATMOSPH, V0, P0
+   Wood AW, 2004, CLIMATIC CHANGE, V62, P189, DOI 10.1023/B:CLIM.0000013685.99609.9e
+   Wood AW, 2002, J GEOPHYS RES-ATMOS, V107, P0, DOI 10.1029/2001JD000659
+   Xu Y, 2015, ATMOS OCEAN SCI LETT, V8, P185, DOI 10.3878/AOSL20150006
+   Xue YK, 2014, ATMOS RES, V147, P68, DOI 10.1016/j.atmosres.2014.05.001
+   Yang Y, 2019, CLIM DYNAM, V53, P4629, DOI 10.1007/s00382-019-04809-x
+NR 71
+TC 20
+Z9 20
+U1 18
+U2 88
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0899-8418
+EI 1097-0088
+J9 INT J CLIMATOL
+JI Int. J. Climatol.
+PD FEB 15
+PY 2021
+VL 41
+IS 2
+BP 1128
+EP 1147
+DI 10.1002/joc.6769
+EA AUG 2020
+PG 20
+WC Meteorology & Atmospheric Sciences
+SC Meteorology & Atmospheric Sciences
+GA PZ0FF
+UT WOS:000561794600001
+DA 2023-04-26
+ER
+
+PT J
+AU Ajayakumar, J
+   Curtis, AJ
+   Rouzier, V
+   Pape, JW
+   Bempah, S
+   Alam, MT
+   Alam, MM
+   Rashid, MH
+   Ali, A
+   Morris, JG
+AF Ajayakumar, Jayakrishnan
+   Curtis, Andrew J.
+   Rouzier, Vanessa
+   Pape, Jean William
+   Bempah, Sandra
+   Alam, Meer Taifur
+   Alam, Md. Mahbubul
+   Rashid, Mohammed H.
+   Ali, Afsar
+   Morris, John Glenn
+TI Exploring convolutional neural networks and spatial video for on-the-ground mapping in informal settlements
+SO INTERNATIONAL JOURNAL OF HEALTH GEOGRAPHICS
+LA English
+DT Article
+ID dar-es-salaam; malaria prevalence; temporal dynamics; slums; dengue; environments; community; risks; fever; model
+AB Background The health burden in developing world informal settlements often coincides with a lack of spatial data that could be used to guide intervention strategies. Spatial video (SV) has proven to be a useful tool to collect environmental and social data at a granular scale, though the effort required to turn these spatially encoded video frames into maps limits sustainability and scalability. In this paper we explore the use of convolution neural networks (CNN) to solve this problem by automatically identifying disease related environmental risks in a series of SV collected from Haiti. Our objective is to determine the potential of machine learning in health risk mapping for these environments by assessing the challenges faced in adequately training the required classification models. Results We show that SV can be a suitable source for automatically identifying and extracting health risk features using machine learning. While well-defined objects such as drains, buckets, tires and animals can be efficiently classified, more amorphous masses such as trash or standing water are difficult to classify. Our results further show that variations in the number of image frames selected, the image resolution, and combinations of these can be used to improve the overall model performance. Conclusion Machine learning in combination with spatial video can be used to automatically identify environmental risks associated with common health problems in informal settlements, though there are likely to be variations in the type of data needed for training based on location. Success based on the risk type being identified are also likely to vary geographically. However, we are confident in identifying a series of best practices for data collection, model training and performance in these settings. We also discuss the next step of testing these findings in other environments, and how adding in the simultaneously collected geographic data could be used to create an automatic health risk mapping tool.
+C1 [Ajayakumar, Jayakrishnan; Curtis, Andrew J.] Case Western Reserve Univ, Sch Med, Dept Populat & Quantitat Hlth Sci, Cleveland, OH 44106 USA.
+   [Rouzier, Vanessa; Pape, Jean William] Les Ctr Haitian Grp Study Kaposis Sarcoma & Oppor, Port Au Prince, Haiti.
+   [Bempah, Sandra] Kent State Univ, Dept Geog, Kent, OH 44242 USA.
+   [Alam, Meer Taifur; Alam, Md. Mahbubul; Rashid, Mohammed H.; Ali, Afsar; Morris, John Glenn] Univ Florida, Coll Med, Emerging Pathogens Inst, Gainesville, FL USA.
+   [Alam, Meer Taifur; Alam, Md. Mahbubul; Rashid, Mohammed H.; Ali, Afsar; Morris, John Glenn] Univ Florida, Coll Med, Dept Med, Gainesville, FL USA.
+   [Alam, Meer Taifur; Alam, Md. Mahbubul; Ali, Afsar] Univ Florida, Coll Publ Hlth & Hlth Profess, Emerging Pathogens Inst, Gainesville, FL 32601 USA.
+   [Alam, Meer Taifur; Alam, Md. Mahbubul; Ali, Afsar] Univ Florida, Coll Publ Hlth & Hlth Profess, Dept Environm & Global Hlth, Gainesville, FL 32601 USA.
+C3 Case Western Reserve University; University System of Ohio; Kent State University; Kent State University Kent; Kent State University Salem; State University System of Florida; University of Florida; State University System of Florida; University of Florida; State University System of Florida; University of Florida; State University System of Florida; University of Florida
+RP Ajayakumar, J (corresponding author), Case Western Reserve Univ, Sch Med, Dept Populat & Quantitat Hlth Sci, Cleveland, OH 44106 USA.
+EM jxa421@case.edu
+FU National Institute of Allergy & Infectious Diseases [RO1 Al126357]
+CR Ajami A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111282
+   Amarasinghe A, 2017, PROCEEDINGS OF THE 15TH ACM CONFERENCE ON EMBEDDED NETWORKED SENSOR SYSTEMS (SENSYS17), V0, P0, DOI DOI 10.1145/3131672.3136986
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Bahdanau D, 2016, ARXIV, V0, P0
+   Bempah S, 2020, HEALTH PLACE, V64, P0, DOI 10.1016/j.healthplace.2020.102382
+   Boller D, 2019, URBAN WATER J, V16, P480, DOI 10.1080/1573062X.2019.1687743
+   Chow CK, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0110042
+   Corburn J., 2012, MATHARE ZONAL PLAN N, V0, P0
+   Corburn J, 2015, J ENVIRON PUBLIC HEA, V2015, P0, DOI 10.1155/2015/209505
+   Curtis A, 2019, INT J ENV RES PUB HE, V16, P0, DOI 10.3390/ijerph16050807
+   Curtis A, 2019, INT J ENV RES PUB HE, V16, P0, DOI 10.3390/ijerph16010033
+   Curtis A, 2017, APPL GEOGR, V87, P197, DOI 10.1016/j.apgeog.2017.08.008
+   Curtis A, 2016, INT J ENV RES PUB HE, V13, P0, DOI 10.3390/ijerph13020187
+   Curtis A, 2013, INT J HEALTH GEOGR, V12, P0, DOI 10.1186/1476-072X-12-21
+   Delmelle E, 2016, ACTA TROP, V164, P169, DOI 10.1016/j.actatropica.2016.08.028
+   Dewan AM, 2013, PLOS NEGLECT TROP D, V7, P0, DOI 10.1371/journal.pntd.0001998
+   Dickin SK, 2014, APPL GEOGR, V46, P71, DOI 10.1016/j.apgeog.2013.11.003
+   Emina J, 2011, J URBAN HEALTH, V88, P200, DOI 10.1007/s11524-011-9594-1
+   Engstrom R, 2019, JOINT URB REMOTE SEN, V0, P0
+   Falco E, 2019, HABITAT INT, V94, P0, DOI 10.1016/j.habitatint.2019.102038
+   Fulton M, 2019, IEEE INT CONF ROBOT, V0, PP5752, DOI 10.1109/ICRA.2019.8793975
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Goldberg Y., 2017, SYNTHESIS LECT HUMAN, V0, P0, DOI DOI 10.2200/S00762ED1V01Y201703HLT037
+   Graves A, 2014, PR MACH LEARN RES, V32, P1764
+   Ibrahim MR, 2019, COMPUT ENVIRON URBAN, V76, P31, DOI 10.1016/j.compenvurbsys.2019.03.005
+   Joseph R, 2018, ARXIV PREPRINT ARXIV, V0, P0
+   Karanja I, 2010, ENVIRON URBAN, V22, P217, DOI 10.1177/0956247809362642
+   Krasin Ivan, 2017, OPENIMAGES PUBLIC DA, V0, P0
+   Law S, 2020, INT J GEOGR INF SCI, V34, P681, DOI 10.1080/13658816.2018.1555832
+   LeCun Y., 1995, HDB BRAIN THEORY NEU, V3361, P0, DOI 10.5555/303568.303704
+   Liu RY, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11232844
+   Long J., 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Messina JP, 2011, MALARIA J, V10, P0, DOI 10.1186/1475-2875-10-161
+   Mooney SJ, 2016, AM J PUBLIC HEALTH, V106, P462, DOI 10.2105/AJPH.2015.302978
+   Mwakalinga VM, 2016, MALARIA J, V15, P0, DOI 10.1186/s12936-016-1186-9
+   Panek J, 2015, ELECTR J INF SYS DEV, V68, P0
+   Price H, 2019, SCI TOTAL ENVIRON, V671, P818, DOI 10.1016/j.scitotenv.2019.03.355
+   Rad MS, 2017, LECT NOTES COMPUT SC, V10528, P195, DOI 10.1007/978-3-319-68345-4_18
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Redmon J, 2017, PROC CVPR IEEE, V0, PP6517, DOI 10.1109/CVPR.2017.690
+   Ren S., 2016, ARXIV, V0, P0, DOI DOI 10.1109/TPAMI.2016.2577031
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Smiley SL, 2017, TROP MED INFECT DIS, V2, P0, DOI 10.3390/tropicalmed2020008
+   Stark T., 2019, P 2019 JOINT URBAN R, V2019, P1, DOI 10.1109/JURSE.2019.8808965
+   Thomson DR, 2020, SOC SCI-BASEL, V9, P0, DOI 10.3390/socsci9050080
+   Townes LR, 2013, MALARIA J, V12, P0, DOI 10.1186/1475-2875-12-407
+   Uijlings JRR, 2013, INT J COMPUT VISION, V104, P154, DOI 10.1007/s11263-013-0620-5
+   Verma D, 2019, HABITAT INT, V88, P0, DOI 10.1016/j.habitatint.2019.04.008
+   Wang J, 2016, PROC CVPR IEEE, V0, PP2285, DOI 10.1109/CVPR.2016.251
+   Wurm M, 2019, ISPRS J PHOTOGRAMM, V150, P59, DOI 10.1016/j.isprsjprs.2019.02.006
+NR 50
+TC 6
+Z9 6
+U1 2
+U2 33
+PU BMC
+PI LONDON
+PA CAMPUS, 4 CRINAN ST, LONDON N1 9XW, ENGLAND
+SN 1476-072X
+EI 
+J9 INT J HEALTH GEOGR
+JI Int. J. Health Geogr.
+PD JAN 25
+PY 2021
+VL 20
+IS 1
+BP 
+EP 
+DI 10.1186/s12942-021-00259-z
+PG 17
+WC Public, Environmental & Occupational Health
+SC Public, Environmental & Occupational Health
+GA PX7ME
+UT WOS:000611537200001
+PM 33494756
+DA 2023-04-26
+ER
+
+PT J
+AU Feng, F
+   Wang, ST
+   Zhang, J
+   Wang, CY
+AF Feng Fan
+   Wang Shuangting
+   Zhang Jin
+   Wang Chunyang
+TI Hyperspectral Images Classification Based on Multi-Feature Fusion and Hybrid Convolutional Neural Networks
+SO LASER & OPTOELECTRONICS PROGRESS
+LA Chinese
+DT Article
+DE image processing; hyperspectral images; multi-feature fusion; residual connection; hybrid convolutional neural network
+AB Aiming at the problem that the classification accuracy of hyperspectral images is not ideal when the amount of training samples of three-dimensional convolutional network is limited, an efficient classification model based on multi-feature fusion and hybrid convolutional neural networks is proposed in this paper. First, after the dimensionality reduction processing is performed on hyperspectral images, the three-dimensional convolutional layer is used to extract deep hierarchical spatial-spectral joint features. Then, the residual connection is introduced to perform multi -feature fusion through feature map concatenation and pixel-wise addition to realize feature reuse and enhance information transmission. Finally, a two-dimensional convolutional layer is used to enhance the spatial information of the extracted features and realize image classification. The experimental results show that in the three publicly available hyperspectral data sets Indian Pines, Salinas and University of Pavia, 5%, 1% and 1% of the labeled samples are used as training data, respectively, the classification accuracy of the model is 97.09%, 99.30% and 97. 60%, respectively, which can effectively improve the classification accuracy of hyperspectral images for under small sample condition.
+C1 [Feng Fan; Wang Shuangting; Zhang Jin; Wang Chunyang] Henan Polytech Univ, Sch Surveying & Land Informat Engn, Jiaozuo 454000, Henan, Peoples R China.
+C3 Henan Polytechnic University
+RP Wang, CY (corresponding author), Henan Polytech Univ, Sch Surveying & Land Informat Engn, Jiaozuo 454000, Henan, Peoples R China.
+EM wcy@hpu.edu.cn
+CR Bengio Y, 2013, IEEE T PATTERN ANAL, V35, P1798, DOI 10.1109/TPAMI.2013.50
+   BiXJ ZhouZ Y, 2019, ACTA OPTICA SINICA, V39, P10
+   Chen YS, 2016, IEEE T GEOSCI REMOTE, V54, P6232, DOI 10.1109/TGRS.2016.2584107
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   [杜培军 Du Peijun], 2016, 遥感学报 JOURNAL OF REMOTE SENSING, V20, P236
+   Eldan R, 2020, POWER DEPTH FEEDFORW, V0, P0
+   Feng F, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19235276
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang GL, 2017, IEEE ICC, V0, P0
+   Lee H, 2017, IEEE T IMAGE PROCESS, V26, P4843, DOI 10.1109/TIP.2017.2725580
+   Li ST, 2019, IEEE T GEOSCI REMOTE, V57, P6690, DOI 10.1109/TGRS.2019.2907932
+   Li Y, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040331
+   LiS Y, 2019, INFRARED LASER ENG, V48, P0
+   Liu B, 2019, IEEE T GEOSCI REMOTE, V57, P2290, DOI 10.1109/TGRS.2018.2872830
+   Liu YZ, 2019, LASER OPTOELECTRON P, V56, P0, DOI 10.3788/LOP56.111007
+   Makantasis K, 2015, INT GEOSCI REMOTE SE, V0, PP4959, DOI 10.1109/IGARSS.2015.7326945
+   Pan B, 2018, ISPRS J PHOTOGRAMM, V145, P108, DOI 10.1016/j.isprsjprs.2017.11.003
+   Roy SK, 2020, IEEE GEOSCI REMOTE S, V17, P277, DOI 10.1109/LGRS.2019.2918719
+   Veit A, 2020, RESIDUAL NETWORKS BE, V0, P0
+   Wei XP, 2019, LASER OPTOELECTRON P, V56, P0, DOI 10.3788/LOP56.151006
+   Yan MJ, 2020, ACTA OPT SIN, V40, P0, DOI 10.3788/AOS202010.1628002
+   Yue J, 2015, REMOTE SENS LETT, V6, P468, DOI 10.1080/2150704X.2015.1047045
+   [张号逵 Zhang Haokui], 2018, 自动化学报 ACTA AUTOMATICA SINICA, V44, P961
+   ZhangJ WeiF Y, 2020, J SENSORS, V20, P5191
+   Zhong ZL, 2018, IEEE T GEOSCI REMOTE, V56, P847, DOI 10.1109/TGRS.2017.2755542
+   Zhou YC, 2016, IEEE T CYBERNETICS, V46, P1667, DOI 10.1109/TCYB.2015.2453359
+NR 26
+TC 4
+Z9 4
+U1 4
+U2 14
+PU SHANGHAI INST OPTICS & FINE MECHANICS, CHINESE ACAD SCIENCE
+PI SHANGHAI
+PA 390, QINGHE LU, SHANGHAI, JIADING-QU, PEOPLES R CHINA
+SN 1006-4125
+EI 
+J9 LASER OPTOELECTRON P
+JI Laser Optoelectron. Prog.
+PD APR 15
+PY 2021
+VL 58
+IS 8
+BP 
+EP 
+DI 10.3788/LOP202158.0810010
+PG 11
+WC Engineering, Electrical & Electronic; Optics
+SC Engineering; Optics
+GA UC4GG
+UT WOS:000686485400012
+DA 2023-04-26
+ER

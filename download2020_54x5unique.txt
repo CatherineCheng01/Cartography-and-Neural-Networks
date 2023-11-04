@@ -1,0 +1,520 @@
+
+PT J
+AU Ma, Y
+   Zheng, YB
+   Easa, S
+   Cheng, JC
+AF Ma, Yang
+   Zheng, Yubing
+   Easa, Said
+   Cheng, Jianchuan
+TI Semi-automated framework for generating cycling lane centerlines on roads with roadside barriers from noisy MLS data
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Cycling lane; Centerline; Mobile LiDAR; Roadside barrier; Object identification; Methodology
+ID mobile lidar; neural-network; extraction; algorithm; surface; edges
+AB Cycling lane centerlines (CLC) play an important role in the evaluation of safety-related conditions and guiding systems for cyclists along road corridors. The unavailability of design files or undocumented changes in the road infrastructures after improvements has created great difficulty in delineating CLC on existing roads. In this study, mobile laser scanning (MLS) data are introduced into this domain and a four-step semi-automated framework is proposed for generating CLC on roads with roadside barriers (RB). First, MLS data are restructured into the aligned scan-pattern grid using the mapping trajectory data. Second, a rasterization-based clustering approach is applied to segment the off-ground objects from the reorganized MLS data. Third, the RB amongst the segmented objects are identified using a sequential application of the k-Means clustering method and the proposed unidirectional growing method. Finally, the moving average technique and natural cubic spline are applied to generate CLC from the critical positions alongside the identified RB. Testing on three road sections with different types of RB demonstrated that the developed framework can successfully generate CLC from MLS data in the presence of considerable noises. The results also show that the proposed procedure shows better accuracy performance on processing roads with wide RB than a road with narrow RB.
+C1 [Ma, Yang; Zheng, Yubing; Cheng, Jianchuan] Southeast Univ, Sch Transportat, 2 Dongnandaxue Rd, Nanjing 211189, Jiangsu, Peoples R China.
+   [Easa, Said] Ryerson Univ, Dept Civil Engn, Toronto, ON M5B 2K3, Canada.
+C3 Southeast University - China; Toronto Metropolitan University
+RP Ma, Y (corresponding author), Southeast Univ, Sch Transportat, 2 Dongnandaxue Rd, Nanjing 211189, Jiangsu, Peoples R China.
+EM mayang93@seu.edu.cn; zhengybseu@seu.edu.cn; seasa@ryerson.ca; jccheng@seu.edu.cn
+FU National Natural Science Foundation of China [51478115, 51768063]; Postgraduate Research & Practice Innovation Program of Jiangsu Province [KYCX19_0107]; Scientific Research Foundation of Graduate School of Southeast University [YBPY2038]
+CR [Anonymous], 2012, INT ARCH PHOTOGRAMM, V0, P0
+   [Anonymous], 2016, GOVT RESOLUTION REPU, V0, P0
+   [Anonymous], 2019, ISPRS INT GEO INF, V0, P0, DOI DOI 10.3390/IJGI8120525
+   [Anonymous], 2018, EGYPT J REMOTE SENS, V0, P0
+   [Anonymous], 2019, SHENZHEN STAT YB, V0, P0
+   [Anonymous], 2019, SENSORS, V0, P0, DOI DOI 10.3390/S19225030
+   [Anonymous], 2014, MEASUREMENT, V0, P0, DOI DOI 10.1016/J.MEASUREMENT.2014.03.033
+   [Anonymous], 2019, J COMPUT CIVIL ENG, V0, P0, DOI DOI 10.1061/(ASCE)CP.1943-5487.0000853
+   [Anonymous], 2016, ISPRS INT GEO INF, V0, P0, DOI DOI 10.3390/IJGI5060093
+   Cabo C, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090740
+   Che EZ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070836
+   Che EZ, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19040810
+   CLEVELAND WS, 1979, J AM STAT ASSOC, V74, P829, DOI 10.2307/2286407
+   El-Halawany S., 2011, INT ARCH PHOTOGRAMM, V38, P0
+   Gargoum SA, 2019, GISCI REMOTE SENS, V56, P864, DOI 10.1080/15481603.2019.1581475
+   Guan HY, 2016, INT J IMAGE DATA FUS, V7, P219, DOI 10.1080/19479832.2016.1188860
+   Guan HY, 2015, IEEE T INTELL TRANSP, V16, P194, DOI 10.1109/TITS.2014.2328589
+   Guo J, 2015, AUTOMAT CONSTR, V58, P165, DOI 10.1016/j.autcon.2015.07.017
+   Hervieu A., 2013, IEEE INT VEH S JUN 2, V0, P0
+   Hi-target, 2019, HISCAN S MOB MAPP SY, V0, P0
+   Huang J, 2016, INT C PATT RECOG, V0, PP2670, DOI 10.1109/ICPR.2016.7900038
+   Jung J, 2018, TRANSPORT RES C-EMER, V86, P563, DOI 10.1016/j.trc.2017.12.004
+   Kumar P, 2015, ISPRS ANN PHOTO REM, VII-2, P215, DOI 10.5194/isprsannals-II-2-W2-215-2015
+   Kumar P, 2013, ISPRS J PHOTOGRAMM, V85, P44, DOI 10.1016/j.isprsjprs.2013.08.003
+   LLOYD SP, 1982, IEEE T INFORM THEORY, V28, P129, DOI 10.1109/TIT.1982.1056489
+   Ma L., 2019, IEEE J SEL TOP APPL, V0, P1
+   Ma LF, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101531
+   Ma Y, 2019, TRANSPORT RES C-EMER, V106, P317, DOI 10.1016/j.trc.2019.07.018
+   Matkan AA, 2014, PHOTOGRAMM ENG REM S, V80, P409, DOI 10.14358/PERS.80.5.409
+   MATLAB, 2019, ARR IND, V0, P0
+   MATLAB, 2019, R2019A MATLAB, V0, P0
+   Miyazaki R., 2014, ISPRS ANN PHOTOGRAMM, VII-5, P243
+   NovAtel, 2018, POS OR MOB MAPP SYST, V0, P0
+   OpenDSA, 2020, CS3 DAT STRUCT ALG, V0, P0
+   Puente I, 2013, MEASUREMENT, V46, P2127, DOI 10.1016/j.measurement.2013.03.006
+   Qiu KJ, 2016, INT ARCH PHOTOGRAMM, V41, P693, DOI 10.5194/isprsarchives-XLI-B5-693-2016
+   Riley K.F., 2006, MATH METHODS PHYS EN, V0, P0
+   Rodriguez-Cuenca B, 2015, AUTOMAT CONSTR, V51, P103, DOI 10.1016/j.autcon.2014.12.009
+   Serna A, 2014, ISPRS J PHOTOGRAMM, V93, P243, DOI 10.1016/j.isprsjprs.2014.03.015
+   Serna A, 2013, ISPRS J PHOTOGRAMM, V84, P23, DOI 10.1016/j.isprsjprs.2013.07.001
+   Stevenson M, 2015, INJURY PREV, V21, P0, DOI 10.1136/injuryprev-2014-041287
+   Wang Z, 2018, IEEE T GEOSCI REMOTE, V56, P4594, DOI 10.1109/TGRS.2018.2829625
+   Williams K, 2013, REMOTE SENS-BASEL, V5, P4652, DOI 10.3390/rs5094652
+   Xu S, 2017, IEEE T GEOSCI REMOTE, V55, P996, DOI 10.1109/TGRS.2016.2617819
+   Yadav M, 2017, INT J REMOTE SENS, V38, P4655, DOI 10.1080/01431161.2017.1320451
+   Yan WY, 2016, OPT LASER TECHNOL, V77, P162, DOI 10.1016/j.optlastec.2015.09.017
+   Yang BS, 2013, ISPRS J PHOTOGRAMM, V79, P80, DOI 10.1016/j.isprsjprs.2013.01.016
+   Ye C., 2019, IEEE T INTELL TRANSP, V0, P0
+   Yousefhussien M, 2018, ISPRS J PHOTOGRAMM, V143, P191, DOI 10.1016/j.isprsjprs.2018.03.018
+   Zai DW, 2018, IEEE T INTELL TRANSP, V19, P802, DOI 10.1109/TITS.2017.2701403
+   Zhao H., 2017, THESIS U WATERLOO ON, V0, P0
+   Zoller Frohlich, 2019, Z F PROGILER 9012 2D, V0, P0
+NR 52
+TC 3
+Z9 4
+U1 2
+U2 23
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29a, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD SEP 15
+PY 2020
+VL 167
+IS 
+BP 396
+EP 417
+DI 10.1016/j.isprsjprs.2020.07.009
+PG 22
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA NC6SC
+UT WOS:000561346200027
+DA 2023-04-26
+ER
+
+PT J
+AU Benchelha, S
+   Aoudjehane, HC
+   Hakdaoui, M
+   El Hamdouni, R
+   Mansouri, H
+   Benchelha, T
+   Layelmam, M
+   Alaoui, M
+AF Benchelha, Said
+   Aoudjehane, Hasnaa Chennaoui
+   Hakdaoui, Mustapha
+   El Hamdouni, Rachid
+   Mansouri, Hojjatollah
+   Benchelha, Taoufik
+   Layelmam, Mohammed
+   Alaoui, Mustapha
+TI Landslide Susceptibility Mapping in the Commune of Oudka, Taounate Province, North Morocco: A Comparative Analysis of Logistic Regression, Multivariate Adaptive Regression Spline, and Artificial Neural Network Models
+SO ENVIRONMENTAL & ENGINEERING GEOSCIENCE
+LA English
+DT Article
+DE Landslide Susceptibility Mapping; Multivariate Adaptive Regression Splines; Logistic Regression; Artificial Neural Networks; Oudka; Taounate (Morocco)
+ID analytical hierarchy process; likelihood ratio; frequency ratio; classification; verification; fuzzy; area; iran
+AB Landslide susceptibility indices were calculated and landslide susceptibility maps were generated for the Oudka, Morocco, study area using a geographic information system. The spatial database included current landslide location, topography, soil, hydrology, and lithology, and the eight factors related to landslides (elevation, slope, aspect, distance to streams, distance to roads, distance to faults, lithology, and Normalized Difference Vegetation Index [NDVI]) were calculated or extracted. Logistic regression (LR), multivariate adaptive regression spline (MARSpline), and Artificial Neural Networks (ANN) were the methods used in this study to generate landslide susceptibility indices. Before the calculation, the study area was randomly divided into two parts, the first for the establishment of the model and the second for its validation. The results of the landslide susceptibility analysis were verified using success and prediction rates. The MARSpline model gave a higher success rate (AUC (Area Under The Curve) = 0.963) and prediction rate (AUC = 0.951) than the LR model (AUC = 0.918 and AUC = 0.901) and the ANN model (AUC = 0.886 and AUC = 0.877). These results indicate that the MARSpline model is the best model for determining landslide susceptibility in the study area. [GRAPHICS]
+C1 [Benchelha, Said; Aoudjehane, Hasnaa Chennaoui; Benchelha, Taoufik] Hassan II Univ Casablanca, Fac Sci, GAIA Lab, Ain Chock, Morocco.
+   [Hakdaoui, Mustapha] Hassan II Univ Casablanca, Fac Sci, LGAGE Lab, Ben Msik, Morocco.
+   [El Hamdouni, Rachid] Univ Granada, Dept Civil Engn, Granada 18071, Spain.
+   [Mansouri, Hojjatollah] LPEE, Casablanca, Morocco.
+   [Layelmam, Mohammed] Hassan II Agron & Vet Inst, Rabat, Morocco.
+   [Alaoui, Mustapha] Sultan Moulay Slimane Univ, Fac Sci & Technol, Lab Management & Valorizat Nat Resources, Beni Mellal, Morocco.
+C3 Hassan II University of Casablanca; Hassan II University of Casablanca; University of Granada; Sultan Moulay Slimane University of Beni Mellal
+RP Benchelha, S (corresponding author), Hassan II Univ Casablanca, Fac Sci, GAIA Lab, Ain Chock, Morocco.
+EM said1.benchelha@gmail.com
+CR Akgun A, 2012, COMPUT GEOSCI-UK, V38, P23, DOI 10.1016/j.cageo.2011.04.012
+   Akgun A, 2012, LANDSLIDES, V9, P93, DOI 10.1007/s10346-011-0283-7
+   Atkinson PM, 2011, GEOMORPHOLOGY, V130, P55, DOI 10.1016/j.geomorph.2011.02.001
+   Bai SB, 2010, GEOMORPHOLOGY, V115, P23, DOI 10.1016/j.geomorph.2009.09.025
+   Belsley D. A., 1991, COMPUTER SCIENCE IN ECONOMICS AND MANAGEMENT, V4, P33
+   Booth G.D., 1994, INT470 US DEP AGR FO, V0, P0
+   Das I, 2010, GEOMORPHOLOGY, V114, P627, DOI 10.1016/j.geomorph.2009.09.023
+   Demir G, 2015, ARAB J GEOSCI, V8, P1801, DOI 10.1007/s12517-014-1332-z
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Felicisimo A, 2013, LANDSLIDES, V10, P175, DOI 10.1007/s10346-012-0320-1
+   FRIEDMAN JH, 1991, ANN STAT, V19, P1, DOI 10.1214/aos/1176347963
+   GARRETT JH, 1994, J COMPUT CIVIL ENG, V8, P129, DOI 10.1061/(ASCE)0887-3801(1994)8:2(129)
+   Guzzetti F., 2005, THESIS, V0, P0
+   Hair J.F., 2010, MULTIVARIATE DATA AN, V7th ed., P0
+   HALL DK, 1995, REMOTE SENS ENVIRON, V54, P127, DOI 10.1016/0034-4257(95)00137-P
+   HANLEY JA, 1982, RADIOLOGY, V143, P29, DOI 10.1148/radiology.143.1.7063747
+   Kanungo DP, 2006, ENG GEOL, V85, P347, DOI 10.1016/j.enggeo.2006.03.004
+   Lee S, 2007, LANDSLIDES, V4, P327, DOI 10.1007/s10346-007-0088-x
+   Liao D, 2012, SURV METHODOL, V38, P53
+   Nandi A, 2010, ENG GEOL, V110, P11, DOI 10.1016/j.enggeo.2009.10.001
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Nourani V, 2014, NAT HAZARDS, V71, P523, DOI 10.1007/s11069-013-0932-3
+   Pijanowski B. C., 2002, COMPUTERS, V0, P0
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Rosman AS, 2007, AM J MED, V120, P203, DOI 10.1016/j.amjmed.2006.05.061
+   Rosner Bernard, 2015, J BIOM BIOSTAT, V6, P0, DOI 10.4172/2155-6180.1000270
+   Rumelhart D.E., 1986, ENCY DATABASE SYST, V0, P0
+   Schuerman J., 1983, MULTIVARIATE ANAL HU, V0, PP93, DOI 10.1007/978-94-009-6661-1_6
+   Schuster R.J., 1978, 176 TRB NAT RES COUN, V0, P11
+   Shahabi H, 2014, CATENA, V115, P55, DOI 10.1016/j.catena.2013.11.014
+   Song C, 2001, REMOTE SENS ENVIRON, V75, P230, DOI 10.1016/S0034-4257(00)00169-3
+   Van Westen CJ, 2003, NAT HAZARDS, V30, P399, DOI 10.1023/B:NHAZ.0000007097.42735.9e
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V61, P821, DOI 10.1007/s12665-009-0394-9
+   Zhou WY, 1999, IEEE T GEOSCI REMOTE, V37, P771, DOI 10.1109/36.752193
+NR 35
+TC 4
+Z9 4
+U1 1
+U2 6
+PU GEOLOGICAL SOC AMER, INC
+PI BOULDER
+PA PO BOX 9140, BOULDER, CO 80301-9140 USA
+SN 1078-7275
+EI 1558-9161
+J9 ENVIRON ENG GEOSCI
+JI Environ. Eng. Geosci.
+PD MAY 15
+PY 2020
+VL 26
+IS 2
+BP 185
+EP 200
+DI 
+PG 16
+WC Engineering, Environmental; Engineering, Geological; Geosciences, Multidisciplinary
+SC Engineering; Geology
+GA LT8UG
+UT WOS:000537342400004
+DA 2023-04-26
+ER
+
+PT J
+AU Luo, C
+   Wang, HY
+   Zheng, YJ
+AF Luo, Chao
+   Wang, Haiyue
+   Zheng, Yuanjie
+TI Controllability of k-Valued Fuzzy Cognitive Maps
+SO IEEE TRANSACTIONS ON FUZZY SYSTEMS
+LA English
+DT Article
+DE Controllability; Fuzzy cognitive maps; Cognition; Knowledge based systems; Sufficient conditions; Neural networks; Controllability; dynamics; fuzzy cognitive maps (FCMs); inference system
+ID boolean networks; dynamics; design
+AB Fuzzy cognitive maps (FCMs) as a kind of knowledge-based tools are widely applied to model complex dynamical systems using causal relations. Besides the representation and reasoning of systems behaviors, how to control the given systems into a desirable target by causal objects established by FCMs is also an open problem. Although, so far, there are some existing works about the applications of FCMs on the control-related problems, it is still a lack of the theoretical analysis in this domain. In this paper, the controllability of k-valued FCMs is studied. To improve the universality of models, a temporal extension of generalized FCMs is implemented. By means of semitensor product, the algebraic representation of k-valued FCMs with controls is established and a generalized formula of control-depending network transition matrices is achieved. A necessary and sufficient condition is proved to determine the control-depending fixed points of k-valued FCMs with temporalization. By utilizing three kinds of controls, the controllability of the discrete FCMs is discussed, respectively. The reachability condition of a specific target state from a given initial state at time s is studied, and the reachable set along with the corresponding reachable probability are also provided by analytic formula. Results provide a way to make FCMs evolving into the designed states by controls, which can further conduct the behaviors of the modeled systems in reality. Examples are shown to demonstrate the effectiveness and feasibility of the proposed scheme.
+C1 [Luo, Chao; Wang, Haiyue; Zheng, Yuanjie] Shandong Normal Univ, Sch Informat Sci & Engn, Jinan 250014, Peoples R China.
+   [Luo, Chao; Zheng, Yuanjie] Shandong Prov Key Lab Novel Distributed Comp Soft, Jinan 250014, Peoples R China.
+   [Zheng, Yuanjie] Univ Shandong, Key Lab Intelligent Comp & Informat Secur, Jinan 250358, Peoples R China.
+   [Zheng, Yuanjie] Shandong Normal Univ, Inst Biomed Sci, Jinan 250358, Peoples R China.
+C3 Shandong Normal University; Shandong University; Shandong Normal University
+RP Luo, C (corresponding author), Shandong Normal Univ, Sch Informat Sci & Engn, Jinan 250014, Peoples R China.
+EM cluo79@gmail.com; haiyue_wang1223@163.com; zhengyuanjie@gmail.com
+FU National Natural Science Foundation of China [61402267, 61572300, 81871508, 61773246]; Shandong Provincial Natural Science Foundation [ZR2019MF020]; Taishan Scholar Program of Shandong province [TSHW201502038]; Major Program of Shandong Province Natural Science Foundation [ZR2018ZB0419]
+CR Acampora Giovanni, 2012, MULTIDISCIPLINARY RESEARCH AND PRACTICE FOR INFORMATION SYSTEMS. INTERNATIONAL CROSS-DOMAIN CONFERENCE AND WORKSHOP ON AVAILABILITY, V0, P501, DOI 10.1007/978-3-642-32498-7_38
+   Acampora G, 2011, IEEE T FUZZY SYST, V19, P1040, DOI 10.1109/TFUZZ.2011.2159799
+   Akutsu T, 2007, J THEOR BIOL, V244, P670, DOI 10.1016/j.jtbi.2006.09.023
+   Amirkhani A, 2016, ISA T, V60, P128, DOI 10.1016/j.isatra.2015.11.007
+   Behrooz F, 2018, ENERGIES, V11, P0, DOI 10.3390/en11030495
+   Bourgani E., 2017, P IEEE INT C SYST MA, V0, P0
+   Bourgani E., 2015, IEEE INT C FUZZ SYST, V0, P1
+   Bourgani E, 2015, IFMBE PROC, V45, P753, DOI 10.1007/978-3-319-11128-5_187
+   Chen Z, 2015, PROCEDIA MANUF, V3, P1910, DOI 10.1016/j.promfg.2015.07.234
+   Cheng DZ, 2018, IEEE CONTR SYST LETT, V2, P254, DOI 10.1109/LCSYS.2018.2821240
+   Cheng DZ, 2010, IEEE T AUTOMAT CONTR, V55, P2251, DOI 10.1109/TAC.2010.2043294
+   Cheng DH, 2011, COMMUN CONTROL ENG, V0, PP1, DOI 10.1007/978-0-85729-097-7
+   Groumpos PP, 2000, CHAOS SOLITON FRACT, V11, P329, DOI 10.1016/S0960-0779(98)00303-8
+   HERMANN R, 1977, IEEE T AUTOMAT CONTR, V22, P728, DOI 10.1109/TAC.1977.1101601
+   Kalman R., 1963, SIAM J APPL MATH, V1, P152
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kottas TL, 2006, IEEE T ENERGY CONVER, V21, P793, DOI 10.1109/TEC.2006.875430
+   Li BW, 2018, IEEE T CYBERNETICS, V48, P2764, DOI 10.1109/TCYB.2017.2746102
+   Li FF, 2016, IEEE T NEUR NET LEAR, V27, P1585, DOI 10.1109/TNNLS.2015.2449274
+   Li L, 2017, IEEE INT C BIOINF BI, V0, PP409, DOI 10.1109/BIBE.2017.00075
+   Li R, 2013, IEEE T NEUR NET LEAR, V24, P996, DOI 10.1109/TNNLS.2013.2248092
+   LIANG ZC, 1984, GEOCHIMICA, V0, P10
+   Liu X., 2008, INT J INF SYST SCI, V0, P335
+   Liu XD, 2010, INT J NUMER ANAL MOD, V7, P66
+   Liu YY, 2011, NATURE, V473, P167, DOI 10.1038/nature10011
+   Lombardi A, 2007, PHYS REV E, V75, P0, DOI 10.1103/PhysRevE.75.056110
+   Maya-Yescas R., 2016, PROCESS INTENSIFICAT, V0, PP293, DOI 10.1007/978-3-319-28392-0_11
+   Miao Y, 2001, IEEE T FUZZY SYST, V9, P760, DOI 10.1109/91.963762
+   Moschoyiannis S, 2016, ELECTRON P THEOR COM, V0, PP39, DOI 10.4204/EPTCS.220.4
+   Nepusz T, 2012, NAT PHYS, V8, P568, DOI 10.1038/nphys2327
+   PARK KS, 1995, INT J HUM-COMPUT ST, V42, P157, DOI 10.1006/ijhc.1995.1007
+   Pedrycz W, 2016, IEEE T FUZZY SYST, V24, P120, DOI 10.1109/TFUZZ.2015.2428717
+   Posfai M, 2013, SCI REP-UK, V3, P0, DOI 10.1038/srep01067
+   Stylios C. D., 1997, P EUR S INT TECHN, V0, P1
+   Stylios CD, 2000, J INTELL FUZZY SYST, V8, P83
+   Stylios CD, 1999, COMPUT IND, V39, P229, DOI 10.1016/S0166-3615(98)00139-0
+   Sussmann H. J., 2017, J DIFFER EQUATIONS, V12, P95
+   Tsadiras AK, 2008, INFORM SCIENCES, V178, P3880, DOI 10.1016/j.ins.2008.05.015
+   Wu K, 2017, IEEE T FUZZY SYST, V25, P1546, DOI 10.1109/TFUZZ.2017.2741444
+   Zhang KZ, 2016, IEEE T AUTOMAT CONTR, V61, P2733, DOI 10.1109/TAC.2015.2501365
+   Zhong HM, 2008, IEEE INT CONF FUZZY, V0, P1833
+NR 41
+TC 7
+Z9 7
+U1 3
+U2 10
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1063-6706
+EI 1941-0034
+J9 IEEE T FUZZY SYST
+JI IEEE Trans. Fuzzy Syst.
+PD AUG 15
+PY 2020
+VL 28
+IS 8
+BP 1694
+EP 1707
+DI 10.1109/TFUZZ.2019.2921263
+PG 14
+WC Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA MW9MO
+UT WOS:000557355500016
+DA 2023-04-26
+ER
+
+PT J
+AU Boufekane, A
+   Meddi, H
+   Meddi, M
+AF Boufekane, Abdelmadjid
+   Meddi, Hind
+   Meddi, Mohamed
+TI Delineation of groundwater recharge zones in the Mitidja plain, north Algeria, using multi-criteria analysis
+SO JOURNAL OF HYDROINFORMATICS
+LA English
+DT Article
+DE GIS; groundwater; Mitidja plain; multi-criteria analysis; recharge zones; remote sensing
+ID artificial neural-network; potential zones; frequency ratio; gis; models; identification; district
+AB This work aims to identify the potential groundwater recharge zones in the Mitidja plain (north Algeria) using the multi-criteria approach. The analysis was based on the use of a geographical information system (GIS) and remote sensing to establish eight thematic maps, weighted, categorized and inserted, that allowed us to establish the potential zones' map for groundwater recharge. Three potential groundwater recharge classes were defined corresponding, respectively, to low (26%), moderate (47%) and high (27%). The best groundwater potential zones are situated in the piedmont of the Blidean Atlas (the south of the study area), precisely, upstream near to wadis (wadi El Harrach, wadi Djemaa, wadi Mazafran) and the western aquifer limit, where the hydrogeological units are formed by the alluvium formation which is characterized by high hydraulic conductivity, high water flow, low slope, low drainage, low quantity transported sediments and good water quality. The obtained results, in this work, describe the groundwater recharge potential areas and supply information for a suitable mapping and the management of aquifer resources in the study area.
+C1 [Boufekane, Abdelmadjid; Meddi, Hind; Meddi, Mohamed] Ecole Natl Super Hydraul ENSH, GEE Lab, Blida, Algeria.
+C3 Ecole Nationale Superieure d'Hydraulique Blida
+RP Boufekane, A (corresponding author), Ecole Natl Super Hydraul ENSH, GEE Lab, Blida, Algeria.
+EM a.boufekane@ensh.dz
+FU Directorate General for Scientific Research and Technology Development staff (DGRSDT-MESRS) [ERANETMED_WATER-13-166]
+CR Abdalla F, 2012, J AFR EARTH SCI, V70, P8, DOI 10.1016/j.jafrearsci.2012.05.003
+   Ait-Ouali A, 2007, THESIS, V0, P0
+   Allan Freeze R., 1979, GROUNDWATER, V0, P0
+   [Anonymous], 2018, J FUNDAM APPL SCI, V0, P0
+   Boufekane A, 2019, ARAB J GEOSCI, V12, P0, DOI 10.1007/s12517-019-4965-0
+   Boughariou E, 2015, ARAB J GEOSCI, V8, P5203, DOI 10.1007/s12517-014-1512-x
+   Castany G., 1982, PRINCIPES METHODES H, V0, P0
+   Demmak A., 2008, 2 MEDA WATER REGIONA, V0, P0
+   Dibi B., 2004, SUD SCI TECHNOL, V13, P22
+   Ecrement Y., 1971, ETUDE AGROPEDOLOGIQU, V0, P0
+   EI-Baz F., 1995, GROUNDWATER POTENTIA, V0, P0
+   El Mekki OA, 2016, EARTH SCI INFORM, V9, P465, DOI 10.1007/s12145-016-0268-0
+   Famiglietti JS, 2014, NAT CLIM CHANGE, V4, P945, DOI 10.1038/nclimate2425
+   Fashae OA, 2014, APPL WATER SCI, V4, P19, DOI 10.1007/s13201-013-0127-9
+   Ibrahim-Bathis K, 2016, EGYPT J REMOTE SENS, V19, P223, DOI 10.1016/j.ejrs.2016.06.002
+   Igwe O, 2020, SUST WAT RESOUR MAN, V6, P0, DOI 10.1007/s40899-020-00397-5
+   Imache A., 2007, ACT 3 AT REG SIRMA N, V0, P0
+   Jothibasu A, 2017, MODEL EARTH SYST ENV, V3, P0, DOI 10.1007/s40808-017-0283-2
+   Kim JC, 2018, J HYDROINFORM, V20, P1436, DOI 10.2166/hydro.2018.120
+   Lasm T., 2000, THESIS, V0, P272
+   Lee S, 2018, GEOCARTO INT, V33, P847, DOI 10.1080/10106049.2017.1303091
+   Lodwick W. A., 1990, INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SYSTEMS, V4, P413, DOI 10.1080/02693799008941556
+   Magesh NS, 2012, GEOSCI FRONT, V3, P189, DOI 10.1016/j.gsf.2011.10.007
+   Mahmoud SH, 2014, WATER RESOUR MANAG, V28, P3319, DOI 10.1007/s11269-014-0681-4
+   Mandal U, 2016, WATER RESOUR MANAG, V30, P4293, DOI 10.1007/s11269-016-1421-8
+   Meddi M, 2003, HYDROLOGY OF MEDITERRANEAN AND SEMIARID REGIONS, V278, P229
+   Mohebzadeh H., 2012, J EARTH SCI ENG, V8, P93
+   Mousavi SM, 2017, AIMS GEOSCI, V3, P91, DOI 10.3934/geosci.2017.1.91
+   Ozdemir A, 2011, J HYDROL, V405, P123, DOI 10.1016/j.jhydrol.2011.05.015
+   Pourghasemi HR, 2015, GEOCARTO INT, V30, P662, DOI 10.1080/10106049.2014.966161
+   SAATY RW, 1987, MATH MODELLING, V9, P161, DOI 10.1016/0270-0255(87)90473-8
+   Saida S, 2017, GEOSCIENCES, V7, P0, DOI 10.3390/geosciences7020020
+   Saidi S, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6840-1
+   Sener E, 2018, ARAB J GEOSCI, V11, P0, DOI 10.1007/s12517-018-3510-x
+   Shaban A, 2006, HYDROGEOL J, V14, P433, DOI 10.1007/s10040-005-0437-6
+   Sinan M, 2009, ENVIRON GEOL, V57, P349, DOI 10.1007/s00254-008-1304-2
+   Sokeng C.J., 2016, INT J INNOV APPL STU, V15, P747
+   Tahmassebipoor N, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2166-z
+   Taormina R, 2015, J HYDROINFORM, V17, P99, DOI 10.2166/hydro.2014.116
+   Tiwari AK, 2017, APPL WATER SCI, V7, P4513, DOI 10.1007/s13201-017-0603-8
+   Toubal A. C., 1989, THESIS, V0, P0
+   Xiaoying Jin, 2005, INFORMATION FUSION, V6, P257, DOI 10.1016/j.inffus.2004.06.003
+   Yao K. A., 2010, J ENV HYDROLOGY, V18, P26
+   Yeh HF, 2016, SUSTAIN ENVIRON RES, V26, P33, DOI 10.1016/j.serj.2015.09.005
+   Zabihi M, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5424-9
+NR 45
+TC 6
+Z9 6
+U1 0
+U2 0
+PU IWA PUBLISHING
+PI LONDON
+PA ALLIANCE HOUSE, 12 CAXTON ST, LONDON SW1H0QS, ENGLAND
+SN 1464-7141
+EI 1465-1734
+J9 J HYDROINFORM
+JI J. Hydroinform.
+PD NOV 15
+PY 2020
+VL 22
+IS 6
+BP 1468
+EP 1484
+DI 10.2166/hydro.2020.082
+PG 17
+WC Computer Science, Interdisciplinary Applications; Engineering, Civil; Environmental Sciences; Water Resources
+SC Computer Science; Engineering; Environmental Sciences & Ecology; Water Resources
+GA PA5DK
+UT WOS:000595656000003
+DA 2023-04-26
+ER
+
+PT J
+AU Wubalem, A
+AF Wubalem, Azemeraw
+TI Modeling of Landslide susceptibility in a part of Abay Basin, northwestern Ethiopia
+SO OPEN GEOSCIENCES
+LA English
+DT Article
+DE landslide; susceptibility; geographic information system; certainty factor; frequency ratio; information value; logistic regression; Ethiopia
+ID logistic-regression; frequency ratio; spatial prediction; conditional-probability; hazard assessment; information value; certainty factor; neural-networks; random forest; area
+AB The study area in northwestern Ethiopia is one of the most landslide-prone regions, which is characterized by frequent high landslide occurrences. To predict future landslide occurrence, preparing a landslide susceptibility mapping is imperative to manage the landslide hazard and reduce damages of properties and loss of lives. Geographic information system (GIS)-based frequency ratio (FR), information value (IV), certainty factor (CF), and logistic regression (LR) methods were applied. The landslide inventory map is prepared from historical records and Google Earth imagery interpretation. Thus, 717 landslides were mapped, of which 502 (70%) landslides were used to build landslide susceptibility models, and the remaining 215 (30%) landslides were used to model validation. Eleven factors such as lithology, land use/cover, distance to drainage, distance to lineament, normalized difference vegetation index, drainage density, rainfall, soil type, slope, aspect, and curvature were evaluated and their relationship with landslide occurrence was analyzed using the GIS tool. Then, landslide susceptibility maps of the study area are categorized into very low, low, moderate, high, and very high susceptibility classes. The four models were validated by the area under the curve (AUC) and landslide density. The results for the AUC are 93.9% for the CF model, which is better than 93.2% using IV, 92.7% using the FR model, and 87.9% using the LR model. Moreover, the statistical significance test between the models was performed using LR analysis by SPSS software. The result showed that the LR and CF models have higher statistical significance than the FR and IV methods. Although all statistical models indicated higher prediction accuracy, based on their statistical significance analysis result (Table 5), the LR model is relatively better followed by the CF model for regional land use planning, landslide hazard mitigation, and prevention purposes.
+C1 [Wubalem, Azemeraw] Univ Gondar, Coll Nat & Computat Sci, Dept Geol, Posta 196, Gondar, Ethiopia.
+C3 University of Gondar
+RP Wubalem, A (corresponding author), Univ Gondar, Coll Nat & Computat Sci, Dept Geol, Posta 196, Gondar, Ethiopia.
+EM alubelw@gmail.com
+CR Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   Ambrosi C, 2018, ENG GEOL, V237, P217, DOI 10.1016/j.enggeo.2018.02.020
+   Atkinson PM, 1998, COMPUT GEOSCI-UK, V24, P373, DOI 10.1016/S0098-3004(97)00117-9
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Azemeraw W., 2020, GEOENVIRONMENTAL DIS, V0, P0, DOI DOI 10.1186/s40677-020-00162-y
+   Bednarik M, 2012, NAT HAZARDS, V64, P547, DOI 10.1007/s11069-012-0257-7
+   Pham BT, 2019, CATENA, V175, P203, DOI 10.1016/j.catena.2018.12.018
+   Pham BT, 2017, THEOR APPL CLIMATOL, V128, P255, DOI 10.1007/s00704-015-1702-9
+   Bonham-Carter GF., 1994, GEOGRAPHIC INFORM SY, V13, P398
+   Brabb EE, 1984, P 4 INT S LANDSLIDES, V1, P307
+   Brunsden D., 1979, PROCESSES GEOMORPHOL, V0, P436
+   Canoglu MC, 2017, CARPATH J EARTH ENV, V12, P423
+   Chandak PG., 2016, LJEMAS, V4, P228
+   Chau KT, 2005, LANDSLIDES, V2, P280, DOI 10.1007/s10346-005-0024-x
+   Chen T, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5317-y
+   Chen W, 2017, GEOCARTO INT, V32, P367, DOI 10.1080/10106049.2016.1140824
+   Chen W, 2019, B ENG GEOL ENVIRON, V78, P247, DOI 10.1007/s10064-018-1256-z
+   Chen W, 2017, GEODERMA, V305, P314, DOI 10.1016/j.geoderma.2017.06.020
+   Chen W, 2017, CATENA, V151, P147, DOI 10.1016/j.catena.2016.11.032
+   Chen ZH, 2007, NAT HAZARDS, V42, P75, DOI 10.1007/s11069-006-9061-6
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   Ciurleo M, 2017, ENG GEOL, V2017, P223
+   Corominas J, 2014, B ENG GEOL ENVIRON, V73, P209, DOI 10.1007/s10064-013-0538-8
+   Cruden D., 1991, B INT ASS ENG GEOL, V43, P27, DOI 10.1007/BF02590167
+   Das G, 2019, SN APPL SCI, V1, P0, DOI 10.1007/s42452-019-1499-8
+   Bui DT, 2019, FORESTS, V10, P0, DOI 10.3390/f10090743
+   Bui DT, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11080931
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Donati L, 2002, ENG GEOL, V63, P277, DOI 10.1016/S0013-7952(01)00087-4
+   Dou J., 2014, LANDSLIDE SCI SAFER, V0, P419
+   Du GL, 2017, J MT SCI-ENGL, V14, P249, DOI 10.1007/s11629-016-4126-9
+   Duman TY, 2006, APPL LOGISTIC REGRES, V51, P242
+   Fell R, 2008, ENG GEOL, V102, P85, DOI 10.1016/j.enggeo.2008.03.022
+   Goetz JN, 2015, COMPUT GEOSCI-UK, V81, P1, DOI 10.1016/j.cageo.2015.04.007
+   Gorsevki PV, 2000, GIS ROCK 2000 C WORK, V0, P0
+   Gutierrez F, 2015, GEOMORPHOLOGY, V241, P224, DOI 10.1016/j.geomorph.2015.04.016
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Heckerman D., 1986, UNCERTAINTY ARTIFICI, V4, P167, DOI 10.1016/b978-0-444-70058-2.50017-6
+   Hong H., 2020, SCI TOTAL ENVIRON, V718, P3, DOI 10.1007/s00477-012-0598-5
+   Hong HY, 2019, CATENA, V176, P45, DOI 10.1016/j.catena.2018.12.035
+   Hong HY, 2017, GEOCARTO INT, V32, P139, DOI 10.1080/10106049.2015.1130086
+   Hong HY, 2015, CATENA, V133, P266, DOI 10.1016/j.catena.2015.05.019
+   Ibrahim J., 2011, THESIS, V0, P0
+   Jazouli E, 2019, GIS MULTICRITERIA EV, V0, P0
+   Jia N, 2010, INT GEOINF RES DEV J, V1, P1
+   Kanungo D., 2009, J S ASIA DISASTER ST, V2, P81
+   Kanungo DP, 2011, NAT HAZARDS, V59, P1491, DOI 10.1007/s11069-011-9847-z
+   Karimi Nasab S, 2010, INT GEOINF RES DEV J, V1, P1
+   Kouhpeimaa A., 2017, DESERT, V22, P85
+   Lee S, 2005, ENVIRON GEOL, V47, P982, DOI 10.1007/s00254-005-1228-z
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2006, J EARTH SYST SCI, V115, P661, DOI 10.1007/s12040-006-0004-0
+   Lee S, 2006, ENVIRON GEOL, V50, P847, DOI 10.1007/s00254-006-0256-7
+   Lin GF, 2017, ENG GEOL, V224, P62, DOI 10.1016/j.enggeo.2017.05.009
+   Liu Q, 2014, J INT TRANSL MED, V2, P457, DOI 10.11910/2227-6394.2014.02.04.07
+   Luelseged A, 2005, CENT JPN GEOMORPHOLO, V65, P15
+   Mandal S, 2019, ENVIRON SCI ENG, V0, PP145, DOI 10.1007/978-3-030-10495-5_6
+   Meten M, 2015, J MT SCI-ENGL, V12, P1355, DOI 10.1007/s11629-015-3464-3
+   Mezughi Taireq H., 2011, AMERICAN JOURNAL OF ENVIRONMENTAL SCIENCES, V7, P43, DOI 10.3844/ajessp.2011.43.50
+   Mohammady M, 2012, J ASIAN EARTH SCI, V61, P221, DOI 10.1016/j.jseaes.2012.10.005
+   Oh HJ, 2009, ENVIRON GEOL, V57, P641, DOI 10.1007/s00254-008-1342-9
+   Ohlmacher GC, 2003, ENG GEOL, V69, P331, DOI 10.1016/S0013-7952(03)00069-3
+   Park NW, 2011, ENVIRON EARTH SCI, V62, P367, DOI 10.1007/s12665-010-0531-5
+   Park S, 2013, ENVIRON EARTH SCI, V68, P1443, DOI 10.1007/s12665-012-1842-5
+   Pourghasemi HR, 2013, ARAB J GEOSCI, V6, P2351, DOI 10.1007/s12517-012-0532-7
+   Pradhan B, 2011, INT J REMOTE SENS, V32, P4075, DOI 10.1080/01431161.2010.484433
+   Pradhan B, 2010, PHOTOGRAMM FERNERKUN, V0, PP17, DOI 10.1127/1432-8364/2010/0037
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Rai P. K., 2014, J SCI RES BANARAS, V58, P1
+   Regmi AD, 2014, J MT SCI-ENGL, V11, P1266, DOI 10.1007/s11629-013-2847-6
+   Rickli Christian, 2009, FOREST SNOW AND LANDSCAPE RESEARCH, V82, P33
+   Saha AK, 2005, LANDSLIDES, V2, P61, DOI 10.1007/s10346-004-0039-8
+   Sarkar S, 2006, RESEARCHGATE, V0, P617
+   Sarkar S, 2013, J GEOL SOC INDIA, V82, P351, DOI 10.1007/s12594-013-0162-z
+   Schicker R, 2012, GEOMORPHOLOGY, V161, P40, DOI 10.1016/j.geomorph.2012.03.036
+   Shortliffe E.H., 1975, MATH BIOSCI, V23, P351, DOI 10.1016/0025-5564(75)90047-4
+   Silalahi FES, 2019, GEOSCI LETT, V6, P0, DOI 10.1186/s40562-019-0140-4
+   Solaimani K, 2013, ARAB J GEOSCI, V6, P2557, DOI 10.1007/s12517-012-0526-5
+   Sujatha ER, 2012, J EARTH SYST SCI, V121, P1337, DOI 10.1007/s12040-012-0230-6
+   Temesgen B, 2001, PHYS CHEM EARTH PT C, V26, P665, DOI 10.1016/S1464-1917(01)00065-4
+   Tsangaratos P, 2016, CATENA, V145, P164, DOI 10.1016/j.catena.2016.06.004
+   Tsegaratos P, 2017, CHINA LANDSLIDES, V14, P1091
+   Umar Z, 2014, CATENA, V118, P124, DOI 10.1016/j.catena.2014.02.005
+   van Westen CJ, 2008, ENG GEOL, V102, P112, DOI 10.1016/j.enggeo.2008.03.010
+   Varnes D.J., 1984, LANDSLIDE HAZARD ZON, V0, P63
+   Wang HB, 2013, NAT HAZARDS, V69, P1281, DOI 10.1007/s11069-011-0008-1
+   Wang QQ, 2019, GEOMAT NAT HAZ RISK, V10, P820, DOI 10.1080/19475705.2018.1549111
+   Wang Y, 2020, COMPUT GEOSCI-UK, V138, P0, DOI 10.1016/j.cageo.2020.104445
+   Woldearegay K., 2008, J GEOPHYS RES, V10, P0
+   Woldearegay K., 2013, REV OCCURRENCES INFL, V0, P0
+   Wubalem A, 2020, SN APPL SCI, V2, P0, DOI 10.1007/s42452-020-2563-0
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yang ZH, 2015, NAT HAZARDS, V75, P2467, DOI 10.1007/s11069-014-1441-8
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Yilmaz I, 2013, J EARTH SYST SCI, V122, P371, DOI 10.1007/s12040-013-0281-3
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V61, P821, DOI 10.1007/s12665-009-0394-9
+   Yilmaz I, 2009, B ENG GEOL ENVIRON, V68, P459, DOI 10.1007/s10064-009-0188-z
+   Youssef AM, 2016, LANDSLIDES, V13, P839, DOI 10.1007/s10346-015-0614-1
+   Zhu AX, 2018, CATENA, V166, P317, DOI 10.1016/j.catena.2018.04.003
+   Zine El Abidine R, 2019, B MINER RES EXPLOR, V160, P197, DOI 10.19111/bulletinofmre.502343
+   Zorgati A, 2019, OPEN GEO SCI, V11, P708, DOI 10.1515/GEO-2019-0056
+NR 103
+TC 9
+Z9 9
+U1 2
+U2 13
+PU DE GRUYTER POLAND SP Z O O
+PI WARSAW
+PA BOGUMILA ZUGA 32A STR, 01-811 WARSAW, MAZOVIA, POLAND
+SN 2391-5447
+EI 
+J9 OPEN GEOSCI
+JI Open Geosci.
+PD JAN 15
+PY 2020
+VL 12
+IS 1
+BP 1440
+EP 1467
+DI 10.1515/geo-2020-0206
+PG 28
+WC Geosciences, Multidisciplinary
+SC Geology
+GA PG3OC
+UT WOS:000599647200001
+DA 2023-04-26
+ER

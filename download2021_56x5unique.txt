@@ -1,0 +1,471 @@
+
+PT J
+AU Li, ZN
+   Sun, HY
+   Gao, YL
+   Wang, J
+AF Li, Zhenni
+   Sun, Haoyi
+   Gao, Yuliang
+   Wang, Jiao
+TI A Residual Network and FPGA Based Real-Time Depth Map Enhancement System
+SO ENTROPY
+LA English
+DT Article
+DE depth map enhancement; residual network; FPGA; ToF
+AB Depth maps obtained through sensors are often unsatisfactory because of their low-resolution and noise interference. In this paper, we propose a real-time depth map enhancement system based on a residual network which uses dual channels to process depth maps and intensity maps respectively and cancels the preprocessing process, and the algorithm proposed can achieve real-time processing speed at more than 30 fps. Furthermore, the FPGA design and implementation for depth sensing is also introduced. In this FPGA design, intensity image and depth image are captured by the dual-camera synchronous acquisition system as the input of neural network. Experiments on various depth map restoration shows our algorithms has better performance than existing LRMC, DE-CNN and DDTF algorithms on standard datasets and has a better depth map super-resolution, and our FPGA completed the test of the system to ensure that the data throughput of the USB 3.0 interface of the acquisition system is stable at 226 Mbps, and support dual-camera to work at full speed, that is, 54 fps@ (1280 x 960 + 328 x 248 x 3).
+C1 [Li, Zhenni; Sun, Haoyi; Wang, Jiao] Northeastern Univ, Coll Informat Sci & Engn, Shenyang 110819, Peoples R China.
+   [Gao, Yuliang] Nankai Univ, Coll Artificial Intelligence, Tianjin 300071, Peoples R China.
+C3 Northeastern University - China; Nankai University
+RP Wang, J (corresponding author), Northeastern Univ, Coll Informat Sci & Engn, Shenyang 110819, Peoples R China.
+EM lizhenni@ise.neu.edu.cn; haoyisun@outlook.com; gaoyuliang@mail.nankai.edu.cn; wangjiao@ise.neu.edu.cn
+FU Fundamental Research Funds for the Central Universities [2020GFYD011, 2020 GFZD008]
+CR Ahmad A, 2019, DES AUT TEST EUROPE, V0, PP1106, DOI 10.23919/DATE.2019.8715272
+   Butler DJ, 2012, LECT NOTES COMPUT SC, V7577, P611, DOI 10.1007/978-3-642-33783-3_44
+   Cao YZH, 2017, IEEE T IMAGE PROCESS, V26, P836, DOI 10.1109/TIP.2016.2621673
+   Chen BL, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P1473
+   Chen SY, 2008, IEEE T IMAGE PROCESS, V17, P167, DOI 10.1109/TIP.2007.914755
+   Cypress, 2018, DES EZ U SB FX3 SLAV, V0, P0
+   Dong HW, 2017, 2017 2ND INTERNATIONAL CONFERENCE ON CYBERNETICS, V0, P184, DOI 10.1109/CRC.2017.43
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He L, 2018, IEEE T IMAGE PROCESS, V27, P4676, DOI 10.1109/TIP.2018.2832296
+   Hou Y., 1900, P213, V0, P0, DOI DOI 10.1109/ICCRE.2017.7935072
+   Huanshihong Deng, 2020, PROCEEDINGS OF THE 2020 IEEE INTERNATIONAL CONFERENCE ON INTEGRATED CIRCUITS, V0, P174, DOI 10.1109/ICTA50426.2020.9332014
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Korinevskaya A, 2018, ADJUNCT PROCEEDINGS OF THE 2018 IEEE INTERNATIONAL SYMPOSIUM ON MIXED AND AUGMENTED REALITY (ISMAR), V0, PP117, DOI 10.1109/ISMAR-Adjunct.2018.00047
+   Kumari S., 2019, P 2019 IEEE INT C IM, V0, P0
+   Lee Y, 2019, INT C CONTR AUTOMAT, V0, PP1622, DOI 10.23919/ICCAS47443.2019.8971538
+   Li B., 2017, ARXIV2017170500534, V0, P0
+   Li LH, 2015, IEEE IMAGE PROC, V0, PP556, DOI 10.1109/ICIP.2015.7350860
+   Li WJ, 2018, INT SYM COMPUT INTEL, V0, PP111, DOI 10.1109/ISCID.2018.10126
+   Li Z., 2020, ARXIV2020201102910, V0, P0
+   Lu S, 2014, PROC CVPR IEEE, V0, PP3390, DOI 10.1109/CVPR.2014.433
+   Mac Aodha O, 2012, LECT NOTES COMPUT SC, V7574, P71, DOI 10.1007/978-3-642-33712-3_6
+   Manabe T, 2017, 2017 INTERNATIONAL CONFERENCE ON FIELD PROGRAMMABLE TECHNOLOGY (ICFPT), V0, P299
+   Mandal S, 2017, IEEE T IMAGE PROCESS, V26, P119, DOI 10.1109/TIP.2016.2621410
+   Ni M, 2017, IEEE ACCESS, V5, P26666, DOI 10.1109/ACCESS.2017.2773141
+   Pfeifer M, 2019, ANN IEEE SYM FIELD P, V0, PP118, DOI 10.1109/FCCM.2019.00026
+   Prashant GP, 2017, 2017 1ST INTERNATIONAL CONFERENCE ON INTELLIGENT SYSTEMS AND INFORMATION MANAGEMENT (ICISIM), V0, P185
+   Qian TT, 2018, 2018 3RD IEEE INTERNATIONAL CONFERENCE ON INTEGRATED CIRCUITS AND MICROSYSTEMS (ICICM), V0, PP362, DOI 10.1109/ICAM.2018.8596436
+   Raghunandan A, 2018, PROCEEDINGS OF THE 2018 IEEE INTERNATIONAL CONFERENCE ON COMMUNICATION AND SIGNAL PROCESSING (ICCSP), V0, P563
+   Schlemper J, 2018, IEEE T MED IMAGING, V37, P491, DOI 10.1109/TMI.2017.2760978
+   Shandilya R., 2017, P INT C TRENDS EL IN, V0, PP1010, DOI 10.1109/ICOEI.2017.8300860
+   Siddiqui S.A., 2020, ARXIV2020201209667, V0, P0
+   Simonyan K, 2015, ARXIV, V0, P0
+   Szegedy C, 2017, AAAI CONF ARTIF INTE, V0, P4278
+   Venieris SI, 2019, IEEE T NEUR NET LEAR, V30, P326, DOI 10.1109/TNNLS.2018.2844093
+   Wang J, 2015, J OPER RES SOC CHINA, V3, P99, DOI 10.1007/s40305-015-0074-2
+   Xilinx, 2017, FIFO GEN LOGICORE IP, V0, P0
+   Xilinx, 2016, AXI IIC BUS INTERFAC, V0, P0
+   Xilinx, 2019, ULTRASCALE ARCHITECT, V0, P0
+   Xu D, 2018, IEEE IMAGE PROC, V0, PP2187, DOI 10.1109/ICIP.2018.8451042
+   Yang S, 2018, IEEE T CYBERNETICS, V48, P399, DOI 10.1109/TCYB.2016.2638856
+   Yuhua Jiang, 2020, 2020 INTERNATIONAL CONFERENCE ON INFORMATION SCIENCE, V0, P14, DOI 10.1109/ISPDS51347.2020.00011
+   Zhang X, 2016, INT CONF ACOUST SPEE, V0, PP2499, DOI 10.1109/ICASSP.2016.7472127
+   Zhou WT, 2017, INT CONF ACOUST SPEE, V0, PP1457, DOI 10.1109/ICASSP.2017.7952398
+   Zuo YF, 2021, IEEE T MULTIMEDIA, V23, P772, DOI 10.1109/TMM.2020.2987706
+NR 45
+TC 0
+Z9 0
+U1 4
+U2 16
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1099-4300
+J9 ENTROPY-SWITZ
+JI Entropy
+PD MAY 15
+PY 2021
+VL 23
+IS 5
+BP 
+EP 
+DI 10.3390/e23050546
+PG 23
+WC Physics, Multidisciplinary
+SC Physics
+GA SH1CK
+UT WOS:000653873600001
+PM 33924967
+DA 2023-04-26
+ER
+
+PT J
+AU Alshaikhli, T
+   Liu, W
+   Maruyama, Y
+AF Alshaikhli, Tamara
+   Liu, Wen
+   Maruyama, Yoshihisa
+TI Simultaneous Extraction of Road and Centerline from Aerial Images Using a Deep Convolutional Neural Network
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE multitask learning; deep convolutional neural network; attention gates; aerial images; extraction of road and centerline; simultaneous extraction process; residual blocks
+ID multiscale
+AB The extraction of roads and centerlines from aerial imagery is considered an important topic because it contributes to different fields, such as urban planning, transportation engineering, and disaster mitigation. Many researchers have studied this topic as a two-separated task that affects the quality of extracted roads and centerlines because of the correlation between these two tasks. Accurate road extraction enhances accurate centerline extraction if these two tasks are processed simultaneously. This study proposes a multitask learning scheme using a gated deep convolutional neural network (DCNN) to extract roads and centerlines simultaneously. The DCNN is composed of one encoder and two decoders implemented on the U-Net backbone. The decoders are assigned to extract roads and centerlines from low-resolution feature maps. Before extraction, the images are processed within an encoder to extract the spatial information from a complex, high-resolution image. The encoder consists of the residual blocks (Res-Block) connected to a bridge represented by a Res-Block, and the bridge connects the two identical decoders, which consists of stacking convolutional layers (Conv.layer). Attention gates (AGs) are added to our model to enhance the selection process for the true pixels that represent road or centerline classes. Our model is trained on a dataset of high-resolution aerial images, which is open to the public. The model succeeds in efficiently extracting roads and centerlines compared with other multitask learning models.
+C1 [Alshaikhli, Tamara; Liu, Wen; Maruyama, Yoshihisa] Chiba Univ, Grad Sch Engn, Chiba 2638522, Japan.
+C3 Chiba University
+RP Alshaikhli, T (corresponding author), Chiba Univ, Grad Sch Engn, Chiba 2638522, Japan.
+EM tamara_alshaikhli@chiba-u.jp; wen.liu@chiba-u.jp; ymaruyam@tu.chiba-u.ac.jp
+CR Alshaikhli T, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9224825
+   Bastani F, 2018, PROC CVPR IEEE, V0, PP4720, DOI 10.1109/CVPR.2018.00496
+   Baumgartner A, 1999, PHOTOGRAMM ENG REM S, V65, P777
+   Bicego M, 2003, 2003 INTERNATIONAL CONFERENCE ON IMAGE PROCESSING, VOL 3, PROCEEDINGS
+   Buslaev A, 2018, IEEE COMPUT SOC CONF, V0, PP197, DOI 10.1109/CVPRW.2018.00035
+   Caruana R., 1993, ICML, V0, PP41, DOI 10.1016/b978-1-55860-307-3.50012-5
+   Chen Chen, 2019, STATISTICAL ATLASES AND COMPUTATIONAL MODELS OF THE HEART. ATRIAL SEGMENTATION AND LV QUANTIFICATION CHALLENGES. 9TH INTERNATIONAL WORKSHOP, V0, P292, DOI 10.1007/978-3-030-12029-0_32
+   Cheng GL, 2017, IEEE T GEOSCI REMOTE, V55, P3322, DOI 10.1109/TGRS.2017.2669341
+   Dal Poz A. P., 2006, PATTERN RECOGNITION AND IMAGE ANALYSIS, V16, P239, DOI 10.1134/S1054661806020118
+   Goncalves GR, 2019, LECT NOTES COMPUT SC, V11896, P251, DOI 10.1007/978-3-030-33904-3_23
+   Guo B., 2009, P 17 INT C GEOINF FA, V0, P1
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   HEIPKE C, 1995, P SOC PHOTO-OPT INS, V2486, P222, DOI 10.1117/12.213122
+   Hu X., 2004, INT ARCH PHOTOGRAMME, V35 Pt B3, P288
+   Huang X, 2009, INT J REMOTE SENS, V30, P1977, DOI 10.1080/01431160802546837
+   Kendall A, 2018, PROC CVPR IEEE, V0, PP7482, DOI 10.1109/CVPR.2018.00781
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Liu PF, 2017, PROCEEDINGS OF THE 55TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2017), VOL 1, P1, DOI 10.18653/v1/P17-1001
+   Liu SC, 2019, AAAI CONF ARTIF INTE, V0, P9977
+   Liu YH, 2019, IEEE T GEOSCI REMOTE, V57, P2043, DOI 10.1109/TGRS.2018.2870871
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Mattyus G, 2017, IEEE I CONF COMP VIS, V0, PP3458, DOI 10.1109/ICCV.2017.372
+   Miao ZL, 2014, IEEE J-STARS, V7, P4762, DOI 10.1109/JSTARS.2014.2309613
+   Mnih V, 2010, LECT NOTES COMPUT SC, V6316, P210, DOI 10.1007/978-3-642-15567-3_16
+   Oktay O, 2018, ARXIV180403999, V0, P0
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Saito S, 2016, J IMAGING SCI TECHN, V60, P0, DOI 10.2352/J.ImagingSci.Technol.2016.60.1.010402
+   Shao ZF, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13020239
+   Shen W, 2017, IEEE T IMAGE PROCESS, V26, P5298, DOI 10.1109/TIP.2017.2735182
+   Shi WZ, 2014, IEEE T GEOSCI REMOTE, V52, P3359, DOI 10.1109/TGRS.2013.2272593
+   Simonyan K, 2015, ARXIV, V0, P0
+   Song MJ, 2004, PHOTOGRAMM ENG REM S, V70, P1365, DOI 10.14358/PERS.70.12.1365
+   Sujatha C, 2015, EURASIP J IMAGE VIDE, V0, P0, DOI DOI 10.1186/s13640-015-0062-9
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Trinder JC, 1998, DIGIT SIGNAL PROCESS, V8, P215, DOI 10.1006/dspr.1998.0322
+   Wang HZ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050446
+   Wang WX, 2016, J TRAFFIC TRANSP ENG, V3, P271, DOI 10.1016/j.jtte.2016.05.005
+   Wellmann T, 2020, LANDSCAPE URBAN PLAN, V204, P0, DOI 10.1016/j.landurbplan.2020.103921
+   Xiao YQ, 2019, IEEE ACCESS, V7, P171272, DOI 10.1109/ACCESS.2019.2949269
+   Xu YY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091461
+   Yang XF, 2019, IEEE T GEOSCI REMOTE, V57, P7209, DOI 10.1109/TGRS.2019.2912301
+   Yao H, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11121443
+   Zhang MR, 2019, ARXIV, V0, P0
+   Zhang XR, 2020, IEEE GEOSCI REMOTE S, V17, P1777, DOI 10.1109/LGRS.2019.2953523
+   Zhang ZP, 2019, IEEE ACM T COMPUT BI, V16, P407, DOI 10.1109/TCBB.2017.2704587
+NR 47
+TC 1
+Z9 1
+U1 2
+U2 5
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD MAR 15
+PY 2021
+VL 10
+IS 3
+BP 
+EP 
+DI 10.3390/ijgi10030147
+PG 15
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA RD8JB
+UT WOS:000633715800001
+DA 2023-04-26
+ER
+
+PT J
+AU Zhou, N
+   Li, X
+   Shen, ZF
+   Wu, TJ
+   Luo, JC
+AF Zhou, Nan
+   Li, Xiang
+   Shen, Zhanfeng
+   Wu, Tianjun
+   Luo, Jiancheng
+TI Geo-Parcel-Based Change Detection Using Optical and SAR Images in Cloudy and Rainy Areas
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Change detection; cloudy and rainy; geo-parcel; multisource images
+ID unsupervised change detection; classification; fusion
+AB In this article, we deal with the problem of change detection in cloudy and rainy areas using multisource remote sensing images. While previous methods mostly focus on change detection on pixel or super-pixel levels, in this article, we introduce the concept of geo-parcel and use it as the basic processing unit for our change detection method. Concretely, we first extract geo-parcel from an optical high spatial resolution remote sensing image. Then, we divide each geo-parcel into fine-grained segments with refined boundaries using image segmentation methods. These fine-grained segments are used as the basic processing units for our change detection method. After that, an unsupervised learning-based method is adopted to obtain the difference map by comparing synthetic aperture radar images of two periods. Training samples with labels are automatically generated from the difference map. Finally, a deep neural network is trained using the generated samples and is further used to predict the refined change map. Experiments on the collected images from Gui'an, Guizhou Province, China demonstrate the effectiveness of the proposed method for change detection in a cloudy and rainy area with an overall accuracy surpasses 94%.
+C1 [Zhou, Nan] Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100049, Peoples R China.
+   [Zhou, Nan] Univ Chinese Acad Sci, Beijing 100864, Peoples R China.
+   [Li, Xiang] NYU Tandon & Abu Dhabi, NYU Multimedia & Visual Comp Lab, Abu Dhabi 129188, U Arab Emirates.
+   [Shen, Zhanfeng; Luo, Jiancheng] Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100049, Peoples R China.
+   [Wu, Tianjun] Changan Univ, Sch Sci, Xian 710064, Peoples R China.
+C3 Chinese Academy of Sciences; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Chinese Academy of Sciences; Chang'an University
+RP Shen, ZF (corresponding author), Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100049, Peoples R China.
+EM zhounan@aircas.ac.cn; xl1845@nyu.edu; shenzf@aircas.ac.cn; tjwu@chd.edu.cn; luojc@radi.ac.cn
+FU National Key Research and Development Program of China [2017YFB0504204, 2018YFB0505000]; National Natural Science Foundation of China [41971375, 41631179]; Xinjiang Uygur Autonomous Region Flexible Talent Award
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   Bovolo F, 2007, IEEE T GEOSCI REMOTE, V45, P218, DOI 10.1109/TGRS.2006.885408
+   Chaurasia A, 2017, 2017 IEEE VISUAL COMMUNICATIONS AND IMAGE PROCESSING (VCIP), V0, P0
+   Chen G, 2012, INT J REMOTE SENS, V33, P4434, DOI 10.1080/01431161.2011.648285
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Gong MG, 2017, IEEE T GEOSCI REMOTE, V55, P2658, DOI 10.1109/TGRS.2017.2650198
+   Gong MG, 2012, IEEE T IMAGE PROCESS, V21, P2141, DOI 10.1109/TIP.2011.2170702
+   Iglovikov V, 2018, IEEE COMPUT SOC CONF, V0, PP228, DOI 10.1109/CVPRW.2018.00042
+   Li L, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091091
+   Lindlbauer D, 2018, PROCEEDINGS OF THE 2018 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS (CHI 2018), V0, P0, DOI DOI 10.1145/3173574.3173703
+   Liu Y, 2017, PROC CVPR IEEE, V0, PP5872, DOI 10.1109/CVPR.2017.622
+   Mnih V., 2013, PHD DISSERTATION, V0, P0
+   Niemeyer J, 2014, ISPRS J PHOTOGRAMM, V87, P152, DOI 10.1016/j.isprsjprs.2013.11.001
+   OTSU N, 1979, IEEE T SYST MAN CYB, V9, P62, DOI 10.1109/TSMC.1979.4310076
+   Renu U., 1900, V2, V0, P1726
+   RIGNOT EJM, 1993, IEEE T GEOSCI REMOTE, V31, P896, DOI 10.1109/36.239913
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Tong X.-Y., 2018, ARXIV180705713, V0, P0
+   Vedaldi A, 2008, LECT NOTES COMPUT SC, V5305, P705, DOI 10.1007/978-3-540-88693-8_52
+   Wan L, 2019, IEEE GEOSCI REMOTE S, V16, P1026, DOI 10.1109/LGRS.2019.2892432
+   Wang Q, 2018, REMOTE SENS LETT, V9, P923, DOI 10.1080/2150704X.2018.1492172
+   Yokoya N, 2018, IEEE J-STARS, V11, P1363, DOI 10.1109/JSTARS.2018.2799698
+   Zhao W, 2017, IEEE T GEOSCI REMOTE, V55, P7066, DOI 10.1109/TGRS.2017.2739800
+   Zhou LC, 2018, IEEE COMPUT SOC CONF, V0, PP192, DOI 10.1109/CVPRW.2018.00034
+NR 24
+TC 3
+Z9 3
+U1 3
+U2 22
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 1326
+EP 1332
+DI 10.1109/JSTARS.2020.3038169
+PG 7
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA PR7LT
+UT WOS:000607413900043
+DA 2023-04-26
+ER
+
+PT J
+AU Li, HP
+   Zhang, C
+   Zhang, Y
+   Zhang, SQ
+   Ding, XH
+   Atkinson, PM
+AF Li, Huapeng
+   Zhang, Ce
+   Zhang, Yong
+   Zhang, Shuqing
+   Ding, Xiaohui
+   Atkinson, Peter M.
+TI A Scale Sequence Object-based Convolutional Neural Network (SS-OCNN) for crop classification from fine spatial resolution remotely sensed imagery
+SO INTERNATIONAL JOURNAL OF DIGITAL EARTH
+LA English
+DT Article
+DE CNNs; multi-scale deep learning; object-based mapping; crop classification; image classification
+ID land-use; algorithms; selection; machine
+AB The highly dynamic nature of agro-ecosystems in space and time usually leads to high intra-class variance and low inter-class separability in the fine spatial resolution (FSR) remotely sensed imagery. This makes traditional classifiers essentially relying on spectral information for crop mapping from FSR imagery an extremely challenging task. To mine effectively the rich spectral and spatial information in FSR imagery, this paper proposed a Scale Sequence Object-based Convolutional Neural Network (SS-OCNN) that classifies images at the object level by taking segmented objects (crop parcels) as basic units of analysis, thus, ensuring that the boundaries between crop parcels are delineated precisely. These segmented objects were subsequently classified using a CNN model integrated with an automatically generated scale sequence of input patch sizes. This scale sequence can fuse effectively the features learned at different scales by transforming progressively the information extracted at small scales to larger scales. The effectiveness of the SS-OCNN was investigated using two heterogeneous agricultural areas with FSR SAR and optical imagery, respectively. Experimental results revealed that the SS-OCNN consistently achieved the most accurate classification results. The SS-OCNN, thus, provides a new paradigm for crop classification over heterogeneous areas using FSR imagery, and has a wide application prospect.
+C1 [Li, Huapeng; Zhang, Shuqing] Chinese Acad Sci, Northeast Inst Geog & Agroecol, Changchun, Peoples R China.
+   [Li, Huapeng; Zhang, Yong] Changchun Guanghua Univ, Sch Elect & Informat Engn, Changchun, Peoples R China.
+   [Zhang, Ce; Atkinson, Peter M.] Univ Lancaster, Lancaster Environm Ctr, Lancaster, England.
+   [Ding, Xiaohui] Guangzhou Inst Geog, Guangzhou, Peoples R China.
+C3 Chinese Academy of Sciences; Northeast Institute of Geography & Agroecology, CAS; Lancaster University; Guangdong Academy of Sciences; Guangzhou Institute of Geography, Guangdong Academy of Sciences
+RP Li, HP (corresponding author), 4888 Shengbei St, Changchun, Peoples R China.
+EM lihuapeng@iga.ac.cn
+FU National Natural Science Foundation of China [41301465]; Capital Construction Fund of Jilin Province [2021C045-2]; Open Fund of State Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University [20R04]
+CR Alganci U, 2013, PHOTOGRAMM ENG REM S, V79, P1053, DOI 10.14358/PERS.79.11.1053
+   Azar R, 2016, EUR J REMOTE SENS, V49, P361, DOI 10.5721/EuJRS20164920
+   Belgiu M, 2018, REMOTE SENS ENVIRON, V204, P509, DOI 10.1016/j.rse.2017.10.005
+   Boryan C, 2011, GEOCARTO INT, V26, P341, DOI 10.1080/10106049.2011.562309
+   Cai YP, 2018, REMOTE SENS ENVIRON, V210, P35, DOI 10.1016/j.rse.2018.02.045
+   Chai D, 2019, REMOTE SENS ENVIRON, V225, P307, DOI 10.1016/j.rse.2019.03.007
+   Chen YY, 2019, EARTH SCI INFORM, V12, P341, DOI 10.1007/s12145-019-00383-2
+   Chen YS, 2016, IEEE T GEOSCI REMOTE, V54, P6232, DOI 10.1109/TGRS.2016.2584107
+   Debats SR, 2016, REMOTE SENS ENVIRON, V179, P210, DOI 10.1016/j.rse.2016.03.010
+   Dey S, 2020, INT J APPL EARTH OBS, V88, P0, DOI 10.1016/j.jag.2020.102059
+   Duro DC, 2012, REMOTE SENS ENVIRON, V118, P259, DOI 10.1016/j.rse.2011.11.020
+   Girshick R, 2016, IEEE T PATTERN ANAL, V38, P142, DOI 10.1109/TPAMI.2015.2437384
+   Hinton G, 2012, IEEE SIGNAL PROC MAG, V29, P82, DOI 10.1109/MSP.2012.2205597
+   Hu Q, 2019, INT J APPL EARTH OBS, V80, P218, DOI 10.1016/j.jag.2019.04.014
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Li HP, 2020, INT J APPL EARTH OBS, V87, P0, DOI 10.1016/j.jag.2019.102032
+   Li HP, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11202370
+   Li HP, 2019, INT J APPL EARTH OBS, V74, P45, DOI 10.1016/j.jag.2018.08.024
+   Liu SJ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060690
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lu D, 2007, INT J REMOTE SENS, V28, P823, DOI 10.1080/01431160600746456
+   Lv XW, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121946
+   Ming DP, 2015, ISPRS J PHOTOGRAMM, V106, P28, DOI 10.1016/j.isprsjprs.2015.04.010
+   Nobre CA, 2016, P NATL ACAD SCI USA, V113, P10759, DOI 10.1073/pnas.1605516113
+   Paludo A, 2020, INT J DIGIT EARTH, V13, P1624, DOI 10.1080/17538947.2020.1772893
+   Pan X, 2019, INT J REMOTE SENS, V40, P5892, DOI 10.1080/01431161.2019.1584687
+   Persello C, 2019, REMOTE SENS ENVIRON, V231, P0, DOI 10.1016/j.rse.2019.111253
+   Rusk N, 2016, NAT METHODS, V13, P35, DOI 10.1038/nmeth.3707
+   Sidike P, 2019, REMOTE SENS ENVIRON, V221, P756, DOI 10.1016/j.rse.2018.11.031
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Wang Q, 2019, IEEE T GEOSCI REMOTE, V57, P3, DOI 10.1109/TGRS.2018.2849692
+   Wang T, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010024
+   Wardlow BD, 2008, REMOTE SENS ENVIRON, V112, P1096, DOI 10.1016/j.rse.2007.07.019
+   Yang CH, 2011, COMPUT ELECTRON AGR, V75, P347, DOI 10.1016/j.compag.2010.12.012
+   Zhang C, 2020, REMOTE SENS ENVIRON, V237, P0, DOI 10.1016/j.rse.2019.111593
+   Zhang C, 2019, REMOTE SENS ENVIRON, V221, P173, DOI 10.1016/j.rse.2018.11.014
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+   Zhang C, 2018, ISPRS J PHOTOGRAMM, V140, P133, DOI 10.1016/j.isprsjprs.2017.07.014
+   Zhao J, 2020, REMOTE SENS ENVIRON, V239, P0, DOI 10.1016/j.rse.2019.111605
+   Zhao WQ, 2019, IEEE T SYST MAN CY-S, V49, P1254, DOI 10.1109/TSMC.2017.2724440
+   Zheng BJ, 2015, INT J APPL EARTH OBS, V34, P103, DOI 10.1016/j.jag.2014.07.002
+   Zheng XT, 2019, IEEE T GEOSCI REMOTE, V57, P4799, DOI 10.1109/TGRS.2019.2893115
+   Zhong LH, 2019, REMOTE SENS ENVIRON, V221, P430, DOI 10.1016/j.rse.2018.11.032
+   Zhong YF, 2020, REMOTE SENS ENVIRON, V250, P0, DOI 10.1016/j.rse.2020.112012
+NR 44
+TC 8
+Z9 8
+U1 10
+U2 31
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1753-8947
+EI 1753-8955
+J9 INT J DIGIT EARTH
+JI Int. J. Digit. Earth
+PD NOV 2
+PY 2021
+VL 14
+IS 11
+BP 1528
+EP 1546
+DI 10.1080/17538947.2021.1950853
+EA JUL 2021
+PG 19
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA WR1EX
+UT WOS:000670807600001
+DA 2023-04-26
+ER
+
+PT J
+AU Lang, N
+   Irniger, A
+   Rozniak, A
+   Hunziker, R
+   Wegner, JD
+   Schindler, K
+AF Lang, Nico
+   Irniger, Andrea
+   Rozniak, Agnieszka
+   Hunziker, Roni
+   Wegner, Jan Dirk
+   Schindler, Konrad
+TI GRAINet: mapping grain size distributions in river beds from UAV images with convolutional neural networks
+SO HYDROLOGY AND EARTH SYSTEM SCIENCES
+LA English
+DT Article
+ID digital images; information
+AB Grain size analysis is the key to understand the sediment dynamics of river systems. We propose GRAINet, a data-driven approach to analyze grain size distributions of entire gravel bars based on georeferenced UAV images. A convolutional neural network is trained to regress grain size distributions as well as the characteristic mean diameter from raw images. GRAINet allows for the holistic analysis of entire gravel bars, resulting in (i) high-resolution estimates and maps of the spatial grain size distribution at large scale and (ii) robust grading curves for entire gravel bars. To collect an extensive training dataset of 1491 samples, we introduce digital line sampling as a new annotation strategy. Our evaluation on 25 gravel bars along six different rivers in Switzerland yields high accuracy: the resulting maps of mean diameters have a mean absolute error (MAE) of 1.1 cm, with no bias. Robust grading curves for entire gravel bars can be extracted if representative training data are available. At the gravel bar level the MAE of the predicted mean diameter is even reduced to 0.3 cm, for bars with mean diameters ranging from 1.3 to 29.3 cm. Extensive experiments were carried out to study the quality of the digital line samples, the generalization capability of GRAINet to new locations, the model performance with respect to human labeling noise, the limitations of the current model, and the potential of GRAINet to analyze images with low resolutions.
+C1 [Lang, Nico; Rozniak, Agnieszka; Wegner, Jan Dirk; Schindler, Konrad] Swiss Fed Inst Technol, EcoVis Lab, Photogrammetry & Remote Sensing, Zurich, Switzerland.
+   [Irniger, Andrea; Hunziker, Roni] Hunziker Zarn & Partner, Aarau, Switzerland.
+C3 Swiss Federal Institutes of Technology Domain; ETH Zurich
+RP Lang, N (corresponding author), Swiss Fed Inst Technol, EcoVis Lab, Photogrammetry & Remote Sensing, Zurich, Switzerland.; Irniger, A (corresponding author), Hunziker Zarn & Partner, Aarau, Switzerland.
+EM nico.lang@geod.baug.ethz.ch; andrea.irniger@hzp.ch
+CR ADAMS J, 1979, J HYDR ENG DIV-ASCE, V105, P1247
+   [Anonymous], 2017, IEEE I CONF COMP VIS, V0, P0, DOI DOI 10.1109/ICCV.2017.322
+   Babej J, 2016, GEOGR FIS DIN QUAT, V39, P3, DOI 10.4461/GFDQ.2016.39.1
+   Badoux A, 2014, NAT HAZARD EARTH SYS, V14, P279, DOI 10.5194/nhess-14-279-2014
+   Black M, 2014, SEDIMENTOLOGY, V61, P691, DOI 10.1111/sed.12072
+   Brasington J, 2012, WATER RESOUR RES, V48, P0, DOI 10.1029/2012WR012223
+   Bunte K., 2001, SAMPLING SURFACE SUB, V0, P0
+   Buscombe D, 2010, J GEOPHYS RES-EARTH, V115, P0, DOI 10.1029/2009JF001477
+   Buscombe D, 2020, EARTH SURF PROC LAND, V45, P638, DOI 10.1002/esp.4760
+   Buscombe D, 2013, SEDIMENTOLOGY, V60, P1709, DOI 10.1111/sed.12049
+   Buscombe D, 2009, SEDIMENTOLOGY, V56, P421, DOI 10.1111/j.1365-3091.2008.00977.x
+   Butler JB, 2001, J HYDRAUL RES, V39, P519, DOI 10.1080/00221686.2001.9628276
+   Carbonneau PE, 2018, EARTH SURF PROC LAND, V43, P1160, DOI 10.1002/esp.4298
+   Carbonneau PE, 2005, WATER RESOUR RES, V41, P0, DOI 10.1029/2005WR003994
+   Carbonneau PE, 2005, EARTH SURF PROC LAND, V30, P1687, DOI 10.1002/esp.1288
+   Carbonneau PE, 2004, WATER RESOUR RES, V40, P0, DOI 10.1029/2003WR002759
+   de Haas T, 2014, GEOMORPHOLOGY, V217, P165, DOI 10.1016/j.geomorph.2014.04.028
+   Detert M, 2012, RIVER FLOW 2012, VOLS 1 AND 2, P595
+   Fehr R., 1987, SCHWEIZER INGENIEUR, V105, P1104
+   Graham DJ, 2010, WATER RESOUR RES, V46, P0, DOI 10.1029/2008WR006940
+   Graham DJ, 2005, MATH GEOL, V37, P1, DOI 10.1007/s11004-005-8745-x
+   Gregory KJ, 2019, RIVER RES APPL, V35, P1097, DOI 10.1002/rra.3455
+   Grill G, 2019, NATURE, V569, P215, DOI 10.1038/s41586-019-1111-9
+   Habersack H., 2011, FLIESSGEWASSERMODELL, V0, P0
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang GH, 2018, OPEN GEOSCI, V10, P607, DOI 10.1515/geo-2018-0048
+   IBBEKEN H, 1986, EARTH SURF PROCESSES, V11, P59, DOI 10.1002/esp.3290110108
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Irniger A., 2020, UAV GRAIN SIZE DATAS, V0, P0
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Krumbein W. C., 1939, MANUAL SEDIMENTARY P, VXIV C, P0
+   LeCun Y, 1998, LECT NOTES COMPUT SC, V1524, P9, DOI 10.1007/3-540-49430-8_2
+   Meyer-Peter E., 1948, PAPER PRESENTED 2 M, V3, P39
+   Nelson J. M., 2016, TOOLS FLUV GEOMORPHO, V0, PP412, DOI 10.1002/9781118648551.CH18
+   Piegay H, 2020, EARTH SURF PROC LAND, V45, P157, DOI 10.1002/esp.4787
+   Poeppl RE, 2017, GEOMORPHOLOGY, V277, P237, DOI 10.1016/j.geomorph.2016.07.033
+   Purinton B, 2019, EARTH SURF DYNAM, V7, P859, DOI 10.5194/esurf-7-859-2019
+   Ramdas A, 2017, ENTROPY-SWITZ, V19, P0, DOI 10.3390/e19020047
+   Rice S, 1998, EARTH SURF PROC LAND, V23, P345, DOI 10.1002/(SICI)1096-9837(199804)23:4<345::AID-ESP850>3.0.CO;2-B
+   Rice SP, 2010, SEDIMENTOLOGY, V57, P232, DOI 10.1111/j.1365-3091.2009.01108.x
+   Rubin DM, 2004, J SEDIMENT RES, V74, P160, DOI 10.1306/052203740160
+   Settles B., 2009, 1648 U WISC, V0, P0
+   Sharma K, 2020, IEEE WINT CONF APPL, V0, PP3626, DOI 10.1109/WACV45572.2020.9093484
+   Shen CP, 2018, HYDROL EARTH SYST SC, V22, P5639, DOI 10.5194/hess-22-5639-2018
+   Sime LC, 2003, J SEDIMENT RES, V73, P630, DOI 10.1306/112102730630
+   Simon A, 2006, GEOMORPHOLOGY, V79, P361, DOI 10.1016/j.geomorph.2006.06.037
+   Spada D, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7080314
+   Surian N, 2003, GEOMORPHOLOGY, V50, P307, DOI 10.1016/S0169-555X(02)00219-2
+   Surian N, 2002, GEOMORPHOLOGY, V43, P137, DOI 10.1016/S0169-555X(01)00127-1
+   Van Horn G, 2015, PROC CVPR IEEE, V0, PP595, DOI 10.1109/CVPR.2015.7298658
+   Vazquez-Tarrio D, 2017, GEOMORPHOLOGY, V285, P94, DOI 10.1016/j.geomorph.2017.01.039
+   Verdu JM, 2005, GEOMORPHOLOGY, V72, P73, DOI 10.1016/j.geomorph.2005.04.015
+   Wohl EE, 1996, WATER RESOUR RES, V32, P3219, DOI 10.1029/96WR01527
+   Wolman M.G., 1954, EOS T AM GEOPHYS UN, V35, P951, DOI 10.1029/TR035I006P00951
+   Woodget AS, 2018, EARTH SURF PROC LAND, V43, P857, DOI 10.1002/esp.4285
+   Wu FC, 2018, GEOMORPHOLOGY, V308, P161, DOI 10.1016/j.geomorph.2018.02.013
+   Zettler-Mann A, 2020, GEOMORPHOLOGY, V350, P0, DOI 10.1016/j.geomorph.2019.106920
+NR 57
+TC 10
+Z9 10
+U1 4
+U2 8
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLEE 1E, GOTTINGEN, 37081, GERMANY
+SN 1027-5606
+EI 1607-7938
+J9 HYDROL EARTH SYST SC
+JI Hydrol. Earth Syst. Sci.
+PD MAY 19
+PY 2021
+VL 25
+IS 5
+BP 2567
+EP 2597
+DI 10.5194/hess-25-2567-2021
+PG 31
+WC Geosciences, Multidisciplinary; Water Resources
+SC Geology; Water Resources
+GA SH7UQ
+UT WOS:000654339500001
+DA 2023-04-26
+ER

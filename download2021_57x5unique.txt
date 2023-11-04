@@ -1,0 +1,553 @@
+
+PT J
+AU Park, HG
+   Yun, JP
+   Kim, MY
+   Jeong, SH
+AF Park, Hae Gwang
+   Yun, Jong Pil
+   Kim, Min Young
+   Jeong, Seung Hyun
+TI Multichannel Object Detection for Detecting Suspected Trees With Pine Wilt Disease Using Multispectral Drone Imagery
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Vegetation; Drones; Vegetation mapping; Image edge detection; Cameras; Indexes; Training; Convolutional neural network (CNN); deep learning; drone; multispectral; pine wilt disease (PWD); remote sensing
+ID nematode
+AB In this article, a multichannel convolutional neural network (CNN) based object detection was used to detect suspected trees of pine wilt disease after acquiring aerial photographs through a rotorcraft drone equipped with a multispectral camera. The acquired multispectral aerial photographs consist of RGB, green, red, NIR, and red edge spectral bands per shooting point. The aerial photographs for each band performed image calibration to correct radiation distortion, image alignment to correct the distance error of the lenses of a multispectral camera, and image enhancement to edge enhancement to highlight the features of objects in the image. After that, a large amount of data obtained through data augmentation were put into multichannel CNN-based object detection for training and test. As a result of verifying the detection performance of the trained model, excellent detection results were obtained with mAP 86.63% and average intersection over union 71.47%.
+C1 [Park, Hae Gwang; Yun, Jong Pil; Jeong, Seung Hyun] Korea Inst Ind Technol, Cheonan Si 31056, South Korea.
+   [Kim, Min Young] Kyungpook Natl Univ, Sch Elect Engn, Deagu 41566, South Korea.
+C3 Korea Institute of Industrial Technology (KITECH); Kyungpook National University
+RP Jeong, SH (corresponding author), Korea Inst Ind Technol, Cheonan Si 31056, South Korea.; Kim, MY (corresponding author), Kyungpook Natl Univ, Sch Elect Engn, Deagu 41566, South Korea.
+EM dd4680@kitech.re.kr; rebirth@kitech.re.kr; shjeong@kitech.re.kr; minykim@knu.ac.kr
+FU National Research Foundation of Korea [NBF-2018R1D1A1B07043406]; Korea Institute of Industrial Technology (KITECH) [JA-21-0002]
+CR Al Mansoori S, 2018, PROC SPIE, V10792, P0, DOI 10.1117/12.2325732
+   BERGDAHL DR, 1988, J NEMATOL, V20, P260
+   Carlson TN, 1997, REMOTE SENS ENVIRON, V62, P241, DOI 10.1016/S0034-4257(97)00104-1
+   Deng XL, 2020, AGRIENGINEERING, V2, P294, DOI 10.3390/agriengineering2020019
+   Everaerts J., 2008, INT ARCH PHOTOGRAMM, V37, P1187
+   Feduck C, 2018, FORESTS, V9, P0, DOI 10.3390/f9070432
+   Franke J, 2007, PRECIS AGRIC, V8, P161, DOI 10.1007/s11119-007-9036-y
+   Futai K, 2013, ANNU REV PHYTOPATHOL, V51, P61, DOI 10.1146/annurev-phyto-081211-172910
+   Han JW, 2018, IEEE SIGNAL PROC MAG, V35, P84, DOI 10.1109/MSP.2017.2749125
+   Handique BK, 2017, P NATL A SCI INDIA A, V87, P713, DOI 10.1007/s40010-017-0443-9
+   Hoshikawa T., 2020, JAN J REMOTE SENSING, V40, P13
+   Jiao LC, 2019, IEEE ACCESS, V7, P128837, DOI 10.1109/ACCESS.2019.2939201
+   Karami E., 2015, NEWF EL COMP ENG C, V0, P0
+   Kim Dong-Soo, 2003, KOREAN JOURNAL OF APPLIED ENTOMOLOGY, V42, P307
+   Kim Joonbum, 2010, JOURNAL OF THE KOREAN ASSOCIATION OF GEOGRAPHIC INFORMATION STUDIES 한국지리정보학회지, V13, P28
+   Kim SR, 2018, FORESTS, V9, P0, DOI 10.3390/f9030115
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Laliberte AS, 2011, REMOTE SENS-BASEL, V3, P2529, DOI 10.3390/rs3112529
+   Lee JB, 2014, KOREAN J REMOTE SENS, V30, P665, DOI 10.7780/kjrs.2014.30.5.11
+   MAMIYA Y, 1988, J NEMATOL, V20, P219
+   Mikolajczyk A., 2018, 2018 INT INT PHD WOR, V0, PP117, DOI 10.1109/IIPHDW.2018.8388338
+   Morales G, 2018, FORESTS, V9, P0, DOI 10.3390/f9120736
+   Mota M.M., 2008, PINE WILT DIS WORLDW, V0, P0
+   Park JeongMook, 2016, JOURNAL OF FOREST AND ENVIRONMENTAL SCIENCE, V32, P384
+   Phillips M. C., 2020, P SYST INF ENG DES S, V0, P1
+   Puliti S, 2018, FORESTS, V9, P0, DOI 10.3390/f9030102
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   RUTHERFORD TA, 1990, FOREST SCI, V36, P145
+   Safonova A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060643
+   Shin S. C., 2008, PINE WILT DIS, V0, PP26, DOI 10.1007/978-4-431-75655-2_5
+   Simonyan K., 2015, ICLR, V0, P0
+   Sin S.-C., 2005, P KOR SOC APPL ENT C, V0, P33
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Syifa M, 2020, ENGINEERING-PRC, V6, P919, DOI 10.1016/j.eng.2020.07.001
+   Tai H. T., 1991, U.S. PATENT, V0, Patent No. [5 054 100, 5054100]
+   Tang LN, 2015, J FORESTRY RES, V26, P791, DOI 10.1007/s11676-015-0088-y
+   Trichon V, 2001, PLANT ECOL, V153, P301, DOI 10.1023/A:1017524126999
+   Yahyanejad S., 2011, 2011 IEEE INTERNATIONAL SYMPOSIUM ON ROBOTIC AND SENSORS ENVIRONMENTS (ROSE 2011), V0, PP231, DOI 10.1109/ROSE.2011.6058528
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   김동수, 2009, KOREAN JOURNAL OF APPLIED ENTOMOLOGY 한국응용곤충학회지, V48, P527
+NR 40
+TC 13
+Z9 13
+U1 15
+U2 38
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 8350
+EP 8358
+DI 10.1109/JSTARS.2021.3102218
+PG 9
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA UK8QR
+UT WOS:000692230900001
+DA 2023-04-26
+ER
+
+PT J
+AU Yin, ZX
+   Li, XD
+   Ge, Y
+   Shang, C
+   Li, XY
+   Du, Y
+   Ling, F
+AF Yin, Zhixiang
+   Li, Xiaodong
+   Ge, Yong
+   Shang, Cheng
+   Li, Xinyan
+   Du, Yun
+   Ling, Feng
+TI Estimating subpixel turbulent heat flux over leads from MODIS thermal infrared imagery with deep learning
+SO CRYOSPHERE
+LA English
+DT Article
+ID sea-ice leads; stray light correction; surface-temperature; superresolution; algorithm; validation
+AB The turbulent heat flux (THF) over leads is an important parameter for climate change monitoring in the Arctic region. THF over leads is often calculated from satellite-derived ice surface temperature (IST) products, in which mixed pixels containing both ice and open water along lead boundaries reduce the accuracy of calculated THF. To address this problem, this paper proposes a deep residual convolutional neural network (CNN)-based framework to estimate THF over leads at the subpixel scale (DeepSTHF) based on remotely sensed images The proposed DeepSTHF provides an IST image and the corresponding lead map with a finer spatial resolution than the input IST image so that the subpixel-scale THF can be estimated from them. The proposed approach is verified using simulated and real Moderate Resolution Imaging Spectroradiometer images and compared with the conventional cubic interpolation and pixelbased methods. The results demonstrate that the proposed CNN-based method can effectively estimate subpixel-scale information from the coarse data and performs well in producing fine-spatial-resolution IST images and lead maps, thereby providing more accurate and reliable THF over leads.
+C1 [Yin, Zhixiang; Li, Xiaodong; Shang, Cheng; Li, Xinyan; Du, Yun; Ling, Feng] Chinese Acad Sci, Innovat Acad Precis Measurement Sci & Technol, Key Lab Environm & Disaster Monitoring & Evaluat, Wuhan 430077, Peoples R China.
+   [Yin, Zhixiang; Shang, Cheng; Li, Xinyan] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+   [Yin, Zhixiang] Anhui Univ, Anhui Prov Key Lab Wetland Ecosyst Protect & Rest, Hefei 230601, Peoples R China.
+   [Ge, Yong] Chinese Acad Sci, Inst Geog Sci & Nat Resources Res, State Key Lab Resources & Environm Informat Syst, Beijing 100101, Peoples R China.
+C3 Chinese Academy of Sciences; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Anhui University; Chinese Academy of Sciences; Institute of Geographic Sciences & Natural Resources Research, CAS
+RP Ling, F (corresponding author), Chinese Acad Sci, Innovat Acad Precis Measurement Sci & Technol, Key Lab Environm & Disaster Monitoring & Evaluat, Wuhan 430077, Peoples R China.
+EM lingf@whigg.ac.cn
+FU Natural Science Foundation of Hubei Province for Innovation Groups [2019CFA019]; National Science Fund for Distinguished Young Scholars [41725006]; National Natural Science Foundation of China [62071457, 61671425]
+CR Atkinson PM, 2013, INT J APPL EARTH OBS, V22, P106, DOI 10.1016/j.jag.2012.04.012
+   Aulicino G, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030366
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Barber DG, 2014, J GEOPHYS RES-ATMOS, V119, P11593, DOI 10.1002/2014JD021736
+   Brodeau L, 2017, J PHYS OCEANOGR, V47, P5, DOI 10.1175/JPO-D-16-0169.1
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Du C, 2015, REMOTE SENS-BASEL, V7, P647, DOI 10.3390/rs70100647
+   EBERT EE, 1993, J GEOPHYS RES-OCEANS, V98, P10085, DOI 10.1029/93JC00656
+   EPPLER DT, 1992, REMOTE SENS ENVIRON, V40, P197, DOI 10.1016/0034-4257(92)90003-3
+   Eythorsson D, 2019, INT J APPL EARTH OBS, V80, P71, DOI 10.1016/j.jag.2019.04.003
+   Fan P, 2020, REMOTE SENS ENVIRON, V248, P0, DOI 10.1016/j.rse.2020.111975
+   Fett RW, 1997, J GEOPHYS RES-ATMOS, V102, P13657, DOI 10.1029/97JD00340
+   Foody GM, 2007, PHOTOGRAMM ENG REM S, V73, P923, DOI 10.14358/PERS.73.8.923
+   Foody GM, 2005, INT J REMOTE SENS, V26, P5381, DOI 10.1080/01431160500213292
+   Ge Y, 2019, EARTH-SCI REV, V197, P0, DOI 10.1016/j.earscirev.2019.102897
+   Ge Y, 2009, IEEE T GEOSCI REMOTE, V47, P2155, DOI 10.1109/TGRS.2008.2010863
+   Gerace A, 2017, REMOTE SENS ENVIRON, V191, P246, DOI 10.1016/j.rse.2017.01.029
+   Glasner D, 2009, IEEE I CONF COMP VIS, V0, PP349, DOI 10.1109/ICCV.2009.5459271
+   Goosse H, 2001, DESCRIPTION CLIO MOD, V0, P0
+   Jia YX, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11151815
+   KEY J, 1994, ARCTIC, V47, P280
+   Key JR, 1997, REMOTE SENS ENVIRON, V61, P302, DOI 10.1016/S0034-4257(97)89497-7
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Lanaras C, 2018, ISPRS J PHOTOGRAMM, V146, P305, DOI 10.1016/j.isprsjprs.2018.09.018
+   Leach R, 2014, SURF TOPOGR-METROL, V2, P0, DOI 10.1088/2051-672X/2/2/023001
+   Ledig C, 2017, PROC CVPR IEEE, V0, PP105, DOI 10.1109/CVPR.2017.19
+   Lewis BJ, 2019, J GEOPHYS RES-OCEANS, V124, P3411, DOI 10.1029/2018JC014898
+   Li XD, 2014, IEEE T GEOSCI REMOTE, V52, P2810, DOI 10.1109/TGRS.2013.2266345
+   LINDSAY RW, 1995, J GEOPHYS RES-OCEANS, V100, P4533, DOI 10.1029/94JC02393
+   Ling F, 1900, P2021, V0, P0, DOI DOI 10.5281/zenodo.5006637
+   Ling F, 2019, WATER RESOUR RES, V55, P5631, DOI 10.1029/2018WR024136
+   Ling F, 2019, REMOTE SENS LETT, V10, P598, DOI 10.1080/2150704X.2019.1587196
+   Ling F, 2010, INT J REMOTE SENS, V31, P5023, DOI 10.1080/01431160903252350
+   Lupkes C, 2008, GEOPHYS RES LETT, V35, P0, DOI 10.1029/2007GL032461
+   Marcq S, 2012, CRYOSPHERE, V6, P143, DOI 10.5194/tc-6-143-2012
+   Masters D., 2018, ARXIV180407612, V0, P0, DOI DOI 10.48550/ARXIV.1804.07612
+   MAYKUT GA, 1978, J GEOPHYS RES-OCEANS, V83, P3646, DOI 10.1029/JC083iC07p03646
+   Meng Y, 1900, V14, V0, PP887, DOI 10.1109/JSTARS.2020.3042242
+   Montanaro M, 2015, APPL OPTICS, V54, P3963, DOI 10.1364/AO.54.003963
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Qu M, 2021, REMOTE SENS ENVIRON, V256, P0, DOI 10.1016/j.rse.2021.112342
+   Qu M, 2019, CRYOSPHERE, V13, P1565, DOI 10.5194/tc-13-1565-2019
+   Reddi S.J., 2019, ARXIV PREPRINT ARXIV, V0, P0
+   Renfrew IA, 2002, J PHYS OCEANOGR, V32, P383, DOI 10.1175/1520-0485(2002)032<0383:ACOSLA>2.0.CO;2
+   Rohrs J, 2012, CRYOSPHERE, V6, P343, DOI 10.5194/tc-6-343-2012
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   TENNEKES H, 1973, J ATMOS SCI, V30, P234, DOI 10.1175/1520-0469(1973)030<0234:TLWP>2.0.CO;2
+   Tschudi MA, 2002, J GEOPHYS RES-OCEANS, V107, P0, DOI 10.1029/2000JC000541
+   Van Doninck J, 2011, INT J APPL EARTH OBS, V13, P934, DOI 10.1016/j.jag.2011.07.003
+   Wang QM, 2014, ISPRS J PHOTOGRAMM, V92, P1, DOI 10.1016/j.isprsjprs.2014.02.012
+   Wang ZH, 2021, IEEE T PATTERN ANAL, V43, P3365, DOI 10.1109/TPAMI.2020.2982166
+   Willmes S, 2015, ANN GLACIOL, V56, P29, DOI 10.3189/2015AoG69A615
+   Zhang K, 2018, PROC CVPR IEEE, V0, PP3262, DOI 10.1109/CVPR.2018.00344
+   Zhang YY, 2018, CRYOSPHERE, V12, P3747, DOI 10.5194/tc-12-3747-2018
+   Zhong YF, 2013, PATTERN RECOGN, V46, P2902, DOI 10.1016/j.patcog.2013.04.009
+NR 56
+TC 1
+Z9 1
+U1 3
+U2 7
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLEE 1E, GOTTINGEN, 37081, GERMANY
+SN 1994-0416
+EI 1994-0424
+J9 CRYOSPHERE
+JI Cryosphere
+PD JUN 24
+PY 2021
+VL 15
+IS 6
+BP 2835
+EP 2856
+DI 10.5194/tc-15-2835-2021
+PG 22
+WC Geography, Physical; Geosciences, Multidisciplinary
+SC Physical Geography; Geology
+GA TB4YI
+UT WOS:000667954200001
+DA 2023-04-26
+ER
+
+PT J
+AU Gondwe, JF
+   Lin, S
+   Munthali, RM
+AF Gondwe, Jane Ferah
+   Lin, Sun
+   Munthali, Rodger Millar
+TI Analysis of Land Use and Land Cover Changes in Urban Areas Using Remote Sensing: Case of Blantyre City
+SO DISCRETE DYNAMICS IN NATURE AND SOCIETY
+LA English
+DT Article
+ID artificial neural-network; classification; dynamics
+AB Blantyre City has experienced a wide range of changes in land use and land cover (LULC). This study used Remote Sensing (RS) to detect and quantify LULC changes that occurred in the city throughout a twenty-year study period, using Landsat 7 Enhanced Thematic Mapper (ETM+) images from 1999 and 2010 and Landsat 8 Operational Land Imager (OLI) images from 2019. A supervised classification method using an Artificial Neural Network (ANN) was used to classify and map LULC types. The kappa coefficient and the overall accuracy were used to ascertain the classification accuracy. Using the classified images, a postclassification comparison approach was used to detect LULC changes between 1999 and 2019. The study revealed that built-up land and agricultural land increased in their respective areas by 28.54 km(2) (194.81%) and 35.80 km(2) (27.16%) with corresponding annual change rates of 1.43 km center dot year(-1) and 1.79 km center dot year(-1). The area of bare land, forest land, herbaceous land, and waterbody, respectively, decreased by 0.05%, 90.52%, 71.67%, and 6.90%. The LULC changes in the study area were attributed to urbanization, population growth, social-economic growth, and climate change. The findings of this study provide information on the changes in LULC and driving factors, which Blantyre City authorities can utilize to develop sustainable development plans.
+C1 [Gondwe, Jane Ferah; Lin, Sun] Shandong Univ Sci & Technol, Coll Geomat, Qingdao 266510, Peoples R China.
+   [Munthali, Rodger Millar] Yangtze Univ, Sch Urban Construct, Jingzhou 434000, Peoples R China.
+C3 Shandong University of Science & Technology; Yangtze University
+RP Gondwe, JF (corresponding author), Shandong Univ Sci & Technol, Coll Geomat, Qingdao 266510, Peoples R China.
+EM jgondwe1919@gmail.com
+CR Afify HA, 2011, ALEX ENG J, V50, P187, DOI 10.1016/j.aej.2011.06.001
+   Alawamy JS, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12114490
+   Anderson J.R., 1976, LAND USE LAND COVER, V964, P0
+   [Anonymous], 2018, BRITANNICA BLANTYRE, V0, P0
+   Attua EM, 2011, EARTH INTERACT, V15, P0, DOI 10.1175/2010EI304.1
+   Ayala-Silva Tomas, 2009, AMERICAN JOURNAL OF APPLIED SCIENCES, V6, P656, DOI 10.3844/ajas.2009.656.660
+   Bekturov A, 2015, LAND USE LAND COVER, V0, P0
+   Berrick N.O.S., 2021, WHAT IS REMOTE SENSI, V0, P0
+   Bouhennache R, 2014, 2014 GLOBAL SUMMIT ON COMPUTER & INFORMATION TECHNOLOGY (GSCIT), V0, P0
+   Brhane KW, 2021, J THEOR BIOL, V509, P0, DOI 10.1016/j.jtbi.2020.110515
+   Briassoulis H., 2011, LAND USE LAND COVER, V1, P0
+   Chaikaew P., 2019, LAND USE CHANGE MONI, V0, P0
+   Chang Y, 2018, IOP C SER EARTH ENV, V113, P0, DOI 10.1088/1755-1315/113/1/012087
+   Chen F., 2012, DATA ACQUIS APPL, V0, P0
+   Chen LP, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0200493
+   Chen PY, 2017, SENSORS-BASEL, V17, P0, DOI 10.3390/s17061295
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Deer P, 1995, DIGITAL CHANGE DETEC, V0, P0
+   Degife AW, 2018, HELIYON, V4, P0, DOI 10.1016/j.heliyon.2018.e00919
+   Enderle D. I., 2005, J ARK ACAD SCI, V59, P65
+   FAO, 2012, ATL MAL LAND COV LAN, V0, P0
+   FOODY GM, 1995, PHOTOGRAMM ENG REM S, V61, P391
+   Frankenfield J., 2020, ARTIFICIAL NEURAL NE, V0, P0
+   Genet A., 2020, INT J ENV PROT POLIC, V8, P77, DOI 10.11648/j.ijepp.20200804.12
+   Gupta R, 2014, ENVIRON URBAN ASIA, V5, P83, DOI 10.1177/0975425314521539
+   Halefom A.T., 2018, APPL RES J GEOGRAPHI, V1, P1
+   Hasmadi I Mohd, 2009, J SOC SPACE, V5, P1
+   HEPNER GF, 1990, PHOTOGRAMM ENG REM S, V56, P469
+   Hussain S., 2018, LAND USE LAND COVER, V0, P0
+   Jagger P, 2016, ENVIRON RES LETT, V11, P0, DOI 10.1088/1748-9326/11/12/125004
+   Jensen Jensen J.R. J.R., 2015, INTRO DIGITAL IMAGE, V0, P0
+   Kuhlman T., 2010, SUSTAINABILITY, V2, P3436, DOI 10.3390/SU2113436
+   Lambin EF, 2001, GLOBAL ENVIRON CHANG, V11, P261, DOI 10.1016/S0959-3780(01)00007-3
+   Lambin EF, 2003, ANNU REV ENV RESOUR, V28, P205, DOI 10.1146/annurev.energy.28.050302.105459
+   Li XM, 2016, DISCRETE DYN NAT SOC, V2016, P0, DOI 10.1155/2016/8061069
+   Lu D, 2004, INT J REMOTE SENS, V25, P2365, DOI 10.1080/0143116031000139863
+   Malawi Government, 2019, 2018 MAL HOUS POP CE, V0, P0
+   Malawi Government, 2017, NAT CHARC STRAT, V0, P0
+   Mallupattu PK, 2013, SCI WORLD J, V0, P0, DOI DOI 10.1155/2013/268623
+   Manda M.A.Z., 2013, MALAWI SITUATION URB, V0, P0
+   Manoj K.A, 2010, LAND COVER CLASSIFIC, V0, P0
+   Mas JF, 2008, INT J REMOTE SENS, V29, P617, DOI 10.1080/01431160701352154
+   Mas JF, 1999, INT J REMOTE SENS, V20, P139, DOI 10.1080/014311699213659
+   Matsa M, 2020, J ENVIRON MANAGE, V276, P0, DOI 10.1016/j.jenvman.2020.111312
+   Meteo Climat, 2020, MTO CLIM STATS STAT, V0, P0
+   Mohajane M, 2018, ENVIRONMENTS, V5, P0, DOI 10.3390/environments5120131
+   Mohammady M, 2015, INT J ENVIRON SCI TE, V12, P1515, DOI 10.1007/s13762-014-0728-3
+   Munthali MG, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11030832
+   Olokeogun OS, 2014, INT ARCH PHOTOGRAMM, V40-8, P613, DOI 10.5194/isprsarchives-XL-8-613-2014
+   Pullanikkatil D, 2016, PHYS CHEM EARTH, V93, P96, DOI 10.1016/j.pce.2016.03.002
+   Raabe E.A., 1997, IMAGE PROCESSING MET, V0, P0
+   Radhadevi P.V., 2003, INT J GEO INFORM, V4, P90
+   Rawat JS, 2015, EGYPT J REMOTE SENS, V18, P77, DOI 10.1016/j.ejrs.2015.02.002
+   Shiferaw H, 2019, SCI TOTAL ENVIRON, V675, P354, DOI 10.1016/j.scitotenv.2019.04.220
+   Salah HS, 2020, INT J REMOTE SENS, V41, P1788, DOI 10.1080/01431161.2019.1674463
+   SINGH A, 1989, INT J REMOTE SENS, V10, P989, DOI 10.1080/01431168908903939
+   Suzanchi K, 2006, P SOC PHOTO-OPT INS, V6405, PC4051, DOI 10.1117/12.698196
+   Talukdar S, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071135
+   Tong XY, 2020, REMOTE SENS ENVIRON, V237, P0, DOI 10.1016/j.rse.2019.111322
+   Traore M., 2021, ENV CHALLENGES, V4, P0, DOI 10.1016/j.envc.2021.100114
+   UN Habitat, 2011, MAL BLANT URB PROF, V0, P0
+   Usman M, 2015, J GEOGR SCI, V25, P1479, DOI 10.1007/s11442-015-1247-y
+   Vargo J, 2013, J ENVIRON MANAGE, V114, P243, DOI 10.1016/j.jenvman.2012.10.007
+   Wang RC, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6050150
+   Wang SW, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12093925
+   World Bank, 2016, MAL URB REV LEV URB, V0, P0
+   Xue Q, 2021, APPL MATH COMPUT, V399, P0, DOI 10.1016/j.amc.2021.126038
+   Yan W, 2021, ECOL INDIC, V130, P0, DOI 10.1016/j.ecolind.2021.108074
+   Yin GH, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9010012
+   Young NE, 2021, ECOLOGY, V0, P0, DOI DOI 10.1002/ecy.1730
+NR 70
+TC 0
+Z9 0
+U1 2
+U2 2
+PU HINDAWI LTD
+PI LONDON
+PA ADAM HOUSE, 3RD FLR, 1 FITZROY SQ, LONDON, W1T 5HF, ENGLAND
+SN 1026-0226
+EI 1607-887X
+J9 DISCRETE DYN NAT SOC
+JI Discrete Dyn. Nat. Soc.
+PD DEC 23
+PY 2021
+VL 2021
+IS 
+BP 
+EP 
+DI 10.1155/2021/8011565
+PG 17
+WC Mathematics, Interdisciplinary Applications; Multidisciplinary Sciences
+SC Mathematics; Science & Technology - Other Topics
+GA 1I7SB
+UT WOS:000797426300003
+DA 2023-04-26
+ER
+
+PT J
+AU Zhao, GY
+   He, HD
+   Huang, YF
+   Ren, JD
+AF Zhao, Guyu
+   He, Hongdou
+   Huang, Yifang
+   Ren, Jiadong
+TI Near-surface PM2.5 prediction combining the complex network characterization and graph convolution neural network
+SO NEURAL COMPUTING & APPLICATIONS
+LA English
+DT Article
+DE Air pollution; Graph theory; Deep learning; Graph convolution neural network; PM2.5 Forecasting
+ID air-quality; health; ozone; model
+AB Massive studies focus on the prediction of main pollutants, to improve air quality by revealing the evolution of pollutants. However, existing prediction methods mostly emphasize the fitting analysis of time series, but ignore the spatial propagation effect among nearby places, resulting in a low prediction accuracy. To address this issue, this paper proposes a novel synthesis prediction method to simultaneously excavate the time series changing law and the spatial propagation effect. This method combines a characterization model named air quality spatial-temporal network (AQSTN) and a neural network model called graph convolution neural network (GCN). Firstly, by calculating three correlation coefficients, the time series of most related meteorological factors and aerosol data are gained for feature construction. The geographic distances between locations are computed to evaluate the spatial propagation cost. After that, AQSTN with locations as nodes and propagation relations as edges is constructed, compositing the temporal and spatial relationships. The network is regarded as graph data and input into GCN in chronological order. Secondly, GCN processing graph-structured data fits the optimal parameters in the training stage, simultaneously analyzes the spatial and temporal dimensions of the target site and its adjacent sites. And, the predicted PM2.5 concentration is gained in the test stage. The near-surface monitoring data of Beijing-Tianjin-Hebei area are adopted for experiment. Compared with the second-best model, the RMSE value of AQSTN-GCN is 6.85% lower, MAE value is 13.79% lower, MSE value is 13.23% lower, and MAPE value is 21.53% lower.
+C1 [Zhao, Guyu; He, Hongdou; Huang, Yifang; Ren, Jiadong] Yanshan Univ, Sch Software, Sch Informat Sci & Engn, Qinhuangdao 066004, Hebei, Peoples R China.
+C3 Yanshan University
+RP He, HD (corresponding author), Yanshan Univ, Sch Software, Sch Informat Sci & Engn, Qinhuangdao 066004, Hebei, Peoples R China.
+EM gaiazhao@163.com; hhd@ysu.edu.cn
+FU National Natural Science Foundation of China [61772451]; Graduate Innovative Funding Project of Hebei Province [CXZZBS2020061]
+CR [Anonymous], 1986, PARALLEL DISTRIBUTED, V0, P0
+   [Anonymous], 2020, AMBIENT AIR POLLUTIO, V0, P0
+   [Anonymous], 1968, 1968 ACM NATL C, V0, P0
+   [Anonymous], 2020, GLOBAL METRICS ENV T, V0, P0
+   Athira V., 2018, INT C COMPUTATIONAL, V132, P1394
+   Bahdanau D, 2016, ARXIV, V0, P0
+   Bai Y, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8030262
+   Barabasi AL, 1999, SCIENCE, V286, P509, DOI 10.1126/science.286.5439.509
+   Bell ML, 2007, CLIMATIC CHANGE, V82, P61, DOI 10.1007/s10584-006-9166-7
+   Bruna J., 2013, ARXIV13126203, V0, P0
+   Bullmore ET, 2009, NAT REV NEUROSCI, V10, P186, DOI 10.1038/nrn2575
+   Burges C.J.C, 2004, P 8 INT C SPOK LANG, V0, P0
+   Byun D, 2006, APPL MECH REV, V59, P51, DOI 10.1115/1.2128636
+   Cabaneros SM, 2019, ENVIRON MODELL SOFTW, V119, P285, DOI 10.1016/j.envsoft.2019.06.014
+   Dincer NG, 2018, ECOL INFORM, V43, P157, DOI 10.1016/j.ecoinf.2017.12.001
+   Du SD, 2021, IEEE T KNOWL DATA EN, V33, P2412, DOI 10.1109/TKDE.2019.2954510
+   Feng F, 2018, LECT NOTES COMPUT SC, V10987, P349, DOI 10.1007/978-3-319-96890-2_29
+   Fortunato S, 2010, PHYS REP, V486, P75, DOI 10.1016/j.physrep.2009.11.002
+   Fu BT, 2019, J CLEAN PROD, V209, P595, DOI 10.1016/j.jclepro.2018.10.192
+   GEURTS M, 1977, J MARKETING RES, V14, P269, DOI 10.2307/3150485
+   Girvan M, 2002, P NATL ACAD SCI USA, V99, P7821, DOI 10.1073/pnas.122653799
+   GOODIN WR, 1980, J APPL METEOROL, V19, P98, DOI 10.1175/1520-0450(1980)019<0098:AOATFC>2.0.CO;2
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Graves A, 2013, INT CONF ACOUST SPEE, V0, PP6645, DOI 10.1109/ICASSP.2013.6638947
+   Graves A, 2009, IEEE T PATTERN ANAL, V31, P855, DOI 10.1109/TPAMI.2008.137
+   Gu K, 2018, IEEE T IND INFORM, V14, P3946, DOI 10.1109/TII.2018.2793950
+   Hernandez RA, 2015, SAPI S SURVEYS PERSP, V8, P0
+   Huang CJ, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18072220
+   Huang GB, 2004, IEEE IJCNN, V0, P985
+   Jiang Zhifang, 2010, PROCEEDINGS 2010 SIXTH INTERNATIONAL CONFERENCE ON NATURAL COMPUTATION (ICNC 2010), V0, PP1523, DOI 10.1109/ICNC.2010.5582643
+   Jin YN, 2016, INT J ENV RES PUB HE, V13, P0, DOI 10.3390/ijerph13121219
+   Kindap T, 2006, ATMOS ENVIRON, V40, P3536, DOI 10.1016/j.atmosenv.2006.01.055
+   Lelieveld J, 2015, NATURE, V525, P367, DOI 10.1038/nature15371
+   Li C, 2011, ATMOS ENVIRON, V45, P3663, DOI 10.1016/j.atmosenv.2011.04.032
+   LIPPMANN M, 1989, JAPCA J AIR WASTE MA, V39, P672, DOI 10.1080/08940630.1989.10466554
+   Liu DR, 2020, EXPERT SYST, V37, P0, DOI 10.1111/exsy.12511
+   Lu ZM, 2012, PHYSICA A, V391, P87, DOI 10.1016/j.physa.2011.08.002
+   Mahajan S, 2018, IEEE ACCESS, V6, P19193, DOI 10.1109/ACCESS.2018.2820164
+   Mendes GA, 2012, PHYSICA A, V391, P362, DOI 10.1016/j.physa.2011.07.046
+   Nel A, 2005, SCIENCE, V308, P804, DOI 10.1126/science.1108752
+   Nguyen-Tuong Duy, 2009, ADV NEURAL INFORM PR, V0, P1193
+   Ong BT, 2016, NEURAL COMPUT APPL, V27, P1553, DOI 10.1007/s00521-015-1955-3
+   Pisoni E, 2017, ENVIRON MODELL SOFTW, V90, P68, DOI 10.1016/j.envsoft.2017.01.001
+   Pope CA, 2011, J AIR WASTE MANAGE, V61, P858, DOI 10.3155/1047-3289.61.8.858
+   Qi ZG, 2018, IEEE T KNOWL DATA EN, V30, P2285, DOI 10.1109/TKDE.2018.2823740
+   Qin DM, 2019, IEEE ACCESS, V7, P20050, DOI 10.1109/ACCESS.2019.2897028
+   Reyes J, 2013, INT CONF ELECTR COMM, V0, PP27, DOI 10.1109/CONIELECOMP.2013.6525752
+   Saide PE, 2011, ATMOS ENVIRON, V45, P2769, DOI 10.1016/j.atmosenv.2011.02.001
+   Sefidmazgi MG, 2015, MACHINE LEARNING DAT, V0, PP185, DOI 10.1007/978-3-319-17220-0_17
+   Soh PW, 2018, IEEE ACCESS, V6, P38186, DOI 10.1109/ACCESS.2018.2849820
+   Stadlober E, 2008, ATMOS ENVIRON, V42, P1098, DOI 10.1016/j.atmosenv.2007.10.073
+   Strogatz SH, 2001, NATURE, V410, P268, DOI 10.1038/35065725
+   Tang MF, 2017, IEEE T MULTIMEDIA, V19, P408, DOI 10.1109/TMM.2016.2613639
+   Vardoulakis S, 2003, ATMOS ENVIRON, V37, P155, DOI 10.1016/S1352-2310(02)00857-9
+   Wang B, 2018, LECT NOTES COMPUT SC, V11305, P93, DOI 10.1007/978-3-030-04221-9_9
+   Wang Y, 2013, PHYSICA A, V392, P5824, DOI 10.1016/j.physa.2013.07.067
+   Watts DJ, 1998, NATURE, V393, P440, DOI 10.1038/30918
+   Wen CC, 2019, SCI TOTAL ENVIRON, V654, P1091, DOI 10.1016/j.scitotenv.2018.11.086
+   Zhao GY, 2019, IEEE ACCESS, V7, P134903, DOI 10.1109/ACCESS.2019.2941732
+   Zhao GY, 2019, IEEE ACCESS, V7, P26241, DOI 10.1109/ACCESS.2019.2900997
+   Zheng Y, 2013, 19TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING (KDD13), V0, PP1436, DOI 10.1145/2487575.2488188
+   Zhou YL, 2019, J CLEAN PROD, V209, P134, DOI 10.1016/j.jclepro.2018.10.243
+NR 62
+TC 5
+Z9 5
+U1 8
+U2 47
+PU SPRINGER LONDON LTD
+PI LONDON
+PA 236 GRAYS INN RD, 6TH FLOOR, LONDON WC1X 8HL, ENGLAND
+SN 0941-0643
+EI 1433-3058
+J9 NEURAL COMPUT APPL
+JI Neural Comput. Appl.
+PD DEC 15
+PY 2021
+VL 33
+IS 24
+BP 17081
+EP 17101
+DI 10.1007/s00521-021-06300-3
+EA JUL 2021
+PG 21
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA WS1UA
+UT WOS:000674551700003
+DA 2023-04-26
+ER
+
+PT J
+AU Karatzinis, GD
+   Boutalis, YS
+AF Karatzinis, Georgios D.
+   Boutalis, Yiannis S.
+TI Fuzzy cognitive networks with functional weights for time series and pattern recognition applications
+SO APPLIED SOFT COMPUTING
+LA English
+DT Article
+DE Fuzzy cognitive maps; Fuzzy cognitive networks; Classification; Time series prediction; Functional weights
+ID adaptive estimation; neural-network; maps; algorithm; regularization; prediction; system; model
+AB Over the last decades, a number of remarkable pattern recognition algorithms have been proposed, as a result of the continuous raising of pattern classification in one of the major application areas of artificial intelligence. Many real world problems require the use of efficient classification models pointing out the need for continuous research and study of new techniques. Such a proposal is to use Fuzzy Cognitive Maps (FCMs) and their extensions to solve distinct classification tasks. The extension named Fuzzy Cognitive Network (FCN) has the clear advantage of guaranteed convergence to equilibrium points, which in turn makes it more suitable for pattern recognition applications. However, in order to store the broad range of associations using FCN, large fuzzy rule databases have to be built. In this work, the FCNs with functional weights are introduced and their use in pattern recognition and time series prediction is proposed. The new scheme keeps the nice convergence properties of FCN but is alleviated from the memory and computational requirements of using large fuzzy rule databases, as well as from the inevitable human intervention. The training of the classifier is performed by using a combination of a gradient descent like procedure which uses either a linear or a bilinear parametric model of the network and a least squares method for the estimation of the functional weights. The efficiency and reliability of the proposed classifier is supported by its high overall performance on a set of publicly available time series and pattern recognition datasets outperforming other well-known machine learning models, as well as the most efficient FCM based classifiers. (C) 2021 Elsevier B.V. All rights reserved.
+C1 [Karatzinis, Georgios D.; Boutalis, Yiannis S.] Democritus Univ Thrace, Dept Elect & Comp Engn, Xanthi 67100, Greece.
+C3 Democritus University of Thrace
+RP Karatzinis, GD (corresponding author), Democritus Univ Thrace, Dept Elect & Comp Engn, Xanthi 67100, Greece.
+EM gkaratzi@ee.duth.gr; ybout@ee.duth.gr
+FU Hellenic Foundation for Research and Innovation (HFRI), Greece under the HFRI PhD Fellowship grant [706]
+CR Acampora G, 2015, IEEE T FUZZY SYST, V23, P2397, DOI 10.1109/TFUZZ.2015.2426311
+   Acampora G, 2011, IEEE T FUZZY SYST, V19, P1040, DOI 10.1109/TFUZZ.2011.2159799
+   Azar A, 2019, EXPERT SYST APPL, V115, P607, DOI 10.1016/j.eswa.2018.08.043
+   Boutalis Y, 2014, ADV IND CONTROL, V0, PP1, DOI 10.1007/978-3-319-06364-5
+   Boutalis Y, 2009, IEEE T FUZZY SYST, V17, P874, DOI 10.1109/TFUZZ.2009.2017519
+   Chi YX, 2016, IEEE T FUZZY SYST, V24, P71, DOI 10.1109/TFUZZ.2015.2426314
+   de Souza L.B., 2018, 2018 IEEE INT C FUZZ, V0, P1
+   Dickerson J.A., 1994, PRESENCE, V3, P173, DOI 10.1162/pres.1994.3.2.173
+   Engl H. W., 1996, REGULARIZATION INVER, V0, P0
+   Feng G., 2019, IEEE T CYBERN, V0, P0
+   Froelich W, 2017, NEUROCOMPUTING, V232, P83, DOI 10.1016/j.neucom.2016.11.059
+   Froelich W, 2009, STUD COMPUT INTELL, V252, P153
+   Geva AB, 1998, IEEE T NEURAL NETWOR, V9, P1471, DOI 10.1109/72.728396
+   GOLUB GH, 1979, TECHNOMETRICS, V21, P215, DOI 10.1080/00401706.1979.10489751
+   Hadavandi E, 2010, KNOWL-BASED SYST, V23, P800, DOI 10.1016/j.knosys.2010.05.004
+   Hajek P., 2018, P 2018 IEEE INT C FU, V0, P1
+   Hajek P, 2019, INFORM SCIENCES, V485, P394, DOI 10.1016/j.ins.2019.02.035
+   HANSEN PC, 1993, SIAM J SCI COMPUT, V14, P1487, DOI 10.1137/0914086
+   Hassan MR, 2007, EXPERT SYST APPL, V33, P171, DOI 10.1016/j.eswa.2006.04.007
+   Hassan MR, 2009, NEUROCOMPUTING, V72, P3439, DOI 10.1016/j.neucom.2008.09.029
+   Homenda W., 2019, IEEE T FUZZY SYST, V0, P0
+   Homenda W, 2014, LECT NOTES COMPUT SC, V8838, P409, DOI 10.1007/978-3-662-45237-0_38
+   Huerga AV, 2002, P 16 INT WORKSH QUAL, V2002, P0
+   JANG JSR, 1993, IEEE T SYST MAN CYB, V23, P665, DOI 10.1109/21.256541
+   Karatzinis G, 2018, 2018 7TH INTERNATIONAL CONFERENCE ON SYSTEMS AND CONTROL (ICSC), V0, PP384, DOI 10.1109/ICoSC.2018.8587780
+   Karatzinis G, 2018, 2018 EUROPEAN CONTROL CONFERENCE (ECC), V0, PP2069, DOI 10.23919/ECC.2018.8550376
+   Karatzinis G, 2018, MED C CONTR AUTOMAT, V0, P709
+   Kitagawa T, 2001, BIT, V41, P1049, DOI 10.1023/A:1021949530676
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kottas T, 2015, 2015 IEEE EINDHOVEN POWERTECH, V0, P0
+   Kottas T., 2006, 2006 14 MED C CONTR, V0, P1
+   Kottas TL, 2006, IEEE T ENERGY CONVER, V21, P793, DOI 10.1109/TEC.2006.875430
+   Kottas TL, 2007, INTELL DECIS TECHNOL, V1, P183, DOI 10.3233/IDT-2007-1402
+   Kottas T, 2012, APPL SOFT COMPUT, V12, P3736, DOI 10.1016/j.asoc.2012.01.025
+   Kottas TL, 2018, IEEE ACCESS, V6, P24866, DOI 10.1109/ACCESS.2018.2822051
+   Koulouriotis DE, 2001, IEEE C EVOL COMPUTAT, V0, PP364, DOI 10.1109/CEC.2001.934413
+   Li SJ, 2004, PROCEEDINGS OF THE 2004 INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND CYBERNETICS, VOLS 1-7, P2301
+   Mei S, 2014, IEEE T FUZZY SYST, V22, P264, DOI 10.1109/TFUZZ.2013.2251638
+   Nair A, 2020, APPL SOFT COMPUT, V92, P0, DOI 10.1016/j.asoc.2020.106309
+   Nair A, 2019, APPL SOFT COMPUT, V84, P0, DOI 10.1016/j.asoc.2019.105754
+   Napoles G, 2018, STUD FUZZ SOFT COMP, V360, P83, DOI 10.1007/978-3-319-64286-4_5
+   Napoles G, 2014, EXPERT SYST APPL, V41, P821, DOI 10.1016/j.eswa.2013.08.012
+   Natarajan R, 2016, COMPUT ELECTRON AGR, V127, P147, DOI 10.1016/j.compag.2016.05.016
+   Papageorgiou E, 2003, LECT NOTES ARTIF INT, V2903, P256
+   Papageorgiou EI, 2008, APPL SOFT COMPUT, V8, P820, DOI 10.1016/j.asoc.2007.06.006
+   Papageorgiou EI, 2005, APPL SOFT COMPUT, V5, P409, DOI 10.1016/j.asoc.2004.08.008
+   Papageorgiou EI, 2004, INT J APPROX REASON, V37, P219, DOI 10.1016/j.ijar.2004.01.001
+   Papageorgiou EI, 2003, IEEE T BIO-MED ENG, V50, P1326, DOI 10.1109/TBME.2003.819845
+   Papageorgiou EI, 2013, IEEE T FUZZY SYST, V21, P342, DOI 10.1109/TFUZZ.2012.2214224
+   Papageorgiou EI, 2012, APPL SOFT COMPUT, V12, P3798, DOI 10.1016/j.asoc.2012.03.064
+   Papageorgiou EI, 2012, IEEE T SYST MAN CY C, V42, P150, DOI 10.1109/TSMCC.2011.2138694
+   Papakostas GA, 2012, EXPERT SYST APPL, V39, P10620, DOI 10.1016/j.eswa.2012.02.148
+   Papakostas GA, 2010, STUD FUZZ SOFT COMP, V247, P291
+   Papakostas GA, 2008, INT J PATTERN RECOGN, V22, P1461, DOI 10.1142/S0218001408006910
+   Parsopoulos KE, 2003, IEEE C EVOL COMPUTAT, V0, P1440
+   Pedrycz W, 2016, IEEE T FUZZY SYST, V24, P120, DOI 10.1109/TFUZZ.2015.2428717
+   Pedrycz W, 2014, IEEE T FUZZY SYST, V22, P859, DOI 10.1109/TFUZZ.2013.2277730
+   Puerto E, 2019, APPL SOFT COMPUT, V75, P58, DOI 10.1016/j.asoc.2018.10.034
+   Renaud O, 2005, IEEE T SYST MAN CY B, V35, P1241, DOI 10.1109/TSMCB.2005.850182
+   Salmeron JL, 2019, KNOWL-BASED SYST, V163, P723, DOI 10.1016/j.knosys.2018.09.034
+   Salmeron JL, 2019, IEEE T CYBERNETICS, V49, P211, DOI 10.1109/TCYB.2017.2771387
+   Salmeron JL, 2016, CONTRIB STAT, V0, PP329, DOI 10.1007/978-3-319-28725-6_24
+   Setnes M, 2000, NINTH IEEE INTERNATIONAL CONFERENCE ON FUZZY SYSTEMS (FUZZ-IEEE 2000), VOLS 1 AND 2, P700, DOI 10.1109/FUZZY.2000.839117
+   Shen F, 2020, KNOWL-BASED SYST, V192, P0, DOI 10.1016/j.knosys.2019.105294
+   Song HJJ, 2011, IEEE T FUZZY SYST, V19, P116, DOI 10.1109/TFUZZ.2010.2087383
+   Stach W, 2005, FUZZY SET SYST, V153, P371, DOI 10.1016/j.fss.2005.01.009
+   Stach W, 2008, IEEE T FUZZY SYST, V16, P61, DOI 10.1109/TFUZZ.2007.902020
+   Stach W, 2008, IEEE INT CONF FUZZY, V0, P1977
+   Stylios CD, 2000, J INTELL FUZZY SYST, V8, P83
+   Ticknor JL, 2013, EXPERT SYST APPL, V40, P5501, DOI 10.1016/j.eswa.2013.04.013
+   Tikhonov A.N., 1977, SOLUTIONS ILL POSED, V0, P0
+   Vanhoenshoven F, 2020, APPL SOFT COMPUT, V95, P0, DOI 10.1016/j.asoc.2020.106461
+   Wang L.-X., 1996, COURSE FUZZY SYSTEMS, V0, P0, DOI DOI 10.5555/248374
+   WANG LX, 1992, IEEE T NEURAL NETWOR, V3, P807, DOI 10.1109/72.159070
+   Wu K, 2019, IEEE T FUZZY SYST, V0, P0
+   Yang SC, 2018, IEEE T FUZZY SYST, V26, P3391, DOI 10.1109/TFUZZ.2018.2831640
+   Yang Z, 2019, APPL SOFT COMPUT, V74, P356, DOI 10.1016/j.asoc.2018.10.038
+   Yuan KX, 2020, KNOWL-BASED SYST, V206, P0, DOI 10.1016/j.knosys.2020.106359
+   Zhang YJ, 2019, IEEE T FUZZY SYST, V27, P16, DOI 10.1109/TFUZZ.2018.2853727
+   Zheng G., 1999, J COMPUT INTELL FINA, V7, P0
+   Zhou SM, 2009, IEEE T FUZZY SYST, V17, P654, DOI 10.1109/TFUZZ.2008.928597
+   Zou XM, 2018, IEEE T FUZZY SYST, V26, P2120, DOI 10.1109/TFUZZ.2017.2764445
+NR 82
+TC 2
+Z9 2
+U1 1
+U2 17
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1568-4946
+EI 1872-9681
+J9 APPL SOFT COMPUT
+JI Appl. Soft. Comput.
+PD JUL 15
+PY 2021
+VL 106
+IS 
+BP 
+EP 
+DI 10.1016/j.asoc.2021.107415
+EA APR 2021
+PG 14
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications
+SC Computer Science
+GA SG9CP
+UT WOS:000653738000012
+DA 2023-04-26
+ER

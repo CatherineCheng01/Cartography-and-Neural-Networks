@@ -1,0 +1,509 @@
+
+PT J
+AU Abdollahi, A
+   Pradhan, B
+   Alamri, A
+AF Abdollahi, Abolfazl
+   Pradhan, Biswajeet
+   Alamri, Abdullah
+TI RoadVecNet: a new approach for simultaneous road network segmentation and vectorization from aerial and google earth imagery in a complex urban set-up
+SO GISCIENCE & REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; RoadVecNet; remote sensing; road segmentation; GIS; road vectorization
+ID convolutional neural-network; centerline extraction; satellite images; classification; cnn
+AB In this study, we present a new automatic deep learning-based network named Road Vectorization Network (RoadVecNet), which comprises interlinked UNet networks to simultaneously perform road segmentation and road vectorization. Particularly, RoadVecNet contains two UNet networks. The first network with powerful representation capability can obtain more coherent and satisfactory road segmentation maps even under a complex urban set-up. The second network is linked to the first network to vectorize road networks by utilizing all of the previously generated feature maps. We utilize a loss function called focal loss weighted by median frequency balancing (MFB_FL) to focus on the hard samples, fix the training data imbalance problem, and improve the road extraction and vectorization performance. A new module named dense dilated spatial pyramid pooling, which combines the benefit of cascaded modules with atrous convolution and atrous spatial pyramid pooling, is designed to produce more scale features over a broader range. Two types of high-resolution remote sensing datasets, namely, aerial and Google Earth imagery, were used for road segmentation and road vectorization tasks. Classification results indicate that the RoadVecNet outperforms the state-of-the-art deep learning-based networks with 92.51% and 93.40% F1 score for road surface segmentation and 89.24% and 92.41% F1 score for road vectorization from the aerial and Google Earth road datasets, respectively. In addition, the proposed method outperforms the other comparative methods in terms of qualitative results and produces high-resolution road segmentation and vectorization maps. As a conclusion, the presented method demonstrates that considering topological quality may result in improvement of the final road network, which is essential in various applications, such as GIS database updating.
+C1 [Abdollahi, Abolfazl; Pradhan, Biswajeet] Univ Technol Sydney UTS, CAMGIS, Sydney, NSW, Australia.
+   [Pradhan, Biswajeet] Univ Kebangsaan Malaysia, Earth Observat Ctr, Inst Climate Change, Bangi, Sekangor, Malaysia.
+   [Alamri, Abdullah] King Saud Univ, Coll Sci, Dept Geol & Geophys, Riyadh, Saudi Arabia.
+C3 University of Technology Sydney; Universiti Kebangsaan Malaysia; King Saud University
+RP Pradhan, B (corresponding author), Univ Technol Sydney UTS, CAMGIS, Sydney, NSW, Australia.; Pradhan, B (corresponding author), Univ Kebangsaan Malaysia, Earth Observat Ctr, Inst Climate Change, Bangi, Sekangor, Malaysia.
+EM biswajeet24@gmail.com
+FU King Saud University, Riyadh, Saudi Arabia [RSP-2021/14]; Centre for Advanced Modelling and Geospatial Information Systems, Faculty of Engineering and IT, University of Technology Sydney
+CR Abdollahi A, 2021, EXPERT SYST APPL, V176, P0, DOI 10.1016/j.eswa.2021.114908
+   Abdollahi A, 2020, IEEE ACCESS, V8, P179424, DOI 10.1109/ACCESS.2020.3026658
+   Abdollahi A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091444
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Buslaev A, 2018, IEEE COMPUT SOC CONF, V0, PP197, DOI 10.1109/CVPRW.2018.00035
+   Chaudhuri D, 2012, IEEE J-STARS, V5, P1538, DOI 10.1109/JSTARS.2012.2199085
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Cheng GL, 2017, IEEE T GEOSCI REMOTE, V55, P3322, DOI 10.1109/TGRS.2017.2669341
+   Diakogiannis F, 2019, RESUNET A DEEP LEARN, V0, P1
+   Eigen D, 2012, PROC CVPR IEEE, V0, PP2799, DOI 10.1109/CVPR.2012.6248004
+   Gao X, 2018, IEEE ACCESS, V6, P39401, DOI 10.1109/ACCESS.2018.2856088
+   Hong ZL, 2018, IEEE ACCESS, V6, P46988, DOI 10.1109/ACCESS.2018.2867210
+   Hormese J, 2016, PROC TECH, V24, P1460, DOI 10.1016/j.protcy.2016.05.180
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Kaur A., 2015, INT J RES, V2, P1025
+   Li PK, 2016, INT GEOSCI REMOTE SE, V0, PP1599, DOI 10.1109/IGARSS.2016.7729408
+   Li Y, 2019, REMOTE SENS LETT, V10, P381, DOI 10.1080/2150704X.2018.1557791
+   Lin TY, 2017, IEEE I CONF COMP VIS, V0, PP2999, DOI 10.1109/ICCV.2017.324
+   Liu RY, 2019, NEUROCOMPUTING, V329, P384, DOI 10.1016/j.neucom.2018.10.036
+   Liu YH, 2019, IEEE T GEOSCI REMOTE, V57, P2043, DOI 10.1109/TGRS.2018.2870871
+   Long J., 2015, PROC CVPR IEEE, V0, PP6810, DOI 10.1109/CVPR.2015.7298965
+   Luo YR, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091026
+   Maboudi M, 2017, INT J REMOTE SENS, V38, P179, DOI 10.1080/01431161.2016.1264026
+   Miao ZL, 2013, IEEE GEOSCI REMOTE S, V10, P583, DOI 10.1109/LGRS.2012.2214761
+   Mnih V., 2013, PHD DISSERTATION, V0, P0
+   Mnih V, 2010, LECT NOTES COMPUT SC, V6316, P210, DOI 10.1007/978-3-642-15567-3_16
+   Movaghati S, 2010, IEEE T GEOSCI REMOTE, V48, P2807, DOI 10.1109/TGRS.2010.2041783
+   Qiaoping Z., 2004, GEOSPATIAL INFORM SC, V7, P89, DOI 10.1007/BF02826642
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Saito S, 2015, PROC SPIE, V9405, P0, DOI 10.1117/12.2083273
+   Sarhan E., 2011, 2011 INT C IM INF PR, VIn, P1
+   Sevo I, 2016, IEEE GEOSCI REMOTE S, V13, P740, DOI 10.1109/LGRS.2016.2542358
+   Shao ZF, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13020239
+   Shen ZF, 2010, INT GEOSCI REMOTE SE, V0, PP453, DOI 10.1109/IGARSS.2010.5649912
+   Simonyan K., 2014, VERY DEEP CONVOLUTIO, V0, P0
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Unsalan C, 2012, IEEE T GEOSCI REMOTE, V50, P4441, DOI 10.1109/TGRS.2012.2190078
+   Vincent O.R., 2009, INF SCI IT ED C, V2009, P97
+   Wei YN, 2017, IEEE GEOSCI REMOTE S, V14, P709, DOI 10.1109/LGRS.2017.2672734
+   Wei Y, 2020, IEEE T GEOSCI REMOTE, V58, P8919, DOI 10.1109/TGRS.2020.2991733
+   Xie Y, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8120571
+   Xu YY, 2018, INT CONF GEOINFORM, V0, P0
+   Yang MK, 2018, PROC CVPR IEEE, V0, PP3684, DOI 10.1109/CVPR.2018.00388
+   Yang XF, 2019, IEEE T GEOSCI REMOTE, V57, P7209, DOI 10.1109/TGRS.2019.2912301
+   Yi WB, 2010, INT GEOSCI REMOTE SE, V0, PP445, DOI 10.1109/IGARSS.2010.5650966
+   Zhang ZX, 2018, IEEE GEOSCI REMOTE S, V15, P749, DOI 10.1109/LGRS.2018.2802944
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+   Zhao WZ, 2017, IEEE J-STARS, V10, P3386, DOI 10.1109/JSTARS.2017.2680324
+   Zhong YF, 2017, REMOTE SENS LETT, V8, P136, DOI 10.1080/2150704X.2016.1235299
+   Zhong ZL, 2016, INT GEOSCI REMOTE SE, V0, PP1591, DOI 10.1109/IGARSS.2016.7729406
+   Zhou WX, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050489
+NR 53
+TC 20
+Z9 20
+U1 9
+U2 38
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1548-1603
+EI 1943-7226
+J9 GISCI REMOTE SENS
+JI GISci. Remote Sens.
+PD OCT 3
+PY 2021
+VL 58
+IS 7
+BP 1151
+EP 1174
+DI 10.1080/15481603.2021.1972713
+EA AUG 2021
+PG 24
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA XC0VF
+UT WOS:000691150000001
+DA 2023-04-26
+ER
+
+PT J
+AU Gao, GS
+   Liu, QJ
+   Wang, YH
+AF Gao, Guangshuai
+   Liu, Qingjie
+   Wang, Yunhong
+TI Counting From Sky: A Large-Scale Data Set for Remote Sensing Object Counting and a Benchmark Method
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Attention mechanism; deformable convolution layer; object counting; remote sensing; scale pyramid module (SPM)
+AB Object counting, whose aim is to estimate the number of objects from a given image, is an important and challenging computation task. Significant efforts have been devoted to addressing this problem and achieved great progress, yet counting the number of ground objects from remote sensing images is barely studied. In this article, we are interested in counting dense objects from remote sensing images. Compared with object counting in a natural scene, this task is challenging in the following factors: large-scale variation, complex cluttered background, and orientation arbitrariness. More importantly, the scarcity of data severely limits the development of research in this field. To address these issues, we first construct a large-scale object counting data set with remote sensing images, which contains four important geographic objects: buildings, crowded ships in harbors, and large vehicles and small vehicles in parking lots. We then benchmark the data set by designing a novel neural network that can generate a density map of an input image. The proposed network consists of three parts, namely attention module, scale pyramid module, and deformable convolution module (DCM) to attack the aforementioned challenging factors. Extensive experiments are performed on the proposed data set and one crowd counting data set, which demonstrates the challenges of the proposed data set and the superiority and effectiveness of our method compared with state-of-the-art methods.
+C1 [Gao, Guangshuai; Liu, Qingjie; Wang, Yunhong] Beihang Univ, State Key Lab Virtual Real Technol & Syst, Beijing 100191, Peoples R China.
+   [Gao, Guangshuai; Liu, Qingjie; Wang, Yunhong] Beihang Univ, Hangzhou Innovat Inst, Hangzhou 310051, Peoples R China.
+C3 Beihang University; Beihang University
+RP Liu, QJ (corresponding author), Beihang Univ, State Key Lab Virtual Real Technol & Syst, Beijing 100191, Peoples R China.
+EM gaoguangshuai1990@buaa.edu.cn; qingjie.liu@buaa.edu.cn; yhwang@buaa.edu.cn
+FU National Natural Science Foundation of China [41871283, U1804157, 61601011]
+CR Abd Mubin N, 2019, INT J REMOTE SENS, V40, P7500, DOI 10.1080/01431161.2019.1569282
+   Arteta C, 2016, LECT NOTES COMPUT SC, V9911, P483, DOI 10.1007/978-3-319-46478-7_30
+   Bahdanau D, 2016, ARXIV, V0, P0
+   Bahmanyar R, 2019, MRCNET CROWD COUNTIN, V0, P1
+   Bazi Y, 2009, INT GEOSCI REMOTE SE, V0, PP1235, DOI 10.1109/IGARSS.2009.5418266
+   Boominathan L, 2016, MM16: PROCEEDINGS OF THE 2016 ACM MULTIMEDIA CONFERENCE, V0, PP640, DOI 10.1145/2964284.2967300
+   Cao XK, 2018, LECT NOTES COMPUT SC, V11209, P757, DOI 10.1007/978-3-030-01228-1_45
+   Chen L, 2017, PROC CVPR IEEE, V0, PP6298, DOI 10.1109/CVPR.2017.667
+   Chen XY, 2019, IEEE WINT CONF APPL, V0, PP1941, DOI 10.1109/WACV.2019.00211
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Dai JF, 2017, IEEE I CONF COMP VIS, V0, PP764, DOI 10.1109/ICCV.2017.89
+   Dollar P, 2012, IEEE T PATTERN ANAL, V34, P743, DOI 10.1109/TPAMI.2011.155
+   Fan YD, 2017, INT J DISAST RISK SC, V8, P471, DOI 10.1007/s13753-017-0143-8
+   French Geoffrey, 2015, BRIT MACH VIS C WORK, V0, P0, DOI DOI 10.5244/C.29.MVAB.7
+   Gao GS, 2020, INT CONF ACOUST SPEE, V0, PP4137, DOI 10.1109/ICASSP40776.2020.9053690
+   Gao JY, 2019, NEUROCOMPUTING, V363, P1, DOI 10.1016/j.neucom.2019.08.018
+   Guan L, 2016, INT GEOSCI REMOTE SE, V0, PP7299, DOI 10.1109/IGARSS.2016.7730904
+   Guerrero-Gomez-Olmedo R, 2015, LECT NOTES COMPUT SC, V9117, P423, DOI 10.1007/978-3-319-19390-8_48
+   HARALICK RM, 1973, IEEE T SYST MAN CYB, VSMC3, P610, DOI 10.1109/TSMC.1973.4309314
+   Hossain MA, 2019, IEEE WINT CONF APPL, V0, PP1280, DOI 10.1109/WACV.2019.00141
+   Hsieh MR, 2017, IEEE I CONF COMP VIS, V0, PP4165, DOI 10.1109/ICCV.2017.446
+   Huang YJ, 2019, AAAI CONF ARTIF INTE, V0, P8497
+   Kang D., 2018, BRIT MACHINE VISION, V0, P0
+   Lempitsky V., 2010, P 23 INT C NEURAL IN, V23, P1324
+   Li K, 2020, ISPRS J PHOTOGRAMM, V159, P296, DOI 10.1016/j.isprsjprs.2019.11.023
+   Li X, 2018, LECT NOTES COMPUT SC, V11211, P262, DOI 10.1007/978-3-030-01234-2_16
+   Li YH, 2018, PROC CVPR IEEE, V0, PP1091, DOI 10.1109/CVPR.2018.00120
+   Liu J, 2018, PROC CVPR IEEE, V0, PP5197, DOI 10.1109/CVPR.2018.00545
+   Liu N, 2019, PROC CVPR IEEE, V0, PP3220, DOI 10.1109/CVPR.2019.00334
+   Liu WZ, 2019, PROC CVPR IEEE, V0, PP5094, DOI 10.1109/CVPR.2019.00524
+   Liu X, 2018, INT GEOSCI REMOTE SE, V0, P7137
+   Lowe D. G., 1999, INT C COMP VIS, V0, P0
+   Ma ZH, 2019, IEEE I CONF COMP VIS, V0, PP6141, DOI 10.1109/ICCV.2019.00624
+   Mundhenk TN, 2016, LECT NOTES COMPUT SC, V9907, P785, DOI 10.1007/978-3-319-46487-9_48
+   Onoro-Rubio D, 2016, LECT NOTES COMPUT SC, V9911, P615, DOI 10.1007/978-3-319-46478-7_38
+   Paragios N, 2001, PROC CVPR IEEE, V0, P1034
+   Paszke, 2019, ADV NEURAL INFORM PR, V0, P8024
+   Pekel JF, 2016, NATURE, V540, P418, DOI 10.1038/nature20584
+   Rathore MM, 2016, COMPUT NETW, V101, P63, DOI 10.1016/j.comnet.2015.12.023
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Salami E, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030316
+   Sam DB, 2018, PROC CVPR IEEE, V0, PP3618, DOI 10.1109/CVPR.2018.00381
+   Sam DB, 2017, PROC CVPR IEEE, V0, PP4031, DOI 10.1109/CVPR.2017.429
+   Sang J, 2019, IEEE ACCESS, V7, P24411, DOI 10.1109/ACCESS.2019.2899939
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sindagi V. A., 2017, 2017 14 IEEE INT C A, V0, PP1, DOI 10.1109/AVSS.2017.8078491
+   Sindagi V. A., 2020, P ECCV, V0, P1
+   Sindagi VA, 2017, IEEE I CONF COMP VIS, V0, PP1879, DOI 10.1109/ICCV.2017.206
+   Song H, 2018, JOINT INT CONF SOFT, V0, PP718, DOI 10.1109/SCIS-ISIS.2018.00119
+   Tao Y, 2017, CHIN CONTR CONF, V0, PP4288, DOI 10.23919/ChiCC.2017.8028032
+   Tian Y., 2010, P AS C COMP VIS QUEE, V0, P679
+   Varior R. Rama, 2019, ARXIV190106026, V0, P0
+   Pham VQ, 2015, IEEE I CONF COMP VIS, V0, PP3253, DOI 10.1109/ICCV.2015.372
+   Walach E, 2016, LECT NOTES COMPUT SC, V9906, P660, DOI 10.1007/978-3-319-46475-6_41
+   Wang F, 2017, PROC CVPR IEEE, V0, PP6450, DOI 10.1109/CVPR.2017.683
+   Wang Q, 2019, PROC CVPR IEEE, V0, PP8190, DOI 10.1109/CVPR.2019.00839
+   Wang SL, 2018, PROC CVPR IEEE, V0, PP2589, DOI 10.1109/CVPR.2018.00274
+   Wang Y, 2016, IEEE IMAGE PROC, V0, PP3653, DOI 10.1109/ICIP.2016.7533041
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Xia GS, 2018, PROC CVPR IEEE, V0, PP3974, DOI 10.1109/CVPR.2018.00418
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Xu K, 2015, PR MACH LEARN RES, V37, P2048
+   YANG S, 2016, PROC CVPR IEEE, V0, PP5525, DOI 10.1109/CVPR.2016.596
+   Yang ZC, 2016, PROC CVPR IEEE, V0, PP21, DOI 10.1109/CVPR.2016.10
+   You QZ, 2016, PROC CVPR IEEE, V0, PP4651, DOI 10.1109/CVPR.2016.503
+   Yu F., 2015, 1511 ARXIV, V0, P0
+   Zhan BB, 2008, MACH VISION APPL, V19, P345, DOI 10.1007/s00138-008-0132-4
+   Zhang A, 2019, IEEE I CONF COMP VIS, V0, PP5713, DOI 10.1109/ICCV.2019.00581
+   Zhang Hanwang, 2017, PROC CVPR IEEE, V0, PP5532, DOI 10.1109/CVPR.2017.331
+   Zhang L, 2018, IEEE WINT CONF APPL, V0, PP1113, DOI 10.1109/WACV.2018.00127
+   Zhang SH, 2017, IEEE I CONF COMP VIS, V0, PP3687, DOI 10.1109/ICCV.2017.396
+   Zhang YY, 2016, PROC CVPR IEEE, V0, PP589, DOI 10.1109/CVPR.2016.70
+   Zhu L., 2019, ARXIV190201115, V0, P0
+NR 76
+TC 17
+Z9 17
+U1 0
+U2 11
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD MAY 15
+PY 2021
+VL 59
+IS 5
+BP 3642
+EP 3655
+DI 10.1109/TGRS.2020.3020555
+PG 14
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA RQ0FT
+UT WOS:000642096400003
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, Z
+   Guo, JX
+   Huang, WZ
+   Zhang, SW
+AF Wang, Zhen
+   Guo, Jianxin
+   Huang, Wenzhun
+   Zhang, Shanwen
+TI High-resolution remote sensing image semantic segmentation based on a deep feature aggregation network
+SO MEASUREMENT SCIENCE AND TECHNOLOGY
+LA English
+DT Article
+DE high resolution remote sensing image; semantic segmentation; convolution neural networks (CNNs); deep feature aggregation network (DFANet); conditional random field (CRF)
+ID hierarchical segmentation; texture
+AB Semantic segmentation of high-resolution remote sensing images has a wide range of applications, such as territorial planning, geographic monitoring and smart cities. The proper operation of semantic segmentation for remote sensing images remains challenging due to the complex and diverse transitions between different ground areas. Although several convolution neural networks (CNNs) have been developed for remote sensing semantic segmentation, the performance of CNNs is far from the expected target. This study presents a deep feature aggregation network (DFANet) for remote sensing image semantic segmentation. It is composed of a basic feature representation layer, an intermediate feature aggregation layer, a deep feature aggregation layer and a feature aggregation module (FAM). Specially, the basic feature representation layer is used to obtain feature maps with different resolutions: the intermediate feature aggregation layer and deep feature aggregation layer can fuse various resolution features and multi-scale features; the FAM is used to splice the features and form more abundant spatial feature maps; and the conditional random field module is used to optimize semantic segmentation results. We have performed extensive experiments on the ISPRS two-dimensional Vaihingen and Potsdam remote sensing image datasets and compared the proposed method with several variations of semantic segmentation networks. The experimental results show that DFANet outperforms the other state-of-the-art approaches.
+C1 [Wang, Zhen] Air Force Engn Univ, Coll Informat & Nav, Xian 710077, Peoples R China.
+   [Wang, Zhen; Guo, Jianxin; Huang, Wenzhun; Zhang, Shanwen] Xijing Univ, Coll Informat Engn, Xian 710123, Peoples R China.
+C3 Air Force Engineering University; Xijing University
+RP Wang, Z (corresponding author), Air Force Engn Univ, Coll Informat & Nav, Xian 710077, Peoples R China.; Wang, Z (corresponding author), Xijing Univ, Coll Informat Engn, Xian 710123, Peoples R China.
+EM wangzhen4013@163.com
+CR Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   [Anonymous], 2001, 18 INT C MACHINE LEA, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Basaeed E, 2016, INT J REMOTE SENS, V37, P1671, DOI 10.1080/01431161.2016.1159745
+   Chen GZ, 2018, IEEE J-STARS, V11, P1633, DOI 10.1109/JSTARS.2018.2810320
+   Chen J, 2014, INT J REMOTE SENS, V35, P6914, DOI 10.1080/01431161.2014.960617
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen YY, 2019, EARTH SCI INFORM, V12, P341, DOI 10.1007/s12145-019-00383-2
+   Cheng J, 2013, EURASIP J WIREL COMM, V0, P0, DOI DOI 10.1186/1687-1499-2013-263
+   Gerke M., 2014, USE STAIR VISION LIB, V0, P0, DOI DOI 10.13140/2.1.5015.9683
+   Ghamisi P, 2014, IEEE T GEOSCI REMOTE, V52, P2382, DOI 10.1109/TGRS.2013.2260552
+   Hao X, 2016, INT J SEMANT COMPUT, V10, P417, DOI 10.1142/S1793351X16500045
+   Jiao LC, 2010, IEEE COMPUT INTELL M, V5, P78, DOI 10.1109/MCI.2010.936307
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   Kumar S, 2003, NINTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, VOLS I AND II, PROCEEDINGS
+   Li RR., 2019, IEEE J-STARS, V11, P126
+   Li XH, 2015, ISPRS J PHOTOGRAMM, V109, P108, DOI 10.1016/j.isprsjprs.2015.09.009
+   Liu ZW, 2015, IEEE I CONF COMP VIS, V0, PP1377, DOI 10.1109/ICCV.2015.162
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   MARMANIS D, 2016, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/J.ISPRSJPRS.2017.11.009
+   Mei T, 2017, IEEE GEOENCE REMOTE, V12, P938
+   Miao ZM, 2018, IEEE GEOSCI REMOTE S, V15, P602, DOI 10.1109/LGRS.2018.2794545
+   Mou L., 2018, ARXIV180502091, V0, P0
+   Pan X, 2019, INT J REMOTE SENS, V40, P5892, DOI 10.1080/01431161.2019.1584687
+   Pan X, 2017, INT J REMOTE SENS, V38, P6554, DOI 10.1080/01431161.2017.1362131
+   Pan XR, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18113774
+   Quang NT., 2015, P 6 INT S INF COMM, V0, P282
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Saha I, 2012, IEEE GEOSCI REMOTE S, V9, P52, DOI 10.1109/LGRS.2011.2160150
+   Serban A, 2020, ACM COMPUT SURV, V53, P0, DOI 10.1145/3398394
+   Sherrah J., 2016, ARXIV160602585, V0, P0
+   Speldekamp T., 2015, AUTOMATIC SEMANTIC L, V0, P0, DOI DOI 10.13140/RG.2.1.3345.0408
+   Sun WW, 2018, IEEE GEOSCI REMOTE S, V15, P474, DOI 10.1109/LGRS.2018.2795531
+   Sun X, 2021, IEEE T IND ELECTRON, V68, P3588, DOI 10.1109/TIE.2020.2977553
+   Trias-Sanz R, 2008, ISPRS J PHOTOGRAMM, V63, P156, DOI 10.1016/j.isprsjprs.2007.08.005
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Wan F., 2011, ADV RES COMPUTER ED, V176, P1021
+   Wang C, 2014, OPTIK, V125, P5588, DOI 10.1016/j.ijleo.2014.07.002
+   Wang Q, 2012, PHYSCS PROC, V33, P1286, DOI 10.1016/j.phpro.2012.05.212
+   Wang YJ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050781
+   Yansong L., 2017, P IEEE C COMP VIS PA, V0, P76
+   Yin SL, 2018, IEEE ACCESS, V6, P26069, DOI 10.1109/ACCESS.2018.2834960
+   Yuan JY, 2014, IEEE T GEOSCI REMOTE, V52, P16, DOI 10.1109/TGRS.2012.2234755
+   Yue K, 2019, ISPRS J PHOTOGRAMM, V156, P1, DOI 10.1016/j.isprsjprs.2019.07.007
+   Zhang H, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20020393
+   Zhang R, 2018, ISPRS J PHOTOGRAMM, V143, P85, DOI 10.1016/j.isprsjprs.2018.04.022
+   Zhang XL, 2014, PHOTOGRAMM ENG REM S, V80, P71, DOI 10.14358/PERS.80.1.71
+   Zhang XL, 2013, ISPRS J PHOTOGRAMM, V78, P15, DOI 10.1016/j.isprsjprs.2013.01.002
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+   Zhao J, 2015, IEEE T GEOSCI REMOTE, V53, P2440, DOI 10.1109/TGRS.2014.2360100
+   Zhao W, 2017, IEEE T GEOSCI REMOTE, V55, P4141, DOI 10.1109/TGRS.2017.2689018
+   Zhou JX, 2015, IET IMAGE PROCESS, V9, P389, DOI 10.1049/iet-ipr.2014.0393
+   Zhou L, 2020, PATTERN RECOGN LETT, V130, P54, DOI 10.1016/j.patrec.2018.08.030
+NR 54
+TC 5
+Z9 5
+U1 11
+U2 73
+PU IOP PUBLISHING LTD
+PI BRISTOL
+PA TEMPLE CIRCUS, TEMPLE WAY, BRISTOL BS1 6BE, ENGLAND
+SN 0957-0233
+EI 1361-6501
+J9 MEAS SCI TECHNOL
+JI Meas. Sci. Technol.
+PD SEP 15
+PY 2021
+VL 32
+IS 9
+BP 
+EP 
+DI 10.1088/1361-6501/abfbfd
+PG 19
+WC Engineering, Multidisciplinary; Instruments & Instrumentation
+SC Engineering; Instruments & Instrumentation
+GA SM3DD
+UT WOS:000657489100001
+DA 2023-04-26
+ER
+
+PT J
+AU Hasan, MA
+   Hossain, Z
+AF Hasan, Md Ariful
+   Hossain, Zahid
+TI Life Cycle Cost Analysis of Corrugated Metal Pipes in Arkansas
+SO TRAN-SET 2020: PROCEEDINGS OF THE TRAN-SET CONFERENCE 2020
+LA English
+DT Proceedings Paper
+AB Metal culverts are being used by the Arkansas Department of Transportation (ArDOT) on a frequent basis. The service life of these culverts mainly depends on the properties of culvert materials and surrounding environments. The selection of pipe material at any location is mostly controlled by its life cycle costs (LCC), which include construction, operation, and maintenance costs. In this study, life cycle costs of different metal pipes are evaluated based on the existing unit costs data and other construction, maintenance, and user associated costs of a culvert. Laboratory investigations were carried out to assess the properties of the soils collected from different parts of the state. The secondary soil and water quality data were collected from secondary sources. Using neural network models developed based on secondary and primary data from state agencies, the electrical resistivity of soils has been predicted for different locations within the state. Then, the service lives of three different metal pipes were estimated. Finally, based on the service life of different metal pipes, their life cycle costs were estimated, and the geographical information system (GIS) based maps were developed for all 75 counties in Arkansas. The maps show the most feasible locations of different metal pipe culverts based on the associated life cycle costs. This study will help the ArDOT engineers to select cost-effective metal culverts for any location within the state.
+C1 [Hasan, Md Ariful] Arkansas State Univ, Engn, Jonesboro, AR 72401 USA.
+   [Hossain, Zahid] Arkansas State Univ, Dept Civil Engn, Jonesboro, AR USA.
+C3 Arkansas State University; Arkansas State University
+RP Hasan, MA (corresponding author), Arkansas State Univ, Engn, Jonesboro, AR 72401 USA.
+EM mdariful.hasan@smail.astate.edu; mhossain@astate.edu
+FU Transportation Consortium of South Central States (TranSET)
+CR [Anonymous], 2009, A93099 ASTM, V0, P0
+   Arkansas Department of Environmental Quality (ADEQ), 2018, WATER QUALITY MONITO, V0, P0
+   Arkansas Department of Transportation (ARDOT), 2014, STANDARD SPECIFICATI, V0, P0
+   Arkansas Department of Transportation (ARDOT), 2019, UN PRIC PROJ AW CONT, V0, P0
+   California Department of Transportation (Caltrans), 1999, METH EST SERV LIF ST, V0, P0
+   Florida Department of Transportation (FDOT), 2012, DRAIN MAN OPT PIP MA, V0, P0
+   Fuggle A, 2015, SERVICE LIFE CULVERT, V0, P0, DOI DOI 10.17226/22140
+   Hasan M., 2019, INT J GEOMECH, V0, P0
+   Hawk H, 2003, BRIDGE LIFE CYCLE CO, V483, P0
+   Hossain Z., 2019, DEV METALS CORROSION, V0, P0
+   NRCS, 2018, WEB SOIL SURV, V0, P0
+   Ozbay K., 2003, FHWANJ2003012, V0, P0
+   Perrin J., 2004, TRANSP RES BOARD 200, V0, P0
+   Tewari S., 2018, 1803467 TRANSP RES B, V0, P0
+   U.S. Department of Agriculture (USDA), 2018, NAT SOIL SURV HDB, V0, P0
+NR 15
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AMER SOC CIVIL ENGINEERS
+PI NEW YORK
+PA UNITED ENGINEERING CENTER, 345 E 47TH ST, NEW YORK, NY 10017-2398 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2021
+VL 0
+IS 
+BP 324
+EP 334
+DI 
+PG 11
+WC Construction & Building Technology; Engineering, Civil; Transportation Science & Technology
+SC Construction & Building Technology; Engineering; Transportation
+GA BS2AQ
+UT WOS:000698603300033
+DA 2023-04-26
+ER
+
+PT J
+AU Moran-Sanchez, J
+   Santisteban-Espejo, A
+   Martin-Piedra, MA
+   Perez-Requena, J
+   Garcia-Rojo, M
+AF Moran-Sanchez, Julia
+   Santisteban-Espejo, Antonio
+   Martin-Piedra, Miguel Angel
+   Perez-Requena, Jose
+   Garcia-Rojo, Marcial
+TI Translational Applications of Artificial Intelligence and Machine Learning for Diagnostic Pathology in Lymphoid Neoplasms: A Comprehensive and Evolutive Analysis
+SO BIOMOLECULES
+LA English
+DT Article
+DE artificial intelligence; hematopathology; lymphoid neoplasms; digital image analysis; machine learning
+ID co-word analysis; targeted therapy; neural-network; omics era; classification; prediction; efficiency; leukemia; history
+AB Genomic analysis and digitalization of medical records have led to a big data scenario within hematopathology. Artificial intelligence and machine learning tools are increasingly used to integrate clinical, histopathological, and genomic data in lymphoid neoplasms. In this study, we identified global trends, cognitive, and social framework of this field from 1990 to 2020. Metadata were obtained from the Clarivate Analytics Web of Science database in January 2021. A total of 525 documents were assessed by document type, research areas, source titles, organizations, and countries. SciMAT and VOSviewer package were used to perform scientific mapping analysis. Geographical distribution showed the USA and People's Republic of China as the most productive countries, reporting up to 190 (36.19%) of all documents. A third-degree polynomic equation predicts that future global production in this area will be three-fold the current number, near 2031. Thematically, current research is focused on the integration of digital image analysis and genomic sequencing in Non-Hodgkin lymphomas, prediction of chemotherapy response and validation of new prognostic models. These findings can serve pathology departments to depict future clinical and research avenues, but also, public institutions and administrations to promote synergies and optimize funding allocation.
+C1 [Moran-Sanchez, Julia] Puerta Mar Hosp, Div Hematol & Hemotherapy, Cadiz 11009, Spain.
+   [Moran-Sanchez, Julia] Univ Cadiz, PhD Program Clin Med & Surg, Cadiz 11009, Spain.
+   [Santisteban-Espejo, Antonio; Perez-Requena, Jose; Garcia-Rojo, Marcial] Puerta Mar Hosp, Pathol Dept, Cadiz 11009, Spain.
+   [Santisteban-Espejo, Antonio; Garcia-Rojo, Marcial] Univ Cadiz, Inst Res & Innovat Biomed Sci Prov Cadiz INiBICA, Cadiz 11009, Spain.
+   [Martin-Piedra, Miguel Angel] Univ Granada, Dept Histol, Tissue Engn Grp, Granada 18016, Spain.
+C3 Universidad de Cadiz; Universidad de Cadiz; University of Granada
+RP Santisteban-Espejo, A (corresponding author), Puerta Mar Hosp, Pathol Dept, Cadiz 11009, Spain.; Santisteban-Espejo, A (corresponding author), Univ Cadiz, Inst Res & Innovat Biomed Sci Prov Cadiz INiBICA, Cadiz 11009, Spain.
+EM juliamorsan@gmail.com; antoniosantistebanespejo@gmail.com; mmartin@ugr.es; jose.perez.sspa@juntadeandalucia.es; marcial.garcia.sspa@juntadeandalucia.es
+FU Andalusia Health System [RH-0145-2020]; EU FEDER ITI Grant for Cadiz Province [PI-0032-2017]
+CR Abramo G, 2009, RES POLICY, V38, P206, DOI 10.1016/j.respol.2008.11.001
+   Acs B, 2020, J INTERN MED, V288, P62, DOI 10.1111/joim.13030
+   Aghamaleki FS, 2019, CUREUS, V11, P0, DOI 10.7759/cureus.4004
+   Agius R, 2020, NAT COMMUN, V11, P0, DOI 10.1038/s41467-019-14225-8
+   Ando T, 2003, CANCER SCI, V94, P906, DOI 10.1111/j.1349-7006.2003.tb01374.x
+   [Anonymous], 1970, STRUCTURE SCI REVOLU, V0, P0
+   Beam AL, 2018, JAMA-J AM MED ASSOC, V319, P1317, DOI 10.1001/jama.2017.18391
+   Beaulac C, 2020, APPL ARTIF INTELL, V34, P1100, DOI 10.1080/08839514.2020.1815151
+   Birkle C, 2020, QUANT SCI STUD, V1, P363, DOI 10.1162/qss_a_00018
+   Blanc-Durand P, 2021, EUR J NUCL MED MOL I, V48, P1362, DOI 10.1007/s00259-020-05080-7
+   Bobee V, 2020, BLOOD CANCER J, V10, P0, DOI 10.1038/s41408-020-0322-5
+   Bucinski A, 2010, EUR J CANCER PREV, V19, P308, DOI 10.1097/CEJ.0b013e32833ad353
+   CALLON M, 1983, SOC SCI INFORM, V22, P191, DOI 10.1177/053901883022002003
+   CALLON M, 1991, SCIENTOMETRICS, V22, P155, DOI 10.1007/BF02019280
+   Capobianco N, 2021, J NUCL MED, V62, P30, DOI 10.2967/jnumed.120.242412
+   Chang HY, 2019, J PATHOL TRANSL MED, V53, P1
+   Chen HM, 2018, DRUG DISCOV TODAY, V23, P1241, DOI 10.1016/j.drudis.2018.01.039
+   Chinese State Council, 2017, NOT STAT COUNC ISS D, V0, P0
+   Clark G., 2019, AI SECTOR DEAL, V0, P0
+   Cobo MJ, 2012, J AM SOC INF SCI TEC, V63, P1609, DOI 10.1002/asi.22688
+   Cobo MJ, 2011, J INFORMETR, V5, P146, DOI 10.1016/j.joi.2010.10.002
+   Coulter N, 1998, J AM SOC INFORM SCI, V49, P1206, DOI 10.1002/(SICI)1097-4571(1998)49:13<1206::AID-ASI7>3.0.CO;2-F
+   Davis N, 2018, BLOOD, V132, P0, DOI 10.1182/blood-2018-99-119639
+   deAndres-Galiana EJ, 2015, CLIN TRANSL ONCOL, V17, P612, DOI 10.1007/s12094-015-1285-z
+   Deeb SJ, 2015, MOL CELL PROTEOMICS, V14, P2947, DOI 10.1074/mcp.M115.050245
+   Die Bundesregierung, 2018, ECKP BUND STRAT KUNS, V0, P0
+   DiNardo CD, 2020, BLOOD, V135, P85, DOI 10.1182/blood.2019001239
+   El Achi H, 2020, CANCERS, V12, P0, DOI 10.3390/cancers12040797
+   European Commission, 2018, COORD PLAN ART INT, V0, P0
+   Executive Office of the President of the United States, 2016, ARTIFICIAL INTELLIGE, V0, P0
+   Executive Office of the President of the United States, 2016, PREP FUT ART INT, V0, P0
+   Executive Office of the President of the United States, 2016, NAT ART INT RES DEV, V0, P0
+   Flores M, 2013, PERS MED, V10, P565, DOI 10.2217/pme.13.57
+   Gaidano V, 2020, CANCERS, V12, P0, DOI 10.3390/cancers12061684
+   GOFFMAN W, 1970, NATURE, V226, P922, DOI 10.1038/226922a0
+   Gonon-Demoulian R, 2014, B CANCER, V101, P56, DOI 10.1684/bdc.2013.1876
+   Hall D. W., 2017, GROWING ARTIFICIAL I, V1st, P0
+   KESSLER MM, 1963, AM DOC, V14, P10, DOI 10.1002/asi.5090140103
+   Kiechle FL, 2004, ARCH PATHOL LAB MED, V128, P1337
+   Lartizien C, 2014, IEEE J BIOMED HEALTH, V18, P946, DOI 10.1109/JBHI.2013.2283658
+   Lee VH, 2018, INT J INNOV LEARN, V23, P145
+   Ma HQ, 2015, BIOMED RES INT, V2015, P0, DOI 10.1155/2015/157570
+   Mohlman J, 2018, AM J CLIN PATHOL, V150, PS119, DOI 10.1093/ajcp/aqy099.286
+   Moral-Munoz JA, 2020, PROF INFORM, V29, P0, DOI 10.3145/epi.2020.ene.03
+   Munoz-Leiva F, 2012, QUAL QUANT, V46, P1077, DOI 10.1007/s11135-011-9565-3
+   Niazi MKK, 2019, LANCET ONCOL, V20, PE253, DOI 10.1016/S1470-2045(19)30154-8
+   Orts F, 2019, J SUPERCOMPUT, V75, P1038, DOI 10.1007/s11227-018-2285-x
+   Ostertagova E, 2012, PROCEDIA ENGINEER, V48, P500, DOI 10.1016/j.proeng.2012.09.545
+   Parodi S, 2018, HEALTH INFORM J, V24, P54, DOI 10.1177/1460458216655188
+   PRICE DJD, 1976, J AM SOC INFORM SCI, V27, P292, DOI 10.1002/asi.4630270505
+   Radakovich N, 2020, CURR HEMATOL MALIG R, V15, P203, DOI 10.1007/s11899-020-00575-4
+   Robertson S, 2018, TRANSL RES, V194, P19, DOI 10.1016/j.trsl.2017.10.010
+   Roig-Tierno N, 2017, J INNOV KNOWL, V2, P15, DOI 10.1016/j.jik.2016.12.002
+   Rosas SR, 2011, PLOS ONE, V6, P0, DOI 10.1371/journal.pone.0017428
+   Sagi O, 2018, WIRES DATA MIN KNOWL, V8, P0, DOI 10.1002/widm.1249
+   Santisteban-Espejo A, 2018, TISSUE ENG PT A, V24, P1504, DOI 10.1089/ten.tea.2018.0007
+   Santisteban-Espejo A, 2019, TISSUE ENG PART C-ME, V25, P37, DOI 10.1089/ten.TEC.2018.0213
+   Shouval R, 2021, BRIT J HAEMATOL, V192, P239, DOI 10.1111/bjh.16915
+   Shouval R, 2016, PLOS ONE, V11, P0, DOI 10.1371/journal.pone.0150637
+   Sibille L, 2020, RADIOLOGY, V294, P445, DOI 10.1148/radiol.2019191114
+   Thomas X, 2019, ONCOL THER, V7, P33, DOI 10.1007/s40487-018-0091-5
+   Turki T, 2017, IEEE ACCESS, V5, P7381, DOI 10.1109/ACCESS.2017.2696523
+   Vamathevan J, 2019, NAT REV DRUG DISCOV, V18, P463, DOI 10.1038/s41573-019-0024-5
+   van Eck NJ, 2010, SCIENTOMETRICS, V84, P523, DOI 10.1007/s11192-009-0146-3
+   van Karnebeek CDM, 2018, J INHERIT METAB DIS, V41, P571, DOI 10.1007/s10545-017-0128-1
+   VILLANI C., 2018, MEANINGFUL ARTIFICIA, V0, P0
+   Wang L, 2020, SIGNAL TRANSDUCT TAR, V5, P0, DOI 10.1038/s41392-020-0113-2
+   Weisman AJ, 2020, EJNMMI PHYS, V7, P0, DOI 10.1186/s40658-020-00346-3
+   Xu-Monette ZY, 2020, BLOOD ADV, V4, P28, DOI 10.1182/bloodadvances.2020001949
+   Zhao M, 2020, CYTOM PART A, V97, P1073, DOI 10.1002/cyto.a.24159
+   Zhao ST, 2016, CANCER MED-US, V5, P837, DOI 10.1002/cam4.650
+NR 71
+TC 1
+Z9 1
+U1 3
+U2 16
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2218-273X
+J9 BIOMOLECULES
+JI Biomolecules
+PD JUN 15
+PY 2021
+VL 11
+IS 6
+BP 
+EP 
+DI 10.3390/biom11060793
+PG 24
+WC Biochemistry & Molecular Biology
+SC Biochemistry & Molecular Biology
+GA SY0HW
+UT WOS:000665577100001
+PM 34070632
+DA 2023-04-26
+ER

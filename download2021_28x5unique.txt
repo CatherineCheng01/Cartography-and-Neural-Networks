@@ -1,0 +1,546 @@
+
+PT J
+AU Scepanovic, S
+   Antropov, O
+   Laurila, P
+   Rauste, Y
+   Ignatenko, V
+   Praks, J
+AF Scepanovic, Sanja
+   Antropov, Oleg
+   Laurila, Pekka
+   Rauste, Yrjo
+   Ignatenko, Vladimir
+   Praks, Jaan
+TI Wide-Area Land Cover Mapping With Sentinel-1 Imagery Using Deep Learning Semantic Segmentation Models
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Synthetic aperture radar; Deep learning; Satellites; Radar polarimetry; Optical imaging; Feature extraction; Biological system modeling; C-band; CORINE; deep learning; image classification; land cover (LC) mapping; semantic segmentation; sentinel-1 data; synthetic aperture radar (SAR)
+ID polarimetric sar data; accuracy assessment; neural-network; l-band; classification; radarsat-2; polsar; support; amazon; forest
+AB Land cover (LC) mapping is essential for monitoring the environment and understanding the effects of human activities on it. Recent studies demonstrated successful applications of specific deep learning models to small-scale LC mapping tasks (e.g., wetland mapping). However, it is not readily clear which of the existing state-of-the-art models for natural images are the best candidates to be taken for the particular remote sensing task and data. In this article, we answer that question for mapping the fundamental LC classes using the satellite imaging radar data. We took ESA Sentinel-1 C-band SAR images acquired during the whole summer season of 2018 in Finland, which are representative of the land cover in the country. CORINE LC map was used as a reference, and the models were trained to distinguish between the five major CORINE-based classes. We selected seven among the state-of-the-art semantic segmentation models so that they cover a diverse set of approaches: U-Net, DeepLabV3+, PSPNet, BiSeNet, SegNet, FC-DenseNet, and FRRN-B, and further fine-tuned them. Upon evaluation and benchmarking, all the models demonstrated solid performance with overall accuracy between 87.9% and 93.1%, with good to a very good agreement (Kappa statistic between 0.75 and 0.86). The two best models were fully convolutional DenseNets (FC-DenseNet) and SegNet (encoder-decoder-skip), with the latter having a much shorter inference time. Overall, our results indicate that the semantic segmentation models are suitable for efficient wide-area mapping using satellite SAR imagery and provide baseline accuracy against which the newly proposed models should be evaluated.
+C1 [Scepanovic, Sanja; Laurila, Pekka; Ignatenko, Vladimir] ICEYE Oy, Espoo 02150, Finland.
+   [Antropov, Oleg; Rauste, Yrjo] VTT Tech Res Ctr Finland, Espoo 02044, Finland.
+   [Praks, Jaan] Aalto Univ, Espoo 02150, Finland.
+C3 VTT Technical Research Center Finland; Aalto University
+RP Antropov, O (corresponding author), VTT Tech Res Ctr Finland, Espoo 02044, Finland.
+EM sanjascepanovic@gmail.com; oleg.antropov@vtt.fi; pekka.laurila@iceye.fi; yrjo.rauste@vtt.fi; vladimirignatenko@iceye.fi; jaan.praks@aalto.fi
+FU ICEYE Oy; EIT Digital; Aalto University; VTT
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   Ahishali M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111340
+   [Anonymous], 2017, ARXIV171003959, V0, P0
+   [Anonymous], 2004, EARSEL EPROCEEDINGS, V0, P0
+   [Anonymous], 2012, P MACHINE LEARNING R, V0, P0
+   Antropov O, 2014, IEEE T GEOSCI REMOTE, V52, P5256, DOI 10.1109/TGRS.2013.2287712
+   Antropov O, 2012, IEEE GEOSCI REMOTE S, V9, P1074, DOI 10.1109/LGRS.2012.2190263
+   Antropov O, 2011, IEEE T GEOSCI REMOTE, V49, P3838, DOI 10.1109/TGRS.2011.2138146
+   Atzberger C, 2013, REMOTE SENS-BASEL, V5, P949, DOI 10.3390/rs5020949
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Balzter H, 2015, REMOTE SENS-BASEL, V7, P14876, DOI 10.3390/rs71114876
+   Ban YF, 2010, INT J REMOTE SENS, V31, P1391, DOI 10.1080/01431160903475415
+   Bojinski S, 2014, B AM METEOROL SOC, V95, P1431, DOI 10.1175/BAMS-D-13-00047.1
+   Bruzzone L, 2004, IEEE T GEOSCI REMOTE, V42, P1321, DOI 10.1109/TGRS.2004.826821
+   Buttner G, 2014, REMOTE SENS DIGIT IM, V18, P55, DOI 10.1007/978-94-007-7969-3_5
+   Cable JW, 2014, REMOTE SENS-BASEL, V6, P2372, DOI 10.3390/rs6032372
+   Castaneda C, 2009, J ENVIRON MANAGE, V90, P2270, DOI 10.1016/j.jenvman.2007.06.030
+   Chen J, 2015, ISPRS J PHOTOGRAMM, V103, P7, DOI 10.1016/j.isprsjprs.2014.09.002
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Chen XY, 2014, IEEE GEOSCI REMOTE S, V11, P1797, DOI 10.1109/LGRS.2014.2309695
+   Chen YS, 2014, IEEE J-STARS, V7, P2094, DOI 10.1109/JSTARS.2014.2329330
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Clerici N, 2017, J MAPS, V13, P718, DOI 10.1080/17445647.2017.1372316
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   Cohen WB, 2004, BIOSCIENCE, V54, P535, DOI 10.1641/0006-3568(2004)054[0535:LRIEAO]2.0.CO;2
+   Costa H, 2018, REMOTE SENS ENVIRON, V205, P338, DOI 10.1016/j.rse.2017.11.024
+   Csurka G, 2013, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2013, V0, P0, DOI DOI 10.5244/C.27.32
+   De Alban JDT, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020306
+   de Almeida CA, 2016, ACTA AMAZON, V46, P291, DOI 10.1590/1809-4392201505504
+   Duan YP, 2017, PATTERN RECOGN, V64, P255, DOI 10.1016/j.patcog.2016.11.015
+   Nguyen DB, 2016, REMOTE SENS LETT, V7, P1209, DOI 10.1080/2150704X.2016.1225172
+   Esch T, 2011, IEEE T GEOSCI REMOTE, V49, P1911, DOI 10.1109/TGRS.2010.2091644
+   Evans TL, 2010, IEEE J-STARS, V3, P560, DOI 10.1109/JSTARS.2010.2089042
+   Freitas CD, 2008, IEEE T GEOSCI REMOTE, V46, P2956, DOI 10.1109/TGRS.2008.2000630
+   García Herrera Arístides Lázaro, 2017, REV.MED.ELECTRÓN., V0, P1
+   Ge SJ, 2019, INT GEOSCI REMOTE SE, V0, PP473, DOI 10.1109/IGARSS.2019.8900088
+   Goetz Scott J, 2009, CARBON BALANCE MANAG, V4, P2, DOI 10.1186/1750-0680-4-2
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Griffiths P, 2019, REMOTE SENS ENVIRON, V220, P135, DOI 10.1016/j.rse.2018.10.031
+   Hame T, 2013, IEEE J-STARS, V6, P74, DOI 10.1109/JSTARS.2013.2241019
+   Harma P, 2004, P 20 INT ARCH PHOT R, V0, P1330
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Homer C, 2015, PHOTOGRAMM ENG REM S, V81, P345, DOI 10.14358/PERS.81.5.345
+   Howard A. G., 2017, CORR, V0, P0, DOI DOI 10.48550/ARXIV.1704.04861
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   HUBEL DH, 1962, J PHYSIOL-LONDON, V160, P106, DOI 10.1113/jphysiol.1962.sp006837
+   Jacob AW, 2020, IEEE J-STARS, V13, P535, DOI 10.1109/JSTARS.2019.2958847
+   Jegou S, 2017, IEEE COMPUT SOC CONF, V0, PP1175, DOI 10.1109/CVPRW.2017.156
+   Ji SW, 2013, IEEE T PATTERN ANAL, V35, P221, DOI 10.1109/TPAMI.2012.59
+   Khatami R, 2016, REMOTE SENS ENVIRON, V177, P89, DOI 10.1016/j.rse.2016.02.028
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krizhevsky Alex, 2017, COMMUNICATIONS OF THE ACM, V60, P84, DOI 10.1145/3065386
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Laurin GV, 2013, INT J APPL EARTH OBS, V21, P7, DOI 10.1016/j.jag.2012.08.002
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   LeCun Y., 1995, HDB BRAIN THEORY NEU, V3361, P0, DOI 10.5555/303568.303704
+   Li GY, 2012, ISPRS J PHOTOGRAMM, V70, P26, DOI 10.1016/j.isprsjprs.2012.03.010
+   Li ZG, 2015, 2015 INTERNATIONAL CONFERENCE ON COMPUTERS, V0, P0
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Longepe N, 2011, IEEE T GEOSCI REMOTE, V49, P2135, DOI 10.1109/TGRS.2010.2102041
+   Lonnqvist A, 2010, IEEE T GEOSCI REMOTE, V48, P3652, DOI 10.1109/TGRS.2010.2048115
+   Lumsdon P, 2005, IEE P-RADAR SON NAV, V152, P404, DOI 10.1049/ip-rsn:20041313
+   Mahdianpari M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071119
+   Mohammadimanesh F, 2019, ISPRS J PHOTOGRAMM, V151, P223, DOI 10.1016/j.isprsjprs.2019.03.015
+   Niu X, 2013, INT J REMOTE SENS, V34, P1, DOI 10.1080/01431161.2012.700133
+   Otahel J, 2000, 40 EUR ENV AG, V0, P0
+   Park NW, 2008, INT J REMOTE SENS, V29, P4667, DOI 10.1080/01431160801947341
+   Park SE, 2015, REMOTE SENS-BASEL, V7, P17135, DOI 10.3390/rs71215874
+   Pohlen T, 2017, PROC CVPR IEEE, V0, PP3309, DOI 10.1109/CVPR.2017.353
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Sainath TN, 2013, INT CONF ACOUST SPEE, V0, PP8614, DOI 10.1109/ICASSP.2013.6639347
+   Satalino G, 2014, IEEE GEOSCI REMOTE S, V11, P384, DOI 10.1109/LGRS.2013.2263034
+   Simonyan K, 2015, ARXIV, V0, P0
+   Small D, 2011, CAN J REMOTE SENS, V37, P493
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Thiel C, 2009, INT GEOSCI REMOTE SE, V0, PP1620, DOI 10.1109/IGARSS.2009.5417764
+   Tomppo E, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212480
+   Torma M, 2015, BOREAL ENVIRON RES, V20, P243
+   Torres R, 2012, REMOTE SENS ENVIRON, V120, P9, DOI 10.1016/j.rse.2011.05.028
+   Tuia D, 2015, ISPRS J PHOTOGRAMM, V105, P272, DOI 10.1016/j.isprsjprs.2015.01.006
+   Ullmann T, 2014, REMOTE SENS-BASEL, V6, P8565, DOI 10.3390/rs6098565
+   Veloso A, 2017, REMOTE SENS ENVIRON, V199, P415, DOI 10.1016/j.rse.2017.07.015
+   Wang J, 2015, INT GEOSCI REMOTE SE, V0, PP4320, DOI 10.1109/IGARSS.2015.7326782
+   Wang L, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18030769
+   Waske B, 2009, ISPRS J PHOTOGRAMM, V64, P450, DOI 10.1016/j.isprsjprs.2009.01.003
+   Wu GM, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030407
+   Yu CQ, 2018, LECT NOTES COMPUT SC, V11217, P334, DOI 10.1007/978-3-030-01261-8_20
+   Zhang F, 2016, IEEE T GEOSCI REMOTE, V54, P1793, DOI 10.1109/TGRS.2015.2488681
+   Zhang J, 2014, IEEE T GEOSCI REMOTE, V52, P2617, DOI 10.1109/TGRS.2013.2263933
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+   Zhao YY, 2016, REMOTE SENS ENVIRON, V183, P170, DOI 10.1016/j.rse.2016.05.016
+NR 95
+TC 7
+Z9 7
+U1 11
+U2 25
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 10357
+EP 10374
+DI 10.1109/JSTARS.2021.3116094
+PG 18
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA WN2ZC
+UT WOS:000711641000010
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, S
+   Tang, JL
+AF Liu, Shuai
+   Tang, Jialan
+TI Modified Deep Reinforcement Learning with Efficient Convolution Feature for Small Target Detection in VHR Remote Sensing Imagery
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE deep reinforcement learning; attention networks; object detection; VHR remote sensing image
+ID object detection
+AB Small object detection in very-high-resolution (VHR) optical remote sensing images is a fundamental but challenaging problem due to the latent complexities. To tackle this problem, the MdrlEcf model is proposed by modifying deep reinforcement learning (DRL) and extracting the efficient convolution feature. Firstly, an efficient attention network is constructed by introducing the local attention into the convolutional neural network. Combining the shallow low-level features with rich detail descriptions and high-level features with more semantic meanings effectively, efficient convolution features can be obtained. By this, the attention network can effectively enhance the ability to extract small target features and suppressing useless features. Secondly, the efficient feature map is sent to the region proposal network constructed by modified DRL. Using the modified reward function, this model can accumulate more rewards to conduct the search process, and potentially generate effective subsequent proposals and classification scores. It also can increase the effectiveness of object locations and classifications for small targets. Quantitative and qualitative experiments are conducted to verify the detection performance of different models. The results show that the proposed MdrlEcf can effectively and accurately locate and identify related small objects.
+C1 [Liu, Shuai; Tang, Jialan] Xi An Jiao Tong Univ, Sch Software Engn, Xian 710049, Peoples R China.
+C3 Xi'an Jiaotong University
+RP Liu, S (corresponding author), Xi An Jiao Tong Univ, Sch Software Engn, Xian 710049, Peoples R China.
+EM sh_liu@mail.xjtu.edu.cn; jialanT@stu.xjtu.edu.cn
+FU National Natural Science Foundation of China [61703328]; China Postdoctoral Science Foundation-funded project [2018M631165]; Shaanxi Province Postdoctoral Science Foundation [2018BSHYDZZ23]; Fundamental Research Funds for the Central Universities [XJJ2018253]
+CR Agarwal S., 2018, INT ROADMAP DEVICES, V0, P0
+   Al WA, 2020, IEEE T MED IMAGING, V39, P1245, DOI 10.1109/TMI.2019.2946345
+   Bosquet B, 2020, ENG APPL ARTIF INTEL, V91, P0, DOI 10.1016/j.engappai.2020.103615
+   Caicedo JC, 2015, IEEE I CONF COMP VIS, V0, PP2488, DOI 10.1109/ICCV.2015.286
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Deng ZP, 2018, ISPRS J PHOTOGRAMM, V145, P3, DOI 10.1016/j.isprsjprs.2018.04.003
+   Dong RC, 2019, IEEE T GEOSCI REMOTE, V57, P8534, DOI 10.1109/TGRS.2019.2921396
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Girshick R, 2014, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2014.81
+   Hu DC, 2020, ADV INTELL SYST COMP, V1038, P432, DOI 10.1007/978-3-030-29513-4_31
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Kong XY, 2017, PROC CVPR IEEE, V0, PP7072, DOI 10.1109/CVPR.2017.748
+   Law H, 2020, INT J COMPUT VISION, V128, P642, DOI 10.1007/s11263-019-01204-1
+   Li Y, 2019, IEEE T IMAGE PROCESS, V28, P2439, DOI 10.1109/TIP.2018.2886767
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Liu L, 2020, INT J COMPUT VISION, V128, P261, DOI 10.1007/s11263-019-01247-4
+   Liu S, 2018, PROC CVPR IEEE, V0, PP8759, DOI 10.1109/CVPR.2018.00913
+   Liu ST, 2020, IEEE T NEUR NET LEAR, V31, P2544, DOI 10.1109/TNNLS.2019.2933451
+   Long Y, 2017, IEEE T GEOSCI REMOTE, V55, P2486, DOI 10.1109/TGRS.2016.2645610
+   Mnih V, 2014, ADV NEUR IN, V27, P0
+   Pang JM, 2019, PROC CVPR IEEE, V0, PP821, DOI 10.1109/CVPR.2019.00091
+   Pirinen A, 2018, PROC CVPR IEEE, V0, PP6945, DOI 10.1109/CVPR.2018.00726
+   Qilong Wang, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP11531, DOI 10.1109/CVPR42600.2020.01155
+   Redmon J, 2017, PROC CVPR IEEE, V0, PP6517, DOI 10.1109/CVPR.2017.690
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Shan CH, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P4764
+   Sharma V, 2020, COMPUT SCI REV, V38, P0, DOI 10.1016/j.cosrev.2020.100301
+   Shuojin Yang, 2020, PATTERN RECOGNITION AND COMPUTER VISION. THIRD CHINESE CONFERENCE, V0, P469, DOI 10.1007/978-3-030-60633-6_39
+   Sun C, 2021, APPL INTELL, V51, P3311, DOI 10.1007/s10489-020-01949-0
+   Tian Z, 2019, IEEE I CONF COMP VIS, V0, PP9626, DOI 10.1109/ICCV.2019.00972
+   Tong K, 2020, IMAGE VISION COMPUT, V97, P0, DOI 10.1016/j.imavis.2020.103910
+   Torres J., 2016, P C NEUR INF PROC SY, V0, P0
+   Uzkent B, 2020, IEEE WINT CONF APPL, V0, PP1813, DOI 10.1109/WACV45572.2020.9093447
+   Wang YY, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070765
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Yao QL, 2021, IEEE GEOSCI REMOTE S, V18, P23, DOI 10.1109/LGRS.2020.2967819
+   Zhou XY, 2019, PROC CVPR IEEE, V0, PP850, DOI 10.1109/CVPR.2019.00094
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+   Zou ZX, 2018, IEEE T IMAGE PROCESS, V27, P1100, DOI 10.1109/TIP.2017.2773199
+NR 40
+TC 6
+Z9 6
+U1 4
+U2 17
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD MAR 15
+PY 2021
+VL 10
+IS 3
+BP 
+EP 
+DI 10.3390/ijgi10030170
+PG 15
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA RD8ET
+UT WOS:000633704600001
+DA 2023-04-26
+ER
+
+PT J
+AU de Oliveira, VA
+   Rodrigues, AF
+   Morais, MAV
+   Terra, MDNS
+   Guo, L
+   de Mello, CR
+AF de Oliveira, Vinicius Augusto
+   Rodrigues, Andre Ferreira
+   Morais, Marco Antonio Vieira
+   Terra, Marcela de Castro Nunes Santos
+   Guo, Li
+   de Mello, Carlos Rogerio
+TI Spatiotemporal modelling of soil moisture in an Atlantic forest through machine learning algorithms
+SO EUROPEAN JOURNAL OF SOIL SCIENCE
+LA English
+DT Article
+DE forest hydrology; neural networks; random forest; soil physics; support vector machine; weighted k&#8208; nearest neighbour
+ID temporal stability; functional traits; neural-networks; water; surface; prediction; variability; catchment; retrieval
+AB Understanding the spatiotemporal behaviour of soil moisture in tropical forests is fundamental because it mediates processes such as infiltration, groundwater recharge, runoff and evapotranspiration. This study aims to model the spatiotemporal dynamics of soil moisture in an Atlantic forest remnant (AFR) through four machine learning algorithms, as these dynamics represent an important knowledge gap under tropical conditions. Random forest (RF), support vector machine, average neural network and weighted k-nearest neighbour were studied. The abilities of the models were evaluated by means of root mean square error, mean absolute error, coefficient of determination (R-2) and Nash-Sutcliffe efficiency (NS) for two calibration approaches: (a) chronological and (b) randomized. The models were further compared with a multilinear regression (MLR). The study period spans from September 2012 to November 2019 and relies on variables representing the weather, geographical location, forest structure, soil physics and morphology. RF was the best algorithm for modelling the spatiotemporal dynamics of the soil moisture with an NS of 0.77 and R-2 of 0.51 in the randomized approach. This finding highlights the ability of RF to generalize a dataset with contrasting weather conditions. Kriging maps highlighted the suitability of RF to track the spatial distribution of soil moisture in the AFR. Throughfall (TF), potential evapotranspiration (ETo), longitude (Long), diameter at breast height (DBH) and species diversity (H) were the most important variables controlling soil moisture. MLR performed poorly in modelling the spatiotemporal dynamics of soil moisture due to the highly nonlinear condition of this process. Highlights Modelling soil moisture in an Atlantic forest through machine learning. Machine learning algorithms are powerful tools to address the spatiotemporal dynamics of soil moisture. Climate, position and forest variables drive the spatiotemporal pattern of soil moisture. Random forest is the best algorithm to simulate soil moisture dynamics.
+C1 [de Oliveira, Vinicius Augusto; Rodrigues, Andre Ferreira; de Mello, Carlos Rogerio] Univ Fed Lavras, Water Resources Dept, CP3037, BR-37200900 Lavras, MG, Brazil.
+   [Morais, Marco Antonio Vieira] Fed Inst Sci & Technol Mato Grosso, Barra Garcas, Brazil.
+   [Terra, Marcela de Castro Nunes Santos] Univ Fed Lavras, Forest Sci Dept, Lavras, Brazil.
+   [Guo, Li] Sichuan Univ, Coll Water Resource & Hydropower, State Key Lab Hydraul & Mt River Engn, Chengdu, Peoples R China.
+C3 Universidade Federal de Lavras; Universidade Federal de Lavras; Sichuan University
+RP de Mello, CR (corresponding author), Univ Fed Lavras, Water Resources Dept, CP3037, BR-37200900 Lavras, MG, Brazil.
+EM crmello@ufla.br
+FU Coordination for the Improvement of Higher Education Personnel - CAPES [88882.306661/2018-01]; National Council for Scientific and Technological Development - CNPq [401760/2016-2, 301556/2017-2]; FAPEMIG [PPMX-545/18]
+CR Ahmad S, 2010, ADV WATER RESOUR, V33, P69, DOI 10.1016/j.advwatres.2009.10.008
+   Amorim JD, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12092571
+   Andrade NPV, 2020, WATER RESOUR MANAG, V34, P5031, DOI 10.1007/s11269-020-02711-4
+   [Anonymous], 2000, ARTIFICIAL NEURAL NE, V0, P0
+   [Anonymous], 1998, 56 FAO, V0, P0
+   Arnold JG, 1998, J AM WATER RESOUR AS, V34, P73, DOI 10.1111/j.1752-1688.1998.tb05961.x
+   Biau G, 2016, TEST-SPAIN, V25, P197, DOI 10.1007/s11749-016-0481-7
+   Biecek P., 2018, J MACH LEARN RES, V19, P1, DOI 10.5555/3291125.3309646
+   Botula YD, 2013, VADOSE ZONE J, V12, P0, DOI 10.2136/vzj2012.0123
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Bruijnzeel L, 2010, TROPICAL MONTANE CLO, V0, P0
+   Chaturvedi R.K., 2018, MOJ ECOLOGY ENV SCI, V3, P0, DOI 10.15406/mojes.2018. 03.00059
+   Chen T, 2014, REMOTE SENS ENVIRON, V140, P330, DOI 10.1016/j.rse.2013.08.022
+   Cherkassky V, 1997, IEEE TRANS NEURAL NETW, V8, P1564, DOI 10.1109/TNN.1997.641482
+   Coelho CAS, 2016, CLIM DYNAM, V46, P3737, DOI 10.1007/s00382-015-2800-1
+   Cooper T., 2018, R J, V0, P0, DOI DOI 10.1887/0750303123/B365C43
+   Coopersmith EJ, 2016, ADV WATER RESOUR, V98, P122, DOI 10.1016/j.advwatres.2016.10.007
+   Crawford J, 2019, J HYDROL, V568, P160, DOI 10.1016/j.jhydrol.2018.10.054
+   Crisci C, 2012, ECOL MODEL, V240, P113, DOI 10.1016/j.ecolmodel.2012.03.001
+   de Carvalho W, 2014, REV BRAS CIENC SOLO, V38, P706, DOI 10.1590/S0100-06832014000300003
+   de Mello CR, 2011, SCI AGR, V68, P285, DOI 10.1590/S0103-90162011000300003
+   de Oliveira VA, 2017, INT J CLIMATOL, V37, P5005, DOI 10.1002/joc.5138
+   Devi GK, 2015, AQUAT PR, V4, P1001, DOI 10.1016/j.aqpro.2015.02.126
+   Fisher A, 2019, J MACH LEARN RES, V20, P0
+   Gao L, 2015, CATENA, V132, P29, DOI 10.1016/j.catena.2015.03.022
+   Gao XD, 2011, CATENA, V87, P357, DOI 10.1016/j.catena.2011.07.004
+   Gill MK, 2006, J AM WATER RESOUR AS, V42, P1033, DOI 10.1111/j.1752-1688.2006.tb04512.x
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Granata F, 2016, WATER-SUI, V8, P0, DOI 10.3390/w8030069
+   Hassan-Esfahani L, 2015, REMOTE SENS-BASEL, V7, P2627, DOI 10.3390/rs70302627
+   Heathman GC, 2012, CATENA, V95, P91, DOI 10.1016/j.catena.2012.03.008
+   Hechenbichler K., 2004, TECHNICAL REPORT, V386, P0
+   Hengl Tomislav, 2018, PEERJ, V6, Pe5518, DOI 10.7717/peerj.5518
+   Hsu C.-C., 2016, PRACTICAL GUIDE SUPP, V0, PP1, DOI 10.1109/APSIPA.2016.7820786
+   Jia Y, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12223679
+   Joshi C, 2011, WATER RESOUR RES, V47, P0, DOI 10.1029/2009WR009002
+   Junqueira JA, 2017, GEODERMA, V288, P64, DOI 10.1016/j.geoderma.2016.10.034
+   Junqueira JA, 2019, AGR FOREST METEOROL, V275, P170, DOI 10.1016/j.agrformet.2019.05.016
+   Kalra A, 2009, WATER RESOUR RES, V45, P0, DOI 10.1029/2008WR006855
+   Klos PZ, 2014, J HYDROL, V519, P2180, DOI 10.1016/j.jhydrol.2014.10.004
+   Kuhn M., 2013, APPL PREDICTIVE MODE, V0, P0, DOI DOI 10.1007/978-1-4614-6849-3
+   Liang WL, 2014, J HYDROL, V516, P210, DOI 10.1016/j.jhydrol.2014.01.032
+   Liang X, 1994, J GEOPHYS RES-ATMOS, V99, P14415, DOI 10.1029/94JD00483
+   Liu ZB, 2018, J FORESTRY RES, V29, P187, DOI 10.1007/s11676-017-0407-6
+   Maier HR, 2000, ENVIRON MODELL SOFTW, V15, P101, DOI 10.1016/S1364-8152(99)00007-9
+   Mello CR, 2019, CATENA, V173, P9, DOI 10.1016/j.catena.2018.09.046
+   Meng L, 2008, J HYDROMETEOROL, V9, P641, DOI 10.1175/2008JHM916.1
+   Moghadas D, 2019, NEAR SURF GEOPHYS, V17, P181, DOI 10.1002/nsg.12036
+   Murphy KP, 2012, MACHINE LEARNING: A PROBABILISTIC PERSPECTIVE, V0, P27
+   Terra MDNS, 2018, J PLANT ECOL, V11, P803, DOI 10.1093/jpe/rty017
+   Terra MDNS, 2018, TREES-STRUCT FUNCT, V32, P323, DOI 10.1007/s00468-017-1634-3
+   Oliveira-Filho A. T., 1994, EDINBURGH JOURNAL OF BOTANY, V51, P355
+   Oroza CA, 2018, VADOSE ZONE J, V17, P0, DOI 10.2136/vzj2017.10.0178
+   Padarian J, 2020, SOIL-GERMANY, V6, P35, DOI 10.5194/soil-6-35-2020
+   Paliy O, 2016, MOL ECOL, V25, P1032, DOI 10.1111/mec.13536
+   Peck E.L., 1976, NOAA TECH MEMO, V69, P0
+   Pinto LC, 2016, CATENA, V143, P26, DOI 10.1016/j.catena.2016.03.033
+   Prasad R, 2018, GEODERMA, V330, P136, DOI 10.1016/j.geoderma.2018.05.035
+   Raghavendra NS, 2014, APPL SOFT COMPUT, V19, P372, DOI 10.1016/j.asoc.2014.02.002
+   Ritchie J.T., 1985, ARS, V0, P159
+   Rodrigues AF, 2020, ACTA SCI-AGRON, V42, P0, DOI 10.4025/actasciagron.v42i1.43518
+   Rosado BHP, 2016, TREES-STRUCT FUNCT, V30, P47, DOI 10.1007/s00468-015-1165-8
+   Santi E, 2016, INT J APPL EARTH OBS, V48, P61, DOI 10.1016/j.jag.2015.08.002
+   Sehgal V, 2014, WATER RESOUR MANAG, V28, P1733, DOI 10.1007/s11269-014-0584-4
+   Sims RA, 1996, ENVIRON MONIT ASSESS, V39, P471, DOI 10.1007/BF00396162
+   Song XD, 2016, J ARID LAND, V8, P734, DOI 10.1007/s40333-016-0049-0
+   Srinivasan R, 1998, J AM WATER RESOUR AS, V34, P91, DOI 10.1111/j.1752-1688.1998.tb05962.x
+   Suo LZ, 2018, J HYDROL, V562, P635, DOI 10.1016/j.jhydrol.2018.05.036
+   Suykens J.A.K., 2011, TECHNICAL REPORT, V0, P0
+   Tian Y, 2018, SCI TOTAL ENVIRON, V622, P710, DOI 10.1016/j.scitotenv.2017.12.025
+   Tyralis H, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11050910
+   Vapnik VN, 1999, IEEE T NEURAL NETWOR, V10, P988, DOI 10.1109/72.788640
+   Wang YX, 2020, ADV WATER RESOUR, V146, P0, DOI 10.1016/j.advwatres.2020.103755
+   Yu ZB, 2012, J HYDROL, V475, P53, DOI 10.1016/j.jhydrol.2012.08.034
+   Zhao W, 2018, J HYDROL, V563, P1009, DOI 10.1016/j.jhydrol.2018.06.081
+   Zhu JF, 2016, J HYDROL, V533, P343, DOI 10.1016/j.jhydrol.2015.12.012
+NR 77
+TC 11
+Z9 11
+U1 10
+U2 43
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1351-0754
+EI 1365-2389
+J9 EUR J SOIL SCI
+JI Eur. J. Soil Sci.
+PD SEP 15
+PY 2021
+VL 72
+IS 5
+BP 1969
+EP 1987
+DI 10.1111/ejss.13123
+EA MAY 2021
+PG 19
+WC Soil Science
+SC Agriculture
+GA UK5AH
+UT WOS:000647116100001
+DA 2023-04-26
+ER
+
+PT J
+AU Kulkarni, K
+   Vijaya, PA
+AF Kulkarni, Keerti
+   Vijaya, P. A.
+TI Using Combination Technique for Land Cover Classification of Optical Multispectral Images
+SO INTERNATIONAL JOURNAL OF APPLIED GEOSPATIAL RESEARCH
+LA English
+DT Article
+DE Bangalore Urban District; Dempster-Shafer Combination Theory (DSCT); Land Cover Classification; Normalized Difference Vegetation Index (NDVI); Random Forest (RF) Algorithm; Support Vector Machine (SVM)
+ID neural-network; gis techniques; pixel
+AB The need for efficient planning of the land is exponentially increasing because of the unplanned human activities, especially in the urban areas. A land cover map gives a detailed report on temporal dynamics of a given geographical area. The land cover map can be obtained by using machine learning classifiers on the raw satellite images. In this work, the authors propose a combination method for the land cover classification. This method combines the outputs of two classifiers, namely, random forests (RF) and support vector machines (SVM), using Dempster-Shafer combination theory (DSCT), also called the theory of evidence. This combination is possible because of the inherent uncertainties associated with the output of each classifier. The experimental results indicate an improved accuracy (89.6%, kappa = 0.86 as versus accuracy of RF [87.31%, kappa = 0.83] and SVM [82.144%, kappa = 0.76]). The results are validated using the normalized difference vegetation index (NDVI), and the overall accuracy (OA) has been used as a comparison basis.
+C1 [Kulkarni, Keerti; Vijaya, P. A.] BNM Inst Technol, Dept ECE, Bengaluru, India.
+RP Kulkarni, K (corresponding author), BNM Inst Technol, Dept ECE, Bengaluru, India.
+CR Adam E, 2010, WETL ECOL MANAG, V18, P281, DOI 10.1007/s11273-009-9169-z
+   Akar O., 2012, CLASSIFICATION MULTI, V0, P0, DOI DOI 10.9733/ jgg.241212.1
+   Benediktsson J.A., 2007, MULTIPLE CLASSIFIER, V0, P0
+   ChepinogaV. VLiuH, 2018, EPA PUBL ACC, V0, P0, DOI DOI 10.3390/rs10040580
+   Cui GQ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081238
+   Deborah H, 2015, IEEE J-STARS, V8, P3224, DOI 10.1109/JSTARS.2015.2403257
+   Den T, 2014, DEMPSTER SHAFER THEO, V0, P0
+   Denoeux T, 2000, IEEE T SYST MAN CY A, V30, P131, DOI 10.1109/3468.833094
+   Ferrato L.-J., 2013, J GEOGR GEOL, V5, P92, DOI 10.5539/JGG.V5N1P92
+   Gandhi GM, 2015, PROCEDIA COMPUT SCI, V57, P1199, DOI 10.1016/j.procs.2015.07.415
+   Ghosh A, 2011, INFORM SCIENCES, V181, P699, DOI 10.1016/j.ins.2010.10.016
+   Hammond TO, 1996, INT J REMOTE SENS, V17, P1261, DOI 10.1080/01431169608949085
+   Hegazy I. R., 2015, INT J SUSTAINABLE BU, V4, P117, DOI 10.1016/J.IJSBE.2015.02.005
+   Hussain M, 2013, ISPRS J PHOTOGRAMM, V80, P91, DOI 10.1016/j.isprsjprs.2013.03.006
+   Kulkarni A. D, 2016, RANDOM FOREST ALGORI, V0, P0
+   Kulkarni AV, 2007, CURR SCI INDIA, V92, P69
+   Kulkarni K., 2019, PARAMETRIC METHODS M, V0, P0, DOI DOI 10.35940/ijitee.B1061.1292S19
+   Kulkarni K, 2017, 2017 INTERNATIONAL CONFERENCE ON COMPUTING METHODOLOGIES AND COMMUNICATION (ICCMC), V0, PP36, DOI 10.1109/ICCMC.2017.8282720
+   Kulkarni Keerti V.P, 1900, DOI 10.35940/IJITEE.F1018.0486S419, V0, P0
+   Lu D, 2007, INT J REMOTE SENS, V28, P823, DOI 10.1080/01431160600746456
+   Ma L, 2017, ISPRS J PHOTOGRAMM, V130, P277, DOI 10.1016/j.isprsjprs.2017.06.001
+   Mercier G, 2003, INT GEOSCI REMOTE SE, V0, P288
+   Millard K, 2015, REMOTE SENS-BASEL, V7, P8489, DOI 10.3390/rs70708489
+   Pontius RG, 2011, INT J REMOTE SENS, V32, P4407, DOI 10.1080/01431161.2011.552923
+   Qian YG, 2015, REMOTE SENS-BASEL, V7, P153, DOI 10.3390/rs70100153
+   Rawat JS, 2015, EGYPT J REMOTE SENS, V18, P77, DOI 10.1016/j.ejrs.2015.02.002
+   Rizvi IA, 2011, IEEE T GEOSCI REMOTE, V49, P4815, DOI 10.1109/TGRS.2011.2171695
+   Rujoiu-Mare MR, 2016, PROCEDIA ENVIRON SCI, V32, P244, DOI 10.1016/j.proenv.2016.03.029
+   Shi G, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10020426
+   Shrawankar U, 2016, INT C RES INT COMP E, V0, P0
+   Sinha S, 2015, EGYPT J REMOTE SENS, V18, P217, DOI 10.1016/j.ejrs.2015.09.005
+   Smith C., 2017, DECISION TREES RANDO, V0, P0
+   Song C, 2001, REMOTE SENS ENVIRON, V75, P230, DOI 10.1016/S0034-4257(00)00169-3
+   Starovoitov V., 2008, DIGIT EARTH SUMMIT G, V0, P369
+   Taufik A., 2016, J TELECOMMUNICATION, V8, P37
+   Themistocleous K., 2008, IMPORTANCE CONSIDERI, V0, P0
+   West A., 2012, RANDOM FORESTS BASED, V0, P0
+   Xie ZL, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020164
+   Xinjiang R., 2016, RANDOM FOREST CLASSI, V0, P0, DOI DOI 10.3390/rs8110954
+   Xu SP, 2019, J APPL REMOTE SENS, V13, P0, DOI 10.1117/1.JRS.13.014521
+   Ye S, 2018, ISPRS J PHOTOGRAMM, V141, P137, DOI 10.1016/j.isprsjprs.2018.04.002
+   Young NE, 2021, ECOLOGY, V0, P0, DOI DOI 10.1002/ecy.1730
+   Zhang XY, 2003, REMOTE SENS ENVIRON, V84, P471, DOI 10.1016/S0034-4257(02)00135-9
+   Zope PE, 2015, NAT HAZARDS, V75, P887, DOI 10.1007/s11069-014-1356-4
+NR 44
+TC 0
+Z9 0
+U1 0
+U2 1
+PU IGI GLOBAL
+PI HERSHEY
+PA 701 E CHOCOLATE AVE, STE 200, HERSHEY, PA 17033-1240 USA
+SN 1947-9654
+EI 1947-9662
+J9 INT J APPL GEOSPAT R
+JI Int. J. Appl. Geospat. Res.
+PD OCT-DEC 15
+PY 2021
+VL 12
+IS 4
+BP 22
+EP 39
+DI 10.4018/IJAGR.2021100102
+PG 18
+WC Geography
+SC Geography
+GA XF7DW
+UT WOS:000724229300002
+DA 2023-04-26
+ER
+
+PT J
+AU Ito, Y
+   Toyoizumi, T
+AF Ito, Yoshiki
+   Toyoizumi, Taro
+TI Learning poly-synaptic paths with traveling waves
+SO PLOS COMPUTATIONAL BIOLOGY
+LA English
+DT Article
+ID visual-evoked potentials; in-vivo; dopamine; oscillations; dynamics; cortex; state; modulation; plasticity; neurons
+AB Author summary There are approximately 10(11) neurons with 10(14) connections in the human brain. Information transmission among neurons in this large network is considered crucial for our behavior. To achieve this, multiple synaptic connections along a poly-synaptic network path must be adjusted coherently during learning. Because the previously proposed reward-dependent synaptic plasticity rule requires coactivation of presynaptic and postsynaptic neurons, learning can fail if a subset of neurons along a distant network path is inactive at the beginning of learning. We suggest that traveling waves that are initiated at an information source can mitigate this problem. We performed computer simulations of spiking neural networks with reward-dependent local synaptic plasticity rules and traveling waves. Our results show that this combination facilitates the learning and refinement of synaptic network paths. We argue that these features are a general biological strategy for maintaining and optimizing our brain function. Our research provides new insights into how complex neural networks in the brain form during learning and memory consolidation. Traveling waves are commonly observed across the brain. While previous studies have suggested the role of traveling waves in learning, the mechanism remains unclear. We adopted a computational approach to investigate the effect of traveling waves on synaptic plasticity. Our results indicate that traveling waves facilitate the learning of poly-synaptic network paths when combined with a reward-dependent local synaptic plasticity rule. We also demonstrate that traveling waves expedite finding the shortest paths and learning nonlinear input/output mapping, such as exclusive or (XOR) function.
+C1 [Ito, Yoshiki] Univ Tokyo, Grad Sch Informat & Technol, Dept Mechanoinformat, Tokyo, Japan.
+   [Toyoizumi, Taro] RIKEN Ctr Brain Sci, Lab Neural Computat & Adaptat, Saitama, Japan.
+   [Toyoizumi, Taro] Univ Tokyo, Grad Sch Informat Sci & Technol, Dept Math Informat, Tokyo, Japan.
+C3 University of Tokyo; RIKEN; University of Tokyo
+RP Ito, Y (corresponding author), Univ Tokyo, Grad Sch Informat & Technol, Dept Mechanoinformat, Tokyo, Japan.; Toyoizumi, T (corresponding author), RIKEN Ctr Brain Sci, Lab Neural Computat & Adaptat, Saitama, Japan.; Toyoizumi, T (corresponding author), Univ Tokyo, Grad Sch Informat Sci & Technol, Dept Math Informat, Tokyo, Japan.
+EM y.ito@ne.t.u-tokyo.ac.jp; taro.toyoizumi@riken.jp
+FU Japan Agency for Medical Research and Development [AMED] [JP21dm020700]; Japan Society for the Promotion of Science [JSPS] KAKENHI [JP18H05432]
+CR ALEXANDRE F, 1991, NEURAL NETWORKS, V4, P15, DOI 10.1016/0893-6080(91)90027-3
+   [Anonymous], 2011, RIV DIRITTO ELLENICO, V1, P45
+   Bassett DS, 2017, NEUROSCIENTIST, V23, P499, DOI 10.1177/1073858416667720
+   Beeler JA, 2010, FRONT BEHAV NEUROSCI, V4, P0, DOI 10.3389/fnbeh.2010.00170
+   Bi GQ, 1998, J NEUROSCI, V18, P10464, DOI 10.1523/jneurosci.18-24-10464.1998
+   Bringuier V, 1999, SCIENCE, V283, P695, DOI 10.1126/science.283.5402.695
+   Burkitt GR, 2000, CLIN NEUROPHYSIOL, V111, P246, DOI 10.1016/S1388-2457(99)00194-7
+   Calabresi P, 2007, TRENDS NEUROSCI, V30, P211, DOI 10.1016/j.tins.2007.03.001
+   Dan Y, 2006, PHYSIOL REV, V86, P1033, DOI 10.1152/physrev.00030.2005
+   FEENSTRA MGP, 1995, NEUROSCI LETT, V189, P81, DOI 10.1016/0304-3940(95)11456-7
+   Floresco SB, 2003, NAT NEUROSCI, V6, P968, DOI 10.1038/nn1103
+   Fremaux N, 2016, FRONT NEURAL CIRCUIT, V9, P0, DOI 10.3389/fncir.2015.00085
+   GRINVALD A, 1994, J NEUROSCI, V14, P2545
+   Harris KD, 2011, NAT REV NEUROSCI, V12, P509, DOI 10.1038/nrn3084
+   Harris KD, 2011, HEARING RES, V271, P37, DOI 10.1016/j.heares.2010.06.006
+   Izhikevich EM, 2007, CEREB CORTEX, V17, P2443, DOI 10.1093/cercor/bhl152
+   Klampfl S, 2013, J NEUROSCI, V33, P11515, DOI 10.1523/JNEUROSCI.5044-12.2013
+   Klimesch W, 1996, INT J PSYCHOPHYSIOL, V24, P61, DOI 10.1016/S0167-8760(96)00057-8
+   Krull EM, 2019, FRONT NEUROSCI-SWITZ, V13, P0, DOI 10.3389/fnins.2019.00316
+   Kusmierz L, 2017, CURR OPIN NEUROBIOL, V46, P170, DOI 10.1016/j.conb.2017.08.020
+   Lee BR, 2008, NEUROSCI LETT, V434, P282, DOI 10.1016/j.neulet.2008.01.069
+   Lefort S, 2009, NEURON, V61, P301, DOI 10.1016/j.neuron.2008.12.020
+   Li SM, 2003, NAT NEUROSCI, V6, P526, DOI 10.1038/nn1049
+   Lubenov EV, 2009, NATURE, V459, P534, DOI 10.1038/nature08010
+   Massimini M, 2004, J NEUROSCI, V24, P6862, DOI 10.1523/JNEUROSCI.1318-04.2004
+   Matsumoto K, 2003, SCIENCE, V301, P229, DOI 10.1126/science.1084204
+   Miyamoto D, 2017, FRONT NEURAL CIRCUIT, V11, P0, DOI 10.3389/fncir.2017.00092
+   Mohajerani MH, 2010, J NEUROSCI, V30, P3745, DOI 10.1523/JNEUROSCI.6437-09.2010
+   Monti JM, 2007, SLEEP MED REV, V11, P113, DOI 10.1016/j.smrv.2006.08.003
+   Muller L, 2018, NAT REV NEUROSCI, V19, P255, DOI 10.1038/nrn.2018.20
+   Nauhaus I, 2012, J NEUROSCI, V32, P3088, DOI 10.1523/JNEUROSCI.5827-11.2012
+   Nauhaus I, 2009, NAT NEUROSCI, V12, P70, DOI 10.1038/nn.2232
+   Nunez P. L., 2006, ELECT FIELDS BRAIN N, V0, P0
+   Orsborn AL, 2017, CURR OPIN NEUROBIOL, V46, P76, DOI 10.1016/j.conb.2017.08.002
+   Petersen CCH, 2003, J NEUROSCI, V23, P1298, DOI 10.1523/JNEUROSCI.23-04-01298.2003
+   Rasch B, 2007, SCIENCE, V315, P1426, DOI 10.1126/science.1138581
+   Rubino D, 2006, NAT NEUROSCI, V9, P1549, DOI 10.1038/nn1802
+   Sakata S, 2009, NEURON, V64, P404, DOI 10.1016/j.neuron.2009.09.020
+   Sato TK, 2012, NEURON, V75, P218, DOI 10.1016/j.neuron.2012.06.029
+   Schultz W, 2007, TRENDS NEUROSCI, V30, P203, DOI 10.1016/j.tins.2007.03.007
+   Slovin H, 2002, J NEUROPHYSIOL, V88, P3421, DOI 10.1152/jn.00194.2002
+   Srinivasan R, 2006, BRAIN TOPOGR, V18, P167, DOI 10.1007/s10548-006-0267-4
+   STERIADE M, 1993, SCIENCE, V262, P679, DOI 10.1126/science.8235588
+   Stimberg M, 2019, ELIFE, V8, P0, DOI 10.7554/eLife.47314
+   Tahvildari B, 2012, J NEUROSCI, V32, P12165, DOI 10.1523/JNEUROSCI.1181-12.2012
+   Tan AYY, 2014, NATURE, V509, P226, DOI 10.1038/nature13159
+   Westerberg JA, 2019, J NEUROPHYSIOL, V121, P1938, DOI 10.1152/jn.00113.2019
+   Zhang HH, 2018, NEURON, V98, P1269, DOI 10.1016/j.neuron.2018.05.019
+   Zhang HH, 2015, J NEUROSCI, V35, P12477, DOI 10.1523/JNEUROSCI.5102-14.2015
+NR 49
+TC 0
+Z9 0
+U1 0
+U2 4
+PU PUBLIC LIBRARY SCIENCE
+PI SAN FRANCISCO
+PA 1160 BATTERY STREET, STE 100, SAN FRANCISCO, CA 94111 USA
+SN 1553-734X
+EI 1553-7358
+J9 PLOS COMPUT BIOL
+JI PLoS Comput. Biol.
+PD FEB 15
+PY 2021
+VL 17
+IS 2
+BP 
+EP 
+DI 10.1371/journal.pcbi.1008700
+PG 18
+WC Biochemical Research Methods; Mathematical & Computational Biology
+SC Biochemistry & Molecular Biology; Mathematical & Computational Biology
+GA QG4CJ
+UT WOS:000617535100003
+PM 33561118
+DA 2023-04-26
+ER

@@ -1,0 +1,514 @@
+
+PT J
+AU Guo, HN
+   Su, X
+   Tang, SK
+   Du, B
+   Zhang, LP
+AF Guo, Haonan
+   Su, Xin
+   Tang, Shengkun
+   Du, Bo
+   Zhang, Liangpei
+TI Scale-Robust Deep-Supervision Network for Mapping Building Footprints From High-Resolution Remote Sensing Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Buildings; Feature extraction; Architecture; Computer architecture; Remote sensing; Decoding; Semantics; Building footprint extraction; convolutional neural network; deep learning; remote sensing image
+ID convolutional neural-network; extraction; classification; index
+AB Building footprint information is one of the key factors for sustainable urban planning and environmental monitoring. Mapping building footprints from remote sensing images is an important and challenging task in the earth observation field. Over the years, convolutional neural networks have shown outstanding improvements in the building extraction field due to their ability to automatically extract hierarchical features and make building predictions. However, as buildings are various in different sizes, scenes, and roofing materials, it is hard to precisely depict buildings of varied sizes, especially in large areas (e.g., nationwide). To tackle these limitations, we propose a novel deep-supervision convolutional neural network (denoted as DS-Net) for extracting building footprints from high-resolution remote sensing images. In the proposed network, we applied deep supervision with an extra lightweight encoder, which enables the network to learn representative building features of different scales. Furthermore, a scale attention module is designed to aggregate multiscale features and generate the final building prediction. Experiments on two publicly available building datasets, including the WHU Building Dataset and the Massachusetts Building Dataset, show the effectiveness of the proposed method. With only a 0.22-M increment of parameters compared with U-Net, the proposed DS-Net achieved an IoU of 90.4% on the WHU Building Dataset and 73.8% on the Massachusetts Dataset. DS-Net also outperforms the state-of-the-art building extraction methods on the two datasets, indicating the effectiveness of the proposed deep supervision and scale attention.
+C1 [Guo, Haonan; Zhang, Liangpei] Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan 430079, Peoples R China.
+   [Su, Xin; Tang, Shengkun] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+   [Du, Bo] Wuhan Univ, Natl Engn Res Ctr Multimedia Software, Sch Comp Sci, Inst Artificial Intelligence, Wuhan 430079, Peoples R China.
+   [Du, Bo] Wuhan Univ, Hubei Key Lab Multimedia & Network Commun Engn, Wuhan 430079, Peoples R China.
+C3 Wuhan University; Wuhan University; Wuhan University; Wuhan University
+RP Su, X (corresponding author), Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+EM guohnwhu@163.com; xinsu.rs@whu.edu.cn; shengkuntang@whu.edu.cn; gunspace@163.com; zlp62@whu.edu.cn
+FU Chang'an University, Xi'an, China, through the National Key Research and Development Program of China [2020YFC1512000]; National Natural Science Foundation of China [61801332]
+CR Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bittner K, 2018, IEEE J-STARS, V11, P2615, DOI 10.1109/JSTARS.2018.2849363
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Dong YN, 2022, IEEE T CYBERNETICS, V52, P11093, DOI 10.1109/TCYB.2021.3070909
+   Dong YN, 2021, IEEE T CYBERNETICS, V51, P3185, DOI 10.1109/TCYB.2020.3004263
+   Guo HN, 2021, REMOTE SENS ENVIRON, V264, P0, DOI 10.1016/j.rse.2021.112589
+   Guo HN, 2021, IEEE T GEOSCI REMOTE, V59, P4287, DOI 10.1109/TGRS.2020.3014312
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Huang X, 2012, IEEE J-STARS, V5, P161, DOI 10.1109/JSTARS.2011.2168195
+   Huang X, 2011, PHOTOGRAMM ENG REM S, V77, P721, DOI 10.14358/PERS.77.7.721
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Jiang X, 2021, IEEE J-STARS, V14, P2699, DOI 10.1109/JSTARS.2020.3017934
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Li L, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091350
+   Li ST, 2019, IEEE T GEOSCI REMOTE, V57, P6690, DOI 10.1109/TGRS.2019.2907932
+   Liu H, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11202380
+   Liu M., 2021, INT J OCCUP SAF ERGO, V0, PP1, DOI 10.1109/TGRS.2021.3091758
+   Liu PH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070830
+   Liu SJ, 2021, IEEE T GEOSCI REMOTE, V59, P5085, DOI 10.1109/TGRS.2020.3018879
+   Liu YY, 2021, IEEE T GEOSCI REMOTE, V59, P6106, DOI 10.1109/TGRS.2020.3022410
+   Liu ZJ, 2005, INT GEOSCI REMOTE SE, V0, P2250
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Ok AO, 2013, ISPRS J PHOTOGRAMM, V86, P21, DOI 10.1016/j.isprsjprs.2013.09.004
+   Paszke A, 2019, ADV NEUR IN, V32, P0
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Shi Q, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3085870
+   Shi Q, 2021, IEEE T GEOSCI REMOTE, V59, P10348, DOI 10.1109/TGRS.2020.3045273
+   Shi Q, 2020, IEEE GEOSCI REMOTE S, V17, P1430, DOI 10.1109/LGRS.2019.2947473
+   Shi YL, 2020, ISPRS J PHOTOGRAMM, V159, P184, DOI 10.1016/j.isprsjprs.2019.11.004
+   Shrestha S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071135
+   Sun GY, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030227
+   Sun K, 2019, PROC CVPR IEEE, V0, PP5686, DOI 10.1109/CVPR.2019.00584
+   Volodymyr M, 2013, MACHINE LEARNING AER, V0, P0
+   Wei SQ, 2020, IEEE T GEOSCI REMOTE, V58, P2178, DOI 10.1109/TGRS.2019.2954461
+   Xie YK, 2020, IEEE J-STARS, V13, P1842, DOI 10.1109/JSTARS.2020.2991391
+   Xu YY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010144
+   Yu YT, 2021, IEEE GEOSCI REMOTE S, V18, P895, DOI 10.1109/LGRS.2020.2986380
+   Zha Y, 2003, INT J REMOTE SENS, V24, P583, DOI 10.1080/01431160304987
+   Zhang HY, 2022, IEEE T NEUR NET LEAR, V33, P1269, DOI 10.1109/TNNLS.2020.3041646
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhang T, 2017, IEEE J-STARS, V10, P3265, DOI 10.1109/JSTARS.2017.2669217
+   Zheng Z, 2021, ISPRS J PHOTOGRAMM, V174, P254, DOI 10.1016/j.isprsjprs.2020.12.009
+   Zhu Q, 2021, IEEE T GEOSCI REMOTE, V59, P6169, DOI 10.1109/TGRS.2020.3026051
+NR 43
+TC 10
+Z9 10
+U1 5
+U2 30
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 10091
+EP 10100
+DI 10.1109/JSTARS.2021.3109237
+PG 10
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA WH1JB
+UT WOS:000707442300011
+DA 2023-04-26
+ER
+
+PT J
+AU Nath, SK
+   Sengupta, A
+   Srivastava, A
+AF Nath, Sankar Kumar
+   Sengupta, Arnab
+   Srivastava, Anand
+TI Remote sensing GIS-based landslide susceptibility & risk modeling in Darjeeling-Sikkim Himalaya together with FEM-based slope stability analysis of the terrain
+SO NATURAL HAZARDS
+LA English
+DT Article
+DE Landslide susceptibility zones; Vulnerability risk; Static dynamic slope stability; Darjeeling-Sikkim Himalaya
+ID analytical hierarchy process; evidential belief function; ground-penetrating radar; information value method; logistic-regression; frequency ratio; process ahp; spectral information; urban areas; earthquake
+AB Landslide susceptibility (LSI) modeling of Darjeeling-Sikkim Himalaya is performed by integrating 28 causative factors on C-28(28) combinations on Geographical Information System (GIS) following analytic hierarchy process (AHP)-based multicriteria decision protocol, logistic regression (LR)-based multivariate technique, machine learning data-driven random forest (RF) and artificial neural network (ANN) methods wherein the terrain is classified into 'None' (with: 0.0 < LSI <= 0.17), 'Low' (with: 0.17 < LSI <= 0.34), 'Moderate' (with: 0.34 < LSI <= 0.51), 'High' (with: 0.51 < LSI <= 0.68),'Very High' (with: 0.68 < LSI <= 0.85) and 'Severe' (with: 0.85 < LSI <= 1.00) susceptible zones as validated through standard statistical accuracy tests and direct cross-correlation analysis of all the susceptible zonation maps generated by drawing comparison with the 30% landslide inventory test data. The best integrated thematic RF-based LSI vector layer with an accuracy level of 0.871, in turn, on integration with the vulnerability components like population density, number of households, building types, building height and building density has demarketed approximately 21% of the region under 'Very High' to 'Severe' socioeconomic risk zone while about 36% area are classified under 'Very High' to 'Severe' structural risk zone as implicated by devastating landslide hazards in the region. Ground Penetrating Radar Survey has been conducted on all the slopes in the 'Very High to Severe' landslide susceptible zones wherein near-surface lithologic setting, presence of paleo-slopes and microstructural features like fractures/faults and poorly stratified debris flow have been imaged that provided favorable subsurface conditions for slope failure. Finite element method-based slope failure analysis for Newmark displacement estimates factor of safety (FoS) value that acts as the proxy in defining the degree of slope instability is seen to vary between 1.905 and 2.357 in the 'Low to Moderate' landslide susceptible zone while it ranges between 1.051 and 1.652 in the 'High' landslide susceptible zone and between 0.649 and 1.349 in the 'Very High to Severe' landslide inventory subset along the slopes under both gravity loading and seismic shaking in the terrain. The slope stability analysis puts the yield acceleration between 0.0012 and 0.11984 m/s(2) and the total deformation between 0.0027 and 1.4484 m. All these parameters in the classified landslide susceptible zones in unison demonstrate how unstable are the terrain slopes in the 'High to Severe' landslide susceptible zones.
+C1 [Nath, Sankar Kumar; Sengupta, Arnab; Srivastava, Anand] Indian Inst Technol Kharagpur, Dept Geol & Geophys, Kharagpur 721302, W Bengal, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Kharagpur
+RP Nath, SK (corresponding author), Indian Inst Technol Kharagpur, Dept Geol & Geophys, Kharagpur 721302, W Bengal, India.
+EM nath@gg.iitkgp.ac.in; arnabsengupta958@gmail.com; anandsrivastava533@gmail.com
+FU Geoscience Division of the Ministry of Earth Sciences, Government of India [MoES/ P.O. (Seismo)/1(207)/2013]
+CR Achour Y, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2980-6
+   Adepelumi AA, 2012, J GEOPHYS ENG, V9, P397, DOI 10.1088/1742-2132/9/4/397
+   Adhikari MD, 2018, THESIS IIT KHARAGPUR, V0, P0
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   Althuwaynee OF, 2014, CATENA, V114, P21, DOI 10.1016/j.catena.2013.10.011
+   Althuwaynee OF, 2012, COMPUT GEOSCI-UK, V44, P120, DOI 10.1016/j.cageo.2012.03.003
+   American Society of Civil Engineers ASCE, 2000, PRESTANDARD COMMENTA, V0, P0
+   Anbalagan R., 2015, GEOENVIRONMENTAL DIS, V2, P6, DOI 10.1186/s40677-014-0009-y
+   Annan A. P., 2003, GROUND PENETRATING R, V0, P0
+   [Anonymous], 2000, APPL LOGISTIC REGRES, V0, P0, DOI DOI 10.1002/0471722146
+   Ayalew L, 2004, LANDSLIDES, V1, P73, DOI 10.1007/s10346-003-0006-9
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Bai SB, 2011, ENVIRON EARTH SCI, V62, P139, DOI 10.1007/s12665-010-0509-3
+   Banerjee P, 2018, ARAB J GEOSCI, V11, P0, DOI 10.1007/s12517-018-3488-4
+   Bera A, 2019, NAT HAZARDS, V96, P935, DOI 10.1007/s11069-019-03580-w
+   BMTPC, 1997, VULNERABILITY ATLAS, V0, P0
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   CEOS, 2001, CEOS REPORT, V0, P0
+   Chawla A, 2018, ADV CIV ENG, V2018, P0, DOI 10.1155/2018/6416492
+   Choi J, 2012, ENG GEOL, V124, P12, DOI 10.1016/j.enggeo.2011.09.011
+   Corominas J, 2014, B ENG GEOL ENVIRON, V73, P209, DOI 10.1007/s10064-013-0538-8
+   Cruden D.M., 1990, B INT ASS ENG GEOL, V41, P13, DOI 10.1007/BF02590202
+   Dai FC, 2002, GEOMORPHOLOGY, V42, P213, DOI 10.1016/S0169-555X(01)00087-3
+   Das Adhikari M, 2016, J INDIAN GEOPHYS UNI, V20, P151
+   Das AM, 2011, DISASTER ADV, V4, P26
+   Dasgupta S, 2000, GEOLOGICAL SURVEY IN, V59, P87
+   DAVIS JL, 1989, GEOPHYS PROSPECT, V37, P531, DOI 10.1111/j.1365-2478.1989.tb02221.x
+   Elkadiri R, 2014, IEEE J-STARS, V7, P4818, DOI 10.1109/JSTARS.2014.2337273
+   Franke D, 2015, SEDIMENTOLOGY, V62, P57, DOI 10.1111/sed.12139
+   Garcia-Rodriguez MJ, 2010, NAT HAZARD EARTH SYS, V10, P1307, DOI 10.5194/nhess-10-1307-2010
+   Garevski M, 2013, LANDSLIDES, V10, P729, DOI 10.1007/s10346-012-0360-6
+   Geneletti D, 2003, INT J REMOTE SENS, V24, P1273, DOI 10.1080/01431160210144499
+   Ghosh S, 2014, B ENG GEOL ENVIRON, V73, P931, DOI 10.1007/s10064-014-0586-8
+   Ghosh S, 2011, GEOMORPHOLOGY, V131, P35, DOI 10.1016/j.geomorph.2011.04.019
+   Goetz JN, 2015, COMPUT GEOSCI-UK, V81, P1, DOI 10.1016/j.cageo.2015.04.007
+   Hasekiogullari GD, 2012, NAT HAZARDS, V63, P1157, DOI 10.1007/s11069-012-0218-1
+   Hecht R, 2014, RHOMBOS VERL, V63, P0
+   Hecht R, 2015, INT J CARTOGRAPHY, V1, P18, DOI https://doi.org/10.1080/23729333.2015.1055644
+   Hemasinghe H, 2018, PROCEDIA ENGINEER, V212, P1046, DOI 10.1016/j.proeng.2018.01.135
+   Huang Y, 2018, CATENA, V165, P520, DOI 10.1016/j.catena.2018.03.003
+   Iannelli GC, 2017, URBAN SCI, V1, P0, DOI 10.3390/urbansci1020016
+   Jol HM, 2009, GROUND PENETRATING RADAR THEORY AND APPLICATIONS, V0, P1
+   Kainthola A, 2015, GEOSCI FRONT, V6, P837, DOI 10.1016/j.gsf.2014.03.002
+   Kanungo DP, 2006, ENG GEOL, V85, P347, DOI 10.1016/j.enggeo.2006.03.004
+   Kayastha P, 2013, COMPUT GEOSCI-UK, V52, P398, DOI 10.1016/j.cageo.2012.11.003
+   Kirschbaum D, 2015, GEOMORPHOLOGY, V249, P4, DOI 10.1016/j.geomorph.2015.03.016
+   Komac M, 2006, GEOMORPHOLOGY, V74, P17, DOI 10.1016/j.geomorph.2005.07.005
+   Krahn J, 2007, PROC MONOGR ENG WATE, V0, PP311, DOI 10.1201/NOE0415444019-c38
+   Kumar R, 2016, J GEOL SOC INDIA, V87, P271, DOI 10.1007/s12594-016-0395-8
+   Lange K., 2003, MATH STAT METHODS GE, V0, P0
+   Hung LQ, 2016, LANDSLIDES, V13, P1285, DOI 10.1007/s10346-015-0657-3
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lu DS, 2005, PHOTOGRAMM ENG REM S, V71, P1275, DOI 10.14358/PERS.71.11.1275
+   Mandal S, 2018, MODEL EARTH SYST ENV, V4, P69, DOI 10.1007/s40808-018-0426-0
+   Matsuoka M, 2014, J DISASTER RES, V9, P1032, DOI 10.20965/jdr.2014.p1032
+   Mehrotra GS, 1996, J GEOL SOC INDIA, V47, P491
+   Meng FY, 2015, KNOWL-BASED SYST, V73, P111, DOI 10.1016/j.knosys.2014.09.011
+   Mondal S, 2018, GEORISK, V12, P29, DOI 10.1080/17499518.2017.1347949
+   Mondal S, 2013, INT J DISAST RISK SC, V4, P200, DOI 10.1007/s13753-013-0021-y
+   Nath SK, 2015, NAT HAZARD EARTH SYS, V15, P1103, DOI 10.5194/nhess-15-1103-2015
+   Nath SK, 2017, NAT HAZARDS, V85, P1787, DOI 10.1007/s11069-016-2665-6
+   Nath SK, 2004, NAT HAZARDS, V31, P319
+   Nefeslioglu HA, 2008, GEOMORPHOLOGY, V94, P401, DOI 10.1016/j.geomorph.2006.10.036
+   NEWMARK NM, 1965, GEOTECHNIQUE, V15, P139, DOI 10.1680/geot.1965.15.2.139
+   NRSC, 2011, ASSESSMENT 18 SEPTEM, V0, P0
+   Ohlmacher GC, 2003, ENG GEOL, V69, P331, DOI 10.1016/S0013-7952(03)00069-3
+   Ozdemir A, 2011, J HYDROL, V405, P123, DOI 10.1016/j.jhydrol.2011.05.015
+   Pal SC, 2019, J INDIAN SOC REMOTE, V47, P1643, DOI 10.1007/s12524-019-01009-2
+   Pascale S, 2013, LECT NOTES COMPUT SC, V7974, P473
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Pradhan B, 2010, LANDSLIDES, V7, P13, DOI 10.1007/s10346-009-0183-2
+   Qi F, 2016, ENERG BUILDINGS, V118, P123, DOI 10.1016/j.enbuild.2016.02.044
+   Rasyid A.R., 2016, GEOENVIRONMENTAL DIS, V3, P19, DOI 10.1186/s40677-016-0053-x
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Rossetti DF, 2003, AN ACAD BRAS CIENC, V75, P235, DOI 10.1590/S0001-37652003000200009
+   Roy J, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11232866
+   SAATY TL, 1977, J MATH PSYCHOL, V15, P234, DOI 10.1016/0022-2496(77)90033-5
+   Saaty TL., 1970, OPTIMIZATION INTEGER, V0, P0
+   Sarkar K, 2016, J GEOL SOC INDIA, V88, P387, DOI 10.1007/s12594-016-0500-z
+   Sarkar S, 2013, J GEOL SOC INDIA, V82, P351, DOI 10.1007/s12594-013-0162-z
+   Sastry G, 1981, THE B, VR8, P0
+   Schicker R, 2012, GEOMORPHOLOGY, V161, P40, DOI 10.1016/j.geomorph.2012.03.036
+   Sengupta A, 2010, NAT HAZARDS, V52, P31, DOI 10.1007/s11069-009-9352-9
+   SENTHILKUMAR V, 2017, WORKSHOP WORLD LANDS, V0, P0
+   Shahabi H, 2015, SCI REP-UK, V5, P0, DOI 10.1038/srep09899
+   Shahabi H, 2014, CATENA, V115, P55, DOI 10.1016/j.catena.2013.11.014
+   Shano L, 2020, GEOENVIRONMENTAL DIS, V7, P0, DOI 10.1186/s40677-020-00152-0
+   Sharma LP, 2013, APPL GEOMAT, V5, P271, DOI 10.1007/s12518-013-0115-7
+   Sharma LP, 2014, GEOCARTO INT, V29, P128, DOI 10.1080/10106049.2012.748830
+   Shiny NR, 2015, IIITTR20151, V0, P497
+   Sikkim State Disaster Management Authority (SSDMA), 2015, MULTIHAZARDS RISK VU, V0, P0
+   Sritarapipat Tanakorn, 2017, REMOTE SENSING APPLICATIONS: SOCIETY AND ENVIRONMENT, V6, P46, DOI 10.1016/j.rsase.2017.04.001
+   Terzaghi K., 1950, GEOL SOC AM, V0, P0, DOI DOI 10.1130/Berkey.1950.83
+   Van Westen CJ, 1996, TRANSPORTATION RES B, V247, P129
+   Verma PN., 1983, GEOTECHNICAL REPORT, V0, P84
+   Wang HB, 2005, PROG PHYS GEOG, V29, P548, DOI 10.1191/0309133305pp462ra
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yalcin A, 2008, CATENA, V72, P1, DOI 10.1016/j.catena.2007.01.003
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Youssef AM, 2021, GEOSCI FRONT, V12, P639, DOI 10.1016/j.gsf.2020.05.010
+   Yuan RM, 2016, FRONT EARTH SCI-PRC, V10, P740, DOI 10.1007/s11707-015-0547-y
+   Zha Y, 2003, INT J REMOTE SENS, V24, P583, DOI 10.1080/01431160304987
+   Zhang J, 2011, CAN GEOTECH J, V48, P1138, DOI 10.1139/T11-009
+   Zhang Q, 2002, INT J REMOTE SENS, V23, P3057, DOI 10.1080/01431160110104728
+NR 104
+TC 4
+Z9 4
+U1 10
+U2 33
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0921-030X
+EI 1573-0840
+J9 NAT HAZARDS
+JI Nat. Hazards
+PD SEP 15
+PY 2021
+VL 108
+IS 3
+BP 3271
+EP 3304
+DI 10.1007/s11069-021-04823-5
+EA JUN 2021
+PG 34
+WC Geosciences, Multidisciplinary; Meteorology & Atmospheric Sciences; Water Resources
+SC Geology; Meteorology & Atmospheric Sciences; Water Resources
+GA TV7AB
+UT WOS:000660800200001
+DA 2023-04-26
+ER
+
+PT J
+AU Gavrilov, AI
+   Parfentiev, KV
+AF Gavrilov, Alexandr Igorevich
+   Parfentiev, Kirill Victorovich
+TI Solving the Problem of Autonomous Navigation Using Underlying Surface Models Tolerant to Survey Conditions
+SO XLIV ACADEMIC SPACE CONFERENCE: DEDICATED TO THE MEMORY OF ACADEMICIAN S.P. KOROLEV AND OTHER OUTSTANDING RUSSIAN SCIENTISTS - PIONEERS OF SPACE EXPLORATION
+LA English
+DT Proceedings Paper
+DE Unmanned aerial vehicle; artificial neural networks; underlying surface; digital image processing; boundary detection; autonomous navigation
+ID uav; system
+AB The problem of autonomous navigation becomes more relevant in the aerospace industry. To solve it successfully, it is necessary to build underlying surface models tolerant to survey conditions. Such models can serve as a basis for solving wide variety of tasks, such as building topographic map of the terrain, navigating the underlying surface, automatic landing of the aircraft. The main problem with building underlying surface models according to monitoring data in the visible spectrum are changes in the survey conditions, such as time of year, time of day, various weather events. The problem can be solved by using algorithms of integration of data collected in various frequency bands and image preprocessing. The paper looks at the task of using data obtained through remote sensing of the underlying surface in optical and radar ranges with the purpose of determining navigational parameters and binding objects to space axes. The paper also considers different approaches to image preprocessing. Comparative studies of existing methods in this sphere were carried out. The algorithm for conversion of digital images into a tolerant to survey conditions form was suggested and realized. We developed the structure and software implementation of the system for determining geographical coordinates using preprocessed underlying surface image. Effectiveness of the suggested algorithms and software was validated by solving the problem of determining positions on images obtained with the help of satellite, radar, and aerial photography under different environmental and lighting conditions.
+C1 [Gavrilov, Alexandr Igorevich; Parfentiev, Kirill Victorovich] Bauman Moscow State Tech Univ, Moscow, Russia.
+C3 Bauman Moscow State Technical University
+RP Gavrilov, AI (corresponding author), Bauman Moscow State Tech Univ, Moscow, Russia.
+EM alexandre.gavrilov@iul.bmstu.ru; parfentiev@bmstu.ru
+CR Bandini F, 2020, REMOTE SENS ENVIRON, V237, P0, DOI 10.1016/j.rse.2019.111487
+   Brown M. P., 2004, APPL PHYS LETT, V85, P2503
+   CANNY J, 1986, IEEE T PATTERN ANAL, V8, P679, DOI 10.1109/TPAMI.1986.4767851
+   Coffey T., 2002, DEFENSE HORIZ, V22, P1
+   Filippelli SK, 2019, REMOTE SENS ENVIRON, V224, P154, DOI 10.1016/j.rse.2019.01.029
+   Gavrilov AI, 2019, AIP CONF PROC, V2171, P0, DOI 10.1063/1.5133235
+   Gohl P, 2014, APPL ROB POW IND CAR, V2014, P1
+   Goncalves JA, 2015, ISPRS J PHOTOGRAMM, V104, P101, DOI 10.1016/j.isprsjprs.2015.02.009
+   [柯芳 Ke Fang], 2010, 兵工学报 ACTA ARMAMENTARII, V31, P939
+   KOHONEN T, 1990, P IEEE, V78, P1464, DOI 10.1109/5.58325
+   Moriano P, 2017, PROCEEDINGS OF THE 2017 INTERNATIONAL WORKSHOP ON MANAGING INSIDER SECURITY THREATS (MIST17), V0, PP1, DOI 10.1145/3139923.3139928
+   Nelson, 2004, P AIAA 4 AV TECHN IN, V0, P6243
+   Neusypin K. A., 2014, JOURNAL OF NANJING UNIVERSITY OF SCIENCE AND TECHNOLOGY, V38, P602
+   Shakhtarin BI, 2016, J COMMUN TECHNOL EL+, V61, P1252, DOI 10.1134/S1064226916110115
+   Shen K, 2018, MEAS TECH+, V60, P991, DOI 10.1007/s11018-018-1306-8
+   Sobel I., 1968, P PATT CLASS SCEN AN, V0, P271
+   Tkachev Sergey B., 2015, IFAC - PAPERS ONLINE, V48, P10, DOI 10.1016/j.ifacol.2015.09.152
+   Tokekar P, 2016, IEEE T ROBOT, V32, P1498, DOI 10.1109/TRO.2016.2603528
+   Valavanis K. P., 2015, HDB UNMANNED AERIAL, V0, PP2639, DOI 10.1007/978-90-481-9707-1_151
+   Voronov E. M., 2010, OPT MEMORY NEURAL, V19, P291
+   Walker O, 2019, AEROSP CONF PROC, V0, P0
+   Wang YN, 2015, 2015 IEEE INTERNATIONAL CONFERENCE ON INFORMATION AND AUTOMATION, V0, PP2580, DOI 10.1109/ICInfA.2015.7279720
+   Yuan C, 2015, INT CONF UNMAN AIRCR, V0, PP639, DOI 10.1109/ICUAS.2015.7152345
+   Zhou YM, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS (IEEE ROBIO 2017), V0, P2515
+NR 24
+TC 0
+Z9 0
+U1 0
+U2 2
+PU AMER INST PHYSICS
+PI MELVILLE
+PA 2 HUNTINGTON QUADRANGLE, STE 1NO1, MELVILLE, NY 11747-4501 USA
+SN 0094-243X
+EI 
+J9 AIP CONF PROC
+PD JUN 15
+PY 2021
+VL 2318
+IS 
+BP 
+EP 
+DI 10.1063/5.0038605
+PG 6
+WC Engineering, Aerospace; Astronomy & Astrophysics
+SC Engineering; Astronomy & Astrophysics
+GA BR6UN
+UT WOS:000664196200217
+DA 2023-04-26
+ER
+
+PT J
+AU Raiyani, K
+   Goncalves, T
+   Rato, L
+   Salgueiro, P
+   da Silva, JRM
+AF Raiyani, Kashyap
+   Goncalves, Teresa
+   Rato, Luis
+   Salgueiro, Pedro
+   Marques da Silva, Jose R.
+TI Sentinel-2 Image Scene Classification: A Comparison between Sen2Cor and a Machine Learning Approach
+SO REMOTE SENSING
+LA English
+DT Article
+DE Sentinel-2; high-resolution imagery; scene classification; Sen2Cor; surface reflectance; artificial intelligence; machine learning
+ID remote-sensing images; land-cover; decision tree; cloud shadow; benchmark; vulnerability; scale
+AB Given the continuous increase in the global population, the food manufacturers are advocated to either intensify the use of cropland or expand the farmland, making land cover and land usage dynamics mapping vital in the area of remote sensing. In this regard, identifying and classifying a high-resolution satellite imagery scene is a prime challenge. Several approaches have been proposed either by using static rule-based thresholds (with limitation of diversity) or neural network (with data-dependent limitations). This paper adopts the inductive approach to learning from surface reflectances. A manually labeled Sentinel-2 dataset was used to build a Machine Learning (ML) model for scene classification, distinguishing six classes (Water, Shadow, Cirrus, Cloud, Snow, and Other). This models was accessed and further compared to the European Space Agency (ESA) Sen2Cor package. The proposed ML model presents a Micro-F1 value of 0.84, a considerable improvement when compared to the Sen2Cor corresponding performance of 0.59. Focusing on the problem of optical satellite image scene classification, the main research contributions of this paper are: (a) an extended manually labeled Sentinel-2 database adding surface reflectance values to an existing dataset; (b) an ensemble-based and a Neural-Network-based ML models; (c) an evaluation of model sensitivity, biasness, and diverse ability in classifying multiple classes over different geographic Sentinel-2 imagery, and finally, (d) the benchmarking of the ML approach against the Sen2Cor package.
+C1 [Raiyani, Kashyap; Goncalves, Teresa; Rato, Luis; Salgueiro, Pedro] Univ Evora, Sch Sci & Technol, Dept Informat, P-7000671 Evora, Portugal.
+   [Marques da Silva, Jose R.] Univ Evora, Sch Sci & Technol, Dept Rural Engn, Mediterranean Inst Agr Environm & Dev MED, P-7000671 Evora, Portugal.
+   [Marques da Silva, Jose R.] Agroinsider Lda, PITE, NERE, Sala 18, P-7005841 Evora, Portugal.
+C3 University of Evora; University of Evora
+RP Raiyani, K (corresponding author), Univ Evora, Sch Sci & Technol, Dept Informat, P-7000671 Evora, Portugal.
+EM d41720@alunos.uevora.pt; tcg@uevora.pt; lmr@uevora.pt; pds@uevora.pt; jmsilva@uevora.pt
+FU Project NIIAA: Nucleo de Investigacao em Inteligencia Artificial em Agricultura (Alentejo 2020) [ALT20-03-0247-FEDER-036981]
+CR Abdel-Hamid Ossama, 2013, 14 ANN C INT SPEECH, V11, P73
+   Al-Khaier F., 2003, SOIL SALINITY DETECT, V0, P0
+   Al-Obeidat F, 2015, PROCEDIA COMPUT SCI, V52, P1192, DOI 10.1016/j.procs.2015.05.157
+   Alonso, 2018, P 2 SENT 2 VAL TEAM, V0, P29
+   [Anonymous], 2016, SPIE REMOTE SENSING, V0, P0
+   Baetens L, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11040433
+   Belgiu M, 2016, ISPRS J PHOTOGRAMM, V114, P24, DOI 10.1016/j.isprsjprs.2016.01.011
+   BOWKER AH, 1948, J AM STAT ASSOC, V43, P572, DOI 10.2307/2280710
+   CRIST EP, 1984, IEEE T GEOSCI REMOTE, V22, P256, DOI 10.1109/TGRS.1984.350619
+   Dao PD, 2015, REMOTE SENS-BASEL, V7, P5077, DOI 10.3390/rs70505077
+   Elith J, 2008, J ANIM ECOL, V77, P802, DOI 10.1111/j.1365-2656.2008.01390.x
+   Frantz D, 2018, REMOTE SENS ENVIRON, V215, P471, DOI 10.1016/j.rse.2018.04.046
+   Friedman J., 2009, ELEMENTS STAT LEARNI, V0, P0
+   Gabrani M., 1996, PROC C REC 30 ASILOM, V1, P501
+   GDAL/OGR contributors, 2020, GDAL OGR GEOSPATIAL, V0, P0
+   Geurts P, 2006, MACH LEARN, V63, P3, DOI 10.1007/s10994-006-6226-1
+   Hagolle O, 2010, REMOTE SENS ENVIRON, V114, P1747, DOI 10.1016/j.rse.2010.03.002
+   Hansen MC, 2013, SCIENCE, V342, P850, DOI 10.1126/science.1244693
+   Hashem Nadeem, 2015, ANNALS OF GIS, V21, P233, DOI 10.1080/19475683.2014.992369
+   HELBER P, 2019, IEEE J-STARS, V12, P2217, DOI 10.1109/IGARSS.2018.8519248
+   Henrich V., 2009, 6 EARSEL IMAGING SPE, V0, P0
+   Hollstein A, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8080666
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Nguyen KA, 2019, METHODSX, V6, P862, DOI 10.1016/j.mex.2019.03.023
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   Kramer O, 2016, STUD BIG DATA, V20, P45, DOI 10.1007/978-3-319-33383-0_5
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Kuhn M., 2013, APPL PREDICTIVE MODE, V0, P0, DOI DOI 10.1007/978-1-4614-6849-3
+   Lancaster H. O., 2005, ENCY BIOSTATISTICS, V2, P0, DOI 10.1002/0470011815.B2A15018
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Li ZW, 2019, ISPRS J PHOTOGRAMM, V150, P197, DOI 10.1016/j.isprsjprs.2019.02.017
+   Lin M, 2014, 2014 INTERNATIONAL CONFERENCE ON MEDICAL BIOMETRICS (ICMB 2014), V0, PP1, DOI 10.1109/ICMB.2014.8
+   Liou YIA, 2017, ECOL INDIC, V80, P52, DOI 10.1016/j.ecolind.2017.04.055
+   LIU YF, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030444
+   Louis J., 2016, P LIVING PLANET S 20, V0, P1
+   McNemar Q, 1947, PSYCHOMETRIKA, V12, P153, DOI 10.1007/BF02295996
+   Mohajerani S., 2018, ARXIV 2018 1810 0578, V0, P0
+   Mohri M., 2012, FDN MACHINE LEARNING, V31, P32
+   Moustakidis S, 2012, IEEE T GEOSCI REMOTE, V50, P149, DOI 10.1109/TGRS.2011.2159726
+   Munoz-Mari J, 2012, IEEE T GEOSCI REMOTE, V50, P3751, DOI 10.1109/TGRS.2012.2185504
+   Ojala T, 2002, IEEE T PATTERN ANAL, V24, P971, DOI 10.1109/TPAMI.2002.1017623
+   Oliva A, 2001, INT J COMPUT VISION, V42, P145, DOI 10.1023/A:1011139631724
+   Penatti Otavio A. B., 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP44, DOI 10.1109/CVPRW.2015.7301382
+   Petrucci B, 2015, PROC SPIE, V9643, P0, DOI 10.1117/12.2194797
+   Qiu S, 2019, REMOTE SENS ENVIRON, V231, P0, DOI 10.1016/j.rse.2019.05.024
+   Quinlan JR, 1996, ACM COMPUT SURV, V28, P71, DOI 10.1145/234313.234346
+   Rahman A, 2012, J INDIAN SOC REMOTE, V40, P689, DOI 10.1007/s12524-011-0165-4
+   Raiyani K., 2020, READY USE MACHINE LE, V0, P0
+   Richardson AD, 2002, NEW PHYTOL, V153, P185, DOI 10.1046/j.0028-646X.2001.00289.x
+   ROUSE JW, 1974, MONITORING VERNAL AD, V0, P0
+   Russell S.J., 2010, ARTIF INTELL, V0, P0, DOI DOI 10.5555/1671238
+   San BT, 2014, INT J APPL EARTH OBS, V26, P399, DOI 10.1016/j.jag.2013.09.010
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sumbul G, 2019, INT GEOSCI REMOTE SE, V0, PP5901, DOI 10.1109/IGARSS.2019.8900532
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Wright C, 2007, REMOTE SENS ENVIRON, V107, P582, DOI 10.1016/j.rse.2006.10.019
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Yang Y, 2010, PROC 18 SIGSPATIAL I, V0, P0, DOI DOI 10.1145/1869790.1869829
+   Zhang C, 2019, REMOTE SENS ENVIRON, V221, P173, DOI 10.1016/j.rse.2018.11.014
+   Zhou WX, 2018, ISPRS J PHOTOGRAMM, V145, P197, DOI 10.1016/j.isprsjprs.2018.01.004
+   Zhu Z, 2014, REMOTE SENS ENVIRON, V152, P217, DOI 10.1016/j.rse.2014.06.012
+   Zhu Z, 2012, REMOTE SENS ENVIRON, V118, P83, DOI 10.1016/j.rse.2011.10.028
+   Zou Q, 2015, IEEE GEOSCI REMOTE S, V12, P2321, DOI 10.1109/LGRS.2015.2475299
+NR 64
+TC 13
+Z9 14
+U1 2
+U2 11
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD JAN 15
+PY 2021
+VL 13
+IS 2
+BP 
+EP 
+DI 10.3390/rs13020300
+PG 22
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA PX7TZ
+UT WOS:000611558200001
+DA 2023-04-26
+ER
+
+PT J
+AU Hafeez, A
+   Shah, M
+   Ehsan, M
+   Jamjareegulgarn, P
+   Ahmed, J
+   Tariq, MA
+   Iqbal, S
+   Naqvi, NA
+AF Hafeez, Amna
+   Shah, Munawar
+   Ehsan, Muhsan
+   Jamjareegulgarn, Punyawi
+   Ahmed, Junaid
+   Tariq, M. Arslan
+   Iqbal, Shahid
+   Naqvi, Najam Abbas
+TI Possible Atmosphere and Ionospheric Anomalies of the 2019 Pakistan Earthquake Using Statistical and Machine Learning Procedures on MODIS LST, GPS TEC, and GIM TEC
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE MODIS; Global Positioning System; Satellites; Terrestrial atmosphere; Land surface temperature; Ionosphere; Electric shock; Earthquake; global ionospheric map (GIM) total electron content (TEC); Global Positioning System (GPS) TEC; lithosphere-atmosphere-ionosphere coupling; moderate resolution imaging spectroradiometer (MODIS) land surface temperature (LST)
+ID temperature; precursors
+AB Identifying atmospheric and ionospheric anomalies based on remote sensing satellites has contributed highly to develop the hypothesis of lithosphere-atmosphere-ionosphere coupling over the earthquake (EQ) epicenter during the seismic preparation period. This article has investigated the variations of potential EQ precursor in daytime and nighttime land surface temperature (LST) before and after the 2019 Pakistan EQ from Moderate Resolution Imaging Spectroradiometer (MODIS) satellite. The nighttime LST values of MODIS exhibit temporal anomalies during nighttime period within a time window of five days before and after the main shock day. Furthermore, the LST values predicted by artificial neural network (ANN) validate the significant enhancement in nighttime time series of MODIS. The nighttime LST anomalies obtained from the observation and ANN prediction are more than 20% and 7% of normal distribution beyond the confidence bounds, respectively, within five days after the main shock. Likewise, the ionospheric anomaly from daily total electron content (TEC) values at Sukkur Global Positioning System (GPS) station confirms the EQ associated ionospheric perturbations on the day after the main shock. The Global Ionospheric Maps (GIMs) also show the TEC anomalies during 1000-1400 LT on September 25, 2019.
+C1 [Hafeez, Amna; Shah, Munawar; Naqvi, Najam Abbas] GNSS Lab Natl Ctr GIS & Space Applicat, Inst Space Technol, Dept Space Sci Space Educ, Islamabad 44000, Pakistan.
+   [Ehsan, Muhsan] Bahria Univ, Dept Earth & Environm Sci, Islamabad 44000, Pakistan.
+   [Jamjareegulgarn, Punyawi] King Mongkuts Inst Technol Ladkrabang, Prince Chumphon Campus, Chumphon 86160, Thailand.
+   [Ahmed, Junaid; Tariq, M. Arslan] Natl Ctr Phys, Ctr Earthquake Studies, Islamabad 44000, Pakistan.
+   [Iqbal, Shahid] Quaid i Azam Univ, Dept Earth Sci, Islamabad 15320, Pakistan.
+C3 King Mongkuts Institute of Technology Ladkrabang; National Centre for Physics - Pakistan; Quaid I Azam University
+RP Jamjareegulgarn, P (corresponding author), King Mongkuts Inst Technol Ladkrabang, Prince Chumphon Campus, Chumphon 86160, Thailand.
+EM amnahafeez016@gmail.com; shahmunawar1@gmail.com; muhsanehsan98@hotmail.com; kjpunyaw@gmail.com; junaid.ahmed@ncp.edu.pk; arslan@ncp.edu.pk; shahid_lefty@hotmail.com; najam.naqvi@ist.edu.pk
+CR Bellaoui M, 2017, ADV SPACE RES, V59, P2645, DOI 10.1016/j.asr.2017.03.004
+   DOBROVOLSKY IP, 1979, PURE APPL GEOPHYS, V117, P1025, DOI 10.1007/BF00876083
+   Dunajecka MA, 2005, ATMOSFERA, V18, P235
+   Freund F., 2017, EUR PHYS J, V230, P1
+   Freund FT, 2009, J ATMOS SOL-TERR PHY, V71, P1824, DOI 10.1016/j.jastp.2009.07.013
+   Hulley GC, 2019, TAKING THE TEMPERATURE OF THE EARTH: STEPS TOWARDS INTEGRATED UNDERSTANDING OF VARIABILITY AND CHANGE, V0, PP57, DOI 10.1016/B978-0-12-814458-9.00003-4
+   Inyurt S, 2019, ANN GEOPHYS-GERMANY, V37, P143, DOI 10.5194/angeo-37-143-2019
+   Khan MR, 2016, J EARTH SCI-CHINA, V27, P981, DOI 10.1007/s12583-016-0681-9
+   Khan SA, 2018, EARTHQ ENG ENG VIB, V17, P787, DOI 10.1007/s11803-018-0476-3
+   [马瑾 Ma Jin], 2010, 地学前缘 EARTH SCIENCE FRONTIERS, V17, P1
+   Mohamed EK, 2021, J ATMOS SOL-TERR PHY, V216, P0, DOI 10.1016/j.jastp.2021.105595
+   Muster S, 2015, REMOTE SENS ENVIRON, V168, P1, DOI 10.1016/j.rse.2015.06.017
+   Ouzounov D., 2004, P 35 COSPAR SCI ASS, V0, P0
+   Pulinets S, 2011, J ASIAN EARTH SCI, V41, P371, DOI 10.1016/j.jseaes.2010.03.005
+   Pulinets SA, 2006, ANN GEOPHYS-GERMANY, V24, P835, DOI 10.5194/angeo-24-835-2006
+   Pulinets SA, 2009, ADV SPACE RES, V44, P767, DOI 10.1016/j.asr.2009.04.038
+   Saraf AK, 2008, NAT HAZARDS, V47, P119, DOI 10.1007/s11069-007-9201-7
+   Sekertekin A, 2020, J ATMOS SOL-TERR PHY, V200, P0, DOI 10.1016/j.jastp.2020.105218
+   Shah M, 2021, J ATMOS SOL-TERR PHY, V215, P0, DOI 10.1016/j.jastp.2021.105568
+   Shah M, 2020, ACTA ASTRONAUT, V175, P268, DOI 10.1016/j.actaastro.2020.06.005
+   Tronin AA, 2002, J GEODYN, V33, P519, DOI 10.1016/S0264-3707(02)00013-3
+   Tronin AA, 2010, REMOTE SENS-BASEL, V2, P124, DOI 10.3390/rs2010124
+   Ulukavak M, 2020, ACTA ASTRONAUT, V166, P123, DOI 10.1016/j.actaastro.2019.09.033
+   Wan Z., 2015, MOD11A1 MODIS TERRA, V0, P0, DOI DOI 10.5067/MODIS/MOD11A1.006
+   Wan ZM, 1997, IEEE T GEOSCI REMOTE, V35, P980, DOI 10.1109/36.602541
+   Zhao W, 2020, REMOTE SENS ENVIRON, V247, P0, DOI 10.1016/j.rse.2020.111931
+   Zhao W, 2019, REMOTE SENS ENVIRON, V221, P635, DOI 10.1016/j.rse.2018.12.008
+NR 27
+TC 6
+Z9 6
+U1 1
+U2 12
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 11126
+EP 11133
+DI 10.1109/JSTARS.2021.3119382
+PG 8
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA WW2RC
+UT WOS:000717769500003
+DA 2023-04-26
+ER

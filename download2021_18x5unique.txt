@@ -1,0 +1,473 @@
+
+PT J
+AU Ni, K
+   Liu, PF
+   Wang, P
+AF Ni, Kang
+   Liu, Pengfei
+   Wang, Peng
+TI Compact Global-Local Convolutional Network With Multifeature Fusion and Learning for Scene Classification in Synthetic Aperture Radar Imagery
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Feature extraction; Radar polarimetry; Synthetic aperture radar; Remote sensing; Convolutional codes; Task analysis; Nickel; Affine subspace; convolutional feature learning; convolutional neural network (CNN); scene classification; synthetic aperture radar (SAR)
+ID neural-network; sar
+AB Feature learning of convolutional neural networks (CNNs) has gained considerable attention and achieved good performance on synthetic aperture radar (SAR) image scene classification. However, the performance of the existing convolutional feature learning methods is limited for generating the distinguishable feature representations because such techniques inherently suffer from shortcomings, i.e., they do not consider the local feature distribution of deep orderless feature statistics and deep orderless multifeature learning style. To alleviate these drawbacks, we propose a compact global-local convolutional network with multifeature fusion and learning (CGML) for SAR image scene classification, which contains double branches of convolutional feature learning net (C-net) and local feature distribution learning net (L-net). L-net employs the localized and parameterized affine subspace coding layer for local feature distribution learning and captures the feature statistics of each cluster center via detailed local feature division. The standard convolutional feature map is utilized for the convolutional feature learning in C-net. Subsequently, the compact multifeature fusion and learning strategy captures the compact global second-order orderless feature representation and allows the double branches to interact with each other via the tensor sketch algorithm. Especially, the feature learning strategy of L-net is defined in affine subspace which fully characterizes the feature distribution inside each cluster space. Finally, we concatenate the outputs of the multifeature fusion and learning network, then pool and feed them into softmax loss. Based on extensive evaluations on TerraSAR-X1 and TerraSAR-X2 image scene classification datasets, CGML can yield superior performances when compared with those of several state-of-the-art networks.
+C1 [Ni, Kang; Liu, Pengfei] Nanjing Univ Posts & Telecommun, Sch Comp Sci, Nanjing 210023, Peoples R China.
+   [Ni, Kang; Liu, Pengfei] Jiangsu Key Lab Big Data Secur & Intelligent Proc, Nanjing 210023, Peoples R China.
+   [Wang, Peng] Nanjing Univ Aeronaut & Astronaut, Key Lab Radar Imaging & Microwave Photon, Minist Educ, Nanjing 210016, Peoples R China.
+   [Wang, Peng] China Univ Geosci, Hubei Key Lab Intelligent Geoinformat Proc, Wuhan 430074, Peoples R China.
+C3 Nanjing University of Posts & Telecommunications; Nanjing University of Aeronautics & Astronautics; China University of Geosciences
+RP Ni, K (corresponding author), Nanjing Univ Posts & Telecommun, Sch Comp Sci, Nanjing 210023, Peoples R China.
+EM tznikang@163.com; liupengfei199091@163.com; pengwang-B614080003@hotmail.com
+FU National Natural Science Foundation of China [61801211, 61802202]; Nanjing University of Posts, and Telecommunications Science Foundation (NUPTSF) [NY220135]; Open Research Project of The Hubei Key Laboratory of Intelligent Geo-Information Processing [KLIGIP-2019A05]
+CR [Anonymous], 2015, ICLR, V0, P0
+   Arandjelovic R, 2018, IEEE T PATTERN ANAL, V40, P1437, DOI 10.1109/CVPR.2016.572
+   Bai XR, 2019, IEEE T GEOSCI REMOTE, V57, P9223, DOI 10.1109/TGRS.2019.2925636
+   Boualleg Y, 2019, IEEE GEOSCI REMOTE S, V16, P1944, DOI 10.1109/LGRS.2019.2911855
+   Cai SJ, 2017, IEEE I CONF COMP VIS, V0, PP511, DOI 10.1109/ICCV.2017.63
+   Cao YF, 2013, CONFERENCE PROCEEDINGS OF 2013 ASIA-PACIFIC CONFERENCE ON SYNTHETIC APERTURE RADAR (APSAR), V0, P342
+   Charikar M., 2002, P INT C AUT LANG PRO, V0, PP693, DOI 10.1007/3-540-45465-9_59
+   Chen BH, 2018, PATTERN RECOGN, V76, P339, DOI 10.1016/j.patcog.2017.10.039
+   Cheng G, 2017, IEEE GEOSCI REMOTE S, V14, P1735, DOI 10.1109/LGRS.2017.2731997
+   Dai DX, 2011, IEEE GEOSCI REMOTE S, V8, P225, DOI 10.1109/LGRS.2010.2058997
+   Dede MA, 2019, IEEE GEOSCI REMOTE S, V16, P732, DOI 10.1109/LGRS.2018.2880136
+   Gao Y, 2016, PROC CVPR IEEE, V0, PP317, DOI 10.1109/CVPR.2016.41
+   Geng J, 2020, ISPRS J PHOTOGRAMM, V167, P201, DOI 10.1016/j.isprsjprs.2020.07.007
+   Geng J, 2018, IEEE T GEOSCI REMOTE, V56, P2255, DOI 10.1109/TGRS.2017.2777868
+   Geng J, 2015, IEEE GEOSCI REMOTE S, V12, P2351, DOI 10.1109/LGRS.2015.2478256
+   Gou MR, 2018, PROC CVPR IEEE, V0, PP3175, DOI 10.1109/CVPR.2018.00335
+   Gu J, 2020, IEEE T GEOSCI REMOTE, V58, P881, DOI 10.1109/TGRS.2019.2941288
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He NJ, 2020, IEEE T NEUR NET LEAR, V31, P1461, DOI 10.1109/TNNLS.2019.2920374
+   He NJ, 2018, IEEE T GEOSCI REMOTE, V56, P6899, DOI 10.1109/TGRS.2018.2845668
+   Hou B, 2016, IEEE GEOSCI REMOTE S, V13, P33, DOI 10.1109/LGRS.2015.2493242
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Huang ZL, 2021, IEEE GEOSCI REMOTE S, V18, P107, DOI 10.1109/LGRS.2020.2965558
+   Ionescu C, 2015, IEEE I CONF COMP VIS, V0, PP2965, DOI 10.1109/ICCV.2015.339
+   Kong S, 2017, PROC CVPR IEEE, V0, PP7025, DOI 10.1109/CVPR.2017.743
+   Li EZ, 2017, IEEE T GEOSCI REMOTE, V55, P5653, DOI 10.1109/TGRS.2017.2711275
+   Li PH, 2018, PROC CVPR IEEE, V0, PP947, DOI 10.1109/CVPR.2018.00105
+   Li PH, 2017, IEEE I CONF COMP VIS, V0, PP2089, DOI 10.1109/ICCV.2017.228
+   Li PH, 2015, PROC CVPR IEEE, V0, PP2348, DOI 10.1109/CVPR.2015.7298848
+   Lin TY, 2015, IEEE I CONF COMP VIS, V0, PP1449, DOI 10.1109/ICCV.2015.170
+   Liu XL, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11161942
+   Liu YF, 2018, IEEE T GEOSCI REMOTE, V56, P7109, DOI 10.1109/TGRS.2018.2848473
+   Lu XQ, 2019, IEEE T GEOSCI REMOTE, V57, P7894, DOI 10.1109/TGRS.2019.2917161
+   Ni K, 2020, IEEE GEOSCI REMOTE S, V17, P1717, DOI 10.1109/LGRS.2019.2953472
+   Ni K, 2019, IEEE GEOSCI REMOTE S, V16, P1716, DOI 10.1109/LGRS.2019.2909312
+   Ni K, 2020, INT J REMOTE SENS, V41, P1415, DOI 10.1080/01431161.2019.1667551
+   Paul S, 2019, IEEE J-STARS, V12, P2958, DOI 10.1109/JSTARS.2019.2918211
+   Reiche J, 2018, REMOTE SENS ENVIRON, V204, P147, DOI 10.1016/j.rse.2017.10.034
+   Ren ZL, 2020, IEEE T GEOSCI REMOTE, V58, P3864, DOI 10.1109/TGRS.2019.2959120
+   Ren ZL, 2018, IEEE J-STARS, V11, P3113, DOI 10.1109/JSTARS.2018.2851023
+   Shahzad M, 2019, IEEE T GEOSCI REMOTE, V57, P1100, DOI 10.1109/TGRS.2018.2864716
+   Wang JJ, 2010, PROC CVPR IEEE, V0, PP3360, DOI 10.1109/CVPR.2010.5540018
+   Wang P, 2021, IEEE T GEOSCI REMOTE, V59, P2256, DOI 10.1109/TGRS.2020.3004353
+   Wei X, 2018, LECT NOTES COMPUT SC, V11207, P365, DOI 10.1007/978-3-030-01219-9_22
+   Wu ZT, 2021, IEEE T GEOSCI REMOTE, V59, P1200, DOI 10.1109/TGRS.2020.3004911
+   Xie J, 2019, IEEE T GEOSCI REMOTE, V57, P6916, DOI 10.1109/TGRS.2019.2909695
+   Yang SY, 2018, IEEE T NEUR NET LEAR, V29, P3919, DOI 10.1109/TNNLS.2017.2688466
+   Yang SY, 2016, NEUROCOMPUTING, V184, P91, DOI 10.1016/j.neucom.2015.08.103
+   Yu H, 2016, IEEE T GEOSCI REMOTE, V54, P2400, DOI 10.1109/TGRS.2015.2501162
+   Zhang BB, 2020, PATTERN RECOGN, V100, P0, DOI 10.1016/j.patcog.2019.107167
+   Zhang HS, 2015, IEEE GEOSCI REMOTE S, V12, P1061, DOI 10.1109/LGRS.2014.2377722
+   Zhao JP, 2020, IEEE J-STARS, V13, P187, DOI 10.1109/JSTARS.2019.2954850
+   Zhao ZQ, 2017, PATTERN RECOGN, V61, P686, DOI 10.1016/j.patcog.2016.05.028
+   Zhao ZQ, 2016, NEUROCOMPUTING, V207, P772, DOI 10.1016/j.neucom.2016.05.065
+NR 54
+TC 2
+Z9 3
+U1 4
+U2 11
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 7284
+EP 7296
+DI 10.1109/JSTARS.2021.3096941
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA TS3CR
+UT WOS:000679532200010
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, Q
+   Zhang, PL
+   Hu, XD
+AF Zhang, Qi
+   Zhang, Penglin
+   Hu, Xudong
+TI Unsupervised GRNN flood mapping approach combined with uncertainty analysis using bi-temporal Sentinel-2 MSI imageries
+SO INTERNATIONAL JOURNAL OF DIGITAL EARTH
+LA English
+DT Article
+DE Unsupervised flood mapping; optical remote sensing image; spatial-spectral feature extraction; uncertainty analysis; GRNN; Sentinel-2
+ID water index ndwi; classification; features
+AB Floods occur frequently worldwide. The timely, accurate mapping of the flooded areas is an important task. Therefore, an unsupervised approach is proposed for automated flooded area mapping from bi-temporal Sentinel-2 multispectral images in this paper. First, spatial-spectral features of the images before and after the flood are extracted to construct the change magnitude image (CMI). Then, the certain flood pixels and non-flood pixels are obtained by performing uncertainty analysis on the CMI, which are considered reliable classification samples. Next, Generalized Regression Neural Network (GRNN) is used as the core classifier to generate the initial flood map. Finally, an easy-to-implement two-stage post-processing is proposed to reduce the mapping error of the initial flood map, and generate the final flood map. Different from other methods based on machine learning, GRNN is used as the classifier, but the proposed approach is automated and unsupervised because it uses samples automatically generated in uncertainty analysis for model training. Results of comparative experiments in the three sub-regions of the Poyang Lake Basin demonstrate the effectiveness and superiority of the proposed approach. Moreover, its superiority in dealing with uncertain pixels is further proven by comparing the classification accuracy of different methods on uncertain pixels.
+C1 [Zhang, Qi; Zhang, Penglin; Hu, Xudong] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+   [Zhang, Qi; Zhang, Penglin] Minist Nat Resources, Key Lab Urban Land Resources Monitoring & Simula, Shenzhen, Peoples R China.
+C3 Wuhan University; Ministry of Natural Resources of the People's Republic of China
+RP Zhang, PL (corresponding author), Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+EM zpl@whu.edu.cn
+FU National Key Research and Development Program of China [2018YFF0215006]; Open Fund of Key Laboratory of Urban Land Resources Monitoring and Simulation, Ministry of Natural Resources [KF-2019-04-046]
+CR Ahamed A, 2017, INT J APPL EARTH OBS, V61, P104, DOI 10.1016/j.jag.2017.05.006
+   Azareh A, 2021, GEOCARTO INT, V36, P2345, DOI 10.1080/10106049.2019.1695958
+   Berezowski T, 2020, IEEE J-STARS, V13, P2626, DOI 10.1109/JSTARS.2020.2995888
+   Boschetti M, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0088741
+   Celik T, 2009, IEEE GEOSCI REMOTE S, V6, P772, DOI 10.1109/LGRS.2009.2025059
+   Choubin B, 2019, SCI TOTAL ENVIRON, V651, P2087, DOI 10.1016/j.scitotenv.2018.10.064
+   Cian F, 2018, REMOTE SENS ENVIRON, V209, P712, DOI 10.1016/j.rse.2018.03.006
+   Dodangeh E, 2020, SCI TOTAL ENVIRON, V705, P0, DOI 10.1016/j.scitotenv.2019.135983
+   Dunn J. C., 1973, JOURNAL OF CYBERNETICS, V3, P32, DOI 10.1080/01969727308546046
+   Feyisa GL, 2014, REMOTE SENS ENVIRON, V140, P23, DOI 10.1016/j.rse.2013.08.029
+   Goffi A, 2020, INT J APPL EARTH OBS, V84, P0, DOI 10.1016/j.jag.2019.101951
+   Hao M, 2020, IEEE GEOSCI REMOTE S, V17, P1401, DOI 10.1109/LGRS.2019.2948660
+   Hosseini FS, 2020, SCI TOTAL ENVIRON, V711, P0, DOI 10.1016/j.scitotenv.2019.135161
+   HUETE A R, 1988, REMOTE SENSING OF ENVIRONMENT, V25, P295
+   Johnson RD, 1998, INT J REMOTE SENS, V19, P411, DOI 10.1080/014311698216062
+   Li LY, 2019, IEEE GEOSCI REMOTE S, V16, P1269, DOI 10.1109/LGRS.2019.2894350
+   Li N, 2022, IEEE GEOSCI REMOTE S, V19, P0, DOI 10.1109/LGRS.2021.3077247
+   Li YQ, 2018, IMMS 2019: 2019 2ND INTERNATIONAL CONFERENCE ON INFORMATION MANAGEMENT AND MANAGEMENT SCIENCES, V0, PP123, DOI 10.1145/3357292.3357320
+   Lv ZY, 2014, IEEE J-STARS, V7, P4644, DOI 10.1109/JSTARS.2014.2328618
+   McFeeters SK, 1996, INT J REMOTE SENS, V17, P1425, DOI 10.1080/01431169608948714
+   Mosavi A, 2022, GEOCARTO INT, V37, P2541, DOI 10.1080/10106049.2020.1829101
+   Peng B, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212492
+   Sarker C, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192331
+   Scotti V, 2020, J FLOOD RISK MANAG, V13, P0, DOI 10.1111/jfr3.12647
+   Shen L, 2010, P 18 INT C GEOINF BE, V0, PP1, DOI 10.1109/GEOINFORMATICS.2010.5567762
+   Singh KV, 2015, GEOCARTO INT, V30, P650, DOI 10.1080/10106049.2014.965757
+   Solovey T, 2020, GEOL Q, V64, P492, DOI 10.7306/gq.1509
+   SPECHT DF, 1991, IEEE T NEURAL NETWOR, V2, P568, DOI 10.1109/72.97934
+   Tong XH, 2018, ISPRS J PHOTOGRAMM, V136, P144, DOI 10.1016/j.isprsjprs.2017.11.006
+   Uddin K, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131581
+   Xu HQ, 2006, INT J REMOTE SENS, V27, P3025, DOI 10.1080/01431160600589179
+   Zhai K, 2015, GEO-SPAT INF SCI, V18, P32, DOI 10.1080/10095020.2015.1017911
+   Zhang GY, 2018, INT J REMOTE SENS, V39, P5978, DOI 10.1080/01431161.2018.1506593
+   Zhang H, 2018, IEEE J-STARS, V11, P2896, DOI 10.1109/JSTARS.2018.2846603
+NR 34
+TC 5
+Z9 5
+U1 6
+U2 14
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1753-8947
+EI 1753-8955
+J9 INT J DIGIT EARTH
+JI Int. J. Digit. Earth
+PD NOV 2
+PY 2021
+VL 14
+IS 11
+BP 1561
+EP 1581
+DI 10.1080/17538947.2021.1953160
+EA JUL 2021
+PG 21
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA WR1EX
+UT WOS:000674164100001
+DA 2023-04-26
+ER
+
+PT J
+AU Szwed, P
+AF Szwed, Piotr
+TI Classification and feature transformation with Fuzzy Cognitive Maps
+SO APPLIED SOFT COMPUTING
+LA English
+DT Article
+DE Fuzzy Cognitive Maps; Classification; Feature transformation
+ID convergence; algorithms
+AB Fuzzy Cognitive Maps (FCMs) are considered a soft computing technique combining elements of fuzzy logic and recurrent neural networks. They found multiple application in such domains as modeling of system behavior, prediction of time series, decision making and process control. Less attention, however, has been turned towards using them in pattern classification. In this work we propose an FCM based classifier with a fully connected map structure. In contrast to methods that expect reaching a steady system state during reasoning, we chose to execute a few FCM iterations (steps) before collecting output labels. Weights were learned with a gradient algorithm and logloss or cross-entropy were used as the cost function. Our primary goal was to verify, whether such design would result in a descent general purpose classifier, with performance comparable to off the shelf classical methods. As the preliminary results were promising, we investigated the hypothesis that the performance of d-step classifier can be attributed to a fact that in previous d - 1 steps it transforms the feature space by grouping observations belonging to a given class, so that they became more compact and separable. To verify this hypothesis we calculated three clustering scores for the transformed feature space. We also evaluated performance of pipelines built from FCM-based data transformer followed by a classification algorithm. The standard statistical analyzes confirmed both the performance of FCM based classifier and its capability to improve data. The supporting prototype software was implemented in Python using TensorFlow library. (C) 2021 Elsevier B.V. All rights reserved.
+C1 [Szwed, Piotr] AGH Univ Sci & Technol, Krakow, Poland.
+C3 AGH University of Science & Technology
+RP Szwed, P (corresponding author), AGH Univ Sci & Technol, Krakow, Poland.
+EM pszwed@agh.edu.pl
+CR Aguilar J., 2005, INT J COMPUT COGN, V3, P27
+   Axelrod R.M, 1976, STRUCTURE DECISION C, V0, P404
+   Bueno S, 2009, EXPERT SYST APPL, V36, P5221, DOI 10.1016/j.eswa.2008.06.072
+   Chen G., 2016, ABS161002583 CORR, V0, P0
+   Chen Y, 2015, APPL SOFT COMPUT, V37, P667, DOI 10.1016/j.asoc.2015.08.039
+   Chmiel W, 2015, COMM COM INF SC, V566, P195, DOI 10.1007/978-3-319-26404-2_16
+   DAVIES DL, 1979, IEEE T PATTERN ANAL, V1, P224, DOI 10.1109/TPAMI.1979.4766909
+   Doborjeh MG, 2018, EVOL SYST-GER, V9, P195, DOI 10.1007/s12530-017-9178-8
+   Felix G, 2019, ARTIF INTELL REV, V52, P1707, DOI 10.1007/s10462-017-9575-1
+   Froelich W, 2017, NEUROCOMPUTING, V232, P83, DOI 10.1016/j.neucom.2016.11.059
+   Gregor M., 2013, P 7 INT C INT MOD AN, V0, P78
+   Gregor M, 2013, IFIP ADV INF COMM TE, V412, P547
+   Japkowicz N., 2011, EVALUATING LEARNING, V0, P0, DOI DOI 10.1017/CBO9780511921803
+   Jastriebow A, 2014, B POL ACAD SCI-TECH, V62, P735, DOI 10.2478/bpasts-2014-0079
+   Jetter A, 2011, FUTURES, V43, P52, DOI 10.1016/j.futures.2010.05.002
+   Knight CJK, 2014, APPL SOFT COMPUT, V15, P193, DOI 10.1016/j.asoc.2013.10.030
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kosko B., 1992, NEURAL NETWORKS FUZZ, V0, P449
+   Larose D T, 2006, DATA MINING METHODS, V12, P0
+   Lazzerini B, 2011, IEEE SYST J, V5, P288, DOI 10.1109/JSYST.2011.2134730
+   Madeiro SS, 2012, 2012 11TH INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND APPLICATIONS (ICMLA 2012), VOL 1, P344, DOI 10.1109/ICMLA.2012.64
+   MILLIGAN GW, 1981, PSYCHOMETRIKA, V46, P187, DOI 10.1007/BF02293899
+   Murphy KP, 2012, MACHINE LEARNING: A PROBABILISTIC PERSPECTIVE, V0, P27
+   Napoles G, 2018, STUD FUZZ SOFT COMP, V360, P83, DOI 10.1007/978-3-319-64286-4_5
+   Napoles G, 2018, NEURAL NETWORKS, V97, P19, DOI 10.1016/j.neunet.2017.08.007
+   Napoles G, 2017, INT J APPROX REASON, V85, P79, DOI 10.1016/j.ijar.2017.03.011
+   Napoles G, 2016, INFORM SCIENCES, V349, P154, DOI 10.1016/j.ins.2016.02.040
+   Napoles G, 2016, KNOWL-BASED SYST, V91, P46, DOI 10.1016/j.knosys.2015.10.015
+   Napoles G, 2014, INTELL DATA ANAL, V18, PS77, DOI 10.3233/IDA-140710
+   Ozesmi U, 2004, ECOL MODEL, V176, P43, DOI 10.1016/j.ecolmodel.2003.10.027
+   Papageorgiou EI, 2008, APPL SOFT COMPUT, V8, P820, DOI 10.1016/j.asoc.2007.06.006
+   Papageorgiou E.I., 2017, INT C INT DEC TECHN, V0, P501
+   Papageorgiou EI, 2004, INT J APPROX REASON, V37, P219, DOI 10.1016/j.ijar.2004.01.001
+   Papageorgiou EI, 2013, IEEE T FUZZY SYST, V21, P66, DOI 10.1109/TFUZZ.2012.2201727
+   Papageorgiou EI, 2012, APPL SOFT COMPUT, V12, P3798, DOI 10.1016/j.asoc.2012.03.064
+   Papageorgiou EI, 2012, IEEE T SYST MAN CY C, V42, P150, DOI 10.1109/TSMCC.2011.2138694
+   Papakostas GA, 2012, EXPERT SYST APPL, V39, P10620, DOI 10.1016/j.eswa.2012.02.148
+   Papakostas GA, 2010, STUD FUZZ SOFT COMP, V247, P291
+   Papakostas GA, 2008, INT J PATTERN RECOGN, V22, P1461, DOI 10.1142/S0218001408006910
+   Poczeta K, 2014, IEEE INT FUZZY SYST, V0, PP1029, DOI 10.1109/FUZZ-IEEE.2014.6891587
+   Salmeron JL, 2012, APPL SOFT COMPUT, V12, P3818, DOI 10.1016/j.asoc.2012.02.003
+   Stach W, 2007, IEEE IJCNN, V0, PP1584, DOI 10.1109/IJCNN.2007.4371194
+   Stach W, 2008, IEEE INT CONF FUZZY, V0, P1977
+   Szwed P., 2013, AUTOMATYKAAUTOMATICS, V17, P229
+   Szwed P, 2016, MULTIMED TOOLS APPL, V75, P10667, DOI 10.1007/s11042-014-2047-6
+   Szwed P, 2014, INT J AP MAT COM-POL, V24, P213, DOI 10.2478/amcs-2014-0016
+   Wu KS, 2021, IEEE T MOBILE COMPUT, V20, P2281, DOI 10.1109/TMC.2020.2976007
+   Zhang W., 2017, MATH PROBL ENG, V2017, P0
+NR 49
+TC 9
+Z9 9
+U1 1
+U2 18
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1568-4946
+EI 1872-9681
+J9 APPL SOFT COMPUT
+JI Appl. Soft. Comput.
+PD JUL 15
+PY 2021
+VL 105
+IS 
+BP 
+EP 
+DI 10.1016/j.asoc.2021.107271
+EA MAR 2021
+PG 18
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications
+SC Computer Science
+GA SE0PT
+UT WOS:000651778100012
+DA 2023-04-26
+ER
+
+PT J
+AU Agren, AM
+   Larson, J
+   Paul, SS
+   Laudon, H
+   Lidberg, W
+AF Agren, Anneli M.
+   Larson, Johannes
+   Paul, Siddhartho Shekhar
+   Laudon, Hjalmar
+   Lidberg, William
+TI Use of multiple LIDAR-derived digital terrain indices and machine learning for high-resolution national-scale soil moisture mapping of the Swedish forest landscape
+SO GEODERMA
+LA English
+DT Article
+DE LIDAR; Soil moisture; Machine learning; Extreme gradient boosting; Land-use management
+ID wet-areas; classification; dynamics; patterns; runoff; dem
+AB Spatially extensive high-resolution soil moisture mapping is valuable in practical forestry and land management, but challenging. Here we present a novel technique involving use of LIDAR-derived terrain indices and machine learning (ML) algorithms capable of accurately modeling soil moisture at 2 m spatial resolution across the entire Swedish forest landscape. We used field data from about 20,000 sites across Sweden to train and evaluate multiple ML models. The predictor features (variables) included a suite of terrain indices generated from a national LIDAR digital elevation model and ancillary environmental features, including surficial geology, climate and land use, enabling adjustment of soil moisture class maps to regional or local conditions. Extreme gradient boosting (XGBoost) provided better performance for a 2-class model, manifested by Cohen's Kappa and Matthews Correlation Coefficient (MCC) values of 0.69 and 0.68, respectively, than the other tested ML methods: Artificial Neural Network, Random Forest, Support Vector Machine, and Naive Bayes classification. The depth to water index, topographic wetness index, and 'wetland' categorization derived from Swedish property maps were the most important predictors for all models. The presented technique enabled generation of a 3-class model with Cohen's Kappa and MCC values of 0.58. In addition to the classified moisture maps, we investigated the technique's potential for producing continuous soil moisture maps. We argue that the probability of a pixel being classified as wet from a 2-class model can be used as a 0-100% index (dry to wet) of soil moisture, and the resulting maps could provide more valuable information for practical forest management than classified maps.
+C1 [Agren, Anneli M.; Larson, Johannes; Paul, Siddhartho Shekhar; Laudon, Hjalmar; Lidberg, William] Swedish Univ Agr Sci, Dept Forest Ecol & Management, Umea, Sweden.
+C3 Swedish University of Agricultural Sciences
+RP Agren, AM (corresponding author), Swedish Univ Agr Sci, Dept Forest Ecol & Management, Umea, Sweden.
+EM anneli.agren@slu.se
+FU VINNOVA, EU Interreg
+CR Agren AM, 2014, HYDROL EARTH SYST SC, V18, P3623, DOI 10.5194/hess-18-3623-2014
+   Agren AM, 2014, BIOGEOSCIENCES, V11, P1199, DOI 10.5194/bg-11-1199-2014
+   Agren AM, 2015, FORESTS, V6, P2982, DOI 10.3390/f6092982
+   Akumu CE, 2019, GEODERMA, V351, P25, DOI 10.1016/j.geoderma.2019.05.014
+   Ali I, 2015, REMOTE SENS-BASEL, V7, P16398, DOI 10.3390/rs71215841
+   Bauer-Marschallingere B, 2019, IEEE T GEOSCI REMOTE, V57, P520, DOI 10.1109/TGRS.2018.2858004
+   Beven K., 1979, HYDROLOG SCI J, V24, P43, DOI 10.1080/02626667909491834
+   Beven K, 2013, WATER RESOUR RES, V49, P3071, DOI 10.1002/wrcr.20156
+   Bhargavi P, 2009, INT J COMPUT SCI NET, V9, P117
+   Biswas A, 2018, PEDOSPHERE, V28, P1, DOI 10.1016/S1002-0160(18)60001-3
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chang CC, 2011, ACM T INTEL SYST TEC, V2, P0, DOI 10.1145/1961189.1961199
+   CHEN L, 2019, ISPRS INT J GEO-INF, V8, P0
+   Chen T., 2016, KDD16 P 22 ACM, V0, PP785, DOI 10.1145/2939672.2939785
+   Chen Ting, 2020, XGBOOST EXTREME GRAD, V0, P0
+   Chicco D, 2020, BMC GENOMICS, V21, P0, DOI 10.1186/s12864-019-6413-7
+   Chicco D, 2017, BIODATA MIN, V10, P0, DOI 10.1186/s13040-017-0155-3
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   Daher M, 2019, LAND USE SWEDEN, V0, P187
+   Delancey ER, 2019, PLOS ONE, V14, P0, DOI 10.1371/journal.pone.0218165
+   Delgado R, 2019, PLOS ONE, V14, P0, DOI 10.1371/journal.pone.0222916
+   DUNN OJ, 1961, J AM STAT ASSOC, V56, P52, DOI 10.2307/2282330
+   Edwards G, 2016, SOIL TILL RES, V155, P339, DOI 10.1016/j.still.2015.08.013
+   El Hajj M, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121292
+   Erdozain M, 2020, ECOL APPL, V30, P0, DOI 10.1002/eap.2077
+   Fridman J, 2014, SILVA FENN, V48, P0, DOI 10.14214/sf.1095
+   Gao Q, 2017, SENSORS-BASEL, V17, P0, DOI 10.3390/s17091966
+   Georganos S, 2018, IEEE GEOSCI REMOTE S, V15, P607, DOI 10.1109/LGRS.2018.2803259
+   Goldman MA, 2020, GEODERMA, V373, P0, DOI 10.1016/j.geoderma.2020.114420
+   Grabs T, 2009, J HYDROL, V373, P15, DOI 10.1016/j.jhydrol.2009.03.031
+   H ogbom L., 2020, GUIDE USING WET AREA, V0, P0
+   Hird JN, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121315
+   Hjerdt KN, 2004, WATER RESOUR RES, V40, P0, DOI 10.1029/2004WR003130
+   Jaeger KL, 2019, J HYDROL X, V2, P0, DOI 10.1016/j.hydroa.2018.100005
+   Jensen CK, 2017, HYDROL PROCESS, V31, P3350, DOI 10.1002/hyp.11259
+   Jia Y, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11141655
+   KRUSKAL WH, 1952, J AM STAT ASSOC, V47, P583, DOI 10.1080/01621459.1952.10483441
+   Kuglerova L, 2017, HYDROL PROCESS, V31, P4238, DOI 10.1002/hyp.11281
+   Kuglerova L, 2014, FOREST ECOL MANAG, V334, P74, DOI 10.1016/j.foreco.2014.08.033
+   Kuglerova L, 2014, ECOLOGY, V95, P715, DOI 10.1890/13-0363.1
+   Laudon H, 2013, WATER RESOUR RES, V49, P7154, DOI 10.1002/wrcr.20520
+   Leach JA, 2017, WATER RESOUR RES, V53, P5420, DOI 10.1002/2016WR019804
+   Leempoel K, 2015, METHODS ECOL EVOL, V6, P1373, DOI 10.1111/2041-210X.12427
+   Lidberg W, 2020, AMBIO, V49, P475, DOI 10.1007/s13280-019-01196-9
+   Lidberg W, 2017, HYDROL PROCESS, V31, P4660, DOI 10.1002/hyp.11385
+   Lindsay J.B, 2020, WHITEBOXTOOLS USER M, V0, P0
+   Lindsay JB, 2016, HYDROL PROCESS, V30, P846, DOI 10.1002/hyp.10648
+   Lyon SW, 2004, HYDROL PROCESS, V18, P2757, DOI 10.1002/hyp.1494
+   MATTHEWS BW, 1975, BIOCHIM BIOPHYS ACTA, V405, P442, DOI 10.1016/0005-2795(75)90109-9
+   Maxwell AE, 2018, INT J REMOTE SENS, V39, P2784, DOI 10.1080/01431161.2018.1433343
+   Maxwell AE, 2016, PHOTOGRAMM ENG REM S, V82, P437, DOI 10.14358/PERS.82.6.437
+   McGarty C., 2018, INT ENCY SOCIAL BEHA, V0, P0, DOI DOI 10.1016/B978-0-08-097086-8.24091-9
+   Meles MB, 2020, J ENVIRON MANAGE, V255, P0, DOI 10.1016/j.jenvman.2019.109863
+   Mohanty BP, 2017, VADOSE ZONE J, V16, P0, DOI 10.2136/vzj2016.10.0105
+   Mohtashami S, 2017, SILVA FENN, V51, P0, DOI 10.14214/sf.2018
+   Murphy PNC, 2008, FOREST CHRON, V84, P568, DOI 10.5558/tfc84568-4
+   Murphy PNC, 2007, WETLANDS, V27, P846, DOI 10.1672/0277-5212(2007)27[846:MWACOT]2.0.CO;2
+   Murphy PNC, 2011, ECOL MODEL, V222, P2314, DOI 10.1016/j.ecolmodel.2011.01.003
+   Nielsen D., 2016, TREE BOOSTING XGBOOS, V0, P0
+   Nussbaum M, 2018, SOIL-GERMANY, V4, P1, DOI 10.5194/soil-4-1-2018
+   Nyberg L, 1999, HYDROL PROCESS, V13, P1557, DOI 10.1002/(SICI)1099-1085(19990815)13:11&lt;1557::AID-HYP835&gt;3.0.CO;2-S
+   ONeil GL, 2020, ENVIRON MODELL SOFTW, V126, P0, DOI 10.1016/j.envsoft.2020.104665
+   Ploum SW, 2018, HYDROL PROCESS, V32, P3049, DOI 10.1002/hyp.13184
+   Powers D. M. W., 2011, J MACH LEARN TECHNOL, V2, P37
+   QUINN PF, 1993, HYDROL PROCESS, V7, P425, DOI 10.1002/hyp.3360070407
+   RASHMI KV, 2015, 18 INT C ART INT STA, V0, P0
+   Renno CD, 2008, REMOTE SENS ENVIRON, V112, P3469, DOI 10.1016/j.rse.2008.03.018
+   Ripley B. D., 2007, PATTERN RECOGN, V0, P0, DOI DOI 10.1017/CBO9780511812651
+   Sabaghy S, 2020, REMOTE SENS ENVIRON, V239, P0, DOI 10.1016/j.rse.2019.111586
+   Seneviratne SI, 2010, EARTH-SCI REV, V99, P125, DOI 10.1016/j.earscirev.2010.02.004
+   Sorensen R, 2007, J HYDROL, V347, P79, DOI 10.1016/j.jhydrol.2007.09.001
+   STORY M, 1986, PHOTOGRAMM ENG REM S, V52, P397
+   Tenenbaum DE, 2006, HYDROL PROCESS, V20, P219, DOI 10.1002/hyp.5895
+   Wei L, 2018, AGR FOREST METEOROL, V259, P211, DOI 10.1016/j.agrformet.2018.05.012
+   White B, 2012, CAN WATER RESOUR J, V37, P333, DOI 10.4296/cwrj2011-909
+   Zeng LL, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030284
+NR 76
+TC 20
+Z9 20
+U1 3
+U2 19
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0016-7061
+EI 1872-6259
+J9 GEODERMA
+JI Geoderma
+PD DEC 15
+PY 2021
+VL 404
+IS 
+BP 
+EP 
+DI 10.1016/j.geoderma.2021.115280
+EA JUN 2021
+PG 16
+WC Soil Science
+SC Agriculture
+GA UX5LF
+UT WOS:000700886000010
+DA 2023-04-26
+ER
+
+PT J
+AU Albu, AB
+   Nagy, G
+AF Albu, Alexandra Branzan
+   Nagy, George
+TI Imaging Reality and Abstraction an Exploration of Natural and Symbolic Patterns
+SO VISAPP: PROCEEDINGS OF THE 16TH INTERNATIONAL JOINT CONFERENCE ON COMPUTER VISION, IMAGING AND COMPUTER GRAPHICS THEORY AND APPLICATIONS - VOL. 4: VISAPP
+LA English
+DT Proceedings Paper
+DE Physical Scenes; Symbols; Perception; Cognition
+AB Understanding visual symbols is a strictly human skill, as opposed to comprehending natural scenes-which is an essential survival skill, common to many species. As an illustration of the natural vs. symbolic dichotomy, selective features are computed for differentiating a satellite photograph from a map of the same geographical region. Images of physical scenes /objects are currently captured in all parts of the electromagnetic spectrum. Symbols, whether produced by man or machine, are almost always imaged in the visible range. Although natural and symbolic images differ in many ways, there is no universal set of differentiating characteristics. With respect to the traditional branches of pattern recognition, it is tempting to suggest that statistical, neural network and genetic/evolutionary pattern recognition methods are eminently suitable for images of scenes and simple symbols, whereas structural and syntactic approaches are best for more complex, composite graphical symbols.
+C1 [Albu, Alexandra Branzan] Univ Victoria, Elect & Comp Engn, Victoria, BC, Canada.
+   [Nagy, George] Rensselaer Polytech Inst, Elect Comp & Syst Engn, Troy, NY USA.
+C3 University of Victoria; Rensselaer Polytechnic Institute
+RP Albu, AB (corresponding author), Univ Victoria, Elect & Comp Engn, Victoria, BC, Canada.
+CR Al-Muhammed M.M.J., 2018, INT J INFORM TECHNOL, V8, P2598
+   ALVAREZ LW, 1970, SCIENCE, V167, P832, DOI 10.1126/science.167.3919.832
+   Ammonius S.M., 1991, ARISTOTLE CATEGORIES, V0, P0
+   [Anonymous], 1900, DOI 10.1038/NATURE14539, V0, P0
+   [Anonymous], 2006, MACH LEARN, V0, P0
+   Battaglia P. W, 2018, ARXIV180601261V3, V0, P0
+   Bellman R. E., 1961, ADAPTIVE CONTROL PRO, V0, P0, DOI DOI 10.1515/9781400874668
+   Bunke H, 2012, PATTERN RECOGN LETT, V33, P811, DOI 10.1016/j.patrec.2011.04.017
+   CANNY J, 1986, IEEE T PATTERN ANAL, V8, P679, DOI 10.1109/TPAMI.1986.4767851
+   Del Viva M., 2013, PLOS ONE, V8, P7
+   Farabet C, 2013, IEEE T PATTERN ANAL, V35, P1915, DOI 10.1109/TPAMI.2012.231
+   FU KS, 1982, SYNTACTIC PATTERN RE, V0, P0
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Hjort N. L., 1995, PATTERN RECOGN, V1st, P0
+   Landis EN, 2007, MATER STRUCT, V40, P357, DOI 10.1617/s11527-006-9145-5
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Linkeos Technology Ltd, 2020, COSM RAY MUOGR, V0, P0
+   Llados J, 2003, 2003 INTERNATIONAL CONFERENCE ON IMAGE PROCESSING, VOL 2, PROCEEDINGS
+   Mattson MP, 2014, FRONT NEUROSCI-SWITZ, V8, P0, DOI 10.3389/fnins.2014.00265
+   Mulligan J, 2009, MATH EDUC RES J, V21, P33, DOI 10.1007/BF03217544
+   Nagy G, 2016, PATTERN RECOGN LETT, V79, P106, DOI 10.1016/j.patrec.2015.11.024
+   Nayef N, 2019, ARXIV190700945CSCV I, V0, P0
+   OGorman L, 1988, P IEEE INT C AC SPEE, V0, P0
+   Redmond E, 2020, PLACES CIVIL WAR HIS, V0, P0
+   Renton G., 2009, P INT C DOC AN REC W, V1, P62
+   Rezvanifar Alireza, 2019, IPSJ TRANSACTIONS ON COMPUTER VISION AND APPLICATIONS, V11, P0, DOI 10.1186/s41074-019-0055-1
+   Rosten E, 2005, IEEE I CONF COMP VIS, V0, P1508
+   Searls D.B., 1982, STRUCTURED DOCUMENT, V0, P0
+   Stokes D., 2014, DOMINANCE VISUAL, V0, P0
+   Warren E., 2005, P 29 TH C INT GROUP, V4, P305
+NR 30
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SCITEPRESS
+PI SETUBAL
+PA AV D MANUELL, 27A 2 ESQ, SETUBAL, 2910-595, PORTUGAL
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2021
+VL 0
+IS 
+BP 415
+EP 422
+DI 10.5220/0010295704150422
+PG 8
+WC Computer Science, Artificial Intelligence; Computer Science, Theory & Methods; Imaging Science & Photographic Technology
+SC Computer Science; Imaging Science & Photographic Technology
+GA BR7NM
+UT WOS:000668577400044
+DA 2023-04-26
+ER

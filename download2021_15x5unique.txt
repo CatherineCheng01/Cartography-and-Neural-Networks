@@ -1,0 +1,507 @@
+
+PT J
+AU Jiang, X
+   Zhang, XC
+   Xin, QC
+   Xi, X
+   Zhang, PC
+AF Jiang, Xin
+   Zhang, Xinchang
+   Xin, Qinchuan
+   Xi, Xu
+   Zhang, Pengcheng
+TI Arbitrary-Shaped Building Boundary-Aware Detection With Pixel Aggregation Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Feature extraction; Buildings; Image segmentation; Semantics; Remote sensing; Optimization; Image edge detection; Boundary quality; building extraction; high resolution; structural similarity (SSIM)
+ID convolutional neural-network; semantic segmentation; lidar data; extraction; images; scale; classification; texture
+AB Large-scale building extraction is an essential work in the field of a remote sensing image analysis. The high-resolution image extraction methods based on deep learning have achieved state-of-the-art performance. However, most of the previous work has focused on region accuracy rather than boundary quality. Aiming at the low-accuracy problems and incomplete boundary of the building extraction method, we propose a predictive optimization architecture, BAPANet. Notably, the architecture consists of an encoder-decoder network, and residual refinement modules responsible for prediction, and refinement. The objective function optimizes the network in the form of three levels (pixel, feature map, and patch) by fusing three loss functions: binary cross-entropy, intersection over-union, and structural similarity. The five public datasets' experimental results show that the extraction method in this article has high region accuracy, and the boundary of buildings is clear and complete.
+C1 [Jiang, Xin; Xin, Qinchuan] Sun Yat Sen Univ, Guangzhou 510275, Peoples R China.
+   [Zhang, Xinchang] Guangzhou Univ, Guangzhou 510275, Peoples R China.
+   [Xi, Xu] Suzhou Univ Sci & Technol, Suzhou 215000, Peoples R China.
+   [Zhang, Pengcheng] Guangzhou Urban Planning & Design Survey Res Inst, Guangzhou 510275, Peoples R China.
+C3 Sun Yat Sen University; Guangzhou University; Suzhou University of Science & Technology
+RP Zhang, XC (corresponding author), Guangzhou Univ, Guangzhou 510275, Peoples R China.
+EM jiangx3@mail.sustech.edu.cn; eeszxc@mail.sysu.edu.cn; xinqinchuan@mail.sysu.edu.cn; xixu2016sysu@outlook.com; 1260142133@qq.com
+FU National Key R&D Program of China [2018YFB2100702, 2017YFA0604300, 2017YFA0604400]; National Natural Science Foundation of China [41875122, 41431178, 41801351, 41671453]; Natural Science Foundation of Guangdong Province [2016A030311016]; Research Institute of Henan Spatio-Temporal Big Data Industrial Technology [2017DJA001, BTZH2018001]; Hunan Botong Information Company, Ltd. [BTZH2018001]; Western Talent [2018XBYJRC004]; Guangdong Top Young Talents of Science and Technology [2017TQ04Z359]
+CR Audebert N, 2018, ISPRS J PHOTOGRAMM, V140, P20, DOI 10.1016/j.isprsjprs.2017.11.011
+   Audebert N, 2017, LECT NOTES COMPUT SC, V10111, P180, DOI 10.1007/978-3-319-54181-5_12
+   Awrangjeb M, 2011, INT ARCH PHOTOGRAMM, V38-3, P143
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Berman M, 2018, PROC CVPR IEEE, V0, PP4413, DOI 10.1109/CVPR.2018.00464
+   Chai DF, 2020, ISPRS J PHOTOGRAMM, V161, P309, DOI 10.1016/j.isprsjprs.2020.01.023
+   Chen Q, 2019, ISPRS J PHOTOGRAMM, V147, P42, DOI 10.1016/j.isprsjprs.2018.11.011
+   Csurka G, 2013, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2013, V0, P0, DOI DOI 10.5244/C.27.32
+   Deng ZJ, 2018, PROCEEDINGS OF THE TWENTY-SEVENTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P684
+   Galvanin EAD, 2012, IEEE T GEOSCI REMOTE, V50, P981, DOI 10.1109/TGRS.2011.2163823
+   [Дунаева Александра Валерьевна Dunaeva A.V.], 2017, ВЕСТНИК ЮЖНО-УРАЛЬСКОГО ГОСУДАРСТВЕННОГО УНИВЕРСИТЕТА. СЕРИЯ: ВЫЧИСЛИТЕЛЬНАЯ МАТЕМАТИКА И ИНФОРМАТИКА BULLETIN OF THE SOUTH URAL STATE UNIVERSITY. SERIES: COMPUTATIONAL MATHEMATICS AND SOFTWARE ENGINEERING VESTNIK YUZHNO-URALSKOGO GOSUDARSTVENNOGO UNIVERSITETA. SERIYA: VYCHISLITELNAYA MATEMATIKA I INFORMATIKA, V6, P84, DOI 10.14529/cmse170306
+   Ferraioli G, 2010, IEEE T GEOSCI REMOTE, V48, P1224, DOI 10.1109/TGRS.2009.2029338
+   Hamer MJM, 2019, DISASTER MED PUBLIC, V13, P400, DOI 10.1017/dmp.2018.44
+   He KM, 2017, IEEE I CONF COMP VIS, V0, PP2980, DOI 10.1109/TPAMI.2018.2844175
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang JF, 2019, ISPRS J PHOTOGRAMM, V151, P91, DOI 10.1016/j.isprsjprs.2019.02.019
+   Huang X, 2017, IEEE J-STARS, V10, P654, DOI 10.1109/JSTARS.2016.2587324
+   Huang ZM, 2016, INT GEOSCI REMOTE SE, V0, PP1835, DOI 10.1109/IGARSS.2016.7729471
+   Islam M.A., 2017, BIODIESEL PRODUCTION, V0, P0, DOI DOI 10.5244/C.31.61
+   Karimi D, 2020, IEEE T MED IMAGING, V39, P499, DOI 10.1109/TMI.2019.2930068
+   Laliberte AS, 2009, IEEE T GEOSCI REMOTE, V47, P761, DOI 10.1109/TGRS.2008.2009355
+   Li E, 2017, IEEE J-STARS, V10, P906, DOI 10.1109/JSTARS.2016.2603184
+   Li XX, 2017, PROC CVPR IEEE, V0, PP6459, DOI 10.1109/CVPR.2017.684
+   Lin C, 1998, COMPUT VIS IMAGE UND, V72, P101, DOI 10.1006/cviu.1998.0724
+   LIOW YT, 1990, COMPUT VISION GRAPH, V49, P242, DOI 10.1016/0734-189X(90)90139-M
+   Liu PH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070830
+   Liu Y, 1900, V2019, V0, P0
+   Liu YC, 2018, ISPRS J PHOTOGRAMM, V145, P78, DOI 10.1016/j.isprsjprs.2017.12.007
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Maltezos E, 2019, IEEE GEOSCI REMOTE S, V16, P155, DOI 10.1109/LGRS.2018.2867736
+   Marcos D, 2018, ISPRS J PHOTOGRAMM, V145, P96, DOI 10.1016/j.isprsjprs.2018.01.021
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Mnih V., 2013, MACHINE LEARNING AER, V0, P0
+   Peng C, 2017, PROC CVPR IEEE, V0, PP1743, DOI 10.1109/CVPR.2017.189
+   Perazzi F, 2012, PROC CVPR IEEE, V0, PP733, DOI 10.1109/CVPR.2012.6247743
+   Rottensteiner F., 2012, ISPRS ANN PHOTOGRAMM, V0, P293
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sirmacek B, 2008, 23RD INTERNATIONAL SYMPOSIUM ON COMPUTER AND INFORMATION SCIENCES, V0, P6
+   Sohn G, 2007, ISPRS J PHOTOGRAMM, V62, P43, DOI 10.1016/j.isprsjprs.2007.01.001
+   Sun Y, 2018, ISPRS J PHOTOGRAMM, V143, P3, DOI 10.1016/j.isprsjprs.2018.06.005
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Tally RT, 2018, FRONT COLLECT, V0, PP599, DOI 10.1007/978-3-319-72478-2_32
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Wang TT, 2017, IEEE I CONF COMP VIS, V0, PP4039, DOI 10.1109/ICCV.2017.433
+   Xu YY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091461
+   Xu YY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010144
+   Yang HL, 2018, IEEE J-STARS, V11, P2600, DOI 10.1109/JSTARS.2018.2835377
+   Yang MK, 2018, PROC CVPR IEEE, V0, PP3684, DOI 10.1109/CVPR.2018.00388
+   Yuan JY, 2018, IEEE T PATTERN ANAL, V40, P2793, DOI 10.1109/TPAMI.2017.2750680
+   Zhang XY, 2016, REMOTE SENS ENVIRON, V178, P172, DOI 10.1016/j.rse.2016.03.015
+   Zhang Y, 1999, ISPRS J PHOTOGRAMM, V54, P50, DOI 10.1016/S0924-2716(98)00027-6
+   Zhao WZ, 2016, ISPRS J PHOTOGRAMM, V113, P155, DOI 10.1016/j.isprsjprs.2016.01.004
+   Zhong C, 2015, INT GEOSCI REMOTE SE, V0, PP3345, DOI 10.1109/IGARSS.2015.7326535
+NR 56
+TC 6
+Z9 6
+U1 2
+U2 8
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 2699
+EP 2710
+DI 10.1109/JSTARS.2020.3017934
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA XW3GG
+UT WOS:000735511500001
+DA 2023-04-26
+ER
+
+PT J
+AU Kim, HG
+   Hong, S
+   Chon, TS
+   Joo, GJ
+AF Kim, Hyo Gyeom
+   Hong, Sungwon
+   Chon, Tae-Soo
+   Joo, Gea-Jae
+TI Spatial patterning of chlorophyll a and water-quality measurements for determining environmental thresholds for local eutrophication in the Nakdong River basin
+SO ENVIRONMENTAL POLLUTION
+LA English
+DT Article
+DE Geo-SOM; Linear mixed model; Biological threshold; Phosphorus; Regional variation; Random effect
+ID phosphorus relationships; nutrient relationships; land-use; nitrogen; lake; model; classification; downstream; cluster; blooms
+AB Management of water-quality in a river ecosystem needs to be focused on susceptible regions to eutrophication based on proper measurements. The stress response relationships between nutrients and primary productivity of phytoplankton allow the derivation of ecologically acceptable thresholds of stressors under field conditions. However, spatio-temporal variations in heterogeneous environmental conditions have hindered the development of locally applicable criteria. To address these issues, we utilized a combination of a geographically specialized artificial neural network (Geo-SOM, geo-self-organizing map) and linear mixed-effect models (LMMs). The model was applied to a 24-month dataset of 54 stations that spanned a wide spatial gradient in the Nakdong River basin. The Geo-SOM classified 1286 observations in the basin into 13 clusters that were regionally and seasonally distinct. Inclusion of the random effects of Geo-SOM clustering improved the performance of each LMM, which suggests that there were significant spatio-temporal variations in the Chla-stressor relationships. These variations arise owing to differences in background seasonality and the effects of local pollutant variables and land-use patterns. Among the 16 environmental variables, the major stressors for Chla were total phosphate (TP) as a nutrient and biological oxygen demand (BOD) as a non-nutrient according to the results of both Geo-SOM and LMM analyses. Based on LMMs with the random effect of the Geo-SOM clusters on the intercept and the slope, we can propose recommended thresholds for TP (18.5 mu g L-1) and BOD (1.6 mg L-1) in the Nakdong River. The combined method of LMM and Geo-SOM will be useful in guiding appropriate local water-quality-management strategies and in the global development of large-scale nutrient criteria. (C) 2020 Published by Elsevier Ltd.
+C1 [Kim, Hyo Gyeom; Hong, Sungwon; Chon, Tae-Soo; Joo, Gea-Jae] Pusan Natl Univ, Dept Biol Sci, Busan 46241, South Korea.
+   [Hong, Sungwon] Kangwon Natl Univ, Grad Sch, Dept Forest Environm Syst, Chunchon 24341, South Korea.
+   [Chon, Tae-Soo] Ecol & Future Res Assoc, Busan 46228, South Korea.
+C3 Pusan National University; Kangwon National University
+RP Joo, GJ (corresponding author), Pusan Natl Univ, Dept Biol Sci, Busan 46241, South Korea.
+EM gjjoo@pusan.ac.kr
+FU NRF (National Research Foundation of Korea) [NRF-2016R1D1A1B01009492]; National Research Foundation of Korea [4199990314285] Funding Source: Korea Institute of Science & Technology Information (KISTI), National Science & Technology Information Service (NTIS)
+CR [Anonymous], 2018, LANG ENV STAT COMP, V0, P0
+   *ANZECC, 2000, AUSTR NZ GUID FRESH, V0, P0
+   Astel A, 2007, WATER RES, V41, P4566, DOI 10.1016/j.watres.2007.06.030
+   Bacao F, 2004, LECT NOTES COMPUT SC, V3234, P22
+   Bowling LC, 2013, HARMFUL ALGAE, V30, P27, DOI 10.1016/j.hal.2013.08.002
+   Burnham K.P., 2002, MODEL SELECTION MULT, V2, P0
+   Camargo JA, 2005, WATER RES, V39, P3376, DOI 10.1016/j.watres.2005.05.048
+   Cardigos P, 2009, ASSER INT SPORT LAW, V0, PP451, DOI 10.1007/978-90-6704-487-5_28
+   Chambers PA, 2012, J ENVIRON QUAL, V41, P7, DOI 10.2134/jeq2010.0273
+   Chon TS, 2011, ECOL INFORM, V6, P50, DOI 10.1016/j.ecoinf.2010.11.002
+   Clement F, 2017, ECOL INDIC, V72, P627, DOI 10.1016/j.ecolind.2016.09.001
+   DAVIES DL, 1979, IEEE T PATTERN ANAL, V1, P224, DOI 10.1109/TPAMI.1979.4766909
+   Dodds W.K., 2009, EUTROPHICATION US FR, V0, P0
+   Dodds WK, 2016, INLAND WATERS, V6, P155, DOI 10.5268/IW-6.2.909
+   Dodds WK, 1998, WATER RES, V32, P1455, DOI 10.1016/S0043-1354(97)00370-9
+   Dodds WK, 2002, CAN J FISH AQUAT SCI, V59, P865, DOI 10.1139/F02-063
+   Ensign SH, 2001, WATER RES, V35, P3381, DOI 10.1016/S0043-1354(01)00060-4
+   Filstrup CT, 2014, LIMNOL OCEANOGR, V59, P1691, DOI 10.4319/lo.2014.59.5.1691
+   Haggard BE, 2013, J ENVIRON QUAL, V42, P437, DOI 10.2134/jeq2012.0181
+   Hong S, 2020, ECOL INDIC, V109, P0, DOI 10.1016/j.ecolind.2019.105844
+   Juha Vesanto, 1999, P MATLAB DSP C ESP F, V0, P16
+   KASS RE, 1995, J AM STAT ASSOC, V90, P773, DOI 10.1080/01621459.1995.10476572
+   Kim HG, 2019, ECOL MODEL, V398, P67, DOI 10.1016/j.ecolmodel.2019.02.003
+   Kim M, 2011, ASIAN J TECHNOL INNO, V19, P67, DOI 10.1080/19761597.2011.578426
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   Liang XQ, 2014, ENVIRON POLLUT, V192, P251, DOI 10.1016/j.envpol.2014.04.007
+   Liu J, 2018, LANDSCAPE URBAN PLAN, V176, P51, DOI 10.1016/j.landurbplan.2018.04.006
+   Liu WZ, 2012, HYDROL PROCESS, V26, P570, DOI 10.1002/hyp.8157
+   Lohman K, 1999, CAN J FISH AQUAT SCI, V56, P124, DOI 10.1139/cjfas-56-1-124
+   Milosevic D, 2016, ECOL INDIC, V61, P777, DOI 10.1016/j.ecolind.2015.10.029
+   OHare MT, 2018, FRONT PLANT SCI, V9, P0, DOI 10.3389/fpls.2018.00451
+   Paerl HW, 2008, SCIENCE, V320, P57, DOI 10.1126/science.1155398
+   Phillips G, 2008, AQUAT ECOL, V42, P213, DOI 10.1007/s10452-008-9180-0
+   RECKHOW KH, 1993, ECOL MODEL, V70, P35, DOI 10.1016/0304-3800(93)90071-Y
+   Royer TV, 2008, J ENVIRON QUAL, V37, P437, DOI 10.2134/jeq2007.0344
+   Son Heejong, 2013, JOURNAL OF KOREAN SOCIETY OF ENVIRONMENTAL ENGINEERS 대한환경공학회지, V35, P430
+   Soranno PA, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0135454
+   Sun RH, 2013, J AM WATER RESOUR AS, V49, P741, DOI 10.1111/jawr.12033
+   Taranu ZE, 2008, ECOSYSTEMS, V11, P715, DOI 10.1007/s10021-008-9153-0
+   Ultsch A., 2005, P EUR S ART NEUR NET, V0, P1
+   *USEPA, 2006, EPA641B06002 OFF WAT, V0, P0
+   Vanormelingen P, 2008, FRESHWATER BIOL, V53, P2170, DOI 10.1111/j.1365-2427.2008.02040.x
+   Vesanto J, 2000, IEEE T NEURAL NETWOR, V11, P586, DOI 10.1109/72.846731
+   Vyverman W, 2007, ECOLOGY, V88, P1924, DOI 10.1890/06-1564.1
+   Wagenmakers EJ, 2004, PSYCHON B REV, V11, P192, DOI 10.3758/BF03206482
+   Wagner T, 2011, FRESHWATER BIOL, V56, P1811, DOI 10.1111/j.1365-2427.2011.02621.x
+   Yu Q, 2015, WATER-SUI, V7, P2184, DOI 10.3390/w7052184
+   Zuur Alain F., 2009, P1, V0, P0
+NR 49
+TC 15
+Z9 16
+U1 2
+U2 23
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0269-7491
+EI 1873-6424
+J9 ENVIRON POLLUT
+JI Environ. Pollut.
+PD JAN 1
+PY 2021
+VL 268
+IS 
+BP 
+EP 
+DI 10.1016/j.envpol.2020.115701
+PG 11
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA PH6XN
+UT WOS:000600553000107
+PM 33045591
+DA 2023-04-26
+ER
+
+PT J
+AU Yu, NG
+   Yu, HJ
+   Liao, YS
+   Wang, ZX
+   Sie, O
+AF Yu, Naigong
+   Yu, Hejie
+   Liao, Yishen
+   Wang, Zongxia
+   Sie, Ouattara
+TI A Model of Spatial Cell Development in Rat Hippocampus Based on Artificial Neural Network
+SO JOURNAL OF HEALTHCARE ENGINEERING
+LA English
+DT Article
+ID cognitive map; place cells; grid cells; field
+AB Physiological studies have shown that the hippocampal structure of rats develops at different stages, in which the place cells continue to develop during the whole juvenile period of rats and mature after the juvenile period. As the main information source of place cells, grid cells should mature earlier than place cells. In order to make better use of the biological information exhibited by the rat brain hippocampus in the environment, we propose a position cognition model based on the spatial cell development mechanism of rat hippocampus. The model uses a recurrent neural network with parametric bias (RNNPB) to simulate changes in the discharge characteristics during the development of a single stripe cell. The oscillatory interference mechanism is able to fuse the developing stripe waves, thus indirectly simulating the developmental process of the grid cells. The output of the grid cells is then used as the information input of the place cells, whose development process is simulated by BP neural network. After the place cells matured, the position matrix generated by the place cell group was used to realize the position cognition of rats in a given spatial region. The experimental results show that this model can simulate the development process of grid cells and place cells, and it can realize high precision positioning in the given space area. Moreover, the experimental effect of cognitive map construction using this model is basically consistent with the effect of RatSLAM, which verifies the validity and accuracy of the model.
+C1 [Yu, Naigong; Yu, Hejie; Liao, Yishen; Wang, Zongxia; Sie, Ouattara] Beijing Univ Technol, Fac Informat Technol, Beijing Key Lab Computat Intelligence & Intellige, Beijing 100124, Peoples R China.
+C3 Beijing University of Technology
+RP Yu, NG (corresponding author), Beijing Univ Technol, Fac Informat Technol, Beijing Key Lab Computat Intelligence & Intellige, Beijing 100124, Peoples R China.
+EM yunaigong@bjut.edu.cn; 1453251781@qq.com; 1060884338@qq.com; wzongxia@bjut.edu.cn; sie_chine@bjut.edu.cn
+FU National Science Foundation of China [62076014]; Beijing Natural Science Foundation [4162012]
+CR Ball D, 2013, AUTON ROBOT, V34, P149, DOI 10.1007/s10514-012-9317-9
+   Bicanski A, 2018, ELIFE, V7, P0, DOI 10.7554/eLife.33752
+   Burgess N, 1996, HIPPOCAMPUS, V6, P749
+   Byrne P, 2007, PSYCHOL REV, V114, P340, DOI 10.1037/0033-295X.114.2.340
+   Castro L, 2014, BIOL CYBERN, V108, P133, DOI 10.1007/s00422-013-0581-3
+   Chen Y, 2018, J SCI FOOD AGR, V98, P3022, DOI 10.1002/jsfa.8801
+   Erdem UM, 2015, NEUROBIOL LEARN MEM, V117, P109, DOI 10.1016/j.nlm.2014.07.003
+   Franz MO, 2000, ROBOT AUTON SYST, V30, P133, DOI 10.1016/S0921-8890(99)00069-X
+   Gerlei K, 2020, NAT COMMUN, V11, P0, DOI 10.1038/s41467-020-17500-1
+   Giocomo LM, 2007, SCIENCE, V315, P1719, DOI 10.1126/science.1139207
+   Gonner L, 2017, FRONT COMPUT NEUROSC, V11, P0, DOI 10.3389/fncom.2017.00084
+   Hafting T, 2005, NATURE, V436, P801, DOI 10.1038/nature03721
+   Heft H, 2013, J ENVIRON PSYCHOL, V33, P14, DOI 10.1016/j.jenvp.2012.09.002
+   Kasac J, 2011, IEEE T CONTR SYST T, V19, P1587, DOI 10.1109/TCST.2010.2084088
+   Krupic J, 2012, SCIENCE, V337, P853, DOI 10.1126/science.1222403
+   Lyttle D, 2013, HIPPOCAMPUS, V23, P729, DOI 10.1002/hipo.22132
+   Mhatre H, 2012, HIPPOCAMPUS, V22, P320, DOI 10.1002/hipo.20901
+   Milford M, 2016, SPRINGER TRAC ADV RO, V114, P467, DOI 10.1007/978-3-319-28872-7_27
+   Nakazawa K, 2004, NAT REV NEUROSCI, V5, P361, DOI 10.1038/nrn1385
+   Neher T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0181618
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   OKeefe J, 1996, NATURE, V381, P425, DOI 10.1038/381425a0
+   Park JC, 2018, IEEE T COGN DEV SYST, V10, P545, DOI 10.1109/TCDS.2017.2679765
+   Save E, 2000, HIPPOCAMPUS, V10, P64, DOI 10.1002/(SICI)1098-1063(2000)10:1<64::AID-HIPO7>3.3.CO;2-P
+   Shipston-Sharman O, 2016, J PHYSIOL-LONDON, V594, P6547, DOI 10.1113/JP270630
+   Solstad T, 2006, HIPPOCAMPUS, V16, P1026, DOI 10.1002/hipo.20244
+   Tian B, 2013, IEEE INT C INT ROBOT, V0, PP1562, DOI 10.1109/IROS.2013.6696557
+   Tocker G, 2015, HIPPOCAMPUS, V25, P1599, DOI 10.1002/hipo.22481
+   Tolman E.C., 1932, AM J PSYCHOL, V63, P64
+   Vantomme G, 2020, CELL REP, V31, P0, DOI 10.1016/j.celrep.2020.107747
+   Wagatsuma H, 2007, COGN NEURODYNAMICS, V1, P119, DOI 10.1007/s11571-006-9013-6
+   Weber SN, 2018, ELIFE, V7, P0, DOI 10.7554/eLife.34560
+   Welinder PE, 2008, HIPPOCAMPUS, V18, P1283, DOI 10.1002/hipo.20519
+   Wills TJ, 2010, SCIENCE, V328, P1573, DOI 10.1126/science.1188224
+   Yu FW, 2019, BIOL CYBERN, V113, P515, DOI 10.1007/s00422-019-00806-9
+   Yu SM, 2020, FRONT NEUROROBOTICS, V14, P0, DOI 10.3389/fnbot.2020.568091
+NR 36
+TC 0
+Z9 0
+U1 3
+U2 14
+PU HINDAWI LTD
+PI LONDON
+PA ADAM HOUSE, 3RD FLR, 1 FITZROY SQ, LONDON, W1T 5HF, ENGLAND
+SN 2040-2295
+EI 2040-2309
+J9 J HEALTHC ENG
+JI J. Healthc. Eng.
+PD OCT 26
+PY 2021
+VL 2021
+IS 
+BP 
+EP 
+DI 10.1155/2021/5607999
+PG 14
+WC Health Care Sciences & Services
+SC Health Care Sciences & Services
+GA XB5BU
+UT WOS:000721345400004
+PM 34745501
+DA 2023-04-26
+ER
+
+PT J
+AU Zuo, YF
+   Fang, YM
+   An, P
+   Shang, XW
+   Yang, JN
+AF Zuo, Yifan
+   Fang, Yuming
+   An, Ping
+   Shang, Xiwu
+   Yang, Junnan
+TI Frequency-Dependent Depth Map Enhancement via Iterative Depth-Guided Affine Transformation and Intensity-Guided Refinement
+SO IEEE TRANSACTIONS ON MULTIMEDIA
+LA English
+DT Article
+DE Color; Image edge detection; Image resolution; Optimization; Robustness; Encoding; Dictionaries; Intensity-guided depth map enhancement; depth-guided intensity image filtering; deep convolutional neual network; residual learning; dense connection
+ID superresolution; recovery
+AB Recently, deep convolutional neural network sho-ws significant improvement for intensity-guided depth map enhancement. The most networks focus on either increasing depth or easing features propagation via residual learning and dense connection. However, it has not been explicitly considered yet to mitigate the artifacts caused by the differences of the distributions between the depth map and the corresponding color image, e.g., edge misalignment. In this paper, a novel depth-guided affine transformation is used to filter out the unrelated intensity features, which is further used to refine the depth features. Since the quality of initial depth features is low, the depth-guided intensity features filtering and the intensity-guided depth features refinement are iteratively performed, which progressively promotes effects of such tasks. To make full use of the iterations, all the refined depth features are dense connected followed by a 1 x 1 convolution layer. In addition, to improve the performance in the case of large upsampling factors (e.g., 16x), the depth features are enhanced from coarse to fine. In each frequency-dependent refinement of the depth features, the above iterative subnetwork as well as the residual learning are introduced. The proposed method is tested for the noise-free and noisy cases which compares against 16 state-of-the-art methods. Our experimental results show the improved performances based on the qualitative and quantitative evaluations.
+C1 [Zuo, Yifan; Fang, Yuming] Jiangxi Univ Finance & Econ, Sch Informat Management, Nanchang 330013, Jiangxi, Peoples R China.
+   [An, Ping] Shanghai Univ, Sch Commun & Informat Engn, Shanghai 200444, Peoples R China.
+   [Shang, Xiwu] Shanghai Univ Engn Sci, Sch Elect & Elect Engn, Shanghai 201620, Peoples R China.
+   [Yang, Junnan] Univ Technol Sydney, Fac Engn & Informat Technol, Ultimo, NSW 2007, Australia.
+C3 Jiangxi University of Finance & Economics; Shanghai University; Shanghai University of Engineering Science; University of Technology Sydney
+RP Fang, YM (corresponding author), Jiangxi Univ Finance & Econ, Sch Informat Management, Nanchang 330013, Jiangxi, Peoples R China.
+EM kenny0410@126.com; leo.fangyuming@foxmail.com; anping@shu.edu.cn; dxsxw@126.com; junnan.yang@student.uts.edu.au
+FU "2030 Megaproject" New Generation Artificial Intelligence [2018AAA0100601]; National Natural Science Foundation of China [61901197, 61822109]; Natural Science Foundation of Jiangxi Province [20192BAB217005, 20181BBH80002]; Foundation of Jiangxi Provincial Department of Education [GJJ190288]; Jiangxi province postdoctoral research projects [9KY52]; Double Thousand Plan of Jiangxi Province
+CR Bose NK, 2006, IEEE T IMAGE PROCESS, V15, P2239, DOI 10.1109/TIP.2006.877406
+   Chen BL, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P1473
+   Choi O, 2014, IEEE T IMAGE PROCESS, V23, P3321, DOI 10.1109/TIP.2014.2329766
+   Deng Xin, 2019, IEEE T CIRCUITS SYST, V0, P0
+   Diebel J., 2005, P ADV NEUR INF PROC, V18, P291
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Dong WS, 2017, IEEE T MULTIMEDIA, V19, P293, DOI 10.1109/TMM.2016.2613824
+   Ferstl D, 2015, IEEE I CONF COMP VIS, V0, PP513, DOI 10.1109/ICCV.2015.66
+   Ferstl D, 2013, IEEE I CONF COMP VIS, V0, PP993, DOI 10.1109/ICCV.2013.127
+   Garcia F, 2012, IEEE J-STSP, V6, P425, DOI 10.1109/JSTSP.2012.2207090
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   He KM, 2010, LECT NOTES COMPUT SC, V6311, P1
+   Hua KL, 2016, IEEE MULTIMEDIA, V23, P72, DOI 10.1109/MMUL.2015.52
+   Huang LQ, 2019, IEEE SIGNAL PROC LET, V26, P1723, DOI 10.1109/LSP.2019.2944646
+   Hui TW, 2016, LECT NOTES COMPUT SC, V9907, P353, DOI 10.1007/978-3-319-46487-9_22
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Kiechle M, 2013, IEEE I CONF COMP VIS, V0, PP1545, DOI 10.1109/ICCV.2013.195
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kolb A, 2010, COMPUT GRAPH FORUM, V29, P141, DOI 10.1111/j.1467-8659.2009.01583.x
+   Kopf J, 2007, ACM T GRAPHIC, V26, P0, DOI 10.1145/1239451.1239547
+   Kwon H, 2015, PROC CVPR IEEE, V0, PP159, DOI 10.1109/CVPR.2015.7298611
+   Li Y, 2016, LECT NOTES COMPUT SC, V9907, P717, DOI 10.1007/978-3-319-46487-9_44
+   Liu MY, 2013, PROC CVPR IEEE, V0, PP169, DOI 10.1109/CVPR.2013.29
+   Liu W, 2017, IEEE T IMAGE PROCESS, V26, P0, DOI 10.1109/TIP.2016.2612826
+   Liu XM, 2019, IEEE T IMAGE PROCESS, V28, P1636, DOI 10.1109/TIP.2018.2875506
+   Lo KH, 2018, IEEE T CYBERNETICS, V48, P371, DOI 10.1109/TCYB.2016.2637661
+   Mayer N, 2016, PROC CVPR IEEE, V0, PP4040, DOI 10.1109/CVPR.2016.438
+   Min DB, 2014, IEEE T IMAGE PROCESS, V23, P5638, DOI 10.1109/TIP.2014.2366600
+   Min DB, 2012, IEEE T IMAGE PROCESS, V21, P1176, DOI 10.1109/TIP.2011.2163164
+   Park J, 2014, IEEE T IMAGE PROCESS, V23, P5559, DOI 10.1109/TIP.2014.2361034
+   Riegler G., 2016, P BRIT MACH VIS C, V0, P0
+   Riegler G, 2016, LECT NOTES COMPUT SC, V9907, P268, DOI 10.1007/978-3-319-46487-9_17
+   Song WF, 2020, IEEE T MULTIMEDIA, V22, P1220, DOI 10.1109/TMM.2019.2941776
+   Song XB, 2019, IEEE T CIRC SYST VID, V29, P2323, DOI 10.1109/TCSVT.2018.2866399
+   Szeliski R, 2008, IEEE T PATTERN ANAL, V30, P1068, DOI 10.1109/TPAMI.2007.70844
+   Wang ZF, 2015, PROCEEDINGS OF 2015 INTERNATIONAL CONFERENCE ON FLUID POWER AND MECHATRONICS - FPM 2015, V0, PP370, DOI 10.1109/FPM.2015.7337142
+   Wen Y, 2019, IEEE T IMAGE PROCESS, V28, P994, DOI 10.1109/TIP.2018.2874285
+   Wu HY, 2007, IEEE I CONF COMP VIS, V0, PP628, DOI 10.1109/cvpr.2007.383211
+   Xie J, 2015, IEEE T MULTIMEDIA, V17, P1525, DOI 10.1109/TMM.2015.2457678
+   Yang JY, 2019, IEEE T BROADCAST, V65, P123, DOI 10.1109/TBC.2018.2818405
+   Yang JY, 2014, IEEE T IMAGE PROCESS, V23, P3443, DOI 10.1109/TIP.2014.2329776
+   Yanjie Li, 2012, 2012 IEEE INTERNATIONAL CONFERENCE ON MULTIMEDIA AND EXPO (ICME), V0, PP152, DOI 10.1109/ICME.2012.30
+   Yin B., 2019, IEEE T MULTIMEDIA, V0, P0
+   Zbontar J, 2015, PROC CVPR IEEE, V0, PP1592, DOI 10.1109/CVPR.2015.7298767
+   Zhang YB, 2020, IEEE T CIRC SYST VID, V30, P320, DOI 10.1109/TCSVT.2018.2890574
+   Zuo Y, 2017, IEEE INT CON MULTI, V0, PP211, DOI 10.1109/ICME.2017.8019366
+   Zuo Y., 2016, P IEEE INT C MULT EX, V0, P1
+   Zuo YF, 2020, IEEE T CIRC SYST VID, V30, P297, DOI 10.1109/TCSVT.2018.2890271
+   Zuo YF, 2019, INFORM SCIENCES, V495, P52, DOI 10.1016/j.ins.2019.05.003
+   Zuo YF, 2018, IEEE T IMAGE PROCESS, V27, P4145, DOI 10.1109/TIP.2018.2828335
+   Zuo YF, 2018, IEEE T CIRC SYST VID, V28, P439, DOI 10.1109/TCSVT.2016.2609438
+NR 53
+TC 6
+Z9 7
+U1 1
+U2 10
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1520-9210
+EI 1941-0077
+J9 IEEE T MULTIMEDIA
+JI IEEE Trans. Multimedia
+PD JUN 15
+PY 2021
+VL 23
+IS 
+BP 772
+EP 783
+DI 10.1109/TMM.2020.2987706
+PG 12
+WC Computer Science, Information Systems; Computer Science, Software Engineering; Telecommunications
+SC Computer Science; Telecommunications
+GA QI9PL
+UT WOS:000619321200003
+DA 2023-04-26
+ER
+
+PT J
+AU Zheng, Z
+   Wan, Y
+   Zhang, YJ
+   Xiang, SZ
+   Peng, DF
+   Zhang, B
+AF Zheng, Zhi
+   Wan, Yi
+   Zhang, Yongjun
+   Xiang, Sizhe
+   Peng, Daifeng
+   Zhang, Bin
+TI CLNet: Cross-layer convolutional neural network for change detection in optical remote sensing imagery
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Change detection; Optical remote sensing image; Deep convolutional neural networks; Cross-Layer Block (CLB); Cross-Layer Network (CLNet); UNet
+ID unsupervised change detection
+AB Change detection plays a crucial role in observing earth surface transition and has been widely investigated using deep learning methods. However, the current deep learning methods for pixel-wise change detection still suffer from limited accuracy, mainly due to their insufficient feature extraction and context aggregation. To address this limitation, we propose a novel Cross Layer convolutional neural Network (CLNet) in this paper, where the UNet structure is used as the backbone and newly designed Cross Layer Blocks (CLBs) are embedded to incorporate the multi-scale features and multi-level context information. The designed CLB starts with one input and then split into two parallel but asymmetric branches, which are leveraged to extract the multi-scale features by using different strides; and the feature maps, which come from the opposite branches but have the same size, are concatenated to incorporate multi-level context information. The designed CLBs aggregate the multi-scale features and multi-level context information so that the proposed CLNet can reuse extracted feature information and capture accurate pixel-wise change in complex scenes. Quantitative and qualitative experiments were conducted on a public very-high-resolution satellite image dataset (VHR-Dataset), a newly released building change detection dataset (LEVIR-CD Dataset) and an aerial building change detection dataset (WHU Building Dataset). The CLNet reached an F1-score of 0.921 and an overall accuracy of 98.1% with the VHR-Dataset, an F1-score of 0.900 and an overall accuracy of 98.9% with the LEVIR-CD Dataset, and an F1-score of 0.963 and an overall accuracy of 99.7% with the WHU Building Dataset. The experimental results with all the selected datasets showed that the proposed CLNet outperformed several state-of-the-art (SOTA) methods and achieved competitive accuracy and efficiency trade-offs. The code of CLNet will be released soon at: https://skyearth.org/publication/project/CLNet.
+C1 [Zheng, Zhi; Wan, Yi; Zhang, Yongjun; Xiang, Sizhe; Zhang, Bin] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+   [Peng, Daifeng] Nanjing Univ Informat Sci & Technol, Sch Remote Sensing & Geomat Engn, Nanjing 210044, Peoples R China.
+   [Peng, Daifeng] Univ Trento, Dept Informat Engn & Comp Sci, I-38123 Trento, Italy.
+C3 Wuhan University; Nanjing University of Information Science & Technology; University of Trento
+RP Wan, Y; Zhang, YJ (corresponding author), Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+EM zhengzhi@whu.edu.cn; yi.wan@whu.edu.cn; zhangyj@whu.edu.cn; xiangsizhe@whu.edu.cn; daifeng@nuist.edu.cn; bin.zhang@whu.edu.cn
+FU National Natural Science Foundation of China [42030102, 42001406, 41801386]; Fund for Innovative Research Groups of the Hubei Natural Science Foundation [2020CFA003]; China Postdoctoral Science Foundation [2020M672416]
+CR Akcay HG, 2010, INT GEOSCI REMOTE SE, V0, PP1932, DOI 10.1109/IGARSS.2010.5652842
+   Alcantarilla PF, 2018, AUTON ROBOT, V42, P1301, DOI 10.1007/s10514-018-9734-5
+   [Anonymous], 2017, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   Benedek C, 2009, IEEE T GEOSCI REMOTE, V47, P3416, DOI 10.1109/TGRS.2009.2022633
+   Bovolo F, 2007, IEEE T GEOSCI REMOTE, V45, P218, DOI 10.1109/TGRS.2006.885408
+   Bruzzone L, 2000, IEEE T GEOSCI REMOTE, V38, P1171, DOI 10.1109/36.843009
+   Chen H, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12101662
+   Chen H, 2019, I-PERCEPTION, V10, P0, DOI 10.1177/2041669519864971
+   Chen J, 2013, ISPRS J PHOTOGRAMM, V85, P1, DOI 10.1016/j.isprsjprs.2013.07.009
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Daudt Caye, 2018, ARXIV181008462V1, V0, P0
+   Daudt R.C., 2018, CORR, V0, P0
+   Daudt RC, 2018, IEEE IMAGE PROC, V0, PP4063, DOI 10.1109/ICIP.2018.8451652
+   Desclee B, 2006, REMOTE SENS ENVIRON, V102, P1, DOI 10.1016/j.rse.2006.01.013
+   Gevaert CM, 2020, INT J APPL EARTH OBS, V90, P0, DOI 10.1016/j.jag.2020.102117
+   Ghosh S, 2009, INT J APPROX REASON, V50, P37, DOI 10.1016/j.ijar.2008.01.008
+   Gong MG, 2019, IEEE J-STARS, V12, P321, DOI 10.1109/JSTARS.2018.2887108
+   Gong MG, 2016, IEEE T NEUR NET LEAR, V27, P125, DOI 10.1109/TNNLS.2015.2435783
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   He YX, 2023, TRANSPORTMETRICA A, V19, P0, DOI 10.1080/23249935.2022.2033348
+   Hulley G, 2014, REMOTE SENS ENVIRON, V140, P755, DOI 10.1016/j.rse.2013.10.014
+   Hussain M, 2013, ISPRS J PHOTOGRAMM, V80, P91, DOI 10.1016/j.isprsjprs.2013.03.006
+   Ji S., 2019, IEEE T GEOSCI REMOTE, V0, P0
+   Lebedev M., 2018, INT ARCH PHOTOGRAM R, V42, P0
+   Lei T, 2019, IEEE GEOSCI REMOTE S, V16, P982, DOI 10.1109/LGRS.2018.2889307
+   Leichtle T, 2017, INT J APPL EARTH OBS, V54, P15, DOI 10.1016/j.jag.2016.08.010
+   Liang B., 2010, IEEE J SEL TOP QUANT, V4, P43
+   Liu RY, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11232844
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lyu HB, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8060506
+   Mou LC, 2019, IEEE T GEOSCI REMOTE, V57, P924, DOI 10.1109/TGRS.2018.2863224
+   Niu XD, 2019, IEEE GEOSCI REMOTE S, V16, P45, DOI 10.1109/LGRS.2018.2868704
+   Peng DF, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111382
+   Peng DF, 2019, J APPL REMOTE SENS, V13, P0, DOI 10.1117/1.JRS.13.024512
+   Peng DF, 2017, INT J REMOTE SENS, V38, P3886, DOI 10.1080/01431161.2017.1308033
+   Qin XL, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON PROGNOSTICS AND HEALTH MANAGEMENT (ICPHM), V0, PP1, DOI 10.1109/ICPHM.2017.7998297
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Stramondo S, 2006, INT J REMOTE SENS, V27, P4433, DOI 10.1080/01431160600675895
+   Wang Q, 2019, IEEE T GEOSCI REMOTE, V57, P3, DOI 10.1109/TGRS.2018.2849692
+   Wiratama W, 2018, APPL SCI-BASEL, V8, P0, DOI 10.3390/app8101785
+   Xian G, 2010, REMOTE SENS ENVIRON, V114, P1676, DOI 10.1016/j.rse.2010.02.018
+   Xiao PF, 2017, IEEE T GEOSCI REMOTE, V55, P1587, DOI 10.1109/TGRS.2016.2627638
+   Xie SN, 2015, IEEE I CONF COMP VIS, V0, PP1395, DOI 10.1109/ICCV.2015.164
+   Yang J, 2012, REMOTE SENS ENVIRON, V119, P62, DOI 10.1016/j.rse.2011.12.004
+   Yang K., 2020, ARXIV201005687, V0, P0
+   Yu F., 2015, 1511 ARXIV, V0, P0
+   Yu WJ, 2016, REMOTE SENS ENVIRON, V177, P37, DOI 10.1016/j.rse.2016.02.030
+   Zanetti M, 2015, IEEE T IMAGE PROCESS, V24, P5004, DOI 10.1109/TIP.2015.2474710
+   Zhang C, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8040189
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhang PZ, 2016, ISPRS J PHOTOGRAMM, V116, P24, DOI 10.1016/j.isprsjprs.2016.02.013
+   Zhou Zongwei, 2018, DEEP LEARN MED IMAGE ANAL MULTIMODAL LEARN CLIN DECIS SUPPORT (2018), V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 55
+TC 46
+Z9 47
+U1 19
+U2 91
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD MAY 15
+PY 2021
+VL 175
+IS 
+BP 247
+EP 267
+DI 10.1016/j.isprsjprs.2021.03.005
+EA MAR 2021
+PG 21
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA RT8HA
+UT WOS:000644695700018
+DA 2023-04-26
+ER

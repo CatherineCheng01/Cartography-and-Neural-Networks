@@ -1,0 +1,425 @@
+
+PT J
+AU Zha, B
+   Yilmaz, A
+AF Zha, Bing
+   Yilmaz, Alper
+TI Map-Based Temporally Consistent Geolocalization through Learning Motion Trajectories
+SO 2020 25TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION (ICPR)
+LA English
+DT Proceedings Paper
+ID simultaneous localization; spatial map; hippocampus; perception; navigation; model
+AB In this paper, we propose a novel trajectory learning method that exploits motion trajectories on topological map using recurrent neural network for temporally consistent geolocalization of object. Inspired by human's ability to both be aware of distance and direction of self-motion in navigation, our trajectory learning method learns a pattern representation of trajectories encoded as a sequence of distances and turning angles to assist self-localization. We pose the learning process as a conditional sequence prediction problem in which each output locates the object on a traversable edge in a map. Considering the prediction sequence ought to be topologically connected in the graph-structured map, we adopt two different hypotheses generation and elimination strategies to eliminate disconnected sequence prediction. We demonstrate our approach on the KITTI stereo visual odometry dataset which is a city-scale environment. The key benefits of our approach to geolocalization are that 1) we take advantage of powerful sequence modeling ability of recurrent neural network and its robustness to noisy input, 2) only require a map in the form of a graph and 3) simply use an affordable sensor that generates motion trajectory. The experiments show that the motion trajectories can be learned by training an recurrent neural network, and temporally consistent geolocation can be predicted with both of the proposed strategies.
+C1 [Zha, Bing; Yilmaz, Alper] Ohio State Univ, Photogrammetr Comp Vis Lab, Columbus, OH 43210 USA.
+C3 University System of Ohio; Ohio State University
+RP Zha, B (corresponding author), Ohio State Univ, Photogrammetr Comp Vis Lab, Columbus, OH 43210 USA.
+EM zha.44@osu.edu; yilmaz.15@osu.edu
+CR Barry C, 2006, REV NEUROSCIENCE, V17, P71
+   Boal J, 2014, ROBOTICA, V32, P803, DOI 10.1017/S0263574713001070
+   Brubaker MA, 2016, IEEE T PATTERN ANAL, V38, P652, DOI 10.1109/TPAMI.2015.2453975
+   Bush D, 2015, NEURON, V87, P507, DOI 10.1016/j.neuron.2015.07.006
+   Cadena C, 2016, IEEE T ROBOT, V32, P1309, DOI 10.1109/TRO.2016.2624754
+   Edvardsen V, 2020, HIPPOCAMPUS, V30, P220, DOI 10.1002/hipo.23147
+   ELFES A, 1989, COMPUTER, V22, P46, DOI 10.1109/2.30720
+   ELMAN JL, 1990, COGNITIVE SCI, V14, P179, DOI 10.1207/s15516709cog1402_1
+   Erdem UM, 2012, EUR J NEUROSCI, V35, P916, DOI 10.1111/j.1460-9568.2012.08015.x
+   Fox D, 1999, SIXTEENTH NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE (AAAI-99)/ELEVENTH INNOVATIVE APPLICATIONS OF ARTIFICIAL INTELLIGENCE (IAAI-99), V0, P343
+   Fyhn M, 2004, SCIENCE, V305, P1258, DOI 10.1126/science.1099901
+   Geiger A., 2012, C COMP VIS PATT REC, V0, P0
+   Gupta A, 2016, ISPRS ANN PHOTO REM, V3, P263, DOI 10.5194/isprsannals-III-3-263-2016
+   Hafting T, 2005, NATURE, V436, P801, DOI 10.1038/nature03721
+   Hofmann-Wellenhof B., 2012, GLOBAL POSITIONING S, V0, P0
+   Milford M, 2010, INT J ROBOT RES, V29, P1131, DOI 10.1177/0278364909340592
+   Milford MJ, 2004, IEEE INT CONF ROBOT, V0, PP403, DOI 10.1109/ROBOT.2004.1307183
+   Newson P., 2009, P 17 ACM SIGSPATIAL, V0, PP336, DOI 10.1145/1653771.1653818
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   OKEEFE J, 1976, EXP NEUROL, V51, P78, DOI 10.1016/0014-4886(76)90055-8
+   Sattler T, 2011, IEEE I CONF COMP VIS, V0, PP667, DOI 10.1109/ICCV.2011.6126302
+   Scaramuzza D, 2011, IEEE ROBOT AUTOM MAG, V18, P80, DOI 10.1109/MRA.2011.943233
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Tomatis N, 2003, ROBOT AUTON SYST, V44, P3, DOI 10.1016/S0921-8890(03)00006-X
+   Walch F, 2017, IEEE I CONF COMP VIS, V0, PP627, DOI 10.1109/ICCV.2017.75
+NR 25
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+SN 1051-4651
+EI 
+J9 INT C PATT RECOG
+PD JUN 15
+PY 2021
+VL 0
+IS 
+BP 2296
+EP 2303
+DI 10.1109/ICPR48806.2021.9412398
+PG 8
+WC Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic; Imaging Science & Photographic Technology
+SC Computer Science; Engineering; Imaging Science & Photographic Technology
+GA BR9MO
+UT WOS:000678409202053
+DA 2023-04-26
+ER
+
+PT J
+AU Chen, CF
+   Hu, BJ
+   Li, YY
+AF Chen, Chuanfa
+   Hu, Baojian
+   Li, Yanyan
+TI Easy-to-use spatial random-forest-based downscaling-calibration method for producing precipitation data with high resolution and high accuracy
+SO HYDROLOGY AND EARTH SYSTEM SCIENCES
+LA English
+DT Article
+ID satellite precipitation; rain-gauge; interpolation; regression; climate; tmpa; bias; algorithm; scales; region
+AB Precipitation data with high resolution and high accuracy are significantly important in numerous hydrological applications. To enhance the spatial resolution and accuracy of satellite-based precipitation products, an easy-to-use downscaling-calibration method based on a spatial random forest (SRF-DC) is proposed in this study, where the spatial autocorrelation of precipitation measurements between neighboring locations is considered. SRF-DC consists of two main stages. First, the satellite-based precipitation is downscaled by the SRF with the incorporation of high-resolution variables including latitude, longitude, normalized difference vegetation index (NDVI), digital elevation model (DEM), terrain slope, aspect, relief and land surface temperatures. Then, the downscaled precipitation is calibrated by the SRF with rain gauge observations and the aforementioned high-resolution variables. The monthly Integrated MultisatellitE Retrievals for Global Precipitation Measurement (IMERG) over Sichuan Province, China, from 2015 to 2019 was processed using SRF-DC, and its results were compared with those of classical methods including geographically weighted regression (GWR), artificial neural network (ANN), random forest (RF), kriging interpolation only on gauge measurements, bilinear interpolation-based downscaling and then SRF-based calibration (Bi-SRF), and SRF-based downscaling and then geographical difference analysis (GDA)-based calibration (SRF-GDA). Comparative analyses with respect to root mean square error (RMSE), mean absolute error (MAE) and correlation coefficient (CC) demonstrate that (1) SRF-DC outperforms the classical methods as well as the original IMERG; (2) the monthly based SRF estimation is slightly more accurate than the annually based SRF fraction disaggregation method; (3) SRF-based downscaling and calibration perform better than bilinear downscaling (Bi-SRF) and GDA-based calibration (SRF-GDA); (4) kriging is more accurate than GWR and ANN, whereas its precipitation map loses detailed spatial precipitation patterns; and (5) based on the variable-importance rank of the RF, the precipitation interpolated by kriging on the rain gauge measurements is the most important variable, indicating the significance of incorporating spatial autocorrelation for precipitation estimation.
+C1 [Chen, Chuanfa; Hu, Baojian; Li, Yanyan] Shandong Univ Sci & Technol, Coll Geodesy & Geomat, Qingdao 266590, Peoples R China.
+   [Chen, Chuanfa; Hu, Baojian; Li, Yanyan] Shandong Univ Sci & Technol, Key Lab Geomat & Digital Technol Shandong Prov, Qingdao 266590, Peoples R China.
+C3 Shandong University of Science & Technology; Shandong University of Science & Technology
+RP Li, YY (corresponding author), Shandong Univ Sci & Technol, Coll Geodesy & Geomat, Qingdao 266590, Peoples R China.; Li, YY (corresponding author), Shandong Univ Sci & Technol, Key Lab Geomat & Digital Technol Shandong Prov, Qingdao 266590, Peoples R China.
+EM yylee@whu.edu.cn
+FU National Natural Science Foundation of China [41804001]; Shandong Provincial Natural Science Foundation of China [ZR2020YQ26, ZR2019MD007, ZR2019BD006]; Shandong Province Higher Educational Youth Innovation Science and Technology Program [2019KJH007]; Shandong Provincial Key Research and Development Program (Major Scientific and Technological Innovation Project) [2019JZZY010429]; Scientific Research Foundation of Shandong University of Science and Technology for Recruited Talents [2019RCJJ003]
+CR [Anonymous], 1900, DOI 10.5066/F7PR7TFT, V0, P0
+   [Anonymous], 2021, NASA GLOB PREC MEAS, V0, P0
+   [Anonymous], 2021, NASA DATA RES FIND S, V0, P0, DOI DOI 10.5067/MODIS/mod13a3.006
+   [Anonymous], 2021, NASA EARTH DATA MOD1, V0, P0
+   Ashouri H, 2015, B AM METEOROL SOC, V96, P69, DOI 10.1175/BAMS-D-13-00068.1
+   Baez-Villanueva OM, 2020, REMOTE SENS ENVIRON, V239, P0, DOI 10.1016/j.rse.2019.111606
+   Beck HE, 2019, B AM METEOROL SOC, V100, P473, DOI 10.1175/BAMS-D-17-0138.1
+   Beck HE, 2017, HYDROL EARTH SYST SC, V21, P589, DOI 10.5194/hess-21-589-2017
+   Belgiu M, 2016, ISPRS J PHOTOGRAMM, V114, P24, DOI 10.1016/j.isprsjprs.2016.01.011
+   Berndt C, 2018, J HYDROL-REG STUD, V15, P184, DOI 10.1016/j.ejrh.2018.02.002
+   Berndt C, 2014, J HYDROL, V508, P88, DOI 10.1016/j.jhydrol.2013.10.028
+   Bhuiyan MAE, 2018, HYDROL EARTH SYST SC, V22, P1371, DOI 10.5194/hess-22-1371-2018
+   Pham BT, 2020, ATMOS RES, V237, P0, DOI 10.1016/j.atmosres.2020.104845
+   Brocca L, 2019, EARTH SYST SCI DATA, V11, P1583, DOI 10.5194/essd-11-1583-2019
+   Brunsell NA, 2006, REMOTE SENS ENVIRON, V100, P200, DOI 10.1016/j.rse.2005.10.025
+   Chao LJ, 2018, J HYDROL, V558, P275, DOI 10.1016/j.jhydrol.2018.01.042
+   Cheema MJM, 2012, INT J REMOTE SENS, V33, P2603, DOI 10.1080/01431161.2011.617397
+   Chen C, 2015, IEEE J-STARS, V8, P4592, DOI 10.1109/JSTARS.2015.2441734
+   Chen CF, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12203435
+   Chen FR, 2020, J HYDROL, V581, P0, DOI 10.1016/j.jhydrol.2019.124414
+   Chen FR, 2014, INT J REMOTE SENS, V35, P3074, DOI 10.1080/01431161.2014.902550
+   Chen J, 2013, WATER RESOUR RES, V49, P4187, DOI 10.1002/wrcr.20331
+   Chen ST, 2010, J HYDROL, V385, P13, DOI 10.1016/j.jhydrol.2010.01.021
+   Chen SL, 2020, J HYDROL, V589, P0, DOI 10.1016/j.jhydrol.2020.125156
+   Chen YY, 2018, REMOTE SENS ENVIRON, V214, P154, DOI 10.1016/j.rse.2018.05.021
+   Duan Z, 2013, REMOTE SENS ENVIRON, V131, P1, DOI 10.1016/j.rse.2012.12.002
+   Elnashar A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12233860
+   Fan D, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11242962
+   Funk C, 2015, SCI DATA, V2, P0, DOI 10.1038/sdata.2015.50
+   Gebregiorgis AS, 2013, IEEE T GEOSCI REMOTE, V51, P704, DOI 10.1109/TGRS.2012.2196282
+   Ghorbanpour AK, 2021, J HYDROL, V596, P0, DOI 10.1016/j.jhydrol.2021.126055
+   Goovaerts P, 2000, J HYDROL, V228, P113, DOI 10.1016/S0022-1694(00)00144-X
+   Haile AT, 2013, HYDROL PROCESS, V27, P1829, DOI 10.1002/hyp.9330
+   Hengl T, 2018, PEERJ, V6, P0, DOI 10.7717/peerj.5518
+   Hou AY, 2014, B AM METEOROL SOC, V95, P701, DOI 10.1175/BAMS-D-13-00164.1
+   Huffman G. J., 2019, ALGORITHM THEORETICA, V0, P0
+   Huffman GJ, 2007, J HYDROMETEOROL, V8, P38, DOI 10.1175/JHM560.1
+   Immerzeel WW, 2009, REMOTE SENS ENVIRON, V113, P362, DOI 10.1016/j.rse.2008.10.004
+   Jia SF, 2011, REMOTE SENS ENVIRON, V115, P3069, DOI 10.1016/j.rse.2011.06.009
+   Jing WL, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8080655
+   Li M, 2010, J HYDROL, V385, P51, DOI 10.1016/j.jhydrol.2010.01.023
+   Li TW, 2017, GEOPHYS RES LETT, V44, P11985, DOI 10.1002/2017GL075710
+   Li YG, 2019, CHINESE GEOGR SCI, V29, P446, DOI 10.1007/s11769-019-1033-3
+   Lima CHR, 2021, J HYDROL, V597, P0, DOI 10.1016/j.jhydrol.2021.126095
+   Lu XY, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030398
+   Lu XY, 2019, J HYDROL, V575, P1239, DOI 10.1016/j.jhydrol.2019.06.019
+   Ma ZQ, 2017, REMOTE SENS ENVIRON, V200, P378, DOI 10.1016/j.rse.2017.08.023
+   Mohsenzadeh Karimi S., 2020, J HYDRAUL ENG, V26, P376, DOI 10.1080/09715010.2018.1495583
+   Park NW, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030255
+   Sharifi E, 2019, J GEOPHYS RES-ATMOS, V124, P789, DOI 10.1029/2018JD028795
+   Shi YL, 2015, REMOTE SENS-BASEL, V7, P5849, DOI 10.3390/rs70505849
+   Shortridge A, 2011, REMOTE SENS ENVIRON, V115, P1576, DOI 10.1016/j.rse.2011.02.017
+   Spracklen DV, 2012, NATURE, V489, P282, DOI 10.1038/nature11390
+   Sun L, 2021, INT J CLIMATOL, V41, P1128, DOI 10.1002/joc.6769
+   Tao YM, 2016, J HYDROMETEOROL, V17, P931, DOI 10.1175/JHM-D-15-0075.1
+   Trenberth KE, 2005, GEOPHYS RES LETT, V32, P0, DOI 10.1029/2005GL022760
+   Ullah S, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12193162
+   Wu HC, 2020, J HYDROL, V584, P0, DOI 10.1016/j.jhydrol.2020.124664
+   Wu T, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11091789
+   Wu ZY, 2018, SCI TOTAL ENVIRON, V640, P1165, DOI 10.1016/j.scitotenv.2018.05.272
+   Xie PP, 2011, J GEOPHYS RES-ATMOS, V116, P0, DOI 10.1029/2011JD016118
+   Xu SG, 2015, REMOTE SENS ENVIRON, V162, P119, DOI 10.1016/j.rse.2015.02.024
+   Xu Y, 2018, J ANAL TEST, V2, P249, DOI 10.1007/s41664-018-0068-2
+   Yan X, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13112040
+   Yang YF, 2014, J HYDROMETEOROL, V15, P459, DOI 10.1175/JHM-D-13-041.1
+   Yang ZW, 2017, J GEOPHYS RES-ATMOS, V122, P5267, DOI 10.1002/2016JD026177
+   Yue T. X., 2011, SURFACE MODELING HIG, V0, P0, DOI DOI 10.1201/b10392
+   Yue TX, 2007, GEOMORPHOLOGY, V91, P161, DOI 10.1016/j.geomorph.2007.02.006
+   Zhang L, 2021, J HYDROL, V594, P0, DOI 10.1016/j.jhydrol.2021.125969
+   Zhang XJ, 2015, J GEOPHYS RES-ATMOS, V120, P6426, DOI 10.1002/2015JD023400
+   Zhao N, 2018, INT J CLIMATOL, V38, P3309, DOI 10.1002/joc.5502
+   Zhao TB, 2014, INT J CLIMATOL, V34, P2749, DOI 10.1002/joc.3872
+NR 74
+TC 11
+Z9 11
+U1 11
+U2 48
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLEE 1E, GOTTINGEN, 37081, GERMANY
+SN 1027-5606
+EI 1607-7938
+J9 HYDROL EARTH SYST SC
+JI Hydrol. Earth Syst. Sci.
+PD NOV 3
+PY 2021
+VL 25
+IS 11
+BP 5667
+EP 5682
+DI 10.5194/hess-25-5667-2021
+PG 16
+WC Geosciences, Multidisciplinary; Water Resources
+SC Geology; Water Resources
+GA WT3DX
+UT WOS:000715749100001
+DA 2023-04-26
+ER
+
+PT J
+AU Zhao, WF
+   Persello, C
+   Stein, A
+AF Zhao, Wufan
+   Persello, Claudio
+   Stein, Alfred
+TI Building outline delineation: From aerial images to polygons with an improved end-to-end learning framework
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Building outline delineation; Polygon prediction; Convolutional neural networks; Recurrent neural networks; Optical remote sensing imagery
+ID segmentation; networks
+AB Deep learning methods based upon convolutional neural networks (CNNs) have demonstrated impressive performance in the task of building outline delineation from very high resolution (VHR) remote sensing (RS) imagery. In this paper, we introduce an improved method that is able to predict regularized building outline in a vector format within an end-to-end deep learning framework. The main idea of our framework is to learn to predict the location of key vertices of the buildings and connect them in sequence. The proposed method is based on PolyMapper. We upgrade the feature extraction by introducing global context and boundary refinement blocks and add channel and spatial attention modules to improve the effectiveness of the detection module. In addition, we introduce stacked conv-GRU to further preserve the geometric relationship between vertices and accelerate inference. We tested our method on two large-scale VHR-RS building extraction dataset. The results on both COCO and PoLiS metrics demonstrate better performance compared with Mask R-CNN and PolyMapper. Specifically, we achieve 4.2 mask mean average precision (mAP) and 3.7 mean average recall (mAR) absolute improvements compared to PolyMapper. Also, the qualitative comparison shows that our method significantly improves the instance segmentation of buildings of various shapes.
+C1 [Zhao, Wufan; Persello, Claudio; Stein, Alfred] Univ Twente, Fac ITC, Dept Earth Observat Sci, NL-7500 AE Enschede, Netherlands.
+C3 University of Twente
+RP Zhao, WF (corresponding author), Univ Twente, Fac ITC, Dept Earth Observat Sci, NL-7500 AE Enschede, Netherlands.
+EM wufan.zhao@utwente.nl; c.persello@utwente.nl; a.stein@utwente.nl
+CR Acuna D, 2018, PROC CVPR IEEE, V0, PP859, DOI 10.1109/CVPR.2018.00096
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   [Anonymous], 2017, IEEE I CONF COMP VIS, V0, P0, DOI DOI 10.1109/ICCV.2017.322
+   Avbelj J, 2015, IEEE GEOSCI REMOTE S, V12, P170, DOI 10.1109/LGRS.2014.2330695
+   Ballas N., 2015, ARXIV151106432, V0, P0
+   Cao Y, 2019, IEEE INT CONF COMP V, V0, PP1971, DOI 10.1109/ICCVW.2019.00246
+   Castrejon L, 2017, PROC CVPR IEEE, V0, PP4485, DOI 10.1109/CVPR.2017.477
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Cheng D, 2019, PROC CVPR IEEE, V0, PP7423, DOI 10.1109/CVPR.2019.00761
+   Douglas D. H., 1973, CARTOGRAPHICA INT J, V10, P112, DOI 10.3138/FM57-6770-U75U-7727
+   Girard N, 2018, INT GEOSCI REMOTE SE, V0, P2083
+   Griffiths D, 2019, ISPRS J PHOTOGRAMM, V154, P70, DOI 10.1016/j.isprsjprs.2019.05.013
+   Gupta A., 2016, 2016 IEEE S SERIES C, V0, PP1, DOI 10.1109/ssci.2016.7850038
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Ji SP, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111343
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Li WJ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11040403
+   Li ZY, 2019, IEEE I CONF COMP VIS, V0, PP1715, DOI 10.1109/ICCV.2019.00180
+   Lin TY, 2014, LECT NOTES COMPUT SC, V8693, P740, DOI 10.1007/978-3-319-10602-1_48
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Liu S, 2018, PROC CVPR IEEE, V0, PP8759, DOI 10.1109/CVPR.2018.00913
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Marcos D, 2018, PROC CVPR IEEE, V0, PP8877, DOI 10.1109/CVPR.2018.00925
+   Mohanty S.P, 2018, CROWDAI DATASET, V0, P0
+   Ok AO, 2013, ISPRS J PHOTOGRAMM, V86, P21, DOI 10.1016/j.isprsjprs.2013.09.004
+   Pang JM, 2019, PROC CVPR IEEE, V0, PP821, DOI 10.1109/CVPR.2019.00091
+   Partovi T, 2017, IEEE J-STARS, V10, P933, DOI 10.1109/JSTARS.2016.2611861
+   Persello C, 2017, IEEE GEOSCI REMOTE S, V14, P2325, DOI 10.1109/LGRS.2017.2763738
+   Shi YL, 2020, ISPRS J PHOTOGRAMM, V159, P184, DOI 10.1016/j.isprsjprs.2019.11.004
+   Sida Peng, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP8530, DOI 10.1109/CVPR42600.2020.00856
+   Sklansky J, 1982, PATTERN RECOGN LETT, V1, P79, DOI 10.1016/0167-8655(82)90016-2
+   Tan MX, 2019, PR MACH LEARN RES, V97, P0
+   Turker M, 2015, INT J APPL EARTH OBS, V34, P58, DOI 10.1016/j.jag.2014.06.016
+   Wang XL, 2018, PROC CVPR IEEE, V0, PP7794, DOI 10.1109/CVPR.2018.00813
+   Wang Y. B., 2018, INT C MACHINE LEARNI, V80, P5110, DOI 10.48550/ARXIV.1804.06300
+   Wei SQ, 2020, IEEE T GEOSCI REMOTE, V58, P2178, DOI 10.1109/TGRS.2019.2954461
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Yu CQ, 2018, PROC CVPR IEEE, V0, PP1857, DOI 10.1109/CVPR.2018.00199
+   Zhang Y, 1999, ISPRS J PHOTOGRAMM, V54, P50, DOI 10.1016/S0924-2716(98)00027-6
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 41
+TC 38
+Z9 39
+U1 20
+U2 40
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD MAY 15
+PY 2021
+VL 175
+IS 
+BP 119
+EP 131
+DI 10.1016/j.isprsjprs.2021.02.014
+EA MAR 2021
+PG 13
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA RT8HA
+UT WOS:000644695700009
+DA 2023-04-26
+ER
+
+PT J
+AU Rosado, R
+   Abreu, AJ
+   Arencibia, JC
+   Gonzalez, H
+   Hernandez, Y
+AF Rosado, Reynaldo
+   Joan Abreu, Aldis
+   Arencibia, Jose C.
+   Gonzalez, Hector
+   Hernandez, Yanio
+TI Consumer Price Index Forecasting Based on Univariate Time Series and a Deep Neural Network
+SO PROGRESS IN ARTIFICIAL INTELLIGENCE AND PATTERN RECOGNITION
+LA English
+DT Proceedings Paper
+DE Consumer Price Index; Time series forecasting; Long Short-Term Memory
+AB The global Consumer Price Index (CPI) is a monthly record, which allows measuring the variation of the final consumer prices of a given set of goods and services of households living in a given geographic region, city or country. The present work addresses the problem of CPI forecasting using different Long Short-Term Memory (LSTM) neural network architectures according to state of the art in time series forecasting. Univariate time series data are mapped by a multivariate spatiotemporal representation using a set of Box-Jenkins functions and a time window. Next, a Convolutional Neural Network (CNN) with a specific droop out function combines the feature set to make a more discriminative representation space of the multivariate data. Finally, a LSTM exploits the temporality relationship among the data. The pipeline results, by combining a CNN with a LSTM, showed an improvement in forecasting CPI time series over Ecuador available dataset with respect to other LSTM-based architectures and models.
+C1 [Rosado, Reynaldo; Joan Abreu, Aldis; Arencibia, Jose C.; Gonzalez, Hector; Hernandez, Yanio] Univ Ciencias Informat UCI, Havana, Cuba.
+RP Gonzalez, H (corresponding author), Univ Ciencias Informat UCI, Havana, Cuba.
+EM rrosado@uci.cu; ajabreu@uci.cu; jcarencibia@uci.cu; hglez@uci.cu; yhernandezh@uci.cu
+FU FONCI through project: Plataforma para el analisis de grandes volumenes de datos y su aplicacion a sectores estrategicos
+CR [Anonymous], 1976, HOLDEN DAY SERIES TI, V0, P0
+   Chang O., 2020, INT J ADV SCI ENG IN, V10, P1078
+   Chung J., 2014, PROC NIPS 2014 WORKS, V0, P0
+   COLLINS S, 1991, J BUS ECON STAT, V9, P267, DOI 10.2307/1391291
+   Davis R.A., 1987, TIME SERIES THEORY M, V0, P0
+   Demsar J, 2006, J MACH LEARN RES, V7, P1
+   Fauzan, 2018, 3 INT C COMP ENV AGR, V0, P1
+   Garcia S, 2009, SOFT COMPUT, V13, P959, DOI 10.1007/s00500-008-0392-y
+   GRANGER CWJ, 1976, J ROY STAT SOC B MET, V38, P189
+   Lim B., 2020, ARXIV200413408, V0, P0
+   Lindemann B., 2021, PROCEDIA CIRP, V99, P650
+   Mikolov T, 2010, 11TH ANNUAL CONFERENCE OF THE INTERNATIONAL SPEECH COMMUNICATION ASSOCIATION 2010 (INTERSPEECH 2010), VOLS 1-2, P1045
+   Mohamed, 2020, AM J THEOR APPL STAT, V9, P143, DOI 10.11648/J.AJTAS.20200904.18
+   Qin XW, 2018, 2ND INTERNATIONAL CONFERENCE ON DATA SCIENCE AND BUSINESS ANALYTICS (ICDSBA 2018), V0, PP329, DOI 10.1109/ICDSBA.2018.00069
+   Rohmah M.F., 2020, J PHYS C SERIES, V1456, P0
+   Torres JF, 2021, BIG DATA, V9, P3, DOI 10.1089/big.2020.0159
+   Williams RJ, 1989, NEURAL COMPUT, V1, P270, DOI 10.1162/neco.1989.1.2.270
+   Zahara S, 2020, J PHYS C SERIES, V1456, P0
+NR 18
+TC 0
+Z9 0
+U1 1
+U2 7
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+J9 LECT NOTES COMPUT SC
+PD JUN 15
+PY 2021
+VL 13055
+IS 
+BP 33
+EP 42
+DI 10.1007/978-3-030-89691-1_4
+PG 10
+WC Computer Science, Artificial Intelligence; Computer Science, Information Systems; Imaging Science & Photographic Technology
+SC Computer Science; Imaging Science & Photographic Technology
+GA BS5EA
+UT WOS:000728363500004
+DA 2023-04-26
+ER
+
+PT J
+AU Ma, YX
+   Minasny, B
+   McBratney, A
+AF Ma, Yuxin
+   Minasny, Budiman
+   McBratney, Alex
+TI Identifying soil provenance based on portable X-ray fluorescence measurements using similarity and inverse-mapping approaches-A case in the Lower Hunter Valley, Australia
+SO GEODERMA REGIONAL
+LA English
+DT Article
+DE Soil provenance; Environmental similarity; Digital soil mapping; Principal component; Artificial neural network
+ID neural-network; pxrf; spectroscopy; spectrometry; sample
+AB There is a growing interest in the use of soil composition as a form of evidence in food provenance, forensics, biosecurity, and archaeology. Given a soil sample of unknown origin, we should like to know the likely geographical source of that material. In this study, we investigated whether data provided from a rapid and nondestructive sensor can be used to identify the provenance of a soil sample. A portable X-ray fluorescence (pXRF) spectrometer was used to measure the elemental abundance of 0-10 cm soil samples from a part of the Lower Hunter Valley, NSW, Australia (an area of 328 km(2)). Three methods, namely, two similarity methods (points of similarity and regions of similarity) based on distances to the unlocated specimen in the principal component (PC) space of the geochemical data, and an artificial neural network (ANN) method, effectively an inverse digital soilmapping (DSM) approach, which predicts location from the set of geochemical variables, were tested to determine the provenance of soil samples. In the PC approach, digital soil maps of the PC scores of eight major elements and two elemental ratios were created. The locations predicted by the PC approach seemed to follow the pattern of topography. In the ANN approach, the geographical coordinates (Eastings and Northings) of a sample were predicted simultaneously using the elemental concentrations and ratios. Using maps of elemental concentration classes (regions of similarity based on PC) provided a mean RMSE of 8.6 km for the 147 validation samples. The different effects of identification of geographical locations were compared using a 95% spatial confidence interval of prediction on a validation dataset. The points of similarity based on PC approach showed that the predicted search areas can capture 59% of the true locations of the test data. Meanwhile, the ANN approach can capture 69% of the true locations of the data. The mean RMSE for ANN prediction (2.8 km) was smaller than that for points of similarity prediction (4.3 km). Both soil provenancing approaches are potentially useful in identifying geographical areas of origin or similarity. (C) 2021 Elsevier B.V. All rights reserved.
+C1 [Ma, Yuxin; Minasny, Budiman; McBratney, Alex] Univ Sydney, Sydney Inst Agr, Sch Life & Environm Sci, 1 Cent Ave, Eveleigh, NSW 2015, Australia.
+   [Ma, Yuxin] Landcare Res, Manawatu Mail Ctr, Private Bag 11052, Palmerston North 4442, New Zealand.
+C3 University of Sydney; Landcare Research - New Zealand
+RP Ma, YX (corresponding author), Landcare Res, Manawatu Mail Ctr, Private Bag 11052, Palmerston North 4442, New Zealand.
+EM yuxin.ma@sydney.edu.au
+FU Australian Research Council's Discovery Project [DP190103005]; LE STUDIUM Loire Valley Institute for Advanced Studies through its LE STUDIUM Research Consortium Programme
+CR Adisa OM, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11041145
+   Aitkenhead MJ, 2014, ENVIRON FORENSICS, V15, P281, DOI 10.1080/15275922.2014.930764
+   [Anonymous], 1975, CLUSTERING ALGORITHM, V0, P0
+   [Anonymous], 1941, FACTORS SOIL FORMATI, V0, P0
+   [Anonymous], 2002, AUSTR SOIL CLASSIFIC, V0, P0
+   Caritat P., 2019, J FORENSIC SCI, V0, P1
+   Conrad O, 2015, GEOSCI MODEL DEV, V8, P1991, DOI 10.5194/gmd-8-1991-2015
+   El Mujtar V, 2019, GLOB FOOD SECUR-AGR, V20, P132, DOI 10.1016/j.gfs.2019.01.007
+   Fitzpatrick R. W., 2012, SOIL HORIZONS, V53, P14
+   Flojgaard C, 2019, PLOS ONE, V14, P0, DOI 10.1371/journal.pone.0202844
+   Forster N, 2012, J ARCHAEOL SCI, V39, P728, DOI 10.1016/j.jas.2011.11.004
+   Goovaerts, 1997, GEOSTATISTICS NATURA, V0, P0
+   Goovaerts P, 2001, GEODERMA, V103, P3, DOI 10.1016/S0016-7061(01)00067-2
+   Grave P, 2014, ANTIQUITY, V88, P1180, DOI 10.1017/S0003598X0011539X
+   Hotelling H, 1933, J EDUC PSYCHOL, V24, P498, DOI 10.1037/h0070888
+   Hsieh W.W., 2009, MACHINE LEARNING MET, V0, P0, DOI DOI 10.1017/CBO9780511627217
+   Kavzoglu T, 2003, INT J REMOTE SENS, V24, P4907, DOI 10.1080/0143116031000114851
+   Kelly S, 2005, TRENDS FOOD SCI TECH, V16, P555, DOI 10.1016/j.tifs.2005.08.008
+   Lark RM, 2008, EUR J SOIL SCI, V59, P1000, DOI 10.1111/j.1365-2389.2008.01064.x
+   Ma YX, 2019, GEODERMA, V341, P195, DOI 10.1016/j.geoderma.2019.01.049
+   Mancini M, 2019, GEODERMA, V337, P718, DOI 10.1016/j.geoderma.2018.10.026
+   MAYNARD JB, 1992, J GEOL, V100, P279, DOI 10.1086/629632
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   Minasny B, 2002, SOIL SCI SOC AM J, V66, P352, DOI 10.2136/sssaj2002.0352
+   MURRAY R.C., 2011, EVIDENCE EARTH FOREN, V2nd, P0
+   Nampanya S, 2012, TRANSBOUND EMERG DIS, V59, P117, DOI 10.1111/j.1865-1682.2011.01247.x
+   Ng W, 2019, GEODERMA, V352, P251, DOI 10.1016/j.geoderma.2019.06.016
+   Padarian J, 2020, SOIL-GERMANY, V6, P35, DOI 10.5194/soil-6-35-2020
+   Padarian J, 2019, SOIL-GERMANY, V5, P79, DOI 10.5194/soil-5-79-2019
+   R CORE TEAM, 2017, R LANG ENV STAT COMP, V0, P0
+   Ross A, 2015, AUST J FORENSIC SCI, V47, P8, DOI 10.1080/00450618.2014.916753
+   Smith HG, 2015, J SOIL SEDIMENT, V15, P2033, DOI 10.1007/s11368-015-1231-2
+   Stenberg B, 2010, ADV AGRON, V107, P163, DOI 10.1016/S0065-2113(10)07005-7
+   Stockmann U, 2016, CATENA, V139, P220, DOI 10.1016/j.catena.2016.01.007
+   Thermofisher.com, 2017, NIT XL3T XRF AN, V0, P0
+   Tighe M, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-21530-7
+   Weindorf DC, 2014, ADV AGRON, V128, P1, DOI 10.1016/B978-0-12-802139-2.00001-9
+   WRB, 2014, WORLD SOIL RESOURCES, V106, P0
+   Yang H, 2012, EUR J SOIL SCI, V63, P410, DOI 10.1111/j.1365-2389.2012.01443.x
+   Zell A., 1994, NEURAL NETWORK SIMUL, V0, P165
+   Zeng R., 2020, FORENSIC SCI INT, V317, P0
+NR 41
+TC 4
+Z9 4
+U1 1
+U2 7
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2352-0094
+EI 
+J9 GEODERMA REG
+JI Geoderma Reg.
+PD JUN 15
+PY 2021
+VL 25
+IS 
+BP 
+EP 
+DI 10.1016/j.geodrs.2021.e00368
+EA FEB 2021
+PG 11
+WC Soil Science
+SC Agriculture
+GA SU8UG
+UT WOS:000663406200010
+DA 2023-04-26
+ER

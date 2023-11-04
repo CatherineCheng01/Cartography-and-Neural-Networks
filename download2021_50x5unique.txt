@@ -1,0 +1,553 @@
+
+PT J
+AU Chen, ST
+   Wu, CQ
+   Mukherjee, M
+   Zheng, YJ
+AF Chen, Suting
+   Wu, Chaoqun
+   Mukherjee, Mithun
+   Zheng, Yujie
+TI HA-MPPNet: Height Aware-Multi Path Parallel Network for High Spatial Resolution Remote Sensing Image Semantic Seg-Mentation
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE remote sensing image; semantic segmentation; high spatial resolution; gated feature fusion; digital surface model (DSM); height features
+ID segmentation; classification
+AB Semantic segmentation of remote sensing images (RSI) plays a significant role in urban management and land cover classification. Due to the richer spatial information in the RSI, existing convolutional neural network (CNN)-based methods cannot segment images accurately and lose some edge information of objects. In addition, recent studies have shown that leveraging additional 3D geometric data with 2D appearance is beneficial to distinguish the pixels' category. However, most of them require height maps as additional inputs, which severely limits their applications. To alleviate the above issues, we propose a height aware-multi path parallel network (HA-MPPNet). Our proposed MPPNet first obtains multi-level semantic features while maintaining the spatial resolution in each path for preserving detailed image information. Afterward, gated high-low level feature fusion is utilized to complement the lack of low-level semantics. Then, we designed the height feature decode branch to learn the height features under the supervision of digital surface model (DSM) images and used the learned embeddings to improve semantic context by height feature guide propagation. Note that our module does not need a DSM image as additional input after training and is end-to-end. Our method outperformed other state-of-the-art methods for semantic segmentation on publicly available remote sensing image datasets.
+C1 [Chen, Suting; Wu, Chaoqun] Nanjing Univ Informat Sci & Technol, Jiangsu Collaborat Innovat Ctr Atmospher Environm, Nanjing 210044, Peoples R China.
+   [Chen, Suting] Nanjing Univ Informat Sci & Technol, Wuxi Inst Technol NUIST WIT, Wuxi 214100, Jiangsu, Peoples R China.
+   [Mukherjee, Mithun] Nanjing Univ Informat Sci & Technol, Sch Artificial Intelligence, Nanjing 210044, Peoples R China.
+   [Zheng, Yujie] 28th Res Inst China Elect Technology Grp Corp, Nanjing 210008, Peoples R China.
+C3 Nanjing University of Information Science & Technology; Wuxi University; Nanjing University of Information Science & Technology; China Electronics Technology Group
+RP Chen, ST (corresponding author), Nanjing Univ Informat Sci & Technol, Jiangsu Collaborat Innovat Ctr Atmospher Environm, Nanjing 210044, Peoples R China.; Chen, ST (corresponding author), Nanjing Univ Informat Sci & Technol, Wuxi Inst Technol NUIST WIT, Wuxi 214100, Jiangsu, Peoples R China.
+EM sutingchen@nuist.edu; mithun@nuist.edu.cn; zhengyujie@cetc.com.cn
+FU National Natural Science Foundation of China [61906097, 41875184]; Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD)
+CR Audebert N, 2018, ISPRS J PHOTOGRAMM, V140, P20, DOI 10.1016/j.isprsjprs.2017.11.011
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Chen L. C., 2014, COMPUT SCI, V4, P357
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Damos MA, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10080530
+   Dauphin YN, 2017, PR MACH LEARN RES, V70, P0
+   Diakogiannis FI, 2020, ISPRS J PHOTOGRAMM, V162, P94, DOI 10.1016/j.isprsjprs.2020.01.013
+   Ding C, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10040245
+   Fu J, 2019, PROC CVPR IEEE, V0, PP3141, DOI 10.1109/CVPR.2019.00326
+   Ghamisi P, 2018, IEEE GEOSCI REMOTE S, V15, P794, DOI 10.1109/LGRS.2018.2806945
+   Guo R, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7030110
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hong DF, 2021, IEEE T CYBERNETICS, V51, P3602, DOI 10.1109/TCYB.2020.3028931
+   Hu B, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10080533
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Huang ZL, 2019, IEEE I CONF COMP VIS, V0, PP603, DOI 10.1109/ICCV.2019.00069
+   Jiang J, 2020, INT J REMOTE SENS, V41, P487, DOI 10.1080/01431161.2019.1643937
+   Kampffmeyer M, 2016, IEEE COMPUT SOC CONF, V0, PP680, DOI 10.1109/CVPRW.2016.90
+   Li HF, 2021, IEEE GEOSCI REMOTE S, V18, P905, DOI 10.1109/LGRS.2020.2988294
+   Li XT, 2020, AAAI CONF ARTIF INTE, V34, P11418
+   Lichao M., 2018, ARXIV180210249, V0, P0
+   Lin TY, 2020, IEEE T PATTERN ANAL, V42, P318, DOI 10.1109/TPAMI.2018.2858826
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Liu S, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10030170
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Niu RG, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3065112
+   Peng Y., 2020, 2020 6 INT C BIG DAT, V0, P0, DOI DOI 10.1109/BigDIA51454.2020.00031
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Srivastava S, 2017, INT GEOSCI REMOTE SE, V0, P5173
+   Sun S., 2018, P 2018 10 IAPR WORKS, V0, P0, DOI DOI 10.1109/PRRS.2018.8486170
+   Takikawa T, 2019, IEEE I CONF COMP VIS, V0, PP5228, DOI 10.1109/ICCV.2019.00533
+   Tao A., 2020, ARXIV, V0, P0
+   Volpi M, 2018, ISPRS J PHOTOGRAMM, V144, P48, DOI 10.1016/j.isprsjprs.2018.06.007
+   Wang JC, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131617
+   Wang JD, 2021, IEEE T PATTERN ANAL, V43, P3349, DOI 10.1109/TPAMI.2020.2983686
+   Wang P, 2015, PROC CVPR IEEE, V0, PP2800, DOI 10.1109/CVPR.2015.7298897
+   Wang XL, 2018, PROC CVPR IEEE, V0, PP7794, DOI 10.1109/CVPR.2018.00813
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Wurm M, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10010023
+   Xie FD, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7070284
+   Yang MK, 2018, PROC CVPR IEEE, V0, PP3684, DOI 10.1109/CVPR.2018.00388
+   Zhang Z., 2018, P EUROPEAN C COMPUTE, V0, P269
+   Zhao HS, 2018, LECT NOTES COMPUT SC, V11213, P270, DOI 10.1007/978-3-030-01240-3_17
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+NR 45
+TC 0
+Z9 0
+U1 7
+U2 19
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD OCT 15
+PY 2021
+VL 10
+IS 10
+BP 
+EP 
+DI 10.3390/ijgi10100672
+PG 18
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA WN2VH
+UT WOS:000711631000001
+DA 2023-04-26
+ER
+
+PT J
+AU Ouzerbane, Z
+   Aifa, T
+   El Hmaidi, A
+   Essahlaoui, A
+   Najine, A
+AF Ouzerbane, Zakaria
+   Aifa, Tahar
+   El Hmaidi, Abdellah
+   Essahlaoui, Ali
+   Najine, Abdessamad
+TI A geoelectric study of aquifers in the Essaouira coastal region, Morocco
+SO JOURNAL OF AFRICAN EARTH SCIENCES
+LA English
+DT Article
+DE Essaouira Basin; Qsob River; Plio-Pleistocene; Cretaceous; Groundwater; Vertical electrical sounding; Apparent resistivity
+ID vertical electrical soundings; artificial neural-networks; resistivity tomography; hydraulic parameters; groundwater; basin; delineation; inversion; zones; ves
+AB A geophysical study carried out in the framework of the water resources recognition within the Essaouira coastal area (Morocco) enabled to outline the spatial distribution of the Plio-Pleistocene and Cretaceous formations. It helped to determine the thickness and extension of the main aquifer used for irrigation purpose. The overall aim of this study is to highlight the hydrogeological structures of Essaouira Basin. A total of 45 vertical electrical soundings (VES) were measured using linear Schlumberger array configuration with a maximum half-length (AB/2) of 1000 m along eight sections of 126 km total length. The number of soundings constituting the eight VES profiles depends on the topography and the obstacles encountered. The VES data were processed and interpreted. According to the thematic maps of the study area, the results indicate the existence of three types of VES with apparent resistivity values ranging from 44 to 320 Omega m. In relationship with wells and mechanical drillings existing in the area, the analysis of the results obtained made it possible to derive from the quantitative and qualitative maps the different apparent resistivity variations of the aquifer and aquiclude geological layers. The careful examination of these maps shows that the region around the Qsob River is of interest from a hydrogeological point of view. It is represented by a significant thick layer given the large extension of the resistive Plio-Pleistocene and Cretaceous formations. Geophysical studies show that this region is partially protected from marine intrusion given its location between Tidzi Diapir and hidden diapir from Essaouira which little plays the role of barrier. It is crossed by the Qsob River which lends itself as the main source of both these layers. The electrical discontinuities emerging from the superposition of the different maps, E-W, NE-SW and NNE-SSW oriented, are abundant and dense in the north Haha region (Qsob River). Generally, the salt water circulates along these discontinuities from West to North and Northeast which explains the abundance of low apparent resistivity values recorded northeastwards. This geophysical reconnaissance is the most important for water supply of this area affected by increasingly long periods of drought.
+C1 [Ouzerbane, Zakaria; El Hmaidi, Abdellah; Essahlaoui, Ali] Moulay Ismail Univ, Dept Geol, Water Sci & Environm Engn, Fac Sci, BP 11201 Zitoune, Meknes 50070, Morocco.
+   [Aifa, Tahar] Univ Rennes, Geosci Rennes, CNRS UMR 6118, Bat 15,Campus Beaulieu, F-35042 Rennes, France.
+   [Najine, Abdessamad] Sultan Moulay Slimane Univ, Fac Sci & Technol, Dept Earth Sci, BP 523 Mghila, Beni Mellal 23000, Morocco.
+C3 Moulay Ismail University of Meknes; Centre National de la Recherche Scientifique (CNRS); CNRS - National Institute for Earth Sciences & Astronomy (INSU); Universite de Rennes; Sultan Moulay Slimane University of Beni Mellal
+RP Aifa, T (corresponding author), Univ Rennes, Geosci Rennes, CNRS UMR 6118, Bat 15,Campus Beaulieu, F-35042 Rennes, France.
+EM tahar.aifa@univ-rennes1.fr
+FU NATO [983954]; Faculty of Science and Technology, Sultan Moulay Slimane University Beni Mellal (Morocco)
+CR Aifa T., 2021, 4 C INT UT SIG MEKN, V0, P141
+   Akintorinwa O. J., 2011, JOURNAL OF EMERGING TRENDS IN ENGINEERING AND APPLIED SCIENCES, V2, P858
+   Alfaifi H, 2019, ARAB J GEOSCI, V12, P0, DOI 10.1007/s12517-019-4540-8
+   Anechana R., 2015, J ENV EARTH SCI, V5, P0
+   [Anonymous], 1968, DIRECT CURRENT GEOEL, V0, P0
+   Arisona A, 2020, SN APPL SCI, V2, P0, DOI 10.1007/s42452-020-2967-x
+   Asfahani J, 2016, J AFR EARTH SCI, V117, P196, DOI 10.1016/j.jafrearsci.2016.01.018
+   Attwa M, 2020, J APPL GEOPHYS, V175, P0, DOI 10.1016/j.jappgeo.2020.103992
+   Atzemoglou A, 2012, J GEOPHYS ENG, V9, P50, DOI 10.1088/1742-2132/9/1/006
+   Bahir M., 2001, J ENV HYDROL, V18, P1
+   Bahir M, 2019, CARBONATE EVAPORITE, V34, P709, DOI 10.1007/s13146-019-00497-0
+   Basokur AT, 1999, GEOPHYS PROSPECT, V47, P149, DOI 10.1046/j.1365-2478.1999.00123.x
+   Bersi M, 2020, J AFR EARTH SCI, V172, P0, DOI 10.1016/j.jafrearsci.2020.104014
+   BOSE RN, 1978, J HYDROL, V38, P209, DOI 10.1016/0022-1694(78)90068-9
+   Bouhaddioui MEL, 2016, J AFR EARTH SCI, V123, P110, DOI 10.1016/j.jafrearsci.2016.07.015
+   BROUGHTON P, 1993, AAPG BULL, V77, P999
+   Calow RC, 2010, GROUND WATER, V48, P246, DOI 10.1111/j.1745-6584.2009.00558.x
+   Chafouq D, 2018, J AFR EARTH SCI, V139, P1, DOI 10.1016/j.jafrearsci.2017.11.007
+   Chamchati H., 2013, JOURNAL OF ENVIRONMENT AND EARTH SCIENCE, V3, P170
+   Chandra S, 2012, J EARTH SYST SCI, V121, P1455, DOI 10.1007/s12040-012-0238-y
+   Cohen KM, 2013, EPISODES, V36, P199, DOI 10.18814/epiiugs/2013/v36i3/002
+   Devi PDS, 2001, ENVIRON GEOL, V40, P1252, DOI 10.1007/s002540100304
+   DEY A, 1979, GEOPHYS PROSPECT, V27, P106, DOI 10.1111/j.1365-2478.1979.tb00961.x
+   Ebraheem AM, 2012, ENVIRON EARTH SCI, V67, P845, DOI 10.1007/s12665-012-1527-0
+   Eluwole AB, 2018, ARAB J GEOSCI, V11, P0, DOI 10.1007/s12517-018-3652-x
+   Essahlaoui A., 2003, B ENG GEOL ENVIRON, V62, P155
+   Fekri A., 1993, THESIS MARRAKECH, V0, P172
+   Flathe H, 1955, GEOPHYS PROSPECT, V3, P95, DOI 10.1111/J.1365-2478.1955.TB01363.X
+   Fon A.N, 2012, E CAMEROUN INT J GEO, V3, P960
+   Francese R, 2009, HYDROGEOL J, V17, P1233, DOI 10.1007/s10040-009-0435-1
+   Fuh S.C., 2019, SEG INT EXP 89 ANN M, V0, PP1179, DOI 10.1190/segam2019-3200645.1
+   Geoscan-M Ltd, 2001, IPI2WIN V 2 1 IPI RE, V0, P0
+   Ghosh D.P., 1971, GEOPHYS PROSPECT, V19, P192, DOI /10.1111/j.1365-2478.1971.tb00593.x
+   Gupta PK, 1997, GEOPHYSICS, V62, P775, DOI 10.1190/1.1444187
+   Hafid M, 2000, MAR PETROL GEOL, V17, P409, DOI 10.1016/S0264-8172(98)00081-6
+   Himi M, 2017, J AFR EARTH SCI, V126, P136, DOI 10.1016/j.jafrearsci.2016.11.011
+   Hodlur GK, 2006, GEOPHYSICS, V71, PG11, DOI 10.1190/1.2169847
+   Karroum M, 2017, SCI TOTAL ENVIRON, V609, P1140, DOI 10.1016/j.scitotenv.2017.07.199
+   KOSINSKI WK, 1981, GROUND WATER, V19, P163, DOI 10.1111/j.1745-6584.1981.tb03455.x
+   Kumar D, 2014, J EARTH SYST SCI, V123, P531, DOI 10.1007/s12040-014-0408-1
+   Kumar D, 2010, CURR SCI INDIA, V98, P803
+   Mader NK, 2017, J AFR EARTH SCI, V130, P293, DOI 10.1016/j.jafrearsci.2017.02.012
+   Manu E., 2016, ELIXIR ENV FOR, V95, P40714
+   Mashhadi SR, 2020, ACTA GEOPHYS, V68, P105, DOI 10.1007/s11600-019-00384-1
+   MAZAC O, 1985, J HYDROL, V79, P1, DOI 10.1016/0022-1694(85)90178-7
+   Medina F., 1994, THESIS, V0, P0
+   Ogungbe A. S., 2012, INTERNATIONAL JOURNAL OF GEOMATICS AND GEOSCIENCES, V3, P30
+   Okrah C., 2012, JOURNAL OF THE GHANA SCIENCE ASSOCIATION, V14, P56
+   Ouhamdouch S., 2018, REVUE DES SCIENCES DE LEAU: JOURNAL OF WATER SCIENCE, V31, P13, DOI 10.7202/1047050ar
+   Ouhamdouch S, 2020, CARBONATE EVAPORITE, V36, P0, DOI 10.1007/s13146-020-00663-9
+   Ouzerbane Z., 2018, J INT SCI TECHNIQUE, V3, P29
+   Ouzerbane Z, 2015, THESIS U MOULAY ISMA, V0, P304
+   Ouzerbane Z., 2013, J HYDROCARBONS MINES, V0, P0
+   Ouzerbane Z., 2019, J WATER SCI ENV TECH, V4, P480
+   Owen RJ, 2006, HYDROGEOL J, V14, P244, DOI 10.1007/s10040-004-0420-7
+   Perrone A, 2004, J APPL GEOPHYS, V56, P17, DOI 10.1016/j.jappgeo.2004.03.004
+   Piatti C, 2010, NEAR SURF GEOPHYS, V8, P117, DOI 10.3997/1873-0604.2009055
+   Pique A, 1998, J GEOL SOC LONDON, V155, P913, DOI 10.1144/gsjgs.155.6.0913
+   Pique A, 1996, J GEODYN, V21, P235, DOI 10.1016/0264-3707(95)00022-4
+   Pique A., 1994, GEOLOGIE MAROC DOMAI, V0, P0
+   Redouani F., 2013, J HYDROCARBONS MINES, V4, P33
+   Sainato C, 2003, J S AM EARTH SCI, V16, P177, DOI 10.1016/S0895-9811(03)00027-0
+   Sajinkumar KS, 2015, NAT HAZARDS, V75, P755, DOI 10.1007/s11069-014-1342-x
+   Sharma P., 1997, ENV ENG GEOPHYS, V0, P0
+   Sharma SP, 2005, J APPL GEOPHYS, V57, P155, DOI 10.1016/j.jappgeo.2004.10.003
+   Sherif M, 2006, ENVIRON GEOL, V49, P536, DOI 10.1007/s00254-005-0081-4
+   Sikah J.N., 2016, J ENV EARTH SCI, V6, P55
+   Sinan M., 2009, SEM INT DESS EAUX RE, V0, P12
+   Singh UK, 2005, COMPUT GEOSCI-UK, V31, P99, DOI 10.1016/j.cageo.2004.09.014
+   Singh UK, 2013, COMPUT GEOSCI-UK, V52, P246, DOI 10.1016/j.cageo.2012.09.018
+   Souid A., 1983, THESIS U MONTPELLIER, V0, P0
+   Srinivas Y, 2012, GEOSCI FRONT, V3, P729, DOI 10.1016/j.gsf.2012.02.003
+   Storz H, 2000, GEOPHYS PROSPECT, V48, P455
+   Taj-Eddine K., 1991, THESIS U CADY AYYAD, V0, P285
+   URISH DW, 1990, GEOEXPLORATION, V26, P267, DOI 10.1016/0016-7142(90)90008-G
+   Wafiq A., 2019, J WATER SCI ENV TECH, V4, P2508
+   Yadav GS, 2007, J APPL GEOPHYS, V62, P301, DOI 10.1016/j.jappgeo.2007.01.003
+   Yadav GS, 1998, J APPL GEOPHYS, V39, P35, DOI 10.1016/S0926-9851(98)00003-2
+   Yadav GS, 1997, J APPL GEOPHYS, V37, P45, DOI 10.1016/S0926-9851(97)00009-8
+   Zaidi FK, 2012, ARAB J GEOSCI, V5, P327, DOI 10.1007/s12517-010-0165-7
+   ZOHDY AAR, 1989, GEOPHYSICS, V54, P245, DOI 10.1190/1.1442648
+NR 82
+TC 2
+Z9 2
+U1 0
+U2 6
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 1464-343X
+EI 1879-1956
+J9 J AFR EARTH SCI
+JI J. Afr. Earth Sci.
+PD NOV 15
+PY 2021
+VL 183
+IS 
+BP 
+EP 
+DI 10.1016/j.jafrearsci.2021.104309
+EA JUL 2021
+PG 18
+WC Geosciences, Multidisciplinary
+SC Geology
+GA UM2JO
+UT WOS:000693162900001
+DA 2023-04-26
+ER
+
+PT J
+AU Elhag, M
+   Bahrawi, J
+   Boteva, S
+AF Elhag, Mohamed
+   Bahrawi, Jarbou
+   Boteva, Silvena
+TI Input/output inconsistencies of daily evapotranspiration conducted empirically using remote sensing data in arid environments
+SO OPEN GEOSCIENCES
+LA English
+DT Article
+DE daily evapotranspiration; desirability function; neural network analysis; SEBS
+ID artificial neural-networks; regional evapotranspiration; energy-balance; water-quality; surface; model; optimization; prediction; vegetation; algorithm
+AB The reliable quantification of daily evapotranspiration (ET) over vast croplands is a quest in many scholarly works aimed at the precise practice of water resources management. Remote sensing-based empirical and nonempirical models were developed to overcome large-scale quantification issues, which are usually experienced when using conventional approaches for the estimation of ET. The surface energy balance system (SEBS) model was used to quantify the daily ET in the arid/semiarid over Wadi Ad-Dwaser, Saudi. SEBS input variables are parametrically sensitive and climatic dependent, and the model input/output dependencies are of high comprehensibility; therefore, the optimization analysis of SEBS input/ output parameters is the target of the current research. SEBS inputs reciprocal inconsistencies were determined using the artificial neural network analysis, while the output dependencies on the daily ET estimation were mapped. Results demonstrated that the temperature and relative humidity are the most sensitive parameters to be considered in the routine crop monitoring procedure. SEBS output thematic maps showed the robust proportional correlation between the daily ET and the conducted temperature map. Moreover, the estimated daily ET was inversely correlated with the estimated cold sensible heat fluxes. The findings suggest systematic monitoring and forecasting procedures for efficient water-saving management plans in Saudi Arabia.
+C1 [Elhag, Mohamed; Bahrawi, Jarbou] King Abdulaziz Univ, Fac Meteorol Environm & Arid Land Agr, Dept Hydrol & Water Resources Management, Jeddah 21589, Saudi Arabia.
+   [Elhag, Mohamed] Chinese Acad Sci, Inst Remote Sensing & Digital Earth RADI, Beijing 100094, Peoples R China.
+   [Elhag, Mohamed] German Univ Technol Oman, Fac Sci, Dept Appl Geosci, Muscat 1816, Oman.
+   [Boteva, Silvena] Sofia Univ St Kl Ohridski, Dept Ecol & Nat Conservat, Fac Biol, 8 Dragan Tsankov Blvd, Sofia 1164, Bulgaria.
+C3 King Abdulaziz University; Chinese Academy of Sciences; The Institute of Remote Sensing & Digital Earth, CAS; University of Sofia
+RP Elhag, M (corresponding author), King Abdulaziz Univ, Fac Meteorol Environm & Arid Land Agr, Dept Hydrol & Water Resources Management, Jeddah 21589, Saudi Arabia.; Elhag, M (corresponding author), Chinese Acad Sci, Inst Remote Sensing & Digital Earth RADI, Beijing 100094, Peoples R China.; Elhag, M (corresponding author), German Univ Technol Oman, Fac Sci, Dept Appl Geosci, Muscat 1816, Oman.
+EM melhag@kau.edu.sa
+FU Deanship of Scientific Research (DSR), King Abdulaziz University, Jeddah [G-65-155-1440]
+CR Abyaneh HZ, 2014, J ENVIRON HEALTH SCI, V12, P0, DOI 10.1186/2052-336X-12-40
+   ALLEN RG, 1989, AGRON J, V81, P650, DOI 10.2134/agronj1989.00021962008100040019x
+   Allen RG, 2007, J IRRIG DRAIN ENG, V133, P380, DOI 10.1061/(ASCE)0733-9437(2007)133:4(380)
+   Almazroui M, 2013, INT J CLIMATOL, V33, P2247, DOI 10.1002/joc.3721
+   BRUNET Y, 1991, ISPRS J PHOTOGRAMM, V46, P311, DOI 10.1016/0924-2716(91)90062-Z
+   Chen KS, 2003, IEEE T GEOSCI REMOTE, V41, P90, DOI 10.1109/TGRS.2002.807587
+   Chen X, 2013, HYDROL EARTH SYST SC, V17, P1607, DOI 10.5194/hess-17-1607-2013
+   Cheng C, 1997, J STAT PLAN INFER, V59, P291, DOI 10.1016/S0378-3758(96)00110-3
+   Cleugh HA, 2007, REMOTE SENS ENVIRON, V106, P285, DOI 10.1016/j.rse.2006.07.007
+   DERRINGER G, 1980, J QUAL TECHNOL, V12, P214, DOI 10.1080/00224065.1980.11980968
+   Dureja JS, 2016, P I MECH ENG B-J ENG, V230, P389, DOI 10.1177/0954405414558731
+   El Bastawesy M, 2013, HYDROL EARTH SYST SC, V17, P1493, DOI 10.5194/hess-17-1493-2013
+   Elhag M, 2014, LIFE SCI J, V11, P201
+   Elhag M, 2017, GEOSCI INSTRUM METH, V6, P141, DOI 10.5194/gi-6-141-2017
+   Elhag M, 2016, J INDIAN SOC REMOTE, V44, P435, DOI 10.1007/s12524-015-0502-0
+   Elhag M, 2016, J SENSORS, V2016, P0, DOI 10.1155/2016/7596175
+   Elhag M, 2014, ENVIRON EARTH SCI, V72, P4995, DOI 10.1007/s12665-014-3367-6
+   Elhag M, 2011, WATER RESOUR MANAG, V25, P2731, DOI 10.1007/s11269-011-9835-9
+   Elkan C, 2015, CORR, V0, P0
+   Ficici F, 2012, INT J ADV SCI, V2, P114
+   Glenn EP, 2008, SENSORS-BASEL, V8, P2136, DOI 10.3390/s8042136
+   HAJKOWICZ SA, 2000, J ENVIRON PLANN MAN, V43, P505, DOI 10.1080/713676575
+   Hartman MD, 2007, ECOL MODEL, V200, P493, DOI 10.1016/j.ecolmodel.2006.09.001
+   Jia K, 2016, REMOTE SENS ENVIRON, V177, P184, DOI 10.1016/j.rse.2016.02.019
+   Johnson Norman L, 1995, BETA DISTRIBUTIONS, V0, P0
+   Krishnan N, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7619-8
+   Kumar V, 1997, J AM WATER RESOUR AS, V33, P1255, DOI 10.1111/j.1752-1688.1997.tb03550.x
+   Kunnan AJ, 2013, ENCY APPL LINGUISTIC, V0, P0
+   Kustas WP, 1996, HYDROLOG SCI J, V41, P495, DOI 10.1080/02626669609491522
+   LADSON AR, 1992, J HYDROL, V138, P385, DOI 10.1016/0022-1694(92)90127-H
+   Lek S., 2012, ARTIFICIAL NEURONAL, V0, P0
+   Li FQ, 2005, J HYDROMETEOROL, V6, P878, DOI 10.1175/JHM464.1
+   Li ZL, 2009, SENSORS-BASEL, V9, P3801, DOI 10.3390/s90503801
+   Liu C, 1999, INTERFACE PROCESSES, V0, P0
+   Maiyar LM, 2013, PROCEDIA ENGINEER, V64, P1276, DOI 10.1016/j.proeng.2013.09.208
+   McColl KA, 2019, J ADV MODEL EARTH SY, V11, P2036, DOI 10.1029/2019MS001685
+   Monahan AH, 2000, J CLIMATE, V13, P821, DOI 10.1175/1520-0442(2000)013<0821:NPCABN>2.0.CO;2
+   Montes C, 2017, IEEE GEOSCI REMOTE S, V14, P459, DOI 10.1109/LGRS.2017.2650143
+   Muthukrishnan N, 2012, J IND PROD ENG, V29, P515, DOI 10.1080/10170669.2012.728540
+   Norman L., 2010, SUSTAINABILITY, V2, P2044, DOI 10.3390/su2072044
+   Olioso A, 1999, REMOTE SENS ENVIRON, V68, P341, DOI 10.1016/S0034-4257(98)00121-7
+   Peng J, 2012, INT GEOSCI REMOTE SE, V0, PP702, DOI 10.1109/IGARSS.2012.6351468
+   Pettorelli N, 2005, TRENDS ECOL EVOL, V20, P503, DOI 10.1016/j.tree.2005.05.011
+   Pinnix GD, 2019, AGR WATER MANAGE, V223, P0, DOI 10.1016/j.agwat.2019.105725
+   Psilovikos A, 2013, WATER RESOUR MANAG, V27, P4115, DOI 10.1007/s11269-013-0368-2
+   Robert CP, 1996, J AM STAT ASSOC, V91, P167, DOI 10.2307/2291392
+   Roerink GJ, 2000, PHYS CHEM EARTH PT B, V25, P147, DOI 10.1016/S1464-1909(99)00128-8
+   SAATY TL, 1977, J MATH PSYCHOL, V15, P234, DOI 10.1016/0022-2496(77)90033-5
+   Sarkkola S, 2010, CAN J FOREST RES, V40, P1485, DOI 10.1139/X10-084
+   Sewell PD, 2020, FOREST ECOL MANAG, V462, P0, DOI 10.1016/j.foreco.2020.117986
+   ShahzadSultan IA, 2008, PAK J METEOROL, V4, P49
+   Sibalija TV, 2012, J INTELL MANUF, V23, P1511, DOI 10.1007/s10845-010-0451-y
+   Singh Ankita, 2013, INTERNATIONAL JOURNAL OF INDUSTRIAL AND SYSTEMS ENGINEERING, V14, P175
+   Su HB, 2005, J HYDROMETEOROL, V6, P910, DOI 10.1175/JHM466.1
+   Su Z, 2002, HYDROL EARTH SYST SC, V6, P85, DOI 10.5194/hess-6-85-2002
+   Su Z, 2001, J APPL METEOROL, V40, P1933, DOI 10.1175/1520-0450(2001)040<1933:AEOTMF>2.0.CO;2
+   Su ZB, 2003, PHYS CHEM EARTH, V28, P89, DOI 10.1016/S1474-7065(03)00010-X
+   조성래, 2015, JOURNAL OF THE KOREA SOCIETY OF DIGITAL INDUSTRY AND INFORMATION MANAGEMENT (사)디지털산업정보학회 논문지, V11, P33
+   Taylor AR, 1981, METHOD SURFACE IRRIG, V0, P0
+   Vafakhah M, 2012, CAN J CIVIL ENG, V39, P402, DOI 10.1139/L2012-011
+   Vinukollu RK, 2011, REMOTE SENS ENVIRON, V115, P801, DOI 10.1016/j.rse.2010.11.006
+   Wen XH, 2013, ENVIRON MONIT ASSESS, V185, P4361, DOI 10.1007/s10661-012-2874-8
+   Wu CD, 2010, WATER RESOUR MANAG, V24, P3773, DOI 10.1007/s11269-010-9633-9
+   YAGER RR, 1988, IEEE T SYST MAN CYB, V18, P183, DOI 10.1109/21.87068
+   Yilmaz N, 2017, DESALIN WATER TREAT, V91, P386, DOI 10.5004/dwt.2017.20844
+   Zhang Y, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9101029
+NR 66
+TC 3
+Z9 3
+U1 2
+U2 7
+PU DE GRUYTER POLAND SP Z O O
+PI WARSAW
+PA BOGUMILA ZUGA 32A STR, 01-811 WARSAW, MAZOVIA, POLAND
+SN 2391-5447
+EI 
+J9 OPEN GEOSCI
+JI Open Geosci.
+PD MAR 17
+PY 2021
+VL 13
+IS 1
+BP 321
+EP 334
+DI 10.1515/geo-2020-0141
+PG 14
+WC Geosciences, Multidisciplinary
+SC Geology
+GA RL5PD
+UT WOS:000639024000001
+DA 2023-04-26
+ER
+
+PT J
+AU Campbell, SW
+   Briggs, M
+   Roy, SG
+   Douglas, TA
+   Saari, S
+AF Campbell, Seth William
+   Briggs, Martin
+   Roy, Samuel G.
+   Douglas, Thomas A.
+   Saari, Stephanie
+TI Ground-penetrating radar, electromagnetic induction, terrain, and vegetation observations coupled with machine learning to map permafrost distribution at Twelvemile Lake, Alaska
+SO PERMAFROST AND PERIGLACIAL PROCESSES
+LA English
+DT Article
+DE frequency&#8208; domain electromagnetic induction; ground&#8208; penetrating radar; machine learning; permafrost; terrain; vegetation
+ID near-surface permafrost; active-layer thickness; yukon flats; discontinuous permafrost; interior alaska; carbon release; ice; climate; thaw; degradation
+AB We collected ground-penetrating radar (GPR) and frequency-domain electromagnetic induction (FDEM) profiles in 2011 and 2012 to identify the extent of permafrost relative to surface biomass and solar insolation around Twelvemile Lake near Fort Yukon, Alaska. We compared a Landsat-derived biomass estimate and modeled solar insolation from a digital elevation model to the geophysical measurements. We show correspondence between vegetation type and biomass relative to permafrost extent and seasonal freeze-thaw. Thicker permafrost (>= 25 m) was covered by greater biomass, and seasonal thaw depths in these regions were minimal (1 m). Shallow (1-3 m depth) and thin (20-50 cm) newly forming permafrost or frozen layers from the previous winter occurred below northward oriented slopes with thin biomass cover. South-facing slopes exhibited permafrost when there was enough biomass to shield incoming solar energy. We developed an artificial neural network to predict permafrost extent across the broader region by mapping GPR-observed instances of permafrost to FDEM, biomass, and terrain observations with 90.2% accuracy. We identified a strong linear correlation (r = -0.77) between permafrost probability and seasonal thaw depth, indicating that our models may also be used to explore thaw patterns and variability in active layer thickness. This study highlights the combined influence of biomass and terrain on the presence of permafrost and the value of evaluating such parameters via remote sensing to predict permafrost spatial or temporal variability. Incorporating diverse geophysical datasets with in-situ validation into machine learning models demonstrates a useful approach to upscale estimated permafrost extent across large Arctic expanses.
+C1 [Campbell, Seth William; Roy, Samuel G.] Univ Maine, Sch Earth & Climate Sci, Orono, ME 04469 USA.
+   [Campbell, Seth William] Univ Maine, Climate Change Inst, Orono, ME USA.
+   [Campbell, Seth William] US Army Cold Reg Res & Engn Lab, Hanover, NH USA.
+   [Briggs, Martin] US Geol Survey, Earth Syst Proc Div, Hydrogeophys Branch, Storrs, CT USA.
+   [Roy, Samuel G.] Univ Maine, Senator George J Mitchell Ctr Sustainabil Solut, Orono, ME USA.
+   [Douglas, Thomas A.; Saari, Stephanie] US Army Cold Reg Res & Engn Lab, Ft Wainwright, AK USA.
+C3 University of Maine System; University of Maine Orono; University of Maine System; University of Maine Orono; United States Department of Defense; United States Army; U.S. Army Corps of Engineers; U.S. Army Engineer Research & Development Center (ERDC); Cold Regions Research & Engineering Laboratory (CRREL); United States Department of the Interior; United States Geological Survey; University of Maine System; University of Maine Orono; United States Department of Defense; United States Army; U.S. Army Corps of Engineers; U.S. Army Engineer Research & Development Center (ERDC); Cold Regions Research & Engineering Laboratory (CRREL)
+RP Campbell, SW (corresponding author), Univ Maine, Sch Earth & Climate Sci, Orono, ME 04469 USA.
+EM scampb64@maine.edu
+FU National Science Foundation; Strategic Environmental Research and Development Program
+CR Anderson JE, 2019, REMOTE SENS ENVIRON, V233, P0, DOI 10.1016/j.rse.2019.111363
+   [Anonymous], 2002, CIRCUM ARCTIC MAP PE, V0, P0, DOI DOI 10.7265/SKBG-KF16
+   ARCONE SA, 1995, J GLACIOL, V41, P68, DOI 10.3189/S0022143000017779
+   Arcone SA, 1998, GEOPHYSICS, V63, P1573, DOI 10.1190/1.1444454
+   ARCONE SA, 1984, COLD REG SCI TECHNOL, V9, P29, DOI 10.1016/0165-232X(84)90045-4
+   Barnhart KR, 2014, J GEOPHYS RES-EARTH, V119, P1155, DOI 10.1002/2013JF002845
+   Briggs MA, 2019, GROUNDWATER, V57, P737, DOI 10.1111/gwat.12866
+   Briggs MA, 2017, PERMAFROST PERIGLAC, V28, P52, DOI 10.1002/ppp.1893
+   Briggs MA, 2014, GEOPHYS RES LETT, V41, P1585, DOI 10.1002/2014GL059251
+   Brown DRN, 2015, J GEOPHYS RES-BIOGEO, V120, P1619, DOI 10.1002/2015JG003033
+   BROWN J, 1998, EOS T AGU, V79, P634
+   Brown ME, 2016, IEEE GEOSC REM SEN M, V4, P24, DOI 10.1109/MGRS.2016.2560759
+   Chasmer L, 2011, PERMAFROST PERIGLAC, V22, P199, DOI 10.1002/ppp.724
+   Chen ZH, 2017, CAN J REMOTE SENS, V43, P513, DOI 10.1080/07038992.2017.1370367
+   DeConto RM, 2012, NATURE, V484, P87, DOI 10.1038/nature10929
+   Douglas B, 2014, PALGR STUD PAC HIST, V0, PP1, DOI 10.1057/9781137305893
+   Douglas T., 2008, P 9 INT C PERMAFROST, V1, P373
+   Douglas TA, 2016, GEOPHYSICS, V81, PWA71, DOI 10.1190/GEO2015-0149.1
+   Fu P., 2000, P 4 INT C, V0, P0
+   Fu PD, 2002, COMPUT ELECTRON AGR, V37, P25, DOI 10.1016/S0168-1699(02)00115-1
+   Gangodagamage C, 2014, WATER RESOUR RES, V50, P6339, DOI 10.1002/2013WR014283
+   Haltigin TW, 2012, PERMAFROST PERIGLAC, V23, P178, DOI 10.1002/ppp.1741
+   HOEKSTRA P, 1978, GEOPHYSICS, V43, P782, DOI 10.1190/1.1440853
+   Hrbacek F, 2020, CATENA, V190, P0, DOI 10.1016/j.catena.2020.104562
+   Hugelius G, 2014, BIOGEOSCIENCES, V11, P6573, DOI 10.5194/bg-11-6573-2014
+   Jepsen SM, 2013, GEOPHYS RES LETT, V40, P882, DOI 10.1002/grl.50187
+   Jepsen SM, 2013, HYDROGEOL J, V21, P185, DOI 10.1007/s10040-012-0896-5
+   Jepsen SM, 2012, USGS OPEN-FILE REP, V25, P2012
+   Jepsen SM, 2016, HYDROL PROCESS, V30, P1782, DOI 10.1002/hyp.10756
+   Ji L, 2012, INT J APPL EARTH OBS, V18, P451, DOI 10.1016/j.jag.2012.03.019
+   Johansson M, 2013, ENVIRON RES LETT, V8, P0, DOI 10.1088/1748-9326/8/3/035025
+   Jones BM, 2013, ENVIRON RES LETT, V8, P0, DOI 10.1088/1748-9326/8/4/045025
+   Jorgenson MT, 2001, CLIMATIC CHANGE, V48, P551, DOI 10.1023/A:1005667424292
+   Jorgenson T, 2008, MAP PERMAFROST CHARA, V0, P0
+   Kohavi R., 1995, IJCAI-95. PROCEEDINGS OF THE FOURTEENTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P1137
+   Kokelj SV, 2013, J GEOPHYS RES-EARTH, V118, P681, DOI 10.1002/jgrf.20063
+   Lawson DE, 1998, CRREL REPORT, V0, P0
+   Lawson DE, 1996, CRREL REPORT, V94, P31
+   Leverington DW, 1997, PERMAFROST PERIGLAC, V8, P207, DOI 10.1002/(SICI)1099-1530(199732)8:2&lt;205::AID-PPP252&gt;3.0.CO;2-5
+   Ling F, 2003, PERMAFROST PERIGLAC, V14, P141, DOI 10.1002/ppp.445
+   Ling F, 2007, GLOBAL PLANET CHANGE, V57, P235, DOI 10.1016/j.gloplacha.2006.11.009
+   Liston GE, 1998, J GLACIOL, V44, P498, DOI 10.3189/S0022143000002021
+   Liu L, 2012, J GEOPHYS RES-EARTH, V117, P0, DOI 10.1029/2011JF002041
+   Liu L, 2010, J GEOPHYS RES-EARTH, V115, P0, DOI 10.1029/2009JF001547
+   Loranty MM, 2018, BIOGEOSCIENCES, V15, P5287, DOI 10.5194/bg-15-5287-2018
+   Melvin AM, 2017, P NATL ACAD SCI USA, V114, PE122, DOI 10.1073/pnas.1611056113
+   Minsley BJ, 2015, CRYOSPHERE, V9, P781, DOI 10.5194/tc-9-781-2015
+   Minsley BJ, 2012, GEOPHYS RES LETT, V39, P0, DOI 10.1029/2011GL050079
+   Mishra U, 2014, SOIL SCI SOC AM J, V78, P894, DOI 10.2136/sssaj2013.11.0484
+   Moussavi MS, 2014, INT J REMOTE SENS, V35, P5263, DOI 10.1080/01431161.2014.939780
+   Narine LL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12111824
+   Nelson F. E., 1998, J GEOPHYS RES ALL SE, V103, P28
+   Nelson FE, 1997, ARCTIC ALPINE RES, V29, P367, DOI 10.2307/1551985
+   Nguyen TN, 2009, PERMAFROST PERIGLAC, V20, P141, DOI 10.1002/ppp.637
+   Nitze I, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9070640
+   Novikova A, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091481
+   Ong JB, 2010, HYDROGEOL J, V18, P1539, DOI 10.1007/s10040-010-0617-x
+   Osterkamp TE, 1999, PERMAFROST PERIGLAC, V10, P17, DOI 10.1002/(SICI)1099-1530(199901/03)10:1&lt;17::AID-PPP303&gt;3.0.CO;2-4
+   Panda SK, 2010, PERMAFROST PERIGLAC, V21, P271, DOI 10.1002/ppp.686
+   Parsekian AD, 2013, GEOPHYS RES LETT, V40, P535, DOI 10.1002/grl.50137
+   Pastick NJ, 2014, J GEOPHYS RES-BIOGEO, V119, P1244, DOI 10.1002/2013JG002594
+   Pastick NJ, 2013, PERMAFROST PERIGLAC, V24, P184, DOI 10.1002/ppp.1775
+   PEDDLE DR, 1993, REMOTE SENS ENVIRON, V44, P67, DOI 10.1016/0034-4257(93)90103-5
+   PEDDLE DR, 1992, INT J REMOTE SENS, V13, P3375, DOI 10.1080/01431169208904126
+   Perreault N, 2017, ARCT SCI, V3, P237, DOI 10.1139/as-2016-0047
+   Ponti S, 2021, ECOL INDIC, V120, P0, DOI 10.1016/j.ecolind.2020.106889
+   Rich PM, 1994, AM SOC PHOTOGRAMMETR, V0, P524
+   Romanovsky VE, 2017, TERRESTRIAL PERMAFRO, V0, P0
+   Schuur EAG, 2009, NATURE, V459, P556, DOI 10.1038/nature08031
+   Sheets RA, 2009, USGEOLOGICAL SURVEY, V0, P0, DOI DOI 10.3133/OFR20091025
+   Shiklomanov NI, 2013, GEOPHYS RES LETT, V40, P6356, DOI 10.1002/2013GL058295
+   Shur YL, 2007, PERMAFROST PERIGLAC, V18, P7, DOI 10.1002/ppp.582
+   Skurikhin AN, 2014, IEEE SW SYMP IMAG, V0, PP137, DOI 10.1109/SSIAI.2014.6806048
+   Skurikhin AN, 2013, REMOTE SENS LETT, V4, P1077, DOI 10.1080/2150704X.2013.840404
+   Smith GHS, 2006, DEPOSITIONAL MODELS, V0, P0, DOI DOI 10.1002/9781444304374.ch2
+   Steedman AE, 2017, PERMAFROST PERIGLAC, V28, P66, DOI 10.1002/ppp.1880
+   Tarnocai C, 2009, GLOBAL BIOGEOCHEM CY, V23, P0, DOI 10.1029/2008GB003327
+   Ulrich M, 2011, GEOMORPHOLOGY, V134, P197, DOI 10.1016/j.geomorph.2011.07.002
+   Ulrich M, 2014, PERMAFROST PERIGLAC, V25, P151, DOI 10.1002/ppp.1810
+   USGS Earth Resources Observation and Science (EROS) Center, 2012, AB BIOM YUK FLATS EC, V0, P0
+   Verpaelst M, 2017, ARCT SCI, V3, P301, DOI 10.1139/as-2016-0018
+   Wainwright HM, 2015, J GEOPHYS RES-BIOGEO, V120, P788, DOI 10.1002/2014JG002799
+   Walter KM, 2007, PHILOS T R SOC A, V365, P1657, DOI 10.1098/rsta.2007.2036
+   Wellman TP, 2013, HYDROGEOL J, V21, P281, DOI 10.1007/s10040-012-0941-4
+   Widhalm B, 2017, CRYOSPHERE, V11, P483, DOI 10.5194/tc-11-483-2017
+   Wooldridge CL, 2005, J SEDIMENT RES, V75, P844, DOI 10.2110/jsr.2005.066
+   Zhang T, 2008, POLAR GEOGR, V31, P47, DOI 10.1080/10889370802175895
+   Zhang WX, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091487
+NR 90
+TC 3
+Z9 3
+U1 3
+U2 30
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1045-6740
+EI 1099-1530
+J9 PERMAFROST PERIGLAC
+JI Permafrost Periglacial Process.
+PD JUL 15
+PY 2021
+VL 32
+IS 3
+BP 407
+EP 426
+DI 10.1002/ppp.2100
+EA FEB 2021
+PG 20
+WC Geography, Physical; Geology
+SC Physical Geography; Geology
+GA TU4PR
+UT WOS:000614752800001
+DA 2023-04-26
+ER
+
+PT J
+AU Shi, YJ
+   Guo, EL
+   Zhu, S
+   Gu, J
+   Bai, LF
+   Han, J
+AF Shi, Yingjie
+   Guo, Enlai
+   Zhu, Shuo
+   Gu, Jie
+   Bai, Lianfa
+   Han, Jing
+TI Research on optimal skip connection scale in learning-based scattering imaging
+SO SEVENTH SYMPOSIUM ON NOVEL PHOTOELECTRONIC DETECTION TECHNOLOGY AND APPLICATIONS
+LA English
+DT Proceedings Paper
+DE Scattering imaging; speckle correlation; deep learning; skip connections
+ID phase retrieval
+AB Strong scattering media bring difficulties to imaging in many fields such as medicine and astronomy. The deep learning method has a powerful fitting ability, which can be better applied in reconstructing the target behind the scattering medium. But the detail of the reconstructed target is often inaccurate. In this paper, the skip connection is added in the neural network to improve the accuracy of the reconstructed detail. This network can combine pixel-level information with high-level semantic information, and the information missed during the encoding process can be more involved in the final reconstruction process. 1100 handwritten characters are used as the targets hidden behind the ground glass. It is found that the quality of the reconstructed target is different when the skip connection is added to the network at different scales. The feature map visualization method is used to help us analyze the role of the skip connection. Meanwhile, PSNR (Peak Signal to Noise Ratio) is also used as an objective evaluation standard to evaluate the quality of reconstructed targets. According to subjective and objective evaluation criteria, conclusions can be drawn that the detail of targets can be better retained when the skip connection is added between the convolutional layer corresponding to the feature map of the size 64*64, and the average PSNR can be enhanced 1 dB compared with the network without skip connections. This work provides a reference for the fusion methods of different scale features in the computational optical imaging.
+C1 [Shi, Yingjie; Guo, Enlai; Zhu, Shuo; Gu, Jie; Bai, Lianfa; Han, Jing] Nanjing Univ Sci & Technol, Sch Elect Engn & Optoelect, Nanjing 210094, Peoples R China.
+C3 Nanjing University of Science & Technology
+RP Han, J (corresponding author), Nanjing Univ Sci & Technol, Sch Elect Engn & Optoelect, Nanjing 210094, Peoples R China.
+FU National Natural Science Foundation of China [62031018, 61971227]; Jiangsu Provincial Key Research and Development Program [BE2018126]
+CR Ando T, 2015, OPT EXPRESS, V23, P33902, DOI 10.1364/OE.23.033902
+   Bertolotti J, 2012, NATURE, V491, P232, DOI 10.1038/nature11578
+   FIENUP JR, 1982, APPL OPTICS, V21, P2758, DOI 10.1364/AO.21.002758
+   Guo EL, 2020, OPT EXPRESS, V28, P2433, DOI 10.1364/OE.383911
+   Horisaki R, 2016, OPT EXPRESS, V24, P13738, DOI 10.1364/OE.24.013738
+   Katz O, 2014, NAT PHOTONICS, V8, P784, DOI 10.1038/nphoton.2014.189
+   Kim M, 2015, OPT EXPRESS, V23, P12648, DOI 10.1364/OE.23.012648
+   Li S, 2018, OPTICA, V5, P803, DOI 10.1364/OPTICA.5.000803
+   Li YZ, 2018, OPTICA, V5, P1181, DOI 10.1364/OPTICA.5.001181
+   Lu D, 2018, SPECKLE 2018 SPECKLE 2018, V10834, P578
+   Schniter P, 2015, IEEE T SIGNAL PROCES, V63, P1043, DOI 10.1109/TSP.2014.2386294
+   Wang K, 2015, NAT COMMUN, V6, P0, DOI 10.1038/ncomms8276
+   Xie JP, 2019, J OPTICS-UK, V21, P0, DOI 10.1088/2040-8986/ab2972
+   Xu XQ, 2018, OPT EXPRESS, V26, P15073, DOI 10.1364/OE.26.015073
+NR 14
+TC 1
+Z9 1
+U1 1
+U2 7
+PU SPIE-INT SOC OPTICAL ENGINEERING
+PI BELLINGHAM
+PA 1000 20TH ST, PO BOX 10, BELLINGHAM, WA 98227-0010 USA
+SN 0277-786X
+EI 1996-756X
+J9 PROC SPIE
+PD JUN 15
+PY 2021
+VL 11763
+IS 
+BP 
+EP 
+DI 10.1117/12.2586177
+PG 7
+WC Optics
+SC Optics
+GA BR8DM
+UT WOS:000671015900033
+DA 2023-04-26
+ER

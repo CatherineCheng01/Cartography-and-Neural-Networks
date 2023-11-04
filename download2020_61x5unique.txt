@@ -1,0 +1,465 @@
+
+PT J
+AU Yuan, KX
+   Liu, J
+   Yang, SC
+   Wu, K
+   Shen, F
+AF Yuan, Kaixin
+   Liu, Jing
+   Yang, Shanchao
+   Wu, Kai
+   Shen, Fang
+TI Time series forecasting based on kernel mapping and high-order fuzzy cognitive maps
+SO KNOWLEDGE-BASED SYSTEMS
+LA English
+DT Article
+DE Fuzzy cognitive maps; Time series prediction; Feature selection; Kernel mapping
+ID neural-networks; prediction; design; binary
+AB Fuzzy cognitive maps (FCMs) have emerged as a powerful tool for dealing with the task of time series prediction. Most existing research devoted to designing an effective method to extract feature time series from the original time series, which are used to construct FCMs and predict the time series. However, in existing methods, all extracted feature time series, including the redundant feature time series, were used to develop FCMs instead of selecting the key feature time series (KFTS) to construct FCMs, which limits the generalization and prediction accuracy of the models. In this paper, we propose a framework based on kernel mapping and high-order FCMs (HFCM) to forecast time series inspired by the kernel methods and support vector regression (SVR). The model is termed as Kernel-HFCM. Kernel mapping is designed to map the original one-dimensional time series into multidimensional feature time series, and then the feature selection algorithm is proposed to select the KFTS from the multidimensional feature time series to develop the HFCM. Finally, reverse kernel mapping is used to map the feature time series back to the predicted one-dimensional time series. In comparison to the existing methods, the experimental results on seven benchmark datasets demonstrate the effectiveness of Kernel-HFCM in time series prediction. (C) 2020 Elsevier B.V. All rights reserved.
+C1 [Yuan, Kaixin; Liu, Jing; Yang, Shanchao; Wu, Kai; Shen, Fang] Xidian Univ, Sch Artificial Intelligence, Xian 710071, Peoples R China.
+C3 Xidian University
+RP Liu, J (corresponding author), Xidian Univ, Sch Artificial Intelligence, Xian 710071, Peoples R China.
+EM neouma@163.com
+FU Key Project of Science and Technology Innovation 2030 - Ministry of Science and Technology of China [2018AAA0101302]; National Natural Science Foundation of China (NSFC) [61773300]
+CR Aguilar J., 2005, INT J COMPUT COGN, V3, P27
+   Ahmadi S, 2014, IEEE INT FUZZY SYST, V0, PP1041, DOI 10.1109/FUZZ-IEEE.2014.6891605
+   AITCHISON J, 1976, BIOMETRIKA, V63, P413, DOI 10.2307/2335719
+   Amirkhani A, 2018, NEURAL COMPUT APPL, V30, P1573, DOI 10.1007/s00521-016-2765-y
+   Bakhtavar E, 2018, STOCH ENV RES RISK A, V32, P3317, DOI 10.1007/s00477-018-1618-x
+   Boser B., 2003, TRAINING ALGORITHM O, V0, P144
+   Bruzzone L, 1999, IEEE T GEOSCI REMOTE, V37, P1179, DOI 10.1109/36.752239
+   Buitinck L, 2013, ECML PKDD WORKSHOP L, V0, P108
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Elisseeff A, 2002, ADV NEUR IN, V14, P681
+   Faruk DO, 2010, ENG APPL ARTIF INTEL, V23, P586, DOI 10.1016/j.engappai.2009.09.015
+   Froelich W, 2017, KNOWL-BASED SYST, V115, P110, DOI 10.1016/j.knosys.2016.10.017
+   Geva AB, 1998, IEEE T NEURAL NETWOR, V9, P1471, DOI 10.1109/72.728396
+   Gretton A., 2007, P ADV NEUR INF PROC, V0, PP513, DOI 10.5555/2188385.2188410
+   JANG JSR, 1993, IEEE T SYST MAN CYB, V23, P665, DOI 10.1109/21.256541
+   Kim DJ, 1997, IEEE T FUZZY SYST, V5, P523, DOI 10.1109/91.649903
+   Liu ZD, 2020, KNOWL-BASED SYST, V203, P0, DOI 10.1016/j.knosys.2020.106105
+   Lu W, 2014, KNOWL-BASED SYST, V70, P242, DOI 10.1016/j.knosys.2014.07.004
+   Lu W, 2013, PROCEEDINGS OF THE 2013 JOINT IFSA WORLD CONGRESS AND NAFIPS ANNUAL MEETING (IFSA/NAFIPS), V0, PP649, DOI 10.1109/IFSA-NAFIPS.2013.6608477
+   Meng H, 2012, WORLD AUTOM C, V0, P1
+   Min JH, 2005, EXPERT SYST APPL, V28, P603, DOI 10.1016/j.eswa.2004.12.008
+   MIZUMOTO M, 1982, FUZZY SET SYST, V8, P253, DOI 10.1016/S0165-0114(82)80004-3
+   Papageorgiou E, 2003, LECT NOTES ARTIF INT, V2903, P256
+   Papageorgiou EI, 2005, J INTELL INF SYST, V25, P95, DOI 10.1007/s10844-005-0864-9
+   Papageorgiou K, 2020, ENERGIES, V13, P0, DOI 10.3390/en13061427
+   Pedrycz W, 2016, IEEE T FUZZY SYST, V24, P120, DOI 10.1109/TFUZZ.2015.2428717
+   Rezaee MJ, 2018, NEURAL COMPUT APPL, V29, P761, DOI 10.1007/s00521-016-2478-2
+   Salmeron JL, 2019, KNOWL-BASED SYST, V163, P723, DOI 10.1016/j.knosys.2018.09.034
+   Sapankevych NL, 2009, IEEE COMPUT INTELL M, V4, P24, DOI 10.1109/MCI.2009.932254
+   Scholkopf B, 2001, ADV NEUR IN, V13, P301
+   Smola AJ, 2004, STAT COMPUT, V14, P199, DOI 10.1023/B:STCO.0000035301.49549.88
+   Song HJ, 2010, NEURAL NETWORKS, V23, P1264, DOI 10.1016/j.neunet.2010.08.003
+   Stach W, 2005, FUZZY SET SYST, V153, P371, DOI 10.1016/j.fss.2005.01.009
+   Stach W, 2008, IEEE T FUZZY SYST, V16, P61, DOI 10.1109/TFUZZ.2007.902020
+   Stach W, 2006, NAFIPS 2006 - 2006 ANNUAL MEETING OF THE NORTH AMERICAN FUZZY INFORMATION PROCESSING SOCIETY, VOLS 1 AND 2, P166, DOI 10.1109/NAFIPS.2006.365402
+   Tsadiras AK, 2008, INFORM SCIENCES, V178, P3880, DOI 10.1016/j.ins.2008.05.015
+   Vapnik V, 1997, ADV NEUR IN, V9, P281
+   Wu G., 2005, P 11 ACM SIGKDD INT, V0, P703
+   Wu K, 2020, IEEE T FUZZY SYST, V28, P3110, DOI 10.1109/TFUZZ.2019.2956904
+   Wu K, 2016, KNOWL-BASED SYST, V113, P23, DOI 10.1016/j.knosys.2016.09.010
+   Yang SC, 2018, IEEE T FUZZY SYST, V26, P3391, DOI 10.1109/TFUZZ.2018.2831640
+   Zheng G, 1999, J COMPUT INTELL FINA, V7, P18
+NR 42
+TC 19
+Z9 19
+U1 15
+U2 74
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0950-7051
+EI 1872-7409
+J9 KNOWL-BASED SYST
+JI Knowledge-Based Syst.
+PD OCT 28
+PY 2020
+VL 206
+IS 
+BP 
+EP 
+DI 10.1016/j.knosys.2020.106359
+PG 11
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA NT3ND
+UT WOS:000572851100005
+DA 2023-04-26
+ER
+
+PT J
+AU Xiong, L
+   Deng, ZW
+   Huang, YY
+   Du, WX
+   Zhao, XL
+   Lu, CY
+   Tian, W
+AF Xiong, Lu
+   Deng, Zhenwen
+   Huang, Yuyao
+   Du, Weixin
+   Zhao, Xiaolong
+   Lu, Chengyu
+   Tian, Wei
+TI Traffic Intersection Re-Identification Using Monocular Camera Sensors
+SO SENSORS
+LA English
+DT Article
+DE monocular camera sensor; deep learning; intersection dataset; intersection re-identification; image matching
+ID vision
+AB Perception of road structures especially the traffic intersections by visual sensors is an essential task for automated driving. However, compared with intersection detection or visual place recognition, intersection re-identification (intersection re-ID) strongly affects driving behavior decisions with given routes, yet has long been neglected by researchers. This paper strives to explore intersection re-ID by a monocular camera sensor. We propose a Hybrid Double-Level re-identification approach which exploits two branches of Deep Convolutional Neural Network to accomplish multi-task including classification of intersection and its fine attributes, and global localization in topological maps. Furthermore, we propose a mixed loss training for the network to learn the similarity of two intersection images. As no public datasets are available for the intersection re-ID task, based on the work of RobotCar, we propose a new dataset with carefully-labeled intersection attributes, which is called "RobotCar Intersection" and covers more than 30,000 images of eight intersections in different seasons and day time. Additionally, we provide another dataset, called "Campus Intersection" consisting of panoramic images of eight intersections in a university campus to verify our updating strategy of topology map. Experimental results demonstrate that our proposed approach can achieve promising results in re-ID of both coarse road intersections and its global pose, and is well suited for updating and completion of topological maps.
+C1 [Xiong, Lu; Deng, Zhenwen; Huang, Yuyao; Du, Weixin; Zhao, Xiaolong; Lu, Chengyu; Tian, Wei] Tongji Univ, Sch Automot Studies, Inst Intelligent Vehicles, Shanghai 201804, Peoples R China.
+C3 Tongji University
+RP Tian, W (corresponding author), Tongji Univ, Sch Automot Studies, Inst Intelligent Vehicles, Shanghai 201804, Peoples R China.
+EM xiong_lu@tongji.edu.cn; dengzhenwen@tongji.edu.cn; huangyuyao@tongji.edu.cn; 1733345@tongji.edu.cn; 1651860@tongji.edu.cn; luchengyu@tongji.edu.cn; tian_wei@tongji.edu.cn
+FU National Natural Science Foundation of China [52002285]; Shanghai Pujang Program [2020PJD075]; Shenzhen Future Intelligent Network Transportation System Industry Innovation Center [17092530321]
+CR Badino H, 2011, IEEE INT VEH SYM, V0, PP794, DOI 10.1109/IVS.2011.5940504
+   Bay H., 2008, COMPUTER VISION IMAG, V0, P0, DOI DOI 10.1007/11744023_32
+   Bhatt D, 2017, IEEE INT C INT ROBOT, V0, P4495
+   Bhatt P, 2017, IEEE GLOB HUMANIT C, V0, P81
+   Bromley J., 1993, INTERNATIONAL JOURNAL OF PATTERN RECOGNITION AND ARTIFICIAL INTELLIGENCE, V7, P669, DOI 10.1142/S0218001493000339
+   Cheng J., 2012, J RADARS, V1, P100
+   Cummins M, 2008, INT J ROBOT RES, V27, P647, DOI 10.1177/0278364908090961
+   Datondji SRE, 2016, IEEE T INTELL TRANSP, V17, P2681, DOI 10.1109/TITS.2016.2530146
+   Ge XY, 2017, IEEE INT SYMP CIRC S, V0, P318
+   Glover AJ, 2010, IEEE INT CONF ROBOT, V0, PP3507, DOI 10.1109/ROBOT.2010.5509547
+   Habermann D, 2016, IEEE IJCNN, V0, PP4934, DOI 10.1109/IJCNN.2016.7727849
+   Krose BJA, 2001, IMAGE VISION COMPUT, V19, P381, DOI 10.1016/S0262-8856(00)00086-X
+   Kuipers B., 1991, ROBOTICS AND AUTONOMOUS SYSTEMS, V8, P47, DOI 10.1016/0921-8890(91)90014-C
+   Kushner T. R., 1987, MOBILE ROBOTS 2 INT, V852, P19
+   Li BY, 2019, IEEE T IMAGE PROCESS, V28, P492, DOI 10.1109/TIP.2018.2867951
+   Li PY, 2020, IEEE ACCESS, V8, P14036, DOI 10.1109/ACCESS.2020.2965545
+   Liu H., 2016, P IEEE C COMP VIS PA, V0, P737
+   Liu Y, 2012, IEEE INT C INT ROBOT, V0, PP1051, DOI 10.1109/IROS.2012.6386145
+   Lowe D. G., 1999, PROCEEDINGS OF THE SEVENTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP1150, DOI 10.1109/ICCV.1999.790410
+   Lowry S, 2016, IEEE T ROBOT, V32, P1, DOI 10.1109/TRO.2015.2496823
+   Maddern W, 2017, INT J ROBOT RES, V36, P3, DOI 10.1177/0278364916679498
+   Milford MJ, 2012, IEEE INT CONF ROBOT, V0, PP1643, DOI 10.1109/ICRA.2012.6224623
+   Olid D., 2018, PROC PPNIV WORKSHOP, V0, P1
+   Oliva A, 2006, PROG BRAIN RES, V155, P23, DOI 10.1016/S0079-6123(06)55002-2
+   Pandey G, 2011, INT J ROBOT RES, V30, P1543, DOI 10.1177/0278364911400640
+   Poggenhans F., 2018, P IEEE INT C INT TRA, V0, P4495
+   Rosten E, 2006, LECT NOTES COMPUT SC, V3951, P430, DOI 10.1007/11744023_34
+   Schroff F, 2015, PROC CVPR IEEE, V0, PP815, DOI 10.1109/CVPR.2015.7298682
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sivic J, 2003, NINTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, VOLS I AND II, PROCEEDINGS
+   Ulrich I., 2000, PROCEEDINGS 2000 ICRA. MILLENNIUM CONFERENCE. IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION. SYMPOSIA PROCEEDINGS (CAT. NO.00CH37065), V0, PP1023, DOI 10.1109/ROBOT.2000.844734
+   Xie XZ, 2017, ISPRS INT GEO-INF, V6, P0, DOI 10.3390/ijgi6100311
+   Xiong L., 2020, P IEEE C ADV ROB MEC, V0, P1
+   Yu CH, 2018, TRANSPORT RES B-METH, V112, P89, DOI 10.1016/j.trb.2018.04.007
+   Zetao Chen, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION (ICRA), V0, PP3223, DOI 10.1109/ICRA.2017.7989366
+   Zhao JQ, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19010161
+NR 37
+TC 2
+Z9 2
+U1 1
+U2 20
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD NOV 15
+PY 2020
+VL 20
+IS 22
+BP 
+EP 
+DI 10.3390/s20226515
+PG 19
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA OZ6VM
+UT WOS:000595061300001
+PM 33202653
+DA 2023-04-26
+ER
+
+PT J
+AU Liao, XH
+   Wang, XL
+   Li, LH
+   Liu, HY
+   Yang, ZF
+   Chen, Z
+AF Liao, Xiaohui
+   Wang, Xueliang
+   Li, Lihui
+   Liu, Haiyang
+   Yang, Zhifa
+   Chen, Zigan
+TI Engineering Application and Prediction of the Influence Area of the Rockfall Hazards
+SO MATHEMATICAL PROBLEMS IN ENGINEERING
+LA English
+DT Article
+ID kinetic-energy; simulation; restitution; valley; models
+AB The identification of potential rockfall and the accurate prediction of its trajectory are critical in prevention and mitigation of rockfall hazard. It is an important precondition to assess the uncertainty of rockfall motion, study the effective identification technology of potential rockfall, predict the rockfall trajectory, and calculate the threatened area by rockfall hazards. In this study, field investigations and numerical simulations were carried out to identify potential rockfall on a weathered rock slope. As a case study, our calculations results show that the area of tensile stress concentration and plastic failure is the potential area where the rockmass will fall off the surface of the weathered rock slope. A mathematical model for calculating the rockfall influence area of the weathered rock slope was established based on the optimization theory, neural network technology, and genetic optimization algorithm. The rockfall influence area of the weathered rock slope was determined using maximum horizontal distance of rockfall in the specified slope cross sections and described on the topographic map using spline curves to form a closed possibly vulnerable area. As a case study, our calculations confirm that the distributions of the plastic failure and tensile stress areas obtained from the numerical simulations are consistent with the dangerous rock masses identified by field investigations at Guanyindong Slope that is a popular tourist scenic spot in Zhejiang Province, China. In this study, it has been indicated that the influence area can be used as the basis for the design of passive protection methods for rock slopes vulnerable to rockfall hazards.
+C1 [Liao, Xiaohui] Quzhou Univ, Coll Civil Engn & Architecture, Quzhou 324000, Peoples R China.
+   [Wang, Xueliang; Li, Lihui; Liu, Haiyang; Yang, Zhifa] Chinese Acad Sci, Inst Geol & Geophys, Key Lab Shale Gas & Geoengn, Beijing 100029, Peoples R China.
+   [Wang, Xueliang; Li, Lihui; Liu, Haiyang; Yang, Zhifa] Univ Chinese Acad Sci, Coll Earth & Planetary Sci, Beijing 100049, Peoples R China.
+   [Wang, Xueliang; Li, Lihui; Liu, Haiyang; Yang, Zhifa] Chinese Acad Sci, Innovat Acad Earth Sci, Beijing 100029, Peoples R China.
+   [Chen, Zigan] Zhejiang Shenxianju Tourism Grp Co Ltd, Taizhou 317300, Peoples R China.
+C3 Quzhou University; Chinese Academy of Sciences; Institute of Geology & Geophysics, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Chinese Academy of Sciences
+RP Liao, XH (corresponding author), Quzhou Univ, Coll Civil Engn & Architecture, Quzhou 324000, Peoples R China.
+EM liaoxiaohui@sina.com
+FU Zhejiang Province Welfare Technology Applied Research Project [2017C33190]; Strategic Priority Research Program of the Chinese Acadamy of Sciences [XDA23090402]; National Natural Science Foundation of China [41672321]
+CR Agliardi F, 2003, INT J ROCK MECH MIN, V40, P455, DOI 10.1016/S1365-1609(03)00021-2
+   AZZONI A, 1995, ROCK MECH ROCK ENG, V28, P111, DOI 10.1007/BF01020064
+   BOZZOLO D, 1986, ACTA MECH, V63, P113, DOI 10.1007/BF01182543
+   Buzzi O, 2012, ROCK MECH ROCK ENG, V45, P35, DOI 10.1007/s00603-011-0183-0
+   Cai MF, 2008, PROC MONOGR ENG WATE, V0, P3
+   Crosta GB, 2004, NAT HAZARD EARTH SYS, V4, P583, DOI 10.5194/nhess-4-583-2004
+   Dorren LKA, 2006, NAT HAZARD EARTH SYS, V6, P145, DOI 10.5194/nhess-6-145-2006
+   Dorren LKA, 2005, FOREST ECOL MANAG, V215, P183, DOI 10.1016/j.foreco.2005.05.012
+   Dorren LKA, 2003, GEOMORPHOLOGY, V56, P49, DOI 10.1016/S0169-555X(03)00045-X
+   Dorren LKA, 2003, PROG PHYS GEOG, V27, P69, DOI 10.1191/0309133303pp359ra
+   EVANS SG, 1993, CAN GEOTECH J, V30, P620, DOI 10.1139/t93-054
+   Frattini P, 2012, LANDSLIDES TYPES MEC, V0, PP267, DOI 10.1017/CBO9780511740367.023
+   HAN LQ, 2007, ARTIFICIAL NEURAL NE, V0, P0
+   Heckmann T, 2016, GEOMORPHOLOGY, V260, P16, DOI 10.1016/j.geomorph.2015.07.003
+   Jaboyedoff M, 2005, NAT HAZARD EARTH SYS, V5, P621, DOI 10.5194/nhess-5-621-2005
+   Labiouse V, 2009, NAT HAZARD EARTH SYS, V9, P1981, DOI 10.5194/nhess-9-1981-2009
+   Lan HX, 2007, COMPUT GEOSCI-UK, V33, P262, DOI 10.1016/j.cageo.2006.05.013
+   Li LP, 2016, KSCE J CIV ENG, V20, P2297, DOI 10.1007/s12205-015-0221-7
+   Liao Xiao-hui, 2010, JOURNAL OF NANJING FORESTRY UNIVERSITY, V34, P105
+   Messenzehl K, 2017, GEOMORPHOLOGY, V287, P29, DOI 10.1016/j.geomorph.2016.01.008
+   Michoud C, 2012, NAT HAZARD EARTH SYS, V12, P615, DOI 10.5194/nhess-12-615-2012
+   Ministry of Housing and Urban-Rural Development of the Peoples Republic of China, 2013, STAND TEST METH ENG, V0, P0
+   Perret S, 2004, LANDSLIDES, V1, P123, DOI 10.1007/s10346-004-0014-4
+   Pfeiffer T.J., 1989, B ASS ENG GEOL, V26, P135, DOI 10.2113/gseegeosci.xxvi.1.135
+   RITCHIE AM, 1963, EVALUATION ROCKFALL, V0, P0
+   Sun YX, 2018, PROCEEDINGS OF GEOSHANGHAI 2018 INTERNATIONAL CONFERENCE: GEOENVIRONMENT AND GEOHAZARD, V0, PP160, DOI 10.1007/978-981-13-0128-5_19
+   Topal T, 2007, ENVIRON GEOL, V53, P191, DOI 10.1007/s00254-006-0633-2
+   Trappmann D, 2014, EARTH SURF PROC LAND, V39, P1866, DOI 10.1002/esp.3580
+   Volkwein A, 2011, NAT HAZARD EARTH SYS, V11, P2617, DOI 10.5194/nhess-11-2617-2011
+   Wang XL, 2014, LANDSLIDES, V11, P711, DOI 10.1007/s10346-013-0447-8
+   Xuan Guang., 2004, GENETIC ALGORITHM EN, V0, P0
+   Zhang N, 2019, B ENG GEOL ENVIRON, V78, P991, DOI 10.1007/s10064-017-1098-0
+   Zhang Y, 2018, B ENG GEOL ENVIRON, V77, P1287, DOI 10.1007/s10064-018-1372-9
+NR 38
+TC 2
+Z9 3
+U1 5
+U2 29
+PU HINDAWI LTD
+PI LONDON
+PA ADAM HOUSE, 3RD FLR, 1 FITZROY SQ, LONDON, W1T 5HF, ENGLAND
+SN 1024-123X
+EI 1563-5147
+J9 MATH PROBL ENG
+JI Math. Probl. Eng.
+PD MAY 7
+PY 2020
+VL 2020
+IS 
+BP 
+EP 
+DI 10.1155/2020/1067215
+PG 14
+WC Engineering, Multidisciplinary; Mathematics, Interdisciplinary Applications
+SC Engineering; Mathematics
+GA LT1AE
+UT WOS:000536806700009
+DA 2023-04-26
+ER
+
+PT J
+AU Wu, CX
+   Zhang, ZH
+   Chen, LY
+   Yu, WX
+AF Wu, Chunxiao
+   Zhang, Zenghui
+   Chen, Longyong
+   Yu, Wenxian
+TI Super-Resolution for MIMO Array SAR 3-D Imaging Based on Compressive Sensing and Deep Neural Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Imaging; MIMO communication; Synthetic aperture radar; Neural networks; Compressed sensing; Compressive sensing (CS); deep neural network (DNN); multiple-input multiple-output (MIMO); super-resolution; synthetic aperture radar (SAR); 3-D imaging
+ID signal reconstruction; circular sar; tomography; radar; algorithm; design
+AB Multiple-input multiple-output (MIMO) array synthetic aperture radar (SAR) can straightly obtain the 3-D imagery of the illuminated scene with the single-pass flight. Generally, the Rayleigh resolution of the elevation direction is unacceptable due to the length limitation of linear array. The super-resolution imaging algorithms within the compressive sensing (CS) framework have been extensively studied because of the essential spatial sparsity in the elevation direction. However, the super-resolution performance of the existing sparse reconstruction algorithms will deteriorate dramatically in the case of lower signal-to-noise ratio (SNR) level or a few antenna elements. To overcome this problem, a new super-resolution imaging structure based on CS and deep neural network (DNN) for MIMO array SAR is proposed in this article. In this new algorithm, the spatial filtering based on CS is first proposed to reserve the signals only impinging from the prespecified space subregions. Thereafter, a group of parallel end-to-end DNN regression models are designed for mapping the potential sparse recovery mathematical model and further locating the true scatterers in the elevation direction. Finally, extensive simulations and airborne MIMO array SAR experiments are investigated to validate that the proposed method can realize the state-of-the-art super-resolution imaging against other existing related methods.
+C1 [Wu, Chunxiao; Zhang, Zenghui; Yu, Wenxian] Shanghai Jiao Tong Univ, Shanghai Key Lab Intelligent Sensing & Recognit, Sch Elect Informat & Elect Engn, Shanghai 200240, Peoples R China.
+   [Chen, Longyong] Chinese Acad Sci, Inst Elect, Sci & Technol Microwave Imaging Lab, Beijing 100190, Peoples R China.
+C3 Shanghai Jiao Tong University; Chinese Academy of Sciences; Institute of Electronics, CAS
+RP Zhang, ZH (corresponding author), Shanghai Jiao Tong Univ, Shanghai Key Lab Intelligent Sensing & Recognit, Sch Elect Informat & Elect Engn, Shanghai 200240, Peoples R China.
+EM chunxiao.wu@sjtu.edu.cn; zenghui.zhang@sjtu.edu.cn; lychen@mail.ie.ac.cn; wxyu@sjtu.edu.cn
+FU National Natural Science Foundation of China [U1830103]; National Pre-Research Foundation of China [61406190101]
+CR Bao Q, 2016, IEEE GEOSCI REMOTE S, V13, P841, DOI 10.1109/LGRS.2016.2550057
+   Bliss DW, 2003, CONF REC ASILOMAR C, V0, P54
+   Bora A, 2017, PR MACH LEARN RES, V70, P0
+   Borgerding M, 2016, IEEE GLOB CONF SIG, V0, PP227, DOI 10.1109/GlobalSIP.2016.7905837
+   Budillon A, 2019, INT GEOSCI REMOTE SE, V0, PP3625, DOI 10.1109/IGARSS.2019.8900616
+   Burnham KP, 2004, SOCIOL METHOD RES, V33, P261, DOI 10.1177/0049124104268644
+   Candes E. J., 2006, INT C MATHEMATICIANS, V3, P1433, DOI 10.4171/022-3/69
+   Candes EJ, 2006, IEEE T INFORM THEORY, V52, P489, DOI 10.1109/TIT.2005.862083
+   Candes EJ, 2005, IEEE T INFORM THEORY, V51, P4203, DOI 10.1109/TIT.2005.858979
+   Chan TK, 1999, IEEE T GEOSCI REMOTE, V37, P2192, DOI 10.1109/36.789616
+   Chang JHR, 2017, IEEE I CONF COMP VIS, V0, PP5889, DOI 10.1109/ICCV.2017.627
+   Cheng C, 2011, IEEE RAD CONF, V0, P525
+   Chollet F, 2015, KERAS, V0, P0
+   Collobert Ronan, 2008, P 25 INT C MACH LEAR, V0, P0, DOI DOI 10.1145/1390156.1390177
+   Donoho DL, 2006, IEEE T INFORM THEORY, V52, P1289, DOI 10.1109/TIT.2006.871582
+   Fornaro G, 2005, IEEE T GEOSCI REMOTE, V43, P702, DOI 10.1109/TGRS.2005.843567
+   Frey O, 2011, IEEE T GEOSCI REMOTE, V49, P3648, DOI 10.1109/TGRS.2011.2125972
+   Gini F, 2002, IEEE T AERO ELEC SYS, V38, P1344, DOI 10.1109/TAES.2002.1145755
+   Glorot X., 2010, JMLR W CP, V15, P315
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Grant M., 2008, CVX MATLAB SOFTWARE, V0, P0
+   Gregor K., 2010, PROC 27 INT C INT C, V0, PP399, DOI 10.5555/3104322.3104374
+   Hinton GE, 2006, SCIENCE, V313, P504, DOI 10.1126/science.1127647
+   Hinton G, 2012, IEEE SIGNAL PROC MAG, V29, P82, DOI 10.1109/MSP.2012.2205597
+   Hinton GE, 2006, NEURAL COMPUT, V18, P1527, DOI 10.1162/neco.2006.18.7.1527
+   HORNIK K, 1989, NEURAL NETWORKS, V2, P359, DOI 10.1016/0893-6080(89)90020-8
+   Hou Y., 2008, P IEEE INT GEOSC REM, V5, P25
+   Huang HJ, 2018, IEEE T VEH TECHNOL, V67, P8549, DOI 10.1109/TVT.2018.2851783
+   Ishimaru A, 1998, IEEE T GEOSCI REMOTE, V36, P1524, DOI 10.1109/36.718856
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   KNAELL KK, 1995, IEE P-RADAR SON NAV, V142, P54, DOI 10.1049/ip-rsn:19951791
+   Krieger G, 2004, IEEE GEOSCI REMOTE S, V1, P260, DOI 10.1109/LGRS.2004.832700
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   KULKARNI K, 2016, PROC CVPR IEEE, V0, PP449, DOI 10.1109/CVPR.2016.55
+   Li J, 2008, IEEE T SIGNAL PROCES, V56, P3959, DOI 10.1109/TSP.2008.923197
+   Liu ZM, 2018, IEEE T ANTENN PROPAG, V66, P7315, DOI 10.1109/TAP.2018.2874430
+   Ma PF, 2015, IEEE GEOSCI REMOTE S, V12, P895, DOI 10.1109/LGRS.2014.2365613
+   MacInnes CS, 2004, IEEE J OCEANIC ENG, V29, P488, DOI 10.1109/JOE.2004.827290
+   Mousavi A, 2017, INT CONF ACOUST SPEE, V0, PP2272, DOI 10.1109/ICASSP.2017.7952561
+   Mousavi A, 2015, ANN ALLERTON CONF, V0, PP1336, DOI 10.1109/ALLERTON.2015.7447163
+   Nouvel JF, 2006, INT GEOSCI REMOTE SE, V0, PP134, DOI 10.1109/IGARSS.2006.39
+   Pesavento M, 2002, IEEE SIGNAL PROC LET, V9, P8, DOI 10.1109/97.988716
+   Ponce O, 2016, IEEE T GEOSCI REMOTE, V54, P6170, DOI 10.1109/TGRS.2016.2582959
+   Ponce O, 2014, IEEE T GEOSCI REMOTE, V52, P3074, DOI 10.1109/TGRS.2013.2269194
+   Reigber A, 2000, IEEE T GEOSCI REMOTE, V38, P2142, DOI 10.1109/36.868873
+   REN X, 2014, INT J ANTENN PROPAG, V2014, P1
+   Roberts W, 2010, IEEE J-STSP, V4, P5, DOI 10.1109/JSTSP.2009.2038964
+   Tebaldini S, 2015, INT GEOSCI REMOTE SE, V0, PP5212, DOI 10.1109/IGARSS.2015.7327009
+   Tebaldini S, 2012, IEEE T GEOSCI REMOTE, V50, P232, DOI 10.1109/TGRS.2011.2159614
+   Trabalón Carina I., 2018, POLIS, V17, P163
+   Vaccaro RJ, 1996, IEEE T SIGNAL PROCES, V44, P705, DOI 10.1109/78.489044
+   Van Veen B. D., 1988, IEEE ASSP MAGAZINE, V5, P4, DOI 10.1109/53.665
+   Wang WQ, 2013, IEEE AERO EL SYS MAG, V28, P18, DOI 10.1109/MAES.2013.6575407
+   Weib M., 2005, P EUR RAD C PAR FRAN, V0, PP209, DOI 10.1109/EURAD.2005.1605602
+   Wu CX, 2019, IEEE T GEOSCI REMOTE, V57, P7033, DOI 10.1109/TGRS.2019.2910553
+   Yan S., 2008, CHIN J ACOUST, V27, P727
+   Yao H., 2017, IEEE C COMP VIS PATT, V0, P451
+   Zhu XX, 2012, IEEE T GEOSCI REMOTE, V50, P247, DOI 10.1109/TGRS.2011.2160183
+   Zhu XX, 2010, IEEE T GEOSCI REMOTE, V48, P4296, DOI 10.1109/TGRS.2010.2050487
+   Zhu XX, 2010, IEEE T GEOSCI REMOTE, V48, P3839, DOI 10.1109/TGRS.2010.2048117
+   Zhu ZW, 2000, IEEE T SIGNAL PROCES, V48, P267, DOI 10.1109/78.815500
+NR 61
+TC 15
+Z9 16
+U1 1
+U2 13
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 3109
+EP 3124
+DI 10.1109/JSTARS.2020.3000760
+PG 16
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA MF0BE
+UT WOS:000545017200001
+DA 2023-04-26
+ER
+
+PT J
+AU Flores, JJ
+   Cortes, B
+   Gonzalez, JRC
+   Morales, A
+   Rodriguez, H
+   Tapia, R
+   Calderon, F
+AF Flores, Juan J.
+   Cortes, Baldwin
+   Cedeno Gonzalez, Jose R.
+   Morales, Antony
+   Rodriguez, Hector
+   Tapia, Roberto
+   Calderon, Felix
+TI Prediction of the Solar Resource through Differences
+SO PROCEEDINGS OF THE XXII 2020 IEEE INTERNATIONAL AUTUMN MEETING ON POWER, ELECTRONICS AND COMPUTING (ROPEC 2020), VOL 4
+LA English
+DT Proceedings Paper
+ID models; generation; radiation
+AB Experience shows that solar resource prediction is a difficult task. The available solar irradiance where a photovoltaic plant is located or is planned to be installed depends mainly on the cloud incidence at the site. This incidence of clouds depends on the climate system of the region, which is well known to be a non-linear, chaotic, and extremely complex, for which there is no exact mathematical model. In fact, the chaos level has been determined for various time series of wind and solar irradiance, and it turns out that the chaos level of the solar time series is greater than that of the wind series. This indicates that the complexity of solar irradiance prediction is considerable. In previous works of solar irradiance prediction, using Artificial Neural Networks, it has been observed that the trained models fail to predict irradiance spikes in conditions of intermittent cloudiness. By conducting a study in this area, we have found that, for a given date, there exist a model to determine the ideal solar irradiance in any geographical location of the planet. These models, so-called clear sky models, have been taken as a reference to predict not the solar irradiance, but the amount of irradiance occluded by the clouds. That is, the difference between ideal irradiance and that measured by the weather station. The proposed model is called SolarDiff, which predicts this difference using Artificial Neural Networks. This article empirically demonstrates that the SolarDiff model exhibits better behavior than models based on direct data. The performance, as in most forecast models, is measured by quantifying the forecast error. In this case the symmetric MAPE error is used.
+C1 [Flores, Juan J.; Cortes, Baldwin; Cedeno Gonzalez, Jose R.; Morales, Antony; Tapia, Roberto; Calderon, Felix] Univ Michoacana, Fac Ingn Elect, Div Estudios Posgrad, Morelia, Michoacan, Mexico.
+   [Rodriguez, Hector] Inst Tecnol Culiacan, Culiacan, Sinaloa, Mexico.
+C3 Universidad Michoacana de San Nicolas de Hidalgo
+RP Flores, JJ (corresponding author), Univ Michoacana, Fac Ingn Elect, Div Estudios Posgrad, Morelia, Michoacan, Mexico.
+EM juan.flores@umich.mx; baldwin.cortes@umich.mx; rafael.cedeno@umich.mx; antony-morales@hotmail.com; hrodriguez@itculiacan.edu.mx; roberto.tapia@umich.mx
+CR Almeida MP, 2015, SOL ENERGY, V115, P354, DOI 10.1016/j.solener.2015.03.006
+   Alpaydin E, 2016, MACHINE LEARNING NEW, V0, P0
+   [Anonymous], 2012, INTRO MODERN TIME SE, V0, P0
+   [Anonymous], 1976, HOLDEN DAY SERIES TI, V0, P0
+   Antonanzas J, 2016, SOL ENERGY, V136, P78, DOI 10.1016/j.solener.2016.06.069
+   Antonanzas-Torres F, 2019, RENEW SUST ENERG REV, V107, P374, DOI 10.1016/j.rser.2019.02.032
+   Brenna M, 2017, I C CLEAN ELECT POW, V0, PP726, DOI 10.1109/ICCEP.2017.8004771
+   Cortes B, 2020, SOL ENERGY, V196, P157, DOI 10.1016/j.solener.2019.12.012
+   Dolara A, 2015, SOL ENERGY, V119, P83, DOI 10.1016/j.solener.2015.06.017
+   Flores JJ, 2019, ENERGIES, V12, P0, DOI 10.3390/en12183545
+   Flores JJ, 2019, SOFT COMPUT, V23, P1039, DOI 10.1007/s00500-017-2822-1
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Graditi G, 2016, RENEW ENERG, V90, P513, DOI 10.1016/j.renene.2016.01.027
+   Ineichen P, 2008, SOL ENERGY, V82, P758, DOI 10.1016/j.solener.2008.02.009
+   Kantz H., 2004, NONLINEAR TIME SERIE, V2nd, P0, DOI 10.1017/CBO9780511755798
+   Laouafi A, 2015, 2015 6TH INTERNATIONAL RENEWABLE ENERGY CONGRESS (IREC), V0, P0
+   Lemke C, 2010, NEUROCOMPUTING, V73, P2006, DOI 10.1016/j.neucom.2009.09.020
+   Monteiro C, 2013, ENERGIES, V6, P2624, DOI 10.3390/en6052624
+   Newbold P, 2014, FORECASTING EC TIME, V0, P0
+   PALIT A, 2006, ADV IND CONTROL, V0, P0
+   Razavi SE, 2019, RENEW SUST ENERG REV, V105, P157, DOI 10.1016/j.rser.2019.01.050
+   Ruiz-Arias JA, 2018, SOL ENERGY, V168, P10, DOI 10.1016/j.solener.2018.02.008
+   Russel S., 2013, ARTIFICIAL INTELLIGE, V0, P0
+   Sangrody H, 2017, IET RENEW POWER GEN, V11, P1274, DOI 10.1049/iet-rpg.2016.1043
+   Sobri S, 2018, ENERG CONVERS MANAGE, V156, P459, DOI 10.1016/j.enconman.2017.11.019
+   Swinehart D.F., 1962, J CHEM EDUC, V39, P333, DOI 10.1021/ed039p333
+   Tao YQ, 2014, INT C ADV MECH SYST, V0, PP557, DOI 10.1109/ICAMechS.2014.6911608
+   Verma T, 2016, P INT CONF INTELL, V0, PP97, DOI 10.1109/ISMS.2016.65
+   Winkler DA, 2017, MOL INFORM, V36, P0, DOI 10.1002/minf.201600118
+   Xu S., 2019, TRANSPORTATION RES E, V122, P0
+   Yao X, 1999, P IEEE, V87, P1423, DOI 10.1109/5.784219
+   Zamo M, 2014, SOL ENERGY, V105, P804, DOI 10.1016/j.solener.2014.03.026
+NR 32
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2020
+VL 0
+IS 
+BP 
+EP 
+DI 
+PG 6
+WC Computer Science, Theory & Methods; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BR4IE
+UT WOS:000651431100014
+DA 2023-04-26
+ER

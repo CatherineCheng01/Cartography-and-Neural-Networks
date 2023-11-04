@@ -1,0 +1,498 @@
+
+PT J
+AU Jiang, L
+   Hu, Y
+   Xia, XL
+   Liang, QH
+   Soltoggio, A
+   Kabir, SR
+AF Jiang, Ling
+   Hu, Yang
+   Xia, Xilin
+   Liang, Qiuhua
+   Soltoggio, Andrea
+   Kabir, Syed Rezwan
+TI A Multi-Scale Mapping Approach Based on a Deep Learning CNN Model for Reconstructing High-Resolution Urban DEMs
+SO WATER
+LA English
+DT Article
+DE urban DEM; high resolution; deep learning; convolutional neural network; multiple scales; flood modeling
+ID digital elevation model; raw lidar data; neural-networks; generation; image; superresolution; quality; fusion; uav
+AB The scarcity of high-resolution urban digital elevation model (DEM) datasets, particularly in certain developing countries, has posed a challenge for many water-related applications such as flood risk management. A solution to address this is to develop effective approaches to reconstruct high-resolution DEMs from their low-resolution equivalents that are more widely available. However, the current high-resolution DEM reconstruction approaches mainly focus on natural topography. Few attempts have been made for urban topography, which is typically an integration of complex artificial and natural features. This study proposed a novel multi-scale mapping approach based on convolutional neural network (CNN) to deal with the complex features of urban topography and to reconstruct high-resolution urban DEMs. The proposed multi-scale CNN model was firstly trained using urban DEMs that contained topographic features at different resolutions, and then used to reconstruct the urban DEM at a specified (high) resolution from a low-resolution equivalent. A two-level accuracy assessment approach was also designed to evaluate the performance of the proposed urban DEM reconstruction method, in terms of numerical accuracy and morphological accuracy. The proposed DEM reconstruction approach was applied to a 121 km(2) urbanized area in London, United Kingdom. Compared with other commonly used methods, the current CNN-based approach produced superior results, providing a cost-effective innovative method to acquire high-resolution DEMs in other data-scarce regions.
+C1 [Jiang, Ling; Liang, Qiuhua] Hohai Univ, State Key Lab Hydrol Water Resources & Hydraul En, Nanjing 210098, Peoples R China.
+   [Jiang, Ling] Chuzhou Univ, Anhui Engn Lab Geoinformat Smart Sensing & Serv, Chuzhou 239000, Peoples R China.
+   [Jiang, Ling; Xia, Xilin; Liang, Qiuhua; Kabir, Syed Rezwan] Loughborough Univ, Sch Architecture Bldg & Civil Engn, Loughborough LE11 3TT, Leics, England.
+   [Hu, Yang; Soltoggio, Andrea] Loughborough Univ, Sch Comp Sci, Loughborough LE11 3TT, Leics, England.
+C3 Hohai University; Chuzhou University; Loughborough University; Loughborough University
+RP Liang, QH (corresponding author), Hohai Univ, State Key Lab Hydrol Water Resources & Hydraul En, Nanjing 210098, Peoples R China.; Liang, QH (corresponding author), Loughborough Univ, Sch Architecture Bldg & Civil Engn, Loughborough LE11 3TT, Leics, England.
+EM jiangling_xs@163.com; yang.hu.1@warwick.ac.uk; x.xia2@lboro.ac.uk; q.liang@lboro.ac.uk; a.soltoggio@lboro.ac.uk; S.R.Kabir@lboro.ac.uk
+FU U.K. Natural Environment Research Council (NERC) [NE/S005919/1, NE/S00288X/1, NE/S012427/1]; National Natural Science Foundation of China [41501445, 41701450, 41571398]; State Major Project of Water Pollution Control and Management [2017ZX07603-001]; China Postdoctoral Science Foundation [2018M642146]; Jiangsu Planned Projects for Postdoctoral Research Funds [2018K144C]; Anhui overseas visiting projects for outstanding young talents in Colleges and universities [gxgwfx2018078]; Key Project of Natural Science Research of Anhui Provincial Department of Education [KJ2017A416]; NERC [NE/S012427/1, NE/S00288X/1, NE/S002871/2, NE/S002871/1, NE/S005919/1] Funding Source: UKRI
+CR Abdel-Hamid O, 2014, IEEE-ACM T AUDIO SPE, V22, P1533, DOI 10.1109/TASLP.2014.2339736
+   Abdullah AF, 2012, J HYDROINFORM, V14, P75, DOI 10.2166/hydro.2011.089
+   Abdullah A.F., 2009, P 8 INT C URB DRAIN, V0, P0
+   Aguilar FJ, 2005, PHOTOGRAMM ENG REM S, V71, P805, DOI 10.14358/PERS.71.7.805
+   Arun PV, 2013, EGYPT J REMOTE SENS, V16, P133, DOI 10.1016/j.ejrs.2013.09.001
+   Beresnevich V, 2016, LOND MATH S, V0, P1
+   Bishop MP, 2012, GEOMORPHOLOGY, V137, P5, DOI 10.1016/j.geomorph.2011.06.027
+   Chen C., 2015, P IEEE INT C COMPUTE, V0, P0
+   Chen Z., 2016, P 23 ISPRS C PRAG CZ, V0, P0
+   Chen ZY, 2016, IEEE J-STARS, V9, P496, DOI 10.1109/JSTARS.2015.2512498
+   Florinsky IV, 2018, T GIS, V22, P58, DOI 10.1111/tgis.12296
+   Goncalves JA, 2015, ISPRS J PHOTOGRAMM, V104, P101, DOI 10.1016/j.isprsjprs.2015.02.009
+   Gu JX, 2018, PATTERN RECOGN, V77, P354, DOI 10.1016/j.patcog.2017.10.013
+   Hawker L, 2018, FRONT EARTH SC-SWITZ, V6, P0, DOI 10.3389/feart.2018.00233
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Heritage GL, 2009, GEOMORPHOLOGY, V112, P334, DOI 10.1016/j.geomorph.2009.06.024
+   Hui Z, 2018, PROC CVPR IEEE, V0, PP723, DOI 10.1109/CVPR.2018.00082
+   James MR, 2014, EARTH SURF PROC LAND, V39, P1413, DOI 10.1002/esp.3609
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1, DOI 10.1016/j.protcy.2014.09.007
+   Kulp SA, 2018, REMOTE SENS ENVIRON, V206, P231, DOI 10.1016/j.rse.2017.12.026
+   Lai WS, 2019, IEEE T PATTERN ANAL, V41, P2599, DOI 10.1109/TPAMI.2018.2865304
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lee C.Y., 2015, P ARTIFICIAL INTELLI, V0, P0
+   Leitao JP, 2018, J HYDROL, V561, P651, DOI 10.1016/j.jhydrol.2018.04.043
+   Leitao JP, 2016, HYDROL EARTH SYST SC, V20, P1637, DOI 10.5194/hess-20-1637-2016
+   Li J, 2010, COMPUT ENVIRON URBAN, V34, P251, DOI 10.1016/j.compenvurbsys.2009.11.002
+   Li XH, 2017, ISPRS J PHOTOGRAMM, V134, P135, DOI 10.1016/j.isprsjprs.2017.09.014
+   Liu C., 2017, P 2017 10 IM SIGN PR, V0, P0
+   Liu K, 2019, GEOMORPHOLOGY, V338, P16, DOI 10.1016/j.geomorph.2019.04.012
+   Liu WB, 2017, NEUROCOMPUTING, V234, P11, DOI 10.1016/j.neucom.2016.12.038
+   Liu XJ, 2015, CHINESE GEOGR SCI, V25, P765, DOI 10.1007/s11769-014-0716-z
+   Liu Y, 2019, P AM GEOPH UN FALL M, V0, P0
+   Mark O, 2004, J HYDROL, V299, P284, DOI 10.1016/j.jhydrol.2004.08.014
+   Mason DC, 2016, REMOTE SENS ENVIRON, V173, P15, DOI 10.1016/j.rse.2015.11.018
+   Meesuk V, 2015, ADV WATER RESOUR, V75, P105, DOI 10.1016/j.advwatres.2014.11.008
+   Mondal A, 2017, GEOSCI FRONT, V8, P425, DOI 10.1016/j.gsf.2016.03.004
+   Moon S, 2016, P AM I AER ASTR SPAC, V0, P0
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   OLoughlin FE, 2016, REMOTE SENS ENVIRON, V182, P49, DOI 10.1016/j.rse.2016.04.018
+   Ozdemir H, 2013, HYDROL EARTH SYST SC, V17, P4015, DOI 10.5194/hess-17-4015-2013
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Shan J, 2005, PHOTOGRAMM ENG REM S, V71, P217, DOI 10.14358/PERS.71.2.217
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Tan ML, 2018, WATER RESOUR MANAG, V32, P4591, DOI 10.1007/s11269-018-2072-8
+   Tran TA, 2014, EARTH SURF DYNAM, V2, P403, DOI 10.5194/esurf-2-403-2014
+   Tsubaki R, 2010, HYDROL PROCESS, V24, P1404, DOI 10.1002/hyp.7608
+   Wang CM, 2016, ISPRS INT J GEO-INF, V5, P0, DOI 10.3390/ijgi5070107
+   Wang YT, 2018, ENVIRON MODELL SOFTW, V107, P85, DOI 10.1016/j.envsoft.2018.06.010
+   Wilson JP, 2012, GEOMORPHOLOGY, V137, P107, DOI 10.1016/j.geomorph.2011.03.012
+   Wise S, 2011, COMPUT GEOSCI-UK, V37, P978, DOI 10.1016/j.cageo.2010.12.002
+   Xie SN, 2015, IEEE I CONF COMP VIS, V0, PP1395, DOI 10.1109/ICCV.2015.164
+   Xu ZK, 2019, ISPRS J PHOTOGRAMM, V150, P80, DOI 10.1016/j.isprsjprs.2019.02.008
+   Xu ZK, 2015, ISPRS J PHOTOGRAMM, V110, P48, DOI 10.1016/j.isprsjprs.2015.10.009
+   Yue LW, 2017, ISPRS J PHOTOGRAMM, V123, P20, DOI 10.1016/j.isprsjprs.2016.11.002
+   Yue LW, 2015, INT J GEOGR INF SCI, V29, P2095, DOI 10.1080/13658816.2015.1063639
+   Zisserman A., 2015, ICLR, V0, P0
+NR 58
+TC 3
+Z9 3
+U1 10
+U2 29
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-4441
+J9 WATER-SUI
+JI Water
+PD MAY 15
+PY 2020
+VL 12
+IS 5
+BP 
+EP 
+DI 10.3390/w12051369
+PG 22
+WC Environmental Sciences; Water Resources
+SC Environmental Sciences & Ecology; Water Resources
+GA MU8KA
+UT WOS:000555915200148
+DA 2023-04-26
+ER
+
+PT J
+AU Zong, WW
+   Lee, JK
+   Liu, C
+   Carver, EN
+   Feldman, AM
+   Janic, B
+   Elshaikh, MA
+   Pantelic, MV
+   Hearshen, D
+   Chetty, IJ
+   Movsas, B
+   Wen, N
+AF Zong, Weiwei
+   Lee, Joon K.
+   Liu, Chang
+   Carver, Eric N.
+   Feldman, Aharon M.
+   Janic, Branislava
+   Elshaikh, Mohamed A.
+   Pantelic, Milan V.
+   Hearshen, David
+   Chetty, Indrin J.
+   Movsas, Benjamin
+   Wen, Ning
+TI A deep dive into understanding tumor foci classification using multiparametric MRI based on convolutional neural network
+SO MEDICAL PHYSICS
+LA English
+DT Article
+DE convolutional neural network; model interpretation; prostate cancer mpMRI lesion classification; saliency map; small sample size
+ID prostate-cancer; prediction
+AB Purpose Deep learning models have had a great success in disease classifications using large data pools of skin cancer images or lung X-rays. However, data scarcity has been the roadblock of applying deep learning models directly on prostate multiparametric MRI (mpMRI). Although model interpretation has been heavily studied for natural images for the past few years, there has been a lack of interpretation of deep learning models trained on medical images. In this paper, an efficient convolutional neural network (CNN) was developed and the model interpretation at various convolutional layers was systematically analyzed to improve the understanding of how CNN interprets multimodality medical images and the predictive powers of features at each layer. The problem of small sample size was addressed by feeding the intermediate features into a traditional classification algorithm known as weighted extreme learning machine (wELM), with imbalanced distribution among output categories taken into consideration. Methods The training data collection used a retrospective set of prostate MR studies, from SPIE-AAPM-NCI PROSTATEx Challenges held in 2017. Three hundred twenty biopsy samples of lesions from 201 prostate cancer patients were diagnosed and identified as clinically significant (malignant) or not significant (benign). All studies included T2-weighted (T2W), proton density-weighted (PD-W), dynamic contrast enhanced (DCE) and diffusion-weighted (DW) imaging. After registration and lesion-based normalization, a CNN with four convolutional layers were developed and trained on tenfold cross validation. The features from intermediate layers were then extracted as input to wELM to test the discriminative power of each individual layer. The best performing model from the tenfolds was chosen to be tested on the holdout cohort from two sources. Feature maps after each convolutional layer were then visualized to monitor the trend, as the layer propagated. Scatter plotting was used to visualize the transformation of data distribution. Finally, a class activation map was generated to highlight the region of interest based on the model perspective. Results Experimental trials indicated that the best input for CNN was a modality combination of T2W, apparent diffusion coefficient (ADC) and DWIb50. The convolutional features from CNN paired with a weighted extreme learning classifier showed substantial performance compared to a CNN end-to-end training model. The feature map visualization reveals similar findings on natural images where lower layers tend to learn lower level features such as edges, intensity changes, etc, while higher layers learn more abstract and task-related concept such as the lesion region. The generated saliency map revealed that the model was able to focus on the region of interest where the lesion resided and filter out background information, including prostate boundary, rectum, etc. Conclusions This work designs a customized workflow for the small and imbalanced dataset of prostate mpMRI where features were extracted from a deep learning model and then analyzed by a traditional machine learning classifier. In addition, this work contributes to revealing how deep learning models interpret mpMRI for prostate cancer patient stratification.
+C1 [Zong, Weiwei; Lee, Joon K.; Liu, Chang; Carver, Eric N.; Feldman, Aharon M.; Janic, Branislava; Elshaikh, Mohamed A.; Chetty, Indrin J.; Movsas, Benjamin; Wen, Ning] Henry Ford Hlth Syst, Dept Radiat Oncol, Detroit, MI 48202 USA.
+   [Carver, Eric N.] Wayne State Univ, Sch Med, Dept Oncol, Med Phys Div, Detroit, MI 48201 USA.
+   [Pantelic, Milan V.; Hearshen, David] Henry Ford Hlth Syst, Dept Radiol, Detroit, MI 48202 USA.
+C3 Henry Ford Health System; Henry Ford Hospital; Wayne State University; Henry Ford Health System; Henry Ford Hospital
+RP Wen, N (corresponding author), Henry Ford Hlth Syst, Dept Radiat Oncol, Detroit, MI 48202 USA.
+EM nwen1@hfhs.org
+FU American Cancer Society [RSG-15-137-01-CCE]
+CR Armato SG, 2018, J MED IMAGING, V5, P0, DOI 10.1117/1.JMI.5.4.044501
+   Barentsz JO, 2012, EUR RADIOL, V22, P746, DOI 10.1007/s00330-011-2377-y
+   Delongchamps NB, 2011, BJU INT, V107, P1411, DOI 10.1111/j.1464-410X.2010.09808.x
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Dickinson L, 2011, EUR UROL, V59, P477, DOI 10.1016/j.eururo.2010.12.009
+   Kim CK, 2007, INVEST RADIOL, V42, P842, DOI 10.1097/RLI.0b013e3181461d21
+   Lim HK, 2009, RADIOLOGY, V250, P145, DOI 10.1148/radiol.2501080207
+   Litjens G, 2017, MED IMAGE ANAL, V42, P60, DOI 10.1016/j.media.2017.07.005
+   Litjens G, 2014, IEEE T MED IMAGING, V33, P1083, DOI 10.1109/TMI.2014.2303821
+   Liu S., 2017, PROSTATE CANC DIAGNO, V0, P0
+   Meiers I, 2007, UROLOGY, V70, P3, DOI 10.1016/j.urology.2007.06.1129
+   Rajpurkar P, 2017, ARXIV, V0, P0
+   Schouten MG, 2017, EUR UROL, V71, P896, DOI 10.1016/j.eururo.2016.12.006
+   Simonyan K, 2015, ARXIV, V0, P0
+   Tajbakhsh N, 2016, IEEE T MED IMAGING, V35, P1299, DOI 10.1109/TMI.2016.2535302
+   Vargas HA, 2011, RADIOLOGY, V259, P775, DOI 10.1148/radiol.11102066
+   Weinreb JC, 2016, EUR UROL, V69, P16, DOI 10.1016/j.eururo.2015.08.052
+   Wu N, 2020, IEEE T MED IMAGING, V39, P1184, DOI 10.1109/TMI.2019.2945514
+   Zeiler M.D, 2014, ECCV, V0, P818
+   Zong WW, 2013, NEUROCOMPUTING, V101, P229, DOI 10.1016/j.neucom.2012.08.010
+NR 20
+TC 4
+Z9 4
+U1 2
+U2 20
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0094-2405
+EI 2473-4209
+J9 MED PHYS
+JI Med. Phys.
+PD SEP 15
+PY 2020
+VL 47
+IS 9
+BP 4077
+EP 4086
+DI 10.1002/mp.14255
+EA JUN 2020
+PG 10
+WC Radiology, Nuclear Medicine & Medical Imaging
+SC Radiology, Nuclear Medicine & Medical Imaging
+GA NT0IY
+UT WOS:000539766200001
+PM 32449176
+DA 2023-04-26
+ER
+
+PT J
+AU Kim, DE
+   Liong, SY
+   Gourbesville, P
+   Andres, L
+   Liu, JD
+AF Kim, Dong Eon
+   Liong, Shie-Yui
+   Gourbesville, Philippe
+   Andres, Ludovic
+   Liu, Jiandong
+TI Simple-Yet-Effective SRTM DEM Improvement Scheme for Dense Urban Cities Using ANN and Remote Sensing Data: Application to Flood Modeling
+SO WATER
+LA English
+DT Article
+DE artificial neural network; digital elevation model; improved SRTM; remote sensing
+ID elevation; fusion; algorithm; accuracy; cover
+AB Digital elevation models (DEMs) are crucial in flood modeling as DEM data reflects the actual topographic characteristics where water can flow in the model. However, a high-quality DEM is very difficult to acquire as it is very time consuming, costly, and, often restricted. DEM data from a publicly accessible satellite, Shuttle Radar Topography Mission (SRTM), and Sentinel 2 multispectral imagery are selected and used to train the artificial neural network (ANN) to improve the quality of SRTM's DEM. High-quality DEM is used as target data in the training of ANN. The trained ANN will then be ready to efficiently and effectively generate a high-quality DEM, at low cost, for places where ground truth DEM data is not available. In this paper, the performance of the DEM improvement scheme is evaluated over two dense urban cities, Nice (France) and Singapore; with the performance criteria using various matrices, e.g., visual clarity, scatter plots, root mean square error (RMSE) and flood maps. The DEM resulting from the improved SRTM (iSRTM) showed significantly better results than the original SRTM DEM, with about 38% RMSE reduction. Flood maps from iSRTM DEM show much more reasonable flood patterns than SRTM DEM's flood map.
+C1 [Kim, Dong Eon; Liong, Shie-Yui; Liu, Jiandong] Natl Univ Singapore, Trop Marine Sci Inst, Singapore 119227, Singapore.
+   [Gourbesville, Philippe] Univ Nice Sophia Antipolis, Polytech Lab, Nice 06100, France.
+   [Andres, Ludovic] Metropole Nice Cote dAzur, Nice 06000, France.
+C3 National University of Singapore; UDICE-French Research Universities; Universite Cote d'Azur
+RP Kim, DE (corresponding author), Natl Univ Singapore, Trop Marine Sci Inst, Singapore 119227, Singapore.
+EM tmskde@nus.edu.sg; tmslsy@nus.edu.sg; Philippe.Gourbesville@unice.fr; ludovic.andres@nicecotedazur.org; tmsliuj@nus.edu.sg
+CR ANDRES L, 1994, INT J REMOTE SENS, V15, P1115, DOI 10.1080/01431169408954145
+   [Anonymous], 1944, Q APPL MATH, V0, P0, DOI DOI 10.1090/QAM/10666
+   Ashish D, 2009, INT J REMOTE SENS, V30, P1989, DOI 10.1080/01431160802549187
+   Bagheri H, 2018, ISPRS J PHOTOGRAMM, V144, P285, DOI 10.1016/j.isprsjprs.2018.07.007
+   Brovelli MA, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7080289
+   Carabajal CC, 2006, PHOTOGRAMM ENG REM S, V72, P287, DOI 10.14358/PERS.72.3.287
+   Costantini M, 2006, INT GEOSCI REMOTE SE, V0, PP3861, DOI 10.1109/IGARSS.2006.990
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Fan HC, 2014, INT J GEOGR INF SCI, V28, P700, DOI 10.1080/13658816.2013.867495
+   Favalli M, 2017, GEOMORPHOLOGY, V290, P69, DOI 10.1016/j.geomorph.2017.02.029
+   Fewtrell TJ, 2008, HYDROL PROCESS, V22, P5107, DOI 10.1002/hyp.7148
+   GAMBA P, 2002, INT SOC PHOT REM SEN, V0, P2004
+   GOETZ AFH, 1985, SCIENCE, V228, P1147, DOI 10.1126/science.228.4704.1147
+   Gurney K., 1997, INTRO NEURAL NETWORK, V0, P0
+   Han J., 1995, INT WORKSH ART NEUR, V0, P195
+   Hawker L, 2018, FRONT EARTH SC-SWITZ, V6, P0, DOI 10.3389/feart.2018.00233
+   Hawker L, 2018, WATER RESOUR RES, V54, P7910, DOI 10.1029/2018WR023279
+   Hunter NM, 2008, P I CIVIL ENG-WAT M, V161, P13, DOI 10.1680/wama.2008.161.1.13
+   Kim D, 2018, SPRINGER WATER, V0, PP559, DOI 10.1007/978-981-10-7218-5_39
+   Kulp SA, 2018, REMOTE SENS ENVIRON, V206, P231, DOI 10.1016/j.rse.2017.12.026
+   MARQUARDT DW, 1963, J SOC IND APPL MATH, V11, P431, DOI 10.1137/0111030
+   Miroslaw-Swiatek D, 2016, J APPL REMOTE SENS, V10, P0, DOI 10.1117/1.JRS.10.036013
+   Misra P, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10122008
+   Moody DI, 2014, J APPL REMOTE SENS, V8, P0, DOI 10.1117/1.JRS.8.084793
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Moudry V, 2018, ECOL MODEL, V383, P3, DOI 10.1016/j.ecolmodel.2018.05.006
+   Muhadi NA, 2019, INT J IMAGE DATA FUS, V10, P232, DOI 10.1080/19479832.2018.1504826
+   Pande CB, 2018, APPL WATER SCI, V8, P0, DOI 10.1007/s13201-018-0764-0
+   Rencz A.N., 1996, 3228 GEOL SURV CAN, V0, P255
+   Rodriguez E, 2006, PHOTOGRAMM ENG REM S, V72, P249, DOI 10.14358/PERS.72.3.249
+   Roy DP, 2017, REMOTE SENS ENVIRON, V199, P25, DOI 10.1016/j.rse.2017.06.019
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Seiffert U., 2001, MULTIPLE LAYER PERCE, V0, P0
+   Takagi M., 1998, INT ARCH PHOTOGRAMME, VXXXII, P613
+   Wang D, 2015, REMOTE SENS-BASEL, V7, P10117, DOI 10.3390/rs70810117
+   Wendi D, 2016, J ADV MODEL EARTH SY, V8, P691, DOI 10.1002/2015MS000536
+   Yamazaki D, 2017, GEOPHYS RES LETT, V44, P5844, DOI 10.1002/2017GL072874
+   Yue L., 2019, GLOBAL SEAMLESS DEM, V0, P0, DOI DOI 10.20944/preprints201906.0036.v1
+   ZHANG WH, 1994, WATER RESOUR RES, V30, P1019, DOI 10.1029/93WR03553
+NR 41
+TC 9
+Z9 9
+U1 4
+U2 19
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-4441
+J9 WATER-SUI
+JI Water
+PD MAR 15
+PY 2020
+VL 12
+IS 3
+BP 
+EP 
+DI 10.3390/w12030816
+PG 14
+WC Environmental Sciences; Water Resources
+SC Environmental Sciences & Ecology; Water Resources
+GA LI1MS
+UT WOS:000529249500201
+DA 2023-04-26
+ER
+
+PT J
+AU Xiong, J
+   Yao, RM
+   Wang, WB
+   Yu, W
+   Li, BZ
+AF Xiong, Jie
+   Yao, Runming
+   Wang, Wenbo
+   Yu, Wei
+   Li, Baizhan
+TI A spatial-and-temporal-based method for rapid particle concentration estimations in an urban environment
+SO JOURNAL OF CLEANER PRODUCTION
+LA English
+DT Article
+DE Particulate matter; Artificial neural network (ANN); Urban morphology; Traffic emissions; Geographic information system (GIS); Spatial interpolation
+ID fine particulate matter; air-pollution; natural ventilation; cfd simulation; neural-network; prediction; pm2.5; model; exposure; impacts
+AB The increasing construction of buildings and infrastructure in cities heavily influences pollutant dispersion and causes a spread of increased particle concentrations. Real-time data and information on local pollution levels are highly desired by residents, urban planners and policy-makers. Such information is scarce due to the high cost of real-time measurement. To fill the gap, the aim of this research is to develop a model that can rapidly estimate particulate pollution based on a data-driven artificial neural network modelling approach. The key influential factors such as background pollution level, weather conditions and urban morphology are embedded in the model in association with local emission sources of pollution relating to construction activities and traffic flows. The data for urban spatial-variables (building and road) and traffic information is processed with the aid of the Geographic Information System using self-developed Python scripts. The geographic dataset containing the required information for each grid is integrated with the artificial neural network model to perform forecasting of particle concentrations. The model has been verified with measurements from a case study with 20 sample locations in Chongqing, China, showing that the average relative error of particle concentration estimation compared to measurement is 17.56% for PM10 and 16.04% for PM2.5. A map of a time-specific spatial interpolation of particle concentrations which visualises real-time pollution is consequently produced based on the method. The newly proposed method is novel and holistic which integrates spatial and time information covering aspects of urban form, weather file, traffic, construction sites. The rigorously validated model has been transformed to a robust tool for a fast estimation of real-time particle concentration in an urban environment. (C) 2020 Elsevier Ltd. All rights reserved.
+C1 [Xiong, Jie; Yao, Runming; Yu, Wei; Li, Baizhan] Chongqing Univ, Minist Educ, Joint Int Res Lab Green Bldg & Built Environm, Chongqing 400045, Peoples R China.
+   [Xiong, Jie; Yu, Wei; Li, Baizhan] Chongqing Univ, Minist Sci & Technol, Natl Ctr Int Res Low Carbon & Green Bldg, Chongqing 400045, Peoples R China.
+   [Yao, Runming; Wang, Wenbo] Univ Reading, Sch Built Environm, Reading RG6 6DF, Berks, England.
+C3 Chongqing University; Chongqing University; University of Reading
+RP Li, BZ (corresponding author), Chongqing Univ, Minist Sci & Technol, Natl Ctr Int Res Low Carbon & Green Bldg, Chongqing 400045, Peoples R China.; Yao, RM (corresponding author), Univ Reading, Sch Built Environm, Reading RG6 6DF, Berks, England.
+EM r.yao@reading.ac.uk; baizhanli@cqu.edu.cn
+FU National Key R&D Program, China SSHCool Project 'Solutions to Heating and Cooling of Buildings in the Yangtze River Region' [2016YFC0700300]; Fundamental Research Funds for the Central Universities, China [2018CDJDCH0015]; National Natural Science Foundation of China, China [NSFC] [51561135002]; Engineering and Physical Sciences Research Council, UK [EPSRC] [EP/N009797/1]; EPSRC [EP/N009797/1] Funding Source: UKRI
+CR Ai ZT, 2013, ATMOS ENVIRON, V77, P568, DOI 10.1016/j.atmosenv.2013.05.034
+   [Anonymous], 2010, 17 HEI, V0, P0
+   [Anonymous], 2018, INTRO R, V0, P0
+   Ben Ishak A, 2016, ENVIRON ECOL STAT, V23, P469, DOI 10.1007/s10651-016-0349-8
+   Blocken B, 2012, ENVIRON MODELL SOFTW, V30, P15, DOI 10.1016/j.envsoft.2011.11.009
+   Chaloulakou A, 2003, J AIR WASTE MANAGE, V53, P1183, DOI 10.1080/10473289.2003.10466276
+   Costanzo V, 2019, RENEW ENERG, V138, P340, DOI 10.1016/j.renene.2019.01.111
+   de Gennaro G, 2013, SCI TOTAL ENVIRON, V463, P875, DOI 10.1016/j.scitotenv.2013.06.093
+   Deligiorgi D, 2011, ADVANCED AIR POLLUTION, V0, P341
+   Dong YH, 2015, BUILD ENVIRON, V89, P183, DOI 10.1016/j.buildenv.2015.02.020
+   Environment Agency European., 2021, EM AIR POLL TRANSP, V0, P0
+   Giovanis E, 2018, ATMOS POLLUT RES, V9, P1, DOI 10.1016/j.apr.2017.06.004
+   Greater London Authority, 2014, CONTR DUST EM CONSTR, V0, P0
+   Guilbert A, 2019, SCI TOTAL ENVIRON, V649, P620, DOI 10.1016/j.scitotenv.2018.08.338
+   He HD, 2015, STOCH ENV RES RISK A, V29, P2107, DOI 10.1007/s00477-014-0989-x
+   He HD, 2012, STOCH ENV RES RISK A, V26, P177, DOI 10.1007/s00477-011-0465-9
+   Honarvar AR, 2019, BIG DATA RES, V17, P56, DOI 10.1016/j.bdr.2018.05.006
+   Jacob DJ, 2009, ATMOS ENVIRON, V43, P51, DOI 10.1016/j.atmosenv.2008.09.051
+   Kim KH, 2013, ENVIRON INT, V59, P41, DOI 10.1016/j.envint.2013.05.007
+   Kim MJ, 2019, ATMOS ENVIRON, V209, P54, DOI 10.1016/j.atmosenv.2019.04.013
+   Kunzli N, 2000, LANCET, V356, P795, DOI 10.1016/S0140-6736(00)02653-2
+   Lateb M, 2016, ENVIRON POLLUT, V208, P271, DOI 10.1016/j.envpol.2015.07.039
+   Lelieveld J, 2015, NATURE, V525, P367, DOI 10.1038/nature15371
+   Li B, 2019, TRANSPORT RES D-TR E, V68, P122, DOI 10.1016/j.trd.2018.01.030
+   Li XX, 2006, ATMOS ENVIRON, V40, P5640, DOI 10.1016/j.atmosenv.2006.04.055
+   Li XY, 2017, ENVIRON POLLUT, V227, P596, DOI 10.1016/j.envpol.2017.03.055
+   Li Z, 2019, ECOTOX ENVIRON SAFE, V169, P248, DOI 10.1016/j.ecoenv.2018.10.109
+   Mihaita AS, 2019, J CLEAN PROD, V221, P398, DOI 10.1016/j.jclepro.2019.02.179
+   Ministry of Ecology and Environment of the People  s Republic of China, 2016, AMBIENT AIR QUALITY, V0, P0
+   Nayebare SR, 2019, SCI TOTAL ENVIRON, V647, P1314, DOI 10.1016/j.scitotenv.2018.08.094
+   Oke TR, 2017, URBAN CLIMATES, V0, P0, DOI DOI 10.1017/9781139016476
+   Ozdemir U, 2014, ENVIRON FORENSICS, V15, P329, DOI 10.1080/15275922.2014.950774
+   Perez P, 2001, NEURAL COMPUT APPL, V10, P165, DOI 10.1007/s005210170008
+   Pope CA, 2002, JAMA-J AM MED ASSOC, V287, P1132, DOI 10.1001/jama.287.9.1132
+   Ratti C, 2003, ENERG BUILDINGS, V35, P49, DOI 10.1016/S0378-7788(02)00079-8
+   Saeed S, 2017, INT J COMPUT SCI NET, V17, P45
+   Salim SM, 2011, J WIND ENG IND AEROD, V99, P103, DOI 10.1016/j.jweia.2010.12.002
+   Shi KF, 2019, J CLEAN PROD, V231, P990, DOI 10.1016/j.jclepro.2019.05.317
+   Shieh YY, 2003, EDUC PSYCHOL MEAS, V63, P951, DOI 10.1177/0013164403258402
+   Short CA, 2018, BUILD RES INF, V46, P899, DOI 10.1080/09613218.2018.1489465
+   Stern R, 2008, ATMOS ENVIRON, V42, P4567, DOI 10.1016/j.atmosenv.2008.01.068
+   Sun CW, 2018, J CLEAN PROD, V172, P488, DOI 10.1016/j.jclepro.2017.10.194
+   Tai APK, 2010, ATMOS ENVIRON, V44, P3976, DOI 10.1016/j.atmosenv.2010.06.060
+   Tian J, 2010, REMOTE SENS ENVIRON, V114, P221, DOI 10.1016/j.rse.2009.09.011
+   Tominaga Y, 2011, J WIND ENG IND AEROD, V99, P340, DOI 10.1016/j.jweia.2010.12.005
+   Tong ZM, 2016, APPL ENERG, V179, P660, DOI 10.1016/j.apenergy.2016.07.019
+   Van Fan Y, 2018, J CLEAN PROD, V194, P673, DOI 10.1016/j.jclepro.2018.05.151
+   Vicente B, 2018, AIR QUAL ATMOS HLTH, V11, P1217, DOI 10.1007/s11869-018-0621-1
+   Weinmayr G, 2018, ENVIRON INT, V120, P163, DOI 10.1016/j.envint.2018.07.030
+   World Health Organization, 2006, AIR QUAL GUID PART M, V0, P0
+   Xu XM, 2018, ECOTOX ENVIRON SAFE, V166, P146, DOI 10.1016/j.ecoenv.2018.09.069
+   Yao RM, 2018, J BUILD ENG, V15, P298, DOI 10.1016/j.jobe.2017.11.012
+   Yu BL, 2010, LANDSCAPE URBAN PLAN, V98, P210, DOI 10.1016/j.landurbplan.2010.08.004
+   Zhou CS, 2018, INT J ENV RES PUB HE, V15, P0, DOI 10.3390/ijerph15081565
+   Zuo J, 2017, J CLEAN PROD, V166, P312, DOI 10.1016/j.jclepro.2017.08.027
+NR 66
+TC 5
+Z9 5
+U1 10
+U2 64
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0959-6526
+EI 1879-1786
+J9 J CLEAN PROD
+JI J. Clean Prod.
+PD MAY 20
+PY 2020
+VL 256
+IS 
+BP 
+EP 
+DI 10.1016/j.jclepro.2020.120331
+PG 17
+WC Green & Sustainable Science & Technology; Engineering, Environmental; Environmental Sciences
+SC Science & Technology - Other Topics; Engineering; Environmental Sciences & Ecology
+GA LB9WE
+UT WOS:000524981300023
+DA 2023-04-26
+ER
+
+PT J
+AU Lv, J
+   Zhang, HM
+   Yang, M
+   Yang, WQ
+AF Lv, Jing
+   Zhang, Huimin
+   Yang, Ming
+   Yang, Wanqi
+TI A novel spectral-spatial based adaptive minimum spanning forest for hyperspectral image classification
+SO GEOINFORMATICA
+LA English
+DT Article
+DE Hyperspectral image classification; Support vector machine (SVM); Minimum spanning forest; Image segmentation
+ID support vector machines; neural-networks; svm; segmentation
+AB The classification methods based on minimum spanning forest (MSF) have yielded impressive results for hyperspectral image. However, previous methods exist several drawbacks, i.e., marker selection methods are easily affected by boundary noise pixels, dissimilarity measure methods between pixels are inaccurate, and also image segmentation process is not robust, since they have not effectively utilized spatial information. To this end, in this paper, novel gradient-based marker selection technique, dissimilarity measures, and adaptive connection weighting method are proposed by making full use of spatial information in hyperspectral image. Concretely, for a given hyperspectral image, a pixel-wise classification is firstly performed, and meanwhile the gradient map is generated by a morphology-based algorithm. Secondly, the most reliable pixels are selected as the markers from the classification map, and then the boundary noise pixels are excluded from the marker map by using the gradient map. Thirdly, several new dissimilarity measures are proposed by incorporating gradient information or probability information of pixels. Furthermore, in the growth procedure of MSF, the connection weighting between pixels is adjusted adaptively to improve the robustness of the MSF algorithm. Finally, when building the final classification map by using the majority voting rule, the labels of the training samples are used to dominate the label prediction. Experimental results are performed on two hyperspectral image sets Indian Pines and University of Pavia with different resolutions and contexts. The proposed approach yields higher classification accuracies compared to previously proposed classification methods, and provides accurate segmentation maps.
+C1 [Lv, Jing; Zhang, Huimin; Yang, Ming; Yang, Wanqi] Nanjing Normal Univ, Sch Comp Sci & Technol, Nanjing 210023, Peoples R China.
+C3 Nanjing Normal University
+RP Yang, M (corresponding author), Nanjing Normal Univ, Sch Comp Sci & Technol, Nanjing 210023, Peoples R China.
+EM jinglv@njnu.edu.cn; zhm20160508@gmail.com; m.yang@njnu.edu.cn; nju.yangwanqi@gmail.com
+FU National Natural Science Foundation of China [61876087, 61272222]; State Key Program of National Natural Science of China [61432008]; Natural Science Foundation of the Jiangsu Higher Education Institutions of China [18KJB520027]
+CR Angulo J, 2007, P 8 INT S MATH MORPH, V0, P265
+   Bai XF, 2007, IEEE IC COMP COM NET, V0, P1
+   Barnhardt WA, 2002, J COASTAL RES, V0, P28
+   BENEDIKTSSON JA, 1993, INT J REMOTE SENS, V14, P2883, DOI 10.1080/01431169308904316
+   Bernard K, 2012, IEEE T IMAGE PROCESS, V21, P2008, DOI 10.1109/TIP.2011.2175741
+   BORHANI M, 2014, IR C INT SYST ICIS 2, V0, PP1, DOI 10.1109/IRANIANCIS.2014.6802573
+   Boykov Y, 2004, IEEE T PATTERN ANAL, V26, P1124, DOI 10.1109/TPAMI.2004.60
+   Burges CJC, 1998, DATA MIN KNOWL DISC, V2, P121, DOI 10.1023/A:1009715923555
+   Camps-Valls G, 2006, IEEE GEOSCI REMOTE S, V3, P93, DOI 10.1109/LGRS.2005.857031
+   Camps-Valls G, 2005, IEEE T GEOSCI REMOTE, V43, P1351, DOI 10.1109/TGRS.2005.846154
+   Chang CC, 2011, ACM T INTEL SYST TEC, V2, P0, DOI 10.1145/1961189.1961199
+   Chi MM, 2008, ADV SPACE RES, V41, P1793, DOI 10.1016/j.asr.2008.02.012
+   Davis John C., 1996, COMPUT GEOSCI, V22, P833, DOI 10.1016/0098-3004(96)00017-9
+   Demir B, 2007, IEEE GEOSCI REMOTE S, V4, P586, DOI 10.1109/LGRS.2007.903069
+   Du PJ, 2012, OPT COMMUN, V285, P3054, DOI 10.1016/j.optcom.2012.02.092
+   Evans AN, 2006, IEEE T IMAGE PROCESS, V15, P1454, DOI 10.1109/TIP.2005.864164
+   Fauvel M, 2006, 2006 IEEE INT C AC S, V2, P0
+   Goel PK, 2003, COMPUT ELECTRON AGR, V39, P67, DOI 10.1016/S0168-1699(03)00020-6
+   GOETZ AFH, 1985, SCIENCE, V228, P1147, DOI 10.1126/science.228.4704.1147
+   Gomez F, 2007, ITEA-INF TEC ECON AG, V0, P192
+   Gualtieri J.A., 1999, P SPIE INT SOC OPT E, V3584, P1
+   Guo BF, 2008, IEEE T IMAGE PROCESS, V17, P622, DOI 10.1109/TIP.2008.918955
+   H Ghassemian, 2015, MACH VIS IM PROC IEE, V0, P0
+   Hernandez-Espinosa C, 2004, INT S NEUR NETW, V0, P0
+   Hu W, 2015, J SENSORS, V2015, P0, DOI 10.1155/2015/258619
+   Jalba AC, 2004, MICROSC RES TECHNIQ, V65, P72, DOI 10.1002/jemt.20111
+   Landgrebe DA, 2003, SIGNAL THEORY METHOD, V0, P0
+   Makrogiannis S, 2005, IEEE T SYST MAN CY B, V35, P44, DOI 10.1109/TSMCB.2004.837756
+   Melgani F, 2004, IEEE T GEOSCI REMOTE, V42, P1778, DOI 10.1109/TGRS.2004.831865
+   Merenyi E, 2005, P 2 INT C CITSA, V0, P0
+   Pal M, 2004, FUTURE GENER COMP SY, V20, P1215, DOI 10.1016/j.future.2003.11.011
+   Pike R, 2016, IEEE T BIO-MED ENG, V63, P653, DOI 10.1109/TBME.2015.2468578
+   Pinzon JE, 2007, COMPUT GEOSCI, V0, P0
+   Platt JC, 2000, ADV NEUR IN, V0, P61
+   Pooja KM, 2016, INT C REC ADV MATH, V0, P0
+   Shapiro L. G., 2002, COMPUTER VISION, V0, P0
+   Stawiaski J, 2008, MATH MORPHOLOGY GRAP, V0, P0
+   Su B., 2013, ENG AGR ENV FOOD, V6, P48, DOI 10.1016/S1881-8366(13)80026-2
+   Tadjudin S, 1999, IEEE T GEOSCI REMOTE, V37, P2113, DOI 10.1109/36.774728
+   Tarabalka Y, 2010, PATTERN RECOGN, V43, P2367, DOI 10.1016/j.patcog.2010.01.016
+   Tarabalka Y, 2009, CLASSIFICATION HYPER, V0, P0
+   Tarabalka Y, 2010, IEEE GEOSCI REMOTE S, V7, P736, DOI 10.1109/LGRS.2010.2047711
+   Tarabalka Y, 2010, IEEE T SYST MAN CY B, V40, P1267, DOI 10.1109/TSMCB.2009.2037132
+   Tarabalka Y, 2009, IEEE T GEOSCI REMOTE, V47, P2973, DOI 10.1109/TGRS.2009.2016214
+   VAIPHASA C, 2003, P INT C MAP AS KUAL, V20, P45
+   VINCENT L, 1991, IEEE T PATTERN ANAL, V13, P583, DOI 10.1109/34.87344
+   Wu TF, 2004, J MACH LEARN RES, V5, P975
+   Xiao-Run L. I, 2013, J ZHEJIANG U ENG SCI, V0, P0
+   Yang H, 1999, INT J REMOTE SENS, V20, P97, DOI 10.1080/014311699213622
+   Zhanglin Li, 2013, 2013 INTERNATIONAL CONFERENCE ON INFORMATION SCIENCE AND CLOUD COMPUTING COMPANION (ISCC-C), V0, PP370, DOI 10.1109/ISCC-C.2013.81
+   Zhou HJ, 2005, P SOC PHOTO-OPT INS, V5832, P471, DOI 10.1117/12.619684
+NR 52
+TC 1
+Z9 1
+U1 0
+U2 9
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1384-6175
+EI 1573-7624
+J9 GEOINFORMATICA
+JI Geoinformatica
+PD OCT 15
+PY 2020
+VL 24
+IS 4
+BP 827
+EP 848
+DI 10.1007/s10707-020-00403-0
+EA MAY 2020
+PG 22
+WC Computer Science, Information Systems; Geography, Physical
+SC Computer Science; Physical Geography
+GA NS2UK
+UT WOS:000531918000001
+DA 2023-04-26
+ER

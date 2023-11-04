@@ -1,0 +1,576 @@
+
+PT J
+AU Ali, S
+   Liu, D
+   Fu, Q
+   Cheema, MJM
+   Pham, QB
+   Rahaman, MM
+   Dang, TD
+   Anh, DT
+AF Ali, Shoaib
+   Liu, Dong
+   Fu, Qiang
+   Cheema, Muhammad Jehanzeb Masud
+   Quoc Bao Pham
+   Rahaman, Md Mafuzur
+   Thanh Duc Dang
+   Duong Tran Anh
+TI Improving the Resolution of GRACE Data for Spatio-Temporal Groundwater Storage Assessment
+SO REMOTE SENSING
+LA English
+DT Article
+DE GRACE; GLDAS; terrestrial water storage; groundwater storage; random forest model; downscaling
+ID water storage; indus basin; satellite; precipitation; depletion; china; irrigation; validation; products; rainfall
+AB Groundwater has a significant contribution to water storage and is considered to be one of the sources for agricultural irrigation; industrial; and domestic water use. The Gravity Recovery and Climate Experiment (GRACE) satellite provides a unique opportunity to evaluate terrestrial water storage (TWS) and groundwater storage (GWS) at a large spatial scale. However; the coarse resolution of GRACE limits its ability to investigate the water storage change at a small scale. It is; therefore; needed to improve the resolution of GRACE data at a spatial scale applicable for regional-level studies. In this study; a machine-learning-based downscaling random forest model (RFM) and artificial neural network (ANN) model were developed to downscale GRACE data (TWS and GWS) from 1 degrees to a higher resolution (0.25 degrees). The spatial maps of downscaled TWS and GWS were generated over the Indus basin irrigation system (IBIS). Variations in TWS of GRACE in combination with geospatial variables; including digital elevation model (DEM), slope; aspect; and hydrological variables; including soil moisture; evapotranspiration; rainfall; surface runoff; canopy water; and temperature; were used. The geospatial and hydrological variables could potentially contribute to; or correlate with; GRACE TWS. The RFM outperformed the ANN model and results show Pearson correlation coefficient (R) (0.97), root mean square error (RMSE) (11.83 mm), mean absolute error (MAE) (7.71 mm), and Nash-Sutcliffe efficiency (NSE) (0.94) while comparing with the training dataset from 2003 to 2016. These results indicate the suitability of RFM to downscale GRACE data at a regional scale. The downscaled GWS data were analyzed; and we observed that the region has lost GWS of about -9.54 +/- 1.27 km(3) at the rate of -0.68 +/- 0.09 km(3)/year from 2003 to 2016. The validation results showed that R between downscaled GWS and observational wells GWS are 0.67 and 0.77 at seasonal and annual scales with a confidence level of 95%, respectively. It can; therefore; be concluded that the RFM has the potential to downscale GRACE data at a spatial scale suitable to predict GWS at regional scales.
+C1 [Ali, Shoaib; Liu, Dong; Fu, Qiang] Northeast Agr Univ, Sch Water Conservancy & Civil Engn, Harbin 150030, Peoples R China.
+   [Liu, Dong] Northeast Agr Univ, Minist Agr, Key Lab Effect Utilizat Agr Water Resources, Harbin 150030, Peoples R China.
+   [Liu, Dong] Northeast Agr Univ, Heilongjiang Prov Key Lab Water Resources & Water, Harbin 150030, Peoples R China.
+   [Liu, Dong] Northeast Agr Univ, Key Lab Water Saving Agr Ordinary Univ Heilongjia, Harbin 150030, Peoples R China.
+   [Cheema, Muhammad Jehanzeb Masud] Pir Mehr Ali Shah Arid Agr Univ, Fac Agr Engn & Technol, Rawalpindi 46000, Pakistan.
+   [Quoc Bao Pham] Thu Dau Mot Univ, Inst Appl Technol, Thu Dau Mot City 75000, Vietnam.
+   [Rahaman, Md Mafuzur] AECOM, 2380 McGee St Suite 200, Kansas City, MO 64108 USA.
+   [Thanh Duc Dang] Thuyloi Univ, Inst Water & Environm Res, Ho Chi Minh City 08084, Vietnam.
+   [Duong Tran Anh] Univ S Florida, Dept Civil & Environm Engn, 4202 E Fowler Ave, Tampa, FL 33620 USA.
+C3 Northeast Agricultural University - China; Ministry of Agriculture & Rural Affairs; Northeast Agricultural University - China; Northeast Agricultural University - China; Northeast Agricultural University - China; Arid Agriculture University; Thu Dau Mot University; Thuyloi University; State University System of Florida; University of South Florida
+RP Liu, D (corresponding author), Northeast Agr Univ, Sch Water Conservancy & Civil Engn, Harbin 150030, Peoples R China.; Liu, D (corresponding author), Northeast Agr Univ, Minist Agr, Key Lab Effect Utilizat Agr Water Resources, Harbin 150030, Peoples R China.; Liu, D (corresponding author), Northeast Agr Univ, Heilongjiang Prov Key Lab Water Resources & Water, Harbin 150030, Peoples R China.; Liu, D (corresponding author), Northeast Agr Univ, Key Lab Water Saving Agr Ordinary Univ Heilongjia, Harbin 150030, Peoples R China.
+EM engr.shoaib.ali@neau.edu.cn; liudong@neau.edu.cn; fuqiang@neau.edu.cn; mjm.cheema@uaar.edu.pk; phambaoquoc@tdmu.edu.vn; mafuzur.rahaman@aecom.com; ddt21@usf.edu; duonganhtran@usf.edu
+FU National Key R&D Program of China [2017YFC0406002]; National Natural Science Foundation of China [51579044, 41071053]; National Science Fund for Distinguished Young Scholars [51825901]; Natural Science Foundation of Heilongjiang Province [E2017007]
+CR Ahmad S., 2008, SCENARIOS SURFACE GR, V0, P0
+   Ahmad S., 2008, P NAT C ORG AGR FDN, V0, P0
+   Alley WM, 2015, GROUNDWATER, V53, P826, DOI 10.1111/gwat.12379
+   [Anonymous], 2015, EC ANAL 2015 DROUGHT, V0, P0
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Castellazzi P, 2018, REMOTE SENS ENVIRON, V205, P408, DOI 10.1016/j.rse.2017.11.025
+   Cheema MJM, 2014, GROUNDWATER, V52, P25, DOI 10.1111/gwat.12027
+   Cheema MJM, 2012, INT J REMOTE SENS, V33, P2603, DOI 10.1080/01431161.2011.617397
+   Chen L, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11242979
+   Chen SD, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11071401
+   Cutler DR, 2007, ECOLOGY, V88, P2783, DOI 10.1890/07-0539.1
+   Davis JL, 2004, GEOPHYS RES LETT, V31, P0, DOI 10.1029/2004GL021435
+   Dinku T, 2007, INT J REMOTE SENS, V28, P1503, DOI 10.1080/01431160600954688
+   Duan Z, 2012, INT GEOSCI REMOTE SE, V0, PP3696, DOI 10.1109/IGARSS.2012.6350613
+   Famiglietti JS, 2011, GEOPHYS RES LETT, V38, P0, DOI 10.1029/2010GL046442
+   Feng W, 2013, WATER RESOUR RES, V49, P2110, DOI 10.1002/wrcr.20192
+   Fukuda S, 2014, J FOOD ENG, V131, P7, DOI 10.1016/j.jfoodeng.2014.01.007
+   Gemitzi A, 2017, P 15 INT C ENV SCI T, V0, P0
+   Gholami V, 2018, CATENA, V163, P210, DOI 10.1016/j.catena.2017.12.027
+   Greenman D.W., 1967, GROUND WATER HYDROLO, V0, P0
+   Habib Z., 2004, THESIS ENGREF PARIS, V0, P0
+   Iqbal N, 2017, ENVIRON MONIT ASSESS, V189, P0, DOI 10.1007/s10661-017-5846-1
+   Iqbal N, 2016, IEEE J-STARS, V9, P3524, DOI 10.1109/JSTARS.2016.2574378
+   *IUCN, 2010, IND WAT TREAT GROUND, V0, P0
+   Ji X, 2012, J MT SCI-ENGL, V9, P628, DOI 10.1007/s11629-012-2283-z
+   Karaseva MO, 2012, THEOR APPL CLIMATOL, V108, P147, DOI 10.1007/s00704-011-0509-6
+   KENDALL M. G., 1948, RANK CORRELATION METHODS., V0, P0
+   Landerer FW, 2012, WATER RESOUR RES, V48, P0, DOI 10.1029/2011WR011453
+   Li BL, 2012, J HYDROL, V446, P103, DOI 10.1016/j.jhydrol.2012.04.035
+   Li W, 2019, IEEE J-STARS, V12, P2299, DOI 10.1109/JSTARS.2019.2896923
+   [刘昌明 Liu Changming], 2012, 水科学进展 ADVANCES IN WATER SCIENCE, V23, P427
+   [刘永和 Liu Yonghe], 2011, 地球科学进展 ADVANCE IN EARTH SCIENCES, V26, P837
+   Lo MH, 2013, GEOPHYS RES LETT, V40, P301, DOI 10.1002/grl.50108
+   Long D, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep24398
+   Long D, 2015, REMOTE SENS ENVIRON, V168, P177, DOI 10.1016/j.rse.2015.07.003
+   MACKAY DJC, 1992, NEURAL COMPUT, V4, P415, DOI 10.1162/neco.1992.4.3.415
+   Mann HB, 1945, ECONOMETRICA, V13, P245, DOI 10.2307/1907187
+   Mekonnen D, 2016, INT J WATER RESOUR D, V32, P459, DOI 10.1080/07900627.2015.1133402
+   Milewski AM, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11232756
+   Miro ME, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010143
+   Mohaghegi S, 2005, 2005 IEEE SWARM INTELLIGENCE SYMPOSIUM, V0, P381
+   Muhammad Arshad, 2007, INTERNATIONAL JOURNAL OF AGRICULTURE AND BIOLOGY, V9, P143
+   Ning S., 2014, J JPN SOC CIVIL ENG, V70, PI_133, DOI 10.2208/jscejhe.70.I_133
+   Ojeh E, 2006, HYDROLOGY INDUS BASI, V0, P0
+   PBS, 2014, PAK STAT YB, V0, P0
+   Qureshi AS, 2008, AGR WATER MANAGE, V95, P1, DOI 10.1016/j.agwat.2007.09.014
+   R CORE TEAM, 2017, R LANG ENV STAT COMP, V0, P0
+   Rahaman MM, 2019, HYDROLOGY-BASEL, V6, P0, DOI 10.3390/hydrology6010019
+   Ramillien G, 2005, EARTH PLANET SC LETT, V235, P283, DOI 10.1016/j.epsl.2005.04.005
+   Reager JT, 2013, WATER RESOUR RES, V49, P3314, DOI 10.1002/wrcr.20264
+   Rehman A., 2015, GLOB ADV RES J AGR S, V4, P827
+   Richey AS, 2015, WATER RESOUR RES, V51, P5217, DOI 10.1002/2015WR017349
+   Rodell M, 2018, NATURE, V557, P650, DOI 10.1038/s41586-018-0123-1
+   Rodell M, 2004, B AM METEOROL SOC, V85, P381, DOI 10.1175/BAMS-85-3-381
+   Rodell M, 2007, HYDROGEOL J, V15, P159, DOI 10.1007/s10040-006-0103-7
+   Rodell M, 2009, NATURE, V460, P999, DOI 10.1038/nature08238
+   Sahour H, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030533
+   Scanlon BR, 2012, WATER RESOUR RES, V48, P0, DOI 10.1029/2011WR011312
+   Scanlon BR, 2018, P NATL ACAD SCI USA, V115, PE1080, DOI 10.1073/pnas.1704665115
+   Schmidt R, 2006, GLOBAL PLANET CHANGE, V50, P112, DOI 10.1016/j.gloplacha.2004.11.018
+   Seo JY, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11091953
+   Seyoum WM, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070824
+   Seyoum WM, 2017, ADV WATER RESOUR, V110, P279, DOI 10.1016/j.advwatres.2017.10.021
+   Shi YL, 2015, REMOTE SENS-BASEL, V7, P5849, DOI 10.3390/rs70505849
+   Siebert S, 2010, J HYDROL, V384, P198, DOI 10.1016/j.jhydrol.2009.07.031
+   Siridhar V, 2009, ECOHYDROLOGY, V2, P195, DOI 10.1002/eco.61
+   Strassberg G, 2007, GEOPHYS RES LETT, V34, P0, DOI 10.1029/2007GL030139
+   Sun AY, 2013, WATER RESOUR RES, V49, P5900, DOI 10.1002/wrcr.20421
+   Sun AY, 2010, GEOPHYS RES LETT, V37, P0, DOI 10.1029/2010GL043231
+   Swenson S, 2003, WATER RESOUR RES, V39, P0, DOI 10.1029/2002WR001808
+   Syed TH, 2008, WATER RESOUR RES, V44, P0, DOI 10.1029/2006WR005779
+   Tang Y, 2017, J HYDROL, V551, P397, DOI 10.1016/j.jhydrol.2017.06.021
+   Tiwari VM, 2009, GEOPHYS RES LETT, V36, P0, DOI 10.1029/2009GL039401
+   Turban E., 2008, BUSINESS INTELLIGENC, V0, P0
+   Ullah M.K., 2001, SPATIAL DISTRIBUTION, V24, P0
+   Wahr J, 1998, J GEOPHYS RES-SOL EA, V103, P30205, DOI 10.1029/98JB02844
+   Wang LA, 2016, CROP J, V4, P212, DOI 10.1016/j.cj.2016.01.008
+   Wang W, 2016, J HYDROMETEOROL, V17, P2815, DOI 10.1175/JHM-D-15-0191.1
+   Wang Y., 2010, THESIS XINJIANG AGR, V0, P0
+   Watto MA, 2016, INT J RIVER BASIN MA, V14, P447, DOI 10.1080/15715124.2016.1204154
+   World Commission on Dams (WCD), 2000, WCD CASE STUDY, V0, P0
+   Yang P, 2018, HYDROL RES, V49, P1594, DOI 10.2166/nh.2018.074
+   [叶叔华 YE Shuhua], 2007, 地球物理学进展 PROGRESS IN GEOPHYSISCS, V22, P1030
+   Yeh PJF, 2006, WATER RESOUR RES, V42, P0, DOI 10.1029/2006WR005374
+   Yin WJ, 2018, J GEOPHYS RES-ATMOS, V123, P5973, DOI 10.1029/2017JD027468
+   Zhang JX, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13030523
+   Zhang M.Y., 2013, WATER SCI TECHNOL, V11, P118
+   Zolfaghari A, 2020, J PRESS VESS-T ASME, V142, P0, DOI 10.1115/1.4045729
+NR 88
+TC 23
+Z9 23
+U1 7
+U2 47
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD SEP 15
+PY 2021
+VL 13
+IS 17
+BP 
+EP 
+DI 10.3390/rs13173513
+PG 27
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA UO1UW
+UT WOS:000694488000001
+DA 2023-04-26
+ER
+
+PT J
+AU Guan, XD
+   Huang, C
+   Yang, J
+   Li, AN
+AF Guan, Xudong
+   Huang, Chong
+   Yang, Juan
+   Li, Ainong
+TI Remote Sensing Image Classification with a Graph-Based Pre-Trained Neighborhood Spatial Relationship
+SO SENSORS
+LA English
+DT Article
+DE remote sensing; image classification; SVM (Support Vector Machine); knowledge graph; object-based image analysis; fuzzy classification; graph theory
+ID object-based analysis; land-cover; expert-system; scene classification; neural-network; knowledge; information; gis; segmentation; ontology
+AB Previous knowledge of the possible spatial relationships between land cover types is one factor that makes remote sensing image classification "smarter". In recent years, knowledge graphs, which are based on a graph data structure, have been studied in the community of remote sensing for their ability to build extensible relationships between geographic entities. This paper implements a classification scheme considering the neighborhood relationship of land cover by extracting information from a graph. First, a graph representing the spatial relationships of land cover types was built based on an existing land cover map. Empirical probability distributions of the spatial relationships were then extracted using this graph. Second, an image was classified based on an object-based fuzzy classifier. Finally, the membership of objects and the attributes of their neighborhood objects were joined to decide the final classes. Two experiments were implemented. Overall accuracy of the two experiments increased by 5.2% and 0.6%, showing that this method has the ability to correct misclassified patches using the spatial relationship between geo-entities. However, two issues must be considered when applying spatial relationships to image classification. The first is the "siphonic effect" produced by neighborhood patches. Second, the use of global spatial relationships derived from a pre-trained graph loses local spatial relationship in-formation to some degree.
+C1 [Guan, Xudong; Li, Ainong] Chinese Acad Sci, Res Ctr Digital Mt & Remote Sensing Applicat, Inst Mt Hazards & Environm, Chengdu 610041, Peoples R China.
+   [Huang, Chong] Chinese Acad Sci, State Key Lab Resources & Environm Informat Syst, Inst Geog Sci & Nat Resources Res, Beijing 100101, Peoples R China.
+   [Yang, Juan] Shaanxi Energy Inst, Xianyang 712000, Peoples R China.
+C3 Chinese Academy of Sciences; Institute of Mountain Hazards & Environment, CAS; Chinese Academy of Sciences; Institute of Geographic Sciences & Natural Resources Research, CAS
+RP Li, AN (corresponding author), Chinese Acad Sci, Res Ctr Digital Mt & Remote Sensing Applicat, Inst Mt Hazards & Environm, Chengdu 610041, Peoples R China.
+EM guanxd@imde.ac.cn; huangch@lreis.ac.cn; sxnyyj2014@163.com; ainongli@imde.ac.cn
+FU National Science Foundation of China [41901309, 41701433, 42090015]; Youth Talent Team Program of the Institute of Mountain Hazards and Environment, CAS [SDSQB2020000032, Y8R2230230]; Sichuan Science and Technology Program [2020JDJQ0003]; Second Tibetan Plateau Scientific Expedition and Research Program [2019QZKK0308]; CAS "Light of West China" Program
+CR Batuwita R, 2010, IEEE T FUZZY SYST, V18, P558, DOI 10.1109/TFUZZ.2010.2042721
+   Belgiu M, 2014, REMOTE SENS LETT, V5, P530, DOI 10.1080/2150704X.2014.930563
+   Belgiu M, 2014, REMOTE SENS-BASEL, V6, P1347, DOI 10.3390/rs6021347
+   Benz U, 2001, INT GEOSCI REMOTE SE, V0, PP1427, DOI 10.1109/IGARSS.2001.976867
+   Benz UC, 2004, ISPRS J PHOTOGRAMM, V58, P239, DOI 10.1016/j.isprsjprs.2003.10.002
+   Bouziani M, 2010, IEEE T GEOSCI REMOTE, V48, P3198, DOI 10.1109/TGRS.2010.2044508
+   CHANG CL, 1974, IEEE T COMPUT, VC 23, P1179, DOI 10.1109/T-C.1974.223827
+   Chen Z, 2012, INT J REMOTE SENS, V33, P3048, DOI 10.1080/01431161.2011.625055
+   Cheng G, 2020, IEEE J-STARS, V13, P3735, DOI 10.1109/JSTARS.2020.3005403
+   Cheung AKL, 2015, INT J GEOGR INF SCI, V29, P580, DOI 10.1080/13658816.2014.989856
+   Cui W, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091044
+   Dale MRT, 2010, ANNU REV ECOL EVOL S, V41, P21, DOI 10.1146/annurev-ecolsys-102209-144718
+   Dianat R, 2010, IEEE GEOSCI REMOTE S, V7, P215, DOI 10.1109/LGRS.2009.2031686
+   Dobson MC, 1996, IEEE T GEOSCI REMOTE, V34, P83, DOI 10.1109/36.481896
+   Fan RE, 2005, J MACH LEARN RES, V6, P1889
+   Forestier G, 2013, COMPUT GEOSCI-UK, V54, P88, DOI 10.1016/j.cageo.2012.11.023
+   Forestier G, 2012, COMPUT ENVIRON URBAN, V36, P470, DOI 10.1016/j.compenvurbsys.2012.01.003
+   Ghimire B, 2010, REMOTE SENS LETT, V1, P45, DOI 10.1080/01431160903252327
+   GOODENOUGH DG, 1987, IEEE T GEOSCI REMOTE, V25, P349, DOI 10.1109/TGRS.1987.289805
+   Gu YT, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9102110
+   Guarino N, 1998, FR ART INT, V46, P3
+   Guo QH, 2007, GISCI REMOTE SENS, V44, P24, DOI 10.2747/1548-1603.44.1.24
+   Hardin PJ, 1997, PHOTOGRAMM ENG REM S, V63, P735
+   Hong DH, 2003, FUZZY SET SYST, V138, P271, DOI 10.1016/S0165-0114(02)00514-6
+   Jabari S, 2013, ALGORITHMS, V6, P762, DOI 10.3390/a6040762
+   KARTIKEYAN B, 1995, IEEE T GEOSCI REMOTE, V33, P58, DOI 10.1109/36.368222
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Li YS, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12234003
+   Li YF, 2020, MATH BIOSCI ENG, V17, P4443, DOI 10.3934/mbe.2020245
+   Luo B, 2014, IEEE T GEOSCI REMOTE, V52, P1451, DOI 10.1109/TGRS.2013.2251468
+   Ma L, 2016, PATTERN RECOGN LETT, V83, P133, DOI 10.1016/j.patrec.2016.01.022
+   Masjedi A, 2016, IEEE T GEOSCI REMOTE, V54, P932, DOI 10.1109/TGRS.2015.2469691
+   Metternicht G, 2001, ECOL MODEL, V144, P163, DOI 10.1016/S0304-3800(01)00371-4
+   Murai H, 1997, INT J REMOTE SENS, V18, P811, DOI 10.1080/014311697218773
+   Ouyang S, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13010119
+   Pacifici F, 2009, REMOTE SENS ENVIRON, V113, P1276, DOI 10.1016/j.rse.2009.02.014
+   Pu SL, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13030526
+   Pu S, 2009, ISPRS J PHOTOGRAMM, V64, P575, DOI 10.1016/j.isprsjprs.2009.04.001
+   Qiao C, 2015, INT J DIGIT EARTH, V8, P710, DOI 10.1080/17538947.2014.925517
+   Rejichi S, 2015, IEEE J-STARS, V8, P2138, DOI 10.1109/JSTARS.2015.2433257
+   Rezaee M, 2018, IEEE J-STARS, V11, P3030, DOI 10.1109/JSTARS.2018.2846178
+   SARMA LCS, 1994, SADHANA-ACAD P ENG S, V19, P93
+   Scott GJ, 2017, IEEE GEOSCI REMOTE S, V14, P549, DOI 10.1109/LGRS.2017.2657778
+   Sebari I, 2013, ISPRS J PHOTOGRAMM, V79, P171, DOI 10.1016/j.isprsjprs.2013.02.006
+   Tobler W, 2004, ANN ASSOC AM GEOGR, V94, P304, DOI 10.1111/j.1467-8306.2004.09402009.x
+   Visser F, 2018, HYDROBIOLOGIA, V812, P157, DOI 10.1007/s10750-016-2928-y
+   Weinberger KQ, 2009, J MACH LEARN RES, V10, P207
+   Witharana C, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13040558
+   Xu C, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10020061
+   Xu YH, 2021, IEEE T GEOSCI REMOTE, V59, P1604, DOI 10.1109/TGRS.2020.2999962
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhao LJ, 2019, MULTIMED TOOLS APPL, V78, P9667, DOI 10.1007/s11042-018-6548-6
+   Zhao M, 2018, IEEE T IMAGE PROCESS, V27, P2731, DOI 10.1109/TIP.2018.2810516
+NR 54
+TC 2
+Z9 2
+U1 12
+U2 30
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD AUG 15
+PY 2021
+VL 21
+IS 16
+BP 
+EP 
+DI 10.3390/s21165602
+PG 28
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA UH2YM
+UT WOS:000689803200001
+PM 34451044
+DA 2023-04-26
+ER
+
+PT J
+AU Pena, A
+   Patino, A
+   Chiclana, F
+   Caraffini, F
+   Gongora, M
+   Gonzalez-Ruiz, JD
+   Duque-Grisales, E
+AF Pena, Alejandro
+   Patino, Alejandro
+   Chiclana, Francisco
+   Caraffini, Fabio
+   Gongora, Mario
+   Gonzalez-Ruiz, Juan David
+   Duque-Grisales, Eduardo
+TI Fuzzy convolutional deep-learning model to estimate the operational risk capital using multi-source risk events
+SO APPLIED SOFT COMPUTING
+LA English
+DT Article
+DE Financial modeling; Stochastic modeling; Fuzzy Cognitive Maps; Log-logistic activation function; Financial scenarios; Project finance
+ID neural-networks; market
+AB Operational Risk (OR) is usually caused by losses due to human errors, inadequate or defective internal processes, system failures or external events that affect an organization. According to the Basel II agreement, OR is defined by seven risk events: internal fraud, external fraud, labor relations, clients, damage to fixed assets, technological failures and failures in the execution & administration of processes. However, due to the large amount of qualitative information, the uncertainty and the low frequency at which these risk events are generated in an organization, their modeling is still a technological challenge. This paper takes up this challenge and presents a fuzzy convolutional deep-learning model to estimate, based on the Basel III recommendations, the ORLoss Component (OR-LC) in an organization. The proposed model integrates qualitative information as linguistic random variables, as well as risk events data from different sources using multi-dimensional fuzzy credibility concepts. The results show the stability of the proposed model with respect to the OR-LC estimation from both structural and dimensional point of views, making it an ideal tool for modeling OR from the perspective of: (a) the regulators (Basel Committee on Banking Supervision) by allowing the integration of experts' criteria into the OR-LC; (b) the insurers by allowing the integration of risk events from different sources; and (c) organizations and financial entities by allowing the a priori evaluation of the OR-LC of new financial products based on technological platforms and electronic channels. (C) 2021 Elsevier B.V. All rights reserved.
+C1 [Pena, Alejandro; Patino, Alejandro] EIA Univ, Computat Intelligence & Automat Res Grp, Envigado, Antioquia, Colombia.
+   [Chiclana, Francisco; Caraffini, Fabio; Gongora, Mario] De Montfort Univ, Sch Comp Sci & Informat, Inst Artificial Intelligence, Leicester, Leics, England.
+   [Chiclana, Francisco] Univ Granada, Andalusian Res Inst Data Sci & Computat Intellige, Granada, Spain.
+   [Gonzalez-Ruiz, Juan David] Univ Nacl Colombia, Dept Econ, Medellin, Colombia.
+   [Duque-Grisales, Eduardo] Inst Univ Pascual Bravo, Fac Ingn, Medellin, Colombia.
+C3 De Montfort University; University of Granada; Universidad Nacional de Colombia
+RP Caraffini, F (corresponding author), De Montfort Univ, Sch Comp Sci & Informat, Inst Artificial Intelligence, Leicester, Leics, England.
+EM juan.pena@eia.edu.co; hector.patino@eia.edu.co; chiclana@dmu.ac.uk; fabio.caraffini@dmu.ac.uk; mgongora@dmu.ac.uk; jdgonza3@unal.edu.co; e.duque@pascualbravo.edu.co
+CR [Anonymous], 2016, STAND MEAS APPR OP R, V0, P0
+   Aramburu G., 2014, REV U EUR, V20, P46
+   Azar A., 2018, EXPERT SYST APPL, V115, P0
+   Aziz S, 2019, PALGR ST DIG BUS ENA, V0, PP33, DOI 10.1007/978-3-030-02330-0_3
+   Bank for International Settlements, 2011, PRINC SOUND MAN OP R, V0, P0
+   Blasch E., 2019, AUTOMATIC TARGET REC, V10988, P0
+   Bonet I., 2014, INF SYST TECHN CISTI, V0, P1
+   Bouveret A., 2018, 18143 INT MON FUND, V0, P0
+   Buhlmann H., 2009, J OPER RISK, V2, P0
+   Cao WP, 2018, NEUROCOMPUTING, V275, P278, DOI 10.1016/j.neucom.2017.08.040
+   Celikoglu HB, 2006, MATH COMPUT MODEL, V44, P640, DOI 10.1016/j.mcm.2006.02.002
+   Cheng-Ping C., 2018, ASIAN EC FINANC REV, V8, P831
+   Cohen R., 2018, J OPER RISK, V13, P0
+   Crisanto J., 2017, 2 FSI, V0, P20
+   Cruz MG., 2015, FUNDAMENTAL ASPECTS, V0, P0, DOI DOI 10.1002/9781118573013
+   Gonzalez-Ruiz JD, 2019, APPL SOFT COMPUT, V85, P0, DOI 10.1016/j.asoc.2019.105818
+   Davila-Aragon G., 2017, REV MEXICANA EC FINA, V12, P363
+   Di Lascio FML, 2018, J BANK FINANC, V96, P236, DOI 10.1016/j.jbankfin.2018.07.002
+   Dorogovs P, 2013, PROCD SOC BEHV, V99, P911, DOI 10.1016/j.sbspro.2013.10.564
+   Drewk J., 2018, POLICE PRACT RES, V19, P549
+   Dziwok E., 2018, INT J TRADE GLOB MAR, V11, P1
+   El Arif F.Z., 2014, AM J ENG RES, V03, P238
+   Fischer T, 2018, EUR J OPER RES, V270, P654, DOI 10.1016/j.ejor.2017.11.054
+   Franke U, 2017, COMPUT SECUR, V68, P130, DOI 10.1016/j.cose.2017.04.010
+   G. of Canada, 2011, GUID CORP RISK PROF, V2016, P0
+   Gurrea-Martinez A, 2019, J INT ECON LAW, V22, P125, DOI 10.1093/jiel/jgz002
+   HSBC, 2007, REISG OP BAS LI, V0, P0
+   Isazi P., 2004, REDES NEURONAS ARTIF, V0, P0
+   Ivanov D, 2019, INT J PROD RES, V57, P829, DOI 10.1080/00207543.2018.1488086
+   Kamil J., 2018, J OPER RES SOC, V69, P371
+   Karshenas H, 2013, APPL SOFT COMPUT, V13, P2412, DOI 10.1016/j.asoc.2012.11.049
+   Kim JY, 2019, ADV INTELL SYST, V771, P134, DOI 10.1007/978-3-319-94120-2_13
+   Kishino H, 2001, ENCY GENETICS, V0, PP1157, DOI 10.1006/RWGN.2001.0803
+   Liu KF, 2006, INT J GEOGR INF SCI, V20, P857, DOI 10.1080/13658810600711345
+   McConnell P, 2018, J OPER RISK, V13, P47, DOI 10.21314/JOP.2018.211
+   Milkau U, 2018, RISKS, V6, P0, DOI 10.3390/risks6020041
+   Montavon G, 2018, DIGIT SIGNAL PROCESS, V73, P1, DOI 10.1016/j.dsp.2017.10.011
+   Mora Valencia A, 2010, CUADERNOS ADM, V25, P185
+   Mora-Valencia A., 2017, P 7 EUR AC RES C GLO, V0, P0
+   Mubalaike AM, 2018, 2018 3RD INTERNATIONAL CONFERENCE ON COMPUTER SCIENCE AND ENGINEERING (UBMK), V0, PP598, DOI 10.1109/UBMK.2018.8566574
+   Naseer S, 2018, IEEE ACCESS, V6, P48231, DOI 10.1109/ACCESS.2018.2863036
+   Neifar S, 2018, RES INT BUS FINANC, V46, P43, DOI 10.1016/j.ribaf.2017.09.006
+   Nerurkar P, 2018, PROCEDIA COMPUT SCI, V125, P770, DOI 10.1016/j.procs.2017.12.099
+   OReilly M., 2018, FUTURE OPERATIONAL R, V0, P0
+   Otero P., 2009, QUANTUM, V1, P58
+   Park OH, 2007, ATMOS ENVIRON, V41, P6095, DOI 10.1016/j.atmosenv.2007.04.010
+   Pena A., 1900, P1, V0, P0
+   Pena A, 2018, KNOWL-BASED SYST, V159, P98, DOI 10.1016/j.knosys.2018.06.007
+   Pena A, 2018, APPL SOFT COMPUT, V65, P614, DOI 10.1016/j.asoc.2018.01.024
+   Pena A, 2018, EXPERT SYST APPL, V98, P11, DOI 10.1016/j.eswa.2018.01.001
+   Pena A, 2010, ENVIRON MODELL SOFTW, V25, P1890, DOI 10.1016/j.envsoft.2010.04.013
+   Potapov A., 2014, IFIP ADV INFORM COMM, V436, P0
+   Schugoreva VA, 2019, ADV INTELL SYST, V854, P91, DOI 10.1007/978-3-319-99993-7_9
+   Shevchenko P., 2013, SSRN, V0, P0
+   Tsai CF, 2008, EXPERT SYST APPL, V34, P2639, DOI 10.1016/j.eswa.2007.05.019
+   Vasiliev I.I., 2018, RSF-RUS SAGE J SOC S, V7, P524, DOI 10.14419/ijet.v7i4.36.24130
+   Wei L., 2018, ANN DATA SCI, V0, P0
+   Xu C., 2018, PHYSICA A, V516, P0
+   Yang X. -S., 2019, INTRO ALGORITHMS DAT, V0, P0
+   Yildirim O, 2018, COGN SYST RES, V52, P198, DOI 10.1016/j.cogsys.2018.07.004
+   Yoe C., 2019, PRINCIPLES RISK ANAL, V0, P848
+NR 61
+TC 1
+Z9 1
+U1 3
+U2 11
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1568-4946
+EI 1872-9681
+J9 APPL SOFT COMPUT
+JI Appl. Soft. Comput.
+PD AUG 15
+PY 2021
+VL 107
+IS 
+BP 
+EP 
+DI 10.1016/j.asoc.2021.107381
+EA APR 2021
+PG 15
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications
+SC Computer Science
+GA SO4AE
+UT WOS:000658916600004
+DA 2023-04-26
+ER
+
+PT J
+AU Lu, XC
+   Yang, DZ
+   Jia, FD
+   Yang, YL
+   Zhang, L
+AF Lu, Xiaochen
+   Yang, Dezheng
+   Jia, Fengde
+   Yang, Yunlong
+   Zhang, Lei
+TI Hyperspectral Image Classification Based on Multilevel Joint Feature Extraction Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Feature extraction; Convolutional neural networks; Three-dimensional displays; Task analysis; Transforms; Training; Redundancy; Attention details; convolutional neural network (CNN); hyperspectral image (HSI); image classification; multilevel feature extraction (MFE)
+ID representation
+AB Over the past few years, convolutional neural network (CNN) has been broadly adopted in remote sensing (RS) imagery processing areas due to its impressive capabilities in feature extraction. Nevertheless, it is still a challenge for CNN-based hyperspectral image (HSI) classification methods to extract more effective spectral-spatial features considering all spectral bands. Driven by this issue, we propose a novel approach to cope with the HSI classification task, referring to the multilevel joint feature extraction network. The proposed network makes full use of the information on each channel of HSI and transforms it into valid channel-wised spatial features through a designed convolution process. Moreover, these feature maps form global attention details to guide the extraction of spectral-spatial features, which are taken to the next level for further feature mining. Then, the features obtained at different levels are integrated for ground object classification. In contrast with several state-of-the-art HSI classification methods on four public datasets, experimental results demonstrate the effectiveness and remarkable feature extraction capability of our proposed approach.
+C1 [Lu, Xiaochen; Yang, Dezheng; Jia, Fengde; Yang, Yunlong; Zhang, Lei] Donghua Univ, Sch Informat Sci & Technol, Shanghai 201620, Peoples R China.
+C3 Donghua University
+RP Yang, DZ (corresponding author), Donghua Univ, Sch Informat Sci & Technol, Shanghai 201620, Peoples R China.
+EM lxchen09@dhu.edu.cn; dezheng.yang@mail.dhu.edu.cn; fdjia@dhu.edu.cn; yangyl@dhu.edu.cn; lei.zhang@dhu.edu.cn
+FU Fundamental Research Funds for the Central Universities [2232021D-33]; National Natural Science Foundation of China (NSFC) [61901104]; Science and Technology Research Project of Shanghai Songjiang District [20SJKJGG4]
+CR Acosta ICC, 2020, IEEE J-STARS, V13, P4214, DOI 10.1109/JSTARS.2020.3011221
+   Cao XH, 2019, IEEE J-STARS, V12, P4861, DOI 10.1109/JSTARS.2019.2938208
+   Delalieux S, 2012, REMOTE SENS ENVIRON, V126, P222, DOI 10.1016/j.rse.2012.08.029
+   Feng J, 2021, IEEE T GEOSCI REMOTE, V59, P5054, DOI 10.1109/TGRS.2020.3011943
+   Feng J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071149
+   Fernando T, 2021, IEEE SIGNAL PROC MAG, V38, P87, DOI 10.1109/MSP.2020.2988287
+   Ghamisi P, 2018, IEEE GEOSC REM SEN M, V6, P10, DOI 10.1109/MGRS.2018.2854840
+   Gu YF, 2016, IEEE T GEOSCI REMOTE, V54, P3235, DOI 10.1109/TGRS.2015.2514161
+   Guo WH, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3051056
+   Hang RL, 2019, IEEE T GEOSCI REMOTE, V57, P5384, DOI 10.1109/TGRS.2019.2899129
+   He X, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3061088
+   Hong DF, 2021, IEEE T GEOSCI REMOTE, V59, P5966, DOI 10.1109/TGRS.2020.3015157
+   Hong DF, 2021, IEEE T GEOSCI REMOTE, V59, P4340, DOI 10.1109/TGRS.2020.3016820
+   Hong DF, 2020, IEEE T GEOSCI REMOTE, V58, P3791, DOI 10.1109/TGRS.2019.2957251
+   Hong DF, 2019, IEEE T IMAGE PROCESS, V28, P1923, DOI 10.1109/TIP.2018.2878958
+   Khodadadzadeh M, 2014, IEEE GEOSCI REMOTE S, V11, P2105, DOI 10.1109/LGRS.2014.2320258
+   Li JJ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030396
+   Li L, 2021, IEEE GEOSCI REMOTE S, V18, P1816, DOI 10.1109/LGRS.2020.3007811
+   Li X, 2020, IEEE T GEOSCI REMOTE, V58, P2615, DOI 10.1109/TGRS.2019.2952758
+   Li ZK, 2020, IEEE J-STARS, V13, P1258, DOI 10.1109/JSTARS.2020.2982614
+   Lu XC, 2021, IEEE T IMAGE PROCESS, V30, P6815, DOI 10.1109/TIP.2021.3098246
+   Meng Z, 2021, IEEE J-STARS, V14, P2494, DOI 10.1109/JSTARS.2021.3053567
+   Mou LC, 2020, IEEE T GEOSCI REMOTE, V58, P110, DOI 10.1109/TGRS.2019.2933609
+   Rangnekar A, 2020, IEEE T GEOSCI REMOTE, V58, P8116, DOI 10.1109/TGRS.2020.2987199
+   Rasti B, 2020, IEEE GEOSC REM SEN M, V8, P60, DOI 10.1109/MGRS.2020.2979764
+   Roy SK, 2020, IEEE GEOSCI REMOTE S, V17, P277, DOI 10.1109/LGRS.2019.2918719
+   Sabat-Tomala A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030516
+   Shabbir S., 1900, P2021, V0, P0
+   Song WW, 2018, IEEE T GEOSCI REMOTE, V56, P3173, DOI 10.1109/TGRS.2018.2794326
+   Tan K, 2020, ISPRS J PHOTOGRAMM, V165, P1, DOI 10.1016/j.isprsjprs.2020.04.022
+   Vohland M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12182962
+   Wang L, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070884
+   Wang Q, 2019, IEEE T GEOSCI REMOTE, V57, P911, DOI 10.1109/TGRS.2018.2862899
+   Wu H, 2018, IEEE T IMAGE PROCESS, V27, P1259, DOI 10.1109/TIP.2017.2772836
+   Xiao Z, 2020, IEEE INTERNET THINGS, V7, P2828, DOI 10.1109/JIOT.2019.2962863
+   Xiao Z, 2020, IEEE INTERNET THINGS, V7, P2038, DOI 10.1109/JIOT.2019.2960631
+   Xue ZH, 2021, IEEE T GEOSCI REMOTE, V59, P9600, DOI 10.1109/TGRS.2020.3048128
+   Yu CY, 2019, IEEE J-STARS, V12, P1866, DOI 10.1109/JSTARS.2019.2911987
+   Zheng JW, 2021, IEEE T GEOSCI REMOTE, V59, P522, DOI 10.1109/TGRS.2020.2995575
+   Zhou PC, 2019, IEEE T GEOSCI REMOTE, V57, P4823, DOI 10.1109/TGRS.2019.2893180
+   Zhu J, 2018, IEEE GEOSCI REMOTE S, V15, P1254, DOI 10.1109/LGRS.2018.2830403
+   Zhu MH, 2021, IEEE T GEOSCI REMOTE, V59, P449, DOI 10.1109/TGRS.2020.2994057
+NR 42
+TC 3
+Z9 3
+U1 3
+U2 12
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2021
+VL 14
+IS 
+BP 10977
+EP 10989
+DI 10.1109/JSTARS.2021.3123371
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA WU7CJ
+UT WOS:000716698800008
+DA 2023-04-26
+ER
+
+PT J
+AU Koehler, M
+   Hanelli, D
+   Schaefer, S
+   Barth, A
+   Knobloch, A
+   Hielscher, P
+   Cardoso-Fernandes, J
+   Lima, A
+   Teodoro, AC
+AF Koehler, Martin
+   Hanelli, Delira
+   Schaefer, Stefan
+   Barth, Andreas
+   Knobloch, Andreas
+   Hielscher, Peggy
+   Cardoso-Fernandes, Joana
+   Lima, Alexandre
+   Teodoro, Ana C.
+TI Lithium Potential Mapping Using Artificial Neural Networks: A Case Study from Central Portugal
+SO MINERALS
+LA English
+DT Article
+DE lithium; mineral predictive mapping; exploration targeting; artificial neural networks; Portugal
+ID central-iberian zone; granitic pegmatites; spain; constraints; exhumation; sentinel-2; mineralogy; resources; complex; arc
+AB The growing importance and demand of lithium (Li) for industrial applications, in particular rechargeable Li-ion batteries, have led to a significant increase in exploration efforts for Li-bearing minerals. To ensure and expand a stable Li supply to the global economy, extensive research and exploration are necessary. Artificial neural networks (ANNs) provide powerful tools for exploration target identification. They can be cost-effectively applied in various geological settings. This article presents an integrated approach of Li exploration targeting using ANNs for data interpretation. Based on medium resolution geological maps (1:50,000) and stream sediment geochemical data (1 sample per 0.25 km(2)), the Li potential was calculated for an area of approximately 1200 km(2) in the surroundings of Bajoca Mine (Northeast Portugal). Extensive knowledge about geological processes leading to Li mineralisation (such as weathering conditions and diverse Li minerals) proved to be a determining factor in the exploration model. Furthermore, Sentinel-2 satellite imagery was used in a separate ANN model to identify potential Li mine sites exposed on the ground surface by analysing the spectral signature of surface reflectance in well-known Li locations. Finally, the results were combined to design a final map of predicted Li mineralisation occurrences in the study area. The proposed approach reveals how remote sensing data in combination with geological and geochemical data can be used for delineating and ranking exploration targets of almost any deposit type.</p>
+C1 [Koehler, Martin; Hanelli, Delira; Schaefer, Stefan; Barth, Andreas; Knobloch, Andreas; Hielscher, Peggy] Beak Consultants GmbH, St Niclas Schacht 13, D-09599 Freiberg, Germany.
+   [Cardoso-Fernandes, Joana; Lima, Alexandre; Teodoro, Ana C.] Univ Porto, Fac Sci, Dept Geosci Environm & Spatial Planning, P-4169007 Porto, Portugal.
+   [Cardoso-Fernandes, Joana; Lima, Alexandre; Teodoro, Ana C.] Pole Univ Porto, Inst Earth Sci ICT, P-4169007 Porto, Portugal.
+C3 Universidade do Porto; Universidade do Porto
+RP Koehler, M (corresponding author), Beak Consultants GmbH, St Niclas Schacht 13, D-09599 Freiberg, Germany.
+EM martin.koehler@beak.de; delira.hanelli@beak.de; st.schaefer.geo@googlemail.com; andreas.barth@beak.de; andreas.knobloch@beak.de; peggy.hielscher@beak.de; joana.fernandes@fc.up.pt; allima@fc.up.pt; amteodor@fc.up.pt
+FU EU H2020 ERAMIN-2 network [ERA-MIN/0001/2017-LIGHTS]; EU Horizon 2020; ANR-Agence Nationale de la Recherche (France); BMBF Julich-Bundesministerium fur Bildung und Forschung (Germany); FCT-Fundacao para a Ciencia e a Tecnologia (Portugal); Portuguese National Funds through the FCT [UIDB/04683/2020-ICT]; MCTES through FCT [SFRH/BD/136108/2018]; European Social Fund (ESF) through POCH-Programa Operacional Capital Humano; NORTE 2020 regional program; Fundação para a Ciência e a Tecnologia [SFRH/BD/136108/2018] Funding Source: FCT
+CR Aires S.C.M., 2018, THESIS U PORTO PORTO, V0, P0
+   Al Rawashdeh S, 2006, CYBERGEO, V0, P0, DOI DOI 10.4000/cybergeo.2856
+   Angel J.M., 1981, NOTEGMX748 BRGM, V0, P6
+   [Anonymous], 1999, NEURAL NETWORKS COMP, V0, P0
+   Bahr T, 2019, WORK HYPERSP IMAG, V0, P0
+   Bea F, 2003, J GEOL, V111, P579, DOI 10.1086/376767
+   Bea F., 1987, GEOLOGIA GRANITOIDES, V0, P0
+   BROOKS K, 2020, GEOL TODAY, V36, P192, DOI 10.1111/gto.12326
+   Brown WM, 2000, AUST J EARTH SCI, V47, P757, DOI 10.1046/j.1440-0952.2000.00807.x
+   Cardoso-Fernandes J, 2019, PROC SPIE, V11156, P0, DOI 10.1117/12.2532577
+   Cardoso-Fernandes J, 2020, PROC SPIE, V11534, P0, DOI 10.1117/12.2573941
+   Cardoso-Fernandes J, 2018, PROC SPIE, V10790, P0, DOI 10.1117/12.2326285
+   Cardoso-Fernandes J., 2021, TOOLS REMOTE EXPLORA, V0, P0
+   Cardoso-Fernandes J., 2021, P EGU GEN ASS 2021 O, V0, P0, DOI DOI 10.5194/egusphere-egu21-2364
+   Cardoso-Fernandes J, 2020, INT GEOSCI REMOTE SE, V0, PP557, DOI 10.1109/IGARSS39084.2020.9323852
+   Cardoso-Fernandes J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142319
+   Cardoso-Fernandes J, 2019, INT J APPL EARTH OBS, V76, P10, DOI 10.1016/j.jag.2018.11.001
+   Carvalho J.M.F., 2004, P 17 IND MINERALS IN, V0, P1
+   Carvalhosa A., 1960, CARTA GEOLOGICA PORT, V0, P0
+   Costa J.C.S., 1950, NOT CIA CARTA GEOLOG, V0, P0
+   DIAS R, 1995, TECTONOPHYSICS, V246, P113, DOI 10.1016/0040-1951(94)00253-6
+   European Commission, 2020, COM2020380FIN, V0, P0
+   Ferreira JA, 2019, INT J EARTH SCI, V108, P2153, DOI 10.1007/s00531-019-01755-1
+   Gaspar LM, 2000, ECON GEOL BULL SOC, V95, P1259, DOI 10.2113/95.6.1259
+   Gourcerol B, 2019, ORE GEOL REV, V109, P494, DOI 10.1016/j.oregeorev.2019.04.015
+   ilva D., 2018, FRONT INFORMAT SYST, V0, P0, DOI DOI 10.2174/9781681086118118010006
+   Kesler SE, 2012, ORE GEOL REV, V48, P55, DOI 10.1016/j.oregeorev.2012.05.006
+   Lanaras C, 2018, ISPRS J PHOTOGRAMM, V146, P305, DOI 10.1016/j.isprsjprs.2018.09.018
+   Linnen RL, 2012, ELEMENTS, V8, P275, DOI 10.2113/gselements.8.4.275
+   Catalan JRM, 2012, INT J EARTH SCI, V101, P1299, DOI 10.1007/s00531-011-0715-6
+   Oh H.-J., 2010, NAT RESOUR RES, V19, P103, DOI 10.1007/S11053-010-9112-2
+   Pereira I, 2017, J GEOL SOC LONDON, V174, P1004, DOI 10.1144/jgs2016-159
+   Pour AB, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081186
+   Ribeiro M.L., 1990, CARTA GEOLOGICA SIMP, V0, P0
+   Rigol-Sanchez JP, 2003, INT J REMOTE SENS, V24, P1151, DOI 10.1080/0143116021000031791
+   Robles ER, 1999, MINERAL MAG, V63, P535
+   Roda E., 1993, THESIS UPV EHU BIBAO, V0, P0
+   Roda-Robles E, 2018, ORE GEOL REV, V95, P408, DOI 10.1016/j.oregeorev.2018.02.027
+   Roda-Robles E, 2016, MINERAL MAG, V80, P103, DOI 10.1180/minmag.2016.080.049
+   Rodriguez-Galiano V, 2015, ORE GEOL REV, V71, P804, DOI 10.1016/j.oregeorev.2015.01.001
+   Silva A.F., 1990, CARTA GEOLOGICA PORT, V0, P0
+   Silva A.F.d., 1994, NOTICIA EXPLICATIVA, V0, P48
+   Silva A.F.d., 1991, NOTICIA EXPLICATIVA, V0, P52
+   Teixeira C., 1955, NOTAS GEOLOGIA PORTU, V0, P48
+   van der Meer FD, 2014, REMOTE SENS ENVIRON, V148, P124, DOI 10.1016/j.rse.2014.03.022
+   Viallefond L., 1981, NOTEGMX738 BRGM, V0, P17
+   Viallefond L., 1981, NOTEGMX732 BRGM, V0, P27
+   Vieira R., 2010, THESIS FACULDADE CIE, V0, P0
+   Vieira R, 2011, AM MINERAL, V96, P637, DOI 10.2138/am.2011.3584
+NR 49
+TC 9
+Z9 9
+U1 4
+U2 17
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2075-163X
+J9 MINERALS-BASEL
+JI Minerals
+PD OCT 15
+PY 2021
+VL 11
+IS 10
+BP 
+EP 
+DI 10.3390/min11101046
+PG 23
+WC Geochemistry & Geophysics; Mineralogy; Mining & Mineral Processing
+SC Geochemistry & Geophysics; Mineralogy; Mining & Mineral Processing
+GA WP9JF
+UT WOS:000713440400001
+DA 2023-04-26
+ER
