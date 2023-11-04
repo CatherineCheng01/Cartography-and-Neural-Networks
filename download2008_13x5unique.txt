@@ -1,0 +1,343 @@
+
+PT J
+AU Dominguez, E
+   Munoz, J
+AF Dominguez, Enrique
+   Munoz, Jose
+TI A neural model for the p-median problem
+SO COMPUTERS & OPERATIONS RESEARCH
+LA English
+DT Article
+ID switching centers; location-problems; algorithm; networks; graph; optimization
+AB There exist several neural techniques for solving NP-hard combinatorial optimization problems. At the beginning of the 1980s, recurrent neural networks were shown to be able to solve optimization problems. Criticism of this approach includes the tendency of recurrent neural networks to produce infeasible solutions and poor local minima. This paper proposes a new technique which always provides feasible solutions and removes the tuning phase since the constraints are incorporated in the neural architecture instead of the energy function, therefore the tuning parameters are unnecessary. One of the most popular and well-known facility location problems is the p-median problem, which concerns the location of p facilities (or medians) in order to minimize the total weighted distance between the demand points and the facilities. There exist several heuristics to find optimal solutions of the problem based on the traditional formulation. In this paper a new formulation for the p-median problem based on two types of decision variables and with only n + p linear equality constraints is presented, where n is the number of demand points or customers and p is the number of facilities (medians). Also, a competitive recurrent neural network is proposed for this problem. The neural network consists of two layers (allocation layer and location layer) with 2np process units. The process units constitute n + p groups, where only one process unit per group is active at the same time and process units of the same layer are updated in parallel. Moreover, the energy function (objective function) always decreases or remains constant as the system evolves according to the dynamical rule proposed. The effectiveness and efficiency of our algorithm for different problem sizes are analyzed in comparison to conventional heuristic methods. The results show that our recurrent neural network generates good solutions with a reasonable computational effort. Scope and purpose Geographical information systems (GIS) have occupied the attention of many researches involving a number of academic fields including geography, civil engineering, computer science, land use planning, and environmental sciences. GIS can support a wide range of spatial queries that can be used to support location studies. Model application and model development are the major impact of GIS on the field of location science. These systems are designed to store, retrieve, manipulate, analyze, and map geographical data. GIS can serve as the source of input data for a location model and it can also be used to present the model results. For example, if a p-median problem has to be solved, then a GIS executes a heuristic algorithm that reads the data from the GIS and it presents the results in real time. Location-allocation models simultaneously locate facilities and allocate demand points to them. These models also arise in a variety of public and private sector problems. The p-median is the most widely used location-allocation model. The p-median model is NP-hard and its data set became very large in real problem, so heuristic solutions are required. As the size of the data set grow, the number of feasible solutions grows and the quality of solutions and computation times from the most commonly used heuristic are deteriorated. The purpose of this paper is to develop a neural model to be integrated in GIS software, Thus, we propose a new formulation for the p-median problem based on 2np binary variables and n + p equality linear constraints. A recurrent neural model is proposed for solving thep-median problem based on this formulation without the difficulty in selecting appropriate tuning parameters, since these parameters are avoided. Moreover, an np-parallel algorithm has been developed based on this formulation. The central property of this algorithm is that the objective function always decreases (or remains constant) as the algorithm evolves according to its dynamical rule. Moreover, this algorithm can be also implemented using optical or VLSI technology. (C) 2006 Elsevier Ltd. All rights reserved.
+C1 Univ Malaga, Dept Comp Sci, E-29071 Malaga, Spain.
+C3 Universidad de Malaga
+RP Dominguez, E (corresponding author), Univ Malaga, Dept Comp Sci, Campus Teatinos S-N, E-29071 Malaga, Spain.
+EM enriqued@lcc.uma.es
+CR Alp O, 2003, ANN OPER RES, V122, P21, DOI 10.1023/A:1026130003508
+   [Anonymous], 1995, NETWORK DISCRETE LOC, V0, P0
+   BARTEZZAGHI E, 1981, EUR J OPER RES, V7, P371, DOI 10.1016/0377-2217(81)90095-3
+   BEASLEY JE, 1990, J OPER RES SOC, V41, P1069, DOI 10.1057/jors.1990.166
+   CHRISTOFIDES N, 1982, EUR J OPER RES, V10, P196, DOI 10.1016/0377-2217(82)90160-6
+   DOMINGUEZ E, 2002, P IB 2002 SEV SPAIN, V0, P460
+   Drezner Z, 1999, EUR J OPER RES, V116, P69, DOI 10.1016/S0377-2217(98)00084-8
+   FARHAT NH, 1985, APPL OPTICS, V24, P1469, DOI 10.1364/AO.24.001469
+   Galan-Marin G, 2001, IEEE T NEURAL NETWOR, V12, P329, DOI 10.1109/72.914527
+   GALVAO RD, 1980, OPER RES, V28, P1112, DOI 10.1287/opre.28.5.1112
+   GLESNER M, 1994, NEUROCOMPUTERS OVERV, V0, P0
+   HAKIMI SL, 1965, OPER RES, V13, P462, DOI 10.1287/opre.13.3.462
+   HAKIMI SL, 1964, OPER RES, V12, P450, DOI 10.1287/opre.12.3.450
+   Hansen P., 1997, LOCATION SCIENCE, V5, P207, DOI 10.1016/S0966-8349(98)00030-8
+   HOPFIELD JJ, 1985, BIOL CYBERN, V52, P141
+   HOPFIELD JJ, 1982, P NATL ACAD SCI-BIOL, V79, P2554, DOI 10.1073/pnas.79.8.2554
+   Hribar M, 1997, EUR J OPER RES, V101, P499, DOI 10.1016/S0377-2217(96)00218-4
+   Hung DL, 2003, NEUROCOMPUTING, V51, P447, DOI 10.1016/S0925-2312(02)00627-6
+   KARIV O, 1979, SIAM J APPL MATH, V37, P539, DOI 10.1137/0137041
+   KHUMALALA B.M., 1972, MANAGE SCI, V18, P718
+   KUNG SY, 1993, DIGITAL NEURAL NETWO, V0, P0
+   Love R. F, 1998, FACILITIES LOCATION, V0, P0
+   MARANZANA FE, 1964, OPER RES QUART, V15, P261, DOI 10.2307/3007214
+   MCAULAY AD, 1991, OPTICAL COMPUTER ARC, V0, P0
+   NARULA SC, 1977, OPER RES, V25, P709, DOI 10.1287/opre.25.4.709
+   REVELLE CS, 1970, GEOGR ANAL, V2, P30
+   Rolland E, 1997, EUR J OPER RES, V96, P329, DOI 10.1016/S0377-2217(96)00141-5
+   Rosing KE, 1997, EUR J OPER RES, V97, P75, DOI 10.1016/S0377-2217(96)00100-2
+   SHAMS S, 1995, IEEE T NEURAL NETWOR, V6, P407, DOI 10.1109/72.363476
+   Smith K, 1996, COMPUT OPER RES, V23, P597, DOI 10.1016/0305-0548(95)00064-X
+   Takefuji Y., 1993, NEURAL NETWORK PARAL, V0, P0
+   TEITZ MB, 1968, OPER RES, V16, P955, DOI 10.1287/opre.16.5.955
+NR 32
+TC 26
+Z9 26
+U1 0
+U2 13
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0305-0548
+EI 
+J9 COMPUT OPER RES
+JI Comput. Oper. Res.
+PD FEB 15
+PY 2008
+VL 35
+IS 2
+BP 404
+EP 416
+DI 10.1016/j.cor.2006.03.005
+PG 13
+WC Computer Science, Interdisciplinary Applications; Engineering, Industrial; Operations Research & Management Science
+SC Computer Science; Engineering; Operations Research & Management Science
+GA 223KO
+UT WOS:000250369200008
+DA 2023-04-26
+ER
+
+PT J
+AU Li, Z
+AF Li, Zhe
+TI Fuzzy ARTMAP Based Neurocomputational Spatial Uncertainty Measures
+SO PHOTOGRAMMETRIC ENGINEERING AND REMOTE SENSING
+LA English
+DT Article
+ID artificial neural-network; remotely-sensed imagery; land-cover classification; supervised classification; soft classification; maps; representation; distributions; output; set
+AB This paper proposes non-parametric measures for the fuzzy ARTMAP computational neural network to handle spatial uncertainty in remotely sensed imagery classification, i.e., ART Commitment (ART-C) and ART Typicality (ART-T), expressing in the first case the degree of commitment a classifier has for each class for a specific pixel, and in the second case, how typical that pixel's reflectances are of the ones upon which the classifier was trained for each class. Results from case studies were compared against the previously developed SOM Commitment (SOM-C) and SOM Typicality (SOM-T) classifiers as well as conventional Bayesian posterior probability and Mahalanobis typicality soft classifiers. Principal Components Analysis (PCA) was used to explore the relationship between these different measures. Results indicate that ABT-C and SOM-C measures express values similar to Bayesian posterior probabilies, and ART-T and SOM-T are closely related to Mahalanobis typicalities. However, the proposed neural approaches outperform the traditional methods due to their non-parametric advantage.
+C1 [Li, Zhe] East West Ctr, Spatial Informat Technol Specialist Res Program, Honolulu, HI 96848 USA.
+   [Li, Zhe] S Dakota State Univ, GISc Ctr Excellence, Brookings, SD 57007 USA.
+   [Li, Zhe] Clark Univ, Grad Sch Geog, Worcester, MA 01610 USA.
+C3 East West Center; South Dakota State University; Clark University
+RP Li, Z (corresponding author), East West Ctr, Spatial Informat Technol Specialist Res Program, 1601 East West Rd, Honolulu, HI 96848 USA.
+EM LiZ@EastWestCenter.org
+FU NASA-MSU Professional Enhancement Award; AAG-IGIF; UCCIS
+CR [Anonymous], 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2_5
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P917, DOI 10.1080/014311697217224
+   Bernard AC, 1997, INT J REMOTE SENS, V18, P1851, DOI 10.1080/014311697218160
+   CARPENTER G, 1993, BIODIVERS CONSERV, V2, P667, DOI 10.1007/BF00051966
+   Carpenter GA, 1999, REMOTE SENS ENVIRON, V70, P138, DOI 10.1016/S0034-4257(99)00027-9
+   Carpenter GA, 1997, IEEE T GEOSCI REMOTE, V35, P308, DOI 10.1109/36.563271
+   CARPENTER GA, 1992, IEEE T NEURAL NETWOR, V3, P698, DOI 10.1109/72.159059
+   CARPENTER GA, 1991, NEURAL NETWORKS, V4, P565, DOI 10.1016/0893-6080(91)90012-T
+   CARPENTER GA, 1989, NEURAL NETWORKS, V2, P243, DOI 10.1016/0893-6080(89)90035-X
+   Eastman JR, 2002, PHOTOGRAMM ENG REM S, V68, P1149
+   EASTMAN JR, 2005, GEOCARTO INT, V20, P33
+   EASTMAN JR, 2006, IDRISI ANDES EDITION, V0, P0
+   Foody GM, 1997, NEURAL COMPUT APPL, V5, P238, DOI 10.1007/BF01424229
+   Foody GM, 2004, INT J REMOTE SENS, V25, P3091, DOI 10.1080/01431160310001648019
+   Foody GM, 1998, INT J REMOTE SENS, V19, P2593, DOI 10.1080/014311698214659
+   Foody GM, 1996, PHOTOGRAMM ENG REM S, V62, P491
+   Foody GM, 1999, PHOTOGRAMM ENG REM S, V65, P443
+   FOODY GM, 1992, PHOTOGRAMM ENG REM S, V58, P1335
+   Gamba P, 2003, INT J REMOTE SENS, V24, P827, DOI 10.1080/01431160210154001
+   Gopal S, 1999, REMOTE SENS ENVIRON, V67, P230, DOI 10.1016/S0034-4257(98)00088-1
+   GROSSBERG S, 1976, BIOL CYBERN, V23, P187
+   Hansen M, 1996, INT J REMOTE SENS, V17, P1075, DOI 10.1080/01431169608949069
+   HORNIK K, 1989, NEURAL NETWORKS, V2, P359, DOI 10.1016/0893-6080(89)90020-8
+   Ji CY, 2000, PHOTOGRAMM ENG REM S, V66, P1451
+   KOHONEN T, 1990, P IEEE, V78, P1464, DOI 10.1109/5.58325
+   LI Z, 2007, PUBLICATION CLARK U, V0, P0
+   LI Z, 2006, P UCGIS 2006 SUMM AS, V0, P0
+   Li Z., 2006, T GIS, V10, P599, DOI 10.1111/J.1467-9671.2006.01014.X
+   LI Z, 2006, P SPIE INT SOC OPTIC, V6420, P1
+   Liu WG, 2004, IEEE T GEOSCI REMOTE, V42, P1976, DOI 10.1109/TGRS.2004.831893
+   Liu WG, 2004, PHOTOGRAMM ENG REM S, V70, P963, DOI 10.14358/PERS.70.8.963
+   Liu X, 2002, INT J REMOTE SENS, V23, P2513, DOI 10.1080/01431160110097240
+   Mannan B, 1998, INT J REMOTE SENS, V19, P767, DOI 10.1080/014311698215991
+   Pal M, 2003, REMOTE SENS ENVIRON, V86, P554, DOI 10.1016/S0034-4257(03)00132-9
+   Phillips SJ, 2006, ECOL MODEL, V190, P231, DOI 10.1016/j.ecolmodel.2005.03.026
+   Qiu F, 2004, INT J REMOTE SENS, V25, P1749, DOI 10.1080/01431160310001618798
+   ROHWER R, 1994, NEURAL NETWORK MACHI, V0, P84
+   Rollet R, 1998, INT J REMOTE SENS, V19, P3003, DOI 10.1080/014311698214398
+   SETTLE JJ, 1993, INT J REMOTE SENS, V14, P1159, DOI 10.1080/01431169308904402
+   Simard M, 2002, INT J REMOTE SENS, V23, P1461, DOI 10.1080/01431160110092984
+   Stathakis D, 2006, IEEE T GEOSCI REMOTE, V44, P2305, DOI 10.1109/TGRS.2006.872903
+   Tatem AJ, 2003, INT J GEOGR INF SCI, V17, P647, DOI 10.1080/1365881031000135519
+   Tatem AJ, 2002, REMOTE SENS ENVIRON, V79, P1, DOI 10.1016/S0034-4257(01)00229-2
+   Tso B., 2001, CLASSIFICATION METHO, V0, P0
+   Villmann T, 2003, NEURAL NETWORKS, V16, P389, DOI 10.1016/S0893-6080(03)00021-2
+   Waldemark J, 1997, INT J NEURAL SYST, V8, P3, DOI 10.1142/S0129065797000033
+   WANG F, 1990, PHOTOGRAMM ENG REM S, V56, P1163
+   ZADEH LA, 1975, FUZZI SETS THEIR APP, V0, P0
+   Zhang J, 2001, INT J REMOTE SENS, V22, P615, DOI 10.1080/01431160050505883
+NR 49
+TC 7
+Z9 8
+U1 0
+U2 1
+PU AMER SOC PHOTOGRAMMETRY
+PI BETHESDA
+PA 5410 GROSVENOR LANE SUITE 210, BETHESDA, MD 20814-2160 USA
+SN 0099-1112
+EI 
+J9 PHOTOGRAMM ENG REM S
+JI Photogramm. Eng. Remote Sens.
+PD DEC 15
+PY 2008
+VL 74
+IS 12
+BP 1573
+EP 1584
+DI 10.14358/PERS.74.12.1573
+PG 12
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 381PY
+UT WOS:000261549600017
+DA 2023-04-26
+ER
+
+PT J
+AU Ma, CQ
+   Wei, X
+AF Ma, Chengqian
+   Wei, Xiong
+TI Dynamic neural network model of traffic flow forecasting in urban road tunnel
+SO 2008 PROCEEDINGS OF INFORMATION TECHNOLOGY AND ENVIRONMENTAL SYSTEM SCIENCES: ITESS 2008, VOL 2
+LA English
+DT Proceedings Paper
+DE urban road tunnel; dynamic neural network; traffic flow forecasting
+AB The change of traffic flow within arbitrary time in urban road tunnel is a complex non-linear process, always affect by various uncertain factors. Traditionally, time series model is based on the Back Propagation (BP) neural network, but BP neural network is a kind of static neural network, which is only the implementation of static non-linear one-to-one corresponding mapping, not suitable for real-time identification of dynamic system. It is difficult to forecast the traffic flow changes accurately. On the basis of analyzing dynamic traffic flow in urban road tunnel, this paper puts forward the dynamic neural network model of the traffic flow forecasting in urban road tunnel, which is-based on the Elman network with functions of the state memory. Time series model established by Elman network includes autoregressive part as well as moving average part, or rather, an autoregressive moving average model. Output of the model depends not only on its "past and present input, but also on the output of the past. We adopt it to simulate and forecast the dynamic traffic flow of Wuhan Shou Yi Square road tunnel. The results of field test indicate that the method can increase the velocity of convergence greatly and improve the forecast accuracy.
+C1 [Ma, Chengqian; Wei, Xiong] Wuhan Univ Technol, Dept Comp Sci & Technol, Wuhan 430070, Peoples R China.
+C3 Wuhan University of Technology
+RP Ma, CQ (corresponding author), Wuhan Univ Technol, Dept Comp Sci & Technol, Wuhan 430070, Peoples R China.
+EM mcq@whut.edu.cn; luke1944@gmail.com
+CR Engel Y, 2004, IEEE T SIGNAL PROCES, V52, P2275, DOI 10.1109/TSP.2004.830985
+   GAO DQ, 1998, CHINESE J COMPUTERS, V21, P79
+   JIE C, 2000, CHINA ENV SCI, V0, P1
+   MADAN M, 2003, STAT DYNAMIC NEURAL, V0, P345
+   Murena F, 2007, J ENVIRON SCI-CHINA, V19, P578, DOI 10.1016/S1001-0742(07)60096-5
+   YU LC, 2007, TIME SERIES PREDICTI, V6, P305
+   ZAPPACOSTA S, 2006, LARALISTCCNR2006001, V0, P0
+   ZHU EW, 2006, J HARBIN I TECHNOLOG, V6, P658
+NR 8
+TC 0
+Z9 0
+U1 0
+U2 0
+PU PUBLISHING HOUSE ELECTRONICS INDUSTRY
+PI BEIJING
+PA PO BOX 173 WANSHOU ROAD, BEIJING 100036, PEOPLES R CHINA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2008
+VL 0
+IS 
+BP 588
+EP 591
+DI 
+PG 4
+WC Computer Science, Information Systems; Computer Science, Interdisciplinary Applications; Environmental Sciences; Geography, Physical; Telecommunications
+SC Computer Science; Environmental Sciences & Ecology; Physical Geography; Telecommunications
+GA BHW36
+UT WOS:000257018300117
+DA 2023-04-26
+ER
+
+PT J
+AU Sueaseenak, D
+   Wibirama, S
+   Chanwimalueang, T
+   Pintavirooj, C
+   Sangworasil, M
+AF Sueaseenak, Direk
+   Wibirama, Sunu
+   Chanwimalueang, Theerasak
+   Pintavirooj, Chuchart
+   Sangworasil, Manus
+TI Comparison Study of Muscular-Contraction Classification Between Independent Component Analysis and Artificial Neural Network
+SO 2008 INTERNATIONAL SYMPOSIUM ON COMMUNICATIONS AND INFORMATION TECHNOLOGIES
+LA English
+DT Proceedings Paper
+DE EMG; PCA; ICA; ANN
+ID maximum-likelihood; emg signals; algorithms; muscles; gait
+AB We developed a multi-channel electromyogram acquisition system using PSOC microcontroller to acquire multichannel EMG signals. An array of 4 x 4 surface electrodes was used to record the EMG signal. The obtained signals were classified by a back-propagation-type artificial neural network. B-spline interpolation technique has been utilized to map the EMG signal on the muscle surface. The topological mapping of the EMG is then analyzed to classify the pattern of muscle contraction using independent component analysis. The proposed system was successfully demonstrated to record EMG data and its surface mapping. The comparison study of muscular contraction classification using independent component analysis and artificial neural network demonstrates shows that performance of ANN classification is as comparable as that of the ICA. The computational time of ANN is also less than that of the ICA.
+C1 [Sueaseenak, Direk; Wibirama, Sunu; Pintavirooj, Chuchart; Sangworasil, Manus] King Mongkuts Inst Technol Ladkrabang, Fac Engn, Res Ctr Commun & Informat Technol ReCCIT, Bangkok, Thailand.
+   [Chanwimalueang, Theerasak] Srinakharinwirot Univ, Fac Engn, Nakhon Nayok, Thailand.
+C3 King Mongkuts Institute of Technology Ladkrabang; Srinakharinwirot University
+RP Sueaseenak, D (corresponding author), King Mongkuts Inst Technol Ladkrabang, Fac Engn, Res Ctr Commun & Informat Technol ReCCIT, Bangkok, Thailand.
+EM kpchucha@kmitl.ac.th
+FU DEMAMEDICAL CO., LTD
+CR Alpaydin E, 1996, IEEE T NEURAL NETWOR, V7, P788, DOI 10.1109/72.501737
+   BARTLETT MS, 1998, SPIE S EL IM SCI TEC, V0, P0
+   Basmajian J., 1985, MUSCLES ALIVE FUNCTI, V0, P0
+   BEKEY GA, 1977, P IEEE, V65, P674, DOI 10.1109/PROC.1977.10546
+   BELL AJ, 1995, NEURAL COMPUT, V7, P1129, DOI 10.1162/neco.1995.7.6.1129
+   Boisset S., 1972, J APPL PHYSIOL, V35, P695
+   Cardoso JF, 1997, IEEE SIGNAL PROC LET, V4, P112, DOI 10.1109/97.566704
+   CARTINHOUR J, 1992, IEEE T RELIAB, V41, P124, DOI 10.1109/24.126684
+   COMON P, 1994, SIGNAL PROCESS, V36, P287, DOI 10.1016/0165-1684(94)90029-9
+   DE LUCA CJ, 1993, MUSCLE NERVE, V16, P210, DOI 10.1002/mus.880160216
+   Hyvarinen A, 2000, NEURAL NETWORKS, V13, P411, DOI 10.1016/S0893-6080(00)00026-5
+   Hyvarinen A, 1999, NEURAL PROCESS LETT, V10, P1, DOI 10.1023/A:1018647011077
+   Karayiannis NB, 2005, IEEE T NEURAL NETWOR, V16, P423, DOI 10.1109/TNN.2004.841778
+   LYONS K, 1983, PHYS THER, V63, P1597, DOI 10.1093/ptj/63.10.1597
+   MORRENHOF J W, 1985, ELECTROMYOGRAPHY AND CLINICAL NEUROPHYSIOLOGY, V25, P73
+   PLONSEY R, 1974, IEEE T BIO-MED ENG, VBM21, P371, DOI 10.1109/TBME.1974.324406
+   TURKER KS, 1990, NEUROSCI LETT, V111, P164, DOI 10.1016/0304-3940(90)90362-D
+   WINTER DA, 1984, ARCH PHYS MED REHAB, V65, P393
+   ZHUJIE YL, 1994, P IEEE INT C IND TEC, V0, P434
+NR 19
+TC 2
+Z9 3
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2008
+VL 0
+IS 
+BP 468
+EP +
+DI 10.1109/ISCIT.2008.4700236
+PG 2
+WC Computer Science, Artificial Intelligence; Computer Science, Information Systems; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BJF92
+UT WOS:000265524600094
+DA 2023-04-26
+ER
+
+PT J
+AU Matsuda, Y
+   Yamaguchi, K
+AF Matsuda, Yoshitatsu
+   Yamaguchi, Kazunori
+TI A Connection-limited Neural Network by Infomax and Infomin
+SO 2008 IEEE INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS, VOLS 1-8
+LA English
+DT Proceedings Paper
+ID independent component analysis; natural images; topographic mappings; filters; ica
+AB It is well known that edge filters in the visual system can be generated by the InfoMax principle. But, such models are nonlinear and employ fully-connected network structures. In this paper, a new artificial network model is proposed, which is based on the "InfoMin" principle and linear multilayer ICA (LMICA). This network utilizes cumulant-based objective functions which are derived from the Infomax and InfoMin principles with large noise. Because the objective functions do not rely on any nonlinear models, a linear model can be employed. It simplifies the model considerably. Besides, this network can deal with quite large number of neurons by employing a connection-limited structure as in LMICA. In addition, it is more efficient than even LMICA because it does not need any prewhitening. Numerical experiments show that this network generates hierarchical edge filters from large-size natural scenes and verify the validity of the InfoMin principle.
+C1 [Matsuda, Yoshitatsu; Yamaguchi, Kazunori] Aoyama Gakuin Univ, Dept Integrated Informat Technol, Sagamihara, Kanagawa 2298558, Japan.
+C3 Aoyama Gakuin University
+RP Matsuda, Y (corresponding author), Aoyama Gakuin Univ, Dept Integrated Informat Technol, 5-10-1 Fuchinobe, Sagamihara, Kanagawa 2298558, Japan.
+EM matsuda@it.aoyama.ac.jp; yamaguch@graco.c.u-tokyo.ac.jp
+CR BARNDORFFNIELSE.OE, 1989, ASYMPTOTIC TECHNIQUE, V0, P0
+   BELL AJ, 1995, NEURAL COMPUT, V7, P1129, DOI 10.1162/neco.1995.7.6.1129
+   Bell AJ, 1997, VISION RES, V37, P3327, DOI 10.1016/S0042-6989(97)00121-1
+   Cardoso JF, 1999, NEURAL COMPUT, V11, P157, DOI 10.1162/089976699300016863
+   COMON P, 1994, SIGNAL PROCESS, V36, P287, DOI 10.1016/0165-1684(94)90029-9
+   Cox T. F., 1994, MULTIDIMENSIONAL SCA, V0, P0
+   Hoyer PO, 2002, VISION RES, V42, P1593, DOI 10.1016/S0042-6989(02)00017-2
+   Hyvarinen A, 2001, NEURAL COMPUT, V13, P1527, DOI 10.1162/089976601750264992
+   Karklin Y, 2003, NETWORK-COMP NEURAL, V14, P483, DOI 10.1088/0954-898X/14/3/306
+   LINSKER R, 1988, COMPUTER, V21, P105, DOI 10.1109/2.36
+   Matsuda Y, 2006, LECT NOTES COMPUT SC, V3889, P958
+   Matsuda Y, 2003, LECT NOTES COMPUT SC, V2714, P401
+   Matsuda Y., 2001, ICONIP2001 P SHANGH, V0, P102
+   MATSUDA Y, 2007, P ICONIP 20 IN PRESS, V0, P0
+   Matsuda Y, 2007, NEURAL COMPUT, V19, P218, DOI 10.1162/neco.2007.19.1.218
+   NADAL JP, 1994, NETWORK-COMP NEURAL, V5, P565, DOI 10.1088/0954-898X/5/4/008
+   van Hateren JH, 1998, P ROY SOC B-BIOL SCI, V265, P359, DOI 10.1098/rspb.1998.0303
+   YANG B, 1995, IEEE T SIGNAL PROCES, V43, P95, DOI 10.1109/78.365290
+NR 18
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1098-7576
+EI 
+J9 IEEE IJCNN
+PD JUN 15
+PY 2008
+VL 0
+IS 
+BP 2531
+EP 2537
+DI 
+PG 7
+WC Computer Science, Artificial Intelligence; Computer Science, Cybernetics; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BIY81
+UT WOS:000263827201148
+DA 2023-04-26
+ER

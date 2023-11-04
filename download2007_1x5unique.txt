@@ -1,0 +1,653 @@
+
+PT J
+AU Ghosh, BK
+   Polpitiya, AD
+   Wang, WX
+AF Ghosh, Bijoy K.
+   Polpitiya, Ashoka D.
+   Wang, Wenxue
+TI Bio-inspired networks of visual sensors, neurons, and oscillators
+SO PROCEEDINGS OF THE IEEE
+LA English
+DT Review
+DE cortical waves; eye movement; formation sensing; gaze control; Hebbian and anti-Hebbian adaptation; Kuramoto model; Listing's law; localization; neural network; oscillator network; place cells; sensor network; sparse coding; theta phase precession
+ID pattern-recognition; spatiotemporal dynamics; propagating waves; synchronization; position; cortex; memory; camera; model; calibration
+AB Animals routinely rely on their eyes to localize fixed and moving targets. Such a localization process might include prediction of future target location, recalling a sequence of previously visited places or, for the motor control circuit, actuating a successful movement. Typically, target localization is carried out by fusing images from two eyes, in the case of binocular vision, wherein the challenge is to have the images calibrated before fusion. in the field of machine vision, a typical problem of interest is to localize the position and orientation of a network of mobile cameras (sensor network) that are distributed in space and are simultaneously tracking a target. Inspired by the animal visual circuit, we study the problem of binocular image fusion for the purpose of. localizing an unknown target in space. Guided by the dynamics of "eye rotation," we introduce control strategies that could be used to build machines with multiple sensors. In particular, we address the problem of how a group of visual sensors can be optimally controlled in a formation. we also address how images from multiple sensors are encoded using a set of basis functions, choosing a "larger than minimum" number of basis functions so that the resulting code that represents the image is sparse. We address the problem of how a sparsely encoded visual data stream is internally represented by a pattern of neural activity. in addition to the control mechanism, the synaptic interaction between cells is also subjected to "adaptation" that enables the activity waves to respond with greater sensitivity to visual input. We study how the rat hippocampal place cells are used to form a cognitive map of the environment so that the animal's location can be determined from its place cell activity. Finally, we study the problem of "decoding" location of moving targets from the neural activity wave in the cortex.
+C1 Texas Tech Univ, Dept Math & Stat, Lubbock, TX 79409 USA.
+   Pacific NW Natl Lab, Richland, WA 99352 USA.
+C3 Texas Tech University System; Texas Tech University; United States Department of Energy (DOE); Pacific Northwest National Laboratory
+RP Ghosh, BK (corresponding author), Texas Tech Univ, Dept Math & Stat, Lubbock, TX 79409 USA.
+EM bijoy.ghosh@ttu.edu; ashoka.polpitiya@pnl.gov; wenxue.wang@ttu.edu
+CR Abelson H, 2000, COMMUN ACM, V43, P74, DOI 10.1145/332833.332842
+   Acker CD, 2003, J COMPUT NEUROSCI, V15, P71, DOI 10.1023/A:1024474819512
+   ANDERSON CH, 1987, P NATL ACAD SCI USA, V84, P6297, DOI 10.1073/pnas.84.17.6297
+   [Anonymous], 1989, MATH METHODS CLASSIC, V0, P0
+   ATICK JJ, 1992, NEURAL COMPUT, V4, P196, DOI 10.1162/neco.1992.4.2.196
+   ATICK JJ, 1992, NETWORK-COMP NEURAL, V3, P213, DOI 10.3109/0954898X.2011.638888
+   Atick JJ, 1990, NEURAL COMPUT, V2, P308, DOI 10.1162/neco.1990.2.3.308
+   Barlow H., 1961, SENS COMMUN, V1, P0
+   Barlow HB, 1989, NEURAL COMPUT, V1, P295, DOI 10.1162/neco.1989.1.3.295
+   Bi GQ, 1998, J NEUROSCI, V18, P10464, DOI 10.1523/jneurosci.18-24-10464.1998
+   BLISS TVP, 1973, J PHYSIOL-LONDON, V232, P331, DOI 10.1113/jphysiol.1973.sp010273
+   Boothby W. M., 1986, INTRO DIFFERENTIAL M, V0, P0
+   Borgers C, 2003, NEURAL COMPUT, V15, P509, DOI 10.1162/089976603321192059
+   BOWER JM, 1998, BOOK GENESIS, V0, P0
+   Brockett RW, 2003, IEEE T AUTOMAT CONTR, V48, P1699, DOI 10.1109/TAC.2003.817927
+   BROCKETT RW, 1989, SENSOR ACTUATOR, V20, P91, DOI 10.1016/0250-6874(89)87106-9
+   Brown EN, 2001, P NATL ACAD SCI USA, V98, P12261, DOI 10.1073/pnas.201409398
+   Brown EN, 1998, J NEUROSCI, V18, P7411
+   Bulusu N, 2000, IEEE PERS COMMUN, V7, P28, DOI 10.1109/98.878533
+   Buzsaki G, 2002, NEURON, V33, P325, DOI 10.1016/S0896-6273(02)00586-X
+   Cook BW, 2006, P IEEE, V94, P1177, DOI 10.1109/JPROC.2006.873620
+   Cottaris NP, 1998, NATURE, V395, P896, DOI 10.1038/27666
+   Culler D, 2004, COMPUTER, V37, P41, DOI 10.1109/MC.2004.93
+   Dayan P., 2001, THEORETICAL NEUROSCI, V0, P0
+   Delcomyn F., 1998, FDN NEUROBIOLOGY, V0, P0
+   Dellnitz M., 1994, TRENDS PERSPECTIVES, VVolume 100, P73
+   Derdikman D, 2003, J NEUROSCI, V23, P3100
+   Desai JP, 2001, IEEE T ROBOTIC AUTOM, V17, P905, DOI 10.1109/70.976023
+   Du XX, 2005, IEEE T BIO-MED ENG, V52, P566, DOI 10.1109/TBME.2004.841262
+   Ermentrout GB, 2001, NEURON, V29, P33, DOI 10.1016/S0896-6273(01)00178-7
+   Estrin D., 2002, IEEE PERVASIVE COMPUTING, V1, P59, DOI 10.1109/MPRV.2002.993145
+   ESTRIN D, 1999, P 5 ANN ACM IEEE INT, V0, PP263, DOI 10.1145/313451.313556
+   Faugeras O., 2001, GEOMETRY MULTIPLE IM, V0, P0
+   Field DJ, 1993, WAVELETS FRACTALS FO, V0, P151
+   FUNIAK S, 2006, ISPN 06 APR 19 21, V0, P0
+   Ghazanfar AA, 1999, CEREB CORTEX, V9, P348, DOI 10.1093/cercor/9.4.348
+   Goodwin G.C., 1984, ADAPTIVE FILTERING P, Vfirst, P0
+   Handzel AA, 1996, ADV NEUR IN, V8, P117
+   Hebb D.O., 2002, ORG BEHAV NEUROPSYCH, V0, P0
+   Heikkila J, 1997, PROC CVPR IEEE, V0, PP1106, DOI 10.1109/CVPR.1997.609468
+   Hirakura Y, 1996, NEURAL NETWORKS, V9, P189, DOI 10.1016/0893-6080(95)00090-9
+   Holmes P., 1996, TURBULENCE COHERENT, V0, P0
+   Hoppensteadt F C, 1997, APPL MATH SCI, V126, P0
+   Hoppensteadt FC, 2000, PHYS REV E, V62, P4010, DOI 10.1103/PhysRevE.62.4010
+   Hoppensteadt FC, 2000, IEEE T NEURAL NETWOR, V11, P734, DOI 10.1109/72.846744
+   Hussein II, 2004, IEEE DECIS CONTR P, V0, PP1982, DOI 10.1109/CDC.2004.1430339
+   IHLER A, 2004, IPSN 04 APR 26 27, V0, P0
+   Ishikawa M, 1998, COMPUTER, V31, P61, DOI 10.1109/2.652923
+   Justh EW, 2001, J NONLINEAR SCI, V11, P239, DOI 10.1007/s00332-001-0392-x
+   Kansal A, 2004, IPSN 04: THIRD INTERNATIONAL SYMPOSIUM ON INFORMATION PROCESSING IN SENSOR NETWORKS, V0, P388
+   Knight BW, 2000, NEURAL COMPUT, V12, P473, DOI 10.1162/089976600300015673
+   KOPELL N, 2001, NOT AM MATH SOC, V47, P6
+   KOPELL N, 2004, P NAT ACAD SCI, V101, P1542
+   Kuipers JB, 1998, QUATERNION ROTATION, V0, P0
+   Kuramoto Y., 2003, CHEM OSCILLATIONS WA, V0, P0
+   Lisman JE, 2001, HIPPOCAMPUS, V11, P551
+   Luong QT, 1997, INT J COMPUT VISION, V22, P261, DOI 10.1023/A:1007982716991
+   Maithripala DHS, 2003, 42ND IEEE CONFERENCE ON DECISION AND CONTROL, VOLS 1-6, PROCEEDINGS
+   Martin C., 1998, J MATH SYSTEMS, V8, P1
+   McArdle N, 2000, P IEEE, V88, P829, DOI 10.1109/5.867696
+   Murray J. D, 2004, MATH BIOL, VThird, P0
+   Nenadic Z, 2003, J COMPUT NEUROSCI, V14, P161, DOI 10.1023/A:1021954701494
+   Nenadic Z, 2002, IEEE T BIO-MED ENG, V49, P753, DOI 10.1109/TBME.2002.800753
+   Netoff TI, 2005, J NEUROPHYSIOL, V93, P1197, DOI 10.1152/jn.00982.2004
+   OKEEFE J, 1993, HIPPOCAMPUS, V3, P317, DOI 10.1002/hipo.450030307
+   OLSHAUSEN BA, 1995, J COMPUT NEUROSCI, V2, P45, DOI 10.1007/BF00962707
+   Olshausen BA, 1997, VISION RES, V37, P3311, DOI 10.1016/S0042-6989(97)00169-7
+   OLSHAUSEN BA, 1993, J NEUROSCI, V13, P4700
+   Olshausen BA, 1996, NETWORK-COMP NEURAL, V7, P333, DOI 10.1088/0954-898X/7/2/014
+   Palamakumbura R, 2005, P AMER CONTR CONF, V0, PP2481, DOI 10.1109/ACC.2005.1470339
+   Petersen CCH, 2003, J NEUROSCI, V23, P1298, DOI 10.1523/JNEUROSCI.23-04-01298.2003
+   POLPITIYA AD, 2004, THESIS WASHINGTON U, V0, P0
+   Pottie GJ, 2000, COMMUN ACM, V43, P51, DOI 10.1145/332833.332838
+   PRECHTL JC, 1994, P NATL ACAD SCI USA, V91, P12467, DOI 10.1073/pnas.91.26.12467
+   Prechtl JC, 1997, P NATL ACAD SCI USA, V94, P7621, DOI 10.1073/pnas.94.14.7621
+   Prechtl JC, 2000, P NATL ACAD SCI USA, V97, P877, DOI 10.1073/pnas.97.2.877
+   RAHIMI M, 2005, P 3 INT C EMB NETW S, V0, PP192, DOI 10.1145/1098918.1098939
+   Rao K.R, 2001, TRANSFORM DATA COMPR, V0, P0
+   Robbins KA, 1998, VISUALIZATION 98, V0, P217, DOI 10.1109/VISUAL.1998.745306
+   ROBINSON DA, 1964, J PHYSIOL-LONDON, V174, P245, DOI 10.1113/jphysiol.1964.sp007485
+   Rogister F, 2004, PHYS REV LETT, V92, P0, DOI 10.1103/PhysRevLett.92.093905
+   Sato N, 2005, HIPPOCAMPUS, V15, P963, DOI 10.1002/hipo.20110
+   Sato N, 2003, NEURAL COMPUT, V15, P2379, DOI 10.1162/089976603322362400
+   Senseman D, 1999, J NEUROSCI, V19, P1
+   Senseman DM, 1996, VISUAL NEUROSCI, V13, P963, DOI 10.1017/S0952523800009196
+   Sharon D, 2002, SCIENCE, V295, P512, DOI 10.1126/science.1065916
+   Sultan C, 2004, IEEE DECIS CONTR P, V0, PP284, DOI 10.1109/CDC.2004.1428644
+   TSAI RY, 1987, IEEE T ROBOTIC AUTOM, V3, P323, DOI 10.1109/JRA.1987.1087109
+   TWEED D, 1990, VISION RES, V30, P111, DOI 10.1016/0042-6989(90)90131-4
+   van Hemmen J.L., 2006, 23 PROBLEMS SYSTEMS, V0, P0
+   Van Trees H. L, 2004, DETECTION ESTIMATION, V0, P0
+   VANDERWOLF CH, 1969, ELECTROEN CLIN NEURO, V26, P407, DOI 10.1016/0013-4694(69)90092-3
+   WANG W, 2005, 16 IFAC WORLD C, V0, P0
+   Wang WX, 2005, J COMPUT NEUROSCI, V19, P263, DOI 10.1007/s10827-005-2288-5
+   Wang XH, 2005, P AMER CONTR CONF, V0, PP4685, DOI 10.1109/ACC.2005.1470735
+   Warneke B, 2001, COMPUTER, V34, P44, DOI 10.1109/2.895117
+   Wilson HR, 2001, NATURE, V412, P907, DOI 10.1038/35091066
+   YAMAGUCHI Y, 1994, NEURAL NETWORKS, V7, P49, DOI 10.1016/0893-6080(94)90055-8
+   Yamaguchi Y, 2003, BIOL CYBERN, V89, P1, DOI 10.1007/s00422-003-0415-9
+   Zhang ZY, 2000, IEEE T PATTERN ANAL, V22, P1330, DOI 10.1109/34.888718
+NR 101
+TC 6
+Z9 7
+U1 0
+U2 17
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0018-9219
+EI 1558-2256
+J9 P IEEE
+JI Proc. IEEE
+PD JAN 15
+PY 2007
+VL 95
+IS 1
+BP 188
+EP 214
+DI 10.1109/JPROC.2006.887320
+PG 27
+WC Engineering, Electrical & Electronic
+SC Engineering
+GA 145OW
+UT WOS:000244875400011
+DA 2023-04-26
+ER
+
+PT J
+AU Park, YS
+   Chon, TS
+AF Park, Young-Seuk
+   Chon, Tae-Soo
+TI Biologically-inspired machine learning implemented to ecological informatics
+SO ECOLOGICAL MODELLING
+LA English
+DT Editorial Material
+ID artificial neural-network; cellular-automata; population-dynamics; genetic algorithms; environmental variables; community dynamics; diatom community; thematic mapper; input variables; aquatic insects
+C1 Pusan Natl Univ, Div Biol Sci, Pusan 609735, South Korea.
+   Kyung Hee Univ, Dept Biol, Seoul 130701, South Korea.
+C3 Pusan National University; Kyung Hee University
+RP Chon, TS (corresponding author), Pusan Natl Univ, Div Biol Sci, Pusan 609735, South Korea.
+EM parkys@khu.ac.kr; tschon@pusan.ac.kr
+CR Adriaenssens V, 2006, ECOL MODEL, V195, P3, DOI 10.1016/j.ecolmodel.2005.11.043
+   Aguilera PA, 2001, WATER RES, V35, P4053, DOI 10.1016/S0043-1354(01)00151-8
+   [Anonymous], 1986, PARALLEL DISTRIBUTED, V0, P0
+   [Anonymous], 2001, FUZZY SET THEORY AND, V0, P0
+   [Anonymous], 1975, ADAPTATION NATURAL A, V0, P0
+   [Anonymous], 2005, FUNDAMENTALS ECOLOGY, V0, P0
+   [Anonymous], 1995, DATA ANAL COMMUNITY, V0, P0
+   Aoki I, 1997, OCEANOL ACTA, V20, P81
+   Aussem A, 1999, ECOL MODEL, V120, P225, DOI 10.1016/S0304-3800(99)00104-0
+   Balzter H, 1998, ECOL MODEL, V107, P113, DOI 10.1016/S0304-3800(97)00202-0
+   Baran P, 1996, HYDROBIOLOGIA, V337, P1, DOI 10.1007/BF00028502
+   Berjak SG, 2002, ECOL MODEL, V148, P133, DOI 10.1016/S0304-3800(01)00423-9
+   Bone C, 2006, ECOL MODEL, V192, P107, DOI 10.1016/j.ecolmodel.2005.09.013
+   Caswell H, 1999, B MATH BIOL, V61, P625, DOI 10.1006/bulm.1999.0090
+   Cereghino R, 2001, ECOL MODEL, V146, P167, DOI 10.1016/S0304-3800(01)00304-0
+   Chen DG, 2006, ECOL MODEL, V195, P11, DOI 10.1016/j.ecolmodel.2005.11.004
+   Chon TS, 2000, ECOL MODEL, V132, P151, DOI 10.1016/S0304-3800(00)00312-4
+   Chon TS, 1996, ECOL MODEL, V90, P69, DOI 10.1016/0304-3800(95)00148-4
+   Chon TS, 2004, APPL ENTOMOL ZOOL, V39, P79, DOI 10.1303/aez.2004.79
+   Chon TS, 2001, ECOL MODEL, V146, P181, DOI 10.1016/S0304-3800(01)00305-2
+   Chon TS, 2000, ENVIRON ENTOMOL, V29, P1208, DOI 10.1603/0046-225X-29.6.1208
+   Dheyere T, 2006, ECOL MODEL, V195, P20, DOI 10.1016/j.ecolmodel.2005.11.005
+   Dheygere T, 2003, ECOL MODEL, V160, P291, DOI 10.1016/S0304-3800(02)00260-0
+   Darwen PJ, 1996, ECOL MODEL, V85, P165, DOI 10.1016/0304-3800(94)00147-2
+   Dimopoulos I, 1999, ECOL MODEL, V120, P157, DOI 10.1016/S0304-3800(99)00099-X
+   DIMOPOULOS Y, 1995, NEURAL PROCESS LETT, V2, P1, DOI 10.1007/BF02309007
+   Dreyfus-Leon M, 2006, ECOL INFORM, V1, P101, DOI 10.1016/j.ecoinf.2005.08.002
+   ELIZONDO DA, 1994, T ASAE, V37, P981, DOI 10.13031/2013.28168
+   ERMENTROUT GB, 1993, J THEOR BIOL, V160, P97, DOI 10.1006/jtbi.1993.1007
+   Fall A, 2001, ECOL MODEL, V141, P1, DOI 10.1016/S0304-3800(01)00334-9
+   Favier C, 2004, ECOL MODEL, V171, P85, DOI 10.1016/j.ecolmodel.2003.07.003
+   Foody GM, 1999, ECOL MODEL, V120, P97, DOI 10.1016/S0304-3800(99)00094-0
+   Garson DG., 1991, AI EXPERT, V6, P47, DOI 10.5555/129449.129452
+   Gevrey M, 2004, FRESHWATER BIOL, V49, P208, DOI 10.1046/j.1365-2426.2003.01174.x
+   Gevrey M, 2003, ECOL MODEL, V160, P249, DOI 10.1016/S0304-3800(02)00257-0
+   Gevrey M, 2006, ECOL MODEL, V195, P43, DOI 10.1016/j.ecolmodel.2005.11.008
+   Giraudel JL, 2001, ECOL MODEL, V146, P329, DOI 10.1016/S0304-3800(01)00324-6
+   GOH ATC, 1995, ARTIF INTELL ENG, V9, P143, DOI 10.1016/0954-1810(94)00011-S
+   Griebeler EM, 2006, ECOL MODEL, V192, P271, DOI 10.1016/j.ecolmodel.2005.06.004
+   Gross L, 1999, ECOL MODEL, V120, P237, DOI 10.1016/S0304-3800(99)00105-2
+   GROSSBERG S, 1980, PSYCHOL REV, V87, P1, DOI 10.1037/0033-295X.87.1.1
+   HARADA Y, 1994, RES POPUL ECOL, V36, P237, DOI 10.1007/BF02514940
+   Haykin S., 1994, NEURAL NETWORKS COMP, V0, P0
+   HOGEWEG P, 1988, APPL MATH COMPUT, V27, P81, DOI 10.1016/0096-3003(88)90100-2
+   HOPFIELD JJ, 1982, P NATL ACAD SCI-BIOL, V79, P2554, DOI 10.1073/pnas.79.8.2554
+   Hyun K, 2005, AQUAT SCI, V67, P382, DOI 10.1007/s00027-005-0771-8
+   Ito A, 2005, ECOL MODEL, V187, P121, DOI 10.1016/j.ecolmodel.2005.01.037
+   JELTSCH F, 1994, ECOL MODEL, V75, P111, DOI 10.1016/0304-3800(94)90011-6
+   Karafyllidis I, 1997, ECOL MODEL, V99, P87, DOI 10.1016/S0304-3800(96)01942-4
+   Keiner LE, 1998, REMOTE SENS ENVIRON, V66, P153, DOI 10.1016/S0034-4257(98)00054-6
+   Kimes DS, 1996, REMOTE SENS ENVIRON, V56, P133, DOI 10.1016/0034-4257(95)00230-8
+   KLIR GJ, 1997, FUZZY SET THEORY FDN, V0, P0
+   KOHONEN T, 1982, BIOL CYBERN, V43, P59, DOI 10.1007/BF00337288
+   Kohonen T., 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2_1
+   KOMATSU T, 1994, FISHERIES SCI, V60, P385, DOI 10.2331/fishsci.60.385
+   Kubo T, 1996, J THEOR BIOL, V180, P229, DOI 10.1006/jtbi.1996.0099
+   Lee WS, 2006, ECOL MODEL, V193, P602, DOI 10.1016/j.ecolmodel.2005.08.043
+   Lek S, 1999, ECOL MODEL, V120, P65, DOI 10.1016/S0304-3800(99)00092-7
+   Lek S, 2000, ENVIRONM SCI, V0, P3
+   Lek S, 1995, MAR FRESHWATER RES, V46, P1229, DOI 10.1071/MF9951229
+   Lek S, 1996, AQUAT LIVING RESOUR, V9, P23, DOI 10.1051/alr:1996004
+   Lek S., 2005, MODELLING COMMUNITY, V0, P518
+   Lett C, 1999, ECOL MODEL, V121, P277, DOI 10.1016/S0304-3800(99)00090-3
+   Li BL, 1997, ECOL MODEL, V102, P353, DOI 10.1016/S0304-3800(97)00071-9
+   LOWEN R, 1996, FUZZY SET THEORY BAS, V0, P0
+   Lusk JJ, 2001, ECOL MODEL, V146, P3, DOI 10.1016/S0304-3800(01)00292-7
+   McCulloch W., 1943, B MATH BIOPHYS, V5, P115, DOI 10.1007/BF02478259
+   METROPOLIS N, 1953, J CHEM PHYS, V21, P1087, DOI 10.1063/1.1699114
+   Nour MH, 2006, ECOL MODEL, V191, P19, DOI 10.1016/j.ecolmodel.2005.08.010
+   Obach M, 2001, ECOL MODEL, V146, P207, DOI 10.1016/S0304-3800(01)00307-6
+   Olden JD, 2004, ECOL MODEL, V178, P389, DOI 10.1016/j.ecolmodel.2004.03.013
+   Ostendorf B, 2001, ECOL MODEL, V145, P211, DOI 10.1016/S0304-3800(01)00392-1
+   Park YS, 2006, ECOL MODEL, V195, P105, DOI 10.1016/j.ecolmodel.2005.11.027
+   Park YS, 2006, SCI TOTAL ENVIRON, V365, P140, DOI 10.1016/j.scitotenv.2006.02.046
+   Park YS, 2005, MODELLING COMMUNITY STRUCTURE IN FRESHWATER ECOSYSTEMS, V0, P21
+   Park YS, 2001, ECOL MODEL, V146, P143, DOI 10.1016/S0304-3800(01)00302-7
+   Park YS, 2003, ECOL MODEL, V160, P265, DOI 10.1016/S0304-3800(02)00258-2
+   Park YS, 2006, FOREST ECOL MANAG, V222, P222, DOI 10.1016/j.foreco.2005.10.009
+   Park YS, 2004, SCI TOTAL ENVIRON, V327, P105, DOI 10.1016/j.scitotenv.2004.01.014
+   Park YS, 2003, CONSERV BIOL, V17, P1748, DOI 10.1111/j.1523-1739.2003.00430.x
+   Pearson RG, 2002, ECOL MODEL, V154, P289, DOI 10.1016/S0304-3800(02)00056-X
+   Recknagel F, 1997, ECOL MODEL, V96, P11, DOI 10.1016/S0304-3800(96)00049-X
+   Recknagel F, 2001, ECOL MODEL, V146, P303, DOI 10.1016/S0304-3800(01)00316-7
+   RECKNAGEL F, 2006, ECOLOGICAL INFORM UN, V0, P0
+   Recknagel F., 2002, J HYDROINFORM, V4, P125, DOI 10.2166/hydro.2002.0013
+   ROSENBLATT F, 1958, PSYCHOL REV, V65, P386, DOI 10.1037/h0042519
+   SALTELLI A, 1997, RELIAB ENG SYS SAFET, V57, P0
+   Scardi M, 1999, ECOL MODEL, V120, P213, DOI 10.1016/S0304-3800(99)00103-9
+   Schmid BH, 2006, J HYDROL ENG, V11, P188, DOI 10.1061/(ASCE)1084-0699(2006)11:2(188)
+   Stankovski V, 1998, ECOL MODEL, V108, P145, DOI 10.1016/S0304-3800(98)00025-8
+   Sung AH, 1998, EXPERT SYST APPL, V15, P405, DOI 10.1016/S0957-4174(98)00041-4
+   Tan SS, 1996, ECOL MODEL, V84, P91, DOI 10.1016/0304-3800(94)00131-6
+   Termansen M, 2006, ECOL MODEL, V192, P410, DOI 10.1016/j.ecolmodel.2005.07.009
+   Tison J, 2005, WATER RES, V39, P3177, DOI 10.1016/j.watres.2005.05.029
+   Tison J, 2004, ARCH HYDROBIOL, V159, P409, DOI 10.1127/0003-9136/2004/0159-0409
+   Ultsch A., 1993, INFORM CLASSIFICATIO, V0, PP307, DOI 10.1007/978-3-642-50974-2_31
+   Vesanto J, 2000, IEEE T NEURAL NETWOR, V11, P586, DOI 10.1109/72.846731
+   Wagner R, 2000, HYDROBIOLOGIA, V422, P143, DOI 10.1023/A:1017047022207
+   Wang JH, 2003, ECOL MODEL, V166, P277, DOI 10.1016/S0304-3800(03)00164-9
+   Whigham PA, 2006, ECOL MODEL, V195, P146, DOI 10.1016/j.ecolmodel.2005.11.017
+   WOLFRAM S, 1994, COLLECTED PAPERS CEL, V0, P0
+   Yao JT, 1998, J INF SCI ENG, V14, P843
+   ZADEH LA, 1965, INFORM CONTROL, V8, P338, DOI 10.1016/S0019-9958(65)90241-X
+   ZURADA JM, 1994, P IEEE INT S CIRC SY, V6, P447
+   ZURADA JM, 1992, INTRO ARTIFICIAL NEU, V0, P683
+NR 107
+TC 17
+Z9 18
+U1 1
+U2 19
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0304-3800
+EI 1872-7026
+J9 ECOL MODEL
+JI Ecol. Model.
+PD APR 24
+PY 2007
+VL 203
+IS 1-2
+BP 1
+EP 7
+DI 10.1016/j.ecolmodel.2006.05.039
+PG 7
+WC Ecology
+SC Environmental Sciences & Ecology
+GA 161MU
+UT WOS:000246020300001
+DA 2023-04-26
+ER
+
+PT J
+AU Sanchez-Hernandez, C
+   Boyd, DS
+   Foody, GM
+AF Sanchez-Hernandez, Carolina
+   Boyd, Doreen S.
+   Foody, Giles M.
+TI One-class classification for mapping a specific land-cover class: SVDD classification of fenland
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE conservation; fen; image classification; land cover; support vector
+ID partially supervised classification; support vector machines; remote-sensing images; neural-network; accuracy; size; set
+AB Remote sensing is a major source of land-cover information. Commonly, interest focuses on a single land-cover class. Although a conventional multiclass classifier may be used to provide a map depicting the class of interest, the analysis is not focused on that class and may be suboptimal in terms of the accuracy of its classification. With a conventional classifier, considerable effort is directed on the classes that are not of interest. Here, it is suggested that a one-class-classification approach could be appropriate when interest focuses on a specific class. This is illustrated with the classification of fenland, a habitat of considerable conservation value, from Landsat Enhanced Thematic Mapper Plus imagery. A range of one-class classifiers is evaluated, but attention focuses on the support-vector data description (SVDD). The SVDD was used to classify fenland with an accuracy of 97.5 % and 93.6 % from the user's and producer's perspectives, respectively. This classification was trained upon only the fenland class and was substantially more accurate in fen classification than a conventional multiclass maximum-likelihood classification provided with the same amount of training data, which classified fen with an accuracy of 90.0% and 72.0% from the user's and producer's perspectives, respectively. The results highlight the ability to classify a single class using only training data for that class. With a one-class classification, the analysis focuses tightly on the class of interest, with resources and effort not directed on other classes, and there are opportunities to derive highly accurate classifications from small training sets.
+C1 Ordance Survey, Res & Innovat, Southampton SO16 4GU, Hants, England.
+   Univ Nottingham, Sch Geog, Nottingham NG7 2RD, England.
+C3 University of Nottingham
+RP Sanchez-Hernandez, C (corresponding author), Ordance Survey, Res & Innovat, Southampton SO16 4GU, Hants, England.
+EM Carolina.Hernandez@ordnancesurvey.co.uk; Doreen.Boyd@nottingham.ac.uk; giles.foody@nottingham.ac.uk
+CR AIZERMAN MA, 1965, AUTOMAT REM CONTR+, V25, P821
+   [Anonymous], 1976, LAND USE LAND COVER, V0, P0
+   [Anonymous], 1995, NEURAL NETWORKS PATT, V0, P0
+   BALDI P, 1989, NEURAL NETWORKS, V2, P53, DOI 10.1016/0893-6080(89)90014-2
+   Bazi Y, 2006, IEEE T GEOSCI REMOTE, V44, P3374, DOI 10.1109/TGRS.2006.880628
+   BISHOP CM, 1994, IEE P-VIS IMAGE SIGN, V141, P217, DOI 10.1049/ip-vis:19941330
+   Boser B. E., 1992, PROCEEDINGS OF THE FIFTH ANNUAL ACM WORKSHOP ON COMPUTATIONAL LEARNING THEORY, V0, PP144, DOI 10.1145/130385.130401
+   Boyd DS, 2006, INT J REMOTE SENS, V27, P2631, DOI 10.1080/01431160600554348
+   BOYD DS, 2004, GLOBAL ENV ISSUES, V0, P65
+   *BROADS AUTH, 2004, BROADS PLAN 2004, V0, P0
+   CHERBASSKY V, 1998, LEARNING DATA CONCEP, V0, P0
+   Cihlar J, 2000, INT J REMOTE SENS, V21, P1093, DOI 10.1080/014311600210092
+   Duda R. O., 1973, PATTERN CLASSIFICATI, V3, P0
+   Fernandez-Prieto D, 2002, INT J REMOTE SENS, V23, P3887, DOI 10.1080/01431160210133563
+   Foody GM, 2006, REMOTE SENS ENVIRON, V104, P1, DOI 10.1016/j.rse.2006.03.004
+   Foody GM, 2005, ECOL APPL, V15, P1233, DOI 10.1890/04-1061
+   Foody GM, 2004, REMOTE SENS ENVIRON, V93, P107, DOI 10.1016/j.rse.2004.06.017
+   Foody GM, 2004, IEEE T GEOSCI REMOTE, V42, P1335, DOI 10.1109/TGRS.2004.827257
+   Foody GM, 2002, INT J REMOTE SENS, V23, P3853, DOI 10.1080/01431160110109570
+   Foody GM, 2002, REMOTE SENS ENVIRON, V80, P185, DOI 10.1016/S0034-4257(01)00295-4
+   Foody GM, 2004, PHOTOGRAMM ENG REM S, V70, P627, DOI 10.14358/PERS.70.5.627
+   Fumera G, 2000, PATTERN RECOGN, V33, P2099, DOI 10.1016/S0031-3203(00)00059-5
+   Guo QH, 2005, ECOL MODEL, V182, P75, DOI 10.1016/j.ecolmodel.2004.07.012
+   Guyon I, 2002, MACH LEARN, V46, P389, DOI 10.1023/A:1012487302797
+   Hertz J, 2018, INTRO THEORY NEURAL, V0, P0
+   HILL JD, 1980, J APPL METEOROL, V19, P22, DOI 10.1175/1520-0450(1980)019&lt;0022:LAOMFU&gt;2.0.CO;2
+   Huang C, 2002, INT J REMOTE SENS, V23, P725, DOI 10.1080/01431160110040323
+   Japkowicz N, 1995, INT JOINT CONF ARTIF, V0, P518
+   Jeon B, 1999, IEEE T GEOSCI REMOTE, V37, P1073, DOI 10.1109/36.752225
+   Kobler A, 2006, ECOL MODEL, V191, P83, DOI 10.1016/j.ecolmodel.2005.08.002
+   Kohonen T., 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2
+   Lai C, 2002, LECT NOTES COMPUT SC, V2364, P212
+   LARK RM, 1995, INT J REMOTE SENS, V16, P1461, DOI 10.1080/01431169508954488
+   Liu ZG, 2005, LECT NOTES ARTIF INT, V3584, P118
+   Manevitz LM, 2002, J MACH LEARN RES, V2, P139, DOI 10.1162/15324430260185574
+   Mantero P, 2005, IEEE T GEOSCI REMOTE, V43, P559, DOI 10.1109/TGRS.2004.842022
+   Melgani F, 2004, IEEE T GEOSCI REMOTE, V42, P1778, DOI 10.1109/TGRS.2004.831865
+   MOYA MM, 1993, WCNN93 - PORTLAND, V0, P0
+   Pal M, 2005, INT J REMOTE SENS, V26, P1007, DOI 10.1080/01431160512331314083
+   PIPER J, 1992, PATTERN RECOGN LETT, V13, P685, DOI 10.1016/0167-8655(92)90097-J
+   Pizzi NJ, 2001, ARTIF INTELL MED, V21, P263, DOI 10.1016/S0933-3657(00)00095-6
+   Ramsey EW, 2002, PHOTOGRAMM ENG REM S, V68, P251
+   Ritter G, 1997, PATTERN RECOGN LETT, V18, P525, DOI 10.1016/S0167-8655(97)00049-4
+   ROBERTS S, 1994, NEURAL COMPUT, V6, P270, DOI 10.1162/neco.1994.6.2.270
+   SANCHEZHERNANDE.C, 2006, THESIS KINGSTON U KI, V0, P0
+   Scholkopf B, 2001, NEURAL COMPUT, V13, P1443, DOI 10.1162/089976601750264965
+   Smola AJ, 1999, ADV NEUR IN, V11, P585
+   Song XM, 2005, IEEE T GEOSCI REMOTE, V43, P888, DOI 10.1109/TGRS.2005.844031
+   Song XM, 2005, IEEE GEOSCI REMOTE S, V2, P99, DOI 10.1109/LGRS.2005.846007
+   Tax D., 1999, P EUR S ART NEUR NET, V0, P251
+   Tax D.M.J., 2001, ONE CLASS CLASSIFICA, V0, P0
+   Tax DMJ, 2004, MACH LEARN, V54, P45, DOI 10.1023/B:MACH.0000008084.60811.49
+   Tax DMJ, 2002, J MACH LEARN RES, V2, P155, DOI 10.1162/15324430260185583
+   Turner RK, 2003, GEOGR J, V169, P99, DOI 10.1111/1475-4959.04953
+   Underwood E, 2003, REMOTE SENS ENVIRON, V86, P150, DOI 10.1016/S0034-4257(03)00096-8
+   Van Niel TG, 2005, REMOTE SENS ENVIRON, V98, P468, DOI 10.1016/j.rse.2005.08.011
+   Vapnik V., 2013, NATURE STAT LEARNING, V0, P0
+   Vapnik VN, 1999, IEEE T NEURAL NETWOR, V10, P988, DOI 10.1109/72.788640
+   Yang Y., 1900, P28, V0, P0, DOI DOI 10.1145/290941.290953
+   Yeung DY, 2002, INT C PATT RECOG, V0, PP385, DOI 10.1109/ICPR.2002.1047476
+   YPMA A, 1998, P 8 INT C ART NEUR N, V0, P719
+   Zhu GB, 2002, REMOTE SENS ENVIRON, V80, P233, DOI 10.1016/S0034-4257(01)00305-4
+NR 62
+TC 124
+Z9 133
+U1 0
+U2 26
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD APR 15
+PY 2007
+VL 45
+IS 4
+BP 1061
+EP 1073
+DI 10.1109/TGRS.2006.890414
+PG 13
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA 155GP
+UT WOS:000245566200025
+DA 2023-04-26
+ER
+
+PT J
+AU Attorre, F
+   Alfo, M
+   De Sanctis, M
+   Francesconi, F
+   Bruno, F
+AF Attorre, Fabio
+   Alfo, Marco
+   De Sanctis, Michele
+   Francesconi, Fabio
+   Bruno, Franco
+TI Comparison of interpolation methods for mapping climatic and bioclimatic variables at regional scale
+SO INTERNATIONAL JOURNAL OF CLIMATOLOGY
+LA English
+DT Article
+DE climate interpolation; bioclimatic indexes; GIS; neural network; regional modelling; universal kriging
+ID modeling potential impacts; european higher-plants; mediterranean bioclimate; spatial interpolation; air-temperature; precipitation; envelope; construction
+AB Climatic data and bioclimatic indexes have been used to study plants, animals and ecosystem distribution. GIS-based maps of climatic and bioclimatic data can be obtained by interpolating values observed at measurement stations. Since no single method can be considered as optimal for all observed regions, a major task is to propose comparisons between results obtained using different methods applied to the same data set of climate variables. We compared three methods that have been proved to be useful at regional scale: 1 - a local interpolation method based on de-trended inverse distance weighting (D-IDW), 2 - universal kriging (i.e. simple kriging with trend function defined on the basis of a set of covariates) which is optimal (i.e. BLUP, best linear unbiased predictor) if spatial association is present, 3 - multilayer neural networks trained with backpropagation (representing a complex nonlinear fitting). Long-term (1955-1990) average monthly data were obtained from weather stations measuring precipitation (201 sites) and temperature (102 sites). We analysed twelve climatic variables (temperature and precipitation) and nine bioclimatic indexes. Terrain variables and geographical location have been used as predictors of the climate variables: longitude, latitude, elevation, aspect, slope, continentality and estimated solar radiation. Based on the root mean square errors from cross-validation tests, we ranked the best method for each variable data set. Universal kriging with external drift obtained the best performances for seventeen variables of the twenty-one analysed, neural network interpolator has proven to be more efficient for three variables and D-IDW for only one. Based on these results, we used the universal kriging estimates to produce the climatic and bioclimatic maps aimed at defining the bioclimatic envelope of species. Copyright (C) 2007 Royal Meteorological Society.
+C1 Univ Roma La Sapienza, Biol Vegetale, Rome, Italy.
+C3 Sapienza University Rome
+RP Attorre, F (corresponding author), Univ Roma La Sapienza, Biol Vegetale, Rome, Italy.
+EM fabio.attorre@uniromal.it
+CR Agnew MD, 2000, CLIMATE RES, V14, P115, DOI 10.3354/cr014115
+   [Anonymous], 1987, CLIMATE PLANT DISTRI, V0, P0
+   [Anonymous], 1981, J APPL ECOL, V0, P0
+   Antonic O, 2001, ECOL MODEL, V138, P255, DOI 10.1016/S0304-3800(00)00406-3
+   Arundel ST, 2005, ECOL MODEL, V182, P159, DOI 10.1016/j.ecolmodel.2004.07.016
+   Bagnouls F., 1957, ANNALES DE GEOGRAPHIE, V66, P1930220, DOI 10.3406/geo.1957.18273
+   Bakkenes M, 2002, GLOBAL CHANGE BIOL, V8, P390, DOI 10.1046/j.1354-1013.2001.00467.x
+   Berry PM, 2002, GLOBAL ECOL BIOGEOGR, V11, P453, DOI 10.1111/j.1466-8238.2002.00304.x
+   BRZEZIECKI B, 1993, J VEG SCI, V4, P499, DOI 10.2307/3236077
+   BRZEZIECKI B, 1995, J VEG SCI, V6, P257, DOI 10.2307/3236221
+   Carey PD, 1996, GLOBAL ECOL BIOGEOGR, V5, P217, DOI 10.2307/2997790
+   Cressie N.A.C., 1991, STAT SPATIAL DATA, V0, P0
+   DAGET P, 1977, VEGETATIO, V34, P1, DOI 10.1007/BF00119883
+   DAGET P, 1977, VEGETATIO, V34, P87, DOI 10.1007/BF00054477
+   de Martonne E, 1927, GEOGR REV, V17, P397, DOI 10.2307/208323
+   Diodato N, 2005, INT J CLIMATOL, V25, P351, DOI 10.1002/joc.1131
+   EMBERGER L, 1930, REV BOT, V503, P342
+   Emberger L, 1930, REV BOT, V504, P705
+   Franklin J, 1998, J VEG SCI, V9, P733, DOI 10.2307/3237291
+   GIACOBBE A, 1964, ANN ACCADEMIA ITALIA, V10, P37
+   Goodale CL, 1998, CLIMATE RES, V10, P35, DOI 10.3354/cr010035
+   Guisan A, 1998, J VEG SCI, V9, P65, DOI 10.2307/3237224
+   Hofierka J., 2002, P OPEN SOURCE GIS GR, V0, P19
+   Holdaway MR, 1996, CLIMATE RES, V6, P215, DOI 10.3354/cr006215
+   HUDSON G, 1994, INT J CLIMATOL, V14, P77, DOI 10.1002/joc.3370140107
+   Hulme M, 1995, INT J CLIMATOL, V15, P1333, DOI 10.1002/joc.3370151204
+   HUNTLEY B, 1989, J BIOGEOGR, V16, P551, DOI 10.2307/2845210
+   Huntley B, 1995, J BIOGEOGR, V22, P967, DOI 10.2307/2845830
+   Jensen M.E., 1963, J IRRIGAT DRAIN DIV, V89, P15, DOI 10.1061/JRCEA4.0000287
+   Kienast F, 1998, BIOL CONSERV, V83, P291, DOI 10.1016/S0006-3207(97)00085-2
+   Koppen W, 1930, HDB KLIMATOLOGIE, V0, P0
+   Kurtzman D, 1999, CLIMATE RES, V13, P33, DOI 10.3354/cr013033
+   LENNON JJ, 1995, J ANIM ECOL, V64, P370, DOI 10.2307/5898
+   MATHERON G, 1963, MEMOIRES BUREAU RES, V24, P0
+   MITRAKOS K, 1980, ACTA OECOL-OEC PLANT, V1, P245
+   Nalder IA, 1998, AGR FOREST METEOROL, V92, P211, DOI 10.1016/S0168-1923(98)00102-6
+   Ninyerola M, 2000, INT J CLIMATOL, V20, P1823, DOI 10.1002/1097-0088(20001130)20:14<1823::AID-JOC566>3.0.CO;2-B
+   Pearson RG, 2002, ECOL MODEL, V154, P289, DOI 10.1016/S0304-3800(02)00056-X
+   Pearson RG, 2003, GLOBAL ECOL BIOGEOGR, V12, P361, DOI 10.1046/j.1466-822X.2003.00042.x
+   Pebesma EJ, 2004, COMPUT GEOSCI-UK, V30, P683, DOI 10.1016/j.cageo.2004.03.012
+   Perry M, 2005, INT J CLIMATOL, V25, P1041, DOI 10.1002/joc.1161
+   PHILLIPS DL, 1992, AGR FOREST METEOROL, V58, P119, DOI 10.1016/0168-1923(92)90114-J
+   Rivas-Martinez S., 1996, FOLIA BOT MATRITENSI, V16, P1
+   Rivas-Martinez S., 1987, VEGETATION ESPA A, V0, P19
+   TABIOS GQ, 1985, WATER RESOUR BULL, V21, P365
+   Thornthwaite CW, 1948, GEOGR REV, V38, P55, DOI 10.2307/210739
+   Thornthwaite CW, 1931, GEOGR REV, V21, P633, DOI 10.2307/209372
+   TUHKANEN SA, 1984, ACTA BOT FENN, V67, P110
+   *UN ENV PROGR, 1992, WORLD ATL DES, V0, P69
+   VERHOEF J, 1993, ENV MODELING GIS, V0, P447
+   Williams CKI, 1998, NEURAL COMPUT, V10, P1203, DOI 10.1162/089976698300017412
+   WILLMOTT CJ, 1995, J APPL METEOROL, V34, P2577, DOI 10.1175/1520-0450(1995)034<2577:SIOAAA>2.0.CO;2
+NR 52
+TC 121
+Z9 128
+U1 1
+U2 62
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0899-8418
+EI 1097-0088
+J9 INT J CLIMATOL
+JI Int. J. Climatol.
+PD NOV 15
+PY 2007
+VL 27
+IS 13
+BP 1825
+EP 1843
+DI 10.1002/joc.1495
+PG 19
+WC Meteorology & Atmospheric Sciences
+SC Meteorology & Atmospheric Sciences
+GA 236HC
+UT WOS:000251292600010
+DA 2023-04-26
+ER
+
+PT J
+AU Raimundo, RLG
+   Fonseca, RL
+   Schachetti-Pereira, R
+   Peterson, AT
+   Lewinsohn, TM
+AF Galdini Raimundo, Rafael Luis
+   Fonseca, Rafael Luis
+   Schachetti-Pereira, Ricardo
+   Peterson, A. Townsend
+   Lewinsohn, Thomas Michael
+TI Native and exotic distributions of siamweed (Chromolaena odorata) modeled using the genetic algorithm for rule-set production
+SO WEED SCIENCE
+LA English
+DT Article
+DE geographic range; invasive species; predictive modeling
+ID biological invasions; neural-networks; species distributions; eupatorium-odoratum; nature reserves; weed; prediction; asteraceae; induction; component
+AB Siamweed is an asteraceous shrub native to the Neotropics that ranks among the world's most widespread and troublesome invasive species. It was introduced in several regions of Africa, Southeast Asia, and the Pacific Islands, where it severely infests natural habitats and plantation crops. Although extensive data document the weed's abundance and distribution throughout the invaded continents, the details of its current range are not fully known, especially within its native region. In this study, we used point-occurrence data and digital maps summarizing relevant environmental parameters to generate predictions for the species' geographic distributional potential-specifically, we modeled the native range of siamweed in the Neotropics using the genetic algorithm for rule-set prediction, an evolutionary computing approach. The native range occurrence data set contained 239 published and herbarium records. Models were trained on a random subset of half the points and tested using the other half. The rule sets of the native-range models were projected onto the invaded continents to predict the weed's potential for invasion, blind to its known occurrences in such regions. Native-range models predicted a wide potential distribution of siamweed throughout tropical America, from southern United States to northern Argentina and southern Brazil. The weed's occurrence has been confirmed on the northern Pacific coast, in southeast Brazil, and in other South American areas, where it was supposed to be absent. Independent model projections to Africa, Asia, and Oceania are supported by known occurrence records. Four regions are predicted to be susceptible to siamweed spread: (1) Central Africa, currently being invaded from Western Africa; (2) Infestations spreading northward from South Africa, which have already reached Swaziland and Mozambique and may extend to East Africa and Madagascar; and (3) northern New Zealand and (4) Australia, which are at risk from uncontrolled infestations on several western Pacific islands.
+C1 CEFLORA, Inst Desenvolvimento Educ Prof, BR-69880000 Cruzeiro Do Sul, AC, Brazil.
+   SAUS, Conservat Int Brasil, BR-70070934 Brasilia, DF, Brazil.
+   Univ Sao Paulo, ESALQ, Programa Posgrad Ecol & Agroecossistemas, BR-13418900 Piracicaba, SP, Brazil.
+   Univ Kansas, Nat Hist Museum, Lawrence, KS 66045 USA.
+   Univ Kansas, Biodivers Res Ctr, Lawrence, KS 66045 USA.
+   Univ Estadual Campinas, Dept Zool, LIIP, BR-13083970 Campinas, SP, Brazil.
+C3 Universidade de Sao Paulo; University of Kansas; University of Kansas; Universidade Estadual de Campinas
+RP Lewinsohn, TM (corresponding author), CEFLORA, Inst Desenvolvimento Educ Prof, Ave 25 Agosto 2508, BR-69880000 Cruzeiro Do Sul, AC, Brazil.
+EM thomasl@unicamp.br
+FU Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (FAPESP) [98/05085-2] Funding Source: FAPESP
+CR Allen EA, 2002, CAN J PLANT PATHOL, V24, P103, DOI 10.1080/07060660309506983
+   Almeida AM, 2006, NEOTROP ENTOMOL, V35, P458, DOI 10.1590/S1519-566X2006000400006
+   ALMEIDA AM, 2005, BIOTA NEOTROPICA, V5, P0
+   Almeida-Neto M, 2004, J VEG SCI, V15, P561, DOI 10.1111/j.1654-1103.2004.tb02295.x
+   AMBIKA SR, 2000, P 4 INT WORKSH BIOL, V0, P0
+   Anderson RP, 2002, GLOBAL ECOL BIOGEOGR, V11, P131, DOI 10.1046/j.1466-822X.2002.00275.x
+   Anderson RP, 2002, OIKOS, V98, P3, DOI 10.1034/j.1600-0706.2002.t01-1-980116.x
+   Anderson RP, 2003, ECOL MODEL, V162, P211, DOI 10.1016/S0304-3800(02)00349-6
+   [Anonymous], 1975, ADAPTATION NATURAL A, V0, P0
+   [Anonymous], 1977, WORLDS WORST WEEDS D, V0, P0
+   ARISTIGUIETA L, 1964, FLORA VENEZUELA, V0, P0
+   ATERRADO ED, 1988, P 1 INT WORKSH BIOL, V0, P0
+   Bailey R.G., 1995, ECOREGIONS CONTINENT, V0, P0
+   BANI G, 1996, U GUAM PUBLICATION, V202, P0
+   BARRETO RW, 1994, MYCOL RES, V98, P1107, DOI 10.1016/S0953-7562(09)80196-2
+   BENNETT FD, 1968, P 9 BRIT COMM FOR C, V0, P0
+   Brosse S, 2001, ECOL MODEL, V146, P159, DOI 10.1016/S0304-3800(01)00303-9
+   CHACKO MJ, 1988, P 1 INT WORKSH BIOL, V0, P0
+   Cronk Q.C.B., 2001, PLANT INVADERS THREA, V0, P0
+   Cruttwell McFadyen R. E., 1989, PLANT PROTECTION QUARTERLY, V4, P3
+   Cruttwell R.E., 1974, TECHNICAL BULL COMMONW INST BIOL CONTROL, VNo. 17, P87
+   Cruttwell R.E., 1972, THESIS U W INDIES ST, V0, P0
+   DANTONIO CM, 1992, ANNU REV ECOL SYST, V23, P63, DOI 10.1146/annurev.es.23.110192.000431
+   DEROUW A, 1991, J BIOGEOGR, V18, P13, DOI 10.2307/2845241
+   DODDAMANI MB, 1998, P 4 INT WORKSH BIOL, V0, P0
+   ESGUERRA NM, 1998, P 4 INT WORKSH BIOL, V0, P0
+   ESGUERRA NM, 1991, BIOTROP SPECIAL PUBL, V44, P0
+   ESTEVES RL, 2001, THESIS STATE U CAMPI, V0, P0
+   ESWATAN H, 1988, CHROMOLAENA ODORATA, V2, P3
+   Feria TP, 2002, DIVERS DISTRIB, V8, P49, DOI 10.1046/j.1472-4642.2002.00127.x
+   Gautier Laurent, 1992, CANDOLLEA, V47, P645
+   Gharbarran G., 2000, SMITHSONIAN PLANT CO, V0, P0
+   Goodall JM, 1996, AGR ECOSYST ENVIRON, V56, P151, DOI 10.1016/0167-8809(95)00647-8
+   Gordon DR, 1998, ECOL APPL, V8, P975, DOI 10.1890/1051-0761(1998)008[0975:EOINIP]2.0.CO;2
+   Guisan A, 2000, ECOL MODEL, V135, P147, DOI 10.1016/S0304-3800(00)00354-9
+   HOBBS RJ, 1986, OECOLOGIA, V70, P508, DOI 10.1007/BF00379896
+   HOEVERS R, 1996, U GUAM PUBLICATION, V202, P0
+   JIAXIANG K, 1998, P 4 INT WORKSH BIOL, V0, P0
+   KING R M, 1970, PHYTOLOGIA, V20, P196
+   Kubik A, 2003, ARTIF LIFE, V9, P41, DOI 10.1162/106454603321489518
+   Lek S, 1999, ECOL MODEL, V120, P65, DOI 10.1016/S0304-3800(99)00092-7
+   Leslie AJ, 2001, BIOL CONSERV, V98, P347, DOI 10.1016/S0006-3207(00)00177-4
+   Lewinsohn T.M., 1991, P525, V0, P0
+   LODGE DM, 1993, TRENDS ECOL EVOL, V8, P133, DOI 10.1016/0169-5347(93)90025-K
+   Lonsdale WM, 1999, ECOLOGY, V80, P1522, DOI 10.2307/176544
+   LOOPE LL, 1988, BIOL CONSERV, V44, P95, DOI 10.1016/0006-3207(88)90006-7
+   LUKEN JO, 1997, ASSESSMENT MANAGEMEN, V0, P0
+   MACDONALD IAW, 1988, BIOL CONSERV, V44, P37, DOI 10.1016/0006-3207(88)90004-3
+   MACDONALD IM, 2002, P 5 INT WORKSH BIOL, V0, P0
+   Manel S, 1999, ECOL MODEL, V120, P337, DOI 10.1016/S0304-3800(99)00113-1
+   MANLY B, 1997, RANDOMIZATION BOOTST, V0, P0
+   MATZENBACHER NI, 1979, THESIS PONTIFICIA U, V0, P0
+   MBOOB SS, 1991, P 2 INT WORKSH BIOL, V44, P0
+   McFadyen RC, 1996, AGR ECOSYST ENVIRON, V59, P89, DOI 10.1016/0167-8809(96)01035-3
+   MCFADYEN REC, 1988, P 1 INT WORKSH BIOL, V0, P0
+   MCFADYEN REC, 1994, DISTRIBUTION ECOLOGY, V202, P0
+   MCFADYEN REC, 2002, P 5 INT WORKSH BIOL, V0, P0
+   McWilliam A, 2000, HUM ECOL, V28, P451, DOI 10.1023/A:1007061632588
+   MODER WWD, 1996, U GUAM PUBLICATION, V202, P0
+   MOORE DM, 1991, ENVIRON MANAGE, V15, P59, DOI 10.1007/BF02393838
+   Muniappan R., 1988, P 1 INT WORKSH BIOL, V0, P0
+   NAPOMPETH B, 1991, BIOTROP SPECIAL PUBL, V44, P0
+   NAPOMPETH B, 1988, P 1 INT WORKSH BIOL, V0, P0
+   NAPOMPETH B, 1988, P U INT WORKSH BIOL, V0, P0
+   NOBLE IR, 1987, VEGETATIO, V69, P115, DOI 10.1007/BF00038692
+   OOI PAC, 1988, P 1 INT WORKSH BIOL, V0, P0
+   ORAPA W, 1998, P 4 INT WORKSH BIOL, V0, P0
+   Pancho J., 1971, PHILIPP J ANIM SCI, V8, P143
+   Peterson AT, 1999, ECOL MODEL, V117, P159, DOI 10.1016/S0304-3800(99)00023-X
+   Peterson AT, 2002, PREDICTING SPECIES OCCURRENCES: ISSUES OF ACCURACY AND SCALE, V0, P617
+   Peterson AT, 2001, BIOSCIENCE, V51, P363, DOI 10.1641/0006-3568(2001)051[0363:PSIUEN]2.0.CO;2
+   Peterson AT, 1999, SCIENCE, V285, P1265, DOI 10.1126/science.285.5431.1265
+   Peterson AT, 2002, EMERG INFECT DIS, V8, P662, DOI 10.3201/eid0807.010454
+   Peterson AT, 2002, IBIS, V144, PE27, DOI 10.1046/j.0019-1019.2001.00031.x
+   Peterson AT, 2001, CONDOR, V103, P599, DOI 10.1650/0010-5422(2001)103[0599:PSGDBO]2.0.CO;2
+   Pimentel D, 2000, BIOSCIENCE, V50, P53, DOI 10.1641/0006-3568(2000)050[0053:EAECON]2.3.CO;2
+   Prado PI, 2002, P ENTOMOL SOC WASH, V104, P1007
+   PRADO PI, 2003, CORREDORES BIODIVERS, V0, P0
+   RENRUN W, 1988, P 1 INT WORKSH BIOL, V0, P0
+   SCHACHETTIPEREI.R, 2002, DESKTOP GARP, V0, P0
+   SPEARS WM, 1998, THESIS G MASON U FAI, V0, P0
+   Stockwell D, 1999, INT J GEOGR INF SCI, V13, P143, DOI 10.1080/136588199241391
+   STOCKWELL DRB, 1990, AI APPL NAT RES MAN, V4, P33
+   STOCKWELL DRB, 1992, MATH COMPUT SIMULAT, V33, P385, DOI 10.1016/0378-4754(92)90126-2
+   Stohlgren TJ, 1999, ECOL MONOGR, V69, P25, DOI 10.1890/0012-9615(1999)069[0025:EPSIHS]2.0.CO;2
+   TIMBILLA JA, 1996, U GUAM PUBLICATION, V202, P0
+   TJITROSEMITO S, 1998, P 4 INT WORKSH BIOL, V0, P0
+   TJITROSOEDIRDJO S, 1991, BIOTROP SPECIAL PUBL, V44, P0
+   *US OTA, 1993, HARMF NON SPEC US, V0, P0
+   USHER MB, 1988, BIOL CONSERV, V44, P1, DOI 10.1016/0006-3207(88)90002-X
+   UTULU SN, 1996, U GUAM PUBLICATION, V202, P0
+   Vitousek PM, 1997, NEW ZEAL J ECOL, V21, P1
+   WATERHOUSE B, 2002, P 5 INT WORKSH BIOL, V0, P66
+   WATERHOUSE B, 1998, P 4 INT WORKSH BIOL, V0, P0
+   WEISE SF, 1996, U GUAM PUBLICATION, V202, P0
+   YADAV AS, 1981, OIKOS, V36, P355, DOI 10.2307/3544633
+NR 96
+TC 37
+Z9 41
+U1 1
+U2 14
+PU CAMBRIDGE UNIV PRESS
+PI NEW YORK
+PA 32 AVENUE OF THE AMERICAS, NEW YORK, NY 10013-2473 USA
+SN 0043-1745
+EI 1550-2759
+J9 WEED SCI
+JI Weed Sci.
+PD JAN-FEB 15
+PY 2007
+VL 55
+IS 1
+BP 41
+EP 48
+DI 10.1614/WS-06-083.1
+PG 8
+WC Agronomy; Plant Sciences
+SC Agriculture; Plant Sciences
+GA 131SY
+UT WOS:000243891400008
+DA 2023-04-26
+ER
