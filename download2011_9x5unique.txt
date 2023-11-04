@@ -1,0 +1,483 @@
+
+PT J
+AU Matsumoto, J
+   Makino, Y
+   Miura, H
+   Yano, M
+AF Matsumoto, Jumpei
+   Makino, Yoshinari
+   Miura, Haruki
+   Yano, Masafumi
+TI A computational model of the hippocampus that represents environmental structure and goal location, and guides movement
+SO BIOLOGICAL CYBERNETICS
+LA English
+DT Article
+DE Hippocampal place cell; Computational model; Goal-oriented behavior; Topological navigation; Reverse replay
+ID neural-network model; freely-moving rat; place cells; unit-activity; cognitive graph; sharp waves; navigation; neurons; reactivation; fields
+AB Hippocampal place cells (PCs) are believed to represent environmental structure. However, it is unclear how and which brain regions represent goals and guide movements. Recently, another type of cells that fire around a goal was found in rat hippocampus (we designate these cells as goal place cells, GPCs). This suggests that the hippocampus is also involved in goal representation. Assuming that the activities of GPCs depend on the distance to a goal, we propose an adaptive navigation model. By monitoring the population activity of GPCs, the model navigates to shorten the distance to the goal. To achieve the distance-dependent activities of GPCs, plastic connections are assumed between PCs and GPCs, which are modified depending on two reward-triggered activities: activity propagation through PC-PC network representing the topological environmental structure, and the activity of GPCs with different durations. The former activity propagation is regarded as a computational interpretation of "reverse replay" phenomenon found in rat hippocampus. Simulation results confirm that after reaching a goal only once, the model can navigate to the goal along almost the shortest path from arbitrary places in the environment. This indicates that the hippocampus might play a primary role in the representation of not only the environmental structure but also the goal, in addition to guiding the movement. This navigation strategy using the population activity of GPCs is equivalent to the taxis strategy, the simplest and most basic for biological systems. Our model is unique because this simple strategy allows the model to follow the shortest path in the topological map of the environment.
+C1 [Matsumoto, Jumpei] Toyama Univ, Grad Sch Med & Pharmaceut Sci, Toyama 9300194, Japan.
+   [Matsumoto, Jumpei; Makino, Yoshinari; Miura, Haruki; Yano, Masafumi] Tohoku Univ, Elect Commun Res Inst, Aoba Ku, Sendai, Miyagi 9808577, Japan.
+C3 University of Toyama; Tohoku University
+RP Matsumoto, J (corresponding author), Toyama Univ, Grad Sch Med & Pharmaceut Sci, Sugitani 2630, Toyama 9300194, Japan.
+EM d0881002@ems.u-toyama.ac.jp; makino@izcc.tohoku-gakuin.ac.jp
+FU Japan Society for the Promotion of Science [21500294]; Japanese Ministry of Education, Culture, Sports, Science, and Technology [17075003]; Grants-in-Aid for Scientific Research [21500294, 17075003] Funding Source: KAKEN
+CR BLODGET H, 1929, PUBL PSYCHOL, V4, P113
+   BURGESS N, 1994, NEURAL NETWORKS, V7, P1065, DOI 10.1016/S0893-6080(05)80159-5
+   Burgess N, 1996, HIPPOCAMPUS, V6, P749
+   Burgess N, 2007, HIPPOCAMPUS, V17, P801, DOI 10.1002/hipo.20327
+   BUZSAKI G, 1989, NEUROSCIENCE, V31, P551, DOI 10.1016/0306-4522(89)90423-5
+   Charles TH Cormen, 2009, INTRO ALGORITHMS, V0, P5
+   Csicsvari J, 2007, EUR J NEUROSCI, V26, P704, DOI 10.1111/j.1460-9568.2007.05684.x
+   DORAGOI G, 2010, NATURE, V0, P0, DOI DOI 10.1038/NATURE09633
+   Foster DJ, 2006, NATURE, V440, P680, DOI 10.1038/nature04587
+   Foster DJ, 2000, HIPPOCAMPUS, V10, P1, DOI 10.1002/(SICI)1098-1063(2000)10:1<1::AID-HIPO1>3.0.CO;2-1
+   Frank LM, 2000, NEURON, V27, P169, DOI 10.1016/S0896-6273(00)00018-0
+   Fyhn M, 2002, NEURON, V35, P555, DOI 10.1016/S0896-6273(02)00784-5
+   Gaussier P, 2002, BIOL CYBERN, V86, P15, DOI 10.1007/s004220100269
+   Gorchetchnikov A, 2005, CONNECT SCI, V17, P145, DOI 10.1080/09540090500140925
+   Hartley T, 2000, HIPPOCAMPUS, V10, P369, DOI 10.1002/1098-1063(2000)10:4<369::AID-HIPO3>3.0.CO;2-0
+   HILL AJ, 1981, EXP NEUROL, V74, P204, DOI 10.1016/0014-4886(81)90159-X
+   Hollup SA, 2001, J NEUROSCI, V21, P1635, DOI 10.1523/JNEUROSCI.21-05-01635.2001
+   Izhikevich EM, 2003, IEEE T NEURAL NETWOR, V14, P1569, DOI 10.1109/TNN.2003.820440
+   JUNG MW, 1994, J NEUROSCI, V14, P7347
+   Kjelstrup KB, 2008, SCIENCE, V321, P140, DOI 10.1126/science.1157086
+   Kobayashi T, 2003, NEUROSCIENCE, V117, P1025, DOI 10.1016/S0306-4522(02)00700-5
+   Lever C, 2009, J NEUROSCI, V29, P9771, DOI 10.1523/JNEUROSCI.1319-09.2009
+   MARKUS EJ, 1995, J NEUROSCI, V15, P7079
+   Maurer AP, 2005, HIPPOCAMPUS, V15, P841, DOI 10.1002/hipo.20114
+   MCNAUGHTON BL, 1983, EXP BRAIN RES, V52, P41
+   Molter C, 2007, HIPPOCAMPUS, V17, P201, DOI 10.1002/hipo.20258
+   MORRIS RGM, 1982, NATURE, V297, P681, DOI 10.1038/297681a0
+   Muller RU, 1996, J GEN PHYSIOL, V107, P663, DOI 10.1085/jgp.107.6.663
+   MULLER RU, 1994, J NEUROSCI, V14, P7235
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   OKEEFE J, 1976, EXP NEUROL, V51, P78, DOI 10.1016/0014-4886(76)90055-8
+   OKEEFE J, 1993, HIPPOCAMPUS, V3, P317, DOI 10.1002/hipo.450030307
+   QUIRK GJ, 1990, J NEUROSCI, V10, P2008
+   Redish A.D, 1999, COGNITIVE MAP, V0, P0
+   Samsonovich A, 1997, J NEUROSCI, V17, P5900
+   Samsonovich AV, 2005, LEARN MEMORY, V12, P193, DOI 10.1101/lm.85205
+   Solstad T, 2006, HIPPOCAMPUS, V16, P1026, DOI 10.1002/hipo.20244
+   Touretzky DS, 1996, HIPPOCAMPUS, V6, P247
+   Trullier O, 1997, PROG NEUROBIOL, V51, P483, DOI 10.1016/S0301-0082(96)00060-3
+   Trullier O, 2000, BIOL CYBERN, V83, P271, DOI 10.1007/s004220000170
+   Voicu H, 2002, BEHAV PROCESS, V59, P67, DOI 10.1016/S0376-6357(02)00060-8
+   Wood ER, 2000, NEURON, V27, P623, DOI 10.1016/S0896-6273(00)00071-4
+NR 42
+TC 4
+Z9 4
+U1 0
+U2 8
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 0340-1200
+EI 
+J9 BIOL CYBERN
+JI Biol. Cybern.
+PD AUG 15
+PY 2011
+VL 105
+IS 2
+BP 139
+EP 152
+DI 10.1007/s00422-011-0454-6
+PG 14
+WC Computer Science, Cybernetics; Neurosciences
+SC Computer Science; Neurosciences & Neurology
+GA 831OA
+UT WOS:000295739800003
+PM 21845399
+DA 2023-04-26
+ER
+
+PT J
+AU Yang, GJ
+   Zhao, CJ
+   Liu, Q
+   Huang, WJ
+   Wang, JH
+AF Yang, Guijun
+   Zhao, Chunjiang
+   Liu, Qiang
+   Huang, Wenjiang
+   Wang, Jihua
+TI Inversion of a Radiative Transfer Model for Estimating Forest LAI From Multisource and Multiangular Optical Remote Sensing Data
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Forest leaf area index (LAI); inversion; multisource and multiangle; radiative transfer model; remote sensing
+ID leaf-area index; canopy reflectance; land-cover; vegetation; tm; parameters; variables; information; validation; retrieval
+AB This paper presents a new forest leaf area index (LAI) inversion method from multisource and multiangle data combined with a radiative transfer model and the strategy of k-means clustering and artificial neural network (ANN). Four scenes of Landsat-5 Thematic Mapper (L5TM) and Beijing-1 small satellite multispectral sensors (BJ1) images, acquired at different times, were selected to construct multisource and multiangle image data in this study. Considering a vertical distribution of forest LAI from both overstory and understory, a hybrid model of the invertible forest reflectance model (INFORM) was used to support the retrieval of forest LAI to eliminate the dependence of understory vegetation. The simulated data from INFORM outputs, added with a random noise, were first clustered by k-means method, and were then trained by ANN to obtain the inversion model for each group (cluster). Next, the inversion model was applied to the different combinations of multiangle data to retrieve the forest LAI. Finally, a validation of inverted results with Moderate Resolution Imaging Spectroradiometer LAI product and field measurements was conducted. The experimental results indicate that the accuracy of the inverted forest LAI can be improved through the addition of observation angle data, if the quality of the image data is ensured. The inversion accuracy of LAI with the multiangle image data is improved by 30% compared to the average accuracy of the inverted LAI with the single angle data after considering the addition of random noise to the ANN training data.
+C1 [Yang, Guijun; Zhao, Chunjiang; Huang, Wenjiang; Wang, Jihua] Natl Engn Res Ctr Informat Technol Agr, Beijing 100097, Peoples R China.
+   [Yang, Guijun; Liu, Qiang] Beijing Normal Univ, Chinese Acad Sci, Inst Remote Sensing Applicat, State Key Lab Remote Sensing Sci, Beijing 100101, Peoples R China.
+C3 Beijing Academy of Agriculture & Forestry Sciences (BAAFS); Beijing Normal University; Chinese Academy of Sciences
+RP Yang, GJ (corresponding author), Natl Engn Res Ctr Informat Technol Agr, Beijing 100097, Peoples R China.
+EM guijun.yang@163.com
+FU Natural Science Foundation of China [40901173, 41071228]; Beijing Natural Science Foundation [4102021]; Institute of Remote Sensing Applications of Chinese Academy of Sciences [2009KFJJ020]; Beijing Normal University [2009KFJJ020]; National High Technology Research and Development Program of China [2007AA10Z201]
+CR Abuelgasim AA, 1996, REMOTE SENS ENVIRON, V57, P79, DOI 10.1016/0034-4257(95)00197-2
+   Asner GP, 1998, REMOTE SENS ENVIRON, V64, P234, DOI 10.1016/S0034-4257(98)00014-5
+   Atzberger C, 2001, DECADE OF TRANS-EUROPEAN REMOTE SENSING COOPERATION, V0, P39
+   Bacour C, 2002, REMOTE SENS ENVIRON, V79, P72, DOI 10.1016/S0034-4257(01)00240-1
+   Barnsley MJ, 1997, INT J REMOTE SENS, V18, P1937, DOI 10.1080/014311697217963
+   Breon FM, 1997, IEEE T GEOSCI REMOTE, V35, P479, DOI 10.1109/36.563289
+   Bsaibes A, 2009, REMOTE SENS ENVIRON, V113, P716, DOI 10.1016/j.rse.2008.11.014
+   Chavez PS, 1996, PHOTOGRAMM ENG REM S, V62, P1025
+   Chen JM, 2003, REMOTE SENS ENVIRON, V84, P516, DOI 10.1016/S0034-4257(02)00150-5
+   Chen JM, 2002, REMOTE SENS ENVIRON, V80, P165, DOI 10.1016/S0034-4257(01)00300-5
+   CHEN JM, 1992, PLANT CELL ENVIRON, V15, P421, DOI 10.1111/j.1365-3040.1992.tb00992.x
+   Chen JM, 1996, REMOTE SENS ENVIRON, V55, P153, DOI 10.1016/0034-4257(95)00195-6
+   [陈正超 CHEN Zhengchao], 2008, 宇航学报 JOURNAL OF CHINESE SOCIETY OF ASTRONAUTICS, V29, P637
+   Colombo R, 2003, REMOTE SENS ENVIRON, V86, P120, DOI 10.1016/S0034-4257(03)00094-4
+   Combal B, 2002, AGRONOMIE, V22, P205, DOI 10.1051/agro:2002008
+   Dawson TP, 1998, REMOTE SENS ENVIRON, V65, P50, DOI 10.1016/S0034-4257(98)00007-8
+   de Colstoun ECB, 2006, REMOTE SENS ENVIRON, V100, P474, DOI 10.1016/j.rse.2005.11.003
+   Demuth H., 1998, NEURAL NETWORK TOOLB, V0, P0
+   Eklundh L, 2001, REMOTE SENS ENVIRON, V78, P239, DOI 10.1016/S0034-4257(01)00222-X
+   Eriksson HM, 2006, REMOTE SENS ENVIRON, V103, P408, DOI 10.1016/j.rse.2006.04.005
+   Fang HL, 2003, IEEE T GEOSCI REMOTE, V41, P2052, DOI 10.1109/TGRS.2003.813493
+   Fassnacht KS, 1997, REMOTE SENS ENVIRON, V61, P229, DOI 10.1016/S0034-4257(97)00005-9
+   Fernandes RA, 2004, REMOTE SENS ENVIRON, V89, P200, DOI 10.1016/j.rse.2002.06.005
+   Garriques S, 2008, AGR FOREST METEOROL, V148, P1193, DOI 10.1016/j.agrformet.2008.02.014
+   Goel N. S., 1989, THEORY AND APPLICATIONS OF OPTICAL REMOTE SENSING., V0, P205
+   Gong P, 1999, INT J REMOTE SENS, V20, P111, DOI 10.1080/014311699213631
+   Gower ST, 1999, REMOTE SENS ENVIRON, V70, P29, DOI 10.1016/S0034-4257(99)00056-5
+   GYANESH C, 2003, IEEE T GEOSCI REMOTE, V41, P2674
+   JACQUEMOUD S, 1995, REMOTE SENS ENVIRON, V52, P163, DOI 10.1016/0034-4257(95)00018-V
+   JACQUEMOUD S, 1990, REMOTE SENS ENVIRON, V34, P75, DOI 10.1016/0034-4257(90)90100-Z
+   Jacquemoud S, 2009, REMOTE SENS ENVIRON, V113, PS56, DOI 10.1016/j.rse.2008.01.026
+   JOAQUIACUTEN MS, 2008, AGR FOR METEOROL, V148, P1362
+   Kanungo T, 2002, IEEE T PATTERN ANAL, V24, P881, DOI 10.1109/TPAMI.2002.1017616
+   Kimes DS, 1998, INT J REMOTE SENS, V19, P2639, DOI 10.1080/014311698214433
+   KIMES DS, 2000, REMOTE SENS REV, V18, P381, DOI 10.1080/02757250009532396
+   Kuusk A, 1998, INT J REMOTE SENS, V19, P2893, DOI 10.1080/014311698214334
+   Li J, 2008, INT J REMOTE SENS, V29, P4993, DOI 10.1080/01431160802036318
+   LI XW, 1992, IEEE T GEOSCI REMOTE, V30, P276, DOI 10.1109/36.134078
+   Liang S., 2004, 2004 QUANTITATIVE RE, V0, P0
+   Liu X, 2007, INT J REMOTE SENS, V28, P459, DOI 10.1080/01431160601075491
+   Markwell J, 1995, PHOTOSYNTH RES, V46, P467, DOI 10.1007/BF00032301
+   Meroni M, 2004, REMOTE SENS ENVIRON, V92, P195, DOI 10.1016/j.rse.2004.06.005
+   NEUMANN HH, 1989, AGR FOREST METEOROL, V45, P325, DOI 10.1016/0168-1923(89)90052-X
+   Nilson T, 2004, AGR FOREST METEOROL, V124, P157, DOI 10.1016/j.agrformet.2004.01.008
+   Qi J, 2000, REMOTE SENS ENVIRON, V73, P18, DOI 10.1016/S0034-4257(99)00113-3
+   Rautiainen M, 2005, REMOTE SENS ENVIRON, V99, P295, DOI 10.1016/j.rse.2005.09.004
+   Rautiainen M, 2008, REMOTE SENS ENVIRON, V112, P2627, DOI 10.1016/j.rse.2007.12.005
+   ROSEMA A, 1992, REMOTE SENS ENVIRON, V42, P23, DOI 10.1016/0034-4257(92)90065-R
+   Schlerf M, 2006, REMOTE SENS ENVIRON, V100, P281, DOI 10.1016/j.rse.2005.10.006
+   Simic A, 2010, IEEE T GEOSCI REMOTE, V48, P1742, DOI 10.1109/TGRS.2009.2033383
+   Smolander S, 2003, REMOTE SENS ENVIRON, V88, P363, DOI 10.1016/j.rse.2003.06.003
+   Soudani K, 2006, REMOTE SENS ENVIRON, V102, P161, DOI 10.1016/j.rse.2006.02.004
+   Stenberg P, 2004, SILVA FENN, V38, P3, DOI 10.14214/sf.431
+   Thenkabail PS, 2004, REMOTE SENS ENVIRON, V91, P354, DOI 10.1016/j.rse.2004.03.013
+   Turner DP, 1999, REMOTE SENS ENVIRON, V70, P52, DOI 10.1016/S0034-4257(99)00057-7
+   VERHOEF W, 1985, REMOTE SENS ENVIRON, V17, P165, DOI 10.1016/0034-4257(85)90072-0
+   Weiss M, 2007, REMOTE SENS ENVIRON, V110, P317, DOI 10.1016/j.rse.2007.03.001
+   WELLES JM, 1991, AGRON J, V83, P818, DOI 10.2134/agronj1991.00021962008300050009x
+   Xavier AS, 2005, INT J REMOTE SENS, V26, P3797, DOI 10.1080/09500340500106931
+   Yang GJ, 2010, IEEE T GEOSCI REMOTE, V48, P2170, DOI 10.1109/TGRS.2009.2033180
+   Yang P, 2007, IEEE T GEOSCI REMOTE, V45, P3087, DOI 10.1109/TGRS.2007.902426
+NR 61
+TC 38
+Z9 46
+U1 8
+U2 62
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD MAR 15
+PY 2011
+VL 49
+IS 3
+BP 988
+EP 1000
+DI 10.1109/TGRS.2010.2071416
+PG 13
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA 725PN
+UT WOS:000287658000009
+DA 2023-04-26
+ER
+
+PT J
+AU Xu, K
+   Kong, CF
+   Li, JF
+   Zhang, LQ
+   Wu, CL
+AF Xu, Kai
+   Kong, Chunfang
+   Li, Jiangfeng
+   Zhang, Liqin
+   Wu, Chonglong
+TI Suitability evaluation of urban construction land based on geo-environmental factors of Hangzhou, China
+SO COMPUTERS & GEOSCIENCES
+LA English
+DT Article
+DE Suitability evaluation; Grid; K-means clustering; Back-propagation (BP) neural network; Geographic Information System (GIS); Analytic Hierarchy Process (AHP); Hangzhou; China
+ID geographical information-systems; multicriteria evaluation; gis
+AB Suitability evaluation of urban construction land based on geo-environmental factors is the process of determining the fitness of a given tract of land for construction. This process involves a consideration of the geomorphology, geology, engineering geology, geological hazards, and other geological factors and is the basis of urban construction land planning and management. With the support of Geographic Information Systems (GIS), grid analysis, and geo-spatial analysis techniques, four factor groups comprising nine separate subfactors of geo-environmental attributes were selected to be used in the evaluation of the suitability level for construction land in Hangzhou. This was based on K-means clustering and back-propagation (BP) neural network methods due to their advantages in fast computing, unique adaptive capacity, and self-organization. Simultaneously, the evaluation results based on K-means clustering and BP neural network were compared and analyzed, and the accuracy evaluation was set. The results showed that the geo-environmental suitability evaluation results of construction land based on K-means clustering and BP neural network were similar in terms of the distribution and scale of construction land suitability level. At the same time, the results of the two evaluation methods were consistent with the variability in suitability level, engineering geology, and hydrogeology of Hangzhou. The results also showed that the real advantage of the methods proposed in this paper lies in their capacity to streamline the mapping process and to ensure that the results are consistent throughout. The suitability level of the urban construction land based on the geoenvironment in Hangzhou was divided into four construction sites: land for building super high-rise and high-rise buildings, land for building multistorey buildings, land for low-rise buildings, and nonbuilding land. The results of the suitability evaluation for each category will provide a scientific basis for decision-making in urban development in Hangzhou. Crown Copyright (C) 2011 Published by Elsevier Ltd. All rights reserved.
+C1 [Xu, Kai; Kong, Chunfang; Wu, Chonglong] China Univ Geosci, Sch Comp, Wuhan 430074, Peoples R China.
+   [Kong, Chunfang] China Univ Geosci, Key Lab Biogeol & Environm Geol, Minist Educ, Wuhan 430074, Peoples R China.
+   [Li, Jiangfeng; Zhang, Liqin] China Univ Geosci, Fac Earth Resources, Wuhan 430074, Peoples R China.
+   [Wu, Chonglong] China Univ Geosci, Three Gorges Res Ctr Geohazard, Minist Educ, Wuhan 430074, Peoples R China.
+C3 China University of Geosciences; China University of Geosciences; China University of Geosciences; China University of Geosciences
+RP Wu, CL (corresponding author), China Univ Geosci, Sch Comp, Wuhan 430074, Peoples R China.
+EM wucl@cug.edu.cn
+FU Special Fund for Basic Scientific Research of Central Colleges [CUGL090232]; Key Lab of Biogeology and Environmental Geology of Ministry of Education [BGEG1014]; China University of Geosciences, Wuhan; Hangzhou Land Use Suitability Research; National Geological Bureau [200413000021]; Fund for Geological Survey of China Geological Survey [1212010880404]
+CR BAI RC, 2001, J LIAONING TU NATURA, V20, P373
+   Banai-Kashami AR, 1989, ENVIRON MANAGE, V13, P685
+   Bandyopadhyay S, 2009, INT J REMOTE SENS, V30, P879, DOI 10.1080/01431160802395235
+   Beardsley K, 2009, LANDSCAPE URBAN PLAN, V93, P172, DOI 10.1016/j.landurbplan.2009.07.003
+   BRADLEY PS, 1998, P 15 INT C MACH LEAR, V0, P91
+   CARVER SJ, 1991, INT J GEOGR INF SYST, V5, P321, DOI 10.1080/02693799108927858
+   Chen G. H., 1997, NATURAL RESOURCES, V5, P22
+   Chen Yanfei, 2006, JOURNAL OF TSINGHUA UNIVERSITY (SCIENCE AND TECHNOLOGY), V46, P801
+   Chiesura A, 2004, LANDSCAPE URBAN PLAN, V68, P129, DOI 10.1016/j.landurbplan.2003.08.003
+   Colding J, 2007, LANDSCAPE URBAN PLAN, V81, P46, DOI 10.1016/j.landurbplan.2006.10.016
+   COOK JR, 1998, GEOHAZARDS ENG GEOLO, V15, P221
+   CROSS M, 2002, MAPPING ENG GEOLOGY, V1, P267
+   Dai FC, 2001, ENG GEOL, V61, P257, DOI 10.1016/S0013-7952(01)00028-X
+   DAVIDSON DA, 1994, INT J GEOGR INF SYST, V8, P369, DOI 10.1080/02693799408902007
+   DU DJ, 1989, HYDROGEOLOGY ENG GEO, V5, P3
+   EASTMAN JR, 1995, PHOTOGRAMM ENG REM S, V61, P539
+   GRIFFITHS J. S., 2002, GEOLOGICAL SOC LONDO, V1, P287
+   HALL GB, 1992, ENVIRON PLANN A, V24, P497, DOI 10.1068/a240497
+   Hartigan J. A., 1979, APPLIED STATISTICS, V28, P100, DOI 10.2307/2346830
+   JIA YG, 1999, EARTH SCI J CHINA U, V24, P648
+   Joerin F, 2001, INT J GEOGR INF SYST, V15, P151
+   Kalogirou S., 2002, COMPUTERS, V0, P0
+   Lathrop RG, 1998, LANDSCAPE URBAN PLAN, V41, P27, DOI 10.1016/S0169-2046(98)00047-4
+   Lee S, 2004, ENG GEOL, V71, P289, DOI 10.1016/S0013-7952(03)00142-X
+   Lek S., 2000, ARTIFICIAL NEURAL NE, V0, P0
+   LI XZ, 2000, EARTH SCI J CHINA U, V25, P638
+   [梁涛 LIANG Tao], 2007, 地理研究 GEOGRAPHICAL RESEARCH, V26, P782
+   LIN BH, 1996, J GEOLOGICAL HAZARDS, V7, P77
+   LOU BJ, 2007, HYDROGEOLOGY ENG GEO, V5, P77
+   [卢玉东 Lu Yudong], 2005, 自然灾害学报 JOURNAL OF NATURAL DISASTERS, V14, P93
+   Luck M, 2002, LANDSCAPE ECOL, V17, P327, DOI 10.1023/A:1020512723753
+   MacQueen J.B., 1967, PROC 5 BERKELEY S MA, V0, P281
+   Matula M., 1981, B INT ASS ENG GEOL, V24, P235, DOI 10.1007/BF02595273
+   Mejia-Navarro M., 1996, ENVIRON ENG GEOSCI, VII, P299, DOI 10.2113/gseegeosci.II.3.299
+   PEREIRA JMC, 1993, INT J GEOGR INF SYST, V7, P407, DOI 10.1080/02693799308901971
+   Price D.G., 2009, ENG GEOLOGY PRINCIPL, V0, P0
+   PRICE DG, 1996, P 1 C PRIOR GRAT PRO, V0, P0
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Rybaf J, 1973, LANDSLIDE SLOPE STAB, V1, P15
+   Saaty T.L., 1991, PREDICTION PROJECTIO, V0, P0, DOI DOI 10.1007/978-94-015-7952-0
+   Salomon R, 1996, NEURAL NETWORKS, V9, P589, DOI 10.1016/0893-6080(95)00144-1
+   Sarkar BC, 2007, ENVIRON GEOL, V51, P1177, DOI 10.1007/s00254-006-0409-8
+   Store R, 2001, LANDSCAPE URBAN PLAN, V55, P79, DOI 10.1016/S0169-2046(01)00120-7
+   Svoray T, 2005, LANDSCAPE URBAN PLAN, V72, P337, DOI 10.1016/j.landurbplan.2004.05.001
+   Theobald DM, 2000, LANDSCAPE ECOL, V15, P35, DOI 10.1023/A:1008165311026
+   Turer D, 2008, ENVIRON GEOL, V55, P1001, DOI 10.1007/s00254-007-1049-3
+   Tzoulas K, 2007, LANDSCAPE URBAN PLAN, V81, P167, DOI 10.1016/j.landurbplan.2007.02.001
+   United Nations Population Fund-UNPF, 2007, STAT WORLD POP 2007, V0, P0
+   VanRanst E, 1996, GEODERMA, V70, P1, DOI 10.1016/0016-7061(95)00061-5
+   Varnes DJ, 1984, INT ASS ENG GEOLOGY, V3, P63
+   Wagstaff K., 2001, ICML, V0, PP577, DOI 10.1109/TPAMI.2002.1017616
+   [王仝 Wang Quan], 2005, 地球物理学进展 PROGRESS IN GEOPHYSISCS, V20, P877
+   WU H, 1994, GUILIN J METALLURGY, V14, P70
+   [杨少俊 Yang Shaojun], 2009, 生态环境学报 ECOLOGY AND ENVIRONMENTAL SCIENCES, V18, P380
+   YANG XF, 1997, ACTA GEOLOGICA SICHU, V17, P298
+   YENIGUL NB, 2000, THESIS ITC LIB DELFT, V0, P0
+   Zhang L. Q., 2009, SCI TECHNOLOGICAL MA, V26, P65
+   [张永忠 ZHANG Yongzhong], 2007, 地质调查与研究 GEOLOGICAL SURVEY AND RESEARCH, V30, P62
+NR 59
+TC 46
+Z9 60
+U1 4
+U2 88
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0098-3004
+EI 
+J9 COMPUT GEOSCI-UK
+JI Comput. Geosci.
+PD AUG 15
+PY 2011
+VL 37
+IS 8
+BP 992
+EP 1002
+DI 10.1016/j.cageo.2011.03.006
+PG 11
+WC Computer Science, Interdisciplinary Applications; Geosciences, Multidisciplinary
+SC Computer Science; Geology
+GA 815EC
+UT WOS:000294507900003
+DA 2023-04-26
+ER
+
+PT J
+AU Azadeh, A
+   Ghaemmohamadi, ZS
+AF Azadeh, A.
+   Ghaemmohamadi, Z. S.
+TI DESIGN AND IMPLEMENTATION OF A FUZZY COGNITIVE MAPS EXPERT SYSTEM FOR OIL PRICE ESTIMATION
+SO 23RD EUROPEAN MODELING & SIMULATION SYMPOSIUM, EMSS 2011
+LA English
+DT Proceedings Paper
+DE Expert system; Fuzzy cognitive maps; oil price; Estimation
+ID prediction
+AB The objective of this study is to design a fuzzy cognitive maps expert system for estimation of monthly oil price based on intelligent approaches and meta heuristics. Oil price is influenced by several elements, such as politic and social factors. In this paper a fuzzy cognitive maps (FCMs) approach is presented in order to explore the importance of these factors in oil price estimation. To this purpose, causal relationship between affective factors and oil price are depicted and relationship values between them are computed. The proposed expert system utilizes Genetic Algorithm (GA), Artificial Neural Network (ANN) and Adaptive Neural Fuzzy Inference System (ANFIS). The system is coded in .net environment by C# and Mat lab and Excel are also used linked for data processing and evaluation. The expert system identifies the preferred method (from GA, ANN, ANFIS) through mean absolute percentage error (MAPE).
+C1 [Azadeh, A.; Ghaemmohamadi, Z. S.] Univ Tehran, Dept Ind Engn, Coll Engn, Tehran, Iran.
+   [Azadeh, A.] Univ Tehran, Ctr Excellence Intelligent Based Expt Mech, Coll Engn, Tehran, Iran.
+C3 University of Tehran; University of Tehran
+RP Azadeh, A (corresponding author), Univ Tehran, Dept Ind Engn, Coll Engn, Tehran, Iran.
+EM aazadeh@ut.ac.ir; ghaem@ut.ac.ir
+CR Alvarez-Ramirez J, 2003, PHYSICA A, V322, P583, DOI 10.1016/S0378-4371(02)01831-9
+   Amin-Naseri M.R., 2007, P 10 INT C ENG APPL, V0, P160
+   Azadeh A, 2008, INFORM SCIENCES, V178, P4280, DOI 10.1016/j.ins.2008.06.026
+   Azadeh A, 2011, APPL MATH MODEL, V35, P581, DOI 10.1016/j.apm.2010.06.001
+   Azadeh A, 2010, ENERG POLICY, V38, P1529, DOI 10.1016/j.enpol.2009.11.036
+   Box G, 1994, TIME SERIES ANAL FOR, V3rd, P0
+   Fan Y, 2008, ENERG ECON, V30, P889, DOI 10.1016/j.eneco.2006.10.012
+   Kardaras D, 1999, INFORM SOFTWARE TECH, V41, P197, DOI 10.1016/S0950-5849(98)00125-6
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Mearns K, 2003, SAFETY SCI, V41, P641, DOI 10.1016/S0925-7535(02)00011-5
+   Mirmirani S, 2004, ADV ECONOMETRICS, V19, P203, DOI 10.1016/S0731-9053(04)19008-7
+   Panas E, 2000, ENERG ECON, V22, P549, DOI 10.1016/S0140-9883(00)00049-9
+   Perez-Carretero C, 2002, MATH COMPUT SIMULAT, V58, P183, DOI 10.1016/S0378-4754(01)00370-6
+   Sadorsky P, 2006, ENERG ECON, V28, P467, DOI 10.1016/j.eneco.2006.04.005
+   Shambora WE, 2007, ENERG ECON, V29, P18, DOI 10.1016/j.eneco.2005.09.004
+   TABER R, 1991, EXPERT SYST APPL, V2, P83, DOI 10.1016/0957-4174(91)90136-3
+   Wagner WP, 2001, EXPERT SYST, V18, P76, DOI 10.1111/1468-0394.00159
+   Wang Shouyang, 2005, JOURNAL OF SYSTEMS SCIENCE AND COMPLEXITY, V18, P145
+   Wang SY, 2004, LECT NOTES ARTIF INT, V3327, P233
+   WILSON JR, 1992, EVALUATION HUMAN WOR, V0, P141
+   WONG BK, 1995, EUR J OPER RES, V85, P416, DOI 10.1016/0377-2217(95)00047-T
+   Xie W, 2006, LECT NOTES COMPUT SC, V3994, P444
+   Ye M, 2006, ENERG POLICY, V34, P2736, DOI 10.1016/j.enpol.2005.03.017
+   Yousefi S, 2005, CHAOS SOLITON FRACT, V25, P265, DOI 10.1016/j.chaos.2004.11.015
+   Yu LA, 2008, ENERG ECON, V30, P2623, DOI 10.1016/j.eneco.2008.05.003
+   Yu L, 2007, LECT NOTES COMPUT SC, V4489, P925
+   Zhang GP, 2005, EUR J OPER RES, V160, P501, DOI 10.1016/j.ejor.2003.08.037
+NR 27
+TC 0
+Z9 0
+U1 0
+U2 0
+PU DIPTEM UNIV GENOA
+PI GENOA
+PA VIA OPERA OUA 15, GENOA, 16145, ITALY
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2011
+VL 0
+IS 
+BP 562
+EP 567
+DI 
+PG 6
+WC Engineering, Industrial; Operations Research & Management Science
+SC Engineering; Operations Research & Management Science
+GA BE0YE
+UT WOS:000367406100081
+DA 2023-04-26
+ER
+
+PT J
+AU Kosiba, P
+   Mroz, L
+   Kaminski, R
+AF Kosiba, Piotr
+   Mroz, Lucyna
+   Kaminski, Ryszard
+TI ASSESSMENT OF HABITAT CONDITIONS USING SELF-ORGANIZING FEATURE MAPS FOR REINTRODUCTION/INTRODUCTION OF ALDROVANDA VESICULOSA L. IN POLAND
+SO ACTA SOCIETATIS BOTANICORUM POLONIAE
+LA English
+DT Article
+DE SOFM; SOM; ecological modelling; Aldrovanda vesiculosa; ecological restoration; reintroduction; introduction
+ID artificial neural-networks; water-quality; prediction; tool; eutrophication; identification; vegetation
+AB The study objects were Aldrovanda vesiculosa L., an endangered species and filly five water sites in Poland. The aim of the present work was to test the Self-Organizing Feature Map in order to examine and predict water properties and type of trophicity for restoration of the rare plant. Descriptive statistical parameters have been calculated, analysis of variance and cluster analysis were carried out and SOFM model has been constructed for analysed sites. The results of SOFM model and cluster analysis were compared. The study revealed that the ordination of individuals and groups of neurons in topological map of sites are similar in relation to dendrogram of cluster analysis, but not identical. The constructed SOFM model is related with significantly different contents of chemical water properties and type of trophicity. It appeared that sites with A. vesiculosa are predominantly distrophic and eutrophic waters shifted to distrophicity. The elevated model showed the sites with chemical properties favourable for restoration the species. Determined was the range of ecological tolerance of the species in relation to habitat conditions as stenotopic or relatively stenotopic in respect of the earlier accepted eutrophic status. The SOFM appeared to be a useful technique for ordination of ecological data and provides a novel framework for the discovery and forecasting of ecosystem properties constituting a validation of the SOFM method in this type of studies.
+C1 [Kosiba, Piotr; Mroz, Lucyna] Univ Wroclaw, Inst Plant Biol, Dept Ecol Biogeochem & Environm Protect, PL-50328 Wroclaw, Poland.
+   [Kaminski, Ryszard] Univ Wroclaw, PL-50335 Wroclaw, Poland.
+C3 University of Wroclaw; University of Wroclaw
+RP Kosiba, P (corresponding author), Univ Wroclaw, Inst Plant Biol, Dept Ecol Biogeochem & Environm Protect, Kanonia 6-8, PL-50328 Wroclaw, Poland.
+EM kosibap@biol.uni.wroc.pl
+CR Adamec L, 2005, ACTA BOT GALLICA, V152, P239, DOI 10.1080/12538078.2005.10515475
+   ADAMEC L., 1998, WAP KRANT UNPUB, V104, P12
+   Aguilera PA, 2001, WATER RES, V35, P4053, DOI 10.1016/S0043-1354(01)00151-8
+   Anderson NJ, 2005, FRESHWATER BIOL, V50, P1589, DOI 10.1111/j.1365-2427.2005.01433.x
+   [Anonymous], 2001, LIMNOLOGY, V0, P0, DOI DOI 10.1016/B978-0-08-057439-4.50019-8
+   [Anonymous], 1982, EUTROPHICATION WATER, V0, P0
+   [Anonymous], 1990, NEUROCOMPUTING, V0, P0
+   [Anonymous], 2002, AIR POLLUTION PLANT, V0, P0
+   [Anonymous], 2012, NUMERICAL ECOLOGY 3, V0, P0
+   [Anonymous], 2001, SELF ORG MAPS, V0, P0, DOI DOI 10.1007/978-3-642-56927-2_5
+   [Anonymous], 1764, 186 DZIENN UST RP RO, V0, P0
+   Chon TS, 1996, ECOL MODEL, V90, P69, DOI 10.1016/0304-3800(95)00148-4
+   COLASANTI R L, 1991, BINARY COMPUTING IN MICROBIOLOGY, V3, P13
+   EDWARDS M, 1995, TRENDS ECOL EVOL, V10, P153, DOI 10.1016/S0169-5347(00)89026-6
+   Giraudel JL, 2001, ECOL MODEL, V146, P329, DOI 10.1016/S0304-3800(01)00324-6
+   Gumrah F, 2000, WATER AIR SOIL POLL, V119, P275, DOI 10.1023/A:1005165315197
+   Ha HJ, 2003, WATER RES, V37, P4222, DOI 10.1016/S0043-1354(03)00344-0
+   HUTCHINSON E.G., 1975, TREATISE LIMNOLOGY, VIII, P0
+   KAMINSKI R., 2008, GIOS, V1516, P1
+   KAMINSKI R., 1995, PRACE BOT, V67, P157
+   Kaminski R., 2006, PR OGRODU BOT UNIW W, V8, P105
+   Karul C, 2000, ECOL MODEL, V134, P145, DOI 10.1016/S0304-3800(00)00360-4
+   KAZMIERCZAKOWA R., 2001, POLSKA CZERWONA KSIE, V0, P0
+   Kosiba P, 2004, ACTA SOC BOT POL, V73, P335
+   KOSIBA P., 2010, MODELE EKOLOGICZNE R, V0, P121
+   Kosiba P, 2007, ACTA SOC BOT POL, V76, P255, DOI 10.5586/asbp.2007.029
+   KRZYWIECKA M., 1989, PRZEWODNIK CWICZEN S, V0, P0
+   Lee BH, 2006, WATER AIR SOIL POLL, V174, P279, DOI 10.1007/s11270-006-9113-2
+   Lek S, 1999, ECOL MODEL, V120, P65, DOI 10.1016/S0304-3800(99)00092-7
+   Mirek Z., 2006, CZERWONA LISTA ROSLI, V0, P0
+   Ozesmi SL, 2006, ECOL MODEL, V195, P83, DOI 10.1016/j.ecolmodel.2005.11.012
+   Paruelo JM, 1997, ECOL MODEL, V98, P173, DOI 10.1016/S0304-3800(96)01913-8
+   Pastor-Barcenasa O, 2005, ECOL MODEL, V182, P149, DOI 10.1016/j.ecolmodel.2004.07.015
+   PULLIN A.S., 2002, CONSERV BIOL, V0, P284
+   Pullin AS, 2006, CONSERV BIOL, V20, P1647, DOI 10.1111/j.1523-1739.2006.00485.x
+   Purvis A, 2000, BIOESSAYS, V22, P1123, DOI 10.1002/1521-1878(200012)22:12<1123::AID-BIES10>3.0.CO;2-C
+   Roman CT, 2001, HYDROBIOLOGIA, V443, P31, DOI 10.1023/A:1017540002675
+   ROY S, 1992, ENVIRON EXP BOT, V32, P457, DOI 10.1016/0098-8472(92)90058-A
+   Samecka-Cymerman A, 2007, CHEMOSPHERE, V67, P954, DOI 10.1016/j.chemosphere.2006.11.001
+   Scardi M, 2001, ECOL MODEL, V146, P33, DOI 10.1016/S0304-3800(01)00294-0
+   Smith VH, 1999, ENVIRON POLLUT, V100, P179, DOI 10.1016/S0269-7491(99)00091-3
+   Sokal R. R., 2003, BIOMETRY PRINCIPLES, V0, P0
+   SOKOLOWSKI A., 2010, STAT BADANIACH NAUKO, V0, P25
+   StatSoft Inc, 2009, STAT DAT AN SOFTW SY, V0, P0
+   Tadeusiewicz R., 1998, ELEMENTARNE WPROWADZ, V0, P0
+   TADEUSIEWICZ R, 2000, PRACE MINERALOGICZNE, V89, P9
+   TADEUSIEWICZ R., 1993, SIECI NEURONOWE, V0, P0
+   Walley W. J., 2000, ENVIRONMENTAL SOFTWARE SYSTEMS. ENVIRONMENTAL INFORMATION AND DECISION SUPPORT. IFIP TC5 WG5.11. 3RD INTERNATIONAL SYMPOSIUM, V0, P27
+   WIEGLEB G, 1981, HYDROBIOLOGIA, V79, P91, DOI 10.1007/BF00005822
+   Zajac A., 2001, DISTRIBUTION ATLAS V, V0, P0
+   ZAJAC K, 1994, ZARYS METOD STATYSTY, V0, P0
+   ZARZYCKI K., 1986, LISTA ROSLIN WYMIERJ, V0, P0
+NR 52
+TC 3
+Z9 3
+U1 1
+U2 7
+PU POLSKIE TOWARZYSTWO BOTANICZNE
+PI WARSAW
+PA AL UJAZDOWSKIE 4, 00-478 WARSAW, POLAND
+SN 0001-6977
+EI 2083-9480
+J9 ACTA SOC BOT POL
+JI Acta Soc. Bot. Pol.
+PD JUN 15
+PY 2011
+VL 80
+IS 2
+BP 139
+EP 148
+DI 10.5586/asbp.2011.024
+PG 10
+WC Plant Sciences
+SC Plant Sciences
+GA 789DM
+UT WOS:000292493600006
+DA 2023-04-26
+ER
