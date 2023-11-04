@@ -1,0 +1,524 @@
+
+PT J
+AU Gong, Z
+   Lin, HJ
+   Zhang, DD
+   Luo, ZP
+   Zelek, J
+   Chen, YP
+   Nurunnabi, A
+   Wang, C
+   Li, J
+AF Gong, Zheng
+   Lin, Haojia
+   Zhang, Dedong
+   Luo, Zhipeng
+   Zelek, John
+   Chen, Yiping
+   Nurunnabi, Abdul
+   Wang, Cheng
+   Li, Jonathan
+TI A Frustum-based probabilistic framework for 3D object detection by fusion of LiDAR and camera data
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE 3D object detection; CNN; Deep learning; LiDAR point clouds; MLS; SLAM
+ID point clouds; recognition
+AB This paper presents a real-time 3D object detector based on LiDAR based Simultaneous Localization and Mapping (LiDAR-SLAM). The 3D point clouds acquired by mobile LiDAR systems, within the environment of buildings, are usually highly sparse, irregularly distributed, and often contain occlusion and structural ambiguity. Existing 3D object detection methods based on Convolutional Neural Networks (CNNs) rely heavily on both the stability of the 3D features and a large amount of labelling. A key challenge is efficient detection of 3D objects in point clouds of large-scale building environments without pre-training the 3D CNN model. To project image-based object detection results and LiDAR-SLAM results onto a 3D probability map, we combine visual and range information into a frustum-based probabilistic framework. As such, we solve the sparse and noise problem in LiDAR-SLAM data, in which any point cloud descriptor can hardly be applied. The 3D object detection results, obtained using both backpack LiDAR dataset and the well-known KITTI Vision Benchmark Suite, show that our method outperforms the state-of-the-art methods for object localization and bounding box estimation.
+C1 [Gong, Zheng; Lin, Haojia; Luo, Zhipeng; Chen, Yiping; Wang, Cheng; Li, Jonathan] Xiamen Univ, Fujian Key Lab Sensing & Comp Smart Cities, Sch Informat Sci & Engn, Xiamen 361005, Peoples R China.
+   [Gong, Zheng; Zhang, Dedong; Zelek, John; Li, Jonathan] Univ Waterloo, Dept Syst Design Engn, Waterloo, ON N2L 3G1, Canada.
+   [Gong, Zheng; Zhang, Dedong; Zelek, John; Li, Jonathan] Univ Waterloo, Dept Geog & Environm Management, Waterloo, ON N2L 3G1, Canada.
+   [Nurunnabi, Abdul] Univ Rajshahi, SLG, Dept Stat, Rajshahi 6205, Bangladesh.
+C3 Xiamen University; University of Waterloo; University of Waterloo; University of Rajshahi
+RP Li, J (corresponding author), Univ Waterloo, Dept Syst Design Engn, Waterloo, ON N2L 3G1, Canada.; Li, J (corresponding author), Univ Waterloo, Dept Geog & Environm Management, Waterloo, ON N2L 3G1, Canada.
+EM gongzheng@stu.xmu.edu.cn; hlin@stu.xmu.edu.cn; jzelek@uwaterloo.ca; chenyiping@xmu.edu.cn; cwang@xmu.edu.cn; junli@xmu.edu.cn
+FU National Natural Science Foundation of China [41871380, 41471379, 61771413]; China Scholarships Council [201806310155]
+CR [Anonymous], 2017, C COMP VIS PATT REC, V0, P0
+   Breckon TP, 2005, COMPUT VIS IMAGE UND, V99, P499, DOI 10.1016/j.cviu.2005.05.002
+   Broggi A, 2013, IEEE T INTELL TRANSP, V14, P1403, DOI 10.1109/TITS.2013.2262331
+   Chen X, 2015, LECT NOTES BUSINESS, V0, P424
+   Chen XZ, 2017, PROC CVPR IEEE, V0, PP6526, DOI 10.1109/CVPR.2017.691
+   Dai A, 2017, PROC CVPR IEEE, V0, PP6545, DOI 10.1109/CVPR.2017.693
+   Dong Z, 2017, ISPRS J PHOTOGRAMM, V130, P431, DOI 10.1016/j.isprsjprs.2017.06.012
+   Engel J, 2018, IEEE T PATTERN ANAL, V40, P611, DOI 10.1109/TPAMI.2017.2658577
+   Federico T., 2010, PROC ACM WORKSHOP 3D, V0, PP57, DOI 10.1145/1877808.1877821
+   Felzenszwalb P, 2008, PROC CVPR IEEE, V0, P1984
+   Forster C, 2014, IEEE INT CONF ROBOT, V0, PP15, DOI 10.1109/ICRA.2014.6906584
+   Frome A, 2004, LECT NOTES COMPUT SC, V3023, P224
+   Geiger A, 2012, PROC CVPR IEEE, V0, PP3354, DOI 10.1109/CVPR.2012.6248074
+   Girshick R, 2014, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2014.81
+   Gong Z, 2018, IEEE T INSTRUM MEAS, V67, P238, DOI 10.1109/TIM.2017.2757148
+   Guo YL, 2013, INT J COMPUT VISION, V105, P63, DOI 10.1007/s11263-013-0627-y
+   Gupta S, 2014, LECT NOTES COMPUT SC, V8695, P345, DOI 10.1007/978-3-319-10584-0_23
+   Hess W, 2016, IEEE INT CONF ROBOT, V0, PP1271, DOI 10.1109/ICRA.2016.7487258
+   Johnson AE, 1999, IEEE T PATTERN ANAL, V21, P433, DOI 10.1109/34.765655
+   Jolliffe IT, 2016, PHILOS T R SOC A, V374, P0, DOI 10.1098/rsta.2015.0202
+   Ku J, 2018, IEEE INT C INT ROBOT, V0, PP5750, DOI 10.1109/IROS.2018.8594049
+   Luo ZP, 2019, ISPRS J PHOTOGRAMM, V150, P44, DOI 10.1016/j.isprsjprs.2019.01.024
+   Ma LF, 2019, IEEE J-STARS, V12, P1572, DOI 10.1109/JSTARS.2019.2904514
+   Ma LF, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101531
+   Munoz D, 2009, PROC CVPR IEEE, V0, PP975, DOI 10.1109/CVPRW.2009.5206590
+   Mur-Artal R, 2015, IEEE T ROBOT, V31, P1147, DOI 10.1109/TRO.2015.2463671
+   Nuchter A, 2007, J FIELD ROBOT, V24, P699, DOI 10.1002/rob.20209
+   Nurunnabi A, 2016, IEEE T GEOSCI REMOTE, V54, P4790, DOI 10.1109/TGRS.2016.2551546
+   Qi CR, 2018, PROC CVPR IEEE, V0, PP918, DOI 10.1109/CVPR.2018.00102
+   Quigley M, 2009, IEEE INT CONF ROBOT, V0, P3604
+   Redmon J, 2017, PROC CVPR IEEE, V0, PP6517, DOI 10.1109/CVPR.2017.690
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Rusu RB, 2009, IEEE INT CONF ROBOT, V0, P1848
+   Schreiber M, 2013, IEEE INT VEH SYM, V0, PP449, DOI 10.1109/IVS.2013.6629509
+   Segal A., 2009, ROBOTICS SCI SYSTEMS, V2, P4, DOI 10.15607/RSS.2009.V.021
+   Seo YW, 2015, IEEE T INTELL TRANSP, V16, P708, DOI 10.1109/TITS.2014.2335535
+   Song SR, 2016, PROC CVPR IEEE, V0, PP808, DOI 10.1109/CVPR.2016.94
+   Taskar B, 2004, ADV NEUR IN, V16, P25
+   Trevor A.J., 2013, P 3 WORKSHOP SEMANTI, V0, P1
+   Triggs, 2005, PROC CVPR IEEE, V1, P886, DOI 10.1109/CVPR.2005.177
+   Viola P, 2001, PROC CVPR IEEE, V0, PP511, DOI 10.1109/cvpr.2001.990517
+   Wang C, 2018, ISPRS J PHOTOGRAMM, V143, P150, DOI 10.1016/j.isprsjprs.2018.03.025
+   Xie SN, 2018, PROC CVPR IEEE, V0, PP4606, DOI 10.1109/CVPR.2018.00484
+   Xiong T, 2014, BIOMED CIRC SYST C, V0, PP9, DOI 10.1109/BioCAS.2014.6981632
+   Zai DW, 2018, IEEE T INTELL TRANSP, V19, P802, DOI 10.1109/TITS.2017.2701403
+   Zai DW, 2017, ISPRS J PHOTOGRAMM, V134, P15, DOI 10.1016/j.isprsjprs.2017.10.001
+   Zhou K, 2016, DESTECH TRANS COMP, V0, P0
+NR 50
+TC 26
+Z9 26
+U1 10
+U2 64
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD JAN 15
+PY 2020
+VL 159
+IS 
+BP 90
+EP 100
+DI 10.1016/j.isprsjprs.2019.10.015
+PG 11
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA KE7OA
+UT WOS:000508739800008
+DA 2023-04-26
+ER
+
+PT J
+AU Ruiz, LGB
+   Pegalajar, MG
+   Molina-Solana, M
+   Guo, YK
+AF Ruiz, L. G. B.
+   Pegalajar, M. G.
+   Molina-Solana, M.
+   Guo, Yi-Ke
+TI A case study on understanding energy consumption through prediction and visualization (VIMOEN)
+SO JOURNAL OF BUILDING ENGINEERING
+LA English
+DT Article
+DE Energy efficiency; Energy forecasting; Visualization; Mapbox; Energy monitoring
+ID neural-networks; external temperature; regression; algorithm; load; classification; optimization; management; efficiency; systems
+AB Energy efficiency has emerged as an overarching concern due to the high pollution and cost associated with operating heating, ventilation and air-conditioning systems in buildings, which are an essential part of our day to day life. Besides, energy monitoring becomes one of the most important research topics nowadays as it enables us the possibility of understanding the consumption of the facilities. This, along with energy forecasting, represents a very decisive task for energy efficiency. The goal of this study is divided into two parts. First to provide a methodology to predict energy usage every hour. To do so, several Machine Learning technologies were analysed: Trees, Support Vector Machines and Neural Networks. Besides, as the University of Granada lacks a tool to properly monitoring those data, a second aim is to propose an intelligent system to visualize and to use those models in order to predict energy consumption in real-time. To this end, we designed VIMOEN (VIsual MOnitoring of ENergy), a web-based application to provide not only visual information about the energy consumption of a set of geographically-distributed buildings but also expected expenditures in the near future. The system has been designed to be easy-to-use and intuitive for non-expert users. Our system was validated on data coming from buildings of the UGR and the experiments show that the Elman Neural Networks proved to be the most accurate and stable model and since the 5th hour the results maintain accuracy.
+C1 [Ruiz, L. G. B.; Pegalajar, M. G.; Molina-Solana, M.] Univ Granada, Dept Comp Sci & Artificial Intelligence, Granada, Spain.
+   [Molina-Solana, M.; Guo, Yi-Ke] Imperial Coll, Data Sci Inst, London, England.
+C3 University of Granada; Imperial College London
+RP Ruiz, LGB (corresponding author), C Periodista Daniel Saucedo Aranda Sn, Granada 18071, Spain.
+EM bacaruiz@ugr.es; mcarmen@decsai.ugr.es; m.molina-solana@imperial.ac.uk; y.guo@imperial.ac.uk
+FU Department of Computer Science and Artificial Intelligence of the University of Granada; Approximate Reasoning and Artificial Intelligence Group [TIC111]; European Union [743623, 754446];  [TIN201564776-C3-1-R]
+CR Ahn J, 2017, J BUILD ENG, V12, P17, DOI 10.1016/j.jobe.2017.04.014
+   Aldawood S, 2016, 2016 IEEE 4TH INTERNATIONAL CONFERENCE ON FUTURE INTERNET OF THINGS AND CLOUD WORKSHOPS (FICLOUDW), V0, PP7, DOI 10.1109/W-FiCloud.2016.19
+   Andiojaya A, 2019, EXPERT SYST APPL, V129, P10, DOI 10.1016/j.eswa.2019.03.044
+   Aznavi S, 2020, J BUILD ENG, V29, P0, DOI 10.1016/j.jobe.2019.101149
+   Ruiz LGB, 2016, ENERGIES, V9, P0, DOI 10.3390/en9090684
+   Bilous I, 2018, J BUILD ENG, V20, P327, DOI 10.1016/j.jobe.2018.07.021
+   Bull AD, 2011, J MACH LEARN RES, V12, P2879
+   Chen JD, 2019, SUSTAIN CITIES SOC, V44, P604, DOI 10.1016/j.scs.2018.10.017
+   Davlea L, 2016, INT CONF EXPO ELECTR, V0, PP5, DOI 10.1109/ICEPE.2016.7781292
+   Deb C, 2017, RENEW SUST ENERG REV, V74, P902, DOI 10.1016/j.rser.2017.02.085
+   Deb C, 2016, ENERG BUILDINGS, V121, P284, DOI 10.1016/j.enbuild.2015.12.050
+   Elbeltagi E, 2017, J BUILD ENG, V13, P127, DOI 10.1016/j.jobe.2017.07.012
+   Fu TC, 2011, ENG APPL ARTIF INTEL, V24, P164, DOI 10.1016/j.engappai.2010.09.007
+   Fumo N, 2015, RENEW SUST ENERG REV, V47, P332, DOI 10.1016/j.rser.2015.03.035
+   Garcia-Hinde O, 2018, ENG APPL ARTIF INTEL, V69, P157, DOI 10.1016/j.engappai.2017.12.003
+   Gelazanskas L, 2014, SUSTAIN CITIES SOC, V11, P22, DOI 10.1016/j.scs.2013.11.001
+   Gomez-Romero J, 2019, IEEE ACCESS, V7, P38748, DOI 10.1109/ACCESS.2019.2906311
+   Granderson J, 2016, ENERG EFFIC, V9, P1369, DOI 10.1007/s12053-016-9428-9
+   Huacon C. F., 2017, UND RES TECHN C URTC, V0, PP1, DOI 10.1109/URTC.2017.8284174
+   Iruela JRS, 2020, ENERG CONVERS MANAGE, V207, P0, DOI 10.1016/j.enconman.2020.112535
+   Duque-Pintor FJ, 2016, ENERGIES, V9, P0, DOI 10.3390/en9090752
+   Jung HC, 2015, ENERG BUILDINGS, V90, P76, DOI 10.1016/j.enbuild.2014.12.029
+   Kayacan E, 2010, EXPERT SYST APPL, V37, P1784, DOI 10.1016/j.eswa.2009.07.064
+   Leon-Alcaide P, 2020, INFORM SCIENCES, V511, P74, DOI 10.1016/j.ins.2019.09.044
+   Lopes MAR, 2012, RENEW SUST ENERG REV, V16, P4095, DOI 10.1016/j.rser.2012.03.034
+   Luzi M, 2019, J BUILD ENG, V21, P28, DOI 10.1016/j.jobe.2018.09.022
+   MapBox & Llc, 2018, MAPBOX GL JS API, V0, P0
+   Martinez-Municio S, 2019, INT J COMPUT INT SYS, V12, P259, DOI 10.2991/ijcis.2018.125905639
+   Molina-Solana M, 2017, RENEW SUST ENERG REV, V70, P598, DOI 10.1016/j.rser.2016.11.132
+   Moreno-Garcia J, 2019, IEEE T FUZZY SYST, V27, P1818, DOI 10.1109/TFUZZ.2019.2892340
+   Murshed SM, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7070276
+   Nagy GI, 2016, INT J FORECASTING, V32, P1087, DOI 10.1016/j.ijforecast.2015.11.013
+   Najjar M, 2017, J BUILD ENG, V14, P115, DOI 10.1016/j.jobe.2017.10.005
+   Natconsumers, 2015, NAT LANG EN PROM SUS, V0, P0
+   Oh TK, 2018, ENERGIES, V11, P0, DOI 10.3390/en11071736
+   Oskouie P, 2017, J COMPUT CIVIL ENG, V31, P0, DOI 10.1061/(ASCE)CP.1943-5487.0000711
+   Perez-Lombard L, 2008, ENERG BUILDINGS, V40, P394, DOI 10.1016/j.enbuild.2007.03.007
+   Prasad AM, 2006, ECOSYSTEMS, V9, P181, DOI 10.1007/s10021-005-0054-1
+   Ribeiro GT, 2019, ENG APPL ARTIF INTEL, V82, P272, DOI 10.1016/j.engappai.2019.03.012
+   Rodrigues N., 2017, P 10 INT S VISUAL IN, V0, P37
+   Ruiz LGB, 2019, APPL SOFT COMPUT, V76, P356, DOI 10.1016/j.asoc.2018.12.028
+   Ruiz LGB, 2018, EXPERT SYST APPL, V92, P380, DOI 10.1016/j.eswa.2017.09.059
+   Ruiz L.G.B., 2020, GESTION EFICIENCIA E, V0, P0
+   Runge J, 2020, J BUILD ENG, V29, P0, DOI 10.1016/j.jobe.2019.101144
+   Santarnouris M, 2015, ENERG BUILDINGS, V98, P125, DOI 10.1016/j.enbuild.2014.08.050
+   Shiel P, 2016, J BUILD ENG, V7, P281, DOI 10.1016/j.jobe.2016.07.001
+   Shiel P, 2015, J BUILD ENG, V3, P184, DOI 10.1016/j.jobe.2015.07.004
+   Tian ZC, 2019, J BUILD ENG, V25, P0, DOI 10.1016/j.jobe.2019.100796
+   Williams J, 2016, J BUILD ENG, V6, P65, DOI 10.1016/j.jobe.2016.02.007
+   Xu M, 2005, REMOTE SENS ENVIRON, V97, P322, DOI 10.1016/j.rse.2005.05.008
+   Yuan CQ, 2016, ENERGY, V100, P384, DOI 10.1016/j.energy.2016.02.001
+   Zhu YM, 2018, J BUILD ENG, V19, P302, DOI 10.1016/j.jobe.2018.05.017
+NR 54
+TC 14
+Z9 15
+U1 2
+U2 15
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2352-7102
+EI 
+J9 J BUILD ENG
+JI J. Build. Eng.
+PD JUL 15
+PY 2020
+VL 30
+IS 
+BP 
+EP 
+DI 10.1016/j.jobe.2020.101315
+PG 14
+WC Construction & Building Technology; Engineering, Civil
+SC Construction & Building Technology; Engineering
+GA LY0PU
+UT WOS:000540227000009
+DA 2023-04-26
+ER
+
+PT J
+AU Syifa, M
+   Kadavi, PR
+   Lee, CW
+   Pradhan, B
+AF Syifa, Mutiara
+   Kadavi, Prima Riza
+   Lee, Chang-Wook
+   Pradhan, Biswajeet
+TI Landsat images and artificial intelligence techniques used to map volcanic ashfall and pyroclastic material following the eruption of Mount Agung, Indonesia
+SO ARABIAN JOURNAL OF GEOSCIENCES
+LA English
+DT Article
+DE Artificial neural network; Geographic information system; Landsat imagery; Mount Agung; Support vector machine; Volcanic eruption
+ID support vector machine; neural-network; classification techniques; cover; recognition; landslide; forest; flood
+AB Of the 829 active volcanoes distributed worldwide, 129 are located in Indonesia. Two recent eruptions of Mount Agung on Bali Island, Indonesia, on November 21, 2017, and January 11, 2018, produced massive ash, steam, and gas emissions. Rainwater carried these pyroclastic materials in cold lahars to southwestern parts of the island. Because explosive eruptions of Mount Agung during 1963-1964 produced voluminous ashfall and catastrophic pyroclastic flows, the monitoring of this volcano has been considered essential. Land cover (LC) mapping is one method commonly used to monitor the spread of materials in volcanic areas due to the inaccessibility of field data during ongoing eruptions. We analyzed multispectral data using two different classifiers: an artificial neural network (ANN) and a support vector machine (SVM). Landsat imagery was used to generate a LC map with four feature classes: rock and sand, vegetation, cloud, and shadow. The ANN method was more accurate than the SVM method, with classification accuracies of 94.67% and 97% for the first and second Mount Agung eruptions, respectively. The SVM classifier was better than ANN at classifying images taken prior to eruption, with an overall accuracy of 91.60%. Thus, both classifiers accurately distinguished eruption products and environmental features, and are suitable for LC classification in volcanic regions.
+C1 [Syifa, Mutiara; Kadavi, Prima Riza; Lee, Chang-Wook] Kangwon Natl Univ, Div Sci Educ, 1 Kangwondaehak Gil, Chuncheon Si 24341, Gangwon Do, South Korea.
+   [Pradhan, Biswajeet] Univ Technol Sydney, Fac Engn & IT, Sch Syst Management & Leadership, Sydney, NSW, Australia.
+C3 Kangwon National University; University of Technology Sydney
+RP Lee, CW (corresponding author), Kangwon Natl Univ, Div Sci Educ, 1 Kangwondaehak Gil, Chuncheon Si 24341, Gangwon Do, South Korea.
+EM mutiarsyifa@gmail.com; rizakadavi@gmail.com; cwlee@kangwon.ac.kr
+FU National Research Foundation of Korea; Korea government [2017R1A2B4003258]
+CR Asner GP, 2001, INT J REMOTE SENS, V22, P3855, DOI 10.1080/01431160010006926
+   Blong R.J., 1984, VOLCANIC HAZARDS SOU, V0, P0
+   Calomarde R, 1998, AS C REM SENS MAN, V0, P0
+   Castro OT, 2004, GOTTINGER GEOGRAPHIS, V113, P223
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   DILMY ANWARL, 1965, PACIFIC SCI, V19, P498
+   Dixon B, 2008, INT J REMOTE SENS, V29, P1185, DOI 10.1080/01431160701294661
+   Foody GM, 2000, J INTELL ROBOT SYST, V29, P433, DOI 10.1023/A:1008112125526
+   Foody GM, 2004, REMOTE SENS ENVIRON, V93, P107, DOI 10.1016/j.rse.2004.06.017
+   Foody GM, 2004, IEEE T GEOSCI REMOTE, V42, P1335, DOI 10.1109/TGRS.2004.827257
+   Foody GM, 1996, PHOTOGRAMM ENG REM S, V62, P491
+   Gertisser R, 2018, GEOL TODAY, V34, P62
+   Global Volcanism Program, 2018, B GLOB VOL NETW, V43, P0
+   Hansen M, 1996, INT J REMOTE SENS, V17, P1075, DOI 10.1080/01431169608949069
+   HEPNER GF, 1990, PHOTOGRAMM ENG REM S, V56, P469
+   Joyce K. E., 2008, P IGARSS IEEE INT JU, V0, P1251
+   Joyce KE, 2009, PROG PHYS GEOG, V33, P183, DOI 10.1177/0309133309339563
+   Kadavi PR, 2017, APPL SCI-BASEL, V7, P0, DOI 10.3390/app7090935
+   Kavzoglu T, 2009, ENVIRON MODELL SOFTW, V24, P850, DOI 10.1016/j.envsoft.2008.11.012
+   Kerle N, 2003, INT J REMOTE SENS, V24, P4791, DOI 10.1080/0143116031000068187
+   Khorram S., 1999, ACCURACY ASSESSMENT, V0, P0
+   Kusumadinata K, 1979, DASAR GUNUNGAPI INDO, V0, P0
+   Liu M, 2013, SENSOR ACTUAT B-CHEM, V177, P970, DOI 10.1016/j.snb.2012.11.071
+   Liu QS, 2014, P INT CONF NAT COMPU, V0, PP665, DOI 10.1109/ICNC.2014.6975915
+   Lu DS, 2012, PESQUI AGROPECU BRAS, V47, P1185, DOI 10.1590/S0100-204X2012000900004
+   Mazher A, 2012, PROCEEDINGS OF INTERNATIONAL CONFERENCE ON COMPUTER VISION IN REMOTE SENSING, V0, P285
+   Mountrakis G, 2011, ISPRS J PHOTOGRAMM, V66, P247, DOI 10.1016/j.isprsjprs.2010.11.001
+   Pal M, 2003, REMOTE SENS ENVIRON, V86, P554, DOI 10.1016/S0034-4257(03)00132-9
+   Parvathy S, 2014, 15 ESRI IND US C 201, V0, P0
+   Pieri D, 2004, J VOLCANOL GEOTH RES, V135, P13, DOI 10.1016/j.jvolgeores.2003.12.018
+   Pugnaghi S, 2006, J VOLCANOL GEOTH RES, V152, P74, DOI 10.1016/j.jvolgeores.2005.10.004
+   Realmuto VJ, 1997, J GEOPHYS RES-SOL EA, V102, P15057, DOI 10.1029/96JB03916
+   Sanyal J, 2004, NAT HAZARDS, V33, P283, DOI 10.1023/B:NHAZ.0000037035.65105.95
+   Shao Y, 2012, ISPRS J PHOTOGRAMM, V70, P78, DOI 10.1016/j.isprsjprs.2012.04.001
+   Smith AMS, 2002, INT J REMOTE SENS, V23, P1733, DOI 10.1080/01431160110106104
+   Srivastava PK, 2012, ADV SPACE RES, V50, P1250, DOI 10.1016/j.asr.2012.06.032
+   Szuster BW, 2011, APPL GEOGR, V31, P525, DOI 10.1016/j.apgeog.2010.11.007
+   Torres R, 2004, J VOLCANOL GEOTH RES, V138, P371, DOI 10.1016/j.jvolgeores.2004.08.005
+   Townshend JR, 2012, INT J DIGIT EARTH, V5, P373, DOI 10.1080/17538947.2012.713190
+   Tralli DM, 2005, ISPRS J PHOTOGRAMM, V59, P185, DOI 10.1016/j.isprsjprs.2005.02.002
+   Tseng MH, 2008, ISPRS J PHOTOGRAMM, V63, P202, DOI 10.1016/j.isprsjprs.2007.09.001
+   Turner W, 2015, BIOL CONSERV, V182, P173, DOI 10.1016/j.biocon.2014.11.048
+   Wang QA, 2010, SCI CHINA EARTH SCI, V53, P51, DOI 10.1007/s11430-010-4139-0
+   WATANACHATURAPO.P, 2004, AM SOC PHOT REM SENS, V0, P0
+   Westen C. V., 2000, INT ARCH PHOTOGRAMM, V33, P1609
+   WHELLER GE, 1986, J VOLCANOL GEOTH RES, V28, P363, DOI 10.1016/0377-0273(86)90031-4
+   WHITFORD DJ, 1975, GEOCHIM COSMOCHIM AC, V39, P1287, DOI 10.1016/0016-7037(75)90136-2
+   [修丽娜 Xiu Lina], 2003, 遥感技术与应用 REMOTE SENSING TECHNOLOGY AND APPLICATION, V18, P339
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Zen M., 1964, B VOLCANOL, V27, P269, DOI 10.1007/BF02597526
+   Zhai SJ, 2014, KNOWL-BASED SYST, V65, P50, DOI 10.1016/j.knosys.2014.04.005
+   Zhan X, 2002, REMOTE SENS ENVIRON, V83, P336, DOI 10.1016/S0034-4257(02)00081-0
+NR 52
+TC 2
+Z9 2
+U1 0
+U2 4
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1866-7511
+EI 1866-7538
+J9 ARAB J GEOSCI
+JI Arab. J. Geosci.
+PD JAN 30
+PY 2020
+VL 13
+IS 3
+BP 
+EP 
+DI 10.1007/s12517-020-5060-2
+PG 12
+WC Geosciences, Multidisciplinary
+SC Geology
+GA KM1OK
+UT WOS:000513888900005
+DA 2023-04-26
+ER
+
+PT J
+AU Elahe, MF
+   Jin, M
+   Zeng, P
+AF Elahe, Md Fazla
+   Jin, Min
+   Zeng, Pan
+TI An Adaptive and Parallel Forecasting Strategy for Short-Term Power Load Based on Second Learning of Error Trend
+SO IEEE ACCESS
+LA English
+DT Article
+DE Adaptive and parallel forecasting; short-term load forecasting; smart grid; second learning of error trend; training set classification
+ID electricity load; feature-selection; neural-network; model; optimization; algorithm; engine
+AB Modeling an accurate forecasting model for short-term load is still challenging due to the diverse causes of load changing and lack of information on many of these causes. In this paper, error trend is used to reveal the trend effect caused by unknown load affecting factors and proposed adaptive second learning of error trend (A-SLET) to self-adapt the trend effect. Furthermore, the training set is classified based on balance point temperature and then parallelly trained and tested adaptive forecaster for hot days and adaptive forecaster for cold days with proper data. Combining A-SLET with parallel forecasting and training set classification, Adaptive and Parallel forecasting strategy based on Second Learning of Error Trend (AP-SLET) is proposed. The work studied two distinct load patterns, one in the USA and the other in Australia. Considering the yearly forecasting horizon, MAPE of the adaptive and parallel forecasting strategy is 1.87%-4.04% for ME-Maine of New England and 2.81%-4.41% for New South Wales. Compared to the state-of-art forecasting methods, MAPE of the adaptive and parallel forecasting strategy is reduced by 17.03%-33.33%, RMSE and MAE are reduced by 34.05% and 35.38% respectively. The experimental results demonstrate the proposed strategy can transform unknown and unavailable load affecting factors into known forecasting features and then adapt it to improve forecasting performance. The proposed strategy is also forecaster independent and equally applicable to almost all load scenarios regardless of geographical and seasonal differences.
+C1 [Elahe, Md Fazla; Jin, Min; Zeng, Pan] Hunan Univ, Coll Comp Sci & Elect Engn, Changsha 410082, Peoples R China.
+C3 Hunan University
+RP Jin, M (corresponding author), Hunan Univ, Coll Comp Sci & Elect Engn, Changsha 410082, Peoples R China.
+EM jinmin@hnu.edu.cn
+FU National Natural Science Foundation of China [61773157]; Hunan Provincial Innovation Foundation for Postgraduate [CX2018B231]; Changsha Key Research and Development Program [KQ2004011]
+CR Ahmed T, 2018, ENERGY, V142, P911, DOI 10.1016/j.energy.2017.10.070
+   Alipour P, 2019, ENERGY, V185, P1143, DOI 10.1016/j.energy.2019.07.074
+   Barghinia S., 2008, P 5 INT C EUR EL MAR, V0, P5
+   Barman M, 2018, ENERGY, V145, P710, DOI 10.1016/j.energy.2017.12.156
+   Boroojeni KG, 2017, ELECTR POW SYST RES, V142, P58, DOI 10.1016/j.epsr.2016.08.031
+   Cerne G, 2018, IEEE T IND ELECTRON, V65, P7406, DOI 10.1109/TIE.2018.2795555
+   Chen Y, 2010, IEEE T POWER SYST, V25, P322, DOI 10.1109/TPWRS.2009.2030426
+   Chen YB, 2017, APPL ENERG, V195, P659, DOI 10.1016/j.apenergy.2017.03.034
+   Cheng HH, 2010, PROCEEDINGS OF THE ASME INTERNATIONAL DESIGN ENGINEERING TECHNICAL CONFERENCES AND COMPUTERS AND INFORMATION IN ENGINEERING CONFERENCE, VOL 3, P1
+   Dudek G, 2017, IEEE T EVOLUT COMPUT, V21, P116, DOI 10.1109/TEVC.2016.2586049
+   Ghadimi N, 2018, ENERGY, V161, P130, DOI 10.1016/j.energy.2018.07.088
+   Jin M, 2012, EXPERT SYST APPL, V39, P773, DOI 10.1016/j.eswa.2011.07.072
+   Kandil MS, 2002, IEEE T POWER SYST, V17, P491, DOI 10.1109/TPWRS.2002.1007923
+   Karimi M, 2018, ENERGY, V144, P928, DOI 10.1016/j.energy.2017.12.083
+   Kong WC, 2019, IEEE T SMART GRID, V10, P841, DOI 10.1109/TSG.2017.2753802
+   Kong WC, 2018, IEEE T POWER SYST, V33, P1087, DOI 10.1109/TPWRS.2017.2688178
+   Li PQ, 2018, IEEE ACCESS, V6, P32532, DOI 10.1109/ACCESS.2018.2843774
+   Li S, 2016, APPL ENERG, V170, P22, DOI 10.1016/j.apenergy.2016.02.114
+   Li S, 2016, IEEE T POWER SYST, V31, P1788, DOI 10.1109/TPWRS.2015.2438322
+   Liu N, 2014, APPL ENERG, V129, P336, DOI 10.1016/j.apenergy.2014.05.023
+   Liu Y, 2017, ENERGY, V139, P18, DOI 10.1016/j.energy.2017.07.150
+   Luo X, 2018, IEEE T IND INFORM, V14, P4963, DOI 10.1109/TII.2018.2854549
+   Lusis P, 2017, APPL ENERG, V205, P654, DOI 10.1016/j.apenergy.2017.07.114
+   Ma WW, 2017, APPL ENERG, V204, P181, DOI 10.1016/j.apenergy.2017.07.009
+   Manda P, 2006, INT J ELEC POWER, V28, P367, DOI 10.1016/j.ijepes.2005.12.007
+   Mandal P, 2009, IEEE T IND APPL, V45, P1888, DOI 10.1109/TIA.2009.2027542
+   Nowotarski J, 2016, ENERGY, V98, P40, DOI 10.1016/j.energy.2015.12.142
+   Pavlyshenko B, 2018, 2018 IEEE SECOND INTERNATIONAL CONFERENCE ON DATA STREAM MINING & PROCESSING (DSMP), V0, P255
+   Singh P, 2018, APPL ENERG, V217, P537, DOI 10.1016/j.apenergy.2018.02.131
+   TWC Product and Technology LLC, 2014, WEATH UND, V0, P0
+   Wang JZ, 2018, ENERGY, V148, P59, DOI 10.1016/j.energy.2018.01.112
+   Xiao LY, 2016, APPL ENERG, V167, P135, DOI 10.1016/j.apenergy.2016.01.050
+   Xu QS, 2020, IEEE ACCESS, V8, P64750, DOI 10.1109/ACCESS.2020.2984722
+   Zeng P, 2018, IET GENER TRANSM DIS, V12, P1374, DOI 10.1049/iet-gtd.2017.0201
+   Zhao HR, 2016, ENERGY, V107, P272, DOI 10.1016/j.energy.2016.04.009
+   Zhou M, 2019, IEEE T SMART GRID, V10, P425, DOI 10.1109/TSG.2017.2743015
+   Zhu JC, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9091723
+NR 37
+TC 3
+Z9 3
+U1 0
+U2 10
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2020
+VL 8
+IS 
+BP 201889
+EP 201899
+DI 10.1109/ACCESS.2020.3036096
+PG 11
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA OR8OQ
+UT WOS:000589727100001
+DA 2023-04-26
+ER
+
+PT J
+AU Nhu, VH
+   Hoang, ND
+   Nguyen, H
+   Ngo, PTT
+   Bui, TT
+   Hoa, PV
+   Samui, P
+   Bui, DT
+AF Viet-Ha Nhu
+   Nhat-Duc Hoang
+   Hieu Nguyen
+   Phuong Thao Thi Ngo
+   Tinh Thanh Bui
+   Pham Viet Hoa
+   Samui, Pijush
+   Dieu Tien Bui
+TI Effectiveness assessment of Keras based deep learning with different robust optimization algorithms for shallow landslide susceptibility mapping at tropical area
+SO CATENA
+LA English
+DT Article
+DE Environmental modeling; Landslide susceptibility; Geographic information system; Deep learning; Keras; Deep neural network
+ID fuzzy inference system; spatial prediction; certainty factor; neural-network; quang-ninh; model; province; machine; county; gis
+AB This research aims at investigating the capability of Keras's deep learning models with three robust optimization algorithms (stochastic gradient descent, root mean square propagation, and adaptive moment optimization) and two-loss functions for spatial modeling of landslide hazard at a regional scale. Shallow landslides at the Ha Long area (Vietnam) were selected as a case study. For this regard, set of ten influencing factors (slope, aspect, curvature, topographic wetness index, landuse, distance to road, distance to river, soil type, distance to fault, and lithology) and 193 landslide polygons were prepared to construct a Geographic Information System (GIS) database for the study area. Using the collected database, the DNN with its potential of realizing complex functional mapping hidden in the data is used to generalize a decision boundary that separates the learning space into two distinct categories: landslide (a positive class) and non-landslide (a negative class). Experimental results point out that the utilized the Keras's deep learning model with the Adam optimization and the mean squared error lost function is the best with the prediction performance of 84.0%. The performance is better than those of the employed benchmark approaches of random forest, J48 decision tree, classification tree, and logistic model tree. We conclude that the Keras's deep learning model is a new tool for shallow susceptibility mapping at landslide-prone areas.
+C1 [Viet-Ha Nhu] Hanoi Univ Min & Geol, Dept Geol Geotech Engn, Hanoi, Vietnam.
+   [Nhat-Duc Hoang] Duy Tan Univ, Fac Civil Engn, Inst Res & Dev, Da Nang, Vietnam.
+   [Hieu Nguyen; Phuong Thao Thi Ngo] Duy Tan Univ, Inst Res & Dev, Da Nang, Vietnam.
+   [Tinh Thanh Bui] Hanoi Univ Min & Geol, Dept Prospecting & Explorat Geol, Hanoi, Vietnam.
+   [Pham Viet Hoa] Vietnam Acad Sci & Technol, Ho Chi Minh City Inst Resources Geog, Mac Dinh Chi 1,1 Dist, Ho Chi Minh City, Vietnam.
+   [Samui, Pijush] Ton Duc Thang Univ, Geog Informat Sci Res Grp, Ho Chi Minh City, Vietnam.
+   [Samui, Pijush] Ton Duc Thang Univ, Fac Environm & Labour Safety, Ho Chi Minh City, Vietnam.
+   [Dieu Tien Bui] Univ South Eastern Norway, Dept Business & IT, GIS Grp, N-3800 Bo I Telemark, Norway.
+C3 Hanoi University of Mining & Geology; Duy Tan University; Duy Tan University; Hanoi University of Mining & Geology; Vietnam Academy of Science & Technology (VAST); Ton Duc Thang University; Ton Duc Thang University
+RP Samui, P (corresponding author), Ton Duc Thang Univ, Geog Informat Sci Res Grp, Ho Chi Minh City, Vietnam.
+EM nhuvietha@humg.edu.vn; hoangnhatduc@duytan.edu.vn; ngotphuongthao5@duytan.edu.vn; pvhoa@hcmig.vast.vn; pijush.samui@tdtu.edu.vn; dieu.t.bui@usn.no
+FU Vietnam National Foundation for Science and Technology Development (NAFOSTED) [105.08-2017.316]
+CR Ada M, 2018, NAT HAZARDS, V90, P237, DOI 10.1007/s11069-017-3043-8
+   Alkhasawneh MS, 2014, J APPL MATH, V0, P0, DOI DOI 10.1155/2014/929768
+   An FP, 2019, COMPLEXITY, V2019, P0, DOI 10.1155/2019/5069026
+   [Anonymous], 2018, QUANG NINH STAT YB, V0, P0
+   [Anonymous], 2014, C4 5 PROGRAMS MACHIN, V0, P0
+   Pham BT, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7268-y
+   Bragagnolo L, 2020, CATENA, V184, P0, DOI 10.1016/j.catena.2019.104240
+   Breiman L, 2017, CLASSIFICATION REGRE, V1st, P0
+   Bui DT, 2017, LANDSLIDES, V14, P447, DOI 10.1007/s10346-016-0711-9
+   Chawla A, 2018, ADV CIV ENG, V2018, P0, DOI 10.1155/2018/6416492
+   Chen W, 2018, B ENG GEOL ENVIRON, V77, P647, DOI 10.1007/s10064-017-1010-y
+   Chen W, 2018, GEOCARTO INT, V33, P1398, DOI 10.1080/10106049.2018.1425738
+   Chen W, 2018, SCI TOTAL ENVIRON, V626, P1121, DOI 10.1016/j.scitotenv.2018.01.124
+   Chen W, 2017, CATENA, V151, P147, DOI 10.1016/j.catena.2016.11.032
+   Chollet F., 2015, DEEP LEARNING PYTHON, V0, P0
+   Dehnavi A, 2015, CATENA, V135, P122, DOI 10.1016/j.catena.2015.07.020
+   Bui DT, 2019, ADV ENG INFORM, V42, P0, DOI 10.1016/j.aei.2019.100978
+   Bui DT, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134413
+   Bui DT, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101538
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Bui DT, 2012, GEOMORPHOLOGY, V171, P12, DOI 10.1016/j.geomorph.2012.04.023
+   Loi DH, 2017, LANDSLIDES, V14, P1207, DOI 10.1007/s10346-017-0814-y
+   Elmoulat M, 2018, GEOMAT NAT HAZ RISK, V9, P1306, DOI 10.1080/19475705.2018.1505666
+   Glorot X., 2011, J MACH LEARN RES, V14, P315
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Hale J., 2018, DEEP LEARNING FRAMEW, V0, P0
+   Hameed AA, 2016, KNOWL-BASED SYST, V114, P79, DOI 10.1016/j.knosys.2016.10.001
+   He QF, 2019, SCI TOTAL ENVIRON, V663, P1, DOI 10.1016/j.scitotenv.2019.01.329
+   Hemasinghe H, 2018, PROCEDIA ENGINEER, V212, P1046, DOI 10.1016/j.proeng.2018.01.135
+   Hinton GE, 2006, SCIENCE, V313, P504, DOI 10.1126/science.1127647
+   Hochreiter S, 1998, INT J UNCERTAIN FUZZ, V6, P107, DOI 10.1142/S0218488598000094
+   Hong HY, 2018, CATENA, V163, P399, DOI 10.1016/j.catena.2018.01.005
+   Jaafari A, 2019, CATENA, V175, P430, DOI 10.1016/j.catena.2018.12.033
+   Janvier P, 2003, J ASIAN EARTH SCI, V21, P795, DOI 10.1016/S1367-9120(02)00094-9
+   Kadavi PR, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081252
+   Kavzoglu T, 2019, ADV NAT TECH HAZ RES, V50, P283, DOI 10.1007/978-3-319-77377-3_13
+   Kim JC, 2018, GEOCARTO INT, V33, P1000, DOI 10.1080/10106049.2017.1323964
+   Kingma D., 2015, PROC INT C LEARN REP, V0, P0
+   Kong WC, 2018, IEEE T POWER SYST, V33, P1087, DOI 10.1109/TPWRS.2017.2688178
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Landwehr N, 2005, MACH LEARN, V59, P161, DOI 10.1007/s10994-005-0466-3
+   McHugh ML, 2012, BIOCHEM MEDICA, V22, P276, DOI 10.11613/bm.2012.031
+   Parker RN, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep34438
+   Perez H, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19163556
+   Polykretis C, 2019, B ENG GEOL ENVIRON, V78, P1173, DOI 10.1007/s10064-017-1125-1
+   Qin Y, 2019, APPL ENERG, V236, P262, DOI 10.1016/j.apenergy.2018.11.063
+   Quinlan J. R., 1986, MACHINE LEARNING, V1, P81, DOI 10.1023/A:1022643204877
+   Roda-Boluda DC, 2018, EARTH SURF PROC LAND, V43, P956, DOI 10.1002/esp.4281
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Sahin E, 2019, GYNECOL ENDOCRINOL, V35, P535, DOI 10.1080/09513590.2018.1554038
+   Sameen MI, 2020, CATENA, V186, P0, DOI 10.1016/j.catena.2019.104249
+   Scardapane S, 2019, NEURAL NETWORKS, V110, P19, DOI 10.1016/j.neunet.2018.11.002
+   Shahabi H, 2015, SCI REP-UK, V5, P0, DOI 10.1038/srep09899
+   Singaravel S, 2018, ADV ENG INFORM, V38, P81, DOI 10.1016/j.aei.2018.06.004
+   Skansi S., 2018, INTRO DEEP LEARNING, V0, P0, DOI DOI 10.1007/978-3-319-73004-2
+   Tieleman T., 2012, LECT 6 5 RMSPROP NEU, V0, P0
+   Tsangaratos P, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7548-6
+   van Erkel AR, 1998, EUR J RADIOL, V27, P88, DOI 10.1016/S0720-048X(97)00157-5
+   Dang VH, 2019, B ENG GEOL ENVIRON, V78, P2835, DOI 10.1007/s10064-018-1273-y
+   Wang QQ, 2015, J EARTH SYST SCI, V124, P1399, DOI 10.1007/s12040-015-0624-3
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Wang Y, 2019, MATH PROBL ENG, V2019, P0, DOI 10.1155/2019/8389368
+   Wei FJ, 2019, AUTOMAT CONSTR, V107, P0, DOI 10.1016/j.autcon.2019.102920
+   Xie JY, 2018, WIREL COMMUN MOB COM, V0, P0, DOI DOI 10.1155/2018/8738613
+   Zhao CX, 2015, ARAB J GEOSCI, V8, P9079, DOI 10.1007/s12517-015-1891-7
+   Zhou C, 2018, COMPUT GEOSCI-UK, V112, P23, DOI 10.1016/j.cageo.2017.11.019
+   Zhu AX, 2019, CATENA, V183, P0, DOI 10.1016/j.catena.2019.104188
+NR 69
+TC 74
+Z9 74
+U1 20
+U2 160
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0341-8162
+EI 1872-6887
+J9 CATENA
+JI Catena
+PD MAY 15
+PY 2020
+VL 188
+IS 
+BP 
+EP 
+DI 10.1016/j.catena.2020.104458
+PG 13
+WC Geosciences, Multidisciplinary; Soil Science; Water Resources
+SC Geology; Agriculture; Water Resources
+GA KS7LP
+UT WOS:000518488500035
+DA 2023-04-26
+ER

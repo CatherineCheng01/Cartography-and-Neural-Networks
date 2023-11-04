@@ -1,0 +1,621 @@
+
+PT J
+AU Qiu, CP
+   Schmitt, M
+   Geiss, C
+   Chen, THK
+   Zhu, XX
+AF Qiu, Chunping
+   Schmitt, Michael
+   Geiss, Christian
+   Chen, Tzu-Hsin Karen
+   Zhu, Xiao Xiang
+TI A framework for large-scale mapping of human settlement extent from Sentinel-2 images via fully convolutional neural networks
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Built-up area; Convolutional neural networks; Human settlement extent; Sentinel-2; Urbanization
+ID land-cover; classification; modis
+AB Human settlement extent (HSE) information is a valuable indicator of world-wide urbanization as well as the resulting human pressure on the natural environment. Therefore, mapping HSE is critical for various environmental issues at local, regional, and even global scales. This paper presents a deep-learning-based framework to automatically map HSE from multi-spectral Sentinel-2 data using regionally available geo-products as training labels. A straightforward, simple, yet effective fully convolutional network-based architecture, Sen2HSE, is implemented as an example for semantic segmentation within the framework. The framework is validated against both manually labelled checking points distributed evenly over the test areas, and the OpenStreetMap building layer. The HSE mapping results were extensively compared to several baseline products in order to thoroughly evaluate the effectiveness of the proposed HSE mapping framework. The HSE mapping power is consistently demonstrated over 10 representative areas across the world. We also present one regional-scale and one country-wide HSE mapping example from our framework to show the potential for upscaling. The results of this study contribute to the generalization of the applicability of CNN-based approaches for large-scale urban mapping to cases where no up-to-date and accurate ground truth is available, as well as the subsequent monitor of global urbanization.
+C1 [Qiu, Chunping; Schmitt, Michael; Zhu, Xiao Xiang] Tech Univ Munich, Signal Proc Earth Observat SiPEO, Arcisstr 21, D-80333 Munich, Germany.
+   [Geiss, Christian] German Aerosp Ctr DLR, German Remote Sensing Data Ctr DFD, D-82234 Oberpfaffenhofen, Wessling, Germany.
+   [Chen, Tzu-Hsin Karen] Aarhus Univ, Dept Environm Sci, Frederiksborgvej 399, DK-4000 Roskilde, Denmark.
+   [Zhu, Xiao Xiang] German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Oberpfaffenhofen, Wessling, Germany.
+C3 Technical University of Munich; Helmholtz Association; German Aerospace Centre (DLR); Aarhus University; Helmholtz Association; German Aerospace Centre (DLR)
+RP Zhu, XX (corresponding author), Tech Univ Munich, Signal Proc Earth Observat SiPEO, Arcisstr 21, D-80333 Munich, Germany.; Zhu, XX (corresponding author), German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Oberpfaffenhofen, Wessling, Germany.
+EM xiaoxiang.zhu@dlr.de
+FU China Scholarship Council (CSC); European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program [ERC-2016-StG-714087]; Helmholtz Association [VH-NG-1018, PD-305]; Bavarian Academy of Sciences and Humanities; Danish Big Data Centre for Environment and Health - Novo Nordisk Foundation Challenge Programme [NNF17OC0027864]
+CR [Anonymous], 2018, MULTISOURCE MULTITEM, V0, P0
+   [Anonymous], 2019, ARXIV190607789, V0, P0
+   [Anonymous], 2019, ARXIV190707274, V0, P0
+   [Anonymous], 2019, ARXIV191012707, V0, P0
+   [Anonymous], 2019, ARXIV190206148, V0, P0
+   [Anonymous], 2018, COPERNICUS LAND MONI, V0, P0
+   Arsanjani JJ, 2015, LECT NOTES GEOINF CA, V0, PP37, DOI 10.1007/978-3-319-14280-7_3
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Ban YF, 2015, ISPRS J PHOTOGRAMM, V103, P28, DOI 10.1016/j.isprsjprs.2014.08.004
+   Bartholome E, 2005, INT J REMOTE SENS, V26, P1959, DOI 10.1080/01431160412331291297
+   Chen J, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6080230
+   Chini M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111833
+   Chollet F, 2015, KERAS, V0, P0
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Corbane C, 2017, BIG EARTH DATA, V1, P118, DOI 10.1080/20964471.2017.1397899
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Du SQ, 2018, ENVIRON RES LETT, V13, P0, DOI 10.1088/1748-9326/aaac07
+   Esch T, 2013, IEEE GEOSCI REMOTE S, V10, P1617, DOI 10.1109/LGRS.2013.2272953
+   Esch T, 2017, ISPRS J PHOTOGRAMM, V134, P30, DOI 10.1016/j.isprsjprs.2017.10.012
+   Esch T, 2012, J APPL REMOTE SENS, V6, P0, DOI 10.1117/1.JRS.6.061702
+   Fan HC, 2014, INT J GEOGR INF SCI, V28, P700, DOI 10.1080/13658816.2013.867495
+   Friedl MA, 2002, REMOTE SENS ENVIRON, V83, P287, DOI 10.1016/S0034-4257(02)00078-0
+   Fu G, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050498
+   Fu J., 2018, PROC IEEECVF C COMPU, V0, P0
+   Geiss C, 2017, IEEE GEOSCI REMOTE S, V14, P2008, DOI 10.1109/LGRS.2017.2747222
+   Goldblatt R, 2018, REMOTE SENS ENVIRON, V205, P253, DOI 10.1016/j.rse.2017.11.026
+   Gong P, 2019, SCI BULL, V64, P370, DOI 10.1016/j.scib.2019.03.002
+   Gong P, 2013, INT J REMOTE SENS, V34, P2607, DOI 10.1080/01431161.2012.748992
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Helber P, 2019, IEEE J-STARS, V12, P2217, DOI 10.1109/JSTARS.2019.2918242
+   Hong DF, 2019, IEEE T GEOSCI REMOTE, V57, P4349, DOI 10.1109/TGRS.2018.2890705
+   Hong DF, 2019, ISPRS J PHOTOGRAMM, V147, P193, DOI 10.1016/j.isprsjprs.2018.10.006
+   Hong DF, 2019, IEEE T IMAGE PROCESS, V28, P1923, DOI 10.1109/TIP.2018.2878958
+   Hua YS, 2019, ISPRS J PHOTOGRAMM, V149, P188, DOI 10.1016/j.isprsjprs.2019.01.015
+   Johnson BA, 2017, COMPUT ENVIRON URBAN, V64, P184, DOI 10.1016/j.compenvurbsys.2017.02.002
+   Klotz M, 2016, REMOTE SENS ENVIRON, V178, P191, DOI 10.1016/j.rse.2016.03.001
+   Lang N., 2019, ARXIV190413270, V0, P0
+   Langkvist M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040329
+   Lefebvre A, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8070606
+   Liu XP, 2018, REMOTE SENS ENVIRON, V209, P227, DOI 10.1016/j.rse.2018.02.055
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Maggiolo L, 2018, INT GEOSCI REMOTE SE, V0, P2099
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Maggiori E, 2016, INT GEOSCI REMOTE SE, V0, PP5071, DOI 10.1109/IGARSS.2016.7730322
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Paisitkriangkrai S, 2016, IEEE J-STARS, V9, P2868, DOI 10.1109/JSTARS.2016.2582921
+   Patel NN, 2015, INT J APPL EARTH OBS, V35, P199, DOI 10.1016/j.jag.2014.09.005
+   Qiu CP, 2019, ISPRS J PHOTOGRAMM, V154, P151, DOI 10.1016/j.isprsjprs.2019.05.004
+   Qiu CP, 2018, ISPRS J PHOTOGRAMM, V138, P218, DOI 10.1016/j.isprsjprs.2017.12.006
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Russwurm M, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7040129
+   Sabokrou M, 2016, ARXIV160806037, V0, P0
+   Schmitt M, 2016, IEEE GEOSC REM SEN M, V4, P6, DOI 10.1109/MGRS.2016.2561021
+   Schneider A, 2010, REMOTE SENS ENVIRON, V114, P1733, DOI 10.1016/j.rse.2010.03.003
+   Stengel M, 2017, EARTH SYST SCI DATA, V9, P881, DOI 10.5194/essd-9-881-2017
+   Tuia D, 2016, IEEE GEOSC REM SEN M, V4, P41, DOI 10.1109/MGRS.2016.2548504
+   United Nations Department of Economic and Social Affairs Population Division, 2018, REVISION WORLD URBAN, V0, P0
+   Viana CM, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8030116
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Xie SN, 2017, PROC CVPR IEEE, V0, PP5987, DOI 10.1109/CVPR.2017.634
+   Xu RD, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18092873
+   Zhang C, 2019, REMOTE SENS ENVIRON, V221, P173, DOI 10.1016/j.rse.2018.11.014
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+   Zhong LH, 2019, REMOTE SENS ENVIRON, V221, P430, DOI 10.1016/j.rse.2018.11.032
+   Zhu X. Xiang, 2019, ARXIV191212171, V0, P0
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 73
+TC 30
+Z9 30
+U1 3
+U2 17
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD MAY 15
+PY 2020
+VL 163
+IS 
+BP 152
+EP 170
+DI 10.1016/j.isprsjprs.2020.01.028
+PG 19
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA LF9DD
+UT WOS:000527712500010
+PM 32377033
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, ZD
+   Liu, J
+AF Liu, Zongdong
+   Liu, Jing
+TI A robust time series prediction method based on empirical mode decomposition and high-order fuzzy cognitive maps
+SO KNOWLEDGE-BASED SYSTEMS
+LA English
+DT Article
+DE Time series prediction; High-order fuzzy cognitive maps; Empirical mode decomposition; Bayesian ridge regression
+ID neural-network; multivariate
+AB Fuzzy cognitive maps (FCMs) have been widely used in time series prediction due to the excellent performance in dynamic system modeling. However, existing time series prediction methods based on FCMs have some defects, such as low precision and sensitivity to hyper parameters. Therefore, more accurate and robust methods remain to be proposed for handling non-stationary and large-scale time series. To address this issue, in this paper, a novel time series prediction method based on empirical mode decomposition (EMD) and high-order FCMs (HFCMs) is proposed, termed as EMD-HFCM. First, EMD is applied to extract features from the original sequence to obtain multiple sequences to represent the nodes of HFCM. To learn HFCM efficiently and accurately, a robust learning method based on Bayesian ridge regression is employed, which can estimate the regular parameters from data instead of being set manually. Then, prediction can be performed based on the iterative characteristics of HFCM. To compare EMD-HFCM with existing methods, extensive experiments are conducted on eight benchmark datasets and the results validate the performance of the proposal in handling large-scale and non-stationary time series. Furthermore, the experiments also show that the proposed method is much more robust and insensitive to hyper parameters than the state of art methods. Finally, nonparametric statistical tests are carried out and the superiority of the proposed method is verified in the statistical sense. (C) 2020 Elsevier B.V. All rights reserved.
+C1 [Liu, Zongdong; Liu, Jing] Xidian Univ, Sch Artificial Intelligence, Xian 710071, Peoples R China.
+C3 Xidian University
+RP Liu, J (corresponding author), Xidian Univ, Sch Artificial Intelligence, Xian 710071, Peoples R China.
+EM neouma@mail.xidian.edu.cn
+FU General Program of National Natural Science Foundation of China (NSFC) [61773300]
+CR [Anonymous], 2006, IEEE T INFORM THEORY, V0, P0
+   Bueno S, 2009, EXPERT SYST APPL, V36, P5221, DOI 10.1016/j.eswa.2008.06.072
+   Candito P, 2015, ELECTRON J QUAL THEO, V0, P1
+   Chen Y, 2015, APPL SOFT COMPUT, V37, P667, DOI 10.1016/j.asoc.2015.08.039
+   Cheng CH, 2014, ECON MODEL, V36, P136, DOI 10.1016/j.econmod.2013.09.033
+   Chi YX, 2016, IEEE T FUZZY SYST, V24, P71, DOI 10.1109/TFUZZ.2015.2426314
+   Dhanji P.K., 2018, INDONES J ELECT ENG, V9, P335
+   Faruk DO, 2010, ENG APPL ARTIF INTEL, V23, P586, DOI 10.1016/j.engappai.2009.09.015
+   Felix G, 2019, ARTIF INTELL REV, V52, P1707, DOI 10.1007/s10462-017-9575-1
+   Feng GL, 2021, IEEE T CYBERNETICS, V51, P2080, DOI 10.1109/TCYB.2019.2933438
+   Froelich W, 2014, INT J APPROX REASON, V55, P1319, DOI 10.1016/j.ijar.2014.02.006
+   Froelich W, 2012, APPL SOFT COMPUT, V12, P3810, DOI 10.1016/j.asoc.2012.02.005
+   Garcia S, 2010, INFORM SCIENCES, V180, P2044, DOI 10.1016/j.ins.2009.12.010
+   Gaxiola F, 2015, INFORM SCIENCES, V325, P159, DOI 10.1016/j.ins.2015.07.020
+   Geva AB, 1998, IEEE T NEURAL NETWOR, V9, P1471, DOI 10.1109/72.728396
+   Hajek P, 2018, IEEE CONF EVOL ADAPT, V0, P0
+   Huang NE, 1998, P ROY SOC A-MATH PHY, V454, P903, DOI 10.1098/rspa.1998.0193
+   JANG JSR, 1993, IEEE T SYST MAN CYB, V23, P665, DOI 10.1109/21.256541
+   Jha GK, 2014, NEURAL COMPUT APPL, V24, P563, DOI 10.1007/s00521-012-1264-z
+   Kane MJ, 2014, BMC BIOINFORMATICS, V15, P0, DOI 10.1186/1471-2105-15-276
+   Kayacan E, 2010, EXPERT SYST APPL, V37, P1784, DOI 10.1016/j.eswa.2009.07.064
+   Khashei M, 2010, EXPERT SYST APPL, V37, P479, DOI 10.1016/j.eswa.2009.05.044
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Liu CH, 2016, AAAI CONF ARTIF INTE, V0, P1867
+   Liu J, 2016, IEEE T FUZZY SYST, V24, P419, DOI 10.1109/TFUZZ.2015.2459756
+   Lu W, 2014, KNOWL-BASED SYST, V70, P242, DOI 10.1016/j.knosys.2014.07.004
+   Lv YS, 2015, IEEE T INTELL TRANSP, V16, P865, DOI 10.1109/TITS.2014.2345663
+   MACKAY DJC, 1992, NEURAL COMPUT, V4, P415, DOI 10.1162/neco.1992.4.3.415
+   MACKEY MC, 1977, SCIENCE, V197, P287, DOI 10.1126/science.267326
+   Mandic DP, 2013, IEEE SIGNAL PROC MAG, V30, P74, DOI 10.1109/MSP.2013.2267931
+   Martinez-Alvarez F, 2011, IEEE T KNOWL DATA EN, V23, P1230, DOI 10.1109/TKDE.2010.227
+   Mijovic B, 2010, IEEE T BIO-MED ENG, V57, P2188, DOI 10.1109/TBME.2010.2051440
+   Neal R., 1996, BAYESIAN LEARNING NE, V0, P0, DOI DOI 10.1007/978-1-4612-0745-0_2
+   Papageorgiou EI, 2017, NEUROCOMPUTING, V232, P113, DOI 10.1016/j.neucom.2016.10.072
+   Pedrycz W, 2015, IEEE T FUZZY SYST, V23, P1, DOI 10.1109/TFUZZ.2015.2393391
+   Renaud O, 2005, IEEE T SYST MAN CY B, V35, P1241, DOI 10.1109/TSMCB.2005.850182
+   Rezaee MJ, 2017, NEUROCOMPUTING, V232, P69, DOI 10.1016/j.neucom.2016.10.069
+   Rojas I, 2008, NEUROCOMPUTING, V71, P519, DOI 10.1016/j.neucom.2007.07.018
+   Rubio G, 2011, INT J FORECASTING, V27, P725, DOI 10.1016/j.ijforecast.2010.02.007
+   Sacchelli S, 2015, SOCIO-ECON PLAN SCI, V52, P31, DOI 10.1016/j.seps.2015.10.002
+   Salmeron JL, 2016, KNOWL-BASED SYST, V105, P29, DOI 10.1016/j.knosys.2016.04.023
+   Salmeron JL, 2014, APPL INTELL, V41, P223, DOI 10.1007/s10489-013-0511-z
+   Shen F., 2019, KNOWL-BASED SYST, V192, P0, DOI 10.1016/j.knosys.2019.105294
+   Song HJ, 2010, IEEE T FUZZY SYST, V18, P233, DOI 10.1109/TFUZZ.2009.2038371
+   Stach W, 2008, IEEE T FUZZY SYST, V16, P61, DOI 10.1109/TFUZZ.2007.902020
+   Tsadiras A. K., 2003, P 9 PANH C INF THESS, V0, P142
+   Valenzuela O, 2008, FUZZY SET SYST, V159, P821, DOI 10.1016/j.fss.2007.11.003
+   Wang WC, 2015, ENVIRON RES, V139, P46, DOI 10.1016/j.envres.2015.02.002
+   Wu CL, 2013, ENG APPL ARTIF INTEL, V26, P997, DOI 10.1016/j.engappai.2012.05.023
+   Wu K, 2017, IEEE T FUZZY SYST, V25, P1546, DOI 10.1109/TFUZZ.2017.2741444
+   Wu K, 2016, KNOWL-BASED SYST, V113, P23, DOI 10.1016/j.knosys.2016.09.010
+   Yang HJ, 2016, OPTIK, V127, P8103, DOI 10.1016/j.ijleo.2016.06.017
+   Yang SC, 2018, IEEE T FUZZY SYST, V26, P3391, DOI 10.1109/TFUZZ.2018.2831640
+   Zeiler A, 2011, LECT NOTES COMPUT SC, V6691, P299, DOI 10.1007/978-3-642-21501-8_37
+   Zheng G, 1999, J COMPUT INTELL FINA, V7, P18
+   Zou XM, 2018, IEEE T FUZZY SYST, V26, P2120, DOI 10.1109/TFUZZ.2017.2764445
+NR 56
+TC 22
+Z9 22
+U1 2
+U2 32
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29a, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0950-7051
+EI 1872-7409
+J9 KNOWL-BASED SYST
+JI Knowledge-Based Syst.
+PD SEP 5
+PY 2020
+VL 203
+IS 
+BP 
+EP 
+DI 10.1016/j.knosys.2020.106105
+PG 13
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA MP3SJ
+UT WOS:000552126200014
+DA 2023-04-26
+ER
+
+PT J
+AU Vergini, ES
+   Groumpos, PP
+AF Vergini, Eleni S.
+   Groumpos, Peter P.
+TI Advanced Fuzzy Cognitive Maps Modelling a Nearly Zero Energy Building
+SO 2020 11TH INTERNATIONAL CONFERENCE ON INFORMATION, INTELLIGENCE, SYSTEMS AND APPLICATIONS (IISA 2020)
+LA English
+DT Proceedings Paper
+DE Fuzzy Cognitive Maps; State-Space approach; Nearly Zero Energy building; Decision Making
+AB Fuzzy Cognitive Maps (FCM) are developed in recent decades in order to model complex systems, combining Fuzzy Logic and Neural Networks. They have been used in various systems and applications and they have been combined with learning algorithms and experts' knowledge. This paper presents new equations for the concept values calculation and uses the state-space approach in FCMs, separating the concepts as inputs, states and outputs. All the above are applied on a FCM, modelling a Nearly Zero Energy Building (nZEB), creating a strong base for further improvement and research.
+C1 [Vergini, Eleni S.; Groumpos, Peter P.] Univ Patras, Dept Elect & Comp Engn, Patras, Greece.
+C3 University of Patras
+RP Vergini, ES (corresponding author), Univ Patras, Dept Elect & Comp Engn, Patras, Greece.
+EM vergini@ece.upatras.gr; groumpos@ece.upatras.gr
+CR Amer M, 2013, PORTL INT CONF MANAG, V0, P2153
+   Anninou AP, 2013, IFIP ADV INF COMM TE, V412, P88
+   Carvalho JP, 2013, FUZZY SET SYST, V214, P6, DOI 10.1016/j.fss.2011.12.009
+   Carvalho JP, 2004, IEEE INT CONF FUZZY, V0, P659
+   Craiger Philip, 1994, P 1994 IEEE 3 INT FU, V0, P0
+   Eleni V, 2017, MED C CONTR AUTOMAT, V0, PP1113, DOI 10.1109/MED.2017.7984267
+   Glies BG, 2007, SOC SCI MED, V64, P562, DOI 10.1016/j.socscimed.2006.09.007
+   Gray SA, 2015, ECOL SOC, V20, P0, DOI 10.5751/ES-07396-200211
+   Groumpos Peter P., 2018, IJBTE, V6, P1, DOI 10.33107/IJBTE.2018.6.3.14
+   Jetter A, 2011, FUTURES, V43, P52, DOI 10.1016/j.futures.2010.05.002
+   Kannappan A, 2011, EXPERT SYST APPL, V38, P1282, DOI 10.1016/j.eswa.2010.06.069
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kottas TL, 2006, IEEE T ENERGY CONVER, V21, P793, DOI 10.1109/TEC.2006.875430
+   Mpelogianni V, 2019, IFAC PAPERSONLINE, V52, P513, DOI 10.1016/j.ifacol.2019.12.596
+   Mpelogianni V, 2018, AI SOC, V33, P175, DOI 10.1007/s00146-018-0813-0
+   Mpelogianni Vassiliki, 2019, C CREAT INT TECHN DA, V0, P0
+   Navas de Maya B., 2018, P 7 TRANSPORT RES AR, V0, P0
+   Ntarlas OD, 2015, 2015 6TH INTERNATIONAL CONFERENCE ON INFORMATION, V0, P0
+   Peter Groumpos P., 2015, IFAC - PAPERS ONLINE, V48, P15, DOI 10.1016/j.ifacol.2015.12.049
+   Stylios CD, 2008, APPL SOFT COMPUT, V8, P1243, DOI 10.1016/j.asoc.2007.02.022
+   Vassiliki M, 2018, IFAC PAPERSONLINE, V51, P727, DOI 10.1016/j.ifacol.2018.11.206
+   Vergini ES, 2018, IFAC PAPERSONLINE, V51, P709, DOI 10.1016/j.ifacol.2018.11.210
+   Vergini ES, 2016, IFAC PAPERSONLINE, V49, P300, DOI 10.1016/j.ifacol.2016.11.083
+NR 23
+TC 0
+Z9 0
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2379-3732
+EI 
+J9 INT CONF INFORM INTE
+PD JUN 15
+PY 2020
+VL 0
+IS 
+BP 224
+EP 228
+DI 
+PG 5
+WC Engineering, Electrical & Electronic
+SC Engineering
+GA BR6DH
+UT WOS:000659941900032
+DA 2023-04-26
+ER
+
+PT J
+AU Hasan, ME
+   Nath, B
+   Sarker, AHMR
+   Wang, ZH
+   Zhang, L
+   Yang, XM
+   Nobi, MN
+   Roskaft, E
+   Chivers, DJ
+   Suza, M
+AF Hasan, Mohammad Emran
+   Nath, Biswajit
+   Sarker, A. H. M. Raihan
+   Wang, Zhihua
+   Zhang, Li
+   Yang, Xiaomei
+   Nobi, Mohammad Nur
+   Roskaft, Eivin
+   Chivers, David J.
+   Suza, Ma
+TI Applying Multi-Temporal Landsat Satellite Data and Markov-Cellular Automata to Predict Forest Cover Change and Forest Degradation of Sundarban Reserve Forest, Bangladesh
+SO FORESTS
+LA English
+DT Article
+DE land cover; forest cover change; spatial forest health quality; forest degradation; multi-temporal Landsat satellite image; Markov-cellular automata model; Sundarban Reserve Forest; Bangladesh
+ID mangrove forests; spatial-patterns; neural-network; time-series; classification; china; model; dynamics; imagery; conservation
+AB Overdependence on and exploitation of forest resources have significantly transformed the natural reserve forest of Sundarban, which shares the largest mangrove territory in the world, into a great degradation status. By observing these, a most pressing concern is how much degradation occurred in the past, and what will be the scenarios in the future if they continue? To confirm the degradation status in the past decades and reveal the future trend, we took Sundarban Reserve Forest (SRF) as an example, and used satellite Earth observation historical Landsat imagery between 1989 and 2019 as existing data and primary data. Moreover, a geographic information system model was considered to estimate land cover (LC) change and spatial health quality of the SRF from 1989 to 2029 based on the large and small tree categories. The maximum likelihood classifier (MLC) technique was employed to classify the historical images with five different LC types, which were further considered for future projection (2029) including trends based on 2019 simulation results from 1989 and 2019 LC maps using the Markov-cellular automata model. The overall accuracy achieved was 82.30%similar to 90.49% with a kappa value of 0.75 similar to 0.87. The historical result showed forest degradation in the past (1989-2019) of 4773.02 ha yr(-1), considered as great forest degradation (GFD) and showed a declining status when moving with the projection (2019-2029) of 1508.53 ha yr(-1) and overall there was a decline of 3956.90 ha yr(-1) in the 1989-2029 time period. Moreover, the study also observed that dense forest was gradually degraded (good to bad) but, conversely, light forest was enhanced, which will continue in the future even to 2029 if no effective management is carried out. Therefore, by observing the GFD, through spatial forest health quality and forest degradation mapping and assessment, the study suggests a few policies that require the immediate attention of forest policy-makers to implement them immediately and ensure sustainable development in the SRF.
+C1 [Hasan, Mohammad Emran] Chinese Acad Sci, Key Lab Digital Earth Sci, Aerosp Informat Res Inst, 9 Dengzhuang South Rd, Beijing 100094, Peoples R China.
+   [Hasan, Mohammad Emran; Wang, Zhihua; Yang, Xiaomei] Univ Chinese Acad Sci UCAS, Coll Resource & Environm Studies, 19A Yuquan Rd, Beijing 100049, Peoples R China.
+   [Nath, Biswajit] Univ Chittagong, Dept Geog & Environm Studies, Chittagong 4331, Bangladesh.
+   [Sarker, A. H. M. Raihan] Univ Chittagong, Inst Forestry & Environm Sci, Chittagong 4331, Bangladesh.
+   [Wang, Zhihua; Yang, Xiaomei] Chinese Acad Sci, State Key Lab Resources & Environm Informat Syst, Inst Geog Sci & Nat Resources Res, Beijing 100101, Peoples R China.
+   [Zhang, Li] Key Lab Earth Observat Hainan Prov, Sanya 572029, Peoples R China.
+   [Nobi, Mohammad Nur] Univ Chittagong, Dept Econ, Chittagong 4331, Bangladesh.
+   [Roskaft, Eivin] Norwegian Univ Sci & Technol, NTNU, Dept Biol, N-7491 Trondheim, Norway.
+   [Chivers, David J.] Univ Cambridge, Selwyn Coll, Grange Rd, Cambridge CB3 9DQ, England.
+   [Suza, Ma] Univ Lisbon, Inst Super Tecn, Dept Civil, Alameda Campus,Av Rovisco Pais 1, P-1049001 Lisbon, Portugal.
+C3 Chinese Academy of Sciences; University of Chittagong; University of Chittagong; Chinese Academy of Sciences; Institute of Geographic Sciences & Natural Resources Research, CAS; University of Chittagong; Norwegian University of Science & Technology (NTNU); University of Cambridge; Universidade de Lisboa; Instituto Superior Tecnico
+RP Wang, ZH (corresponding author), Univ Chinese Acad Sci UCAS, Coll Resource & Environm Studies, 19A Yuquan Rd, Beijing 100049, Peoples R China.; Wang, ZH (corresponding author), Chinese Acad Sci, State Key Lab Resources & Environm Informat Syst, Inst Geog Sci & Nat Resources Res, Beijing 100101, Peoples R China.
+EM emran@radi.ac.cn; nath.gis79@cu.ac.bd; dr.raihan.sarker@cu.ac.bd; zhwang@lreis.ac.cn; zhangli@aircas.ac.cn; yangxm@lreis.ac.cn; nurnobi@cu.ac.bd; roskaft@bio.ntnu.no; djc7@cam.ac.uk; masuja.ifescu@gmail.com
+FU National Key Research and Development Program of China [2016YFC1402003]; CAS Earth Big Data Science Project of China [XDA19060303]; Climate-Resilient Ecosystems and Livelihoods (CREL) project; Winrock International; U.S. Agency for International Development (USAID), Bangladesh Mission, Dhaka, Bangladesh [AID-388-A-12-00007]; CAS-TWAS President's Fellowship-2017 - University of the Chinese Academy of Sciences (UCAS) [2017CTF099]
+CR Abdullah A, 2017, ENVIRON DEV SUSTAIN, V19, P2093, DOI 10.1007/s10668-016-9824-5
+   Afify HA, 2011, ALEX ENG J, V50, P187, DOI 10.1016/j.aej.2011.06.001
+   Aitkenhead MJ, 2011, REMOTE SENS ENVIRON, V115, P1285, DOI 10.1016/j.rse.2011.01.012
+   Aitkenhead MJ, 2009, J ENVIRON MANAGE, V90, P236, DOI 10.1016/j.jenvman.2007.09.010
+   Akhter M., 2006, THESIS TU DRESDEN GE, V0, P0
+   Al-Amin M., 2013, VULNERABILITY ADAPTA, V0, P101
+   Alebrahim A., 2015, J EARTH ENV HLTH SCI, V1, P16
+   Alireza S. M., 2012, JOURNAL OF ENVIRONMENTAL RESEARCH AND DEVELOPMENT, V7, P1052
+   [Anonymous], 2007, FAO FORESTRY PAPER, V0, P0
+   [Anonymous], 2015, J GUANGXI U NAT SCI, V0, P0
+   [Anonymous], 2017, R LANGUAGE ENV STAT, V0, P0
+   [Anonymous], 2012, WORLD AQUAC, V0, P0
+   [Anonymous], 2014, INT J CURR ENG TECHN, V0, P0
+   [Anonymous], 2018, SUMMARY POLICYMAKERS, V0, P0
+   [Anonymous], 2007, WORLDS MANGROVES 198, V0, P0
+   Batty M., 1999, COMPUTERS, V0, P0
+   BAUER ME, 1994, PHOTOGRAMM ENG REM S, V60, P287
+   Baysal G, 2013, THESIS, V0, P0
+   Bey A, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100807
+   Biswas SR, 2007, INT FOREST REV, V9, P627, DOI 10.1505/ifor.9.2.627
+   Biswas SR, 2007, FOREST ECOL MANAG, V245, P1, DOI 10.1016/j.foreco.2007.02.011
+   Brown D.G., 2012, REMOTE SENS DIGIT IM, V6, P395
+   Brown MI, 2018, APPL GEOGR, V94, P71, DOI 10.1016/j.apgeog.2018.03.006
+   CEGIS Center for Environmental and Geographic Information Services, 2007, EFF CYCL SIDR SUND P, V0, P0
+   Chen BQ, 2017, ISPRS J PHOTOGRAMM, V131, P104, DOI 10.1016/j.isprsjprs.2017.07.011
+   Chen CF, 2013, REMOTE SENS-BASEL, V5, P6408, DOI 10.3390/rs5126408
+   Chen LZ, 2009, J PLANT ECOL, V2, P45, DOI 10.1093/jpe/rtp009
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   CONGALTON RG, 1988, PHOTOGRAMM ENG REM S, V54, P593
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Dadhich P.N., 2010, J GEOMATICS, V4, P9
+   Dan TT, 2016, ISPRS ANN PHOTO REM, V3, P109, DOI 10.5194/isprsannals-III-8-109-2016
+   Das CS, 2016, OCEAN COAST MANAGE, V134, P1, DOI 10.1016/j.ocecoaman.2016.09.025
+   Das S., 1985, MANGROVE MANGROVE FO, V0, P142
+   Deb M, 2017, J HYDRO-ENVIRON RES, V17, P30, DOI 10.1016/j.jher.2016.11.005
+   Dezhkam S, 2017, GEOCARTO INT, V32, P655, DOI 10.1080/10106049.2016.1167967
+   Diyan M.A.A., 2011, THESIS U NOVA LISBOA, V0, P0
+   Dongjie G, 2008, J GEOGR SCI, V18, P455, DOI 10.1007/s11442-008-0455-0
+   Eastman J R., 2006, IDRISI ANDES TUTORIA, V0, P0
+   Emch M., 2006, GEOCARTO INT, V21, P5, DOI 10.1080/10106040608542368
+   Eslami-Andargoli L, 2010, ESTUAR COAST SHELF S, V89, P53, DOI 10.1016/j.ecss.2010.05.011
+   FAO (Food and Agriculture Organization), 2015, BANGL GLOB FOR RES A, V0, P107
+   FAO (Food and Agriculture Organization), 1981, TROP FOR RES ASS PRO, V0, P0
+   FAO (Food and Agriculture Organization), 2002, 62 FAO, V0, P0
+   Ghosh Aditya, 2015, DIVERSITY-BASEL, V7, P149, DOI 10.3390/d7020149
+   Ghosh MK, 2016, FORESTS, V7, P0, DOI 10.3390/f7120305
+   Giardino C, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010002
+   Gidey E, 2017, MODEL EARTH SYST ENV, V3, P1245, DOI 10.1007/s40808-017-0397-6
+   Gilman EL, 2008, AQUAT BOT, V89, P237, DOI 10.1016/j.aquabot.2007.12.009
+   Giri C, 2011, GLOBAL ECOL BIOGEOGR, V20, P154, DOI 10.1111/j.1466-8238.2010.00584.x
+   Giri C, 2007, ESTUAR COAST SHELF S, V73, P91, DOI 10.1016/j.ecss.2006.12.019
+   Giri C, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090783
+   Giri C, 2015, J ENVIRON MANAGE, V148, P101, DOI 10.1016/j.jenvman.2014.01.020
+   Green E.P., 2000, REMOTE SENSING HDB T, V0, P328
+   Halmy MWA, 2015, APPL GEOGR, V63, P101, DOI 10.1016/j.apgeog.2015.06.015
+   Hamad R, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10103421
+   Hamad R, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10072422
+   Hamad R, 2017, LAND-BASEL, V6, P0, DOI 10.3390/land6010018
+   Heenkenda MK, 2014, REMOTE SENS-BASEL, V6, P6064, DOI 10.3390/rs6076064
+   Heumann BW, 2011, REMOTE SENS-BASEL, V3, P2440, DOI 10.3390/rs3112440
+   Heumann BW, 2011, PROG PHYS GEOG, V35, P87, DOI 10.1177/0309133310385371
+   Hoa N.H., 2016, J FOR SCI TECH, V5, P59
+   Hossain MS, 2016, REG ENVIRON CHANGE, V16, P429, DOI 10.1007/s10113-014-0748-z
+   Hua AK, 2017, APPL ECOL ENV RES, V15, P605, DOI 10.15666/aeer/1504_605622
+   Huang W., 2008, IEEE P IGARSS, V4, P0
+   Islam K, 2018, ECOL INDIC, V88, P439, DOI 10.1016/j.ecolind.2018.01.047
+   Islam MM, 2019, GEOCARTO INT, V34, P1458, DOI 10.1080/10106049.2018.1489423
+   Islam MM, 2020, REMOTE SENS APPL, V17, P0, DOI 10.1016/j.rsase.2019.100277
+   ISLAM MT, 2014, LANDSC ENV, V8, P1
+   Islam SMD., 2018, GROUNDWATER SUST DEV, V1, P113, DOI 10.1007/s42398-018-0018-y
+   Jabber M.A., 1992, P WORKSH COAST ZON M, V0, P0
+   Jones TG, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020106
+   Kanniah KD, 2015, REMOTE SENS-BASEL, V7, P14360, DOI 10.3390/rs71114360
+   Kirui KB, 2013, OCEAN COAST MANAGE, V83, P19, DOI 10.1016/j.ocecoaman.2011.12.004
+   Krajewski P, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10124526
+   Kuenzer C, 2011, REMOTE SENS-BASEL, V3, P878, DOI 10.3390/rs3050878
+   Kumar S, 2014, GEOMAT NAT HAZ RISK, V5, P145, DOI 10.1080/19475705.2013.795502
+   Kumar T, 2019, GEOCARTO INT, V34, P415, DOI 10.1080/10106049.2017.1408699
+   LANDIS JR, 1977, BIOMETRICS, V33, P159, DOI 10.2307/2529310
+   Lesiv M, 2018, LAND-BASEL, V7, P0, DOI 10.3390/land7040118
+   Liao JJ, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11195356
+   Liu JY, 2014, J GEOGR SCI, V24, P195, DOI 10.1007/s11442-014-1082-6
+   Liu JY, 2010, J GEOGR SCI, V20, P483, DOI 10.1007/s11442-010-0483-4
+   Liu JY, 2003, SCI CHINA SER D, V46, P373
+   Long JB, 2011, SENSORS-BASEL, V11, P2972, DOI 10.3390/s110302972
+   Luetz J., 2008, PLANET PREPARE PREPA, V0, P1
+   Ma CL, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11080921
+   Malik A, 2017, REG ENVIRON CHANGE, V17, P157, DOI 10.1007/s10113-016-0989-0
+   Mandal UK, 2014, INT ARCH PHOTOGRAMM, V40-8, P809, DOI 10.5194/isprsarchives-XL-8-809-2014
+   Meles K.H., 2008, TEMPORAL SPATIAL CHA, V0, P0
+   Memarian H, 2013, WATER ENVIRON J, V27, P549, DOI 10.1111/wej.12002
+   Mishra VN, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2138-3
+   MISHRA VN, 2014, J GEOGR INST JOVAN C, V0064, P00111, DOI 10.2298/IJGI1401111M
+   MoEF Ministry of Environment and Forests Collaborative REDD+IFM, 2011, COLL REDD IFM SUND P, V0, P0
+   Mohapatra NR, 2006, INT SYM POW SEMICOND, V0, P37
+   Mondal MS, 2016, EGYPT J REMOTE SENS, V19, P259, DOI 10.1016/j.ejrs.2016.08.001
+   Mujiono I.T.L., 1862, AM I PHYS AIP C P, V0, P0, DOI DOI 10.1063/1.4991281
+   Mukherjee S, 2009, J INDIAN SOC REMOT, V37, P527, DOI 10.1007/s12524-009-0042-6
+   Mukhtar I, 2012, J COAST CONSERV, V16, P51, DOI 10.1007/s11852-011-0168-x
+   MULLER MR, 1994, LANDSCAPE ECOL, V9, P151
+   Nath B, 2020, ISPRS INT GEO-INF, V9, P0, DOI 10.3390/ijgi9020134
+   Nath B, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10124631
+   Son NT, 2015, IEEE J-STARS, V8, P503, DOI 10.1109/JSTARS.2014.2360691
+   Nitze I., 2012, P 4 C GEOGRAPHIC OBJ, V0, P0
+   Omar N., 2014, IOP C SERIES EARTH E, V0, P0
+   Oswell A., 2015, MANGROVE FORESTS THR, V0, P0
+   Parsa VA, 2016, MODEL EARTH SYST ENV, V2, P0, DOI 10.1007/s40808-016-0227-2
+   Payo A, 2016, CLIMATIC CHANGE, V139, P279, DOI 10.1007/s10584-016-1769-z
+   Pontius RG, 2000, PHOTOGRAMM ENG REM S, V66, P1011
+   Quinn NWT, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.096071
+   Rahman MM, 2013, INT J REMOTE SENS, V34, P1041, DOI 10.1080/01431161.2012.717181
+   Rahman MM, 2010, TROP CONSERV SCI, V3, P90, DOI 10.1177/194008291000300108
+   Roy S., 2015, INT J SCI BASIC APPL, V24, P125
+   Sandilyan S, 2014, OCEAN COAST MANAGE, V102, P161, DOI 10.1016/j.ocecoaman.2014.09.025
+   Sang LL, 2011, MATH COMPUT MODEL, V54, P938, DOI 10.1016/j.mcm.2010.11.019
+   Sarker SK, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep21234
+   Sarwar M.G.M., 2015, RES DOCUMENTATION, V0, P1
+   Shamsuddoha M., 2007, CLIMATE CHANGE IMPAC, V0, P0
+   Shapiro AC, 2015, REMOTE SENS-BASEL, V7, P16504, DOI 10.3390/rs71215838
+   Shi C., 2017, ANAL COMPARING MANGR, V0, P0
+   Siddiqi N.A., 1986, BANOBIGGYAN PATRIKA, V15, P25
+   Singh SK, 2015, ENVIRON PROCESS, V2, P61, DOI 10.1007/s40710-015-0062-x
+   Song XF, 2011, PROCEDIA ENVIRON SCI, V10, P2287, DOI 10.1016/j.proenv.2011.09.357
+   Sulaiman Nur Aishah, 2013, 2013 IEEE 3RD INTERNATIONAL CONFERENCE ON SYSTEM ENGINEERING AND TECHNOLOGY (ICSET), V0, PP307, DOI 10.1109/ICSEngT.2013.6650190
+   Pham TT, 2014, 2014 IEEE FIFTH INTERNATIONAL CONFERENCE ON COMMUNICATIONS AND ELECTRONICS (ICCE), V0, PP17, DOI 10.1109/CCE.2014.6916673
+   van Vliet J, 2011, ECOL MODEL, V222, P1367, DOI 10.1016/j.ecolmodel.2011.01.017
+   Veldkamp A, 2001, AGR ECOSYST ENVIRON, V85, P1, DOI 10.1016/S0167-8809(01)00199-2
+   Daza DAV, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12041113
+   Vliet J. van, 2013, CALIBRATION AND VALIDATION OF LAND-USE MODELS, V0, P0
+   Wang DZ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091468
+   Wang L, 2008, PHOTOGRAMM ENG REM S, V74, P921, DOI 10.14358/PERS.74.7.921
+   Wang T, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8010024
+   Wang YQ, 2001, ECOL MODEL, V140, P141, DOI 10.1016/S0304-3800(01)00262-9
+   Weng QH, 2002, J ENVIRON MANAGE, V64, P273, DOI 10.1006/jema.2001.0509
+   WWF, 2017, SUND GLOB PERSP LONG, V0, P1
+   Yagoub MM, 2014, J INDIAN SOC REMOTE, V42, P665, DOI 10.1007/s12524-013-0353-5
+   Yang X, 2002, INT J REMOTE SENS, V23, P1775, DOI 10.1080/01431160110075802
+   Yuan F, 2005, REMOTE SENS ENVIRON, V98, P317, DOI 10.1016/j.rse.2005.08.006
+   Zhang JJ, 2020, LAND-BASEL, V9, P0, DOI 10.3390/land9010030
+   Zhang RQ, 2011, MATH COMPUT MODEL, V54, P924, DOI 10.1016/j.mcm.2010.11.017
+   Zhang XH, 2017, INT J APPL EARTH OBS, V62, P201, DOI 10.1016/j.jag.2017.06.010
+   Zimudzi E, 2021, J SPAT SCI, V66, P195, DOI 10.1080/14498596.2019.1627252
+NR 148
+TC 14
+Z9 14
+U1 0
+U2 12
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1999-4907
+J9 FORESTS
+JI Forests
+PD SEP 15
+PY 2020
+VL 11
+IS 9
+BP 
+EP 
+DI 10.3390/f11091016
+PG 35
+WC Forestry
+SC Forestry
+GA OE0WD
+UT WOS:000580261100001
+DA 2023-04-26
+ER
+
+PT J
+AU Albrecht, CM
+   Zhang, R
+   Cui, XD
+   Freitag, M
+   Hamann, HF
+   Klein, LJ
+   Finkler, U
+   Marianno, F
+   Schmude, J
+   Bobroff, N
+   Zhang, W
+   Siebenschuh, C
+   Lu, SY
+AF Albrecht, Conrad M.
+   Zhang, Rui
+   Cui, Xiaodong
+   Freitag, Marcus
+   Hamann, Hendrik F.
+   Klein, Levente J.
+   Finkler, Ulrich
+   Marianno, Fernando
+   Schmude, Johannes
+   Bobroff, Norman
+   Zhang, Wei
+   Siebenschuh, Carlo
+   Lu, Siyuan
+TI Change Detection from Remote Sensing to Guide OpenStreetMap Labeling
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE OpenStreetMap data collection; remote sensing; geospatial change detection; image segmentation; artificial neural networks; big geospatial databases
+ID radar
+AB The growing amount of openly available, meter-scale geospatial vertical aerial imagery and the need of the OpenStreetMap (OSM) project for continuous updates bring the opportunity to use the former to help with the latter, e.g., by leveraging the latest remote sensing data in combination with state-of-the-art computer vision methods to assist the OSM community in labeling work. This article reports our progress to utilize artificial neural networks (ANN) for change detection of OSM data to update the map. Furthermore, we aim at identifying geospatial regions where mappers need to focus on completing the global OSM dataset. Our approach is technically backed by the big geospatial data platform Physical Analytics Integrated Repository and Services (PAIRS). We employ supervised training of deep ANNs from vertical aerial imagery to segment scenes based on OSM map tiles to evaluate the technique quantitatively and qualitatively. Data Set License:ODbL
+C1 [Albrecht, Conrad M.; Zhang, Rui; Cui, Xiaodong; Freitag, Marcus; Hamann, Hendrik F.; Klein, Levente J.; Finkler, Ulrich; Marianno, Fernando; Schmude, Johannes; Bobroff, Norman; Zhang, Wei; Siebenschuh, Carlo; Lu, Siyuan] IBM TJ Watson Res Ctr, 1101 Kitchawan Rd, Yorktown Hts, NY 10598 USA.
+C3 International Business Machines (IBM)
+RP Albrecht, CM (corresponding author), IBM TJ Watson Res Ctr, 1101 Kitchawan Rd, Yorktown Hts, NY 10598 USA.
+EM cmalbrec@us.ibm.com; rui.zhang@ibm.com; cuix@us.ibm.com; mfreitag@us.ibm.com; hendrikh@us.ibm.com; kleinl@us.ibm.com; ufinkler@us.ibm.com; fjmarian@us.ibm.com; johannes.schmude@ibm.com; bobroff@us.ibm.com; weiz@us.ibm.com; Carlo.Siebenschuh@ibm.com; lus@us.ibm.com
+CR Albert A, 2017, KDD17: PROCEEDINGS OF THE 23RD ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, PP1357, DOI 10.1145/3097983.3098070
+   Albrecht C.M., 2020, ISPRS ANN P, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bengio Y, 2009, FOUND TRENDS MACH LE, V2, P1, DOI 10.1561/2200000006
+   Bottou L, 2018, SIAM REV, V60, P223, DOI 10.1137/16M1080173
+   Buslaev A, 2018, IEEE COMPUT SOC CONF, V0, PP197, DOI 10.1109/CVPRW.2018.00035
+   Cao R, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101553
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Elmegreen B., 2019, B AM ASTRON SOC, V51, P28
+   Fecher R., 2017, P FREE OP SOURC SOFT, V17, P10, DOI 10.7275/R5639MXD
+   Freitag M, 2020, U.S. PATENT P, V0, Patent No. 201805207
+   Gill J., 2019, P IEEE C COMP VIS PA, V0, P1
+   He KM, 2017, IEEE I CONF COMP VIS, V0, PP2980, DOI 10.1109/TPAMI.2018.2844175
+   Hinton G.E., 2012, ARXIV PREPRINT ARXIV, V0, P0
+   Huang ZL, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090907
+   Hughes J.N., 2015, P PIE 9473 GEOSP INF, V0, P0
+   Iglovikov V, 2018, IEEE COMPUT SOC CONF, V0, PP228, DOI 10.1109/CVPRW.2018.00042
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Isola P., 2017, PROC IEEE C COMPUT V, V0, P1125
+   Janssen V, 2009, INT J GEOINFORM, V5, P41
+   Jiang YW, 2017, 2017 INTERNATIONAL WORKSHOP ON ELECTROMAGNETICS: APPLICATIONS AND STUDENT INNOVATION COMPETITION (IEEE IWEM 2017), V0, PP16, DOI 10.1109/iWEM.2017.7968799
+   Kingma DP, 2019, FOUND TRENDS MACH LE, V12, P4, DOI 10.1561/2200000056
+   Klein L, 2019, U.S. PATENT, V0, Patent No. 10372705B2
+   Klein L.J, 2019, U.S. PATENT, V0, Patent No. 10445877B2
+   Klein LJ, 2019, IEEE INT CONF BIG DA, V0, PP5637, DOI 10.1109/BigData47090.2019.9006600
+   Klein LJ, 2015, PROCEEDINGS 2015 IEEE INTERNATIONAL CONFERENCE ON BIG DATA, V0, PP1290, DOI 10.1109/BigData.2015.7363884
+   Kuo Tzu-Sheng, 2018, P IEEE CVF C COMP VI, V0, P0
+   Kurach K, 2019, PR MACH LEARN RES, V97, P0
+   Lian XR, 2017, ADV NEUR IN, V30, P0
+   Lim K, 2003, PROG PHYS GEOG, V27, P88, DOI 10.1191/0309133303pp360ra
+   Liu Ming-Yu, 2017, ADV NEURAL INFORM PR, V0, P0
+   Lu J, 2015, KNOWL-BASED SYST, V80, P14, DOI 10.1016/j.knosys.2015.01.010
+   Lu SY, 2016, 2016 IEEE INTERNATIONAL CONFERENCE ON BIG DATA (BIG DATA), V0, PP2672, DOI 10.1109/BigData.2016.7840910
+   Meng XL, 2010, REMOTE SENS-BASEL, V2, P833, DOI 10.3390/rs2030833
+   Nawaz AA, 2019, IEEE MTT S INT MICR, V0, P630
+   Ouchi K, 2013, REMOTE SENS-BASEL, V5, P716, DOI 10.3390/rs5020716
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Parisi GI, 2019, NEURAL NETWORKS, V113, P54, DOI 10.1016/j.neunet.2019.01.012
+   Powers D. M. W., 2011, J MACH LEARN TECHNOL, V2, P37
+   Rakhlin A, 2018, IEEE COMPUT SOC CONF, V0, PP257, DOI 10.1109/CVPRW.2018.00048
+   Rezatofighi H, 2019, PROC CVPR IEEE, V0, PP658, DOI 10.1109/CVPR.2019.00075
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Roy DP, 2014, REMOTE SENS ENVIRON, V145, P154, DOI 10.1016/j.rse.2014.02.001
+   Ruan S., 2020, P AAAI C ART INT NEW, V0, P0
+   SAMET H, 1984, COMPUT SURV, V16, P187, DOI 10.1145/356924.356930
+   Singh S., 2018, P BRIT MACH VIS C NE, V0, P0
+   Soergel U, 2010, REMOTE SENS DIGIT IM, V15, P1, DOI 10.1007/978-90-481-3751-0_1
+   Sun T, 2019, PROC CVPR IEEE, V0, PP7501, DOI 10.1109/CVPR.2019.00769
+   Vora M. N., 2011, PROCEEDINGS OF THE 2011 INTERNATIONAL CONFERENCE ON COMPUTER SCIENCE AND NETWORK TECHNOLOGY (ICCSNT), V0, PP601, DOI 10.1109/ICCSNT.2011.6182030
+   Weiss Karl, 2016, JOURNAL OF BIG DATA, V3, P0, DOI 10.1186/s40537-016-0043-6
+   Whitman R.T., 2014, PROC, V0, P0
+   Wu SB, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8110478
+   Xia W., 2018, P 2 INT EL C REM SEN, V2, P325
+   Xia WX, 2012, NAV ARCHIT, V0, P18
+   Xie M., 2016, P AAAI 2016 30 AAAI, V0, P7
+   Zhang W., 2020, P ICASSP 2020 IEEE I, V0, P0
+   Zhou LC, 2018, IEEE COMPUT SOC CONF, V0, PP192, DOI 10.1109/CVPRW.2018.00034
+   Zhu JY, 2017, IEEE I CONF COMP VIS, V0, PP2242, DOI 10.1109/ICCV.2017.244
+NR 69
+TC 7
+Z9 7
+U1 0
+U2 10
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD JUL 15
+PY 2020
+VL 9
+IS 7
+BP 
+EP 
+DI 10.3390/ijgi9070427
+PG 22
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA MX0VU
+UT WOS:000557447100001
+DA 2023-04-26
+ER

@@ -1,0 +1,482 @@
+
+PT J
+AU Li, JW
+   Knapp, DE
+   Fabina, NS
+   Kennedy, EV
+   Larsen, K
+   Lyons, MB
+   Murray, NJ
+   Phinn, SR
+   Roelfsema, CM
+   Asner, GP
+AF Li, Jiwei
+   Knapp, David E.
+   Fabina, Nicholas S.
+   Kennedy, Emma V.
+   Larsen, Kirk
+   Lyons, Mitchell B.
+   Murray, Nicholas J.
+   Phinn, Stuart R.
+   Roelfsema, Chris M.
+   Asner, Gregory P.
+TI A global coral reef probability map generated using convolutional neural networks
+SO CORAL REEFS
+LA English
+DT Article
+DE Coral reef; Deep learning; Earth observation; Planet Dove; Millennium Coral Reef Mapping Project; Remote sensing
+ID habitat; combination; bathymetry; patterns; landsat; marine; island
+AB Coral reef research and management efforts can be improved when supported by reef maps providing local-scale details across global extents. However, such maps are difficult to generate due to the broad geographic range of coral reefs, the complexities of relating satellite imagery to geomorphic or ecological realities, and other challenges. However, reef extent maps are one of the most commonly used and most valuable data products from the perspective of reef scientists and managers. Here, we used convolutional neural networks to generate a globally consistent coral reef probability map-a probabilistic estimate of the geospatial extent of reef ecosystems-to facilitate scientific, conservation, and management efforts. We combined a global mosaic of high spatial resolution Planet Dove satellite imagery with regional Millennium Coral Reef Mapping Project reef extents to build training, validation, and application datasets. These datasets trained our reef extent prediction model, a neural network with a dense-unet architecture followed by a random forest classifier, which was used to produce a global coral reef probability map. Based on this probability map, we generated a global coral reef extent map from a 60% threshold of reef probability (reef: probability >= 60%, non-reef: probability < 60%). Our findings provide a proof-of-concept method for global reef extent estimates using a consistent and readily updateable methodology that leverages modern deep learning approaches to support downstream users. These maps are openly-available through the Allen Coral Atlas.
+C1 [Li, Jiwei; Knapp, David E.; Fabina, Nicholas S.; Asner, Gregory P.] Arizona State Univ, Ctr Global Discovery & Conservat Sci, Tempe, AZ 85281 USA.
+   [Kennedy, Emma V.; Lyons, Mitchell B.; Murray, Nicholas J.; Phinn, Stuart R.; Roelfsema, Chris M.] Univ Queensland, Remote Sensing Res Ctr, Sch Earth & Environm Sci, Brisbane, Qld 4072, Australia.
+   [Larsen, Kirk] Vulcan Inc, Seattle, WA 98104 USA.
+   [Murray, Nicholas J.] James Cook Univ, Coll Sci & Engn, Townsville, Qld 4811, Australia.
+C3 Arizona State University; Arizona State University-Tempe; University of Queensland; James Cook University
+RP Asner, GP (corresponding author), Arizona State Univ, Ctr Global Discovery & Conservat Sci, Tempe, AZ 85281 USA.
+EM gregasner@asu.edu
+FU Vulcan Inc.; Planet Inc.; University of Queensland; Google Inc.; Great Barrier Reef Foundation; Arizona State University; National Geographic
+CR Ampou EE, 2018, MAR POLLUT BULL, V131, P72, DOI 10.1016/j.marpolbul.2017.10.026
+   [Anonymous], 2006, P 10 INT COR REEF S, V0, P0
+   Aswani S, 2008, HUM ECOL, V36, P325, DOI 10.1007/s10745-007-9159-9
+   Bertels L, 2008, INT J REMOTE SENS, V29, P2359, DOI 10.1080/01431160701408469
+   Beyer HL, 2018, CONSERV LETT, V11, P0, DOI 10.1111/conl.12587
+   Brando VE, 2009, REMOTE SENS ENVIRON, V113, P755, DOI 10.1016/j.rse.2008.12.003
+   Brodrick PG, 2019, TRENDS ECOL EVOL, V34, P734, DOI 10.1016/j.tree.2019.03.006
+   Bruckner AW, 2011, J WASHINGTON ACAD SC, V0, P19
+   Burke L., 2017, REEFS RISK REVISITED, V0, P0
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Christin S, 2019, METHODS ECOL EVOL, V10, P1632, DOI 10.1111/2041-210X.13256
+   Dernoncourt F, 2016, IEEE W SP LANG TECH, V0, PP406, DOI 10.1109/SLT.2016.7846296
+   Eakin CM, 2019, CORAL REEFS, V38, P539, DOI 10.1007/s00338-019-01844-2
+   Edmunds JRGPJ, 2018, TIME SERIES CORAL CO, V0, P0
+   FOO SA, 2019, FRONT MAR SCI, V6, P0
+   Green E. P., 2001, WORLD ATLAS CORAL RE, V0, P0
+   Group GC, 2019, GEBCO 2019 GRID, V0, P0
+   Guan S, 2020, IEEE J BIOMED HEALTH, V24, P568, DOI 10.1109/JBHI.2019.2912935
+   Hafizt M, 2017, IOP C SER EARTH ENV, V98, P0, DOI 10.1088/1755-1315/98/1/012037
+   Haya LOMY, 2017, J OCEANOGR, V73, P623, DOI 10.1007/s10872-017-0422-4
+   Hedley JD, 2018, REMOTE SENS ENVIRON, V216, P598, DOI 10.1016/j.rse.2018.07.014
+   Hedley JD, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020118
+   Heron SF, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep38402
+   Hossain MS, 2016, MAR POLICY, V72, P176, DOI 10.1016/j.marpol.2016.07.003
+   Hughes TP, 2018, SCIENCE, V359, P80, DOI 10.1126/science.aan8048
+   IMaRS-USF IRD, 2005, MILL COR REEF MAPP P, V0, P0
+   Jadot C, 2015, MADAGASCAR BASELINE, V0, P0
+   Kerr JM, 2018, REMOTE SENS ENVIRON, V210, P307, DOI 10.1016/j.rse.2018.03.024
+   Keutzer K., 2014, DENSENET IMPLEMENTIN, V0, P0
+   Li JP, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060717
+   Li JW, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030532
+   Li JW, 2019, REMOTE SENS ENVIRON, V232, P0, DOI 10.1016/j.rse.2019.111302
+   Li XF, 2020, NATL SCI REV, V7, P1584, DOI 10.1093/nsr/nwaa047
+   Lyons MB, 2020, REMOTE SENS ECOL CON, V6, P557, DOI 10.1002/rse2.157
+   Ma L, 2019, ISPRS J PHOTOGRAMM, V152, P166, DOI 10.1016/j.isprsjprs.2019.04.015
+   Madduppa HH, 2012, ENVIRON BIOL FISH, V95, P383, DOI 10.1007/s10641-012-0012-7
+   Marks KW., 2003, STATUS CORAL REEFS W, V0, PP625, DOI 10.5479/SI.00775630.496-00.630
+   McManus J, 1994, ICLARM Q, V17, P16
+   Monaco M. E., 2012, NATL SUMMARY NOAAS S, V0, P0
+   Montaggioni LF, 2009, DEV MARINE GEOL, V5, P1
+   Mou LC, 2019, IEEE T GEOSCI REMOTE, V57, P924, DOI 10.1109/TGRS.2018.2863224
+   Pendleton L, 2016, PLOS ONE, V11, P0, DOI 10.1371/journal.pone.0164699
+   Pramudya FS, 2014, SATELLITE BASED BENT, V0, P0
+   Purkis SJ, 2019, CORAL REEFS, V38, P467, DOI 10.1007/s00338-019-01802-y
+   Purkis SJ, 2018, ANNU REV MAR SCI, V10, P149, DOI 10.1146/annurev-marine-121916-063249
+   Rezai Hamid, 2004, P155, V0, P0
+   Riegl BM, 2012, PLOS ONE, V7, P0, DOI 10.1371/journal.pone.0038396
+   Roelfsema C, 2018, REMOTE SENS ENVIRON, V208, P27, DOI 10.1016/j.rse.2018.02.005
+   Roelfsema CM, 2020, CORAL REEFS, V0, P1
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Solandt J-L, 2008, MALDIVES REEF SURVEY, V0, P1
+   Spalding M, 2017, MAR POLICY, V82, P104, DOI 10.1016/j.marpol.2017.05.014
+   Spalding MD, 2007, BIOSCIENCE, V57, P573, DOI 10.1641/B570707
+   Thompson DR, 2017, REMOTE SENS ENVIRON, V200, P18, DOI 10.1016/j.rse.2017.07.030
+   Torres-Pulliza D, 2013, OCEAN COAST MANAGE, V80, P55, DOI 10.1016/j.ocecoaman.2013.04.005
+   UNEP-WCMC WorldFish Centre WRI TNC, 2001, GLOB DISTR WARM WAT, V0, P0
+   van Hooidonk R, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep39666
+   Zhang ZC, 2018, IEEE T MED IMAGING, V37, P1407, DOI 10.1109/TMI.2018.2823338
+NR 58
+TC 28
+Z9 29
+U1 6
+U2 39
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0722-4028
+EI 1432-0975
+J9 CORAL REEFS
+JI Coral Reefs
+PD DEC 15
+PY 2020
+VL 39
+IS 6
+BP 1805
+EP 1815
+DI 10.1007/s00338-020-02005-6
+EA SEP 2020
+PG 11
+WC Marine & Freshwater Biology
+SC Marine & Freshwater Biology
+GA PC1RV
+UT WOS:000572603800001
+DA 2023-04-26
+ER
+
+PT J
+AU Tiwari, A
+   Narayan, AB
+   Dikshit, O
+AF Tiwari, Ashutosh
+   Narayan, Avadh Bihari
+   Dikshit, Onkar
+TI Deep learning networks for selection of measurement pixels in multi-temporal SAR interferometric processing
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Persistent scatterers; Convolutional neural network; Long short memory network
+ID scatterers
+AB In multi-temporal SAR interferometry (MT-InSAR), persistent scatterer (PS) pixels are used to estimate geophysical parameters, essentially deformation. Conventionally, PS pixels are selected based on the estimated noise present in the spatially uncorrelated phase component along with look-angle error in a temporal interferometric stack. In this study, two deep learning architectures, namely convolutional neural network for interferometric semantic segmentation (CNN-ISS) and convolutional long short term memory network for interferometric semantic segmentation (CLSTM-ISS), based on learning spatial and spatio-temporal behaviour, respectively, were proposed for selection of PS pixels. These networks were trained to relate the interferometric phase history to its classification into phase stable (PS pixels) and phase unstable (non-PS pixels) measurement pixels using similar to 10,000 real world interferometric patch images of different study sites containing man-made objects, forests, vegetation, uncropped land, water bodies, and areas affected by lengthening, foreshortening, layover and shadowing. The networks were trained using training labels obtained from the Stanford method for Persistent Scatterer Interferometry (StaMPS) algorithm. However, pixel selection results, evaluated using a combination of R-index, Similar Time Series Interferometric Pixel (STIP) maps and a classified image of the test dataset, reveal that CLSTM-ISS estimates improved the classification of PS and non-PS pixels as compared to those of StaMPS and CNN-ISS. The predicted results show that CLSTM-ISS reached an accuracy of 93.50%, higher than that of CNN-ISS (89.21%). CLSTM-ISS also improved the density of reliable PS pixels compared to StaMPS and CNN-ISS. Further, the architecture outperformed StaMPS, and is expected to compete with other MT-InSAR algorithms in terms of computational efficiency.
+C1 [Tiwari, Ashutosh; Narayan, Avadh Bihari; Dikshit, Onkar] Indian Inst Technol, Civil Engn Dept, Kanpur 208016, Uttar Pradesh, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Kanpur
+RP Tiwari, A (corresponding author), Indian Inst Technol, Civil Engn Dept, Kanpur 208016, Uttar Pradesh, India.
+EM ashutoshtiwari796@gmail.com; onkar@iitk.ac.in
+CR Agram P. S., 2010, PERSISTENT SCATTERER, V0, P0
+   Agram P.S., 2007, IEEE INT GEOSC REM S, V0, P23
+   Anantrasirichai N., 2018, DETECTING VOLCANO DE, V0, P0
+   [Anonymous], 2017, IMB CLASS CONV NEUR, V0, P0
+   [Anonymous], 2016, SET CLASS WEIGHTS IM, V0, P0
+   Brownlee J, 2019, GENTLE INTRO TRANSFE, V0, P0
+   Brownlee Jason, 2017, MACHINE LEARNING MAS, V0, P0
+   Ferretti A, 2001, IEEE T GEOSCI REMOTE, V39, P8, DOI 10.1109/36.898661
+   Ferretti A, 2011, IEEE T GEOSCI REMOTE, V49, P3460, DOI 10.1109/TGRS.2011.2124465
+   Hasasneh A, 2018, J ENG-NY, V2018, P0, DOI 10.1155/2018/1350692
+   Hooper A, 2007, J GEOPHYS RES-SOL EA, V112, P0, DOI 10.1029/2006JB004763
+   Hori T., 2017, ADV JOINT CTC ATTENT, V0, P0
+   Johnson J.M., 2019, J BIG DATA, V6, P0
+   Kampes BM, 2005, FRING 2005 WORKSH FR, V0, P0
+   Krishnan PVS, 2018, GISCI REMOTE SENS, V55, P604, DOI 10.1080/15481603.2017.1422312
+   Kumar B, 2019, ISPRS J PHOTOGRAMM, V147, P80, DOI 10.1016/j.isprsjprs.2018.11.006
+   Li M., 2018, IEEE GEOSCI REMOTE S, V0, P0, DOI DOI 10.1109/LGRS.2018.
+   Lotter W., 2017, ICLR, V0, P0
+   Narayan AB, 2018, IEEE T GEOSCI REMOTE, V56, P5843, DOI 10.1109/TGRS.2018.2826842
+   Narayan AB, 2018, IEEE GEOSCI REMOTE S, V15, P147, DOI 10.1109/LGRS.2017.2778421
+   Ng R., 2019, MACHINE LEARNING, V0, P0
+   Notti D, 2011, P FRINGE 2011, V0, P19
+   Sabinasz D., 2019, DEALING UNBALANCED C, V0, P0
+   Shah T., 2017, TRAIN VALIDATION TES, V0, P0
+   Skalski P., 2018, DATA SCI MEDIUM DAIL, V0, P0
+   Teunissen PJG, 1995, J GEODESY, V70, P65, DOI 10.1007/BF00863419
+   Udofia U., 2018, BASIC OVERVIEW CONVO, V0, P0
+   Urtasun R, 2018, LEARNING REWEIGHT EX, V0, P0
+   Wang YY, 2012, ISPRS J PHOTOGRAMM, V73, P89, DOI 10.1016/j.isprsjprs.2012.06.007
+NR 29
+TC 13
+Z9 13
+U1 4
+U2 35
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD AUG 15
+PY 2020
+VL 166
+IS 
+BP 169
+EP 182
+DI 10.1016/j.isprsjprs.2020.06.005
+PG 14
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA MO1AQ
+UT WOS:000551268300014
+DA 2023-04-26
+ER
+
+PT J
+AU Napoles, G
+   Vanhoenshoven, F
+   Falcon, R
+   Vanhoof, K
+AF Napoles, Gonzalo
+   Vanhoenshoven, Frank
+   Falcon, Rafael
+   Vanhoof, Koen
+TI Nonsynaptic Error Backpropagation in Long-Term Cognitive Networks
+SO IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS
+LA English
+DT Article
+DE Associative memories; cognitive mapping; error backpropagation; long-term memory; nonsynaptic learning; recurrent neural networks
+ID convergence
+AB We introduce a neural cognitive mapping technique named long-term cognitive network (LTCN) that is able to memorize long-term dependencies between a sequence of input and output vectors, especially in those scenarios that require predicting the values of multiple dependent variables at the same time. The proposed technique is an extension of a recently proposed method named short-term cognitive network that aims at preserving the expert knowledge encoded in the weight matrix while optimizing the nonlinear mappings provided by the transfer function of each neuron. A nonsynaptic, backpropagation-based learning algorithm powered by stochastic gradient descent is put forward to iteratively optimize four parameters of the generalized sigmoid transfer function associated with each neuron. Numerical simulations over 35 multivariate regression and pattern completion data sets confirm that the proposed LTCN algorithm attains statistically significant performance differences with respect to other well-known state-of-the-art methods.
+C1 [Napoles, Gonzalo; Vanhoenshoven, Frank; Vanhoof, Koen] Hasselt Univ, Fac Business Econ, B-3590 Diepenbeek, Belgium.
+   [Falcon, Rafael] Shopify Inc, Data Sci & Engn Div, Ottawa, ON K2P 1L4, Canada.
+   [Falcon, Rafael] Univ Ottawa, Sch Elect Engn & Comp Sci, Ottawa, ON K1N 6N5, Canada.
+C3 Hasselt University; Shopify Inc.; University of Ottawa
+RP Falcon, R (corresponding author), Shopify Inc, Data Sci & Engn Div, Ottawa, ON K2P 1L4, Canada.
+EM gonzalo.napoles@uhasselt.be; rfalcon@ieee.org
+CR Benavoli A, 2016, J MACH LEARN RES, V17, P0
+   Felix G, 2019, ARTIF INTELL REV, V52, P1707, DOI 10.1007/s10462-017-9575-1
+   Friedman M, 1937, J AM STAT ASSOC, V32, P675, DOI 10.2307/2279372
+   Froelich W, 2017, NEUROCOMPUTING, V232, P83, DOI 10.1016/j.neucom.2016.11.059
+   HOPFIELD JJ, 1984, P NATL ACAD SCI-BIOL, V81, P3088, DOI 10.1073/pnas.81.10.3088
+   Hu SG, 2015, NAT COMMUN, V6, P0, DOI 10.1038/ncomms8522
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Lichman M, 2013, UCI MACHINE LEARNING, V0, P0
+   Liu ZJ, 2017, IEEE-CAA J AUTOMATIC, V4, P651, DOI 10.1109/JAS.2017.7510619
+   Maren A., 2014, HDB NEURAL COMPUTING, V0, P0
+   Napoles G, 2019, NEURAL NETWORKS, V115, P72, DOI 10.1016/j.neunet.2019.03.012
+   Napoles G, 2018, IEEE T FUZZY SYST, V26, P2479, DOI 10.1109/TFUZZ.2017.2768327
+   Napoles G, 2018, NEURAL NETWORKS, V97, P19, DOI 10.1016/j.neunet.2017.08.007
+   Napoles G, 2016, INFORM SCIENCES, V349, P154, DOI 10.1016/j.ins.2016.02.040
+   Olden JD, 2002, ECOL MODEL, V154, P135, DOI 10.1016/S0304-3800(02)00064-9
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Salmeron JL, 2016, KNOWL-BASED SYST, V105, P29, DOI 10.1016/j.knosys.2016.04.023
+   Sheela KG, 2013, MATH PROBL ENG, V2013, P0, DOI 10.1155/2013/425740
+   Soni N, 2016, PROCEEDINGS OF THE 2016 IEEE INTERNATIONAL CONFERENCE ON WIRELESS COMMUNICATIONS, V0, P416, DOI 10.1109/WiSPNET.2016.7566167
+   Stach W, 2005, FUZZY SET SYST, V153, P371, DOI 10.1016/j.fss.2005.01.009
+   Wang WC, 2017, IEEE-CAA J AUTOMATIC, V4, P410, DOI 10.1109/JAS.2017.7510532
+   Wang ZS, 2017, IEEE T SYST MAN CY-S, V47, P2351, DOI 10.1109/TSMC.2017.2672664
+   Werbos Paul, 1974, REGRESSION NEW TOOLS, V0, P0
+   WILCOXON F, 1946, J ECON ENTOMOL, V39, P269, DOI 10.1093/jee/39.2.269
+   Yao XS, 2018, NEUROCOMPUTING, V275, P1511, DOI 10.1016/j.neucom.2017.09.092
+NR 27
+TC 7
+Z9 7
+U1 0
+U2 4
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2162-237X
+EI 2162-2388
+J9 IEEE T NEUR NET LEAR
+JI IEEE Trans. Neural Netw. Learn. Syst.
+PD MAR 15
+PY 2020
+VL 31
+IS 3
+BP 865
+EP 875
+DI 10.1109/TNNLS.2019.2910555
+PG 11
+WC Computer Science, Artificial Intelligence; Computer Science, Hardware & Architecture; Computer Science, Theory & Methods; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA KX6AH
+UT WOS:000521961300013
+PM 31059456
+DA 2023-04-26
+ER
+
+PT J
+AU Kadirhodjaev, A
+   Rezaie, F
+   Lee, MJ
+   Lee, S
+AF Kadirhodjaev, Azam
+   Rezaie, Fatemeh
+   Lee, Moung-Jin
+   Lee, Saro
+TI Landslide Susceptibility Assessment Using an Optimized Group Method of Data Handling Model
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE landslide modeling; susceptibility map; ROC; AUC; GMDH
+ID analytical hierarchy process; grey wolf optimizer; decision tree; logistic-regression; neural-network; gis; hybrid; forest; area; algorithms
+AB Landslides can cause considerable loss of life and damage to property, and are among the most frequent natural hazards worldwide. One of the most fundamental and simple approaches to reduce damage is to prepare a landslide hazard map. Accurate prediction of areas highly prone to future landslides is important for decision-making. In the present study, for the first time, the group method of data handling (GMDH) was used to generate landslide susceptibility map for a specific region in Uzbekistan. First, 210 landslide locations were identified by field survey and then divided randomly into model training and model validation datasets (70% and 30%, respectively). Data on nine conditioning factors, i.e., altitude, slope, aspect, topographic wetness index (TWI), length of slope (LS), valley depth, distance from roads, distance from rivers, and geology, were collected. Finally, the maps were validated using the testing dataset and receiver operating characteristic (ROC) curve analysis. The findings showed that the "optimized" GMDH model (i.e., using the gray wolf optimizer [GWO]) performed better than the standalone GMDH model, during both the training and testing phase. The accuracy of the GMDH-GWO model in the training and testing phases was 94% and 90%, compared to 85% and 82%, respectively, for the standard GMDH model. According to the GMDH-GWO model, the study area included very low, low, moderate, high, and very high landslide susceptibility areas, with proportions of 14.89%, 10.57%, 15.00%, 35.12%, and 24.43%, respectively.
+C1 [Kadirhodjaev, Azam] State Comm Geol & Mineral Resources, 11 T Shevchenko, Tashkent 100060, Uzbekistan.
+   [Rezaie, Fatemeh; Lee, Saro] Korea Inst Geosci & Mineral Resources KIGAM, Geosci Platform Div, 124 Gwahak Ro, Daejeon 34132, South Korea.
+   [Rezaie, Fatemeh; Lee, Saro] Korea Univ Sci & Technol, Dept Geophys Explorat, 217 Gajeong Ro, Daejeon 34113, South Korea.
+   [Lee, Moung-Jin] Korea Environm Inst KEI, Ctr Environm Data Strategy, 370 Sicheong Daero, Sejong Si 30147, South Korea.
+C3 Korea Institute of Geoscience & Mineral Resources (KIGAM); University of Science & Technology (UST); Korea Environment Institute (KEI)
+RP Lee, S (corresponding author), Korea Inst Geosci & Mineral Resources KIGAM, Geosci Platform Div, 124 Gwahak Ro, Daejeon 34132, South Korea.; Lee, S (corresponding author), Korea Univ Sci & Technol, Dept Geophys Explorat, 217 Gajeong Ro, Daejeon 34113, South Korea.
+EM azamhodja@rambler.ru; rezaiee.1984@gmail.com; leemj@kei.re.kr; leesaro@kigam.re.kr
+FU Basic Research Project of the Korea Institute of Geoscience and Mineral Resources (KIGAM); Project of Environmental Business Big Data Platform and Center Construction - Ministry of Science and ICT; 'Future Forecasting Government Management Support: A Study on the Modeling of Climate and Environment for the Transition to Data Science' - National Research Council for Economics, Humanities and Social Sciences
+CR Akgun A, 2012, ENVIRON MONIT ASSESS, V184, P5453, DOI 10.1007/s10661-011-2352-8
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   Althuwaynee OF, 2014, CATENA, V114, P21, DOI 10.1016/j.catena.2013.10.011
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Ballabio C, 2012, MATH GEOSCI, V44, P47, DOI 10.1007/s11004-011-9379-9
+   Pham BT, 2020, GEOCARTO INT, V35, P1267, DOI 10.1080/10106049.2018.1559885
+   Pham BT, 2017, ENVIRON PROCESS, V4, P711, DOI 10.1007/s40710-017-0248-5
+   Chakraborty S., 2012, INT J COMPUTER APPL, V49, P5, DOI 10.5120/7637-0720
+   Chen W, 2021, GEOSCI FRONT, V12, P93, DOI 10.1016/j.gsf.2020.07.012
+   Chen W, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9183755
+   Choubin B, 2018, SCI TOTAL ENVIRON, V615, P272, DOI 10.1016/j.scitotenv.2017.09.293
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   Dehnavi A, 2015, CATENA, V135, P122, DOI 10.1016/j.catena.2015.07.020
+   Di Napoli M, 2020, LANDSLIDES, V17, P1897, DOI 10.1007/s10346-020-01392-9
+   Bui DT, 2019, FORESTS, V10, P0, DOI 10.3390/f10090743
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Dodangeh E, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125423
+   Dou J, 2019, SCI TOTAL ENVIRON, V662, P332, DOI 10.1016/j.scitotenv.2019.01.221
+   Bui DT, 2020, SCI TOTAL ENVIRON, V721, P0, DOI 10.1016/j.scitotenv.2020.137612
+   Ebtehaj I, 2016, WATER SCI TECHNOL, V73, P2244, DOI 10.2166/wst.2016.064
+   Feuillet T, 2014, PROG PHYS GEOG, V38, P354, DOI 10.1177/0309133314528944
+   Goetz S, 2011, CARBON MANAG, V2, P231, DOI 10.4155/CMT.11.18
+   Gupta S, 2019, J EXP THEOR ARTIF IN, V31, P751, DOI 10.1080/0952813X.2018.1554712
+   Hong HY, 2018, CATENA, V163, P399, DOI 10.1016/j.catena.2018.01.005
+   Hong HY, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2094-y
+   Ivakhnenko A.G., 1968, AVTOMATIKA+, V13, P43
+   Jaafari A, 2018, ECOL INFORM, V43, P200, DOI 10.1016/j.ecoinf.2017.12.006
+   Jiang Y, 2019, ENERG CONVERS MANAGE, V200, P0, DOI 10.1016/j.enconman.2019.112099
+   Kaveh A, 2018, ENG COMPUT-GERMANY, V34, P685, DOI 10.1007/s00366-017-0567-1
+   Khodadadi F, 2019, PHYS GEOGR RES Q, V51, P183, DOI 10.22059/jphgr.2019.261347.1007250
+   Khosravi K, 2020, J HYDROL, V585, P0, DOI 10.1016/j.jhydrol.2020.124774
+   Khosravi K, 2019, J HYDROL, V573, P311, DOI 10.1016/j.jhydrol.2019.03.073
+   Khosravi K, 2018, SCI TOTAL ENVIRON, V642, P1032, DOI 10.1016/j.scitotenv.2018.06.130
+   Lee S, 2007, INT J REMOTE SENS, V28, P4763, DOI 10.1080/01431160701264227
+   Lee S, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9173495
+   Lee S, 2017, SUSTAINABILITY-BASEL, V9, P0, DOI 10.3390/su9010048
+   Long W, 2018, ENG APPL ARTIF INTEL, V68, P63, DOI 10.1016/j.engappai.2017.10.024
+   Luo KP, 2019, APPL SOFT COMPUT, V83, P0, DOI 10.1016/j.asoc.2019.105645
+   Menking JA, 2013, GEOL SOC AM BULL, V125, P594, DOI 10.1130/B30625.1
+   Mirjalili S, 2014, ADV ENG SOFTW, V69, P46, DOI 10.1016/j.advengsoft.2013.12.007
+   Mohebbian MR, 2020, BIOMED SIGNAL PROCES, V57, P0, DOI 10.1016/j.bspc.2019.101682
+   Najafabadi RM, 2016, GEOMAT NAT HAZ RISK, V7, P85, DOI 10.1080/19475705.2013.871353
+   Najafzadeh M, 2013, SCI IRAN, V20, P406, DOI 10.1016/j.scient.2013.04.005
+   Neaupane KM, 2006, ENG GEOL, V85, P281, DOI 10.1016/j.enggeo.2006.02.003
+   Niu MF, 2016, ATMOS ENVIRON, V134, P168, DOI 10.1016/j.atmosenv.2016.03.056
+   Nohani E, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11071402
+   Opricovic S, 2004, EUR J OPER RES, V156, P445, DOI 10.1016/S0377-2217(03)00020-1
+   Panahi M, 2020, SCI TOTAL ENVIRON, V741, P0, DOI 10.1016/j.scitotenv.2020.139937
+   Pascale S, 2013, LECT NOTES COMPUT SC, V7974, P473
+   Pham BT, 2019, GEOCARTO INT, V34, P1385, DOI 10.1080/10106049.2018.1489422
+   Ngo PTT, 2021, GEOSCI FRONT, V12, P505, DOI 10.1016/j.gsf.2020.06.013
+   Polykretis Christos, 2019, BULLETIN OF ENGINEERING GEOLOGY AND THE ENVIRONMENT, V78, P1173, DOI 10.1007/s10064-017-1125-1
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pourghasemi HR, 2012, CATENA, V97, P71, DOI 10.1016/j.catena.2012.05.005
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Rostami A, 2019, INT J HEAT MASS TRAN, V129, P7, DOI 10.1016/j.ijheatmasstransfer.2018.09.057
+   Shaghaghi S, 2017, APPL MATH COMPUT, V313, P271, DOI 10.1016/j.amc.2017.06.012
+   Shahri AA, 2019, CATENA, V183, P0, DOI 10.1016/j.catena.2019.104225
+   SHIRZADI A, 2018, SENSORS BASEL, V0018, P0
+   Shirzadi A, 2012, NAT HAZARDS, V64, P1639, DOI 10.1007/s11069-012-0321-3
+   Stefenon SF, 2020, INT J ELEC POWER, V123, P0, DOI 10.1016/j.ijepes.2020.106269
+   Tu Q, 2019, IEEE ACCESS, V7, P78012, DOI 10.1109/ACCESS.2019.2921793
+   Nguyen VV, 2019, FORESTS, V10, P0, DOI 10.3390/f10020157
+   Youssef AM, 2015, GEOSCI J, V19, P449, DOI 10.1007/s12303-014-0065-z
+   Zhu WJ, 2012, ATMOS ENVIRON, V51, P29, DOI 10.1016/j.atmosenv.2012.01.051
+NR 65
+TC 14
+Z9 14
+U1 5
+U2 17
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. Geo-Inf.
+PD OCT 15
+PY 2020
+VL 9
+IS 10
+BP 
+EP 
+DI 10.3390/ijgi9100566
+PG 18
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA ON7GI
+UT WOS:000586864100001
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, TG
+   Miao, QG
+   Xu, PF
+   Zhang, SH
+AF Liu, Tiange
+   Miao, Qiguang
+   Xu, Pengfei
+   Zhang, Shihui
+TI Superpixel-Based Shallow Convolutional Neural Network (SSCNN) for Scanned Topographic Map Segmentation
+SO REMOTE SENSING
+LA English
+DT Article
+DE scanned topographic map; segmentation; superpixel; shallow convolutional neural network; watershed transform
+ID contour-line; color; separation; extraction; features
+AB Motivated by applications in topographic map information extraction, our goal was to discover a practical method for scanned topographic map (STM) segmentation. We present an advanced guided watershed transform (AGWT) to generate superpixels on STM. AGWT utilizes the information from both linear and area elements to modify detected boundary maps and sequentially achieve superpixels based on the watershed transform. With achieving an average of 0.06 on under-segmentation error, 0.96 on boundary recall, and 0.95 on boundary precision, it has been proven to have strong ability in boundary adherence, with fewer over-segmentation issues. Based on AGWT, a benchmark for STM segmentation based on superpixels and a shallow convolutional neural network (SCNN), termed SSCNN, is proposed. There are several notable ideas behind the proposed approach. Superpixels are employed to overcome the false color and color aliasing problems that exist in STMs. The unification method of random selection facilitates sufficient training data with little manual labeling while keeping the potential color information of each geographic element. Moreover, with the small number of parameters, SCNN can accurately and efficiently classify those unified pixel sequences. The experiments show that SSCNN achieves an overall F1 score of 0.73 on our STM testing dataset. They also show the quality of the segmentation results and the short run time of this approach, which makes it applicable to full-size maps.
+C1 [Liu, Tiange; Zhang, Shihui] Yanshan Univ, Sch Informat Sci & Engn, Qinhuangdao 066004, Hebei, Peoples R China.
+   [Miao, Qiguang] Xidian Univ, Sch Comp Sci & Technol, Xian 710126, Peoples R China.
+   [Xu, Pengfei] Northwest Univ, Informat Sci & Technol Sch, Xian 710127, Peoples R China.
+C3 Yanshan University; Xidian University; Northwest University Xi'an
+RP Miao, QG (corresponding author), Xidian Univ, Sch Comp Sci & Technol, Xian 710126, Peoples R China.
+EM liutiange@ysu.edu.cn; qgmiao@xidian.edu.cn; pfxu@nwu.edu.cn; sshhzz@ysu.edu.cn
+FU National Natural Science Foundation of China [61802335, 61772396, 61973250]; Natural Science Foundation of Hebei Province of China [F2018203096]
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   Allord G.J., 1900, V6, V0, P0, DOI DOI 10.3133/tm11B6
+   [Anonymous], 2018, P EUR C COMP VIS ECC, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Chiang YY, 2014, ACM COMPUT SURV, V47, P0, DOI 10.1145/2557423
+   Cordeiro A., 2006, P ISPRS MIDT S 2006, V0, P243
+   Csillik O, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030243
+   Dhar DB, 2006, INT J DOC ANAL RECOG, V8, P232, DOI 10.1007/s10032-005-0010-9
+   Dietzel C, 2005, INT J GEOGR INF SCI, V19, P175, DOI 10.1080/13658810410001713407
+   Felzenszwalb PF, 2004, INT J COMPUT VISION, V59, P167, DOI 10.1023/B:VISI.0000022288.19776.77
+   Gadde R, 2016, LECT NOTES COMPUT SC, V9905, P597, DOI 10.1007/978-3-319-46448-0_36
+   Giordano D, 2015, PROC CVPR IEEE, V0, PP4814, DOI 10.1109/CVPR.2015.7299114
+   Gonzalo-Martin C., 2016, P GEOBIA ENSCH NETH, V0, P0
+   Khotanzad A, 2003, IEEE T PATTERN ANAL, V25, P18, DOI 10.1109/TPAMI.2003.1159943
+   KIENAST F, 1993, LANDSCAPE ECOL, V8, P103, DOI 10.1007/BF00141590
+   Kozak J, 2007, J LAND USE SCI, V2, P127, DOI 10.1080/17474230701218244
+   Levinshtein A, 2009, IEEE T PATTERN ANAL, V31, P2290, DOI 10.1109/TPAMI.2009.96
+   Leyk S, 2010, GEOINFORMATICA, V14, P1, DOI 10.1007/s10707-008-0074-z
+   Li K, 2016, PATTERN RECOGN, V51, P59, DOI 10.1016/j.patcog.2015.08.008
+   Liu FY, 2015, PATTERN RECOGN, V48, P2983, DOI 10.1016/j.patcog.2015.04.019
+   Liu TG, 2016, MULTIMED TOOLS APPL, V75, P5417, DOI 10.1007/s11042-015-2510-z
+   Liu TG, 2016, COMPUT GEOSCI-UK, V88, P41, DOI 10.1016/j.cageo.2015.12.017
+   Liu TG, 2016, J VIS COMMUN IMAGE R, V35, P78, DOI 10.1016/j.jvcir.2015.12.004
+   Liu Z, 2014, IEEE T CIRC SYST VID, V24, P1522, DOI 10.1109/TCSVT.2014.2308642
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lu ZW, 2017, IEEE T PATTERN ANAL, V39, P486, DOI 10.1109/TPAMI.2016.2552172
+   Martin DR, 2004, IEEE T PATTERN ANAL, V26, P530, DOI 10.1109/TPAMI.2004.1273918
+   Mello CAB, 2012, IEEE SYS MAN CYBERN, V0, PP132, DOI 10.1109/ICSMC.2012.6377689
+   Miao QG, 2017, IEEE T IMAGE PROCESS, V26, P2751, DOI 10.1109/TIP.2016.2613409
+   Miao QG, 2016, IEEE T GEOSCI REMOTE, V54, P6265, DOI 10.1109/TGRS.2016.2567481
+   Miao QG, 2015, NEUROCOMPUTING, V168, P808, DOI 10.1016/j.neucom.2015.05.043
+   Miao QG, 2013, IEEE T IMAGE PROCESS, V22, P1546, DOI 10.1109/TIP.2012.2233487
+   Okatani T., 2015, P PROCEDINGS BRIT MA, V61, P1, DOI 10.5244/c.29.61
+   Ostafin K, 2017, GEOSCI DATA J, V4, P29, DOI 10.1002/gdj3.46
+   OTSU N, 1979, IEEE T SYST MAN CYB, V9, P62, DOI 10.1109/TSMC.1979.4310076
+   Petit CC, 2002, LANDSCAPE ECOL, V17, P117, DOI 10.1023/A:1016599627798
+   Salvatore S., 2003, P WSCG PLZEN CZECH R, V0, P419
+   Shi JB, 2000, IEEE T PATTERN ANAL, V22, P888, DOI 10.1109/34.868688
+   Suzuki T, 2020, INT CONF ACOUST SPEE, V0, PP2573, DOI 10.1109/ICASSP40776.2020.9054140
+   VINCENT L, 1991, IEEE T PATTERN ANAL, V13, P583, DOI 10.1109/34.87344
+   Wang MR, 2017, SIGNAL PROCESS-IMAGE, V56, P28, DOI 10.1016/j.image.2017.04.007
+   Xin D., 2006, J INFORM COMPUTING S, V1, P275
+   Yang F, 2014, IEEE T IMAGE PROCESS, V23, P1639, DOI 10.1109/TIP.2014.2300823
+   Yang KF, 2013, PROC CVPR IEEE, V0, PP2810, DOI 10.1109/CVPR.2013.362
+   Zheng Huali, 2003, JOURNAL OF COMPUTER AIDED DESIGN & COMPUTER GRAPHICS, V15, P29
+NR 45
+TC 2
+Z9 2
+U1 3
+U2 8
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD OCT 15
+PY 2020
+VL 12
+IS 20
+BP 
+EP 
+DI 10.3390/rs12203421
+PG 21
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OL9TU
+UT WOS:000585673300001
+DA 2023-04-26
+ER

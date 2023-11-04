@@ -1,0 +1,471 @@
+
+PT J
+AU Griffiths, D
+   Boehm, J
+AF Griffiths, David
+   Boehm, Jan
+TI Improving public data for building segmentation from Convolutional Neural Networks (CNNs) for fused airborne lidar and image data using active contours
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; Convolutional neural networks; Segmentation; Image processing; Lidar; Aerial
+ID aerial images; point clouds; extraction; reconstruction; classification
+AB Robust and reliable automatic building detection and segmentation from aerial images/point clouds has been a prominent field of research in remote sensing, computer vision and point cloud processing for a number of decades. One of the largest issues associated with deep learning methods is the high quantity of data required for training. To help address this we present a method to improve public GIS building footprint labels by using Morphological Geodesic Active Contours (MorphGACs). We demonstrate by improving the quality of building footprint labels for detection and semantic segmentation, more robust and reliable models can be obtained. We evaluate these methods over a large UK-based dataset of 24556 images containing 169835 building instances. This is achieved by training several Mask/Faster R-CNN and RetinaNet deep convolutional neural networks. Networks are supplied with both RGB and fused RGB-lidar data. We offer quantitative analysis on the benefits of the inclusion of depth data for building segmentation. By employing both methods we achieve a detection accuracy of 0.92 (mAP@0.5) and segmentation f1 scores of 0.94 over a 4911 test images ranging from urban to rural scenes.
+C1 [Griffiths, David; Boehm, Jan] UCL, Dept Civil Environm & Geomat Engn, Gower St, London WC1E 6BT, England.
+C3 University of London; University College London
+RP Griffiths, D (corresponding author), UCL, Dept Civil Environm & Geomat Engn, Gower St, London WC1E 6BT, England.
+EM david.griffiths.16@ucl.ac.uk; j.boehm@ucl.ac.uk
+FU Bentley Systems
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   Aijazi AK, 2013, REMOTE SENS-BASEL, V5, P1624, DOI 10.3390/rs5041624
+   Alvarez L., 2010, IEEE P C COMP VIS PA, V0, PP2197, DOI 10.1109/CVPR.2010.5539900
+   [Anonymous], 2017, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   [Anonymous], 2014, 2 INT C LEARN REPR, V0, P0
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Awrangjeb M, 2010, ISPRS J PHOTOGRAMM, V65, P457, DOI 10.1016/j.isprsjprs.2010.06.001
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bittner K, 2018, IEEE J-STARS, V11, P2615, DOI 10.1109/JSTARS.2018.2849363
+   Caselles V, 1997, INT J COMPUT VISION, V22, P61, DOI 10.1023/A:1007979827043
+   Chan TF, 2001, IEEE T IMAGE PROCESS, V10, P266, DOI 10.1109/83.902291
+   Chen D, 2014, IEEE J-STARS, V7, P4199, DOI 10.1109/JSTARS.2014.2349003
+   Chen J, 2018, ISPRS ANN PHOTO REM, V4-4, P3, DOI 10.5194/isprs-annals-IV-4-W6-3-2018
+   Chen L, 2015, PROCEEDINGS 3RD IAPR ASIAN CONFERENCE ON PATTERN RECOGNITION ACPR 2015, V0, PP695, DOI 10.1109/ACPR.2015.7486592
+   Ciresan D., 2012, ADV NEURAL INFORM PR, V0, PP2843, DOI 10.5555/2999325.2999452
+   COHEN LD, 1991, CVGIP-IMAG UNDERSTAN, V53, P211, DOI 10.1016/1049-9660(91)90028-N
+   Delassus R, 2018, IEEE COMPUT SOC CONF, V0, PP237, DOI 10.1109/CVPRW.2018.00044
+   Dorninger P, 2008, SENSORS-BASEL, V8, P7323, DOI 10.3390/s8117323
+   Doytsher Y, 2004, ROBUST METHOD USED O, V34, P6
+   Griffiths D., 2018, ISPRS TC 2 MIDTERM S, V0, P391
+   Guo L, 2011, ISPRS J PHOTOGRAMM, V66, P56, DOI 10.1016/j.isprsjprs.2010.08.007
+   Guo ZL, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040271
+   He KM, 2017, IEEE I CONF COMP VIS, V0, PP2980, DOI 10.1109/TPAMI.2018.2844175
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hernandez J, 2009, 2009 JOINT URBAN REMOTE SENSING EVENT, VOLS 1-3, P560
+   Huang JF, 2019, ISPRS J PHOTOGRAMM, V151, P91, DOI 10.1016/j.isprsjprs.2019.02.019
+   Huang J, 2017, IEEE INT C INT ROBOT, V0, P3296
+   HUERTAS A, 1988, COMPUT VISION GRAPH, V41, P131, DOI 10.1016/0734-189X(88)90016-3
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Kampffmeyer M, 2016, IEEE COMPUT SOC CONF, V0, PP680, DOI 10.1109/CVPRW.2016.90
+   KANOPOULOS N, 1988, IEEE J SOLID-ST CIRC, V23, P358, DOI 10.1109/4.996
+   Kass M., 1987, PROCEEDINGS OF THE FIRST INTERNATIONAL CONFERENCE ON COMPUTER VISION (CAT. NO.87CH2465-3), V0, PP259, DOI 10.1007/BF00133570
+   Kraus K., 2001, P ISPRS WORKSH LAND, V0, P0
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Lin T, 2017, 2017 IEEE INT C COMP, V0, P0, DOI DOI 10.1109/ICCV.2017.324
+   LIOW YT, 1990, COMPUT VISION GRAPH, V49, P242, DOI 10.1016/0734-189X(90)90139-M
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Marmanis D, 2016, ISPRS ANN PHOTO REM, V3, P473, DOI 10.5194/isprsannals-III-3-473-2016
+   Marquez-Neila P, 2014, IEEE T PATTERN ANAL, V36, P2, DOI 10.1109/TPAMI.2013.106
+   Paisitkriangkrai Sakrapee, 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP36, DOI 10.1109/CVPRW.2015.7301381
+   Quang N. T., 2015, P 6 INT S INF COMM T, V0, PP282, DOI 10.1145/2833258.2833272
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Saeedi P, 2008, 2008 10TH INTERNATIONAL CONFERENCE ON CONTROL AUTOMATION ROBOTICS & VISION: ICARV 2008, VOLS 1-4, P623, DOI 10.1109/ICARCV.2008.4795590
+   Saito S, 2015, PROC SPIE, V9405, P0, DOI 10.1117/12.2083273
+   Secord J, 2007, IEEE GEOSCI REMOTE S, V4, P196, DOI 10.1109/LGRS.2006.888107
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sirmacek B, 2008, 23RD INTERNATIONAL SYMPOSIUM ON COMPUTER AND INFORMATION SCIENCES, V0, P6
+   Socher R., 2012, ADV NEURAL INFORM PR, V3, P665
+   Strom J, 2010, IEEE INT C INT ROBOT, V0, PP2131, DOI 10.1109/IROS.2010.5650459
+   Sun WW, 2018, IEEE GEOSCI REMOTE S, V15, P474, DOI 10.1109/LGRS.2018.2795531
+   SUZUKI S, 1985, COMPUT VISION GRAPH, V30, P32, DOI 10.1016/0734-189X(85)90016-7
+   Vakalopoulou M, 2015, INT GEOSCI REMOTE SE, V0, PP1873, DOI 10.1109/IGARSS.2015.7326158
+   Vetrivel A, 2015, INT ARCH PHOTOGRAMM, V40-3, P261, DOI 10.5194/isprsarchives-XL-3-W2-261-2015
+   Vosselman G., 2000, INT ARCH PHOTOGRAMME, V33, P935
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Wu GM, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030407
+   Xia G.-S., 2018, IEEE CVPR, V0, P0
+   Xiao JH, 2013, ROBOT AUTON SYST, V61, P1641, DOI 10.1016/j.robot.2013.07.001
+   Yuan J., 2016, ARXIV PREPRINT ARXIV, V0, P0
+   Zhang QC, 2016, INT GEOSCI REMOTE SE, V0, PP661, DOI 10.1109/IGARSS.2016.7729166
+NR 65
+TC 41
+Z9 43
+U1 8
+U2 84
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD AUG 15
+PY 2019
+VL 154
+IS 
+BP 70
+EP 83
+DI 10.1016/j.isprsjprs.2019.05.013
+PG 14
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA IQ3SN
+UT WOS:000480671500006
+DA 2023-04-26
+ER
+
+PT J
+AU Lin, WZ
+   Wang, SH
+   Huang, HP
+AF Lin, Wei-Zhi
+   Wang, Sui-Hsien
+   Huang, Han-Pang
+TI Construction of Human Behavior Cognitive Map for Robots
+SO APPLIED SCIENCES-BASEL
+LA English
+DT Article
+DE environment recognition system; human behavior; cognitive map; fuzzy integral; service robot; human robot interaction
+ID imitation
+AB With the advancement of robotics, the importance of service robots in society is increasing. It is crucial for service robots to understand their environment so that they can offer suitable responses to humans. To realize the use of space, robots primarily use an environment model. This paper is focused on the development of an environment model based on human behaviors. In this model, a new neural network structure called dynamic highway networks is applied to recognize humans' behaviors. In addition, a two-dimensional pose estimator, Laban movement analysis, and the fuzzy integral are employed. With these methods, two new behavior-recognition algorithms are developed, and a method to record the relationship between behavior and environment is proposed. Based on the proposed environmental model, robots can identify abnormal behavior, provide an appropriate response and guide a person toward the desired normal behavior by identifying abnormal behavior. Simulations and experiments justify the proposed method with satisfactory results.
+C1 [Lin, Wei-Zhi; Huang, Han-Pang] Natl Taiwan Univ, Mech Engn Dept, Robot Lab, Taipei 10617, Taiwan.
+   [Wang, Sui-Hsien] HTC Corp, New Taipei 23144, Taiwan.
+C3 National Taiwan University
+RP Huang, HP (corresponding author), Natl Taiwan Univ, Mech Engn Dept, Robot Lab, Taipei 10617, Taiwan.
+EM levi5382001@gmail.com; r05522808@ntu.edu.tw; hanpang@ntu.edu.tw
+CR [Anonymous], 2015, ADV NEURAL INFORM PR, V0, P0
+   Aristidou A, 2015, COMPUT GRAPH FORUM, V34, P262, DOI 10.1111/cgf.12598
+   Bingbing Ni, 2011, 2011 IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION WORKSHOPS (ICCV WORKSHOPS), V0, PP1147, DOI 10.1109/ICCVW.2011.6130379
+   Blank M, 2005, IEEE I CONF COMP VIS, V0, P1395
+   Cao Z, 2017, PROC CVPR IEEE, V0, PP1302, DOI 10.1109/CVPR.2017.143
+   Cheng ZW, 2012, LECT NOTES COMPUT SC, V7584, P52, DOI 10.1007/978-3-642-33868-7_6
+   Chung J, 2014, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1412.3555
+   Chung SY, 2010, ADV ROBOTICS, V24, P979, DOI 10.1163/016918610X496946
+   Gaussier P, 1998, APPL ARTIF INTELL, V12, P701, DOI 10.1080/088395198117596
+   Kanda T, 2009, IEEE T ROBOT, V25, P1382, DOI 10.1109/TRO.2009.2032969
+   Kitchin R., 2001, INT ENCY SOCIAL BEHA, V0, PP2120, DOI 10.1016/B0-08-043076-7/02531-6
+   Laban R., 1971, MASTERY MOVEMENT, V0, P0
+   Lagarde M, 2010, STUD COMPUT INTELL, V264, P43
+   Laroque Ph., 2010, J BEHAV ROBOT, V1, P25, DOI 10.2478/s13230-010-0004-2
+   Li S.T., 2016, MULTIMODAL EMOTION R, V0, P0
+   Liu X.-D., 2018, PROC UBIQUITOUS POSI, V0, P1
+   Liu ZY, 2013, 2013 EUROPEAN CONFERENCE ON MOBILE ROBOTS (ECMR 2013), V0, PP234, DOI 10.1109/ECMR.2013.6698848
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Marszalek M, 2009, PROC CVPR IEEE, V0, PP2921, DOI 10.1109/CVPRW.2009.5206557
+   Nuchter A, 2008, ROBOT AUTON SYST, V56, P915, DOI 10.1016/j.robot.2008.08.001
+   OKeefe L.N.J., 1987, HIPPOCAMPUS COGNITIV, V0, P0
+   OKEEFE J, 1978, EXP BRAIN RES, V31, P573
+   Rizzolatti G, 2004, ANNU REV NEUROSCI, V27, P169, DOI 10.1146/annurev.neuro.27.070203.144230
+   Rusu RB, 2009, 2009 IEEE-RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS, V0, PP3601, DOI 10.1109/IROS.2009.5354759
+   Sargolini F, 2006, SCIENCE, V312, P758, DOI 10.1126/science.1125572
+   Schuldt C, 2004, INT C PATT RECOG, V0, PP32, DOI 10.1109/ICPR.2004.1334462
+   Singh Sanchit, 2010, PROCEEDINGS 7TH IEEE INTERNATIONAL CONFERENCE ON ADVANCED VIDEO AND SIGNAL BASED SURVEILLANCE (AVSS 2010), V0, PP48, DOI 10.1109/AVSS.2010.63
+   Sugawara R, 2015, 2015 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND BIOMIMETICS (ROBIO), V0, PP2047, DOI 10.1109/ROBIO.2015.7419075
+   Sugeno M., 1974, THEORY FUZZY INTEGRA, V0, P0
+   Tang HJ, 2018, IEEE T COGN DEV SYST, V10, P751, DOI 10.1109/TCDS.2017.2776965
+   Wang CC, 2003, IEEE INT CONF ROBOT, V0, P842
+   Wang Z, 2016, IEEE ROMAN, V0, PP64, DOI 10.1109/ROMAN.2016.7745092
+   Weinland D, 2006, COMPUT VIS IMAGE UND, V104, P249, DOI 10.1016/j.cviu.2006.07.013
+   Xiao S, 2015, IEEE INT CONF ROBOT, V0, PP691, DOI 10.1109/ICRA.2015.7139254
+   Yan W, 2012, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2012, V0, P0, DOI DOI 10.5244/C.26.48
+   Zhou H., 2015, P 21 INT C AUT COMP, V0, P267
+NR 36
+TC 0
+Z9 0
+U1 1
+U2 4
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2076-3417
+J9 APPL SCI-BASEL
+JI Appl. Sci.-Basel
+PD DEC 15
+PY 2019
+VL 9
+IS 23
+BP 
+EP 
+DI 10.3390/app9235026
+PG 20
+WC Chemistry, Multidisciplinary; Engineering, Multidisciplinary; Materials Science, Multidisciplinary; Physics, Applied
+SC Chemistry; Engineering; Materials Science; Physics
+GA KF8GZ
+UT WOS:000509476600048
+DA 2023-04-26
+ER
+
+PT J
+AU Campbell, A
+   Both, A
+   Sun, Q
+AF Campbell, Andrew
+   Both, Alan
+   Sun, Qian (Chayn)
+TI Detecting and mapping traffic signs from Google Street View images using deep learning and GIS
+SO COMPUTERS ENVIRONMENT AND URBAN SYSTEMS
+LA English
+DT Article
+DE Deep learning; Object detection; Google street view (GSV) images; GIS; Traffic asset management
+ID neural-network
+AB Street traffic sign infrastructure remains an extremely difficult asset for local government to manage due to its diverse physical structure and geographical distribution. A spatial registrar of traffic infrastructure is currently a required component of local government councils' mandatory road management plans. Recent advancements of object detection technology in machine learning have presented an automated approach for the detection and classification of street signage captured by Google's Street View (GSV) imagery. This paper explores the possibility of using deep learning to produce an autonomous system for detecting traffic signs on GSV images to assist in traffic assets monitoring and maintenance. By leveraging Google's Street View API, this research offers an economic approach of building purposeful street sign computer vision datasets. A custom object detection model was trained to detect and classify Stop and Give Way signs from images captured at intersection approaches. Considering the output detected bounding box coordinates, photogrammetry approach was applied to calculate the approximate location of each detected sign in two-dimensional geographical space. The newly located and classified street signs can be combined with relevant spatial data for implementation into an asset management system. By combining GIS and the GSV API, the process is completely scalable to any level of street sign classification scope. The experiments conducted on the road network of study area recorded a detection accuracy of 95.63% and classification accuracy of 97.82%. Our proposed automated approach to the detection and localisation of street sign infrastructure has displayed a promising potential for its use by local government authorities. Our workflow can be used to detect other traffic signs and applied to other road sections and other cities. Of primary importance, this approach takes an entirely free and open-source approach throughout. The continuation of Google's Street View program will account for the spatiotemporal representation of street sign infrastructure for the ongoing maintenance and renewal programs of this valuable asset.
+C1 [Campbell, Andrew; Both, Alan; Sun, Qian (Chayn)] RMIT Univ, Geospatial Sci, Sch Sci, GPO Box 2476V,Victoria 3001,Bldg 14,Level 07, Melbourne, Vic 3000, Australia.
+C3 Royal Melbourne Institute of Technology (RMIT)
+RP Sun, Q (corresponding author), RMIT Univ, Geospatial Sci, Sch Sci, GPO Box 2476V,Victoria 3001,Bldg 14,Level 07, Melbourne, Vic 3000, Australia.
+EM chayn.sun@rmit.edu.au
+CR Abadi Martin, 2016, ARXIV, V0, P0
+   Anguelov D, 2010, COMPUTER, V43, P32, DOI 10.1109/MC.2010.170
+   [Anonymous], 2017, RFID TAGS YOUR RUBB, V0, P0
+   Araujo A. A, 2015, GRAPH PATT IM SIGRAP, V0, P0
+   Balali V., 2015, VIS ENG, V3, P1, DOI 10.1186/S40327-015-0027-1
+   Chen XW, 2014, IEEE ACCESS, V2, P514, DOI 10.1109/ACCESS.2014.2325029
+   Ciresan D, 2012, NEURAL NETWORKS, V32, P333, DOI 10.1016/j.neunet.2012.02.023
+   Ciresan D, 2011, 2011 INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS (IJCNN), V0, PP1918, DOI 10.1109/IJCNN.2011.6033458
+   Dai J, 2016, PROCEEDINGS 2016 IEEE INTERNATIONAL CONFERENCE ON INDUSTRIAL TECHNOLOGY (ICIT), V0, PP1796, DOI 10.1109/ICIT.2016.7475036
+   Elphe.com, 2018, ELPH FREE SOFTW OP H, V0, P0
+   Erhan D, 2014, PROC CVPR IEEE, V0, PP2155, DOI 10.1109/CVPR.2014.276
+   Giacinto G, 2001, IMAGE VISION COMPUT, V19, P699, DOI 10.1016/S0262-8856(01)00045-2
+   Gil-Jimenez P, 2005, INT WORK C ATR NEUR, V0, P0
+   Gonzalez A, 2014, IEEE T INTELL TRANSP, V15, P228, DOI 10.1109/TITS.2013.2277662
+   Griew P, 2013, INT J BEHAV NUTR PHY, V10, P0, DOI 10.1186/1479-5868-10-103
+   Hara K., 2013, P SIGCHI C HUMAN FAC, V0, PP631, DOI 10.1145/2470654.2470744
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Howard A. G, 2017, ARXIV170404861, V0, P2923
+   Huang J., 2017, TENSORFLOW OBJECT DE, V0, P0
+   Huang J, 2017, PROC CVPR IEEE, V0, PP3296, DOI 10.1109/CVPR.2017.351
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Johannes Stallkamp, 2011, NEUR NETW IJCNN 2011, V0, P0
+   Kawamura R, 2018, RECTLABEL, V0, P0
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Li Y, 2010, PATT REC ICPR 2010 2, V0, P0
+   Lin TY, 2014, LECT NOTES COMPUT SC, V8693, P740, DOI 10.1007/978-3-319-10602-1_48
+   Mogelmose A, 2012, IEEE T INTELL TRANSP, V13, P1484, DOI 10.1109/TITS.2012.2209421
+   Odgers CL, 2012, J CHILD PSYCHOL PSYC, V53, P1009, DOI 10.1111/j.1469-7610.2012.02565.x
+   Parkhi O. M, 2012, COMP VIS PATT REC CV, V0, P0
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Rousselet J, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0074918
+   Rundle AG, 2011, AM J PREV MED, V40, P94, DOI 10.1016/j.amepre.2010.09.034
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Sermanet P., 2011, 2011 INT JOINT C NEU, V0, P0
+   SIfre L, 2014, COMPUTER SCI, V0, P0, DOI DOI 10.1007/11503415_34
+   Stallkamp J, 2011, 2011 INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS (IJCNN), V0, PP1453, DOI 10.1109/IJCNN.2011.6033395
+   Sun Q, 2018, TRANSPORT RES F-TRAF, V58, P11, DOI 10.1016/j.trf.2018.05.025
+   Witten IH, 2011, MOR KAUF D, V0, P1
+   Yadav N, 2017, COMP STUDY OBJECT DE, V0, P0
+   Zhu YY, 2016, NEUROCOMPUTING, V214, P758, DOI 10.1016/j.neucom.2016.07.009
+NR 40
+TC 36
+Z9 36
+U1 19
+U2 74
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0198-9715
+EI 1873-7587
+J9 COMPUT ENVIRON URBAN
+JI Comput. Environ. Urban Syst.
+PD SEP 15
+PY 2019
+VL 77
+IS 
+BP 
+EP 
+DI 10.1016/j.compenvurbsys.2019.101350
+PG 11
+WC Computer Science, Interdisciplinary Applications; Engineering, Environmental; Environmental Studies; Geography; Operations Research & Management Science; Regional & Urban Planning
+SC Computer Science; Engineering; Environmental Sciences & Ecology; Geography; Operations Research & Management Science; Public Administration
+GA JB6EN
+UT WOS:000488657500007
+DA 2023-04-26
+ER
+
+PT J
+AU Sosa, R
+   Alfonso, A
+   Napoles, G
+   Bello, R
+   Vanhoof, K
+   Nowe, A
+AF Sosa, Richar
+   Alfonso, Alejandro
+   Napoles, Gonzalo
+   Bello, Rafael
+   Vanhoof, Koen
+   Nowe, Ann
+TI Synaptic Learning of Long-Term Cognitive Networks with Inputs
+SO 2019 INTERNATIONAL JOINT CONFERENCE ON NEURAL NETWORKS (IJCNN)
+LA English
+DT Proceedings Paper
+DE Long-term memory; cognitive mapping; synaptic learning; modeling and simulation
+AB In contrast with the extense variety of machine learning algorithms, to fully automate the reasoning process, only a few can take advantage of the expert knowledge. Fuzzy Cognitive Maps (FCMs) are neural networks that can naturally integrate this kind of knowledge in the inference process. Nevertheless, FCMs have serious drawbacks difficult to overcome from the absence of an intrinsically learning algorithm or limited prediction horizon of the activation space of the neurons. Recently, some variants of the FCMs like Short-Term Cognitive Networks (STCN) and Long Term Cognitive Networks (LTCN) have been proposed to solve these problems. In this paper, we propose a new neural network model as a variant of LTCNs called Long-Term Cognitive Networks with Inputs (LTCNIs). A new kind of input neuron which is not present in the traditional FCMs approach or the derived algorithms STCNs and LTCNs is introduced, in order to model inputs like energy or mass in physical systems. The performance of the method is discussed through the modeling of a passive circuit problem. As a second contribution, a new flexible reasoning strategy, which preserves the expert knowledge through synaptic learning is presented. A synaptic learning based on a gradient descent method is implemented limited by a set of restrictions that preserves the model semantics.
+C1 [Sosa, Richar; Nowe, Ann] Vrije Univ Brussel VUB, Artificial Intelligence Lab, Brussels, Belgium.
+   [Sosa, Richar; Alfonso, Alejandro] Univ Cent Las Villas UCLV, Santa Clara, Cuba.
+   [Napoles, Gonzalo; Vanhoof, Koen] Hasselt Univ UHasselt, Fac Business Econ, Hasselt, Belgium.
+   [Bello, Rafael] Univ Cent Las Villas UCLV, Dept Comp Sci, Santa Clara, Cuba.
+C3 Vrije Universiteit Brussel; Universidad Central "Marta Abreu" de Las Villas; Hasselt University; Universidad Central "Marta Abreu" de Las Villas
+RP Sosa, R (corresponding author), Vrije Univ Brussel VUB, Artificial Intelligence Lab, Brussels, Belgium.; Sosa, R (corresponding author), Univ Cent Las Villas UCLV, Santa Clara, Cuba.
+EM Richar.Sosa.Lopez@vub.be; aayero@uclv.edu.cu; gonzalo.napoles@uhasselt.be; rbellop@uclv.edu.cu; koen.vanhoof@uhasselt.be; ann.nowe@vub.be
+CR Bengio Y., 2012, LECT NOTES COMPUTER, V0, P0
+   Carvalho J. P., 1988, INT C FUZZ SYST JUL, V0, P1527
+   Felix G., 2017, ARTIFICIAL INTELLIGE, V0, P0
+   Froelich W., 2017, KNOWL-BASED SYST, V115, P0
+   Froelich W, 2009, STUD COMPUT INTELL, V252, P153
+   Hayt W., 2019, ENG CIRCUIT ANAL, V9th, P0
+   Kim Been, 2016, ADV NEURAL INFORM PR, V0, P2280
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kosko B., 1988, INT J APPROX REASON, V2, P0
+   LU W, 2014, KNOWL-BASED SYST, V7, P0
+   McCulloch W. S., 1988, NEUROCOMPUTING FDN R, V0, P1527
+   Napoles G., 2016, INFORM SCI, V349, P0
+   Napoles G., 2017, NEURAL PROCESS LETT, V45, P0
+   Napoles G., 2018, IEEE T PATTER UNPUB, V0, P0
+   Napoles G., 2018, IEEE T NEURAL UNPUB, V0, P0
+   Napoles G., 2018, IEEE T NEURAL NETWOR, V0, P0
+   Ogata K, 2016, MODERN CONTROL ENG, V0, P0
+   Pedrycz W., 2016, IEEE T FUZZY SYST, V24, P0
+   Petalas G., 2009, SOFT COMPUT J, V13, P7794
+   Rumelhart D. E., 1985, LEARNING INTERNAL RE, V0, P0
+   Salmeron JL, 2016, KNOWL-BASED SYST, V105, P29, DOI 10.1016/j.knosys.2016.04.023
+   Stach W., 2004, ELECTRON LETT, V40, P0
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2161-4393
+EI 
+J9 IEEE IJCNN
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 
+EP 
+DI 
+PG 8
+WC Computer Science, Artificial Intelligence; Computer Science, Hardware & Architecture; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BO9HA
+UT WOS:000530893802086
+DA 2023-04-26
+ER
+
+PT J
+AU Peethambaran, B
+   Anbalagan, R
+   Shihabudheen, KV
+   Goswami, A
+AF Peethambaran, Bipin
+   Anbalagan, R.
+   Shihabudheen, K. V.
+   Goswami, Ajanta
+TI Robustness evaluation of fuzzy expert system and extreme learning machine for geographic information system-based landslide susceptibility zonation: A case study from Indian Himalaya
+SO ENVIRONMENTAL EARTH SCIENCES
+LA English
+DT Article
+DE Landslide susceptibility zonation; Geographic information system; Artificial intelligence; Fuzzy expert system; Extreme learning machine; Mussoorie Township
+ID artificial neural-network; frequency ratio; rudraprayag district; logistic-regression; hazard evaluation; garhwal himalaya; reservoir area; gis; prediction; displacement
+AB In the last few decades, with the development of computers and geographic information system (GIS), a wide range of landslide susceptibility zonation (LSZ) techniques were orchestrated by various researchers around the globe. Among them, the artificial intelligence (AI) have been distinctly regarded as the most effective and suitable approach to part with GIS for LSZ. Though, suitability of AI for LSZ is well addressed in the landslide literature, noises of processing data, choice of causative factors and landslide density of study area are the number of hindrances that cause quandary over preference of ideal AI technique among many. The current study intends to analyse and compare the predictive performance of two entirely different AI techniques, fuzzy expert system (FES), a bivariate statistical technique, and extreme learning machine (ELM), a multivariate statistical technique for GIS based LSZ. The Mussoorie Township, a famous tourist destination in the Indian State of Uttarakhand was taken as the study area. Thematic layers of relevant causative factors and landslide inventory were prepared for the study area through field survey, remote sensing, and GIS. The resultant landslide susceptibility maps (LSM) of the study area, LSM-I of FES and LSM-II of ELM were critically evaluated and compared with the aid of landslide inventory of the study area.
+C1 [Peethambaran, Bipin; Anbalagan, R.; Goswami, Ajanta] Indian Inst Technol Roorkee, Dept Earth Sci, Roorkee, Uttar Pradesh, India.
+   [Shihabudheen, K. V.] Indian Inst Technol Roorkee, Dept Elect Engn, Roorkee, Uttar Pradesh, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Roorkee; Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Roorkee
+RP Peethambaran, B (corresponding author), Indian Inst Technol Roorkee, Dept Earth Sci, Roorkee, Uttar Pradesh, India.
+EM bipinpeethambaran@gmail.com
+FU University Grant Commission (UGC) of India
+CR Aghdam IN, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6558-0
+   Aghdam IN, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-5233-6
+   Ahmed R, 2018, NAT RESOUR RES, V27, P503, DOI 10.1007/s11053-017-9367-y
+   Akgun A, 2012, COMPUT GEOSCI-UK, V38, P23, DOI 10.1016/j.cageo.2011.04.012
+   An K, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10020293
+   ANBALAGAN R, 1992, ENG GEOL, V32, P269, DOI 10.1016/0013-7952(92)90053-2
+   Anbalagan R, 1996, ENG GEOL, V43, P237, DOI 10.1016/S0013-7952(96)00033-6
+   Anbalagan R, 2007, FIELD MANUAL LANDSLI, V0, P0
+   Arora MK, 2004, INT J REMOTE SENS, V25, P559, DOI 10.1080/0143116031000156819
+   Barnard PL, 2001, GEOMORPHOLOGY, V40, P21, DOI 10.1016/S0169-555X(01)00035-6
+   Pham BT, 2017, THEOR APPL CLIMATOL, V128, P255, DOI 10.1007/s00704-015-1702-9
+   Cao Y, 2016, LANDSLIDES, V13, P725, DOI 10.1007/s10346-015-0596-z
+   Cascini L, 1991, P 16 INT LANDSL C BA, V0, P899
+   Chimidi G, 2017, APPL GEOMAT, V9, P219, DOI 10.1007/s12518-017-0195-x
+   Choi J, 2012, ENG GEOL, V124, P12, DOI 10.1016/j.enggeo.2011.09.011
+   Clerici A, 2006, ENVIRON GEOL, V50, P941, DOI 10.1007/s00254-006-0264-7
+   DAmbrosio D, 2003, NAT HAZARD EARTH SYS, V3, P545, DOI 10.5194/nhess-3-545-2003
+   Dai FC, 2001, ENVIRON GEOL, V40, P381, DOI 10.1007/s002540000163
+   denHartog MH, 1997, INT J APPROX REASON, V16, P43, DOI 10.1016/S0888-613X(96)00118-1
+   Dhakal AS, 2003, EARTH SURF PROC LAND, V28, P853, DOI 10.1002/esp.499
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Erener A, 2010, LANDSLIDES, V7, P55, DOI 10.1007/s10346-009-0188-x
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   FREUND JE, 1992, MATH STAT, V0, P0
+   Gokceoglu C, 2005, ENG GEOL, V81, P65, DOI 10.1016/j.enggeo.2005.07.011
+   Gokceoglu C, 1996, ENG GEOL, V44, P147, DOI 10.1016/S0013-7952(97)81260-4
+   Grima MA, 1999, INT J ROCK MECH MIN, V36, P339
+   Gupta P, 1997, Q J ENG GEOL, V30, P27, DOI 10.1144/GSL.QJEGH.1997.030.P1.03
+   GUPTA RP, 1990, ENG GEOL, V28, P119, DOI 10.1016/0013-7952(90)90037-2
+   Huang FM, 2017, ENG GEOL, V223, P11, DOI 10.1016/j.enggeo.2017.04.013
+   Huang GB, 2006, NEUROCOMPUTING, V70, P489, DOI 10.1016/j.neucom.2005.12.126
+   Humbert, 1977, B INT ASS ENG GEOL B, V16, P80, DOI 10.1007/BF02591455
+   Iovine G, 2003, NAT HAZARD EARTH SYS, V3, P457, DOI 10.5194/nhess-3-457-2003
+   Jibson RW, 2000, ENG GEOL, V58, P271, DOI 10.1016/S0013-7952(00)00039-9
+   JUANG CH, 1992, J GEOTECH ENG-ASCE, V118, P475, DOI 10.1061/(ASCE)0733-9410(1992)118:3(475)
+   Kumar D, 2017, GEOMORPHOLOGY, V295, P115, DOI 10.1016/j.geomorph.2017.06.013
+   Kumar R, 2016, J GEOL SOC INDIA, V87, P271, DOI 10.1007/s12594-016-0395-8
+   Lee S, 2007, INT J REMOTE SENS, V28, P4763, DOI 10.1080/01431160701264227
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Lian C, 2014, NEURAL COMPUT APPL, V24, P99, DOI 10.1007/s00521-013-1446-3
+   MAMDANI EH, 1975, INT J MAN MACH STUD, V7, P1, DOI 10.1016/S0020-7373(75)80002-2
+   Martha TR, 2013, LANDSLIDES, V10, P469, DOI 10.1007/s10346-013-0420-6
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Nefeslioglu HA, 2006, ENG GEOL, V85, P251, DOI 10.1016/j.enggeo.2006.02.004
+   Pachauri AK, 1998, ENVIRON GEOL, V36, P325, DOI 10.1007/s002540050348
+   Peethambaran B, 2019, NAT HAZARDS, V96, P121, DOI 10.1007/s11069-018-3532-4
+   Pistocchi A, 2002, ENVIRON GEOL, V41, P765, DOI 10.1007/s002540100440
+   Polykretis C, 2015, B ENG GEOL ENVIRON, V74, P27, DOI 10.1007/s10064-014-0607-7
+   Pradhan B, 2011, ENVIRON EARTH SCI, V63, P329, DOI 10.1007/s12665-010-0705-1
+   Saha AK, 2005, LANDSLIDES, V2, P61, DOI 10.1007/s10346-004-0039-8
+   Sahana M, 2019, INT J URBAN SCI, V23, P205, DOI 10.1080/12265934.2018.1488604
+   Sahana M, 2018, SCI TOTAL ENVIRON, V628-629, P1557, DOI 10.1016/j.scitotenv.2018.02.170
+   Sahana M, 2018, SCI TOTAL ENVIRON, V627, P1264, DOI 10.1016/j.scitotenv.2018.01.290
+   Sahana M, 2017, J MT SCI-ENGL, V14, P2150, DOI 10.1007/s11629-017-4404-1
+   Sarkar S, 2015, GEOMAT NAT HAZ RISK, V6, P308, DOI 10.1080/19475705.2013.847501
+   Sati S., 1998, ENVIRONMENTALIST, V18, P149, DOI 10.1023/A:1006646000095
+   Sezer EA, 2011, EXPERT SYST APPL, V38, P8208, DOI 10.1016/j.eswa.2010.12.167
+   Shihabudheen KV, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-3278-4
+   Shihabudheen KV, 2017, APPL SOFT COMPUT, V61, P892, DOI 10.1016/j.asoc.2017.09.001
+   Shou KJ, 2003, ENG GEOL, V68, P237, DOI 10.1016/S0013-7952(02)00230-2
+   Sonmez H, 2003, ENG APPL ARTIF INTEL, V16, P251, DOI 10.1016/S0952-1976(03)00002-2
+   Tazik E, 2014, INT ARCH PHOTOGRAMM, V40, P267, DOI 10.5194/isprsarchives-XL-2-W3-267-2014
+   Temesgen B, 2001, PHYS CHEM EARTH PT C, V26, P0
+   Valdiya K. S., 1980, GEOLOGY KUMAON LESSE, V0, P0
+   Varnes DJ., 1978, LANDSLIDES ANAL CONT, V0, P0
+   Vasu NN, 2016, GEOMORPHOLOGY, V263, P50, DOI 10.1016/j.geomorph.2016.03.023
+   Yilmaz C, 2012, ENVIRON EARTH SCI, V65, P2161, DOI 10.1007/s12665-011-1196-4
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Zhou C, 2018, COMPUT GEOSCI-UK, V112, P23, DOI 10.1016/j.cageo.2017.11.019
+   Zhou G, 2003, ENG GEOL, V68, P373, DOI 10.1016/S0013-7952(02)00241-7
+   Zhu AX, 2014, GEOMORPHOLOGY, V214, P128, DOI 10.1016/j.geomorph.2014.02.003
+   ZWEIG MH, 1993, CLIN CHEM, V39, P561
+NR 72
+TC 15
+Z9 15
+U1 2
+U2 26
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 1866-6280
+EI 1866-6299
+J9 ENVIRON EARTH SCI
+JI Environ. Earth Sci.
+PD MAR 15
+PY 2019
+VL 78
+IS 6
+BP 
+EP 
+DI 10.1007/s12665-019-8225-0
+PG 20
+WC Environmental Sciences; Geosciences, Multidisciplinary; Water Resources
+SC Environmental Sciences & Ecology; Geology; Water Resources
+GA HQ1HE
+UT WOS:000462148000001
+DA 2023-04-26
+ER

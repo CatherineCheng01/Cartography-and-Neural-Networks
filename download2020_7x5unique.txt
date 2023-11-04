@@ -1,0 +1,481 @@
+
+PT J
+AU Liebel, L
+   Bittner, K
+   Korner, M
+AF Liebel, Lukas
+   Bittner, Ksenia
+   Koerner, Marco
+TI A generalized multi-task learning approach to stereo DSM filtering in urban areas
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Multi-task learning; Stereo DSM filtering; Roof type segmentation; 3D city models; Deep learning
+AB City models and height maps of urban areas serve as a valuable data source for numerous applications, such as disaster management or city planning. While this information is not globally available, it can be substituted by digital surface models (DSMs), automatically produced from inexpensive satellite imagery. However, stereo DSMs often suffer from noise and blur. Furthermore, they are heavily distorted by vegetation, which is of lesser relevance for most applications. Such basic models can be filtered by convolutional neural networks (CNNs), trained on labels derived from digital elevation models (DEMs) and 3D city models, in order to obtain a refined DSM. We propose a modular multi-task learning concept that consolidates existing approaches into a generalized framework. Our encoder-decoder models with shared encoders and multiple task-specific decoders leverage roof type classification as a secondary task and multiple objectives including a conditional adversarial term. The contributing single-objective losses are automatically weighted in the final multi-task loss function based on learned uncertainty estimates. We evaluated the performance of specific instances of this family of network architectures. Our method consistently outperforms the state of the art on common data, both quantitatively and qualitatively, and generalizes well to a new dataset of an independent study area.
+C1 [Liebel, Lukas; Koerner, Marco] Tech Univ Munich TUM, Dept Aerosp & Geodesy LRG, Chair Remote Sensing Technol LMF, Comp Vis Res Grp, Munich, Germany.
+   [Bittner, Ksenia] German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, Photogrammetry & Image Anal PBA, Oberpfaffenhofen, Germany.
+C3 Technical University of Munich; Helmholtz Association; German Aerospace Centre (DLR)
+RP Liebel, L (corresponding author), Tech Univ Munich TUM, Dept Aerosp & Geodesy LRG, Chair Remote Sensing Technol LMF, Comp Vis Res Grp, Munich, Germany.
+EM lukas.liebel@tum.de
+FU German Federal Ministry of Transport and Digital Infrastructure (BMVI) [16AVF2019A]
+CR Anders Niels, 2019, DRONES, V3, P1
+   Arrell K, 2008, EARTH SURF PROC LAND, V33, P943, DOI 10.1002/esp.1597
+   Bittner K, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111262
+   Bittner K, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121926
+   Caruana R, 1997, MACH LEARN, V28, P41, DOI 10.1023/A:1007379606734
+   Carvalho M, 2018, IEEE IMAGE PROC, V0, PP2915, DOI 10.1109/ICIP.2018.8451312
+   CHEN L, 2018, ENCODER DECODER ATRO, V0, P0, DOI DOI 10.1186/S13638-017-1011-3
+   Chen Lily X., 2015, 2015 SYSTEMS AND INFORMATION ENGINEERING DESIGN SYMPOSIUM. PROCEEDINGS, V0, PP1, DOI 10.1109/SIEDS.2015.7116954
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen S, 2019, ADV COND MATTER PHYS, V2019, P0, DOI 10.1155/2019/6179456
+   Chen Wei, 2017, NON-CODING RNA, V3, P1, DOI 10.3390/ncrna3010001
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Collobert R., 2008, P 25 INT C MACHINE L, V0, P0
+   dAngelo P., 2018, AUTOMATIC LARGE SCAL, V0, P103
+   dAngelo P, 2011, INT ARCH PHOTOGRAMM, V39-4, P79
+   Delaunay B., 1934, B ACAD SCI URSS, V0, P793
+   Eigen D, 2015, IEEE I CONF COMP VIS, V0, PP2650, DOI 10.1109/ICCV.2015.304
+   Fu H, 2018, PROC CVPR IEEE, V0, PP2002, DOI 10.1109/CVPR.2018.00214
+   Ghamisi P, 2018, IEEE GEOSCI REMOTE S, V15, P794, DOI 10.1109/LGRS.2018.2806945
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Guo Michelle, 2018, DYNAMIC TASK PRIORIT, V0, P282
+   He K., 2015, PROC CVPR IEEE, V5, P6
+   Hirschmuller H, 2008, IEEE T PATTERN ANAL, V30, P328, DOI 10.1109/TPAMl.2007.1166
+   Hu JJ, 2019, IEEE WINT CONF APPL, V0, PP1043, DOI 10.1109/WACV.2019.00116
+   Isola P., 2017, PROC IEEE C COMPUT V, V0, P1125
+   Jacobsen K., 2003, SEGMENTED FILTERING, V0, P1
+   Kendall A, 2018, PROC CVPR IEEE, V0, PP7482, DOI 10.1109/CVPR.2018.00781
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Krauss A, 2010, ELECTRON P THEOR COM, V0, PP1, DOI 10.4204/EPTCS.43.1
+   Liebel L, 2018, ARXIV180506334, Vabs/1805.06334, P1, DOI 10.48550/ARXIV.1805.06334
+   Liebel Lukas, 2019, INT TRANSP SYST C, V0, P0
+   Lu Yongxi, 2017, FULLY ADAPTIVE FEATU, V0, P5334
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Ruder S, 2017, ARXIV170605098, V0, P0
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Salah M, 2020, APPL GEOMAT, V12, P307, DOI 10.1007/s12518-020-00299-3
+   Sener Ozan, 2018, MULTITASK LEARNING M, V0, P525
+   Shewchuk J. R., 1996, APPL COMPUTATIONAL G, V0, PP203, DOI 10.1007/BFB0014497
+   Sirmacek B., 2010, DETECTING COMPLEX BU, V0, P1
+   Sirmacek Beril, 2010, ENHANCING URBAN DIGI, V0, P541
+   Tovari D., 2005, SEGMENTATION BASED R, V0, P79
+   Walker JP, 2006, PHOTOGRAMM ENG REM S, V72, P771, DOI 10.14358/PERS.72.7.771
+   Wang Ping, 1998, APPL 2 DIMENSIONAL K, V0, P649
+   Weidner Uwe, 1997, DIGITAL SURFACE MODE, V0, P193
+   Yu F., 2016, INT C LEARN REPR ICL, V0, P1
+   Zamir AR, 2018, PROC CVPR IEEE, V0, PP3712, DOI 10.1109/CVPR.2018.00391
+   Zhang P, 2014, IEEE ENG MED BIO, V0, PP94, DOI 10.1109/EMBC.2014.6943537
+   Zhao Hengshuang, 2018, PYRAMID SCENE PARSIN, V0, P6230
+   Zhao XT, 2018, ADV ENG MATER, V20, P0, DOI 10.1002/adem.201700902
+NR 49
+TC 10
+Z9 12
+U1 3
+U2 14
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD AUG 15
+PY 2020
+VL 166
+IS 
+BP 213
+EP 227
+DI 10.1016/j.isprsjprs.2020.03.005
+PG 15
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA MO1AQ
+UT WOS:000551268300017
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, XY
+   Huang, H
+   Meng, WM
+   Luo, DA
+AF Zhang, Xinyu
+   Huang, He
+   Meng, Weiming
+   Luo, Dean
+TI Improved Lane Detection Method Based on Convolutional Neural Network Using Self-attention Distillation
+SO SENSORS AND MATERIALS
+LA English
+DT Article
+DE high-precision map; semantic segmentation; lane detection; DC-VGG-SAD; detection accuracy; detection speed
+AB With the rapid development of autopilot technology and various types of sensor, high-precision maps containing a large amount of information for assisting driving have been proposed. The standard lane line detection algorithm relies on the robust estimation of visible lane line markers from a camera image using vision and image processing algorithms. Although the recognition and detection technology for road marking lines is relatively mature, some problems still exist, such as poor detection accuracy and unsatisfactory real-time performance. To solve the problems of the poor robustness and low running speed of the current lane detection methods in complex environments, in this study, we improve current lane detection methods from the perspective of semantic segmentation and propose a DC-VGG-SAD network (VGG: visual geometry group), in which dilated convolution (DC) is used to reduce the complexity of the network to ensure detection accuracy. Furthermore, adding self-attention distillation (SAD) makes the information transmission faster. The proposed network was experimentally evaluated using two large-scale datasets. It was found that when dealing with lane lines in complex environments, the network offers higher detection accuracy and detection speed than most current mainstream networks.
+C1 [Zhang, Xinyu; Huang, He; Meng, Weiming; Luo, Dean] Beijing Univ Civil Engn & Architecture, Sch Geomat & Urban Spatial Informat, 15 Yongyuan Rd, Beijing 102616, Peoples R China.
+C3 Beijing University of Civil Engineering & Architecture
+RP Huang, H (corresponding author), Beijing Univ Civil Engn & Architecture, Sch Geomat & Urban Spatial Informat, 15 Yongyuan Rd, Beijing 102616, Peoples R China.
+EM huanghe@bucea.edu.cn
+FU Nat ional Key R&D Program of China [2017YFB0503700]
+CR Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Borkar A, 2009, IEEE IMAGE PROC, V0, PP3261, DOI 10.1109/ICIP.2009.5413980
+   Brabandere D., 2017, ARXIV170802551, V0, P1708
+   Chiu KY, 2005, 2005 IEEE INTELLIGENT VEHICLES SYMPOSIUM PROCEEDINGS, V0, P706
+   DUDA RO, 1972, COMMUN ACM, V15, P11, DOI 10.1145/361237.361242
+   Girshick R., 2014, IEEE C COMP VIS PATT, V0, P1311
+   Girshick R, 2014, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2014.81
+   He B, 2016, IEEE INT VEH SYM, V0, PP1041, DOI 10.1109/IVS.2016.7535517
+   He YH, 2004, IEEE T INTELL TRANSP, V5, P309, DOI 10.1109/TITS.2004.838221
+   Homayounfar N, 2018, PROC CVPR IEEE, V0, PP3417, DOI 10.1109/CVPR.2018.00360
+   Hou YN, 2019, IEEE I CONF COMP VIS, V0, PP1013, DOI 10.1109/ICCV.2019.00110
+   Khalifa OO, 2009, 2009 IEEE THIRD INTERNATIONAL CONFERENCE ON SEMANTIC COMPUTING (ICSC 2009), V0, PP636, DOI 10.1109/ICSC.2009.113
+   Kim J, 2017, IEEE COMPUT SOC CONF, V0, PP1194, DOI 10.1109/CVPRW.2017.158
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kogan V, 2016, IEEE INT VEH SYM, V0, PP889, DOI 10.1109/IVS.2016.7535493
+   Lee C, 2018, IEEE T INTELL TRANSP, V19, P4043, DOI 10.1109/TITS.2018.2791572
+   Lee S, 2017, IEEE I CONF COMP VIS, V0, PP1965, DOI 10.1109/ICCV.2017.215
+   Neven D., 2018, IEEE INT VEH S IV, V39, P1802
+   Pan X., 2017, ARXIV CS, V0, P1712
+   Simonyan Karen, 2015, ARXIV CS, V0, P1409
+   Song W, 2018, IEEE SENS J, V18, P5151, DOI 10.1109/JSEN.2018.2832291
+   Xing Y, 2018, IEEE-CAA J AUTOMATIC, V5, P645, DOI 10.1109/JAS.2018.7511063
+   Yu F., 2016, CORR, V0, P1511
+   Yurtsever E, 2020, IEEE ACCESS, V8, P58443, DOI 10.1109/ACCESS.2020.2983149
+NR 24
+TC 5
+Z9 5
+U1 3
+U2 7
+PU MYU, SCIENTIFIC PUBLISHING DIVISION
+PI TOKYO
+PA 1-23-3-303 SENDAGI, TOKYO, 113-0022, JAPAN
+SN 0914-4935
+EI 
+J9 SENSOR MATER
+JI Sens. Mater.
+PD JUN 15
+PY 2020
+VL 32
+IS 12
+BP 4505
+EP 4516
+DI 10.18494/SAM.2020.3128
+PG 12
+WC Instruments & Instrumentation; Materials Science, Multidisciplinary
+SC Instruments & Instrumentation; Materials Science
+GA PX5PP
+UT WOS:000611407800013
+DA 2023-04-26
+ER
+
+PT J
+AU Dinanta, GP
+   Cassidy, DP
+   Octariady, J
+   Fernando, D
+   Yusuf, MD
+AF Dinanta, Galih Prasetya
+   Cassidy, Daniel Patrick
+   Octariady, Jali
+   Fernando, Doni
+   Yusuf, Muhammad Dayuf
+TI Assessing landslide susceptibility using ANN and ANFIS to forecast landslides in Sumatera Indonesia
+SO 2020 IEEE ASIA-PACIFIC CONFERENCE ON GEOSCIENCE, ELECTRONICS AND REMOTE SENSING TECHNOLOGY (AGERS 2020): UNDERSTANDING THE INTERCTION OF LAND, OCEAN AND ATMOSPHERE: DISASTER MITIGATION AND REGIONAL RESILLIENCE
+LA English
+DT Proceedings Paper
+DE Landslide; Sumatra; Seismic Activity; ANN; ANFIS
+ID artificial neural-networks; land-use change; models; accuracy; maps; gis
+AB The purpose of this study was to use data collected from actual landslide events between 2008 and 2018 in models to assess landslide susceptibility and to accurately forecast landslides in Sumatra, Indonesia. Artificial neural network (ANN) and adaptive neuro-fuzzy inference system (ANFIS) modeling were compared. A digital elevation model (DEM) was used to generate data on elevation and slope. The neural network simulations were tested using a dataset from 2019, yielding a match greater than 80% with actual landslides. The accuracy and compatibility of ANN and ANFIS were compared using the 2019 landslide. Seismic activity, a parameter indirectly impacting landslides that are often ignored in probability models, was used. Precipitation, soil type and texture, and land cover were also used. The resulting landslide susceptibility map for 2008 to 2018 divides Sumatra into three zones; (1) high risk, (2) intermediate-risk, and (3) low risk.
+C1 [Dinanta, Galih Prasetya; Fernando, Doni; Yusuf, Muhammad Dayuf] Agcy Assessment & Applicat Technol, Ctr Reg Resource Dev Technol, Jakarta, Indonesia.
+   [Cassidy, Daniel Patrick] Western Michigan Univ, Dept Geol & Environm, Kalamazoo, MI 49008 USA.
+   [Octariady, Jali] Geospatial Informat Agcy Indonesia, Jakarta, Indonesia.
+C3 National Research & Innovation Agency of Indonesia (BRIN); Agency for the Assessment & Application of Technology (BPPT); Western Michigan University
+RP Dinanta, GP (corresponding author), Agcy Assessment & Applicat Technol, Ctr Reg Resource Dev Technol, Jakarta, Indonesia.
+EM Galih.Prasetya@bppt.go.id; Daniel.Cassidy@wmich.edu; Jali.Octariady@gmail.com; doni.fernando@bppt.go.id; dayuf.yusuf@bppt.go.id
+FU PTPSW-BPPT; Ministry of Research and Higher Education of Indonesia through the RISET-Pro program
+CR Agustan, 2019, 2019 IEEE INTERNATIONAL CONFERENCE ON AEROSPACE ELECTRONICS AND REMOTE SENSING TECHNOLOGY (ICARES 2019), V0, P0
+   Agustan, 2018, IEEE INT C AER EL RE, V0, P1
+   Baillie I. C., 2001, SOIL USE MANAGE, V17, P57, DOI 10.1111/J.1475-2743.2001.TB00008.X
+   Barber AJ, 2005, GEOL SOC MEM, V31, P0
+   Barber AJ, 2003, GONDWANA RES, V6, P1, DOI 10.1016/S1342-937X(05)70642-0
+   Basheer IA, 2000, J MICROBIOL METH, V43, P3, DOI 10.1016/S0167-7012(00)00201-3
+   Bintoro O. B., 2018, 2018 IEEE INT C AERO, V0, P1
+   Choi J, 2012, ENG GEOL, V124, P12, DOI 10.1016/j.enggeo.2011.09.011
+   Conforti M, 2014, CATENA, V113, P236, DOI 10.1016/j.catena.2013.08.006
+   Cummins PR, 2017, GEOL SOC SPEC PUBL, V441, P1, DOI 10.1144/SP441.11
+   Djarot Ira Nurhayati, 2020, FOR TEKN KEB IND 204, V0, P0
+   Dubois N, 2014, NAT GEOSCI, V7, P513, DOI 10.1038/NGEO2182
+   Dudal R., 1957, SOIL CLASSIFICATION, V0, P0
+   Fanin T, 2017, BIOGEOSCIENCES, V14, P3995, DOI 10.5194/bg-14-3995-2017
+   FAO ISRIS and ISSS, 1998, WORLD SOIL RESOURCES, V0, P0
+   Faqih A., 2016, IOP C SER EARTH ENV, V54, P0
+   Faris F., 2014, GEOENVIRON DISASTERS, V1, P1, DOI 10.1186/S40677-014-0004-3
+   Fick SE, 2017, INT J CLIMATOL, V37, P4302, DOI 10.1002/joc.5086
+   FRYER JG, 1994, EARTH SURF PROCESSES, V19, P577, DOI 10.1002/esp.3290190609
+   Gafoer S., 1986, GEOL ORE DEPOSIT+, V12, P15
+   Genrich F., 1900, V105, V0, P376
+   Glade T, 2003, CATENA, V51, P297, DOI 10.1016/S0341-8162(02)00170-4
+   Gomez H, 2005, ENG GEOL, V78, P11, DOI 10.1016/j.enggeo.2004.10.004
+   Highland L., 2008, GEOL SURV CIRCULAR, V0, P0
+   Irsyam M., 1900, V5, V0, P1153
+   JANG JSR, 1993, IEEE T SYST MAN CYB, V23, P665, DOI 10.1109/21.256541
+   Karaboga D, 2019, ARTIF INTELL REV, V52, P2263, DOI 10.1007/s10462-017-9610-2
+   Korup O, 2019, NAT GEOSCI, V12, P284, DOI 10.1038/s41561-019-0315-9
+   Lan HX, 2004, ENG GEOL, V76, P109, DOI 10.1016/j.enggeo.2004.06.009
+   Lazzari M, 2018, GEOSCIENCES, V8, P0, DOI 10.3390/geosciences8100377
+   Levizzani V, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192301
+   Matsumoto J., 2012, GLOB MONSOON SYST RE, V2017, P365
+   Mcdermid GJ., 1995, Z GEOMORPHOL S, V101, P165
+   Megawati K, 2009, B SEISMOL SOC AM, V99, P566, DOI 10.1785/0120080109
+   Fonseca LDM, 2017, ACTA SCI-AGRON, V39, P109, DOI 10.4025/actasciagron.v39i1.30561
+   Negnevitsky M., 2002, ARTIFICIAL INTELLIGE, V0, P0
+   Pinjare S. L., 2012, INT J COMPUT APPL, V52, P1
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   PUTRA R. R., 2012, J NAT DISASTER SCI, V33, P59
+   Ripley B.D., 1996, PATTERN RECOGN, V0, P0
+   Sadeghi SH, 2012, J HYDROL, V448, P174, DOI 10.1016/j.jhydrol.2012.04.038
+   Saputra MH, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11113024
+   Smith H. J., 2014, METEORIT PLANET SCI, V344, P1355
+   SWETS JA, 1988, SCIENCE, V240, P1285, DOI 10.1126/science.3287615
+   Takagi T, 1983, IFAC P, V16, P55, DOI 10.1016/S1474-6670(17)62005-6
+   Tan K. H., 1900, V1, V0, P0
+   Vanacker V, 2003, GEOMORPHOLOGY, V52, P299, DOI 10.1016/S0169-555X(02)00263-5
+   Vaze J, 2010, ENVIRON MODELL SOFTW, V25, P1086, DOI 10.1016/j.envsoft.2010.03.014
+   Werbos P. J., 1991, ARTIFICIAL NEURAL NE, V11, P11
+   Xu C, 2015, GEOSCI FRONT, V6, P825, DOI 10.1016/j.gsf.2014.03.004
+NR 52
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2020
+VL 0
+IS 
+BP 52
+EP 62
+DI 10.1109/AGERS51788.2020.9452781
+PG 11
+WC Engineering, Geological; Remote Sensing
+SC Engineering; Remote Sensing
+GA BU7KM
+UT WOS:000941473600011
+DA 2023-04-26
+ER
+
+PT J
+AU Alijagic, J
+   Sajn, R
+AF Alijagic, Jasminka
+   Sajn, Robert
+TI Application and improvement of soil spatial distribution mapping using advanced modeling techniques
+SO GEOLOGIA CROATICA
+LA English
+DT Article
+DE Prediction maps; Spatial distribution; Soil Contamination; Kriging; Artificial Neural Network - Multilayer Perceptron; Multiple Polynomial Regressions; Bosnia and Herzegovina
+ID digital elevation model; heavy-metals; attic-dust; resolution; area; geostatistics; contamination; multivariate; uncertainty; elements
+AB The main purpose of this contribution is to develop realistic prediction digital soil maps in order to increase their visuality, and to evaluate and compare the performance of different modeling techniques: a) Kriging, b) Artificial Neural Network - Multilayer Perceptron (ANN-MLP) and c) Multiple Polynomial Regressions (MPR). The following criteria were used to determine selection of the testing site for the modeling: (1) intensive metal ore mining and metallurgical processing; (2) geomorphological natural features; (3) regular geological setting, and (4) the remaining minefields. The success of Digital Soil Mapping and the plausibility of prediction maps increases with the availability of spatial data, the availability of computing power for processing data, the development of data-mining tools, geographical information systems (GIS) and numerous applications beyond geostatistics. Advanced prediction modeling techniques, ANN-MLP and MPR include geospatial parameters sourced from Digital Elevation Models (DEM), land use and remote sensing, applied in combination with costly and time-consuming soil measurements, developed and finally incorporated into the models of spatial distribution in the form of 2D or 3D maps. Innovative approaches to modeling assist us in the reconstruction of different processes that impact the entire study area, simultaneously. This holistic approach represents a novelty in contamination mapping and develops prediction models to help in the reconstruction of main distribution pathways, to assess the real size of the affected area as well as improving the data interpretation.
+C1 [Alijagic, Jasminka; Sajn, Robert] Geol Survey Slovenia, Dimiceva Ulica 14, SI-1000 Ljubljana, Slovenia.
+RP Alijagic, J (corresponding author), Geol Survey Slovenia, Dimiceva Ulica 14, SI-1000 Ljubljana, Slovenia.
+EM Jasminka.Alijagic@geo-zs.si; Robert.Sajn@geo-zs.si
+CR Agirre-Basurko E, 2006, ENVIRON MODELL SOFTW, V21, P430, DOI 10.1016/j.envsoft.2004.07.008
+   Aitkenhead MJ, 2012, COMPUT ELECTRON AGR, V82, P108, DOI 10.1016/j.compag.2011.12.013
+   Al-Khashman OA, 2009, ENVIRON GEOCHEM HLTH, V31, P717, DOI 10.1007/s10653-009-9250-9
+   Alijagic J., 2006, GEOLOGIJA, V49, P123, DOI 10.5474/GE0L0GIJA.2006.010
+   Alijagic J, 2008, THESIS, V0, P0
+   Alijagic J, 2013, THESIS, V0, P0
+   Alijagic J, 2015, ADV ENVIRON RES, V0, P139
+   [Anonymous], 2007, GEOSTATISTICS ENV SC, V0, P0, DOI DOI 10.1002/9780470517277
+   [Anonymous], 1986, PRINCIPLES GEOGRAPHI, V0, P0
+   ASCE, 2000, J HYDROLOGICAL ENG, V5, P115
+   AUTODESK Inc, 2012, AUTODESK MAP 3D VERS, V0, P0
+   Bagheri Bodaghabadi M, 2015, PEDOSPHERE, V25, P580, DOI 10.1016/S1002-0160(15)30038-2
+   BOX GEP, 1964, J ROY STAT SOC B, V26, P211, DOI 10.1111/j.2517-6161.1964.tb00553.x
+   Bradl HB, 2005, INTERFACE SCI TECHNO, V6, P1
+   Carlon C, 2001, ENVIRON POLLUT, V111, P417, DOI 10.1016/S0269-7491(00)00089-0
+   Chopin EIB, 2007, WATER AIR SOIL POLL, V182, P245, DOI 10.1007/s11270-007-9336-x
+   DANANDEH M.A., 2017, ENVIRON MODELL SOFTW, V92, P239, DOI 10.1016/j.envsoft.2017.03.004
+   Du K.L., 2006, NEURAL NETWORKS SOFT, V0, P0
+   Dudka S, 1997, J ENVIRON QUAL, V26, P590, DOI 10.2134/jeq1997.00472425002600030003x
+   ESDAT, 2013, DUTCH TARG INT VAL 2, V0, P0
+   ESRI Inc, 2004, ARCINFO VER 9, V0, P0
+   Ferreira V, 2016, ENVIRON POLLUT, V210, P261, DOI 10.1016/j.envpol.2015.12.060
+   Fisher PE, 2006, PROG PHYS GEOG, V30, P467, DOI 10.1191/0309133306pp492ra
+   Golden Software Inc, 2012, SURF SURF MAPP SYST, V0, P0
+   Google, 2010, GOOGL EARTH, V0, P0
+   Goovaerts P, 1999, GEODERMA, V89, P1, DOI 10.1016/S0016-7061(98)00078-0
+   Goovaerts P, 2001, GEODERMA, V103, P3, DOI 10.1016/S0016-7061(01)00067-2
+   Gringarten E, 2001, MATH GEOL, V33, P507, DOI 10.1023/A:1011093014141
+   Guth PL, 2006, PHOTOGRAMM ENG REM S, V72, P269, DOI 10.14358/PERS.72.3.269
+   Hill L.L., 2006, GEOREFERENCING GEOGR, V0, P0, DOI DOI 10.7551/mitpress/ 3260.001.0001
+   Jain SK, 2003, DEV WATER SCI, V51, P0
+   Jasminka A, 2011, GEODERMA, V162, P71, DOI 10.1016/j.geoderma.2011.01.007
+   Jobson JD., 1992, APPL MULTIVARIATE DA, V0, P0, DOI DOI 10.1007/978-1-4612-0921-8
+   Kabata-Pendias Alina, 2010, P1, V0, P0
+   KELECHI A.C., 2012, AM J MATH STAT, V2, P1, DOI 10.5923/j.ajms.20120201.01
+   Kerrou J, 2017, ENVIRON MODELL SOFTW, V97, P157, DOI 10.1016/j.envsoft.2017.07.018
+   Krige, 1960, J S AFR I MIN METALL, V0, P231
+   Krige D. G ., 1951, J CHEM METALL MIN SO, V52, P119, DOI 10.2307/3006914
+   Lagacherie P, 2007, DEV SOIL SCI, V31, P3
+   Li Y, 2016, GEODERMA, V284, P73, DOI 10.1016/j.geoderma.2016.08.013
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   McGrath D, 2004, ENVIRON POLLUT, V127, P239, DOI 10.1016/j.envpol.2003.07.002
+   MITASOVA H, 1993, MATH GEOL, V25, P657, DOI 10.1007/BF00893172
+   Moore I. D., 1993, MODELLING CHANGE IN ENVIRONMENTAL SYSTEMS., V0, P189
+   Mukherjee S, 2013, INT J APPL EARTH OBS, V21, P205, DOI 10.1016/j.jag.2012.09.004
+   Navarro MC, 2008, J GEOCHEM EXPLOR, V96, P183, DOI 10.1016/j.gexplo.2007.04.011
+   Oliver MA, 2014, CATENA, V113, P56, DOI 10.1016/j.catena.2013.09.006
+   Ostertagova E, 2012, PROCEDIA ENGINEER, V48, P500, DOI 10.1016/j.proeng.2012.09.545
+   Palinkas LA, 2008, ORE GEOL REV, V34, P501, DOI 10.1016/j.oregeorev.2008.05.006
+   Pavlowsky RT, 2017, GEOMORPHOLOGY, V299, P54, DOI 10.1016/j.geomorph.2017.08.042
+   PEARSON H.W., 1908, SCIENCE, V27, P189
+   Qi HH, 2011, ENVIRON MODELL SOFTW, V26, P817, DOI 10.1016/j.envsoft.2010.11.006
+   Ramlal B, 2008, J ENVIRON MANAGE, V88, P1131, DOI 10.1016/j.jenvman.2007.06.010
+   Romic M., 2012, EUROPEAN CHEMICAL BULLETIN, V1, P489
+   Rose A.W., 1979, GEOCHEMISTRY MINERAL, V0, P0, DOI DOI 10.1097/00010694-196304000-00016
+   Sajn R, 2005, GEOCHEM-EXPLOR ENV A, V5, P59, DOI 10.1144/1467-7873/03-050
+   Sajn R, 2006, MATH GEOL, V38, P735, DOI 10.1007/s11004-006-9039-7
+   Sajn R, 2011, J GEOCHEM EXPLOR, V110, P278, DOI 10.1016/j.gexplo.2011.06.009
+   Scull P, 2003, PROG PHYS GEOG, V27, P171, DOI 10.1191/0309133303pp366ra
+   Shallari S, 1998, SCI TOTAL ENVIRON, V209, P133, DOI 10.1016/S0048-9697(97)00312-4
+   Singh KP, 2010, ANAL CHIM ACTA, V658, P1, DOI 10.1016/j.aca.2009.11.001
+   SPARK RN, 1996, COMPUT MET, V15, P421
+   Stafilov T, 2008, GEOCHEMICAL ATLAS KA, V0, P0
+   Stafilov T., 2008, GEOCHEMICAL ATLAS VE, V0, P0
+   STATISTICA Stat Soft Inc, 2012, DAT AN SOFTW SYST VE, V0, P0
+   THE CGIAR Consortium for Spatial Information, 2011, SRTM 90M DIG EL DAT, V0, P0
+   Theodossiou N, 2006, ENVIRON MODELL SOFTW, V21, P991, DOI 10.1016/j.envsoft.2005.05.001
+   Thompson JA, 2001, GEODERMA, V100, P67, DOI 10.1016/S0016-7061(00)00081-1
+   Thornton PE, 1997, J HYDROL, V190, P214, DOI 10.1016/S0022-1694(96)03128-9
+   Vassilopoulou S, 2002, ISPRS J PHOTOGRAMM, V57, P24, DOI 10.1016/S0924-2716(02)00126-0
+   Wechsler S.P., 2003, J URBAN REG INF SYST, V15, P57
+   WISE S.M., 1998, LANDFORM MODELING MO, V0, P0
+   WOLOCK DM, 1994, WATER RESOUR RES, V30, P3041, DOI 10.1029/94WR01971
+   Yaalon D.H., 1989, B INT SOC SOIL SCI, V0, P24
+   Yi Q, 2012, PROCEDIA ENVIRON SCI, V13, P43, DOI 10.1016/j.proenv.2012.01.004
+   Zhang C, 1998, SCI TOTAL ENVIRON, V212, P217, DOI 10.1016/S0048-9697(97)00341-0
+   Zhang C., 1995, J ENVIRON SCI, V7, P422
+   Zhang CS, 1998, J GEOCHEM EXPLOR, V64, P339, DOI 10.1016/S0375-6742(98)00048-X
+   Zhang LQ, 2017, ANAL CELL PATHOL, V2017, P1, DOI 10.1155/2017/8267863
+   ZHANG WH, 1994, WATER RESOUR RES, V30, P1019, DOI 10.1029/93WR03553
+   Zhao XQ, 2013, SPRINGERPLUS, V2, P0, DOI 10.1186/2193-1801-2-S1-S8
+   ZIBRET G., 2012, Z GEOL WISSENSCHAFT, V40, P253
+NR 82
+TC 3
+Z9 3
+U1 1
+U2 11
+PU CROATIAN GEOLOGICAL SURVEY
+PI ZAGREB
+PA SACHSOVA 2, POB 268, ZAGREB, HR-10000, CROATIA
+SN 1330-030X
+EI 1333-4875
+J9 GEOL CROAT
+JI Geol. Croat.
+PD JUN 15
+PY 2020
+VL 73
+IS 1
+BP 69
+EP 84
+DI 10.4154/gc.2020.01
+PG 16
+WC Geology
+SC Geology
+GA KT8HH
+UT WOS:000519252200006
+DA 2023-04-26
+ER
+
+PT J
+AU Shao, ZF
+   Zhou, WX
+   Deng, XQ
+   Zhang, MD
+   Cheng, QM
+AF Shao, Zhenfeng
+   Zhou, Weixun
+   Deng, Xueqing
+   Zhang, Maoding
+   Cheng, Qimin
+TI Multilabel Remote Sensing Image Retrieval Based on Fully Convolutional Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Fully convolutional networks (FCN); multilabel retrieval; multilabel vector; region convolutional features (RCFs); remote sensing image retrieval (RSIR); single-label retrieval
+ID classification; scene
+AB Conventional remote sensing image retrieval (RSIR) system usually performs single-label retrieval where each image is annotated by a single label representing the most significant semantic content of the image. In this scenario, however, the scene complexity of remote sensing images is ignored, where an image might have multiple classes (i.e., multiple labels), resulting in poor retrieval performance. We therefore propose a novel multilabel RSIR approach based on fully convolutional network (FCN). Specifically, FCN is first trained to predict segmentation map of each image in the considered image archive. We then obtain multilabel vector and extract region convolutional features of each image based on its segmentation map. The extracted region features are finally used to perform region-based multilabel retrieval. The experimental results show that our approach achieves state-of-the-art performance in contrast to handcrafted and convolutional neural network features.
+C1 [Shao, Zhenfeng; Zhang, Maoding] Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & R, Wuhan 430079, Peoples R China.
+   [Zhou, Weixun] Nanjing Univ Informat Sci & Technol, Sch Remote Sensing & Geomat Engn, Nanjing 210044, Peoples R China.
+   [Deng, Xueqing] Univ Calif Merced, Sch Engn, Elect Engn & Comp Sci, Merced, CA 95343 USA.
+   [Cheng, Qimin] Huazhong Univ Sci & Technol, Sch Elect Informat & Commun, Wuhan 430074, Peoples R China.
+C3 Wuhan University; Nanjing University of Information Science & Technology; University of California System; University of California Merced; Huazhong University of Science & Technology
+RP Zhou, WX (corresponding author), Nanjing Univ Informat Sci & Technol, Sch Remote Sensing & Geomat Engn, Nanjing 210044, Peoples R China.
+EM shaozhenfeng@whu.edu.cn; zhouwx@nuist.edu.cn; xdeng7@ucmerced.edu; zhangmaoding@whu.edu.cn; chengqm@hust.edu.cn
+FU National Key Research and Development Plan on Strategic International Scientific and Technological Innovation Cooperation Special Project [2016YFE0202300]; National Natural Science Foundation of China [61671332, 41771452, 41771454]; Natural Science Fund of Hubei Province in China [2018CFA007]
+CR [Anonymous], 2015, PROC CVPR IEEE, V0, P0
+   Aptoula E, 2014, IEEE T GEOSCI REMOTE, V52, P3023, DOI 10.1109/TGRS.2013.2268736
+   Bosilj P, 2016, ISPRS INT J GEO-INF, V5, P0, DOI 10.3390/ijgi5120228
+   Boutell MR, 2004, PATTERN RECOGN, V37, P1757, DOI 10.1016/j.patcog.2004.03.009
+   Chatfield K, 2011, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2011, V0, P0, DOI DOI 10.5244/C.25.76
+   Chaudhuri B, 2018, IEEE T GEOSCI REMOTE, V56, P1144, DOI 10.1109/tgrs.2017.2760909
+   Chaudhuri B, 2016, IEEE GEOSCI REMOTE S, V13, P987, DOI 10.1109/LGRS.2016.2558289
+   Dai OE, 2018, IEEE J-STARS, V11, P2473, DOI 10.1109/JSTARS.2018.2832985
+   Dai OE, 2017, INT GEOSCI REMOTE SE, V0, P1744
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Jia YQ, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP675, DOI 10.1145/2647868.2654889
+   Li F, 2008, IEEE T MULTIMEDIA, V10, P1592, DOI 10.1109/TMM.2008.2004914
+   Li P, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050709
+   Li YS, 2018, IEEE T GEOSCI REMOTE, V56, P6521, DOI 10.1109/TGRS.2018.2839705
+   Li YS, 2018, IEEE T GEOSCI REMOTE, V56, P950, DOI 10.1109/TGRS.2017.2756911
+   Li Y, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9010067
+   Liu CJ, 2002, IEEE T IMAGE PROCESS, V11, P467, DOI 10.1109/TIP.2002.999679
+   Napoletano P, 2018, INT J REMOTE SENS, V39, P1343, DOI 10.1080/01431161.2017.1399472
+   Nasierding Gulisong, 2010, PROCEEDINGS 2010 INTERNATIONAL CONFERENCE ON DIGITAL IMAGE COMPUTING: TECHNIQUES AND APPLICATIONS (DICTA 2010), V0, PP617, DOI 10.1109/DICTA.2010.113
+   Ojala T, 2002, IEEE T PATTERN ANAL, V24, P971, DOI 10.1109/TPAMI.2002.1017623
+   Oliva A, 2001, INT J COMPUT VISION, V42, P145, DOI 10.1023/A:1011139631724
+   Ran Li, 2010, PROCEEDINGS OF THE 2010 SECOND INTERNATIONAL CONFERENCE ON MULTIMEDIA AND INFORMATION TECHNOLOGY (MMIT 2010), V0, PP10, DOI 10.1109/MMIT.2010.34
+   Ranjan V, 2015, IEEE I CONF COMP VIS, V0, PP4094, DOI 10.1109/ICCV.2015.466
+   Sellami A, 2019, EXPERT SYST APPL, V129, P246, DOI 10.1016/j.eswa.2019.04.006
+   Shao ZF, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10060964
+   Shao ZF, 2014, J APPL REMOTE SENS, V8, P0, DOI 10.1117/1.JRS.8.083584
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sivic J, 2003, NINTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, VOLS I AND II, PROCEEDINGS
+   Vedaldi A, 2015, MM15: PROCEEDINGS OF THE 2015 ACM MULTIMEDIA CONFERENCE, V0, PP689, DOI 10.1145/2733373.2807412
+   Wang M, 2013, INT J REMOTE SENS, V34, P4200, DOI 10.1080/01431161.2013.774098
+   Wang M, 2013, IEEE T GEOSCI REMOTE, V51, P2874, DOI 10.1109/TGRS.2012.2217397
+   Yang Y, 2013, IEEE T GEOSCI REMOTE, V51, P818, DOI 10.1109/TGRS.2012.2205158
+   Zhao F, 2015, PROC CVPR IEEE, V0, PP1556, DOI 10.1109/CVPR.2015.7298763
+   Zhou LG, 2019, IEEE T NEUR NET LEAR, V30, P3275, DOI 10.1109/TNNLS.2018.2890550
+   Zhou WX, 2018, ISPRS J PHOTOGRAMM, V145, P197, DOI 10.1016/j.isprsjprs.2018.01.004
+   Zhou WX, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050489
+NR 36
+TC 87
+Z9 90
+U1 26
+U2 80
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 318
+EP 328
+DI 10.1109/JSTARS.2019.2961634
+PG 11
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA LE3SG
+UT WOS:000526639900026
+DA 2023-04-26
+ER

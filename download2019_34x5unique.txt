@@ -1,0 +1,480 @@
+
+PT J
+AU Zhu, Y
+   Deng, XQ
+   Newsam, S
+AF Zhu, Yi
+   Deng, Xueqing
+   Newsam, Shawn
+TI Fine-Grained Land Use Classification at the City Scale Using Ground-Level Images
+SO IEEE TRANSACTIONS ON MULTIMEDIA
+LA English
+DT Article
+DE Geo-referenced images; land use classification; convolutional neural networks; proximate sensing
+ID features; recommendation; cover
+AB Multimedia researchers have exploited large collections of community-contributed geo-referenced images to better understand a particular image, such as its subject matter or where it was taken, as well as to better understand a geographic location, such as the most visited tourist spots in a city or what the local cuisine is like. The goal of this paper is to better understand location. In particular, we use geo-referenced image collections to better understand what occurs in different parts of a city at fine spatial and activity class scales. This problem is known as land use mapping in the geographical sciences. We propose a novel framework to perform fine-grained land use mapping at the city scale using ground-level images. Mapping land use is considerably more difficult than mapping land cover and is generally not possible using overhead imagery as it requires close-up views and seeing inside buildings. We postulate that the growing collections of geo-referenced, ground-level images suggest an alternate approach to this geographic knowledge discovery problem. We develop a general framework that uses Flickr images to map 45 different land-use classes for the city of San Francisco, CA, USA. Individual images are classified using a novel convolutional neural network containing two streams: one for recognizing objects and another for recognizing scenes. This network is trained in an end-to-end manner directly on the labeled training images. We propose several novel strategies to overcome the noisiness of our user-generated data including search-based training set augmentation and online adaptive training. We derive a ground truth map of San Francisco in order to evaluate our method. We demonstrate the effectiveness of our approach through geovisualization and quantitative analysis. Our framework achieves over 29% recall at the individual land parcel level that represents a strong baseline for the challenging 45-way land use classification problem, especially given the noisiness of the image data.
+C1 [Zhu, Yi; Deng, Xueqing; Newsam, Shawn] Univ Calif Merced, Dept Elect Engn & Comp Sci, Merced, CA 95343 USA.
+C3 University of California System; University of California Merced
+RP Zhu, Y (corresponding author), Univ Calif Merced, Dept Elect Engn & Comp Sci, Merced, CA 95343 USA.
+EM yzhu25@ucmerced.edu; xdeng7@ucmerced.edu; snewsam@ucmerced.edu
+FU National Science Foundation CAREER [IIS-1150115]; Seed Grant from the Center for Information Technology in the Interest of Society; NVIDIA Corporation
+CR [Anonymous], 2016, ARXIV161103589, V0, P0
+   [Anonymous], 2018, GEOGRAPH BRITAIN IRE, V0, P0
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   [Anonymous], 2018, SAN FRANCISCO OPEN D, V0, P0
+   Attari Nazia, 2016, ARXIV161106474, V0, P0
+   Ayeh JK, 2012, INFORMATION AND COMMUNICATION TECHNOLOGIES IN TOURISM 2012, V0, P1
+   Chen YY, 2013, IEEE T MULTIMEDIA, V15, P1388, DOI 10.1109/TMM.2013.2250492
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Crandall D., 2009, P 18 INT C WORLD WID, V0, PP761, DOI 10.1145/1526709.1526812
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Deng X., 2017, P ACM SIGSPATIAL INT, V0, P0
+   Fei F., 2014, J APPL REMOTE SENS, V10, P0
+   Fisher P., 2005, REPRESENTING GIS, V85, P0
+   Hang RL, 2017, IEEE J-STARS, V10, P2002, DOI 10.1109/JSTARS.2017.2658948
+   Hang RL, 2016, IEEE T GEOSCI REMOTE, V54, P783, DOI 10.1109/TGRS.2015.2465899
+   Hays J., 2008, IEEE C COMP VIS PATT, V0, P0, DOI DOI 10.1109/CVPR.2008.4587784
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   HEILBRON FC, 2015, PROC CVPR IEEE, V0, PP961, DOI 10.1109/CVPR.2015.7298698
+   Helber P., 2017, ABS170900029, V0, P0
+   Herranz L, 2017, IEEE T MULTIMEDIA, V19, P430, DOI 10.1109/TMM.2016.2614861
+   Hu JW, 2017, AER ADV ENG RES, V126, P1
+   Hu TY, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020151
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Jiang S, 2015, COMPUT ENVIRON URBAN, V53, P36, DOI 10.1016/j.compenvurbsys.2014.12.001
+   Jiang SH, 2015, IEEE T MULTIMEDIA, V17, P907, DOI 10.1109/TMM.2015.2417506
+   Kang J, 2018, ISPRS J PHOTOGRAMM, V145, P44, DOI 10.1016/j.isprsjprs.2018.02.006
+   Karpathy A., 2014, P IEEE C COMP VIS PA, V0, P580
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Leung D, 2010, PROC CVPR IEEE, V0, PP2955, DOI 10.1109/CVPR.2010.5540040
+   Li MM, 2017, IEEE J-STARS, V10, P4930, DOI 10.1109/JSTARS.2017.2737702
+   Li SL, 2010, MODELLING SIMULATION, V0, P270
+   Li XC, 2018, IEEE T MULTIMEDIA, V20, P1179, DOI 10.1109/TMM.2017.2763323
+   Liu J, 2014, IEEE T MULTIMEDIA, V16, P588, DOI 10.1109/TMM.2014.2302732
+   Liu QS, 2018, IEEE T GEOSCI REMOTE, V56, P117, DOI 10.1109/TGRS.2017.2743243
+   Liu XP, 2017, INT J GEOGR INF SCI, V31, P1675, DOI 10.1080/13658816.2017.1324976
+   Liu YL, 2016, PLOS ONE, V11, P0, DOI 10.1371/journal.pone.0157728
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Luus FPS, 2015, IEEE GEOSCI REMOTE S, V12, P2448, DOI 10.1109/LGRS.2015.2483680
+   Marmanis D, 2016, IEEE GEOSCI REMOTE S, V13, P105, DOI 10.1109/LGRS.2015.2499239
+   Marsal-Llacuna ML, 2014, J URBAN TECHNOL, V21, P39, DOI 10.1080/10630732.2014.884385
+   Oba H, 2014, 2014 IEEE INTERNATIONAL SYMPOSIUM ON MULTIMEDIA (ISM), V0, PP320, DOI 10.1109/ISM.2014.78
+   Oquab M, 2014, PROC CVPR IEEE, V0, PP1717, DOI 10.1109/CVPR.2014.222
+   Paldino S, 2015, EPJ DATA SCI, V4, P0, DOI 10.1140/epjds/s13688-015-0043-3
+   Pei T, 2014, INT J GEOGR INF SCI, V28, P1988, DOI 10.1080/13658816.2014.913794
+   Penatti Otavio A. B., 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP44, DOI 10.1109/CVPRW.2015.7301382
+   Qian XM, 2017, IEEE T MULTIMEDIA, V19, P813, DOI 10.1109/TMM.2016.2638207
+   Rawat JS, 2015, EGYPT J REMOTE SENS, V18, P77, DOI 10.1016/j.ejrs.2015.02.002
+   Shekhar S, 2002, IEEE T MULTIMEDIA, V4, P174, DOI 10.1109/TMM.2002.1017732
+   Shrivastava A, 2016, PROC CVPR IEEE, V0, PP761, DOI 10.1109/CVPR.2016.89
+   Sigurdsson G. A., 2016, P EUR C COMPUT VIS, V0, P0
+   Simonyan K., 2014, ADV NEURAL INFORM PR, V0, PP568, DOI 10.1002/14651858.CD001941.PUB3
+   Simonyan K, 2015, ARXIV, V0, P0
+   Snavely N, 2008, INT J COMPUT VISION, V80, P189, DOI 10.1007/s11263-007-0107-3
+   Song YF, 2016, IEEE T MULTIMEDIA, V18, P1542, DOI 10.1109/TMM.2016.2568743
+   Tang J, 2018, IEEE T MULTIMEDIA, V20, P1008, DOI 10.1109/TMM.2017.2760627
+   Theobald DM, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0094628
+   Tracewski L, 2017, GEO-SPAT INF SCI, V20, P252, DOI 10.1080/10095020.2017.1373955
+   Untenecker J, 2016, LAND USE POLICY, V57, P164, DOI 10.1016/j.landusepol.2016.04.016
+   Verdoliva L., 2015, ARXIV PREPRINT ARXIV, V28, P627
+   Wang XY, 2015, IEEE T MULTIMEDIA, V17, P409, DOI 10.1109/TMM.2014.2385473
+   Weng Q, 2017, IEEE GEOSCI REMOTE S, V14, P704, DOI 10.1109/LGRS.2017.2672643
+   Wickham JD, 2013, REMOTE SENS ENVIRON, V130, P294, DOI 10.1016/j.rse.2012.12.001
+   Workman S, 2017, IEEE I CONF COMP VIS, V0, PP2707, DOI 10.1109/ICCV.2017.293
+   Wu Y, 2016, IEEE T MULTIMEDIA, V18, P2206, DOI 10.1109/TMM.2016.2614185
+   Xie LX, 2016, PROC CVPR IEEE, V0, PP4753, DOI 10.1109/CVPR.2016.514
+   Xu ZX, 2017, IEEE T MULTIMEDIA, V19, P1933, DOI 10.1109/TMM.2017.2688928
+   Yamagata Y, 2013, APPL ENERG, V112, P1466, DOI 10.1016/j.apenergy.2013.01.061
+   Yin WY, 2014, IEEE T MULTIMEDIA, V16, P184, DOI 10.1109/TMM.2013.2283468
+   Yin YF, 2015, IEEE T MULTIMEDIA, V17, P1760, DOI 10.1109/TMM.2015.2458042
+   You QZ, 2015, AAAI CONF ARTIF INTE, V0, P381
+   Yuan JS, 2010, IEEE T MULTIMEDIA, V12, P705, DOI 10.1109/TMM.2010.2051868
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhang XM, 2016, IEEE T MULTIMEDIA, V18, P1855, DOI 10.1109/TMM.2016.2574122
+   Zhang XS, 2017, IEEE T MULTIMEDIA, V19, P2533, DOI 10.1109/TMM.2017.2696825
+   Zhang Y, 2016, IEEE T MULTIMEDIA, V18, P418, DOI 10.1109/TMM.2016.2520827
+   Zhang Y, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090865
+   Zhao B, 2017, IEEE GEOSCI REMOTE S, V14, P1436, DOI 10.1109/LGRS.2017.2691013
+   Zhou B., 2014, P ADV NEUR INF PROC, V0, PP487, DOI 10.1162/153244303322533223
+   Zhu Y, 2017, 25TH ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2017), V0, P0, DOI DOI 10.1145/3139958.3140055
+   Zhu Y, 2016, 24TH ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2016), V0, P0, DOI DOI 10.1145/2996913.2996978
+   Zhu Y, 2015, 23RD ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2015), V0, P0, DOI DOI 10.1145/2820783.2820851
+NR 81
+TC 18
+Z9 20
+U1 2
+U2 23
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1520-9210
+EI 1941-0077
+J9 IEEE T MULTIMEDIA
+JI IEEE Trans. Multimedia
+PD JUL 15
+PY 2019
+VL 21
+IS 7
+BP 1825
+EP 1838
+DI 10.1109/TMM.2019.2891999
+PG 14
+WC Computer Science, Information Systems; Computer Science, Software Engineering; Telecommunications
+SC Computer Science; Telecommunications
+GA IF6IF
+UT WOS:000473183700017
+DA 2023-04-26
+ER
+
+PT J
+AU Khakzad, H
+AF Khakzad, Hamid
+TI Application of fuzzy cognitive map-based TRIZ inventive principles for sustainable sediment management in dam reservoirs
+SO H2OPEN JOURNAL
+LA English
+DT Article
+DE fuzzy cognitive map; sediment management; theory for inventive problem solving (TRIZ)
+AB The present paper contributes to the development and discussion on fuzzy cognitive map (FCM)-based theory for inventive problem solving (TRIZ) for sustainable sediment management in reservoirs. FCM combines aspects of fuzzy logic, neural networks, semantic networks, expert systems, and nonlinear dynamical systems. TRIZ is a constructive methodology that includes practically reproducible models and methods that allow the development of new inventions as well as the teaching of the process, the models, and the methods of creating inventions. A proposed approach in this paper is an improvement methodology that is designed to bring about rapid improvements/changes to processes by defining and implementing the changes that can be quickly identified and easily implemented, thereby reducing the cost and time to bring about improvement and change in reservoirs. Results of this study provide a road map for how to introduce FCM and TRIZ into local sustainable sediment management with consideration of technical and executive requirements, economic factors, social welfare, and environmental impacts.
+C1 [Khakzad, Hamid] RusPers Grp Co, Moscow 109263, Russia.
+RP Khakzad, H (corresponding author), RusPers Grp Co, Moscow 109263, Russia.
+EM khakzad.hamid@yahoo.com
+CR Altshuller G, 1984, CREATIVITY EXACT SCI, V0, P0, DOI DOI 10.1201/9781466593442
+   Chang HT, 2004, ADV ENG SOFTW, V35, P553, DOI 10.1016/j.advengsoft.2004.06.003
+   Chen J. L., 2003, J POWER SUPPLY, V1, P262
+   Collan M, 2018, TRIZ METHODOLOGY TOO, V0, P0
+   Cong H, 2008, EXPERT SYST APPL, V34, P788, DOI 10.1016/j.eswa.2006.10.015
+   DAnna W, 2011, PROCEDIA ENG, V9, P145, DOI 10.1016/j.proeng.2011.03.108
+   Elfimov VI, 2014, WATER SCI ENG, V7, P267, DOI 10.3882/j.issn.1674-2370.2014.03.003
+   Justel D., 2006, 13 CIRP INT C LIF CY, V0, P377
+   Khakzad H., 1900, V10, V0, P153
+   Khakzad H, 2015, ENVIRON PRAC, V17, P211, DOI 10.1017/S1466046615000198
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kosko B., 1992, NEURAL NETWORKS FUZZ, V0, P0
+   Malek Z, 2017, ENVIRONMENTAL MODELING WITH STAKEHOLDERS: THEORY, V0, P0
+   Nikolaos P. E., 2017, RESERVOIR CONSERVATI, V0, P0
+   Orloff M., 2018, ABC TRIZ INTRO CREAT, V0, P0
+   Ozesmi U, 2004, ECOL MODEL, V176, P43, DOI 10.1016/j.ecolmodel.2003.10.027
+   Paolisso M, 2017, ENVIRONMENTAL MODELING WITH STAKEHOLDERS: THEORY, V0, P0
+   Papageorgiou EI, 2010, STUD FUZZ SOFT COMP, V247, P325
+   Papageorgiou E, 2011, INTERNATIONAL PERSPECTIVES ON GLOBAL ENVIRONMENTAL CHANGE, V0, P427
+   Solana-Gutierrez J, 2017, ECOL MODEL, V360, P260, DOI 10.1016/j.ecolmodel.2017.07.010
+   Vidal R, 2015, J CLEAN PROD, V107, P202, DOI 10.1016/j.jclepro.2015.04.131
+   Zanre E., 2014, FUZZY COGNITIVE MAPS, V54, P29, DOI 10.1007/978-3-642-39739-4_2
+NR 22
+TC 1
+Z9 1
+U1 0
+U2 0
+PU IWA PUBLISHING
+PI LONDON
+PA ALLIANCE HOUSE, 12 CAXTON ST, LONDON SW1H0QS, ENGLAND
+SN 
+EI 2616-6518
+J9 H2OPEN J
+JI H2Open J.
+PD JAN 1
+PY 2019
+VL 2
+IS 1
+BP 137
+EP 145
+DI 10.2166/h2oj.2019.009
+PG 9
+WC Water Resources
+SC Water Resources
+GA VK1VF
+UT WOS:000662196100012
+DA 2023-04-26
+ER
+
+PT J
+AU Qiu, CP
+   Mou, LC
+   Schmitt, M
+   Zhu, XX
+AF Qiu, Chunping
+   Mou, Lichao
+   Schmitt, Michael
+   Zhu, Xiao Xiang
+TI Local climate zone-based urban land cover classification from multi-seasonal Sentinel-2 images with a recurrent residual network
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Land cover; Local climate zones (LCZs); Sentinel-2; Multi-seasonal; Residual convolutional neural network (ResNet); Long short-term memory (ISTM); Recurrent neural network (RNN)
+ID heat-island; temperature; morphology
+AB The local climate zone (LCZ) scheme was originally proposed to provide an interdisciplinary taxonomy for urban heat island (UHI) studies. In recent years, the scheme has also become a starting point for the development of higher-level products, as the LCZ classes can help provide a generalized understanding of urban structures and land uses. LCZ mapping can therefore theoretically aid in fostering a better understanding of spatio-temporal dynamics of cities on a global scale. However, reliable LCZ maps are not yet available globally. As a first step toward automatic LCZ mapping, this work focuses on LCZ-derived land cover classification, using multi-seasonal Sentinel-2 images. We propose a recurrent residual network (Re-ResNet) architecture that is capable of learning a joint spectral-spatial-temporal feature representation within a unitized framework. To this end, a residual convolutional neural network (ResNet) and a recurrent neural network (RNN) are combined into one end-to-end architecture. The ResNet is able to learn rich spectral-spatial feature representations from single-seasonal imagery, while the RNN can effectively analyze temporal dependencies of multi-seasonal imagery. Cross validations were carried out on a diverse dataset covering seven distinct European cities, and a quantitative analysis of the experimental results revealed that the combined use of the multi-temporal information and Re-ResNet results in an improvement of approximately 7 percent points in overall accuracy. The proposed framework has the potential to produce consistent-quality urban land cover and LCZ maps on a large scale, to support scientific progress in fields such as urban geography and urban climatology.
+C1 [Qiu, Chunping; Mou, Lichao; Schmitt, Michael; Zhu, Xiao Xiang] TUM, Signal Proc Earth Observat SiPEO, Arcisstr 21, D-80333 Munich, Germany.
+   [Mou, Lichao; Zhu, Xiao Xiang] German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Oberpfaffenhofen, Wessling, Germany.
+C3 Technical University of Munich; Helmholtz Association; German Aerospace Centre (DLR)
+RP Zhu, XX (corresponding author), German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Oberpfaffenhofen, Wessling, Germany.
+EM xiaoxiang.zhu@dlr.de
+FU China Scholarship Council (CSC); European Research Council (ERC) under the European Union [ERC-2016-StG-714087]; Helmholtz Association [VH-NG-1018]; Bavarian Academy of Sciences and Humanities
+CR [Anonymous], 2015, P 9 INT C URBAN CLIM, V0, P0
+   Bechtel B, 2016, INT ARCH PHOTOGRAMM, V41, P1371, DOI 10.5194/isprsarchives-XLI-B8-1371-2016
+   Bechtel B, 2015, P 9 INT C URB CLIM J, V0, P0
+   Bechtel B., 2017, URBAN SCI, V1, P15, DOI 10.3390/urbansci1020015
+   Bechtel B, 2015, ISPRS INT J GEO-INF, V4, P199, DOI 10.3390/ijgi4010199
+   Danylo O, 2017, P 19 EGU GEN ASS EGU, V0, P18043
+   Demuzere M, 2019, URBAN CLIM, V27, P46, DOI 10.1016/j.uclim.2018.11.001
+   Donahue J, 2015, PROC CVPR IEEE, V0, PP2625, DOI 10.1109/CVPR.2015.7298878
+   dos Anjos CS, 2017, INT GEOSCI REMOTE SE, V0, PP1205, DOI 10.1109/IGARSS.2017.8127174
+   Fenner D, 2017, METEOROL Z, V26, P525, DOI 10.1127/metz/2017/0861
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Greff K, 2017, IEEE T NEUR NET LEAR, V28, P2222, DOI 10.1109/TNNLS.2016.2582924
+   He K., 2016, P IEEE C COMP VIS PA, V2016, P1512.03385, DOI 10.1109/CVPR.2016.90
+   Hu JL, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7090379
+   Hua YS, 2019, ISPRS J PHOTOGRAMM, V149, P188, DOI 10.1016/j.isprsjprs.2019.01.015
+   Huang X, 2019, ISPRS J PHOTOGRAMM, V152, P119, DOI 10.1016/j.isprsjprs.2019.04.010
+   Interdonato R, 2019, ISPRS J PHOTOGRAMM, V149, P91, DOI 10.1016/j.isprsjprs.2019.01.011
+   Kotharkar R, 2018, LANDSCAPE URBAN PLAN, V169, P92, DOI 10.1016/j.landurbplan.2017.08.009
+   Lyu HB, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8060506
+   Mou LC, 2019, IEEE T GEOSCI REMOTE, V57, P924, DOI 10.1109/TGRS.2018.2863224
+   Mou LC, 2018, IEEE T GEOSCI REMOTE, V56, P391, DOI 10.1109/TGRS.2017.2748160
+   Qiu CP, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101572
+   Quan SJ, 2017, ENRGY PROCED, V105, P3777, DOI 10.1016/j.egypro.2017.03.883
+   Quanz JA, 2018, CLIMATE, V6, P0, DOI 10.3390/cli6010005
+   Radoux J, 2016, REMOTE SENS, V8, P331
+   Ren C., 2016, P 4 INT C COUNT URB, V0, P0
+   Russwurm M, 2017, P IEEE ISPRS WORKSH, V0, P21
+   Schmitt M., 2018, P INT ARCH PHOT REM, V0, PP931, DOI 10.5194/isprs-archives-XLII-2-931-2018
+   Schneider A, 2010, REMOTE SENS ENVIRON, V114, P1733, DOI 10.1016/j.rse.2010.03.003
+   Stewart ID, 2012, B AM METEOROL SOC, V93, P1879, DOI 10.1175/BAMS-D-11-00019.1
+   Stewart I.D, 2011, P ANN M AM ASS GEOGR, V0, P0
+   Stewart ID, 2014, INT J CLIMATOL, V34, P1062, DOI 10.1002/joc.3746
+   Sutskever I., 2013, INT C MACHINE LEARNI, V0, P1139
+   Taubenbock H, 2012, REMOTE SENS ENVIRON, V117, P162, DOI 10.1016/j.rse.2011.09.015
+   United Nations, 2015, ADV ECOL RES, V0, P0
+   Wang Q, 2019, IEEE T GEOSCI REMOTE, V57, P1155, DOI 10.1109/TGRS.2018.2864987
+   Wicki A, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.026001
+   Xu Y, 2017, IEEE J-STARS, V10, P3397, DOI 10.1109/JSTARS.2017.2683484
+   Xu ZW, 2018, ISPRS J PHOTOGRAMM, V144, P423, DOI 10.1016/j.isprsjprs.2018.08.005
+   Yokoya N, 2018, IEEE J-STARS, V11, P1363, DOI 10.1109/JSTARS.2018.2799698
+   Zhang G, 2019, IEEE T GEOSCI REMOTE, V0, P0
+   Zhu X.X, 2019, IEEE GEOSCI RE UNPUB, V0, P0
+   Zhu X.X., 2019, P IEEE C COMP VIS PA, V0, P0
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 44
+TC 75
+Z9 76
+U1 13
+U2 42
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD AUG 15
+PY 2019
+VL 154
+IS 
+BP 151
+EP 162
+DI 10.1016/j.isprsjprs.2019.05.004
+PG 12
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA IQ3SN
+UT WOS:000480671500012
+PM 31417230
+DA 2023-04-26
+ER
+
+PT J
+AU Khoshtinat, S
+   Aminnejad, B
+   Hassanzadeh, Y
+   Ahmadi, H
+AF Khoshtinat, Saeed
+   Aminnejad, Babak
+   Hassanzadeh, Yousef
+   Ahmadi, Hasan
+TI Application of GIS-based models of weights of evidence, weighting factor, and statistical index in spatial modeling of groundwater
+SO JOURNAL OF HYDROINFORMATICS
+LA English
+DT Article
+DE groundwater potential; Sero Plain; statistical index; weighting factor; weights of evidence
+ID flood susceptibility assessment; artificial neural-network; vector machine models; frequency ratio model; data mining models; of-evidence; belief function; prediction; bivariate; multivariate
+AB The present research aims at applying three geographic information system (GIS)-based bivariate models, namely, weights of evidence (WOE), weighting factor (WF), and statistical index (SI), for mapping of groundwater potential for sustainable groundwater management. The locations of wells with groundwater yields more than 11 m(3)/h were selected for modeling. Then, these locations were grouped into two categories with 70% (52 locations) in a training dataset to build the model and 30% (22 locations) in a testing dataset to validate it. Conditioning factors, namely, altitude, slope degree, plan curvature, slope aspect, rainfall, soil, land use, geology, distance from fault, and distance from river were selected. Finally, the three achieved maps were compared using area under receiver operating characteristic (ROC) and area under the ROC curve (AUC). The ROC method result showed that the SI model better fitted the training dataset (AUC = 0.747) followed by WF (AUC = 0.742) and WOE (AUC = 0.737). Results of the testing dataset show that the WOE model (AUC = 0.798) outperforms SI (AUC = 0.795) and WF (AUC = 0.791). According to the WF model, altitude and rainfall had the highest and lowest impacts on groundwater well potential occurrence, respectively. With regard to Friedman test, the difference in performances of these three models was not statistically significant.
+C1 [Khoshtinat, Saeed; Aminnejad, Babak; Ahmadi, Hasan] Islamic Azad Univ, Dept Civil Engn, Roudehen Branch, Roudehen, Iran.
+   [Hassanzadeh, Yousef] Univ Tabriz, Fac Civil Engn, Tabriz, Iran.
+C3 Islamic Azad University; University of Tabriz
+RP Aminnejad, B (corresponding author), Islamic Azad Univ, Dept Civil Engn, Roudehen Branch, Roudehen, Iran.
+EM aminnejad@riau.ac.ir
+CR Abd Manap M, 2014, ARAB J GEOSCI, V7, P711, DOI 10.1007/s12517-012-0795-z
+   Abd Manap M, 2013, ARAB J GEOSCI, V6, P1621, DOI 10.1007/s12517-011-0469-2
+   Adiat KAN, 2012, J HYDROL, V440, P75, DOI 10.1016/j.jhydrol.2012.03.028
+   Agarwal E, 2013, J EARTH SYST SCI, V122, P887, DOI 10.1007/s12040-013-0309-8
+   Al-Abadi AM, 2016, SUST WAT RESOUR MAN, V2, P265, DOI 10.1007/s40899-016-0056-5
+   Arabameri A, 2019, SCI TOTAL ENVIRON, V658, P160, DOI 10.1016/j.scitotenv.2018.12.115
+   Balamurugan G, 2017, J KING SAUD UNIV SCI, V29, P333, DOI 10.1016/j.jksus.2016.08.003
+   Beasley TM, 2003, COMPUT STAT DATA AN, V42, P569, DOI 10.1016/S0167-9473(02)00147-0
+   Pham BT, 2017, ENVIRON PROCESS, V4, P711, DOI 10.1007/s40710-017-0248-5
+   Bonham-Carter GF., 1994, COMPUT METHODS GEOSC, V13, P398
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   Chapi K, 2017, ENVIRON MODELL SOFTW, V95, P229, DOI 10.1016/j.envsoft.2017.06.012
+   Chen W, 2019, J HYDROL, V572, P435, DOI 10.1016/j.jhydrol.2019.03.013
+   Chenini I, 2010, COMPUT GEOSCI-UK, V36, P801, DOI 10.1016/j.cageo.2009.06.014
+   Chenini I, 2010, WATER RESOUR MANAG, V24, P921, DOI 10.1007/s11269-009-9479-1
+   Dahal RK, 2008, ENVIRON GEOL, V54, P311, DOI 10.1007/s00254-007-0818-3
+   Falah F, 2017, GEOCARTO INT, V32, P1069, DOI 10.1080/10106049.2016.1188166
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Fitts CR, 2002, GROUNDWATER SCI, V0, P0
+   Friedman M, 1937, J AM STAT ASSOC, V32, P675, DOI 10.2307/2279372
+   Ganapuram S, 2009, ADV ENG SOFTW, V40, P506, DOI 10.1016/j.advengsoft.2008.10.001
+   Jha MK, 2007, WATER RESOUR MANAG, V21, P427, DOI 10.1007/s11269-006-9024-4
+   Khosravi K, 2018, J HYDROL, V567, P165, DOI 10.1016/j.jhydrol.2018.10.015
+   Khosravi K, 2018, HYDROL EARTH SYST SC, V22, P4771, DOI 10.5194/hess-22-4771-2018
+   Khosravi K, 2018, SCI TOTAL ENVIRON, V642, P1032, DOI 10.1016/j.scitotenv.2018.06.130
+   Khosravi K, 2018, SCI TOTAL ENVIRON, V627, P744, DOI 10.1016/j.scitotenv.2018.01.266
+   Khosravi K, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-016-5665-9
+   Khosravi K, 2016, NAT HAZARDS, V83, P947, DOI 10.1007/s11069-016-2357-2
+   Kim JC, 2018, J HYDROINFORM, V20, P1436, DOI 10.2166/hydro.2018.120
+   Lee S, 2018, GEOCARTO INT, V33, P847, DOI 10.1080/10106049.2017.1303091
+   Lee S, 2012, J ENVIRON MANAGE, V96, P91, DOI 10.1016/j.jenvman.2011.09.016
+   Naghibi SA, 2017, J HYDROL, V548, P471, DOI 10.1016/j.jhydrol.2017.03.020
+   Naghibi SA, 2017, HYDROGEOL J, V25, P169, DOI 10.1007/s10040-016-1466-z
+   Naghibi SA, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-015-5049-6
+   Naghibi SA, 2015, EARTH SCI INFORM, V8, P171, DOI 10.1007/s12145-014-0145-7
+   Nampak H, 2014, J HYDROL, V513, P283, DOI 10.1016/j.jhydrol.2014.02.053
+   Nejad SG, 2017, GEOCARTO INT, V32, P167, DOI 10.1080/10106049.2015.1132481
+   OBrien RM, 2007, QUAL QUANT, V41, P673, DOI 10.1007/s11135-006-9018-6
+   Ozdemir A, 2011, J HYDROL, V411, P290, DOI 10.1016/j.jhydrol.2011.10.010
+   Pourghasemi HR, 2015, GEOCARTO INT, V30, P662, DOI 10.1080/10106049.2014.966161
+   Powers D. M. W., 2011, J MACH LEARN TECHNOL, V2, P37
+   Pradhan B, 2009, CENT EUR J GEOSCI, V1, P120, DOI 10.2478/v10085-009-0008-5
+   Pradhan B, 2010, GEOMAT NAT HAZ RISK, V1, P199, DOI 10.1080/19475705.2010.498151
+   Rahmati O, 2017, WATER RESOUR MANAG, V31, P1473, DOI 10.1007/s11269-017-1589-6
+   Razandi Y, 2015, EARTH SCI INFORM, V8, P867, DOI 10.1007/s12145-015-0220-8
+   Regmi AD, 2014, ARAB J GEOSCI, V7, P725, DOI 10.1007/s12517-012-0807-z
+   Robins, 2002, INTRO GROUNDWATER CR, V0, P64
+   Tahmassebipoor N, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2166-z
+   Tehrany MS, 2015, CATENA, V125, P91, DOI 10.1016/j.catena.2014.10.017
+   Tehrany MS, 2014, J HYDROL, V512, P332, DOI 10.1016/j.jhydrol.2014.03.008
+   Tehrany MS, 2013, J HYDROL, V504, P69, DOI 10.1016/j.jhydrol.2013.09.034
+   Todd DK., 2004, GROUNDWATER HYDROLOG, V2, P0
+   Van Westen C.J., 1997, ILWIS 21 WINDOWS APP, V0, P0
+   Xu C, 2012, J EARTH SCI-CHINA, V23, P97, DOI 10.1007/s12583-012-0236-7
+   Yalcin A, 2008, CATENA, V72, P1, DOI 10.1016/j.catena.2007.01.003
+   Yesilnacar E.K., 2005, THESIS, V0, P0
+   Zandi J, 2016, WATER RESOUR+, V43, P48, DOI 10.1134/S0097807816010097
+NR 57
+TC 2
+Z9 2
+U1 0
+U2 4
+PU IWA PUBLISHING
+PI LONDON
+PA ALLIANCE HOUSE, 12 CAXTON ST, LONDON SW1H0QS, ENGLAND
+SN 1464-7141
+EI 1465-1734
+J9 J HYDROINFORM
+JI J. Hydroinform.
+PD SEP 15
+PY 2019
+VL 21
+IS 5
+BP 745
+EP 760
+DI 10.2166/hydro.2019.127
+PG 16
+WC Computer Science, Interdisciplinary Applications; Engineering, Civil; Environmental Sciences; Water Resources
+SC Computer Science; Engineering; Environmental Sciences & Ecology; Water Resources
+GA JG9BO
+UT WOS:000492371700005
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, XH
+   Bai, SF
+   Li, Z
+   Song, RX
+   Tao, JZ
+AF Wang, Xianghai
+   Bai, Shifu
+   Li, Zhi
+   Song, Ruoxi
+   Tao, Jingzhe
+TI The PAN and MS Image Pansharpening Algorithm Based on Adaptive Neural Network and Sparse Representation in the NSST Domain
+SO IEEE ACCESS
+LA English
+DT Article
+DE Image; MS image; image fusion; NSST; neuron connection intensity; sparse representation
+ID fusion; adjustment; ihs
+AB How to improve the spatial resolution as much as possible while maintaining the spectral information of multi-spectral (MS) image in the field of image fusion is of great significance for practical applications, such as map updating, feature classification, and target recognition. To analyze the coefficients of the subband distribution characteristics, in this paper, we propose a new panchromatic (PAN) and MS image pansharpening model based on an adaptive neural network and sparse representation in the non-subsample shearlet transform (NSST) domain. First, this algorithm is specific to regional directional characteristics in the high-frequency subband of PAN and MS images, and we propose an adaptive pulse coupled neural network (PCNN) model. The model can adaptively calculate the link strength of a neural cell based on the region energy. Furthermore, we apply the model to the high-frequency fusing process with the corresponding fusion rule, and the rule can distinguish the high-frequency coefficients by ignition times, which can more effectively capture the geometric texture information and detailed information in the PAN image, enhancing the spatial resolution of the fused image. Second, because of the low-frequency sub-bands from the PAN image and I component obtained by intensity-hue-saturation (IHS) transformation of the MS images with high similarity to the original image but poor sparsity, we select a set of PANimages for learning, a more targeted over-complete dictionary for low-frequency sub-band sparse representation is obtained. Then, the larger absolute value of the sparse matrix is selected to obtain the low-frequency coefficients for the fusion image while maintaining the MS spectral information effectively, and the representation of characteristic information of low-frequency subband is more effective. A large number of simulation experiments verify the effectiveness of the proposed method.
+C1 [Wang, Xianghai; Bai, Shifu] Liaoning Normal Univ, Coll Comp & Informat Technol, Dalian 116029, Peoples R China.
+   [Li, Zhi] Dalian Hausen Software Co Ltd, Dalian 116023, Peoples R China.
+   [Song, Ruoxi; Tao, Jingzhe] Liaoning Normal Univ, Sch Urban & Environm Sci, Dalian 116029, Peoples R China.
+C3 Liaoning Normal University; Liaoning Normal University
+RP Wang, XH (corresponding author), Liaoning Normal Univ, Coll Comp & Informat Technol, Dalian 116029, Peoples R China.; Tao, JZ (corresponding author), Liaoning Normal Univ, Sch Urban & Environm Sci, Dalian 116029, Peoples R China.
+EM xhwang@lnnu.edu.cn; blueuranus@qq.com
+FU National Natural Science Foundation of China [41671439]; Innovation Team Support Program of Liaoning Higher Education Department [LT2017013]
+CR Alparone L., 2015, REMOTE SENSING IMAGE, V0, P0
+   Alparone L, 2008, PHOTOGRAMM ENG REM S, V74, P193, DOI 10.14358/PERS.74.2.193
+   Alparone L, 2007, IEEE T GEOSCI REMOTE, V45, P3012, DOI 10.1109/TGRS.2007.904923
+   Aslantas V, 2014, OPT COMMUN, V332, P350, DOI 10.1016/j.optcom.2014.07.044
+   Bai XZ, 2011, IMAGE VISION COMPUT, V29, P829, DOI 10.1016/j.imavis.2011.09.003
+   Chen CI, 2017, IEEE SENS J, V17, P6995, DOI 10.1109/JSEN.2017.2747220
+   da Cunha AL, 2006, IEEE T IMAGE PROCESS, V15, P3089, DOI 10.1109/TIP.2006.877507
+   Do MN., 2003, STUD COMPUT MATH, V10, P83, DOI 10.1016/S1570-579X(03)80032-0
+   Easley G, 2008, APPL COMPUT HARMON A, V25, P25, DOI 10.1016/j.acha.2007.09.003
+   Elad M, 2006, IEEE T IMAGE PROCESS, V15, P3736, DOI 10.1109/TIP.2006.881969
+   Gharavi-Alkhansari M., 1998, 1998 P 1998 IEEE INT, V3, P1389
+   Ghassemian H, 2016, INFORM FUSION, V32, P75, DOI 10.1016/j.inffus.2016.03.003
+   Gong S., 2018, P AAAI C ART INT, V0, P1
+   Guo K, 2007, SIAM J MATH ANAL, V39, P298, DOI 10.1137/060649781
+   Johnson JL, 1999, IEEE T NEURAL NETWOR, V10, P480, DOI 10.1109/72.761706
+   Kuntimad G, 1999, IEEE T NEURAL NETWOR, V10, P591, DOI 10.1109/72.761716
+   Kutyniok G, 2012, APPL NUMER HARMON AN, V0, PP1, DOI 10.1007/978-0-8176-8316-0
+   Laben C. A., 2000, US PATENT, V0, P0
+   Leung Y, 2014, IEEE GEOSCI REMOTE S, V11, P985, DOI 10.1109/LGRS.2013.2284282
+   Li H, 2018, INT C PATT RECOG, V0, PP2705, DOI 10.1109/ICPR.2018.8546006
+   [李美丽 Li Meili], 2010, 光电工程 OPTO-ELECTRONIC ENGINEERING, V37, P90
+   Li ST, 2008, PATTERN RECOGN LETT, V29, P1295, DOI 10.1016/j.patrec.2008.02.002
+   Li ST, 2017, INFORM FUSION, V33, P100, DOI 10.1016/j.inffus.2016.05.004
+   Liu Y, 2015, IET IMAGE PROCESS, V9, P347, DOI 10.1049/iet-ipr.2014.0311
+   Malpica JA, 2007, IEEE GEOSCI REMOTE S, V4, P27, DOI 10.1109/LGRS.2006.883523
+   Nunez J, 1999, IEEE T GEOSCI REMOTE, V37, P1204, DOI 10.1109/36.763274
+   Ranchin T, 2000, PHOTOGRAMM ENG REM S, V66, P49
+   Shah VP, 2008, IEEE T GEOSCI REMOTE, V46, P1323, DOI 10.1109/TGRS.2008.916211
+   Tu TM, 2004, IEEE GEOSCI REMOTE S, V1, P309, DOI 10.1109/LGRS.2004.834804
+   Wald L., 2000, PROC 3 C FUSION EART, V0, P99
+   Wei YC, 2017, IEEE GEOSCI REMOTE S, V14, P1795, DOI 10.1109/LGRS.2017.2736020
+   Yang B, 2012, INFORM FUSION, V13, P10, DOI 10.1016/j.inffus.2010.04.001
+   Yang Y, 2018, IEEE J-STARS, V11, P3196, DOI 10.1109/JSTARS.2018.2849011
+   Yang Y, 2018, IEEE GEOSCI REMOTE S, V15, P734, DOI 10.1109/LGRS.2018.2810219
+   Yang Y, 2018, IEEE ACCESS, V6, P6849, DOI 10.1109/ACCESS.2018.2791574
+   Yin M, 2019, IEEE T INSTRUM MEAS, V68, P49, DOI 10.1109/TIM.2018.2838778
+   Yuan QQ, 2018, IEEE J-STARS, V11, P978, DOI 10.1109/JSTARS.2018.2794888
+   Zhang Y., 2002, ISPRS ARCH, V34, P587
+   Zhong SW, 2017, IEEE J-STARS, V10, P2867, DOI 10.1109/JSTARS.2017.2697445
+   2016, 1900, V24, V0, PP475, DOI 10.1007/S41324-016-0046-6
+   2014, 1900, P1, V0, P0
+NR 41
+TC 19
+Z9 20
+U1 1
+U2 14
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2019
+VL 7
+IS 
+BP 52508
+EP 52521
+DI 10.1109/ACCESS.2019.2910656
+PG 14
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA HW3JV
+UT WOS:000466588600001
+DA 2023-04-26
+ER

@@ -1,0 +1,622 @@
+
+PT J
+AU Zhu, L
+   Long, J
+   Zhang, CY
+   Yu, WR
+   Yuan, XP
+   Sun, LZ
+AF Zhu, Lei
+   Long, Jun
+   Zhang, Chengyuan
+   Yu, Weiren
+   Yuan, Xinpan
+   Sun, Longzhi
+TI An Efficient Approach for Geo-Multimedia Cross-Modal Retrieval
+SO IEEE ACCESS
+LA English
+DT Article
+DE Cross-modal retrieval; deep learning; kNN spatial search; geo-multimedia
+ID convolutional neural-networks; image; search
+AB Due to the rapid development of mobile Internet techniques, such as online social networking and location-based services, massive amount of multimedia data with geographical information is generated and uploaded to the Internet. In this paper, we propose a novel type of cross-modal multimedia retrieval, called geo-multimedia cross-modal retrieval, which aims to find a set of geo-multimedia objects according to geographical distance proximity and semantic concept similarity. Previous studies for cross-modal retrieval and spatial keyword search cannot address this problem effectively because they do not consider multimedia data with geo-tags (geo-multimedia). Firstly, we present the definition of kNN geo-multimedia cross-modal query and introduce relevant concepts such as spatial distance and semantic similarity measurement. As the key notion of this work, cross-modal semantic representation space is formulated at the first time. A novel framework for geo-multimedia cross-modal retrieval is proposed, which includes multi-modal feature extraction, cross-modal semantic space mapping, geo-multimedia spatial index and cross-modal semantic similarity measurement. To bridge the semantic gap between different modalities, we also propose a method named cross-modal semantic matching (CoSMat for shot) which contains two important components, i.e., CorrProj and LogsTran, which aims to build a common semantic representation space for cross-modal semantic similarity measurement. In addition, to implement semantic similarity measurement, we employ deep learning based method to learn multi-modal features that contains more high level semantic information. Moreover, a novel hybrid index, GMR-Tree is carefully designed, which combines signatures of semantic representations and R-Tree. An efficient GMR-Tree based kNN search algorithm called kGMCMS is developed. Comprehensive experimental evaluations on real and synthetic datasets clearly demonstrate that our approach outperforms the-state-of-the-art methods.
+C1 [Zhu, Lei; Long, Jun; Zhang, Chengyuan; Sun, Longzhi] Cent South Univ, Sch Comp Sci & Engn, Changsha 410083, Peoples R China.
+   [Yu, Weiren] Aston Univ, Sch Engn & Appl Sci, Birmingham, W Midlands, England.
+   [Yu, Weiren] Nanjing Univ Sci & Technol, Nanjing, England.
+   [Yuan, Xinpan] Hunan Univ Technol, Sch Comp Sci, Zhuzhou 412007, Peoples R China.
+C3 Central South University; Aston University; Hunan University of Technology
+RP Zhang, CY (corresponding author), Cent South Univ, Sch Comp Sci & Engn, Changsha 410083, Peoples R China.
+EM cyzhang@csu.edu.cn
+FU National Natural Science Foundation of China [61702560, 61472450, 61972203]; Key Research Program of Hunan Province [2016JC2018]; Project of Science and Technology Plan of Hunan Province [2018JJ3691]; Research and Innovation Project of Central South University Graduate Students [2018zzts177]
+CR [Anonymous], 2015, P 2015 C EMPIRICAL M, V0, P0, DOI DOI 10.18653/V1/D15-1181
+   Atrey PK, 2010, MULTIMEDIA SYST, V16, P345, DOI 10.1007/s00530-010-0182-0
+   Baltrusaitis T, 2019, IEEE T PATTERN ANAL, V41, P423, DOI 10.1109/TPAMI.2018.2798607
+   Bianchi-Berthouze N., 2003, MULTIMEDIA IEEE, V10, P103, DOI 10.1109/MMUL.2003.1218262
+   Blei DM, 2003, J MACH LEARN RES, V3, P993, DOI 10.1162/jmlr.2003.3.4-5.993
+   Bredin H., 2007, P IEEE INT C AC SPEE, V2, P0
+   Cao XL, 2011, IEEE INT CONF TRUST, V0, PP373, DOI 10.1109/TrustCom.2011.48
+   Cao X, 2010, PROC VLDB ENDOW, V3, P373, DOI 10.14778/1920841.1920891
+   Cao Y., 2017, P 31 AAAI C ART INT, V0, P0
+   Cary A, 2010, LECT NOTES COMPUT SC, V6187, P87, DOI 10.1007/978-3-642-13818-8_8
+   Chen J, 2016, PATTERN RECOGN LETT, V83, P379, DOI 10.1016/j.patrec.2016.01.017
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Chu L, 2014, IEEE T CIRC SYST VID, V26, P556
+   Cong G., 2009, PROC VLDB ENDOW, V2, P337, DOI 10.14778/1687627.1687666
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Dang-Nguyen DT, 2017, ACM T MULTIM COMPUT, V13, P0, DOI 10.1145/3103613
+   Frome A, 2013, P ADV NEURAL INFORM, V26, P0
+   Fu RG, 2016, 2016 2ND IEEE INTERNATIONAL CONFERENCE ON COMPUTER AND COMMUNICATIONS (ICCC), V0, PP638, DOI 10.1109/CompComm.2016.7924779
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Guo J, 2017, INT CONF COMP SCI ED, V0, PP787, DOI 10.1109/ICCSE.2017.8085601
+   Guttman A., 1984, SIGMOD RECORD, V14, P47, DOI 10.1145/971697.602266
+   Hardoon DR, 2004, NEURAL COMPUT, V16, P2639, DOI 10.1162/0899766042321814
+   Hariharan Ramaswamy, 2007, 2007 INTERNATIONAL CONFERENCE ON SCIENTIFIC AND STATISTICAL DATABASE MANAGEMENT, V0, P0, DOI DOI 10.1109/SSDBM.2007.22
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hoffer E, 2015, LECT NOTES COMPUT SC, V9370, P84, DOI 10.1007/978-3-319-24261-3_7
+   Hotelling H, 1936, BIOMETRIKA, V28, P321, DOI 10.1093/biomet/28.3-4.321
+   Huang FR, 2017, PROCEEDINGS OF THE THEMATIC WORKSHOPS OF ACM MULTIMEDIA 2017 (THEMATIC WORKSHOPS17), V0, PP460, DOI 10.1145/3126686.3126720
+   Jia YQ, 2011, IEEE I CONF COMP VIS, V0, PP2407, DOI 10.1109/ICCV.2011.6126524
+   Jin L, 2018, IEEE T IMAGE PROCESS, V27, P1405, DOI 10.1109/TIP.2017.2776745
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Laenen K, 2018, WSDM18: PROCEEDINGS OF THE ELEVENTH ACM INTERNATIONAL CONFERENCE ON WEB SEARCH AND DATA MINING, V0, PP342, DOI 10.1145/3159652.3159716
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   LeCun Y, 2010, IEEE INT SYMP CIRC S, V0, PP253, DOI 10.1109/ISCAS.2010.5537907
+   Li G, 2012, PROCEEDINGS OF THE XIAN 2012 INTERNATIONAL CONFERENCE OF SPORT SCIENCE & PHYSICAL EDUCATION, VOL II: PHYSICAL EDUCATION AND INNOVATION, P144
+   Li JJ, 2017, IEEE T CYBERNETICS, V47, P3516, DOI 10.1109/TCYB.2016.2565898
+   Li YS, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090709
+   Li ZS, 2011, IEEE T KNOWL DATA EN, V23, P585, DOI 10.1109/TKDE.2010.149
+   Liu K., 2015, P INT S COMP INF JAN, V0, P0
+   Long C., 2013, PROC ACM SIGMOD INT, V0, P689
+   Long J., 2018, MULTIMED TOOLS APPL, V0, P1
+   Lowe D. G., 1999, INT C COMP VIS, V0, P0
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Ma XZ, 2016, PROCEEDINGS OF THE 54TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS, VOL 1, P1064
+   McNamara Q, 2017, KDD17: PROCEEDINGS OF THE 23RD ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, PP1567, DOI 10.1145/3097983.3098075
+   Melekhov I, 2016, INT C PATT RECOG, V0, PP378, DOI 10.1109/ICPR.2016.7899663
+   Min WQ, 2017, IEEE T MULTIMEDIA, V19, P1100, DOI 10.1109/TMM.2016.2639382
+   Moon S., 2014, ARXIV14123121, V0, P0
+   Ngiam J, 2011, IEEE INT C MACH LEAR, V0, PP689, DOI 10.5555/3104482.3104569
+   Pei-Xia S., 2016, 2016 IEEE INT C SIGN, V0, PP1, DOI 10.1109/ICSPEC.2016.7753634
+   Rafailidis D, 2013, PATTERN RECOGN, V46, P3358, DOI 10.1016/j.patcog.2013.05.023
+   Rasiwasia N., 2010, PROC INT C MULTIMEDI, V0, PP251, DOI 10.1145/1873951.1873987
+   Rasiwasia N, 2014, JMLR WORKSH CONF PRO, V33, P823
+   Rawat W, 2017, NEURAL COMPUT, V29, P2352, DOI 10.1162/NECO_a_00990
+   Rocha-Junior Joao B., 2011, ADVANCES IN SPATIAL AND TEMPORAL DATABASES. PROCEEDINGS 12TH INTERNATIONAL SYMPOSIUM (SSTD 2011), V0, PP205, DOI 10.1007/978-3-642-22922-0_13
+   Rocktaschel Tim, 2015, ARXIV150906664, V0, P0
+   Sharma A., 2012, CVPR, V0, P0, DOI DOI 10.1109/CVPR.2012.6247923
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sivic J, 2003, NINTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, VOLS I AND II, PROCEEDINGS
+   Tolias G, 2016, INT J COMPUT VISION, V116, P247, DOI 10.1007/s11263-015-0810-4
+   Tolias G, 2013, IEEE I CONF COMP VIS, V0, PP1401, DOI 10.1109/ICCV.2013.177
+   Vukotic Vedran, 2016, P 2016 ACM WORKSH VI, V0, PP37, DOI 10.1145/2983563.2983567
+   Wan J, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP157, DOI 10.1145/2647868.2654948
+   Wan S., 2016, P 13 AAAI C ART INT, V0, P0
+   Wang X. J., 2005, P ACM INT WORKSH MUL, V0, P65
+   Wang Y-PE., 2016, IJCAI, V0, P0
+   Wang Y, 2018, IEEE T NEUR NET LEAR, V29, P4833, DOI 10.1109/TNNLS.2017.2777489
+   Wang Y, 2018, NEURAL NETWORKS, V103, P1, DOI 10.1016/j.neunet.2018.03.006
+   Wang Y, 2017, IEEE T IMAGE PROCESS, V26, P1393, DOI 10.1109/TIP.2017.2655449
+   Wang Y, 2017, IEEE T NEUR NET LEAR, V28, P57, DOI 10.1109/TNNLS.2015.2498149
+   Wang Y, 2015, MM15: PROCEEDINGS OF THE 2015 ACM MULTIMEDIA CONFERENCE, V0, PP79, DOI 10.1145/2733373.2806233
+   Wang Y, 2015, SIGIR 2015: PROCEEDINGS OF THE 38TH INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL, V0, PP999, DOI 10.1145/2766462.2767825
+   Wang Y, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP981, DOI 10.1145/2647868.2654999
+   Wang Y, 2015, IEEE T IMAGE PROCESS, V24, P3939, DOI 10.1109/TIP.2015.2457339
+   Wang Y, 2013, PROCEEDINGS OF THE 22ND ACM INTERNATIONAL CONFERENCE ON INFORMATION & KNOWLEDGE MANAGEMENT (CIKM13), V0, PP805, DOI 10.1145/2505515.2505591
+   Wang Z, 2016, ARXIV PREPRINT ARXIV, V0, P0
+   Williams RJ, 1989, NEURAL COMPUT, V1, P270, DOI 10.1162/neco.1989.1.2.270
+   Wu DM, 2012, IEEE T KNOWL DATA EN, V24, P1889, DOI 10.1109/TKDE.2011.172
+   Wu L, 2013, PROCEEDINGS OF 2013 INTERNATIONAL CONFERENCE ON PUBLIC ADMINISTRATION (9TH), VOL II, P598
+   Wu L, 2019, IEEE T MULTIMEDIA, V21, P1412, DOI 10.1109/TMM.2018.2877886
+   Wu L, 2018, COMPUT VIS IMAGE UND, V167, P63, DOI 10.1016/j.cviu.2017.11.009
+   Wu L, 2018, PATTERN RECOGN, V76, P727, DOI 10.1016/j.patcog.2017.10.004
+   Wu L, 2018, PATTERN RECOGN, V73, P275, DOI 10.1016/j.patcog.2017.08.029
+   Wu L, 2017, IMAGE VISION COMPUT, V57, P58, DOI 10.1016/j.imavis.2016.11.008
+   Wu L, 2015, MULTIMED TOOLS APPL, V74, P5635, DOI 10.1007/s11042-014-1873-x
+   Yang Wang, 2014, ADVANCES IN KNOWLEDGE DISCOVERY AND DATA MINING. 18TH PACIFIC-ASIA CONFERENCE, V0, P234, DOI 10.1007/978-3-319-06605-9_20
+   Yang YF, 2018, REPRESENTATION LEARNING FOR NLP, V0, P164
+   Yu J, 2017, IEEE T CYBERNETICS, V47, P4014, DOI 10.1109/TCYB.2016.2591583
+   ZAGORUYKO S, 2015, PROC CVPR IEEE, V0, PP4353, DOI 10.1109/CVPR.2015.7299064
+   Zhai XH, 2012, INT CONF ACOUST SPEE, V0, PP2337, DOI 10.1109/ICASSP.2012.6288383
+   Zhang CY, 2019, MULTIMED TOOLS APPL, V78, P30561, DOI 10.1007/s11042-018-6284-y
+   Zhang CY, 2016, IEEE T KNOWL DATA EN, V28, P1706, DOI 10.1109/TKDE.2016.2530060
+   Zhang D., 2013, EDBT, V0, P359
+   Zhang DX, 2014, SIGIR14: PROCEEDINGS OF THE 37TH INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL, V0, PP355, DOI 10.1145/2600428.2609562
+   Zhang DX, 2009, PROC INT CONF DATA, V0, PP688, DOI 10.1109/ICDE.2009.77
+   Zhao PP, 2015, LECT NOTES COMPUT SC, V9050, P379, DOI 10.1007/978-3-319-18123-3_23
+   Zhou D, 2016, IEEE IMAGE PROC, V0, PP2445, DOI 10.1109/ICIP.2016.7532798
+NR 96
+TC 6
+Z9 6
+U1 4
+U2 12
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2019
+VL 7
+IS 
+BP 180571
+EP 180589
+DI 10.1109/ACCESS.2019.2940055
+PG 19
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA KF8JT
+UT WOS:000509483800259
+DA 2023-04-26
+ER
+
+PT J
+AU Arca, D
+   Citiroglu, HK
+   Tasoglu, IK
+AF Arca, Deniz
+   Citiroglu, Hulya Keskin
+   Tasoglu, Ismail Kerem
+TI A comparison of GIS-based landslide susceptibility assessment of the Satuk village (Yenice, NW Turkey) by frequency ratio and multi-criteria decision methods
+SO ENVIRONMENTAL EARTH SCIENCES
+LA English
+DT Article
+DE Landslides susceptibility; GIS; Frequency rate method; Multi-criteria decision method; Satuk village
+ID analytical hierarchy process; weighted linear combination; geographical information-system; artificial neural-networks; support vector machine; black-sea region; logistic-regression; slope instability; river-basin; hazard
+AB Landslide is one of the most influential natural disasters that cause losses of life and property on a large scale. To identify the landslide susceptible areas, the layers of data showing different characteristics of the earth must be evaluated together. In the course of evaluating data layers together, the emerging technology of geographical information systems (GIS) allows the collection, processing and analysis of data. The purpose of this study is to produce a landslide susceptibility map of the Satuk village in the Yenice district of the province of Karabuk in the Western Black Sea Region where landslides causing frequent loss of life and property occur frequently. In the area, the slope, lithology, aspect, elevation, distance to river and distance to road parameters were considered as the parameters causing the landslides. All of the parameters were standardized in a common scale using fuzzy membership functions. Then, the contributions of each of these parameters for the landslide occurrence were investigated by frequency ratio, and GIS-based multi-criteria decision analysis, and the weight values of the parameters were calculated. The generated landslide susceptibility map is divided into five classes. Additionally, the landslide inventory map was compared to the obtained landslide susceptibility maps to find out how well the constructed models fit the reality. An overlap of 81.56% was found based on the multi-criteria decision analysis method and an overlap of 89.96% was found based on the frequency ratio method. The results showed that the frequency ratio method provides better results than the multi-criteria decision analysis method considering the data used for the study area.
+C1 [Arca, Deniz] Dokuz Eylul Univ, Dept Izmir Vocat Sch, Izmir, Turkey.
+   [Citiroglu, Hulya Keskin] YIKOB, Investment Monitoring & Coordinat Presidency, Aydin, Turkey.
+   [Tasoglu, Ismail Kerem] Prov Directorate Environm & Urban Planning, Eskisehir, Turkey.
+C3 Dokuz Eylul University; Ministry of Interior - Turkey; Ministry of Environment & Urban Planning - Turkey
+RP Arca, D (corresponding author), Dokuz Eylul Univ, Dept Izmir Vocat Sch, Izmir, Turkey.
+EM deniz.arca@deu.edu.tr; keskinhc@yahoo.com; iktasoglu@hotmail.com
+CR ADNKS, 2017, ADDR BAS POP REG SYS, V0, P0
+   AFAD, 2018, LAW, V0, P0
+   Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Akgun A, 2007, ENVIRON GEOL, V51, P1377, DOI 10.1007/s00254-006-0435-6
+   Akgun A, 2012, LANDSLIDES, V9, P93, DOI 10.1007/s10346-011-0283-7
+   Akinci H, 2010, ELECT J MAP TECHNOL, V2, P13
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   Alkevli T, 2011, B ENG GEOL ENVIRON, V70, P607, DOI 10.1007/s10064-011-0353-z
+   Anavberokhai IO, 2008, THESIS, V0, P0
+   Ayalew L, 2005, ENG GEOL, V81, P432, DOI 10.1016/j.enggeo.2005.08.004
+   Ayalew L, 2004, LANDSLIDES, V1, P73, DOI 10.1007/s10346-003-0006-9
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Bai SB, 2011, ENVIRON EARTH SCI, V62, P139, DOI 10.1007/s12665-010-0509-3
+   Barnard PL, 2001, GEOMORPHOLOGY, V40, P21, DOI 10.1016/S0169-555X(01)00035-6
+   Boroushaki S, 2008, COMPUT GEOSCI-UK, V34, P399, DOI 10.1016/j.cageo.2007.04.003
+   Brabb EE, 1984, P 4 INT S LANDSLIDES, V1, P307
+   Can E, 2014, ENVIRON MONIT ASSESS, V186, P2435, DOI 10.1007/s10661-013-3550-3
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   Chang SK, 2011, ENG GEOL, V118, P63, DOI 10.1016/j.enggeo.2011.01.001
+   Choubey VD, 1992, P 6 INT S LANDSL CHR, V0, P911
+   Chung CJF, 1999, PHOTOGRAMM ENG REM S, V65, P1389
+   Dag S, 2006, 1 HEYEL S TRABZ BILD, V0, P84
+   Dai FC, 2002, GEOMORPHOLOGY, V42, P213, DOI 10.1016/S0169-555X(01)00087-3
+   Dai FC, 2001, CAN GEOTECH J, V38, P911, DOI 10.1139/t01-021
+   Demir A, 1965, GEOLOGICAL SUR UNPUB, V0, P0
+   Demir G, 2013, NAT HAZARDS, V65, P1481, DOI 10.1007/s11069-012-0418-8
+   Dragicevic S, 2015, HABITAT INT, V45, P114, DOI 10.1016/j.habitatint.2014.06.031
+   Drobne S, 2009, INFORM-J COMPUT INFO, V33, P459
+   Eker R, 2014, TURK J AGRIC FOR, V38, P281, DOI 10.3906/tar-1303-12
+   Ercanoglu M, 2008, B ENG GEOL ENVIRON, V67, P565, DOI 10.1007/s10064-008-0170-1
+   Ercanoglu M, 2005, NAT HAZARD EARTH SYS, V5, P979, DOI 10.5194/nhess-5-979-2005
+   Ercanoglu M, 2004, NAT HAZARDS, V32, P1, DOI 10.1023/B:NHAZ.0000026786.85589.4a
+   Ercanoglu M, 2011, ENVIRON EARTH SCI, V64, P949, DOI 10.1007/s12665-011-0912-4
+   Erener A, 2013, LANDSLIDES, V10, P55, DOI 10.1007/s10346-012-0317-9
+   Erener A, 2010, LANDSLIDES, V7, P55, DOI 10.1007/s10346-009-0188-x
+   Fell R, 2008, ENG GEOL, V102, P85, DOI 10.1016/j.enggeo.2008.03.022
+   Fernandez CI, 1999, EARTH SURF PROC LAND, V24, P537, DOI 10.1002/(SICI)1096-9837(199906)24:6&lt;537::AID-ESP965&gt;3.0.CO;2-6
+   Fu WJ, 2010, PROC SPIE, V7841, P0, DOI 10.1117/12.873267
+   Gomez H, 2005, ENG GEOL, V78, P11, DOI 10.1016/j.enggeo.2004.10.004
+   GUILLANDE R, 1993, B SOC GEOL FR, V164, P577
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Hasekiogullari GD, 2012, NAT HAZARDS, V63, P1157, DOI 10.1007/s11069-012-0218-1
+   Kavzoglu T, 2009, INT J APPL EARTH OBS, V11, P352, DOI 10.1016/j.jag.2009.06.002
+   Kavzoglu T, 2012, J MAPS, V147, P21
+   Lee S, 2004, INT J REMOTE SENS, V25, P2037, DOI 10.1080/01431160310001618734
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Lee S, 2003, GEOMORPHOLOGY, V46, P9
+   Lin HM, 2009, ENG GEOL, V104, P280, DOI 10.1016/j.enggeo.2008.11.007
+   Liu C, 2008, PROC CVPR IEEE, V0, P3911
+   Luzi L, 1999, NAT HAZARDS, V20, P57, DOI 10.1023/A:1008162814578
+   Malczewski J, 2003, ENVIRON PLANN A, V35, P1769, DOI 10.1068/a35156
+   Malczewski J., 1999, GIS MULTICRITERIA DE, V0, P0
+   Mazman T, 2005, THESIS, V0, P102
+   Mejia-Navarro M., 1994, B ASS ENG GEOL, VXXXI, P459
+   Nagarajan R., 2000, B ENG GEOL ENVIRON, V0, PP275, DOI 10.1007/s100649900032
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Ozdemir A, 2013, J ASIAN EARTH SCI, V64, P180, DOI 10.1016/j.jseaes.2012.12.014
+   Ozturk K, 2002, GAZI UNIV GAZI EGIT, V22, P35
+   Peloquin S, 2000, 4 INT C INT GIS ENV, V0, P26
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Raja NB, 2017, NAT HAZARDS, V85, P1323, DOI 10.1007/s11069-016-2591-7
+   Reis S, 2009, TECHN S ANK, V0, P0
+   SAATY TL, 1977, J MATH PSYCHOL, V15, P234, DOI 10.1016/0022-2496(77)90033-5
+   Sahin EK, 2010, REM SENS GEOGR INF S, V0, P0
+   Saral A, 2011, 13 TURK SCI MAP TECH, V0, P18
+   Sayin A, 1993, GEOLOGICAL SUR UNPUB, V0, P0
+   Sayin A, 1992, GEOLOGICAL SUR UNPUB, V0, P0
+   Sivari G, 2005, GEOLOGICAL SUR UNPUB, V0, P0
+   Suzen ML, 2004, ENG GEOL, V71, P303, DOI 10.1016/S0013-7952(03)00143-1
+   Tasoglu IK, 2013, THESIS, V0, P221
+   Tasoglu IK, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-6098-z
+   Usluogullari OF, 2016, NAT HAZARDS, V81, P1027, DOI 10.1007/s11069-015-2118-7
+   Vivas L, 1992, ANDES VENEZOLANOS, V0, P0
+   Voogd H., 1983, MULTICRITERIA EVALUA, V0, P0
+   Wang WD, 2009, ENVIRON GEOL, V58, P33, DOI 10.1007/s00254-008-1488-5
+   Wu YL, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2112-0
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Yergok AF, 1987, 8848 ANK GEN DIR MTA, V0, P0
+   Yigit E, 1985, GEOLOGICAL SUR UNPUB, V0, P0
+   Yigit HI, 1998, GEOLOGICAL SUR UNPUB, V0, P0
+   Yildirim V, 2013, AKU J SCI ENG, V13, P1
+   Yilmaz C, 2012, ENVIRON EARTH SCI, V65, P2161, DOI 10.1007/s12665-011-1196-4
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Zeng B, 2017, NAT HAZARD EARTH SYS, V0, P0, DOI DOI 10.5194/nhess-2017-176
+   Zeng-wang X., 2001, J GEOGRAPHICAL SCI, V11, P374, DOI 10.1007/bf02892323
+NR 88
+TC 9
+Z9 9
+U1 1
+U2 25
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 1866-6280
+EI 1866-6299
+J9 ENVIRON EARTH SCI
+JI Environ. Earth Sci.
+PD FEB 15
+PY 2019
+VL 78
+IS 3
+BP 
+EP 
+DI 10.1007/s12665-019-8094-6
+PG 13
+WC Environmental Sciences; Geosciences, Multidisciplinary; Water Resources
+SC Environmental Sciences & Ecology; Geology; Water Resources
+GA HI8QX
+UT WOS:000456722100002
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, PB
+   Wang, X
+   Zhang, WH
+   Chen, JF
+AF Zhang, Pengbo
+   Wang, Xue
+   Zhang, Weihang
+   Chen, Junfeng
+TI Learning Spatial-Spectral-Temporal EEG Features With Recurrent 3D Convolutional Neural Networks for Cross-Task Mental Workload Assessment
+SO IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING
+LA English
+DT Article
+DE Mental workload; cross-task; 3D convolutional neural network; recurrent neural network; EEG
+ID cognitive workload; classification; recognition; signals; model
+AB Mental workload assessment is essential for maintaining human health and preventing accidents. Most research on this issue is limited to a single task. However, cross-task assessment is indispensable for extending a pre trained model to new workload conditions. Because brain dynamics are complex across different tasks, it is difficult to propose efficient human-designed features based on prior knowledge. Therefore, this paper proposes a concatenated structure of deep recurrent and 3D convolutional neural networks (R3DCNNs) to learn EEG features across different tasks without prior knowledge. First, this paper adds frequency and time dimensions to EEG topographic maps based on a Morlet wavelet transformation. Then, R3DCNN is proposed to simultaneously learn EEG features from the spatial, spectral, and temporal dimensions. The proposed model is validated based on the EEG signals collected from 20 subjects. This paper employs a binary classification of low and high mental workload across spatial n-back and arithmetic tasks. The results show that the R3DCNN achieves an average accuracy of 88.9%, which is a significant increase compared with that of the state-of-the-art methods. In addition, the visualization of the convolutional layers demonstrates that the deep neural network can extract detailed features. These results indicate that R3DCNN is capable of identifying the mental workload levels for cross-task conditions.
+C1 [Zhang, Pengbo; Wang, Xue; Zhang, Weihang; Chen, Junfeng] Tsinghua Univ, Dept Precis Instrument, State Key Lab Precis Measurement Technol & Instru, Beijing 100084, Peoples R China.
+C3 Tsinghua University
+RP Wang, X (corresponding author), Tsinghua Univ, Dept Precis Instrument, State Key Lab Precis Measurement Technol & Instru, Beijing 100084, Peoples R China.
+EM zpb14@mails.tsinghua.edu.cn; wangxue@mail.tsinghua.edu.cn; zwh15@mails.tsinghua.edu.cn; chenjf17@mails.tsinghua.edu.cn
+FU National Natural Science Foundation of China [61472216]
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   Alfaro-Ponce M, 2016, NEURAL NETWORKS, V79, P88, DOI 10.1016/j.neunet.2016.03.004
+   Antonenko P, 2010, EDUC PSYCHOL REV, V22, P425, DOI 10.1007/s10648-010-9130-y
+   Baldwin CL, 2012, NEUROIMAGE, V59, P48, DOI 10.1016/j.neuroimage.2011.07.047
+   Bashivan P., 2016, P INT C LEARN REPR S, V0, P0
+   Borghini G, 2014, NEUROSCI BIOBEHAV R, V44, P58, DOI 10.1016/j.neubiorev.2012.10.003
+   Brouwer AM, 2012, J NEURAL ENG, V9, P0, DOI 10.1088/1741-2560/9/4/045008
+   Chambon S, 2018, IEEE T NEUR SYS REH, V26, P758, DOI 10.1109/TNSRE.2018.2813138
+   Christensen JC, 2012, NEUROIMAGE, V59, P57, DOI 10.1016/j.neuroimage.2011.07.091
+   Delorme A, 2004, J NEUROSCI METH, V134, P9, DOI 10.1016/j.jneumeth.2003.10.009
+   Dimitrakopoulos GN, 2017, IEEE T NEUR SYS REH, V25, P1940, DOI 10.1109/TNSRE.2017.2701002
+   Dong H, 2018, IEEE T NEUR SYS REH, V26, P324, DOI 10.1109/TNSRE.2017.2733220
+   Dyke FB, 2015, INT J PSYCHOPHYSIOL, V95, P56, DOI 10.1016/j.ijpsycho.2014.12.008
+   Gerjets P, 2014, FRONT NEUROSCI-SWITZ, V8, P0, DOI 10.3389/fnins.2014.00385
+   Gomez-Herrero G, 2006, 2006 7TH NORDIC SIGNAL PROCESSING SYMPOSIUM, V0, P130
+   Graves A, 2005, LECT NOTES COMPUT SC, V3697, P799
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Hefron RG, 2017, PATTERN RECOGN LETT, V94, P96, DOI 10.1016/j.patrec.2017.05.020
+   Hogervorst MA, 2014, FRONT NEUROSCI-SWITZ, V8, P0, DOI 10.3389/fnins.2014.00322
+   Ioffe S., 2016, BATCH NORMALIZATION, V0, P0
+   Jiao ZC, 2018, PATTERN RECOGN, V76, P582, DOI 10.1016/j.patcog.2017.12.002
+   Ke YF, 2015, INT J PSYCHOPHYSIOL, V98, P157, DOI 10.1016/j.ijpsycho.2015.10.004
+   Ke YF, 2014, FRONT HUM NEUROSCI, V8, P0, DOI 10.3389/fnhum.2014.00703
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Li JP, 2018, COGN COMPUT, V10, P368, DOI 10.1007/s12559-017-9533-x
+   Lu N, 2017, IEEE T NEUR SYS REH, V25, P566, DOI 10.1109/TNSRE.2016.2601240
+   Ma C. Y., 2017, TS LSTM TEMPORAL INC, V0, P0
+   Min S, 2017, BRIEF BIOINFORM, V18, P851, DOI 10.1093/bib/bbw068
+   Mognon A, 2011, PSYCHOPHYSIOLOGY, V48, P229, DOI 10.1111/j.1469-8986.2010.01061.x
+   MOLCHANOV P, 2016, PROC CVPR IEEE, V0, PP4207, DOI 10.1109/CVPR.2016.456
+   Qi CR, 2016, PROC CVPR IEEE, V0, PP5648, DOI 10.1109/CVPR.2016.609
+   Qian D, 2017, IEEE T BIO-MED ENG, V64, P743, DOI 10.1109/TBME.2016.2574812
+   Qiu ZF, 2017, IEEE I CONF COMP VIS, V0, PP5534, DOI 10.1109/ICCV.2017.590
+   Roy RN, 2016, J NEURAL ENG, V13, P0, DOI 10.1088/1741-2560/13/2/026019
+   Sauvet F, 2014, IEEE T BIO-MED ENG, V61, P2840, DOI 10.1109/TBME.2014.2331189
+   Schirrmeister RT, 2017, HUM BRAIN MAPP, V38, P5391, DOI 10.1002/hbm.23730
+   Shi BG, 2017, IEEE T PATTERN ANAL, V39, P2298, DOI 10.1109/TPAMI.2016.2646371
+   Simonyan K, 2015, ARXIV, V0, P0
+   Supratak A, 2017, IEEE T NEUR SYS REH, V25, P1998, DOI 10.1109/TNSRE.2017.2721116
+   Ullah I, 2018, EXPERT SYST APPL, V107, P61, DOI 10.1016/j.eswa.2018.04.021
+   Walter C, 2013, INT CONF AFFECT, V0, PP876, DOI 10.1109/ACII.2013.164
+   Wang F, 2018, LECT NOTES COMPUT SC, V10705, P82, DOI 10.1007/978-3-319-73600-6_8
+   Wang SY, 2016, IEEE T HUM-MACH SYST, V46, P424, DOI 10.1109/THMS.2015.2476818
+   Wang ZH, 2012, NEUROIMAGE, V59, P64, DOI 10.1016/j.neuroimage.2011.07.094
+   Yin Z, 2018, NEUROCOMPUTING, V283, P266, DOI 10.1016/j.neucom.2017.12.062
+   Zarjam P, 2015, IEEE T AUTON MENT DE, V7, P301, DOI 10.1109/TAMD.2015.2441960
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhang JH, 2015, IEEE T HUM-MACH SYST, V45, P200, DOI 10.1109/THMS.2014.2366914
+   Zhang JM, 2017, IEEE T BIOMED CIRC S, V11, P1097, DOI 10.1109/TBCAS.2017.2719631
+NR 50
+TC 89
+Z9 94
+U1 13
+U2 73
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1534-4320
+EI 1558-0210
+J9 IEEE T NEUR SYS REH
+JI IEEE Trans. Neural Syst. Rehabil. Eng.
+PD JAN 15
+PY 2019
+VL 27
+IS 1
+BP 31
+EP 42
+DI 10.1109/TNSRE.2018.2884641
+PG 12
+WC Engineering, Biomedical; Rehabilitation
+SC Engineering; Rehabilitation
+GA HI0OO
+UT WOS:000456141300004
+PM 30507536
+DA 2023-04-26
+ER
+
+PT J
+AU Bin, JC
+   Gardiner, B
+   Liu, Z
+   Li, E
+AF Bin, Junchi
+   Gardiner, Bryan
+   Liu, Zheng
+   Li, Eric
+TI Attention-based multi-modal fusion for improved real estate appraisal: a case study in Los Angeles
+SO MULTIMEDIA TOOLS AND APPLICATIONS
+LA English
+DT Article
+DE Real estate appraisal; Convolutional neural network; Multi-modal fusion; Boosted regression trees
+ID regression; valuation; price; model; determinants; network
+AB The geographical presentation of a house, which refers to the sightseeing and topography near the house, is a critical factor to a house buyer. The street map is a type of common data in our daily life, which contains natural geographical presentation. This paper sources real estate data and corresponding street maps of houses in the city of Los Angeles. In the case study, we proposed an innovative method, attention-based multi-modal fusion, to incorporate the geographical presentation from street maps into the real estate appraisal model with a deep neural network. We firstly combine the house attribute features and street map imagery features by applying the attention-based neural network. After that, we apply boosted regression trees to estimate the house price from the fused features. This work explored the potential of attention mechanism and data fusion in the applications of real estate appraisal. The experimental results indicate the competitiveness of proposed method among state-of-the-art methods.
+C1 [Bin, Junchi; Liu, Zheng] Univ British Columbia, Fac Appl Sci, Kelowna, BC V1V 1V7, Canada.
+   [Gardiner, Bryan] Data Nerds, Kelowna, BC V1Y 6J6, Canada.
+   [Li, Eric] Univ British Columbia, Fac Management, Kelowna, BC V1V 1V7, Canada.
+C3 University of British Columbia; University of British Columbia
+RP Liu, Z (corresponding author), Univ British Columbia, Fac Appl Sci, Kelowna, BC V1V 1V7, Canada.
+EM junchibin@alumni.ubc.ca; zheng.liu@ubc.ca; eric.li@ubc.ca
+FU Data Nerds [IT10011]; University of British Columbia (Okanagan) [IT10011]
+CR Ai Y, 2018, NEURAL COMPUT APPL, V0, P0
+   Antipov EA, 2012, EXPERT SYST APPL, V39, P1772, DOI 10.1016/j.eswa.2011.08.077
+   Bency AJ, 2017, IEEE WINT CONF APPL, V0, PP320, DOI 10.1109/WACV.2017.42
+   Bessinger Z, 2016, IEEE IMAGE PROC, V0, PP4388, DOI 10.1109/ICIP.2016.7533189
+   Bidanset PE, 2014, CITYSCAPE, V16, P169
+   Bin JC, 2017, 2017 2ND IEEE INTERNATIONAL CONFERENCE ON COMPUTATIONAL INTELLIGENCE AND APPLICATIONS (ICCIA), V0, P209
+   Cao J, 2018, MULTIMED TOOLS APPL, V0, P0
+   Cetkovic J, 2018, COMPLEXITY, V0, P0, DOI DOI 10.1155/2018/1472957
+   Chen TQ, 2016, KDD16: PROCEEDINGS OF THE 22ND ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, PP785, DOI 10.1145/2939672.2939785
+   Chollet F, 2015, KERAS, V0, P0
+   Crosby H, 2015, P 1 INT ACM SIGSPATI, V0, P32
+   Demetriou D, 2017, ENVIRON PLAN B-URBAN, V44, P864, DOI 10.1177/0265813516652115
+   Dubey A, 2016, LECT NOTES COMPUT SC, V9905, P196, DOI 10.1007/978-3-319-46448-0_12
+   Estated, 2018, EST PROP REP, V0, P0
+   Fan GZ, 2006, URBAN STUD, V43, P2301, DOI 10.1080/00420980600990928
+   Friedman JH, 2001, ANN STAT, V29, P1189, DOI 10.1214/aos/1013203451
+   Gao LL, 2017, IEEE T MULTIMEDIA, V19, P2045, DOI 10.1109/TMM.2017.2729019
+   Gebru T, 2017, P NATL ACAD SCI USA, V114, P13108, DOI 10.1073/pnas.1700035114
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Graczyk M, 2010, LECT NOTES ARTIF INT, V5991, P340, DOI 10.1007/978-3-642-12101-2_35
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Jaderberg M., 2015, ADV NEURAL INFORM PR, V2, P2017, DOI 10.5555/2969442.2969465
+   Kauko TJ, 2002, THESIS, V0, P0
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Konig D, 2017, 2017 IEEE C COMP VIS, V0, P0
+   Kuhn M, 2013, APPL PREDICTIVE MODE, V0, P0, DOI DOI 10.1007/978-1-4614-6849-3
+   Lasota T, 2009, LECT NOTES ARTIF INT, V5796, P776
+   Liang Y., 2018, P 27 INT JOINT C ART, V0, P0
+   Liu XB, 2018, IEEE T KNOWL DATA EN, V30, P1496, DOI 10.1109/TKDE.2018.2791611
+   Nair V, 2010, ICML, V27, P807
+   Ordonez V, 2014, LECT NOTES COMPUT SC, V8694, P494, DOI 10.1007/978-3-319-10599-4_32
+   Park B, 2015, EXPERT SYST APPL, V42, P2928, DOI 10.1016/j.eswa.2014.11.040
+   Ramirez I, 2018, NEURAL COMPUT APPL, V0, P0
+   Salesses P, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0068400
+   Selim H, 2009, EXPERT SYST APPL, V36, P2843, DOI 10.1016/j.eswa.2008.01.044
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sirmacek B, 2010, PATTERN RECOGN LETT, V31, P1155, DOI 10.1016/j.patrec.2009.09.018
+   Song JK, 2019, IEEE T NEUR NET LEAR, V30, P3047, DOI 10.1109/TNNLS.2018.2851077
+   Song JK, 2018, IEEE T IMAGE PROCESS, V27, P3210, DOI 10.1109/TIP.2018.2814344
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Stamen, 2017, OP, V0, P0
+   Sun FD, 2019, MULTIMED TOOLS APPL, V78, P30793, DOI 10.1007/s11042-018-6591-3
+   Szegedy, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Szegedy C, 1900, V2015, V0, P0
+   Vaswani A, 2017, ADV NEURAL INFORM PR, V30, P5998, DOI 10.48550/ARXIV.1706.03762
+   Vo N., 2014, THESIS, V0, P0
+   Vrijdag K., 2016, THESIS, V0, P0
+   Wang XH, 2017, IEEE SIGNAL PROC LET, V24, P510, DOI 10.1109/LSP.2016.2611485
+   Wang XH, 2018, IEEE T MULTIMEDIA, V20, P634, DOI 10.1109/TMM.2017.2749159
+   Wilson ID, 2002, KNOWL-BASED SYST, V15, P335, DOI 10.1016/S0950-7051(01)00169-1
+   Worzala Elaine., 1995, J REAL ESTATE RES, V10, P185, DOI 10.1080/10835547.1995.12090782
+   Xu K, 2015, PR MACH LEARN RES, V37, P2048
+   Yang Z, 2018, NEURAL COMPUT APPL, V0, P0
+   Yiorkas C, 2017, PROC SPIE, V10444, P0, DOI 10.1117/12.2280255
+   You QZ, 2017, IEEE T MULTIMEDIA, V19, P2751, DOI 10.1109/TMM.2017.2710804
+   Zhang LL, 2016, LECT NOTES COMPUT SC, V9906, P443, DOI 10.1007/978-3-319-46475-6_28
+   Zhou X, 2018, P 11 ACM INT C WEB S, V0, P0
+   Zhou Y, 2019, NEURAL COMPUT APPL, V31, P1855, DOI 10.1007/s00521-017-3162-x
+NR 58
+TC 15
+Z9 15
+U1 5
+U2 28
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1380-7501
+EI 1573-7721
+J9 MULTIMED TOOLS APPL
+JI Multimed. Tools Appl.
+PD NOV 15
+PY 2019
+VL 78
+IS 22
+BP 31163
+EP 31184
+DI 10.1007/s11042-019-07895-5
+PG 22
+WC Computer Science, Information Systems; Computer Science, Software Engineering; Computer Science, Theory & Methods; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA JL2ZI
+UT WOS:000495400000009
+DA 2023-04-26
+ER
+
+PT J
+AU Yan, F
+   Zhang, QW
+   Ye, S
+   Ren, B
+AF Yan, Fei
+   Zhang, Qiuwen
+   Ye, Song
+   Ren, Bo
+TI A novel hybrid approach for landslide susceptibility mapping integrating analytical hierarchy process and normalized frequency ratio methods with the cloud model
+SO GEOMORPHOLOGY
+LA English
+DT Article
+DE Landslide susceptibility mapping; Analytical hierarchy process; Normalized frequency ratio; Cloud model; Attribute-based spatial information multi-grid; Hybrid approach; Randomness and fuzziness
+ID artificial neural-network; rainfall-induced landslides; inference system anfis; logistic-regression; process ahp; area; combination; prediction; segment; weight
+AB Landslides, which could cause huge losses of lives or property damages, result from several different environmental factors whose influences on landslides are very complex. Therefore, it is essential to understand the relationships between these environmental factors and landslides. Thus, the integration of the analytical hierarchy process (AHP) with the normalized frequency ratio (NFR) is evaluated for landslide susceptibility analyses. However, in addition to these complex relationships, the randomness and fuzziness always affect landslide susceptibility mapping. This study introduces the cloud model (CM) to improve the integrated AHP-NFR method, and proposes a novel hybrid AHP-NFR-CM method for landslide susceptibility analyses, which can better address issues of the randomness and fuzziness. Firstly, ten environmental parameters are selected as landslide impact factors, and their values for all the landslides identified in the study area are obtained through the remote sensing (RS) and geographical information system (GIS) technologies. The AHP method is used to obtain the weight of each landslide impact factor, and the NFR method is used to obtain the weight of each subclass in each landslide impact factor, which can reflect the relationship between the landslide impact factor and landslide occurrence. After applying an appropriate compositional operation between the weights of the landslide impact factors and the weights of the subclasses of the impact factors, a landslide susceptibility index (LSI) for each grid divided via the attribution-based spatial information multi-grid method (ASIMG) can be computed. To solve the inevitable issues of randomness and fuzziness in landslide susceptibility analyses, a cloud model that uses three numerical features (expectation, entropy and hyper-entropy) to represent the intension of the concept, is adopted to improve the methods of AHP and NFR. The relative importance of two landslide impact factors is scaled with the cloud model rather than the Saaty criteria. Pair-wise comparison matrixes of landslide impact factors given by each expert are described by the normal cloud model, and the floating cloud model is used to aggregate all experts' judgments. The weight of each landslide impact factor is also expressed with the cloud model rather than a certain value. In improving the NFR, the weight of each subclass of each landslide impact factor is expressed with the cloud model rather than a certain value. In the improvement of the landslide susceptibility results, the domain of landslide risk assessment results is also displayed with the cloud model instead of a series of definite intervals. As the study area examined is large, several grids would need to be divided, meaning that it would take a considerable amount time to subject the entire study area to landslide susceptibility mapping. Thus, we propose a new attribute-based spatial information multi-grid (ASIMG) division method and introduce grid-computing technology to improve the calculation efficiency during the process. Finally, the proposed hybrid AHP-NFR-CM-ASIMG approach is validated and applied in the study area. It's concluded that the new integration of AHP and NFR methods with the cloud model can consider both randomness and fuzziness and therefore can increase the robustness of landslide susceptibility analyses, while the ASIMG technology can enhance the calculation efficiency in regional landslide susceptibility mapping. (C) 2018 Elsevier B.V. All rights reserved.
+C1 [Yan, Fei; Zhang, Qiuwen; Ye, Song; Ren, Bo] Huazhong Univ Sci & Technol, Sch Hydropower & Informat Engn, Wuhan 430074, Hubei, Peoples R China.
+C3 Huazhong University of Science & Technology
+RP Zhang, QW (corresponding author), Huazhong Univ Sci & Technol, Sch Hydropower & Informat Engn, Wuhan 430074, Hubei, Peoples R China.
+EM qwzhang@hust.edu.cn
+FU National Natural Science Foundation of China [41672263]; Natural Science Foundation of Hubei Province [2015CFA134]
+CR Alimohammadlou Y, 2014, CATENA, V120, P149, DOI 10.1016/j.catena.2014.04.009
+   Amiruzan M. H, 2006, DEV GIS BASED LANDSL, V0, P0
+   [Anonymous], 2015, GB183062015, V0, P0
+   Ayalew L, 2004, LANDSLIDES, V1, P73, DOI 10.1007/s10346-003-0006-9
+   Bai SB, 2010, GEOMORPHOLOGY, V115, P23, DOI 10.1016/j.geomorph.2009.09.025
+   [白世彪 Bai Shibiao], 2005, 山地学报 JOURNAL OF MOUNTAIN SCIENCE, V23, P63
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   CHEN D.H., 2017, INT J EARTH SCI ENG, V10, P88
+   Chen W, 2017, GEOMORPHOLOGY, V297, P69, DOI 10.1016/j.geomorph.2017.09.007
+   Chen W, 2017, CATENA, V157, P310, DOI 10.1016/j.catena.2017.05.034
+   Chen W, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2150-7
+   Chen W, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-5093-0
+   Dehnavi A, 2015, CATENA, V135, P122, DOI 10.1016/j.catena.2015.07.020
+   Feizizadeh B, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2918-z
+   Feizizadeh B, 2013, NAT HAZARDS, V65, P2105, DOI 10.1007/s11069-012-0463-3
+   Ferentinou M., 2013, LANDSLIDE SCI PRACTI, V0, PP321, DOI 10.1007/978-3-642-31325-7_42
+   Fu Bin, 2011, APPLICATION RESEARCH OF COMPUTERS, V28, P420, DOI 10.3969/j.issn.1001-3695.2011.02.004
+   Gariano SL, 2017, SCI TOTAL ENVIRON, V596, P417, DOI 10.1016/j.scitotenv.2017.03.103
+   Generali M, 2013, SUSCEPTIBILITY MAP L, V0, P0
+   [龚艳冰 Gong Yanbing], 2016, 系统工程 SYSTEMS ENGINEERING, V34, P54
+   Gorsevski PV, 2016, LANDSLIDES, V13, P467, DOI 10.1007/s10346-015-0587-0
+   GUO Z, 2016, BIOMED CHROMATOGR, V2016, P1
+   Hasekiogullari GD, 2012, NAT HAZARDS, V63, P1157, DOI 10.1007/s11069-012-0218-1
+   He Y., 2013, J RISK ANAL CRISIS R, V3, P192, DOI 10.1016/j.chemolab.2015.09.017
+   Hervas J, 2013, LANDSLIDE SCI PRACTI, V0, P1
+   Hong HY, 2018, LANDSLIDES, V15, P753, DOI 10.1007/s10346-017-0906-8
+   Hong HY, 2017, GEOMORPHOLOGY, V290, P1, DOI 10.1016/j.geomorph.2017.04.002
+   Hou J. R, 2011, NW SEISMOL J, V33, P398
+   Jia X.L., 2017, CLUSTER COMPUT, V27, P1
+   Kayastha P, 2015, ARAB J GEOSCI, V8, P8601, DOI 10.1007/s12517-015-1831-6
+   Lee JH, 2018, GEOMORPHOLOGY, V303, P284, DOI 10.1016/j.geomorph.2017.12.007
+   Lee S, 2005, ENVIRON GEOL, V47, P982, DOI 10.1007/s00254-005-1228-z
+   Li D., 2005, GEOSPATIAL INFORM, V3, P1
+   [李德仁 LI Deren], 2006, 测绘学报 ACTA GEODETICA ET CARTOGRAPHICA SINICA, V35, P143
+   Li DY, 2009, INT J INTELL SYST, V24, P357, DOI 10.1002/int.20340
+   Li J, 2017, J DIFFER EQU APPL, V23, P443, DOI 10.1080/10236198.2016.1250751
+   Mahalingam R., 2016, GEOMAT NAT HAZ RISK, V0, P1
+   Meng QK, 2016, B ENG GEOL ENVIRON, V75, P923, DOI 10.1007/s10064-015-0786-x
+   Mondal S, 2013, INT J DISAST RISK SC, V4, P200, DOI 10.1007/s13753-013-0021-y
+   Moosavi V, 2016, LANDSLIDES, V13, P97, DOI 10.1007/s10346-014-0547-0
+   Park S, 2013, ENVIRON EARTH SCI, V68, P1443, DOI 10.1007/s12665-012-1842-5
+   Pawluszek K, 2017, NAT HAZARDS, V86, P919, DOI 10.1007/s11069-016-2725-y
+   Peng B, 2017, J INTELL FUZZY SYST, V32, P1959, DOI 10.3233/JIFS-161473
+   Pourghasemi HR, 2013, ARAB J GEOSCI, V6, P2351, DOI 10.1007/s12517-012-0532-7
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan B., 2017, PERFORMANCE EVALUATI, V0, P0
+   Quan HC, 2012, KSCE J CIV ENG, V16, P1258, DOI 10.1007/s12205-012-1242-0
+   Refice A, 2002, COMPUT GEOSCI-UK, V28, P735, DOI 10.1016/S0098-3004(01)00104-2
+   Saaty T., 1994, ANAL HIERARCHY PROCE, V0, P0
+   Saaty T. L, 2014, INT J SERV SCI, V1, P83
+   SAATY TL, 1977, J MATH PSYCHOL, V15, P234, DOI 10.1016/0022-2496(77)90033-5
+   Schiliro L, 2016, SCI TOTAL ENVIRON, V569, P134, DOI 10.1016/j.scitotenv.2016.06.124
+   Shahabi H, 2015, ENVIRON EARTH SCI, V73, P8647, DOI 10.1007/s12665-015-4028-0
+   Shahabi H, 2014, CATENA, V115, P55, DOI 10.1016/j.catena.2013.11.014
+   Shahabi Himan, 2012, INT J COMPUTER SCI I, V09, P108, DOI 10.1038/srep09899
+   [单玉红 SHAN Yuhong], 2008, 自然资源学报 JOURNAL OF NATURAL RESOURCES, V23, P336
+   Sharma LP, 2015, NAT HAZARDS, V75, P1555, DOI 10.1007/s11069-014-1378-y
+   Shuang L.I., 2016, ACTA GEODAET CARTOGR, V45, P106, DOI 10.11947/J.AGCS.2016.F013
+   Sidle R. C, 2016, MONOGRAPH, V18, P1
+   Sidle RC, 2006, WATER RESOUR MONOGR, V18, P312, DOI 10.1029/WM018
+   Sujatha ER, 2014, B ENG GEOL ENVIRON, V73, P147, DOI 10.1007/s10064-013-0537-9
+   Suzana D, 2015, HABITAT INT, V45, P114
+   [唐亚明 Tang Yaming], 2011, 水文地质工程地质 HYDROGEOLOGY & ENGINEERING GEOLOGY, V38, P130
+   Vranken L, 2013, SCI TOTAL ENVIRON, V447, P323, DOI 10.1016/j.scitotenv.2013.01.025
+   Wang G. X, 2004, LANDSLIDE LANDSLIDE, V0, P0
+   Wang GY, 2014, INFORM SCIENCES, V280, P1, DOI 10.1016/j.ins.2014.04.051
+   Wang LJ, 2016, GEOSCI J, V20, P117, DOI 10.1007/s12303-015-0026-1
+   Wang QQ, 2015, SUSTAINABILITY-BASEL, V7, P16653, DOI 10.3390/su71215839
+   Wang QQ, 2016, GEOSCI J, V20, P705, DOI 10.1007/s12303-016-0003-3
+   Wang W, 2011, STUDY FEOLOGICAL HAZ, V0, P0
+   Wang W. D., 2009, MIN SCI TECHNOL, V19, P399, DOI 10.1016/S1674-5264(09)60075-2
+   Wang X, 2011, Q J ENG GEOL HYDROGE, V44, P249, DOI 10.1144/1470-9236/09-031
+   Weirich F, 2007, GEOMORPHOLOGY, V87, P352, DOI 10.1016/j.geomorph.2006.10.003
+   Xia Y, 2006, GEOSPATIAL INFORM, V4, P4
+   [许冲 XU Chong], 2010, 工程地质学报 JOURNAL OF ENGINEERING GEOLOGY, V18, P15
+   Yamagishi H., 2017, GIS LANDSLIDE, V0, P0
+   Youssef AM, 2015, ENVIRON EARTH SCI, V73, P3745, DOI 10.1007/s12665-014-3661-3
+   Youssef AM, 2015, GEOSCI J, V19, P449, DOI 10.1007/s12303-014-0065-z
+   [张秋文 Zhang Qiuwen], 2014, 水利学报 JOURNAL OF HYDRAULIC ENGINEERING, V45, P87
+   Zhou C, 2016, ENG GEOL, V204, P108, DOI 10.1016/j.enggeo.2016.02.009
+   Zhou SH, 2016, SUSTAINABILITY-BASEL, V8, P0, DOI 10.3390/su8040334
+NR 81
+TC 86
+Z9 87
+U1 7
+U2 103
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0169-555X
+EI 1872-695X
+J9 GEOMORPHOLOGY
+JI Geomorphology
+PD FEB 15
+PY 2019
+VL 327
+IS 
+BP 170
+EP 187
+DI 10.1016/j.geomorph.2018.10.024
+PG 18
+WC Geography, Physical; Geosciences, Multidisciplinary
+SC Physical Geography; Geology
+GA HI5KT
+UT WOS:000456491600012
+DA 2023-04-26
+ER

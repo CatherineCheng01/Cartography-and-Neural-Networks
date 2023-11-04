@@ -1,0 +1,539 @@
+
+PT J
+AU Chen, JY
+   Zhou, Y
+   Zipf, A
+   Fan, HC
+AF Chen, Jiaoyan
+   Zhou, Yan
+   Zipf, Alexander
+   Fan, Hongchao
+TI Deep Learning From Multiple Crowds: A Case Study of Humanitarian Mapping
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Active learning; deep learning; humanitarian mapping; satellite image; volunteered geographic information (VGI)
+ID quality
+AB Satellite images are widely applied in humanitarian mapping that labels buildings, roads, and so on for humanitarian aid and economic development. However, the labeling now is mostly done by volunteers. In this paper, we utilize deep learning to solve humanitarian mapping tasks of a mobile software named MapSwipe. The current deep learning techniques, e.g., convolutional neural network (CNN), can recognize ground objects from satellite images but rely on numerous labels for training for each specific task. We solve this problem by fusing multiple freely accessible crowdsourced geographic data and propose an active learning-based CNN training framework named MC-CNN to deal with the quality issues of the labels extracted from these data, including incompleteness (e.g., some kinds of object are not labeled) and heterogeneity (e.g., different spatial granularities). The method is evaluated with building mapping in South Malawi and road mapping in Guinea with level-18 satellite images provided by Bing Map and volunteered geographic information from OpenStreetMap, MapSwipe, and OsmAnd. The results based on multiple metrics, including Precision, Recall, F1 Score, and area under the receiver operating characteristic curve, show that MC-CNN can fuse the crowdsourced labels for higher prediction performance and be successfully applied in MapSwipe for humanitarian mapping with 85% labor saved and an overall accuracy of 0.86 achieved.
+C1 [Chen, Jiaoyan; Zhou, Yan; Zipf, Alexander] Heidelberg Univ, GISci, D-69117 Heidelberg, Germany.
+   [Chen, Jiaoyan] Univ Oxford, Dept Comp Sci, Oxford OX1 3QD, England.
+   [Fan, Hongchao] Wuhan Univ, Sch Remote Sensing & Informat, Wuhan 430072, Hubei, Peoples R China.
+   [Fan, Hongchao] Norwegian Univ Sci & Technol, Dept Civil & Environm Engn, N-7034 Trondheim, Norway.
+C3 Ruprecht Karls University Heidelberg; University of Oxford; Wuhan University; Norwegian University of Science & Technology (NTNU)
+RP Chen, JY (corresponding author), Univ Oxford, Dept Comp Sci, Oxford OX1 3QD, England.
+EM jiaoyan.chen@cs.ox.ac.uk
+FU Klaus Tschira Foundation, Heidelberg
+CR Andersson O, 2017, AAAI CONF ARTIF INTE, V0, P3812
+   Angluin D., 1988, MACHINE LEARNING, V2, P319, DOI 10.1007/BF00116828
+   [Anonymous], 2015, ICLR, V0, P0
+   Chaib S, 2017, IEEE T GEOSCI REMOTE, V55, P4775, DOI 10.1109/TGRS.2017.2700322
+   Chen J., 2017, GEOSPATIAL DATA SCI, V0, P0
+   Chen XY, 2014, IEEE GEOSCI REMOTE S, V11, P1797, DOI 10.1109/LGRS.2014.2309695
+   Cheng G, 2017, IEEE GEOSCI REMOTE S, V14, P1735, DOI 10.1109/LGRS.2017.2731997
+   Cheng G, 2016, INT GEOSCI REMOTE SE, V0, PP767, DOI 10.1109/IGARSS.2016.7729193
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   COHN D, 1994, MACH LEARN, V15, P201, DOI 10.1007/BF00993277
+   de Albuquerque JP, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100859
+   Fan HC, 2014, INT J GEOGR INF SCI, V28, P700, DOI 10.1080/13658816.2013.867495
+   Gal Y., 2017, DEEP BAYESIAN ACTIVE, V0, P0
+   Goodchild MF, 2012, SPAT STAT-NETH, V1, P110, DOI 10.1016/j.spasta.2012.03.002
+   Haklay M, 2008, IEEE PERVAS COMPUT, V7, P12, DOI 10.1109/MPRV.2008.80
+   HANLEY JA, 1982, RADIOLOGY, V143, P29, DOI 10.1148/radiology.143.1.7063747
+   HUBEL DH, 1968, J PHYSIOL-LONDON, V195, P215, DOI 10.1113/jphysiol.1968.sp008455
+   Keller S, 2017, GI FORUM, V2, P173, DOI 10.1553/giscience2017_02_s173
+   Keller S., 2016, AGIT J, V2, P162
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   LeCun Y., 1995, NEURAL NETWORKS: THE STATISTICAL MECHANICS PERSPECTIVE. PROCEEDINGS OF THE CTP-PBSRI. JOINT WORKSHOP ON THEORETICAL PHYSICS, V0, P261
+   LeCun Y., 2015, LENET 5 CONVOLUTIONA, V20, P5
+   Liu P, 2017, IEEE J-STARS, V10, P712, DOI 10.1109/JSTARS.2016.2598859
+   Lyu HB, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030471
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mnih V., 2012, P 29 INT C MACH LEAR, V0, P567
+   Palen L, 2015, CHI 2015: PROCEEDINGS OF THE 33RD ANNUAL CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS, V0, PP4113, DOI 10.1145/2702123.2702294
+   Roy N., 2001, P 18 INT C MACH LEAR, V0, P0
+   Soden R., 2014, P 11 INT C DES COOP, V0, P0
+   Tuia D, 2011, IEEE J-STSP, V5, P606, DOI 10.1109/JSTSP.2011.2139193
+   Tuia D, 2009, IEEE T GEOSCI REMOTE, V47, P2218, DOI 10.1109/TGRS.2008.2010404
+   Vakalopoulou M, 2015, INT GEOSCI REMOTE SE, V0, PP1873, DOI 10.1109/IGARSS.2015.7326158
+   Wang Q, 2018, IEEE T INTELL TRANSP, V19, P230, DOI 10.1109/TITS.2017.2749964
+   Wang Q, 2018, IEEE T CIRC SYST VID, V28, P2633, DOI 10.1109/TCSVT.2017.2703920
+   Xie M, 2015, TRANSFER LEARNING DE, V0, P0
+   Yuan JY, 2013, 2013 FOURTH INTERNATIONAL CONFERENCE ON COMPUTING FOR GEOSPATIAL RESEARCH AND APPLICATION (COM.GEO), V0, PP16, DOI 10.1109/COMGEO.2013.4
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zheng J, 2017, INT CONF ACOUST SPEE, V0, PP2362, DOI 10.1109/ICASSP.2017.7952579
+   Zhou SS, 2013, NEUROCOMPUTING, V120, P536, DOI 10.1016/j.neucom.2013.04.017
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 41
+TC 23
+Z9 23
+U1 1
+U2 19
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD MAR 15
+PY 2019
+VL 57
+IS 3
+BP 1713
+EP 1722
+DI 10.1109/TGRS.2018.2868748
+PG 10
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA HN6UK
+UT WOS:000460321300038
+DA 2023-04-26
+ER
+
+PT J
+AU Zhao, WZ
+   Bo, YC
+   Chen, JG
+   Tiede, D
+   Blaschke, T
+   Emery, WJ
+AF Zhao, Wenzhi
+   Bo, Yanchen
+   Chen, Jiage
+   Tiede, Dirk
+   Blaschke, Thomas
+   Emery, William J.
+TI Exploring semantic elements for urban scene recognition: Deep integration of high-resolution imagery and OpenStreetMap (OSM)
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Semantic classification; Urban scene recognition; Deep learning; High-resolution imagery; OpenStreetMap (OSM); Data fusion
+ID convolutional neural-networks; land-cover; classification; points
+AB Urban scenes refer to city blocks which are basic units of megacities, they play an important role in citizens' welfare and city management. Remote sensing imagery with largescale coverage and accurate target descriptions, has been regarded as an ideal solution for monitoring the urban environment. However, due to the heterogeneity of remote sensing images, it is difficult to access their geographical content at the object level, let alone understanding urban scenes at the block level. Recently, deep learning-based strategies have been applied to interpret urban scenes with remarkable accuracies. However, the deep neural networks require a substantial number of training samples which are hard to satisfy, especially for high-resolution images. Meanwhile, the crowed-sourced Open Street Map (OSM) data provides rich annotation information about the urban targets but may encounter the problem of insufficient sampling (limited by the places where people can go). As a result, the combination of OSM and remote sensing images for efficient urban scene recognition is urgently needed. In this paper, we present a novel strategy to transfer existing OSM data to high-resolution images for semantic element determination and urban scene understanding. To be specific, the object-based convolutional neural network (OCNN) can be utilized for geographical object detection by feeding it rich semantic elements derived from OSM data. Then, geographical objects are further delineated into their functional labels by integrating points of interest (POIs), which contain rich semantic terms, such as commercial or educational labels. Lastly, the categories of urban scenes are easily acquired from the semantic objects inside. Experimental results indicate that the proposed method has an ability to classify complex urban scenes. The classification accuracies of the Beijing dataset are as high as 91% at the object-level and 88% at the scene level. Additionally, we are probably the first to investigate the object level semantic mapping by incorporating high resolution images and OSM data of urban areas. Consequently, the method presented is effective in delineating urban scenes that could further boost urban environment monitoring and planning with high-resolution images.
+C1 [Zhao, Wenzhi; Bo, Yanchen; Chen, Jiage] Beijing Normal Univ, Fac Geog Sci, Inst Remote Sensing Sci & Engn, State Key Lab Remote Sensing Sci, Beijing 100875, Peoples R China.
+   [Zhao, Wenzhi; Bo, Yanchen] Beijing Normal Univ, Fac Geog Sci, Inst Remote Sensing Sci & Engn, Beijing Engn Res Ctr Global Land Remote Sensing P, Beijing 100875, Peoples R China.
+   [Chen, Jiage] Natl Geomat Ctr China, Beijing 100830, Peoples R China.
+   [Tiede, Dirk; Blaschke, Thomas] Univ Salzburg, Z GIS, Salzburg, Austria.
+   [Emery, William J.] Univ Colorado, Colorado Ctr Astrodynam Res, Boulder, CO 80309 USA.
+C3 Beijing Normal University; Beijing Normal University; Salzburg University; University of Colorado System; University of Colorado Boulder
+RP Bo, YC (corresponding author), Beijing Normal Univ, Fac Geog Sci, Inst Remote Sensing Sci & Engn, State Key Lab Remote Sensing Sci, Beijing 100875, Peoples R China.; Bo, YC (corresponding author), Beijing Normal Univ, Fac Geog Sci, Inst Remote Sensing Sci & Engn, Beijing Engn Res Ctr Global Land Remote Sensing P, Beijing 100875, Peoples R China.
+EM boyc@bnu.edu.cn
+FU National Key R&D Program of China [2018YFC1508903]; China Postdoctoral Science Foundation [2018M640087]; Fundamental Research Funds for the Central Universities [2018NTST01]; Austrian Science Fund FWF through the Doctoral College GIScience [W-1237]
+CR Anwer RM, 2018, ISPRS J PHOTOGRAMM, V138, P74, DOI 10.1016/j.isprsjprs.2018.01.023
+   Aubrecht C, 2009, COMPUT ENVIRON URBAN, V33, P15, DOI 10.1016/j.compenvurbsys.2008.09.007
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Blaschke T, 2014, ISPRS J PHOTOGRAMM, V87, P180, DOI 10.1016/j.isprsjprs.2013.09.014
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Fu G, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050498
+   Gao S, 2017, T GIS, V21, P446, DOI 10.1111/tgis.12289
+   Haklay M, 2010, ENVIRON PLANN B, V37, P682, DOI 10.1068/b35097
+   Haklay M, 2008, IEEE PERVAS COMPUT, V7, P12, DOI 10.1109/MPRV.2008.80
+   Hinton GE, 2006, NEURAL COMPUT, V18, P1527, DOI 10.1162/neco.2006.18.7.1527
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Hu F, 2015, IEEE J-STARS, V8, P2015, DOI 10.1109/JSTARS.2015.2444405
+   Hu TY, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020151
+   Johnson BA, 2016, APPL GEOGR, V67, P140, DOI 10.1016/j.apgeog.2015.12.006
+   Kaiser P, 2017, IEEE T GEOSCI REMOTE, V55, P6054, DOI 10.1109/TGRS.2017.2719738
+   Kang J, 2018, ISPRS J PHOTOGRAMM, V145, P44, DOI 10.1016/j.isprsjprs.2018.02.006
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Leichtle T, 2017, INT J APPL EARTH OBS, V54, P15, DOI 10.1016/j.jag.2016.08.010
+   Li M, 2014, EUR J REMOTE SENS, V47, P389, DOI 10.5721/EuJRS20144723
+   Liu QS, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121330
+   Liu XP, 2017, INT J GEOGR INF SCI, V31, P1675, DOI 10.1080/13658816.2017.1324976
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mou LC, 2017, IEEE T GEOSCI REMOTE, V55, P3639, DOI 10.1109/TGRS.2016.2636241
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Schultz M, 2017, INT J APPL EARTH OBS, V63, P206, DOI 10.1016/j.jag.2017.07.014
+   Sui D., 2013, CROWDSOURCING GEOGRA, V0, P0
+   Tuia D, 2014, IEEE T GEOSCI REMOTE, V52, P6062, DOI 10.1109/TGRS.2013.2294724
+   Tzotsos A., 2008, OBJECT BASED IMAGE A, V0, PP663, DOI 10.1007/978-3-540-77058-9_36
+   Verdoliva L., 2015, ARXIV PREPRINT ARXIV, V28, P627
+   Walter V, 2004, ISPRS J PHOTOGRAMM, V58, P225, DOI 10.1016/j.isprsjprs.2003.09.007
+   Wan TL, 2017, IEEE GEOSCI REMOTE S, V14, P2305, DOI 10.1109/LGRS.2017.2762466
+   Weng Q., 2018, URBAN REMOTE SENSING, V0, P0
+   Weng QH, 2012, REMOTE SENS ENVIRON, V117, P34, DOI 10.1016/j.rse.2011.02.030
+   Xiao J, 2012, ISPRS J PHOTOGRAMM, V68, P56, DOI 10.1016/j.isprsjprs.2011.12.006
+   Yang Y, 2010, PROC 18 SIGSPATIAL I, V0, P0, DOI DOI 10.1145/1869790.1869829
+   Yang Y, 2011, IEEE I CONF COMP VIS, V0, PP1465, DOI 10.1109/ICCV.2011.6126403
+   Yao Y, 2017, INT J GEOGR INF SCI, V31, P825, DOI 10.1080/13658816.2016.1244608
+   Yu Q, 2006, PHOTOGRAMM ENG REM S, V72, P799, DOI 10.14358/PERS.72.7.799
+   Zhang LF, 2012, IEEE T GEOSCI REMOTE, V50, P879, DOI 10.1109/TGRS.2011.2162339
+   Zhang XY, 2017, ISPRS J PHOTOGRAMM, V132, P170, DOI 10.1016/j.isprsjprs.2017.09.007
+   Zhang Y, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090865
+   Zhang ZP, 2019, IEEE ACM T COMPUT BI, V16, P407, DOI 10.1109/TCBB.2017.2704587
+   Zhao B, 2016, ISPRS J PHOTOGRAMM, V116, P73, DOI 10.1016/j.isprsjprs.2016.03.004
+   Zhao B, 2016, IEEE T GEOSCI REMOTE, V54, P2108, DOI 10.1109/TGRS.2015.2496185
+   Zhao WQ, 2019, IEEE T SYST MAN CY-S, V49, P1254, DOI 10.1109/TSMC.2017.2724440
+   Zhao WZ, 2017, ISPRS J PHOTOGRAMM, V132, P48, DOI 10.1016/j.isprsjprs.2017.08.011
+   Zhong YF, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9101030
+   Zhong YF, 2015, IEEE T GEOSCI REMOTE, V53, P6207, DOI 10.1109/TGRS.2015.2435801
+   Zhou F, 2019, NEUROCOMPUTING, V328, P39, DOI 10.1016/j.neucom.2018.02.105
+   Zhu QQ, 2017, IEEE T GEOSCI REMOTE, V55, P5525, DOI 10.1109/TGRS.2017.2709802
+   Zou Q, 2015, IEEE GEOSCI REMOTE S, V12, P2321, DOI 10.1109/LGRS.2015.2475299
+NR 52
+TC 35
+Z9 38
+U1 9
+U2 95
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD MAY 15
+PY 2019
+VL 151
+IS 
+BP 237
+EP 250
+DI 10.1016/j.isprsjprs.2019.03.019
+PG 14
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA IA1GC
+UT WOS:000469306300017
+DA 2023-04-26
+ER
+
+PT J
+AU Roy, J
+   Saha, S
+   Arabameri, A
+   Blaschke, T
+   Bui, DT
+AF Roy, Jagabandhu
+   Saha, Sunil
+   Arabameri, Alireza
+   Blaschke, Thomas
+   Bui, Dieu Tien
+TI A Novel Ensemble Approach for Landslide Susceptibility Mapping (LSM) in Darjeeling and Kalimpong Districts, West Bengal, India
+SO REMOTE SENSING
+LA English
+DT Article
+DE landslide; machine learning models; remote sensing; ensemble models; validation
+ID support vector machine; logistic-regression; frequency ratio; golestan province; neural-networks; hazard; gis; weights; models; slope
+AB Landslides are among the most harmful natural hazards for human beings. This study aims to delineate landslide hazard zones in the Darjeeling and Kalimpong districts of West Bengal, India using a novel ensemble approach combining the weight-of-evidence (WofE) and support vector machine (SVM) techniques with remote sensing datasets and geographic information systems (GIS). The study area currently faces severe landslide problems, causing fatalities and losses of property. In the present study, the landslide inventory database was prepared using Google Earth imagery, and a field investigation carried out with a global positioning system (GPS). Of the 326 landslides in the inventory, 98 landslides (30%) were used for validation, and 228 landslides (70%) were used for modeling purposes. The landslide conditioning factors of elevation, rainfall, slope, aspect, geomorphology, geology, soil texture, land use/land cover (LULC), normalized differential vegetation index (NDVI), topographic wetness index (TWI), sediment transportation index (STI), stream power index (SPI), and seismic zone maps were used as independent variables in the modeling process. The weight-of-evidence and SVM techniques were ensembled and used to prepare landslide susceptibility maps (LSMs) with the help of remote sensing (RS) data and geographical information systems (GIS). The landslide susceptibility maps (LSMs) were then classified into four classes; namely, low, medium, high, and very high susceptibility to landslide occurrence, using the natural breaks classification methods in the GIS environment. The very high susceptibility zones produced by these ensemble models cover an area of 630 km(2) (WofE& RBF-SVM), 474 km(2) (WofE& Linear-SVM), 501km(2) (WofE& Polynomial-SVM), and 498 km(2) (WofE& Sigmoid-SVM), respectively, of a total area of 3914 km(2). The results of our study were validated using the receiver operating characteristic (ROC) curve and quality sum (Qs) methods. The area under the curve (AUC) values of the ensemble WofE& RBF-SVM, WofE & Linear-SVM, WofE & Polynomial-SVM, and WofE & Sigmoid-SVM models are 87%, 90%, 88%, and 85%, respectively, which indicates they are very good models for identifying landslide hazard zones. As per the results of both validation methods, the WofE & Linear-SVM model is more accurate than the other ensemble models. The results obtained from this study using our new ensemble methods can provide proper and significant information to decision-makers and policy planners in the landslide-prone areas of these districts.
+C1 [Roy, Jagabandhu; Saha, Sunil] Univ GourBanga, Dept Geog, Malda City 732103, W Bengal, India.
+   [Arabameri, Alireza] Tarbiat Modares Univ, Dept Geomorphol, Tehran 14115111, Iran.
+   [Blaschke, Thomas] Univ Salzburg, Dept Geoinformat Z GIS, A-5020 Salzburg, Austria.
+   [Bui, Dieu Tien] Duy Tan Univ, Inst Res & Dev, Da Nang 550000, Vietnam.
+C3 University of Gour Banga; Tarbiat Modares University; Salzburg University; Duy Tan University
+RP Arabameri, A (corresponding author), Tarbiat Modares Univ, Dept Geomorphol, Tehran 14115111, Iran.; Bui, DT (corresponding author), Duy Tan Univ, Inst Res & Dev, Da Nang 550000, Vietnam.
+EM jagabandhuroy1991@gmail.com; sunilgeo.88@gmail.com; alireza.arab@ut.ac.ir; thomas.blaschke@sbg.ac.at; buitiendieu@duytan.edu.vn
+FU Austrian Science Fund (FWF) through the Doctoral College GIScience at the University of Salzburg [DK W 1237-N23]
+CR Abedini M, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7524-1
+   Abedini M, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6502-3
+   Anderson C., 2004, STARTING DIGITIZATIO, V0, P0
+   Arabameri A, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11061129
+   Arabameri A, 2019, CATENA, V180, P282, DOI 10.1016/j.catena.2019.04.032
+   Arabameri A, 2019, SCI TOTAL ENVIRON, V688, P903, DOI 10.1016/j.scitotenv.2019.06.205
+   Arabameri A, 2020, GEOCARTO INT, V35, P1680, DOI 10.1080/10106049.2019.1585484
+   Arabameri A, 2019, GEOSCI J, V23, P669, DOI 10.1007/s12303-018-0067-3
+   Arabameri A, 2019, J MT SCI-ENGL, V16, P595, DOI 10.1007/s11629-018-5168-y
+   Arabameri A, 2019, J ENVIRON MANAGE, V232, P928, DOI 10.1016/j.jenvman.2018.11.110
+   Arabameri A, 2019, SCI TOTAL ENVIRON, V658, P160, DOI 10.1016/j.scitotenv.2018.12.115
+   Arabameri A, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-7177-5
+   Ay N, 2015, ENTROPY-SWITZ, V17, P8111, DOI 10.3390/e17127866
+   Bayraktar H, 2005, STOCH ENV RES RISK A, V19, P301, DOI 10.1007/s00477-005-0234-8
+   Bhandari R.K., 2004, COPING NATURAL HAZAR, V0, P134
+   Bijukchhen SM, 2013, ARAB J GEOSCI, V6, P2727, DOI 10.1007/s12517-012-0569-7
+   Pham BT, 2017, CATENA, V149, P52, DOI 10.1016/j.catena.2016.09.007
+   Pham BT, 2016, ENVIRON MODELL SOFTW, V84, P240, DOI 10.1016/j.envsoft.2016.07.005
+   Bonham-Carter F, 1994, COMPUTER METHODS GEO, V0, P0
+   Burrough P.A., 1998, PRINCIPLES GEOGRAPHI, V0, P190
+   Chawla A, 2019, J INDIAN SOC REMOTE, V47, P497, DOI 10.1007/s12524-018-0916-6
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   CRIPPEN RE, 1990, REMOTE SENS ENVIRON, V34, P71, DOI 10.1016/0034-4257(90)90085-Z
+   Cruden D.M., 1996, LANDSLIDES INVESTIGA, V0, P36
+   Dahal RK, 2008, ENVIRON GEOL, V54, P311, DOI 10.1007/s00254-007-0818-3
+   Dahal RK, 2008, GEOMORPHOLOGY, V102, P496, DOI 10.1016/j.geomorph.2008.05.041
+   Bui DT, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134413
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Bui DT, 2012, MATH PROBL ENG, V2012, P0, DOI 10.1155/2012/974638
+   Dormann CF, 2013, ECOGRAPHY, V36, P27, DOI 10.1111/j.1600-0587.2012.07348.x
+   Fan XM, 2019, EARTH SYST SCI DATA, V11, P35, DOI 10.5194/essd-11-35-2019
+   Feizizadeh B, 2014, COMPUT GEOSCI-UK, V73, P208, DOI 10.1016/j.cageo.2014.08.001
+   GERRARD J, 1994, GEOMORPHOLOGY, V10, P221, DOI 10.1016/0169-555X(94)90018-3
+   Goetz JN, 2015, COMPUT GEOSCI-UK, V81, P1, DOI 10.1016/j.cageo.2015.04.007
+   Government of West Bengal, 2013, DISTR STAT HDB, V0, P0
+   Gravina T, 2017, LANDSLIDES, V14, P1419, DOI 10.1007/s10346-016-0787-2
+   Guzzetti F, 2006, GEOMORPHOLOGY, V81, P166, DOI 10.1016/j.geomorph.2006.04.007
+   Haneberg WC, 2009, B ENG GEOL ENVIRON, V68, P263, DOI 10.1007/s10064-009-0204-3
+   Li Z., 2005, DIGITAL TERRAIN MODE, V0, P0
+   Mallick J, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7451-1
+   Marjanovic M, 2011, ENG GEOL, V123, P225, DOI 10.1016/j.enggeo.2011.09.006
+   Mohammady M, 2012, J ASIAN EARTH SCI, V61, P221, DOI 10.1016/j.jseaes.2012.10.005
+   MOORE ID, 1986, SOIL SCI SOC AM J, V50, P1294, DOI 10.2136/sssaj1986.03615995005000050042x
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Myung IJ, 2003, J MATH PSYCHOL, V47, P90, DOI 10.1016/S0022-2496(02)00028-7
+   Negnevitsky M, 2002, ARTIF INTELL, V0, P394
+   Nichol JE, 2006, GEOMORPHOLOGY, V76, P68, DOI 10.1016/j.geomorph.2005.10.001
+   OBrien RM, 2007, QUAL QUANT, V41, P673, DOI 10.1007/s11135-006-9018-6
+   Ozdemir A, 2013, J ASIAN EARTH SCI, V64, P180, DOI 10.1016/j.jseaes.2012.12.014
+   Panikkar SV, 1996, GEOMORPHOLOGY, V15, P169, DOI 10.1016/0169-555X(95)00121-K
+   Park S, 2013, ENVIRON EARTH SCI, V68, P1443, DOI 10.1007/s12665-012-1842-5
+   Pawde M.B., 1982, GEOLOGY DARJEELING H, V0, P0
+   Pourghasemi HR, 2013, J EARTH SYST SCI, V122, P349, DOI 10.1007/s12040-013-0282-2
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2010, ARAB J GEOSCI, V3, P319, DOI 10.1007/s12517-009-0089-2
+   Pramanik MK, 2016, MODEL EARTH SYST ENV, V2, P0, DOI 10.1007/s40808-016-0116-8
+   Regmi AD, 2014, ARAB J GEOSCI, V7, P725, DOI 10.1007/s12517-012-0807-z
+   Roy J, 2019, GEOENVIRONMENTAL DIS, V6, P0, DOI 10.1186/s40677-019-0126-8
+   Samui P, 2008, ENVIRON GEOL, V56, P255, DOI 10.1007/s00254-007-1161-4
+   Sarkar S., 1999, T JAPANESE GEOMORPHO, V20, P299
+   Shahabi H, 2015, SCI REP-UK, V5, P0, DOI 10.1038/srep09899
+   Tehrany MS, 2014, GEOCARTO INT, V29, P351, DOI 10.1080/10106049.2013.768300
+   Wan SA, 2009, KNOWL-BASED SYST, V22, P580, DOI 10.1016/j.knosys.2009.07.008
+   Wang HB, 2008, LANDSLIDES, V5, P387, DOI 10.1007/s10346-008-0131-6
+   Wentworth CK, 1930, AM J SCI, V20, P184
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V61, P821, DOI 10.1007/s12665-009-0394-9
+NR 68
+TC 83
+Z9 84
+U1 6
+U2 52
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD DEC 1
+PY 2019
+VL 11
+IS 23
+BP 
+EP 
+DI 10.3390/rs11232866
+PG 28
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA KE2IO
+UT WOS:000508382100147
+DA 2023-04-26
+ER
+
+PT J
+AU Balyen, L
+   Peto, T
+AF Balyen, Lokman
+   Peto, Tunde
+TI Promising Artificial Intelligence-Machine Learning-Deep Learning Algorithms in Ophthalmology
+SO ASIA-PACIFIC JOURNAL OF OPHTHALMOLOGY
+LA English
+DT Review
+DE age-related macular degeneration; deep learning; diabetic retinopathy; glaucoma; machine learning
+ID diabetic-retinopathy; automated identification; keratoconus detection; retinal-detachment; neural-networks; risk-factors; images; segmentation; cataract; prematurity
+AB The lifestyle of modern society has changed significantly with the emergence of artificial intelligence (AI), machine learning (ML), and deep learning (DL) technologies in recent years. Artificial intelligence is a multidimensional technology with various components such as advanced algorithms, ML and DL. Together, AI, ML, and DL are expected to provide automated devices to ophthalmologists for early diagnosis and timely treatment of ocular disorders in the near future. In fact, AI, ML, and DL have been used in ophthalmic setting to validate the diagnosis of diseases, read images, perform corneal topographic mapping and intraocular lens calculations. Diabetic retinopathy (DR), age-related macular degeneration (AMD), and glaucoma are the 3 most common causes of irreversible blindness on a global scale. Ophthalmic imaging provides a way to diagnose and objectively detect the progression of a number of pathologies including DR, AMD, glaucoma, and other ophthalmic disorders. There are 2 methods of imaging used as diagnostic methods in ophthalmic practice: fundus digital photography and optical coherence tomography (OCT). Of note, OCT has become the most widely used imaging modality in ophthalmology settings in the developed world. Changes in population demographics and lifestyle, extension of average lifespan, and the changing pattern of chronic diseases such as obesity, diabetes, DR, AMD, and glaucoma create a rising demand for such images. Furthermore, the limitation of availability of retina specialists and trained human graders is a major problem in many countries. Consequently, given the current population growth trends, it is inevitable that analyzing such images is time-consuming, costly, and prone to human error. Therefore, the detection and treatment of DR, AMD, glaucoma, and other ophthalmic disorders through unmanned automated applications system in the near future will be inevitable. We provide an overview of the potential impact of the current AI, ML, and DL methods and their applications on the early detection and treatment of DR, AMD, glaucoma, and other ophthalmic diseases.
+C1 [Balyen, Lokman] Kafkas Univ, Fac Med, Dept Ophthalmol, Kars, Turkey.
+   [Peto, Tunde] Queens Univ Belfast, Sch Med, Inst Clin Sci, Dept Ophthalmol,Ctr Publ Hlth, Belfast, Antrim, North Ireland.
+C3 Kafkas University; Queens University Belfast
+RP Balyen, L (corresponding author), Kafkas Univ, Fac Med, Dept Ophthalmol, Kars, Turkey.
+EM lbalyen@hotmail.com
+CR Abramoff MD, 2013, JAMA OPHTHALMOL, V131, P351, DOI 10.1001/jamaophthalmol.2013.1743
+   Aiello LP, 1998, DIABETES CARE, V21, P143, DOI 10.2337/diacare.21.1.143
+   Algvere PV, 2016, ACTA OPHTHALMOL, V94, P427, DOI 10.1111/aos.13011
+   ALNAAM HA, 2015, EFFICIENT LEARNING M, V0, P1
+   Ambrosio R, 2017, J REFRACT SURG, V33, P434, DOI 10.3928/1081597X-20170426-02
+   Asaoka R, 2019, AM J OPHTHALMOL, V198, P136, DOI 10.1016/j.ajo.2018.10.007
+   Asaoka R, 2016, OPHTHALMOLOGY, V123, P1974, DOI 10.1016/j.ophtha.2016.05.029
+   Balyen L, 2018, VAN MED J, V25, P28, DOI 10.5505/vtd.2018.91300
+   Bek T, 2006, ACTA OPHTHALMOL SCAN, V84, P16, DOI 10.1111/j.1600-0420.2005.00574.x
+   Bengio Y, 2013, IEEE T PATTERN ANAL, V35, P1798, DOI 10.1109/TPAMI.2013.50
+   Bogunovic H, 2017, INVEST OPHTH VIS SCI, V58, PBIO141, DOI 10.1167/iovs.17-21789
+   Brody BL, 2001, OPHTHALMOLOGY, V108, P1893, DOI 10.1016/S0161-6420(01)00754-0
+   Burlina PM, 2018, JAMA OPHTHALMOL, V136, P1359, DOI 10.1001/jamaophthalmol.2018.4118
+   Burlina PM, 2017, JAMA OPHTHALMOL, V135, P1170, DOI 10.1001/jamaophthalmol.2017.3782
+   Campbell JP, 2016, JAMA OPHTHALMOL, V134, P651, DOI 10.1001/jamaophthalmol.2016.0611
+   Carvalho LA, 2005, OPTOMETRY VISION SCI, V82, P151, DOI 10.1097/01.OPX.0000153193.41554.A1
+   Chakravarthy U, 2016, OPHTHALMOLOGY, V123, P1731, DOI 10.1016/j.ophtha.2016.04.005
+   Chen Q, 2013, MED IMAGE ANAL, V17, P1058, DOI 10.1016/j.media.2013.06.003
+   Congdon NG, 2003, JAMA-J AM MED ASSOC, V290, P2057, DOI 10.1001/jama.290.15.2057
+   Devalla SK, 2018, INVEST OPHTH VIS SCI, V59, P63, DOI 10.1167/iovs.17-22617
+   Du XL, 2018, INT J OPHTHALMOL-CHI, V11, P1555, DOI 10.18240/ijo.2018.09.21
+   Feeny AK, 2015, COMPUT BIOL MED, V65, P124, DOI 10.1016/j.compbiomed.2015.06.018
+   Ferris FL, 2013, OPHTHALMOLOGY, V120, P844, DOI 10.1016/j.ophtha.2012.10.036
+   Frcophth AT, 2017, OPHTHALMOLOGY, V124, P343, DOI 10.1016/j.ophtha.2016.11.014
+   Gaiarsa Veronica Meyer, 2017, RES. BIOMED. ENG., V33, P11, DOI 10.1590/2446-4740.03316
+   Gao XT, 2015, IEEE T BIO-MED ENG, V62, P2693, DOI 10.1109/TBME.2015.2444389
+   Gargeya R, 2017, OPHTHALMOLOGY, V124, P962, DOI 10.1016/j.ophtha.2017.02.008
+   Gilbert C, 2005, PEDIATRICS, V115, PE518, DOI 10.1542/peds.2004-1180
+   Gillner M, 2014, Z MED PHYS, V24, P104, DOI 10.1016/j.zemedi.2013.07.002
+   Grassmann F, 2018, OPHTHALMOLOGY, V125, P1410, DOI 10.1016/j.ophtha.2018.02.037
+   Gulshan V, 2016, JAMA-J AM MED ASSOC, V316, P2402, DOI 10.1001/jama.2016.17216
+   Gupta VB, 2014, INDIAN J OPHTHALMOL, V62, P103, DOI 10.4103/0301-4738.121141
+   Hardy RJ, 2006, BRIT J OPHTHALMOL, V90, P1341, DOI 10.1136/bjo.2006.102038
+   Hayreh SS, 2015, RETINA-J RET VIT DIS, V35, P29, DOI 10.1097/IAE.0000000000000256
+   Heidary Fatemeh, 2012, MED HYPOTHESIS DISCOV INNOV OPHTHALMOL, V1, P43
+   Heussen N, 2011, GRAEF ARCH CLIN EXP, V249, P1129, DOI 10.1007/s00417-011-1619-7
+   Hidalgo IR, 2017, CORNEA, V36, P689, DOI 10.1097/ICO.0000000000001194
+   Jiang SB, 2018, INT J OPHTHALMOL-CHI, V11, P1038, DOI 10.18240/ijo.2018.06.23
+   Kim SJ, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0177726
+   Kim YJ, 2018, COMPUT MATH METHOD M, V2018, P0, DOI 10.1155/2018/6084798
+   Koprowski R, 2016, BIOMED ENG ONLINE, V15, P0, DOI 10.1186/s12938-016-0243-5
+   KRACHMER JH, 1984, SURV OPHTHALMOL, V28, P293, DOI 10.1016/0039-6257(84)90094-8
+   Kumar SVM, 2018, J MED SYST, V42, P0, DOI 10.1007/s10916-018-0980-z
+   L Shahsuvaryan Marianne, 2013, MED HYPOTHESIS DISCOV INNOV OPHTHALMOL, V2, P41
+   Lahmiri S, 2014, BIOMED ENG-BIOMED TE, V59, P357, DOI 10.1515/bmt-2013-0082
+   Lang A, 2013, BIOMED OPT EXPRESS, V4, P1133, DOI 10.1364/BOE.4.001133
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lee A, 2017, OPHTHALMOLOGY, V124, P1726, DOI 10.1016/j.ophtha.2017.08.046
+   Lee CS, 2017, BIOMED OPT EXPRESS, V8, P3440, DOI 10.1364/BOE.8.003440
+   Li ZX, 2018, DIABETES CARE, V41, P2509, DOI 10.2337/dc18-0147
+   Li ZX, 2018, OPHTHALMOLOGY, V125, P1199, DOI 10.1016/j.ophtha.2018.01.023
+   Lin DR, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0142298
+   Liu XY, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0168606
+   Lu W, 2018, J OPHTHALMOL, V2018, P0, DOI 10.1155/2018/5278196
+   Mesko B, 2018, BMC HEALTH SERV RES, V18, P0, DOI 10.1186/s12913-018-3359-4
+   Miki D, 2001, JPN J OPHTHALMOL, V45, P187, DOI 10.1016/S0021-5155(00)00377-4
+   Mitchell JBO, 2014, WIRES COMPUT MOL SCI, V4, P468, DOI 10.1002/wcms.1183
+   Mohamed Q, 2007, JAMA-J AM MED ASSOC, V298, P902, DOI 10.1001/jama.298.8.902
+   Mohammadi SF, 2012, J CATARACT REFR SURG, V38, P403, DOI 10.1016/j.jcrs.2011.09.036
+   Nagasato D, 2018, J OPHTHALMOL, V2018, P0, DOI 10.1155/2018/1875431
+   Nagiel A, 2016, RETINA-J RET VIT DIS, V36, P660, DOI 10.1097/IAE.0000000000000937
+   Oh E, 2015, INVEST OPHTH VIS SCI, V56, P3957, DOI 10.1167/iovs.15-16805
+   Ohnell H, 2016, OPHTHALMOLOGY, V123, P1173, DOI 10.1016/j.ophtha.2016.01.039
+   Ohsugi H, 2017, SCI REP-UK, V7, P0, DOI 10.1038/s41598-017-09891-x
+   Peng YF, 2019, OPHTHALMOLOGY, V126, P565, DOI 10.1016/j.ophtha.2018.11.015
+   Rahimy E, 2018, CURR OPIN OPHTHALMOL, V29, P254, DOI 10.1097/ICU.0000000000000470
+   Sabanayagam C, 2019, LANCET DIABETES ENDO, V7, P140, DOI 10.1016/S2213-8587(18)30128-1
+   Samuel AL, 1988, COMPUTER GAMES, VI, P335, DOI 10.1007/978-1-4613-8716-9_14
+   Schlanitz FG, 2017, BRIT J OPHTHALMOL, V101, P198, DOI 10.1136/bjophthalmol-2016-308422
+   Schlegl T, 2018, OPHTHALMOLOGY, V125, P549, DOI 10.1016/j.ophtha.2017.10.031
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Shaw JE, 2010, DIABETES RES CLIN PR, V87, P4, DOI 10.1016/j.diabres.2009.10.007
+   Shibata N, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-33013-w
+   de Almeida JDS, 2015, COMPUT BIOL MED, V63, P178, DOI 10.1016/j.compbiomed.2015.05.025
+   Souza MB, 2010, CLINICS, V65, P1223, DOI 10.1590/S1807-59322010001200002
+   Tan E, 2017, J EUR ACAD DERMATOL, V31, P717, DOI 10.1111/jdv.14012
+   Ting DSW, 2017, JAMA-J AM MED ASSOC, V318, P2211, DOI 10.1001/jama.2017.18152
+   Tseng VL, 2012, JAMA-J AM MED ASSOC, V308, P493, DOI 10.1001/jama.2012.9014
+   van Grinsven MJJP, 2015, INVEST OPHTH VIS SCI, V56, P633, DOI 10.1167/iovs.14-15019
+   Waltz KL, 2015, OPHTHALMOLOGY, V122, P39, DOI 10.1016/j.ophtha.2014.06.027
+   Wong TY, 2007, LANCET, V370, P204, DOI 10.1016/S0140-6736(07)61104-0
+   Xu YP, 2017, BIOMED OPT EXPRESS, V8, P4061, DOI 10.1364/BOE.8.004061
+   Yang JJ, 2016, COMPUT METH PROG BIO, V124, P45, DOI 10.1016/j.cmpb.2015.10.007
+   Yau JWY, 2008, INTERN MED J, V38, P904, DOI 10.1111/j.1445-5994.2008.01720.x
+   Yau JWY, 2012, DIABETES CARE, V35, P556, DOI 10.2337/dc11-1909
+   Zheng CJ, 2019, CURR OPIN OPHTHALMOL, V30, P97, DOI 10.1097/ICU.0000000000000552
+NR 86
+TC 77
+Z9 79
+U1 8
+U2 57
+PU ASIA-PACIFIC ACAD OPHTHALMOLOGY-APAO
+PI KOWLOON
+PA 4-F, HONG KONG EYE HOSP, 147K ARGYLE ST, KOWLOON, KOWLOON, HONG KONG 00000, PEOPLES R CHINA
+SN 
+EI 2162-0989
+J9 ASIA-PAC J OPHTHALMO
+JI Asia-Pac. J. Ophthalmol.
+PD MAY-JUN 15
+PY 2019
+VL 8
+IS 3
+BP 264
+EP 272
+DI 10.22608/APO.2018479
+PG 9
+WC Ophthalmology
+SC Ophthalmology
+GA JT1TD
+UT WOS:000500779400013
+PM 31149787
+DA 2023-04-26
+ER
+
+PT J
+AU Kerle, N
+   Nex, F
+   Duarte, D
+   Vetrivel, A
+AF Kerle, N.
+   Nex, F.
+   Duarte, D.
+   Vetrivel, A.
+TI UAV-BASED STRUCTURAL DAMAGE MAPPING - RESULTS FROM 6 YEARS OF RESEARCH IN TWO EUROPEAN PROJECTS
+SO ISPRS ICWG III/IVA GI4DM 2019 - GEOINFORMATION FOR DISASTER MANAGEMENT
+LA English
+DT Proceedings Paper
+DE Drone; computer vision; point clouds; machine learning; CNN; first responder; RECONASS; INACHUS
+ID building damage; image-analysis; satellite
+AB Structural disaster damage detection and characterisation is one of the oldest remote sensing challenges, and the utility of virtually every type of active and passive sensor deployed on various air- and spaceborne platforms has been assessed. The proliferation and growing sophistication of UAV in recent years has opened up many new opportunities for damage mapping, due to the high spatial resolution, the resulting stereo images and derivatives, and the flexibility of the platform. We have addressed the problem in the context of two European research projects, RECONASS and INACHUS. In this paper we synthesize and evaluate the progress of 6 years of research focused on advanced image analysis that was driven by progress in computer vision, photogrammetry and machine learning, but also by constraints imposed by the needs of first responder and other civil protection end users. The projects focused on damage to individual buildings caused by seismic activity but also explosions, and our work centred on the processing of 3D point cloud information acquired from stereo imagery. Initially focusing on the development of both supervised and unsupervised damage detection methods built on advanced texture features and basic classifiers such as Support Vector Machine and Random Forest, the work moved on to the use of deep learning. In particular the coupling of image-derived features and 3D point cloud information in a Convolutional Neural Network (CNN) proved successful in detecting also subtle damage features. In addition to the detection of standard rubble and debris, CNN-based methods were developed to detect typical facade damage indicators, such as cracks and spalling, including with a focus on multi-temporal and multi-scale feature fusion. We further developed a processing pipeline and mobile app to facilitate near-real time damage mapping. The solutions were tested in a number of pilot experiments and evaluated by a variety of stakeholders.
+C1 [Kerle, N.; Nex, F.; Duarte, D.] Univ Twente, Fac Geoinformat Sci & Earth Observat ITC, NL-7500 AE Enschede, Netherlands.
+   [Vetrivel, A.] Experian, Singapore 339510, Singapore.
+C3 University of Twente
+RP Kerle, N (corresponding author), Univ Twente, Fac Geoinformat Sci & Earth Observat ITC, NL-7500 AE Enschede, Netherlands.
+EM n.kerle@utwente.nl; f.nex@utwente.nl; d.duarte@utwente.nl; anand.vetrivel@experian.com
+FU EU-FP7 project RECONASS [312718]; EU-FP7 project INACHUS [607522]; H2020 project PANOPTIS [769129]
+CR Bavle H, 2018, AEROSPACE-BASEL, V5, P0, DOI 10.3390/aerospace5030094
+   Belabid N., 2019, REMOTE SENS-BASEL, V11, P18
+   Corbane C, 2011, PHOTOGRAMM ENG REM S, V77, P997, DOI 10.14358/PERS.77.10.0997
+   Cusicanqui J, 2018, NAT HAZARD EARTH SYS, V18, P1583, DOI 10.5194/nhess-18-1583-2018
+   Dong LG, 2013, ISPRS J PHOTOGRAMM, V84, P85, DOI 10.1016/j.isprsjprs.2013.06.011
+   Duarte D, 2017, INT ARCH PHOTOGRAMM, V42-2, P93, DOI 10.5194/isprs-archives-XLII-2-W6-93-2017
+   Duarte D., 2018, ISPRS ANN PHOTOGRAMM, V4, P89, DOI 10.5194/ISPRS-ANNALS-IV-2-89-2018
+   Duarte D, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101636
+   Dubois D, 2014, IEEE J-STARS, V7, P4167, DOI 10.1109/JSTARS.2014.2336236
+   Galarreta JF, 2015, NAT HAZARD EARTH SYS, V15, P1087, DOI 10.5194/nhess-15-1087-2015
+   Gerke M, 2011, 2011 IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION WORKSHOPS (ICCV WORKSHOPS), V0, P0
+   Gerke M, 2011, PHOTOGRAMM ENG REM S, V77, P885, DOI 10.14358/PERS.77.9.885
+   Ghaffarian S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111760
+   Gong LX, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8110887
+   Grenzdorffer GJ, 2008, PHOTOGRAMM REC, V23, P372, DOI 10.1111/j.1477-9730.2008.00499.x
+   Grunthal G., 1998, EUROPEAN MACROSEISMI, V0, P99
+   Jimenez-Cano AE, 2017, INT CONF UNMAN AIRCR, V0, P1217
+   Kerle N, 2013, NAT HAZARD EARTH SYS, V13, P97, DOI 10.5194/nhess-13-97-2013
+   Kerle N, 2016, REMOTE SENS HBK, V3, P455
+   Li LL, 2018, COMPUT GEOSCI-UK, V113, P115, DOI 10.1016/j.cageo.2018.01.018
+   Lu C.H., 2018, REMOTE SENS-BASEL, V10, P21
+   Mitomi H., 2000, AUTOMATED DETECTION, V0, P401
+   Nex F, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030287
+   Novikov G., 2018, SATELLITE IMAGERY AN, V0, P347
+   ORourke TD, 2006, EARTHQ SPECTRA, V22, PS91, DOI 10.1193/1.2185686
+   Paredes JA, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18010089
+   Quenzel J, 2019, J INTELL ROBOT SYST, V93, P317, DOI 10.1007/s10846-018-0791-y
+   Sanchez-Cuevas PJ, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19020305
+   Schweizer EA, 2018, PHOTOGRAMM ENG REM S, V84, P76, DOI 10.14358/PERS.84.2.75
+   Sublime J, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091123
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Trujillo J.C., 2018, SENSORS-BASEL, V18, P30
+   Vetrivel A, 2016, ISPRS ANN PHOTO REM, V3, P355, DOI 10.5194/isprsannals-III-3-355-2016
+   Vetrivel A, 2015, INT ARCH PHOTOGRAMM, V40-3, P261, DOI 10.5194/isprsarchives-XL-3-W2-261-2015
+   Vetrivel A, 2018, ISPRS J PHOTOGRAMM, V140, P45, DOI 10.1016/j.isprsjprs.2017.03.001
+   Vetrivel A, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8030231
+   Vetrivel A, 2015, ISPRS J PHOTOGRAMM, V105, P61, DOI 10.1016/j.isprsjprs.2015.03.016
+   Yamazaki F, 2005, EARTHQ SPECTRA, V21, PS328, DOI 10.1193/1.2101807
+   Zhang X, 2015, IEEE T IND ELECTRON, V62, P6392, DOI 10.1109/TIE.2015.2420036
+NR 40
+TC 7
+Z9 7
+U1 0
+U2 3
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLE 1E, GOTTINGEN, 37081, GERMANY
+SN 1682-1750
+EI 2194-9034
+J9 INT ARCH PHOTOGRAMM
+PD JUN 15
+PY 2019
+VL 42-3
+IS W8
+BP 187
+EP 194
+DI 10.5194/isprs-archives-XLII-3-W8-187-2019
+PG 8
+WC Geography, Physical; Management; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Business & Economics; Remote Sensing; Imaging Science & Photographic Technology
+GA BS0WA
+UT WOS:000684596600031
+DA 2023-04-26
+ER

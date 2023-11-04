@@ -1,0 +1,539 @@
+
+PT J
+AU Li, Q
+   Zhu, JS
+   Liu, J
+   Cao, R
+   Fu, H
+   Garibaldi, JM
+   Li, QQ
+   Liu, BZ
+   Qiu, GP
+AF Li, Qing
+   Zhu, Jiasong
+   Liu, Jun
+   Cao, Rui
+   Fu, Hao
+   Garibaldi, Jonathan M.
+   Li, Qingquan
+   Liu, Bozhi
+   Qiu, Guoping
+TI 3D map-guided single indoor image localization refinement
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Single image indoor localization; Depth prediction; 3D Geometry matching
+AB Image localization is an important supplement to GPS-based methods, especially in indoor scenes. Traditional methods depending on image retrieval or structure from motion (SfM) techniques either suffer from low accuracy or even fail to work due to the texture-less or repetitive indoor surfaces. With the development of range sensors, 3D colourless maps are easily constructed in indoor scenes. How to utilize such a 3D colourless map to improve single image localization performance is a timely but unsolved research problem. In this paper, we present a new approach to addressing this problem by inferring the 3D geometry from a single image with an initial 6DOF pose estimated by a neural network based method. In contrast to previous methods that rely multiple overlapping images or videos to generate sparse point clouds, our new approach can produce dense point cloud from only a single image. We achieve this through estimating the depth map of the input image and performing geometry matching in the 3D space. We have developed a novel depth estimation method by utilizing both the 3D map and RGB images where we use the RGB image to estimate a dense depth map and use the 3D map to guide the depth estimation. We will show that our new method significantly outperforms current RGB image based depth estimation methods for both indoor and outdoor datasets. We also show that utilizing the depth map predicted by the new method for single indoor image localization can improve both position and orientation localization accuracy over state-of-the-art methods.
+C1 [Li, Qing; Zhu, Jiasong; Li, Qingquan] Shenzhen Univ, Guangdong Key Lab Urban Informat, Shenzhen 518060, Peoples R China.
+   [Li, Qing; Zhu, Jiasong; Li, Qingquan] Shenzhen Univ, Shenzhen Key Lab Spatial Smart Sensing & Serv, Shenzhen 518060, Peoples R China.
+   [Li, Qing; Zhu, Jiasong; Li, Qingquan] Shenzhen Univ, Key Lab Geoenvironm Monitoring Coastal Zone, Minist Nat Resources, Shenzhen 518060, Peoples R China.
+   [Li, Qing; Garibaldi, Jonathan M.; Qiu, Guoping] Univ Nottingham, Sch Comp Sci, Nottingham NG8 1BB, England.
+   [Cao, Rui] Univ Nottingham, Sch Comp Sci, Ningbo 315100, Peoples R China.
+   [Liu, Jun; Cao, Rui; Liu, Bozhi; Qiu, Guoping] Shenzhen Univ, Coll Elect & Informat Engn, Shenzhen 518060, Peoples R China.
+   [Liu, Jun; Cao, Rui; Liu, Bozhi; Qiu, Guoping] Shenzhen Univ, Guangdong Key Lab Intelligent Informat Proc, Shenzhen 518060, Peoples R China.
+   [Fu, Hao] Natl Univ Def Technol, Coll Intelligence Sci & Technol, Changsha 410000, Peoples R China.
+   [Liu, Jun; Qiu, Guoping] Shenzhen Inst Artificial Intelligence & Robot Soc, Shenzhen, Peoples R China.
+C3 Shenzhen University; Shenzhen University; Ministry of Natural Resources of the People's Republic of China; Shenzhen University; University of Nottingham; University of Nottingham Ningbo China; Shenzhen University; Shenzhen University; National University of Defense Technology - China
+RP Qiu, GP (corresponding author), Univ Nottingham, Sch Comp Sci, Nottingham NG8 1BB, England.
+EM guoping.qiu@nottingham.ac.uk
+FU National Natural Science Foundation of China [41871329]; Science and Technology Planning Project of Guangdong Province [2018B020207005]; Shenzhen Scientific Research and Development Funding Program [JCYJ20170818092931604]; Horizon Centre for Doctoral Training at the University of Nottingham (RCUK) [EP/L015463/1]
+CR [Anonymous], 2019, ARXIV190101049, V0, P0
+   [Anonymous], 2009, ROBOTICS SCI SYSTEMS, V0, P0
+   Bao JL, 2016, IEEE INT VEH SYM, V0, PP927, DOI 10.1109/IVS.2016.7535499
+   Bay H, 2008, COMPUT VIS IMAGE UND, V110, P346, DOI 10.1016/j.cviu.2007.09.014
+   Brachmann E, 2017, PROC CVPR IEEE, V0, PP2492, DOI 10.1109/CVPR.2017.267
+   Cadena C, 2016, ROBOTICS: SCIENCE AND SYSTEMS XII, V0, P0
+   Cao YZH, 2018, IEEE T CIRC SYST VID, V28, P3174, DOI 10.1109/TCSVT.2017.2740321
+   Caselitz T, 2016, 2016 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS (IROS 2016), V0, PP1926, DOI 10.1109/IROS.2016.7759304
+   Eigen D, 2014, ADV NEUR IN, V27, P0
+   Eigen D, 2015, IEEE I CONF COMP VIS, V0, PP2650, DOI 10.1109/ICCV.2015.304
+   Forster C, 2013, IEEE INT C INT ROBOT, V0, PP3971, DOI 10.1109/IROS.2013.6696924
+   Frahm J.-M, 2016, EUR C COMP VIS ECCV, V0, P0
+   Fu H, 2018, PROC CVPR IEEE, V0, PP2002, DOI 10.1109/CVPR.2018.00214
+   Garg R, 2016, LECT NOTES COMPUT SC, V9912, P740, DOI 10.1007/978-3-319-46484-8_45
+   Godard C, 2017, PROC CVPR IEEE, V0, PP6602, DOI 10.1109/CVPR.2017.699
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Karsch K, 2014, IEEE T PATTERN ANAL, V36, P2144, DOI 10.1109/TPAMI.2014.2316835
+   Kendall A, 2017, PROC CVPR IEEE, V0, PP6555, DOI 10.1109/CVPR.2017.694
+   Kendall A, 2015, IEEE I CONF COMP VIS, V0, PP2938, DOI 10.1109/ICCV.2015.336
+   Konrad J, 2013, IEEE T IMAGE PROCESS, V22, P3485, DOI 10.1109/TIP.2013.2270375
+   Krose BJA, 2001, IMAGE VISION COMPUT, V19, P381, DOI 10.1016/S0262-8856(00)00086-X
+   Kuznietsov Y, 2017, PROC CVPR IEEE, V0, PP2215, DOI 10.1109/CVPR.2017.238
+   Laina I, 2016, INT CONF 3D VISION, V0, PP239, DOI 10.1109/3DV.2016.32
+   Laskar Z, 2017, IEEE INT CONF COMP V, V0, PP920, DOI 10.1109/ICCVW.2017.113
+   Li B, 2015, PROC CVPR IEEE, V0, PP1119, DOI 10.1109/CVPR.2015.7298715
+   Liao Y, 2017, IEEE INT CON MULTI, V0, PP859, DOI 10.1109/ICME.2017.8019358
+   Lim H, 2012, PROC CVPR IEEE, V0, PP1043, DOI 10.1109/CVPR.2012.6247782
+   Liu BY, 2010, PROC CVPR IEEE, V0, PP1253, DOI 10.1109/CVPR.2010.5539823
+   Liu FY, 2016, IEEE T PATTERN ANAL, V38, P2024, DOI 10.1109/TPAMI.2015.2505283
+   Liu MM, 2014, PROC CVPR IEEE, V0, PP716, DOI 10.1109/CVPR.2014.97
+   Lowe D. G., 1999, PROCEEDINGS OF THE SEVENTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP1150, DOI 10.1109/ICCV.1999.790410
+   Ma FC, 2018, IEEE INT CONF ROBOT, V0, P4796
+   Menegatti E, 2004, ROBOT AUTON SYST, V48, P17, DOI 10.1016/j.robot.2004.05.003
+   Murillo A. C., 2009, 2009 IEEE 12TH INTERNATIONAL CONFERENCE ON COMPUTER VISION WORKSHOPS, V0, P2196, DOI 10.1109/ICCVW.2009.5457552
+   Neubert P, 2017, IEEE INT C INT ROBOT, V0, P2492
+   Newcombe RA, 2011, INT SYM MIX AUGMENT, V0, PP127, DOI 10.1109/ISMAR.2011.6092378
+   Roy A, 2016, PROC CVPR IEEE, V0, PP5506, DOI 10.1109/CVPR.2016.594
+   Rublee E, 2011, IEEE I CONF COMP VIS, V0, PP2564, DOI 10.1109/ICCV.2011.6126544
+   Sattler T, 2017, PROC CVPR IEEE, V0, PP6175, DOI 10.1109/CVPR.2017.654
+   Sattler T, 2017, IEEE T PATTERN ANAL, V39, P1744, DOI 10.1109/TPAMI.2016.2611662
+   Sattler T, 2012, LECT NOTES COMPUT SC, V7572, P752, DOI 10.1007/978-3-642-33718-5_54
+   Saxena A., 2006, ADV NEURAL INFORM PR, V0, PP1161, DOI 10.1109/TPAMI.2015.2505283a
+   Shotton J, 2013, PROC CVPR IEEE, V0, PP2930, DOI 10.1109/CVPR.2013.377
+   Silberman N, 2012, LECT NOTES COMPUT SC, V7576, P746, DOI 10.1007/978-3-642-33715-4_54
+   Stewart AD, 2012, IEEE INT CONF ROBOT, V0, PP2625, DOI 10.1109/ICRA.2012.6224750
+   Sun X, 2017, P IEEE C COMP VIS PA, V0, P7436
+   Taira H, 2018, PROC CVPR IEEE, V0, PP7199, DOI 10.1109/CVPR.2018.00752
+   Uhrig J, 2017, INT CONF 3D VISION, V0, PP11, DOI 10.1109/3DV.2017.00012
+   Wang JQ, 2006, IEEE T SYST MAN CY B, V36, P413, DOI 10.1109/TSMCB.2005.859085
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Wolcott RW, 2014, IEEE INT C INT ROBOT, V0, PP176, DOI 10.1109/IROS.2014.6942558
+   Xu D, 2017, PROC CVPR IEEE, V0, PP161, DOI 10.1109/CVPR.2017.25
+   Xu YQ, 2017, IEEE INT VEH SYM, V0, PP487, DOI 10.1109/IVS.2017.7995765
+   Zhang YD, 2018, PROC CVPR IEEE, V0, PP175, DOI 10.1109/CVPR.2018.00026
+   Zhou TH, 2017, PROC CVPR IEEE, V0, PP6612, DOI 10.1109/CVPR.2017.700
+NR 58
+TC 10
+Z9 11
+U1 3
+U2 24
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD MAR 15
+PY 2020
+VL 161
+IS 
+BP 13
+EP 26
+DI 10.1016/j.isprsjprs.2020.01.008
+PG 14
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA KR8EU
+UT WOS:000517849600002
+DA 2023-04-26
+ER
+
+PT J
+AU Earp, S
+   Curtis, A
+   Zhang, X
+   Hansteen, F
+AF Earp, S.
+   Curtis, A.
+   Zhang, X.
+   Hansteen, F.
+TI Probabilistic neural network tomography across Grane field (North Sea) from surface wave dispersion data
+SO GEOPHYSICAL JOURNAL INTERNATIONAL
+LA English
+DT Article
+DE Inverse theory; Neural networks; fuzzy logic; Surface waves
+ID shear-velocity structure; seismic tomography; upper-mantle; parameter-estimation; inverse problems; picking; model; crust; love
+AB Surface wave tomography uses measured dispersion properties of surface waves to infer the spatial distribution of subsurface properties such as shear wave velocities. These properties can be estimated vertically below any geographical location at which surface wave dispersion data are available. As the inversion is significantly non-linear, Monte Carlo methods are often used to invert dispersion curves for shear wave velocity profiles with depth to give a probabilistic solution. Such methods provide uncertainty information but are computationally expensive. Neural network (NN) based inversion provides a more efficient way to obtain probabilistic solutions when those solutions are required beneath many geographical locations. Unlike Monte Carlo methods, once a network has been trained it can be applied rapidly to perform any number of inversions. We train a class of NNs called mixture density networks (MDNs), to invert dispersion curves for shearwave velocity models and their non-linearized uncertainty. MDNs are able to produce fully probabilistic solutions in the form of weighted sums of multivariate analytic kernels such as Gaussians, and we show that including data uncertainties as additional inputs to the MDN gives substantially more reliable velocity estimates when data contains significant noise. The networks were applied to data from the Grane field in the Norwegian North sea to produce shear wave velocity maps at several depth levels. Post-training we obtained probabilistic velocity profiles with depth beneath 26 772 locations to produce a 3-D velocity model in 21 s on a standard desktop computer. This method is therefore ideally suited for rapid, repeated 3-D subsurface imaging and monitoring.
+C1 [Earp, S.; Curtis, A.; Zhang, X.] Univ Edinburgh, Sch Geosci, Edinburgh, Midlothian, Scotland.
+   [Curtis, A.] Swiss Fed Inst Technol, Inst Geophys, Zurich, Switzerland.
+   [Hansteen, F.] Equinor ASA, Bergen, Norway.
+C3 University of Edinburgh; Swiss Federal Institutes of Technology Domain; ETH Zurich; Equinor
+RP Earp, S (corresponding author), Univ Edinburgh, Sch Geosci, Edinburgh, Midlothian, Scotland.
+EM stephanie.earp@ed.ac.uk
+FU Equinor; Schlumberger Cambridge Research; Total
+CR [Anonymous], 2005, INVERSE PROBLEM THEO, V0, P0
+   [Anonymous], 1995, NEURAL NETWORKS PATT, V0, P0
+   [Anonymous], 2010, P 13 INT C ARTIFICIA, V0, P0
+   Araya-Polo Mauricio, 2017, LEADING EDGE, V36, P208, DOI 10.1190/tle360300208.1
+   Araya-Polo M., 2018, LEAD EDGE, V37, P58, DOI 10.1190/TLE37010058.1
+   Aristodemou E, 2005, GEOPHYS PROSPECT, V53, P103, DOI 10.1111/j.1365-2478.2005.00432.x
+   Bergstra James, 2015, COMPUTATIONAL SCIENCE AND DISCOVERY, V8, P0, DOI 10.1088/1749-4699/8/1/014008
+   Bodin T, 2009, GEOPHYS J INT, V178, P1411, DOI 10.1111/J.1365-246X.2009.04226.X
+   Brocher TA, 2005, B SEISMOL SOC AM, V95, P2081, DOI 10.1785/0120050077
+   Bussat Sascha, 2011, LEADING EDGE, V30, P514, DOI 10.1190/1.3589107
+   Calderon-Macias C, 2000, GEOPHYS PROSPECT, V48, P21, DOI 10.1046/j.1365-2478.2000.00171.x
+   Cao RK, 2020, GEOPHYSICS, V85, PKS13, DOI 10.1190/GEO2018-0562.1
+   CASTAGNA JP, 1985, GEOPHYSICS, V50, P571, DOI 10.1190/1.1441933
+   Curtis A, 1997, J GEOPHYS RES-SOL EA, V102, P11789, DOI 10.1029/96JB03182
+   Curtis A, 1998, J GEOPHYS RES-SOL EA, V103, P26919, DOI 10.1029/98JB00903
+   de Ridder Sjoerd, 2011, LEADING EDGE, V30, P506, DOI 10.1190/1.3589108
+   de Wit RWL, 2013, GEOPHYS J INT, V195, P408, DOI 10.1093/gji/ggt220
+   Devilee RJR, 1999, J GEOPHYS RES-SOL EA, V104, P28841, DOI 10.1029/1999JB900273
+   Dietterich TG, 2000, LECT NOTES COMPUT SC, V1857, P1, DOI 10.1007/3-540-45014-9_1
+   Galetti E, 2017, GEOPHYS J INT, V208, P36, DOI 10.1093/gji/ggw286
+   Galetti E, 2015, PHYS REV LETT, V114, P0, DOI 10.1103/PhysRevLett.114.148501
+   Kaufl P, 2015, B SEISMOL SOC AM, V105, P2299, DOI 10.1785/0120150010
+   Kaufl P, 2016, GEOPHYS J INT, V205, P1710, DOI 10.1093/gji/ggw108
+   Kaufl P, 2014, GEOPHYS J INT, V196, P1676, DOI 10.1093/gji/ggt473
+   Lei Huang, 2017, LEADING EDGE, V36, P249, DOI 10.1190/tle360300249.1
+   Maiti S, 2007, GEOPHYS J INT, V169, P733, DOI 10.1111/j.1365-246X.2007.03342.x
+   MCCORMACK MD, 1993, GEOPHYSICS, V58, P67, DOI 10.1190/1.1443352
+   Meier U, 2007, GEOPHYS RES LETT, V34, P0, DOI 10.1029/2007GL030989
+   Meier U, 2009, EARTH PLANET SC LETT, V282, P91, DOI 10.1016/j.epsl.2009.03.004
+   Meier U, 2007, GEOPHYS J INT, V169, P706, DOI 10.1111/j.1365-246X.2007.03373.x
+   MONTAGNER JP, 1988, GEOPHYS J INT, V94, P309, DOI 10.1111/j.1365-246X.1988.tb05904.x
+   Mordret A, 2014, GEOPHYS J INT, V198, P1514, DOI 10.1093/gji/ggu217
+   MURAT ME, 1992, GEOPHYS PROSPECT, V40, P587, DOI 10.1111/j.1365-2478.1992.tb00543.x
+   Rawlinson N, 2014, ADV GEOPHYS, V55, P1, DOI 10.1016/bs.agph.2014.08.001
+   Ritzwoller MH, 2002, J GEOPHYS RES-SOL EA, V107, P0, DOI 10.1029/2002JB001777
+   Ritzwoller MH, 1998, J GEOPHYS RES-SOL EA, V103, P4839, DOI 10.1029/97JB02622
+   ROTH G, 1994, J GEOPHYS RES-SOL EA, V99, P6753, DOI 10.1029/93JB01563
+   SAITO M, 1988, NEC RES DEV, V0, P82
+   Shahraeeni MS, 2012, GEOPHYSICS, V77, PO1, DOI 10.1190/GEO2011-0340.1
+   Shahraeeni MS, 2011, GEOPHYSICS, V76, PE45, DOI 10.1190/1.3540628
+   Shapiro NM, 2002, GEOPHYS J INT, V151, P88, DOI 10.1046/j.1365-246X.2002.01742.x
+   Simons FJ, 2002, GEOPHYS J INT, V151, P738, DOI 10.1046/j.1365-246X.2002.01787.x
+   Stork AL, 2018, INT J GREENH GAS CON, V71, P20, DOI 10.1016/j.ijggc.2018.02.007
+   Thompson M., 2015, P 77 EAGE C EXH 2015, V0, P0
+   TRAMPERT J, 1995, GEOPHYS J INT, V122, P675, DOI 10.1111/j.1365-246X.1995.tb07019.x
+   Villasenor A, 2001, PHYS EARTH PLANET IN, V123, P169, DOI 10.1016/S0031-9201(00)00208-9
+   WOODHOUSE JH, 1984, J GEOPHYS RES, V89, P5953, DOI 10.1029/JB089iB07p05953
+   Zhang XH, 2020, MAR LIFE SCI TECH, V2, P231, DOI 10.1007/s42995-020-00037-z
+   Zhang X, 2018, GEOPHYS J INT, V215, P1644, DOI 10.1093/gji/ggy362
+   Zhou Y, 2006, J GEOPHYS RES-SOL EA, V111, P0, DOI 10.1029/2005JB003677
+NR 50
+TC 15
+Z9 15
+U1 2
+U2 8
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 0956-540X
+EI 1365-246X
+J9 GEOPHYS J INT
+JI Geophys. J. Int.
+PD DEC 15
+PY 2020
+VL 223
+IS 3
+BP 1741
+EP 1757
+DI 10.1093/gji/ggaa328
+PG 17
+WC Geochemistry & Geophysics
+SC Geochemistry & Geophysics
+GA PP6PJ
+UT WOS:000605982100018
+DA 2023-04-26
+ER
+
+PT J
+AU Bui, QT
+   Nguyen, QH
+   Nguyen, XL
+   Pham, VD
+   Nguyen, HD
+   Pham, VM
+AF Quang-Thanh Bui
+   Quoc-Huy Nguyen
+   Xuan Linh Nguyen
+   Vu Dong Pham
+   Huu Duy Nguyen
+   Van-Manh Pham
+TI Verification of novel integrations of swarm intelligence algorithms into deep learning neural network for flood susceptibility mapping
+SO JOURNAL OF HYDROLOGY
+LA English
+DT Article
+DE Swarm Intelligence Optimization Algorithm; Deep Learning Neural Network; Flash flood
+ID optimization algorithm; management
+AB This study proposed and compared several novel hybrid models that combined swarm intelligence algorithms and Deep Learning Neural Network for flood susceptibility mapping. Lai Chau, a province in the northwest mountainous region of Vietnam was chosen as a case study since it had recently undergone severe flashflood in 2018. For this purpose, numerical predictor variables such as topographically derived factors (Digital Elevation Model, Aspect, Slope, Curvature, Topographic Wetness Index), climatic variables (Rain), and hydrological variables (stream density, stream power index, distance to river) and multiple remote sensing indices (Normalized Difference Vegetation Index, Normalized Difference Buildup Index) were used. These predictor variables were selected because they are globally collectible and reproducible. The performances of these models were evaluated by using common statistical indicators, namely Root Mean Square Error, Mean Absolute Error, Overall Accuracy and Area under Receiving Operating Characteristics, and the statistical test of differences. The results showed that the proposed swarm intelligence models outperformed benchmarked methods, namely Particle Swarm Optimization, Support Vector Machine, Random Forest in almost all comparing indicators. It is suggested that proposed models are more robust than the classifiers, which were used for benchmarking and they are good alternatives for flood susceptibility mapping given the availability of dataset.
+C1 [Quang-Thanh Bui; Quoc-Huy Nguyen; Vu Dong Pham] VNU Univ Sci, Fac Geog, Ctr Appl Res Remote Sensing & GIS CARGIS, 334 Nguyen Trai, Hanoi, Vietnam.
+   [Xuan Linh Nguyen; Huu Duy Nguyen; Van-Manh Pham] VNU Univ Sci, Fac Geog, 334 Nguyen Trai, Hanoi, Vietnam.
+C3 Vietnam National University Hanoi; Vietnam National University Hanoi
+RP Bui, QT (corresponding author), VNU Univ Sci, Fac Geog, Ctr Appl Res Remote Sensing & GIS CARGIS, 334 Nguyen Trai, Hanoi, Vietnam.
+EM thanhbq@vnu.edu.vn; huyquoc2311@gmail.com; thayninh@gmail.com; pvd2741996@gmail.com; huuduy151189@gmail.com; manh10101984@gmail.com
+FU Vietnam National Foundation for Science and Technology Development (NAFOSTED) [105.99-2016.05]
+CR Cao C, 2016, SUSTAINABILITY-BASEL, V8, P0, DOI 10.3390/su8090948
+   Bui DT, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-33755-7
+   Bui DT, 2016, J HYDROL, V540, P317, DOI 10.1016/j.jhydrol.2016.06.027
+   Han H, 2016, INT CONF SOFTW ENG, V0, PP219, DOI 10.1109/ICSESS.2016.7883053
+   Herold S, 2012, INT J APPL GEOSPAT R, V3, P24, DOI 10.4018/jagr.2012040103
+   Jonkman SN, 2012, WATER-SUI, V4, P785, DOI 10.3390/w4040785
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   Lanaras C, 2018, ISPRS J PHOTOGRAMM, V146, P305, DOI 10.1016/j.isprsjprs.2018.09.018
+   Li YS, 2018, ISPRS J PHOTOGRAMM, V146, P182, DOI 10.1016/j.isprsjprs.2018.09.014
+   Mirjalili S, 2014, ADV ENG SOFTW, V69, P46, DOI 10.1016/j.advengsoft.2013.12.007
+   Ouma YO, 2014, WATER-SUI, V6, P1515, DOI 10.3390/w6061515
+   Ngo PTT, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18113704
+   Bui QT, 2019, CAN J REMOTE SENS, V45, P42, DOI 10.1080/07038992.2019.1610369
+   Bui QT, 2019, INT J DIGIT EARTH, V12, P1118, DOI 10.1080/17538947.2018.1542039
+   Bui QT, 2019, INT J REMOTE SENS, V40, P5078, DOI 10.1080/01431161.2019.1578000
+   Bui QT, 2019, GEOCARTO INT, V34, P1300, DOI 10.1080/10106049.2018.1478890
+   Bui QT, 2019, GEOMAT NAT HAZ RISK, V10, P136, DOI 10.1080/19475705.2018.1509902
+   Rahmati O, 2016, GEOCARTO INT, V31, P42, DOI 10.1080/10106049.2015.1041559
+   Rere LMR, 2016, COMPUT INTEL NEUROSC, V2016, P0, DOI 10.1155/2016/1537325
+   Samanta RK, 2018, MODEL EARTH SYST ENV, V4, P395, DOI 10.1007/s40808-018-0427-z
+   Samanta S, 2018, APPL WATER SCI, V8, P0, DOI 10.1007/s13201-018-0710-1
+   Termeh SVR, 2018, SCI TOTAL ENVIRON, V615, P438, DOI 10.1016/j.scitotenv.2017.09.262
+   Wolpert D. H., 1997, IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION, V1, P67, DOI 10.1109/4235.585893
+   Yu JJQ, 2015, APPL SOFT COMPUT, V30, P614, DOI 10.1016/j.asoc.2015.02.014
+   Zhao G, 2018, SCI TOTAL ENVIRON, V615, P1133, DOI 10.1016/j.scitotenv.2017.10.037
+NR 31
+TC 94
+Z9 95
+U1 13
+U2 75
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0022-1694
+EI 1879-2707
+J9 J HYDROL
+JI J. Hydrol.
+PD FEB 15
+PY 2020
+VL 581
+IS 
+BP 
+EP 
+DI 10.1016/j.jhydrol.2019.124379
+PG 11
+WC Engineering, Civil; Geosciences, Multidisciplinary; Water Resources
+SC Engineering; Geology; Water Resources
+GA KN3RP
+UT WOS:000514758300009
+DA 2023-04-26
+ER
+
+PT J
+AU Feng, Y
+   Brenner, C
+   Sester, M
+AF Feng, Yu
+   Brenner, Claus
+   Sester, Monika
+TI Flood severity mapping from Volunteered Geographic Information by interpreting water level from images containing people: A case study of Hurricane Harvey
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Flood severity mapping; Social media; Crowdsourcing; Volunteered geographic information; Deep convolutional neural networks; Hurricane Harvey
+ID social media; intensity; lessons
+AB With increasing urbanization, in recent years there has been a growing interest and need in monitoring and analyzing urban flood events. Social media, as a new data source, can provide real-time information for flood monitoring. The social media posts with locations are often referred to as Volunteered Geographic Information (VGI), which can reveal the spatial pattern of such events. Since more images are shared on social media than ever before, recent research focused on the extraction of flood-related posts by analyzing images in addition to texts. Apart from merely classifying posts as flood relevant or not, more detailed information, e.g. the flood severity, can also be extracted based on image interpretation. However, it has been less tackled and has not yet been applied for flood severity mapping. In this paper, we propose a novel three-step process to extract and map flood severity information. First, flood relevant images are retrieved with the help of pre-trained convolutional neural networks as feature extractors. Second, the images containing people are further classified into four severity levels by observing the relationship between body parts and their partial inundation, i.e. images are classified according to the water level with respect to different body parts, namely ankle, knee, hip, and chest. Lastly, locations of the Tweets are used for generating a map of estimated flood extent and severity. This process was applied to an image dataset collected during Hurricane Harvey in 2017, as a proof of concept. The results show that VGI can be used as a supplement to remote sensing observations for flood extent mapping and is beneficial, especially for urban areas, where the infrastructure is often occluding water. Based on the extracted water level information, an integrated overview of flood severity can be provided for the early stages of emergency response.
+C1 [Feng, Yu; Brenner, Claus; Sester, Monika] Leibniz Univ Hannover, Inst Cartog & Geoinformat, Appelstr 9a, D-30167 Hannover, Germany.
+C3 Leibniz University Hannover
+RP Feng, Y (corresponding author), Leibniz Univ Hannover, Inst Cartog & Geoinformat, Appelstr 9a, D-30167 Hannover, Germany.
+EM yu.feng@ikg.uni-hannover.de
+FU BMBF [033W105A, 03G0846A]; NVIDIA Corporation
+CR Abdulla W., 2017, GITHUB REPOSITORY, V0, P0
+   Ahmad K, 2019, SIGNAL PROCESS-IMAGE, V74, P110, DOI 10.1016/j.image.2019.02.002
+   Ahmad K, 2018, PROCEEDINGS 2018 IEEE 13TH IMAGE, VIDEO, P0
+   Akoglu H, 2018, TURK J EMERG MED, V18, P91, DOI 10.1016/j.tjem.2018.08.001
+   [Anonymous], 2017, IEEE I CONF COMP VIS, V0, P0, DOI DOI 10.1109/ICCV.2017.322
+   Assumpcao TH, 2018, HYDROL EARTH SYST SC, V22, P1473, DOI 10.5194/hess-22-1473-2018
+   Atkinson GM, 2007, SEISMOL RES LETT, V78, P362, DOI 10.1785/gssrl.78.3.362
+   Avgerinakis K, 2017, MEDIAEVAL, V0, P0
+   Barz B., 2018, ARCH DATA SCI A, V5, P0
+   Bischke B., 2017, PROC MEDIAEVAL WORKS, V0, P1
+   Bischke B., 2018, P MEDIAEVAL 2018 WOR, V2283, P4
+   Bischke B., 2017, P MEDIAEVAL 2017 WOR, V0, P0
+   Bojanowski P., 2017, T ASSOC COMPUT LING, V0, P0, DOI DOI 10.1162/TACL
+   Bureau U.C., 2019, TIG 2019 AR, V0, P0
+   Cao Z., 2018, ARXIV181208008CS, V0, P0
+   Cattaneo D, 2019, IEEE INT C INTELL TR, V0, PP1283, DOI 10.1109/ITSC.2019.8917470
+   Chaudhary P., 2019, ISPRS ANN PHOTOGRAMM, V0, PP5, DOI 10.5194/isprs-annals-IV-2-W5-5-2019
+   Chen EQ, 2015, J TRANSL MED, V13, P0, DOI 10.1186/s12967-015-0380-9
+   Chen K., 2013, ADV NEURAL INF PROCE, V0, P0
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen T., 2016, KDD16 P 22 ACM, V0, PP785, DOI 10.1145/2939672.2939785
+   Cowan J., 2017, 911 WAS OVERLOADED D, V0, P0
+   Cvetojevic S., 2016, GI FORUM, V4, P191, DOI 10.1553/giscience2016_01_s191
+   Dang XB, 2017, PROCEEDINGS OF THE ASME INTERNATIONAL MECHANICAL ENGINEERING CONGRESS AND EXPOSITION, V0, P0
+   Dao MS, 2018, ICMR 18: PROCEEDINGS OF THE 2018 ACM INTERNATIONAL CONFERENCE ON MULTIMEDIA RETRIEVAL, V0, PP266, DOI 10.1145/3206025.3206047
+   Degrossi L.C., 2014, 570575 SEKE, V0, P570
+   DFO, 2017, DFO FLOOD EV 4510 HU, V0, P0
+   Eilander D, 2016, PROCEDIA ENGINEER, V154, P176, DOI 10.1016/j.proeng.2016.07.441
+   FEMA, 2018, HYDROSHARE, V0, P0, DOI DOI 10.4211/ hs.73c4f3dcff884a6da2c0982df769987c
+   FEMA, 2019, FEMA GOV NAT FLOOD I, V0, P0
+   FEMA, 2018, HYDROSHARE, V0, P0, DOI DOI 10.4211/ hs.165e2c3e335d40949dbf501c97827837
+   Feng QL, 2015, WATER-SUI, V7, P1437, DOI 10.3390/w7041437
+   Feng Y., 2018, P MEDIAEVAL 2018 WOR, V0, P0
+   Feng Y, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7020039
+   Fohringer J, 2015, NAT HAZARD EARTH SYS, V15, P2725, DOI 10.5194/nhess-15-2725-2015
+   Fuchs G, 2013, P 2 ACM SIGSPATIAL I, V0, PP31, DOI 10.1145/2534732.2534741
+   Goodchild MF, 2007, GEOJOURNAL, V69, P211, DOI 10.1007/s10708-007-9111-y
+   Hanif M., 2017, P MEDIAEVAL 2017 WOR, V0, P0
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Heipke C, 2010, ISPRS J PHOTOGRAMM, V65, P550, DOI 10.1016/j.isprsjprs.2010.06.005
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Huang X., 2019, P ICA, V2, P45, DOI 10.5194/ica-proc-2-45-2019.
+   Huang X, 2019, INT J DIGIT EARTH, V12, P1248, DOI 10.1080/17538947.2018.1523956
+   Huang X, 2018, IEEE T GEOSCI REMOTE, V56, P4691, DOI 10.1109/TGRS.2018.2835306
+   Iyengar R., 2015, FACEBOOK HAS ACTIVAT, V0, P0
+   Kalliatakis G., 2017, KERAS VGG16 PLACES36, V0, P0
+   Kutija V., 2014, 11 INT C HYDR NEW YO, V0, P0
+   Le Coz J, 2016, J HYDROL, V541, P766, DOI 10.1016/j.jhydrol.2016.07.036
+   Li LY, 2015, ISPRS J PHOTOGRAMM, V101, P10, DOI 10.1016/j.isprsjprs.2014.11.006
+   Li Y, 2019, ISPRS J PHOTOGRAMM, V152, P178, DOI 10.1016/j.isprsjprs.2019.04.014
+   Li ZL, 2018, CARTOGR GEOGR INF SC, V45, P97, DOI 10.1080/15230406.2016.1271356
+   Lin TY, 2014, LECT NOTES COMPUT SC, V8693, P740, DOI 10.1007/978-3-319-10602-1_48
+   Lopez-Fuentes L., 2017, P MEDIAEVAL WORKSH, V0, P0
+   Lowry CS, 2013, GROUND WATER, V51, P151, DOI 10.1111/j.1745-6584.2012.00956.x
+   Lu CW, 2014, PROC CVPR IEEE, V0, PP3718, DOI 10.1109/CVPR.2014.475
+   Manning C.D., 2008, INTRO INFORM RETRIEV, V0, P107
+   Mard J., 2018, URBANIZATION EFFECTS, V0, P13167
+   Martinis S, 2015, ISPRS J PHOTOGRAMM, V104, P203, DOI 10.1016/j.isprsjprs.2014.07.014
+   Mingxing T., 2019, PR MACH LEARN RES, V0, P0
+   Mukaka MM, 2012, MALAWI MED J, V24, P69
+   National Weather Service, 2021, COSTL US TROP CYCL T, V0, P0
+   Negrey N., 2018, SERVING REAL TIME SC, V0, P0
+   Nielsen J., 2006, 90 9 1 RULE PARTICIP, V0, P0
+   Ning H, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9020104
+   Ogie RI, 2019, COMPUT ENVIRON URBAN, V73, P108, DOI 10.1016/j.compenvurbsys.2018.09.002
+   OpenPose, 2018, OPENPOSE DEM OUTP, V0, P0
+   Pereira J, 2019, PROCEEDINGS OF THE 13TH WORKSHOP ON GEOGRAPHIC INFORMATION RETRIEVAL (GIR19), V0, P0, DOI DOI 10.1017/S0033291719002605
+   Quan Khanh-An C., 2020, ICMR 20: PROCEEDINGS OF THE 2020 INTERNATIONAL CONFERENCE ON MULTIMEDIA RETRIEVAL, V0, PP479, DOI 10.1145/3372278.3390704
+   Rosser JF, 2017, NAT HAZARDS, V87, P103, DOI 10.1007/s11069-017-2755-0
+   Sander J, 1998, DATA MIN KNOWL DISC, V2, P169, DOI 10.1023/A:1009745219419
+   Sarker C, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192331
+   See L, 2019, FRONT EARTH SC-SWITZ, V7, P0, DOI 10.3389/feart.2019.00044
+   Singh KV, 2015, GEOCARTO INT, V30, P650, DOI 10.1080/10106049.2014.965757
+   Smith L, 2017, J FLOOD RISK MANAG, V10, P370, DOI 10.1111/jfr3.12154
+   Son NT, 2013, ISPRS J PHOTOGRAMM, V86, P77, DOI 10.1016/j.isprsjprs.2013.09.008
+   Szegedy, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Szegedy C, 2017, AAAI CONF ARTIF INTE, V0, P4278
+   Temple-Watts P., 2012, REMOTE SENS SPAT INF, V1, P251, DOI 10.5194/ISPRSANNALS-I-4-251-2012
+   Tensorflow, 2019, TENS DEEPL MOD ZOO, V0, P0
+   Tkachenko N., 2017, P MEDIAEVAL 2017 WOR, V0, P0
+   U.S. Census Bureau, 2018, CART BOUND FIL SHAP, V0, P0
+   U.S. Census Bureau, 2015, CENS TRACTS, V0, P0
+   Wang Xiaobin, 2019, SEMEVAL 2019, V0, P917
+   Xing H. L., 2014, BMC PLANT BIOL, V14, P1, DOI 10.1186/s12870-014-0327-y
+   Yu CQ, 2018, LECT NOTES COMPUT SC, V11217, P334, DOI 10.1007/978-3-030-01261-8_20
+   Zhao Z., 2017, P MEDIAEVAL 2017 WOR, V0, P0
+   Zhou BL, 2017, PROC CVPR IEEE, V0, PP5122, DOI 10.1109/CVPR.2017.544
+   Zhou BL, 2018, IEEE T PATTERN ANAL, V40, P1452, DOI 10.1109/TPAMI.2017.2723009
+NR 90
+TC 19
+Z9 19
+U1 5
+U2 26
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD NOV 15
+PY 2020
+VL 169
+IS 
+BP 301
+EP 319
+DI 10.1016/j.isprsjprs.2020.09.011
+PG 19
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OJ8VJ
+UT WOS:000584231200024
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, CJ
+   Krylov, VA
+   Kane, P
+   Kavanagh, G
+   Dahyot, R
+AF Liu, Chao-Jung
+   Krylov, Vladimir A.
+   Kane, Paul
+   Kavanagh, Geraldine
+   Dahyot, Rozenn
+TI IM2ELEVATION: Building Height Estimation from Single-View Aerial Imagery
+SO REMOTE SENSING
+LA English
+DT Article
+DE building height estimation; digital surface model; optical aerial imagery; aerial Lidar; image coregistration; convolutional neural networks
+ID automatic registration; optical imagery; lidar
+AB Estimation of the Digital Surface Model (DSM) and building heights from single-view aerial imagery is a challenging inherently ill-posed problem that we address in this paper by resorting to machine learning. We propose an end-to-end trainable convolutional-deconvolutional deep neural network architecture that enables learning mapping from a single aerial imagery to a DSM for analysis of urban scenes. We perform multisensor fusion of aerial optical and aerial light detection and ranging (Lidar) data to prepare the training data for our pipeline. The dataset quality is key to successful estimation performance. Typically, a substantial amount of misregistration artifacts are present due to georeferencing/projection errors, sensor calibration inaccuracies, and scene changes between acquisitions. To overcome these issues, we propose a registration procedure to improve Lidar and optical data alignment that relies on Mutual Information, followed by Hough transform-based validation step to adjust misregistered image patches. We validate our building height estimation model on a high-resolution dataset captured over central Dublin, Ireland: Lidar point cloud of 2015 and optical aerial images from 2017. These data allow us to validate the proposed registration procedure and perform 3D model reconstruction from single-view aerial imagery. We also report state-of-the-art performance of our proposed architecture on several popular DSM estimation datasets.
+C1 [Liu, Chao-Jung; Dahyot, Rozenn] Trinity Coll Dublin, Sch Comp Sci & Stat, Dublin 2, Ireland.
+   [Krylov, Vladimir A.] Dublin City Univ, Sch Math Sci, Dublin 9, Ireland.
+   [Kane, Paul; Kavanagh, Geraldine] Ordnance Survey Ireland, Dublin 8, Ireland.
+C3 Trinity College Dublin; Dublin City University
+RP Krylov, VA (corresponding author), Dublin City Univ, Sch Math Sci, Dublin 9, Ireland.
+EM chliu@tcd.ie; vladimir.krylov@dcu.ie; paul.kane@osi.ie; geraldine.kavanagh@osi.ie; rozenn.dahyot@tcd.ie
+FU Ordnance Survey Ireland; Science Foundation Ireland at the ADAPT SFI Research Centre at Trinity College Dublin [13/RC/2106]; Science Foundation Ireland at the ADAPT SFI Research Centre at Dublin City University [13/RC/2106]; Science Foundation Ireland through the SFI Research Centres Programme; European Regional Development Fund (ERDF) [13/RC/2106]
+CR Ahmad K, 2019, SIGNAL PROCESS-IMAGE, V74, P110, DOI 10.1016/j.image.2019.02.002
+   Alidoost F, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192219
+   Amirkolaee HA, 2019, ISPRS J PHOTOGRAMM, V149, P50, DOI 10.1016/j.isprsjprs.2019.01.013
+   [Anonymous], 2020, GEOWEEK NEWS 0402, V0, P0
+   Benedek C, 2012, IEEE T PATTERN ANAL, V34, P33, DOI 10.1109/TPAMI.2011.94
+   Bittner K, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121926
+   Bosch M, 2019, IEEE WINT CONF APPL, V0, PP1524, DOI 10.1109/WACV.2019.00167
+   Boucheny C., 2009, THESIS, V0, P0
+   Bulbul A, 2017, COMPUT GRAPH-UK, V63, P28, DOI 10.1016/j.cag.2017.01.005
+   Byrne J., 2017, TRINITY COLL DUBLIN, V0, P0
+   Cao W, 2020, PROCEEDINGS OF THE 18TH USENIX CONFERENCE ON FILE AND STORAGE TECHNOLOGIES, V0, P29
+   Carvalho M, 2020, IEEE GEOSCI REMOTE S, V17, P1391, DOI 10.1109/LGRS.2019.2947783
+   Chen H., 2019, ARXIV190805263, V0, P0
+   Drozdzal M, 2016, LECT NOTES COMPUT SC, V10008, P179, DOI 10.1007/978-3-319-46976-8_19
+   Eigen D., 2014, ADV NEURAL INFORM PR, V0, PP2366, DOI 10.5555/2969033.2969091
+   Eigen D, 2015, IEEE I CONF COMP VIS, V0, PP2650, DOI 10.1109/ICCV.2015.304
+   Facciolo G, 2017, IEEE COMPUT SOC CONF, V0, PP1542, DOI 10.1109/CVPRW.2017.198
+   FORTUNE S, 1987, ALGORITHMICA, V2, P153, DOI 10.1007/BF01840357
+   Ghamisi P, 2018, IEEE GEOSCI REMOTE S, V15, P794, DOI 10.1109/LGRS.2018.2806945
+   Groger G, 2012, ISPRS J PHOTOGRAMM, V71, P12, DOI 10.1016/j.isprsjprs.2012.04.004
+   Habib A, 2005, PHOTOGRAMM ENG REM S, V71, P699, DOI 10.14358/PERS.71.6.699
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Hu JJ, 2019, IEEE WINT CONF APPL, V0, PP1043, DOI 10.1109/WACV.2019.00116
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Krylov VA, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050661
+   Kwak Tae-Suk, 2006, KSCE JOURNAL OF CIVIL ENGINEERING, V10, P365
+   Laefer D.F., 2015, AERIAL LASER PHOTOGR, V0, P0
+   Lafarge F, 2010, IEEE T PATTERN ANAL, V32, P135, DOI 10.1109/TPAMI.2008.281
+   Laina I, 2016, INT CONF 3D VISION, V0, PP239, DOI 10.1109/3DV.2016.32
+   Laumer D, 2020, ISPRS J PHOTOGRAMM, V162, P125, DOI 10.1016/j.isprsjprs.2020.02.001
+   Liu FY, 2015, PROC CVPR IEEE, V0, PP5162, DOI 10.1109/CVPR.2015.7299152
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Ma FC, 2018, IEEE INT CONF ROBOT, V0, P4796
+   Maggiori E., 2017, P IEEE INT GEOSC REM, V0, P0
+   Malof JM, 2016, APPL ENERG, V183, P229, DOI 10.1016/j.apenergy.2016.08.191
+   Mastin A, 2009, PROC CVPR IEEE, V0, P2631
+   Micusik Branislav, 2009, 2009 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR), V0, PP2906, DOI 10.1109/CVPRW.2009.5206535
+   Mou L., 2018, ARXIV18021024, V0, P0
+   Palmer D, 2018, ENERGIES, V11, P0, DOI 10.3390/en11123506
+   Parmehr EG, 2014, ISPRS J PHOTOGRAMM, V88, P28, DOI 10.1016/j.isprsjprs.2013.11.015
+   Peng SB, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19051086
+   Saxena A., 2006, ADV NEURAL INFORM PR, V0, PP1161, DOI 10.1109/TPAMI.2015.2505283a
+   Saxena A, 2008, AAAI, V3, P1571
+   Schonberger JL, 2016, PROC CVPR IEEE, V0, PP4104, DOI 10.1109/CVPR.2016.445
+   Shannon CE, 2001, BELL SYST TECH J, V5, P3, DOI 10.1002/J.1538-7305.1948.TB01338.X
+   Song XY, 2018, ENERGIES, V11, P0, DOI 10.3390/en11113172
+   Srivastava S, 2017, INT GEOSCI REMOTE SE, V0, P5173
+   Styner M, 2000, IEEE T MED IMAGING, V19, P153, DOI 10.1109/42.845174
+   Viola P, 1997, INT J COMPUT VISION, V24, P137, DOI 10.1023/A:1007958904918
+   Xu D, 2017, PROC CVPR IEEE, V0, PP161, DOI 10.1109/CVPR.2017.25
+   Xu YH, 2019, IEEE J-STARS, V12, P1709, DOI 10.1109/JSTARS.2019.2911113
+   Zhang WM, 2015, OPT EXPRESS, V23, P7694, DOI 10.1364/OE.23.007694
+   Zhuo W, 2015, PROC CVPR IEEE, V0, PP614, DOI 10.1109/CVPR.2015.7298660
+NR 55
+TC 22
+Z9 22
+U1 6
+U2 29
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD SEP 15
+PY 2020
+VL 12
+IS 17
+BP 
+EP 
+DI 10.3390/rs12172719
+PG 22
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA NP8ML
+UT WOS:000570425500001
+DA 2023-04-26
+ER

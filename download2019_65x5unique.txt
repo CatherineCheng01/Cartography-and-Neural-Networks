@@ -1,0 +1,488 @@
+
+PT J
+AU Hua, YS
+   Mou, LC
+   Zhu, XX
+AF Hua, Yuansheng
+   Mou, Lichao
+   Zhu, Xiao Xiang
+TI Recurrently exploring class-wise attention in a hybrid convolutional and bidirectional LSTM network for multi-label aerial image classification
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Multi-label classification; High-resolution aerial image; Convolutional Neural Network (CNN) I Class; Attention Learning; Bidirectional Long Short-Term Memory (BiLSTM); Class dependency
+ID high-resolution; scene classification; neural-networks; uav; rgb
+AB Aerial image classification is of great significance in the remote sensing community, and many researches have been conducted over the past few years. Among these studies, most of them focus on categorizing an image into one semantic label, while in the real world, an aerial image is often associated with multiple labels, e.g., multiple object-level labels in our case. Besides, a comprehensive picture of present objects in a given high-resolution aerial image can provide a more in-depth understanding of the studied region. For these reasons, aerial image multi-label classification has been attracting increasing attention. However, one common limitation shared by existing methods in the community is that the co-occurrence relationship of various classes, so-called class dependency, is underexplored and leads to an inconsiderate decision. In this paper, we propose a novel end-to end network, namely class-wise attention-based convolutional and bidirectional LSTM network (CA-Cony-BiLSTM), for this task. The proposed network consists of three indispensable components: (1) a feature extraction module, (2) a class attention learning layer, and (3) a bidirectional LSTM-based sub-network. Particularly, the feature extraction module is designed for extracting fine-grained semantic feature maps, while the class attention learning layer aims at capturing discriminative class-specific features. As the most important part, the bidirectional LSTM-based sub-network models the underlying class dependency in both directions and produce structured multiple object labels. Experimental results on UCM multi-label dataset and DFC15 multi label dataset validate the effectiveness of our model quantitatively and qualitatively.
+C1 [Zhu, Xiao Xiang] German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Oberpfaffenhofen, Wessling, Germany.
+   Tech Univ Munich, Proc Earth Observat SiPEO, Arcisstr 21, D-80333 Munich, Germany.
+C3 Helmholtz Association; German Aerospace Centre (DLR); Technical University of Munich
+RP Zhu, XX (corresponding author), German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Oberpfaffenhofen, Wessling, Germany.
+EM yuansheng.hua@tum.de; lichao.mou@dlr.de; xiaoxiang.zhu@dlr.de
+FU China Scholarship Council; Helmholtz Association [VH-NG-1018]; European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme [ERC-2016-StG-714087]
+CR [Anonymous], 2017, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   [Anonymous], 2010, 18 SIGSPATIAL INT C, V0, P0, DOI DOI 10.1145/1869790.1869829
+   Audebert N, 2018, ISPRS J PHOTOGRAMM, V140, P20, DOI 10.1016/j.isprsjprs.2017.11.011
+   Badrinarayanan V, 2015, ARXIV150507293, V0, P0, DOI DOI 10.1109/TPAMI.2016.2644615
+   Campos-Taberner M, 2016, IEEE J-STARS, V9, P5547, DOI 10.1109/JSTARS.2016.2569162
+   Chaudhuri B, 2018, IEEE T GEOSCI REMOTE, V56, P1144, DOI 10.1109/tgrs.2017.2760909
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Chua T.-S., 2009, P 8 ACM INT C IMAGE, V0, P0
+   Demir B, 2016, IEEE T GEOSCI REMOTE, V54, P2096, DOI 10.1109/TGRS.2015.2496167
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Dozat T., 2016, ICLR WORKSH, V0, P0
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Gers FA, 1999, IEE CONF PUBL, V0, PP850, DOI 10.1162/089976600300015015
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   GRAVES A, 2013, ARXIV13080850, V0, P0, DOI DOI 10.1145/2661829.2661935
+   He YX, 2023, TRANSPORTMETRICA A, V19, P0, DOI 10.1080/23249935.2022.2033348
+   Hu F., 2018, IEEE INT GEOSC REM S, V0, P0
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Hua Y., 2018, IEEE INT GEOSC REM S, V0, P0
+   Huang X, 2018, ISPRS J PHOTOGRAMM, V135, P127, DOI 10.1016/j.isprsjprs.2017.11.017
+   Kang J., 2018, BUILDING INSTANCE CL, V0, P0
+   Karalas K, 2016, IEEE T GEOSCI REMOTE, V54, P3548, DOI 10.1109/TGRS.2016.2520203
+   Koda S, 2018, IEEE T GEOSCI REMOTE, V56, P5948, DOI 10.1109/TGRS.2018.2828862
+   Li Q., 2018, IEEE T GEOSCI REMOTE, V0, P0
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Lucchesi S, 2013, EUR J REMOTE SENS, V46, P216, DOI 10.5721/EuJRS20134612
+   Marcos D, 2018, ISPRS J PHOTOGRAMM, V145, P96, DOI 10.1016/j.isprsjprs.2018.01.021
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Mou L, 2017, IEEE J-STARS, V10, P3435, DOI 10.1109/JSTARS.2017.2696823
+   Mou L, 2018, IEEE T GEOSCI REMOTE, V0, P0
+   Mou L., 2019, ARXIV180302642, V0, P0
+   Mou L, 2016, IEEE INT GEOSC REM S, V0, P0
+   Mou L., 2018, RXIV180502091, V0, P0
+   Mou LC, 2017, IEEE T GEOSCI REMOTE, V55, P3639, DOI 10.1109/TGRS.2016.2636241
+   Mou Lichao., 2018, ARXIV180210249, V0, P0
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Patterson G, 2012, PROC CVPR IEEE, V0, PP2751, DOI 10.1109/CVPR.2012.6247998
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Risojevic V, 2013, IEEE GEOSCI REMOTE S, V10, P836, DOI 10.1109/LGRS.2012.2225596
+   Simonyan K, 2015, ARXIV, V0, P0
+   Szegedy, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Tan QY, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9020109
+   Tsoumakas G, 2007, LECT NOTES ARTIF INT, V4701, P406
+   Viola P, 2001, PROC CVPR IEEE, V0, PP511, DOI 10.1109/cvpr.2001.990517
+   Wen DW, 2017, IEEE J-STARS, V10, P1413, DOI 10.1109/JSTARS.2016.2645798
+   Wen Shao, 2013, COMPUTER VISION SYSTEMS. 9TH INTERNATIONAL CONFERENCE, V0, P324, DOI 10.1007/978-3-642-39402-7_33
+   Weng Q, 2018, INT J REMOTE SENS, V39, P6281, DOI 10.1080/01431161.2018.1458346
+   Wu X., 2017, ARXIV160900288, V0, P0
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Xu K, 2015, PR MACH LEARN RES, V37, P2048
+   Zarco-Tejada PJ, 2014, EUR J AGRON, V55, P89, DOI 10.1016/j.eja.2014.01.004
+   Zeggada A, 2018, IEEE GEOSCI REMOTE S, V15, P399, DOI 10.1109/LGRS.2018.2790426
+   Zeggada A, 2017, IEEE GEOSCI REMOTE S, V14, P694, DOI 10.1109/LGRS.2017.2671922
+   Zhang F, 2015, IEEE T GEOSCI REMOTE, V53, P2175, DOI 10.1109/TGRS.2014.2357078
+   Zhu QQ, 2016, IEEE GEOSCI REMOTE S, V13, P747, DOI 10.1109/LGRS.2015.2513443
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 58
+TC 87
+Z9 92
+U1 7
+U2 55
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD MAR 15
+PY 2019
+VL 149
+IS 
+BP 188
+EP 199
+DI 10.1016/j.isprsjprs.2019.01.015
+PG 12
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HP2WH
+UT WOS:000461535600015
+PM 31007387
+DA 2023-04-26
+ER
+
+PT J
+AU Baena, JAP
+   Scifoni, S
+   Marsella, M
+   De Astis, G
+   Fernandez, CI
+AF Palenzuela Baena, Jose Antonio
+   Scifoni, Silvia
+   Marsella, Maria
+   De Astis, Gianfilippo
+   Irigaray Fernandez, Clemente
+TI Landslide susceptibility mapping on the islands of Vulcano and Lipari (Aeolian Archipelago, Italy), using a multi-classification approach on conditioning factors and a modified GIS matrix method for areas lacking in a landslide inventory
+SO LANDSLIDES
+LA English
+DT Article
+DE SOM; Modified GMM; DOF; Data mining; Text mining; Landslide susceptibility; GIS (geographic information system)
+ID southern tyrrhenian sea; artificial neural-networks; volcanic complex; information; tectonics; evolution; geology; maps
+AB In areas prone to landslides, the identification of potentially unstable zones has a decisive impact on the risk assessment and development of mitigation plans. Active volcanic islands are particularly prone to instability phenomena as they are always in the early stage of dynamic unrest. A historical example of slope instability is the landslide which occurred in 1988 along the northwestern flank of La Fossa Cone on the island of Vulcano (Aeolian Archipelago). Based on this past activity, a susceptibility assessment using the bivariate technique of the GIS matrix method (GMM) was carried out on the islands of Lipari and Vulcano. Nevertheless, this case is congruent with those where a part of the surface was not assigned to stable or unstable areas, since a comprehensive inventory was only available for the island of Lipari. Some of the implemented steps of the susceptibility matrix method were modified to enable the model developed in the Lipari area to be applied to both islands. Considering the important role that the classification of conditioning factors plays in susceptibility analysis, the degree of association with landslide spatial distribution for the multiple classifications of each factor was assessed. Furthermore, an innovative clustering approach based on text and data mining techniques (self-organizing map neural network) was applied and compared with a heuristic classification of the categorical variable of lithology units. In addition to the extensive contingency analysis, up to 14 factor combinations were submitted to the GMM, validated and compared so as to select the one that best explains the susceptibility zoning. The effects of these incorporated processes in the previous phase of classification were discussed and preliminary susceptibility map was generated for both islands. After the validation of the susceptibility assessment, it is shown that the highest classes (High and Very High) matched 76.9% (relative accuracy) of the test inventory, while the lower susceptibility classes (Very Low and Low) resulted in a degree of fit of 14.39% (relative error).
+C1 [Palenzuela Baena, Jose Antonio; Irigaray Fernandez, Clemente] Univ Granada, Dept Civil Engn, Granada, Spain.
+   [Scifoni, Silvia; Marsella, Maria] Sapienza Univ Rome, Dept Civil Bldg & Environm Engn, Rome, Italy.
+   [De Astis, Gianfilippo] Natl Inst Geophys & Volcanol, Sect Seismol, Rome, Italy.
+   [De Astis, Gianfilippo] Natl Inst Geophys & Volcanol, Sect Tectonophys, Rome, Italy.
+C3 University of Granada; Sapienza University Rome; Istituto Nazionale Geofisica e Vulcanologia (INGV); Istituto Nazionale Geofisica e Vulcanologia (INGV)
+RP Baena, JAP (corresponding author), Univ Granada, Dept Civil Engn, Granada, Spain.
+EM jpalbae@ugr.es
+FU DPC-INGV Project V3 on the island of Vulcano; Italian Civil Protection Department
+CR Abdulwahid WM, 2017, LANDSLIDES, V14, P1057, DOI 10.1007/s10346-016-0744-0
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   [Anonymous], 1996, LANDSLIDES INVESTIGA, V0, P0
+   [Anonymous], 2015, GEOENVIRONMENTAL DIS, V0, P0
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Barberi F., 1991, ACTA VULCANOL, V1, P95
+   Bonforte A, 2008, TECTONOPHYSICS, V457, P64, DOI 10.1016/j.tecto.2008.05.016
+   Bourenane H, 2015, B ENG GEOL ENVIRON, V74, P337, DOI 10.1007/s10064-014-0616-6
+   Chacon J, 2006, B ENG GEOL ENVIRON, V65, P341, DOI 10.1007/s10064-006-0064-z
+   CONTINISIO R, 1997, ACTA VULCANOLOGICA, V9, P39
+   DAranno PJV, 2015, PROC SPIE, V9642, P0, DOI 10.1117/12.2194808
+   De Astis G, 2003, TECTONICS, V22, P0, DOI 10.1029/2003TC001506
+   De Astis G, 2013, GEOL SOC MEM, V0, PP281, DOI 10.1144/M37.11
+   De Astis G., 2006, GEOLOGICAL MAP ISLAN, V0, P0
+   Degraff JV, 1980, THRESHOLDS GEOMORPHO, V0, P401
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   ESRI, 2018, ARCGIS MAPP AN PLATF, V0, P0
+   Fernandez T, 2003, NAT HAZARDS, V30, P297, DOI 10.1023/B:NHAZ.0000007092.51910.3f
+   Forni F, 2013, GEOL SOC MEM, V0, PP213, DOI 10.1144/M37.10
+   FRAZZETTA G., 1982, MEM SOC GEOL ITAL, V24, P293
+   Goodchild MF, 1986, SPATIAL AUTOCORRELAT, V0, P56
+   Gorsevski PV, 2016, LANDSLIDES, V13, P467, DOI 10.1007/s10346-015-0587-0
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Irigaray C, 2007, NAT HAZARDS, V41, P61, DOI 10.1007/s11069-006-9027-8
+   Irigaray C, 1995, THESIS U GRANADA SPA, V0, P578
+   Jenks G., 1967, INT YB CARTOGRAPHY, V7, P186
+   Jimenez-Peralvarez JD, 2011, B ENG GEOL ENVIRON, V70, P265, DOI 10.1007/s10064-010-0332-9
+   Kim S, 2009, REMOTE SENS ENVIRON, V113, P1575, DOI 10.1016/j.rse.2009.03.017
+   Kohonen T, 1998, NEUROCOMPUTING, V21, P1, DOI 10.1016/S0925-2312(98)00030-7
+   Kohonen T., 2012, SELF ORG MAPS, V30, P0, DOI 10.1007/978-3-642-56927-2
+   Lacasse S, 2009, LANDSLIDES - DISASTER RISK REDUCTION, V0, PP31, DOI 10.1007/978-3-540-69970-5_3
+   Lanzafame G., 1997, ACTA VULCANOL, V9, P113
+   LOCARDI E, 1979, B SOC GEOL ITAL, V98, P447
+   Lucchi F, 2013, GEOL SOC MEM, V0, PP37, DOI 10.1144/M37.5
+   Malamud BD, 2004, EARTH SURF PROC LAND, V29, P687, DOI 10.1002/esp.1064
+   Manning C. D., 1999, FDN STAT NATURAL LAN, V0, P0
+   Marsella M., 2013, LANDSLIDE SCI PRACTI, V0, PP309, DOI 10.1007/978-3-642-31310-3_41
+   Marsella M, 2015, NAT HAZARDS, V78, P443, DOI 10.1007/s11069-015-1729-3
+   Marsella MA, 2011, ANN GEOPHYS-ITALY, V54, P492, DOI 10.4401/ag-5334
+   MAZZUOLI R, 1995, TERRA NOVA, V7, P444, DOI 10.1111/j.1365-3121.1995.tb00540.x
+   McCulloch Warren S., 1943, BULL MATH BIOPHYS, V5, P115, DOI 10.1007/BF02459570
+   Melchiorre C, 2008, GEOMORPHOLOGY, V94, P379, DOI 10.1016/j.geomorph.2006.10.035
+   Morsdorf F, 2010, REMOTE SENS ENVIRON, V114, P1403, DOI 10.1016/j.rse.2010.01.023
+   Nedjah N, 2007, NEURAL COMPUT APPL, V16, P249, DOI 10.1007/s00521-007-0086-x
+   Palenzuela JA, 2018, LANDSLIDE SUSCEPTIBI, V0, P0
+   Panizza M, 1996, DEV EARTH SURFACE PR, V4, P75, DOI 10.1016/S0928-2025(96)80020-4
+   Pavel M, 2008, GEOMORPHOLOGY, V97, P356, DOI 10.1016/j.geomorph.2007.08.012
+   Pavel M, 2011, COMPUT GEOSCI-UK, V37, P554, DOI 10.1016/j.cageo.2010.10.006
+   Protodyakonov M.M., 1962, P 5 US S ROCK MECH, V0, P0
+   Rahmati O, 2016, NAT HAZARDS, V82, P1231, DOI 10.1007/s11069-016-2239-7
+   Scifoni S, 2015, PROC SPIE, V9642, P0, DOI 10.1117/12.2195060
+   Song J.H., 2002, INT ARCH PHOTOGRAM 3, V34, P259
+   Su JG, 2007, APPL VEG SCI, V10, P407, DOI 10.1111/j.1654-109X.2007.tb00440.x
+   Thouret JC, 1999, EARTH-SCI REV, V47, P95, DOI 10.1016/S0012-8252(99)00014-8
+   TIBCO, 2017, TIBCO STAT TM, V0, P0
+   Tinti S, 1999, B VOLCANOL, V61, P121, DOI 10.1007/s004450050267
+   Tommasi P, 2007, PROC MONOGR ENG WATE, V0, PP933, DOI 10.1201/NOE0415444019-c116
+   Tranne C.A., 2002, GEOLOGICAL MAP ISLAN, V0, P0
+   Van Westen CJ, 2003, NAT HAZARDS, V30, P399, DOI 10.1023/B:NHAZ.0000007097.42735.9e
+   Varnes D.J., 1984, NAT HAZARDS, V3, P61
+   VENTURA G, 1994, J VOLCANOL GEOTH RES, V60, P207, DOI 10.1016/0377-0273(94)90052-3
+   Ventura G, 1999, PHYS EARTH PLANET IN, V116, P31, DOI 10.1016/S0031-9201(99)00117-X
+   Ventura G, 1995, THESIS, V0, P0
+   Ventura G, 2013, GEOL SOC MEM, V0, PP3, DOI 10.1144/M37.2
+   Wan SA, 2009, ENG GEOL, V108, P237, DOI 10.1016/j.enggeo.2009.06.014
+   Xiao HL, 2017, LANDSLIDES, V14, P287, DOI 10.1007/s10346-015-0634-x
+NR 66
+TC 12
+Z9 12
+U1 5
+U2 50
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1612-510X
+EI 1612-5118
+J9 LANDSLIDES
+JI Landslides
+PD MAY 15
+PY 2019
+VL 16
+IS 5
+BP 969
+EP 982
+DI 10.1007/s10346-019-01148-0
+PG 14
+WC Engineering, Geological; Geosciences, Multidisciplinary
+SC Engineering; Geology
+GA HW2EI
+UT WOS:000466495400007
+DA 2023-04-26
+ER
+
+PT J
+AU Zuo, YF
+   Fang, YM
+   Yang, Y
+   Shang, XW
+   Wang, B
+AF Zuo, Yifan
+   Fang, Yuming
+   Yang, Yong
+   Shang, Xiwu
+   Wang, Bin
+TI Residual dense network for intensity-guided depth map enhancement
+SO INFORMATION SCIENCES
+LA English
+DT Article
+DE Deep convolutional neural network; Guided depth map enhancement; Residual learning; Dense connection
+ID super resolution; superresolution; recovery
+AB The depth maps captured by sensors always suffer from low resolution and random noise. Recently, by introducing the guidance from the color image, deep convolutional neural network (DCNN) shows significant improvements for depth map enhancement. However, most DCNN-based methods do not make full use of multi-scale guidance from the color image, thereby achieving sub-optimal performances. In this paper, we propose a novel DCNN to progressively reconstruct the high-resolution depth map guided by the intensity image. Specially, the multi-scale intensity features are extracted to provide guidance for the refinement of depth features as their resolutions are gradually enhanced. Furthermore, local residual learning and global residual learning are adopted in the output of each up sampling sub-network and the whole network respectively. Such design can recover the high-frequency details from coarse to fine. In addition, according to the contiguous memory mechanism, the dense connections are designed to take the low-level features and the high-level features into account which further exploits the guidance from the intensity image. To balance the resource expense and the performance, the dimension reduction units are used to efficiently represent the features. The proposed network is compared with 17 state-of-the-art methods which shows improved performances. (C) 2019 Elsevier Inc. All rights reserved.
+C1 [Zuo, Yifan; Fang, Yuming; Yang, Yong] Jiangxi Univ Finance & Econ, Sch Informat Management, Nanchang, Jiangxi, Peoples R China.
+   [Shang, Xiwu] Shanghai Univ Engn Sci, Sch Elect & Elect Engn, Shanghai, Peoples R China.
+   [Wang, Bin] Shanghai Univ, Minist Educ, Key Lab Adv Display & Syst Applicat, Shanghai, Peoples R China.
+   [Wang, Bin] Shanghai Univ, Sch Commun & Informat Engn, Shanghai, Peoples R China.
+C3 Jiangxi University of Finance & Economics; Shanghai University of Engineering Science; Shanghai University; Shanghai University
+RP Fang, YM (corresponding author), Jiangxi Univ Finance & Econ, Sch Informat Management, Nanchang, Jiangxi, Peoples R China.
+EM leo.fangyuming@foxmail.com
+FU National Natural Science Foundation of China [61671153, 61571285, 61822109, 61571212]; Henry Fok Education Foundation [161061]; Key Laboratory of Advanced Display and System Applications of Ministry of Education, Shanghai University, China
+CR Barron JT, 2016, LECT NOTES COMPUT SC, V9907, P617, DOI 10.1007/978-3-319-46487-9_38
+   Bose NK, 2006, IEEE T IMAGE PROCESS, V15, P2239, DOI 10.1109/TIP.2006.877406
+   Chen BL, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P1473
+   Cui CR, 2019, IEEE T MULTIMEDIA, V21, P1209, DOI 10.1109/TMM.2018.2875357
+   Diebel J., 2005, P ADV NEUR INF PROC, V18, P291
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Ferstl D, 2015, IEEE I CONF COMP VIS, V0, PP513, DOI 10.1109/ICCV.2015.66
+   Ferstl D, 2013, IEEE I CONF COMP VIS, V0, PP993, DOI 10.1109/ICCV.2013.127
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   He KM, 2013, IEEE T PATTERN ANAL, V35, P1397, DOI 10.1109/TPAMI.2012.213
+   HUANG G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Hui TW, 2016, LECT NOTES COMPUT SC, V9907, P353, DOI 10.1007/978-3-319-46487-9_22
+   Kiechle M, 2013, IEEE I CONF COMP VIS, V0, PP1545, DOI 10.1109/ICCV.2013.195
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kopf J, 2007, ACM T GRAPHIC, V26, P0, DOI 10.1145/1239451.1239547
+   Kwon H, 2015, PROC CVPR IEEE, V0, PP159, DOI 10.1109/CVPR.2015.7298611
+   Lai WS, 2019, IEEE T PATTERN ANAL, V41, P2599, DOI 10.1109/TPAMI.2018.2865304
+   Li Y, 2016, LECT NOTES COMPUT SC, V9907, P717, DOI 10.1007/978-3-319-46487-9_44
+   Liu H, 2019, INFORM SCIENCES, V473, P44, DOI 10.1016/j.ins.2018.09.018
+   Liu MY, 2013, PROC CVPR IEEE, V0, PP169, DOI 10.1109/CVPR.2013.29
+   Liu W, 2017, IEEE T IMAGE PROCESS, V26, P0, DOI 10.1109/TIP.2016.2612826
+   Liu Y, 2019, IEEE T PATTERN ANAL, V41, P1939, DOI 10.1109/TPAMI.2018.2878849
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Luo X, 2019, IEEE T IMAGE PROCESS, V28, P2962, DOI 10.1109/TIP.2019.2892703
+   Min DB, 2014, IEEE T IMAGE PROCESS, V23, P5638, DOI 10.1109/TIP.2014.2366600
+   Min DB, 2012, IEEE T IMAGE PROCESS, V21, P1176, DOI 10.1109/TIP.2011.2163164
+   Ni M, 2017, IEEE ACCESS, V5, P26666, DOI 10.1109/ACCESS.2017.2773141
+   Nie LQ, 2017, PROCEEDINGS OF THE 2017 ACM MULTIMEDIA CONFERENCE (MM17), V0, PP1192, DOI 10.1145/3123266.3123313
+   Nie LQ, 2015, IEEE T KNOWL DATA EN, V27, P396, DOI 10.1109/TKDE.2014.2330813
+   Nie LQ, 2012, ACM T INFORM SYST, V30, P0, DOI 10.1145/2180868.2180875
+   Park J, 2014, IEEE T IMAGE PROCESS, V23, P5559, DOI 10.1109/TIP.2014.2361034
+   Riegler G., 2016, P BRIT MACH VIS C BM, V0, P0, DOI DOI 10.5244/C.30.7
+   Riegler G, 2016, LECT NOTES COMPUT SC, V9907, P268, DOI 10.1007/978-3-319-46487-9_17
+   Song XB, 2019, IEEE T CIRC SYST VID, V29, P2323, DOI 10.1109/TCSVT.2018.2866399
+   Su J, 2017, IEEE GLOB COMM CONF, V0, P0, DOI DOI 10.1109/EDOC.2017.11
+   Tang YL, 2018, INFORM SCIENCES, V430, P577, DOI 10.1016/j.ins.2017.12.001
+   Wang XY, 2018, IEEE PHOTONICS J, V10, P0, DOI 10.1109/JPHOT.2018.2824316
+   Wang ZW, 2015, IEEE I CONF COMP VIS, V0, PP370, DOI 10.1109/ICCV.2015.50
+   Wu HY, 2007, IEEE I CONF COMP VIS, V0, PP628, DOI 10.1109/cvpr.2007.383211
+   Xie J, 2016, IEEE T IMAGE PROCESS, V25, P428, DOI 10.1109/TIP.2015.2501749
+   Xie J, 2015, IEEE T MULTIMEDIA, V17, P1525, DOI 10.1109/TMM.2015.2457678
+   Yang JY, 2019, IEEE T BROADCAST, V65, P123, DOI 10.1109/TBC.2018.2818405
+   Yang JY, 2014, IEEE T IMAGE PROCESS, V23, P3443, DOI 10.1109/TIP.2014.2329776
+   Yang S, 2018, IEEE T CYBERNETICS, V48, P399, DOI 10.1109/TCYB.2016.2638856
+   Yanjie Li, 2012, 2012 IEEE INTERNATIONAL CONFERENCE ON MULTIMEDIA AND EXPO (ICME), V0, PP152, DOI 10.1109/ICME.2012.30
+   Ye XC, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P1398
+   Zhao Y, 2018, INFORM SCIENCES, V433, P292, DOI 10.1016/j.ins.2017.12.032
+   Zhou WT, 2017, INT CONF ACOUST SPEE, V0, PP1457, DOI 10.1109/ICASSP.2017.7952398
+   Zuo YF, 2018, IEEE T IMAGE PROCESS, V27, P4145, DOI 10.1109/TIP.2018.2828335
+   Zuo YF, 2018, IEEE T CIRC SYST VID, V28, P439, DOI 10.1109/TCSVT.2016.2609438
+NR 50
+TC 15
+Z9 16
+U1 0
+U2 21
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0020-0255
+EI 1872-6291
+J9 INFORM SCIENCES
+JI Inf. Sci.
+PD AUG 15
+PY 2019
+VL 495
+IS 
+BP 52
+EP 64
+DI 10.1016/j.ins.2019.05.003
+PG 13
+WC Computer Science, Information Systems
+SC Computer Science
+GA IC4SD
+UT WOS:000470954700004
+DA 2023-04-26
+ER
+
+PT J
+AU Danter, WR
+AF Danter, Wayne R.
+TI DeepNEU: cellular reprogramming comes of age - a machine learning platform with application to rare diseases research
+SO ORPHANET JOURNAL OF RARE DISEASES
+LA English
+DT Article
+DE iPSCs; Cellular reprogramming; Machine learning; Neutrosophic and fuzzy cognitive maps; Recurrent neural network; RNN
+ID pluripotent stem-cells; induction; fibroblasts; expression; disorders; models; oct4; klf4
+AB BackgroundConversion of human somatic cells into induced pluripotent stem cells (iPSCs) is often an inefficient, time consuming and expensive process. Also, the tendency of iPSCs to revert to their original somatic cell type over time continues to be problematic. A computational model of iPSCs identifying genes/molecules necessary for iPSC generation and maintenance could represent a crucial step forward for improved stem cell research. The combination of substantial genetic relationship data, advanced computing hardware and powerful nonlinear modeling software could make the possibility of artificially-induced pluripotent stem cells (aiPSC) a reality. We have developed an unsupervised deep machine learning technology, called DeepNEU that is based on a fully-connected recurrent neural network architecture with one network processing layer for each input. DeepNEU was used to simulate aiPSC systems using a defined set of reprogramming transcription factors. Genes/proteins that were reported to be essential in human pluripotent stem cells (hPSC) were used for system modelling.ResultsThe Mean Squared Error (MSE) function was used to assess system learning. System convergence was defined at MSE<0.001. The markers of human iPSC pluripotency (N=15) were all upregulated in the aiPSC final model. These upregulated/expressed genes in the aiPSC system were entirely consistent with results obtained for iPSCs.ConclusionThis research introduces and validates the potential use of aiPSCs as computer models of human pluripotent stem cell systems. Disease-specific aiPSCs have the potential to improve disease modeling, prototyping of wet lab experiments, and prediction of genes relevant and necessary for aiPSC production and maintenance for both common and rare diseases in a cost-effective manner.
+C1 [Danter, Wayne R.] 123Genetix, 147 Chesham Ave, London, ON N6G 3V2, Canada.
+RP Danter, WR (corresponding author), 123Genetix, 147 Chesham Ave, London, ON N6G 3V2, Canada.
+EM wdanter@123genetix.com
+FU 123 Genetix
+CR Adewumi O, 2007, NAT BIOTECHNOL, V25, P803, DOI 10.1038/nbt1318
+   Aggarwal S, 2005, BLOOD, V105, P1815, DOI 10.1182/blood-2004-04-1559
+   Amabile G, 2009, TRENDS MOL MED, V15, P59, DOI 10.1016/j.molmed.2008.12.003
+   Amir RE, 1999, NAT GENET, V23, P185, DOI 10.1038/13810
+   Batista LFZ, 2011, NATURE, V474, P399, DOI 10.1038/nature10084
+   Beers J, 2015, SCI REP-UK, V5, P0, DOI 10.1038/srep11319
+   Ben-Porath I, 2008, NAT GENET, V40, P499, DOI 10.1038/ng.127
+   Bernstein BE, 2006, CELL, V125, P315, DOI 10.1016/j.cell.2006.02.041
+   Bian Q, 2016, TRENDS BIOTECHNOL, V34, P993, DOI 10.1016/j.tibtech.2016.05.010
+   Bornholdt S, 2008, J R SOC INTERFACE, V5, PS85, DOI 10.1098/rsif.2008.0132.focus
+   Boyer LA, 2005, CELL, V122, P947, DOI 10.1016/j.cell.2005.08.020
+   BRIGGS R, 1952, P NATL ACAD SCI USA, V38, P455, DOI 10.1073/pnas.38.5.455
+   Chamberlain SJ, 2010, P NATL ACAD SCI USA, V107, P17668, DOI 10.1073/pnas.1004487107
+   Chen YQ, 2017, STEM CELL RES THER, V8, P0, DOI 10.1186/s13287-017-0569-3
+   Ehrhart F, 2016, ORPHANET J RARE DIS, V11, P0, DOI 10.1186/s13023-016-0545-5
+   Elliott D. L., 1993, BETTER ACTIVATION FU, V0, P0
+   Esteban MA, 2010, CELL STEM CELL, V6, P71, DOI 10.1016/j.stem.2009.12.001
+   Frades I, 2010, METHODS MOL BIOL, V593, P81, DOI 10.1007/978-1-60327-194-3_5
+   Groumpos VP, 2016, ELEKTRO 2016, V0, P0
+   Grys BT, 2017, J CELL BIOL, V216, P65, DOI 10.1083/jcb.201610026
+   GURDON JB, 1970, J EMBRYOL EXP MORPH, V24, P227
+   Hackam DG, 2006, JAMA-J AM MED ASSOC, V296, P1731, DOI 10.1001/jama.296.14.1731
+   Hamazaki T, 2017, STEM CELLS, V35, P545, DOI 10.1002/stem.2570
+   Israel MA, 2012, NATURE, V482, P216, DOI 10.1038/nature10821
+   Kandasamy W. B. V., 2003, FUZZY COGNITIVE MAPS AND NEUTROSOPHIC COGNITIVE MAPS, V0, P0
+   Kim K, 2010, NATURE, V467, P285, DOI 10.1038/nature09342
+   Kinnear C, 2013, STEM CELL TRANSL MED, V2, P2, DOI 10.5966/sctm.2012-0054
+   Kobayashi Y, 2012, DRUG METAB DISPOS, V40, P671, DOI 10.1124/dmd.111.043067
+   Liang GY, 2013, CELL STEM CELL, V13, P149, DOI 10.1016/j.stem.2013.07.001
+   Lipton ZC., 2015, ARXIV PREPRINT ARXIV, V0, P0
+   Lister R, 2011, NATURE, V471, P68, DOI 10.1038/nature09798
+   Nakaoka S, 2014, METHODS MOL BIOL, V1195, P269, DOI 10.1007/7651_2014_78
+   Noble WS, 2006, NAT BIOTECHNOL, V24, P1565, DOI 10.1038/nbt1206-1565
+   Odorico JS, 2001, STEM CELLS, V19, P193, DOI 10.1634/stemcells.19-3-193
+   Ojala M, 2012, PLOS ONE, V7, P0, DOI 10.1371/journal.pone.0048659
+   Papapetrou EP, 2009, P NATL ACAD SCI USA, V106, P12759, DOI 10.1073/pnas.0904825106
+   Peer D., 2005, SCI STKE, V0, PP14, DOI 10.1126/STKE.2812005PL4
+   Rashid ST, 2010, J CLIN INVEST, V120, P3127, DOI 10.1172/JCI43122
+   Robinton DA, 2012, NATURE, V481, P295, DOI 10.1038/nature10761
+   Sato N, 2004, NAT MED, V10, P55, DOI 10.1038/nm979
+   Shi Y, 2008, CELL STEM CELL, V3, P568, DOI 10.1016/j.stem.2008.10.004
+   Siller R, 2013, CURR GENE THER, V13, P99, DOI 10.2174/1566523211313020004
+   Smarandache F., 2010, MULTISPACE MULTISTRU, V0, PP396, DOI 10.2139/ssrn.2721587
+   Tachibana M, 2013, CELL, V153, P1228, DOI 10.1016/j.cell.2013.05.006
+   Takahashi K, 2007, NAT PROTOC, V2, P3081, DOI 10.1038/nprot.2007.418
+   Takahashi K, 2007, CELL, V131, P861, DOI 10.1016/j.cell.2007.11.019
+   Takahashi K, 2006, CELL, V126, P663, DOI 10.1016/j.cell.2006.07.024
+   Vallier L, 2005, J CELL SCI, V118, P4495, DOI 10.1242/jcs.02553
+   van der Worp HB, 2010, PLOS MED, V7, P0, DOI 10.1371/journal.pmed.1000245
+   Wang H., 2017, ARXIV PREPRINT ARXIV, V0, P0
+   William MA, 2013, INT J SCI ENG RES, V4, P1
+   Wilmut I, 1997, NATURE, V385, P810, DOI 10.1038/385810a0
+   Yazawa M, 2011, NATURE, V471, P230, DOI 10.1038/nature09855
+   Yu KR, 2015, CELL REP, V10, P441, DOI 10.1016/j.celrep.2014.12.038
+   Zhao XD, 2007, CELL STEM CELL, V1, P286, DOI 10.1016/j.stem.2007.08.004
+NR 55
+TC 16
+Z9 16
+U1 2
+U2 6
+PU BMC
+PI LONDON
+PA CAMPUS, 4 CRINAN ST, LONDON N1 9XW, ENGLAND
+SN 1750-1172
+EI 
+J9 ORPHANET J RARE DIS
+JI Orphanet J. Rare Dis.
+PD JAN 10
+PY 2019
+VL 14
+IS 
+BP 
+EP 
+DI 10.1186/s13023-018-0983-3
+PG 13
+WC Genetics & Heredity; Medicine, Research & Experimental
+SC Genetics & Heredity; Research & Experimental Medicine
+GA HH1WA
+UT WOS:000455509400004
+PM 30630505
+DA 2023-04-26
+ER
+
+PT J
+AU Grigorev, A
+   Lukoyanov, A
+   Korobov, N
+   Kutsevol, P
+   Zharikov, I
+AF Grigorev, Alexey
+   Lukoyanov, Artem
+   Korobov, Nikita
+   Kutsevol, Polina
+   Zharikov, Ilya
+TI Input Simplifying as an Approach for Improving Neural Network Efficiency
+SO ANALYSIS OF IMAGES, SOCIAL NETWORKS AND TEXTS, AIST 2019
+LA English
+DT Proceedings Paper
+DE Image classification; Skeleton; Graph neural network; Graph; Text recognition
+AB With the increasing popularity of smartphones and services, symbol recognition becomes a challenging task in terms of computational capacity. To our best knowledge, existing methods have focused on effective and fast neural networks architectures, including the ones which deal with the graph symbol representation. In this paper, we propose to optimize the neural networks input rather than the architecture. We compare the performance of several existing graph architectures in terms of accuracy, learning and training time using the advanced skeleton symbol representation. It comprises the inner symbol structure and strokes width patterns. We show the usefulness of this representation demonstrating significant reduction of training time without noticeable accuracy degradation. This makes our approach the worthy replacement of conventional graph representations in symbol recognition tasks.
+C1 [Grigorev, Alexey; Lukoyanov, Artem; Korobov, Nikita; Kutsevol, Polina; Zharikov, Ilya] Moscow Inst Phys & Technol, Inst Sky 9, Dolgoprudnyi 141700, Russia.
+C3 Moscow Institute of Physics & Technology
+RP Zharikov, I (corresponding author), Moscow Inst Phys & Technol, Inst Sky 9, Dolgoprudnyi 141700, Russia.
+EM grigorev.ad@phystech.edu; lukoyanov.as@phystech.edu; korobov.ns@phystech.edu; kutsevol.pn@phystech.edu; ilya.zharikov@phystech.edu
+CR [Anonymous], 2019, 190100596 ARXIV, V0, P0
+   Bai X, 2007, IEEE T PATTERN ANAL, V29, P449, DOI 10.1109/TPAMI.2007.59
+   Ciresan DC, 2011, PROC INT CONF DOC, V0, PP1135, DOI 10.1109/ICDAR.2011.229
+   Fey M., 2019, ICLR WORKSHOP REPRES, V0, P0
+   Fey M, 2018, PROC CVPR IEEE, V0, PP869, DOI 10.1109/CVPR.2018.00097
+   Gilmer J, 2017, PR MACH LEARN RES, V70, P0
+   LeCun Y., 1995, HDB BRAIN THEORY NEU, V3361, P0, DOI 10.5555/303568.303704
+   Mestetskiy L, 2008, VISAPP 2008: PROCEEDINGS OF THE THIRD INTERNATIONAL CONFERENCE ON COMPUTER VISION THEORY AND APPLICATIONS, VOL 1, P251
+   Monti F., 2017, P IEEE C COMP VIS PA, V0, PP5115, DOI 10.1109/CVPR.2017.576
+   Morris Christopher, 2019, AAAI, V0, P0
+   Palvanov A, 2018, INT J FUZZY LOG INTE, V18, P126, DOI 10.5391/IJFIS.2018.18.2.126
+   Pratikakis I, 2016, INT CONF FRONT HAND, V0, PP619, DOI 10.1109/ICFHR.2016.110
+   Riba P, 2018, INT C PATT RECOG, V0, PP2239, DOI 10.1109/ICPR.2018.8545310
+   Shen W, 2017, IEEE T IMAGE PROCESS, V26, P5298, DOI 10.1109/TIP.2017.2735182
+   Vinyals O, 2015, ARXIV, V0, P0
+   Zou XL, 2018, LECT NOTES COMPUT SC, V10878, P3, DOI 10.1007/978-3-319-92537-0_1
+NR 16
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+J9 LECT NOTES COMPUT SC
+PD JUN 15
+PY 2019
+VL 11832
+IS 
+BP 298
+EP 308
+DI 10.1007/978-3-030-37334-4_27
+PG 11
+WC Computer Science, Artificial Intelligence; Computer Science, Information Systems; Computer Science, Theory & Methods; Mathematics, Applied
+SC Computer Science; Mathematics
+GA BQ6HJ
+UT WOS:000611787800027
+DA 2023-04-26
+ER

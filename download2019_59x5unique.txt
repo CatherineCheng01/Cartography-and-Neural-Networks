@@ -1,0 +1,378 @@
+
+PT J
+AU Liu, RS
+   Mao, CS
+   Wang, ZH
+   Li, HJ
+AF Liu, Ri-Sheng
+   Mao, Cai-Sheng
+   Wang, Zhi-Hui
+   Li, Hao-Jie
+TI Blind Image Deblurring via Adaptive Optimization with Flexible Sparse Structure Control
+SO JOURNAL OF COMPUTER SCIENCE AND TECHNOLOGY
+LA English
+DT Article
+DE blind image deblurring; convolutional neural network (CNN); non-convex optimization; sparse structure control (SSC)
+ID deconvolution
+AB Blind image deblurring is a long-standing ill-posed inverse problem which aims to recover a latent sharp image given only a blurry observation. So far, existing studies have designed many effective priors w.r.t. the latent image within the maximum a posteriori (MAP) framework in order to narrow down the solution space. These non-convex priors are always integrated into the final deblurring model, which makes the optimization challenging. However, due to unknown image distribution, complex kernel structure and non-uniform noises in real-world scenarios, it is indeed challenging to explicitly design a fixed prior for all cases. Thus we adopt the idea of adaptive optimization and propose the sparse structure control (SSC) for the latent image during the optimization process. In this paper, we only formulate the necessary optimization constraints in a lightweight MAP model with no priors. Then we develop an inexact projected gradient scheme to incorporate flexible SSC in MAP inference. Besides l(p)-norm based SSC in our previous work, we also train a group of denoising convolutional neural networks (CNNs) to learn the sparse image structure automatically from the training data under different noise levels, and we show that CNNs-based SSC can achieve similar results compared with l(p)-norm but are more robust to noise. Extensive experiments demonstrate that the proposed adaptive optimization scheme with two types of SSC achieves the state-of-the-art results on both synthetic data and real-world images.
+C1 [Liu, Ri-Sheng; Mao, Cai-Sheng; Wang, Zhi-Hui; Li, Hao-Jie] Dalian Univ Technol, Int Sch Informat Sci & Engn, Dalian 116620, Peoples R China.
+   [Liu, Ri-Sheng; Mao, Cai-Sheng; Wang, Zhi-Hui; Li, Hao-Jie] Key Lab Ubiquitous Network & Serv Software Liaoni, Dalian 116620, Peoples R China.
+C3 Dalian University of Technology
+RP Li, HJ (corresponding author), Dalian Univ Technol, Int Sch Informat Sci & Engn, Dalian 116620, Peoples R China.
+EM rsliu@dlut.edu.cn; mcs@mail.dlut.edu.cn; zhwang@dlut.edu.cn; hjli@dlut.edu.cn
+FU National Natural Science Foundation of China [61672125, 61772108]
+CR Boyd Stephen, 2010, FOUNDATIONS AND TRENDS IN MACHINE LEARNING, V3, P1, DOI 10.1561/2200000016
+   Chan SH, 2017, IEEE T COMPUT IMAG, V3, P84, DOI 10.1109/TCI.2016.2629286
+   Chan TF, 1998, IEEE T IMAGE PROCESS, V7, P370, DOI 10.1109/83.661187
+   CHO S, 2009, ARTICLE, V28, P0, DOI 10.1145/1618452.1618491
+   Donatelli M, 2006, INVERSE PROBL, V22, P2035, DOI 10.1088/0266-5611/22/6/008
+   FERGUS R, 1971, ACM TRANSACTIONS ON, V25, P787, DOI 10.1145/1141911.1141956
+   Gong D, 2016, PROC CVPR IEEE, V0, PP1827, DOI 10.1109/CVPR.2016.202
+   Harmeling S, 2010, IEEE IMAGE PROC, V0, PP3313, DOI 10.1109/ICIP.2010.5651650
+   Hu Z, 2014, PROC CVPR IEEE, V0, PP3382, DOI 10.1109/CVPR.2014.432
+   Krishnan D, 2011, PROC CVPR IEEE, V0, PP233, DOI 10.1109/CVPR.2011.5995521
+   Krishnan D, 2009, ACM T GRAPHIC, V28, P0, DOI 10.1145/1531326.1531402
+   Kruse J, 2017, IEEE I CONF COMP VIS, V0, PP4596, DOI 10.1109/ICCV.2017.491
+   Lai WS, 2016, PROC CVPR IEEE, V0, PP1701, DOI 10.1109/CVPR.2016.188
+   Levin A., 2011, 2011 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR), V0, PP2657, DOI 10.1109/CVPR.2011.5995308
+   Levin A, 2009, PROC CVPR IEEE, V0, PP1964, DOI 10.1109/CVPRW.2009.5206815
+   Liu RT, 2008, IEEE IMAGE PROC, V0, PP505, DOI 10.1109/ICIP.2008.4711802
+   Mao CS, 2018, 2018 IEEE FOURTH INTERNATIONAL CONFERENCE ON MULTIMEDIA BIG DATA (BIGMM), V0, P0
+   Ng MK, 1999, SIAM J SCI COMPUT, V21, P851, DOI 10.1137/S1064827598341384
+   PAN J, 2014, PROC THE 27TH IEEE C, V27, P2901, DOI 10.1109/CVPR.2014.371
+   Pan JS, 2016, PROC CVPR IEEE, V0, PP1628, DOI 10.1109/CVPR.2016.180
+   Perrone D, 2015, LECT NOTES COMPUT SC, V8932, P112, DOI 10.1007/978-3-319-14612-6_9
+   Perrone D, 2014, PROC CVPR IEEE, V0, PP2909, DOI 10.1109/CVPR.2014.372
+   Reeves SJ, 2005, IEEE T IMAGE PROCESS, V14, P1448, DOI 10.1109/TIP.2005.854474
+   Schaefer G, 2004, PROC SPIE, V5307, P472, DOI 10.1117/12.525375
+   Sun LN, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0069441
+   WIPF D, 1934, THE JOURNAL OF MACHI, V15, P3595
+   Xu L, 2010, LECT NOTES COMPUT SC, V6311, P157
+   Zhang, 2017, PROC CVPR IEEE, V0, PP3929, DOI 10.1109/CVPR.2017.300
+   ZHANG K, 1955, TIP, V26, P3142, DOI 10.1109/TIP.2017.2662206
+   Zoran D, 2011, IEEE I CONF COMP VIS, V0, PP479, DOI 10.1109/ICCV.2011.6126278
+   Zuo WM, 2016, IEEE T IMAGE PROCESS, V25, P1751, DOI 10.1109/TIP.2016.2531905
+   Zuo WM, 2013, IEEE I CONF COMP VIS, V0, PP217, DOI 10.1109/ICCV.2013.34
+NR 32
+TC 1
+Z9 1
+U1 0
+U2 14
+PU SCIENCE PRESS
+PI BEIJING
+PA 16 DONGHUANGCHENGGEN NORTH ST, BEIJING 100717, PEOPLES R CHINA
+SN 1000-9000
+EI 1860-4749
+J9 J COMPUT SCI TECH-CH
+JI J. Comput. Sci. Technol.
+PD MAY 15
+PY 2019
+VL 34
+IS 3
+BP 609
+EP 621
+DI 10.1007/s11390-019-1930-z
+PG 13
+WC Computer Science, Hardware & Architecture; Computer Science, Software Engineering
+SC Computer Science
+GA HY3OM
+UT WOS:000468036000009
+DA 2023-04-26
+ER
+
+PT J
+AU Maiwald, F
+   Bruschke, J
+   Lehmann, C
+   Niebling, F
+AF Maiwald, Ferdinand
+   Bruschke, Jonas
+   Lehmann, Christoph
+   Niebling, Florian
+TI A 4D INFORMATION SYSTEM FOR THE EXPLORATION OF MULTITEMPORAL IMAGES AND MAPS USING PHOTOGRAMMETRY, WEB TECHNOLOGIES AND VR/AR
+SO VIRTUAL ARCHAEOLOGY REVIEW
+LA English
+DT Article
+DE historical photographs and maps; photogrammetry; repository; documentation; Geographic Information System (GIS); orientation and matching
+ID sample consensus; reconstruction; reality; preservation; models; field; art
+AB This contribution shows the comparison, investigation, and implementation of different access strategies on multimodal data. The first part of the research is structured as a theoretical part opposing and explaining the terms of conventional access, virtual archival access, and virtual museums while additionally referencing related work. Especially, issues that still persist in repositories like the ambiguity or missing of metadata is pointed out. The second part explains the practical implementation of a workflow from a large image repository to various four-dimensional (4D) applications. Mainly, the filtering of images and in the following, the orientation of images is explained. Selection of the relevant images is partly carried out manually but also with the use of deep convolutional neural networks for image classification. In the following, photogrammetric methods are used for finding the relative orientation between image pairs in a projective frame. For this purpose, an adapted Structure from Motion (SfM) workflow is presented, in which the step of feature detection and matching is replaced by the Radiant-Invariant Feature Transform (RIFT) and Matching On Demand with View Synthesis (MODS). Both methods have been evaluated on a benchmark dataset and performed superior to other approaches. Subsequently, the oriented images are placed interactively and in the future automatically in a 4D browser application showing images, maps, and building models. Further usage scenarios are presented in several Virtual Reality (VR) and Augmented Reality (AR) applications. The new representation of the archival data enables spatial and temporal browsing of repositories allowing the research of innovative perspectives and the uncovering of historical details.
+C1 [Maiwald, Ferdinand] Tech Univ Dresden, Inst Photogrammetry & Remote Sensing, Helmholtzstr 10, D-01069 Dresden, Germany.
+   [Bruschke, Jonas; Niebling, Florian] Univ Wurzburg, Human Comp Interact, D-97074 Wurzburg, Germany.
+   [Lehmann, Christoph] Tech Univ Dresden, Ctr Informat Serv & High Performance Comp, Chemnitzer Str 46b, D-01187 Dresden, Germany.
+C3 Technische Universitat Dresden; University of Wurzburg; Technische Universitat Dresden
+RP Maiwald, F (corresponding author), Tech Univ Dresden, Inst Photogrammetry & Remote Sensing, Helmholtzstr 10, D-01069 Dresden, Germany.
+EM ferdinand.maiwald@tu-dresden.de; jonas.bruschke@uni-wuerzburg.de; christoph.lehmann@tu-dresden.de; florian.niebling@uni-wuerzburg.de
+FU German Federal Ministry of Education and Research [01UG1630]; German Federal Ministry of Education and Research (BMBF) [01IS18026BA-F]
+CR Ackerman A., 2017, ISPRS ANN PHOTOGRAMM, V4, P107, DOI 10.5194/isprs-annals-IV-2-W2-107-2017
+   [Anonymous], 2015, ICLR, V0, P0
+   [Anonymous], 1994, CHAPMAN HALL CRC MON, V0, P0, DOI DOI 10.1007/978-1-4899-4541-9
+   Armingeon M., 2019, AUGMENTED REALITY VI, V0, PP99, DOI 10.1007/978-3-030-06246-0_8
+   Barazzetti L, 2013, PROC SPIE, V8791, P0, DOI 10.1117/12.2019985
+   Bay H, 2006, LECT NOTES COMPUT SC, V3951, P404, DOI 10.1007/11744023_32
+   Beaudoin JE, 2011, ART DOC, V30, P24, DOI 10.1086/adx.30.2.41244062
+   Beltrami C, 2019, INT ARCH PHOTOGRAMM, V42-2, P217, DOI 10.5194/isprs-archives-XLII-2-W11-217-2019
+   Bevilacqua MG, 2019, INT ARCH PHOTOGRAMM, V42-2, P119, DOI 10.5194/isprs-archives-XLII-2-W9-119-2019
+   Bitelli G, 2017, INT ARCH PHOTOGRAMM, V42-5, P113, DOI 10.5194/isprs-archives-XLII-5-W1-113-2017
+   Bruschke J., 2018, EUR WORKSH GRAPH CUL, V0, P0, DOI DOI 10.2312/gch.20181359
+   Bruschke J., 2014, ACCESS UNDERSTANDING, V0, P0
+   Bruschke J, 2017, WEB3D 2017, V0, P0, DOI DOI 10.1145/3055624.3075947
+   Burdea G. C., 2003, PRESENCE TELEOPERATO, V0, P0, DOI DOI 10.1162/105474603322955950
+   Callieri M, 2008, COMPUT GRAPH-UK, V32, P464, DOI 10.1016/j.cag.2008.05.004
+   Chum O, 2005, PROC CVPR IEEE, V0, PP220, DOI 10.1109/cvpr.2005.221
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Evens T, 2011, J LIBR INF SCI, V43, P157, DOI 10.1177/0961000611410585
+   FISCHLER MA, 1981, COMMUN ACM, V24, P381, DOI 10.1145/358669.358692
+   Fleming-May RA, 2016, J ASSOC INF SCI TECH, V67, P859, DOI 10.1002/asi.23428
+   Franken T, 2005, VISUAL COMPUT, V21, P619, DOI 10.1007/s00371-005-0309-z
+   Grussenmeyer P, 2017, INT ARCH PHOTOGRAMM, V42-2, P295, DOI 10.5194/isprs-archives-XLII-2-W5-295-2017
+   Gutierrez M., 2008, STEPPING VIRTUAL REA, V0, P0
+   Guttentag DA, 2010, TOURISM MANAGE, V31, P637, DOI 10.1016/j.tourman.2009.07.003
+   Hartley R., 2004, MULTIPLE VIEW GEOMET, V0, P0, DOI DOI 10.1017/cbo9780511811685
+   Koutsoudis A., 2015, CAA2015, V0, P971
+   Li J., 2018, ARXIV180409493, V0, P0
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Maietti F, 2018, IOP CONF SER-MAT SCI, V364, P0, DOI 10.1088/1757-899X/364/1/012089
+   Maiwald F, 2017, INT ARCH PHOTOGRAMM, V42-2, P447, DOI 10.5194/isprs-archives-XLII-2-W3-447-2017
+   Maiwald F., 2019, INT ARCH PHOTOGRAMME, VXLII-2/W13, P87, DOI 10.5194/isprs-archives-XLII-2-W13-87-2019
+   Maiwald F., 2018, ISPRS INT ARCH PHOTO, VXLII, P643, DOI 10.5194/isprs-archives-XLII-2-643-2018
+   Matas J, 2004, IMAGE VISION COMPUT, V22, P761, DOI 10.1016/j.imavis.2004.02.006
+   Melero F. J., 2018, EUROGRAPHICS WORKSH, V0, P0, DOI DOI 10.2312/gch.20181338
+   MILGRAM P, 1994, P SOC PHOTO-OPT INS, V2351, P282
+   Mishkin D, 2015, COMPUT VIS IMAGE UND, V141, P81, DOI 10.1016/j.cviu.2015.08.005
+   Moulon Pierre, 2013, COMPUTER VISION - ACCV 2012. 11TH ASIAN CONFERENCE ON COMPUTER VISION. REVISED SELECTED PAPERS, V0, PP257, DOI 10.1007/978-3-642-37447-0_20
+   Munster S, 2018, INT J DIGIT LIBRARIE, V19, P367, DOI 10.1007/s00799-018-0250-1
+   Niebling F., 2018, EUR WORKSH GRAPH CUL, V0, P0, DOI DOI 10.2312/gch.20181358
+   Niebling F, 2018, COMM COM INF SC, V817, P196, DOI 10.1007/978-3-319-76992-9_12
+   Paudel DP, 2015, IEEE I CONF COMP VIS, V0, PP2048, DOI 10.1109/ICCV.2015.237
+   Ross S, 2005, INT J DIGIT LIBRARIE, V5, P317, DOI 10.1007/s00799-004-0099-3
+   Schindler Grant, 2012, JOURNAL OF MULTIMEDIA, V7, P124, DOI 10.4304/jmm.7.2.124-131
+   Selvaraju RR, 2017, IEEE I CONF COMP VIS, V0, PP618, DOI 10.1109/ICCV.2017.74
+   Oliva LS, 2015, 2015 DIGITAL HERITAGE INTERNATIONAL CONGRESS, VOL 1: DIGITIZATION & ACQUISITION, P0
+   Slater M, 2016, FRONT ROBOT AI, V3, P0, DOI 10.3389/frobt.2016.00074
+   Sylaiou S, 2009, J CULT HERIT, V10, P520, DOI 10.1016/j.culher.2009.03.003
+   Tschirschwitz F, 2019, INT ARCH PHOTOGRAMM, V42-2, P723, DOI 10.5194/isprs-archives-XLII-2-W9-723-2019
+   von Schwerin J, 2013, LIT LINGUIST COMPUT, V28, P736, DOI 10.1093/llc/fqt059
+   Wu CC, 2013, 2013 INTERNATIONAL CONFERENCE ON 3D VISION (3DV 2013), V0, PP127, DOI 10.1109/3DV.2013.25
+   Wu Y, 2015, IEEE GEOSCI REMOTE S, V12, P43, DOI 10.1109/LGRS.2014.2325970
+   Yoon J, 2011, J AM SOC INF SCI TEC, V62, P2201, DOI 10.1002/asi.21637
+NR 52
+TC 10
+Z9 10
+U1 0
+U2 4
+PU UNIV POLITECNICA VALENCIA, EDITORIAL UPV
+PI VALENCIA
+PA CAMINO VERA S-N, VALENCIA, 46022, SPAIN
+SN 1989-9947
+EI 
+J9 VIRTUAL ARCHAEOL REV
+JI Virtual Archaeol. Rev.
+PD JUL 15
+PY 2019
+VL 10
+IS 21
+BP 1
+EP 13
+DI 10.4995/var.2019.11867
+PG 13
+WC Archaeology
+SC Archaeology
+GA IL0QW
+UT WOS:000477005500002
+DA 2023-04-26
+ER
+
+PT J
+AU Aktas, H
+   San, BT
+AF Aktas, Hakan
+   San, Bekir Taner
+TI Landslide susceptibility mapping using an automatic sampling algorithm based on two level random sampling
+SO COMPUTERS & GEOSCIENCES
+LA English
+DT Article
+DE Automatic landslide susceptibility; SVM; MATLAB; Image processing; Sampling algorithm
+ID spaceborne thermal emission; artificial neural-networks; support vector machine; logistic-regression; catchment-area; decision-tree; models; mountains; multivariate; prediction
+AB The aim of this study was to develop and use an algorithm to generate the automatic landslide susceptibility map. The proposed algorithm based on the two-level random sampling (2LRS) strategy and machine learning classification was generated using MATLAB. Performing automatic susceptibility mapping using machine learning classification requires an automatic and robust algorithm for the training of the constructed model. The proposed algorithm contains 20 steps and most of them have novel solutions for sampling. The user could also change the ratio of training and testing with this algorithm to perform automatic landslide susceptibility mapping. During the study, the 28 parameters used as input data sets which are the Digital Elevation Model (DEM), slope, aspect, plan curvature, profile curvature, the convergence index, the Topographic Wetness Index (TWI), the LS factor, the Normalized Difference Vegetation Index (NDVI), the Kaolinite Index, the Calcite Index, the OH Index, distance to fault lines, distance to channels, and 14 decorrelation stretched Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) bands. In this study, a total of 12 susceptibility models with different numbers of samples were automatically generated and tested using the produced algorithm in the study area, which contains active deep-seated rotational landslides (Alakir catchment area [Western Antalya, Turkey]). In addition, derivatives of the random forest (RF), support vector machines (SVM), and decision tree (DT) algorithms were compared in the MATLAB Classification Learner Toolbox according to their accuracies. The Medium Gaussian SVM has the highest level of accuracy (84%) among them. The constructed 12 models with different numbers of samples were also tested according to their spatial performance and their processing times. Then, the obtained area under curve values (AUCs) were obtained between 0.90 (in 360.009 s) and 0.84 (in 78.307 s).
+C1 [Aktas, Hakan] Akdeniz Univ, Dept Elect & Elect Engn, Dumlupinar Blv, TR-07058 Antalya, Turkey.
+   [San, Bekir Taner] Akdeniz Univ, Dept Geol Engn, Dumlupinar Blv, TR-07058 Antalya, Turkey.
+C3 Akdeniz University; Akdeniz University
+RP San, BT (corresponding author), Akdeniz Univ, Dept Geol Engn, Dumlupinar Blv, TR-07058 Antalya, Turkey.
+EM haktas@akdeniz.edu.tr; tanersan@akdeniz.edu.tr
+CR Abrams M., 2000, ASTER USER HDB VERSI, V0, P0
+   Ada M, 2018, NAT HAZARDS, V90, P237, DOI 10.1007/s11069-017-3043-8
+   Akgun A, 2012, COMPUT GEOSCI-UK, V38, P23, DOI 10.1016/j.cageo.2011.04.012
+   [Anonymous], 2010, ARCGIS, V0, P0
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chen W, 2017, CATENA, V151, P147, DOI 10.1016/j.catena.2016.11.032
+   Conrad O, 2015, GEOSCI MODEL DEV, V8, P1991, DOI 10.5194/gmd-8-1991-2015
+   COVER TM, 1967, IEEE T INFORM THEORY, V13, P21, DOI 10.1109/TIT.1967.1053964
+   Cruden D.M., 1996, LANDSLIDES INVESTIGA, V0, P36
+   Das I, 2010, GEOMORPHOLOGY, V114, P627, DOI 10.1016/j.geomorph.2009.09.023
+   Duman TY, 2006, ENVIRON GEOL, V51, P241, DOI 10.1007/s00254-006-0322-1
+   GILLESPIE AR, 1986, REMOTE SENS ENVIRON, V20, P209, DOI 10.1016/0034-4257(86)90044-1
+   Gomez H, 2005, ENG GEOL, V78, P11, DOI 10.1016/j.enggeo.2004.10.004
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Dominguez-Cuesta MJ, 2007, GEOMORPHOLOGY, V89, P358, DOI 10.1016/j.geomorph.2007.01.004
+   Marjanovic M, 2011, ENG GEOL, V123, P225, DOI 10.1016/j.enggeo.2011.09.006
+   MATLAB, 2018, MATLAB STAT MACH LEA, V0, P0
+   Mountrakis G, 2011, ISPRS J PHOTOGRAMM, V66, P247, DOI 10.1016/j.isprsjprs.2010.11.001
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Nefeslioglu HA, 2012, INT J APPL EARTH OBS, V14, P40, DOI 10.1016/j.jag.2011.08.005
+   Nefeslioglu HA, 2010, MATH PROBL ENG, V2010, P0, DOI 10.1155/2010/901095
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   POUR A.B., 2011, INT J PHYS SCI, V6, P7657, DOI 10.5897/IJPS.9000073
+   Pourghasemi HR, 2012, CATENA, V97, P71, DOI 10.1016/j.catena.2012.05.005
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2010, IEEE T GEOSCI REMOTE, V48, P4164, DOI 10.1109/TGRS.2010.2050328
+   Pradhan B, 2009, APPL GEOMAT, V1, P3, DOI 10.1007/s12518-009-0001-5
+   Rowan LC, 2003, REMOTE SENS ENVIRON, V84, P350, DOI 10.1016/S0034-4257(02)00127-X
+   Saito H, 2009, GEOMORPHOLOGY, V109, P108, DOI 10.1016/j.geomorph.2009.02.026
+   San B.T., 2004, P ISPRS, V0, P0
+   San BT, 2014, INT J APPL EARTH OBS, V26, P399, DOI 10.1016/j.jag.2013.09.010
+   San BT, 2011, INT J REMOTE SENS, V32, P7873, DOI 10.1080/01431161.2010.532175
+   Song KY, 2012, ADV SPACE RES, V49, P978, DOI 10.1016/j.asr.2011.11.035
+   Suzen ML, 2012, INT J DIGIT EARTH, V5, P338, DOI 10.1080/17538947.2011.586443
+   Suzen ML, 2004, ENVIRON GEOL, V45, P665, DOI 10.1007/s00254-003-0917-8
+   USGS, 2011, USGS GLOB VIS VIEW G, V0, P0
+   van der Meer FD, 2012, INT J APPL EARTH OBS, V14, P112, DOI 10.1016/j.jag.2011.08.002
+   Vapnik V., 2013, NATURE STAT LEARNING, V0, P0
+   Wan SA, 2009, ENG GEOL, V108, P237, DOI 10.1016/j.enggeo.2009.06.014
+   Wilson JP, 2000, TERRAIN ANAL PRINCIP, V0, P0
+   Yamaguchi Y, 1998, IEEE T GEOSCI REMOTE, V36, P1062, DOI 10.1109/36.700991
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Yeon YK, 2010, ENG GEOL, V116, P274, DOI 10.1016/j.enggeo.2010.09.009
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+NR 46
+TC 12
+Z9 12
+U1 6
+U2 30
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0098-3004
+EI 1873-7803
+J9 COMPUT GEOSCI-UK
+JI Comput. Geosci.
+PD DEC 15
+PY 2019
+VL 133
+IS 
+BP 
+EP 
+DI 10.1016/j.cageo.2019.104329
+PG 17
+WC Computer Science, Interdisciplinary Applications; Geosciences, Multidisciplinary
+SC Computer Science; Geology
+GA KS8YR
+UT WOS:000518595000024
+DA 2023-04-26
+ER
+
+PT J
+AU Radescu, R
+   Dragu, M
+AF Radescu, Radu
+   Dragu, Mihaela
+TI Automatic Analysis of Potential Hazard Events Using Unmanned Aerial Vehicles
+SO PROCEEDINGS OF THE 11TH INTERNATIONAL CONFERENCE ON ELECTRONICS, COMPUTERS AND ARTIFICIAL INTELLIGENCE (ECAI-2019)
+LA English
+DT Proceedings Paper
+DE UAV; hazard; classifiers; decision; prediction
+AB This paper is motivated by the possibility of developing a wide variety of applications and domains in which Unmanned Aerial Vehicles (UAVs) can be used globally for various purposes. UAVs are currently used by public administrations and security forces such as police, fire brigades, civil protection, research institutions, construction, and agriculture entities. The purpose of this paper is to facilitate the handling of UAVs to retrieve various data from the environment. The drone (UAV) visits some points to collect data (image and/or video input) from sensors like GPS, camera, gyroscope, and accelerometer. GPS sensor coordinates are used to compare the data taken with subsequent results through processing with specialized software. The drone is used as an access gate with built-in sensors. Certain hazard events (fires, floods, avalanches, landslides) are not limited to narrow geographical areas, but can impact the environment by triggering negative chain events. 3D modeling offers a wide range of possibilities to prevent potential hazard events, or, if such an event has occurred, makes it possible to monitor the affected area and assess the damage by comparing the area in the pre-event configuration with the after-event one. After image processing and data acquisition, a report is generated that includes the map and the 3D model of the analyzed object. A hazard is an agent that has the potential to cause damage to a particular target. Terms such as risk or danger can be used in similar contexts. TensorFlow is an open source software library in high-performance computing. Flexible architecture allows easy deployment of computing on a variety of platforms (CPU, GPU, TPU), from desktop to server or mobile devices. We used the learning transfer: at first we used a model that was already prepared for another problem, and then we re-qualified it on a similar problem. Deep learning from scratch can take several days, but learning transfer can be done shortly. We applied Python along with TensorFlow to train an image classifier and classify images with it. We formed a consistent set of training pictures, using three labels: fire, flood (detectable hazards) and nature (non-hazard images). We then re-qualified an efficient, small-sized neural network by (re)training the image set in order to get the best results in the hazards prediction selection process with a progressive higher accuracy as (re) training evolves at optimal rating. With Python and OpenCV technologies, we used four decision algorithms to generate prediction of hazard: Support Vector Machine, Naive Bayes, Logistic Regression, and Decision Tree Classifier. Each generated report includes precision, recall, f1-score, and support indices, depending on the class and intervals used. We also used the confusion matrix as an alternative method to evaluate the classification accuracy. Analyzing the 4 algorithms we noticed that they behave differently. Training using TensorFlow generated better results than the other methods. For the main classes tested hazard is recognized up to 99%.
+C1 [Radescu, Radu; Dragu, Mihaela] Univ Politehn Bucuresti, Appl Elect & Informat Engn, Bucharest, Romania.
+C3 Polytechnic University of Bucharest
+RP Radescu, R (corresponding author), Univ Politehn Bucuresti, Appl Elect & Informat Engn, Bucharest, Romania.
+EM radu.radescu@upb.ro; m.mihaela_d@yahoo.com
+CR Kaab A, 2000, PHYS CHEM EARTH PT B, V25, P765, DOI 10.1016/S1464-1909(00)00099-X
+   Li F.-F., 2017, CNN ARCHITECTURES LE, V0, P0
+   OSHA, 2016, HAZ CLASS GUID MAN I, V0, P0
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+NR 5
+TC 0
+Z9 0
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2378-7147
+EI 
+J9 INT C ELECT COMPUT
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 
+EP 
+DI 
+PG 6
+WC Computer Science, Artificial Intelligence; Computer Science, Theory & Methods; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BP9NX
+UT WOS:000569985400133
+DA 2023-04-26
+ER
+
+PT J
+AU Bazan-Krzywoszanska, A
+   Mrowczynska, M
+   Tront, S
+AF Bazan-Krzywoszanska, Anna
+   Mrowczynska, Maria
+   Tront, Slawomir
+TI GIS Technology, 3D Models and Mathematical Models as a Tool for Assessing Development Capabilities of Flood Risk Land to Make Arrangements of Municipal Planning Documents
+SO JOURNAL OF ECOLOGICAL ENGINEERING
+LA English
+DT Article
+DE municipal spatial planning; local law; development of flood risk areas; sustainable development; GIS; 3D models; neural networks
+ID fuzzy cognitive maps
+AB With regard to the municipal spatial policies, the issue of flood protection, and hence the directions of development of flood-endangered land seem rather significant, given the possible social and economic consequences of a wrong decision. Currently, there is no legal obligation, within the statutory activities of flood protection institutions, to implement guidance documents prior to the works on the municipality development. It is determined by the local government in the planning documents, which are in accordance with the applicable regulations, acts of local law. Space management, through planning development and land use or the landscape protection, requires the access to comprehensive and reliable information. GIS technology, 3D models and mathematical models using neural networks in spatial analysis and monitoring changes in space to protect flood risk land, give the possibility of collecting the information that constitutes the basis of knowledge on the area, which helps to make decisions regarding a purpose and a method of the land use. The data obtained in this way are a valuable source of knowledge on the stage of preparation of planning documents that determine the directions of municipal spatial development. Under the Act of 27 March 2003 on spatial planning and development [spatial planning and development act 2003], these documents are a municipal study of the conditions and directions of the spatial planning and a local zoning plan.
+C1 [Bazan-Krzywoszanska, Anna; Mrowczynska, Maria] Univ Zielona Gora, Fac Civil Engn Architecture & Environm Engn, Inst Civil Engn, Prof Z Szafrana 1, PL-65516 Zielona Gora, Poland.
+   [Tront, Slawomir] PA Nova SA, Gornych Walow 42, PL-44100 Gliwice, Poland.
+C3 University of Zielona Gora
+RP Bazan-Krzywoszanska, A (corresponding author), Univ Zielona Gora, Fac Civil Engn Architecture & Environm Engn, Inst Civil Engn, Prof Z Szafrana 1, PL-65516 Zielona Gora, Poland.
+EM A.Bazan@aiu.uz.zgora.pl
+CR [Anonymous], 2012, PROGR ACT AIM RAIS P, V0, P0
+   Arvan M, 2016, EXPERT SYST APPL, V55, P21, DOI 10.1016/j.eswa.2015.12.044
+   Bazan-Krzywoszanska A, 2018, STRUCTURE, V0, P129
+   Bazan-Krzywoszanska A, 2016, ENERG BUILDINGS, V118, P170, DOI 10.1016/j.enbuild.2016.02.048
+   Bobrowski J., 2015, USE GIS MATH MODELIN, V0, P0
+   De Maio C, 2017, NEUROCOMPUTING, V256, P35, DOI 10.1016/j.neucom.2016.06.090
+   Elsawah S, 2017, ENVIRON MODELL SOFTW, V93, P127, DOI 10.1016/j.envsoft.2017.03.001
+   Guo RZ, 2013, COMPUT ENVIRON URBAN, V40, P46, DOI 10.1016/j.compenvurbsys.2012.07.006
+   Juszczyk M., 2010, CZASOPOSMO TECHNICZN, V2, P167
+   Miller J. S., 2012, SOCIOECONOMIC PLANNI, V36, P1
+   Olazabal M, 2018, ENVIRON SCI POLICY, V83, P46, DOI 10.1016/j.envsci.2018.01.017
+   Singh KK, 2017, EGYPT J REMOTE SENS, V20, P147, DOI 10.1016/j.ejrs.2016.04.003
+   Szewranski S, 2018, WATER-SUI, V10, P0, DOI 10.3390/w10060746
+   Wolfe J. M, 2008, PROGR PLANNING, V57, P207
+NR 15
+TC 3
+Z9 3
+U1 1
+U2 9
+PU POLISH SOC ECOLOGICAL ENGINEERING
+PI LUBLIN
+PA LUBLIN UNIV TECHNOLOGY, ENVIRONMENTAL ENGINEERING FAC, LUBLIN, 20618, POLAND
+SN 2299-8993
+EI 
+J9 J ECOL ENG
+JI J. Ecol. Eng.
+PD JAN 15
+PY 2019
+VL 20
+IS 1
+BP 25
+EP 33
+DI 10.12911/22998993/93866
+PG 9
+WC Engineering, Environmental
+SC Engineering
+GA GZ2RI
+UT WOS:000449235300004
+DA 2023-04-26
+ER

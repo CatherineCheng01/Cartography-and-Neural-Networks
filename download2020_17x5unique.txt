@@ -1,0 +1,491 @@
+
+PT J
+AU Wang, PP
+   Wang, P
+   Wang, C
+   Yuan, Y
+   Wang, D
+AF Wang, Pingping
+   Wang, Ping
+   Wang, Cong
+   Yuan, Yue
+   Wang, Di
+TI A Center Location Algorithm for Tropical Cyclone in Satellite Infrared Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Image processing (IP); neural networks; object detection; remote sensing; satellite applications
+ID advanced dvorak technique; intensity; evolution; scheme
+AB The precise location of the tropical cyclone (TC) center is critical for intensity estimation and trajectory prediction. Due to the variability of TC morphology and structure, there are still some challenges in locating its center automatically. The ability of the deep convolutional network to capture multilevel structural features of the images is exploited. Furthermore, a two-step scheme for locating the TC center is proposed, which contains the object detection for TCs with deep learning and the comprehensive decision for TC centers. In the object detection, considering the statistical scale distribution of TCs, the global and local features extracted by the network are combined to form the fusion feature maps through the upsampling and concatenation. The changes in the TC scale are accommodated by two different scale outputs. A high detection rate and a low false alarm rate are obtained with the object detection, which provides an initial position for the TC center. Within the scope of the TCs, the final position of the center is obtained through segmentation, edge detection, circle fitting, and comprehensive decision. The experimental results show that the average latitude and longitude error of the proposed method is about 0.237 degrees. For the TC in the initial phase or dissipation stage, the location results are usually superior to the results of the comparison algorithms.
+C1 [Wang, Pingping; Wang, Ping; Wang, Cong; Yuan, Yue; Wang, Di] Tianjin Univ, Sch Elect & Informat Engn, Tianjin 300072, Peoples R China.
+   [Wang, Pingping; Wang, Ping; Wang, Cong; Yuan, Yue; Wang, Di] CMA Publ Meteorol Serv Ctr, Joint Lab Intelligent Identificat & Nowcasting Se, Beijing 100081, Peoples R China.
+C3 Tianjin University
+RP Wang, D (corresponding author), Tianjin Univ, Sch Elect & Informat Engn, Tianjin 300072, Peoples R China.
+EM wpp1992@tju.edu.cn; wangps@tju.edu.cn; wangc@tju.edu.cn; autoyuanyue@tju.edu.cn; wangdi2015@tju.edu.cn
+FU General Program of National Natural Science Foundation of China [61972282]
+CR [Anonymous], 2004, P 26 C HURR TROP MET, V0, P0
+   [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Bryan GH, 2012, MON WEATHER REV, V140, P1125, DOI 10.1175/MWR-D-11-00231.1
+   CANNY J, 1986, IEEE T PATTERN ANAL, V8, P679, DOI 10.1109/TPAMI.1986.4767851
+   Fang WZ, 2019, IEEE J-STARS, V12, P3168, DOI 10.1109/JSTARS.2019.2929601
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Hsiao LF, 2010, MON WEATHER REV, V138, P3298, DOI 10.1175/2010MWR3275.1
+   Jaiswal N, 2011, IEEE GEOSCI REMOTE S, V8, P460, DOI 10.1109/LGRS.2010.2085418
+   Jin SH, 2017, SPRINGER NAT HAZARDS, V0, PP141, DOI 10.1007/978-981-10-2893-9_8
+   JONES SC, 1995, Q J ROY METEOR SOC, V121, P821, DOI 10.1002/qj.49712152406
+   Knapp KR, 2010, B AM METEOROL SOC, V91, P363, DOI 10.1175/2009BAMS2755.1
+   Kodama YM, 2005, MON WEATHER REV, V133, P2213, DOI 10.1175/MWR2971.1
+   Lee IK, 2017, SPRINGER NAT HAZARDS, V0, PP119, DOI 10.1007/978-981-10-2893-9_7
+   Lee WC, 2000, MON WEATHER REV, V128, P1925, DOI 10.1175/1520-0493(2000)128<1925:TCKSRF>2.0.CO;2
+   Liu JNK, 2006, IEEE IJCNN, V0, P4330
+   Liu Y., 2016, APPL DEEP CONVOLUTIO, V0, P0, DOI DOI 10.5194/GMD-13-3571-2020
+   Lu F., 2017, J MAR METEOR, V37, P1, DOI 10.19513/j.cnki.2096-3599
+   Matsuoka D, 2018, PROG EARTH PLANET SC, V5, P0, DOI 10.1186/s40645-018-0245-y
+   Olander TL, 2007, WEATHER FORECAST, V22, P287, DOI 10.1175/WAF975.1
+   Olander TL, 2019, WEATHER FORECAST, V34, P905, DOI 10.1175/WAF-D-19-0007.1
+   OTSU N, 1979, IEEE T SYST MAN CYB, V9, P62, DOI 10.1109/TSMC.1979.4310076
+   Peng K, 2019, J ATMOS SCI, V76, P1865, DOI 10.1175/JAS-D-18-0264.1
+   Reale M, 2019, TELLUS A, V71, P0, DOI 10.1080/16000870.2019.1611340
+   Redmon J., 2016, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Redmon J, 2018, ARXIV, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Shamsolmoali P, 2019, IEEE J-STARS, V12, P3219, DOI 10.1109/JSTARS.2019.2925841
+   Tsang-Long Pao, 2008, JOURNAL OF MULTIMEDIA, V3, P45
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Wimmers AJ, 2016, J APPL METEOROL CLIM, V55, P197, DOI 10.1175/JAMC-D-15-0098.1
+   Wimmers AJ, 2010, J APPL METEOROL CLIM, V49, P2013, DOI 10.1175/2010JAMC2490.1
+   Wong KY, 2007, METEOROL APPL, V14, P49, DOI 10.1002/met.5
+   Wong KY, 2009, PATTERN RECOGN, V42, P1371, DOI 10.1016/j.patcog.2008.11.037
+   Wong KY, 2005, PROC INT C TOOLS ART, V0, P652
+   Wong KY, 2005, LECT NOTES ARTIF INT, V3681, P854
+   Wong KY, 2004, INT C PATT RECOG, V0, P650
+   Yan WK, 2008, EXPERT SYST APPL, V34, P643, DOI 10.1016/j.eswa.2006.10.013
+   Yang J, 2017, B AM METEOROL SOC, V98, P1637, DOI 10.1175/BAMS-D-16-0065.1
+   Ying M, 2014, J ATMOS OCEAN TECH, V31, P287, DOI 10.1175/JTECH-D-12-00119.1
+   Yurchak B. S., 2007, RUSSIAN METEOROLOGY AND HYDROLOGY, V32, P8, DOI 10.3103/S1068373907010025
+   Zhang CJ, 2018, PROC SPIE, V10836, P0, DOI 10.1117/12.2513984
+   Zhao CW, 2019, ATMOSPHERE-BASEL, V10, P0, DOI 10.3390/atmos10070376
+   Zhuang S, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050594
+NR 44
+TC 9
+Z9 9
+U1 1
+U2 15
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 2161
+EP 2172
+DI 10.1109/JSTARS.2020.2995158
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA MB9XA
+UT WOS:000542949600003
+DA 2023-04-26
+ER
+
+PT J
+AU Pandey, P
+   Litoriya, R
+AF Pandey, Prateek
+   Litoriya, Ratnesh
+TI Fuzzy Cognitive Mapping Analysis to Recommend Machine Learning-Based Effort Estimation Technique for Web Applications
+SO INTERNATIONAL JOURNAL OF FUZZY SYSTEMS
+LA English
+DT Article
+DE Effort estimation; Fuzzy cognitive maps; Machine learning; MSE; Fuzzy numbers
+ID software-development effort; neural-network; system; issue; maps
+AB Effort estimation is a fairly researched field in the area of software engineering. Algorithmic and non-algorithmic methods are the two popular ways of estimating software development efforts. Various machine learning techniques are also being used to determine project efforts based on the historical project-related dataset. These techniques consume an array of project characteristics to estimate the project cost. The selection of the right technique to correctly determine the project cost is a significant challenge that the software industry is facing. This paper presents a fuzzy cognitive mapping (FCM) approach to recommend the best machine learning-based software estimation technique for Web applications. FCM shows synergistic interactions between system variables, and this property is used in the context of Web application estimation for suggesting an estimation technique based on the Web project configuration. To counter the ambiguity in defining abstract relationships between system variables, this article also proposes to incorporate fuzzy numbers. The current analysis involves using five different estimation techniques on 125 student project records. The mean square error (MSE) was taken as a performance metric to declare the supremacy of one estimation technique over others. The experimental results show that the selection of an effort estimation technique should not ignore the presence of project characteristics in the input vector. The achievement of this work is that the proposed technique is capable of recommending the suitable most Web estimation model based on project credentials for a specific Web project; it refrains from suggesting an estimation model optimum for the most project configurations. The FCM approach on software estimation technique recommendation results in a probability of success equals to 70%.
+C1 [Pandey, Prateek; Litoriya, Ratnesh] Jaypee Univ Engn & Technol, Dept Comp Sci & Engn, Raghogarh, Guna, India.
+RP Litoriya, R (corresponding author), Jaypee Univ Engn & Technol, Dept Comp Sci & Engn, Raghogarh, Guna, India.
+EM pandeyprat@yahoo.com; litoriya.ratnesh@gmail.com
+CR AAMODT A, 1994, AI COMMUN, V7, P39
+   Amirkhani A, 2018, APPL MATH COMPUT, V337, P562, DOI 10.1016/j.amc.2018.05.032
+   Bagdath MEC, 2017, INT J FUZZY SYST, V19, P1512, DOI 10.1007/s40815-016-0252-3
+   Beena P, 2011, APPL SOFT COMPUT, V11, P1014, DOI 10.1016/j.asoc.2010.01.023
+   Ben-Hur A, 2002, J MACH LEARN RES, V2, P125, DOI 10.1162/15324430260185565
+   Boehm B. W., 2000, SOFTWARE COST ESTIMA, V0, P0
+   Boehm B. W., 1981, SOFTWARE ENG EC, V0, P0
+   Choi Y, 2018, ANN OPER RES, V270, P75, DOI 10.1007/s10479-016-2281-6
+   Corazza A, 2013, EMPIR SOFTW ENG, V18, P506, DOI 10.1007/s10664-011-9187-3
+   Corona E, 2012, PROCEEDINGS OF THE 2012 JOINT CONFERENCE OF THE 22ND INTERNATIONAL WORKSHOP ON SOFTWARE MEASUREMENT AND THE 2012 SEVENTH INTERNATIONAL CONFERENCE ON SOFTWARE PROCESS AND PRODUCT MEASUREMENT (IWSM-MENSURA 2012), V0, PP15, DOI 10.1109/IWSM-MENSURA.2012.12
+   DALKEY N, 1963, MANAGE SCI, V9, P458, DOI 10.1287/mnsc.9.3.458
+   Douali N., 2015, J COMPUT SCI SYST BI, V8, P112
+   Gerogiannis V.C., 2012, INT C CONT MARK ISS, V0, P270
+   Glykas M, 2013, EXPERT SYST APPL, V40, P1, DOI 10.1016/j.eswa.2012.01.078
+   Guo KR, 2019, INT J FUZZY SYST, V21, P263, DOI 10.1007/s40815-018-0567-3
+   HEEMSTRA FJ, 1992, INFORM SOFTWARE TECH, V34, P627, DOI 10.1016/0950-5849(92)90068-Z
+   HIHN J, 1991, 13TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING, V0, PP276, DOI 10.1109/ICSE.1991.130653
+   Ho TK, 1998, IEEE T PATTERN ANAL, V20, P832, DOI 10.1109/34.709601
+   Huang SJ, 2009, APPL INTELL, V30, P73, DOI 10.1007/s10489-007-0097-4
+   Hughes RT, 1996, INFORM SOFTWARE TECH, V38, P67, DOI 10.1016/0950-5849(95)01045-9
+   I. F. P. U. Group, 2004, FUNCT POINT COUNT PR, V0, P0
+   Idri A., 2011, IJCSI INT J COMPUTER, V8, P131
+   Jenitha G, 2017, INDIAN J COMPUT SCI, V8, P714
+   Jorgensen M, 2007, INT J FORECASTING, V23, P449, DOI 10.1016/j.ijforecast.2007.05.008
+   Kabra N, 2020, FUTURE GENER COMP SY, V102, P574, DOI 10.1016/j.future.2019.08.035
+   Kardaras D., 1997, ADV IND ENG APPL PRA, V0, P63
+   Khakzad H, 2019, H2OPEN J, V2, P137, DOI 10.2166/h2oj.2019.009
+   Khanzadi M, 2018, J CONSTR ENG M, V144, P0, DOI 10.1061/(ASCE)CO.1943-7862.0001430
+   Kokkinos K, 2018, FRONT ENERGY RES, V6, P0, DOI 10.3389/fenrg.2018.00112
+   Kordylewski H, 2001, IEEE T INF TECHNOL B, V5, P202, DOI 10.1109/4233.945291
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Kothari, 2013, J SOFTWARE ENG APPL, V6, P297, DOI 10.4236/jsea.2013.66037
+   Lee IK, 2012, HEALTHC INFORM RES, V18, P105, DOI 10.4258/hir.2012.18.2.105
+   Litoriya R., 2013, INT J SOFTWARE ENG P, V6, P91
+   Mago VK, 2013, BMC MED INFORM DECIS, V13, P0, DOI 10.1186/1472-6947-13-94
+   Mendes E, 2003, NINTH INTERNATIONAL SOFTWARE METRICS SYMPOSIUM, V0, P18, DOI 10.1109/METRIC.2003.1232452
+   Mendes Emilia, 2007, 2007 FIRST INTERNATIONAL SYMPOSIUM ON EMPIRICAL SOFTWARE ENGINEERING AND MEASUREMENT, V0, P334
+   Motlagh O, 2012, FUZZY SET SYST, V201, P105, DOI 10.1016/j.fss.2011.12.013
+   Olazabal M, 2018, SYST RES BEHAV SCI, V35, P791, DOI 10.1002/sres.2519
+   Ozesmi U, 1999, P 1999 WORLD C NAT R, V0, P0
+   Pandey M, 2019, WIRELESS PERS COMMUN, V0, P0
+   Pandey M., 2018, INGENIERIE SYSTEMES, V23, P19, DOI 10.3166/isi.23.6.19-44
+   Pandey M., 2019, SMART COMPUTATIONAL, V0, PP121, DOI https://doi.org/10.1007/978-981-13-6295-8_11
+   Pandey M, 2019, PROGRAM COMPUT SOFT+, V45, P268, DOI 10.1134/S0361768819050050
+   Pandey M, 2019, WIRELESS PERS COMMUN, V108, P683, DOI 10.1007/s11277-019-06424-9
+   Pandey M, 2019, WIRELESS PERS COMMUN, V107, P1687, DOI 10.1007/s11277-019-06351-9
+   Pandey M, 2018, INT J SOFTW ENG KNOW, V28, P937, DOI 10.1142/S0218194018400119
+   Pandey P, 2019, J INTELL FUZZY SYST, V0, P0
+   Pandey P., 2018, J EUROPEEN SYSTEMES, V31, P203
+   Pandey P, 2019, IBM J RES DEV, V64, P1
+   Pandey P, 2020, CRYPTOLOGIA, V44, P341, DOI 10.1080/01611194.2019.1706060
+   Pandey P, 2019, J INTELL FUZZY SYST, V36, P2481, DOI 10.3233/JIFS-181146
+   Pandey P, 2014, DECISION, V41, P411, DOI 10.1007/s40622-014-0065-x
+   Pandey P, 2013, NATL ACAD SCI LETT, V36, P299, DOI 10.1007/s40009-013-0140-4
+   Papakostas GA, 2008, INT J PATTERN RECOGN, V22, P1461, DOI 10.1142/S0218001408006910
+   Pillai K, 1997, IEEE T SOFTWARE ENG, V23, P485, DOI 10.1109/32.624305
+   Pressman R., 2010, SOFTWARE ENG PRACTIT, V7th, P0
+   PUTNAM LH, 1978, IEEE T SOFTWARE ENG, V4, P345, DOI 10.1109/TSE.1978.231521
+   Rajput G. S., 2014, OALIB, V01, P1
+   Reifer DJ, 2000, IEEE SOFTWARE, V17, P57, DOI 10.1109/52.895169
+   Reimann S, 1998, NEURAL NETWORKS, V11, P611, DOI 10.1016/S0893-6080(98)00001-X
+   Rodriguez-Repiso L, 2007, EXPERT SYST APPL, V32, P543, DOI 10.1016/j.eswa.2006.01.032
+   Rouaud M, 2017, PROBABILITY STAT EST, V0, P24
+   Ruhe M, 2003, PROC INT CONF SOFTW, V0, PP285, DOI 10.1109/ICSE.2003.1201208
+   Samant M, 2018, ADV ENV ENG GREEN TE, V0, PP175, DOI 10.4018/978-1-5225-3126-5.ch011
+   Silhavy P, 2019, IEEE ACCESS, V7, P9618, DOI 10.1109/ACCESS.2019.2891878
+   Sona P, 2018, INT J PURE APPL MATH, V118, P517
+   Srivastava V, 2020, WIRELESS PERS COMMUN, V112, P1859, DOI 10.1007/s11277-020-07130-7
+   Valipour F., 2018, COST ESTIMATION WEB, V0, P0
+   Wen JF, 2012, INFORM SOFTWARE TECH, V54, P41, DOI 10.1016/j.infsof.2011.09.002
+   Winter M, 2019, PREDICTIVE POWER PRI, V0, P0
+   Xirogiannis G, 2010, STUD FUZZ SOFT COMP, V247, P161
+   Yin W., 1900, P1, V0, P0
+   ?zesmi, 1999, CONSERVATION STRATEG, V0, P0
+   Zhang NN, 2019, J INTELL FUZZY SYST, V36, P5291, DOI 10.3233/JIFS-181064
+NR 76
+TC 5
+Z9 5
+U1 0
+U2 12
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1562-2479
+EI 2199-3211
+J9 INT J FUZZY SYST
+JI Int. J. Fuzzy Syst.
+PD JUN 15
+PY 2020
+VL 22
+IS 4
+BP 1212
+EP 1223
+DI 10.1007/s40815-020-00815-y
+EA MAR 2020
+PG 12
+WC Automation & Control Systems; Computer Science, Artificial Intelligence; Computer Science, Information Systems
+SC Automation & Control Systems; Computer Science
+GA LQ2BQ
+UT WOS:000520808700002
+DA 2023-04-26
+ER
+
+PT J
+AU Amirkhani, A
+   Shirzadeh, M
+   Kumbasar, T
+AF Amirkhani, Abdollah
+   Shirzadeh, Masoud
+   Kumbasar, Tufan
+TI Interval Type-2 Fuzzy Cognitive Map-Based Flight Control System for Quadcopters
+SO INTERNATIONAL JOURNAL OF FUZZY SYSTEMS
+LA English
+DT Article
+DE Interval type-2 fuzzy sets; Quadcopters; Fuzzy Cognitive Map; Flight control system
+ID trajectory tracking; attitude-control; neural-networks; quadrotor; pso
+AB In this paper, we propose a novel Interval Type-2 (IT2) Fuzzy Cognitive Map (FCM)-based flight control system to solve the altitude, attitude and position control problems of quadcopters. The proposed IT2-FCM encompasses all concepts related to drone for a satisfactory path-tracking and stabilizing control performance. The degree of mutual influences of the concepts is designed with opinions of three experts that take account the dynamics of drone and rules governing proportional integral derivative (PID) controllers. To model the inter-uncertainty of the experts' opinions, IT2 fuzzy logic systems are utilized as they are powerful tools to model high level of uncertainties. Thus, the proposed IT2-FCM has a qualitative representation as it merges the advantages of IT2 fuzzy logic systems and FCMs. We present comparative simulations results in presence of uncertainties where the superiority of the proposed IT2-FCM-based flight control system is shown in comparison with its type-1 fuzzy counterpart.
+C1 [Amirkhani, Abdollah] Iran Univ Sci & Technol, Sch Automot Engn, Tehran 1684613114, Iran.
+   [Shirzadeh, Masoud] Amirkabir Univ Technol, Dept Elect Engn, Tehran 158754413, Iran.
+   [Kumbasar, Tufan] Istanbul Tech Univ, Fac Elect & Elect Engn, Dept Control & Automat Engn, Istanbul, Turkey.
+C3 Iran University Science & Technology; Amirkabir University of Technology; Istanbul Technical University
+RP Amirkhani, A (corresponding author), Iran Univ Sci & Technol, Sch Automot Engn, Tehran 1684613114, Iran.
+EM amirkhani@iust.ac.ir
+CR Amirkhani A., 2015, P IEEE 22 IR C BIOM, V0, P111
+   Amirkhani A, 2020, ISA T, V100, P454, DOI 10.1016/j.isatra.2019.12.011
+   Amirkhani A, 2020, IEEE ACM T COMPUT BI, V17, P1372, DOI 10.1109/TCBB.2018.2890261
+   Amirkhani A, 2016, ISA T, V60, P128, DOI 10.1016/j.isatra.2015.11.007
+   Bangura M., 2014, IFAC PAPERSONLINE, V47, P11773, DOI 10.3182/20140824-6-ZA-1003.00203
+   Beke A, 2019, ENG APPL ARTIF INTEL, V85, P372, DOI 10.1016/j.engappai.2019.06.016
+   Castillo A, 2019, CONTROL ENG PRACT, V82, P14, DOI 10.1016/j.conengprac.2018.09.016
+   Castillo P, 2005, IEEE CONTR SYST MAG, V25, P45, DOI 10.1109/MCS.2005.1550152
+   Erginer B, 2012, INT J CONTROL AUTOM, V10, P61, DOI 10.1007/s12555-012-0107-0
+   Gao Z, 2019, ARXIV190512240, V0, P0
+   Hamza MF, 2018, NEURAL COMPUT APPL, V30, P331, DOI 10.1007/s00521-017-3144-z
+   Hatwagner MF, 2018, IEEE T FUZZY SYST, V26, P2938, DOI 10.1109/TFUZZ.2018.2793904
+   Housny H., 2019, INT C OPT APPL ICOA, V0, P0
+   Jebelli A, 2018, IEEE INT CONF INDUST, V0, PP165, DOI 10.1109/ICIT.2018.8352170
+   Jing Q, 2019, CHIN CONTR CONF, V0, PP8360, DOI 10.23919/ChiCC.2019.8865754
+   Kanistras K, 2013, INT CONF UNMAN AIRCR, V0, P221
+   Konti A, 2018, ENERG POLICY, V112, P4, DOI 10.1016/j.enpol.2017.09.053
+   Kumbasar T, 2015, SPRINGER HANDBOOK OF COMPUTATIONAL INTELLIGENCE, V0, P285
+   Lilly J. H., 2011, FUZZY CONTROL IDENTI, V0, P0
+   Lotufo MA, 2019, CONTROL ENG PRACT, V84, P13, DOI 10.1016/j.conengprac.2018.11.002
+   Matraji I, 2018, CONTROL ENG PRACT, V72, P167, DOI 10.1016/j.conengprac.2017.11.009
+   Mendel J.M., 2017, UNCERTAIN RULE BASED, V0, P259
+   Mendel JM, 2019, IEEE COMPUT INTELL M, V14, P82, DOI 10.1109/MCI.2018.2881646
+   Mokhtari MR, 2015, ISA T, V56, P86, DOI 10.1016/j.isatra.2014.12.003
+   MOTLAGH O, 2011, J ARTIF INTELL, V4, P295
+   Nascimento TP, 2019, ANNU REV CONTROL, V48, P129, DOI 10.1016/j.arcontrol.2019.08.004
+   Nazaruddin YY, 2018, IFAC PAPERSONLINE, V51, P358, DOI 10.1016/j.ifacol.2018.06.091
+   Okyere E, 2019, J ENG-JOE, V0, PP4003, DOI 10.1049/joe.2018.8126
+   Osoba O., 2019, SOCIAL BEHAV MODELIN, V0, PP587, DOI 10.1002/9781119485001.ch25
+   Pajares G, 2015, PHOTOGRAMM ENG REM S, V81, P281, DOI 10.14358/PERS.81.4.281
+   Poultney A, 2019, ROBOTICA, V37, P300, DOI 10.1017/S0263574718001029
+   Rosaldo-Serrano MA, 2018, IFAC PAPERSONLINE, V51, P532, DOI 10.1016/j.ifacol.2018.07.334
+   Santos FG, 2019, INT J FOOD SCI NUTR, V70, P562, DOI 10.1080/09637486.2018.1551336
+   Senthilnath J, 2016, BIOSYST ENG, V146, P16, DOI 10.1016/j.biosystemseng.2015.12.003
+   Sun KK, 2021, IEEE T FUZZY SYST, V29, P786, DOI 10.1109/TFUZZ.2020.2965890
+   Tu JV, 1996, J CLIN EPIDEMIOL, V49, P1225, DOI 10.1016/S0895-4356(96)00002-9
+   Vascak J., 2015, ADV INTELLIGENT SYST, V0, P155
+   Wang B, 2017, INT CONF UNMAN AIRCR, V0, P945
+   Wang JJ, 2019, IEEE-CAA J AUTOMATIC, V6, P247, DOI 10.1109/JAS.2019.1911348
+   Wang L.-X., 1996, COURSE FUZZY SYSTEMS, V0, P0, DOI DOI 10.5555/248374
+   Wu DR, 2019, ENG APPL ARTIF INTEL, V85, P182, DOI 10.1016/j.engappai.2019.06.012
+   Yeap WK, 2008, SPRINGER TRAC ADV RO, V38, P281
+   Zhang JQ, 2019, NONLINEAR DYNAM, V97, P609, DOI 10.1007/s11071-019-05002-9
+   Zhang Y, 2018, AEROSP SCI TECHNOL, V79, P601, DOI 10.1016/j.ast.2018.06.017
+   Zhao L, 2019, MECH SYST SIGNAL PR, V129, P531, DOI 10.1016/j.ymssp.2019.04.040
+   Zhou J., 2019, J FRANKLIN I, V0, P0
+   Zou Y, 2017, J FRANKLIN I, V354, P6724, DOI 10.1016/j.jfranklin.2017.08.027
+   Zouaoui S., 2019, PERIOD POLYTECH TRAN, V47, P171, DOI 10.3311/PPtr.10838
+NR 48
+TC 7
+Z9 7
+U1 1
+U2 27
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1562-2479
+EI 2199-3211
+J9 INT J FUZZY SYST
+JI Int. J. Fuzzy Syst.
+PD NOV 15
+PY 2020
+VL 22
+IS 8
+BP 2504
+EP 2520
+DI 10.1007/s40815-020-00940-8
+EA OCT 2020
+PG 17
+WC Automation & Control Systems; Computer Science, Artificial Intelligence; Computer Science, Information Systems
+SC Automation & Control Systems; Computer Science
+GA PA6ZC
+UT WOS:000577241900003
+DA 2023-04-26
+ER
+
+PT J
+AU Pawluszek-Filipiak, K
+   Orenczak, N
+   Pasternak, M
+AF Pawluszek-Filipiak, Kamila
+   Orenczak, Natalia
+   Pasternak, Marta
+TI Investigating the Effect of Cross-Modeling in Landslide Susceptibility Mapping
+SO APPLIED SCIENCES-BASEL
+LA English
+DT Article
+DE landslide; landslide susceptibility modeling; landslide controlling factors; landslide inventory
+ID artificial neural-network; roznow lake; shallow; region; classification; multivariate; regression; vicinity; zonation; europe
+AB Featured Application Landslide Susceptibility Mapping using landslide inventory generated for the surrounding area can be generally carried out. However, the low reliability of such susceptibility map was observed in areas of critical geological structures. Thus, this should be borne in mind, when performing such a modeling in complex geological regions. To mitigate the negative effects of landslide occurrence, there is a need for effective landslide susceptibility mapping (LSM). The fundamental source for LSM is landslide inventory. Unfortunately, there are still areas where landslide inventories are not generated due to financial or reachability constraints. Considering this led to the following research question: can we model landslide susceptibility in an area for which landslide inventory is not available but where such is available for surrounding areas? To answer this question, we performed cross-modeling by using various strategies for landslide susceptibility. Namely, landslide susceptibility was cross-modeled by using two adjacent regions ("Lososina" and "Grodek") separated by the Ro(z) over dotnow Lake and Dunajec River. Thus, 46% and 54% of the total detected landslides were used for the LSM in "Lososina" and "Grodek" model, respectively. Various topographical, geological, hydrological and environmental landslide-conditioning factors (LCFs) were created. These LCFs were generated on the basis of the Digital Elevation Model (DEM), Sentinel-2A data, a digitized geological and soil suitability map, precipitation, the road network and the Ro(z) over dotnow lake shapefile. For LSM, we applied the Frequency Ratio (FR) and Landslide Susceptibility Index (LSI) methods. Five zones showing various landslide susceptibilities were generated via Natural Jenks. The Seed Cell Area Index (SCAI) and Relative Landslide Density Index were used for model validation. Even when the SCAI indicated extremely high values for "very low" susceptibility classes and very small values for "very high" susceptibility classes in the training and validation areas, the accuracy of the LSM in the validation areas was significantly lower. In the "Lososina" model, 90% and 57% of the landslides fell into the "high" and "very high" susceptibility zones in the training and validation areas, respectively. In the "Grodek" model, 86% and 46% of the landslides fell into the "high" and "very high" susceptibility zones in the training and validation areas, respectively. Moreover, the comparison between these two models was performed. Discrepancies between these two models exist in the areas of critical geological structures (thrust and fault proximity), and the reliability for such susceptibility zones can be low (2-3 susceptibility zone difference). However, such areas cover only 11% of the analyzed area; thus, we can conclude that in remaining regions (89%), LSM generated by the inventory for the surrounding area can be useful. Therefore, the low reliability of such a map in areas of critical geological structures should be borne in mind.
+C1 [Pawluszek-Filipiak, Kamila; Orenczak, Natalia; Pasternak, Marta] Wroclaw Univ Environm & Life Sci, Inst Geodesy & Geoinformat, PL-50375 Wroclaw, Poland.
+C3 Institute of Geodesy & Cartography; Wroclaw University of Environmental & Life Sciences
+RP Pawluszek-Filipiak, K (corresponding author), Wroclaw Univ Environm & Life Sci, Inst Geodesy & Geoinformat, PL-50375 Wroclaw, Poland.
+EM kamila.pawluszek-filipiak@upwr.edu.pl; 111832@student.upwr.edu.pl; 111837@student.upwr.edu.pl
+FU National Science Centre of Poland [2018/28/T/ST10/00528]
+CR Abedini M, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6502-3
+   Aditian A, 2018, GEOMORPHOLOGY, V318, P101, DOI 10.1016/j.geomorph.2018.06.006
+   Ahmed B, 2020, GEOMAT NAT HAZ RISK, V11, P446, DOI 10.1080/19475705.2020.1730988
+   [Anonymous], 2006, LANDSLIDE HAZARD RIS, V0, P0
+   Arabameri A, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030475
+   Arabameri A, 2019, J MT SCI-ENGL, V16, P595, DOI 10.1007/s11629-018-5168-y
+   Armstrong MP, 2003, ANN ASSOC AM GEOGR, V93, P595, DOI 10.1111/1467-8306.9303005
+   Baeza C, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-6124-1
+   Borkowski A, 2011, ACTA GEODYN GEOMATER, V8, P325
+   Borrelli L, 2018, J MAPS, V14, P32, DOI 10.1080/17445647.2018.1425164
+   Cantarino I, 2019, LANDSLIDES, V16, P265, DOI 10.1007/s10346-018-1063-4
+   Cascini L, 2015, GEOMORPHOLOGY, V241, P371, DOI 10.1016/j.geomorph.2015.04.017
+   Chen W, 2018, B ENG GEOL ENVIRON, V77, P647, DOI 10.1007/s10064-017-1010-y
+   Chen W, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9010171
+   Chen W, 2018, CATENA, V164, P135, DOI 10.1016/j.catena.2018.01.012
+   Cieszkowski M., 2010, GEOTURYSTYKA, V21, P3
+   Ciurleo M., 2019, LECT NOTES CIVIL ENG, V40, P33
+   Ciurleo M, 2019, LANDSLIDES, V16, P175, DOI 10.1007/s10346-018-1072-3
+   Cruden D.M., 1996, LANDSLIDES INVESTIGA, V0, P0
+   Dai FC, 2011, J ASIAN EARTH SCI, V40, P883, DOI 10.1016/j.jseaes.2010.04.010
+   Dou J, 2015, TERR ATMOS OCEAN SCI, V26, P227, DOI 10.3319/TAO.2014.12.02.07(EOSI)
+   Gorczyca E., 2013, LANDSLIDE HAZARDS PO, V0, PP237, DOI 10.1007/978-94-007-6301-2_15
+   Grabowski D., 2008, MANUAL MAPPING LANDS, V0, P0
+   Gupta RP, 2008, INT J APPL EARTH OBS, V10, P330, DOI 10.1016/j.jag.2008.01.003
+   Guzzetti F, 2006, GEOMORPHOLOGY, V81, P166, DOI 10.1016/j.geomorph.2006.04.007
+   Huang Y, 2018, CATENA, V165, P520, DOI 10.1016/j.catena.2018.03.003
+   Hungr O, 2014, LANDSLIDES, V11, P167, DOI 10.1007/s10346-013-0436-y
+   Javier D.N., 2019, REMOTE SENS SPAT INF, V42, P173, DOI 10.5194/isprs-archives-XLII-3-W8-173-2019
+   Jenks G., 1967, INT YB CARTOGRAPHY, V7, P186
+   Kanungo DP, 2006, ENG GEOL, V85, P347, DOI 10.1016/j.enggeo.2006.03.004
+   Lee S, 2019, KOREAN J REMOTE SENS, V35, P299, DOI 10.7780/kjrs.2019.35.2.9
+   Lin L, 2017, NAT HAZARD EARTH SYS, V17, P1411, DOI 10.5194/nhess-17-1411-2017
+   Mezaal MR, 2018, CATENA, V167, P147, DOI 10.1016/j.catena.2018.04.038
+   Nachappa TG, 2020, GEOMAT NAT HAZ RISK, V11, P572, DOI 10.1080/19475705.2020.1736190
+   Nadim F, 2006, LANDSLIDES, V3, P159, DOI 10.1007/s10346-006-0036-1
+   Nicodemo G, 2017, ADVANCING CULTURE OF LIVING WITH LANDSLIDES, VOL 2: ADVANCES IN LANDSLIDE SCIENCE, P899, DOI 10.1007/978-3-319-53498-5_102
+   Ozdemir A, 2009, ENVIRON GEOL, V57, P1675, DOI 10.1007/s00254-008-1449-z
+   Paudel U., 2016, INTERNATIONAL JOURNAL OF GEOSCIENCES, V7, P726, DOI 10.4236/ijg.2016.75056
+   Pawluszek K, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8080321
+   Pawluszek K, 2019, NAT HAZARDS, V96, P311, DOI 10.1007/s11069-018-3543-1
+   Pawluszek K, 2018, LANDSLIDES, V15, P1851, DOI 10.1007/s10346-018-0986-0
+   Pawluszek K, 2016, INT ARCH PHOTOGRAMM, V41, P145, DOI 10.5194/isprsarchives-XLI-B8-145-2016
+   Pawluszek K, 2017, NAT HAZARDS, V86, P919, DOI 10.1007/s11069-016-2725-y
+   Pawuszek K., 2017, REMOTE SENS SPATIAL, V42, P83, DOI 10.5194/ISPRS-ARCHIVES-XLII-1-W1-83-2017
+   Pawuszek K., 2014, ACTA SCI POLONORUM G, V13, P27
+   Pokharel B, 2019, J NEPAL GEOL SOC, V59, P79, DOI 10.3126/jngs.v59i0.24992
+   Poprawa D., 2014, PRZEGLD GEOL, V51, P685
+   Prakash N, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030346
+   Ramachandra T., 2010, P 26 ANN IN HOUS S S, V0, P65
+   Razavizadeh S, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6839-7
+   Roering JJ, 2003, CAN GEOTECH J, V40, P237, DOI 10.1139/T02-113
+   Saadatkhah N, 2014, EJGE C, V19, P545, DOI 10.1007/S10706-014-9818-8
+   Sharma A., 2020, TECHNIQUES DISASTER, V0, P197
+   Shirani K, 2018, NAT HAZARDS, V93, P1379, DOI 10.1007/s11069-018-3356-2
+   Suzen ML, 2004, ENVIRON GEOL, V45, P665, DOI 10.1007/s00254-003-0917-8
+   Van Den Eeckhaut M, 2012, LANDSLIDES, V9, P357, DOI 10.1007/s10346-011-0299-z
+   Van Den Eeckhaut M, 2012, GEOMORPHOLOGY, V139, P545, DOI 10.1016/j.geomorph.2011.12.006
+   Wojciechowski T., 2012, PRZ GEOL, V60, P95
+   Zhang K., 2018, CHINA ENV EARTH SCI, V76, P1, DOI 10.1007/s12665-017-6731-5
+NR 64
+TC 9
+Z9 9
+U1 2
+U2 17
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2076-3417
+J9 APPL SCI-BASEL
+JI Appl. Sci.-Basel
+PD SEP 15
+PY 2020
+VL 10
+IS 18
+BP 
+EP 
+DI 10.3390/app10186335
+PG 30
+WC Chemistry, Multidisciplinary; Engineering, Multidisciplinary; Materials Science, Multidisciplinary; Physics, Applied
+SC Chemistry; Engineering; Materials Science; Physics
+GA OE3NI
+UT WOS:000580441000001
+DA 2023-04-26
+ER
+
+PT J
+AU Aguiler, MAZ
+AF Zaraza Aguiler, Maycol Alejandro
+TI CLASSICATION OF LAND-COVER THROUGH MACHINE LEARNING ALGORITHMS FOR FUSION OF SENTINEL-2A AND PLANETSCOPE IMAGERY
+SO 2020 IEEE LATIN AMERICAN GRSS & ISPRS REMOTE SENSING CONFERENCE (LAGIRS)
+LA English
+DT Proceedings Paper
+DE Land-cover classification; Machine Learning,Sentinel-2A; PlanetScope; Fusion Images
+ID urban areas; classification; guidance; index
+AB To monitor and manage the changes in the land use and land cover, is vital the process of classification; machine learning offers the potential for effective and efficient classification of remotely sensed imagery. However, not many articles have explicitly dealt with the effects of image fusion on land-cover classification accuracy. Although some studies have compared thematic mapping accuracy produced using different classification algorithms, there are no currently many studies that utilize image fusion for assessing different machine learning algorithms for classification purposes. The main aim of this study is to compare different machine learning algorithm for pixel classification of imagery fused with sensors Sentinel-2A and PlanetScope. The method used for image fusion is a variational model, the high spectral resolution of Sentinel-2A imagery and the high spatial resolution of PlanetScope imagery was fused; the machine learning algorithms evaluated are six that have been widely used in the remote sensing community: DT (Decision Tree), Boosted DT, RF (Random Forest), SVM radial base (Support Vector Machine), ANN (Artificial Neural Networks), KNN (k-Nearest Neighbors), for the classification four spectral indices (NDVI, NDM[, NDBI, MSAVI) were included, derived of the image fusion. The results show that the highest accuracy was produced by SVM radial base (OA: 87.8%, Kappa: 87%) respect to the other methods, nevertheless the methods RF, Boosted DT and KNN shown to be very powerful methods for classification of the study area.
+C1 [Zaraza Aguiler, Maycol Alejandro] Univ Dist Francisco Jose de Caldas, Master Informat & Commun Sci, Engn Fac, Bogota, Colombia.
+C3 Universidad Distrital Francisco Jose de Caldas
+RP Aguiler, MAZ (corresponding author), Univ Dist Francisco Jose de Caldas, Master Informat & Commun Sci, Engn Fac, Bogota, Colombia.
+EM mazarazaa@correo.udistrital.edu.co
+CR Abdi AM, 2020, GISCI REMOTE SENS, V57, P1, DOI 10.1080/15481603.2019.1650447
+   Addesso P., 2012, 2012 TYRRHENIAN WORKSHOP ON ADVANCES IN RADAR AND REMOTE SENSING (TYWRRS 2012), V0, PP214, DOI 10.1109/TyWRRS.2012.6381132
+   Alparone L, 2007, IEEE T GEOSCI REMOTE, V45, P3012, DOI 10.1109/TGRS.2007.904923
+   [Anonymous], 2005, INTRO DIGITAL IMAGE, V0, P0
+   Ballester C, 2006, INT J COMPUT VISION, V69, P43, DOI 10.1007/s11263-006-6852-x
+   Boulesteix AL, 2012, WIRES DATA MIN KNOWL, V2, P493, DOI 10.1002/widm.1072
+   Bradski G., 2013, LEARNING OPENCV COMP, V0, P0
+   Buddhiraju KM, 2010, INT GEOSCI REMOTE SE, V0, PP40, DOI 10.1109/IGARSS.2010.5652033
+   Copernicus, 2017, SENT 2 MISS SENT ONL, V0, P0
+   Evrendilek F, 2011, INT J REMOTE SENS, V32, P3461, DOI 10.1080/01431161003749469
+   Gasparovic M., 2018, INT ARCH PHOTOGRAMM, VXLII-1, P155, DOI 10.5194/ISPRS-ARCHIVES-XLII-1-155-2018
+   Gasparovic M, 2018, INT J REMOTE SENS, V39, P822, DOI 10.1080/01431161.2017.1392640
+   He XY, 2012, INT GEOSCI REMOTE SE, V0, PP166, DOI 10.1109/IGARSS.2012.6351611
+   Kavzoglu T, 2009, INT J APPL EARTH OBS, V11, P352, DOI 10.1016/j.jag.2009.06.002
+   Keshtkar H, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2899-y
+   Lizarazo I, 2008, INT J REMOTE SENS, V29, P7277, DOI 10.1080/01431160802326081
+   Lizarazo I, 2010, REMOTE SENS LETT, V1, P19, DOI 10.1080/01431160903246683
+   Maxwell AE, 2018, INT J REMOTE SENS, V39, P2784, DOI 10.1080/01431161.2018.1433343
+   Nunez J, 1999, IEEE T GEOSCI REMOTE, V37, P1204, DOI 10.1109/36.763274
+   Olofsson P, 2014, REMOTE SENS ENVIRON, V148, P42, DOI 10.1016/j.rse.2014.02.015
+   Otazu X, 2005, IEEE T GEOSCI REMOTE, V43, P2376, DOI 10.1109/TGRS.2005.856106
+   Petropoulos GP, 2013, GEOCARTO INT, V28, P323, DOI 10.1080/10106049.2012.706648
+   PlanetLabs, 2019, CLOUD BAS SAT IM PLA, V0, P0
+   QI J, 1994, REMOTE SENS ENVIRON, V48, P119, DOI 10.1016/0034-4257(94)90134-1
+   Renza Torres D., 2010, IMPLEMENTACION EVALU, V0, P0
+   Schneider A, 2012, REMOTE SENS ENVIRON, V124, P689, DOI 10.1016/j.rse.2012.06.006
+   Shih HC, 2019, INT J REMOTE SENS, V40, P1248, DOI 10.1080/01431161.2018.1524179
+   Sivagami R, 2018, 2018 INTERNATIONAL CONFERENCE ON WIRELESS COMMUNICATIONS, V0, P0
+   Tan P.N., 2018, INTRO DATA MINING, V2nd, P0
+   Tang YW, 2016, INT J REMOTE SENS, V37, P4441, DOI 10.1080/01431161.2016.1214300
+   Tso B., 2009, CLASSIFICATION METHO, V0, P0, DOI DOI 10.1201/9781420090741
+   Vallauri Daniel, 2005, P150, V0, P0, DOI DOI 10.1007/0-387-29112-1_21
+   Wald L, 1999, IEEE T GEOSCI REMOTE, V37, P1190, DOI 10.1109/36.763269
+   Wang Z, 2002, IEEE SIGNAL PROC LET, V9, P81, DOI 10.1109/97.995823
+   Wilson EH, 2002, REMOTE SENS ENVIRON, V80, P385, DOI 10.1016/S0034-4257(01)00318-2
+   Wu JD, 2007, FIELD CROP RES, V102, P33, DOI 10.1016/j.fcr.2007.01.003
+   Zha Y, 2003, INT J REMOTE SENS, V24, P583, DOI 10.1080/01431160304987
+NR 38
+TC 2
+Z9 2
+U1 1
+U2 4
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2020
+VL 0
+IS 
+BP 246
+EP 253
+DI 
+PG 8
+WC Engineering, Electrical & Electronic; Remote Sensing
+SC Engineering; Remote Sensing
+GA BQ9ST
+UT WOS:000626733300048
+DA 2023-04-26
+ER

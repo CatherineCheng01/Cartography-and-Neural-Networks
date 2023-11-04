@@ -1,0 +1,497 @@
+
+PT J
+AU Mizuochi, H
+   Hayashi, M
+   Tadono, T
+AF Mizuochi, Hiroki
+   Hayashi, Masato
+   Tadono, Takeo
+TI Development of an Operational Algorithm for Automated Deforestation Mapping via the Bayesian Integration of Long-Term Optical and Microwave Satellite Data
+SO REMOTE SENSING
+LA English
+DT Article
+DE automated deforestation mapping; Landsat; ASTER; PALSAR-2; tropical forest; Bayesian Updating of Land-Cover (BULC)
+ID landsat-5 thematic mapper; water index ndwi; forest cover; estimating area; modis; reflectance; accuracy; imagery; fusion; series
+AB The frequent fine-scale monitoring of deforestation using satellite sensors is important for the sustainable management of forests. Traditional optical satellite sensors suffer from cloud interruption, particularly in tropical regions, and recent active microwave sensors (i.e., synthetic aperture radar) demonstrate the difficulty in data interpretation owing to their inherent sensor noise and complicated backscatter features of forests. Although the sensor integration of optical and microwave sensors is of compelling research interest, particularly in the conduct of deforestation monitoring, this topic has not been widely studied. In this paper, we introduce an operational algorithm for automated deforestation mapping using long-term optical and L-band SAR data, including a simple time-series analysis of Landsat stacks and a multilayered neural network with Advanced Spaceborne Thermal Emission and Reflection Radiometer and Phased Array-type L-band Synthetic Aperture Radar-2, followed by sensor integration based on the Bayesian Updating of Land-Cover. We applied the algorithm over a deciduous tropical forest in Cambodia in 2003-2018 for validation, and the algorithm demonstrated better accuracy than existing approaches, which only depend on optical data or SAR data. Owing to the cloud penetration ability of SAR, observation gaps of optical data under cloudy conditions were filled, resulting in a prompter detection of deforestation even in the tropical rainy season. We also investigated the effect of posterior probability constraints in the Bayesian approach. The land-cover maps (forest/deforestation) created by the well-tuned Bayesian approach achieved 94.0% +/- 4.5%, 80.0% +/- 10.1%, and 96.4% +/- 1.9% for the user's accuracy, producer's accuracy, and overall accuracy, respectively. In the future, small-scale commission errors in the resultant maps should be improved by using more sophisticated machine-learning approaches and considering the reforestation effects in the algorithm. The application of the algorithm to other landscapes with other sensor combinations is also desirable.
+C1 [Mizuochi, Hiroki] Natl Inst Adv Ind Sci & Technol, Geol Survey Japan, Res Inst Geol & Geoinformat, 1-1-1 Higashi, Tsukuba, Ibaraki 3058567, Japan.
+   [Hayashi, Masato; Tadono, Takeo] Japan Aerosp Explorat Agcy JAXA, Earth Observat Res Ctr, 2-1-1 Sengen, Tsukuba, Ibaraki 3058505, Japan.
+C3 National Institute of Advanced Industrial Science & Technology (AIST); Japan Aerospace Exploration Agency (JAXA)
+RP Mizuochi, H (corresponding author), Natl Inst Adv Ind Sci & Technol, Geol Survey Japan, Res Inst Geol & Geoinformat, 1-1-1 Higashi, Tsukuba, Ibaraki 3058567, Japan.
+EM mizuochi.hiroki@aist.go.jp
+CR Adikari Y., 2010, INT J EROS CONTROL E, V3, P110, DOI 10.13101/ijece.3.110
+   Basieva I, 2017, J MATH PSYCHOL, V77, P58, DOI 10.1016/j.jmp.2016.08.005
+   Belgiu M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070818
+   Bishop C. M., 2006, PATTERN RECOGNITION, V0, P0
+   Cardille JA, 2016, REMOTE SENS ENVIRON, V186, P234, DOI 10.1016/j.rse.2016.08.021
+   Espejo JC, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121903
+   Falkowski MJ, 2005, FOREST ECOL MANAG, V217, P129, DOI 10.1016/j.foreco.2005.06.013
+   Faraklioti M, 2001, IEEE T GEOSCI REMOTE, V39, P2227, DOI 10.1109/36.957285
+   Foroosh H, 2002, IEEE T IMAGE PROCESS, V11, P188, DOI 10.1109/83.988953
+   Fortin JA, 2020, REMOTE SENS ENVIRON, V238, P0, DOI 10.1016/j.rse.2019.111266
+   Gao F, 2006, IEEE T GEOSCI REMOTE, V44, P2207, DOI 10.1109/TGRS.2006.872081
+   Giam XL, 2017, P NATL ACAD SCI USA, V114, P5775, DOI 10.1073/pnas.1706264114
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Hansen MC, 2013, SCIENCE, V342, P850, DOI 10.1126/science.1244693
+   Hansen MC, 2016, ENVIRON RES LETT, V11, P0, DOI 10.1088/1748-9326/11/3/034008
+   Hansen MC, 2004, ECOSYSTEMS, V7, P695, DOI 10.1007/s10021-004-0243-3
+   Holloway J, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091365
+   Houghton RA, 2010, CARBON MANAG, V1, P253, DOI 10.4155/CMT.10.29
+   Huang CQ, 2010, REMOTE SENS ENVIRON, V114, P183, DOI 10.1016/j.rse.2009.08.017
+   Jackman S., 2009, BAYESIAN ANAL SOCIAL, V0, P18
+   Jin Y, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8120997
+   Ju JC, 2008, REMOTE SENS ENVIRON, V112, P1196, DOI 10.1016/j.rse.2007.08.011
+   Koutsias N, 2000, PHOTOGRAMM ENG REM S, V66, P829
+   Marshak C, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050556
+   McFeeters SK, 1996, INT J REMOTE SENS, V17, P1425, DOI 10.1080/01431169608948714
+   Mermoz S, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8030217
+   Mizuochi H, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081235
+   Mizuochi H, 2017, REMOTE SENS ENVIRON, V199, P370, DOI 10.1016/j.rse.2017.07.026
+   Motohka T., 2018, P INT GEOSC REM SENS, V0, P0
+   Nakano Y., 2010, INT J EROS CONTROL E, V3, P34, DOI 10.13101/ijece.3.34
+   Olander LP, 2008, ENVIRON RES LETT, V3, P0, DOI 10.1088/1748-9326/3/2/025011
+   Olofsson P, 2014, REMOTE SENS ENVIRON, V148, P42, DOI 10.1016/j.rse.2014.02.015
+   Omar H, 2017, APPL SCI-BASEL, V7, P0, DOI 10.3390/app7070675
+   Pachauri R.K., 2014, CLIMATE CHANGE 2014, V0, P0
+   Peng Li, 2014, REMOTE SENSING, V6, P310, DOI 10.3390/rs6010310
+   Potapov P, 2008, REMOTE SENS ENVIRON, V112, P3708, DOI 10.1016/j.rse.2008.05.006
+   Potapov PV, 2012, REMOTE SENS ENVIRON, V122, P106, DOI 10.1016/j.rse.2011.08.027
+   Pour AB, 2017, NAT HAZARD EARTH SYS, V17, P1285, DOI 10.5194/nhess-17-1285-2017
+   Reiche J, 2018, REMOTE SENS ENVIRON, V204, P147, DOI 10.1016/j.rse.2017.10.034
+   Rouse J., 1973, NASA SP, V0, P309
+   Stehman SV, 2014, INT J REMOTE SENS, V35, P4923, DOI 10.1080/01431161.2014.930207
+   Stibig HJ, 2014, BIOGEOSCIENCES, V11, P247, DOI 10.5194/bg-11-247-2014
+   Thapa RB, 2015, REMOTE SENS ENVIRON, V160, P122, DOI 10.1016/j.rse.2015.01.007
+   Tranter V., 2015, FOOD AGR ORG UN, V0, P388
+   Vogelmann JE, 2001, REMOTE SENS ENVIRON, V78, P55, DOI 10.1016/S0034-4257(01)00249-8
+   White L, 2015, REMOTE SENS-BASEL, V7, P7615, DOI 10.3390/rs70607615
+   Xie ZX, 2008, ISPRS J PHOTOGRAMM, V63, P647, DOI 10.1016/j.isprsjprs.2008.04.003
+   Xu HQ, 2006, INT J REMOTE SENS, V27, P3025, DOI 10.1080/01431160600589179
+   Yamada W, 2015, 2015 EIGHTH INTERNATIONAL CONFERENCE ON MOBILE COMPUTING AND UBIQUITOUS NETWORKING (ICMU), V0, PP7, DOI 10.1109/ICMU.2015.7061020
+   Zhu XL, 2010, REMOTE SENS ENVIRON, V114, P2610, DOI 10.1016/j.rse.2010.05.032
+NR 50
+TC 5
+Z9 6
+U1 0
+U2 6
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD SEP 1
+PY 2019
+VL 11
+IS 17
+BP 
+EP 
+DI 10.3390/rs11172038
+PG 18
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA IZ1UU
+UT WOS:000486874300082
+DA 2023-04-26
+ER
+
+PT J
+AU Keel, S
+   Wu, JR
+   Lee, PY
+   Scheetz, J
+   He, MG
+AF Keel, Stuart
+   Wu, Jinrong
+   Lee, Pei Ying
+   Scheetz, Jane
+   He, Mingguang
+TI Visualizing Deep Learning Models for the Detection of Referable Diabetic Retinopathy and Glaucoma
+SO JAMA OPHTHALMOLOGY
+LA English
+DT Article
+ID validation
+AB IMPORTANCE Convolutional neural networks have recently been applied to ophthalmic diseases; however, the rationale for the outputs generated by these systems is inscrutable to clinicians. A visualization tool is needed that would enable clinicians to understand important exposure variables in real time. OBJECTIVE To systematically visualize the convolutional neural networks of 2 validated deep learning models for the detection of referable diabetic retinopathy (DR) and glaucomatous optic neuropathy (GON). DESIGN, SETTING, AND PARTICIPANTS The GON and referable DR algorithms were previously developed and validated (holdout method) using 48116 and 66 790 retinal photographs, respectively, derived from a third-party database (LabelMe) of deidentified photographs from various clinical settings in China. In the present cross-sectional study, a random sample of 100 true-positive photographs and all false-positive cases from each of the GON and DR validation data sets were selected. All data were collected from March to June 2017. The original color fundus images were processed using an adaptive kernel visualization technique. The images were preprocessed by applying a sliding window with a size of 28 x 28 pixels and a stride of 3 pixels to crop images into smaller subimages to produce a feature map. Threshold scales were adjusted to optimal levels for each model to generate heat maps highlighting localized landmarks on the input image. A single optometrist allocated each image to predefined categories based on the generated heat map. MAIN OUTCOMES AND MEASURES Visualization regions of the fundus. RESULTS In the GON data set, 90 of 100 true-positive cases (90%; 95% CI, 82%-95%) and 15 of 22 false-positive cases (68%; 95% CI, 45%-86%) displayed heat map visualization within regions of the optic nerve head only. Lesions typically seen in cases of referable DR (exudate, hemorrhage, or vessel abnormality) were identified as the most important prognostic regions in 96 of 100 true-positive DR cases (96%; 95% CI, 90%-99%). In 39 of 46 false-positive DR cases (85%; 95% CI, 71%-94%), the heat map displayed visualization of nontraditional fundus regions with or without retinal venules. CONCLUSIONS AND RELEVANCE These findings suggest that this visualization method can highlight traditional regions in disease diagnosis, substantiating the validity of the deep learning models investigated. This visualization technique may promote the clinical adoption of these models.
+C1 [Keel, Stuart; Wu, Jinrong; Lee, Pei Ying; Scheetz, Jane; He, Mingguang] Royal Victorian Eye & Ear Hosp, Ctr Eye Res Australia, Melbourne, Vic, Australia.
+   [He, Mingguang] Sun Yat Sen Univ, State Key Lab Ophthalmol, Zhongshan Ophthalm Ctr, Guangzhou, Guangdong, Peoples R China.
+C3 Centre for Eye Research Australia; Royal Victorian Eye & Ear Hospital; Sun Yat Sen University
+RP He, MG (corresponding author), Univ Melbourne, Ctr Eye Res Australia, 32 Gisborne St,Level 7, East Melbourne, Vic 3002, Australia.
+EM mingguang.he@unimelb.edu.au
+FU Bupa Health Foundation; University of Melbourne Accelerator Program; Centre for Eye Research Australia Foundation; Victorian Government
+CR Abramoff MD, 2016, INVEST OPHTH VIS SCI, V57, P5200, DOI 10.1167/iovs.16-19964
+   Ebner M, 2009, MACH VISION APPL, V20, P283, DOI 10.1007/s00138-008-0126-2
+   Gargeya R, 2017, OPHTHALMOLOGY, V124, P962, DOI 10.1016/j.ophtha.2017.02.008
+   Gulshan V, 2016, JAMA-J AM MED ASSOC, V316, P2402, DOI 10.1001/jama.2016.17216
+   Hwang YH, 2012, INVEST OPHTH VIS SCI, V53, P2226, DOI 10.1167/iovs.11-8689
+   JONAS JB, 1993, OPHTHALMOLOGY, V100, P63
+   Keel S, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-22612-2
+   Li AN, 2016, IEEE ENG MED BIO, V0, PP1328, DOI 10.1109/EMBC.2016.7590952
+   Li ZX, 2018, OPHTHALMOLOGY, V125, P1199, DOI 10.1016/j.ophtha.2018.01.023
+   Ting DSW, 2017, JAMA-J AM MED ASSOC, V318, P2211, DOI 10.1001/jama.2017.18152
+   VANBUSKIRK EM, 1992, AM J OPHTHALMOL, V113, P447, DOI 10.1016/S0002-9394(14)76171-9
+NR 11
+TC 50
+Z9 57
+U1 1
+U2 35
+PU AMER MEDICAL ASSOC
+PI CHICAGO
+PA 330 N WABASH AVE, STE 39300, CHICAGO, IL 60611-5885 USA
+SN 2168-6165
+EI 2168-6173
+J9 JAMA OPHTHALMOL
+JI JAMA Ophthalmol.
+PD MAR 15
+PY 2019
+VL 137
+IS 3
+BP 288
+EP 292
+DI 10.1001/jamaophthalmol.2018.6035
+PG 5
+WC Ophthalmology
+SC Ophthalmology
+GA HO8LL
+UT WOS:000461203100016
+PM 30570648
+DA 2023-04-26
+ER
+
+PT J
+AU Gao, YH
+   Gao, F
+   Dong, JY
+   Wang, SK
+AF Gao, Yunhao
+   Gao, Feng
+   Dong, Junyu
+   Wang, Shengke
+TI Change Detection From Synthetic Aperture Radar Images Based on Channel Weighting-Based Deep Cascade Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Feature extraction; Synthetic aperture radar; Radar polarimetry; Speckle; Training; Deep learning; Reliability; Change detection; deep cascade network (DCNet); deep learning; residual learning; synthetic aperture radar (SAR)
+ID unsupervised change detection; convolutional network; neural-networks; feature fusion
+AB Deep learning methods have recently demonstrated their significant capability for synthetic aperture radar (SAR) image change detection. However, with the increase of network depth, convolutional neural networks often encounter some negative effects, such as overfitting and exploding gradients. In addition, the existing deep networks employed in SAR change detection tend to produce a lot of redundant features that affect the performance of the network. To solve the aforementioned problems, this article proposed a deep cascade network (DCNet) for SAR image change detection. On the one hand, a very DCNet is established to exploit discriminative features, and residual learning is introduced to solve the exploding gradients problem. In addition, a fusion mechanism is employed to combine the outputs of different hierarchical layers to further alleviate the exploding gradient problem. Moreover, a simple yet effective channel weighting-based module is designed for SAR change detection. Average pooling and max pooling are used to aggregate channel-wise information. Meaningful channel-wise features are emphasized and unnecessary ones are suppressed. Therefore, the similarity in feature maps can be reduced, and then, the classification performance of the DCNet is improved. Experimental results on four real SAR datasets demonstrated that the proposed DCNet can obtain better change detection performance than several competitive methods. Our codes are available at https://github.com/summitgao/SAR_CD_DCNet.
+C1 [Gao, Yunhao; Gao, Feng; Dong, Junyu; Wang, Shengke] Ocean Univ China, Sch Informat Sci & Engn, Qingdao Key Lab Mixed Real & Virtual Ocean, Qingdao 266100, Peoples R China.
+C3 Ocean University of China
+RP Gao, F (corresponding author), Ocean Univ China, Sch Informat Sci & Engn, Qingdao Key Lab Mixed Real & Virtual Ocean, Qingdao 266100, Peoples R China.
+EM 914283361@qq.com; gaofeng@ouc.edu.cn; dongjunyu@ouc.edu.cn; neverme@ouc.edu.cn
+FU National Key R&D Program of China [2018AAA0100602]; National Natural Science Foundation of China [41606198, 41576011]; Key R&D Program of Shandong Province [2019GHY11204]
+CR [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Bazi Y, 2010, IEEE T GEOSCI REMOTE, V48, P3178, DOI 10.1109/TGRS.2010.2045506
+   Brunner D, 2010, IEEE T GEOSCI REMOTE, V48, P2403, DOI 10.1109/TGRS.2009.2038274
+   Bruzzone L, 2000, IEEE T GEOSCI REMOTE, V38, P1171, DOI 10.1109/36.843009
+   Cambria E, 2014, IEEE COMPUT INTELL M, V9, P48, DOI 10.1109/MCI.2014.2307227
+   Celik T, 2009, IEEE GEOSCI REMOTE S, V6, P772, DOI 10.1109/LGRS.2009.2025059
+   Chaib S, 2017, IEEE T GEOSCI REMOTE, V55, P4775, DOI 10.1109/TGRS.2017.2700322
+   G-Michael T, 2016, IEEE J OCEANIC ENG, V41, P592, DOI 10.1109/JOE.2015.2465631
+   Gao F, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.016010
+   Gao F, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050435
+   Gao F, 2016, J APPL REMOTE SENS, V10, P0, DOI 10.1117/1.JRS.10.046019
+   Gao F, 2016, IEEE GEOSCI REMOTE S, V13, P1792, DOI 10.1109/LGRS.2016.2611001
+   Ghosh A, 2013, IEEE T IMAGE PROCESS, V22, P3087, DOI 10.1109/TIP.2013.2259833
+   Gong MG, 2016, IEEE T NEUR NET LEAR, V27, P125, DOI 10.1109/TNNLS.2015.2435783
+   Gong MG, 2017, IEEE T GEOSCI REMOTE, V55, P2658, DOI 10.1109/TGRS.2017.2650198
+   Gong MG, 2012, IEEE T IMAGE PROCESS, V21, P2141, DOI 10.1109/TIP.2011.2170702
+   Gong MG, 2012, IEEE GEOSCI REMOTE S, V9, P307, DOI 10.1109/LGRS.2011.2167211
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hinton G, 2012, IEEE SIGNAL PROC MAG, V29, P82, DOI 10.1109/MSP.2012.2205597
+   Hou B, 2014, IEEE J-STARS, V7, P3297, DOI 10.1109/JSTARS.2014.2328344
+   Hou B, 2017, IEEE GEOSCI REMOTE S, V14, P2418, DOI 10.1109/LGRS.2017.2766840
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Huang GB, 2012, IEEE T SYST MAN CY B, V42, P513, DOI 10.1109/TSMCB.2011.2168604
+   Jia L, 2016, IEEE GEOSCI REMOTE S, V13, P856, DOI 10.1109/LGRS.2016.2550666
+   John V, 2015, IEEE T COMPUT IMAG, V1, P159, DOI 10.1109/TCI.2015.2480006
+   Krinidis S, 2010, IEEE T IMAGE PROCESS, V19, P1328, DOI 10.1109/TIP.2010.2040763
+   Li F, 2016, INT J REMOTE SENS, V37, P3232, DOI 10.1080/01431161.2016.1196838
+   Lin HN, 2017, IEEE GEOSCI REMOTE S, V14, P1665, DOI 10.1109/LGRS.2017.2727515
+   Liu F., 2019, IEEE T NEUR NET LEAR, V30, P1
+   Liu N, 2018, IEEE T IMAGE PROCESS, V27, P3264, DOI 10.1109/TIP.2018.2817047
+   Liu QS, 2018, IEEE T GEOSCI REMOTE, V56, P117, DOI 10.1109/TGRS.2017.2743243
+   Lu XQ, 2017, IEEE T CYBERNETICS, V47, P884, DOI 10.1109/TCYB.2016.2531179
+   Planinsic P, 2018, IEEE GEOSCI REMOTE S, V15, P297, DOI 10.1109/LGRS.2017.2786344
+   Quan SN, 2018, IEEE J-STARS, V11, P458, DOI 10.1109/JSTARS.2017.2787591
+   Radke RJ, 2005, IEEE T IMAGE PROCESS, V14, P294, DOI 10.1109/TIP.2004.838698
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Song WW, 2018, IEEE T GEOSCI REMOTE, V56, P3173, DOI 10.1109/TGRS.2018.2794326
+   Su LZ, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.035014
+   Sun Y, 2013, PROC CVPR IEEE, V0, PP3476, DOI 10.1109/CVPR.2013.446
+   Volpi M, 2013, INT J APPL EARTH OBS, V20, P77, DOI 10.1016/j.jag.2011.10.013
+   Wang RF, 2019, IEEE GEOSCI REMOTE S, V16, P554, DOI 10.1109/LGRS.2018.2878420
+   Wang SN, 2016, REMOTE SENS LETT, V7, P1043, DOI 10.1080/2150704X.2016.1212417
+   Wu C, 2017, REMOTE SENS ENVIRON, V199, P241, DOI 10.1016/j.rse.2017.07.009
+   Yetgin Z, 2012, IEEE T GEOSCI REMOTE, V50, P1919, DOI 10.1109/TGRS.2011.2168230
+   Zhan T, 2018, ISPRS J PHOTOGRAMM, V146, P38, DOI 10.1016/j.isprsjprs.2018.09.002
+   Zhan Y, 2017, IEEE GEOSCI REMOTE S, V14, P1845, DOI 10.1109/LGRS.2017.2738149
+   Zhang H, 2016, IEEE GEOSCI REMOTE S, V13, P1666, DOI 10.1109/LGRS.2016.2601930
+   Zhao WT, 2017, COMM COM INF SC, V772, P566, DOI 10.1007/978-981-10-7302-1_47
+NR 48
+TC 35
+Z9 35
+U1 3
+U2 29
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD NOV 15
+PY 2019
+VL 12
+IS 11
+BP 4517
+EP 4529
+DI 10.1109/JSTARS.2019.2953128
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA KE3CT
+UT WOS:000508437700030
+DA 2023-04-26
+ER
+
+PT J
+AU Helber, P
+   Bischke, B
+   Dengel, A
+   Borth, D
+AF Helber, Patrick
+   Bischke, Benjamin
+   Dengel, Andreas
+   Borth, Damian
+TI EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article; Proceedings Paper
+DE Dataset; deep convolutional neural network; deep learning; earth observation; land cover classification; land use classification; machine learning; remote sensing; satellite image classification; satellite images
+AB In this paper, we present a patch-based land use and land cover classification approach using Sentinel-2 satellite images. The Sentinel-2 satellite images are openly and freely accessible, and are provided in the earth observation program Copernicus. We present a novel dataset, based on these images that covers 13 spectral bands and is comprised of ten classes with a total of 27 000 labeled and geo-referenced images. Benchmarks are provided for this novel dataset with its spectral bands using state-of-the-art deep convolutional neural networks. An overall classification accuracy of 98.57% was achieved with the proposed novel dataset. The resulting classification system opens a gate toward a number of earth observation applications. We demonstrate how this classification system can be used for detecting land use and land cover changes, and how it can assist in improving geographical maps. The geo-referenced dataset EuroSAT is made publicly available at https://github.com/phelber/eurosat.
+C1 [Helber, Patrick; Bischke, Benjamin; Dengel, Andreas] Tech Univ Kaiserslautern, D-67663 Kaiserslautern, Germany.
+   [Helber, Patrick; Bischke, Benjamin; Dengel, Andreas] German Res Ctr Artificial Intelligence, D-67663 Kaiserslautern, Germany.
+   [Borth, Damian] Univ St Gallen, Inst Comp Sci, CH-9000 St Gallen, Switzerland.
+C3 University of Kaiserslautern; University of St Gallen
+RP Helber, P (corresponding author), Tech Univ Kaiserslautern, D-67663 Kaiserslautern, Germany.
+EM Patrick.Helber@dfki.de; Benjamin.Bischke@dfki.de; Andreas.Dengel@dfki.de; damian.borth@unisg.ch
+FU Nvidia
+CR Ahmad K., 2017, P MEDIAEVAL WORKSH D, V0, P0
+   [Anonymous], 2017, AAAI CONF ARTIF INTE, V0, P0, DOI DOI 10.1609/AAAI.V31I1.11231
+   Basu S, 2015, 23RD ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2015), V0, P0, DOI DOI 10.1145/2820783.2820816
+   Bischke B., 2017, P MEDIAEVAL, V0, P0
+   Bischke B, 2019, IEEE IMAGE PROC, V0, PP1480, DOI 10.1109/ICIP.2019.8803050
+   Bischke B, 2016, MM16: PROCEEDINGS OF THE 2016 ACM MULTIMEDIA CONFERENCE, V0, PP1077, DOI 10.1145/2964284.2984063
+   Chen GZ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050719
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   De Boor C., 1978, PRACTICAL GUIDE SPLI, V27, P0, DOI 10.2307/2006241
+   European Commission, 2012, MAPPING GUIDE EUROPE, V0, P0
+   He KM, 2016, LECT NOTES COMPUT SC, V9908, P630, DOI 10.1007/978-3-319-46493-0_38
+   He YX, 2023, TRANSPORTMETRICA A, V19, P0, DOI 10.1080/23249935.2022.2033348
+   Helber P, 2018, INT GEOSCI REMOTE SE, V0, P204
+   Huang LQ, 2018, IEEE J-STARS, V11, P195, DOI 10.1109/JSTARS.2017.2755672
+   Kampffmeyer M, 2016, IEEE COMPUT SOC CONF, V0, PP680, DOI 10.1109/CVPRW.2016.90
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Lin M, 2014, PUBLIC HEALTH NUTR, V17, P2029, DOI 10.1017/S1368980013002176
+   Luus FPS, 2015, IEEE GEOSCI REMOTE S, V12, P2448, DOI 10.1109/LGRS.2015.2483680
+   Ma Z, 2016, INT J COM ELEC AUTO, V10, P1113
+   Marmanis D, 2016, IEEE GEOSCI REMOTE S, V13, P105, DOI 10.1109/LGRS.2015.2499239
+   Ni K., 2015, ARXIV150203409, V0, P0
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Penatti Otavio A. B., 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP44, DOI 10.1109/CVPRW.2015.7301382
+   Ponti M, 2016, IEEE COMPUT GRAPH, V36, P14, DOI 10.1109/MCG.2016.69
+   Roy S, 2018, IEEE IMAGE PROC, V0, PP684, DOI 10.1109/ICIP.2018.8451836
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Sheng GF, 2012, INT J REMOTE SENS, V33, P2395, DOI 10.1080/01431161.2011.608740
+   Simonyan K, 2015, ARXIV, V0, P0
+   Szegedy, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Szegedy, 2014, INTRIGUING PROPERTIE, V0, P0, DOI DOI 10.1109/CVPR.2015.7298594
+   Verdoliva L., 2015, ARXIV PREPRINT ARXIV, V28, P627
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Xia GS, 2010, INT ARCH PHOTOGRAMM, V38, P298
+   Yang Y, 2010, PROC 18 SIGSPATIAL I, V0, P0, DOI DOI 10.1145/1869790.1869829
+   Zhao LJ, 2016, J APPL REMOTE SENS, V10, P0, DOI 10.1117/1.JRS.10.035004
+   Zhou Weixun, 2018, ISPRS J PHOTOGRAMMET, V3, P0
+NR 37
+TC 185
+Z9 185
+U1 27
+U2 97
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUL 15
+PY 2019
+VL 12
+IS 7
+BP 2217
+EP 2226
+DI 10.1109/JSTARS.2019.2918242
+PG 10
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA IP9FE
+UT WOS:000480354800020
+DA 2023-04-26
+ER
+
+PT J
+AU Wokke, ME
+   Ro, T
+AF Wokke, Martijn E.
+   Ro, Tony
+TI Competitive Frontoparietal Interactions Mediate Implicit Inferences
+SO JOURNAL OF NEUROSCIENCE
+LA English
+DT Article
+DE consciousness; decision-making; EEG; inferences; neural networks dynamics; prefrontal cortex
+ID orbitofrontal cortex; utilization behavior; alpha oscillations; functional connectivity; repetition suppression; conscious access; brain networks; cognitive map; attention; eeg
+AB Frequent experience with regularities in our environment allows us to use predictive information to guide our decision process. However, contingencies in our environment are not always explicitly present and sometimes need to be inferred. Heretofore, it remained unknown howpredictive information guides decision-making when explicit knowledge is absent and how the brain shapes such implicit inferences. In the present experiment, 17 human participants (9 females) performed a discrimination task in which a target stimulus was preceded by a predictive cue. Critically, participants had no explicit knowledge that some of the cues signaled an upcoming target, allowing us to investigate how implicit inferences emerge and guide decision-making. Despite unawareness of the cue-target contingencies, participants were able to use implicit information to improve performance. Concurrent EEG recordings demonstrate that implicit inferences rely upon interactions between internally and externally oriented networks, whereby prefrontal regions inhibit parietal cortex under internal implicit control.
+C1 [Wokke, Martijn E.; Ro, Tony] CUNY, Grad Ctr, Program Psychol, New York, NY 10016 USA.
+   [Wokke, Martijn E.; Ro, Tony] CUNY, Grad Ctr, Program Biol, New York, NY 10016 USA.
+   [Wokke, Martijn E.] Univ Cambridge, Dept Psychol, Cambridge CB2 3EB, England.
+C3 City University of New York (CUNY) System; City University of New York (CUNY) System; University of Cambridge
+RP Wokke, ME (corresponding author), CUNY, Grad Ctr, Program Psychol, New York, NY 10016 USA.; Wokke, ME (corresponding author), CUNY, Grad Ctr, Program Biol, New York, NY 10016 USA.; Wokke, ME (corresponding author), Univ Cambridge, Dept Psychol, Cambridge CB2 3EB, England.
+EM martijnwokke@gmail.com
+FU National Science Foundation [1561518]; European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant [Meta_Mind-DLV-704361]; Division Of Behavioral and Cognitive Sci; Direct For Social, Behav & Economic Scie [1561518] Funding Source: National Science Foundation
+CR Bang JW, 2017, SCI REP-UK, V7, P0, DOI 10.1038/s41598-017-16885-2
+   Bar M, 2006, P NATL ACAD SCI USA, V103, P449, DOI 10.1073/pnas.0507062103
+   Bareham CA, 2018, FRONT NEUROL, V9, P0, DOI 10.3389/fneur.2018.00676
+   Bastos AM, 2016, FRONT SYST NEUROSCI, V9, P0, DOI 10.3389/fnsys.2015.00175
+   Becker R, 2018, J NEUROSCI, V38, P755, DOI 10.1523/JNEUROSCI.0831-17.2017
+   Besnard J, 2010, J INT NEUROPSYCH SOC, V16, P453, DOI 10.1017/S1355617709991469
+   Boorman ED, 2016, NEURON, V89, P1343, DOI 10.1016/j.neuron.2016.02.014
+   Bor D, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0171793
+   Bosman CA, 2012, NEURON, V75, P875, DOI 10.1016/j.neuron.2012.06.037
+   Brazzelli M, 1998, EUR J NEUROL, V5, P347, DOI 10.1046/j.1468-1331.1998.540347.x
+   Brown TI, 2010, J NEUROSCI, V30, P7414, DOI 10.1523/JNEUROSCI.6021-09.2010
+   Buzsaki G, 2014, COLD SH Q B, V79, P41, DOI 10.1101/sqb.2014.79.024679
+   Chang AYC, 2015, CONSCIOUS COGN, V31, P139, DOI 10.1016/j.concog.2014.11.005
+   Chennu S, 2013, J NEUROSCI, V33, P11194, DOI 10.1523/JNEUROSCI.0114-13.2013
+   Christoff K, 2000, PSYCHOBIOLOGY, V28, P168
+   Chun MM, 2011, ANNU REV PSYCHOL, V62, P73, DOI 10.1146/annurev.psych.093008.100427
+   Chun MM, 2000, TRENDS COGN SCI, V4, P170, DOI 10.1016/S1364-6613(00)01476-5
+   Chun MM, 2003, J EXP PSYCHOL LEARN, V29, P224, DOI 10.1037/0278-7393.29.2.224
+   Cleeremans A, 1998, TRENDS COGN SCI, V2, P406, DOI 10.1016/S1364-6613(98)01232-7
+   Cleeremans A., 2002, IMPLICIT LEARN CONSC, V2002, P1
+   Cleeremans A, 2011, FRONT PSYCHOL, V2, P0, DOI 10.3389/fpsyg.2011.00086
+   Cohen MX, 2015, INT J PSYCHOPHYSIOL, V97, P245, DOI 10.1016/j.ijpsycho.2014.09.013
+   Cohen MX, 2009, FRONT HUM NEUROSCI, V3, P0, DOI 10.3389/neuro.09.054.2009
+   Cohen MX, 2014, ISS CLIN COGN NEUROP, V0, P1
+   Cooper NR, 2003, INT J PSYCHOPHYSIOL, V47, P65, DOI 10.1016/S0167-8760(02)00107-1
+   DAMASIO AR, 1991, FRONTAL LOBE FUNCTION AND DYSFUNCTION, V0, P217
+   DASILVA FL, 1991, ELECTROEN CLIN NEURO, V79, P81, DOI 10.1016/0013-4694(91)90044-5
+   de Lange FP, 2018, TRENDS COGN SCI, V22, P764, DOI 10.1016/j.tics.2018.06.002
+   Delorme A, 2004, J NEUROSCI METH, V134, P9, DOI 10.1016/j.jneumeth.2003.10.009
+   Dias R, 1996, NATURE, V380, P69, DOI 10.1038/380069a0
+   Dixon ML, 2018, P NATL ACAD SCI USA, V115, PE1598, DOI 10.1073/pnas.1715766115
+   DONCHIN E, 1981, PSYCHOPHYSIOLOGY, V18, P493, DOI 10.1111/j.1469-8986.1981.tb01815.x
+   DONCHIN E, 1988, BEHAV BRAIN SCI, V11, P357, DOI 10.1017/S0140525X00058027
+   Faugeras F, 2012, NEUROPSYCHOLOGIA, V50, P403, DOI 10.1016/j.neuropsychologia.2011.12.015
+   Fleming Stephen M, 2014, FRONT HUM NEUROSCI, V8, P443, DOI 10.3389/fnhum.2014.00443
+   Fox MD, 2005, P NATL ACAD SCI USA, V102, P9673, DOI 10.1073/pnas.0504136102
+   Foxe JJ, 2011, FRONT PSYCHOL, V2, P0, DOI 10.3389/fpsyg.2011.00154
+   Frensch PA, 2003, CURR DIR PSYCHOL SCI, V12, P13, DOI 10.1111/1467-8721.01213
+   Frey S, 2002, NEURON, V36, P171, DOI 10.1016/S0896-6273(02)00901-7
+   Fu KMG, 2001, COGNITIVE BRAIN RES, V12, P145, DOI 10.1016/S0926-6410(01)00034-9
+   Gershman SJ, 2010, CURR OPIN NEUROBIOL, V20, P251, DOI 10.1016/j.conb.2010.02.008
+   Geyer T, 2012, FRONT HUM NEUROSCI, V6, P0, DOI 10.3389/fnhum.2012.00272
+   Goldfarb EV, 2016, NEURON, V89, P317, DOI 10.1016/j.neuron.2015.12.014
+   Goujon A, 2014, MEM COGNITION, V42, P225, DOI 10.3758/s13421-013-0355-0
+   Groen IIA, 2016, J NEUROPHYSIOL, V115, P931, DOI 10.1152/jn.00896.2015
+   Hampson M, 2010, MAGN RESON IMAGING, V28, P1051, DOI 10.1016/j.mri.2010.03.021
+   Jensen O, 2010, FRONT HUM NEUROSCI, V4, P0, DOI 10.3389/fnhum.2010.00186
+   Jokisch D, 2007, J NEUROSCI, V27, P3244, DOI 10.1523/JNEUROSCI.5399-06.2007
+   Kelly AMC, 2008, NEUROIMAGE, V39, P527, DOI 10.1016/j.neuroimage.2007.08.008
+   King JR, 2016, NEURON, V92, P1122, DOI 10.1016/j.neuron.2016.10.051
+   Klimesch W, 2007, BRAIN RES REV, V53, P63, DOI 10.1016/j.brainresrev.2006.06.003
+   LANG PJ, 1994, PSYCHOL REV, V101, P211, DOI 10.1037/0033-295X.101.2.211
+   LHERMITTE F, 1986, ANN NEUROL, V19, P326, DOI 10.1002/ana.410190404
+   LHERMITTE F, 1983, BRAIN, V106, P237, DOI 10.1093/brain/106.2.237
+   Li L, 2018, NEUROPSYCHOLOGIA, V109, P39, DOI 10.1016/j.neuropsychologia.2017.12.006
+   Macmillan NA., 2004, DETECTION THEORY USE, V0, P0, DOI DOI 10.4324/9781410611147
+   Maniscalco B, 2012, CONSCIOUS COGN, V21, P422, DOI 10.1016/j.concog.2011.09.021
+   Marshall TR, 2015, J NEUROSCI, V35, P1638, DOI 10.1523/JNEUROSCI.3116-14.2015
+   Mathewson KE, 2014, J COGNITIVE NEUROSCI, V26, P2400, DOI 10.1162/jocn_a_00637
+   Mathewson KE, 2011, FRONT PSYCHOL, V2, P0, DOI 10.3389/fpsyg.2011.00099
+   Mathewson KE, 2009, J NEUROSCI, V29, P2725, DOI 10.1523/JNEUROSCI.3963-08.2009
+   Meijs EL, 2018, J NEUROSCI, V38, P2318, DOI 10.1523/JNEUROSCI.1952-17.2017
+   Muller-Gass A, 2007, BRAIN RES, V1170, P71, DOI 10.1016/j.brainres.2007.07.023
+   Naccache L, 2016, CORTEX, V85, P126, DOI 10.1016/j.cortex.2016.04.003
+   ODoherty J, 2001, NAT NEUROSCI, V4, P95, DOI 10.1038/82959
+   OReilly JX, 2013, P NATL ACAD SCI USA, V110, PE3660, DOI 10.1073/pnas.1305373110
+   PERRIN F, 1989, ELECTROEN CLIN NEURO, V72, P184, DOI 10.1016/0013-4694(89)90180-6
+   Pesaran B, 2018, NAT NEUROSCI, V21, P903, DOI 10.1038/s41593-018-0171-8
+   Pinto Y, 2015, J VISION, V15, P0, DOI 10.1167/15.8.13
+   POLICH J, 1995, BIOL PSYCHOL, V41, P103, DOI 10.1016/0301-0511(95)05130-9
+   Polich J, 2007, CLIN NEUROPHYSIOL, V118, P2128, DOI 10.1016/j.clinph.2007.04.019
+   Poppa T, 2018, CURR OPIN BEHAV SCI, V19, P61, DOI 10.1016/j.cobeha.2017.10.007
+   Raichle ME, 2001, P NATL ACAD SCI USA, V98, P676, DOI 10.1073/pnas.98.2.676
+   RAY WJ, 1985, SCIENCE, V228, P750, DOI 10.1126/science.3992243
+   Ruby E, 2018, CONSCIOUS COGN, V62, P34, DOI 10.1016/j.concog.2018.04.009
+   Rudebeck PH, 2014, NEURON, V84, P1143, DOI 10.1016/j.neuron.2014.10.049
+   Sauseng P, 2005, EUR J NEUROSCI, V22, P2917, DOI 10.1111/j.1460-9568.2005.04482.x
+   Schuck NW, 2016, NEURON, V91, P1402, DOI 10.1016/j.neuron.2016.08.019
+   Schuck NW, 2018, BIORXIV, V0, P0, DOI DOI 10.1101/210591
+   SCHUPP HT, 1994, COGNITIVE BRAIN RES, V2, P77, DOI 10.1016/0926-6410(94)90004-3
+   Schurger A, 2010, SCIENCE, V327, P97, DOI 10.1126/science.1180029
+   Seppanen M, 2012, ATTEN PERCEPT PSYCHO, V74, P600, DOI 10.3758/s13414-011-0257-9
+   Sergent C, 2005, NAT NEUROSCI, V8, P1391, DOI 10.1038/nn1549
+   Sergent C, 2004, PSYCHOL SCI, V15, P720, DOI 10.1111/j.0956-7976.2004.00748.x
+   Sestieri C, 2010, J NEUROSCI, V30, P8445, DOI 10.1523/JNEUROSCI.4719-09.2010
+   Siegel M, 2012, NAT REV NEUROSCI, V13, P121, DOI 10.1038/nrn3137
+   Silverstein BH, 2015, CORTEX, V73, P216, DOI 10.1016/j.cortex.2015.09.004
+   Srinivasan R, 2007, J NEUROSCI METH, V166, P41, DOI 10.1016/j.jneumeth.2007.06.026
+   Stalnaker TA, 2015, NAT NEUROSCI, V18, P620, DOI 10.1038/nn.3982
+   Stein T, 2015, J EXP PSYCHOL GEN, V144, P1089, DOI 10.1037/xge0000109
+   Summerfield C, 2008, NAT NEUROSCI, V11, P1004, DOI 10.1038/nn.2163
+   Thut G, 2006, J NEUROSCI, V26, P9494, DOI 10.1523/JNEUROSCI.0875-06.2006
+   Todorovic A, 2011, J NEUROSCI, V31, P9118, DOI 10.1523/JNEUROSCI.1425-11.2011
+   van Diepen RM, 2015, J COGNITIVE NEUROSCI, V27, P1573, DOI 10.1162/jocn_a_00803
+   Van Dijk H, 2008, J NEUROSCI, V28, P1816, DOI 10.1523/JNEUROSCI.1853-07.2008
+   van Driel J, 2015, COGN AFFECT BEHAV NE, V15, P787, DOI 10.3758/s13415-015-0367-2
+   van Gaal S, 2012, NEUROSCIENTIST, V18, P287, DOI 10.1177/1073858411404079
+   van Loon AM, 2016, CEREB CORTEX, V26, P1986, DOI 10.1093/cercor/bhv018
+   Vissers ME, 2018, THESIS, V0, P0
+   Walton ME, 2010, NEURON, V65, P927, DOI 10.1016/j.neuron.2010.02.027
+   Weissman DH, 2006, NAT NEUROSCI, V9, P971, DOI 10.1038/nn1727
+   Wilson RC, 2014, NEURON, V81, P267, DOI 10.1016/j.neuron.2013.11.005
+   Wilson RC, 2012, FRONT HUM NEUROSCI, V5, P0, DOI 10.3389/fnhum.2011.00189
+   Windey B, 2015, CONSCIOUS COGN, V35, P185, DOI 10.1016/j.concog.2015.03.002
+   Wokke ME, 2015, FRONT SYST NEUROSCI, V8, P0, DOI 10.3389/fnsys.2014.00246
+   Wokke ME, 2017, J NEUROSCI, V37, P781, DOI 10.1523/JNEUROSCI.1612-16.2016
+   Wokke ME, 2016, CONSCIOUS COGN, V40, P141, DOI 10.1016/j.concog.2016.01.007
+   Wokke ME, 2014, J COGNITIVE NEUROSCI, V26, P365, DOI 10.1162/jocn_a_00497
+   Worden MS, 2000, J NEUROSCI, V20, P0
+   Zabelina DL, 2016, CURR OPIN NEUROBIOL, V40, P86, DOI 10.1016/j.conb.2016.06.014
+NR 110
+TC 3
+Z9 3
+U1 7
+U2 14
+PU SOC NEUROSCIENCE
+PI WASHINGTON
+PA 11 DUPONT CIRCLE, NW, STE 500, WASHINGTON, DC 20036 USA
+SN 0270-6474
+EI 
+J9 J NEUROSCI
+JI J. Neurosci.
+PD JUN 26
+PY 2019
+VL 39
+IS 26
+BP 5183
+EP 5194
+DI 10.1523/JNEUROSCI.2551-18.2019
+PG 12
+WC Neurosciences
+SC Neurosciences & Neurology
+GA IF1KZ
+UT WOS:000472838800011
+PM 31015338
+DA 2023-04-26
+ER

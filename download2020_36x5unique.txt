@@ -1,0 +1,499 @@
+
+PT J
+AU Yoo, C
+   Lee, Y
+   Cho, D
+   Im, J
+   Han, D
+AF Yoo, Cheolhee
+   Lee, Yeonsu
+   Cho, Dongjin
+   Im, Jungho
+   Han, Daehyeon
+TI Improving Local Climate Zone Classification Using Incomplete Building Data and Sentinel 2 Images Based on Convolutional Neural Networks
+SO REMOTE SENSING
+LA English
+DT Article
+DE local climate zone; urban climate; convolutional neural networks; building information; Sentinel
+ID urban heat-island; random forest; areas; temperatures; impact
+AB Recent studies have enhanced the mapping performance of the local climate zone (LCZ), a standard framework for evaluating urban form and function for urban heat island research, through remote sensing (RS) images and deep learning classifiers such as convolutional neural networks (CNNs). The accuracy in the urban-type LCZ (LCZ1-10), however, remains relatively low because RS data cannot provide vertical or horizontal building components in detail. Geographic information system (GIS)-based building datasets can be used as primary sources in LCZ classification, but there is a limit to using them as input data for CNN due to their incompleteness. This study proposes novel methods to classify LCZ using Sentinel 2 images and incomplete building data based on a CNN classifier. We designed three schemes (S1, S2, and a scheme fusion; SF) for mapping 50 m LCZs in two megacities: Berlin and Seoul. S1 used only RS images, and S2 used RS and building components such as area and height (or the number of stories). SF combined two schemes (S1 and S2) based on three conditions, mainly focusing on the confidence level of the CNN classifier. When compared to S1, the overall accuracies for all LCZ classes (OA) and the urban-type LCZ (OA(urb)) of SF increased by about 4% and 7-9%, respectively, for the two study areas. This study shows that SF can compensate for the imperfections in the building data, which causes misclassifications in S2. The suggested approach can be excellent guidance to produce a high accuracy LCZ map for cities where building databases can be obtained, even if they are incomplete.
+C1 [Yoo, Cheolhee; Lee, Yeonsu; Cho, Dongjin; Im, Jungho; Han, Daehyeon] Ulsan Natl Inst Sci & Technol UNIST, Sch Urban & Environm Engn, Ulsan 44919, South Korea.
+C3 Ulsan National Institute of Science & Technology (UNIST)
+RP Im, J (corresponding author), Ulsan Natl Inst Sci & Technol UNIST, Sch Urban & Environm Engn, Ulsan 44919, South Korea.
+EM yoclhe@unist.ac.kr; leeysu0423@unist.ac.kr; djcho@unist.ac.kr; ersgis@unist.ac.kr; dhan@unist.ac.kr
+FU Korea Meteorological Administration Research and Development Program [KMIPA 2017-7010]; Korea Environment Industry & Technology Institute (KEITI) through its Urban Ecological Health Promotion Technology Development Project - Korea Ministry of Environment (MOE) [2020002770001]; Institute for Information & communications Technology Promotion (IITP) - Ministry of Science and ICT (MSIT), Korea [IITP-2020-2018-0-01424]; R&D Program for Forest Science Technology by Korea Forest Service (Korea Forestry Promotion Institute) [FTIS 2020179A00-2022-BB01]; Global PhD Fellowship Program through the National Research Foundation of Korea (NRF) - Ministry of Education [NRF-2018H1A2A1062207]; Institute for Information & Communication Technology Planning & Evaluation (IITP), Republic of Korea [2018-0-01424-003] Funding Source: Korea Institute of Science & Technology Information (KISTI), National Science & Technology Information Service (NTIS); Korea Forestry Promotion Institute (KOFPI) [2020179C10-2022-BB01] Funding Source: Korea Institute of Science & Technology Information (KISTI), National Science & Technology Information Service (NTIS)
+CR Al-Najjar HAH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11121461
+   [Anonymous], 2014, HUNGAR GEOGRAPH B, V0, P0, DOI DOI 10.15201/HUNGEOBULL.63.1.3
+   Argueso D, 2014, CLIM DYNAM, V42, P2183, DOI 10.1007/s00382-013-1789-6
+   Aung HT, 2022, GEOCARTO INT, V37, P792, DOI 10.1080/10106049.2020.1740949
+   Bechtel B, 2019, URBAN CLIM, V28, P0, DOI 10.1016/j.uclim.2019.01.005
+   Bechtel B, 2015, ISPRS INT J GEO-INF, V4, P199, DOI 10.3390/ijgi4010199
+   Beck C, 2018, URBAN CLIM, V25, P152, DOI 10.1016/j.uclim.2018.04.007
+   Bontemps S., 2011, GLOBCOVER PRODUCTS D, V0, P0
+   Boureau Y.-L., 2010, P 27 INT C INT C MAC, V0, P111
+   Brousse O, 2020, INT J CLIMATOL, V40, P4586, DOI 10.1002/joc.6477
+   Cai M, 2018, URBAN CLIM, V24, P485, DOI 10.1016/j.uclim.2017.05.010
+   Chapman S, 2017, LANDSCAPE ECOL, V32, P1921, DOI 10.1007/s10980-017-0561-4
+   Demuzere M, 2019, PLOS ONE, V14, P0, DOI 10.1371/journal.pone.0214474
+   DESA U., 2019, STESASERA421 DESA U, V0, P0
+   Essa W, 2013, INT J APPL EARTH OBS, V23, P95, DOI 10.1016/j.jag.2012.12.007
+   Fan HC, 2014, INT J GEOGR INF SCI, V28, P700, DOI 10.1080/13658816.2013.867495
+   Fonte CC, 2019, URBAN CLIM, V28, P0, DOI 10.1016/j.uclim.2019.100456
+   Friedl MA, 2010, REMOTE SENS ENVIRON, V114, P168, DOI 10.1016/j.rse.2009.08.016
+   Fu G, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050498
+   Geletic J, 2019, BUILD ENVIRON, V156, P21, DOI 10.1016/j.buildenv.2019.04.011
+   Geletic J, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100788
+   Giridharan R, 2018, SUSTAIN CITIES SOC, V40, P677, DOI 10.1016/j.scs.2018.01.024
+   Kaloustian N, 2016, PROCEDIA ENGINEER, V169, P216, DOI 10.1016/j.proeng.2016.10.026
+   Kim M, 2018, GISCI REMOTE SENS, V55, P763, DOI 10.1080/15481603.2018.1457201
+   Kingma D. P, 2015, PROC INT C LEARN REP, V0, P0
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lee J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071097
+   Li MM, 2020, REMOTE SENS ENVIRON, V245, P0, DOI 10.1016/j.rse.2020.111859
+   Li XC, 2020, REMOTE SENS ENVIRON, V240, P0, DOI 10.1016/j.rse.2020.111705
+   Liu T, 2018, GISCI REMOTE SENS, V55, P243, DOI 10.1080/15481603.2018.1426091
+   Marcos D, 2018, ISPRS J PHOTOGRAMM, V145, P96, DOI 10.1016/j.isprsjprs.2018.01.021
+   Milosavljevic A, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9080486
+   Mohan M, 2020, URBAN CLIM, V33, P0, DOI 10.1016/j.uclim.2020.100647
+   Mu QC, 2020, METEOROL ATMOS PHYS, V132, P315, DOI 10.1007/s00703-019-00692-7
+   Ochola EM, 2020, URBAN CLIM, V31, P0, DOI 10.1016/j.uclim.2019.100540
+   Oleson KW, 2015, CLIMATIC CHANGE, V129, P525, DOI 10.1007/s10584-013-0936-8
+   Qiu CP, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101572
+   Rosentreter J, 2020, REMOTE SENS ENVIRON, V237, P0, DOI 10.1016/j.rse.2019.111472
+   Shahmohamadi P., 2011, URBAN STUD RES, V2011, P0, DOI 10.1155/2011/497524
+   Soergel U, 2009, ISPRS J PHOTOGRAMM, V64, P490, DOI 10.1016/j.isprsjprs.2008.10.007
+   Sothe C, 2020, GISCI REMOTE SENS, V57, P369, DOI 10.1080/15481603.2020.1712102
+   Stewart ID, 2012, B AM METEOROL SOC, V93, P1879, DOI 10.1175/BAMS-D-11-00019.1
+   Umezaki AS, 2020, URBAN CLIM, V32, P0, DOI 10.1016/j.uclim.2020.100615
+   Verdonck ML, 2017, INT J APPL EARTH OBS, V62, P102, DOI 10.1016/j.jag.2017.05.017
+   Wang R, 2018, URBAN CLIM, V24, P567, DOI 10.1016/j.uclim.2017.10.001
+   Weng QH, 2004, REMOTE SENS ENVIRON, V89, P467, DOI 10.1016/j.rse.2003.11.005
+   Yoo C, 2019, ISPRS J PHOTOGRAMM, V157, P155, DOI 10.1016/j.isprsjprs.2019.09.009
+   Yoo C, 2018, ISPRS J PHOTOGRAMM, V137, P149, DOI 10.1016/j.isprsjprs.2018.01.018
+   Yu XR, 2017, GISCI REMOTE SENS, V54, P741, DOI 10.1080/15481603.2017.1323377
+   Zhang C, 2018, ISPRS J PHOTOGRAMM, V140, P133, DOI 10.1016/j.isprsjprs.2017.07.014
+   Zhang GC, 2019, IEEE T GEOSCI REMOTE, V57, P7623, DOI 10.1109/TGRS.2019.2914967
+   Zhao S, 2020, GISCI REMOTE SENS, V57, P37, DOI 10.1080/15481603.2019.1658960
+   Zheng YS, 2018, URBAN CLIM, V24, P419, DOI 10.1016/j.uclim.2017.05.008
+NR 53
+TC 15
+Z9 15
+U1 12
+U2 29
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD NOV 15
+PY 2020
+VL 12
+IS 21
+BP 
+EP 
+DI 10.3390/rs12213552
+PG 22
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OR2PG
+UT WOS:000589316400001
+DA 2023-04-26
+ER
+
+PT J
+AU Ganaie, MA
+   Ghosh, S
+   Mendola, N
+   Tanveer, M
+   Jalan, S
+AF Ganaie, M. A.
+   Ghosh, Saptarshi
+   Mendola, Naveen
+   Tanveer, M.
+   Jalan, Sarika
+TI Identification of chimera using machine learning
+SO CHAOS
+LA English
+DT Article
+ID states; synchronization; networks; ensemble; dynamics; kuramoto; solve; model; map
+AB Chimera state refers to the coexistence of coherent and non-coherent phases in identically coupled dynamical units found in various complex dynamical systems. Identification of chimera, on one hand, is essential due to its applicability in various areas including neuroscience and, on the other hand, is challenging due to its widely varied appearance in different systems and the peculiar nature of its profile. Therefore, a simple yet universal method for its identification remains an open problem. Here, we present a very distinctive approach using machine learning techniques to characterize different dynamical phases and identify the chimera state from given spatial profiles generated using various different models. The experimental results show that the performance of the classification algorithms varies for different dynamical models. The machine learning algorithms, namely, random forest, oblique random forest based on Tikhonov, axis-parallel split, and null space regularization achieved more than 96 % accuracy for the Kuramoto model. For the logistic maps, random forest and Tikhonov regularization based oblique random forest showed more than 90 % accuracy, and for the Henon map model, random forest, null space, and axis-parallel split regularization based oblique random forest achieved more than 80 % accuracy. The oblique random forest with null space regularization achieved consistent performance (more than 83 % accuracy) across different dynamical models while the auto-encoder based random vector functional link neural network showed relatively lower performance. This work provides a direction for employing machine learning techniques to identify dynamical patterns arising in coupled non-linear units on large-scale and for characterizing complex spatiotemporal patterns in real-world systems for various applications.
+C1 [Ganaie, M. A.; Tanveer, M.] Indian Inst Technol Indore, Discipline Math, Khandwa Rd, Indore 453552, India.
+   [Ghosh, Saptarshi; Mendola, Naveen; Jalan, Sarika] Indian Inst Technol Indore, Complex Syst Lab, Discipline Phys, Khandwa Rd, Indore 453552, India.
+   [Jalan, Sarika] Indian Inst Technol Indore, Discipline Biosci & Biomed Engn, Khandwa Rd, Indore 453552, India.
+   [Jalan, Sarika] Inst Basic Sci IBS, Ctr Theoret Phys Complex Syst, Daejeon 34126, South Korea.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Indore; Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Indore; Indian Institute of Technology System (IIT System); Indian Institute of Technology (IIT) - Indore; Institute for Basic Science - Korea (IBS)
+RP Jalan, S (corresponding author), Indian Inst Technol Indore, Complex Syst Lab, Discipline Phys, Khandwa Rd, Indore 453552, India.; Jalan, S (corresponding author), Indian Inst Technol Indore, Discipline Biosci & Biomed Engn, Khandwa Rd, Indore 453552, India.; Jalan, S (corresponding author), Inst Basic Sci IBS, Ctr Theoret Phys Complex Syst, Daejeon 34126, South Korea.
+EM mtanveer@iiti.ac.in; sarika@iiti.ac.in
+FU DST Project Grant [EMR/2016/00 1921]; CSIR [25 (0293)/18/EMR-II]; DST [IF150149]
+CR Abrams DM, 2008, PHYS REV LETT, V101, P0, DOI 10.1103/PhysRevLett.101.084103
+   Abrams DM, 2006, INT J BIFURCAT CHAOS, V16, P21, DOI 10.1142/S0218127406014551
+   Abrams DM, 2004, PHYS REV LETT, V93, P0, DOI 10.1103/PhysRevLett.93.174102
+   Andrzejak RG, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep23000
+   [Anonymous], 1975, INT S MATH PROBLEMS, V0, P0, DOI DOI 10.1007/BFB0013365
+   [Anonymous], 1993, CHAOS DYNAMICAL SYST, V0, P0
+   Atay FM, 2004, PHYS REV LETT, V92, P0, DOI 10.1103/PhysRevLett.92.144101
+   Bansal K, 2019, SCI ADV, V5, P0, DOI 10.1126/sciadv.aau8535
+   Barmparis GD, 2020, PHYS LETT A, V384, P0, DOI 10.1016/j.physleta.2020.126300
+   Beck A, 2009, SIAM J IMAGING SCI, V2, P183, DOI 10.1137/080716542
+   Bera BK, 2016, PHYS REV E, V93, P0, DOI 10.1103/PhysRevE.93.012205
+   Blasius B, 1999, NATURE, V399, P354, DOI 10.1038/20676
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Burkov A., 2019, HUNDRED PAGE MACHINE, V0, P0
+   Chen LF, 2000, PATTERN RECOGN, V33, P1713, DOI 10.1016/S0031-3203(99)00139-9
+   Chouzouris T, 2018, CHAOS, V28, P0, DOI 10.1063/1.5009812
+   Dudkowski D, 2014, PHYS REV E, V90, P0, DOI 10.1103/PhysRevE.90.032920
+   Evgeniou T, 2000, ADV COMPUT MATH, V13, P1, DOI 10.1023/A:1018946025316
+   Fernandez-Delgado M, 2014, J MACH LEARN RES, V15, P3133
+   Ganaie MA, 2020, EXPERT SYST APPL, V143, P0, DOI 10.1016/j.eswa.2019.113072
+   Ghosh S, 2019, EPL-EUROPHYS LETT, V127, P0, DOI 10.1209/0295-5075/127/30002
+   Ghosh S, 2016, INT J BIFURCAT CHAOS, V26, P0, DOI 10.1142/S0218127416501200
+   Gopal R, 2014, PHYS REV E, V89, P0, DOI 10.1103/PhysRevE.89.052914
+   Hart JD, 2019, PHILOS T R SOC A, V377, P0, DOI 10.1098/rsta.2018.0123
+   Hart JD, 2016, CHAOS, V26, P0, DOI 10.1063/1.4953662
+   HENON M, 1976, COMMUN MATH PHYS, V50, P69, DOI 10.1007/BF01608556
+   Hizanidis J, 2020, CHAOS, V30, P0, DOI 10.1063/1.5122307
+   Hizanidis J, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep19845
+   Jalan S, 2017, CHAOS, V27, P0, DOI 10.1063/1.5005576
+   Jalan S, 2016, PHYS REV E, V94, P0, DOI 10.1103/PhysRevE.94.062202
+   Kanter I, 2011, EPL-EUROPHYS LETT, V93, P0, DOI 10.1209/0295-5075/93/66001
+   Kasimatis T, 2018, PHYS REV E, V97, P0, DOI 10.1103/PhysRevE.97.052213
+   Kemeth FP, 2016, CHAOS, V26, P0, DOI 10.1063/1.4959804
+   Kumar P, 2017, PHYS LETT A, V381, P2337, DOI 10.1016/j.physleta.2017.05.032
+   Kuramoto Y., 2002, NONLINEAR PHENOMENA IN COMPLEX SYSTEMS, V5, P380
+   Laing CR, 2015, PHYS REV E, V92, P0, DOI 10.1103/PhysRevE.92.050904
+   Laing CR, 2009, PHYSICA D, V238, P1569, DOI 10.1016/j.physd.2009.04.012
+   Lee UC, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-017-18657-4
+   Lu ZX, 2018, CHAOS, V28, P0, DOI 10.1063/1.5039508
+   Maistrenko Y, 2015, NEW J PHYS, V17, P0, DOI 10.1088/1367-2630/17/7/073037
+   Maksimenko VA, 2017, PHYS REV E, V96, P0, DOI 10.1103/PhysRevE.96.012316
+   MANGASARIAN OL, 1979, SIAM J CONTROL OPTIM, V17, P745, DOI 10.1137/0317052
+   MARROQUIN J, 1987, J AM STAT ASSOC, V82, P76, DOI 10.2307/2289127
+   Martens EA, 2013, P NATL ACAD SCI USA, V110, P10563, DOI 10.1073/pnas.1302880110
+   Masoliver M, 2017, CHAOS, V27, P0, DOI 10.1063/1.5003237
+   MAY RM, 1976, NATURE, V261, P459, DOI 10.1038/261459a0
+   Meena C, 2016, INT J BIFURCAT CHAOS, V26, P0, DOI 10.1142/S0218127416300238
+   Mitchell T. M., 2017, MACH LEARN, V0, P0
+   Neofotistos G, 2019, FRONT PHYS-LAUSANNE, V7, P0, DOI 10.3389/fphy.2019.00024
+   o A, 2013, DTSCH ARZTEBL, V110, P0
+   Omelchenko I, 2013, PHYS REV LETT, V110, P0, DOI 10.1103/PhysRevLett.110.224101
+   Omelchenko I, 2011, PHYS REV LETT, V106, P0, DOI 10.1103/PhysRevLett.106.234102
+   Palmigiano A, 2012, PLOS ONE, V7, P0, DOI 10.1371/journal.pone.0041799
+   Panaggio MJ, 2015, NONLINEARITY, V28, PR67, DOI 10.1088/0951-7715/28/3/R67
+   PAO YH, 1994, NEUROCOMPUTING, V6, P163, DOI 10.1016/0925-2312(94)90053-1
+   Parekh N, 1998, PHYS REV LETT, V81, P1401, DOI 10.1103/PhysRevLett.81.1401
+   Pathak J, 2018, CHAOS, V28, P0, DOI 10.1063/1.5028373
+   Pathak J, 2017, CHAOS, V27, P0, DOI 10.1063/1.5010300
+   PHATAK SC, 1995, PHYS REV E, V51, P3670, DOI 10.1103/PhysRevE.51.3670
+   Rodrigues F., 2019, ARXIV191000544, V0, P0
+   Rodrigues FA, 2016, PHYS REP, V610, P1, DOI 10.1016/j.physrep.2015.10.008
+   Schmidt A, 2017, PHYS REV E, V95, P0, DOI 10.1103/PhysRevE.95.032224
+   Schmidt L, 2015, CHAOS, V25, P0, DOI 10.1063/1.4921727
+   Scholl E, 2016, EUR PHYS J-SPEC TOP, V225, P891, DOI 10.1140/epjst/e2016-02646-3
+   Schulen L, 2019, CHAOS SOLITON FRACT, V128, P290, DOI 10.1016/j.chaos.2019.07.046
+   Semenova N, 2015, EPL-EUROPHYS LETT, V112, P0, DOI 10.1209/0295-5075/112/40002
+   Semenova N, 2016, PHYS REV LETT, V117, P0, DOI 10.1103/PhysRevLett.117.014102
+   Sethia GC, 2014, PHYS REV LETT, V112, P0, DOI 10.1103/PhysRevLett.112.144101
+   Singh A, 2017, CHAOS, V27, P0, DOI 10.1063/1.4979798
+   Strelkova GI, 2018, REGUL CHAOTIC DYN, V23, P948, DOI 10.1134/S1560354718070092
+   Strogatz SH, 2000, PHYSICA D, V143, P1, DOI 10.1016/S0167-2789(00)00094-4
+   Suda Y, 2018, PHYS REV E, V97, P0, DOI 10.1103/PhysRevE.97.042212
+   Tharwat A., 2021, APPL COMPUTING INFOR, V17, P168, DOI 10.1016/j.aci.2018.08.003
+   Tsigkri-DeSmedt ND, 2016, EUR PHYS J-SPEC TOP, V225, P1149, DOI 10.1140/epjst/e2016-02661-4
+   Tsigkri-DeSmedt ND, 2018, EUR PHYS J B, V91, P0, DOI 10.1140/epjb/e2018-90478-8
+   Ujjwal SR, 2013, PHYS REV E, V88, P0, DOI 10.1103/PhysRevE.88.032902
+   Wolfrum M, 2011, CHAOS, V21, P0, DOI 10.1063/1.3563579
+   Wolpert DH, 1996, NEURAL COMPUT, V8, P1341, DOI 10.1162/neco.1996.8.7.1341
+   Xie JB, 2014, PHYS REV E, V90, P0, DOI 10.1103/PhysRevE.90.022919
+   Zakharova A, 2014, PHYS REV LETT, V112, P0, DOI 10.1103/PhysRevLett.112.154101
+   Zhang L, 2015, IEEE T CYBERNETICS, V45, P2165, DOI 10.1109/TCYB.2014.2366468
+   Zhang YS, 2019, NEURAL NETWORKS, V112, P85, DOI 10.1016/j.neunet.2019.01.007
+   2015, 1900, V91, V0, P0, DOI DOI 10.1103/PHYSREVB.91.054303
+NR 84
+TC 8
+Z9 8
+U1 0
+U2 7
+PU AIP Publishing
+PI MELVILLE
+PA 1305 WALT WHITMAN RD, STE 300, MELVILLE, NY 11747-4501 USA
+SN 1054-1500
+EI 1089-7682
+J9 CHAOS
+JI Chaos
+PD JUN 15
+PY 2020
+VL 30
+IS 6
+BP 
+EP 
+DI 10.1063/1.5143285
+PG 11
+WC Mathematics, Applied; Physics, Mathematical
+SC Mathematics; Physics
+GA MA4RY
+UT WOS:000541903700004
+PM 32611090
+DA 2023-04-26
+ER
+
+PT J
+AU Pokrovskaia, N
+   Margulyan, Y
+   Lvin, Y
+   Bulatetskaia, A
+AF Pokrovskaia, Nadezhda
+   Margulyan, Yakov
+   Lvin, Yuri
+   Bulatetskaia, Alena
+TI Neuro-technologies and fuzzy logic for intellectual capital evaluation in education and business
+SO INTERNATIONAL SCIENTIFIC CONFERENCE DIGITAL TRANSFORMATION ON MANUFACTURING, INFRASTRUCTURE AND SERVICE
+LA English
+DT Proceedings Paper
+AB Intellectual capital as an economic concept migrated from the stock exchange financial analysis to the economics and corporate governance, and to the studies on the public regulation of innovative growth. Evaluation of intellectual capital forms the basis for making managerial decisions at the both levels of private business and of regulation of social and economic activities in a region or national State. Management at the micro and macro levels needs tools that take into account a wide variety of factors, the diversity of customers' and partners criteria. Fuzzy sets and computing allow analysts to approach the tasks of evaluating intellectual assets and human capital both from the point of view of expert analysis, including expert machine learning, and of studying the mindsets and cognitive maps and behavioural models of participants in business processes about an actor, territory or company, and its ability to produce, transform and use an intelligent product. Neural networks and fuzzy computing are the useful intelligence tools to assess intellectual capital, customer opinion about the product, business reputation and brand. The example of the cognitive modelling presents the results of the evaluations of general business perspectives for the international cooperation given by the master students of double diploma programs, taking into account the common sense and the specific learning achievements within the course.
+C1 [Pokrovskaia, Nadezhda] Peter Great St Petersburg Polytech Univ, St Petersburg, Russia.
+   [Pokrovskaia, Nadezhda] Herzen State Pedag Univ Russia, St Petersburg, Russia.
+   [Margulyan, Yakov; Lvin, Yuri] St Petersburg State Univ Econ, St Petersburg, Russia.
+   [Bulatetskaia, Alena] Perm State Natl Res Univ, Perm, Russia.
+C3 Peter the Great St. Petersburg Polytechnic University; Herzen State Pedagogical University of Russia; Saint-Petersburg State University of Economics; Perm State University
+RP Pokrovskaia, N (corresponding author), Peter Great St Petersburg Polytech Univ, St Petersburg, Russia.; Pokrovskaia, N (corresponding author), Herzen State Pedag Univ Russia, St Petersburg, Russia.
+EM nnp@spbstu.ru
+FU Russian Foundation for Basic Research [16-29-12965 / 18]
+CR Ababkova MY, 2018, EUR PROC SOC BEHAV, V35, P10, DOI 10.15405/epsbs.2018.02.2
+   Ahmad Muhammad, 2016, INTERNATIONAL JOURNAL OF LEARNING AND INTELLECTUAL CAPITAL, V13, P250
+   Al-Musali MAK, 2014, PROCD SOC BEHV, V164, P201, DOI 10.1016/j.sbspro.2014.11.068
+   Al-Musali MA, 2016, INT J ISLAMIC MIDDLE, V9, P512, DOI 10.1108/IMEFM-03-2015-0029
+   Almazova N., 2018, COMMUN COMPUT INF SC, V859, P162
+   Andriessen D., 2004, J INTELLECT CAP, V5, P230, DOI 10.1108/14691930410533669
+   Bontis N., 1998, MANAGE DECIS, V36, P63, DOI 10.1108/00251749810204142
+   BONTIS N, 1996, BUS QUART, V60, P40
+   Brooking A., 1996, INTELLECTUAL CAPITAL, V0, P0
+   Brusakova IA, 2017, PROCEEDINGS OF 2017 XX IEEE INTERNATIONAL CONFERENCE ON SOFT COMPUTING AND MEASUREMENTS (SCM), V0, PP792, DOI 10.1109/SCM.2017.7970726
+   Bylieva D, 2019, EDUC SCI, V9, P0, DOI 10.3390/educsci9030167
+   Chen Y M, 2014, P AS C TECHN SOC, V0, P0
+   Edvinsson L., 1997, INTELLECTUAL CAPITAL, V0, P0
+   Eichengreen B, 2014, JPN WORLD ECON, V32, P65, DOI 10.1016/j.japwor.2014.07.003
+   Goh PC, 2005, J INTELLECT CAP, V6, P385, DOI 10.1108/14691930510611120
+   Haris M, 2019, INT J BUS PERFORM MA, V20, P145, DOI 10.1504/IJBPM.2019.098642
+   Iazzolino G, 2013, J INTELLECT CAP, V14, P547, DOI 10.1108/JIC-12-2012-0107
+   Jang J, 1997, IEEE T AUTOMAT CONTR, V0, P0
+   Joshi M., 2010, J HUMAN RESOURCE COS, V14, P151, DOI 10.1108/14013381011062649
+   Keles A, 2008, KNOWL-BASED SYST, V21, P951, DOI 10.1016/j.knosys.2008.04.007
+   Mavridis D. G., 2004, J INTELLECT CAP, V5, P92, DOI 10.1108/14691930410512941
+   Mavridis DG., 2005, MANAGE RES NEWS, V28, P43, DOI 10.1108/01409170510629032
+   Meles A, 2016, J MULTINATL FINANC M, V36, P64, DOI 10.1016/j.mulfin.2016.04.003
+   Mondal A, 2012, J INTELLECT CAP, V13, P515, DOI 10.1108/14691931211276115
+   Nawaz T, 2017, J ISLAMIC ACCOUNT BU, V8, P130, DOI 10.1108/JIABR-06-2016-0071
+   Odinokaya M, 2019, EDUC SCI, V9, P0, DOI 10.3390/educsci9030200
+   OSGOOD CE, 1952, PSYCHOL BULL, V49, P197, DOI 10.1037/h0055737
+   Ozkan N, 2017, BORSA ISTANB REV, V17, P190, DOI 10.1016/j.bir.2016.03.001
+   [Пискун О.Е. Piskun O.E.], 2018, ТЕОРИЯ И ПРАКТИКА ФИЗИЧЕСКОЙ КУЛЬТУРЫ TEORIYA I PRACKTIKA FIZICHESKOY KULTURY TEORIYA I PRAKTIKA FIZICHESKOI KULTURY, V0, P45
+   Pulic A, 2000, INT J TECHNOL MANAGE, V20, P702, DOI 10.1504/IJTM.2000.002891
+   Pulic A., 1998, 2 MCMASTER WORLD C M, V0, P0
+   Roos G, 1997, LONG RANGE PLANN, V30, P413, DOI 10.1016/S0024-6301(97)90260-0
+   Saaty T.L., 1980, ANAL HIERARCHY PROCE, V0, P0
+   Samsonowa T, 2012, CONTRIB MANAG SCI, V0, PP1, DOI 10.1007/978-3-7908-2762-0
+   Sigov VI, 2017, 2017 IEEE II INTERNATIONAL CONFERENCE ON CONTROL IN TECHNICAL SYSTEMS (CTS), V0, PP216, DOI 10.1109/CTSYS.2017.8109529
+   Singh S, 2016, MANAG FINANC, V42, P635, DOI 10.1108/MF-08-2014-0211
+   Strangio D, 2018, TERRITORIO FINANZA, V1, P143
+   Ting IWK, 2009, J INTELLECT CAP, V10, P588, DOI 10.1108/14691930910996661
+   Tobin J., 1969, J MONEY, V1, P15, DOI 10.2307/1991374
+   Utevskaia M, 2016, PR INT CONF MANAGE, V0, P354
+NR 40
+TC 0
+Z9 0
+U1 1
+U2 6
+PU IOP PUBLISHING LTD
+PI BRISTOL
+PA DIRAC HOUSE, TEMPLE BACK, BRISTOL BS1 6BE, ENGLAND
+SN 1757-8981
+EI 
+J9 IOP CONF SER-MAT SCI
+PD JUN 15
+PY 2020
+VL 940
+IS 
+BP 
+EP 
+DI 10.1088/1757-899X/940/1/012090
+PG 12
+WC Management
+SC Business & Economics
+GA BR1KA
+UT WOS:000632620800090
+DA 2023-04-26
+ER
+
+PT J
+AU Srivastava, S
+   Munoz, JEV
+   Lobry, S
+   Tuia, D
+AF Srivastava, Shivangi
+   Vargas Munoz, John E.
+   Lobry, Sylvain
+   Tuia, Devis
+TI Fine-grained landuse characterization using ground-based pictures: a deep learning solution based on globally available data
+SO INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SCIENCE
+LA English
+DT Article
+DE Landuse characterization; convolutional neural networks; ground-based pictures; volunteered geographic information; urban areas
+ID network; cover
+AB We study the problem of landuse characterization at the urban-object level using deep learning algorithms. Traditionally, this task is performed by surveys or manual photo interpretation, which are expensive and difficult to update regularly. We seek to characterize usages at the single object level and to differentiate classes such as educational institutes, hospitals and religious places by visual cues contained in side-view pictures from Google Street View (GSV). These pictures provide geo-referenced information not only about the material composition of the objects but also about their actual usage, which otherwise is difficult to capture using other classical sources of data such as aerial imagery. Since the GSV database is regularly updated, this allows to consequently update the landuse maps, at lower costs than those of authoritative surveys. Because every urban-object is imaged from a number of viewpoints with street-level pictures, we propose a deep-learning based architecture that accepts arbitrary number of GSV pictures to predict the fine-grained landuse classes at the object level. These classes are taken from OpenStreetMap. A quantitative evaluation of the area of ile-de-France, France shows that our model outperforms other deep learning-based methods, making it a suitable alternative to manual landuse characterization.
+C1 [Srivastava, Shivangi; Lobry, Sylvain; Tuia, Devis] Wageningen Univ & Res, Lab Geoinformat Sci & Remote Sensing, Wageningen, Netherlands.
+   [Vargas Munoz, John E.] Univ Estadual Campinas, Inst Comp, Campinas, Brazil.
+C3 Wageningen University & Research; Universidade Estadual de Campinas
+RP Srivastava, S (corresponding author), Wageningen Univ & Res, Lab Geoinformat Sci & Remote Sensing, Wageningen, Netherlands.
+EM shivangi.srivastava@wur.nl
+CR Bromley J., 1993, INTERNATIONAL JOURNAL OF PATTERN RECOGNITION AND ARTIFICIAL INTELLIGENCE, V7, P669, DOI 10.1142/S0218001493000339
+   Chen Y.-H., 2017, IEEE INT C COMP VIS, V0, P1992
+   Doersch C, 2012, ACM T GRAPHIC, V31, P0, DOI 10.1145/2185520.2185597
+   Gebru Timnit, 2017, P NATL ACAD SCI, V0, P0
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Homer C, 2015, PHOTOGRAMM ENG REM S, V81, P345, DOI 10.14358/PERS.81.5.345
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Laptev D, 2016, PROC CVPR IEEE, V0, PP289, DOI 10.1109/CVPR.2016.38
+   Lefevre S, 2017, P IEEE, V105, P1884, DOI 10.1109/JPROC.2017.2684300
+   Movshovitz-Attias Y, 2015, PROC CVPR IEEE, V0, PP1693, DOI 10.1109/CVPR.2015.7298778
+   Naik N, 2017, P NATL ACAD SCI USA, V114, P7571, DOI 10.1073/pnas.1619003114
+   Nair V, 2010, ICML, V27, P807
+   Pacifici F, 2009, REMOTE SENS ENVIRON, V113, P1276, DOI 10.1016/j.rse.2009.02.014
+   Postadjian T., 2017, ISPRS ANN PHOTOGRAMM, VIV1W1, P183, DOI 10.5194/ISPRS-ANNALS-IV-1-W1-183-2017
+   Produit T., 2014, ISPRS ANN PHOTOGRAMM, VII, P127
+   Produit T., 2014, ENV MULT RETR COL AC, V0, P22
+   Simonyan K, 2015, ARXIV, V0, P0
+   Srivastava S., 2018, P AGILE 2018, V0, P12
+   Tracewski L, 2017, GEO-SPAT INF SCI, V20, P252, DOI 10.1080/10095020.2017.1373955
+   Tuia D, 2015, ISPRS J PHOTOGRAMM, V105, P272, DOI 10.1016/j.isprsjprs.2015.01.006
+   Wegner JD, 2016, PROC CVPR IEEE, V0, PP6014, DOI 10.1109/CVPR.2016.647
+   Workman S., 2017, P IEEE INT C COMP VI, V0, P0
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zhou BL, 2014, LECT NOTES COMPUT SC, V8691, P519, DOI 10.1007/978-3-319-10578-9_34
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+   Zhu Y., 2018, ARXIV180202668CS, V0, P0
+NR 26
+TC 38
+Z9 39
+U1 7
+U2 52
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1365-8816
+EI 1362-3087
+J9 INT J GEOGR INF SCI
+JI Int. J. Geogr. Inf. Sci.
+PD JUN 2
+PY 2020
+VL 34
+IS 6
+BP 1117
+EP 1136
+DI 10.1080/13658816.2018.1542698
+PG 20
+WC Computer Science, Information Systems; Geography; Geography, Physical; Information Science & Library Science
+SC Computer Science; Geography; Physical Geography; Information Science & Library Science
+GA LK6RO
+UT WOS:000530991600003
+DA 2023-04-26
+ER
+
+PT J
+AU Liu, B
+   Du, SH
+   Du, SJ
+   Zhang, XY
+AF Liu, Bo
+   Du, Shihong
+   Du, Shouji
+   Zhang, Xiuyuan
+TI Incorporating Deep Features into GEOBIA Paradigm for Remote Sensing Imagery Classification: A Patch-Based Approach
+SO REMOTE SENSING
+LA English
+DT Article
+DE GEOBIA; convolutional neural networks; very-high-resolution remote sensing images
+ID segmentation; extraction
+AB The fast and accurate creation of land use/land cover maps from very-high-resolution (VHR) remote sensing imagery is crucial for urban planning and environmental monitoring. Geographic object-based image analysis methods (GEOBIA) provide an effective solution using image objects instead of individual pixels in VHR remote sensing imagery analysis. Simultaneously, convolutional neural networks (CNN) have been widely used in the image processing field because of their powerful feature extraction capabilities. This study presents a patch-based strategy for integrating deep features into GEOBIA for VHR remote sensing imagery classification. To extract deep features from irregular image objects through CNN, a patch-based approach is proposed for representing image objects and learning patch-based deep features, and a deep features aggregation method is proposed for aggregating patch-based deep features into object-based deep features. Finally, both object and deep features are integrated into a GEOBIA paradigm for classifying image objects. We explored the influences of segmentation scales and patch sizes in our method and explored the effectiveness of deep and object features in classification. Moreover, we performed 5-fold stratified cross validations 50 times to explore the uncertainty of our method. Additionally, we explored the importance of deep feature aggregation, and we evaluated our method by comparing it with three state-of-the-art methods in a Beijing dataset and Zurich dataset. The results indicate that smaller segmentation scales were more conducive to VHR remote sensing imagery classification, and it was not appropriate to select too large or too small patches as the patch size should be determined by imagery and its resolution. Moreover, we found that deep features are more effective than object features, while object features still matter for image classification, and deep feature aggregation is a critical step in our method. Finally, our method can achieve the highest overall accuracies compared with the state-of-the-art methods, and the overall accuracies are 91.21% for the Beijing dataset and 99.05% for the Zurich dataset.
+C1 [Liu, Bo; Du, Shihong; Du, Shouji; Zhang, Xiuyuan] Peking Univ, Inst Remote Sensing & GIS, Beijing 100871, Peoples R China.
+C3 Peking University
+RP Du, SH (corresponding author), Peking Univ, Inst Remote Sensing & GIS, Beijing 100871, Peoples R China.
+EM liubo_rs@pku.edu.cn; shdu@pku.edu.cn; dusj@pku.edu.cn; xy_zhang@pku.edu.cn
+FU National Natural Science Foundation of China [41871372]
+CR Abdi O, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19183965
+   Baatz M., 2000, ANGEW GEOGRAPHISCHE, V0, PP12, DOI 10.3390/RS5010183
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Blaschke T, 2014, ISPRS J PHOTOGRAMM, V87, P180, DOI 10.1016/j.isprsjprs.2013.09.014
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chen XY, 2014, IEEE GEOSCI REMOTE S, V11, P1797, DOI 10.1109/LGRS.2014.2309695
+   Chen YS, 2016, IEEE T GEOSCI REMOTE, V54, P6232, DOI 10.1109/TGRS.2016.2584107
+   Chen Z, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010139
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Clinton N, 2010, PHOTOGRAMM ENG REM S, V76, P289, DOI 10.14358/PERS.76.3.289
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   de Lima RP, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010086
+   De Luca G, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11101238
+   Du SH, 2015, ISPRS J PHOTOGRAMM, V105, P107, DOI 10.1016/j.isprsjprs.2015.03.011
+   Feng F, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19235276
+   Fu TY, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.025010
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020196
+   Griffith DC, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7120462
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Huang X, 2007, IEEE GEOSCI REMOTE S, V4, P260, DOI 10.1109/LGRS.2006.890540
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Langkvist M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040329
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Lee H, 2017, IEEE T IMAGE PROCESS, V26, P4843, DOI 10.1109/TIP.2017.2725580
+   Liu B, 2018, IEEE T GEOSCI REMOTE, V56, P1909, DOI 10.1109/TGRS.2017.2769673
+   Liu T, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030457
+   Liu T, 2018, GISCI REMOTE SENS, V55, P243, DOI 10.1080/15481603.2018.1426091
+   Liu YF, 2018, IEEE T GEOSCI REMOTE, V56, P7109, DOI 10.1109/TGRS.2018.2848473
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Ma L, 2015, ISPRS J PHOTOGRAMM, V102, P14, DOI 10.1016/j.isprsjprs.2014.12.026
+   Martinez S, 2012, REMOTE SENS-BASEL, V4, P1024, DOI 10.3390/rs4041024
+   Mboga N, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050597
+   Ming DP, 2015, ISPRS J PHOTOGRAMM, V106, P28, DOI 10.1016/j.isprsjprs.2015.04.010
+   Pal M, 2005, INT J REMOTE SENS, V26, P217, DOI 10.1080/01431160412331269698
+   Pesaresi M, 2013, IEEE J-STARS, V6, P2102, DOI 10.1109/JSTARS.2013.2271445
+   Pontius RG, 2011, INT J REMOTE SENS, V32, P4407, DOI 10.1080/01431161.2011.552923
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Ribeiro FF, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12111721
+   Rodriguez-Galiano VF, 2012, ISPRS J PHOTOGRAMM, V67, P93, DOI 10.1016/j.isprsjprs.2011.11.002
+   Simonyan K, 2015, ARXIV, V0, P0
+   Stein A, 2005, IEEE T GEOSCI REMOTE, V43, P852, DOI 10.1109/TGRS.2005.843569
+   Volpi M, 2015, IEEE COMPUT SOC CONF, V0, P0, DOI DOI 10.1109/CVPRW.2015.7301377
+   Yang MD, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12040633
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+   Zhang F, 2016, IEEE T GEOSCI REMOTE, V54, P5553, DOI 10.1109/TGRS.2016.2569141
+   Zhang LP, 2006, IEEE T GEOSCI REMOTE, V44, P2950, DOI 10.1109/TGRS.2006.876704
+   Zhao WQ, 2019, IEEE T SYST MAN CY-S, V49, P1254, DOI 10.1109/TSMC.2017.2724440
+   Zhao WZ, 2017, ISPRS J PHOTOGRAMM, V132, P48, DOI 10.1016/j.isprsjprs.2017.08.011
+NR 50
+TC 8
+Z9 8
+U1 2
+U2 15
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD SEP 15
+PY 2020
+VL 12
+IS 18
+BP 
+EP 
+DI 10.3390/rs12183007
+PG 24
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OE0WM
+UT WOS:000580262000001
+DA 2023-04-26
+ER

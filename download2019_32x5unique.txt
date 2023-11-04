@@ -1,0 +1,400 @@
+
+PT J
+AU Vargas-Munoz, JE
+   Lobry, S
+   Falcao, AX
+   Tuia, D
+AF Vargas-Munoz, John E.
+   Lobry, Sylvain
+   Falcao, Alexandre X.
+   Tuia, Devis
+TI Correcting rural building annotations in OpenStreetMap using convolutional neural networks
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Very high resolution mapping; Convolutional neural networks; Shape priors; OpenStreetMap; Volunteered geographical information; Update of vector maps
+ID image registration
+AB Rural building mapping is paramount to support demographic studies and plan actions in response to crisis that affect those areas. Rural building annotations exist in OpenStreetMap (OSM), but their quality and quantity are not sufficient for training models that can create accurate rural building maps. The problems with these annotations essentially fall into three categories: (i) most commonly, many annotations are geometrically misaligned with the updated imagery; (ii) some annotations do not correspond to buildings in the images (they are misannotations or the buildings have been destroyed); and (iii) some annotations are missing for buildings in the images (the buildings were never annotated or were built between subsequent image acquisitions). First, we propose a method based on Markov Random Field (MRF) to align the buildings with their annotations. The method maximizes the correlation between annotations and a building probability map while enforcing that nearby buildings have similar alignment vectors. Second, the annotations with no evidence in the building probability map are removed. Third, we present a method to detect non-annotated buildings with predefined shapes and add their annotation. The proposed methodology shows considerable improvement in accuracy of the OSM annotations for two regions of Tanzania and Zimbabwe, being more accurate than state-of-the-art baselines.
+C1 [Vargas-Munoz, John E.; Falcao, Alexandre X.] Univ Estadual Campinas, Inst Comp, Lab Image Data Sci, Campinas, SP, Brazil.
+   [Lobry, Sylvain; Tuia, Devis] Wageningen Univ & Res, Lab Geoinformat Sci & Remote Sensing, Wageningen, Netherlands.
+C3 Universidade Estadual de Campinas; Wageningen University & Research
+RP Vargas-Munoz, JE (corresponding author), Univ Estadual Campinas, Inst Comp, Lab Image Data Sci, Campinas, SP, Brazil.
+EM john.vargas@ic.unicamp.br
+FU FAPESP [2016/14760-5, 2017/10086-0, 2014/12236-1]; CNPq [302970/2014-2]; Swiss National Science Foundation [PP00P2-150593]
+CR Audebert N., 2017, C COMP VIS PATT REC, V0, P0
+   Barron C, 2014, T GIS, V18, P877, DOI 10.1111/tgis.12073
+   Basiri A, 2016, GEO-SPAT INF SCI, V19, P56, DOI 10.1080/10095020.2016.1151213
+   Benarchid O., 2013, CAN J IMAGE PROCESS, V4, P3
+   BESAG J, 1986, J R STAT SOC B, V48, P259
+   Chen JY, 2017, WWW17 COMPANION: PROCEEDINGS OF THE 26TH INTERNATIONAL CONFERENCE ON WORLD WIDE WEB, V0, PP771, DOI 10.1145/3041021.3054250
+   de Vos BD, 2017, LECT NOTES COMPUT SC, V10553, P204, DOI 10.1007/978-3-319-67558-9_24
+   Demir I., 2018, COMP VIS PATT REC WO, V0, P0
+   Estima J., 2013, ACM SIGSPATIAL INT W, V0, P0
+   Fan HC, 2014, LECT NOTES GEOINF CA, V0, PP19, DOI 10.1007/978-3-319-03611-3_2
+   Fleischmann P., 2017, INTELLIGENT AUTONOMO, V0, P0
+   Fonte CC, 2015, INT J GEOGR INF SCI, V29, P1269, DOI 10.1080/13658816.2015.1018266
+   GLASBEY CA, 1993, CVGIP-GRAPH MODEL IM, V55, P532, DOI 10.1006/cgip.1993.1040
+   Glocker B, 2011, ANNU REV BIOMED ENG, V13, P219, DOI 10.1146/annurev-bioeng-071910-124649
+   Hariharan B, 2015, PROC CVPR IEEE, V0, PP447, DOI 10.1109/CVPR.2015.7298642
+   Hashemi P., 2015, ASSESSMENT LOGICAL C, V0, P0
+   Jilani M, 2016, ADV INTELL SYST COMP, V385, P213, DOI 10.1007/978-3-319-23258-4_19
+   Kaiser P, 2017, IEEE T GEOSCI REMOTE, V55, P6054, DOI 10.1109/TGRS.2017.2719738
+   LEE SU, 1990, COMPUT VISION GRAPH, V52, P171, DOI 10.1016/0734-189X(90)90053-X
+   Maggiori E., 2017, IEEE INT GEOSC REM S, V0, P0
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P4962, DOI 10.1109/TGRS.2017.2697453
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Marcos D., 2018, COMPUTER VISION PATT, V0, P0
+   Marcos D., 2018, ISPRS J PHOTOGRAM RE, V0, P0
+   Marcos D., 2016, C COMP VIS PATT REC, V0, P0
+   Mnih V., 2012, P 29 INT C MACH LEAR, V0, P567
+   OTSU N, 1979, IEEE T SYST MAN CYB, V9, P62, DOI 10.1109/TSMC.1979.4310076
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Saito S, 2016, J IMAGING SCI TECHN, V60, P0, DOI 10.2352/J.ImagingSci.Technol.2016.60.1.010402
+   Sirmacek B, 2009, IEEE T GEOSCI REMOTE, V47, P1156, DOI 10.1109/TGRS.2008.2008440
+   Srivastava S., 2018, P AGILE 2018, V0, P12
+   Vakalopoulou M., 2016, IEEE J-STARS, V9, P0
+   Vargas-Munoz J.E., 2018, IEEE INT GEOSC REM S, V0, P0
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Wang Z., 2017, ISPRS ANN PHOTOGRAMM, V0, PP411, DOI 10.5194/isprs-annals-IV-2-W4-411-2017
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 36
+TC 33
+Z9 33
+U1 1
+U2 11
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD JAN 15
+PY 2019
+VL 147
+IS 
+BP 283
+EP 293
+DI 10.1016/j.isprsjprs.2018.11.010
+PG 11
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HH4KH
+UT WOS:000455690800021
+DA 2023-04-26
+ER
+
+PT J
+AU Lynda, NO
+AF Lynda, Nzurumike Obianuju
+TI Systematic survey of convolutional neural network in satellite image classification for geological mapping
+SO 2019 15TH INTERNATIONAL CONFERENCE ON ELECTRONICS, COMPUTER AND COMPUTATION (ICECCO)
+LA English
+DT Proceedings Paper
+DE convolutional neural network; deep learning; geological mapping; image classification; satellite imagery
+AB Convolutional Neural networks (ConvNets or CNNs) are a category of Neural Networks that have proven very effective in computer vision tasks such as image recognition and classification. Notwithstanding, not much has been seen in its application to satellite image classification for geoscience purpose. This paper aims to provide a systematic review of the concept of satellite image classification using the state-of-the-art CNN, highlighting the recent developments in improving its accuracy and performance. Adequate knowledge and usage of this technique will enhance the speed and accuracy of satellite image classification tasks and subsequently generation of geological or topographic maps. These maps will equip the stakeholders in the mining, environment, educational, political, national security and national planning with more reliable and faster access to geospatial information needed for knowledge- driven decision support.
+C1 [Lynda, Nzurumike Obianuju] Nile Univ Nigeria, Comp Sci Dept, Abuja, Nigeria.
+RP Lynda, NO (corresponding author), Nile Univ Nigeria, Comp Sci Dept, Abuja, Nigeria.
+EM nzurumikeuju@yahoo.com
+CR Abburu S., 2015, INT J COMPUT APPL, V119, P20, DOI 10.5120/21088-3779
+   Carranza-Garcia M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030274
+   Castelluccio M., 1900, P1, V0, P0
+   Helber P, 2018, INT GEOSCI REMOTE SE, V0, P204
+   Khan AM, 2019, NANOTOXICOLOGY, V13, P221, DOI 10.1080/17435390.2018.1540728
+   Land C., 2018, VERY DEEP CONVOLUTIO, V0, P0
+   Lecun Y., 2010, MNIST HANDWRITTEN DI, V3, P1
+   Li N., 2018, NOVEL DEEP CONVOLUTI, VXLII, P7
+   Lu D., 2007, SURVEY IMAGE CLASSIF, V1161, P0
+   Makinde E. O., 2016, GEOINFORMATICS FCE C, V15, P59, DOI 10.14311/GI.15.2.5
+   Maxwell AE, 2018, INT J REMOTE SENS, V39, P2784, DOI 10.1080/01431161.2018.1433343
+   Neural D. C., 2020, INS DEEP CONV NEUR, V0, P0
+   Ore D.I.N., 2018, DEEP LEARNING REMOTE, V0, P0
+   Paoletti ME, 2018, ISPRS J PHOTOGRAMM, V145, P120, DOI 10.1016/j.isprsjprs.2017.11.021
+   Paoletti M. E., 2018, DEEP DENSE CONVOLUTI, V0, P1
+   Region G., 2018, ASSESSMENT CONVOLUTI, V0, P0
+   Salem M. A. M., 2019, P INT C ADV INT SYST, V845, P0
+   Song J, 2019, BIG EARTH DATA, V3, P232, DOI 10.1080/20964471.2019.1657720
+   Veljanovski T, 2011, GEOD VESTN, V55, P641, DOI 10.15292/geodetski-vestnik.2011.04.641-664
+   Yamashita R, 2018, INSIGHTS IMAGING, V9, P611, DOI 10.1007/s13244-018-0639-9
+   Zhang W, 2019, CHEM-US, V5, P492, DOI 10.1016/j.chempr.2019.02.019
+NR 28
+TC 0
+Z9 0
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2640-6802
+EI 2640-6799
+J9 INT CONF ELECT COMP
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 
+EP 
+DI 
+PG 6
+WC Computer Science, Theory & Methods; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BP8HO
+UT WOS:000565653600080
+DA 2023-04-26
+ER
+
+PT J
+AU El-Tantawi, AM
+   Bao, AM
+   Chang, C
+   Liu, Y
+AF El-Tantawi, Attia M.
+   Bao, Anming
+   Chang, Cun
+   Liu, Ying
+TI Monitoring and predicting land use/cover changes in the Aksu-Tarim River Basin, Xinjiang-China (1990-2030)
+SO ENVIRONMENTAL MONITORING AND ASSESSMENT
+LA English
+DT Article
+DE Land use; cover change; Artificial neural network (ANN); Reconnaissance Drought Index; Aksu; Tarim River Basin; Xinjiang
+ID cover change; water-resources; nile delta; ecosystems; egypt; restoration; groundwater; reaches; wetland; imagery
+AB Land use/cover (LCLU) is considered as one of the most serious environmental challenges that threatens developed and less developed countries. LCLU changes' monitoring using the integration of remote sensing (RS) and geographical information systems (GIS) and their predicting using an artificial neural network (ANN) in the western part of the Tarim River Basin (Aksu), north-western Xinjiang-China, from 1990 to 2030 have been investigated first time through satellite imageries available. The imageries of 1990, 2000, 2005, 2010, and 2015 were downloaded from GLCF and USGS websites. After digital image processing, the object-oriented image classification approach was applied. The ANN method with MOLUSCE Plugin was used to simulate the LCLU changes in 2020, 2025, and 2030. GIS has also been used to calculate the distance from the road and water and etc. The simulation results of 2010 and 2015 were validated using classification data with Kappa coefficient. The results showed high accuracy of the classification and prediction as the validation of simulated 2010 and 2015 maps to the referenced maps have high accuracy of Kappa 84 and 88%, respectively. The results revealed that the land cover classes forest-, grass-, wet-, and barren land have been decreased from 50.01, 13.06, 8.24, and 1.06% in 1990 to 32.03, 3.06, 6.26, and 0.97% in 2015, respectively, while the land use classes, crop or farm land, and urban land have been increased almost double from 25.5 and 2.13% in 1990 to 53.71 and 3.86% from the total area in 2015, respectively. For the prediction, forest- and wetlands will loss more than half of their areas by 2030, the grass land will be cleared completely to be only 1.3% from the total study area, while the urban land will be increased to be 4.4% or the double of 1990. These results are attributed to population growth and expanding of agriculture land on the grass land, but the effect of climate was weak as the rainfall increased during the study period. Causes and effects of the LCLU changes were briefly discussed. The output of the study serves as useful tools for policy and decision makers combatting natural resources misused in arid lands.
+C1 [El-Tantawi, Attia M.; Bao, Anming; Chang, Cun; Liu, Ying] Chinese Acad Sci, Xinjiang Inst Ecol & Geog, State Key Lab Desert & Oasis Ecol, Urumqi 830011, Peoples R China.
+   [El-Tantawi, Attia M.; Bao, Anming; Chang, Cun; Liu, Ying] Key Lab GIS & RS Applicat, Urumqi 830011, Peoples R China.
+   [El-Tantawi, Attia M.; Bao, Anming; Chang, Cun; Liu, Ying] Chinese Acad Sci, Res Ctr Ecol & Environm Cent Asia, Urumqi 830011, Peoples R China.
+   [Bao, Anming; Chang, Cun; Liu, Ying] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+   [El-Tantawi, Attia M.] Cairo Univ, Fac African Postgrad Studies, Giza 12613, Egypt.
+C3 Chinese Academy of Sciences; Xinjiang Institute of Ecology & Geography, CAS; Chinese Academy of Sciences; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Egyptian Knowledge Bank (EKB); Cairo University
+RP Bao, AM (corresponding author), Chinese Acad Sci, Xinjiang Inst Ecol & Geog, State Key Lab Desert & Oasis Ecol, Urumqi 830011, Peoples R China.
+EM a_eltantawi@yahoo.com; baoam@ms.xjb.ac.cn; changcun@ms.xjb.ac; lyhello@yeah.net
+FU National Key Research and Development Plan of China [2017YFB0504204]; CAS President's International Fellowship Initiative (PIFI) [2017VCA0012]
+CR Adam AHM, 2013, INT J SCI RES, V3, P1
+   Amut A, 2006, P SPIE, V0, P0
+   [Anonymous], 2005, EUR WATER, V0, P0
+   [Anonymous], 2013, INT J ENV ECOL ENG, V0, P0
+   Appiah M. K., 2014, QUARTERLY JOURNAL OF INTERNATIONAL AGRICULTURE, V53, P243
+   Bao AM, 2017, ECOL INDIC, V74, P261, DOI 10.1016/j.ecolind.2016.11.007
+   Brown DG, 2012, LAND CHANGE SCI REMO, V0, P0
+   Chen X, 2009, J ARID LAND, V1, P1, DOI 10.3724/SP.J.1227.00001
+   Dewidar KM, 2004, INT J REMOTE SENS, V25, P4079, DOI 10.1080/01431160410001688312
+   Esmail M, 2016, PROCEDIA ENGINEER, V154, P936, DOI 10.1016/j.proeng.2016.07.515
+   Gismondi M., 2013, MOLUSCE OPEN SOURCE, V0, P0
+   Halmy MWA, 2015, APPL GEOGR, V63, P101, DOI 10.1016/j.apgeog.2015.06.015
+   Harris I, 2014, INT J CLIMATOL, V34, P623, DOI 10.1002/joc.3711
+   Hartmann H, 2016, J ARID ENVIRON, V125, P31, DOI 10.1016/j.jaridenv.2015.09.010
+   Hossen H, 2016, PROCEDIA ENGINEER, V154, P951, DOI 10.1016/j.proeng.2016.07.529
+   Jogun T, 2016, SIMULATION MODEL LAN, V0, P0
+   Kaufmann RK, 2001, AGR ECOSYST ENVIRON, V85, P95, DOI 10.1016/S0167-8809(01)00190-6
+   Kayet N., 2015, INT RES J EARTH SCI, V3, P1
+   Keilholz P, 2015, WATER-SUI, V7, P3040, DOI 10.3390/w7063040
+   Lambin EF, 2003, ANNU REV ENV RESOUR, V28, P205, DOI 10.1146/annurev.energy.28.050302.105459
+   Li Z, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5925-6
+   Liu YB, 2006, INT J SUST DEV WORLD, V13, P295, DOI 10.1080/13504500609469681
+   NOAA, 2017, WHAT IS DIFF LAND CO, V0, P0
+   Noha S, 2012, 16 INT WAT TECHN C 2, V0, P16
+   Otukei JR, 2010, INT J APPL EARTH OBS, V12, PS27, DOI 10.1016/j.jag.2009.11.002
+   Pakhale GK., 2010, INT J ENG TECHNOLOGY, V2, P245, DOI 10.7763/IJET.2010.V2.128
+   Pittock AB, 1988, 1988 RECENT CLIMATIC, V0, P306
+   Praveen KM, 2013, SCI WORLD J, V2013, P1, DOI 10.1155/2013/268623
+   Rahman MTU, 2017, ENVIRON MONIT ASSESS, V189, P0, DOI 10.1007/s10661-017-6272-0
+   Sala OE, 2000, SCIENCE, V287, P1770, DOI 10.1126/science.287.5459.1770
+   Shaltout Kamal H., 2008, WETLANDS ECOLOGY AND MANAGEMENT, V16, P421, DOI 10.1007/s11273-008-9079-5
+   Shi YL, 2010, PROCEDIA ENVIRON SCI, V2, P175, DOI 10.1016/j.proenv.2010.10.021
+   WMO and GWP, 2016, HDB DROUGHT INDICATO, V0, P0, DOI DOI 10.1201/9781315265551-12
+   Yang HF, 2014, CATENA, V115, P85, DOI 10.1016/j.catena.2013.11.020
+   Yang P, 2018, SCI TOTAL ENVIRON, V613, P186, DOI 10.1016/j.scitotenv.2017.09.045
+   Yang XS, 2016, MODEL OPTIM SCI TECH, V7, P1, DOI 10.1007/978-3-319-26245-1_1
+   Zhao RF, 2013, ENVIRON EARTH SCI, V68, P591, DOI 10.1007/s12665-012-1763-3
+   Zhao RF, 2009, ENVIRON GEOL, V57, P455, DOI 10.1007/s00254-008-1316-y
+   Zhou QM, 1998, AMBIO, V27, P444
+NR 39
+TC 32
+Z9 32
+U1 5
+U2 52
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0167-6369
+EI 1573-2959
+J9 ENVIRON MONIT ASSESS
+JI Environ. Monit. Assess.
+PD AUG 15
+PY 2019
+VL 191
+IS 8
+BP 
+EP 
+DI 10.1007/s10661-019-7478-0
+PG 18
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA IG3WP
+UT WOS:000473736400001
+PM 31270626
+DA 2023-04-26
+ER
+
+PT J
+AU Qiao, ND
+   Song, MJ
+   Ye, Z
+   He, WQ
+   Ma, ZY
+   Wang, YF
+   Zhang, YY
+   Shou, XF
+AF Qiao, Nidan
+   Song, Mengju
+   Ye, Zhao
+   He, Wenqiang
+   Ma, Zengyi
+   Wang, Yongfei
+   Zhang, Yuyan
+   Shou, Xuefei
+TI Deep Learning for Automatically Visual Evoked Potential Classification During Surgical Decompression of Sellar Region Tumors
+SO TRANSLATIONAL VISION SCIENCE & TECHNOLOGY
+LA English
+DT Article
+DE artificial intelligence; optic chiasm; intraoperative monitoring; neural network
+AB Purpose: Detection of the huge amount of data generated in real-time visual evoked potential (VEP) requires labor-intensive work and experienced electrophysiologists. This study aims to build an automatic VEP classification system by using a deep learning algorithm. Methods: Patients with sellar region tumor and optic chiasm compression were enrolled. Flash VEP monitoring was applied during surgical decompression. Sequential VEP images were fed into three neural network algorithms to train VEP classification models. Results: We included 76 patients. During surgical decompression, we observed 68 eyes with increased VEP amplitude, 47 eyes with a transient decrease, and 37 eyes without change. We generated 2,843 sequences (39,802 images) in total (887 sequences with increasing VEP, 276 sequences with decreasing VEP, and 1680 sequences without change). The model combining convolutional and recurrent neural network had the highest accuracy (87.4%; 95% confidence interval, 84.2%-90.1%). The sensitivity of predicting no change VEP, increasing VEP, and decreasing VEP was 92.6%, 78.9%, and 83.7%, respectively. The specificity of predicting no change VEP, increasing VEP, and decreasing VEP was 80.5%, 93.3%, and 100.0%, respectively. The class activation map visualization technique showed that the P2-N3-P3 complex was important in determining the output. Conclusions: We identified three VEP responses (no change, increase, and decrease) during transsphenoidal surgical decompression of sellar region tumors. We developed a deep learning model to classify the sequential changes of intraoperative VEP.
+C1 [Qiao, Nidan; Ye, Zhao; He, Wenqiang; Ma, Zengyi; Wang, Yongfei; Shou, Xuefei] Fudan Univ, Shanghai Neurosurg Res Inst, Shanghai Pituitary Tumor Ctr, Dept Neurosurg,Huashan Hosp,Shanghai Med Coll, Shanghai, Peoples R China.
+   [Qiao, Nidan] Harvard Med Sch, Massachusetts Gen Hosp, Neuroendocrine Unit, Boston, MA 02115 USA.
+   [Song, Mengju; Zhang, Yuyan] Fudan Univ, Huashan Hosp, Shanghai Med Coll, Dept Ophthalmol, Shanghai, Peoples R China.
+   [Song, Mengju] Putuo Oculopathy Dent Dis Prevent & Cure Clin, Shanghai, Peoples R China.
+C3 Fudan University; Harvard University; Harvard Medical School; Massachusetts General Hospital; Fudan University
+RP Zhang, YY (corresponding author), Huashan Hosp, Dept Ophthalmol, 12 Wulumuqi Zhong Rd, Shanghai, Peoples R China.; Shou, XF (corresponding author), Huashan Hosp, Dept Neurosurg, 12 Wulumuqi Zhong Rd, Shanghai, Peoples R China.
+EM yuyan8688@163.com; shouxf@hotmail.com
+FU Shanghai Committee of Science and Technology, China [18441901400, 16ZR1404500, 17JC1402100]; 2018 Milstein Medical Asian American Partnership Foundation translational medicine fellowship
+CR Bresson D, 2016, OTOLARYNG CLIN N AM, V49, P63, DOI 10.1016/j.otc.2015.09.004
+   CEDZICH C, 1987, NEUROSURGERY, V21, P709, DOI 10.1227/00006123-198711000-00018
+   Chacko AG, 1996, BRIT J NEUROSURG, V10, P275, DOI 10.1080/02688699650040133
+   Che ZP, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-24271-9
+   Choi E, 2017, J AM MED INFORM ASSN, V24, P361, DOI 10.1093/jamia/ocw112
+   Chung SB, 2012, ACTA NEUROCHIR, V154, P1505, DOI 10.1007/s00701-012-1426-x
+   Feng R, 2019, WORLD NEUROSURG, V126, PE136, DOI 10.1016/j.wneu.2019.01.278
+   Freda PU, 1999, ENDOCRIN METAB CLIN, V28, P81, DOI 10.1016/S0889-8529(05)70058-X
+   Gutzwiller EM, 2019, J NEUROSURG, V130, P654, DOI 10.3171/2017.8.JNS171168
+   HARDING GFA, 1990, J NEUROL NEUROSUR PS, V53, P890, DOI 10.1136/jnnp.53.10.890
+   Hussain SSM, 1996, J LARYNGOL OTOL, V110, P31, DOI 10.1017/S0022215100132669
+   Kamio Y, 2014, NEUROL MED-CHIR, V54, P606, DOI 10.2176/nmc.oa.2014-0023
+   Li RM, 2019, JMIR MED INF, V7, P0, DOI 10.2196/10788
+   Lundberg SM, 2018, NAT BIOMED ENG, V2, P749, DOI 10.1038/s41551-018-0304-0
+   Luo YD, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0120525
+   Ma T, 2017, J NEUROSCI METH, V275, P80, DOI 10.1016/j.jneumeth.2016.11.002
+   Odom JV, 2016, DOC OPHTHALMOL, V133, P1, DOI 10.1007/s10633-016-9553-y
+   Palaniappan R, 2007, IEEE T PATTERN ANAL, V29, P738, DOI 10.1109/TPAMI.2007.1013
+   Qiao N., 2018, FRONT NEUROL, V9, P905
+   Qiao ND, 2016, CLIN NEUROL NEUROSUR, V151, P9, DOI 10.1016/j.clineuro.2016.09.005
+   Selvaraju RR, 2017, IEEE I CONF COMP VIS, V0, PP618, DOI 10.1109/ICCV.2017.74
+   Toyama K, 2018, NEUROSURG REV, V93, P311
+   Wiedemayer H, 2003, J NEUROSURG ANESTH, V15, P19, DOI 10.1097/00008506-200301000-00004
+   WRIGHT JE, 1973, T OPHTHAL SOC UK, V93, P311
+   Xiong ZH, 2018, PHYSIOL MEAS, V39, P0, DOI 10.1088/1361-6579/aad9ed
+   Yeung S, 2018, NEW ENGL J MED, V378, P1271, DOI 10.1056/NEJMp1716891
+NR 26
+TC 9
+Z9 11
+U1 0
+U2 1
+PU ASSOC RESEARCH VISION OPHTHALMOLOGY INC
+PI ROCKVILLE
+PA 12300 TWINBROOK PARKWAY, ROCKVILLE, MD 20852-1606 USA
+SN 2164-2591
+EI 
+J9 TRANSL VIS SCI TECHN
+JI Transl. Vis. Sci. Technol.
+PD NOV 15
+PY 2019
+VL 8
+IS 6
+BP 
+EP 
+DI 10.1167/tvst.8.6.21
+PG 7
+WC Ophthalmology
+SC Ophthalmology
+GA JV3YH
+UT WOS:000502301300008
+PM 31788350
+DA 2023-04-26
+ER
+
+PT J
+AU Tian, ZZ
+   Wang, W
+   Zhan, RH
+   He, ZQ
+   Zhang, J
+   Zhuang, ZW
+AF Tian, Zhuangzhuang
+   Wang, Wei
+   Zhan, Ronghui
+   He, Zhiqiang
+   Zhang, Jun
+   Zhuang, Zhaowen
+TI Cascaded Detection Framework Based on a Novel Backbone Network and Feature Fusion
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Convolutional neural network (CNN); feature fusion; object detection; remote sensing images
+ID object detection
+AB Due to the ability of powerful feature representation, deep-learning-based object detection has attracted considerable research attention, and many methods have been proposed for remote sensing images. However, there are still some problems that need to be addressed. In this paper, a novel and effective detection framework based on faster region-based convolutional neural network is designed. Specifically, first, in order to locate the boundaries of large objects and find the missing small objects, DetNet is incorporated into the detection framework as the backbone network. DetNet fixes the spatial resolution in deep layers and adopts dilated bottleneck with convolution projection to increase the divergence between input and output feature maps. Then, the proposed framework uses the backbone network to extract the scene features and region features simultaneously, which are both mapped to feature vectors and then fused together. The feature fusion operation can improve the feature representation of the generated region. Last, to improve the performance of localization, the cascade structure is adopted in the framework. The cascade structure has multiple phases and every phase has independent classifier and regressor. The results obtained from the previous phase are used as the regions of interest in the next phase. Therefore, the multiphase detector can increase the detection accuracy phase by phase. Comprehensive evaluations on a public ten-class object detection dataset demonstrate the effectiveness of the proposed framework. Moreover, ablation experiments are also implemented to show the respective influence of different parts of the framework on the performance improvement.
+C1 [Tian, Zhuangzhuang; Wang, Wei; Zhan, Ronghui; He, Zhiqiang; Zhang, Jun; Zhuang, Zhaowen] Natl Univ Def Technol, Sci & Technol Automat Target Recognit Lab, Changsha 410000, Hunan, Peoples R China.
+C3 National University of Defense Technology - China
+RP Zhan, RH (corresponding author), Natl Univ Def Technol, Sci & Technol Automat Target Recognit Lab, Changsha 410000, Hunan, Peoples R China.
+EM gkt_cn@outlook.com; wangwei_nudt@hotmail.com; zhanrh@nudt.edu.cn; hzhqia@163.com; zhangjun@nudt.edu.cn; zhaowenzhuang@nudt.edu.cn
+FU National Natural Science Foundation of China [61471370, 61401479]
+CR Agarwal S, 2002, LECT NOTES COMPUT SC, V2353, P113
+   [Anonymous], 2017, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   Bazi Y, 2018, IEEE T GEOSCI REMOTE, V56, P3107, DOI 10.1109/TGRS.2018.2790926
+   Cai Z., 2017, P IEEE C COMP VIS PA, V0, P0
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Cheng G, 2014, ISPRS J PHOTOGRAMM, V98, P119, DOI 10.1016/j.isprsjprs.2014.10.002
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Girshick R, 2016, IEEE T PATTERN ANAL, V38, P142, DOI 10.1109/TPAMI.2015.2437384
+   He K., 2015, PROC CVPR IEEE, V5, P6
+   He KM, 2017, IEEE I CONF COMP VIS, V0, PP2980, DOI 10.1109/TPAMI.2018.2844175
+   Jiang QL, 2015, 2015 INTERNATIONAL SYMPOSIUM ON BIOELECTRONICS AND BIOINFORMATICS (ISBB), V0, PP184, DOI 10.1109/ISBB.2015.7344954
+   Li K, 2018, IEEE T GEOSCI REMOTE, V56, P2337, DOI 10.1109/TGRS.2017.2778300
+   Li Zeming, 2018, ARXIV180406215, V0, P0
+   Lienhart R, 2002, IEEE IMAGE PROC, V0, P900
+   Long Y, 2017, IEEE T GEOSCI REMOTE, V55, P2486, DOI 10.1109/TGRS.2016.2645610
+   Osuna E., 2002, IEEE COMP SOC C COMP, V0, P130
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Redmon J, 2018, ARXIV, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Simonyan K, 2015, ARXIV, V0, P0
+   Triggs, 2005, PROC CVPR IEEE, V1, P886, DOI 10.1109/CVPR.2005.177
+   Uijlings JRR, 2013, INT J COMPUT VISION, V104, P154, DOI 10.1007/s11263-013-0620-5
+   Viola P, 2001, PROC CVPR IEEE, V0, PP511, DOI 10.1109/cvpr.2001.990517
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Yang J, 2007, LECT NOTES COMPUT SC, V4663, P197
+   Zhang LB, 2017, IEEE J-STARS, V10, P1511, DOI 10.1109/JSTARS.2016.2620900
+NR 27
+TC 12
+Z9 12
+U1 0
+U2 11
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD SEP 15
+PY 2019
+VL 12
+IS 9
+BP 3480
+EP 3491
+DI 10.1109/JSTARS.2019.2924086
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA JD2DR
+UT WOS:000489785800028
+DA 2023-04-26
+ER

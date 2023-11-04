@@ -1,0 +1,548 @@
+
+PT J
+AU Pinto, MM
+   Libonati, R
+   Trigo, RM
+   Trigo, IF
+   DaCamara, CC
+AF Pinto, Miguel M.
+   Libonati, Renata
+   Trigo, Ricardo M.
+   Trigo, Isabel F.
+   DaCamara, Carlos C.
+TI A deep learning approach for mapping and dating burned areas using temporal sequences of satellite images
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Burned areas; Wildfires; VIIRS; Segmentation; Deep learning; Computer vision
+ID convolutional neural-networks; remote-sensing imagery; fire emissions; algorithm; products; classification; reflectance; accuracy; climate
+AB Over the past decades, methods for burned areas mapping and dating from remote sensing imagery have been the object of extensive research. The limitations of current methods, together with the heavy pre-processing of input data they require, make them difficult to improve or apply to different satellite sensors. Here, we explore a deep learning approach based on daily sequences of multi-spectral images, as a promising and flexible technique that can be applicable to observations with various spatial and spectral resolutions. We test the proposed model for five regions around the globe using input data from VIIRS 750 m bands resampled to a 0.01 degrees spatial resolution grid. The derived burned areas are validated against higher resolution reference maps and compared with the MCD64A1 Collection 6 and FireCCI51 global burned area datasets. We show that the proposed methodology achieves competitive results in the task of burned areas mapping, despite using lower spatial resolution observations than the two global datasets. Furthermore, we improve the task of burned areas dating for the considered regions of study when compared with state-of-the-art products. We also show that our model can be used to map burned areas for low burned fraction levels and that it can operate in near-real-time, converging to the final solution in only a few days. The obtained results are a strong indication of the advantage of deep learning approaches for the problem of mapping and dating of burned areas and provide several routes for future research.
+C1 [Pinto, Miguel M.; Libonati, Renata; Trigo, Ricardo M.; DaCamara, Carlos C.] Univ Lisbon, Fac Ciencias, IDL, P-1749016 Lisbon, Portugal.
+   [Libonati, Renata; Trigo, Ricardo M.] Univ Fed Rio de Janeiro, Inst Geociencias, Dept Meteorol, BR-21941916 Rio De Janeiro, Brazil.
+   [Libonati, Renata] Univ Lisbon, Ctr Estudos Florestais, P-1349017 Lisbon, Portugal.
+   [Trigo, Isabel F.] IPMA, Dept Meteorol & Geofis, P-1749077 Lisbon, Portugal.
+C3 Universidade de Lisboa; Universidade Federal do Rio de Janeiro; Universidade de Lisboa; Instituto Portugues do Mar e da Atmosfera
+RP Pinto, MM (corresponding author), Univ Lisbon, Fac Ciencias, IDL, P-1749016 Lisbon, Portugal.
+EM mnpinto@fc.ul.pt; renata.libonati@igeo.ufrj.br; rmtrigo@fc.ul.pt; isabel.trigo@ipma.pt; cdcamara@fc.ul.pt
+FU Fundacao para a Ciencia e a Tecnologia, Portugal (FCT) under project FireCast [PCIF/GRF/0204/2017]; FCT [PD/BD/142779/2018]; Conselho Nacional de Desenvolvimento Cientifico e Tecnologico, Brazil (CNPQ) [305159/2018-6, 441971/2018-0]; Serrapilheira Institute, Brazil [SERRA-170815159]; Fundação para a Ciência e a Tecnologia [PD/BD/142779/2018, PCIF/GRF/0204/2017] Funding Source: FCT
+CR Alonso-Canas I, 2015, REMOTE SENS ENVIRON, V163, P140, DOI 10.1016/j.rse.2015.03.011
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   Andela N, 2017, SCIENCE, V356, P1356, DOI 10.1126/science.aal4108
+   Andela N, 2019, EARTH SYST SCI DATA, V11, P529, DOI 10.5194/essd-11-529-2019
+   [Anonymous], 2007, FIRE ECOL, V0, P0, DOI DOI 10.4996/fireecology.0301003
+   [Anonymous], 2009, INT GLOBAL BURNED AR, V0, P0
+   [Anonymous], 2016, NAT METHODS, V0, P0, DOI DOI 10.1038/nmeth.3707
+   Bastarrika A, 2011, REMOTE SENS ENVIRON, V115, P1003, DOI 10.1016/j.rse.2010.12.005
+   Benedetti P, 2018, IEEE J-STARS, V11, P4939, DOI 10.1109/JSTARS.2018.2876357
+   Boschetti L, 2010, INT J WILDLAND FIRE, V19, P705, DOI 10.1071/WF09138
+   Bowman David M. J. S., 2005, ECOHEALTH, V2, P76, DOI 10.1007/s10393-004-0149-8
+   Bowman DMJS, 2011, J BIOGEOGR, V38, P2223, DOI 10.1111/j.1365-2699.2011.02595.x
+   Chuvieco E, 2019, REMOTE SENS ENVIRON, V225, P45, DOI 10.1016/j.rse.2019.02.013
+   Chuvieco E, 2018, EARTH SYST SCI DATA, V10, P2015, DOI 10.5194/essd-10-2015-2018
+   De Fauw J, 2018, NAT MED, V24, P1342, DOI 10.1038/s41591-018-0107-6
+   Driscoll DA, 2010, BIOL CONSERV, V143, P1928, DOI 10.1016/j.biocon.2010.05.026
+   Flannigan MD, 2009, INT J WILDLAND FIRE, V18, P483, DOI 10.1071/WF08187
+   Freire JG, 2019, NAT HAZARD EARTH SYS, V19, P169, DOI 10.5194/nhess-19-169-2019
+   Giglio L, 2006, ATMOS CHEM PHYS, V6, P957, DOI 10.5194/acp-6-957-2006
+   Giglio L, 2018, REMOTE SENS ENVIRON, V217, P72, DOI 10.1016/j.rse.2018.08.005
+   Goodfellow I., 2016, DEEP LEARNING, V0, P0
+   Goodwin NR, 2014, REMOTE SENS ENVIRON, V148, P206, DOI 10.1016/j.rse.2014.03.021
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Graves A, 2013, INT CONF ACOUST SPEE, V0, PP6645, DOI 10.1109/ICASSP.2013.6638947
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Jeppesen JH, 2019, REMOTE SENS ENVIRON, V229, P247, DOI 10.1016/j.rse.2019.03.039
+   Jin Y, 2005, GEOPHYS RES LETT, V32, P0, DOI 10.1029/2005GL022822
+   Kampffmeyer M, 2016, IEEE COMPUT SOC CONF, V0, PP680, DOI 10.1109/CVPRW.2016.90
+   KAUFMAN YJ, 1994, IEEE T GEOSCI REMOTE, V32, P672, DOI 10.1109/36.297984
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Langmann B, 2009, ATMOS ENVIRON, V43, P107, DOI 10.1016/j.atmosenv.2008.09.047
+   Laurent P, 2018, SCI DATA, V5, P0, DOI 10.1038/sdata.2018.132
+   Libonati R, 2015, REMOTE SENS-BASEL, V7, P15782, DOI 10.3390/rs71115782
+   Libonati R, 2010, REMOTE SENS ENVIRON, V114, P831, DOI 10.1016/j.rse.2009.11.018
+   Long TF, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050489
+   Ma L, 2019, ISPRS J PHOTOGRAMM, V152, P166, DOI 10.1016/j.isprsjprs.2019.04.015
+   Maffei C, 2019, ISPRS J PHOTOGRAMM, V158, P263, DOI 10.1016/j.isprsjprs.2019.10.013
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Marcos D, 2018, ISPRS J PHOTOGRAMM, V145, P96, DOI 10.1016/j.isprsjprs.2018.01.021
+   McGuire AD, 1995, J BIOGEOGR, V22, P785, DOI 10.2307/2845980
+   Moritz MA, 2012, ECOSPHERE, V3, P0, DOI 10.1890/ES11-00345.1
+   Mouillot F, 2014, INT J APPL EARTH OBS, V26, P64, DOI 10.1016/j.jag.2013.05.014
+   Nair V., 2010, P 27 INT C MACH LEAR, V0, P807
+   Oliva P, 2015, REMOTE SENS ENVIRON, V160, P144, DOI 10.1016/j.rse.2015.01.010
+   Padilla M, 2015, REMOTE SENS ENVIRON, V160, P114, DOI 10.1016/j.rse.2015.01.005
+   Pan SJ, 2010, IEEE T KNOWL DATA EN, V22, P1345, DOI 10.1109/TKDE.2009.191
+   Panisset J, 2017, AN ACAD BRAS CIENC, V89, P1487, DOI 10.1590/0001-3765201720160707
+   Patz JA, 2000, ANNU REV PUBL HEALTH, V21, P271, DOI 10.1146/annurev.publhealth.21.1.271
+   Pelletier C, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050523
+   Pereira AA, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9111161
+   Pillai J, 2006, EPILEPSIA, V47, P14, DOI 10.1111/j.1528-1167.2006.00654.x
+   Pinto MM, 2018, ADVANCES IN FOREST FIRE RESEARCH 2018, V0, PP138, DOI 10.14195/978-989-26-16-506_13
+   Reichstein M, 2019, NATURE, V566, P195, DOI 10.1038/s41586-019-0912-1
+   Rodrigues JA, 2019, INT J APPL EARTH OBS, V78, P318, DOI 10.1016/j.jag.2019.02.010
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Roteta E, 2019, REMOTE SENS ENVIRON, V222, P1, DOI 10.1016/j.rse.2018.12.011
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Russwurm M, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7040129
+   San-Miguel-Ayanz J, 2012, APPROACHES TO MANAGING DISASTER - ASSESSING HAZARDS, V0, P87
+   Schroeder W, 2014, REMOTE SENS ENVIRON, V143, P85, DOI 10.1016/j.rse.2013.12.008
+   Scott GJ, 2017, IEEE GEOSCI REMOTE S, V14, P549, DOI 10.1109/LGRS.2017.2657778
+   Smith L.N, 2018, ARXIV180309820, V0, P0
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Stroppiana D, 2012, ISPRS J PHOTOGRAMM, V69, P88, DOI 10.1016/j.isprsjprs.2012.03.001
+   Sutskever I., 2014, ADV NEURAL INF PROCE, V2, P3104, DOI 10.48550/ARXIV.1409.3215
+   Trigo RM, 2006, INT J CLIMATOL, V26, P1741, DOI 10.1002/joc.1333
+   van der Werf GR, 2017, EARTH SYST SCI DATA, V9, P697, DOI 10.5194/essd-9-697-2017
+   Viegas D.X, 2018, FIRE RES, V0, P0
+   Wieland M, 2019, REMOTE SENS ENVIRON, V230, P0, DOI 10.1016/j.rse.2019.05.022
+   Young AM, 2017, ECOGRAPHY, V40, P606, DOI 10.1111/ecog.02205
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhang Q, 2018, IEEE T GEOSCI REMOTE, V56, P4274, DOI 10.1109/TGRS.2018.2810208
+   Zhong Z, 2020, AAAI CONF ARTIF INTE, V34, P13001
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 84
+TC 37
+Z9 39
+U1 9
+U2 46
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD FEB 15
+PY 2020
+VL 160
+IS 
+BP 260
+EP 274
+DI 10.1016/j.isprsjprs.2019.12.014
+PG 15
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA KH3DA
+UT WOS:000510525500018
+DA 2023-04-26
+ER
+
+PT J
+AU Tziolas, N
+   Tsakiridis, N
+   Ben-Dor, E
+   Theocharis, J
+   Zalidis, G
+AF Tziolas, Nikolaos
+   Tsakiridis, Nikolaos
+   Ben-Dor, Eyal
+   Theocharis, John
+   Zalidis, George
+TI Employing a Multi-Input Deep Convolutional Neural Network to Derive Soil Clay Content from a Synergy of Multi-Temporal Optical and Radar Imagery Data
+SO REMOTE SENSING
+LA English
+DT Article
+DE deep learning; Copernicus data; soil texture mapping; earth observation; spectral signatures; SAR data; hyper and multi spectral remote sensing
+ID learning approach; topsoil property; organic-carbon; reflectance
+AB Earth observation (EO) has an immense potential as being an enabling tool for mapping spatial characteristics of the topsoil layer. Recently, deep learning based algorithms and cloud computing infrastructure have become available with a great potential to revolutionize the processing of EO data. This paper aims to present a novel EO-based soil monitoring approach leveraging open-access Copernicus Sentinel data and Google Earth Engine platform. Building on key results from existing data mining approaches to extract bare soil reflectance values the current study delivers valuable insights on the synergistic use of open access optical and radar images. The proposed framework is driven by the need to eliminate the influence of ambient factors and evaluate the efficiency of a convolutional neural network (CNN) to effectively combine the complimentary information contained in the pool of both optical and radar spectral information and those form auxiliary geographical coordinates mainly for soil. We developed and calibrated our multi-input CNN model based on soil samples (calibration = 80% and validation 20%) of the LUCAS database and then applied this approach to predict soil clay content. A promising prediction performance (R-2 = 0.60, ratio of performance to the interquartile range (RPIQ) = 2.02, n = 6136) was achieved by the inclusion of both types (synthetic aperture radar (SAR) and laboratory visible near infrared-short wave infrared (VNIR-SWIR) multispectral) of observations using the CNN model, demonstrating an improvement of more than 5.5% in RMSE using the multi-year median optical composite and current state-of-the-art non linear machine learning methods such as random forest (RF; R-2 = 0.55, RPIQ = 1.91, n = 6136) and artificial neural network (ANN; R-2 = 0.44, RPIQ = 1.71, n = 6136). Moreover, we examined post-hoc techniques to interpret the CNN model and thus acquire an understanding of the relationships between spectral information and the soil target identified by the model. Looking to the future, the proposed approach can be adopted on the forthcoming hyperspectral orbital sensors to expand the current capabilities of the EO component by estimating more soil attributes with higher predictive performance.
+C1 [Tziolas, Nikolaos; Zalidis, George] Aristotle Univ Thessaloniki, Sch Agr, Fac Agr Forestry & Nat Environm, Thessaloniki 54123, Greece.
+   [Tsakiridis, Nikolaos; Theocharis, John] Aristotle Univ Thessaloniki, Fac Engn, Dept Elect & Comp Engn, Thessaloniki 54123, Greece.
+   [Ben-Dor, Eyal] Tel Aviv Univ, Remote Sensing & GIS Lab, Dept Geog, Sch Earth Sci, POB 39040, Tel Aviv, Israel.
+C3 Aristotle University of Thessaloniki; Aristotle University of Thessaloniki; Tel Aviv University
+RP Tziolas, N (corresponding author), Aristotle Univ Thessaloniki, Sch Agr, Fac Agr Forestry & Nat Environm, Thessaloniki 54123, Greece.
+EM ntziolas@agro.auth.gr; tsakirin@eng.auth.gr; bendor@tauex.tau.ac.il; theochar@eng.auth.gr; zalidis@agro.auth.gr
+FU "e-shape" project - European Union's Horizon 2020 research and innovation program [820852]
+CR Angelopoulou T, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060676
+   [Anonymous], 2013, R LANG ENV STAT COMP, V0, P0
+   Baghdadi N, 2018, WATER-SUI, V10, P0, DOI 10.3390/w10020131
+   Arrieta AB, 2020, INFORM FUSION, V58, P82, DOI 10.1016/j.inffus.2019.12.012
+   Bauer-Marschallingere B, 2019, IEEE T GEOSCI REMOTE, V57, P520, DOI 10.1109/TGRS.2018.2858004
+   Behrens T, 2018, GEODERMA, V310, P128, DOI 10.1016/j.geoderma.2017.09.015
+   Behrens T, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-33516-6
+   Bousbih S, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131520
+   BOUYOUCOS GJ, 1962, AGRON J, V54, P464, DOI 10.2134/agronj1962.00021962005400050028x
+   Castaldi A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11182121
+   Castaldi F, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030309
+   Castaldi F, 2019, ISPRS J PHOTOGRAMM, V147, P267, DOI 10.1016/j.isprsjprs.2018.11.026
+   Chabrillat S, 2019, SURV GEOPHYS, V40, P361, DOI 10.1007/s10712-019-09524-0
+   Dai YJ, 2019, SOIL-GERMANY, V5, P137, DOI 10.5194/soil-5-137-2019
+   Diek S, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8110906
+   Fischer G., 2012, GLOBAL AGROECOLOGICA, V0, P0
+   Gallo BC, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101571
+   Gholizadeh A, 2018, REMOTE SENS ENVIRON, V218, P89, DOI 10.1016/j.rse.2018.09.015
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Hengl T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0169748
+   Hinton GE, 2006, SCIENCE, V313, P504, DOI 10.1126/science.1127647
+   KENNARD RW, 1969, TECHNOMETRICS, V11, P137, DOI 10.2307/1266770
+   Killough B, 2018, INT GEOSCI REMOTE SE, V0, P8629
+   Kopackova V, 2016, INT J REMOTE SENS, V37, P1276, DOI 10.1080/01431161.2016.1148291
+   Kuhn M, 2008, J STAT SOFTW, V28, P1, DOI 10.18637/jss.v028.i05
+   Liu LF, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18093169
+   Loiseau T, 2019, INT J APPL EARTH OBS, V82, P0, DOI 10.1016/j.jag.2019.101905
+   Luo YN, 2018, REMOTE SENS ENVIRON, V214, P87, DOI 10.1016/j.rse.2018.04.042
+   Madejova J, 2017, DEV CLAY SCI, V8, P107, DOI 10.1016/B978-0-08-100355-8.00005-9
+   Malek S, 2018, J CHEMOMETR, V32, P0, DOI 10.1002/cem.2977
+   Dematte JAM, 2018, REMOTE SENS ENVIRON, V212, P161, DOI 10.1016/j.rse.2018.04.047
+   Montanarella L, 2016, SOIL-GERMANY, V2, P79, DOI 10.5194/soil-2-79-2016
+   Notesco G, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11121429
+   Orgiazzi A, 2018, EUR J SOIL SCI, V69, P140, DOI 10.1111/ejss.12499
+   Padarian J, 2019, GEODERMA REG, V16, P0, DOI 10.1016/j.geodrs.2018.e00198
+   Padarian J, 2019, SOIL-GERMANY, V5, P79, DOI 10.5194/soil-5-79-2019
+   Poppiel RR, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11242905
+   Reichstein M, 2019, NATURE, V566, P195, DOI 10.1038/s41586-019-0912-1
+   Rizzo R, 2020, GEODERMA, V361, P0, DOI 10.1016/j.geoderma.2019.114018
+   Rogge D, 2018, REMOTE SENS ENVIRON, V205, P1, DOI 10.1016/j.rse.2017.11.004
+   Rossel RAV, 2016, EARTH-SCI REV, V155, P198, DOI 10.1016/j.earscirev.2016.01.012
+   Rossel RAV, 2011, J GEOPHYS RES-EARTH, V116, P0, DOI 10.1029/2011JF001977
+   Stevens A, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0066409
+   Toth G, 2013, ENVIRON MONIT ASSESS, V185, P7409, DOI 10.1007/s10661-013-3109-3
+   Tsakiridis NL, 2020, NEUROCOMPUTING, V389, P27, DOI 10.1016/j.neucom.2020.01.008
+   Tsakiridis NL, 2020, GEODERMA, V367, P0, DOI 10.1016/j.geoderma.2020.114208
+   Tsakiridis NL, 2017, EXPERT SYST APPL, V83, P257, DOI 10.1016/j.eswa.2017.04.026
+   Tziolas N, 2020, REMOTE SENS ENVIRON, V244, P0, DOI 10.1016/j.rse.2020.111793
+   Tziolas N, 2019, GEODERMA, V340, P11, DOI 10.1016/j.geoderma.2018.12.044
+   Vaudour E, 2019, REMOTE SENS ENVIRON, V223, P21, DOI 10.1016/j.rse.2019.01.006
+   Wadoux AMJC, 2019, SOIL-GERMANY, V5, P107, DOI 10.5194/soil-5-107-2019
+   Wulder MA, 2012, REMOTE SENS ENVIRON, V122, P2, DOI 10.1016/j.rse.2012.01.010
+   Yosinski J, 2015, 31 INT C MACH LEARN, V0, P0
+   Zhang QS, 2018, FRONT INFORM TECH EL, V19, P27, DOI 10.1631/FITEE.1700808
+NR 56
+TC 22
+Z9 22
+U1 3
+U2 33
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD MAY 15
+PY 2020
+VL 12
+IS 9
+BP 
+EP 
+DI 10.3390/rs12091389
+PG 26
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA MC6KT
+UT WOS:000543394000036
+DA 2023-04-26
+ER
+
+PT J
+AU Zuo, YF
+   Fang, YM
+   Yang, Y
+   Shang, XW
+   Wu, Q
+AF Zuo, Yifan
+   Fang, Yuming
+   Yang, Yong
+   Shang, Xiwu
+   Wu, Qiang
+TI Depth Map Enhancement by Revisiting Multi-Scale Intensity Guidance Within Coarse-to-Fine Stages
+SO IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY
+LA English
+DT Article
+DE Color; Image edge detection; Feature extraction; Image reconstruction; Encoding; Dictionaries; Depth map enhancement; deep convolutional neual network (DCNN); depth map denoising; residual learning; dense connection
+ID superresolution; recovery; network
+AB Being different from the most methods of guided depth map enhancement based on deep convolutional neural network which focus on increasing the depth of networks, this paper is to improve the effectiveness of intensity guidance when the network goes deep. Overall, the proposed network upsamples the low-resolution depth maps from coarse to fine. Within each refinement stage of certain-scale depth features, the current-scale and all coarse-scales of the guidance features are revisited by dense connection. Therefore, the multi-scale guidance is efficiently maintained as the propagation of features. Furthermore, the proposed network maintains the intensity features in the high-resolution domain from which the multi-scale guidance is directly extracted. This design further improves the quality of intensity guidance. In addition, the shallow depth features upsampled via transposed convolution layer are directly transferred to the final depth features for reconstruction, which is called global residual learning in feature domain. Similarly, the global residual learning in pixel domain learns the difference between the depth ground truth and the coarsely upsampled depth map. Also, the local residual learning is to maintain the low frequency within each refinement stage and progressively recover the high frequency. The proposed method is tested for noise-free and noisy cases which compares against 16 state-of-the-art methods. Our experimental results show the improved performances based on the qualitative and quantitative evaluations.
+C1 [Zuo, Yifan; Fang, Yuming; Yang, Yong] Jiangxi Univ Finance & Econ, Sch Informat Management, Nanchang 330013, Jiangxi, Peoples R China.
+   [Shang, Xiwu] Shanghai Univ Engn Sci, Sch Elect & Elect Engn, Shanghai 201620, Peoples R China.
+   [Wu, Qiang] Univ Technol Sydney, Fac Engn & Informat Technol, Sydney, NSW 2007, Australia.
+C3 Jiangxi University of Finance & Economics; Shanghai University of Engineering Science; University of Technology Sydney
+RP Fang, YM (corresponding author), Jiangxi Univ Finance & Econ, Sch Informat Management, Nanchang 330013, Jiangxi, Peoples R China.
+EM kenny0410@126.com; fa0001ng@e.ntu.edu.sg; greatyangy@126.com; dxsxw@126.com; qiang.wu@uts.edu.au
+FU 2030 Megaproject New Generation Artificial Intelligence of China [2018AAA0100601]; National Natural Science Foundation of China [61901197, 61822109, 61571212]; Natural Science Foundation of Jiangxi [20192BAB217005, 20181BBH80002]; Foundation of Jiangxi Provincial Department of Education [GJJ190288]
+CR Bose NK, 2006, IEEE T IMAGE PROCESS, V15, P2239, DOI 10.1109/TIP.2006.877406
+   Chen BL, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ACOUSTICS, V0, P1473
+   Choi O, 2014, IEEE T IMAGE PROCESS, V23, P3321, DOI 10.1109/TIP.2014.2329766
+   Deng X, 2020, IEEE T CIRC SYST VID, V30, P2447, DOI 10.1109/TCSVT.2019.2923901
+   Diebel J., 2005, P ADV NEUR INF PROC, V18, P291
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Ferstl D., 2016, P BRIT MACH VIS C BM, V0, P0
+   Ferstl D, 2015, IEEE I CONF COMP VIS, V0, PP513, DOI 10.1109/ICCV.2015.66
+   Ferstl D, 2013, IEEE I CONF COMP VIS, V0, PP993, DOI 10.1109/ICCV.2013.127
+   Garcia F, 2012, IEEE J-STSP, V6, P425, DOI 10.1109/JSTSP.2012.2207090
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   He KM, 2013, IEEE T PATTERN ANAL, V35, P1397, DOI 10.1109/TPAMI.2012.213
+   Hu XC, 2019, PROC CVPR IEEE, V0, PP1575, DOI 10.1109/CVPR.2019.00167
+   Huang LQ, 2019, IEEE SIGNAL PROC LET, V26, P1723, DOI 10.1109/LSP.2019.2944646
+   Hui TW, 2016, LECT NOTES COMPUT SC, V9907, P353, DOI 10.1007/978-3-319-46487-9_22
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Kiechle M, 2013, IEEE I CONF COMP VIS, V0, PP1545, DOI 10.1109/ICCV.2013.195
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Kolb A, 2010, COMPUT GRAPH FORUM, V29, P141, DOI 10.1111/j.1467-8659.2009.01583.x
+   Kopf J, 2007, ACM T GRAPHIC, V26, P0, DOI 10.1145/1239451.1239547
+   Kwon H, 2015, PROC CVPR IEEE, V0, PP159, DOI 10.1109/CVPR.2015.7298611
+   Lei JJ, 2017, IEEE T IMAGE PROCESS, V26, P1732, DOI 10.1109/TIP.2017.2656463
+   Li YH, 2016, ADV SOC SCI EDUC HUM, V50, P717
+   Liu MY, 2013, PROC CVPR IEEE, V0, PP169, DOI 10.1109/CVPR.2013.29
+   Liu W, 2017, IEEE T IMAGE PROCESS, V26, P0, DOI 10.1109/TIP.2016.2612826
+   Liu XM, 2019, IEEE T IMAGE PROCESS, V28, P1636, DOI 10.1109/TIP.2018.2875506
+   Lo KH, 2018, IEEE T CYBERNETICS, V48, P371, DOI 10.1109/TCYB.2016.2637661
+   Min DB, 2014, IEEE T IMAGE PROCESS, V23, P5638, DOI 10.1109/TIP.2014.2366600
+   Min DB, 2012, IEEE T IMAGE PROCESS, V21, P1176, DOI 10.1109/TIP.2011.2163164
+   Park J, 2014, IEEE T IMAGE PROCESS, V23, P5559, DOI 10.1109/TIP.2014.2361034
+   Riegler G, 2016, LECT NOTES COMPUT SC, V9907, P268, DOI 10.1007/978-3-319-46487-9_17
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Song XB, 2019, IEEE T CIRC SYST VID, V29, P2323, DOI 10.1109/TCSVT.2018.2866399
+   Szeliski R, 2008, IEEE T PATTERN ANAL, V30, P1068, DOI 10.1109/TPAMI.2007.70844
+   Wang XT, 2018, PROC CVPR IEEE, V0, PP606, DOI 10.1109/CVPR.2018.00070
+   Wang ZW, 2015, IEEE I CONF COMP VIS, V0, PP370, DOI 10.1109/ICCV.2015.50
+   Wen Y, 2019, IEEE T IMAGE PROCESS, V28, P994, DOI 10.1109/TIP.2018.2874285
+   Wu HY, 2007, IEEE I CONF COMP VIS, V0, PP628, DOI 10.1109/cvpr.2007.383211
+   Xie J, 2015, IEEE T MULTIMEDIA, V17, P1525, DOI 10.1109/TMM.2015.2457678
+   Yang JY, 2019, IEEE T BROADCAST, V65, P123, DOI 10.1109/TBC.2018.2818405
+   Yang JY, 2014, IEEE T IMAGE PROCESS, V23, P3443, DOI 10.1109/TIP.2014.2329776
+   Yang WH, 2017, IEEE T IMAGE PROCESS, V26, P5895, DOI 10.1109/TIP.2017.2750403
+   Yanjie Li, 2012, 2012 IEEE INTERNATIONAL CONFERENCE ON MULTIMEDIA AND EXPO (ICME), V0, PP152, DOI 10.1109/ICME.2012.30
+   Zhang YB, 2020, IEEE T CIRC SYST VID, V30, P320, DOI 10.1109/TCSVT.2018.2890574
+   Zuo Y, 2017, IEEE INT CON MULTI, V0, PP211, DOI 10.1109/ICME.2017.8019366
+   Zuo Y., 2016, P IEEE INT C MULT EX, V0, P1
+   Zuo YF, 2020, IEEE T CIRC SYST VID, V30, P297, DOI 10.1109/TCSVT.2018.2890271
+   Zuo YF, 2019, INFORM SCIENCES, V495, P52, DOI 10.1016/j.ins.2019.05.003
+   Zuo YF, 2018, IEEE T IMAGE PROCESS, V27, P4145, DOI 10.1109/TIP.2018.2828335
+   Zuo YF, 2018, IEEE T CIRC SYST VID, V28, P439, DOI 10.1109/TCSVT.2016.2609438
+NR 50
+TC 9
+Z9 10
+U1 1
+U2 11
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1051-8215
+EI 1558-2205
+J9 IEEE T CIRC SYST VID
+JI IEEE Trans. Circuits Syst. Video Technol.
+PD DEC 15
+PY 2020
+VL 30
+IS 12
+BP 4676
+EP 4687
+DI 10.1109/TCSVT.2019.2962867
+PG 12
+WC Engineering, Electrical & Electronic
+SC Engineering
+GA PD5VE
+UT WOS:000597751000023
+DA 2023-04-26
+ER
+
+PT J
+AU Yuan, Y
+   Lin, L
+   Huo, LZ
+   Kong, YL
+   Zhou, ZG
+   Wu, B
+   Jia, Y
+AF Yuan, Yuan
+   Lin, Lei
+   Huo, Lian-Zhi
+   Kong, Yun-Long
+   Zhou, Zeng-Guang
+   Wu, Bin
+   Jia, Yan
+TI Using An Attention-Based LSTM Encoder-Decoder Network for Near Real-Time Disturbance Detection
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Time series analysis; Predictive models; Hidden Markov models; Real-time systems; Remote sensing; Forecasting; Satellites; Attention mechanism; encoder-decoder; long-short-term memory (LSTM); near real-time disturbance detection; satellite image time series (SITS)
+ID surface reflectance; forest disturbance; human-settlements; neural-networks; series; classification; trends; algorithms; generation; models
+AB Accurate prediction of future observations based on past data is the key to near real-time disturbance detection using satellite image time series (SITS). To overcome the limitations of existing methods, we present an attention-based long-short-term memory (LSTM) encoder-decoder model in which the historical time series of a pixel is encoded with a bidirectional LSTM encoder while the future time series is produced by another LSTM decoder. An attention mechanism is integrated into the encoder-decoder model to align the input time series with the output time series and to dynamically choose the most relevant contextual information while forecasting. Based on the proposed model, we develop a framework for near real-time disturbance detection and verify its effectiveness in the case of burned area mapping. The prediction accuracy of the proposed model is evaluated using moderate resolution imaging spectroradiometer (MODIS) time series and compared with state-of-the-art models. Experimental results show that our model achieves the best results in terms of lower prediction error and higher model fitness. We also evaluate the disturbance detection ability of the proposed framework. The proposed approach improves the detection rate of disturbances while suppressing false alarms, and increases the temporal accuracy. We suggest that the proposed methods provide new tools for enhancing current early warning systems in real time.
+C1 [Yuan, Yuan; Jia, Yan] Nanjing Univ Posts & Telecommun, Sch Geog & Biol Informat, Nanjing 210023, Peoples R China.
+   [Lin, Lei] Beijing Qihoo Technol Co Ltd, Beijing 100015, Peoples R China.
+   [Huo, Lian-Zhi; Kong, Yun-Long; Zhou, Zeng-Guang] Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100094, Peoples R China.
+   [Wu, Bin] Aerosp DongFangHong Satellite Co Ltd, Beijing 100094, Peoples R China.
+C3 Nanjing University of Posts & Telecommunications; Qihoo 360 Technology; Chinese Academy of Sciences
+RP Huo, LZ (corresponding author), Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100094, Peoples R China.
+EM yuanyuan@njupt.edu.cn; linlei1214@163.com; huolz@aircas.ac.cn; kongyl@aircas.ac.cn; zhouzg@aircas.ac.cn; ihadl@sina.com; jiayan@njupt.edu.cn
+FU Research Project of Surveying Mapping and Geoinformation of Jiangsu Province [JSCHKY201905]; National Natural Science Foundation of China [41901356, 41971396, 41701512]; Natural Science Foundation of Jiangsu Province [BK20170897, BK20180765]; NUPTSF [NY217014]
+CR Adhikari R., 2013, INTRO STUDY TIME SER, V0, P0
+   Ager DJ, 2013, TRANSITION METAL-CATALYZED COUPLINGS IN PROCESS CHEMISTRY: CASE STUDIES FROM THE PHARMACEUTICAL INDUSTRY, V0, P1
+   Alonso-Canas I, 2015, REMOTE SENS ENVIRON, V163, P140, DOI 10.1016/j.rse.2015.03.011
+   Bahdanau D., 2014, ARXIV, V0, P0
+   Chalapathy R., 2019, CORR, V0, P0
+   Chan W, 2016, INT CONF ACOUST SPEE, V0, PP4960, DOI 10.1109/ICASSP.2016.7472621
+   Chandola V., 2011, P 2011 SIAM INT C DA, V0, PP95, DOI 10.1137/1.9781611972818.9
+   Cheng G, 2018, IEEE T GEOSCI REMOTE, V56, P2811, DOI 10.1109/TGRS.2017.2783902
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Cho K, 2014, P 2014 C EMP METH NA, V0, PP1724, DOI 10.3115/V1/D14-1179
+   Chuvieco E, 2018, EARTH SYST SCI DATA, V10, P2015, DOI 10.5194/essd-10-2015-2018
+   Csillik O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11101257
+   DeVries B, 2015, REMOTE SENS ENVIRON, V161, P107, DOI 10.1016/j.rse.2015.02.012
+   Graves A, 2014, ABS14105401 CORR, V0, P0
+   Greff K, 2017, IEEE T NEUR NET LEAR, V28, P2222, DOI 10.1109/TNNLS.2016.2582924
+   Han P, 2010, MATH COMPUT MODEL, V51, P1398, DOI 10.1016/j.mcm.2009.10.031
+   Hardtke LA, 2015, INT J APPL EARTH OBS, V38, P25, DOI 10.1016/j.jag.2014.11.011
+   Heas P, 2005, IEEE T GEOSCI REMOTE, V43, P1635, DOI 10.1109/TGRS.2005.847791
+   Hermosilla T, 2015, REMOTE SENS ENVIRON, V158, P220, DOI 10.1016/j.rse.2014.11.005
+   Hundman K, 2018, KDD18: PROCEEDINGS OF THE 24TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY & DATA MINING, V0, PP387, DOI 10.1145/3219819.3219845
+   Ienco Dino, 2017, IEEE GEOSCIENCE AND REMOTE SENSING LETTERS, V14, P1685, DOI 10.1109/LGRS.2017.2728698
+   Jamali S, 2015, REMOTE SENS ENVIRON, V156, P182, DOI 10.1016/j.rse.2014.09.010
+   Jonsson P, 2004, COMPUT GEOSCI-UK, V30, P833, DOI 10.1016/j.cageo.2004.05.006
+   Kennedy RE, 2015, REMOTE SENS ENVIRON, V166, P271, DOI 10.1016/j.rse.2015.05.005
+   Kennedy RE, 2010, REMOTE SENS ENVIRON, V114, P2897, DOI 10.1016/j.rse.2010.07.008
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Kleynhans W, 2012, IEEE J-STARS, V5, P777, DOI 10.1109/JSTARS.2012.2187177
+   Kong YL, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030452
+   KVALSETH TO, 1985, AM STAT, V39, P279, DOI 10.2307/2683704
+   Liu QS, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121330
+   Lu M, 2016, INT ARCH PHOTOGRAMM, V41, P987, DOI 10.5194/isprs-archives-XLI-B7-987-2016
+   Luong T., 2015, CORR ABS150804025, V0, P0
+   Lyu HB, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030471
+   Midekisa A, 2012, MALARIA J, V11, P0, DOI 10.1186/1475-2875-11-165
+   Minh DHT, 2018, IEEE GEOSCI REMOTE S, V15, P464, DOI 10.1109/LGRS.2018.2794581
+   Nallapati R., 2016, P 20 SIGNLL C COMPUT, V0, PP280, DOI 10.18653/V1/K16-1028
+   Olsson PO, 2016, REMOTE SENS ENVIRON, V181, P42, DOI 10.1016/j.rse.2016.03.040
+   Pasquarella VJ, 2017, FORESTS, V8, P0, DOI 10.3390/f8080275
+   Reddy DS, 2018, MODEL EARTH SYST ENV, V4, P409, DOI 10.1007/s40808-018-0431-3
+   Salmon BP, 2011, INT J APPL EARTH OBS, V13, P873, DOI 10.1016/j.jag.2011.06.007
+   Salmon BP, 2011, IEEE J-STARS, V4, P327, DOI 10.1109/JSTARS.2010.2053918
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Schuster M, 1997, IEEE T SIGNAL PROCES, V45, P2673, DOI 10.1109/78.650093
+   Stepehenko A, 2017, PROCEDIA COMPUT SCI, V104, P578, DOI 10.1016/j.procs.2017.01.175
+   Sutskever I., 2014, ADV NEURAL INFORM PR, V27, P3104
+   Tang XJ, 2019, REMOTE SENS ENVIRON, V224, P202, DOI 10.1016/j.rse.2019.02.003
+   Vasilakos C, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7110420
+   Vaswani A, 2017, ADV NEUR IN, V30, P0
+   Venugopalan S, 2015, IEEE I CONF COMP VIS, V0, PP4534, DOI 10.1109/ICCV.2015.515
+   Verbesselt J, 2012, REMOTE SENS ENVIRON, V123, P98, DOI 10.1016/j.rse.2012.02.022
+   Verbesselt J, 2010, REMOTE SENS ENVIRON, V114, P2970, DOI 10.1016/j.rse.2010.08.003
+   Viana CM, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091104
+   White MA, 2006, REMOTE SENS ENVIRON, V104, P43, DOI 10.1016/j.rse.2006.04.014
+   Xiong T, 2013, ENERG ECON, V40, P405, DOI 10.1016/j.eneco.2013.07.028
+   Yan JN, 2019, ISPRS J PHOTOGRAMM, V158, P249, DOI 10.1016/j.isprsjprs.2019.10.003
+   Yu GS, 2012, IEEE T IMAGE PROCESS, V21, P2481, DOI 10.1109/TIP.2011.2176743
+   Yuan Y, 2015, REMOTE SENS-BASEL, V7, P15318, DOI 10.3390/rs71115318
+   Zhou F, 2019, NEUROCOMPUTING, V328, P39, DOI 10.1016/j.neucom.2018.02.105
+   Zhu Z, 2017, ISPRS J PHOTOGRAMM, V130, P370, DOI 10.1016/j.isprsjprs.2017.06.013
+   Zhu Z, 2015, REMOTE SENS ENVIRON, V162, P67, DOI 10.1016/j.rse.2015.02.009
+   Zhu Z, 2014, REMOTE SENS ENVIRON, V144, P152, DOI 10.1016/j.rse.2014.01.011
+NR 65
+TC 10
+Z9 11
+U1 4
+U2 32
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 1819
+EP 1832
+DI 10.1109/JSTARS.2020.2988324
+PG 14
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA LT7YS
+UT WOS:000537282600005
+DA 2023-04-26
+ER
+
+PT J
+AU Nikoghosyan, M
+   Schmidt, M
+   Margaryan, K
+   Loeffler-Wirth, H
+   Arakelyan, A
+   Binder, H
+AF Nikoghosyan, Maria
+   Schmidt, Maria
+   Margaryan, Kristina
+   Loeffler-Wirth, Henry
+   Arakelyan, Arsen
+   Binder, Hans
+TI SOMmelier-Intuitive Visualization of the Topology of Grapevine Genome Landscapes Using Artificial Neural Networks
+SO GENES
+LA English
+DT Article
+DE grapevine genomes; genetic diversity; dissemination of vine; genome passporting; self-organizing maps; genome portrayal
+ID origins
+AB Background: Whole-genome studies of vine cultivars have brought novel knowledge about the diversity, geographical relatedness, historical origin and dissemination, phenotype associations and genetic markers. Method: We applied SOM (self-organizing maps) portrayal, a neural network-based machine learning method, to re-analyze the genome-wide Single Nucleotide Polymorphism (SNP) data of nearly eight hundred grapevine cultivars. The method generates genome-specific data landscapes. Their topology reflects the geographical distribution of cultivars, indicates paths of cultivar dissemination in history and genome-phenotype associations about grape utilization. Results: The landscape of vine genomes resembles the geographic map of the Mediterranean world, reflecting two major dissemination paths from South Caucasus along a northern route via Balkan towards Western Europe and along a southern route via Palestine and Maghreb towards Iberian Peninsula. The Mediterranean and Black Sea, as well as the Pyrenees, constitute barriers for genetic exchange. On the coarsest level of stratification, cultivars divide into three major groups: Western Europe and Italian grapes, Iberian grapes and vine cultivars from Near East and Maghreb regions. Genetic landmarks were associated with agronomic traits, referring to their utilization as table and wine grapes. Pseudotime analysis describes the dissemination of grapevines in an East to West direction in different waves of cultivation. Conclusion: In analogy to the tasks of the wine waiter in gastronomy, the sommelier, our 'SOMmelier'-approach supports understanding the diversity of grapevine genomes in the context of their geographic and historical background, using SOM portrayal. It offers an option to supplement vine cultivar passports by genome fingerprint portraits.
+C1 [Nikoghosyan, Maria; Arakelyan, Arsen] Natl Acad Sci RA, Inst Mol Biol, Res Grp Bioinformat, Yerevan 0014, Armenia.
+   [Nikoghosyan, Maria; Arakelyan, Arsen] Russian Armenian Univ, Inst Biomed & Pharm, Yerevan 0051, Armenia.
+   [Schmidt, Maria; Loeffler-Wirth, Henry; Binder, Hans] Univ Leipzig, Interdisciplinary Ctr Bioinformat, D-04107 Leipzig, Germany.
+   [Margaryan, Kristina] Natl Acad Sci RA, Inst Mol Biol, Res Grp Plant Genet & Immunol, Yerevan 0014, Armenia.
+   [Margaryan, Kristina] Yerevan State Univ, Dept Genet & Cytol, Yerevan 0025, Armenia.
+C3 National Academy of Sciences of Armenia; Institute of Molecular Biology - NAS RA; Russian Armenian Slavonic University; Leipzig University; National Academy of Sciences of Armenia; Institute of Molecular Biology - NAS RA; Yerevan State University
+RP Binder, H (corresponding author), Univ Leipzig, Interdisciplinary Ctr Bioinformat, D-04107 Leipzig, Germany.
+EM m_nikoghosyan@mb.sci.am; schmidt@izbi.uni-leipzig.de; kristinamargaryan@ysu.am; wirth@izbi.uni-leipzig.de; aarakelyan@sci.am; binder@izbi.uni-leipzig.de
+FU German Federal Ministry of Education and Science (BMBF) grant LHA (idSEM program) [FKZ 031L0026]; German Federal Ministry of Education and Science (BMBF) grant PathwayMaps [WTZ ARM II-010, 01ZX1304A]; German Federal Ministry of Education and Science (BMBF) grant oBIG [FFE-0034]; DAAD Short-Term Grant-2019 [57440917]; Internal Grant of Russian-Armenian university within Ministry of Education and Science of the Russian Federation
+CR Arroyo-Garcia R, 2006, MOL ECOL, V15, P3707, DOI 10.1111/j.1365-294X.2006.03049.x
+   Bacilieri R, 2013, BMC PLANT BIOL, V13, P0, DOI 10.1186/1471-2229-13-25
+   Bergstrom A, 2020, SCIENCE, V367, P1339, DOI 10.1126/science.aay5012
+   Binder H., 2015, ENCY INFORM SCI TECH, V0, PP1642, DOI 10.4018/978-1-4666-5888-2.ch157
+   Binder H., 2013, SYST BIOMED, V1, P99, DOI 10.4161/sysb.25897
+   Binder H, 2015, J CANC RES UPDATES, V4, P127
+   Binder H, 2014, BMC GENOMICS, V15, P0, DOI 10.1186/1471-2164-15-S12-S2
+   Farrell JA, 2018, SCIENCE, V360, P979, DOI 10.1126/science.aar3131
+   Haber M, 2016, EUR J HUM GENET, V24, P931, DOI 10.1038/ejhg.2015.206
+   Henning F.-W., 1992, WINE VINE HIST GEOGR, V0, P430
+   Hernandez CL, 2020, MOL BIOL EVOL, V37, P1041, DOI 10.1093/molbev/msz288
+   Hopp L, 2018, EPIGENOMICS-UK, V10, P745, DOI 10.2217/epi-2017-0140
+   Hopp L, 2015, GENES-BASEL, V6, P1076, DOI 10.3390/genes6041076
+   Kunz M, 2018, ONCOGENE, V37, P6136, DOI 10.1038/s41388-018-0385-y
+   Laucou V, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0192540
+   Liang ZC, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-019-09135-8
+   Loeffler-Wirth H, 2019, GENOME MED, V11, P0, DOI 10.1186/s13073-019-0637-7
+   Loeffler-Wirth H, 2018, BIOLOGY-BASEL, V7, P0, DOI 10.3390/biology7020023
+   Loffler-Wirth H, 2015, BIOINFORMATICS, V31, P3225, DOI 10.1093/bioinformatics/btv342
+   Malovichko YV, 2020, CELLS-BASEL, V9, P0, DOI 10.3390/cells9030779
+   Migicovsky Z, 2017, HORTIC RES-ENGLAND, V4, P0, DOI 10.1038/hortres.2017.35
+   Myles S, 2011, P NATL ACAD SCI USA, V108, P3530, DOI 10.1073/pnas.1009363108
+   Negrul A., 1938, DOKL AKAD NAUK SSSR, VXVIII, P585
+   Nikoghosyan M, 2019, FRONT GENET, V10, P0, DOI 10.3389/fgene.2019.00394
+   Olmo H. P., 1976, EVOLUTION OF CROP PLANTS., V0, P294
+   Plass M, 2018, SCIENCE, V360, P0, DOI 10.1126/science.aaq1723
+   Ramos-Madrigal J, 2019, NAT PLANTS, V5, P595, DOI 10.1038/s41477-019-0437-5
+   Riaz S, 2018, BMC PLANT BIOL, V18, P0, DOI 10.1186/s12870-018-1351-0
+   Rusishvili N., 2010, GRAPE VINE CULTURE G, V3, P0
+   This P, 2006, TRENDS GENET, V22, P511, DOI 10.1016/j.tig.2006.07.008
+   Wirth H, 2012, J MICROBIOL METH, V88, P83, DOI 10.1016/j.mimet.2011.10.013
+   Wirth H, 2011, BMC BIOINFORMATICS, V12, P0, DOI 10.1186/1471-2105-12-306
+   Zohary D., 2003, ORIGINS ANCIENT HIST, V0, P0, DOI DOI 10.4324/9780203392836
+NR 33
+TC 5
+Z9 5
+U1 0
+U2 1
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-4425
+J9 GENES-BASEL
+JI Genes
+PD JUL 15
+PY 2020
+VL 11
+IS 7
+BP 
+EP 
+DI 10.3390/genes11070817
+PG 21
+WC Genetics & Heredity
+SC Genetics & Heredity
+GA MW1EV
+UT WOS:000556790200001
+PM 32709105
+DA 2023-04-26
+ER

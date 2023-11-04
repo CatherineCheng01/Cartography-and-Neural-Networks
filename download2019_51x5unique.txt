@@ -1,0 +1,607 @@
+
+PT J
+AU Ge, Y
+   Jin, Y
+   Stein, A
+   Chen, YH
+   Wang, JH
+   Wang, JF
+   Cheng, QM
+   Bai, HX
+   Liu, MX
+   Atkinson, PM
+AF Ge, Yong
+   Jin, Yan
+   Stein, Alfred
+   Chen, Yuehong
+   Wang, Jianghao
+   Wang, Jinfeng
+   Cheng, Qiuming
+   Bai, Hexiang
+   Liu, Mengxiao
+   Atkinson, Peter M.
+TI Principles and methods of scaling geospatial Earth science data
+SO EARTH-SCIENCE REVIEWS
+LA English
+DT Review
+DE Scaling; Change-of-support; Autocorrelation; Heterogeneity
+ID hopfield neural-network; markov-random-field; remotely-sensed imagery; land data assimilation; pixel mapping method; soil-moisture; climate-change; geostatistical approach; downscaling method; hydraulic conductivity
+AB The properties of geographical phenomena vary with changes in the scale of measurement. The information observed at one scale often cannot be directly used as information at another scale. Scaling addresses these changes in properties in relation to the scale of measurement, and plays an important role in Earth sciences by providing information at the scale of interest, which may be required for a range of applications, and may be useful for inferring geographical patterns and processes. This paper presents a review of geospatial scaling methods for Earth science data. Based on spatial properties, we propose a methodological framework for scaling addressing upscaling, downscaling and side-scaling. This framework combines scale-independent and scale-dependent properties of geographical variables. It allows treatment of the varying spatial heterogeneity of geographical phenomena, combines spatial autocorrelation and heterogeneity, addresses scale-independent and scale-dependent factors, explores changes in information, incorporates geospatial Earth surface processes and uncertainties, and identifies the optimal scale(s) of models. This study shows that the classification of scaling methods according to various heterogeneities has great potential utility as an underpinning conceptual basis for advances in many Earth science research domains.
+C1 [Ge, Yong; Wang, Jianghao; Wang, Jinfeng; Liu, Mengxiao] Chinese Acad Sci, State Key Lab Resources & Environm Informat Syst, Inst Geog Sci & Nat Resources Res, Beijing 100101, Peoples R China.
+   [Ge, Yong; Liu, Mengxiao] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+   [Jin, Yan] Nanjing Univ Posts & Telecommun, Sch Geog & Biol Informat, Nanjing 210023, Jiangsu, Peoples R China.
+   [Jin, Yan] Smart Hlth Big Data Anal & Locat Serv Engn Lab Ji, Nanjing 210023, Jiangsu, Peoples R China.
+   [Stein, Alfred] Univ Twente, Fac Geoinformat Sci & Earth Observat ITC, NL-7500 AE Enschede, Netherlands.
+   [Chen, Yuehong] Hohai Univ, Sch Earth Sci & Engn, Nanjing 210098, Jiangsu, Peoples R China.
+   [Cheng, Qiuming] China Univ Geosci, State Key Lab Geol Proc & Mineral Resources, Beijing 100083, Peoples R China.
+   [Bai, Hexiang] Shanxi Univ, Sch Comp & Informat Technol, Taiyuan 030006, Shanxi, Peoples R China.
+   [Atkinson, Peter M.] Univ Lancaster, Lancaster Environm Ctr, Fac Sci & Technol, Lancaster LA1 4YR, England.
+C3 Chinese Academy of Sciences; Institute of Geographic Sciences & Natural Resources Research, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Nanjing University of Posts & Telecommunications; University of Twente; Hohai University; China University of Geosciences; Shanxi University; Lancaster University
+RP Ge, Y (corresponding author), Chinese Acad Sci, State Key Lab Resources & Environm Informat Syst, Inst Geog Sci & Nat Resources Res, Beijing 100101, Peoples R China.
+EM gey@lreis.ac.cn; jinyan@njupt.edu.cn; a.stein@utwente.nl; wangjh@lreis.ac.cn; liumx@lreis.ac.cn; pma@lancaster.ac.uk
+FU National Natural Science Foundation for Distinguished Young Scholars of China [41725006]; National Natural Science Foundation of China [41531174, 41531179]
+CR Ai B, 2014, IEEE J-STARS, V7, P4887, DOI 10.1109/JSTARS.2014.2313978
+   Anderson MC, 2003, AGRON J, V95, P1408, DOI 10.2134/agronj2003.1408
+   [Anonymous], 2006, SCALING UNCERTAINTY, V0, P0
+   [Anonymous], 1954, INCORPORATED STAT, V0, P0
+   Aplin P, 2001, INT J REMOTE SENS, V22, P2853, DOI 10.1080/01431160110053176
+   Ardila JP, 2011, ISPRS J PHOTOGRAMM, V66, P762, DOI 10.1016/j.isprsjprs.2011.08.002
+   Atkinson PM, 2008, IEEE T GEOSCI REMOTE, V46, P573, DOI 10.1109/TGRS.2007.909952
+   Atkinson PM, 2013, INT J APPL EARTH OBS, V22, P106, DOI 10.1016/j.jag.2012.04.012
+   Atkinson PM, 2004, QUANT GEO G, V13, P15
+   Atkinson PM, 2000, PROF GEOGR, V52, P607, DOI 10.1111/0033-0124.00250
+   Atkinson PM, 2005, PHOTOGRAMM ENG REM S, V71, P839, DOI 10.14358/PERS.71.7.839
+   Bai HX, 2016, SPAT STAT-NETH, V17, P83, DOI 10.1016/j.spasta.2016.06.003
+   Bergant K, 2002, INT J BIOMETEOROL, V46, P22, DOI 10.1007/s00484-001-0114-y
+   Bergin E., 2012, DOWNSCALING RAINFALL, V0, P0
+   Berrocal VJ, 2012, ENVIRONMETRICS, V23, P482, DOI 10.1002/env.2145
+   Beven K, 2001, J HYDROL, V249, P11, DOI 10.1016/S0022-1694(01)00421-8
+   Beyrich F, 2006, BOUND-LAY METEOROL, V121, P33, DOI 10.1007/s10546-006-9052-x
+   Bierkens M. F. P., 2000, DEV PLANT SOIL SCI, V0, P0
+   Bindlish R, 2000, GLOBAL PLANET CHANGE, V25, P111, DOI 10.1016/S0921-8181(00)00024-2
+   Cannon AJ, 2009, INT J CLIMATOL, V29, P761, DOI 10.1002/joc.1737
+   CHEN YD, 2006, HYDROL EARTH SYST SC, V3, P1145, DOI 10.5194/HESSD-3-1145-2006
+   Chen YH, 2018, IEEE T GEOSCI REMOTE, V56, P5097, DOI 10.1109/TGRS.2018.2808410
+   Chen YH, 2018, IEEE T GEOSCI REMOTE, V56, P328, DOI 10.1109/tgrs.2017.2747624
+   Chen YH, 2015, IEEE J-STARS, V8, P2040, DOI 10.1109/JSTARS.2015.2417191
+   Chen YH, 2014, REMOTE SENS LETT, V5, P902, DOI 10.1080/2150704X.2014.973079
+   Cheng Q., 2005, QUANTITATIVE GEOLOGY, V0, P0
+   Cheng QM, 1999, COMPUT GEOSCI-UK, V25, P949, DOI 10.1016/S0098-3004(99)00060-6
+   Cheng QM, 1997, MATH GEOL, V29, P245, DOI 10.1007/BF02769631
+   Cheng T, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0100465
+   Chiles J.-P., 2009, GEOSTATISTICS MODELI, V497, P0
+   Cressie N, 2015, STAT SPATIO TEMPORAL, V0, P0
+   Crow WT, 2012, REV GEOPHYS, V50, P0, DOI 10.1029/2011RG000372
+   Crow WT, 2005, ADV WATER RESOUR, V28, P1, DOI 10.1016/j.advwatres.2004.10.004
+   DAI H, 2017, CLIM DYNAM, V0, P1
+   De Gruijter J.J., 2006, SAMPLING NATURAL RES, V0, P0
+   Deidda R, 2000, WATER RESOUR RES, V36, P1779, DOI 10.1029/2000WR900038
+   Dibike YB, 2006, NEURAL NETWORKS, V19, P135, DOI 10.1016/j.neunet.2006.01.003
+   Espinosa LAD, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0168982
+   Fasbender D, 2010, J CLIMATE, V23, P5222, DOI 10.1175/2010JCLI3415.1
+   Finke PA, 2002, IAHS-AISH P, V0, P405
+   Folberth C, 2019, AGR FOREST METEOROL, V264, P1, DOI 10.1016/j.agrformet.2018.09.021
+   Foody GM, 2005, INT J REMOTE SENS, V26, P5381, DOI 10.1080/01431160500213292
+   FREYBUNESS F, 1995, THEOR APPL CLIMATOL, V50, P117, DOI 10.1007/BF00866111
+   Friederichs P, 2007, MON WEATHER REV, V135, P2365, DOI 10.1175/MWR3403.1
+   Fu B.J., 2011, LANDSCAPE ECOLOGY PR, V0, P0
+   [傅伯杰 Fu Bojie], 2014, 地理学报 ACTA GEOGRAPHICA SINICA, V69, P1052
+   Fujihara Y, 2008, J HYDROL, V353, P33, DOI 10.1016/j.jhydrol.2008.01.024
+   Galukande M, 2013, BMC HEALTH SERV RES, V13, P0, DOI 10.1186/1472-6963-13-292
+   Gaucherel C, 2007, LANDSCAPE URBAN PLAN, V82, P95, DOI 10.1016/j.landurbplan.2007.01.022
+   Ge Y, 2015, INT J GEOGR INF SCI, V29, P92, DOI 10.1080/13658816.2014.948446
+   Ge Y, 2006, ACTA OCEANOL SIN, V25, P27
+   Ge Y, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8050360
+   Ge Y, 2016, IEEE T GEOSCI REMOTE, V54, P2356, DOI 10.1109/TGRS.2015.2499790
+   Ge Y, 2015, IEEE GEOSCI REMOTE S, V12, P656, DOI 10.1109/LGRS.2014.2355871
+   Ge Y, 2014, INT J REMOTE SENS, V35, P1756, DOI 10.1080/01431161.2014.882034
+   Ge Y, 2013, INT J APPL EARTH OBS, V22, P115, DOI 10.1016/j.jag.2012.04.013
+   Ge Y, 2011, INT J REMOTE SENS, V32, P2311, DOI 10.1080/01431161003698278
+   Ge Y, 2009, IEEE T GEOSCI REMOTE, V47, P2155, DOI 10.1109/TGRS.2008.2010863
+   Gelfand A E, 2001, BIOSTATISTICS, V2, P31, DOI 10.1093/biostatistics/2.1.31
+   Gelfand AE, 2003, J AM STAT ASSOC, V98, P387, DOI 10.1198/016214503000170
+   Ghahramani M, 2019, IEEE T AUTOM SCI ENG, V16, P351, DOI 10.1109/TASE.2018.2795241
+   Gires A, 2018, J HYDROL, V558, P482, DOI 10.1016/j.jhydrol.2018.01.062
+   Gneiting T, 2002, J AM STAT ASSOC, V97, P590, DOI 10.1198/016214502760047113
+   Goodchild MF, 2004, ANN ASSOC AM GEOGR, V94, P300, DOI 10.1111/j.1467-8306.2004.09402008.x
+   Goodchild MF, 2011, GEOMORPHOLOGY, V130, P5, DOI 10.1016/j.geomorph.2010.10.004
+   Goovaerts P, 2001, GEODERMA, V103, P3, DOI 10.1016/S0016-7061(01)00067-2
+   Goovaerts P, 2008, MATH GEOSCI, V40, P101, DOI 10.1007/s11004-007-9129-1
+   Goovaerts Pierre, 2006, INT J HEALTH GEOGR, V5, P52, DOI 10.1186/1476-072X-5-52
+   Gotway CA, 2002, J AM STAT ASSOC, V97, P632, DOI 10.1198/016214502760047140
+   Gotway CA, 2007, J COMPUT GRAPH STAT, V16, P115, DOI 10.1198/106186007X179257
+   Guardiano F.B., 1993, GEOSTATISTICS TROIA, V1, P0
+   Guardiano F.B., 1993, GEOSTATISTICS TROIA, V0, P0
+   Guardiano F.B., 1993, GEOSTATISTICS TROIA, V0, P0
+   Ha W, 2013, IRRIGATION SCI, V31, P831, DOI 10.1007/s00271-012-0331-7
+   Halley JM, 2004, ECOL LETT, V7, P254, DOI 10.1111/j.1461-0248.2004.00568.x
+   Hamm NAS, 2015, ATMOS ENVIRON, V102, P393, DOI 10.1016/j.atmosenv.2014.11.043
+   Hay LE, 2003, J HYDROL, V282, P56, DOI 10.1016/S0022-1694(03)00252-X
+   Heuvelink GBM, 1999, GEODERMA, V89, P47, DOI 10.1016/S0016-7061(98)00077-9
+   Hewitt JE, 2007, AM NAT, V169, P398, DOI 10.1086/510925
+   Hoai ND, 2011, J APPL MATH, V1, P223
+   Hu JL, 2015, IEEE J-STARS, V8, P2031, DOI 10.1109/JSTARS.2015.2399509
+   Hu MG, 2015, ATMOSPHERE-BASEL, V6, P1032, DOI 10.3390/atmos6081032
+   Hu SG, 2013, LANDSCAPE URBAN PLAN, V110, P25, DOI 10.1016/j.landurbplan.2012.09.008
+   Hulme M, 1999, NATURE, V400, P724, DOI 10.1038/23388
+   Hutengs C, 2016, REMOTE SENS ENVIRON, V178, P127, DOI 10.1016/j.rse.2016.03.006
+   Jameson AR, 2013, J APPL METEOROL CLIM, V52, P2075, DOI 10.1175/JAMC-D-12-0301.1
+   JARVIS PG, 1995, PLANT CELL ENVIRON, V18, P1079, DOI 10.1111/j.1365-3040.1995.tb00620.x
+   Jha SK, 2013, WATER RESOUR RES, V49, P245, DOI 10.1029/2012WR012602
+   Jiang B, 2018, J GEOVIS SPAT ANAL, V2, P0, DOI 10.1007/s41651-017-0009-z
+   Jiang B, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7050167
+   Jiang B, 2016, ISPRS INT J GEO-INF, V5, P0, DOI 10.3390/ijgi5060095
+   Jiang JL, 2015, IEEE J-STARS, V8, P3068, DOI 10.1109/JSTARS.2014.2346251
+   Jin Y, 2018, INT J APPL EARTH OBS, V68, P8, DOI 10.1016/j.jag.2018.01.010
+   Jin Y, 2018, IEEE T GEOSCI REMOTE, V56, P2362, DOI 10.1109/TGRS.2017.2778420
+   Joumel A.G., 1993, GEOSTATISTICS TROIA, V1, P0
+   Joumel A.G., 1993, GEOSTATISTICS TROIA, V0, P0
+   Joumel A.G., 1993, GEOSTATISTICS TROIA, V0, P0
+   Jung M, 2011, J GEOPHYS RES-BIOGEO, V116, P0, DOI 10.1029/2010JG001566
+   Kaheil YH, 2008, IEEE T GEOSCI REMOTE, V46, P2692, DOI 10.1109/TGRS.2008.919819
+   Kang J, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020192
+   Kang J, 2017, REMOTE SENS ENVIRON, V191, P232, DOI 10.1016/j.rse.2017.01.027
+   Kasetkasem T, 2005, REMOTE SENS ENVIRON, V96, P302, DOI 10.1016/j.rse.2005.02.006
+   Keil P, 2018, GLOBAL ECOL BIOGEOGR, V27, P2, DOI 10.1111/geb.12669
+   Kerr YH, 2001, IEEE T GEOSCI REMOTE, V39, P1729, DOI 10.1109/36.942551
+   Kerry R, 2017, PRECIS AGRIC, V18, P507, DOI 10.1007/s11119-016-9471-8
+   Kerry R, 2012, GEODERMA, V170, P347, DOI 10.1016/j.geoderma.2011.10.007
+   Kerry R, 2010, GEOGR ANAL, V42, P53, DOI 10.1111/j.1538-4632.2010.00782.x
+   Kim J, 2000, J HYDROMETEOROL, V1, P311, DOI 10.1175/1525-7541(2000)001<0311:ASPASF>2.0.CO;2
+   Kou XK, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020105
+   Kuczera G, 1998, J HYDROL, V211, P69, DOI 10.1016/S0022-1694(98)00198-X
+   Kyriakidis PC, 1999, MATH GEOL, V31, P651, DOI 10.1023/A:1007528426688
+   Kyriakidis PC, 2004, GEOGR ANAL, V36, P259, DOI 10.1111/j.1538-4632.2004.tb01135.x
+   Laaha G, 2013, ENVIRON MODEL ASSESS, V18, P671, DOI 10.1007/s10666-013-9373-3
+   Landeras G, 2012, ENERG CONVERS MANAGE, V62, P1, DOI 10.1016/j.enconman.2012.03.025
+   Landman WA, 2000, INT J CLIMATOL, V20, P1521, DOI 10.1002/1097-0088(20001115)20:13<1521::AID-JOC558>3.0.CO;2-N
+   Lanza L. G., 1997, PHYS CHEM EARTH, V22, P215
+   Lee SJ, 2009, SPAT SPATIO-TEMPORAL, V1, P49, DOI 10.1016/j.sste.2009.07.005
+   Li AH, 2013, REMOTE SENS ENVIRON, V135, P52, DOI 10.1016/j.rse.2013.03.021
+   Li BL, 2001, ECOL MODEL, V140, P247, DOI 10.1016/S0304-3800(01)00320-9
+   Li BL, 2000, ECOL MODEL, V132, P33, DOI 10.1016/S0304-3800(00)00303-3
+   Li LY, 2015, REMOTE SENS ENVIRON, V164, P142, DOI 10.1016/j.rse.2015.04.009
+   [李双成 Li Shuangcheng], 2005, 地理研究 GEOGRAPHICAL RESEARCH, V24, P11
+   Li X.W., 2009, J REMOTE SENSING, V13, P1993
+   Li XD, 2017, REMOTE SENS ENVIRON, V196, P293, DOI 10.1016/j.rse.2017.05.011
+   Li XD, 2014, IEEE T GEOSCI REMOTE, V52, P2810, DOI 10.1109/TGRS.2013.2266345
+   Li ZL, 2012, INT J GEOGR INF SCI, V26, P855, DOI 10.1080/13658816.2011.616861
+   Ling F, 2008, INT J REMOTE SENS, V29, P1809, DOI 10.1080/01431160701802489
+   Ling F, 2016, IEEE T GEOSCI REMOTE, V54, P3794, DOI 10.1109/TGRS.2016.2527841
+   Ling F, 2014, IEEE J-STARS, V7, P1816, DOI 10.1109/JSTARS.2014.2320256
+   Ling F, 2013, INT J REMOTE SENS, V34, P341, DOI 10.1080/01431161.2012.705441
+   Liu DL, 2012, CLIMATIC CHANGE, V115, P629, DOI 10.1007/s10584-012-0464-y
+   Liu SM, 2016, AGR FOREST METEOROL, V230, P97, DOI 10.1016/j.agrformet.2016.04.008
+   Liu XH, 2008, INT J GEOGR INF SCI, V22, P431, DOI 10.1080/13658810701492225
+   Liu YH, 2006, COMPUT GEOSCI-UK, V32, P1544, DOI 10.1016/j.cageo.2006.02.008
+   Lloyd C. D., 2014, EXPLORING SPATIAL SC, V0, P0
+   Mahmud K, 2015, WATER RESOUR RES, V51, P465, DOI 10.1002/2014WR016150
+   Malenovsky Z, 2007, INT J APPL EARTH OBS, V9, P137, DOI 10.1016/j.jag.2006.08.003
+   MANDELBROT B, 1967, SCIENCE, V156, P636, DOI 10.1126/science.156.3775.636
+   Margulis SA, 2002, WATER RESOUR RES, V38, P0, DOI 10.1029/2001WR001114
+   Mariethoz G, 2010, WATER RESOUR RES, V46, P14
+   Mariethoz G, 2011, MATH GEOSCI, V43, P783, DOI 10.1007/s11004-011-9362-5
+   Martinez B, 2009, REMOTE SENS ENVIRON, V113, P1823, DOI 10.1016/j.rse.2009.04.016
+   Mascaro G, 2014, J APPL METEOROL CLIM, V53, P910, DOI 10.1175/JAMC-D-13-0330.1
+   Mechri R., 2016, REMOTE SENS, V8, P18
+   Mertens KC, 2003, INT J REMOTE SENS, V24, P4241, DOI 10.1080/01431160310001595073
+   Mertens KC, 2006, INT J REMOTE SENS, V27, P3293, DOI 10.1080/01431160500497127
+   Molnar P, 2005, ATMOS RES, V77, P137, DOI 10.1016/j.atmosres.2004.10.024
+   MORAN PAP, 1950, BIOMETRIKA, V37, P17, DOI 10.1093/biomet/37.1-2.17
+   Munoz A, 2001, IEEE T IMAGE PROCESS, V10, P1365, DOI 10.1109/83.941860
+   Murphy J, 2000, INT J CLIMATOL, V20, P489, DOI 10.1002/(SICI)1097-0088(200004)20:5&lt;489::AID-JOC484&gt;3.0.CO;2-6
+   Najac J, 2011, INT J CLIMATOL, V31, P415, DOI 10.1002/joc.2075
+   Nguyen MQ, 2005, IEEE GEOSCI REMOTE S, V2, P366, DOI 10.1109/LGRS.2005.851551
+   Nigussie D, 2011, INT J REMOTE SENS, V32, P7203, DOI 10.1080/01431161.2010.519740
+   Parajka J, 2015, J HYDROL HYDROMECH, V63, P228, DOI 10.1515/johh-2015-0024
+   Pardo-Iguzquiza E, 2006, REMOTE SENS ENVIRON, V102, P86, DOI 10.1016/j.rse.2006.02.014
+   Peng J, 2017, REV GEOPHYS, V55, P341, DOI 10.1002/2016RG000543
+   Peterson GD, 2000, CLIMATIC CHANGE, V44, P291, DOI 10.1023/A:1005502718799
+   Pettorelli N, 2005, P ROY SOC B-BIOL SCI, V272, P2357, DOI 10.1098/rspb.2005.3218
+   Piles M, 2011, IEEE T GEOSCI REMOTE, V49, P3156, DOI 10.1109/TGRS.2011.2120615
+   Pradhan NR, 2006, HYDROL PROCESS, V20, P1385, DOI 10.1002/hyp.6098
+   Prasad S., 2017, P 2017 14 IEEE INDIA, V0, PP1, DOI 10.1109/INDICON.2017.8487955
+   Qin J, 2013, REMOTE SENS ENVIRON, V138, P1, DOI 10.1016/j.rse.2013.07.003
+   Nguyen QM, 2011, INT J REMOTE SENS, V32, P6149, DOI 10.1080/01431161.2010.507797
+   Ramzan M, 2017, ADV METEOROL, V2017, P0, DOI 10.1155/2017/7560818
+   Reichle RH, 2001, WATER RESOUR RES, V37, P2353, DOI 10.1029/2001WR000475
+   Renard P, 1997, ADV WATER RESOUR, V20, P253, DOI 10.1016/S0309-1708(96)00050-4
+   Robinson WS, 1950, AM SOCIOL REV, V15, P351, DOI 10.2307/2087176
+   Rolland C, 2003, J CLIMATE, V16, P1032, DOI 10.1175/1520-0442(2003)016<1032:SASVOA>2.0.CO;2
+   ROSSI RE, 1992, ECOL MONOGR, V62, P277, DOI 10.2307/2937096
+   Schoof JT, 2007, INT J CLIMATOL, V27, P439, DOI 10.1002/joc.1412
+   Schulze R, 2000, AGR ECOSYST ENVIRON, V82, P185, DOI 10.1016/S0167-8809(00)00226-7
+   Schulze-Makuch D, 1998, HYDROGEOL J, V6, P204, DOI 10.1007/s100400050145
+   Serafimovich A, 2018, ATMOS CHEM PHYS, V18, P10007, DOI 10.5194/acp-18-10007-2018
+   Shen ZQ, 2009, PHOTOGRAMM ENG REM S, V75, P557, DOI 10.14358/PERS.75.5.557
+   Shortridge JE, 2016, HYDROL EARTH SYST SC, V20, P2611, DOI 10.5194/hess-20-2611-2016
+   Skoien J.O., 2005, HYDROL EARTH SYST SC, V2, P2253, DOI 10.5194/hessd-2-2253-2005
+   Skoien JO, 2007, WATER RESOUR RES, V43, P0, DOI 10.1029/2006WR005760
+   Song XD, 2016, J ARID LAND, V8, P734, DOI 10.1007/s40333-016-0049-0
+   Song Y., 2015, J ROY STAT SOC, V63, P715
+   STANLEY HE, 1988, NATURE, V335, P405, DOI 10.1038/335405a0
+   Stein A, 2001, AGR ECOSYST ENVIRON, V87, P215, DOI 10.1016/S0167-8809(01)00280-8
+   Steinacker R, 2006, MON WEATHER REV, V134, P2758, DOI 10.1175/MWR3196.1
+   Strebelle S, 2002, MATH GEOL, V34, P1, DOI 10.1023/A:1014009426274
+   Su YF, 2012, IEEE J-STARS, V5, P1403, DOI 10.1109/JSTARS.2012.2191537
+   Sun SB, 2017, J HYDROMETEOROL, V18, P1185, DOI 10.1175/jhm-d-16-0212.1
+   Tahmasebi P, 2012, COMPUTAT GEOSCI, V16, P779, DOI 10.1007/s10596-012-9287-1
+   Tang YW, 2015, ISPRS J PHOTOGRAMM, V101, P174, DOI 10.1016/j.isprsjprs.2014.12.016
+   Tao K, 2010, J ATMOS OCEAN TECH, V27, P409, DOI 10.1175/2009JTECHA1219.1
+   Tatem A. J., 2001, INT J APPL EARTH OBS, V3, P184, DOI 10.1016/S0303-2434(01)85010-8
+   Tatem AJ, 2002, REMOTE SENS ENVIRON, V79, P1, DOI 10.1016/S0034-4257(01)00229-2
+   Thornton MW, 2007, COMPUT GEOSCI-UK, V33, P1261, DOI 10.1016/j.cageo.2007.05.010
+   TOBLER WR, 1970, ECON GEOGR, V46, P234, DOI 10.2307/143141
+   Vereecken H, 2007, VADOSE ZONE J, V6, P1, DOI 10.2136/vzj2006.0055
+   Verhoeye J, 2002, REMOTE SENS ENVIRON, V79, P96, DOI 10.1016/S0034-4257(01)00242-5
+   Wang JH, 2015, REMOTE SENS-BASEL, V7, P11372, DOI 10.3390/rs70911372
+   Wang JH, 2014, IEEE GEOSCI REMOTE S, V11, P2125, DOI 10.1109/LGRS.2014.2321429
+   Wang JF, 2016, ECOL INDIC, V67, P250, DOI 10.1016/j.ecolind.2016.02.052
+   Wang JF, 2017, ATMOS ENVIRON, V168, P1, DOI 10.1016/j.atmosenv.2017.08.060
+   Wang LG, 2006, LECT NOTES CONTR INF, V345, P755
+   Wang LG, 2013, IEEE GEOSCI REMOTE S, V10, P598, DOI 10.1109/LGRS.2012.2215573
+   Wang QM, 2015, REMOTE SENS ENVIRON, V166, P191, DOI 10.1016/j.rse.2015.06.003
+   Wang QM, 2014, ISPRS J PHOTOGRAMM, V92, P1, DOI 10.1016/j.isprsjprs.2014.02.012
+   Wegener J., 2012, TEMPORAL DOWNSCALING, V0, P0
+   Western AW, 2003, ANN REV EARTH PLANET, V8, P149
+   Wigmosta M., 2006, ENCY HYDROLOGICAL SC, V0, PP12, DOI 10.1002/0470848944.hsa010
+   Wood AW, 2004, CLIMATIC CHANGE, V62, P189, DOI 10.1023/B:CLIM.0000013685.99609.9e
+   Wu H, 2009, SENSORS-BASEL, V9, P1768, DOI 10.3390/s90301768
+   Wu J., 2000, GEOGRAPHIC INFORM SC, V6, P6, DOI 10.1080/10824000009480529
+   Wu JG, 2007, LANDSCAPE ECOLOGY PA, V2ed, P0
+   Wu L, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.096015
+   Xu GH, 2015, WATER-SUI, V7, P3083, DOI 10.3390/w7063083
+   Xu X., 2011, SIN FOR INT C INT SC, V0, P0
+   Xu X, 2014, IEEE T GEOSCI REMOTE, V52, P787, DOI 10.1109/TGRS.2013.2244095
+   Yang FH, 2006, IEEE T GEOSCI REMOTE, V44, P3452, DOI 10.1109/TGRS.2006.876297
+   Yang K, 2013, B AM METEOROL SOC, V94, P1907, DOI 10.1175/BAMS-D-12-00203.1
+   Yoo EH, 2006, J GEOGR SYST, V8, P357, DOI 10.1007/s10109-006-0036-7
+   Yoo EH, 2009, J GEOGR SYST, V11, P381, DOI 10.1007/s10109-009-0090-z
+   Yoo EH, 2010, GEOGR ANAL, V42, P78, DOI 10.1111/j.1538-4632.2009.00783.x
+   Young LJ, 2007, STOCH ENV RES RISK A, V21, P589, DOI 10.1007/s00477-007-0136-z
+   Yue TX, 2007, GEOMORPHOLOGY, V91, P161, DOI 10.1016/j.geomorph.2007.02.006
+   Zhang H, 2012, ANN ASSOC AM GEOGR, V102, P350, DOI 10.1080/00045608.2011.620505
+   Zhang J., 2014, SCALE SPATIAL INFORM, V0, P0
+   Zhang JX, 2014, GEO-SPAT INF SCI, V17, P181, DOI 10.1080/10095020.2014.985283
+   Zhang LP, 2008, NEUROCOMPUTING, V71, P2046, DOI 10.1016/j.neucom.2007.08.033
+   Zhang T.P., 2016, J QUANT SPECTROSC RA, V188, P0
+   Zhang TF, 2006, MATH GEOL, V38, P63, DOI 10.1007/s11004-005-9004-x
+   Zhang XL, 2015, CLIM DYNAM, V45, P2541, DOI 10.1007/s00382-015-2491-7
+   Zhang YH, 2014, IEEE J-STARS, V7, P1271, DOI 10.1109/JSTARS.2014.2305652
+   Zhao L, 2014, REMOTE SENS ENVIRON, V152, P345, DOI 10.1016/j.rse.2014.07.005
+   Zhong YF, 2015, IEEE T GEOSCI REMOTE, V53, P1411, DOI 10.1109/TGRS.2014.2340734
+   Zhong YF, 2014, ISPRS J PHOTOGRAMM, V96, P134, DOI 10.1016/j.isprsjprs.2014.06.019
+   Zhong YF, 2012, IEEE T SYST MAN CY B, V42, P1306, DOI 10.1109/TSMCB.2012.2189561
+   Zhou QM, 2008, INT J REMOTE SENS, V29, P5495, DOI 10.1080/01431160802060938
+   Zhu Li, 2006, INT J HEALTH GEOGR, V5, P54, DOI 10.1186/1476-072X-5-54
+   Zupanski D, 2011, J HYDROMETEOROL, V12, P118, DOI 10.1175/2010JHM1271.1
+NR 236
+TC 45
+Z9 55
+U1 25
+U2 115
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0012-8252
+EI 1872-6828
+J9 EARTH-SCI REV
+JI Earth-Sci. Rev.
+PD OCT 15
+PY 2019
+VL 197
+IS 
+BP 
+EP 
+DI 10.1016/j.earscirev.2019.102897
+PG 17
+WC Geosciences, Multidisciplinary
+SC Geology
+GA JO0BU
+UT WOS:000497253500004
+DA 2023-04-26
+ER
+
+PT J
+AU Noguchi, W
+   Iizuka, H
+   Yamamoto, M
+AF Noguchi, Wataru
+   Iizuka, Hiroyuki
+   Yamamoto, Masahito
+TI Navigation behavior based on self-organized spatial representation in hierarchical recurrent neural network
+SO ADVANCED ROBOTICS
+LA English
+DT Article; Proceedings Paper
+DE Cognitive map; navigation; prediction learning; visuomotor integration; hierarchical recurrent neural network
+ID place; rats
+AB A cognitive map is an internal model of the external world and contains the spatial representation of the surrounding environment. The existence of the cognitive map was first identified in rats; rats can navigate to their desired destination using cognitive maps while dealing with environmental uncertainty. We performed a mobile robot navigation experiment where obstacles were randomly placed using hierarchical recurrent neural network (HRNN) with multiple timescales. The HRNN was trained to navigate the mobile robot to the destination indicated by a snapshot image. After the training, the HRNN was able to successfully avoid the obstacles and navigate to the destination from any location in the environment. Analysis of the internal states of the HRNN showed that the module with fast timescale handles obstacle avoidance and the one with slow timescale has spatial representation corresponding to the spatial position of the destination. Moreover, in the experiment wherein the novel path appeared, the trained HRNN performed shortcut behavior. The shortcut behavior shows that the HRNN performed navigation using the self-organized spatial representation in the slow recurrent neural network. This indicates that training of goal-oriented navigation, i.e. the navigation motivated by a snapshot image of the destination results in the self-organization of cognitive map-like representation.
+C1 [Noguchi, Wataru; Iizuka, Hiroyuki; Yamamoto, Masahito] Hokkaido Univ, Grad Sch Informat Sci & Technol, Sapporo, Hokkaido, Japan.
+C3 Hokkaido University
+RP Noguchi, W (corresponding author), Hokkaido Univ, Grad Sch Informat Sci & Technol, Sapporo, Hokkaido, Japan.
+EM noguchi@complex.ist.hokudai.ac.jp
+FU JSPS [JP18J20404]
+CR Banino A, 2018, NATURE, V557, P429, DOI 10.1038/s41586-018-0102-6
+   BEER RD, 1995, ADAPT BEHAV, V3, P469, DOI 10.1177/105971239500300405
+   Bush D, 2015, NEURON, V87, P507, DOI 10.1016/j.neuron.2015.07.006
+   Chaplot DS, 2018, AAAI C ART INT AAAI, V0, P0
+   Clevert D. - A., 2016, ARXIV151107289, V0, P1
+   Epstein SL, 2015, LECT NOTES COMPUT SC, V9368, P403, DOI 10.1007/978-3-319-23374-1_19
+   Franzius M, 2007, PLOS COMPUT BIOL, V3, P1605, DOI 10.1371/journal.pcbi.0030166
+   Hwang J, 2016, J IEEE I C DEVELOP L, V0, PP59, DOI 10.1109/DEVLRN.2016.7846791
+   Ito M, 2006, NEURAL NETWORKS, V19, P323, DOI 10.1016/j.neunet.2006.02.007
+   Jaderberg M, 2017, 5 INT C LEARN REPR I, V0, P0
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Mnih V, 2016, PR MACH LEARN RES, V48, P0
+   MORRIS RGM, 1982, NATURE, V297, P681, DOI 10.1038/297681a0
+   Nishimoto R, 2008, ADAPT BEHAV, V16, P166, DOI 10.1177/1059712308089185
+   Noguchi W, 2017, P 22 INT S ART LIF R, V0, P73
+   Noguchi W, 2017, ADAPT BEHAV, V25, P129, DOI 10.1177/1059712317711487
+   Paine RW, 2005, ADAPT BEHAV, V13, P211, DOI 10.1177/105971230501300303
+   Pathak D, 2018, IEEE COMPUT SOC CONF, V0, PP2131, DOI 10.1109/CVPRW.2018.00278
+   Pfeiffer Mark, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON ROBOTICS AND AUTOMATION (ICRA), V0, PP1527, DOI 10.1109/ICRA.2017.7989182
+   Sepulveda G, 2018, IEEE INT CONF ROBOT, V0, P4646
+   Tang H, 2017, IEEE T COGNITIVE DEV, V0, P0
+   Taniguchi A, 2017, IEEE INT C INT ROBOT, V0, P811
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Wyss R, 2006, PLOS BIOL, V4, P836, DOI 10.1371/journal.pbio.0040120
+   Yamada T, 2017, LECT NOTES COMPUT SC, V10613, P35, DOI 10.1007/978-3-319-68600-4_5
+   Yamashita Y, 2008, PLOS COMPUT BIOL, V4, P0, DOI 10.1371/journal.pcbi.1000220
+   Zeiler MD, 2010, PROC CVPR IEEE, V0, PP2528, DOI 10.1109/CVPR.2010.5539957
+   Zeng TP, 2017, FRONT NEUROROBOTICS, V11, P0, DOI 10.3389/fnbot.2017.00061
+NR 29
+TC 3
+Z9 3
+U1 5
+U2 14
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 0169-1864
+EI 1568-5535
+J9 ADV ROBOTICS
+JI Adv. Robot.
+PD JUN 3
+PY 2019
+VL 33
+IS 11
+BP 539
+EP 549
+DI 10.1080/01691864.2019.1566088
+PG 11
+WC Robotics
+SC Robotics
+GA IG0NA
+UT WOS:000473486200002
+DA 2023-04-26
+ER
+
+PT J
+AU Keyrouz, F
+   Tauk, L
+   Feghali, E
+AF Keyrouz, Fakheredine
+   Tauk, Lara
+   Feghali, Elias
+TI Enhanced Chemical Structure Recognition and Prediction Using Bayesian Fusion
+SO 2019 IEEE 9TH ANNUAL COMPUTING AND COMMUNICATION WORKSHOP AND CONFERENCE (CCWC)
+LA English
+DT Proceedings Paper
+DE Chemical structure recognition; feature extraction; pattern recognition; Bayesian networks; PCA; LDA
+AB In this paper we present a novel system for chemical symbol recognition capable of recognizing and predicting handwritten chemical structures. While the system is aimed primarily at chemists and search engine developers, it is also intended to be used as a learning tool in chemistry education on a student's touch screen computer or in classroom using smart boards. As a student draws on a device screen, the system would provide instantaneous feedback concerning possible chemical structures to complete the drawing, providing a continuously updated table of closely matching candidate symbols, and automatically identifying parts of the molecule that may be combined with other chemical structures. Major building blocks of the suggested system are two Bayesian-based image recognizers: one for collecting input images and one for producing the final output. Between input and output sketch classification is done using state of the art methods. By jointly incorporating feature-based and image-based techniques the system is able to recognize messy artifact-infected sketches and to predict possible terminations. Various performance related experiments proved the system to be considerably faster and more accurate especially when compared to neural-network based techniques.
+C1 [Keyrouz, Fakheredine] Notre Dame Univ, Comp Engn Dept, Zouk Mosbeh, Lebanon.
+   [Tauk, Lara] Notre Dame Univ, Dept Sci, Zouk Mosbeh, Lebanon.
+   [Feghali, Elias] Notre Dame Univ, Chem Engn Program, Zouk Mosbeh, Lebanon.
+C3 Notre Dame University Lebanon; Notre Dame University Lebanon; Notre Dame University Lebanon
+RP Keyrouz, F (corresponding author), Notre Dame Univ, Comp Engn Dept, Zouk Mosbeh, Lebanon.
+EM fkeyrouz@ndu.edu.lb; ltauk@ndu.edu.lb; elias.feghali@ndu.edu.lb
+CR Chu DL, 2015, IEEE T NEUR NET LEAR, V26, P2716, DOI 10.1109/TNNLS.2015.2391201
+   De Natale FGB, 2017, IEEE T INF FOREN SEC, V12, P1207, DOI 10.1109/TIFS.2017.2656472
+   Feng H, 2018, IEEE T COMPUT, V67, P252, DOI 10.1109/TC.2017.2748131
+   Jain AK, 2000, IEEE T PATTERN ANAL, V22, P4, DOI 10.1109/34.824819
+   Karthikeyan M, 2017, US PATENT, V0, Patent No. [9,558,403 B2, 9558403]
+   Keyrouz F, 2018, 2018 IEEE CONFERENCE ON COMPUTATIONAL INTELLIGENCE IN BIOINFORMATICS AND COMPUTATIONAL BIOLOGY (CIBCB), V0, P40
+   Khabbaz M, 2012, IEEE T SYST MAN CY C, V42, P1566, DOI 10.1109/TSMCC.2012.2208102
+   Mapari S., 2016, INTELLIGENT SYSTEMS, V530, P147
+   Maragos P, 1996, IEEE T IMAGE PROCESS, V5, P922, DOI 10.1109/83.503909
+   Martinez AM, 2001, IEEE T PATTERN ANAL, V23, P228, DOI 10.1109/34.908974
+   Molenaar I., 2018, IEEE T LEARNING TECH, V0, P0
+   Panwar S, 2014, 2014 37TH INTERNATIONAL CONVENTION ON INFORMATION AND COMMUNICATION TECHNOLOGY, V0, P1153, DOI 10.1109/MIPRO.2014.6859742
+   Tang P, 2013, 2013 IEEE/ACIS 12TH INTERNATIONAL CONFERENCE ON COMPUTER AND INFORMATION SCIENCE (ICIS), V0, PP535, DOI 10.1109/ICIS.2013.6607894
+   Taskin G, 2017, IEEE T IMAGE PROCESS, V26, P2918, DOI 10.1109/TIP.2017.2687128
+   Zhang L, 2011, IEEE T IMAGE PROCESS, V20, P2582, DOI 10.1109/TIP.2011.2121080
+NR 15
+TC 1
+Z9 1
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 
+EI 
+J9 
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 611
+EP 616
+DI 
+PG 6
+WC Computer Science, Theory & Methods; Telecommunications
+SC Computer Science; Telecommunications
+GA BM8NK
+UT WOS:000469462800100
+DA 2023-04-26
+ER
+
+PT J
+AU Luo, HF
+   Chen, CC
+   Fang, LN
+   Zhu, X
+   Lu, LJ
+AF Luo, Haifeng
+   Chen, Chongcheng
+   Fang, Lina
+   Zhu, Xi
+   Lu, Lijing
+TI High-Resolution Aerial Images Semantic Segmentation Using Deep Fully Convolutional Network With Channel Attention Mechanism
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Channel attention mechanism (CAM); convolutional neural networks (CNNs); deep learning; fully convolutional networks (FCNs); high-resolution aerial images; semantic segmentation
+AB Semantic segmentation is one of the fundamental tasks in understanding high-resolution aerial images. Recently, convolutional neural network (CNN) and fully convolutional network (FCN) have achieved excellent performance in general images' semantic segmentation tasks and have been introduced to the field of aerial images. In this paper, we propose a novel deep FCN with channel attention mechanism (CAM-DFCN) for high-resolution aerial images' semantic segmentation. The CAM-DFCN architecture follows the mode of encoder-decoder. In the encoder, two identical deep residual networks are both divided into multiple levels and acted on spectral images and auxiliary data, respectively. Then, the feature map concatenation is carried out at each level. In the decoder, the channel attentionmechanism (CAM) is introduced to automatically weigh the channels of featuremaps to perform feature selection. On the one hand, the CAM follows the concatenated feature maps at each level to select more discriminative features for classification. On the other hand, the CAM is used to further weigh the semantic information and spatial location information in the adjacent-level concatenated feature maps for more accurate predictions. We evaluate the proposed CAM-DFCN by using two benchmarks (the Potsdam set and the Vaihingen set) provided by the International Society for Photogrammetry and Remote Sensing. Experimental results show that the proposed method has considerable improvement.
+C1 [Luo, Haifeng; Chen, Chongcheng] Fuzhou Univ, Coll Math & Comp Sci, Fuzhou 350116, Fujian, Peoples R China.
+   [Chen, Chongcheng; Fang, Lina; Zhu, Xi; Lu, Lijing] Fuzhou Univ, Spatial Informat Res Ctr Fujian, Fuzhou 350116, Fujian, Peoples R China.
+   [Chen, Chongcheng; Fang, Lina; Zhu, Xi; Lu, Lijing] Fuzhou Univ, Minist Educ, Key Lab Spatial Data Min & Informat Sharing, Fuzhou 350116, Fujian, Peoples R China.
+C3 Fuzhou University; Fuzhou University; Fuzhou University
+RP Luo, HF (corresponding author), Fuzhou Univ, Coll Math & Comp Sci, Fuzhou 350116, Fujian, Peoples R China.
+EM h.feng.luo@outlook.com; chencc@fzu.edu.cn; fangln@fzu.edu.cn; zhuxiflying2012@gmail.com; lljconn@outlook.com
+FU National Basic Research Program of China [2017YFB0504202]; second batch of scientific and technological innovative talents projects in Fujian Province; Young Scientists Fund of the National Natural Science Foundation of China [41501493]
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bittner K, 2018, IEEE J-STARS, V11, P2615, DOI 10.1109/JSTARS.2018.2849363
+   Chen GZ, 2018, IEEE J-STARS, V11, P1633, DOI 10.1109/JSTARS.2018.2810320
+   Chen KQ, 2018, IEEE GEOSCI REMOTE S, V15, P173, DOI 10.1109/LGRS.2017.2778181
+   Chen L. C., 2014, COMPUT SCI, V4, P357
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Chollet F., 2015, KERAS, V0, P0
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   ISPRS, 2018, 2D SEM LAB CONT ISPR, V0, P0
+   ISPRS WG III/ 4, 2014, 2D SEM LAB CONT, V0, P0
+   Kampffmeyer M, 2018, IEEE J-STARS, V11, P1758, DOI 10.1109/JSTARS.2018.2834961
+   Kampffmeyer M, 2016, IEEE COMPUT SOC CONF, V0, PP680, DOI 10.1109/CVPRW.2016.90
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lagrange A, 2015, INT GEOSCI REMOTE SE, V0, PP4173, DOI 10.1109/IGARSS.2015.7326745
+   Liu W, 2015, PARSENET LOOKING WID, V0, P0
+   Liu YS, 2017, AEBMR ADV ECON, V48, P76
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Markus Gerke I., 2015, TECH REP, V0, P0
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Paisitkriangkrai Sakrapee, 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP36, DOI 10.1109/CVPRW.2015.7301381
+   Pan X., 2018, REMOTE SENS, V10, P0
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Sherrah J., 2016, ABS160602585 CORR, V0, P0
+   Simonyan K, 2015, ARXIV, V0, P0
+   Song BQ, 2016, IEEE J-STARS, V9, P1613, DOI 10.1109/JSTARS.2015.2508285
+   Sugg ZP, 2014, PHOTOGRAMM ENG REM S, V80, P343, DOI 10.14358/PERS.80.4.343
+   Sun XF, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.042617
+   Sundermeyer M, 2012, 13TH ANNUAL CONFERENCE OF THE INTERNATIONAL SPEECH COMMUNICATION ASSOCIATION 2012 (INTERSPEECH 2012), VOLS 1-3, P194
+   Szegedy, 2014, INTRIGUING PROPERTIE, V0, P0, DOI DOI 10.1109/CVPR.2015.7298594
+   Tao Y, 2017, CHIN CONTR CONF, V0, PP4288, DOI 10.23919/ChiCC.2017.8028032
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Wang HZ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9050446
+   Yu B, 2018, IEEE J-STARS, V11, P3252, DOI 10.1109/JSTARS.2018.2860989
+   Yu CQ, 2018, PROC CVPR IEEE, V0, PP1857, DOI 10.1109/CVPR.2018.00199
+   Yu H, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8030259
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+NR 41
+TC 40
+Z9 41
+U1 1
+U2 38
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD SEP 15
+PY 2019
+VL 12
+IS 9
+BP 3492
+EP 3507
+DI 10.1109/JSTARS.2019.2930724
+PG 16
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA JD2DR
+UT WOS:000489785800029
+DA 2023-04-26
+ER
+
+PT J
+AU Esmail, S
+   Danter, WR
+AF Esmail, Sally
+   Danter, Wayne R.
+TI DeepNEU: Artificially Induced Stem Cell (aiPSC) and Differentiated Skeletal Muscle Cell (aiSkMC) Simulations of Infantile Onset POMPE Disease (IOPD) for Potential Biomarker Identification and Drug Discovery
+SO FRONTIERS IN CELL AND DEVELOPMENTAL BIOLOGY
+LA English
+DT Article
+DE iPSC; IOPD; deep machine learning; recurrent neural networks (RNN); cognitive maps (CM); support vector machines (SVM)
+ID human fibroblasts; deficiency; autophagy; induction; therapy; enzyme
+AB Infantile onset Pompe disease (IOPD) is a rare and lethal genetic disorder caused by the deletion of the acid alpha-glucosidase (GAA) gene. This gene encodes an essential lysosomal enzyme that converts glycogen to glucose. While enzyme replacement therapy helps some, our understanding of disease pathophysiology is limited. In this project we develop computer simulated stem cells (aiPSC) and differentiated skeletal muscle cells (aiSkMC) to empower IOPD research and drug discovery. Our Artificial Intelligence (AI) platform, DeepNEU v3.6 was used to generate aiPSC and aiSkMC simulations with and without GAA expression. These simulations were validated using peer reviewed results from the recent literature. Once the aiSkMC simulations (IOPD and WT) were validated they were used to evaluate calcium homeostasis and mitochondrial function in IOPD. Lastly, we used aiSkMC IOPD simulations to identify known and novel biomarkers and potential therapeutic targets. The aiSkMC simulations of IOPD correctly predicted genotypic and phenotypic features that were reported in recent literature. The probability that these features were accurately predicted by chance alone using the binomial test is 0.0025. The aiSkMC IOPD simulation correctly identified L-type calcium channels (VDCC) as a biomarker and confirmed the positive effects of calcium channel blockade (CCB) on calcium homeostasis and mitochondrial function. These published data were extended by the aiSkMC simulations to identify calpain(s) as a novel potential biomarker and therapeutic target for IOPD. This is the first time that computer simulations of iPSC and differentiated skeletal muscle cells have been used to study IOPD. The simulations are robust and accurate based on available published literature. We also demonstrated that the IOPD simulations can be used for potential biomarker identification leading to targeted drug discovery. We will continue to explore the potential for calpain inhibitors with and without CCB as effective therapy for IOPD.
+C1 [Esmail, Sally; Danter, Wayne R.] 123Genetix, London, ON, Canada.
+RP Danter, WR (corresponding author), 123Genetix, London, ON, Canada.
+EM wdanter@123genetix.com
+FU [123Genetix]
+CR Adewumi O, 2007, NAT BIOTECHNOL, V25, P803, DOI 10.1038/nbt1318
+   Chang MY, 2014, STEM CELL REP, V3, P353, DOI 10.1016/j.stemcr.2014.06.013
+   Danter WR, 2019, ORPHANET J RARE DIS, V14, P0, DOI 10.1186/s13023-018-0983-3
+   Dasouki M, 2014, NEUROL CLIN, V32, P751, DOI 10.1016/j.ncl.2014.04.010
+   DAVIS RL, 1987, CELL, V51, P987, DOI 10.1016/0092-8674(87)90585-X
+   Elitt MS, 2018, HUM MOL GENET, V27, PR89, DOI 10.1093/hmg/ddy186
+   Fukuda T, 2006, ANN NEUROL, V59, P700, DOI 10.1002/ana.20807
+   Fukuda T, 2006, MOL THER, V14, P831, DOI 10.1016/j.ymthe.2006.08.009
+   Fukuda T, 2006, AUTOPHAGY, V2, P318, DOI 10.4161/auto.2984
+   Goymer P, 2006, NAT REV CANCER, V6, P94, DOI 10.1038/nrc1808
+   GRIFFIN JL, 1984, VIRCHOWS ARCH B, V45, P37, DOI 10.1007/BF02889850
+   Groumpos PP, 2016, IFAC PAPERSONLINE, V49, P180, DOI 10.1016/j.ifacol.2016.11.099
+   Han C, 2018, FRONT NEUROSCI-SWITZ, V12, P0, DOI 10.3389/fnins.2018.00047
+   HERS HG, 1963, BIOCHEM J, V86, P11, DOI 10.1042/bj0860011
+   Huang HP, 2011, HUM MOL GENET, V20, P4851, DOI 10.1093/hmg/ddr424
+   Lattanzi L, 1998, J CLIN INVEST, V101, P2119, DOI 10.1172/JCI1505
+   Lim JA, 2015, AUTOPHAGY, V11, P385, DOI 10.1080/15548627.2015.1009779
+   McCarthy J., 1956, AUTOMATA STUDIES, V0, P177
+   Novak K, 2006, NAT REV DRUG DISCOV, V5, P104, DOI 10.1038/nrd1966
+   Novak K, 2006, NAT REV CANCER, V6, P96, DOI 10.1038/nrc1806
+   Raben N, 2007, AUTOPHAGY, V3, P546, DOI 10.4161/auto.4591
+   Raben N, 2010, MOL GENET METAB, V101, P324, DOI 10.1016/j.ymgme.2010.08.001
+   SAMUEL AL, 1967, IBM J RES DEV, V11, P601, DOI 10.1147/rd.116.0601
+   Sato Y, 2017, STEM CELL TRANSL MED, V6, P31, DOI 10.5966/sctm.2015-0409
+   Sato Y, 2015, MOL THER-METH CLIN D, V2, P0, DOI 10.1038/mtm.2015.23
+   Takahashi K, 2007, NAT PROTOC, V2, P3081, DOI 10.1038/nprot.2007.418
+   Takahashi K, 2007, CELL, V131, P861, DOI 10.1016/j.cell.2007.11.019
+   Thurberg BL, 2006, LAB INVEST, V86, P1208, DOI 10.1038/labinvest.3700484
+   Tiscornia G, 2011, NAT MED, V17, P1570, DOI 10.1038/nm.2504
+   Weber JJ, 2019, BIOMED RES INT, V2019, P0, DOI 10.1155/2019/4741252
+   Yoshida T, 2017, SCI REP-UK, V7, P0, DOI 10.1038/s41598-017-14063-y
+   Young RA, 2000, CELL, V102, P9, DOI 10.1016/S0092-8674(00)00005-2
+   Young W., 2012, J STEM CELL RES TH S, V10, P2, DOI 10.1021/ACS.JMEDCHEM.5B00789
+NR 33
+TC 6
+Z9 6
+U1 1
+U2 3
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 2296-634X
+EI 
+J9 FRONT CELL DEV BIOL
+JI Front. Cell. Dev. Biol.
+PD DEC 6
+PY 2019
+VL 7
+IS 
+BP 
+EP 
+DI 10.3389/fcell.2019.00325
+PG 15
+WC Cell Biology; Developmental Biology
+SC Cell Biology; Developmental Biology
+GA KM4RD
+UT WOS:000514117600001
+PM 31867331
+DA 2023-04-26
+ER

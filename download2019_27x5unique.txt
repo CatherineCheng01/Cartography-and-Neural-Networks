@@ -1,0 +1,523 @@
+
+PT J
+AU Liu, SJ
+   Qi, ZX
+   Li, X
+   Yeh, AGO
+AF Liu, Shengjie
+   Qi, Zhixin
+   Li, Xia
+   Yeh, Anthony Gar-On
+TI Integration of Convolutional Neural Networks and Object-Based Post-Classification Refinement for Land Use and Land Cover Mapping with Optical and SAR Data
+SO REMOTE SENSING
+LA English
+DT Article
+DE object-based post-classification refinement (OBPR); convolutional neural network (CNN); synthetic aperture radar (SAR); land use and land cover; object-based image analysis (OBIA)
+ID local climate zones; random forest; semantic segmentation; texture; imagery; scale; accuracy; machine
+AB Object-based image analysis (OBIA) has been widely used for land use and land cover (LULC) mapping using optical and synthetic aperture radar (SAR) images because it can utilize spatial information, reduce the effect of salt and pepper, and delineate LULC boundaries. With recent advances in machine learning, convolutional neural networks (CNNs) have become state-of-the-art algorithms. However, CNNs cannot be easily integrated with OBIA because the processing unit of CNNs is a rectangular image, whereas that of OBIA is an irregular image object. To obtain object-based thematic maps, this study developed a new method that integrates object-based post-classification refinement (OBPR) and CNNs for LULC mapping using Sentinel optical and SAR data. After producing the classification map by CNN, each image object was labeled with the most frequent land cover category of its pixels. The proposed method was tested on the optical-SAR Sentinel Guangzhou dataset with 10 m spatial resolution, the optical-SAR Zhuhai-Macau local climate zones (LCZ) dataset with 100 m spatial resolution, and a hyperspectral benchmark the University of Pavia with 1.3 m spatial resolution. It outperformed OBIA support vector machine (SVM) and random forest (RF). SVM and RF could benefit more from the combined use of optical and SAR data compared with CNN, whereas spatial information learned by CNN was very effective for classification. With the ability to extract spatial features and maintain object boundaries, the proposed method considerably improved the classification accuracy of urban ground targets. It achieved overall accuracy (OA) of 95.33% for the Sentinel Guangzhou dataset, OA of 77.64% for the Zhuhai-Macau LCZ dataset, and OA of 95.70% for the University of Pavia dataset with only 10 labeled samples per class.
+C1 [Liu, Shengjie; Qi, Zhixin] Sun Yat Sen Univ, Sch Geog & Planning, Guangdong Prov Key Lab Urbanizat & Geosimulat, Guangzhou 510275, Guangdong, Peoples R China.
+   [Li, Xia] East China Normal Univ, Minist Educ, Sch Geog Sci, Key Lab Geog Informat Sci, 500 Dongchuan Rd, Shanghai 200241, Peoples R China.
+   [Yeh, Anthony Gar-On] Univ Hong Kong, Dept Urban Planning & Design, Pokfulam Rd, Hong Kong, Peoples R China.
+C3 Sun Yat Sen University; East China Normal University; University of Hong Kong
+RP Qi, ZX (corresponding author), Sun Yat Sen Univ, Sch Geog & Planning, Guangdong Prov Key Lab Urbanizat & Geosimulat, Guangzhou 510275, Guangdong, Peoples R China.
+EM liushj23@mail2.sysu.edu.cn; qizhixin@mail.sysu.edu.cn; lixia@geo.ecnu.edu.cn; hdxugoy@hkucc.hku.hk
+FU National Natural Science Foundation of China [41601445]; Guangdong Natural Science Foundation [2016A030313230]; Young Scholar Research Fund of Sun Yat-sen University [16lgpy05]; Hong Kong Research Grants Council General Research Fund [HKU 17209214]; Chan To-Haan Endowed Professorship Fund of the University of Hong Kong; Distinguished Research Achievement Award of the University of Hong Kong; Science and Operational Applications Research - Education International (SOAR-EI) Initiative [5167]
+CR Abadi M, 2016, PROCEEDINGS OF OSDI16: 12TH USENIX SYMPOSIUM ON OPERATING SYSTEMS DESIGN AND IMPLEMENTATION, V0, P265
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   Bechtel B, 2019, URBAN CLIM, V27, P24, DOI 10.1016/j.uclim.2018.10.001
+   Belgiu M, 2016, ISPRS J PHOTOGRAMM, V114, P24, DOI 10.1016/j.isprsjprs.2016.01.011
+   Benz UC, 2004, ISPRS J PHOTOGRAMM, V58, P239, DOI 10.1016/j.isprsjprs.2003.10.002
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Blaschke T, 2014, IEEE J-STARS, V7, P4806, DOI 10.1109/JSTARS.2014.2350036
+   Chang CC, 2011, ACM T INTEL SYST TEC, V2, P0, DOI 10.1145/1961189.1961199
+   Chen WS, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010110
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Chollet F, 2015, KERAS, V0, P0
+   Cleve C, 2008, COMPUT ENVIRON URBAN, V32, P317, DOI 10.1016/j.compenvurbsys.2007.10.001
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Du PJ, 2015, ISPRS J PHOTOGRAMM, V105, P38, DOI 10.1016/j.isprsjprs.2015.03.002
+   Franklin SE, 2018, INT J REMOTE SENS, V39, P5236, DOI 10.1080/01431161.2017.1363442
+   Geneletti D, 2003, INT J REMOTE SENS, V24, P1273, DOI 10.1080/01431160210144499
+   Hernandez IER, 2018, INT J REMOTE SENS, V39, P1175, DOI 10.1080/01431161.2017.1395968
+   Huang X, 2009, IEEE GEOSCI REMOTE S, V6, P393, DOI 10.1109/LGRS.2009.2014398
+   Kampffmeyer M, 2016, IEEE COMPUT SOC CONF, V0, PP680, DOI 10.1109/CVPRW.2016.90
+   Khatami R, 2017, REMOTE SENS ENVIRON, V191, P156, DOI 10.1016/j.rse.2017.01.025
+   Kim M, 2011, INT J REMOTE SENS, V32, P2825, DOI 10.1080/01431161003745608
+   Kussul N, 2016, IEEE J-STARS, V9, P2500, DOI 10.1109/JSTARS.2016.2560141
+   Laliberte AS, 2009, IEEE T GEOSCI REMOTE, V47, P761, DOI 10.1109/TGRS.2008.2009355
+   Lee H, 2017, IEEE T IMAGE PROCESS, V26, P4843, DOI 10.1109/TIP.2017.2725580
+   Lee JS, 2009, IEEE T GEOSCI REMOTE, V47, P202, DOI 10.1109/TGRS.2008.2002881
+   Li CC, 2014, REMOTE SENS-BASEL, V6, P964, DOI 10.3390/rs6020964
+   Li X, 2004, REMOTE SENS ENVIRON, V90, P524, DOI 10.1016/j.rse.2004.01.018
+   Liesenberg V, 2016, IEEE J-STARS, V9, P5357, DOI 10.1109/JSTARS.2016.2617120
+   Liu SJ, 2018, INT GEOSCI REMOTE SE, V0, P7145
+   Liu T, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030457
+   Liu T, 2018, ISPRS J PHOTOGRAMM, V139, P154, DOI 10.1016/j.isprsjprs.2018.03.006
+   Liu T, 2018, GISCI REMOTE SENS, V55, P243, DOI 10.1080/15481603.2018.1426091
+   Liu WS, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071092
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mahdianpari M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071119
+   Manandhar R, 2009, REMOTE SENS-BASEL, V1, P330, DOI 10.3390/rs1030330
+   Margono BA, 2014, NAT CLIM CHANGE, V4, P730, DOI 10.1038/NCLIMATE2277
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Marmanis D, 2016, ISPRS ANN PHOTO REM, V3, P473, DOI 10.5194/isprsannals-III-3-473-2016
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   Pesaresi M, 2008, IEEE J-STARS, V1, P180, DOI 10.1109/JSTARS.2008.2002869
+   Pu RL, 2011, INT J REMOTE SENS, V32, P3285, DOI 10.1080/01431161003745657
+   Qi ZX, 2017, ISPRS J PHOTOGRAMM, V133, P1, DOI 10.1016/j.isprsjprs.2017.09.009
+   Qi ZX, 2015, ISPRS J PHOTOGRAMM, V107, P3, DOI 10.1016/j.isprsjprs.2015.02.004
+   Qi ZX, 2012, REMOTE SENS ENVIRON, V118, P21, DOI 10.1016/j.rse.2011.11.001
+   Reiche J, 2015, REMOTE SENS ENVIRON, V156, P276, DOI 10.1016/j.rse.2014.10.001
+   Rezaee M, 2018, IEEE J-STARS, V11, P3030, DOI 10.1109/JSTARS.2018.2846178
+   Stewart ID, 2012, B AM METEOROL SOC, V93, P1879, DOI 10.1175/BAMS-D-11-00019.1
+   Torres R, 2012, REMOTE SENS ENVIRON, V120, P9, DOI 10.1016/j.rse.2011.05.028
+   TOWNSHEND J, 1991, REMOTE SENS ENVIRON, V35, P243, DOI 10.1016/0034-4257(91)90016-Y
+   van Beijma S, 2014, REMOTE SENS ENVIRON, V149, P118, DOI 10.1016/j.rse.2014.04.010
+   Wang MY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10050778
+   Wang PS, 2017, INT GEOSCI REMOTE SE, V0, PP1562, DOI 10.1109/IGARSS.2017.8127268
+   Wu H, 2018, IEEE T IMAGE PROCESS, V27, P1259, DOI 10.1109/TIP.2017.2772836
+   Xu Y, 2017, IEEE J-STARS, V10, P3397, DOI 10.1109/JSTARS.2017.2683484
+   Yokoya N, 2018, IEEE J-STARS, V11, P1363, DOI 10.1109/JSTARS.2018.2799698
+   Yu B, 2018, IEEE J-STARS, V11, P3252, DOI 10.1109/JSTARS.2018.2860989
+   Zhang CY, 2012, REMOTE SENS ENVIRON, V124, P310, DOI 10.1016/j.rse.2012.05.015
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+   Zhang HS, 2018, INT J APPL EARTH OBS, V64, P87, DOI 10.1016/j.jag.2017.08.013
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhang YZ, 2014, REMOTE SENS ENVIRON, V141, P155, DOI 10.1016/j.rse.2013.10.028
+   Zhao WQ, 2019, IEEE T SYST MAN CY-S, V49, P1254, DOI 10.1109/TSMC.2017.2724440
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 65
+TC 63
+Z9 64
+U1 4
+U2 43
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD MAR 2
+PY 2019
+VL 11
+IS 6
+BP 
+EP 
+DI 10.3390/rs11060690
+PG 25
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HU9LG
+UT WOS:000465615300067
+DA 2023-04-26
+ER
+
+PT J
+AU Peponi, A
+   Morgado, P
+   Trindade, J
+AF Peponi, Angeliki
+   Morgado, Paulo
+   Trindade, Jorge
+TI Combining Artificial Neural Networks and GIS Fundamentals for Coastal Erosion Prediction Modeling
+SO SUSTAINABILITY
+LA English
+DT Article
+DE geographic information systems; artificial neural networks; backpropagation; coastal urban zones; erosion changes prediction
+ID vulnerability assessment; thermal-conductivity; hazard vulnerability; shoreline analysis; climate; ann; management; dynamics; impact; city
+AB The complexities of coupled environmental and human systems across the space and time of fragile systems challenge new data-driven methodologies. Combining geographic information systems (GIS) and artificial neural networks (ANN) allows us to design a model that forecasts the erosion changes in Costa da Caparica, Lisbon, Portugal, for 2021, with a high accuracy level. The GIS-ANN model proves to be a powerful tool, as it analyzes and provides the "where" and the "why" dynamics that have happened or will happen in the future. According to the literature, ANNs present noteworthy advantages compared to the other methods that are used for prediction and decision making in urban coastal areas. In order to conduct a sensitivity analysis on natural and social forces, as well as dynamic relations in the dune-beach system of the study area, two types of ANNs were tested on a GIS environment: radial basis function (RBF) and multilayer perceptron (MLP). The GIS-ANN model helps to understand the factors that impact coastal erosion changes, and the importance of having an intelligent environmental decision support system to address these risks. This quantitative knowledge of the erosion changes and the analytical map-based frame are essential for an integrated management of the area and the establishment of pro-sustainability policies.
+C1 [Peponi, Angeliki; Morgado, Paulo] Univ Lisbon, Inst Geog & Spatial Planning, Geomodlab, Rua Branca Edmee Marques, P-1600276 Lisbon, Portugal.
+   [Peponi, Angeliki] Czech Univ Life Sci Prague, Fac Environm Sci, Kamycka 129, Prague 16500, Czech Republic.
+   [Peponi, Angeliki; Morgado, Paulo; Trindade, Jorge] Univ Lisbon, Ctr Geog Studies, Rua Branca Edmee Marques, P-1600276 Lisbon, Portugal.
+   [Trindade, Jorge] Univ Aberta, Dept Sci & Technol, P-1269001 Lisbon, Portugal.
+C3 Universidade de Lisboa; Czech University of Life Sciences Prague; Universidade de Lisboa; Universidade Aberta
+RP Peponi, A (corresponding author), Univ Lisbon, Inst Geog & Spatial Planning, Geomodlab, Rua Branca Edmee Marques, P-1600276 Lisbon, Portugal.; Peponi, A (corresponding author), Czech Univ Life Sci Prague, Fac Environm Sci, Kamycka 129, Prague 16500, Czech Republic.; Peponi, A (corresponding author), Univ Lisbon, Ctr Geog Studies, Rua Branca Edmee Marques, P-1600276 Lisbon, Portugal.
+EM a.peponi@campus.ul.pt; paulo@campus.ul.pt; jorgetrd@campus.ul.pt
+FU Centre of Geographical Studies, Institute of Geography and Spatial Planning-Universidade de Lisboa
+CR Aiello A, 2013, ESTUAR COAST SHELF S, V129, P124, DOI 10.1016/j.ecss.2013.06.012
+   Amid S, 2017, ENVIRON PROG SUSTAIN, V36, P577, DOI 10.1002/ep.12448
+   Anders F.J., 1991, SHORE BEACH, V59, P17
+   Anfuso G, 2005, ENVIRON GEOL, V48, P646, DOI 10.1007/s00254-005-1322-2
+   [Anonymous], 2009, 20081278 US GEOL SUR, V0, P0
+   [Anonymous], 2016, NAT METHODS, V0, P0, DOI DOI 10.1038/nmeth.3707
+   [Anonymous], 2007, AR4 CLIMATE CHANGE 2, V0, P0
+   [Anonymous], 1999, NATL ASS COASTAL VUL, V0, P0
+   Baladron C, 2012, SENSORS-BASEL, V12, P1468, DOI 10.3390/s120201468
+   Bayram S, 2016, J CIV ENG MANAG, V22, P480, DOI 10.3846/13923730.2014.897988
+   Bheeroo RA, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5311-4
+   Boak EH, 2005, J COASTAL RES, V21, P688, DOI 10.2112/03-0071.1
+   Boruff BJ, 2005, J COASTAL RES, V21, P932, DOI 10.2112/04-0172.1
+   Broomhead D. S., 1988, COMPLEX SYSTEMS, V2, P321
+   Brown S, 2013, COASTAL HAZARDS, V0, PP117, DOI 10.1007/978-94-007-5234-4_5
+   Calvao T, 2013, EMIR J FOOD AGR, V25, P926, DOI 10.9755/ejfa.v25i12.16730
+   Carcano EC, 2008, J HYDROL, V362, P291, DOI 10.1016/j.jhydrol.2008.08.026
+   Cenci L, 2013, J COASTAL RES, V0, PP1349, DOI 10.2112/SI65-228.1
+   Costas S, 2012, QUATERNARY SCI REV, V42, P15, DOI 10.1016/j.quascirev.2012.03.008
+   Csabragi A, 2017, ECOL ENG, V100, P63, DOI 10.1016/j.ecoleng.2016.12.027
+   Daliakopoulos IN, 2005, J HYDROL, V309, P229, DOI 10.1016/j.jhydrol.2004.12.001
+   Davidson MA, 2010, COAST ENG, V57, P620, DOI 10.1016/j.coastaleng.2010.02.001
+   Ferreira O, 2006, CONT SHELF RES, V26, P1030, DOI 10.1016/j.csr.2005.12.016
+   Ford M, 2013, REMOTE SENS ENVIRON, V135, P130, DOI 10.1016/j.rse.2013.03.027
+   Gopal S, 1996, GEOGR ANAL, V28, P38
+   Gopal S., 1998, ARTIFICIAL NEURAL NE, V0, P0
+   Gornitz V.M., 1994, J COASTAL RES, V12, P327, DOI 10.2307/25735608
+   Hanson S, 2011, CLIMATIC CHANGE, V104, P89, DOI 10.1007/s10584-010-9977-4
+   He Q, 2014, SCI REP-UK, V4, P0, DOI 10.1038/srep05995
+   Hossain MS, 2017, EXPERT SYST APPL, V85, P87, DOI 10.1016/j.eswa.2017.05.027
+   Islam MA, 2016, OCEAN COAST MANAGE, V127, P1, DOI 10.1016/j.ocecoaman.2016.03.012
+   Jaranovic B., 2017, INT J SAF SECUR ENG, V7, P221, DOI 10.2495/safe-v7-n2-221-233
+   Joesidawati M.I., 2016, INT J OCEAN OCEAN, V10, P235
+   Kantamaneni K, 2018, OCEAN COAST MANAGE, V158, P164, DOI 10.1016/j.ocecoaman.2018.03.039
+   Kantamaneni K, 2017, WATER-SUI, V9, P0, DOI 10.3390/w9120905
+   Lazarus ED, 2016, GEOMORPHOLOGY, V256, P81, DOI 10.1016/j.geomorph.2015.07.043
+   Li T, 2018, SCI TOTAL ENVIRON, V634, P534, DOI 10.1016/j.scitotenv.2018.04.007
+   Li XM, 2010, ECOL INDIC, V10, P241, DOI 10.1016/j.ecolind.2009.05.003
+   Maithani S, 2009, J INDIAN SOC REMOTE, V37, P363, DOI 10.1007/s12524-009-0041-7
+   Merkl D., 1996, P ART INT EC MAN AIE, V0, P0
+   Mezaal MR, 2017, APPL SCI-BASEL, V7, P0, DOI 10.3390/app7070730
+   Moore LJ, 2000, J COASTAL RES, V16, P111
+   Morgado P, 2014, OCEAN COAST MANAGE, V101, P79, DOI 10.1016/j.ocecoaman.2014.09.022
+   Neagoe V.E., 2012, INT J MATH MODELS ME, V6, P130
+   Neumann B, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0118571
+   Nicholls RJ, 2004, GLOBAL ENVIRON CHANG, V14, P69, DOI 10.1016/j.gloenvcha.2003.10.007
+   Noack S, 2014, INT ARCH PHOTOGRAMM, V40-2, P79, DOI 10.5194/isprsarchives-XL-2-79-2014
+   NOEP, 2016, STAT US OC COAST EC, V0, P0
+   Orr M.J., 1996, INTRO RADIAL BASIS F, V0, P0
+   Pires H.O., 1985, P HYDR OC WAV EN UT, V0, P157
+   Rani NNVS, 2015, NAT HAZARDS, V77, P405, DOI 10.1007/s11069-015-1597-x
+   Rocha J, 2007, J COASTAL RES, V0, P827
+   Schmidt L, 2014, LAND USE POLICY, V38, P355, DOI 10.1016/j.landusepol.2013.11.008
+   Seto KC, 2011, GLOBAL ENVIRON CHANG, V21, PS94, DOI 10.1016/j.gloenvcha.2011.08.005
+   Sousa N.F., 2015, THESIS, V0, P0
+   Taborda R., 2014, COMUN GEOL, V101, P641
+   Tahani M, 2016, INT COMMUN HEAT MASS, V76, P358, DOI 10.1016/j.icheatmasstransfer.2016.06.003
+   Vakili M, 2017, J THERM ANAL CALORIM, V129, P629, DOI 10.1007/s10973-017-6217-4
+   Veloso-Gomes F., 2007, DEFENSIVE WORKS COST, V0, P23
+   Veloso-Gomes F., 2002, EUROSION CASE STUDY, V0, P0
+   Wang SA, 2016, NAT GEOSCI, V9, P38, DOI 10.1038/ngeo2602
+   Wu MC, 2015, WATER-SUI, V7, P5876, DOI 10.3390/w7115876
+   Yalpir S, 2014, ACTA MONTAN SLOVACA, V19, P79
+   Zare M, 2013, ARAB J GEOSCI, V6, P2873, DOI 10.1007/s12517-012-0610-x
+   Zhang GQ, 1998, INT J FORECASTING, V14, P35, DOI 10.1016/S0169-2070(97)00044-7
+   Zhang N, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2954-8
+NR 68
+TC 16
+Z9 16
+U1 2
+U2 9
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2071-1050
+J9 SUSTAINABILITY-BASEL
+JI Sustainability
+PD FEB 2
+PY 2019
+VL 11
+IS 4
+BP 
+EP 
+DI 10.3390/su11040975
+PG 14
+WC Green & Sustainable Science & Technology; Environmental Sciences; Environmental Studies
+SC Science & Technology - Other Topics; Environmental Sciences & Ecology
+GA HO3JV
+UT WOS:000460819100035
+DA 2023-04-26
+ER
+
+PT J
+AU Syifa, M
+   Park, SJ
+   Achmad, AR
+   Lee, CW
+   Eom, J
+AF Syifa, Mutiara
+   Park, Sung Jae
+   Achmad, Arief Rizqiyanto
+   Lee, Chang-Wook
+   Eom, Jinah
+TI Flood Mapping Using Remote Sensing Imagery and Artificial Intelligence Techniques: A Case Study in Brumadinho, Brazil
+SO JOURNAL OF COASTAL RESEARCH
+LA English
+DT Article
+DE Artificial neural network; support vector machine; Brazil dam collapse; Brumadinho flood
+ID support vector machine; landsat; susceptibility; areas; model; water
+AB Floods are considered to be among the most devastating disasters and can threaten human life and environmental ecosystems. On January 25, 2019, the Brumadinho dam wall collapsed and waste material from the Corrego do Feijao mine flooded the area beneath the dam. At least hundreds of people were killed, animal habitats were swamped, and the flood invaded the river and agricultural fields. Brazilian authorities are examining how this destructive flood might threaten the water quality of the contaminated river. It is important to determine the flood distribution to prevent additional contamination by dangerous material from the flood. In this study, remote sensing was effectively used to map and calculate the dimensions of the flood. Pre- and post-flood images from Landsat-8 and Sentinel-2 were employed to devise a pixel-based classification using two artificial intelligence techniques: artificial neural network (ANN) and support vector machine (SVM). The flood area was successfully determined using the two classifiers. The resulting post-flood damage map should be beneficial for mitigating damage from a future flood event.
+C1 [Syifa, Mutiara; Park, Sung Jae; Achmad, Arief Rizqiyanto; Lee, Chang-Wook; Eom, Jinah] Kangwon Natl Univ, Div Sci Educ, Chunchon, South Korea.
+   [Eom, Jinah] Kangwon Natl Univ, Res Inst Earth Resources, Chunchon, South Korea.
+C3 Kangwon National University; Kangwon National University
+RP Lee, CW (corresponding author), Kangwon Natl Univ, Div Sci Educ, Chunchon, South Korea.
+EM cwlee@kangwon.ac.kr
+FU Basic Science Research Program through the National Research Foundation of Korea (NRF) - Ministry of Education [2019R1A6A1A03033167]
+CR [Anonymous], 2019, THE WEATHER CHANNEL, V0, P0
+   [Anonymous], 2011, INTRO REMOTE SENSING, V0, P0
+   [Anonymous], 2019, BBC NEWS, V0, P0
+   Arora MK, 2001, GEOCARTO INT, V16, P37, DOI 10.1080/10106040108542202
+   Bello OM, 2014, PROCD SOC BEHV, V120, P365, DOI 10.1016/j.sbspro.2014.02.114
+   Chen W, 2017, GEODERMA, V305, P314, DOI 10.1016/j.geoderma.2017.06.020
+   Cooner AJ, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100868
+   Dao PD, 2015, REMOTE SENS-BASEL, V7, P5077, DOI 10.3390/rs70505077
+   Bui DT, 2012, MATH PROBL ENG, V2012, P0, DOI 10.1155/2012/974638
+   Hagolle O, 2015, REMOTE SENS-BASEL, V7, P2668, DOI 10.3390/rs70302668
+   Huber C, 2016, INT GEOSCI REMOTE SE, V0, PP5781, DOI 10.1109/IGARSS.2016.7730510
+   Huyck C, 2014, HAZARD DISASTER SER, V0, PP1, DOI 10.1016/B978-0-12-394848-9.00001-8
+   Insom P, 2015, IEEE GEOSCI REMOTE S, V12, P1943, DOI 10.1109/LGRS.2015.2439575
+   Kalantari Z, 2017, SCI TOTAL ENVIRON, V581, P386, DOI 10.1016/j.scitotenv.2016.12.147
+   Kavzoglu T, 2009, ENVIRON MODELL SOFTW, V24, P850, DOI 10.1016/j.envsoft.2008.11.012
+   Kia MB, 2012, ENVIRON EARTH SCI, V67, P251, DOI 10.1007/s12665-011-1504-z
+   Kontgis C., 2017, AN MULT REM SENS IM, V0, PP1, DOI 10.1109/MULTI-TEMP.2017.8035199
+   Marjanovic M, 2011, ENG GEOL, V123, P225, DOI 10.1016/j.enggeo.2011.09.006
+   Merz B, 2013, NAT HAZARD EARTH SYS, V13, P53, DOI 10.5194/nhess-13-53-2013
+   Moore G. K., 1979, HYDROL SCI B, V24, P477, DOI 10.1080/02626667909491887
+   Mueller N, 2016, REMOTE SENS ENVIRON, V174, P341, DOI 10.1016/j.rse.2015.11.003
+   Nikam V, 2014, J HYDROL ENG, V19, P1048, DOI 10.1061/(ASCE)HE.1943-5584.0000875
+   Petley D., 2019, BRUMADINHO DISASTER, V0, P0
+   Pirete W, 2013, SOILS ROCKS, V36, P37
+   Planatek Italia, 2019, HIST REM SENS, V0, P0
+   Radhika S, 2015, J WIND ENG IND AEROD, V136, P23, DOI 10.1016/j.jweia.2014.10.018
+   Reiche J, 2018, REMOTE SENS ENVIRON, V204, P147, DOI 10.1016/j.rse.2017.10.034
+   Rokni K, 2014, REMOTE SENS-BASEL, V6, P4173, DOI 10.3390/rs6054173
+   Rosser JF, 2017, NAT HAZARDS, V87, P103, DOI 10.1007/s11069-017-2755-0
+   SAPO, 2019, DAM COLL SWEEPS POP, V0, P0
+   Syifa M., 2019, SENSORS, V19, P3
+   Tehrany MS, 2015, STOCH ENV RES RISK A, V29, P1149, DOI 10.1007/s00477-015-1021-9
+   Tehrany MS, 2015, CATENA, V125, P91, DOI 10.1016/j.catena.2014.10.017
+   Tehrany MS, 2014, GEOCARTO INT, V29, P351, DOI 10.1080/10106049.2013.768300
+   Tehrany MS, 2013, J HYDROL, V504, P69, DOI 10.1016/j.jhydrol.2013.09.034
+   Weng QH, 2014, REMOTE SENS ENVIRON, V145, P55, DOI 10.1016/j.rse.2014.02.003
+   Yao X, 2008, GEOMORPHOLOGY, V101, P572, DOI 10.1016/j.geomorph.2008.02.011
+   Yulianto F, 2015, NAT HAZARDS, V77, P959, DOI 10.1007/s11069-015-1633-x
+   Zhao G, 2018, SCI TOTAL ENVIRON, V615, P1133, DOI 10.1016/j.scitotenv.2017.10.037
+NR 39
+TC 19
+Z9 19
+U1 3
+U2 27
+PU COASTAL EDUCATION & RESEARCH FOUNDATION
+PI COCONUT CREEK
+PA 5130 NW 54TH STREET, COCONUT CREEK, FL 33073 USA
+SN 0749-0208
+EI 1551-5036
+J9 J COASTAL RES
+JI J. Coast. Res.
+PD SUM 15
+PY 2019
+VL 0
+IS 
+BP 197
+EP 204
+DI 10.2112/SI90-024.1
+PG 8
+WC Environmental Sciences; Geography, Physical; Geosciences, Multidisciplinary
+SC Environmental Sciences & Ecology; Physical Geography; Geology
+GA IX5HE
+UT WOS:000485714500025
+DA 2023-04-26
+ER
+
+PT J
+AU Haeri, SAS
+   Rezaei, J
+AF Haeri, Seyed Amin Seyed
+   Rezaei, Jafar
+TI A grey-based green supplier selection model for uncertain environments
+SO JOURNAL OF CLEANER PRODUCTION
+LA English
+DT Article
+DE Green supplier selection; Best-worst method; Grey relational analysis; Cognitive maps
+ID multicriteria decision-making; fuzzy cognitive maps; relational analysis method; data envelopment analysis; analytic network process; chain management; integrated model; neural-network; criteria; sustainability
+AB The concept of green supply chain management emerged as a response to increasing public awareness of environmental protection in the past few decades. As companies tend to outsource a variety of their activities, green supplier selection as an imperative function of green supply chain management, has a crucial role in helping companies to maintain their strategic competitiveness. Despite the plethora of studies introducing supplier selection models based on economic criteria, studies that take into account the environmental issues are rather limited. In this study, a comprehensive grey-based green supplier selection model is proposed that incorporates both economic and environmental criteria. A novel weight assignment model is proposed by combining best-worst method and fuzzy grey cognitive maps to capture the interdependencies among the criteria. Improved grey relational analysis is advanced to be able to use grey weights of criteria to evaluate green suppliers which are subsequently ranked using an interval analysis approach. This study contributes to the decision-making theory by addressing the shortcomings of the available green supplier selection models. A real-world case study is also presented to show the applicability and effectiveness of the proposed model. The results of this study proved the proposed comprehensive model to be well capable of addressing the green supplier selection problem by taking in to account the interdependencies between criteria as well as the uncertainties associated with experts' judgments. (C) 2019 Elsevier Ltd. All rights reserved.
+C1 [Haeri, Seyed Amin Seyed] Clemson Univ, Coll Business, Dept Management, 100 Sirrine Hall, Clemson, SC 29634 USA.
+   [Rezaei, Jafar] Delft Univ Technol, Fac Technol Policy & Management, NL-2628 BX Delft, Netherlands.
+C3 Clemson University; Delft University of Technology
+RP Haeri, SAS (corresponding author), Clemson Univ, Coll Business, Dept Management, 100 Sirrine Hall, Clemson, SC 29634 USA.
+EM sseyedh@clemson.edu; J.Rezaei@tudelft.nl
+CR Ahi P, 2013, J CLEAN PROD, V52, P329, DOI 10.1016/j.jclepro.2013.02.018
+   Ahmad WNKW, 2017, J CLEAN PROD, V153, P242, DOI 10.1016/j.jclepro.2017.03.166
+   Amid A, 2006, INT J PROD ECON, V104, P394, DOI 10.1016/j.ijpe.2005.04.012
+   Amin SH, 2012, EXPERT SYST APPL, V39, P6782, DOI 10.1016/j.eswa.2011.12.056
+   Amindoust A, 2012, APPL SOFT COMPUT, V12, P1668, DOI 10.1016/j.asoc.2012.01.023
+   Andic E, 2012, RESOUR CONSERV RECY, V58, P50, DOI 10.1016/j.resconrec.2011.10.008
+   [Anonymous], 1997, EUR J PURCH SUPPLY M, V0, P0
+   [Anonymous], 1998, INT J PURCH MATER MA, V0, P0
+   [Anonymous], 2016, WORLD MOT VEH PROD S, V0, P0
+   Bai C, 2010, INT J PROD ECON, V124, P252, DOI 10.1016/j.ijpe.2009.11.023
+   Banaeian N, 2018, COMPUT OPER RES, V89, P337, DOI 10.1016/j.cor.2016.02.015
+   Baykasoglu A, 2015, INFORM SCIENCES, V301, P75, DOI 10.1016/j.ins.2014.12.048
+   Bueno S, 2009, EXPERT SYST APPL, V36, P5221, DOI 10.1016/j.eswa.2008.06.072
+   Buyukozkan G, 2012, EXPERT SYST APPL, V39, P3000, DOI 10.1016/j.eswa.2011.08.162
+   Buyukozkan G, 2011, COMPUT IND, V62, P164, DOI 10.1016/j.compind.2010.10.009
+   Celebi D, 2008, EXPERT SYST APPL, V35, P1698, DOI 10.1016/j.eswa.2007.08.107
+   Chai JY, 2013, EXPERT SYST APPL, V40, P3872, DOI 10.1016/j.eswa.2012.12.040
+   Chakraborty S., 2007, P 6 C 6 WSEAS INT C, VVolume 6, P102
+   Chakraborty S, 2009, CIE: 2009 INTERNATIONAL CONFERENCE ON COMPUTERS AND INDUSTRIAL ENGINEERING, VOLS 1-3, P1815, DOI 10.1109/ICCIE.2009.5223811
+   Chan FTS, 2010, INT J ADV MANUF TECH, V51, P1195, DOI 10.1007/s00170-010-2683-6
+   Chen CT, 2006, INT J PROD ECON, V102, P289, DOI 10.1016/j.ijpe.2005.03.009
+   Chiou CY, 2008, IN C IND ENG ENG MAN, V0, PP1909, DOI 10.1109/IEEM.2008.4738204
+   Choi T.Y., 1996, J OPER MANAG, V14, P333, DOI 10.1016/S0272-6963(96)00091-5
+   de Boer L., 2001, EUROPEAN J PURCHASIN, V7, P75, DOI 10.1016/S0969-7012(00)00028-9
+   Deng Julong, 1989, JOURNAL OF GREY SYSTEMS, V1, P1
+   Dickerson J.A., 1994, PRESENCE, V3, P173, DOI 10.1162/pres.1994.3.2.173
+   Dickson G.W., 1966, J PURCHASING, V2, P5
+   Gencer C, 2007, APPL MATH MODEL, V31, P2475, DOI 10.1016/j.apm.2006.10.002
+   Govindan K, 2015, J CLEAN PROD, V98, P66, DOI 10.1016/j.jclepro.2013.06.046
+   Govindan K, 2013, J CLEAN PROD, V47, P345, DOI 10.1016/j.jclepro.2012.04.014
+   Green K., 1996, BUSINESS STRATEGY EN, V5, P188, DOI 10.1002/(SICI)1099-0836(199609)5:3<188::AID-BSE60>3.0.CO;2-P
+   Grisi RM, 2010, BUSINESS PERFORMANCE MEASUREMENT AND MANAGEMENT: NEW CONTEXTS, V0, P149, DOI 10.1007/978-3-642-04800-5_10
+   Gupta P, 2017, SUSTAIN CITIES SOC, V31, P244, DOI 10.1016/j.scs.2017.02.005
+   Haiying Cao, 2011, PROCEEDINGS OF THE 2011 INTERNATIONAL CONFERENCE ON BUSINESS MANAGEMENT AND ELECTRONIC INFORMATION (BMEI 20111), V0, PP788, DOI 10.1109/ICBMEI.2011.5920377
+   Handfield R, 2002, EUR J OPER RES, V141, P70, DOI 10.1016/S0377-2217(01)00261-2
+   Handfield R.B., 1997, J OPER MANAG, V15, P293, DOI 10.1016/S0272-6963(97)00004-1
+   Hashemi SH, 2015, INT J PROD ECON, V159, P178, DOI 10.1016/j.ijpe.2014.09.027
+   Hashim M, 2017, J IND ENG MANAG-JIEM, V10, P188, DOI 10.3926/jiem.2078
+   Ho W, 2010, EUR J OPER RES, V202, P16, DOI 10.1016/j.ejor.2009.05.009
+   Hsu CW, 2009, J CLEAN PROD, V17, P255, DOI 10.1016/j.jclepro.2008.05.004
+   Humphreys PK, 2003, J MATER PROCESS TECH, V138, P349, DOI 10.1016/S0924-0136(03)00097-9
+   Ishizaka A, 2012, INT J PROD RES, V50, P4767, DOI 10.1080/00207543.2012.657966
+   Jayaraman V, 2007, J OPER MANAG, V25, P1071, DOI 10.1016/j.jom.2007.01.016
+   Kannan D, 2015, J CLEAN PROD, V96, P194, DOI 10.1016/j.jclepro.2013.12.076
+   Kannan D, 2014, EUR J OPER RES, V233, P432, DOI 10.1016/j.ejor.2013.07.023
+   Kannan D, 2013, J CLEAN PROD, V47, P355, DOI 10.1016/j.jclepro.2013.02.010
+   Khan MS, 2004, GROUP DECIS NEGOT, V13, P463, DOI 10.1023/B:GRUP.0000045748.89201.f3
+   Kull TJ, 2008, IEEE T ENG MANAGE, V55, P409, DOI 10.1109/TEM.2008.922627
+   Kuo RJ, 2010, J CLEAN PROD, V18, P1161, DOI 10.1016/j.jclepro.2010.03.020
+   Kuo Y, 2008, COMPUT IND ENG, V55, P80, DOI 10.1016/j.cie.2007.12.002
+   Kuo Y, 2008, ENG OPTIMIZ, V40, P517, DOI 10.1080/03052150701857645
+   Kushwaha GS, 2016, J CLEAN PROD, V121, P116, DOI 10.1016/j.jclepro.2015.07.072
+   Lamming R, 1996, BR J MANAG, V7, P0
+   Lee AHI, 2009, EXPERT SYST APPL, V36, P7917, DOI 10.1016/j.eswa.2008.11.052
+   Lee WS, 2011, ENERGY, V36, P2551, DOI 10.1016/j.energy.2011.01.049
+   Levary RR, 2008, COMPUT IND ENG, V55, P535, DOI 10.1016/j.cie.2008.01.010
+   Li GD, 2007, MATH COMPUT MODEL, V46, P573, DOI 10.1016/j.mcm.2006.11.021
+   Lin RJ, 2013, J CLEAN PROD, V40, P32, DOI 10.1016/j.jclepro.2011.06.010
+   Lin Y, 2004, KYBERNETES, V33, P196, DOI 10.1108/03684920410514139
+   Liou JJH, 2016, INT J PROD RES, V54, P114, DOI 10.1080/00207543.2015.1010747
+   Liu S., 2006, GREY INFORM THEORY P, V0, P0
+   Liu Xiao-yu, 2011, 2011 INTERNATIONAL CONFERENCE ON GREY SYSTEMS AND INTELLIGENT SERVICES, V0, PP460, DOI 10.1109/GSIS.2011.6044083
+   Manzardo A, 2012, INT J HYDROGEN ENERG, V37, P17663, DOI 10.1016/j.ijhydene.2012.08.137
+   Marufuzzaman Mohammad, 2009, INTERNATIONAL JOURNAL OF VALUE CHAIN MANAGEMENT, V3, P224, DOI 10.1504/IJVCM.2009.026958
+   Ming-Lang T, 2009, COMPUT IND ENG, V57, P330, DOI 10.1016/j.cie.2008.12.001
+   Narasimhan C., 1998, ENV SUPPLY CHAIN MAN, V0, P0
+   Papageorgiou EI, 2006, INT J HUM-COMPUT ST, V64, P727, DOI 10.1016/j.ijhcs.2006.02.009
+   Rao P, 2005, INT J OPER PROD MAN, V25, P898, DOI 10.1108/01443570510613956
+   Ren JZ, 2017, TECHNOL FORECAST SOC, V116, P29, DOI 10.1016/j.techfore.2016.10.070
+   Rezaei J, 2016, J CLEAN PROD, V135, P577, DOI 10.1016/j.jclepro.2016.06.125
+   Rezaei J, 2016, OMEGA-INT J MANAGE S, V64, P126, DOI 10.1016/j.omega.2015.12.001
+   Rezaei J, 2015, OMEGA-INT J MANAGE S, V53, P49, DOI 10.1016/j.omega.2014.11.009
+   Roehrich JK, 2017, INT J OPER PROD MAN, V37, P489, DOI 10.1108/IJOPM-09-2015-0566
+   Salimi N, 2016, SCIENTOMETRICS, V109, P1911, DOI 10.1007/s11192-016-2121-0
+   Salmeron JL, 2012, KNOWL-BASED SYST, V30, P151, DOI 10.1016/j.knosys.2012.01.008
+   Salmeron JL, 2010, EXPERT SYST APPL, V37, P7581, DOI 10.1016/j.eswa.2010.04.085
+   Salmeron JL, 2009, KNOWL-BASED SYST, V22, P275, DOI 10.1016/j.knosys.2009.01.002
+   Sarkis J, 1996, PROCEEDINGS OF THE 1996 IEEE INTERNATIONAL SYMPOSIUM ON ELECTRONICS AND THE ENVIRONMENT, V0, P281, DOI 10.1109/ISEE.1996.501892
+   Sarkis J, 2003, J CLEAN PROD, V11, P397, DOI 10.1016/S0959-6526(02)00062-8
+   Shojaei P, 2018, J AIR TRANSP MANAG, V68, P4, DOI 10.1016/j.jairtraman.2017.05.006
+   Srivastava SK, 2007, INT J MANAG REV, V9, P53, DOI 10.1111/j.1468-2370.2007.00202.x
+   Stach W, 2010, STUD FUZZ SOFT COMP, V247, P23
+   Tseng ML, 2010, EXPERT SYST APPL, V37, P70, DOI 10.1016/j.eswa.2009.05.020
+   United Nations Industrial Development Organization, 2015, ROL TECHN INN INCL S, V0, P0
+   Wang YM, 2005, COMPUT OPER RES, V32, P2027, DOI 10.1016/j.cor.2004.01.005
+   WEBER CA, 1991, EUR J OPER RES, V50, P2, DOI 10.1016/0377-2217(91)90033-R
+   Wei GW, 2011, EXPERT SYST APPL, V38, P11671, DOI 10.1016/j.eswa.2011.03.048
+   Wei GW, 2011, EXPERT SYST APPL, V38, P4824, DOI 10.1016/j.eswa.2010.09.163
+   Wu C, 2016, J CLEAN PROD, V112, P2114, DOI 10.1016/j.jclepro.2015.02.023
+   Wu DS, 2009, EXPERT SYST APPL, V36, P8892, DOI 10.1016/j.eswa.2008.11.010
+   Xiao Z, 2012, APPL MATH MODEL, V36, P1444, DOI 10.1016/j.apm.2011.09.038
+   Yang YZ, 2007, I C WIREL COMM NETW, V0, P4682
+   Yesil E., 2014, FUZZY COGNITIVE MAPS, V54, P177
+   Yu RC, 2006, APPL MATH COMPUT, V180, P63, DOI 10.1016/j.amc.2005.11.163
+   Zhang JJ, 2005, MATH COMPUT MODEL, V42, P991, DOI 10.1016/j.mcm.2005.03.003
+   Zhong L, 2017, APPL SOFT COMPUT, V57, P556, DOI 10.1016/j.asoc.2017.04.001
+   Zhou XY, 2018, J CLEAN PROD, V170, P773, DOI 10.1016/j.jclepro.2017.09.160
+   Zhu QH, 2004, J OPER MANAG, V22, P265, DOI 10.1016/j.jom.2004.01.005
+   Zhu QH, 2005, INT J OPER PROD MAN, V25, P449, DOI 10.1108/01443570510593148
+NR 99
+TC 109
+Z9 109
+U1 14
+U2 99
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0959-6526
+EI 1879-1786
+J9 J CLEAN PROD
+JI J. Clean Prod.
+PD JUN 1
+PY 2019
+VL 221
+IS 
+BP 768
+EP 784
+DI 10.1016/j.jclepro.2019.02.193
+PG 17
+WC Green & Sustainable Science & Technology; Engineering, Environmental; Environmental Sciences
+SC Science & Technology - Other Topics; Engineering; Environmental Sciences & Ecology
+GA HT3TI
+UT WOS:000464485700065
+DA 2023-04-26
+ER
+
+PT J
+AU Hou, X
+AF Hou, Xiang
+TI A Sketch Recognition Algorithm Based on Bayesian Network and Convolution Neural Network
+SO JOURNAL OF ADVANCED COMPUTATIONAL INTELLIGENCE AND INTELLIGENT INFORMATICS
+LA English
+DT Article
+DE Bayesian network; stroke grouping; convolution neural network; sketch recognition
+AB Most of the existing sketch recognition algorithms are used to restrict the user's drawing habits to achieve the stroke grouping and recognition. In order to solve the problem, a new sketch recognition algorithm based on Bayesian network and convolution neural network (CNN) is proposed. First, the input sketch is processed by Gaussian low-pass filter and a smoother stroke can be obtained. The stroke of continuous input is divided, then the Bayesian network and CNN are performed on stroke recognition respectively. The recognition result of Bayesian network is adopted when the reliability of stroke is larger than the threshold, otherwise recognition result of CNN will be adopted. The experiment result shows that the proposed algorithm is effective in circuit symbol recognition. The recognition rate was achieved 80.34% in the drawing process, and the final recognition rate was achieved 93.48%.
+C1 [Hou, Xiang] Sichuan Univ Arts & Sci, Sch Intelligent Mfg, 519 Tashi Rd, Dazhou 635000, Sichuan, Peoples R China.
+C3 Sichuan University of Arts & Science
+RP Hou, X (corresponding author), Sichuan Univ Arts & Sci, Sch Intelligent Mfg, 519 Tashi Rd, Dazhou 635000, Sichuan, Peoples R China.
+EM hxllyy@qq.com
+CR Alvarado C., 2007, P ACM SIGGRAPH COURS, V0, P33
+   Anderson D., 2004, AAAI FALL S, V0, P0
+   [Anonymous], 2007, P ADV NEUR INF PROC, V0, P0
+   Cai J., 2015, COMPUTER SYSTEMS APP, V24, P113
+   [方贵盛 FANG Guisheng], 2006, 计算机工程 COMPUTER ENGINEERING, V32, P1
+   Fonseca M. J., 2002, SKETCH UND PAP 2002, V0, P51
+   Gennari L, 2005, COMPUT GRAPH-UK, V29, P547, DOI 10.1016/j.cag.2005.05.007
+   Goldberg Y., 2017, SYNTH LECT HUM LANG, V10, P1, DOI 10.2200/S00762ED1V01Y201703HLT037
+   Hinton GE, 2006, SCIENCE, V313, P504, DOI 10.1126/science.1127647
+   [金连文 Jin Lianwen], 2016, 自动化学报 ACTA AUTOMATICA SINICA, V42, P1125
+   John V, 2015, 2015 14TH IAPR INTERNATIONAL CONFERENCE ON MACHINE VISION APPLICATIONS (MVA), V0, PP246, DOI 10.1109/MVA.2015.7153177
+   Kurtoglu T., 2002, P AAAI SPR S SKE UND, V0, P78
+   Liao SZ, 2005, PROCEEDINGS OF 2005 INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND CYBERNETICS, VOLS 1-9, P4549
+   Razavian AS, 2014, IEEE COMPUT SOC CONF, V0, PP512, DOI 10.1109/CVPRW.2014.131
+   RUBINE D, 1991, COMP GRAPH, V25, P329, DOI 10.1145/127719.122753
+   Sezgin T., 2005, P 10 INT C INT US IN, V0, PP281, DOI 10.1145/1040830.1040899
+   Simhon S., 2004, P 15 EUR S REND EGSR, V0, P23
+   Song Baohua, 2004, JOURNAL OF COMPUTER AIDED DESIGN & COMPUTER GRAPHICS, V16, P753
+   Sun Zhengxing, 2003, JOURNAL OF COMPUTER AIDED DESIGN & COMPUTER GRAPHICS, V15, P1145
+   Sun Zhengxing, 2005, JOURNAL OF COMPUTER AIDED DESIGN & COMPUTER GRAPHICS, V17, P1889
+NR 20
+TC 2
+Z9 2
+U1 0
+U2 2
+PU FUJI TECHNOLOGY PRESS LTD
+PI TOKYO
+PA 4F TORANOMON SANGYO BLDG, 2-29, TORANOMON 1-CHOME, MINATO-KU, TOKYO, 105-0001, JAPAN
+SN 1343-0130
+EI 1883-8014
+J9 J ADV COMPUT INTELL
+JI J. Adv. Comput. Intell. Inform.
+PD MAR 15
+PY 2019
+VL 23
+IS 2
+BP 261
+EP 267
+DI 10.20965/jaciii.2019.p0261
+PG 7
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA HP3UO
+UT WOS:000461603400012
+DA 2023-04-26
+ER

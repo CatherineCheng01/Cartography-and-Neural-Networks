@@ -1,0 +1,503 @@
+
+PT J
+AU Li, QY
+   Shi, YL
+   Auer, S
+   Roschlaub, R
+   Most, K
+   Schmitt, M
+   Glock, C
+   Zhu, XX
+AF Li, Qingyu
+   Shi, Yilei
+   Auer, Stefan
+   Roschlaub, Robert
+   Moest, Karin
+   Schmitt, Michael
+   Glock, Clemens
+   Zhu, Xiaoxiang
+TI Detection of Undocumented Building Constructions from Official Geodata Using a Convolutional Neural Network
+SO REMOTE SENSING
+LA English
+DT Article
+DE building detection; Convolutional Neural Network; deep learning; semantic segmentation; decision fusion
+ID remote-sensing images; sentinel-2 images; extraction; segmentation; classification; attention
+AB Undocumented building constructions are buildings or stories that were built years ago, but are missing in the official digital cadastral maps (DFK). The detection of undocumented building constructions is essential to urban planning and monitoring. The state of Bavaria, Germany, uses two semi-automatic detection methods for this task that suffer from a high false alarm rate. To solve this problem, we propose a novel framework to detect undocumented building constructions using a Convolutional Neural Network (CNN) and official geodata, including high resolution optical data and the Normalized Digital Surface Model (nDSM). More specifically, an undocumented building pixel is labeled as "building" by the CNN but does not overlap with a building polygon of the DFK. The class of old or new undocumented building can be further separated when a Temporal Digital Surface Model (tDSM) is introduced in the stage of decision fusion. In a further step, undocumented story construction is detected as the pixels that are "building" in both DFK and predicted results from CNN, but shows a height deviation from the tDSM. By doing so, we have produced a seamless map of undocumented building constructions for one-quarter of the state of Bavaria, Germany at a spatial resolution of 0.4 m, which has proved that our framework is robust to detect undocumented building constructions at large-scale. Considering that the official geodata exploited in this research is advantageous because of its high quality and large coverage, a transferability analysis experiment is also designed in our research to investigate the sampling strategies for building detection at large-scale. Our results indicate that building detection results in unseen areas at large-scale can be improved when training samples are collected from different districts. In an area where training samples are available, local training sampless collection and training can save much time and effort.
+C1 [Li, Qingyu; Schmitt, Michael; Zhu, Xiaoxiang] Tech Univ Munich TUM, Signal Proc Earth Observat Sipeo, D-80333 Munich, Germany.
+   [Li, Qingyu; Auer, Stefan; Zhu, Xiaoxiang] German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Wessling, Germany.
+   [Shi, Yilei] Tech Univ Munich TUM, Remote Sensing Technol LMF, D-80333 Munich, Germany.
+   [Roschlaub, Robert; Moest, Karin; Glock, Clemens] Bavarian Agcy Digitizat High Speed Internet & Sur, D-80538 Munich, Germany.
+   [Schmitt, Michael] Munich Univ Appl Sci, Dept Geoinformat, D-80333 Munich, Germany.
+C3 Technical University of Munich; Helmholtz Association; German Aerospace Centre (DLR); Technical University of Munich; University of Munich
+RP Zhu, XX (corresponding author), Tech Univ Munich TUM, Signal Proc Earth Observat Sipeo, D-80333 Munich, Germany.; Zhu, XX (corresponding author), German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Wessling, Germany.
+EM qingyu.li@tum.de; yilei.shi@tum.de; stefan.auer@dlr.de; robertroschlaub@ldbv.bayern.de; karin.moest@ldbv.bayern.de; michael.schmitt@hm.edu; clemens.glock@ldbv.bayern.de; xiaoxiang.zhu@dlr.de
+FU European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program [ERC-2016-StG-714087]; Helmholtz Association [VH-NG-1018]; Helmholtz Excellent Professorship "Data Science in Earth Observation-Big Data Fusion for Urban Research"; Bavarian State Ministry of Finance and Regional Identity (StMFH); Bavarian Agency for Digitization, High-Speed Internet and Surveying
+CR [Anonymous], 2017, REV DEEP LEARNING TE, V0, P0
+   [Anonymous], 2018, ADV NEUR IN, V0, P0
+   Aringer K., 2014, INNOVATIONS 3D GEO I, V0, P143
+   Arlinger K, 2013, P 8 INT 3D GEOINFO C, V0, P28
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bischke B, 2019, IEEE IMAGE PROC, V0, PP1480, DOI 10.1109/ICIP.2019.8803050
+   Bittner K, 2018, IEEE J-STARS, V11, P2615, DOI 10.1109/JSTARS.2018.2849363
+   Daudt Rodrigo Caye, 2019, 2019 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW). PROCEEDINGS, V0, PP1461, DOI 10.1109/CVPRW.2019.00187
+   Demuzere M, 2019, URBAN CLIM, V27, P46, DOI 10.1016/j.uclim.2018.11.001
+   Drozdzal M, 2016, LECT NOTES COMPUT SC, V10008, P179, DOI 10.1007/978-3-319-46976-8_19
+   Geler S, 2019, DVW MITT, V2, P159
+   Griffiths D, 2019, ISPRS J PHOTOGRAMM, V154, P70, DOI 10.1016/j.isprsjprs.2019.05.013
+   Gu JX, 2018, PATTERN RECOGN, V77, P354, DOI 10.1016/j.patcog.2017.10.013
+   He CY, 2019, ENVIRON RES LETT, V14, P0, DOI 10.1088/1748-9326/aaf936
+   Hua YS, 2020, IEEE T GEOSCI REMOTE, V58, P4558, DOI 10.1109/TGRS.2019.2963364
+   Hua YS, 2019, ISPRS J PHOTOGRAMM, V149, P188, DOI 10.1016/j.isprsjprs.2019.01.015
+   Huang X, 2011, PHOTOGRAMM ENG REM S, V77, P721, DOI 10.14358/PERS.77.7.721
+   Inglada J, 2007, ISPRS J PHOTOGRAMM, V62, P236, DOI 10.1016/j.isprsjprs.2007.05.011
+   Jegou S, 2017, IEEE COMPUT SOC CONF, V0, PP1175, DOI 10.1109/CVPRW.2017.156
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Kaiser P, 2017, IEEE T GEOSCI REMOTE, V55, P6054, DOI 10.1109/TGRS.2017.2719738
+   Li JY, 2019, NATL SCI REV, V6, P1082, DOI 10.1093/nsr/nwz058
+   Li QY, 2020, IEEE T GEOSCI REMOTE, V58, P7502, DOI 10.1109/TGRS.2020.2973720
+   Li QY, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12040602
+   Li X, 2018, IEEE J-STARS, V11, P3680, DOI 10.1109/JSTARS.2018.2865187
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mou LC, 2020, IEEE T GEOSCI REMOTE, V58, P110, DOI 10.1109/TGRS.2019.2933609
+   Mou LC, 2019, IEEE T GEOSCI REMOTE, V57, P924, DOI 10.1109/TGRS.2018.2863224
+   Ok AO, 2013, ISPRS J PHOTOGRAMM, V86, P21, DOI 10.1016/j.isprsjprs.2013.09.004
+   Qiu CP, 2020, ISPRS J PHOTOGRAMM, V163, P152, DOI 10.1016/j.isprsjprs.2020.01.028
+   Qiu CP, 2019, ISPRS J PHOTOGRAMM, V154, P151, DOI 10.1016/j.isprsjprs.2019.05.004
+   Ressl C, 2016, PHOTOGRAMM FERNERKUN, V0, PP57, DOI 10.1127/pfg/2016/0288
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Roschlaub R, 2020, PFG-J PHOTOGRAMM REM, V88, P85, DOI 10.1007/s41064-020-00099-9
+   San DK, 2010, INT ARCH PHOTOGRAMM, V38, P1063
+   Shi YL, 2020, ISPRS J PHOTOGRAMM, V159, P184, DOI 10.1016/j.isprsjprs.2019.11.004
+   Shi YL, 2019, IEEE GEOSCI REMOTE S, V16, P603, DOI 10.1109/LGRS.2018.2878486
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sirmacek B, 2008, 23RD INTERNATIONAL SYMPOSIUM ON COMPUTER AND INFORMATION SCIENCES, V0, P6
+   Vargas-Munoz JE, 2019, ISPRS J PHOTOGRAMM, V147, P283, DOI 10.1016/j.isprsjprs.2018.11.010
+   Wei HF, 2017, SYM REL DIST SYST, V0, PP21, DOI 10.1109/SRDS.2017.11
+   Wurm M, 2019, ISPRS J PHOTOGRAMM, V150, P59, DOI 10.1016/j.isprsjprs.2019.02.006
+   Yang HL, 2018, IEEE J-STARS, V11, P2600, DOI 10.1109/JSTARS.2018.2835377
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 45
+TC 5
+Z9 5
+U1 4
+U2 8
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD NOV 15
+PY 2020
+VL 12
+IS 21
+BP 
+EP 
+DI 10.3390/rs12213537
+PG 21
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OR2HV
+UT WOS:000589296900001
+DA 2023-04-26
+ER
+
+PT J
+AU Baskin, II
+   Lozano, S
+   Durot, M
+   Marcou, G
+   Horvath, D
+   Varnek, A
+AF Baskin, I. I.
+   Lozano, S.
+   Durot, M.
+   Marcou, G.
+   Horvath, D.
+   Varnek, A.
+TI Autoignition temperature: comprehensive data analysis and predictive models
+SO SAR AND QSAR IN ENVIRONMENTAL RESEARCH
+LA English
+DT Article
+DE Quantitative structure-property relationship (QSPR); autoignition temperature; support vector regression; fragment descriptors; generative topographic mapping
+ID auto-ignition temperatures; artificial neural-network; organic-compounds; radial basis; qspr; hydrocarbons; optimization; fragment; point
+AB Here we report a new predictive model for autoignition temperature (AIT), an important physical parameter widely used to assess potential safety hazards of combustible materials. Available structure-AIT data extracted from different sources were critically analysed. Support vector regression (SVR) models on different data subsets were built in order to identify a reliable compound set on which a realistic model could be built. This led to a selection of the dataset containing 875 compounds annotated with AIT values. The thereupon-based SVR model performs reasonably well in cross-validation with the determination coefficientr(2) = 0.77 and mean absolute errorMAE = 37.8 degrees C. External validation on 20 industrial compounds missing in the training set confirmed its good predictive power (MAE = 28.7 degrees C).
+C1 [Baskin, I. I.; Marcou, G.; Horvath, D.; Varnek, A.] Univ Strasbourg, Lab Chemoinformat, UMR 7140, CNRS,UnIStra, Strasbourg, France.
+   [Lozano, S.; Durot, M.] Total, BioLab, Ctr Rech Solaize, Solaize, France.
+C3 Centre National de la Recherche Scientifique (CNRS); CNRS - Institute of Chemistry (INC); UDICE-French Research Universities; Universites de Strasbourg Etablissements Associes; Universite de Strasbourg; Total SA
+RP Varnek, A (corresponding author), Univ Strasbourg, Lab Chemoinformat, UMR 7140, CNRS,UnIStra, Strasbourg, France.
+EM varnek@unistra.fr
+CR Affens W.A., 1961, J CHEM ENG DATA, V6, P613, DOI 10.1021/je60011a041
+   Albahri TA, 2003, IND ENG CHEM RES, V42, P5708, DOI 10.1021/ie0300373
+   Albhari TA, 2003, CHEM ENG SCI, V58, P3629, DOI 10.1016/S0009-2509(03)00251-3
+   Artemenko NV, 2001, DOKL CHEM, V381, P317, DOI 10.1023/A:1012976623974
+   Bagheri M, 2012, ENERG CONVERS MANAGE, V58, P185, DOI 10.1016/j.enconman.2012.01.014
+   Baskin I, 2008, COMB CHEM HIGH T SCR, V11, P661, DOI 10.2174/138620708785739907
+   Baskin Igor, 2008, P1, V0, P0, DOI DOI 10.1039/9781847558879-00001
+   BASKIN II, 1995, J CHEM INF COMP SCI, V35, P527, DOI 10.1021/ci00025a021
+   Bishop CM, 1998, NEURAL COMPUT, V10, P215, DOI 10.1162/089976698300017953
+   Borhani TNG, 2016, PROCESS SAF ENVIRON, V103, P115, DOI 10.1016/j.psep.2016.07.004
+   Chang CC, 2011, ACM T INTEL SYST TEC, V2, P0, DOI 10.1145/1961189.1961199
+   Chen CC, 2009, J HAZARD MATER, V162, P746, DOI 10.1016/j.jhazmat.2008.05.137
+   Dashti A, 2020, J MOL LIQ, V300, P0, DOI 10.1016/j.molliq.2019.111797
+   Drucker H, 1997, ADV NEUR IN, V9, P155
+   EGOLF LM, 1992, IND ENG CHEM RES, V31, P1798, DOI 10.1021/ie00007a027
+   FRANK CE, 1952, IND ENG CHEM, V44, P862, DOI 10.1021/ie50508a044
+   FRANK CE, 1954, IND ENG CHEM, V46, P212, DOI 10.1021/ie50529a063
+   Gaspar HA, 2015, MOL INFORM, V34, P348, DOI 10.1002/minf.201400153
+   Gaspar HA, 2016, ACS SYM SER, V1222, P211
+   Gaspar HA, 2013, J CHEM INF MODEL, V53, P3318, DOI 10.1021/ci400423c
+   Gharagheizi F, 2011, J HAZARD MATER, V189, P211, DOI 10.1016/j.jhazmat.2011.02.014
+   HANSCH C, 1973, J AM CHEM SOC, V95, P6447, DOI 10.1021/ja00800a049
+   Keshavarz MH, 2013, J IRAN CHEM SOC, V10, P545, DOI 10.1007/s13738-012-0192-2
+   Kim YS, 2002, J CHEM SOC PERK T 2, V0, PP2087, DOI 10.1039/b207203c
+   Kireeva N, 2012, MOL INFORM, V31, P301, DOI 10.1002/minf.201100163
+   Lazzus JA, 2011, INT J THERMOPHYS, V32, P957, DOI 10.1007/s10765-011-0956-4
+   Mitchell BE, 1997, J CHEM INF COMP SCI, V37, P538, DOI 10.1021/ci960175l
+   MORLEY C, 1987, COMBUST SCI TECHNOL, V55, P115, DOI 10.1080/00102208708947074
+   Oprisiu I, 2012, MOL INFORM, V31, P491, DOI 10.1002/minf.201200006
+   Pan Y, 2008, J HAZARD MATER, V157, P510, DOI 10.1016/j.jhazmat.2008.01.016
+   Pan Y, 2008, CHEMOMETR INTELL LAB, V92, P169, DOI 10.1016/j.chemolab.2008.03.002
+   Pan Y, 2009, J HAZARD MATER, V164, P1242, DOI 10.1016/j.jhazmat.2008.09.031
+   Suzuki T, 1994, FIRE MATER, V18, P81, DOI 10.1002/FAM.810180204
+   SWARTS DE, 1957, IND ENG CHEM, V49, P432, DOI 10.1021/ie51392a042
+   Tetteh J, 1998, CHEMOMETR INTELL LAB, V41, P17, DOI 10.1016/S0169-7439(98)00035-5
+   Tetteh J, 1996, CHEMOMETR INTELL LAB, V32, P177, DOI 10.1016/0169-7439(95)00088-7
+   TOPLISS JG, 1972, J MED CHEM, V15, P1066, DOI 10.1021/jm00280a017
+   Varnek, 2014, CHALLENGES, V5, P450, DOI 10.3390/challe5020450
+   Varnek A, 2005, J COMPUT AID MOL DES, V19, P693, DOI 10.1007/s10822-005-9008-0
+   Varnek A, 2004, J CHEM INF COMP SCI, V44, P1365, DOI 10.1021/ci049976b
+   Varnek A, 2008, CURR COMPUT-AID DRUG, V4, P191, DOI 10.2174/157340908785747465
+NR 41
+TC 2
+Z9 2
+U1 1
+U2 8
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1062-936X
+EI 1029-046X
+J9 SAR QSAR ENVIRON RES
+JI SAR QSAR Environ. Res.
+PD AUG 2
+PY 2020
+VL 31
+IS 8
+BP 597
+EP 613
+DI 10.1080/1062936X.2020.1785933
+EA JUL 2020
+PG 17
+WC Chemistry, Multidisciplinary; Computer Science, Interdisciplinary Applications; Environmental Sciences; Mathematical & Computational Biology; Toxicology
+SC Chemistry; Computer Science; Environmental Sciences & Ecology; Mathematical & Computational Biology; Toxicology
+GA MU3GT
+UT WOS:000547038100001
+PM 32646236
+DA 2023-04-26
+ER
+
+PT J
+AU Osco, LP
+   de Arruda, MD
+   Marcato, J
+   da Silva, NB
+   Ramos, APM
+   Moryia, EAS
+   Imai, NN
+   Pereira, DR
+   Creste, JE
+   Matsubara, ET
+   Li, J
+   Goncalves, WN
+AF Osco, Lucas Prado
+   de Arruda, Mauro dos Santos
+   Marcato Junior, Jose
+   da Silva, Neemias Buceli
+   Marques Ramos, Ana Paula
+   Saito Moryia, Erika Akemi
+   Imai, Nilton Nobuhiro
+   Pereira, Danillo Roberto
+   Creste, Jose Eduardo
+   Matsubara, Edson Takashi
+   Li, Jonathan
+   Goncalves, Wesley Nunes
+TI A convolutional neural network approach for counting and geolocating citrus-trees in UAV multispectral imagery
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; Multispectral image; UAV-borne sensor; Object detection; Citrus tree counting; Orchard
+ID remote-sensing imagery; lidar data; deep; delineation; agriculture; systems; vector
+AB Visual inspection has been a common practice to determine the number of plants in orchards, which is a labor-intensive and time-consuming task. Deep learning algorithms have demonstrated great potential for counting plants on unmanned aerial vehicle (UAV)-borne sensor imagery. This paper presents a convolutional neural network (CNN) approach to address the challenge of estimating the number of citrus trees in highly dense orchards from UAV multispectral images. The method estimates a dense map with the confidence that a plant occurs in each pixel. A flight was conducted over an orchard of Valencia-orange trees planted in linear fashion, using a multispectral camera with four bands in green, red, red-edge and near-infrared. The approach was assessed considering the individual bands and their combinations. A total of 37,353 trees were adopted in point feature to evaluate the method. A variation of a (0.5; 1.0 and 1.5) was used to generate different ground truth confidence maps. Different stages (T) were also used to refine the confidence map predicted. To evaluate the robustness of our method, we compared it with two state-of-the-art object detection CNN methods (Faster R-CNN and RetinaNet). The results show better performance with the combination of green, red and near-infrared bands, achieving a Mean Absolute Error (MAE), Mean Square Error (MSE), R-2 and Normalized Root-MeanSquared Error (NRMSE) of 2.28, 9.82, 0.96 and 0.05, respectively. This band combination, when adopting sigma = 1 and a stage (T = 8), resulted in an R-2, MAE, Precision, Recall and F1 of 0.97, 2.05, 0.95, 0.96 and 0.95, respectively. Our method outperforms significantly object detection methods for counting and geolocation. It was concluded that our CNN approach developed to estimate the number and geolocation of citrus trees in highdensity orchards is satisfactory and is an effective strategy to replace the traditional visual inspection method to determine the number of plants in orchards trees.
+C1 [Osco, Lucas Prado; Marcato Junior, Jose; Goncalves, Wesley Nunes] Univ Fed Mato Grosso do Sul, Fac Engn Architecture & Urbanism & Geog, Campo Grande, MS, Brazil.
+   [de Arruda, Mauro dos Santos; da Silva, Neemias Buceli; Matsubara, Edson Takashi; Goncalves, Wesley Nunes] Univ Fed Mato Grosso do Sul, Fac Comp Sci, Campo Grande, MS, Brazil.
+   [Creste, Jose Eduardo] Univ Western Sao Paulo, Fac Agron, Sao Paulo, Brazil.
+   [Marques Ramos, Ana Paula] Univ Western Sao Paulo, Fac Engn & Architecture, Sao Paulo, Brazil.
+   [Saito Moryia, Erika Akemi; Imai, Nilton Nobuhiro] Soo Paulo State Univ, Dept Cartog Sci, BR-19060900 Presidente Prudente, SP, Brazil.
+   [Pereira, Danillo Roberto] Univ Western Sao Paulo, Fac Comp Sci, Sao Paulo, Brazil.
+   [Li, Jonathan] Univ Waterloo, Dept Geog & Environm Management, Waterloo, ON N2L 3G1, Canada.
+   [Li, Jonathan] Univ Waterloo, Dept Syst Design Engn, Waterloo, ON N2L 3G1, Canada.
+C3 Universidade Federal de Mato Grosso do Sul; Universidade Federal de Mato Grosso do Sul; Universidade do Oeste Paulista; Universidade do Oeste Paulista; Universidade do Oeste Paulista; University of Waterloo; University of Waterloo
+RP Osco, LP (corresponding author), Univ Fed Mato Grosso do Sul, Fac Engn Architecture & Urbanism & Geog, Campo Grande, MS, Brazil.
+EM pradoosco@gmail.com
+FU CNPq [433783/2018-4, 304173/2016-9]; CAPES Print [88881.311850/2018-01]; Fundect [59/300.066/2015]
+CR Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   Ampatzidis Y, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11040410
+   [Anonymous], 1900, DOI 10.1038/NATURE14539, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bah MD, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111690
+   Ball JE, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.042609
+   Cao Z, 2017, PROC CVPR IEEE, V0, PP1302, DOI 10.1109/CVPR.2017.143
+   Chen SW, 2017, IEEE ROBOT AUTOM LET, V2, P781, DOI 10.1109/LRA.2017.2651944
+   Csillik O, 2018, DRONES-BASEL, V2, P0, DOI 10.3390/drones2040039
+   Deng L, 2018, ISPRS J PHOTOGRAMM, V146, P124, DOI 10.1016/j.isprsjprs.2018.09.008
+   Dijkstra K, 2019, LECT NOTES ARTIF INT, V11053, P585, DOI 10.1007/978-3-030-10997-4_36
+   Djerriri K, 2018, INT GEOSCI REMOTE SE, V0, P2627
+   dos Santos AA, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19163595
+   Fan Z, 2018, IEEE J-STARS, V11, P876, DOI 10.1109/JSTARS.2018.2793849
+   Ghamisi P, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2016.2616418
+   Goldbergs G, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020161
+   Goldman E, 2019, PROC CVPR IEEE, V0, PP5222, DOI 10.1109/CVPR.2019.00537
+   Guo YM, 2016, NEUROCOMPUTING, V187, P27, DOI 10.1016/j.neucom.2015.09.116
+   Hartling S, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19061284
+   Hasan MM, 2018, PLANT METHODS, V14, P0, DOI 10.1186/s13007-018-0366-8
+   Hsieh MR, 2017, IEEE I CONF COMP VIS, V0, PP4165, DOI 10.1109/ICCV.2017.446
+   Hunt ER, 2018, INT J REMOTE SENS, V39, P5345, DOI 10.1080/01431161.2017.1410300
+   Jakubowski MK, 2013, REMOTE SENS-BASEL, V5, P4163, DOI 10.3390/rs5094163
+   Jiang H, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9070721
+   Kamilaris A, 2018, COMPUT ELECTRON AGR, V147, P70, DOI 10.1016/j.compag.2018.02.016
+   Kang D, 2019, IEEE T CIRC SYST VID, V29, P1408, DOI 10.1109/TCSVT.2018.2837153
+   Larsen M, 2011, INT J REMOTE SENS, V32, P5827, DOI 10.1080/01431161.2010.507790
+   Leiva JN, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.036003
+   Li D, 2016, IEEE GEOSCI REMOTE S, V13, P1330, DOI 10.1109/LGRS.2016.2584109
+   Li WJ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9010022
+   Lin TY, 2020, IEEE T PATTERN ANAL, V42, P318, DOI 10.1109/TPAMI.2018.2858826
+   Liu T, 2018, ISPRS J PHOTOGRAMM, V139, P154, DOI 10.1016/j.isprsjprs.2018.03.006
+   Liu T, 2018, GISCI REMOTE SENS, V55, P243, DOI 10.1080/15481603.2018.1426091
+   Ma L, 2019, ISPRS J PHOTOGRAMM, V152, P166, DOI 10.1016/j.isprsjprs.2019.04.015
+   Madec S, 2019, AGR FOREST METEOROL, V264, P225, DOI 10.1016/j.agrformet.2018.10.013
+   Mathews AJ, 2013, REMOTE SENS-BASEL, V5, P2164, DOI 10.3390/rs5052164
+   Minh DHT, 2018, IEEE GEOSCI REMOTE S, V15, P464, DOI 10.1109/LGRS.2018.2794581
+   Ndikumana E, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081217
+   Nevalainen O, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030185
+   Oliveira HC, 2018, IEEE GEOSCI REMOTE S, V15, P991, DOI 10.1109/LGRS.2018.2819944
+   Ozcan AH, 2017, REMOTE SENS LETT, V8, P761, DOI 10.1080/2150704X.2017.1322733
+   Ozdarici-Ok A, 2015, INT J REMOTE SENS, V36, P4275, DOI 10.1080/01431161.2015.1079663
+   Paoletti ME, 2018, ISPRS J PHOTOGRAMM, V145, P120, DOI 10.1016/j.isprsjprs.2017.11.021
+   Puletti N, 2014, EUR J REMOTE SENS, V47, P45, DOI 10.5721/EuJRS20144704
+   Ramesh K. N., 2016, INTERNATIONAL JOURNAL OF IMAGE, V0, P0
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Safonova A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060643
+   Salami E, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030316
+   Simonyan K, 2015, ARXIV, V0, P0
+   Surovy P, 2018, INT J REMOTE SENS, V39, P4786, DOI 10.1080/01431161.2018.1434329
+   Tao SL, 2015, ISPRS J PHOTOGRAMM, V110, P66, DOI 10.1016/j.isprsjprs.2015.10.007
+   Varela S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020343
+   Verma NK, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8050388
+   Weinstein BG, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111309
+   Wu B, 2016, INT J APPL EARTH OBS, V52, P82, DOI 10.1016/j.jag.2016.06.003
+   Wu H, 2018, IEEE T IMAGE PROCESS, V27, P1259, DOI 10.1109/TIP.2017.2772836
+   Wu JT, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060691
+   Xu NX, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11101192
+   Zhang HK, 2017, REMOTE SENS LETT, V8, P438, DOI 10.1080/2150704X.2017.1280200
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhang PZ, 2016, ISPRS J PHOTOGRAMM, V116, P24, DOI 10.1016/j.isprsjprs.2016.02.013
+NR 62
+TC 85
+Z9 88
+U1 32
+U2 158
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD FEB 15
+PY 2020
+VL 160
+IS 
+BP 97
+EP 106
+DI 10.1016/j.isprsjprs.2019.12.010
+PG 10
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA KH3DA
+UT WOS:000510525500007
+DA 2023-04-26
+ER
+
+PT J
+AU Zhao, Y
+   Zhao, LJ
+   Xiong, BL
+   Kuang, GY
+AF Zhao, Yan
+   Zhao, Lingjun
+   Xiong, Boli
+   Kuang, Gangyao
+TI Attention Receptive Pyramid Network for Ship Detection in SAR Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Marine vehicles; Radar polarimetry; Detectors; Feature extraction; Synthetic aperture radar; Proposals; Kernel; Attention receptive pyramid network; convolutional block attention module (CBAM); receptive fields block (RFB); synthetic aperture radar (SAR); SAR automatic target recognition (SAR ATR); ship detection
+ID automatic detection
+AB With the development of deep learning (DL) and synthetic aperture radar (SAR) imaging techniques, SAR automatic target recognition has come to a breakthrough. Numerous algorithms have been proposed and competitive results have been achieved in detecting different targets. However, due to the influence of various sizes and complex background of ships, detecting multiscale ships in SAR images is still challenging. To solve the problems, a novel network, called attention receptive pyramid network (ARPN), is proposed in this article. ARPN is a two-stage detector and designed to improve the performance of detecting multiscale ships in SAR images by enhancing the relationships among nonlocal features and refining information at different feature maps. Specifically, receptive fields block (RFB) and convolutional block attention module (CBAM) are employed and combined reasonably in attention receptive block to build a top-down fine-grained feature pyramid. RFB, composed of several branches of convolutional layers with specifically asymmetric kernel sizes and various dilation rates, is used for grabbing features of ships with large aspect ratios and enhancing local features with their global dependences. CBAM, which consists of channel and spatial attention mechanisms, is utilized to boost significant information and suppress interference caused by surroundings. To evaluate the effectiveness of ARPN, experiments are conducted on SAR Ship Detection Dataset and two large-scene SAR images. The detection results illustrate that competitive performance has been achieved by our method in comparison with several CNN-based algorithms, e.g., Faster-RCNN, RetinaNet, feature pyramid network, YOLOv3, Dense Attention Pyramid Network, Depth-wise Separable Convolutional Neural Network, High-Resolution Ship Detection Network, and Squeeze and Excitation Rank Faster-RCNN.
+C1 [Zhao, Yan; Zhao, Lingjun; Xiong, Boli; Kuang, Gangyao] Natl Univ Def Technol, State Key Lab Complex Electromagnet Environm Effe, Changsha 410073, Peoples R China.
+C3 National University of Defense Technology - China
+RP Zhao, LJ (corresponding author), Natl Univ Def Technol, State Key Lab Complex Electromagnet Environm Effe, Changsha 410073, Peoples R China.
+EM zy34731@qq.com; zhaolingjunkd@126.com; bolixiong@gmail.com; kuangmerg@hotmail.com
+FU National Natural Science Foundation of China [61701508, 61971426]
+CR An QZ, 2019, IEEE T GEOSCI REMOTE, V57, P8333, DOI 10.1109/TGRS.2019.2920534
+   [Anonymous], 2017, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   [Anonymous], 2020, TZUT LAB, V0, P0
+   Brusch S, 2011, IEEE T GEOSCI REMOTE, V49, P1092, DOI 10.1109/TGRS.2010.2071879
+   Cerutti-Maori D, 2008, IEEE T GEOSCI REMOTE, V46, P3019, DOI 10.1109/TGRS.2008.923026
+   Chang YL, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070786
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Chen SZ, 2016, IEEE T GEOSCI REMOTE, V54, P4806, DOI 10.1109/TGRS.2016.2551720
+   Chollet F, 2017, PROC CVPR IEEE, V0, PP1800, DOI 10.1109/CVPR.2017.195
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   COPELAND AC, 1995, IEEE T GEOSCI REMOTE, V33, P35, DOI 10.1109/36.368224
+   Cui ZY, 2019, IEEE T GEOSCI REMOTE, V57, P8983, DOI 10.1109/TGRS.2019.2923988
+   Dai JF, 2016, PROC CVPR IEEE, V0, PP3150, DOI 10.1109/CVPR.2016.343
+   Ding J, 2016, IEEE GEOSCI REMOTE S, V13, P364, DOI 10.1109/LGRS.2015.2513754
+   Everingham M, 2015, INT J COMPUT VISION, V111, P98, DOI 10.1007/s11263-014-0733-5
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   He C, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071016
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   He Zhi-guo, 2009, JOURNAL OF NATIONAL UNIVERSITY OF DEFENSE TECHNOLOGY, V31, P47
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Kaiming He, 2020, IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, V42, P386, DOI 10.1109/TPAMI.2018.2844175
+   Kang M., 2017, 2017 INT WORKSHOP RE, V0, PP1, DOI 10.1109/RSIP.2017.7958815
+   Kang M, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9080860
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lang HT, 2016, IEEE GEOSCI REMOTE S, V13, P212, DOI 10.1109/LGRS.2015.2506570
+   Leng XG, 2019, IEEE T GEOSCI REMOTE, V57, P352, DOI 10.1109/TGRS.2018.2854661
+   Leng XG, 2015, IEEE GEOSCI REMOTE S, V12, P1536, DOI 10.1109/LGRS.2015.2412174
+   Lin TY, 2017, IEEE I CONF COMP VIS, V0, PP2999, DOI 10.1109/ICCV.2017.324
+   Lin Z, 2019, IEEE GEOSCI REMOTE S, V16, P751, DOI 10.1109/LGRS.2018.2882551
+   Liu L, 2020, INT J COMPUT VISION, V128, P261, DOI 10.1007/s11263-019-01247-4
+   Liu SY, 2018, IEEE ANN INT CONF CY, V0, P385
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Quan SN, 2018, IEEE T GEOSCI REMOTE, V56, P4714, DOI 10.1109/TGRS.2018.2835513
+   Quan SN, 2016, IEEE GEOSCI REMOTE S, V13, P1691, DOI 10.1109/LGRS.2016.2604487
+   Redmon J., 2016, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Redmon J, 2018, ARXIV, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Shrivastava A, 2016, PROC CVPR IEEE, V0, PP761, DOI 10.1109/CVPR.2016.89
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sodhro AH, 2017, MULTIMED TOOLS APPL, V76, P20001, DOI 10.1007/s11042-016-4084-9
+   Solberg AHS, 1999, IEEE T GEOSCI REMOTE, V37, P1916, DOI 10.1109/36.774704
+   Sun KK, 2021, IEEE T SYST MAN CY-S, V51, P3968, DOI 10.1109/TSMC.2019.2958072
+   Szegedy, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Wackerman CC, 2001, CAN J REMOTE SENS, V27, P568, DOI 10.1080/07038992.2001.10854896
+   Wang C, 2014, IEEE GEOSCI REMOTE S, V11, P119, DOI 10.1109/LGRS.2013.2248118
+   Wang PQ, 2018, IEEE WINT CONF APPL, V0, PP1451, DOI 10.1109/WACV.2018.00163
+   Wang YY, 2017, PR ELECTROMAGN RES S, V0, P712
+   WATTS S, 1985, IEE PROC-F, V132, P613, DOI 10.1049/ip-f-1.1985.0115
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Wei SJ, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12010167
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Xu F, 2016, OPTOELECTRON LETT, V12, P473, DOI 10.1007/s11801-016-6179-y
+   Zhang TW, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212483
+   Zhaowei Cai, 2018, 2018 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION. PROCEEDINGS, V0, PP6154, DOI 10.1109/CVPR.2018.00644
+NR 57
+TC 100
+Z9 105
+U1 36
+U2 134
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 2738
+EP 2756
+DI 10.1109/JSTARS.2020.2997081
+PG 19
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA MD5XZ
+UT WOS:000544047400015
+DA 2023-04-26
+ER
+
+PT J
+AU Quan, H
+   Li, YS
+   Zhang, Y
+AF Quan, Hao
+   Li, Yansheng
+   Zhang, Yi
+TI A novel mobile robot navigation method based on deep reinforcement learning
+SO INTERNATIONAL JOURNAL OF ADVANCED ROBOTIC SYSTEMS
+LA English
+DT Article
+DE Deep reinforcement learning; robot exploration; recurrent neural network; DDQN
+AB At present, the application of mobile robots is more and more extensive, and the movement of mobile robots cannot be separated from effective navigation, especially path exploration. Aiming at navigation problems, this article proposes a method based on deep reinforcement learning and recurrent neural network, which combines double net and recurrent neural network modules with reinforcement learning ideas. At the same time, this article designed the corresponding parameter function to improve the performance of the model. In order to test the effectiveness of this method, based on the grid map model, this paper trains in a two-dimensional simulation environment, a three-dimensional TurtleBot simulation environment, and a physical robot environment, and obtains relevant data for peer-to-peer analysis. The experimental results show that the proposed algorithm has a good improvement in path finding efficiency and path length.
+C1 [Quan, Hao; Li, Yansheng; Zhang, Yi] Chongqing Univ Posts & Telecommun, Res Ctr Intelligent Syst & Robot, Chongqing 400065, Peoples R China.
+   [Quan, Hao; Li, Yansheng; Zhang, Yi] Chongqing Univ Posts & Telecommun, Sch Adv Mfg Engn, Chongqing, Peoples R China.
+C3 Chongqing University of Posts & Telecommunications; Chongqing University of Posts & Telecommunications
+RP Li, YS (corresponding author), Chongqing Univ Posts & Telecommun, Res Ctr Intelligent Syst & Robot, Chongqing 400065, Peoples R China.
+EM 478182341@qq.com
+FU Common Key Technological Innovation Specialities of Key Industries of Chongqing Tongnan District Science and Technology Commission [Tk-2018-08]; National Natural Science Foundation of China [61803058]; Natural Science Foundation of Chongqing [cstc2018jcyjAX0385]
+CR Ardi T, 2017, PLOS ONE, V12, P0
+   Cadena C, 2016, IEEE T ROBOT, V32, P1309, DOI 10.1109/TRO.2016.2624754
+   Caicedo JC, 2015, IEEE I CONF COMP VIS, V0, PP2488, DOI 10.1109/ICCV.2015.286
+   Das A, 2017, IEEE I CONF COMP VIS, V0, PP2970, DOI 10.1109/ICCV.2017.321
+   Fuentes-Pacheco J, 2015, ARTIF INTELL REV, V43, P55, DOI 10.1007/s10462-012-9365-8
+   Geiger A., 2012, C COMP VIS PATT REC, V0, P0
+   Gers FA, 1999, IEE CONF PUBL, V0, PP850, DOI 10.1162/089976600300015015
+   Gupta S, 2017, PROC CVPR IEEE, V0, PP7272, DOI 10.1109/CVPR.2017.769
+   Hosu I.-A., 2016, ARXIV160705077, V0, P0
+   Khairuddin AR, 2015, IEEE INT C CONTR SYS, V0, P0
+   Klein George, 2007, P1, V0, P0
+   Li Y., 2018, ICASSP 2018 2018 IEE, V0, P0
+   Lillicrap T. P., 2016, INT C LEARN REPR ICL, V0, P0
+   Meganathan RR, 2018, IEEE INT C ROB COMP, V0, P0
+   Strasdat H, 2011, IEEE I CONF COMP VIS, V0, PP2352, DOI 10.1109/ICCV.2011.6126517
+   Sun Zhi-jun, 2012, APPLICATION RESEARCH OF COMPUTERS, V29, P2806, DOI 10.3969/j.issn.1001-3695.2012.08.002
+   Sutton RS, 2018, ADAPT COMPUT MACH LE, V0, P1
+   Van Hasselt H, 2016, COMPUT SCI, V0, P0
+   Xu C, 2017, ABS170511159 ARXIV, V0, P0
+   Zhu Y., 2016, 2017 IEEE INT C ROB, V0, P3357
+NR 20
+TC 16
+Z9 16
+U1 3
+U2 38
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 1729-8814
+EI 
+J9 INT J ADV ROBOT SYST
+JI Int. J. Adv. Robot. Syst.
+PD MAY 15
+PY 2020
+VL 17
+IS 3
+BP 
+EP 
+DI 10.1177/1729881420921672
+PG 11
+WC Robotics
+SC Robotics
+GA LX3KW
+UT WOS:000539734900001
+DA 2023-04-26
+ER

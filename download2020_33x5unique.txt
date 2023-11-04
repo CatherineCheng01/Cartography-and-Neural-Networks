@@ -1,0 +1,608 @@
+
+PT J
+AU Chen, Q
+   Wang, L
+   Waslander, SL
+   Liu, XG
+AF Chen, Qi
+   Wang, Lei
+   Waslander, Steven L.
+   Liu, Xiuguo
+TI An end-to-end shape modeling framework for vectorized building outline generation from aerial images
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Building segmentation; Boundary optimization; Automatic mapping; Deep learning; Shape modeling
+ID convolutional neural-networks; extraction; segmentation; lidar; classification; refinement; area
+AB The identification and annotation of buildings has long been a tedious and expensive part of high-precision vector map production. The deep learning techniques such as fully convolution network (FCN) have largely promoted the accuracy of automatic building segmentation from remote sensing images. However, compared with the deep-learning-based building segmentation methods that greatly benefit from data-driven feature learning, the building boundary vector representation generation techniques mainly rely on handcrafted features and high human intervention. These techniques continue to employ manual design and ignore the opportunity of using the rich feature information that can be learned from training data to directly generate vectorized boundary descriptions. Aiming to address this problem, we introduce PolygonCNN, a learnable end-to-end vector shape modeling framework for generating building outlines from aerial images. The framework first performs an FCN-like segmentation to extract initial building contours. Then, by encoding the vertices of the building polygons along with the pooled image features extracted from segmentation step, a modified PointNet is proposed to learn shape priors and predict a polygon vertex deformation to generate refined building vector results. Additionally, we propose 1) a simplify-and-densify sampling strategy to generate homogeneously sampled polygon with well-kept geometric signals for shape prior learning; and 2) a novel loss function for estimating shape similarity between building polygons with vastly different vertex numbers. The experiments on over 10,000 building samples verify that PolygonCNN can generate building vectors with higher vertex-based F1-score than the state-of-the-art method, and simultaneously well maintains the building segmentation accuracy achieved by the FCN-like model.
+C1 [Chen, Qi; Liu, Xiuguo] China Univ Geosci Wuhan, Sch Geog & Informat Engn, Wuhan, Peoples R China.
+   [Wang, Lei; Waslander, Steven L.] Univ Toronto, Inst Aerosp Studies, Toronto, ON, Canada.
+C3 China University of Geosciences; University of Toronto
+RP Wang, L (corresponding author), Univ Toronto, Inst Aerosp Studies, Toronto, ON, Canada.
+EM chenqi@cug.edu.cn; lei.wang@robotics.utias.utoronto.ca; stevenw@utias.utoronto.ca; liuxg@cug.edu.cn
+FU National Natural Science Foundation of China [41601506]; Canadian MITACS Elevate program [IT15170]; Fundamental Research Funds for the Central Universities, China [CUG190603]
+CR Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   [Anonymous], 2018, REMOTE SENS BASEL, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bittner K, 2018, IEEE J-STARS, V11, P2615, DOI 10.1109/JSTARS.2018.2849363
+   Boonpook W, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18113921
+   Calkins H, 2017, J ARRYTHM, V33, P369, DOI 10.1016/j.joa.2017.08.001
+   Castrejon L, 2017, PROC CVPR IEEE, V0, PP4485, DOI 10.1109/CVPR.2017.477
+   Chen Q, 2019, ISPRS J PHOTOGRAMM, V147, P42, DOI 10.1016/j.isprsjprs.2018.11.011
+   Chen Q, 2016, INT ARCH PHOTOGRAMM, V41, P583, DOI 10.5194/isprsarchives-XLI-B3-583-2016
+   Cheng D., 2019, DARNET DEEP ACTIVE R, V0, P0
+   Dai YC, 2017, INT J DIGIT EARTH, V10, P1077, DOI 10.1080/17538947.2016.1269841
+   Douglas D. H., 1973, CARTOGRAPHICA INT J, V10, P112, DOI 10.3138/FM57-6770-U75U-7727
+   EAGLEN RH, 1985, AM J PHYS ANTHROPOL, V66, P307, DOI 10.1002/ajpa.1330660308
+   Fan HQ, 2017, PROC CVPR IEEE, V0, PP2463, DOI 10.1109/CVPR.2017.264
+   Griffiths D, 2019, ISPRS J PHOTOGRAMM, V154, P70, DOI 10.1016/j.isprsjprs.2019.05.013
+   Groueix T, 2018, PROC CVPR IEEE, V0, PP216, DOI 10.1109/CVPR.2018.00030
+   Haklay M, 2008, IEEE PERVAS COMPUT, V7, P12, DOI 10.1109/MPRV.2008.80
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hewitt R., 2011, MAP NATION BIOGRAPHY, V0, P0
+   Huang JF, 2019, ISPRS J PHOTOGRAMM, V151, P91, DOI 10.1016/j.isprsjprs.2019.02.019
+   Kingma D. P, 2015, 3 INT C LEARN REPR I, V0, P0
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Liang J., 2019, POLYTRANSFORM DEEP P, V0, P0
+   Lin T.-Y., 2016, FEATURE PYRAMID NETW, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   Ling F, 2012, INT J APPL EARTH OBS, V18, P283, DOI 10.1016/j.jag.2012.02.008
+   Lu TT, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091496
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Manno-Kovacs A, 2015, IEEE GEOSCI REMOTE S, V12, P2140, DOI 10.1109/LGRS.2015.2452962
+   Marcos D, 2018, PROC CVPR IEEE, V0, PP8877, DOI 10.1109/CVPR.2018.00925
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Mi L, 2020, ISPRS J PHOTOGRAMM, V159, P140, DOI 10.1016/j.isprsjprs.2019.11.006
+   MicroSoft, 2018, COMPUTER GENERATED B, V0, P0
+   Paparoditis N, 1998, COMPUT VIS IMAGE UND, V72, P122, DOI 10.1006/cviu.1998.0722
+   Partovi T, 2017, IEEE J-STARS, V10, P933, DOI 10.1109/JSTARS.2016.2611861
+   Paszke A, 2019, ADV NEUR IN, V32, P0
+   Pelizari PA, 2018, REMOTE SENS ENVIRON, V209, P793, DOI 10.1016/j.rse.2018.02.025
+   Perazzi F, 2016, PROC CVPR IEEE, V0, PP724, DOI 10.1109/CVPR.2016.85
+   Persson M, 2005, 2005 IEEE INTERNATIONAL SYMPOSIUM ON COMPUTATIONAL INTELLIGENCE IN ROBOTICS AND AUTOMATION, V0, P273, DOI 10.1109/CIRA.2005.1554289
+   Qi CR, 2017, PROC CVPR IEEE, V0, PP77, DOI 10.1109/CVPR.2017.16
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Sirmacek B, 2009, IEEE T GEOSCI REMOTE, V47, P1156, DOI 10.1109/TGRS.2008.2008440
+   Sun XY, 2018, PROC CVPR IEEE, V0, PP2974, DOI 10.1109/CVPR.2018.00314
+   SUZUKI S, 1985, COMPUT VISION GRAPH, V30, P32, DOI 10.1016/0734-189X(85)90016-7
+   Turker M, 2015, INT J APPL EARTH OBS, V34, P58, DOI 10.1016/j.jag.2014.06.016
+   Vargas-Munoz JE, 2019, ISPRS J PHOTOGRAMM, V147, P283, DOI 10.1016/j.isprsjprs.2018.11.010
+   Volpi M, 2018, ISPRS J PHOTOGRAMM, V144, P48, DOI 10.1016/j.isprsjprs.2018.06.007
+   Wang N., 2018, ECCV, V0, P0
+   Wei SQ, 2020, IEEE T GEOSCI REMOTE, V58, P2178, DOI 10.1109/TGRS.2019.2954461
+   Wu GM, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030407
+   Yang HL, 2018, IEEE J-STARS, V11, P2600, DOI 10.1109/JSTARS.2018.2835377
+   Yi L, 2017, PROC CVPR IEEE, V0, PP6584, DOI 10.1109/CVPR.2017.697
+   Zeng D., 2018, IEEE T PATTERN ANAL, V0, P0
+   Zha K, 2018, IEEE COMPUT SOC CONF, V0, PP242, DOI 10.1109/CVPRW.2018.00045
+   Zhang CS, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.026005
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+NR 56
+TC 29
+Z9 30
+U1 12
+U2 44
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29a, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD DEC 15
+PY 2020
+VL 170
+IS 
+BP 114
+EP 126
+DI 10.1016/j.isprsjprs.2020.10.008
+PG 13
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OV5IE
+UT WOS:000592242600009
+DA 2023-04-26
+ER
+
+PT J
+AU Schiefer, F
+   Kattenborn, T
+   Frick, A
+   Frey, J
+   Schall, P
+   Koch, B
+   Schmidtlein, S
+AF Schiefer, Felix
+   Kattenborn, Teja
+   Frick, Annett
+   Frey, Julian
+   Schall, Peter
+   Koch, Barbara
+   Schmidtlein, Sebastian
+TI Mapping forest tree species in high resolution UAV-based RGB-imagery by means of convolutional neural networks
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; Forest inventory; Convolutional neural networks; Tree species classification; Unmanned aerial systems; Temperate forests
+ID citrus-trees; classification
+AB The use of unmanned aerial vehicles (UAVs) in vegetation remote sensing allows a time-flexible and cost-effective acquisition of very high-resolution imagery. Still, current methods for the mapping of forest tree species do not exploit the respective, rich spatial information. Here, we assessed the potential of convolutional neural networks (CNNs) and very high-resolution RGB imagery from UAVs for the mapping of tree species in temperate forests. We used multicopter UAVs to obtain very high-resolution (<2 cm) RGB imagery over 51 ha of temperate forests in the Southern Black Forest region, and the Hainich National Park in Germany. To fully harness the end-to-end learning capabilities of CNNs, we used a semantic segmentation approach (U-net) that concurrently segments and classifies tree species from imagery. With a diverse dataset in terms of study areas, site conditions, illumination properties, and phenology, we accurately mapped nine tree species, three genus-level classes, deadwood, and forest floor (mean F1-score 0.73). A larger tile size during CNN training negatively affected the model accuracies for underrepresented classes. Additional height information from normalized digital surface models slightly increased the model accuracy but increased computational complexity and data requirements. A coarser spatial resolution substantially reduced the model accuracy (mean F1-score of 0.26 at 32 cm resolution). Our results highlight the key role that UAVs can play in the mapping of forest tree species, given that air- and spaceborne remote sensing currently does not provide comparable spatial resolutions. The end-to-end learning capability of CNNs makes extensive preprocessing partly obsolete. The use of large and diverse datasets facilitate a high degree of generalization of the CNN, thus fostering transferability. The synergy of high-resolution UAV imagery and CNN provide a fast and flexible yet accurate means of mapping forest tree species.
+C1 [Schiefer, Felix; Kattenborn, Teja; Schmidtlein, Sebastian] Karlsruhe Inst Technol KIT, Inst Geog & Geoecol, D-76131 Karlsruhe, Germany.
+   [Kattenborn, Teja] Univ Leipzig, Remote Sensing Ctr Earth Syst Res, D-04103 Leipzig, Germany.
+   [Frick, Annett] Luftbild Umwelt Planung GmbH LUP, Grosse Weinmeisterstr 3a, D-14469 Potsdam, Germany.
+   [Frey, Julian] Univ Freiburg, Chair Forest Growth & Dendroecol, D-79106 Freiburg, Germany.
+   [Frey, Julian; Koch, Barbara] Univ Freiburg, Chair Remote Sensing & Landscape Informat Syst, D-79106 Freiburg, Germany.
+   [Schall, Peter] Univ Gottingen, Silviculture & Forest Ecol Temperate Zones, D-37077 Gottingen, Germany.
+C3 Helmholtz Association; Karlsruhe Institute of Technology; Leipzig University; University of Freiburg; University of Freiburg; University of Gottingen
+RP Schiefer, F (corresponding author), Karlsruhe Inst Technol KIT, Inst Geog & Geoecol, D-76131 Karlsruhe, Germany.
+EM felix.schiefer@kit.edu
+FU National Park and the Biodiversity Exploratories project (German Research Foundation -DFG Priority Program 1374 "Infrastructure-Biodiversity-Exploratories"); German Aerospace Centre (DLR) on behalf of the Federal Ministry of Economics and Technology (BMWi) [FKZ 50EE1909A]; German Research Foundation DFG [GRK 2123]
+CR Allaire J.J., 2019, TENSORFLOW R INTERFA, V0, P0
+   Allaire J.J., 2019, KERAS R INTERFACE KE, V0, P0
+   andler G., 2015, REGIONALE AUSWERTUNG, V0, P0
+   [Anonymous], 2014, CUDNN EFFICIENT PRIM, V0, P0
+   [Anonymous], 2019, TFDATASETS INTERFACE, V0, P0
+   [Anonymous], 2015, TENSORFLOW LARGE SCA, V0, P0
+   Audebert N, 2019, IEEE GEOSC REM SEN M, V7, P159, DOI 10.1109/MGRS.2019.2912563
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Brodrick PG, 2019, TRENDS ECOL EVOL, V34, P734, DOI 10.1016/j.tree.2019.03.006
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Chen Y, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131584
+   Chollet F., 2017, R INTERFACE TO KERAS, V0, P0
+   Csillik O, 2018, DRONES-BASEL, V2, P0, DOI 10.3390/drones2040039
+   dos Santos AA, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19163595
+   FAO, 2020, ROME, V0, P0, DOI DOI 10.4060/ca8753-n
+   Fassnacht FE, 2016, REMOTE SENS ENVIRON, V186, P64, DOI 10.1016/j.rse.2016.08.013
+   Fischer M, 2010, BASIC APPL ECOL, V11, P473, DOI 10.1016/j.baae.2010.07.009
+   Franklin SE, 2018, INT J REMOTE SENS, V39, P5236, DOI 10.1080/01431161.2017.1363442
+   Freudenberg M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030312
+   Frey J, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10060912
+   Fricker GA, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11192326
+   Fromm M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212585
+   Gini R, 2014, EUR J REMOTE SENS, V47, P251, DOI 10.5721/EuJRS20144716
+   Hamdi ZM, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11171976
+   Hartling S, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19061284
+   Jegou S, 2017, IEEE COMPUT SOC CONF, V0, PP1175, DOI 10.1109/CVPRW.2017.156
+   Kaartinen H, 2015, FORESTS, V6, P3218, DOI 10.3390/f6093218
+   Kattenborn T, 2020, REMOTE SENS ECOL CON, V6, P472, DOI 10.1002/rse2.146
+   Kattenborn T, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-53797-9
+   Kattenborn T, 2019, REMOTE SENS ENVIRON, V227, P61, DOI 10.1016/j.rse.2019.03.025
+   Kislov DE, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071145
+   Komarek J, 2020, APPL VEG SCI, V23, P718, DOI 10.1111/avsc.12503
+   Li WJ, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9010022
+   Torres DL, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20020563
+   Lopez-Jimenez E, 2019, ECOL INFORM, V52, P131, DOI 10.1016/j.ecoinf.2019.05.005
+   Ma L, 2019, ISPRS J PHOTOGRAMM, V152, P166, DOI 10.1016/j.isprsjprs.2019.04.015
+   Michez A, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-015-4996-2
+   Morales G, 2018, FORESTS, V9, P0, DOI 10.3390/f9120736
+   Muller K., 2019, TIBBLE SIMPLE DATA F, V0, P0
+   Natesan S., 2019, ISPRS INT ARCH PHOTO, V4213, P475, DOI 10.5194/ISPRS-ARCHIVES-XLII-2-W13-475-2019
+   Nevalainen O, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030185
+   Nezami S, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071070
+   Osco LP, 2020, ISPRS J PHOTOGRAMM, V160, P97, DOI 10.1016/j.isprsjprs.2019.12.010
+   Qian WQ, 2020, COMPUT ELECTRON AGR, V174, P0, DOI 10.1016/j.compag.2020.105519
+   Rezaee M, 2018, IEEE J-STARS, V11, P3030, DOI 10.1109/JSTARS.2018.2846178
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Safonova A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060643
+   Schall P, 2018, BASIC APPL ECOL, V32, P39, DOI 10.1016/j.baae.2018.02.007
+   Sothe C, 2020, GISCI REMOTE SENS, V57, P369, DOI 10.1080/15481603.2020.1712102
+   Storch I, 2020, ECOL EVOL, V10, P1489, DOI 10.1002/ece3.6003
+   Trier OD, 2018, EUR J REMOTE SENS, V51, P336, DOI 10.1080/22797254.2018.1434424
+   Valbuena R., 2012, SPANISH J AGR RES, V8, P1047
+   Wagner FH, 2020, PLOS ONE, V15, P0, DOI 10.1371/journal.pone.0229448
+   Wagner FH, 2019, REMOTE SENS ECOL CON, V5, P360, DOI 10.1002/rse2.111
+   Wallace L, 2019, FORESTS, V10, P0, DOI 10.3390/f10030284
+   Weinstein B, 2020, ECOL INFORM, V56, P0, DOI 10.1016/j.ecoinf.2020.101061
+   Weinstein BG, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111309
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 60
+TC 88
+Z9 89
+U1 26
+U2 118
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD DEC 15
+PY 2020
+VL 170
+IS 
+BP 205
+EP 215
+DI 10.1016/j.isprsjprs.2020.10.015
+PG 11
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OV5IE
+UT WOS:000592242600015
+DA 2023-04-26
+ER
+
+PT J
+AU Ramanoel, S
+   Durteste, M
+   Becu, M
+   Habas, C
+   Arleo, A
+AF Ramanoel, Stephen
+   Durteste, Marion
+   Becu, Marcia
+   Habas, Christophe
+   Arleo, Angelo
+TI Differential Brain Activity in Regions Linked to Visuospatial Processing During Landmark-Based Navigation in Young and Healthy Older Adults
+SO FRONTIERS IN HUMAN NEUROSCIENCE
+LA English
+DT Article
+DE healthy aging; spatial navigation; landmark; fMRI; scene-selective regions
+ID occipital place area; age-related differences; spatial navigation; environmental boundary; retrosplenial cortex; alzheimers-disease; parietal cortex; cognitive map; hippocampal; performance
+AB Older adults have difficulties in navigating unfamiliar environments and updating their wayfinding behavior when faced with blocked routes. This decline in navigational capabilities has traditionally been ascribed to memory impairments and dysexecutive function, whereas the impact of visual aging has often been overlooked. The ability to perceive visuospatial information such as salient landmarks is essential to navigating efficiently. To date, the functional and neurobiological factors underpinning landmark processing in aging remain insufficiently characterized. To address this issue, functional magnetic resonance imaging (fMRI) was used to investigate the brain activity associated with landmark-based navigation in young and healthy older participants. The performances of 25 young adults (mu = 25.4 years, sigma = 2.7; seven females) and 17 older adults (mu = 73.0 years, sigma = 3.9; 10 females) were assessed in a virtual-navigation task in which they had to orient using salient landmarks. The underlying whole-brain patterns of activity as well as the functional roles of specific cerebral regions involved in landmark processing, namely the parahippocampal place area (PPA), the occipital place area (OPA), and the retrosplenial cortex (RSC), were analyzed. Older adults' navigational abilities were overall diminished compared to young adults. Also, the two age groups relied on distinct navigational strategies to solve the task. Better performances during landmark-based navigation were associated with increased neural activity in an extended neural network comprising several cortical and cerebellar regions. Direct comparisons between age groups revealed that young participants had greater anterior temporal activity. Also, only young adults showed significant activity in occipital areas corresponding to the cortical projection of the central visual field during landmark-based navigation. The region-of-interest analysis revealed an increased OPA activation in older adult participants during the landmark condition. There were no significant between-group differences in PPA and RSC activations. These preliminary results hint at the possibility that aging diminishes fine-grained information processing in occipital and temporal regions, thus hindering the capacity to use landmarks adequately for navigation. Keeping sight of its exploratory nature, this work helps towards a better comprehension of the neural dynamics subtending landmark-based navigation and it provides new insights on the impact of age-related visuospatial processing differences on navigation capabilities.
+C1 [Ramanoel, Stephen; Durteste, Marion; Becu, Marcia; Arleo, Angelo] Sorbonne Univ, INSERM, CNRS, Inst Vis, Paris, France.
+   [Ramanoel, Stephen] Univ Geneva, Fac Psychol & Educ Sci, Geneva, Switzerland.
+   [Ramanoel, Stephen] Univ Cote dAzur, LAMHESS, Nice, France.
+   [Habas, Christophe] INSERM, DGOS CIC 1423, CHNO Quinze Vingts, Paris, France.
+C3 Centre National de la Recherche Scientifique (CNRS); Institut National de la Sante et de la Recherche Medicale (Inserm); UDICE-French Research Universities; Sorbonne Universite; University of Geneva; UDICE-French Research Universities; Universite Cote d'Azur; CHNO des Quinze-Vingts; Institut National de la Sante et de la Recherche Medicale (Inserm); UDICE-French Research Universities; Sorbonne Universite
+RP Ramanoel, S (corresponding author), Sorbonne Univ, INSERM, CNRS, Inst Vis, Paris, France.; Ramanoel, S (corresponding author), Univ Geneva, Fac Psychol & Educ Sci, Geneva, Switzerland.; Ramanoel, S (corresponding author), Univ Cote dAzur, LAMHESS, Nice, France.
+EM stephen.ramanoel@univ-cotedazur.fr
+FU Chair SILVERSIGHT Agence Nationale de la Recherche [ANR-18-CHIN-0002]; LabEx LIFESENSES [ANR-10-LABX-65]; IHU FOReSIGHT [ANR-18-IAHU-01]
+CR Adamo DE, 2012, FRONT AGING NEUROSCI, V4, P0, DOI 10.3389/fnagi.2012.00026
+   Allen GL, 1996, INTELLIGENCE, V22, P327, DOI 10.1016/S0160-2896(96)90026-4
+   Allison SL, 2016, J ALZHEIMERS DIS, V52, P77, DOI 10.3233/JAD-150855
+   [Anonymous], 1900, DOI 10.1002/HBM.460020402 DOI 10.1002/HBM.460020402, V0, P0
+   Antonova E, 2009, MEMORY, V17, P125, DOI 10.1080/09658210802077348
+   Auger SD, 2018, J NEUROSCI, V38, P1472, DOI 10.1523/JNEUROSCI.2602-17.2017
+   Auger SD, 2015, ELIFE, V4, P0, DOI 10.7554/eLife.09031
+   Auger SD, 2012, PLOS ONE, V7, P0, DOI 10.1371/journal.pone.0043620
+   Becu M, 2020, NAT HUM BEHAV, V4, P88, DOI 10.1038/s41562-019-0718-z
+   Bo J, 2011, NEUROSCI LETT, V504, P68, DOI 10.1016/j.neulet.2011.08.060
+   Bohbot VD, 2012, FRONT AGING NEUROSCI, V4, P0, DOI 10.3389/fnagi.2012.00028
+   Bonner MF, 2017, P NATL ACAD SCI USA, V114, P4793, DOI 10.1073/pnas.1618228114
+   Burke SN, 2018, TRENDS NEUROSCI, V41, P349, DOI 10.1016/j.tins.2018.03.001
+   Caffo AO, 2018, AGING MENT HEALTH, V22, P1372, DOI 10.1080/13607863.2017.1354973
+   Cheng K, 2005, PSYCHON B REV, V12, P1, DOI 10.3758/BF03196346
+   Chersi F, 2015, NEURON, V88, P64, DOI 10.1016/j.neuron.2015.09.021
+   Chrastil ER, 2013, PSYCHON B REV, V20, P208, DOI 10.3758/s13423-012-0351-6
+   Ciaramelli E, 2010, J EXP PSYCHOL LEARN, V36, P619, DOI 10.1037/a0019181
+   Colombo D, 2017, NEUROSCI BIOBEHAV R, V80, P605, DOI 10.1016/j.neubiorev.2017.07.012
+   Cona G, 2019, HUM BRAIN MAPP, V40, P1867, DOI 10.1002/hbm.24496
+   Corsi PM., 1973, DISSERT ABSTR, V34, P891
+   Coughlan G, 2018, NAT REV NEUROL, V14, P496, DOI 10.1038/s41582-018-0031-x
+   Daugherty AM, 2017, NEUROIMAGE, V146, P492, DOI 10.1016/j.neuroimage.2016.09.044
+   Daugherty AM, 2016, CEREB CORTEX, V26, P2391, DOI 10.1093/cercor/bhv061
+   Dillen KNH, 2016, NEUROBIOL AGING, V44, P114, DOI 10.1016/j.neurobiolaging.2016.04.010
+   DOLLINGER SMC, 1995, DEV NEUROPSYCHOL, V11, P215
+   Ekstrom AD, 2015, HIPPOCAMPUS, V25, P731, DOI 10.1002/hipo.22449
+   Epstein RA, 2008, TRENDS COGN SCI, V12, P388, DOI 10.1016/j.tics.2008.07.004
+   Epstein RA, 2017, NAT NEUROSCI, V20, P1504, DOI 10.1038/nn.4656
+   Epstein RA, 2014, PHILOS T R SOC B, V369, P0, DOI 10.1098/rstb.2012.0533
+   Fjell AM, 2014, PROG NEUROBIOL, V117, P20, DOI 10.1016/j.pneurobio.2014.02.004
+   FOLSTEIN MF, 1975, J PSYCHIAT RES, V12, P189, DOI 10.1016/0022-3956(75)90026-6
+   Foo P, 2005, J EXP PSYCHOL LEARN, V31, P195, DOI 10.1037/0278-7393.31.2.195
+   FOSTER TC, 2012, FRONT AGING NEUROSCI, V4, P0
+   Gazova I, 2013, FRONT AGING NEUROSCI, V5, P0, DOI 10.3389/fnagi.2013.00094
+   Gazova I, 2012, FRONT AGING NEUROSCI, V4, P0, DOI 10.3389/fnagi.2012.00016
+   Giocomo LM, 2016, J PHYSIOL-LONDON, V594, P6501, DOI 10.1113/JP270624
+   Glasser MF, 2013, NEUROIMAGE, V80, P105, DOI 10.1016/j.neuroimage.2013.04.127
+   Goodroe SC, 2018, FRONT HUM NEUROSCI, V12, P0, DOI 10.3389/fnhum.2018.00250
+   Greene NR, 2020, PSYCHOL SCI, V31, P316, DOI 10.1177/0956797620901760
+   Gron G, 2000, NAT NEUROSCI, V3, P404, DOI 10.1038/73980
+   Harris MA, 2012, FRONT AGING NEUROSCI, V4, P0, DOI 10.3389/fnagi.2012.00029
+   Harris MA, 2012, HIPPOCAMPUS, V22, P1770, DOI 10.1002/hipo.22011
+   Hartmeyer S, 2017, FRONT AGING NEUROSCI, V9, P0, DOI 10.3389/fnagi.2017.00235
+   Herweg NA, 2018, FRONT HUM NEUROSCI, V12, P0, DOI 10.3389/fnhum.2018.00297
+   Hirsch P, 2016, ACTA PSYCHOL, V170, P66, DOI 10.1016/j.actpsy.2016.06.008
+   Iachini T, 2005, DISABIL REHABIL, V27, P741, DOI 10.1080/09638280400014782
+   Iaria G, 2003, J NEUROSCI, V23, P5945
+   Iaria G, 2009, BEHAV BRAIN RES, V196, P187, DOI 10.1016/j.bbr.2008.08.040
+   Igloi K, 2015, CEREB CORTEX, V25, P4146, DOI 10.1093/cercor/bhu132
+   Igloi K, 2010, P NATL ACAD SCI USA, V107, P14466, DOI 10.1073/pnas.1004243107
+   Ito HT, 2018, NEUROSCI RES, V129, P2, DOI 10.1016/j.neures.2017.04.016
+   Janzen G, 2004, NAT NEUROSCI, V7, P673, DOI 10.1038/nn1257
+   Javadi AH, 2017, NAT COMMUN, V8, P0, DOI 10.1038/ncomms14652
+   Julian JB, 2018, CURR BIOL, V28, PR1059, DOI 10.1016/j.cub.2018.04.057
+   Julian JB, 2016, CURR BIOL, V26, P1104, DOI 10.1016/j.cub.2016.02.066
+   Kamps FS, 2016, NEUROIMAGE, V132, P417, DOI 10.1016/j.neuroimage.2016.02.062
+   Kauffmann L, 2014, FRONT INTEGR NEUROSC, V8, P0, DOI 10.3389/fnint.2014.00037
+   Kimura K, 2019, NEUROSCI INSIGHTS, V14, P0, DOI 10.1177/2633105519896803
+   KIRASIC KC, 1991, PSYCHOL AGING, V6, P10, DOI 10.1037/0882-7974.6.1.10
+   Konishi K, 2013, HIPPOCAMPUS, V23, P1005, DOI 10.1002/hipo.22181
+   Korthauer LE, 2016, NEUROBIOL AGING, V39, P118, DOI 10.1016/j.neurobiolaging.2015.12.003
+   Kozhevnikov M, 2006, APPL COGNITIVE PSYCH, V20, P397, DOI 10.1002/acp.1192
+   Kozhevnikov M, 2001, MEM COGNITION, V29, P745, DOI 10.3758/BF03200477
+   Kravitz DJ, 2013, TRENDS COGN SCI, V17, P26, DOI 10.1016/j.tics.2012.10.011
+   Kuhn S, 2014, HUM BRAIN MAPP, V35, P1129, DOI 10.1002/hbm.22239
+   Laczo J, 2018, AGING-US, V10, P3050, DOI 10.18632/aging.101634
+   Laczo J, 2017, NEUROBIOL AGING, V51, P67, DOI 10.1016/j.neurobiolaging.2016.12.003
+   Lagrene K, 2019, INVEST OPHTH VIS SCI, V60, P0
+   Lester AW, 2017, NEURON, V95, P1019, DOI 10.1016/j.neuron.2017.06.037
+   Li AWY, 2019, NEUROSCI BIOBEHAV R, V103, P33, DOI 10.1016/j.neubiorev.2019.05.005
+   Lithfous S, 2013, AGEING RES REV, V12, P201, DOI 10.1016/j.arr.2012.04.007
+   Litman L, 2009, HIPPOCAMPUS, V19, P308, DOI 10.1002/hipo.20515
+   Lovden M, 2012, NEUROBIOL AGING, V33, P0, DOI 10.1016/j.neurobiolaging.2011.02.013
+   Marchette SA, 2015, J NEUROSCI, V35, P14896, DOI 10.1523/JNEUROSCI.2270-15.2015
+   Mazaika P.K., 2009, NEUROIMAGE, V47, PS58, DOI 10.1016/S1053-8119(09)70238-1
+   Meneghetti C, 2018, CURR ALZHEIMER RES, V15, P205, DOI 10.2174/1567205014666171030113515
+   Merhav M, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-47971-2
+   Merhav M, 2019, NEUROBIOL AGING, V76, P53, DOI 10.1016/j.neurobiolaging.2018.12.010
+   Meulenbroek O, 2004, NEUROIMAGE, V22, P1503, DOI 10.1016/j.neuroimage.2004.04.007
+   Miniaci Maria Concetta, 2018, F1000RES, V7, P168, DOI 10.12688/f1000research.13675.1
+   Moffat SD, 2006, NEUROBIOL AGING, V27, P965, DOI 10.1016/j.neurobiolaging.2005.05.011
+   Moffat SD, 2009, NEUROPSYCHOL REV, V19, P478, DOI 10.1007/s11065-009-9120-3
+   Moffat SD, 2002, BEHAV NEUROSCI, V116, P851, DOI 10.1037//0735-7044.116.5.851
+   Muffato V, 2020, BRIT J PSYCHOL, V111, P70, DOI 10.1111/bjop.12384
+   Nau M, 2018, TRENDS COGN SCI, V22, P810, DOI 10.1016/j.tics.2018.06.008
+   OHTA RJ, 1981, EXP AGING RES, V7, P45, DOI 10.1080/03610738108259785
+   Packard MG, 2013, HIPPOCAMPUS, V23, P1044, DOI 10.1002/hipo.22178
+   Patai EZ, 2017, CURR BIOL, V27, PR599, DOI 10.1016/j.cub.2017.05.012
+   Perrochon A, 2018, NEUROSCI LETT, V684, P13, DOI 10.1016/j.neulet.2018.06.054
+   Persichetti AS, 2019, P NATL ACAD SCI USA, V116, P21312, DOI 10.1073/pnas.1903057116
+   Persichetti AS, 2018, J NEUROSCI, V38, P10295, DOI 10.1523/JNEUROSCI.1200-18.2018
+   Persichetti AS, 2016, CORTEX, V77, P155, DOI 10.1016/j.cortex.2016.02.006
+   Picucci L, 2009, COGN PROCESS, V10, PS272, DOI 10.1007/s10339-009-0321-8
+   Ramanoel S., 2020, DIFFERENTIAL BRAIN A, V0, P0, DOI DOI 10.1101/2020.03.13.990572
+   Ramanoel S, 2019, FRONT NEURAL CIRCUIT, V13, P0, DOI 10.3389/fncir.2019.00069
+   Ramanoel S, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0134554
+   Ratliff KR, 2008, PSYCHOL SCI, V19, P1301, DOI 10.1111/j.1467-9280.2008.02239.x
+   Rochefort C, 2013, FRONT NEURAL CIRCUIT, V7, P0, DOI 10.3389/fncir.2013.00035
+   Rodgers MK, 2012, NEUROBIOL AGING, V33, P0, DOI 10.1016/j.neurobiolaging.2010.07.021
+   Sack AT, 2009, BEHAV BRAIN RES, V202, P153, DOI 10.1016/j.bbr.2009.03.012
+   Schuck NW, 2015, NEUROIMAGE, V117, P141, DOI 10.1016/j.neuroimage.2015.05.031
+   Seghier ML, 2013, NEUROSCIENTIST, V19, P43, DOI 10.1177/1073858412440596
+   Sherrill KR, 2015, NEUROIMAGE, V118, P386, DOI 10.1016/j.neuroimage.2015.06.009
+   Spiers HJ, 2015, CURR OPIN BEHAV SCI, V1, P47, DOI 10.1016/j.cobeha.2014.08.005
+   Stankiewicz BJ, 2007, J EXP PSYCHOL HUMAN, V33, P378, DOI 10.1037/0096-1523.33.2.378
+   Sturz BR, 2013, J EXP PSYCHOL-ANIM B, V39, P390, DOI 10.1037/a0032543
+   Sutton JE, 2010, J EXP PSYCHOL LEARN, V36, P1097, DOI 10.1037/a0019938
+   Techentin C, 2014, EXP AGING RES, V40, P395, DOI 10.1080/0361073X.2014.926773
+   Tommasi L, 2012, NEUROSCI BIOBEHAV R, V36, P799, DOI 10.1016/j.neubiorev.2011.12.007
+   United Nations Departement of Economic and Social Affairs Population Division, 2019, STESASERA430 UN SAL, V0, P0
+   van der Ham IJM, 2020, AGEING RES REV, V58, P0, DOI 10.1016/j.arr.2020.101020
+   VANDENBERG SG, 1978, PERCEPT MOTOR SKILL, V47, P599, DOI 10.2466/pms.1978.47.2.599
+   VANDERHAM IJM, 2015, FRONT PSYCHOL, V0006, P0
+   Vann SD, 2009, NAT REV NEUROSCI, V10, P792, DOI 10.1038/nrn2733
+   Wandell BA, 2005, PHILOS T R SOC B, V360, P693, DOI 10.1098/rstb.2005.1628
+   Weiskopf N, 2006, NEUROIMAGE, V33, P493, DOI 10.1016/j.neuroimage.2006.07.029
+   Wiener JM, 2013, J NEUROSCI, V33, P6012, DOI 10.1523/JNEUROSCI.0717-12.2013
+   WIENER JM, 2012, FRONT AGING NEUROSCI, V4, P0
+   Wilkniss SM, 1997, PSYCHOL AGING, V12, P372, DOI 10.1037/0882-7974.12.2.372
+   Wolbers T, 2005, J NEUROSCI, V25, P3333, DOI 10.1523/JNEUROSCI.4705-04.2005
+   Wolbers T, 2010, TRENDS COGN SCI, V14, P138, DOI 10.1016/j.tics.2010.01.001
+   Zajac L, 2019, BRAIN BEHAV, V9, P0, DOI 10.1002/brb3.1236
+   Zhong JY, 2018, FRONT HUM NEUROSCI, V12, P0, DOI 10.3389/fnhum.2018.00272
+   Zhong JY, 2016, FRONT AGING NEUROSCI, V8, P0, DOI 10.3389/fnagi.2016.00122
+NR 125
+TC 10
+Z9 10
+U1 3
+U2 10
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 1662-5161
+EI 
+J9 FRONT HUM NEUROSCI
+JI Front. Hum. Neurosci.
+PD OCT 29
+PY 2020
+VL 14
+IS 
+BP 
+EP 
+DI 10.3389/fnhum.2020.552111
+PG 16
+WC Neurosciences; Psychology
+SC Neurosciences & Neurology; Psychology
+GA OR7VG
+UT WOS:000589675500001
+PM 33240060
+DA 2023-04-26
+ER
+
+PT J
+AU Papageorgiou, K
+   Carvalho, G
+   Papageorgiou, EI
+   Papandrianos, NI
+   Mendonca, M
+   Stamoulis, G
+AF Papageorgiou, Konstantinos
+   Carvalho, Gustavo
+   Papageorgiou, Elpiniki, I
+   Papandrianos, Nikolaos, I
+   Mendonca, Marcio
+   Stamoulis, George
+TI Exploring Brazilian Photovoltaic Solar Energy development scenarios using the Fuzzy Cognitive Map Wizard Tool
+SO 2020 IEEE INTERNATIONAL CONFERENCE ON FUZZY SYSTEMS (FUZZ-IEEE)
+LA English
+DT Proceedings Paper
+DE Fuzzy Cognitive Maps; photovoltaic solar energy; FCMWizard; scenario analysis
+ID networks
+AB Photovoltaic Solar Energy (PSE) sector has gained great attention during the last decades due to its significant role in the transition to sustainable energy systems. As a viable energy option, PSE has the potential to meet many of the challenges facing the world, along with the diminution of world's dependency to fossil fuels, greenhouse gas emissions reduction and global warming mitigation. In the case of Brazil, the adoption of photovoltaic solar energy is mainly driven by the shortages and several other barriers that are met in the Brazilian energy sector. The development of the Brazilian PSE is the main concern of this study, and authors focus on the investigation of certain factors and their influence on this main outcome with the use of Fuzzy Cognitive Maps (FCMs). FCM is a well-established methodology for scenario analysis and management in diverse domains, and is based on fuzzy logic and neural networks aspects. In this paper we report particularly on the application of a new web-based software tool, called "FCMWizard", which can model complex and dynamic systems, implement several hypotheses and run various scenarios, helping decision-makers and stakeholders with the policy-making and energy management process. In this context, a semi-quantitative model was designed, which comprises 10 key concepts and three plausible scenarios were further conducted. The findings of this study highlight the economic and political influence on the development of the PSE sector in Brazil.
+C1 [Papageorgiou, Konstantinos] Univ Thessaly, Dept Comp Sci & Telecommun, Papasiopoulou 2-4, Lamia 35131, Greece.
+   [Carvalho, Gustavo] Univ Sao Paulo, Fac Econ Business Adm & Accounting, Sao Paulo, Brazil.
+   [Papageorgiou, Elpiniki, I] Univ Thessaly, Fac Technol, Dept Energy Syst, Geopolis Campus, Larisa 41500, Greece.
+   [Papandrianos, Nikolaos, I] Univ Thessaly, Gen Dept, 3rd Km Old Natl Rd Lamia Athens, Lamia 35100, Greece.
+   [Mendonca, Marcio] Fed Univ Technol Parana UTFPR, Elect Acad Dept DAELE, Cornelio Procopio, Brazil.
+   [Stamoulis, George] Univ Thessaly, Dept Elect & Comp Engn, Volos 38221, Greece.
+C3 Universidade de Sao Paulo; University of Thessaly; Universidade Tecnologica Federal do Parana; University of Thessaly
+RP Papageorgiou, K (corresponding author), Univ Thessaly, Dept Comp Sci & Telecommun, Papasiopoulou 2-4, Lamia 35131, Greece.
+EM konpapageorgiou@uth.gr; gustavocarvalho@usp.br; elpinikipapageorgiou@uth.gr; npapandrianos@uth.gr; mendonca@utfpr.edu.br; georges@uth.gr
+CR Alipour M, 2019, RENEW SUST ENERG REV, V116, P0, DOI 10.1016/j.rser.2019.109410
+   Amer M, 2011, INT J ENERGY SECT MA, V5, P564, DOI 10.1108/17506221111186378
+   Azadeh A, 2009, EXPERT SYST APPL, V36, P11108, DOI 10.1016/j.eswa.2009.02.081
+   Bachhofer M., 2019, FCMAPPERS DISCONNECT, V0, P0
+   Borrie D., 2004, 39 INT U POW ENG C U, V3, P1150
+   Brown R.G., 1963, SMOOTHING FORECASTIN, V0, P0
+   de Franciscis D., 2014, FUZZY COGNITIVE MAPS, V0, PP199, DOI 10.1007/978-3-642-39739-4_12
+   de Paulo AF, 2018, J CLEAN PROD, V204, P310, DOI 10.1016/j.jclepro.2018.08.344
+   Fadare DA, 2009, APPL ENERG, V86, P1410, DOI 10.1016/j.apenergy.2008.12.005
+   Ferreira A, 2018, RENEW SUST ENERG REV, V81, P181, DOI 10.1016/j.rser.2017.06.102
+   Glykas M, 2010, STUD FUZZ SOFT COMP, V247, P1, DOI 10.1007/978-3-642-03220-2
+   Gray SRJ, 2014, OCEAN COAST MANAGE, V94, P74, DOI 10.1016/j.ocecoaman.2013.11.008
+   Gray SA, 2013, P ANN HICSS, V0, PP965, DOI 10.1109/HICSS.2013.399
+   Groumpos PP, 2010, STUD FUZZ SOFT COMP, V247, P1
+   Huang SC, 2013, ENERG POLICY, V63, P851, DOI 10.1016/j.enpol.2013.09.012
+   Jebaraj S, 2006, RENEW SUST ENERG REV, V10, P281, DOI 10.1016/j.rser.2004.09.004
+   Jetter A, 2011, FUTURES, V43, P52, DOI 10.1016/j.futures.2010.05.002
+   Karagiannis IE, 2013, MED C CONTR AUTOMAT, V0, PP257, DOI 10.1109/MED.2013.6608731
+   Khatib T, 2012, INT J PHOTOENERGY, V2012, P0, DOI 10.1155/2012/419504
+   Khatib T, 2012, RENEW SUST ENERG REV, V16, P2864, DOI 10.1016/j.rser.2012.01.064
+   Kok K, 2009, GLOBAL ENVIRON CHANG, V19, P122, DOI 10.1016/j.gloenvcha.2008.08.003
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Lam JC, 2008, ENERG CONVERS MANAGE, V49, P1080, DOI 10.1016/j.enconman.2007.09.021
+   Lenz AM, 2017, J CLEAN PROD, V167, P201, DOI 10.1016/j.jclepro.2017.08.149
+   Margaritis M., 2002, 10 INT C SOFTWARE TE, V0, P8
+   Martins FR, 2007, SOL ENERGY, V81, P517, DOI 10.1016/j.solener.2006.07.009
+   Ministerio de Minas e Energia (MME), 2016, NUCL EST ESTR EN, V0, P0
+   Mohandes M, 1998, RENEW ENERG, V14, P179, DOI 10.1016/S0960-1481(98)00065-2
+   Napoles G, 2017, PROC INT C TOOLS ART, V0, PP644, DOI 10.1109/ICTAI.2017.00103
+   Nikas A, 2019, APPL SOFT COMPUT, V76, P140, DOI 10.1016/j.asoc.2018.12.015
+   Papageorgiou E., 2018, WEB BASED TOOL FUZZY, V0, P0
+   Papageorgiou E.I., 2014, FUZZY COGNITIVE MAPS, V0, P0
+   Papageorgiou EI, 2012, IEEE T SYST MAN CY C, V42, P150, DOI 10.1109/TSMCC.2011.2138694
+   Papageorgiou EI, 2011, APPL SOFT COMPUT, V11, P500, DOI 10.1016/j.asoc.2009.12.010
+   Pedro HTC, 2012, SOL ENERGY, V86, P2017, DOI 10.1016/j.solener.2012.04.004
+   Reddy KS, 2003, ENERG CONVERS MANAGE, V44, P2519, DOI 10.1016/S0196-8904(03)00009-8
+   Rocha B. C., 2018, 2018 S BRAS SIST EL, V0, PP1, DOI 10.1109/SBSE.2018.8395606
+   Salmeron JL, 2009, RES TECHNOL MANAGE, V52, P53, DOI 10.1080/08956308.2009.11657569
+   SCHOEMAKER PJH, 1995, SLOAN MANAGE REV, V36, P25
+   Sen Z, 1998, SOL ENERGY, V63, P39, DOI 10.1016/S0038-092X(98)00043-7
+   Sen Z., 2008, SOLAR ENERGY FUNDAME, V0, P0
+   Sozen A, 2005, RENEW ENERG, V30, P1075, DOI 10.1016/j.renene.2004.09.020
+   van Vliet M, 2010, FUTURES, V42, P1, DOI 10.1016/j.futures.2009.08.005
+   Warren B, 2015, RENEWABLE ENERGY COU, V0, P0
+   Zarzalejo LF, 2005, ENERGY, V30, P1685, DOI 10.1016/j.energy.2004.04.047
+   Ziv G, 2018, APPL ENERG, V210, P487, DOI 10.1016/j.apenergy.2017.08.033
+NR 46
+TC 0
+Z9 0
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1098-7584
+EI 
+J9 IEEE INT CONF FUZZY
+PD JUN 15
+PY 2020
+VL 0
+IS 
+BP 
+EP 
+DI 
+PG 8
+WC Computer Science, Artificial Intelligence; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BS2BI
+UT WOS:000698733400042
+DA 2023-04-26
+ER
+
+PT J
+AU Ayhan, B
+   Kwan, C
+   Budavari, B
+   Kwan, L
+   Lu, Y
+   Perez, D
+   Li, J
+   Skarlatos, D
+   Vlachos, M
+AF Ayhan, Bulent
+   Kwan, Chiman
+   Budavari, Bence
+   Kwan, Liyun
+   Lu, Yan
+   Perez, Daniel
+   Li, Jiang
+   Skarlatos, Dimitrios
+   Vlachos, Marinos
+TI Vegetation Detection Using Deep Learning and Conventional Methods
+SO REMOTE SENSING
+LA English
+DT Article
+DE NDVI; deep learning; machine learning; vegetation; DeepLabV3+; CNN
+ID semantic segmentation
+AB Land cover classification with the focus on chlorophyll-rich vegetation detection plays an important role in urban growth monitoring and planning, autonomous navigation, drone mapping, biodiversity conservation, etc. Conventional approaches usually apply the normalized difference vegetation index (NDVI) for vegetation detection. In this paper, we investigate the performance of deep learning and conventional methods for vegetation detection. Two deep learning methods, DeepLabV3+ and our customized convolutional neural network (CNN) were evaluated with respect to their detection performance when training and testing datasets originated from different geographical sites with different image resolutions. A novel object-based vegetation detection approach, which utilizes NDVI, computer vision, and machine learning (ML) techniques, is also proposed. The vegetation detection methods were applied to high-resolution airborne color images which consist of RGB and near-infrared (NIR) bands. RGB color images alone were also used with the two deep learning methods to examine their detection performances without the NIR band. The detection performances of the deep learning methods with respect to the object-based detection approach are discussed and sample images from the datasets are used for demonstrations.
+C1 [Ayhan, Bulent; Kwan, Chiman; Budavari, Bence; Kwan, Liyun] Appl Res LLC, Rockville, MD 20850 USA.
+   [Lu, Yan; Perez, Daniel; Li, Jiang] Old Dominion Univ, Dept Elect & Comp Engn, Norfolk, VA 23259 USA.
+   [Skarlatos, Dimitrios; Vlachos, Marinos] Cyprus Univ Technol, Dept Civil Engn & Geomat, POB 50329, CY-3603 Limassol, Cyprus.
+C3 Old Dominion University; Cyprus University of Technology
+RP Kwan, C (corresponding author), Appl Res LLC, Rockville, MD 20850 USA.
+EM bulent.ayhan@signalpro.net; chiman.kwan@signalpro.net; bencebudavari@gmail.com; martin.kwan.97@gmail.com; yxxlu003@odu.edu; dpere013@odu.edu; jli@odu.edu; dimitrios.skarlatos@cut.ac.cy; marinos.vlachos@cut.ac.cy
+FU US Department of Energy [DE-SC0019936]
+CR [Anonymous], 2017, EXAMPLE DATASET EOPA, V0, P0
+   Audebert N., 2016, ARXIV160906846, V0, P0
+   Ayhan B., 2018, P 44 ANN C IEEE IND, V0, P0
+   Ayhan B., 2020, P GEOSP INF 10 C SI1, V0, P0
+   Ayhan B, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12081333
+   Ayhan B, 2019, IEEE T AERO ELEC SYS, V55, P1892, DOI 10.1109/TAES.2018.2879529
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bhandari AK, 2012, PROC TECH, V1, P612, DOI 10.1016/j.protcy.2012.10.074
+   Bradley DA, 2007, IEEE INT CONF ROBOT, V0, PP503, DOI 10.1109/ROBOT.2007.363836
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Demir I., 2018, ARXIV180506561, V0, P0
+   Ding L., 2019, ARXIV191108877, V0, P0
+   Du ZR, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070888
+   Gandhi GM, 2015, PROCEDIA COMPUT SCI, V57, P1199, DOI 10.1016/j.procs.2015.07.415
+   Gates D. M., 1980, BIOPHYSICAL ECOLOGY., V0, P0
+   Guirado E, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121220
+   Hellesen T, 2013, REMOTE SENS-BASEL, V5, P558, DOI 10.3390/rs5020558
+   Huang B, 2018, REMOTE SENS ENVIRON, V214, P73, DOI 10.1016/j.rse.2018.04.050
+   Huang S., 2019, INT ARCH PHOTOGRAMME, V42, P35
+   Huo YF, 2017, IEEE INT SYMP ELEC, V0, P0
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   Kwan C, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12122000
+   Kwan C, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091392
+   Lindgren D., 1984, LAND USE PLANNING RE, V2, P0
+   Torres DL, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20020563
+   Lu Y, 2021, IEEE GEOSCI REMOTE S, V18, P1342, DOI 10.1109/LGRS.2020.2999354
+   Miura T, 1998, J GEOPHYS RES-ATMOS, V103, P32001, DOI 10.1029/98JD00051
+   Perez D, 2017, 2017 IEEE 8TH ANNUAL UBIQUITOUS COMPUTING, V0, P626
+   POTHEN A, 1990, ACM T MATH SOFTWARE, V16, P303, DOI 10.1145/98267.98287
+   Reynolds DA, 2000, DIGIT SIGNAL PROCESS, V10, P19, DOI 10.1006/dspr.1999.0361
+   ROUSE JW, 1974, MONITORING VERNAL AD, V0, P0
+   Salamati N., 2014, ARXIV14066147, V0, P0
+   Senecal J., 2019, 2019 INT JOINT C NEU, V0, P0
+   Shang RH, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12050872
+   Skarlatos D., 2018, ISPRS ANN PHOTOGRAMM, VIV-2, P255
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Tan K, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030359
+   Wang JC, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131617
+   Yang L., 2009, P 17 ACM SIGSPATIAL, V0, PP131, DOI 10.1145/1653771.1653792
+   Zare A, 2008, IEEE T GEOSCI REMOTE, V46, P172, DOI 10.1109/TGRS.2007.906438
+   Zhang X, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030417
+   Zheng C, 2015, IEEE J-STARS, V8, P1924, DOI 10.1109/JSTARS.2014.2361756
+   Zhou GB, 2017, 2017 INTERNATIONAL CONFERENCE ON COMPUTER SYSTEMS, V0, P633, DOI 10.1109/ICCSEC.2017.8446713
+   Zhou HJ, 2009, LAND USE POLICY, V26, P954, DOI 10.1016/j.landusepol.2008.11.006
+NR 45
+TC 30
+Z9 31
+U1 22
+U2 66
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD AUG 15
+PY 2020
+VL 12
+IS 15
+BP 
+EP 
+DI 10.3390/rs12152502
+PG 23
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA NA1KP
+UT WOS:000559577000001
+DA 2023-04-26
+ER

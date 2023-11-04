@@ -1,0 +1,522 @@
+
+PT J
+AU Ouattara, I
+   Hyyti, H
+   Visala, A
+AF Ouattara, Issouf
+   Hyyti, Heikki
+   Visala, Arto
+TI Drone based Mapping and Identification of Young Spruce Stand for Semiautonomous Cleaning
+SO IFAC PAPERSONLINE
+LA English
+DT Proceedings Paper
+DE unmanned aerial vehicle; mapping; individual tree identification; convolutional neural network; autonomous vehicle; forestry
+ID classification; segmentation
+AB We propose a novel method to locate spruces in a young stand with a low cost unmanned aerial vehicle. The method has three stages: 1) the forest area is mapped and a digital surface model and terrain models are generated, 2) the locations of trees are found from a canopy height model using local maximum and watershed algorithms, and 3) these locations are used in a convolution neural network architecture to detect young spruces. Our result for detecting young spruce trees among other vegetation using only color images from a single RGB camera were promising. The proposed method is able to achieve a detection accuracy of more than 91%. As low cost unmanned aerial vehicles with color cameras are versatile today, the proposed work is enabling low cost forest inventory for automating forest management. Copyright (C) 2020 The Authors.
+C1 [Ouattara, Issouf; Visala, Arto] Aalto Univ, Dept Elect Engn & Automat, Autonomous Syst Res Grp, Sch Elect Engn, POB 15500, FIN-00076 Espoo, Finland.
+   [Hyyti, Heikki] Natl Land Survey Finland, Finnish Geospatial Res Inst FGI, Dept Remote Sensing & Photogrammetry, Helsinki, Finland.
+C3 Aalto University; The National Land Survey of Finland
+RP Ouattara, I (corresponding author), Aalto Univ, Dept Elect Engn & Automat, Autonomous Syst Res Grp, Sch Elect Engn, POB 15500, FIN-00076 Espoo, Finland.
+EM issouf.ouattara@alto.fi; heikki.hyyti@iki.fi; arto.visala@aalto.fi
+FU Strategic Research Council at the Academy of Finland [293389, 314312]
+CR Agisoft LLC St. Petersburg R., 2019, AG MET US MAN PROF E, V0, P0
+   Baena S, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0188714
+   Dash JP, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9020156
+   Gitelson AA, 2002, REMOTE SENS ENVIRON, V80, P76, DOI 10.1016/S0034-4257(01)00289-9
+   Gorban A.N., 2009, HDB RES MACHINE LEAR, V0, P242
+   Guirado E., 2017, ABS170600917 CORR, V0, P0
+   Heinonen T, 2017, FOREST POLICY ECON, V80, P80, DOI 10.1016/j.forpol.2017.03.011
+   Holopainen M, 2014, FORESTS, V5, P1682, DOI 10.3390/f5071682
+   Huang HY, 2018, IEEE J-STARS, V11, P2253, DOI 10.1109/JSTARS.2018.2830410
+   Huang J., 2016, ABS161110012 CORR, V0, P0
+   Hyyti H., 2013, 2013 INT JOINT C NEU, V0, PP1, DOI 10.1109/IJCNN.2013.6707122.
+   Kampen M., 2019, P DREIL NDERTAGUNG D, V0, P0
+   Katoh M., 2017, ISPRS INT ARCH PHOTO, V0, PP95, DOI 10.5194/isprs-archives-XLII-3- W3-95-2017
+   Kornilov AS, 2018, J IMAGING, V4, P0, DOI 10.3390/jimaging4100123
+   Mohan M, 2017, FORESTS, V8, P0, DOI 10.3390/f8090340
+   Natesan S., 2019, ISPRS INT ARCH PHOTO, V4213, P475, DOI 10.5194/ISPRS-ARCHIVES-XLII-2-W13-475-2019
+   Nevalainen O, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030185
+   Nuijten RJG, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070739
+   Onishi M., 2018, ABS180410390 CORR, V0, P0
+   Popescu SC, 2004, PHOTOGRAMM ENG REM S, V70, P589, DOI 10.14358/PERS.70.5.589
+   Puliti S., 2018, TREE STUMP DETECTION, V0, P0
+   Rantala J., 2013, INT J FOREST ENG, V24, P91, DOI 10.1080/14942119.2013.841930
+   Ren SQ, 2017, IEEE T PATTERN ANAL, V39, P1137, DOI 10.1109/TPAMI.2016.2577031
+   Saksa T, 2016, P OSCAR WORKSH MECH, V0, P0
+   Szegedy C, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Tomastik J, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060721
+   Tzutalin, 2015, LABELLMG GIT COD 201, V0, P0
+   van der Walt S, 2014, PEERJ, V2, P0, DOI 10.7717/peerj.453
+   Vestlund K, 2006, J TERRAMECHANICS, V43, P505, DOI 10.1016/j.jterra.2005.07.001
+   Vihlman M, 2015, IEEE INT CONF ROBOT, V0, PP1543, DOI 10.1109/ICRA.2015.7139394
+   Zhang CY, 2015, REMOTE SENS-BASEL, V7, P7892, DOI 10.3390/rs70607892
+NR 31
+TC 1
+Z9 1
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2405-8963
+EI 
+J9 IFAC PAPERSONLINE
+JI IFAC PAPERSONLINE
+PD JUN 15
+PY 2020
+VL 53
+IS 2
+BP 15777
+EP 15783
+DI 10.1016/j.ifacol.2020.12.205
+PG 7
+WC Automation & Control Systems
+SC Automation & Control Systems
+GA SF2LV
+UT WOS:000652593600405
+DA 2023-04-26
+ER
+
+PT J
+AU Kafaei, S
+   Akmali, V
+   Sharifi, M
+AF Kafaei, Sasan
+   Akmali, Vahid
+   Sharifi, Mozafar
+TI Using the Ensemble Modeling Approach to Predict the Potential Distribution of the Muscat Mouse-Tailed Bat,Rhinopoma muscatellum(Chiroptera: Rhinopomatidae), in Iran
+SO IRANIAN JOURNAL OF SCIENCE AND TECHNOLOGY TRANSACTION A-SCIENCE
+LA English
+DT Article
+DE Rhinopoma muscatellum; Distribution; Ensemble model; Habitat suitability
+ID species distribution; climate-change; habitat-suitability; geographic-distribution; pseudo-absences; bat fauna; chiroptera; diversity; land; richness
+AB Habitat suitability models can be generated using methods requiring information on presence of species or presence and absence of species.Rhinopoma muscatellumis one of the six mouse-tailed bats (Rhinopomatidae) and is known as an extremely frequent bat in Iran. In this study, 76 presence points were identified and recorded in distribution range of species. Presence-only (Domain, Bioclim, and one-class SVM) and presence/pseudo-absence (P/PA) data-based methods were used to model the distribution ofR. muscatellumin Iran. In this study, in order to establish the pseudo-absence points, the output of presence-only map with the highest validity on AUC statistics was used. Using the output of the Domain method map (AUC = 0.8), 720 pseudo-absence points of the species were designed and entered into the P/PA models, including generalized linear model (GLM), maximum entropy (MaxEnt), maximum likelihood (MaxLike), classification and regression trees (CART), rough set, back-propagation artificial neural networks (BP-ANN), and two-class support vector machine (two-class SVM). The models were validated by the kappa coefficient of agreement as a threshold-based index. The coefficient of agreement was measured above 0.8 for all running models. Then, all binary maps were entered into the ensemble method, and the distribution map was presented as the output map with the result of ten implemented models. In order to evaluate the effect of each habitat variable on species distribution, sensitivity was measured by logistic regression method. The results of the modeling showed that the southeastern, southern, and southwestern regions of the country have a high suitability for this species, which was also confirmed by the ensemble modeling method. Based on the sensitivity results, the maximum temperature of the warmest months of the year, mean daily temperature, and distance from the mines had the highest effect on species distribution. The results of this study showed thatR. muscatellumdistribution models can be useful in identifying the species habitat suitability and the distribution maps obtained from these models can be considered as a suitable tool for population studies.
+C1 [Kafaei, Sasan; Akmali, Vahid; Sharifi, Mozafar] Razi Univ, Fac Sci, Dept Biol, Kermanshah, Iran.
+C3 Razi University
+RP Akmali, V (corresponding author), Razi Univ, Fac Sci, Dept Biol, Kermanshah, Iran.
+EM v_akmali@razi.ac.ir
+CR Akmali V., 2019, IRANIAN JOURNAL OF ANIMAL BIOSYSTEMATICS, V15, P157
+   Akmali V, 2017, TAXONOMY BIOSYSTEM, V30, P31
+   Albouy C, 2012, GLOBAL CHANGE BIOL, V18, P2995, DOI 10.1111/j.1365-2486.2012.02772.x
+   Altringham J. D., 1996, BATS BIOL BEHAV, V0, P0
+   [Anonymous], 1997, BATS INDIAN SUBCONTI, V0, P0
+   Araujo MB, 2007, TRENDS ECOL EVOL, V22, P42, DOI 10.1016/j.tree.2006.09.010
+   Barbet-Massin M, 2012, METHODS ECOL EVOL, V3, P327, DOI 10.1111/j.2041-210X.2011.00172.x
+   Benda Petr, 2012, ACTA SOCIETATIS ZOOLOGICAE BOHEMICAE, V76, P163
+   Blanchard JL, 2012, PHILOS T R SOC B, V367, P2979, DOI 10.1098/rstb.2012.0231
+   Bongers F, 1999, J VEG SCI, V10, P371, DOI 10.2307/3237066
+   BUSBY JR, 1986, AUST J ECOL, V11, P1, DOI 10.1111/j.1442-9993.1986.tb00912.x
+   CARPENTER G, 1993, BIODIVERS CONSERV, V2, P667, DOI 10.1007/BF00051966
+   Chefaoui RM, 2008, ECOL MODEL, V210, P478, DOI 10.1016/j.ecolmodel.2007.08.010
+   COHEN J, 1960, EDUC PSYCHOL MEAS, V20, P37, DOI 10.1177/001316446002000104
+   DEBLASE AF, 1973, J MAMMAL, V54, P831, DOI 10.2307/1379078
+   Domencich T. A., 1975, URBAN TRAVEL DEMAND, V0, P0
+   dos Santos AJ, 2016, BASIC APPL ECOL, V17, P720, DOI 10.1016/j.baae.2016.09.004
+   Elith J, 2010, METHODS ECOL EVOL, V1, P330, DOI 10.1111/j.2041-210X.2010.00036.x
+   Etemad E, 1984, PESTANDARAN E IRAN H, V3, P0
+   Farber O, 2003, ECOL MODEL, V160, P115, DOI 10.1016/S0304-3800(02)00327-7
+   Fathipour F., 2016, IRANIAN JOURNAL OF ANIMAL BIOSYSTEMATICS, V12, P97
+   Gallon RK, 2014, J BIOGEOGR, V41, P2293, DOI 10.1111/jbi.12380
+   Guisan A, 2000, ECOL MODEL, V135, P147, DOI 10.1016/S0304-3800(00)00354-9
+   Guisan A, 2005, ECOL LETT, V8, P993, DOI 10.1111/j.1461-0248.2005.00792.x
+   Guo QH, 2010, ECOGRAPHY, V33, P637, DOI 10.1111/j.1600-0587.2010.06416.x
+   Hijmans RJ, 2005, INT J CLIMATOL, V25, P1965, DOI 10.1002/joc.1276
+   Hijmans RJ, 2006, GLOBAL CHANGE BIOL, V12, P2272, DOI 10.1111/j.1365-2486.2006.01256.x
+   Hirzel A., 2002, BIOMAPPER 2 0, V0, P0
+   Hirzel AH, 2001, ECOL MODEL, V145, P111, DOI 10.1016/S0304-3800(01)00396-9
+   HUISMAN J, 1993, J VEG SCI, V4, P37, DOI 10.2307/3235732
+   Kafaei S, 2020, ACTA CHIROPTROL, V0, P0
+   Kamyab HR, 2010, J ENV STUD, V36, P89
+   Karami P, 2014, J ANIM RES, V29, P340
+   Keith DA, 2014, DIVERS DISTRIB, V20, P440, DOI 10.1111/ddi.12173
+   Lay DM, 1967, FIELDIANA ZOOL, V54, P1
+   Leroy B, 2014, DIVERS DISTRIB, V20, P686, DOI 10.1111/ddi.12191
+   Li LL, 2010, J VIROL, V84, P6955, DOI 10.1128/JVI.00501-10
+   Lutolf M, 2006, J APPL ECOL, V43, P802, DOI 10.1111/j.1365-2664.2006.01191.x
+   Manel S, 1999, J APPL ECOL, V36, P734, DOI 10.1046/j.1365-2664.1999.00440.x
+   Manel S, 2001, J APPL ECOL, V38, P921, DOI 10.1046/j.1365-2664.2001.00647.x
+   McFadden D., 1973, FRONTIERS, V0, P0
+   Molur S, 2008, RHINOPOMA MUSCATELLU, V2008, P0, DOI 10.2305/IUCN.UK.2008.RLTS.T19602A8993262.EN
+   Neuweiler G., 2000, BIOL BATS, V0, P117
+   Phillips SJ, 2004, P 21 INT C MACHINE L, V0, PP83, DOI 10.1145/1015330.1015412
+   Pimentel D, 2001, AGR ECOSYST ENVIRON, V84, P1, DOI 10.1016/S0167-8809(00)00178-X
+   QUMSIYEH M B, 1986, MAMMALIAN SPECIES, V0, PP1, DOI 10.2307/3503821
+   Rahman FU, 2015, J ANIM PLANT SCI, V25, P429
+   Razgour O, 2010, ANIM CONSERV, V13, P505, DOI 10.1111/j.1469-1795.2010.00371.x
+   Razgour O, 2011, BIOL CONSERV, V144, P2922, DOI 10.1016/j.biocon.2011.08.010
+   Rebelo H, 2010, J APPL ECOL, V47, P410, DOI 10.1111/j.1365-2664.2009.01765.x
+   Reiskind MH, 2010, TESTING CONVENTIONAL, V28, P6
+   Rouget M, 2004, DIVERS DISTRIB, V10, P475, DOI 10.1111/j.1366-9516.2004.00118.x
+   Sachanowicz K, 2006, ACTA CHIROPTEROL, V8, P543, DOI 10.3161/1733-5329(2006)8[543:FREOPK]2.0.CO;2
+   Schaub A, 2008, J EXP BIOL, V211, P3174, DOI 10.1242/jeb.022863
+   Schipper J, 2008, SCIENCE, V322, P225, DOI 10.1126/science.1165115
+   Schlitter Duane A., 1996, MAMMALIAN SPECIES, V0, P1
+   Scholkopf B, 2001, NEURAL COMPUT, V13, P1443, DOI 10.1162/089976601750264965
+   Segurado P, 2004, J BIOGEOGR, V31, P1555, DOI 10.1111/j.1365-2699.2004.01076.x
+   Senay SD, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0071218
+   Shahabi S, 2019, J WILDLIFE BIODIVERS, V3, P40, DOI 10.22120/jwb.2019.102092.1053
+   Sherwin HA, 2013, MAMMAL REV, V43, P171, DOI 10.1111/j.1365-2907.2012.00214.x
+   Siemers BM, 2011, P ROY SOC B-BIOL SCI, V278, P1646, DOI 10.1098/rspb.2010.2262
+   Simmons NB, 2010, 15 INT BAT RES C PRA, V0, P0
+   Stockwell D, 1999, INT J GEOGR INF SCI, V13, P143, DOI 10.1080/136588199241391
+   Stone EL, 2009, CURR BIOL, V19, P1123, DOI 10.1016/j.cub.2009.05.058
+   da Silva UBT, 2018, BIOL CONSERV, V221, P312, DOI 10.1016/j.biocon.2018.03.028
+   Thomas O., 1903, ANNALS OF NATURAL HISTORY, V(7), P496
+   Thomas O., 1913, ANNALS & MAGAZINE OF NATURAL HISTORY, V12, P0
+   Turbill C, 2008, J ZOOL, V276, P285, DOI 10.1111/j.1469-7998.2008.00487.x
+   Van Cakenberghe Victor, 1994, SENCKENBERGIANA BIOLOGICA, V73, P1
+   Visser ME, 2006, OECOLOGIA, V147, P164, DOI 10.1007/s00442-005-0299-6
+   Yusefi GH, 2019, J MAMMAL, V100, P55, DOI 10.1093/jmammal/gyz002
+   Zocche JJ, 2010, ENVIRON RES, V110, P684, DOI 10.1016/j.envres.2010.06.003
+NR 73
+TC 3
+Z9 4
+U1 2
+U2 14
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 1028-6276
+EI 2364-1819
+J9 IRAN J SCI TECHNOL A
+JI Iran. J. Sci. Technol. Trans. A-Sci.
+PD OCT 15
+PY 2020
+VL 44
+IS 5
+BP 1337
+EP 1348
+DI 10.1007/s40995-020-00953-w
+EA AUG 2020
+PG 12
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA NS8UR
+UT WOS:000562972200002
+DA 2023-04-26
+ER
+
+PT J
+AU Silva, IDB
+   Valle, ME
+   Barros, LC
+   Meyer, JFCA
+AF Silva, I. D. B.
+   Valle, M. E.
+   Barros, L. C.
+   Meyer, J. F. C. A.
+TI A wildfire warning system applied to the state of Acre in the Brazilian Amazon
+SO APPLIED SOFT COMPUTING
+LA English
+DT Article
+DE Wildfire indexes; Fuzzy system; Machine learning; Forest fires
+ID forest-fire risk; roc curve; neural-network; area; danger
+AB In this paper, we present a dynamic wildfire warning map that combines both spatial and weather information. In particular, our wildfire early warning model is obtained by aggregating two indexes called wildfire risk and wildfire danger. The wildfire risk index, which is based on georeferenced features such as altitude and forest type, measures the fuel necessary for a wildfire to start at a certain location on a map. The wildfire danger uses weather conditions to yield temporal information concerning the possibility of a wildfire to spread. Machine learning techniques and fuzzy logic operations are used to determine the wildfire risk and danger indexes from available data. Although both wildfire risk and wildfire danger indexes can be used separately, using concepts from fuzzy logic, they can be combined to yield a wildfire warning system that takes into account both weather and static information. We illustrate the wildfire early warning model by considering weather and geographical data for the state of Acre. (C) 2020 Elsevier B.V. All rights reserved.
+C1 [Valle, M. E.; Barros, L. C.; Meyer, J. F. C. A.] Univ Estadual Campinas, Dept Appl Math, UNICAMP, Campinas, SP, Brazil.
+   [Silva, I. D. B.] Fed Univ Acre UFAC, Ctr Exact & Technol Sci, Rio Branco, AC, Brazil.
+C3 Universidade Estadual de Campinas; Universidade Federal do Acre (UFAC)
+RP Silva, IDB (corresponding author), Fed Univ Acre UFAC, Ctr Exact & Technol Sci, Rio Branco, AC, Brazil.
+EM isaacdayanbs@gmail.com; valle@ime.unicamp.br; laeciocb@ime.unicamp.br; joni@ime.unicamp.br
+FU Federal University of Acre, Brazil; CAPES, Brazil; CNPq, Brazil [310118/2017-4, 305862/2013-8]
+CR Adab H, 2013, NAT HAZARDS, V65, P1723, DOI 10.1007/s11069-012-0450-8
+   Alonso-Betanzos A, 2002, FR ART INT, V77, P643
+   Alvares CA, 2014, SCI FOR, V42, P521
+   Anderson HE., 1982, GEN TECHNICAL REPORT, V0, P0
+   Angelov PP, 2008, IEEE T FUZZY SYST, V16, P1462, DOI 10.1109/TFUZZ.2008.925904
+   [Anonymous], 2001, FOREST FIRES BEHAV E, V0, P0, DOI DOI 10.1016/B978-012386660-8/50012-X
+   [Anonymous], 2006, FLORESTA, V0, P0, DOI DOI 10.5380/RF.V36I1.5509
+   [Anonymous], 2006, PATTERN CLASSIFICATI, V0, P0
+   Barbosa MR, 2010, INT J GEOGR INF SCI, V24, P873, DOI 10.1080/13658810903194264
+   Barros LC, 2000, ECOL MODEL, V128, P27, DOI 10.1016/S0304-3800(99)00223-9
+   Batista A. C, 2002, ZONEAMENTO RISCO INC, V0, P0
+   Batista AC, 2014, SCI FOR, V42, P491
+   Bisquert M, 2014, REMOTE SENS-BASEL, V6, P540, DOI 10.3390/rs6010540
+   Bolourchi P, 2013, 2013 FIFTH INTERNATIONAL CONFERENCE ON COMPUTATIONAL INTELLIGENCE, V0, P83, DOI 10.1109/CICSYN.2013.32
+   Bradley AP, 1997, PATTERN RECOGN, V30, P1145, DOI 10.1016/S0031-3203(96)00142-2
+   Braga ACS, 2000, THESIS, V0, P0
+   Castanho MJP, 2007, IEEE T INF TECHNOL B, V11, P244, DOI 10.1109/TITB.2006.879593
+   Chiu S., 1997, EXTRACTING FUZZY RUL, V0, P0
+   Davis JE, 2006, DEAF WAY II READER: PERSPECTIVES FROM THE SECOND INTERNATIONAL CONFERENCE ON DEAF CULTURE, V0, P233
+   De Baets B, 2005, EUR J OPER RES, V160, P726, DOI 10.1016/j.ejor.2003.06.036
+   De Baets B, 2001, J COMPUT APPL MATH, V132, P51, DOI 10.1016/S0377-0427(00)00596-3
+   Fawcett T, 2006, PATTERN RECOGN LETT, V27, P861, DOI 10.1016/j.patrec.2005.10.010
+   Fiorucci P, 2008, ENVIRON MODELL SOFTW, V23, P690, DOI 10.1016/j.envsoft.2007.05.008
+   Garcia-Jimenez S, 2017, APPL SOFT COMPUT, V52, P834, DOI 10.1016/j.asoc.2016.09.041
+   Goldarag YJ, 2016, J INDIAN SOC REMOTE, V44, P885, DOI 10.1007/s12524-016-0557-6
+   Hajian-Tilaki K, 2013, CASP J INTERN MED, V4, P627
+   HANLEY JA, 1982, RADIOLOGY, V143, P29, DOI 10.1148/radiology.143.1.7063747
+   Haykin S., 2009, NEURAL NETWORKS LEAR, V3rd ed., P0
+   Justino F, 2013, AM J CLIM CHANGE, V2, P209, DOI 10.4236/ajcc.2013.24022
+   KELLER JM, 1985, IEEE T SYST MAN CYB, V15, P580, DOI 10.1109/TSMC.1985.6313426
+   Matin MA, 2017, INT J WILDLAND FIRE, V26, P276, DOI 10.1071/WF16056
+   McArthur A.G., 1966, WEATHER GRASSLAND FI, V0, P0
+   Nunes J. R. S., 2007, FLORESTA, V37, P1
+   Paton D, 2014, WILDFIRE HAZARDS RIS, V0, P0
+   Pedrycz W, 2007, FUZZY SYSTEMS ENGINEERING: TOWARD HUMAN-CENTRIC COMPUTING, V0, PP1, DOI 10.1002/9780470168967
+   Peixoto MD, 2008, ECOL MODEL, V214, P39, DOI 10.1016/j.ecolmodel.2008.01.009
+   Preisler HK, 2004, INT J WILDLAND FIRE, V13, P133, DOI 10.1071/WF02061
+   Roberts SW, 2000, TECHNOMETRICS, V42, P97, DOI 10.2307/1271439
+   Rothermel R. C., 1972, USDA FORESTS SERVICE RESEARCH PAPER, V0, P0
+   Sivrikaya F, 2014, POL J ENVIRON STUD, V23, P187
+   Soares R. V, 2007, INCENDIOS FLORESTAIS, V0, P0
+   SWETS JA, 1979, INVEST RADIOL, V14, P109, DOI 10.1097/00004424-197903000-00002
+   Wang SJ, 2015, PATTERN RECOGN, V48, P276, DOI 10.1016/j.patcog.2014.07.025
+   Xavier AC, 2016, INT J CLIMATOL, V36, P2644, DOI 10.1002/joc.4518
+NR 55
+TC 8
+Z9 9
+U1 7
+U2 22
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1568-4946
+EI 1872-9681
+J9 APPL SOFT COMPUT
+JI Appl. Soft. Comput.
+PD APR 15
+PY 2020
+VL 89
+IS 
+BP 
+EP 
+DI 10.1016/j.asoc.2020.106075
+PG 15
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications
+SC Computer Science
+GA KU9KA
+UT WOS:000520042200019
+DA 2023-04-26
+ER
+
+PT J
+AU Uhl, JH
+   Leyk, S
+   Chiang, YY
+   Duan, WW
+   Knoblock, CA
+AF Uhl, Johannes H.
+   Leyk, Stefan
+   Chiang, Yao-Yi
+   Duan, Weiwei
+   Knoblock, Craig A.
+TI Automated Extraction of Human Settlement Patterns From Historical Topographic Map Series Using Weakly Supervised Convolutional Neural Networks
+SO IEEE ACCESS
+LA English
+DT Article
+DE Convolutional neural networks; digital humanities; digital preservation; document analysis; geospatial analysis; geospatial artificial intelligence; human settlement patterns; image analysis; weakly supervised learning
+AB Information extraction from historical maps represents a persistent challenge due to inferior graphical quality and the large data volume of digital map archives, which can hold thousands of digitized map sheets. Traditional map processing techniques typically rely on manually collected templates of the symbol of interest, and thus are not suitable for large-scale information extraction. In order to digitally preserve such large amounts of valuable retrospective geographic information, high levels of automation are required. Herein, we propose an automated machine-learning based framework to extract human settlement symbols, such as buildings and urban areas from historical topographic maps in the absence of training data, employing contemporary geospatial data as ancillary data to guide the collection of training samples. These samples are then used to train a convolutional neural network for semantic image segmentation, allowing for the extraction of human settlement patterns in an analysis-ready geospatial vector data format. We test our method on United States Geological Survey historical topographic maps published between 1893 and 1954. The results are promising, indicating high degrees of completeness in the extracted settlement features (i.e., recall of up to 0.96, F-measure of up to 0.79) and will guide the next steps to provide a fully automated operational approach for large-scale geographic feature extraction from a variety of historical map series. Moreover, the proposed framework provides a robust approach for the recognition of objects which are small in size, generalizable to many kinds of visual documents.
+C1 [Uhl, Johannes H.; Leyk, Stefan] Univ Colorado, Dept Geog, Boulder, CO 80309 USA.
+   [Chiang, Yao-Yi; Duan, Weiwei; Knoblock, Craig A.] Univ Southern Calif, Spatial Sci Inst, Los Angeles, CA 90089 USA.
+   [Knoblock, Craig A.] Univ Southern Calif, Inst Informat Sci, Marina Del Rey, CA 90292 USA.
+   [Uhl, Johannes H.; Leyk, Stefan] Univ Colorado, Inst Behav Sci, Boulder, CO 80309 USA.
+C3 University of Colorado System; University of Colorado Boulder; University of Southern California; University of Southern California; University of Colorado System; University of Colorado Boulder
+RP Uhl, JH (corresponding author), Univ Colorado, Dept Geog, Boulder, CO 80309 USA.; Uhl, JH (corresponding author), Univ Colorado, Inst Behav Sci, Boulder, CO 80309 USA.
+EM johannes.uhl@colorado.edu
+FU University of Colorado Boulder Libraries Open Access Fund
+CR [Anonymous], 2016, 24 ACM SIGSPATIAL IN, V0, P0
+   [Anonymous], 2017, P 8 INT C PATT REC S, V0, P0
+   [Anonymous], 1966, SIGNAL DETECTION THE, V0, P0
+   Arteaga M. G., 2013, P 1 ACM SIGSPATIAL I, V0, PP66, DOI 10.1145/2534931.2534932
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Ball JE, 2017, J APPL REMOTE SENS, V11, P0, DOI 10.1117/1.JRS.11.042609
+   Budig B, 2016, ACM TRANS SPAT ALGOR, V2, P0, DOI 10.1145/2994598
+   Budig B, 2015, LECT NOTES ARTIF INT, V9356, P33, DOI 10.1007/978-3-319-24282-8_5
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen Y, 2006, IEEE T GEOSCI REMOTE, V44, P1048, DOI 10.1109/TGRS.2005.861478
+   Chiang Y.-Y, 2013, GRAPHICS RECOGNITION, V0, PP25, DOI 10.1007/978-3-642-36824-0
+   Chiang YY, 2016, COMPUT GEOSCI-UK, V93, P21, DOI 10.1016/j.cageo.2016.04.013
+   Chiang YY, 2014, ACM COMPUT SURV, V47, P0, DOI 10.1145/2557423
+   CLIFF AD, 1970, ECON GEOGR, V46, P269, DOI 10.2307/143144
+   Dong L, 2018, EARTH SCI INFORM, V11, P47, DOI 10.1007/s12145-017-0317-3
+   DUAN W, 2019, INT J GEOGR INF 1211, V0, PP1, DOI 10.1080/13658816.2019.1698742
+   Durand T, 2016, PROC CVPR IEEE, V0, PP4743, DOI 10.1109/CVPR.2016.513
+   HANLEY JA, 1982, RADIOLOGY, V143, P29, DOI 10.1148/radiology.143.1.7063747
+   Henry CJ, 2019, INT J REMOTE SENS, V40, P4416, DOI 10.1080/01431161.2018.1563840
+   Herodotou H., 2011, P 2 ACM S CLOUD COMP, V0, P1
+   Kitchin R., 2014, DATA REVOLUTION BIG, V0, P0, DOI DOI 10.4135/9781473909472
+   Kiyota Y, 2018, ICMR 18: PROCEEDINGS OF THE 2018 ACM INTERNATIONAL CONFERENCE ON MULTIMEDIA RETRIEVAL, V0, PP6, DOI 10.1145/3206025.3210494
+   Knoblock C.A., 2020, USING HIST MAPS SCI, V0, P37
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Laycock SD, 2011, COMPUT GRAPH-UK, V35, P242, DOI 10.1016/j.cag.2011.01.002
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   Leyk S., 2016, P AUTOCARTO 2016 RES, V0, P100
+   Leyk S, 2010, GEOINFORMATICA, V14, P1, DOI 10.1007/s10707-008-0074-z
+   Li HL, 2018, IEEE ACCESS, V6, P25363, DOI 10.1109/ACCESS.2018.2823501
+   Li Y, 2012, CARTOGR GEOGR INF SC, V39, P199, DOI 10.1559/152304063941199
+   Liu C, 2017, IEEE I CONF COMP VIS, V0, PP2214, DOI 10.1109/ICCV.2017.241
+   Liu TE, 2019, NEUROCOMPUTING, V328, P75, DOI 10.1016/j.neucom.2018.02.102
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lowe D. G., 1999, PROCEEDINGS OF THE SEVENTH IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP1150, DOI 10.1109/ICCV.1999.790410
+   Miao QG, 2016, IEEE T GEOSCI REMOTE, V54, P6265, DOI 10.1109/TGRS.2016.2567481
+   Miyoshi T, 2004, INT C PATT RECOG, V0, PP626, DOI 10.1109/ICPR.2004.1334607
+   MORAN PAP, 1948, J ROY STAT SOC B, V10, P243
+   Ojala T, 2002, IEEE T PATTERN ANAL, V24, P971, DOI 10.1109/TPAMI.2002.1017623
+   Oquab M, 2015, PROC CVPR IEEE, V0, PP685, DOI 10.1109/CVPR.2015.7298668
+   Pathak D, 2015, IEEE I CONF COMP VIS, V0, PP1796, DOI 10.1109/ICCV.2015.209
+   Peng C, 2017, PROC CVPR IEEE, V0, PP1743, DOI 10.1109/CVPR.2017.189
+   Rusk N, 2016, NAT METHODS, V13, P35, DOI 10.1038/nmeth.3707
+   Saalfeld A., 1988, INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SYSTEMS, V2, P217, DOI 10.1080/02693798808927897
+   Saeedimoghaddam M, 2020, INT J GEOGR INF SCI, V34, P947, DOI 10.1080/13658816.2019.1696968
+   Simonyan K, 2015, ARXIV, V0, P0
+   SWAIN MJ, 1991, INT J COMPUT VISION, V7, P11, DOI 10.1007/BF00130487
+   Taubenbock H, 2012, REMOTE SENS ENVIRON, V117, P162, DOI 10.1016/j.rse.2011.09.015
+   Tavakkol S., 2019, P 3 ACM SIGSPATIAL I, V0, P48
+   Tsorlini A., 2014, E PERIMETRON, V9, P153
+   Uhl J. H., 2019, SPATIO TEMPORAL INFO, V0, P0
+   Uhl JH, 2020, REMOTE SENS ENVIRON, V238, P0, DOI 10.1016/j.rse.2019.05.016
+   Uhl JH, 2018, IET IMAGE PROCESS, V12, P2084, DOI 10.1049/iet-ipr.2018.5484
+   Uhl JH, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7040148
+   Usery EL, 2018, CARTOGR J, V55, P378, DOI 10.1080/00087041.2018.1539555
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   VoPham T, 2018, ENVIRON HEALTH-GLOB, V17, P0, DOI 10.1186/s12940-018-0386-x
+   Weinman Jerod, 2019, 2019 INTERNATIONAL CONFERENCE ON DOCUMENT ANALYSIS AND RECOGNITION (ICDAR). PROCEEDINGS, V0, PP902, DOI 10.1109/ICDAR.2019.00149
+   Weinman J, 2017, PROC INT CONF DOC, V0, PP957, DOI 10.1109/ICDAR.2017.160
+   Weinman J, 2013, PROC INT CONF DOC, V0, PP1044, DOI 10.1109/ICDAR.2013.209
+   Wu JH, 2019, IEEE ACCESS, V7, P40649, DOI 10.1109/ACCESS.2019.2907114
+   Yu R, 2016, INT C PATT RECOG, V0, PP3993, DOI 10.1109/ICPR.2016.7900258
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhao W, 2017, IEEE T GEOSCI REMOTE, V55, P4141, DOI 10.1109/TGRS.2017.2689018
+   Zhou ZH, 2018, NATL SCI REV, V5, P44, DOI 10.1093/nsr/nwx106
+NR 79
+TC 21
+Z9 23
+U1 6
+U2 18
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2020
+VL 8
+IS 
+BP 6978
+EP 6996
+DI 10.1109/ACCESS.2019.2963213
+PG 19
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA LC6ED
+UT WOS:000525422700019
+DA 2023-04-26
+ER
+
+PT J
+AU Lucchese, LV
+   de Oliveira, GG
+   Pedrollo, OC
+AF Lucchese, Luisa Vieira
+   de Oliveira, Guilherme Garcia
+   Pedrollo, Olavo Correa
+TI Attribute selection using correlations and principal components for artificial neural networks employment for landslide susceptibility assessment
+SO ENVIRONMENTAL MONITORING AND ASSESSMENT
+LA English
+DT Article
+DE Landslide; Multilayer perceptron; Dimensionality reduction; Susceptibility map
+ID logistic-regression; hazard evaluation; river-basin; models; earthquake; prediction; stability; zonation; weights; slopes
+AB Landslide susceptibility maps can be developed with artificial neural networks (ANNs). In order to train our ANNs, a digital elevation model (DEM) and a scar map of one previous event were used. Eleven attributes are generated, possibly containing redundant information. Our base model is formed by, essentially, one input (the DEM), eleven attributes, 30 neurons, and one output (susceptibility). Principal components (PCs) group information in the first projected variables, the last ones can be expendable. In the present paper, four groups of models were trained: one with eleven attributes generated from the DEM; one with 8 out of 11 attributes, in which 3 were eliminated by their high correlation with others; other, with the data projected over its PCs; and another, using 8 out of 11 PCs. The used number of neurons in hidden layer is 30, calibrated based on a complexity analysis that is an in-house developed method. The ANN models trained with the original data generated better statistical results than their counterparts trained with the PC transformed input. Keeping the original 11 attributes calculated provided the best metrics among all models, showing that eliminating attributes also eliminates information used by the model. Using 11 PC transformed attributes hindered trained. However, for the model with eight PCs, training was much faster than its counterpart with little accuracy loss. The metrics and maps achieved were considered acceptable, conveying the power of our model based on ANNs, which uses essentially one input (the DEM) for mapping areas susceptible to mass movements.
+C1 [Lucchese, Luisa Vieira; Pedrollo, Olavo Correa] Univ Fed Rio Grande do Sul, Inst Pesquisas Hidraul, Ave Bento Goncalves 9500, Porto Alegre, RS, Brazil.
+   [de Oliveira, Guilherme Garcia] Univ Fed Rio Grande do Sul, Dept Interdisciplinar, Rodovia RS 030,11700,Km 92 Emboaba, BR-95590000 Tramandai, RS, Brazil.
+C3 Universidade Federal do Rio Grande do Sul; Universidade Federal do Rio Grande do Sul
+RP Lucchese, LV (corresponding author), Univ Fed Rio Grande do Sul, Inst Pesquisas Hidraul, Ave Bento Goncalves 9500, Porto Alegre, RS, Brazil.
+EM luisa.lucchese@ufrgs.br
+FU Conselho Nacional de Desenvolvimento Cientifico e Tecnologico (CNPq); Fundacao de Amparo a Pesquisa do Estado do Rio Grande do Sul (FAPERGS) [17/2551-0000894-4]
+CR AKAIKE H, 1974, IEEE T AUTOMAT CONTR, VAC19, P667, DOI 10.1109/TAC.1974.1100707
+   Alaska Satellite Facility Distributed Active Archive Centre, 2014, ALOS PALSAR RTC RAD, V0, P0
+   Alcantara-Ayala I, 2002, GEOMORPHOLOGY, V47, P107, DOI 10.1016/S0169-555X(02)00083-1
+   Aleotti P., 1999, B ENG GEOL ENVIRON, V58, P21, DOI 10.1007/s100640050066
+   ANBALAGAN R, 1992, ENG GEOL, V32, P269, DOI 10.1016/0013-7952(92)90053-2
+   [Anonymous], 2019, P IAEG AEG ANN M P S, V0, P0
+   Ardizzone F, 2002, NAT HAZARD EARTH SYS, V2, P3, DOI 10.5194/nhess-2-3-2002
+   Augusto Filho O, 2004, IDENTIFICATION SLOPE, V0, P273
+   Avelar A.S., 2013, LANDSLIDE SCI PRACTI, V0, PP265, DOI 10.1007/978-3-642-31337-0_34
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Barella C.F., 2018, B ENG GEOL ENVIRON, V0, P0
+   Benesty J, 2009, SPRINGER TOP SIGN PR, V2, P37, DOI 10.1007/978-3-642-00296-0_5
+   Pham BT, 2020, GEOCARTO INT, V35, P1267, DOI 10.1080/10106049.2018.1559885
+   Chen W, 2017, GEOCARTO INT, V32, P367, DOI 10.1080/10106049.2016.1140824
+   Chen W, 2019, B ENG GEOL ENVIRON, V78, P247, DOI 10.1007/s10064-018-1256-z
+   Corominas J, 2014, B ENG GEOL ENVIRON, V73, P209, DOI 10.1007/s10064-013-0538-8
+   Cruden D., 1991, B INT ASS ENG GEOL, V43, P27, DOI 10.1007/BF02590167
+   Dahal RK, 2008, ENVIRON GEOL, V54, P311, DOI 10.1007/s00254-007-0818-3
+   DELONG ER, 1988, BIOMETRICS, V44, P837, DOI 10.2307/2531595
+   Bui DT, 2019, FORESTS, V10, P0, DOI 10.3390/f10090743
+   Dou J., 2018, LANDSLIDE DYNAMICS I, V0, PP139, DOI 10.1007/978-3-319-57774-6_10
+   Dou J, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060638
+   Dou J, 2019, SCI TOTAL ENVIRON, V662, P332, DOI 10.1016/j.scitotenv.2019.01.221
+   Dou J, 2015, NAT HAZARDS, V78, P1749, DOI 10.1007/s11069-015-1799-2
+   Ermini L, 2005, GEOMORPHOLOGY, V66, P327, DOI 10.1016/j.geomorph.2004.09.025
+   Fall M, 2006, ENG GEOL, V82, P241, DOI 10.1016/j.enggeo.2005.11.007
+   Fell R, 2008, ENG GEOL, V102, P99, DOI 10.1016/j.enggeo.2008.03.014
+   Frank H. T., 2009, PESQUISAS GEOCIENCIA, V36, P49, DOI 10.22456/1807-9806.17874
+   Garcia-Rodriguez MJ, 2010, NAT HAZARD EARTH SYS, V10, P1307, DOI 10.5194/nhess-10-1307-2010
+   Glade T., 2006, LANDSLIDE HAZARD RIS, V0, P0
+   Gokceoglu C, 1996, ENG GEOL, V44, P147, DOI 10.1016/S0013-7952(97)81260-4
+   Gomez H, 2005, ENG GEOL, V78, P11, DOI 10.1016/j.enggeo.2004.10.004
+   Gong Q.-h., 2018, OPEN CIV ENG J, V12, P21, DOI 10.2174/1874149501812010021
+   Guha-Sapir D, 2019, EM DAT EM EV DAT, V0, P0
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Hauke J, 2011, QUAEST GEOGR, V30, P87, DOI 10.2478/v10117-011-0021-1
+   Highland L., 2008, GEOL SURV CIRCULAR, V0, P0
+   Hotelling H, 1933, J EDUC PSYCHOL, V24, P417, DOI 10.1037/h0071325
+   Huffman GJ, 2007, J HYDROMETEOROL, V8, P38, DOI 10.1175/JHM560.1
+   Hussin HY, 2016, GEOMORPHOLOGY, V253, P508, DOI 10.1016/j.geomorph.2015.10.030
+   Jolliffe I., 2014, INT ENCY STAT SCI, V0, P0, DOI DOI 10.1002/9781118445112.stat06472
+   Kawabata D, 2009, GEOMORPHOLOGY, V113, P97, DOI 10.1016/j.geomorph.2009.06.006
+   Kumar D, 2018, AM J NEURAL NETW APP, V3, P63
+   Lee S, 2004, ENG GEOL, V71, P289, DOI 10.1016/S0013-7952(03)00142-X
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Mandal S, 2019, ENVIRON SCI ENG, V0, PP121, DOI 10.1007/978-3-030-10495-5_5
+   Marjanovic M., 2018, GEOCOMPUTATIONAL ANA, V0, PP191, DOI 10.1007/978-3-319-59511-5_11
+   Michie Donald, 1994, NEURAL STAT CLASSIFI, V13, P0
+   Oliveira G. G., 2014, REV BRASILEIRA RECUR, V19, P251, DOI 10.21168/rbrh.v19n2.p251-265
+   Oliveira GGd., 2018, PESQ GEOC, V45, P1
+   Oliveira GG, 2015, ENG APPL ARTIF INTEL, V40, P47, DOI 10.1016/j.engappai.2015.01.001
+   Petley D, 2012, GEOLOGY, V40, P927, DOI 10.1130/G33217.1
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Reginato PAR, 2016, REV BRASILEIRA GEOCI, V36, P13
+   Regmi AD, 2014, ARAB J GEOSCI, V7, P725, DOI 10.1007/s12517-012-0807-z
+   Salvati P, 2018, SCI TOTAL ENVIRON, V610, P867, DOI 10.1016/j.scitotenv.2017.08.064
+   Sari V, 2017, WATER RESOUR MANAG, V31, P4909, DOI 10.1007/s11269-017-1785-4
+   Schuster R.L., 1986, B ASS GEOL, V23, P11
+   Secretaria Estadual do Meio Ambiente & Grupo de Pesquisa em Desastres Naturais, 2017, DIAGN PREL TECHN REP, V0, P0
+   Sorriso Valvo M., 2002, P INT EUR C LANDSL R, V0, P79
+   Sousa SIV, 2007, ENVIRON MODELL SOFTW, V22, P97, DOI 10.1016/j.envsoft.2005.12.002
+   TURNER S, 1994, EARTH PLANET SC LETT, V121, P333, DOI 10.1016/0012-821X(94)90076-0
+   van Westen CJ, 2006, B ENG GEOL ENVIRON, V65, P167, DOI 10.1007/s10064-005-0023-0
+   VOGL TP, 1988, BIOL CYBERN, V59, P257, DOI 10.1007/BF00332914
+   White IC, 1908, REPORT COAL MEASURES, V0, P0
+   WOLD S, 1987, CHEMOMETR INTELL LAB, V2, P37, DOI 10.1016/0169-7439(87)80084-9
+   Xiao T, 2019, ACTA GEOCHIM, V38, P654, DOI 10.1007/s11631-019-00341-1
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+NR 68
+TC 10
+Z9 10
+U1 2
+U2 16
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0167-6369
+EI 1573-2959
+J9 ENVIRON MONIT ASSESS
+JI Environ. Monit. Assess.
+PD JAN 21
+PY 2020
+VL 192
+IS 2
+BP 
+EP 
+DI 10.1007/s10661-019-7968-0
+PG 22
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA KM2CA
+UT WOS:000513927500001
+PM 31965339
+DA 2023-04-26
+ER

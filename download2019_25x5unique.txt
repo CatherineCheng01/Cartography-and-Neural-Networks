@@ -1,0 +1,353 @@
+
+PT J
+AU Ajami, A
+   Kuffer, M
+   Persello, C
+   Pfeffer, K
+AF Ajami, Alireza
+   Kuffer, Monika
+   Persello, Claudio
+   Pfeffer, Karin
+TI Identifying a Slums' Degree of Deprivation from VHR Images Using Convolutional Neural Networks
+SO REMOTE SENSING
+LA English
+DT Article
+DE slum; deprivation; convolutional neural networks; deep learning; very high-resolution satellite imagery
+ID informal settlements; poverty; texture; classification; city
+AB In the cities of the Global South, slum settlements are growing in size and number, but their locations and characteristics are often missing in official statistics and maps. Although several studies have focused on detecting slums from satellite images, only a few captured their variations. This study addresses this gap using an integrated approach that can identify a slums' degree of deprivation in terms of socio-economic variability in Bangalore, India using image features derived from very high resolution (VHR) satellite images. To characterize deprivation, we use multiple correspondence analysis (MCA) and quantify deprivation with a data-driven index of multiple deprivation (DIMD). We take advantage of spatial features learned by a convolutional neural network (CNN) from VHR satellite images to predict the DIMD. To deal with a small training dataset of only 121 samples with known DIMD values, insufficient to train a deep CNN, we conduct a two-step transfer learning approach using 1461 delineated slum boundaries as follows. First, a CNN is trained using these samples to classify slums and formal areas. The trained network is then fine-tuned using the 121 samples to directly predict the DIMD. The best prediction is obtained by using an ensemble non-linear regression model, combining the results of the CNN and models based on hand-crafted and geographic information system (GIS) features, with R-2 of 0.75. Our findings show that using the proposed two-step transfer learning approach, a deep CNN can be trained with a limited number of samples to predict the slums' degree of deprivation. This demonstrates that the CNN-based approach can capture variations of deprivation in VHR images, providing a comprehensive understanding of the socio-economic situation of slums in Bangalore.
+C1 [Ajami, Alireza; Kuffer, Monika; Persello, Claudio; Pfeffer, Karin] Univ Twente ITC, Hengelosestr 99, NL-7514 AE Enschede, Netherlands.
+RP Ajami, A; Kuffer, M (corresponding author), Univ Twente ITC, Hengelosestr 99, NL-7514 AE Enschede, Netherlands.
+EM alireza366@outlook.com; k.pfeffer@utwente.nl; c.persello@utwente.nl; m.kuffer@utwente.nl
+FU SimCity project [C.2324.0293]; NWO/Netherlands eScience Center [27015G05]
+CR Alkire S, 2014, WORLD DEV, V59, P251, DOI 10.1016/j.worlddev.2014.01.026
+   [Anonymous], 2014, ARXIV PREPR ARXIV140, V0, P0
+   [Anonymous], 2015, P INT C MACH LEARN, V0, P0
+   [Anonymous], 2003, CHALL SLUMGLOB REP, V0, P0
+   [Anonymous], 2014, DEMOGR RES, V0, P0
+   Arimah B. C., 2010, URBANIZATION DEV MUL, V0, P143
+   Arribas-Bel D, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0176684
+   Baud I, 2008, URBAN STUD, V45, P1385, DOI 10.1177/0042098008090679
+   Bergado JR, 2018, IEEE T GEOSCI REMOTE, V56, P6361, DOI 10.1109/TGRS.2018.2837357
+   Bergado JR, 2016, INT GEOSCI REMOTE SE, V0, PP1516, DOI 10.1109/IGARSS.2016.7729387
+   Bottou Leon, 2012, NEURAL NETWORKS: TRICKS OF THE TRADE. SECOND EDITION: LNCS 7700, V0, PP421, DOI 10.1007/978-3-642-35289-8_25
+   Duque J. C., 2013, DEFINING SPATIAL SCA, V0, P237
+   Duque JC, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090895
+   Duque JC, 2015, LANDSCAPE URBAN PLAN, V135, P11, DOI 10.1016/j.landurbplan.2014.11.009
+   Ella L.P.A., 2008, P IGARSS 2008 2008 I, V1, P0
+   Engstrom R., 2017, P 2017 JOINT URB REM, V0, P1
+   Field A., 2013, DISCOVERING STAT USI, V53, P0
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Huang B, 2018, REMOTE SENS ENVIRON, V214, P73, DOI 10.1016/j.rse.2018.04.050
+   Ippolito C. A., 2017, P 2017 JOINT URB REM, V0, PP1, DOI 10.1109/DASC.2017.8102075
+   Ishizaka A., 2009, OPER RES INSIGHT, V22, P201, DOI 10.1057/ori.2009.10
+   Jayatilaka B., 2007, STUD REG SCI, V37, P315, DOI 10.2457/srs.37.315
+   Jean N, 2016, SCIENCE, V353, P790, DOI 10.1126/science.aaf7894
+   Kohli D, 2016, J SPAT SCI, V61, P405, DOI 10.1080/14498596.2016.1138247
+   Kohli D, 2012, COMPUT ENVIRON URBAN, V36, P154, DOI 10.1016/j.compenvurbsys.2011.11.001
+   Krishna A, 2014, ENVIRON URBAN, V26, P568, DOI 10.1177/0956247814537958
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Kuffer M, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040384
+   Kuffer M, 2016, IEEE J-STARS, V9, P1830, DOI 10.1109/JSTARS.2016.2538563
+   Le Roux B., 2011, MULTIPLE CORRES ANAL, V0, P0
+   Mahabir R, 2018, URBAN SCI, V2, P0, DOI 10.3390/urbansci2010008
+   Martinez J, 2016, HABITAT INT, V51, P90, DOI 10.1016/j.habitatint.2015.10.010
+   Mboga N, 2017, INT GEOSCI REMOTE SE, V0, P5169
+   Munyati C., 2014, URBAN PLANNING TRANS, V2, P57, DOI 10.1080/21650020.2014.901158
+   Nielsen M., 2015, NEURAL NETWORKS DEEP, V0, P0
+   Nijman J, 2008, CITIES, V25, P73, DOI 10.1016/j.cities.2008.01.003
+   Ojala T, 2002, IEEE T PATTERN ANAL, V24, P971, DOI 10.1109/TPAMI.2002.1017623
+   Olthuis K, 2015, HABITAT INT, V50, P270, DOI 10.1016/j.habitatint.2015.08.033
+   Pacione M., 2009, URBAN GEOGRAPHY GLOB, V0, P308
+   Patel S, 2012, ENVIRON URBAN, V24, P3, DOI 10.1177/0956247812438364
+   Persello C, 2017, IEEE GEOSCI REMOTE S, V14, P2325, DOI 10.1109/LGRS.2017.2763738
+   Rains E, 2019, ENVIRON URBAN, V31, P267, DOI 10.1177/0956247818798744
+   Rakodi C., 2002, URBAN LIVELIHOODS PE, V0, P0
+   Roy D, 2018, SCI DATA, V5, P0, DOI 10.1038/sdata.2017.200
+   Saharan T, 2018, EUR J DEV RES, V30, P276, DOI 10.1057/s41287-017-0095-2
+   Schug F, 2018, REMOTE SENS ENVIRON, V210, P217, DOI 10.1016/j.rse.2018.03.022
+   Scott GJ, 2017, IEEE GEOSCI REMOTE S, V14, P549, DOI 10.1109/LGRS.2017.2657778
+   Simard PY, 2003, PROC INT CONF DOC, V0, P958
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Stats Wales, 2014, WELSH INDEX MULTIPLE, V0, P1
+   Taubenbock H, 2018, APPL GEOGR, V92, P150, DOI 10.1016/j.apgeog.2018.02.002
+   Thomson CN, 2000, CITIES, V17, P97, DOI 10.1016/S0264-2751(00)00005-6
+   UN-Habitat, 2015, INFORMAL SETTLEMENTS, V0, P0
+   United Nations, 2016, WORLDS CIT 2016, V0, P0
+   Vedaldi A, 2015, MM15: PROCEEDINGS OF THE 2015 ACM MULTIMEDIA CONFERENCE, V0, PP689, DOI 10.1145/2733373.2807412
+   Vermeiren K, 2012, LANDSCAPE URBAN PLAN, V106, P199, DOI 10.1016/j.landurbplan.2012.03.006
+   Weeks JR, 2007, GEOJOURNAL, V69, P9, DOI 10.1007/s10708-007-9098-4
+   Williams N, 2016, APPL SPAT ANAL POLIC, V9, P269, DOI 10.1007/s12061-015-9158-y
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+NR 61
+TC 25
+Z9 25
+U1 1
+U2 11
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD JUN 1
+PY 2019
+VL 11
+IS 11
+BP 
+EP 
+DI 10.3390/rs11111282
+PG 24
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA IE8UC
+UT WOS:000472648000025
+DA 2023-04-26
+ER
+
+PT J
+AU Catano, DG
+   Arbelaez, MS
+   Pena, A
+AF Giraldo Catano, Daniela
+   Soto Arbelaez, Mariana
+   Pena, Alejandro
+TI FUZZY COGNITIVE MAPS TO EVALUATE THE INFLUENCE OF THE INFANTS ABOUT HOME BUYING DECISIONS Estimating child influence using a fuzzy logic framework
+SO 2019 14TH IBERIAN CONFERENCE ON INFORMATION SYSTEMS AND TECHNOLOGIES (CISTI)
+LA Spanish
+DT Proceedings Paper
+DE infant as a consumer; infant influence; family decisions making; food products; fuzzy logic neural network
+ID behavior
+AB The child has become a key member of the family nucleus, taking a key role on decision making. He is constantly involved directly or indirectly in decisions regarding the consumption products. Having said that the child becomes the object of study, therefore it's important to evaluate the impact a child in the purchase of food products using a fuzzy neural model. This methodology consists of two phases. Phase 1 evaluates all involved agents (child, parents, product) independently and pointing out that the latter two present some inconsistencies due to the structure of the model. Finally, in phase two of the model consists of combining phase one output variables infant, parents and products evidencing coherence between the level of influence estimated and the level of influence established for a particular scenario.
+C1 [Giraldo Catano, Daniela; Soto Arbelaez, Mariana; Pena, Alejandro] Univ EIA, GIICA, Envigado, Antioquia, Colombia.
+RP Catano, DG (corresponding author), Univ EIA, GIICA, Envigado, Antioquia, Colombia.
+EM danyg07@hotmail.com; marisoto96@gmail.com; pfjapena@gmail.com
+CR Albu V., 2016, MEASURING CUSTOMER B, V0, PP74, DOI 10.5281/zenodo.1044235
+   Badea LM, 2014, PROC ECON FINANC, V15, P238, DOI 10.1016/S2212-5671(14)00492-4
+   Balcarova T., 2014, AGRIS ON-LINE PAPERS IN ECONOMICS AND INFORMATICS, V0, P11
+   Calderon J, 2017, HEALTH EDUC BEHAV, V44, P5, DOI 10.1177/1090198116637602
+   Clulow, 1993, SEXUAL MARITAL THERA, V8, P269, DOI 10.1080/02674659308404973
+   Dikopoulou Z., 2017, INFERENCE FUZZY COGN, V0, P0
+   Ebster C, 2009, J RETAIL CONSUM SERV, V16, P145, DOI 10.1016/j.jretconser.2008.11.005
+   Flurry LA, 2007, J BUS RES, V60, P322, DOI 10.1016/j.jbusres.2006.09.029
+   Hayashi Y, 2010, KNOWL-BASED SYST, V23, P856, DOI 10.1016/j.knosys.2010.05.010
+   Lee WI, 2008, EXPERT SYST APPL, V34, P806, DOI 10.1016/j.eswa.2006.10.020
+   Markinos A., 2007, 6 EUR C PREC AGR 6EC, V0, P77
+   Sevic N., 2017, CHILDRENS ADVERTISIN, V0, PP157, DOI 10.22190/TEME1701157P
+   Taneja A, 2019, INT J INFORM MANAGE, V45, P132, DOI 10.1016/j.ijinfomgt.2018.10.010
+NR 14
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2166-0727
+EI 
+J9 IBER CONF INF SYST
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 
+EP 
+DI 
+PG 6
+WC Computer Science, Information Systems
+SC Computer Science
+GA BO0LZ
+UT WOS:000492038200296
+DA 2023-04-26
+ER
+
+PT J
+AU Wei, JL
+   Koroglu, MT
+   Zha, B
+   Yilmaz, A
+AF Wei, Jianli
+   Koroglu, M. Taha
+   Zha, Bing
+   Yilmaz, Alper
+TI Pedestrian Localization on Topological Maps with Neural Machine Translation Network
+SO 2019 IEEE SENSORS
+LA English
+DT Proceedings Paper
+DE location based services; open street maps; link/node model; graph traversal; routing graphs; Neural Machine Translation Network; Deep Learning
+ID navigation
+AB Pedestrians and vehicles tend to follow certain paths even in the case of no road or walkable path is prescribed. This fact makes topological representation of maps very important in navigation and localization applications. When infrastructure-based systems (e.g., GPS, Wi-Fi) are available, the problem is referred to as map-matching where the goal is to improve localization accuracy. On the other hand, localization becomes a problem in the lack of initialization for infrastructure-free systems (e.g., dead reckoning via odometry). For example, a pedestrian inertial navigation system (INS) can be used to generate drift-prone trajectories that would perfectly turn into graphs (consisting of nodes and edges) after heuristic corrections such as zero-velocity update (ZUPT), heuristic drift reduction (HDR) and motion direction aid by Earth's magnetic field. Most of the approaches use probabilistic generative methods to solve sub-graph traversal problem. This research adopts a neural network structure that is originally designed for language translation purposes and modifies it to achieve pedestrian localization on topological maps. Different feature combinations (angle vs. edge length) and number of traversed nodes are tested in the experiments. A minimum accuracy of 95% is achieved with all feature configurations while traversing only six nodes on the map.
+C1 [Wei, Jianli; Koroglu, M. Taha; Zha, Bing; Yilmaz, Alper] Ohio State Univ, Photogrammetr Comp Vis Lab, Columbus, OH 43210 USA.
+C3 University System of Ohio; Ohio State University
+RP Wei, JL (corresponding author), Ohio State Univ, Photogrammetr Comp Vis Lab, Columbus, OH 43210 USA.
+EM wei.909@osu.edu; koroglu.1@osu.edu; zha.44@osu.edu; yilmaz.15@osu.edu
+CR Aggarwal P., 2010, GNSS TECHNOLOGY APPL, V0, P0
+   Aggarwal P, 2011, MEAS SCI TECHNOL, V22, P0, DOI 10.1088/0957-0233/22/2/025205
+   Alaoui F.T, 2016, 2016 INT C IND POS I, V0, P1
+   Bahdanau D., 2015, ICLR 2015, V0, P0
+   Bolic M, 2015, IEEE PERVAS COMPUT, V14, P70, DOI 10.1109/MPRV.2015.39
+   Borenstein J., 2009, J NAVIGATION, V62, P4158
+   Chen K., 2019, ARXIV190300445, V0, P0
+   Cho K, 2014, P 2014 C EMP METH NA, V0, PP1724, DOI 10.3115/V1/D14-1179
+   Fischer C, 2013, IEEE PERVAS COMPUT, V12, P17, DOI 10.1109/MPRV.2012.16
+   Foxlin E, 2005, IEEE COMPUT GRAPH, V25, P38, DOI 10.1109/MCG.2005.140
+   Gillieron P.-Y., 2005, EUROPEAN J NAVIGATIO, V3, P0
+   Godha S, 2008, MEAS SCI TECHNOL, V19, P0, DOI 10.1088/0957-0233/19/7/075202
+   Greenfeld J. S., 2002, P 81 ANN M TRANSP RE, V0, P1
+   Gupta A, 2016, IEEE SENSOR, V0, P0
+   Gupta A, 2016, AIP CONF PROC, V1715, P0, DOI 10.1063/1.4942683
+   Jiang JH, 2016, IEEE 30TH INTERNATIONAL CONFERENCE ON ADVANCED INFORMATION NETWORKING AND APPLICATIONS WORKSHOPS (WAINA 2016), V0, PP908, DOI 10.1109/WAINA.2016.62
+   Jimenez AR, 2012, J LOCAT BASED SERV, V6, P186, DOI 10.1080/17489725.2012.687779
+   Jimenez A. R., 2010, PROCEEDINGS OF THE 2010 7TH WORKSHOP ON POSITIONING, V0, P135, DOI 10.1109/WPNC.2010.5649300
+   Jimenez A.R., 2018, 2018 INT C IND POS I, V0, P206
+   Ruiz ARJ, 2012, IEEE T INSTRUM MEAS, V61, P178, DOI 10.1109/TIM.2011.2159317
+   Li YY, 2016, IEEE CONF COMM NETW, V0, PP1, DOI 10.1109/CNS.2016.7860464
+   Liu H, 2007, IEEE T SYST MAN CY C, V37, P1067, DOI 10.1109/TSMCC.2007.905750
+   Nilsson JO, 2014, INT C INDOOR POSIT, V0, PP24, DOI 10.1109/IPIN.2014.7275464
+   Pryzant R., 2017, EVALUATING TENSORFLO, V0, P0
+   Quddus MA, 2007, TRANSPORT RES C-EMER, V15, P312, DOI 10.1016/j.trc.2007.05.002
+   Spassov I., 2006, EUR NAV C GLOB NAV S, V0, P0
+   Sutskever I., 2014, ADV NEURAL INF PROCE, V2, P3104, DOI 10.48550/ARXIV.1409.3215
+   Taia Alaoui F., 2017, WIREL COMMUN MOB COM, V2017, P1
+   Vinyals O., 2015, ADV NEURAL INFORM PR, V28, P0, DOI 10.4018/IJWLTT.2016100102
+   Wagstaff B, 2018, INT C INDOOR POSIT, V0, P0
+   Willemsen T, 2014, INT C INDOOR POSIT, V0, PP1, DOI 10.1109/IPIN.2014.7275461
+   Woodman O. J., 2007, UCAMCLTR696, V0, P0
+   Zhang R, 2017, IEEE SENS J, V17, P2137, DOI 10.1109/JSEN.2017.2665678
+   2016, 1900, P1, V0, P0
+NR 35
+TC 2
+Z9 2
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1930-0395
+EI 
+J9 IEEE SENSOR
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 
+EP 
+DI 
+PG 4
+WC Engineering, Electrical & Electronic; Remote Sensing
+SC Engineering; Remote Sensing
+GA BP0FS
+UT WOS:000534184600428
+DA 2023-04-26
+ER
+
+PT J
+AU Atman, J
+   Trommer, GF
+AF Atman, Jamal
+   Trommer, Gert F.
+TI Place Classification and Semantic Mapping for MAV Applications
+SO PROCEEDINGS OF THE 2019 INTERNATIONAL TECHNICAL MEETING OF THE INSTITUTE OF NAVIGATION
+LA English
+DT Proceedings Paper
+AB Micro air vehicles (MAVs) are promising mobile platforms for exploring tasks. They are able to quickly reach the place of interest and to obtain important and crucial information on the ongoing situation. Beyond metrical representation, semantic information of the observed environment enhances the ability of situational awareness. Thus, the aim of this paper is the semantic mapping. It discusses how to gain place labels and assign them to metrical space. Herby, fine-tuned Convolution Neural Networks are used for place classification. After that, the gained semantics are assigned to the metrical space by using a grid map update strategy. In this context, different metrics for weighting of the observed grid elements are considered. The overall approach is evaluated by experimental data within a typical office environment. The resulting semantic map is easy to interpret.
+C1 [Atman, Jamal] Karlsruhe Inst Technol KIT, Inst Syst Optimizat ITE, Karlsruhe, Germany.
+   [Trommer, Gert F.] KIT, ITE, Karlsruhe, Germany.
+   [Trommer, Gert F.] ITMO Univ, St Petersburg, Russia.
+C3 Helmholtz Association; Karlsruhe Institute of Technology; Helmholtz Association; Karlsruhe Institute of Technology; ITMO University
+RP Atman, J (corresponding author), Karlsruhe Inst Technol KIT, Inst Syst Optimizat ITE, Karlsruhe, Germany.
+CR Arvin AM, 2009, LIVE VARIOLA VIRUS: CONSIDERATIONS FOR CONTINUING RESEARCH, V0, P9
+   Atman J, 2018, IEEE POSITION LOCAT, V0, P254
+   Goeddel R, 2016, 2016 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS (IROS 2016), V0, PP3999, DOI 10.1109/IROS.2016.7759589
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Kullback Solomon, 1997, INFORM THEORY STAT, V0, P0
+   Pronobis A, 2010, INT J ROBOT RES, V29, P298, DOI 10.1177/0278364909356483
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Sunderhauf N., 2015, CORR, V0, P0
+   Ursic P, 2017, INT J ROBOT RES, V36, P379, DOI 10.1177/0278364917704707
+   Zhou B., 2014, P ADV NEUR INF PROC, V0, PP487, DOI 10.1162/153244303322533223
+NR 11
+TC 0
+Z9 0
+U1 0
+U2 0
+PU INST NAVIGATION
+PI WASHINGTON
+PA 815 15TH ST NW, STE 832, WASHINGTON, DC 20005 USA
+SN 2330-3646
+EI 2330-3662
+J9 P INT TECH M I NAVIG
+PD JUN 15
+PY 2019
+VL 0
+IS 
+BP 862
+EP 869
+DI 10.33012/2019.16730
+PG 8
+WC Remote Sensing; Telecommunications
+SC Remote Sensing; Telecommunications
+GA BP2JI
+UT WOS:000542920400067
+DA 2023-04-26
+ER
+
+PT J
+AU Silver, DL
+   Monga, T
+AF Silver, Daniel L.
+   Monga, Tanya
+TI In Vino Veritas: Estimating Vineyard Grape Yield from Images Using Deep Learning
+SO ADVANCES IN ARTIFICIAL INTELLIGENCE
+LA English
+DT Proceedings Paper
+DE Convolution neural networks; Transfer learning; Counting objects in an image; Estimating a quantity in an image; Precision agriculture
+AB Agricultural harvest estimation is an important, yet challenging problem to which machine learning can be applied. There is value in having better methods of yield estimation based on data that can be captured with inexpensive technology in the field. This research investigates five approaches to using convolution neural networks (CNNs) to develop models that can estimate the weight of grapes on the vine from an image taken by a smartphone. The results indicate that a combination of image processing and deep CNN machine learning can produce models that are sufficiently accurate within a variety of grape for data captured at harvest time. The best approach involved transfer learning; where a CNN is developed starting from the weights of a pretrained density map model that learns to output the location of grapes in the image. The best model achieved a MAE of 157 g over a mean average weight of 1335 g, or a MAE% of 11.8.
+C1 [Silver, Daniel L.; Monga, Tanya] Acadia Univ, Jodrey Sch Comp Sci, Wolfville, NS B4P 2R6, Canada.
+C3 Acadia University
+RP Silver, DL (corresponding author), Acadia Univ, Jodrey Sch Comp Sci, Wolfville, NS B4P 2R6, Canada.
+EM danny.silver@acadiau.ca
+FU Springboard Atlantic Inc.; Acadia University
+CR [Anonymous], 2015, VINEYARD YIELD ESTIM, V0, P0
+   [Anonymous], 2010, ARXIV10034053, V0, P0
+   Boominathan L, 2016, MM16: PROCEEDINGS OF THE 2016 ACM MULTIMEDIA CONFERENCE, V0, PP640, DOI 10.1145/2964284.2967300
+   Cheang E. K., 2017, ARXIV170106462, V0, P0
+   Cohen J. P., 2017, ARXIV170308710, V0, P0
+   Diago MP, 2012, SENSORS-BASEL, V12, P16988, DOI 10.3390/s121216988
+   Druzhkov P. N., 2016, PATTERN RECOGNITION AND IMAGE ANALYSIS, V26, P9
+   Font D, 2015, SENSORS-BASEL, V15, P8284, DOI 10.3390/s150408284
+   French G, 2015, UEA COMPUTER VISION, V0, P0
+   LeCun Yann, 1995, CONVOLUTIONAL NETWOR, V3361, P10
+   Lempitsky V., 2010, P 23 INT C NEURAL IN, V23, P1324
+   Liu S., 2013, P AUSTRALASIAN C ROB, V24, P2
+   Monga T, 2018, IMAGE GRAPE YIELD ES, V0, P0
+   Nuske S, 2011, IEEE INT C INT ROBOT, V0, P0
+   Rahnemoonfar M, 2017, SENSORS-BASEL, V17, P0, DOI 10.3390/s17040905
+   Saleh SAM, 2015, ENG APPL ARTIF INTEL, V41, P103, DOI 10.1016/j.engappai.2015.01.007
+   Skrabanek Pavel, 2016, P 22 INT C SOFT COMP, V0, P217
+   Xie WD, 2018, COMP M BIO BIO E-IV, V6, P283, DOI 10.1080/21681163.2016.1149104
+NR 18
+TC 7
+Z9 7
+U1 0
+U2 7
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+J9 LECT NOTES ARTIF INT
+PD JUN 15
+PY 2019
+VL 11489
+IS 
+BP 212
+EP 224
+DI 10.1007/978-3-030-18305-9_17
+PG 13
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA BN5XR
+UT WOS:000484789800017
+DA 2023-04-26
+ER

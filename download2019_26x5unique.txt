@@ -1,0 +1,586 @@
+
+PT J
+AU Chen, ST
+   Zhang, SY
+   Shang, JH
+   Chen, BD
+   Zheng, NN
+AF Chen, Shitao
+   Zhang, Songyi
+   Shang, Jinghao
+   Chen, Badong
+   Zheng, Nanning
+TI Brain-Inspired Cognitive Model With Attention for Self-Driving Cars
+SO IEEE TRANSACTIONS ON COGNITIVE AND DEVELOPMENTAL SYSTEMS
+LA English
+DT Article
+DE Autonomous mental development; cognitive robotics; end-to-end learning; path planning; vehicle driving
+ID perception; networks
+AB The perception-driven approach and end-to-end system are two major vision-based frameworks for self-driving cars. However, it is difficult to introduce attention and historical information into the autonomous driving process, which are essential for achieving human-like driving in these two methods. In this paper, we propose a novel model for self-driving cars called the brain-inspired cognitive model with attention. This model comprises three parts: 1) a convolutional neural network for simulating the human visual cortex; 2) a cognitive map to describe the relationships between objects in a complex traffic scene; and 3) a recurrent neural network, which is combined with the real-time updated cognitive map to implement the attention mechanism and long-short term memory. An advantage of our model is that it can accurately solve three tasks simultaneously: 1) detecting the free space and boundaries for the current and adjacent lanes; 2) estimating the distances to obstacles and vehicle attitude; and 3) learning the driving behavior and decision-making process of a human driver. Importantly, the proposed model can accept external navigation instructions during an end-to-end driving process. To evaluate the model, we built a large-scale road-vehicle dataset containing over 40 000 labeled road images captured by three cameras placed on our self-driving car. Moreover, human driving activities and vehicle states were recorded at the same time.
+C1 [Chen, Shitao; Zhang, Songyi; Shang, Jinghao; Chen, Badong; Zheng, Nanning] Xi An Jiao Tong Univ, Dept Elect & Informat Engn, Xian 710049, Shaanxi, Peoples R China.
+C3 Xi'an Jiaotong University
+RP Zheng, NN (corresponding author), Xi An Jiao Tong Univ, Dept Elect & Informat Engn, Xian 710049, Shaanxi, Peoples R China.
+EM chenshitao@stu.xjtu.edu.cn; zhangsongyi@stu.xjtu.edu.cn; sjh19950419@stu.xjtu.edu.cn; chenbd@mail.xjtu.edu.cn; nnzheng@mail.xjtu
+FU National Natural Science Foundation of China [61627811, L1522023]; Programme of Introducing Talents of Discipline to University [B13043]; 973 Program [2015CB351703]
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   [Anonymous], 2004, INTELLIGENCE, V0, P0
+   Assidiq AAM, 2008, 2008 INTERNATIONAL CONFERENCE ON COMPUTER AND COMMUNICATION ENGINEERING, VOLS 1-3, P82, DOI 10.1109/ICCCE.2008.4580573
+   Bojarski Mariusz, 2016, ARXIV, V0, P0
+   Chen CY, 2015, IEEE I CONF COMP VIS, V0, PP2722, DOI 10.1109/ICCV.2015.312
+   Fritsch J, 2013, IEEE INT C INTELL TR, V0, PP1693, DOI 10.1109/ITSC.2013.6728473
+   Girshick R, 2016, IEEE T PATTERN ANAL, V38, P142, DOI 10.1109/TPAMI.2015.2437384
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Hu J, 2016, IEEE COMPUT INTELL M, V11, P56, DOI 10.1109/MCI.2016.2532268
+   Huval B., 2015, AN EMPIRICAL EVALUAT, V0, P0, DOI DOI 10.1002/PI.4767
+   Jia He, 2010, PROCEEDINGS 2010 INTERNATIONAL CONFERENCE ON OPTOELECTRONICS AND IMAGE PROCESSING (ICOIP 2010), V0, PP28, DOI 10.1109/ICOIP.2010.307
+   Koutnik J, 2013, GECCO13: PROCEEDINGS OF THE 2013 GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE, V0, P1061
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   LeCun Y., 2005, ADV NEURAL INFORM PR, V0, P0
+   Leonard J, 2008, J FIELD ROBOT, V25, P727, DOI 10.1002/rob.20262
+   [李青 Li Qing], 2004, 光电工程 OPTO-ELECTRONIC ENGINEERING, V31, P23
+   Li YM, 2014, 2014 IEEE 17TH INTERNATIONAL CONFERENCE ON INTELLIGENT TRANSPORTATION SYSTEMS (ITSC), V0, P1682
+   McNaughton BL, 2006, NAT REV NEUROSCI, V7, P663, DOI 10.1038/nrn1932
+   Mnih V., 2013, ARXIV, V0, P0
+   Mnih V, 2015, NATURE, V518, P529, DOI 10.1038/nature14236
+   Mountcastle V.B., 1978, MINDFUL BRAIN CORTIC, V0, P7
+   Nan ZX, 2016, SENSORS-BASEL, V16, P0, DOI 10.3390/s16081276
+   OKEEFE J, 1979, BEHAV BRAIN SCI, V2, P487, DOI 10.1017/S0140525X00063949
+   Paden B, 2016, IEEE T INTELL VEHICL, V1, P33, DOI 10.1109/TIV.2016.2578706
+   Pomerleau D.A., 1989, ADV NEURAL INFORM PR, V0, P305
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Rusk N, 2016, NAT METHODS, V13, P35, DOI 10.1038/nmeth.3707
+   Silver D, 2016, NATURE, V529, P484, DOI 10.1038/nature16961
+   Sutton R. S., 1998, REINFORCEMENT LEARNI, V1, P0
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   TSUGAWA S, 1994, IEEE T IND ELECTRON, V41, P398, DOI 10.1109/41.303790
+   TURK MA, 1988, IEEE T PATTERN ANAL, V10, P342, DOI 10.1109/34.3899
+   Wang Y, 2004, IMAGE VISION COMPUT, V22, P269, DOI 10.1016/j.imavis.2003.10.003
+   Xu Huazhe, 2016, ARXIV161201079, V0, P0
+   Xue JR, 2017, FRONT INFORM TECH EL, V18, P122, DOI 10.1631/FITEE.1601873
+   Yuan ML, 2015, AAAI CONF ARTIF INTE, V0, P586
+   Zhang ZY, 2000, IEEE T PATTERN ANAL, V22, P1330, DOI 10.1109/34.888718
+   Zheng NN, 2017, FRONT INFORM TECH EL, V18, P153, DOI 10.1631/FITEE.1700053
+NR 38
+TC 44
+Z9 45
+U1 7
+U2 83
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2379-8920
+EI 2379-8939
+J9 IEEE T COGN DEV SYST
+JI IEEE Trans. Cogn. Dev. Syst.
+PD MAR 15
+PY 2019
+VL 11
+IS 1
+BP 13
+EP 25
+DI 10.1109/TCDS.2017.2717451
+PG 13
+WC Computer Science, Artificial Intelligence; Robotics; Neurosciences
+SC Computer Science; Robotics; Neurosciences & Neurology
+GA HO9BE
+UT WOS:000461254800002
+DA 2023-04-26
+ER
+
+PT J
+AU Chi, YX
+   Liu, J
+AF Chi, Yaxiong
+   Liu, Jing
+TI Reconstructing gene regulatory networks with a memetic-neural hybrid based on fuzzy cognitive maps
+SO NATURAL COMPUTING
+LA English
+DT Article
+DE Gene regulatory networks; Fuzzy cognitive maps; Memetic algorithms; Neural networks
+ID expression profiles; time-series; inference; prediction; evolution; models
+AB Reconstructing gene regulatory networks (GRNs) plays an important role in identifying the complicated regulatory relationships, uncovering regulatory patterns in cells, and gaining a systematic view for biological processes. In order to reconstruct large-scale GRNs accurately, in this paper, we first use fuzzy cognitive maps (FCMs), which are a kind of cognition fuzzy influence graphs based on fuzzy logic and neural networks, to model GRNs. Then, a novel hybrid method is proposed to reconstruct GRNs from time series expression profiles using memetic algorithm (MA) combined with neural network (NN), which is labeled as MANN(FCM)-GRN. In MANN(FCM)-GRN, the MA is used to determine regulatory connections in GRNs and the NN is used to determine the interaction strength of the regulatory connections. In the experiments, the performance of MANN(FCM)-GRN is validated on both synthetic data and the benchmark dataset DREAM3 and DREAM4. The experimental results demonstrate the efficacy of MANN(FCM)-GRN and show that MANN(FCM)-GRN can reconstruct GRNs with high accuracy without expert knowledge. The comparison with existing algorithms also shows that MANN(FCM)-GRN outperforms ant colony optimization, non-linear Hebbian learning, and real-coded genetic algorithms.
+C1 [Chi, Yaxiong; Liu, Jing] Xidian Univ, Key Lab Intelligent Percept & Image Understanding, Minist Educ, Xian 710071, Shaanxi, Peoples R China.
+C3 Xidian University
+RP Liu, J (corresponding author), Xidian Univ, Key Lab Intelligent Percept & Image Understanding, Minist Educ, Xian 710071, Shaanxi, Peoples R China.
+EM neouma@163.com
+FU Outstanding Young Scholar Program of National Natural Science Foundation of China (NSFC) [61522311]; NSFC [61271301]; Overseas, Hong Kong & Macao Scholars Collaborated Research Program of NSFC [61528205]; Research Fund for the Doctoral Program of Higher Education of China [20130203110010]; Fundamental Research Funds for the Central Universities [K5051202052]
+CR Ando S, 2003, IEEE C EVOL COMPUTAT, V0, PP207, DOI 10.1109/CEC.2003.1299576
+   Bakken BT, 2002, 20 INT SYST DYN C IT, V0, P0
+   Bansal M, 2007, MOL SYST BIOL, V3, P0, DOI 10.1038/msb4100120
+   Chen Y, 2012, PROCEEDINGS OF THE FOURTEENTH INTERNATIONAL CONFERENCE ON GENETIC AND EVOLUTIONARY COMPUTATION CONFERENCE, V0, PP9, DOI 10.1145/2330163.2330166
+   Dhaeseleer P, 2000, BIOINFORMATICS, V16, P707, DOI 10.1093/bioinformatics/16.8.707
+   De Jong H, 2002, J COMPUT BIOL, V9, P67, DOI 10.1089/10665270252833208
+   de la Fuente A, 2002, TRENDS GENET, V18, P395, DOI 10.1016/S0168-9525(02)02692-6
+   Dickerson JA, 2001, JOINT 9TH IFSA WORLD CONGRESS AND 20TH NAFIPS INTERNATIONAL CONFERENCE, V0, P0
+   Eriksson R, 2004, BIOSYSTEMS, V76, P217, DOI 10.1016/j.biosystems.2004.05.014
+   Esmaeili A, 2009, BIOSYSTEMS, V98, P127, DOI 10.1016/j.biosystems.2009.09.002
+   Fomekong-Nanfack Y, 2007, BIOINFORMATICS, V23, P3356, DOI 10.1093/bioinformatics/btm433
+   Friedman N, 2000, J COMPUT BIOL, V7, P601, DOI 10.1089/106652700750050961
+   Froelich W, 2009, C HUM SYST INTERACT, V0, P13
+   Georgopoulos VC, 2003, ARTIF INTELL MED, V29, P261, DOI 10.1016/S0933-3657(02)00076-3
+   Greenfield A, 2010, PLOS ONE, V5, P0, DOI 10.1371/journal.pone.0013397
+   Hovatta I., 2005, DNA MICROARRAY DATA, V0, P0
+   IBA H, 1900, V145, V0, P225
+   Karlebach G, 2008, NAT REV MOL CELL BIO, V9, P770, DOI 10.1038/nrm2503
+   Kauffman S, 2003, P NATL ACAD SCI USA, V100, P14796, DOI 10.1073/pnas.2036429100
+   Keedwell E, 2005, IEEE ACM T COMPUT BI, V2, P231, DOI 10.1109/TCBB.2005.40
+   Kim Sun Yong, 2003, BRIEFINGS IN BIOINFORMATICS, V4, P228, DOI 10.1093/bib/4.3.228
+   KOSKO B, 1986, INT J MAN MACH STUD, V24, P65, DOI 10.1016/S0020-7373(86)80040-2
+   Koulouriotis DE, 2001, IEEE C EVOL COMPUTAT, V0, PP364, DOI 10.1109/CEC.2001.934413
+   Krasnogor N, 1999, GRAD STUD WORKSH, V371, P0
+   Lee WP, 2012, INFORM SCIENCES, V188, P80, DOI 10.1016/j.ins.2011.11.020
+   Li JB, 2012, IEEE SYS MAN CYBERN, V0, PP581, DOI 10.1109/ICSMC.2012.6377788
+   Linden R, 2007, BIOSYSTEMS, V88, P76, DOI 10.1016/j.biosystems.2006.04.006
+   Liu XH, 2008, GENOMICS, V91, P378, DOI 10.1016/j.ygeno.2007.12.002
+   Marbach D, 2009, J COMPUT BIOL, V16, P229, DOI 10.1089/cmb.2008.09TT
+   Moscato P., 1989, EVOLUTION SEARCH OPT, V0, P0
+   Noman N, 2008, P 8 ANN C GEN EV COM, V0, P263
+   Noman N, 2007, IEEE ACM T COMPUT BI, V4, P634, DOI 10.1109/TCBB.2007.1058
+   Ong YS, 2006, IEEE T SYST MAN CY B, V36, P141, DOI 10.1109/TSMCB.2005.856143
+   Papageorgiou E, 2003, LECT NOTES ARTIF INT, V2903, P256
+   Papageorgiou E, 2004, LECT NOTES COMPUTER, V3037, P0
+   Papageorgiou EI, 2004, INT J APPROX REASON, V37, P219, DOI 10.1016/j.ijar.2004.01.001
+   Papageorgiou EI, 2012, IEEE T SYST MAN CY C, V42, P150, DOI 10.1109/TSMCC.2011.2138694
+   Papageorgiou EI, 2011, APPL SOFT COMPUT, V11, P500, DOI 10.1016/j.asoc.2009.12.010
+   Papakostas GA, 2008, INT J PATTERN RECOGN, V22, P1461, DOI 10.1142/S0218001408006910
+   Parsopoulos KE, 2003, IEEE C EVOL COMPUTAT, V0, P1440
+   Penfold CA, 2011, INTERFACE FOCUS, V1, P857, DOI 10.1098/rsfs.2011.0053
+   Przytycka TM, 2010, BRIEF BIOINFORM, V11, P15, DOI 10.1093/bib/bbp057
+   Repsilber D, 2002, BIOSYSTEMS, V66, P31, DOI 10.1016/S0303-2647(02)00019-9
+   Sirbu A, 2011, EVOLUTIONARY ALGORITHMS, V0, P521
+   Sirbu A, 2010, BMC BIOINFORMATICS, V11, P0, DOI 10.1186/1471-2105-11-59
+   Song HJ, 2010, IEEE T FUZZY SYST, V18, P233, DOI 10.1109/TFUZZ.2009.2038371
+   Stach W, 2005, IEEE INT CONF FUZZY, V0, P619
+   Stach W, 2005, FUZZY SET SYST, V153, P371, DOI 10.1016/j.fss.2005.01.009
+   Stach W, 2004, NAFIPS 2004: ANNUAL MEETING OF THE NORTH AMERICAN FUZZY INFORMATION PROCESSING SOCIETY, VOLS 1AND 2, P28
+   Stach W., 2010, THESIS, V0, P0
+   Stach W., 2004, P 4 ASERC WORKSH QUA, V0, P55
+   Stach W, 2007, IEEE IJCNN, V0, PP1584, DOI 10.1109/IJCNN.2007.4371194
+   Stach W, 2008, IEEE T FUZZY SYST, V16, P61, DOI 10.1109/TFUZZ.2007.902020
+   Stach W, 2010, FUZZY SET SYST, V161, P2515, DOI 10.1016/j.fss.2010.04.008
+   Stach W, 2008, IEEE INT CONF FUZZY, V0, P1977
+   Stolovitzky G, 2009, ANN NY ACAD SCI, V1158, P159, DOI 10.1111/j.1749-6632.2009.04497.x
+   Tominaga D., 2009, GCB99 GERM C BIOINF, V0, P101
+   Tsadiras AK, 2008, INFORM SCIENCES, V178, P3880, DOI 10.1016/j.ins.2008.05.015
+   Wang H, 2010, IET SYST BIOL, V4, P145, DOI 10.1049/iet-syb.2008.0175
+   Xu R, 2004, IEEE IJCNN, V0, P1215
+NR 60
+TC 8
+Z9 8
+U1 0
+U2 6
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1567-7818
+EI 1572-9796
+J9 NAT COMPUT
+JI Nat. Comput.
+PD JUN 15
+PY 2019
+VL 18
+IS 2
+BP 301
+EP 312
+DI 10.1007/s11047-016-9547-4
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications; Computer Science, Theory & Methods
+SC Computer Science
+GA HY4DH
+UT WOS:000468077500008
+DA 2023-04-26
+ER
+
+PT J
+AU Li, RW
+   Wang, NQ
+AF Li, Renwei
+   Wang, Nianqin
+TI Landslide Susceptibility Mapping for the Muchuan County (China): A Comparison Between Bivariate Statistical Models (WoE, EBF, and IoE) and Their Ensembles with Logistic Regression
+SO SYMMETRY-BASEL
+LA English
+DT Article
+DE landslide susceptibility; weights of evidence; evidence belief function; index of entropy; logistic regression; Geographic Information Systems (GIS)
+ID artificial neural-network; support vector machine; analytical hierarchy process; evidential belief function; extreme learning-machine; weights-of-evidence; frequency ratio; spatial prediction; decision tree; process ahp
+AB The main purpose of this study is to apply three bivariate statistical models, namely weight of evidence (WoE), evidence belief function (EBF) and index of entropy (IoE), and their ensembles with logistic regression (LR) for landslide susceptibility mapping in Muchuan County, China. First, a landslide inventory map contained 279 landslides was obtained through the field investigation and interpretation of aerial photographs. Next, the landslides were randomly divided into two parts for training and validation with the ratio of 70/30. In addition, according to the regional geological environment characteristics, twelve landslide conditioning factors were selected, including altitude, plan curvature, profile curvature, slope angle, distance to roads, distance to rivers, topographic wetness index (TWI), normalized different vegetation index (NDVI), land use, soil, and lithology. Subsequently, the landslide susceptibility mapping was carried out by the above models. Eventually, the accuracy of this research was validated by the area under the receiver operating characteristic (ROC) curve and the results indicated that the landslide susceptibility map produced by EBF-LR model has the highest accuracy (0.826), followed by IoE-LR model (0.825), WoE-LR model (0.792), EBF model (0.791), IoE model (0.778), and WoE model (0.753). The results of this study can provide references of landslide prevention and land use planning for local government.
+C1 [Li, Renwei; Wang, Nianqin] Xian Univ Sci & Technol, Coll Geol & Environm, Xian 710054, Shaanxi, Peoples R China.
+C3 Xi'an University of Science & Technology
+RP Li, RW; Wang, NQ (corresponding author), Xian Univ Sci & Technol, Coll Geol & Environm, Xian 710054, Shaanxi, Peoples R China.
+EM 17209074018@stu.xust.edu.cn; wangnianqin@xust.edu.cn
+FU National Natural Science Foundation of China [41572287]; Science & Technology Co-ordination and Innovation Projection of Shaanxi Province [2016KTCL03-19]
+CR Abedini M, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7524-1
+   Aghdam IN, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-5233-6
+   Althuwaynee OF, 2012, COMPUT GEOSCI-UK, V44, P120, DOI 10.1016/j.cageo.2012.03.003
+   [Anonymous], 2019, P IAEG AEG ANN M P S, V0, P0
+   [Anonymous], 2017, LASER SCANNING APPL, V0, P0, DOI DOI 10.1007/978-3-319-55342-9_6
+   Arabameri A, 2019, J MT SCI-ENGL, V16, P595, DOI 10.1007/s11629-018-5168-y
+   Arnold P, 2015, ENGINEERING GEOLOGY FOR SOCIETY AND TERRITORY, VOL 6: APPLIED GEOLOGY FOR MAJOR ENGINEERING PROJECTS, P671, DOI 10.1007/978-3-319-09060-3_120
+   Bartelletti C, 2017, J MAPS, V13, P142, DOI 10.1080/17445647.2017.1279082
+   Basher L, 2018, GEOMORPHOLOGY, V307, P93, DOI 10.1016/j.geomorph.2017.10.006
+   Bievre G, 2016, LANDSLIDES, V13, P423, DOI 10.1007/s10346-015-0579-0
+   Pham BT, 2018, SUSTAIN DEV GOAL SER, V0, PP159, DOI 10.1007/978-3-319-56469-2_11
+   Pham BT, 2018, J GEOL SOC INDIA, V91, P355, DOI 10.1007/s12594-018-0862-5
+   Pham BT, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7268-y
+   Pham BT, 2017, CATENA, V149, P52, DOI 10.1016/j.catena.2016.09.007
+   Pham BT, 2017, THEOR APPL CLIMATOL, V128, P255, DOI 10.1007/s00704-015-1702-9
+   Borrelli L, 2018, LANDSLIDES, V15, P1143, DOI 10.1007/s10346-018-0955-7
+   Broeckx J, 2018, EARTH-SCI REV, V185, P102, DOI 10.1016/j.earscirev.2018.05.002
+   Bronevich AG, 2002, STUD FUZZ SOFT COMP, V87, P160
+   Camilo DC, 2017, ENVIRON MODELL SOFTW, V97, P145, DOI 10.1016/j.envsoft.2017.08.003
+   Can A, 2019, B ENG GEOL ENVIRON, V78, P89, DOI 10.1007/s10064-017-1034-3
+   Canoglu MC, 2019, B ENG GEOL ENVIRON, V78, P3159, DOI 10.1007/s10064-018-1337-z
+   Carranza EJM, 2015, NAT RESOUR RES, V24, P291, DOI 10.1007/s11053-014-9250-z
+   Chen CW, 2016, GEOMORPHOLOGY, V273, P1, DOI 10.1016/j.geomorph.2016.08.012
+   Chen W, 2019, NATURAL HAZARDS GIS, V0, PP225, DOI 10.1007/978-3-319-73383-8_10
+   Chen W, 2019, GEOCARTO INT, V34, P1177, DOI 10.1080/10106049.2019.1588393
+   Chen W, 2019, J HYDROL, V575, P864, DOI 10.1016/j.jhydrol.2019.05.089
+   Chen W, 2019, SCI TOTAL ENVIRON, V684, P31, DOI 10.1016/j.scitotenv.2019.05.312
+   Chen W, 2019, J HYDROL, V572, P435, DOI 10.1016/j.jhydrol.2019.03.013
+   Chen W, 2019, NAT RESOUR RES, V28, P1239, DOI 10.1007/s11053-019-09465-w
+   Chen W, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9010171
+   Chen W, 2018, APPL SCI-BASEL, V8, P0, DOI 10.3390/app8122540
+   Chen W, 2019, B ENG GEOL ENVIRON, V78, P4397, DOI 10.1007/s10064-018-1401-8
+   Chen W, 2019, CATENA, V172, P212, DOI 10.1016/j.catena.2018.08.025
+   Chen W, 2018, SCI TOTAL ENVIRON, V634, P853, DOI 10.1016/j.scitotenv.2018.04.055
+   Chen W, 2017, GEOMAT NAT HAZ RISK, V8, P1955, DOI 10.1080/19475705.2017.1401560
+   Chen W, 2017, GEOMORPHOLOGY, V297, P69, DOI 10.1016/j.geomorph.2017.09.007
+   Cheng CH, 2016, GEODERMA, V265, P187, DOI 10.1016/j.geoderma.2015.11.028
+   Cheng QM, 2015, MATH GEOSCI, V47, P591, DOI 10.1007/s11004-014-9578-2
+   Chou WC, 2009, ENVIRON MONIT ASSESS, V152, P245, DOI 10.1007/s10661-008-0312-8
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   Constantin M, 2011, ENVIRON EARTH SCI, V63, P397, DOI 10.1007/s12665-010-0724-y
+   Cordeira JM, 2019, B AM METEOROL SOC, V100, P1499, DOI 10.1175/BAMS-D-18-0158.1
+   Croissant T, 2017, NAT GEOSCI, V10, P680, DOI 10.1038/ngeo3005
+   Das A., 2014, ENCY QUALITY LIFE WE, V0, PP3680, DOI 10.1007/978-94-007-0753-5_1689
+   Demir G, 2018, NAT HAZARDS, V92, P133, DOI 10.1007/s11069-018-3195-1
+   Dempster AP, 2008, STUD FUZZ SOFT COMP, V219, P57
+   Deng M, 2009, NATURAL RESOURCES RE, V18, P249, DOI 10.1007/S11053-009-9101-5
+   Devkota KC, 2013, NAT HAZARDS, V65, P135, DOI 10.1007/s11069-012-0347-6
+   Bui DT, 2019, CATENA, V179, P184, DOI 10.1016/j.catena.2019.04.009
+   Bui DT, 2019, SCI TOTAL ENVIRON, V668, P1038, DOI 10.1016/j.scitotenv.2019.02.422
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Diva IH, 2018, SUMATRA J DISASTER G, V2, P0, DOI 10.24036/sjdgge.v2i1.130
+   Dou J, 2015, NAT HAZARDS, V78, P1749, DOI 10.1007/s11069-015-1799-2
+   Environmental Systems Research Institute, 2010, ARCGIS DESKT REL 10, V0, P0
+   Fagin TD, 2011, PLANT ECOL, V212, P207, DOI 10.1007/s11258-010-9815-9
+   Fan W, 2017, J MT SCI-ENGL, V14, P906, DOI 10.1007/s11629-016-4068-2
+   Feizizadeh B, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2918-z
+   Fiorucci F, 2019, LANDSLIDES, V16, P165, DOI 10.1007/s10346-018-1069-y
+   Ford A, 2016, NAT RESOUR RES, V25, P19, DOI 10.1007/s11053-015-9263-2
+   Frattini P, 2010, ENG GEOL, V111, P62, DOI 10.1016/j.enggeo.2009.12.004
+   Gayen A, 2017, MODEL EARTH SYST ENV, V3, P1116, DOI 10.1007/s40808-017-0362-4
+   Geospatial Data Cloud of Chinese Academy of Sciences (GSCloud), 2019, DIG EL MOD, V0, P0
+   Goetz JN, 2015, COMPUT GEOSCI-UK, V81, P1, DOI 10.1016/j.cageo.2015.04.007
+   Gonzalez-Ollauri A, 2017, J HYDROL, V549, P374, DOI 10.1016/j.jhydrol.2017.04.014
+   Goransson G, 2018, SCI TOTAL ENVIRON, V642, P553, DOI 10.1016/j.scitotenv.2018.06.078
+   Grahn T, 2017, LANDSLIDES, V14, P1113, DOI 10.1007/s10346-016-0775-6
+   Gu DM, 2016, ENG GEOL, V208, P165, DOI 10.1016/j.enggeo.2016.04.037
+   Guzzetti F, 2012, EARTH-SCI REV, V112, P42, DOI 10.1016/j.earscirev.2012.02.001
+   Henriques C, 2015, ENG GEOL, V189, P17, DOI 10.1016/j.enggeo.2015.01.025
+   Hong HY, 2018, EARTH SCI INFORM, V11, P605, DOI 10.1007/s12145-018-0352-8
+   Hong HY, 2018, CATENA, V163, P399, DOI 10.1016/j.catena.2018.01.005
+   Hong HY, 2016, GEOMORPHOLOGY, V259, P105, DOI 10.1016/j.geomorph.2016.02.012
+   Hong HY, 2015, CATENA, V133, P266, DOI 10.1016/j.catena.2015.05.019
+   Huang FM, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7334-5
+   Institute of Soil Science Chinese Academy of Sciences (ISSCAS), 2019, SOIL MAP, V0, P0
+   International Business Machines Corporation (IBM), 2013, SPSS DESKT REL 22 0, V0, P0
+   Jaafari A, 2014, INT J ENVIRON SCI TE, V11, P909, DOI 10.1007/s13762-013-0464-0
+   Jacobs L, 2017, J AFR EARTH SCI, V134, P917, DOI 10.1016/j.jafrearsci.2016.05.013
+   Jebur MN, 2014, REMOTE SENS ENVIRON, V152, P150, DOI 10.1016/j.rse.2014.05.013
+   Kornejady A, 2019, ADV NAT TECH HAZ RES, V50, P123, DOI 10.1007/978-3-319-77377-3_7
+   Hung LQ, 2016, LANDSLIDES, V13, P1285, DOI 10.1007/s10346-015-0657-3
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Li HJ, 2018, LANDSLIDES, V15, P2047, DOI 10.1007/s10346-018-1020-2
+   Losasso L, 2017, LECT NOTES COMPUT SC, V10404, P761, DOI 10.1007/978-3-319-62392-4_55
+   Mandal SP, 2018, SPAT INF RES, V26, P127, DOI 10.1007/s41324-017-0160-0
+   Meten M, 2015, J MT SCI-ENGL, V12, P1355, DOI 10.1007/s11629-015-3464-3
+   Mezaal MR, 2018, CATENA, V167, P147, DOI 10.1016/j.catena.2018.04.038
+   Mondal S, 2013, INT J DISAST RISK SC, V4, P200, DOI 10.1007/s13753-013-0021-y
+   Moon K-W., 2016, LEARN GGPLOT2 USING, V0, PP51, DOI 10.1007/978-3-319-53019-2_6
+   Myronidis D, 2016, NAT HAZARDS, V81, P245, DOI 10.1007/s11069-015-2075-1
+   National Geological Archives of China (NGAC), 2019, LITH MAP, V0, P0
+   Neto C, 2017, SCI TOTAL ENVIRON, V574, P969, DOI 10.1016/j.scitotenv.2016.09.119
+   Neuhauser B, 2012, LANDSLIDES, V9, P511, DOI 10.1007/s10346-011-0305-5
+   Peng JB, 2019, J ASIAN EARTH SCI, V170, P329, DOI 10.1016/j.jseaes.2018.11.015
+   Persichillo MG, 2017, SCI TOTAL ENVIRON, V574, P924, DOI 10.1016/j.scitotenv.2016.09.125
+   Petrucci O, 2010, NAT HAZARDS, V52, P539, DOI 10.1007/s11069-009-9398-8
+   Plumlee R.D., 2002, BELIEF FUNCTIONS BUS, V0, PP161, DOI 10.1007/978-3-7908-1798-0_6
+   Pourghasemi HR, 2017, THEOR APPL CLIMATOL, V130, P609, DOI 10.1007/s00704-016-1919-2
+   Pourghasemi HR, 2013, J EARTH SYST SCI, V122, P349, DOI 10.1007/s12040-013-0282-2
+   Pourghasemi HR, 2012, NAT HAZARDS, V63, P965, DOI 10.1007/s11069-012-0217-2
+   Pradhan AMS, 2017, B ENG GEOL ENVIRON, V76, P1263, DOI 10.1007/s10064-016-0919-x
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2011, ENVIRON ECOL STAT, V18, P471, DOI 10.1007/s10651-010-0147-7
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Quan HC, 2012, KSCE J CIV ENG, V16, P1258, DOI 10.1007/s12205-012-1242-0
+   Raja NB, 2018, NAT HAZARDS, V91, P1423, DOI 10.1007/s11069-017-3145-3
+   Razavizadeh S, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6839-7
+   Rossi LMW, 2017, ECOL ENG, V109, P249, DOI 10.1016/j.ecoleng.2017.08.010
+   Rossi M, 2017, GEOMORPHOLOGY, V285, P16, DOI 10.1016/j.geomorph.2017.02.001
+   Sahana M, 2017, J MT SCI-ENGL, V14, P2150, DOI 10.1007/s11629-017-4404-1
+   Samia J, 2017, GEOMORPHOLOGY, V292, P16, DOI 10.1016/j.geomorph.2017.04.039
+   Samia J, 2017, LANDSLIDES, V14, P547, DOI 10.1007/s10346-016-0739-x
+   Sarkar S, 2013, J GEOL SOC INDIA, V82, P351, DOI 10.1007/s12594-013-0162-z
+   Schicker R, 2012, GEOMORPHOLOGY, V161, P40, DOI 10.1016/j.geomorph.2012.03.036
+   Shafizadeh-Moghadam H, 2017, ENVIRON MONIT ASSESS, V189, P0, DOI 10.1007/s10661-017-5986-3
+   Sharma S, 2019, B ENG GEOL ENVIRON, V78, P2431, DOI 10.1007/s10064-018-1259-9
+   Sheng TT, 2017, LECT NOTES COMPUT SC, V10668, P601, DOI 10.1007/978-3-319-71598-8_53
+   Singh VA, 2010, NEW ECON WINDOWS, V0, PP139, DOI 10.1007/978-88-470-1501-2_16
+   Sridhar B., 2019, PROCEEDINGS OF INTERNATIONAL CONFERENCE ON REMOTE SENSING FOR DISASTER MANAGEMENT. ISSUES AND CHALLENGES IN DISASTER MANAGEMENT. SPRINGER SERIES IN GEOMECHANICS AND GEOENGINEERING (SSGG), V0, PP515, DOI 10.1007/978-3-319-77276-9_46
+   Sun WY, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040314
+   Talaei R, 2014, J GEOL SOC INDIA, V84, P68, DOI 10.1007/s12594-014-0111-5
+   Thomas MA, 2018, LANDSLIDES, V15, P1265, DOI 10.1007/s10346-018-0950-z
+   Toebe M, 2013, J CEREAL SCI, V57, P453, DOI 10.1016/j.jcs.2013.01.014
+   Tsangaratos P, 2016, CATENA, V145, P164, DOI 10.1016/j.catena.2016.06.004
+   Dang VH, 2019, B ENG GEOL ENVIRON, V78, P2835, DOI 10.1007/s10064-018-1273-y
+   Wang F, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6060172
+   Wang QQ, 2016, GEOSCI J, V20, P705, DOI 10.1007/s12303-016-0003-3
+   Wang QQ, 2016, J EARTH SYST SCI, V125, P645
+   Wang Y, 2018, J MT SCI-ENGL, V15, P2730, DOI 10.1007/s11629-017-4798-9
+   Watakabe T, 2019, CATENA, V180, P55, DOI 10.1016/j.catena.2019.04.010
+   Weed DL, 2005, RISK ANAL, V25, P1545, DOI 10.1111/j.1539-6924.2005.00699.x
+   Weisburd D., 2014, STAT CRIMINAL JUSTIC, V0, PP548, DOI 10.1007/978-1-4614-9170-5_18
+   Wu XL, 2014, ENVIRON EARTH SCI, V71, P4725, DOI 10.1007/s12665-013-2863-4
+   Xie JR, 2019, LANDSLIDES, V16, P1243, DOI 10.1007/s10346-019-01135-5
+   Xu DD, 2018, INT J DISAST RISK SC, V9, P167, DOI 10.1007/s13753-018-0170-0
+   Yoshimatsu H, 2006, LANDSLIDES, V3, P149, DOI 10.1007/s10346-005-0031-y
+   Zare M, 2013, ARAB J GEOSCI, V6, P2873, DOI 10.1007/s12517-012-0610-x
+   Zhao T, 2017, LANDSLIDES, V14, P189, DOI 10.1007/s10346-015-0675-1
+   Zhou C, 2018, COMPUT GEOSCI-UK, V112, P23, DOI 10.1016/j.cageo.2017.11.019
+   Zhuang JQ, 2018, ENG GEOL, V236, P89, DOI 10.1016/j.enggeo.2017.03.001
+NR 141
+TC 33
+Z9 33
+U1 6
+U2 35
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-8994
+J9 SYMMETRY-BASEL
+JI Symmetry-Basel
+PD JUN 15
+PY 2019
+VL 11
+IS 6
+BP 
+EP 
+DI 10.3390/sym11060762
+PG 24
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA IJ2BK
+UT WOS:000475703000037
+DA 2023-04-26
+ER
+
+PT J
+AU Lee, S
+   Syifa, M
+   Koo, BJ
+   Lee, CW
+   Oh, HJ
+AF Lee, Saro
+   Syifa, Mutiara
+   Koo, Bon Joo
+   Lee, Chang-Wook
+   Oh, Hyun-Joo
+TI Spatial Macrobenthos Habitat on Ganghwa Tidal Flat, Korea: Part II - Habitat Potential Mapping of Potamocorbula laevis Using Probability Models
+SO JOURNAL OF COASTAL RESEARCH
+LA English
+DT Article
+DE Potamocorbula laevis; FR; WoE; EBF; habitat potential map
+ID artificial neural-network; evidential belief function; frequency ratio; susceptibility; gis; prediction; city
+AB Macrobenthos is a well-known biological indicator of environmental pollution, and its habitat plays important roles in the food chain in intertidal estuary ecosystems. Therefore, determination of the macrobenthos distribution is essential to understand such ecosystems. Potamocorbula laevis is a macrobenthos species that is found on Ganghwa tidal flat, South Korea. To model the potential distribution of this species, a dataset consisting of 5700 Potamocorbula laevis was divided into training and validation datasets at a 1:1 ratio. Eight controlling factors were also included for evaluation using three models-frequency ratio (FR), weight of evidence (WoE), and evidential belief function (EBF)-to determine the correlations with Potamocorbula laevis habitat potential. From these models, a Potamocorbula laevis habitat potential map was generated and validated using the areas under the curves (AUCs); WoE had the highest accuracy (94.02 %), followed by EBF (81.72 %), and then FR (79.47 %). This Potamocorbula laevis habitat potential map can be used as basic information to understand the intertidal estuarine ecosystem and for future planning regarding the tidal flat area by the government, developers, or public policy makers.
+C1 [Lee, Saro] Korea Inst Geosci & Mineral Resources, Geosci Platform Res Div, Deajeon, South Korea.
+   [Syifa, Mutiara; Lee, Chang-Wook] Kangwon Natl Univ, Div Sci Educ, Chunchon, South Korea.
+   [Koo, Bon Joo] Korea Inst Ocean Sci & Technol, Biol Oceanog & Marine Biol Div, Busan, South Korea.
+   [Oh, Hyun-Joo] Korea Inst Geosci & Mineral Resources, Geol Environm Res Div, Daejeon, South Korea.
+C3 Korea Institute of Geoscience & Mineral Resources (KIGAM); Kangwon National University; Korea Institute of Ocean Science & Technology (KIOST); Korea Institute of Geoscience & Mineral Resources (KIGAM)
+RP Oh, HJ (corresponding author), Korea Inst Geosci & Mineral Resources, Geol Environm Res Div, Daejeon, South Korea.
+EM ohj@kigam.re.kr
+FU Basic Research Project of the Korea Institute of Geoscience and Mineral Resources (KIGAM) - Ministry of Science and ICT of Korea
+CR Alizadeh M, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10103376
+   Althuwaynee OF, 2012, COMPUT GEOSCI-UK, V44, P120, DOI 10.1016/j.cageo.2012.03.003
+   An P., 1994, NONRENEWABLE RESOURC, V3, P60, DOI 10.1007/BF02261716
+   [Anonymous], 1989, ESTUARINE ECOLOGY, V0, P0
+   Azareh A, 2019, SCI TOTAL ENVIRON, V655, P684, DOI 10.1016/j.scitotenv.2018.11.235
+   Chen W, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9010171
+   Chen Y, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep24018
+   Choi JK, 2011, ECOL MODEL, V222, P1522, DOI 10.1016/j.ecolmodel.2010.12.008
+   Choi JK, 2011, MAR POLLUT BULL, V62, P564, DOI 10.1016/j.marpolbul.2010.11.028
+   Davis J.C., 1993, COMPUTERS GEOLOGY 25, V0, PP13, DOI 10.1093/OSO/9780195085938.003.0007
+   DEMPSTER AP, 1968, J ROY STAT SOC B, V30, P205
+   Bui DT, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11080931
+   Bui DT, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101538
+   Ding QF, 2017, GEOCARTO INT, V32, P619, DOI 10.1080/10106049.2016.1165294
+   Bui DT, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131589
+   Gray JS, 2009, ECOLOGY MARINE SEDIM, V0, P0
+   Jaafari A, 2019, CATENA, V175, P430, DOI 10.1016/j.catena.2018.12.033
+   Jiao HF, 2015, J OCEAN U CHINA, V14, P375, DOI 10.1007/s11802-015-2521-4
+   Kadavi PR, 2019, ENVIRON EARTH SCI, V78, P0, DOI 10.1007/s12665-019-8119-1
+   Kadavi PR, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081252
+   Kadirhodjaev A, 2018, GEOSCI J, V22, P1053, DOI 10.1007/s12303-018-0052-x
+   Kim JC, 2018, J HYDROINFORM, V20, P1436, DOI 10.2166/hydro.2018.120
+   Kim JC, 2018, GEOCARTO INT, V33, P1000, DOI 10.1080/10106049.2017.1323964
+   LEE S, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10030648
+   Lee S, 2019, LEUKEMIA LYMPHOMA, V60, P2635, DOI 10.1080/10428194.2019.1602260
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lee S, 2019, KOREAN J REMOTE SENS, V35, P299, DOI 10.7780/kjrs.2019.35.2.9
+   Lee S, 2019, KOREAN J REMOTE SENS, V35, P179, DOI 10.7780/kjrs.2019.35.1.12
+   Lee S, 2018, GEOCARTO INT, V33, P847, DOI 10.1080/10106049.2017.1303091
+   Lee S, 2013, MAR POLLUT BULL, V67, P177, DOI 10.1016/j.marpolbul.2012.10.023
+   Lee S, 2012, ENVIRON MANAGE, V49, P347, DOI 10.1007/s00267-011-9766-5
+   Lee S, 2012, J ENVIRON MANAGE, V96, P91, DOI 10.1016/j.jenvman.2011.09.016
+   Lee S, 2017, GEOMAT NAT HAZ RISK, V8, P1185, DOI 10.1080/19475705.2017.1308971
+   Lee YK, 2011, J COASTAL RES, V27, P857, DOI 10.2112/JCOASTRES-D-10-00150.1
+   McLusky DS, 1999, AUST J ECOL, V24, P302, DOI 10.1046/j.1442-9993.1999.00983.x
+   MOMAF, 2003, 1180013703 MOMAF BSP, V0, P0
+   Odum E.P., 1983, BASIC ECOLOGY, V0, P0
+   Oh H.-J., 2019, J COASTAL RES, V90, P417
+   Oh HJ, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9061248
+   Oh HJ, 2011, J HYDROL, V399, P158, DOI 10.1016/j.jhydrol.2010.12.027
+   Park I, 2014, CENT EUR J GEOSCI, V6, P207, DOI 10.2478/s13533-012-0175-y
+   Park SJ, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101545
+   Pearson T.H., 1978, OCEANOGRAPHY AND MARINE BIOLOGY AN ANNUAL REVIEW, V16, P229
+   Nguyen PT, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9142824
+   Rahmati O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111375
+   Sameen MI, 2019, NAT RESOUR RES, V28, P757, DOI 10.1007/s11053-018-9416-1
+   Sentz K., 2002, COMBINATION EVIDENCE, V0, P0
+   Shafer G., 1976, MATH THEORY EVIDENCE, V4, P0
+   Snelgrove PVR, 1998, BIODIVERS CONSERV, V7, P1123, DOI 10.1023/A:1008867313340
+   Vassallo P, 2018, MAR POLLUT BULL, V131, P218, DOI 10.1016/j.marpolbul.2018.04.016
+NR 50
+TC 1
+Z9 1
+U1 1
+U2 6
+PU COASTAL EDUCATION & RESEARCH FOUNDATION
+PI COCONUT CREEK
+PA 5130 NW 54TH STREET, COCONUT CREEK, FL 33073 USA
+SN 0749-0208
+EI 1551-5036
+J9 J COASTAL RES
+JI J. Coast. Res.
+PD SUM 15
+PY 2019
+VL 0
+IS 
+BP 401
+EP 408
+DI 10.2112/SI90-051.1
+PG 8
+WC Environmental Sciences; Geography, Physical; Geosciences, Multidisciplinary
+SC Environmental Sciences & Ecology; Physical Geography; Geology
+GA IX5HE
+UT WOS:000485714500052
+DA 2023-04-26
+ER
+
+PT J
+AU Moreira, LS
+   Chagas, BC
+   Pacheco, CSV
+   Santos, HM
+   de Menezes, LHS
+   Nascimento, MM
+   Batista, MAS
+   de Jesus, RM
+   Amorim, FAC
+   Santos, LN
+   da Silva, EGP
+AF Moreira, Luana Santos
+   Chagas, Bruna Cirineu
+   Viana Pacheco, Clissiane Soares
+   Santos, Herick Macedo
+   Sales de Menezes, Luiz Henrique
+   Nascimento, Madson Moreira
+   Simoes Batista, Milana Aboboreira
+   de Jesus, Raildo Mota
+   Carqueija Amorim, Fabio Alan
+   Santos, Luana Novaes
+   Paranhos da Silva, Erik Galvao
+TI Development of procedure for sample preparation of cashew nuts using mixture design and evaluation of nutrient profiles by Kohonen neural network
+SO FOOD CHEMISTRY
+LA English
+DT Article; Proceedings Paper
+DE Constrained mixture; Kohonen neural network; Cashew nuts; ICP OES
+ID microwave-assisted digestion; diluted nitric-acid; single reaction chamber; icp-oes; milk powder; bioaccessibility assessment; chemical-composition; auxiliary reagent; optimization; chemistry
+AB A procedure using ICP OES for sample preparation for the determination of copper, iron and manganese in cashew nuts was developed. Constrained simplex-centroid design was applied in the optimization of the digestion in microwave oven procedure, and the results evaluated from topological maps of the Kohonen network. The best proportion evaluated for the digestion of the sample with HNO3, H2O2 and H2O was 10:45:45 (%). With optimized conditions, the detection limits were 0.63, 4.3 and 0.37 mg kg-1, and quantification 2.1, 14 and 1.2 mg kg-1 for Cu, Fe and Mg, respectively. The precision (% RSD) was 1.84, 2.31 and 2.73, for Cu, Fe and Mg, respectively. The procedure proposed had the accuracy confirmed using NIST 1568b ( at 95% reliability) and was applied in the samples obtaining concentrations in the range of 10.7-19.4, 44.3-67.2 and 11.0-21.4 mg kg(-1) for Cu, Fe and Mg, respectively.
+C1 [Moreira, Luana Santos; Chagas, Bruna Cirineu; Santos, Herick Macedo; Sales de Menezes, Luiz Henrique; Nascimento, Madson Moreira; Simoes Batista, Milana Aboboreira; de Jesus, Raildo Mota; Carqueija Amorim, Fabio Alan; Santos, Luana Novaes; Paranhos da Silva, Erik Galvao] Univ Estadual Santa Cruz, Dept Ciencias Exatas & Tecnol, Campus Soane Nazare de Andrade, BR-45662900 Ilheus, BA, Brazil.
+   [Moreira, Luana Santos] Univ Fed Parana, Ctr Politecn, Dept Quim, BR-81530900 Curitiba, Parana, Brazil.
+   [Chagas, Bruna Cirineu] Univ Fed Rio Grande do Norte, Ctr Tecnol, Dept Engn Quim, Ave Senador Salgado Filho 3000, BR-59064741 Natal, RN, Brazil.
+   [Viana Pacheco, Clissiane Soares; Nascimento, Madson Moreira] Univ Fed Bahia, Inst Quim, Campus Univ Ondina, BR-40170290 Salvador, BA, Brazil.
+C3 Universidade Estadual de Santa Cruz; Universidade Federal do Parana; Universidade Federal do Rio Grande do Norte; Universidade Federal da Bahia
+RP da Silva, EGP (corresponding author), Univ Estadual Santa Cruz, Dept Ciencias Exatas & Tecnol, Campus Soane Nazare de Andrade, BR-45662900 Ilheus, BA, Brazil.
+EM egpsilva@uesc.br
+FU Fundacao de Amparo a Pesquisa do Estado da Bahia (FAPESB); Conselho Nacional de Desenvolvimento Cientifico e Tecnologico (CNPq); Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior (CAPES)
+CR Balbinot L, 2005, SPECTROCHIM ACTA B, V60, P725, DOI 10.1016/j.sab.2005.03.005
+   Barbosa JTP, 2015, FOOD CHEM, V175, P212, DOI 10.1016/j.foodchem.2014.11.092
+   Bezerra MA, 2016, MICROCHEM J, V124, P45, DOI 10.1016/j.microc.2015.07.023
+   Bizzi CA, 2014, J ANAL ATOM SPECTROM, V29, P332, DOI 10.1039/c3ja50330e
+   Bizzi CA, 2011, MICROCHEM J, V99, P193, DOI 10.1016/j.microc.2011.05.002
+   Bizzi CA, 2011, SPECTROCHIM ACTA B, V66, P394, DOI 10.1016/j.sab.2011.04.013
+   Bizzi CA, 2011, TALANTA, V83, P1324, DOI 10.1016/j.talanta.2010.10.015
+   Cardoso C, 2015, TRENDS FOOD SCI TECH, V41, P5, DOI 10.1016/j.tifs.2014.08.008
+   DAVIES DL, 1979, IEEE T PATTERN ANAL, V1, P224, DOI 10.1109/TPAMI.1979.4766909
+   Eastwood M. A., 2013, PRINCIPLES HUMAN NUT, V0, P0
+   Fassel V., 1975, ANAL CHEM, V48, P2294
+   Fernandez-Garcia E, 2009, NUTR RES, V29, P751, DOI 10.1016/j.nutres.2009.09.016
+   Ferreira SLC, 2007, APPL SPECTROSC REV, V42, P475, DOI 10.1080/05704920701551506
+   Ferreira SLC, 2015, INTRO TECNICAS PLANE, V0, P0
+   Haykin S., 2001, LANCET, V0, P0
+   Jiang J, 2015, J FOOD COMPOS ANAL, V39, P1, DOI 10.1016/j.jfca.2014.10.012
+   Kowalski CH, 2013, TALANTA, V116, P315, DOI 10.1016/j.talanta.2013.05.033
+   Lepri FG, 2011, APPL SPECTROSC REV, V46, P175, DOI 10.1080/05704928.2010.529628
+   Luis A. L. A. N. J., 2015, THEORETICAL CONSIDER, V0, P0
+   Moreda-Pineiro J, 2016, FOOD CHEM, V205, P146, DOI 10.1016/j.foodchem.2016.03.006
+   Moreda-Pineiro J, 2011, TRAC-TREND ANAL CHEM, V30, P324, DOI 10.1016/j.trac.2010.09.008
+   Muller CC, 2014, MICROCHEM J, V116, P255, DOI 10.1016/j.microc.2014.04.013
+   Muller EI, 2016, TALANTA, V156, P232, DOI 10.1016/j.talanta.2016.05.019
+   Naozuka J, 2007, J BRAZIL CHEM SOC, V18, P1547, DOI 10.1590/S0103-50532007000800015
+   Naozuka J, 2011, FOOD CHEM, V124, P1667, DOI 10.1016/j.foodchem.2010.07.051
+   Nascimento AN, 2010, MICROCHEM J, V96, P58, DOI 10.1016/j.microc.2010.01.016
+   NEPA-NUCLEO D.E.E.P., 2011, TABELA BRASILEIRA CO, V0, P0
+   Neri L, 2010, J FOOD COMPOS ANAL, V23, P23, DOI 10.1016/j.jfca.2009.03.002
+   Nobrega JA, 2012, TALANTA, V98, P272, DOI 10.1016/j.talanta.2012.06.079
+   Novaes CG, 2016, MICROCHEM J, V128, P331, DOI 10.1016/j.microc.2016.05.015
+   Oreste EQ, 2016, FOOD ANAL METHOD, V9, P777, DOI 10.1007/s12161-015-0252-1
+   Ribeiro FAL, 2014, FUEL, V117, P381, DOI 10.1016/j.fuel.2013.08.086
+   Rocha DL, 2013, TRAC-TREND ANAL CHEM, V45, P79, DOI 10.1016/j.trac.2012.12.015
+   ROUSSEEUW PJ, 1987, J COMPUT APPL MATH, V20, P53, DOI 10.1016/0377-0427(87)90125-7
+   Ruiz-de-Cenzano M, 2015, ANAL METHODS-UK, V7, P3637, DOI 10.1039/C5AY00397K
+   Saitta S, 2007, LECT NOTES ARTIF INT, V4571, P174
+   Tarley CRT, 2009, MICROCHEM J, V92, P58, DOI 10.1016/j.microc.2009.02.002
+   URIARTE EA, 2005, INT J APPL MATH COMP, V1, P19, DOI 10.5281/ZEN0D0.1062819
+   [USDA USDA], 2001, DIET REF INT DRIS RE, V0, P0
+   Yang F, 2015, FOOD BIOSCI, V11, P33, DOI 10.1016/j.fbio.2015.04.004
+NR 40
+TC 16
+Z9 16
+U1 0
+U2 39
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0308-8146
+EI 1873-7072
+J9 FOOD CHEM
+JI Food Chem.
+PD FEB 1
+PY 2019
+VL 273
+IS 
+BP 136
+EP 143
+DI 10.1016/j.foodchem.2018.01.050
+PG 8
+WC Chemistry, Applied; Food Science & Technology; Nutrition & Dietetics
+SC Chemistry; Food Science & Technology; Nutrition & Dietetics
+GA GV6JH
+UT WOS:000446215000021
+PM 30292359
+DA 2023-04-26
+ER

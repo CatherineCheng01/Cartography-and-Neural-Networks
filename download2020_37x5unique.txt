@@ -1,0 +1,509 @@
+
+PT J
+AU Chai, DF
+   Newsam, S
+   Huang, JF
+AF Chai, Dengfeng
+   Newsam, Shawn
+   Huang, Jingfeng
+TI Aerial image semantic segmentation using DCNN predicted distance maps
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; Semantic segmentation; DCNNs; Distance maps; Distance transform
+ID neural-networks; classification
+AB This paper addresses the challenge of learning spatial context for the semantic segmentation of high-resolution aerial images using Deep Convolutional Neural Networks (DCNNs). The proposed solution involves deriving a signed distance map for each semantic class from a ground truth label map and training a DCNN to predict this distance map instead of a score map for each class. Since the distance between a target pixel and its nearest object boundary measures how far the pixel penetrates an object, the distance maps encode spatial context, particularly spatial smoothness. Positive pixel values in the distance maps correspond to the correct class and negative values correspond to the incorrect class. A final label map is derived from the predicted distance maps by selecting the class with the maximum distance. Since neighboring pixels in the distance maps have similar values, the segmentation results are smoother than current approaches. The results are shown to be even better than performing post-processing using fully connected Conditional Random Fields (CRFs), a common approach to smoothing the segmentations produced DCNNs. Experimental results on the semantic labeling challenge dataset show the proposed approach outperforms most state-of-the-art methods. Our main contribution, though, is the novel idea of replacing the pixel-wise class score maps of DCNNs with distance maps. This is therefore orthogonal and complementary to other techniques employed by the state-of-the-art methods and could therefore be used to improve upon them.
+C1 [Chai, Dengfeng] Zhejiang Univ, Sch Earth Sci, Hangzhou 310027, Peoples R China.
+   [Newsam, Shawn] Univ Calif Merced, Elect Engn & Comp Sci, Merced, CA 95343 USA.
+   [Huang, Jingfeng] Zhejiang Univ, Inst Appl Remote Sensing & Informat Technol, Hangzhou 310058, Peoples R China.
+   [Huang, Jingfeng] Zhejiang Univ, Key Lab Agr Remote Sensing & Informat Syst, Hangzhou 310058, Peoples R China.
+C3 Zhejiang University; University of California System; University of California Merced; Zhejiang University; Zhejiang University
+RP Chai, DF (corresponding author), Zhejiang Univ, Sch Earth Sci, Hangzhou 310027, Peoples R China.
+EM chaidf@zju.edu.cn; snewsam@ucmerced.edu; hjf@zju.edu.cn
+FU National Natural Science Foundation of China [41571335]; United States National Science Foundation [IIS-1747535]; NVIDIA Corporation
+CR [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Arnab A, 2018, IEEE SIGNAL PROC MAG, V35, P37, DOI 10.1109/MSP.2017.2762355
+   Audebert N, 2018, ISPRS J PHOTOGRAMM, V140, P20, DOI 10.1016/j.isprsjprs.2017.11.011
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bai M, 2017, PROC CVPR IEEE, V0, PP2858, DOI 10.1109/CVPR.2017.305
+   Chai D, 2019, REMOTE SENS ENVIRON, V225, P307, DOI 10.1016/j.rse.2019.03.007
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Cordts M, 2016, PROC CVPR IEEE, V0, PP3213, DOI 10.1109/CVPR.2016.350
+   Everingham M, 2015, INT J COMPUT VISION, V111, P98, DOI 10.1007/s11263-014-0733-5
+   Everingham M, 2010, INT J COMPUT VISION, V88, P303, DOI 10.1007/s11263-009-0275-4
+   Farabet C, 2013, IEEE T PATTERN ANAL, V35, P1915, DOI 10.1109/TPAMI.2012.231
+   Foody GM, 2002, REMOTE SENS ENVIRON, V80, P185, DOI 10.1016/S0034-4257(01)00295-4
+   FU KS, 1969, P IEEE, V57, P639, DOI 10.1109/PROC.1969.7019
+   Fulkerson B., 2009, IEEE I CONF COMP VIS, V0, PP670, DOI 10.1109/ICCV.2009.5459175
+   Gerke M., 2014, USE STAIR VISION LIB, V0, P0, DOI DOI 10.13140/2.1.5015.9683
+   Hariharan B, 2014, LECT NOTES COMPUT SC, V8695, P297, DOI 10.1007/978-3-319-10584-0_20
+   He K., 2015, PROC CVPR IEEE, V5, P6
+   Holschneider M, 1990, WAVELETS TIME FREQUE, V0, PP286, DOI 10.1007/978-3-642-97177-8_28
+   Isprs, 2018, ISPRS 2D SEMANTIC LA, V0, P0
+   Krahenbuhl P., 2011, P ADV NEUR INF PROC, V0, P109
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Ladicky L, 2010, LECT NOTES COMPUT SC, V6314, P424, DOI 10.1007/978-3-642-15561-1_31
+   LeCun Y, 1998, LECT NOTES COMPUT SC, V1524, P9, DOI 10.1007/3-540-49430-8_2
+   Lee JH, 2015, CHI 2015: PROCEEDINGS OF THE 33RD ANNUAL CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS, V0, PP149, DOI 10.1145/2702123.2702264
+   Lempitsky V., 2011, ADV NEURAL INFORM PR, V0, P1485
+   Liu YC, 2018, ISPRS J PHOTOGRAMM, V145, P78, DOI 10.1016/j.isprsjprs.2017.12.007
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Marcos D, 2018, ISPRS J PHOTOGRAMM, V145, P96, DOI 10.1016/j.isprsjprs.2018.01.021
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Shotton J., 2008, P IEEE C COMP VIS PA, V0, PP1, DOI 10.1109/CVPR.2008.4587503
+   Shotton J, 2009, INT J COMPUT VISION, V81, P2, DOI 10.1007/s11263-007-0109-1
+   Simonyan K, 2015, ARXIV, V0, P0
+   Soille P., 2013, MORPHOLOGICAL IMAGE, V0, P0
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Tao Y, 2017, CHIN CONTR CONF, V0, PP4288, DOI 10.23919/ChiCC.2017.8028032
+   Tieleman T., 2012, COUR SERA NEURAL NET, V0, P0
+   Uijlings JRR, 2013, INT J COMPUT VISION, V104, P154, DOI 10.1007/s11263-013-0620-5
+   Volpi M, 2018, ISPRS J PHOTOGRAMM, V144, P48, DOI 10.1016/j.isprsjprs.2018.06.007
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   WU FY, 1982, REV MOD PHYS, V54, P235, DOI 10.1103/RevModPhys.54.235
+   Yang HL, 2018, IEEE J-STARS, V11, P2600, DOI 10.1109/JSTARS.2018.2835377
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zheng S, 2015, IEEE I CONF COMP VIS, V0, PP1529, DOI 10.1109/ICCV.2015.179
+NR 47
+TC 34
+Z9 36
+U1 0
+U2 26
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29a, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD MAR 15
+PY 2020
+VL 161
+IS 
+BP 309
+EP 322
+DI 10.1016/j.isprsjprs.2020.01.023
+PG 14
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA KR8EU
+UT WOS:000517849600024
+DA 2023-04-26
+ER
+
+PT J
+AU Li, HF
+   Dou, X
+   Tao, C
+   Wu, ZX
+   Chen, J
+   Peng, J
+   Deng, M
+   Zhao, L
+AF Li, Haifeng
+   Dou, Xin
+   Tao, Chao
+   Wu, Zhixiang
+   Chen, Jie
+   Peng, Jian
+   Deng, Min
+   Zhao, Ling
+TI RSI-CB: A Large-Scale Remote Sensing Image Classification Benchmark Using Crowdsourced Data
+SO SENSORS
+LA English
+DT Article
+DE remote sensing image classification; benchmark; crowdsourced data; deep convolution neural network
+ID land-cover database; scene; representation; openstreetmap; information; completion; networks
+AB Image classification is a fundamental task in remote sensing image processing. In recent years, deep convolutional neural networks (DCNNs) have experienced significant breakthroughs in natural image recognition. The remote sensing field, however, is still lacking a large-scale benchmark similar to ImageNet. In this paper, we propose a remote sensing image classification benchmark (RSI-CB) based on massive, scalable, and diverse crowdsourced data. Using crowdsourced data, such as Open Street Map (OSM) data, ground objects in remote sensing images can be annotated effectively using points of interest, vector data from OSM, or other crowdsourced data. These annotated images can, then, be used in remote sensing image classification tasks. Based on this method, we construct a worldwide large-scale benchmark for remote sensing image classification. This benchmark has large-scale geographical distribution and large total image number. It contains six categories with 35 sub-classes of more than 24,000 images of size 256x256 pixels. This classification system of ground objects is defined according to the national standard of land-use classification in China and is inspired by the hierarchy mechanism of ImageNet. Finally, we conduct numerous experiments to compare RSI-CB with the SAT-4, SAT-6, and UC-Merced data sets. The experiments show that RSI-CB is more suitable as a benchmark for remote sensing image classification tasks than other benchmarks in the big data era and has many potential applications.
+C1 [Li, Haifeng; Dou, Xin; Tao, Chao; Wu, Zhixiang; Chen, Jie; Peng, Jian; Deng, Min; Zhao, Ling] Cent South Univ, Sch Geosci & Infophys, Changsha 410083, Peoples R China.
+C3 Central South University
+RP Zhao, L (corresponding author), Cent South Univ, Sch Geosci & Infophys, Changsha 410083, Peoples R China.
+EM lihaifeng@csu.edu.cn; 175011004@csu.edu.cn; kingtaochao@csu.edu.cn; zhixiangwu17@gmail.com; bluesleon@gmail.com; PengJ2017@csu.edu.cn; dengmin@csu.edu.cn; zhaoling@csu.edu.cn
+FU National Natural Science Foundation of China [41571397, 41671357, 41771458, 51678077]
+CR [Anonymous], 2014, PROC IEEE C COMPUT V, V0, P0
+   Basu S, 2015, 23RD ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2015), V0, P0, DOI DOI 10.1145/2820783.2820816
+   Chen B.M., 2007, J NATURAL RES, V0, P0, DOI DOI 10.11849/zrzyxb.2007.06.017
+   Chen YS, 2014, IEEE J-STARS, V7, P2094, DOI 10.1109/JSTARS.2014.2329330
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Cheng G, 2015, IEEE T GEOSCI REMOTE, V53, P4238, DOI 10.1109/TGRS.2015.2393857
+   Cheng G, 2014, ISPRS J PHOTOGRAMM, V98, P119, DOI 10.1016/j.isprsjprs.2014.10.002
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Cui SY, 2016, REMOTE SENS LETT, V7, P651, DOI 10.1080/2150704X.2016.1177241
+   Donahue J, 2017, IEEE T PATTERN ANAL, V39, P677, DOI 10.1109/TPAMI.2016.2599174
+   Dorigo M, 2011, ENCY MACHINE LEARNIN, V0, PP36, DOI 10.1007/978-0-387-30164-8_22
+   Fry JA, 2011, PHOTOGRAMM ENG REM S, V77, P859
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Haklay M, 2010, ENVIRON PLANN B, V37, P682, DOI 10.1068/b35097
+   Haklay M, 2008, IEEE PERVAS COMPUT, V7, P12, DOI 10.1109/MPRV.2008.80
+   Han J., 2014, IEEE T GEOSCI REMOTE, V53, P3325, DOI 10.1109/TGRS.2014.2374218
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Heipke C, 2010, ISPRS J PHOTOGRAMM, V65, P550, DOI 10.1016/j.isprsjprs.2010.06.005
+   Homer C, 2007, PHOTOGRAMM ENG REM S, V73, P337
+   Homer C, 2015, PHOTOGRAMM ENG REM S, V81, P345, DOI 10.14358/PERS.81.5.345
+   Hu F, 2015, REMOTE SENS-BASEL, V7, P14680, DOI 10.3390/rs71114680
+   Ji SW, 2013, IEEE T PATTERN ANAL, V35, P221, DOI 10.1109/TPAMI.2012.59
+   Jin S., 2018, AGU FALL M, V0, P0
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Levin G., 2016, TERRAPATTERN OPEN EN, V0, P0
+   Li S, 2009, 2009 INTERNATIONAL CONFERENCE ON MEASURING TECHNOLOGY AND MECHATRONICS AUTOMATION, VOL II, P200, DOI 10.1109/ICMTMA.2009.347
+   Liu YL, 2016, PATTERN RECOGN, V55, P58, DOI 10.1016/j.patcog.2016.01.030
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Melgani F, 2004, IEEE T GEOSCI REMOTE, V42, P1778, DOI 10.1109/TGRS.2004.831865
+   Nogueira K, 2017, PATTERN RECOGN, V61, P539, DOI 10.1016/j.patcog.2016.07.001
+   Ojala T, 2002, IEEE T PATTERN ANAL, V24, P971, DOI 10.1109/TPAMI.2002.1017623
+   Oliva A, 2001, INT J COMPUT VISION, V42, P145, DOI 10.1023/A:1011139631724
+   Penatti Otavio A. B., 2015, 2015 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPRW), V0, PP44, DOI 10.1109/CVPRW.2015.7301382
+   REDMON J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Rice M.T., 2012, TECHNICAL REPORT, V0, P0
+   Salberg AB, 2015, INT GEOSCI REMOTE SE, V0, PP1893, DOI 10.1109/IGARSS.2015.7326163
+   Simonyan K., 2014, ADV NEURAL INFORM PR, V0, PP568, DOI 10.1002/14651858.CD001941.PUB3
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sun Y, 2015, PROC CVPR IEEE, V0, PP2892, DOI 10.1109/CVPR.2015.7298907
+   Sun Y, 2013, IEEE I CONF COMP VIS, V0, PP1489, DOI 10.1109/ICCV.2013.188
+   Sun Y, 2014, PROC CVPR IEEE, V0, PP1891, DOI 10.1109/CVPR.2014.244
+   Sun Yi., 2014, DEEP LEARNING FACE R, V0, P0
+   SWAIN MJ, 1991, INT J COMPUT VISION, V7, P11, DOI 10.1007/BF00130487
+   Taigman Y, 2014, PROC CVPR IEEE, V0, PP1701, DOI 10.1109/CVPR.2014.220
+   Tao C, 2019, ISPRS J PHOTOGRAMM, V158, P155, DOI 10.1016/j.isprsjprs.2019.10.001
+   Vogelmann JE., 2001, PHOTOGRAMM ENG REM S, V67, P650
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Wu H, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8050436
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Xian G, 2011, PHOTOGRAMM ENG REM S, V77, P758
+   Xuan Guorong, 1996, PROCEEDINGS OF THE 13TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION, V0, PP195, DOI 10.1109/ICPR.1996.546751
+   Yan X, 2014, LECT NOTES COMPUT SC, V8692, P215, DOI 10.1007/978-3-319-10593-2_15
+   Yang Y, 2010, PROC 18 SIGSPATIAL I, V0, P0, DOI DOI 10.1145/1869790.1869829
+   Yao XW, 2017, IEEE T IMAGE PROCESS, V26, P3196, DOI 10.1109/TIP.2017.2694222
+   Yao XW, 2016, IEEE T GEOSCI REMOTE, V54, P3660, DOI 10.1109/TGRS.2016.2523563
+   Zeng XY, 2016, LECT NOTES COMPUT SC, V9911, P354, DOI 10.1007/978-3-319-46478-7_22
+   Zhao B, 2016, IEEE T GEOSCI REMOTE, V54, P2108, DOI 10.1109/TGRS.2015.2496185
+   Zhao B, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8020157
+   Zhao L, 2020, IEEE T INTELL TRANSP, V21, P3848, DOI 10.1109/TITS.2019.2935152
+   Zhou B., 2016, P 2016 IEEE C COMPUT, V0, PP2921, DOI 10.1109/CVPR.2016.319
+   Zhu QQ, 2016, IEEE GEOSCI REMOTE S, V13, P747, DOI 10.1109/LGRS.2015.2513443
+NR 64
+TC 28
+Z9 30
+U1 6
+U2 19
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD MAR 15
+PY 2020
+VL 20
+IS 6
+BP 
+EP 
+DI 10.3390/s20061594
+PG 26
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA LH9YD
+UT WOS:000529139700053
+PM 32178463
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, ZH
+   Guo, WW
+   Li, MJ
+   Yu, WX
+AF Zhang, Zenghui
+   Guo, Weiwei
+   Li, Mingjie
+   Yu, Wenxian
+TI GIS-Supervised Building Extraction With Label Noise-Adaptive Fully Convolutional Neural Network
+SO IEEE GEOSCIENCE AND REMOTE SENSING LETTERS
+LA English
+DT Article
+DE Noise measurement; Buildings; Geographic information systems; Feature extraction; Training; Task analysis; Data mining; Building extraction; fully convolutional neural network (CNN); geographic information system (GIS); weakly supervised learning
+AB Automatic building extraction from aerial or satellite images is a dense pixel prediction task for many applications. It demands a large number of clean label data to train a deep neural network for building extraction. But it is labor expensive to collect such pixel-wise annotated data manually. Fortunately, the building footprint data of geographic information system (GIS) maps provide a cheap way of generating building label data, but these labels are imperfect due to misalignment between the GIS maps and images. In this letter, we consider the task of learning a deep neural network to label images pixel-wise from such noisy label data for building extraction. To this end, we propose a general label noise-adaptive (NA) neural network framework consisting of a base network followed by an additional probability transition modular (PTM) which is introduced to capture the relationship between the true label and the noisy label. The parameters of the PTM can be estimated as part of the training process of the whole network by the off-the-shelf backpropagation algorithm. We conduct experiments on real-world data set to demonstrate that our proposed PTM can better handle noisy labels and improve the performance of convolutional neural networks (CNNs) trained on the noisy label data generated by GIS maps for building extraction. The experimental results indicate that being armed with our proposed PTM for fully CNN, it provides a promising solution to reduce manual annotation effort for the labor-expensive object extraction tasks from remote sensing images.
+C1 [Zhang, Zenghui; Li, Mingjie; Yu, Wenxian] Shanghai Jiao Tong Univ, Shanghai Key Lab Intelligent Sensing & Recognit, Shanghai 200240, Peoples R China.
+   [Guo, Weiwei] Tongji Univ, Ctr Digital Innovat, Tongji MIT City Sci Lab, Shanghai 200092, Peoples R China.
+C3 Shanghai Jiao Tong University; Tongji University
+RP Guo, WW (corresponding author), Tongji Univ, Ctr Digital Innovat, Tongji MIT City Sci Lab, Shanghai 200092, Peoples R China.
+EM weiweiguo@tongji.edu.cn
+FU State Key Program of National Natural Science Foundation of China [61331015]; China Postdoctoral Science Foundation [2015M581618]
+CR Abadi M, 2015, TENSORFLOW LARGE SCA, V0, P0
+   Cheng G, 2016, ISPRS J PHOTOGRAMM, V117, P11, DOI 10.1016/j.isprsjprs.2016.03.014
+   Dikmen M, 2014, IEEE GEOSCI REMOTE S, V11, P2150, DOI 10.1109/LGRS.2014.2321658
+   Frenay B, 2014, IEEE T NEUR NET LEAR, V25, P845, DOI 10.1109/TNNLS.2013.2292894
+   Goldberger J., 2017, P INT C LEARN REPR I, V0, P0
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Liu PH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070830
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Maggiori E., 2017, P IEEE INT GEOSC REM, V0, P0
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Mnih V., 2012, P 29 INT C MACH LEAR, V0, P567
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sukhbaatar Sainbayar, 2014, ARXIV14062080, V0, P0
+   Vakalopoulou M., 2015, P IEEE INT GEOSC REM, V0, P0
+   WU GM, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/RS10030407
+   Xiao T, 2015, PROC CVPR IEEE, V0, PP2691, DOI 10.1109/CVPR.2015.7298885
+   Yuan JY, 2018, IEEE T PATTERN ANAL, V40, P2793, DOI 10.1109/TPAMI.2017.2750680
+NR 18
+TC 21
+Z9 21
+U1 2
+U2 18
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1545-598X
+EI 1558-0571
+J9 IEEE GEOSCI REMOTE S
+JI IEEE Geosci. Remote Sens. Lett.
+PD DEC 15
+PY 2020
+VL 17
+IS 12
+BP 2135
+EP 2139
+DI 10.1109/LGRS.2019.2963065
+PG 5
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA OZ0NY
+UT WOS:000594634800023
+DA 2023-04-26
+ER
+
+PT J
+AU Mahadadi, F
+   Boumezbeur, A
+AF Mahadadi, Fatna
+   Boumezbeur, Abederrahmane
+TI LANDSLIDE SUSCEPTIBILITY MAPPING USING LOGISTIC REGRESSION AND FREQUENCY RATIO APPROACHES, CASE STUDY FROM SOUK AHRAS REGION, N E ALGERIA
+SO ITALIAN JOURNAL OF ENGINEERING GEOLOGY AND ENVIRONMENT
+LA English
+DT Article
+DE statistical modeling; geographic information system (GIS); landslide inventory; Souk Ahras region; landslide - related factors
+ID neural-networks; river-basin; area; scale
+AB Landslides are the most active process of soil erosion and landscape evolution; it is controlled by a set of non-linear factors. Therefore, a large amount of spatial data must be considered and analyzed in order to achieve some degree of prediction about it. Landslide susceptibility assessment (LSA) is carried out using various statistical modeling techniques among which figures the logistic regression (LR) and the Frequency Ratio (FR) models. This work allowed producing landslide susceptibility maps (LSMs) on a geographic information system (GIS) platform using LR and FR methods in the Northwest of Souk Ahras region, N E of Algeria. Landslide inventory map was established from visual interpretation of satellite images and field survey data. Slope instability phenomena in this region are related to a large variety of factors pertaining to the geological, geomorphological, hydrological and climate characteristics of the terrain. Consequently, a spatial database of seven causal factors were identified and used for predicting landslide prone areas. LSMs produced using LR and FR statistical models subdivided into five classes according to their degree of susceptibility to landslides: very low, low, moderate, high and very high. These rasters based LSMs was compared and verified with both training and testing inventory datasets. The AUC (area under the curve) was used for model evaluation. Results showed that the LR model provides a higher prediction accuracy of the LS mapping than the FR model with an AUC based on success rate equal 90.45 % and that based on prediction rate was 91.81 %. In addition, the results showed that about 30% to 37% of the study area was located in high and very high hazard classes. The resulting LSMs play an indispensable role in the region management and can be used in sustainable development planning.
+C1 [Mahadadi, Fatna] Univ Constantine, Dept Geol, Geol & Environm Lab, Constantine, Algeria.
+   [Boumezbeur, Abederrahmane] Univ Tebessa, Sci Fac, Dept Geol, Tebessa, Algeria.
+C3 Universite Constantine; Universite de Tebessa
+RP Mahadadi, F (corresponding author), Univ Constantine, Dept Geol, Geol & Environm Lab, Constantine, Algeria.
+EM fatna.mahadadi@umc.edu.dz
+CR Achour Y, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2980-6
+   [Anonymous], 2000, WILEY SERIES PROBABI, V0, P0, DOI DOI 10.1002/0471722146
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Chen WT, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5809-9
+   Conforti M, 2014, CATENA, V113, P236, DOI 10.1016/j.catena.2013.08.006
+   DAVID L., 1956, THESIS, V11, P0
+   Falaschi F, 2008, ITAL J ENG GEOL ENV, V0, PP119, DOI 10.4408/IJEGE.2008-01.S-09
+   Greco R, 2013, NAT HAZARD EARTH SYS, V13, P2209, DOI 10.5194/nhess-13-2209-2013
+   Hadji R, 2017, ARAB J SCI ENG, V42, P281, DOI 10.1007/s13369-016-2046-1
+   Hadji R, 2013, QUATERN INT, V302, P224, DOI 10.1016/j.quaint.2012.11.027
+   Jacobs L, 2018, NAT HAZARD EARTH SYS, V18, P105, DOI 10.5194/nhess-18-105-2018
+   Lee S, 2005, ENVIRON GEOL, V47, P982, DOI 10.1007/s00254-005-1228-z
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Lee S, 2006, ENVIRON GEOL, V50, P847, DOI 10.1007/s00254-006-0256-7
+   Lin L, 2017, NAT HAZARD EARTH SYS, V17, P1411, DOI 10.5194/nhess-17-1411-2017
+   Mahdadi F, 2018, ARAB J GEOSCI, V11, P0, DOI 10.1007/s12517-018-3770-5
+   Oh HJ, 2018, GEOMAT NAT HAZ RISK, V9, P1053, DOI 10.1080/19475705.2018.1481147
+   Park S, 2013, ENVIRON EARTH SCI, V68, P1443, DOI 10.1007/s12665-012-1842-5
+   Pradhan B, 2010, GEOMAT NAT HAZ RISK, V1, P199, DOI 10.1080/19475705.2010.498151
+   Pradhan B, 2010, ENVIRON EARTH SCI, V60, P1037, DOI 10.1007/s12665-009-0245-8
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Romeo RW, 2011, ITAL J ENG GEOL ENV, V11, P63, DOI 10.4408/IJEGE.2011-02.O-04
+   Sivakami C., 2014, JOURNAL OF ENVIRONMENT AND EARTH SCIENCE, V4, P54
+   Teerarungsigul S, 2016, LANDSLIDES, V13, P1151, DOI 10.1007/s10346-015-0659-1
+   Trigila A, 2015, GEOMORPHOLOGY, V249, P119, DOI 10.1016/j.geomorph.2015.06.001
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Youssef AM, 2015, GEOSCI J, V19, P113, DOI 10.1007/s12303-014-0032-8
+   Yusof NM, 2014, IOP C SER EARTH ENV, V20, P0, DOI 10.1088/1755-1315/20/1/012031
+NR 29
+TC 0
+Z9 0
+U1 0
+U2 3
+PU UNIV STUDI ROMA LA SAPIENZA
+PI ROME
+PA PIAZZALE ALDO MORO, 5, ROME, I-00185, ITALY
+SN 1825-6635
+EI 2035-5688
+J9 ITAL J ENG GEOL ENV
+JI Ital. J. Eng. Geol. Env.
+PD JUN 15
+PY 2020
+VL 20
+IS 1
+BP 43
+EP 51
+DI 10.4408/IJEGE.2020-01.O-04
+PG 9
+WC Geosciences, Multidisciplinary
+SC Geology
+GA NR9SL
+UT WOS:000571902300005
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, GR
+   Lei, XX
+   Chen, W
+   Shahabi, H
+   Shirzadi, A
+AF Wang, Guirong
+   Lei, Xinxiang
+   Chen, Wei
+   Shahabi, Himan
+   Shirzadi, Ataollah
+TI Hybrid Computational Intelligence Methods for Landslide Susceptibility Mapping
+SO SYMMETRY-BASEL
+LA English
+DT Article
+DE landslide susceptibility; multiboosting; credal decision tree; radial basis function network
+ID analytical hierarchy process; artificial neural-network; logistic-regression models; machine learning-methods; support vector machine; weights-of-evidence; frequency ratio; decision tree; spatial prediction; 3 gorges
+AB In this study, hybrid integration of MultiBoosting based on two artificial intelligence methods (the radial basis function network (RBFN) and credal decision tree (CDT) models) and geographic information systems (GIS) were used to establish landslide susceptibility maps, which were used to evaluate landslide susceptibility in Nanchuan County, China. First, the landslide inventory map was generated based on previous research results combined with GIS and aerial photos. Then, 298 landslides were identified, and the established dataset was divided into a training dataset (70%, 209 landslides) and a validation dataset (30%, 89 landslides) with ensured randomness, fairness, and symmetry of data segmentation. Sixteen landslide conditioning factors (altitude, profile curvature, plan curvature, slope aspect, slope angle, stream power index (SPI), topographical wetness index (TWI), sediment transport index (STI), distance to rivers, distance to roads, distance to faults, rainfall, NDVI, soil, land use, and lithology) were identified in the study area. Subsequently, the CDT, RBFN, and their ensembles with MultiBoosting (MCDT and MRBFN) were used in ArcGIS to generate the landslide susceptibility maps. The performances of the four landslide susceptibility maps were compared and verified based on the area under the curve (AUC). Finally, the verification results of the AUC evaluation show that the landslide susceptibility mapping generated by the MCDT model had the best performance.
+C1 [Wang, Guirong; Lei, Xinxiang; Chen, Wei] Xian Univ Sci & Technol, Coll Geol & Environm, Xian 710054, Peoples R China.
+   [Chen, Wei] Minist Nat Resources, Key Lab Coal Resources Explorat & Comprehens Util, Xian 710021, Peoples R China.
+   [Shahabi, Himan] Univ Kurdistan, Fac Nat Resources, Dept Geomorphol, Sanandaj 6617715175, Iran.
+   [Shahabi, Himan] Univ Kurdistan, Kurdistan Studies Inst, Dept Zrebar Lake Environm Res, Sanandaj 6617715175, Iran.
+   [Shirzadi, Ataollah] Univ Kurdistan, Fac Nat Resources, Dept Rangeland & Watershed Management, Sanandaj 6617715175, Iran.
+C3 Xi'an University of Science & Technology; Ministry of Natural Resources of the People's Republic of China; University of Kurdistan; University of Kurdistan; University of Kurdistan
+RP Wang, GR (corresponding author), Xian Univ Sci & Technol, Coll Geol & Environm, Xian 710054, Peoples R China.
+EM wanggr@xust.edu.cn; 19209071003@stu.xust.edu.cn; chenwei0930@xust.edu.cn; h.shahabi@uok.ac.ir; a.shirzadi@uok.ac.ir
+FU National Natural Science Foundation of China [41807192]; Natural Science Basic Research Program of Shaanxi [2019JLM-7, 2019JQ-094]; China Postdoctoral Science Foundation [2018T111084, 2017M613168]; Shaanxi Province Postdoctoral Science Foundation [2017BSHYDZZ07]
+CR Abellan J, 2003, INT J UNCERTAIN FUZZ, V11, P587, DOI 10.1142/S021848850300234X
+   Abellan J, 2003, INT J INTELL SYST, V18, P1215, DOI 10.1002/int.10143
+   Aditian A, 2018, GEOMORPHOLOGY, V318, P101, DOI 10.1016/j.geomorph.2018.06.006
+   Althuwaynee OF, 2016, INT J REMOTE SENS, V37, P1190, DOI 10.1080/01431161.2016.1148282
+   Arabameri A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11090999
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Pham BT, 2019, CATENA, V175, P203, DOI 10.1016/j.catena.2018.12.018
+   Pham BT, 2019, B ENG GEOL ENVIRON, V78, P2865, DOI 10.1007/s10064-018-1281-y
+   Pham BT, 2017, ENVIRON PROCESS, V4, P711, DOI 10.1007/s40710-017-0248-5
+   Pham BT, 2017, THEOR APPL CLIMATOL, V128, P255, DOI 10.1007/s00704-015-1702-9
+   Carlini M, 2016, GEOMORPHOLOGY, V253, P425, DOI 10.1016/j.geomorph.2015.10.028
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   Chen HQ, 2015, NEURAL PROCESS LETT, V41, P169, DOI 10.1007/s11063-013-9318-5
+   Chen W, 2020, J HYDROL, V583, P0, DOI 10.1016/j.jhydrol.2020.124602
+   Chen W, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10020425
+   Chen W, 2018, B ENG GEOL ENVIRON, V77, P611, DOI 10.1007/s10064-017-1004-9
+   Chen W, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10010029
+   Chen W, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134979
+   Chen W, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9183755
+   Chen W, 2019, SCI TOTAL ENVIRON, V684, P31, DOI 10.1016/j.scitotenv.2019.05.312
+   Chen W, 2019, J HYDROL, V572, P435, DOI 10.1016/j.jhydrol.2019.03.013
+   Chen W, 2019, NAT RESOUR RES, V28, P1239, DOI 10.1007/s11053-019-09465-w
+   Chen W, 2018, APPL SCI-BASEL, V8, P0, DOI 10.3390/app8122540
+   Chen W, 2019, B ENG GEOL ENVIRON, V78, P4397, DOI 10.1007/s10064-018-1401-8
+   Chen W, 2018, SCI TOTAL ENVIRON, V634, P853, DOI 10.1016/j.scitotenv.2018.04.055
+   Chen W, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2150-7
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   Constantin M, 2011, ENVIRON EARTH SCI, V63, P397, DOI 10.1007/s12665-010-0724-y
+   Cubito A, 2005, GEOMORPHOLOGY, V66, P359, DOI 10.1016/j.geomorph.2004.09.020
+   Dahal RK, 2008, GEOMORPHOLOGY, V102, P496, DOI 10.1016/j.geomorph.2008.05.041
+   Dai FC, 2001, ENVIRON GEOL, V40, P381, DOI 10.1007/s002540000163
+   de Lacerda E., 1999, PROCEEDINGS THIRD INTERNATIONAL CONFERENCE ON COMPUTATIONAL INTELLIGENCE AND MULTIMEDIA APPLICATIONS. ICCIMA99 (CAT. NO.PR00300), V0, PP138, DOI 10.1109/ICCIMA.1999.798517
+   Devkota KC, 2013, NAT HAZARDS, V65, P135, DOI 10.1007/s11069-012-0347-6
+   Bui DT, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5919-4
+   Bui DT, 2012, GEOMORPHOLOGY, V171, P12, DOI 10.1016/j.geomorph.2012.04.023
+   ESRI, 2011, ARCGIS DESKT REL 10, V0, P0
+   Fernandes AM, 2004, PATTERN RECOGN, V37, P2039, DOI 10.1016/j.patcog.2004.04.002
+   Frank E, 2016, ONLINE APPENDIX DATA, V0, P0
+   Glade T, 2000, PURE APPL GEOPHYS, V157, P1059, DOI 10.1007/s000240050017
+   Gorsevski PV, 2016, LANDSLIDES, V13, P467, DOI 10.1007/s10346-015-0587-0
+   Guo C, 2021, ENERG SOURCE PART A, V43, P1259, DOI 10.1080/15567036.2019.1636161
+   Guzzetti F, 2006, GEOMORPHOLOGY, V81, P166, DOI 10.1016/j.geomorph.2006.04.007
+   He QF, 2019, ENTROPY-SWITZ, V21, P0, DOI 10.3390/e21020106
+   He QF, 2019, SCI TOTAL ENVIRON, V663, P1, DOI 10.1016/j.scitotenv.2019.01.329
+   He SW, 2012, GEOMORPHOLOGY, V171, P30, DOI 10.1016/j.geomorph.2012.04.024
+   Hong HY, 2018, CATENA, V163, P399, DOI 10.1016/j.catena.2018.01.005
+   Hong HY, 2017, GEOMORPHOLOGY, V290, P1, DOI 10.1016/j.geomorph.2017.04.002
+   Hong HY, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2094-y
+   Hong HY, 2015, CATENA, V133, P266, DOI 10.1016/j.catena.2015.05.019
+   Hossain MS, 2017, EXPERT SYST APPL, V85, P87, DOI 10.1016/j.eswa.2017.05.027
+   [黄润秋 HUANG Runqiu], 2007, 岩石力学与工程学报 CHINESE JOURNAL OF ROCK MECHANICS AND ENGINEERING, V26, P433
+   Huang Y, 2018, CATENA, V165, P520, DOI 10.1016/j.catena.2018.03.003
+   Kadavi PR, 2019, ENVIRON EARTH SCI, V78, P0, DOI 10.1007/s12665-019-8119-1
+   Kannan M, 2013, ARAB J GEOSCI, V6, P2901, DOI 10.1007/s12517-012-0587-5
+   Khan H, 2019, EGYPT J REMOTE SENS, V22, P11, DOI 10.1016/j.ejrs.2018.03.004
+   Kumar D, 2017, GEOMORPHOLOGY, V295, P115, DOI 10.1016/j.geomorph.2017.06.013
+   Kumar R, 2016, J GEOL SOC INDIA, V87, P271, DOI 10.1007/s12594-016-0395-8
+   Lee S, 2005, ENVIRON GEOL, V47, P982, DOI 10.1007/s00254-005-1228-z
+   Lee S, 2004, ENG GEOL, V71, P289, DOI 10.1016/S0013-7952(03)00142-X
+   Li RW, 2019, SYMMETRY-BASEL, V11, P0, DOI 10.3390/sym11060762
+   Li Y, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12010113
+   Lin GF, 2017, ENG GEOL, V224, P62, DOI 10.1016/j.enggeo.2017.05.009
+   Mohammady M, 2012, J ASIAN EARTH SCI, V61, P221, DOI 10.1016/j.jseaes.2012.10.005
+   Moreiras SM, 2005, GEOMORPHOLOGY, V66, P345, DOI 10.1016/j.geomorph.2004.09.019
+   Nachappa TG, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9245393
+   Nourani V, 2014, NAT HAZARDS, V71, P523, DOI 10.1007/s11069-013-0932-3
+   Orr M.J., 1996, INTRO RADIAL BASIS F, V0, P0
+   Polemio M, 2000, LANDSLIDES RES THEOR, V0, P0
+   Pradhan B, 2010, J INDIAN SOC REMOTE, V38, P301, DOI 10.1007/s12524-010-0020-z
+   Pradhan B, 2010, ARAB J GEOSCI, V3, P319, DOI 10.1007/s12517-009-0089-2
+   Prandini L., 1977, B INT ASS ENG GEOLOG, V16, P51, DOI 10.1007/BF02591446
+   Rumelhart D. E., 1986, PARALLEL DISTRIBUTED, V0, PP318, DOI 10.7551/MITPRESS/5236.001.0001
+   Sadr M. P., 2014, GEODYNAMICS RES INT, V2, P0
+   Saha A., 1991, ADV NEURAL INFORM PR, V0, P728
+   Saha AK, 2005, LANDSLIDES, V2, P61, DOI 10.1007/s10346-004-0039-8
+   Shahabi H, 2014, CATENA, V115, P55, DOI 10.1016/j.catena.2013.11.014
+   Shirzadi A, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18113777
+   Suzen ML, 2004, ENG GEOL, V71, P303, DOI 10.1016/S0013-7952(03)00143-1
+   Tama BA, 2019, EXPERT SYST APPL, V129, P233, DOI 10.1016/j.eswa.2019.04.016
+   Tsangaratos P, 2016, CATENA, V145, P164, DOI 10.1016/j.catena.2016.06.004
+   Umar Z, 2014, CATENA, V118, P124, DOI 10.1016/j.catena.2014.02.005
+   van Westen C.J., 2004, LANDSLIDES EVALUATIO, V1, P39, DOI 10.1201/B16816-6
+   Wang LJ, 2016, GEOSCI J, V20, P117, DOI 10.1007/s12303-015-0026-1
+   Wang QQ, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5400-4
+   Webb GI, 2000, MACH LEARN, V40, P159, DOI 10.1023/A:1007659514849
+   Witten IH, 2011, MOR KAUF D, V0, P1
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yalcin A, 2008, CATENA, V72, P1, DOI 10.1016/j.catena.2007.01.003
+   Yalcin A, 2007, NAT HAZARDS, V41, P201, DOI 10.1007/s11069-006-9030-0
+   Yan F, 2019, GEOMORPHOLOGY, V327, P170, DOI 10.1016/j.geomorph.2018.10.024
+   Yang JT, 2019, GEOMORPHOLOGY, V324, P62, DOI 10.1016/j.geomorph.2018.09.019
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Yilmaz C, 2012, ENVIRON EARTH SCI, V65, P2161, DOI 10.1007/s12665-011-1196-4
+   Zare M, 2013, ARAB J GEOSCI, V6, P2873, DOI 10.1007/s12517-012-0610-x
+   Zezere JL, 1999, GEOMORPHOLOGY, V30, P133, DOI 10.1016/S0169-555X(99)00050-1
+   Zhao X, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10010016
+   Zhao Y, 2019, ENG GEOL, V259, P0, DOI 10.1016/j.enggeo.2019.105147
+   Zhou C, 2018, COMPUT GEOSCI-UK, V112, P23, DOI 10.1016/j.cageo.2017.11.019
+   Zhu Y, 2017, NEURAL COMPUT APPL, V28, PS41, DOI 10.1007/s00521-016-2304-x
+NR 99
+TC 51
+Z9 51
+U1 2
+U2 51
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-8994
+J9 SYMMETRY-BASEL
+JI Symmetry-Basel
+PD MAR 15
+PY 2020
+VL 12
+IS 3
+BP 
+EP 
+DI 10.3390/sym12030325
+PG 20
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA LD1XG
+UT WOS:000525824300001
+DA 2023-04-26
+ER

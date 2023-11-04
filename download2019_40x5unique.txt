@@ -1,0 +1,488 @@
+
+PT J
+AU Zhang, C
+   Wei, SQ
+   Ji, SP
+   Lu, M
+AF Zhang, Chi
+   Wei, Shiqing
+   Ji, Shunping
+   Lu, Meng
+TI Detecting Large-Scale Urban Land Cover Changes from Very High Resolution Remote Sensing Images Using CNN-Based Classification
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE classification; change detection; convolutional neural networks; Atrous convolution; very-high-resolution remote sensing images
+ID crop classification; time-series; segmentation
+AB The study investigates land use/cover classification and change detection of urban areas from very high resolution (VHR) remote sensing images using deep learning-based methods. Firstly, we introduce a fully Atrous convolutional neural network (FACNN) to learn the land cover classification. In the FACNN an encoder, consisting of full Atrous convolution layers, is proposed for extracting scale robust features from VHR images. Then, a pixel-based change map is produced based on the classification map of current images and an outdated land cover geographical information system (GIS) map. Both polygon-based and object-based change detection accuracy is investigated, where a polygon is the unit of the GIS map and an object consists of those adjacent changed pixels on the pixel-based change map. The test data covers a rapidly developing city of Wuhan (8000 km(2)), China, consisting of 0.5 m ground resolution aerial images acquired in 2014, and 1 m ground resolution Beijing-2 satellite images in 2017, and their land cover GIS maps. Testing results showed that our FACNN greatly exceeded several recent convolutional neural networks in land cover classification. Second, the object-based change detection could achieve much better results than a pixel-based method, and provide accurate change maps to facilitate manual urban land cover updating.
+C1 [Zhang, Chi; Wei, Shiqing; Ji, Shunping] Wuhan Univ, Sch Remote Sensing & Informat Engn, 129 Luoyu Rd, Wuhan 430079, Hubei, Peoples R China.
+   [Lu, Meng] Univ Utrecht, Fac Geosci, Dept Phys Geog, Princetonlaan 8, NL-3584 CB Utrecht, Netherlands.
+C3 Wuhan University; Utrecht University
+RP Ji, SP (corresponding author), Wuhan Univ, Sch Remote Sensing & Informat Engn, 129 Luoyu Rd, Wuhan 430079, Hubei, Peoples R China.
+EM whuzhangchi@whu.edu.cn; wei_sq@whu.edu.cn; jishunping@whu.edu.cn; m.lu@uu.nl
+FU project of Land Cover Change Detection of Wuhan City from the Wuhan Institute of Surveying and Mapping
+CR [Anonymous], 2017, P IEEE C COMP VIS PA, V0, P0, DOI DOI 10.1109/CVPR.2017.106
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Conrad C, 2011, INT J REMOTE SENS, V32, P8763, DOI 10.1080/01431161.2010.550647
+   Coppin P, 2004, INT J REMOTE SENS, V25, P1565, DOI 10.1080/0143116031000101675
+   Desclee B, 2006, REMOTE SENS ENVIRON, V102, P1, DOI 10.1016/j.rse.2006.01.013
+   Du Y, 2002, REMOTE SENS ENVIRON, V82, P123, DOI 10.1016/S0034-4257(02)00029-9
+   Gamanya R, 2009, EXPERT SYST APPL, V36, P571, DOI 10.1016/j.eswa.2007.09.067
+   Garzelli A, 2018, INT GEOSCI REMOTE SE, V0, P6083
+   Guo R, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7030110
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Ji SP, 2019, INT J REMOTE SENS, V40, P3308, DOI 10.1080/01431161.2018.1528024
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Kemker R, 2018, ISPRS J PHOTOGRAMM, V145, P60, DOI 10.1016/j.isprsjprs.2018.04.014
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lunetta RS, 2006, REMOTE SENS ENVIRON, V105, P142, DOI 10.1016/j.rse.2006.06.018
+   Nair V, 2010, ICML, V27, P807
+   Nemmour H, 2006, ISPRS J PHOTOGRAMM, V61, P125, DOI 10.1016/j.isprsjprs.2006.09.004
+   Paris C, 2019, IEEE T GEOSCI REMOTE, V57, P4259, DOI 10.1109/TGRS.2018.2890404
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Ruiz L.A., 2004, 20 ISPRS C, V35, P1109
+   Shackelford AK, 2003, IEEE T GEOSCI REMOTE, V41, P2354, DOI 10.1109/TGRS.2003.815972
+   Stow D., 2010, HDB APPL SPATIAL ANA, V0, P565
+   TODD WJ, 1977, J RES US GEOL SURV, V5, P529
+   Walter V, 2004, ISPRS J PHOTOGRAMM, V58, P225, DOI 10.1016/j.isprsjprs.2003.09.007
+   Wang PQ, 2018, IEEE WINT CONF APPL, V0, PP1451, DOI 10.1109/WACV.2018.00163
+   Wardlow BD, 2007, REMOTE SENS ENVIRON, V108, P290, DOI 10.1016/j.rse.2006.11.021
+   Yu F., 2015, 1511 ARXIV, V0, P0
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+NR 31
+TC 65
+Z9 65
+U1 13
+U2 86
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD APR 15
+PY 2019
+VL 8
+IS 4
+BP 
+EP 
+DI 10.3390/ijgi8040189
+PG 16
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA HX6FK
+UT WOS:000467499300030
+DA 2023-04-26
+ER
+
+PT J
+AU Do, HT
+   Raghavan, V
+   Yonezawa, G
+AF Do, H. T.
+   Raghavan, V
+   Yonezawa, G.
+TI PIXEL-BASED AND OBJECT-BASED TERRACE EXTRACTION USING FEED-FORWARD DEEP NEURAL NETWORK
+SO ISPRS TECHNICAL COMMISSION III WG III/2, 10 JOINT WORKSHOP MULTIDISCIPLINARY REMOTE SENSING FOR ENVIRONMENTAL MONITORING
+LA English
+DT Proceedings Paper
+DE Terrace field; feed forward; deep learning; remote sensing; object-based
+AB In this paper, we present the identification of terrace field by using Feed-forward back propagation deep neural network in pixel-based and several cases of object-based approaches. Terrace field of Lao Cai area in Vietnam is identified from 5-meter RapidEye image. The image includes 5 bands: red, green, blue, rededge and nir-infrared. Reference data are set of terrace points and nonterrace points, which are generated by randomly selected from reference map. The reference data is separated into three sets: training set for training processing, validation set for generating optimal parameters of deep neural network model, and test set for assessing the accuracy of classification. Six optimal thresholds (T): 0.06, 0.09, 0.12, 0.14, 0.2 and 0.22 are chosen from Rate of Change graph, and then used to generate six cases of object-based classification. Deep neural network (DNN) model is built with 8 hidden layers, input units are 5 bands of RapidEye, and output is terrace and non-terrace classes. Each hidden layer includes 256 units a large number, to avoid under-fitting. Activation function is Rectifier. Dropout and two regularization parameters are applied to avoid overfitting. Seven terrace maps are generated. The classification results show that the DNN is able to identify terrace field effectively in both pixel-based and object-based approaches. Pixel-based classification is the most accurate approach, achieves 90% accuracy. The values of object-based approaches are 88.5%, 87.3%, 86.7%, 86.6%, 85% and 85.3% correspond to the segmentation thresholds.
+C1 [Do, H. T.] Osaka City Univ, Grad Sch Creat Cities, Osaka, Japan.
+   [Raghavan, V; Yonezawa, G.] Osaka City Univ, Grad Sch Engn, Osaka, Japan.
+C3 Osaka Metropolitan University; Osaka Metropolitan University
+RP Do, HT (corresponding author), Osaka City Univ, Grad Sch Creat Cities, Osaka, Japan.
+EM dohanghumg@gmail.com; raghavan@media.osaka-cu.ac.jp; yonezawa@media.osaka-cu.ac.jp
+CR [Anonymous], 1998, ONLINE ALGORITHMS ST, V0, P0
+   Bartesaghi A, 2005, IEEE T IMAGE PROCESS, V14, P1314, DOI 10.1109/TIP.2005.852467
+   Bottou L., 2010, P COMPSTAT 2010, V0, P0
+   FU KS, 1981, PATTERN RECOGN, V13, P3, DOI 10.1016/0031-3203(81)90028-5
+   HARALICK RM, 1985, COMPUT VISION GRAPH, V29, P100, DOI 10.1016/S0734-189X(85)90153-7
+   Hay GJ, 2001, LANDSCAPE ECOL, V16, P471, DOI 10.1023/A:1013101931793
+   Hinton G., 2012, ARXIV PREPRINT ARXIV, V0, P0
+   Kim M., 2008, OBJECT BASED IMAGE A, V0, PP291, DOI 10.1007/978-3-540-77058-9_16
+   Ma B. H., 2007, RES SOIL WATER CONSE, V14, P27
+   Neubert M, 2008, LECT NOTES GEOINFORM, V0, P0
+   Prajit R., 2017, ARXIV171005941, V0, P0
+   Rumelhart DE, 1986, PARALLEL DISTRIBUTED, V1, P0, DOI 10.7551/MITPRESS/5236.001.0001
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Werbos Paul, 1974, REGRESSION NEW TOOLS, V0, P0
+   WOODCOCK CE, 1987, REMOTE SENS ENVIRON, V21, P311, DOI 10.1016/0034-4257(87)90015-0
+   Zhang Li., 2016, IEEE GEOSCIENCES REM, V0, P0
+   Zhang Y, 2017, INT SOIL WATER CONSE, V5, P17, DOI 10.1016/j.iswcr.2017.02.002
+NR 17
+TC 2
+Z9 2
+U1 0
+U2 5
+PU INTL SOC PHOTOGRAMMETRY & REMOTE SENSING-ISPRS
+PI HANNOVER
+PA LEIBNIZ UNIV HANNOVER, INST PHOTOGRAMMETRY  & GEOINFORMATION, NIENBURGER STR 1, HANNOVER, HANNOVER, GERMANY
+SN 2194-9042
+EI 2194-9050
+J9 ISPRS ANN PHOTO REM
+PD JUN 15
+PY 2019
+VL 4-3
+IS W1
+BP 1
+EP 7
+DI 10.5194/isprs-annals-IV-3-W1-1-2019
+PG 7
+WC Environmental Sciences; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA BQ2ZW
+UT WOS:000582727200001
+DA 2023-04-26
+ER
+
+PT J
+AU Taghizadeh-Mehrjardi, R
+   Bawa, A
+   Kumar, S
+   Zeraatpisheh, M
+   Amirian-Chakan, A
+   Akbarzadeh, A
+AF Taghizadeh-Mehrjardi, Ruhollah
+   Bawa, Arun
+   Kumar, Sandeep
+   Zeraatpisheh, Mojtaba
+   Amirian-Chakan, Alireza
+   Akbarzadeh, Ali
+TI Soil Erosion Spatial Prediction using Digital Soil Mapping and RUSLE methods for Big Sioux River Watershed
+SO SOIL SYSTEMS
+LA English
+DT Article
+DE digital soil mapping; artificial neural network; geographical information systems; soil erosion; grasslands; croplands
+ID land-use change; loss equation; erodibility factor; carbon stocks; gis; rainfall; climate; risk; grassland; erosivity
+AB A recent conversion of the grasslands to cropland degrading the soil quality (SQ), and impacting the soil erosion and crop productivity in the West Corn Belt (WCB) of the USA. The current study was conducted to estimate the spatial distribution of soil erosion at Big Sioux River (BSR) watershed scale using the Geographical Information System (GIS)-enabled Revised Universal Soil Loss Equation (RUSLE). Spatial data such as weather, a digital elevation model (DEM), land use maps and soils were used for assessment of soil erosion was downloaded from the easily available online sources. Data showed that about 7% of grassland acreage reduced from 2008 (24%) to 2015 (17%), whereas, about 7.4% of cropland acreage increased from 2008 (64.6%) to 2015 (72%) in the BSR watershed. This grassland conversion to cropland increased the soil erosion (estimated using the RUSLE model) from 12.2 T ha(-1) year(-1) in 2008 to 14.8 T ha(-1) year(-1) in 2015. The present study concludes that grassland conversion to cropland in the BSR watershed increased the soil erosion, therefore, management practices essential to be applied to reduce the erosion risk and various other ecosystem services.
+C1 [Taghizadeh-Mehrjardi, Ruhollah] Univ Tubingen, Dept Geosci Soil Sci & Geomorphol, D-72070 Tubingen, Germany.
+   [Taghizadeh-Mehrjardi, Ruhollah] Ardakan Univ, Fac Agr & Nat Resources, Ardakan 8951656767, Iran.
+   [Bawa, Arun; Kumar, Sandeep] South Dakota State Univ, Dept Agron Hort & Plant Sci, Brookings, SD 57007 USA.
+   [Zeraatpisheh, Mojtaba] Henan Univ, Coll Environm & Planning, Key Lab Geospatial Technol Middle & Lower Yellow, Kaifeng 475004, Peoples R China.
+   [Zeraatpisheh, Mojtaba] Ramin Agr & Nat Resources Univ Khuzestan, Dept Soil Sci, Ahvaz 6341773637, Iran.
+   [Amirian-Chakan, Alireza] Lorestan Univ, Dept Soil Sci, Khorramabad 6815144316, Iran.
+   [Akbarzadeh, Ali] Shahrekord Univ, Fac Agr, Dept Soil Sci, Shahrekord 8818634141, Iran.
+C3 Eberhard Karls University of Tubingen; South Dakota State University; Henan University; Lorestan University; Shahrekord University
+RP Taghizadeh-Mehrjardi, R (corresponding author), Univ Tubingen, Dept Geosci Soil Sci & Geomorphol, D-72070 Tubingen, Germany.; Taghizadeh-Mehrjardi, R (corresponding author), Ardakan Univ, Fac Agr & Nat Resources, Ardakan 8951656767, Iran.; Kumar, S (corresponding author), South Dakota State Univ, Dept Agron Hort & Plant Sci, Brookings, SD 57007 USA.
+EM ruhollah.taghizadeh-mehrjardi@mnf.uni-tuebingen.de; sandeep.kumar@sdstate.edu
+FU United States Department of Agriculture-NIFA [2014-51130-22593]; Alexander von Humboldt Foundation [3.4-1164573-IRN-GFHERMES-P]
+CR Abdo H, 2017, MODEL EARTH SYST ENV, V3, P0, DOI 10.1007/s40808-017-0294-z
+   Addis HK, 2015, INT SOIL WATER CONSE, V3, P282, DOI 10.1016/j.iswer.2015.11.002
+   Akbarzadeh A, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-016-5712-6
+   Ali SA, 2016, GEODERMA REG, V7, P159, DOI 10.1016/j.geodrs.2016.03.005
+   [Anonymous], 1978, PREDICTING RAINFALL, V0, P0, DOI DOI 10.1029/TR039I002P00285
+   [Anonymous], 2005, NCARTN468STR US, V0, P0
+   Bakker MM, 2007, ECOSYSTEMS, V10, P1209, DOI 10.1007/s10021-007-9090-3
+   Benavidez R, 2018, HYDROL EARTH SYST SC, V22, P6059, DOI 10.5194/hess-22-6059-2018
+   Beskow S, 2009, CATENA, V79, P49, DOI 10.1016/j.catena.2009.05.010
+   Blanco H., 2008, PRINCIPLES SOIL CONS, V0, P167
+   Bonilla CA, 2012, GEODERMA, V189, P116, DOI 10.1016/j.geoderma.2012.05.005
+   Breshears DD, 2003, EARTH SURF PROC LAND, V28, P1189, DOI 10.1002/esp.1034
+   Buttafuoco G, 2012, ENVIRON EARTH SCI, V66, P1111, DOI 10.1007/s12665-011-1317-0
+   Cotler H, 2006, CATENA, V65, P107, DOI 10.1016/j.catena.2005.11.004
+   Fargione JE, 2010, ANNU REV ECOL EVOL S, V41, P351, DOI 10.1146/annurev-ecolsys-102209-144720
+   Farhan Y, 2015, ENVIRON EARTH SCI, V74, P4649, DOI 10.1007/s12665-015-4430-7
+   Foley JA, 2011, NATURE, V478, P337, DOI 10.1038/nature10452
+   Gaubi I, 2017, NAT HAZARDS, V86, P219, DOI 10.1007/s11069-016-2684-3
+   Gholami V, 2018, CATENA, V163, P210, DOI 10.1016/j.catena.2017.12.027
+   Grunwald S, 2011, SOIL SCI SOC AM J, V75, P1201, DOI 10.2136/sssaj2011.0025
+   Guo LB, 2002, GLOBAL CHANGE BIOL, V8, P345, DOI 10.1046/j.1354-1013.2002.00486.x
+   Hussein MH, 2007, SOIL TILL RES, V94, P220, DOI 10.1016/j.still.2006.07.012
+   Johnston CA, 2014, LANDSCAPE ECOL, V29, P81, DOI 10.1007/s10980-013-9947-0
+   Lark TJ, 2015, ENVIRON RES LETT, V10, P0, DOI 10.1088/1748-9326/10/4/044003
+   Malone BP, 2009, GEODERMA, V154, P138, DOI 10.1016/j.geoderma.2009.10.007
+   Martinez-Casasnovas JA, 2002, GEODERMA, V105, P125, DOI 10.1016/S0016-7061(01)00096-9
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   Mello CR, 2013, GEODERMA, V202, P88, DOI 10.1016/j.geoderma.2013.03.009
+   Mitasova H., 2013, TREATISE GEOMORPHOLO, VVolume 3, P228, DOI 10.1016/B978-0-12-374739-6.00052-X
+   Mitra B, 1998, GEODERMA, V86, P183, DOI 10.1016/S0016-7061(98)00050-0
+   Morgan SP, 2005, PENN STATE UNIV FAM, V0, P3
+   Nakil M, 2016, GEOCARTO INT, V31, P1078, DOI 10.1080/10106049.2015.1120349
+   Nelson RG, 2002, BIOMASS BIOENERG, V22, P349, DOI 10.1016/S0961-9534(02)00006-5
+   Neupane RP, 2015, J HYDROL, V529, P418, DOI 10.1016/j.jhydrol.2015.07.050
+   NOVOTNY V, 1989, J SOIL WATER CONSERV, V44, P568
+   Olaya V, 2009, DEV SOIL SCI, V33, P293, DOI 10.1016/S0166-2481(08)00012-3
+   Olson KR, 2013, GEODERMA, V195, P201, DOI 10.1016/j.geoderma.2012.12.004
+   Op de Hipt F, 2019, SCI TOTAL ENVIRON, V653, P431, DOI 10.1016/j.scitotenv.2018.10.351
+   Park S, 2011, J HYDROL, V399, P263, DOI 10.1016/j.jhydrol.2011.01.004
+   Pimentel David, 2006, ENVIRONMENT DEVELOPMENT AND SUSTAINABILITY, V8, P119, DOI 10.1007/s10668-005-1262-8
+   Poggio L, 2013, GEODERMA, V209, P1, DOI 10.1016/j.geoderma.2013.05.029
+   Qin ZC, 2016, GCB BIOENERGY, V8, P66, DOI 10.1111/gcbb.12237
+   Quan B, 2011, FRONT ENVIRON SCI EN, V5, P564, DOI 10.1007/s11783-011-0348-9
+   Reitsma KD, 2015, AGRON J, V107, P2363, DOI 10.2134/agronj15.0152
+   RENARD KG, 1994, J HYDROL, V157, P287, DOI 10.1016/0022-1694(94)90110-4
+   RENARD KG, 1991, J SOIL WATER CONSERV, V46, P30
+   Russo A, 2015, AUST PLAN, V52, P139, DOI 10.1080/07293682.2014.957332
+   Santra P, 2011, HYDROL PROCESS, V25, P64, DOI 10.1002/hyp.7820
+   Sharma A, 2011, ENVIRON MONIT ASSESS, V173, P789, DOI 10.1007/s10661-010-1423-6
+   Taghizadeh-Mehrjardi R, 2016, GEODERMA, V266, P98, DOI 10.1016/j.geoderma.2015.12.003
+   Taghizadeh-Mehrjardi R, 2014, GEODERMA, V213, P15, DOI 10.1016/j.geoderma.2013.07.020
+   Taghizadeh-Mehrjardi R, 2017, CARBON MANAG, V8, P277, DOI 10.1080/17583004.2017.1330593
+   Tang Q, 2015, ENVIRON EARTH SCI, V73, P1715, DOI 10.1007/s12665-014-3523-z
+   Wang GX, 2002, ECOL MODEL, V153, P143, DOI 10.1016/S0304-3800(01)00507-5
+   Were K, 2015, ECOL INDIC, V52, P394, DOI 10.1016/j.ecolind.2014.12.028
+   Wimberly MC, 2017, LAND USE POLICY, V63, P160, DOI 10.1016/j.landusepol.2017.01.026
+   Wright CK, 2013, P NATL ACAD SCI USA, V110, P4134, DOI 10.1073/pnas.1215404110
+   Yang XH, 2018, SOIL RES, V56, P158, DOI 10.1071/SR17058
+   Yusof MF, 2014, NEURAL COMPUT APPL, V24, P383, DOI 10.1007/s00521-012-1236-3
+   Zeraatpisheh M, 2019, GEODERMA, V338, P445, DOI 10.1016/j.geoderma.2018.09.006
+   Zhang XW, 2012, ENVIRON EARTH SCI, V65, P221, DOI 10.1007/s12665-011-1085-x
+NR 66
+TC 12
+Z9 13
+U1 2
+U2 12
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2571-8789
+J9 SOIL SYST
+JI Soil Syst.
+PD SEP 15
+PY 2019
+VL 3
+IS 3
+BP 
+EP 
+DI 10.3390/soilsystems3030043
+PG 15
+WC Soil Science
+SC Agriculture
+GA JH7ZU
+UT WOS:000492988900013
+DA 2023-04-26
+ER
+
+PT J
+AU Wu, TJ
+   Luo, JC
+   Dong, W
+   Sun, YW
+   Xia, LG
+   Zhang, XJ
+AF Wu, Tianjun
+   Luo, Jiancheng
+   Dong, Wen
+   Sun, Yingwei
+   Xia, Liegang
+   Zhang, Xuejian
+TI Geo-Object-Based Soil Organic Matter Mapping Using Machine Learning Algorithms With Multi-Source Geo-Spatial Data
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Environmental variables; geo-object; machine learning algorithms; multi-source geo-spatial data; soil organic matter (SOM); soil property mapping
+ID artificial neural-networks; support vector regression; random forests; presence index; carbon; classification; knowledge; stocks; maps; inference
+AB Soil is a complicated historical natural continuum that presents gradual changes in its properties and geographic area. Conventional soil survey and cartography methods on a macroscopic scale based on grids with a coarse resolution are inadequate for the rapid development of precision agriculture. The demand for soil mapping content and accuracy has increased as more convenient methods of acquiring multi-source geo-spatial data have been developed, and such data are commonly employed to extract basic mapping units and environmental variables in related algorithms. We employ geo-objects as basic units of soil property mapping, which are extracted from high-resolution remote sensing images using a convolutional neural network based learning algorithm. Multi-source geo-spatial data are transferred into each geo-object as environmental variables, and the relationships between soil properties and environmental variables are mined using powerful tree-based machine learning algorithms, including regressions with random forests and XGBoost. A data set that includes soil sample points and multi-source geo-spatial data is used to evaluate the effectiveness of the proposed method. The experimental results demonstrate that the method allows for better soil organic matter mapping than state-of-the-art interpolation-based and linear-regression-based methods. The proposed procedure has potential to be a general method for mapping other soil properties. Its advantages are embodied in the modeling of relatively miscellaneous data with implicitly associated non-linear relationships between soil properties and environmental variables. The spatial scale and accuracy of the finer maps capture more detailed characteristics of the soil properties and are applicable to the micro-domain fields required for refined soil mapping with small variations.
+C1 [Wu, Tianjun] Changan Univ, Dept Math & Informat Sci, Coll Sci, Xian 710064, Shaanxi, Peoples R China.
+   [Wu, Tianjun] Fuzhou Univ, Key Lab Spatial Data Min & Informat Sharing, Minist Educ, Fuzhou 350116, Fujian, Peoples R China.
+   [Wu, Tianjun] State Key Lab Geoinformat Engn, Xian 710054, Shaanxi, Peoples R China.
+   [Luo, Jiancheng; Dong, Wen; Sun, Yingwei] Chinese Acad Sci, State Key Lab Remote Sensing Sci, Inst Remote Sensing & Digital Earth, Beijing 100864, Peoples R China.
+   [Luo, Jiancheng; Dong, Wen; Sun, Yingwei] Univ Chinese Acad Sci, Beijing 100049, Peoples R China.
+   [Xia, Liegang] Zhejiang Univ Technol, Coll Comp Sci & Technol, Hangzhou 310058, Zhejiang, Peoples R China.
+   [Zhang, Xuejian] Ningxia Acad Agr & Forestry Sci, Inst Agr Econ & Informat Technol, Yinchuan 750004, Peoples R China.
+C3 Chang'an University; Fuzhou University; Chinese Academy of Sciences; The Institute of Remote Sensing & Digital Earth, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Zhejiang University of Technology
+RP Luo, JC (corresponding author), Chinese Acad Sci, State Key Lab Remote Sensing Sci, Inst Remote Sensing & Digital Earth, Beijing 100864, Peoples R China.
+EM wutianjun1986@163.com; luojc@radi.ac.cn; dongwen01@radi.ac.cn; wfsunyingwei@yeah.net; xialg@zjut.edu.cn; 13709579808@163.com
+FU National Key Research and Development Program [2017YFB0503600]; National Natural Science Foundation of China [41631179, 41601437]; Ningxia Academy of Agricultural and Forestry Sciences Foreign Science and Technology Cooperation Project [07030002]; Natural Science Basic Research Plan in Shaanxi Province of China [2017JQ4002]; Open Projects of Key Laboratory of Spatial Data Mining and Information Sharing of Ministry of Education, Fuzhou University [2018LSDMIS03]; State Key Laboratory of Geo-Information Engineering [SKLGIE2017-Z-4-3]; Special Fund for Basic Scientific Research of Central Colleges in Chang'an University [310812163504]
+CR Al-Kaisi MM, 2005, AGR ECOSYST ENVIRON, V105, P635, DOI 10.1016/j.agee.2004.08.002
+   Arrouays D, 2017, GEODERMA REG, V9, P1, DOI 10.1016/j.geodrs.2017.03.002
+   Behrens T, 2005, J PLANT NUTR SOIL SC, V168, P21, DOI 10.1002/jpln.200421414
+   Ben-Dor E, 2009, REMOTE SENS ENVIRON, V113, PS38, DOI 10.1016/j.rse.2008.09.019
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Blaschke T., 2001, GEOBITGIS, V14, P12
+   Blaschke T, 2014, ISPRS J PHOTOGRAMM, V87, P180, DOI 10.1016/j.isprsjprs.2013.09.014
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chen Tianqi, 2016, P 22 ACM SIGKDD INT, V0, P0
+   DICK RP, 1992, AGR ECOSYST ENVIRON, V40, P25, DOI 10.1016/0167-8809(92)90081-L
+   Friedman J., 2009, ELEMENTS STAT LEARNI, V0, P0
+   Gol C, 2017, J AFR EARTH SCI, V134, P85, DOI 10.1016/j.jafrearsci.2017.06.014
+   Gomez C, 2008, GEODERMA, V146, P403, DOI 10.1016/j.geoderma.2008.06.011
+   Goovaerts P, 1999, GEODERMA, V89, P1, DOI 10.1016/S0016-7061(98)00078-0
+   Grimm R, 2008, GEODERMA, V146, P102, DOI 10.1016/j.geoderma.2008.05.008
+   Guo PT, 2015, GEODERMA, V237, P49, DOI 10.1016/j.geoderma.2014.08.009
+   Hartemink AE, 2014, PROGR SOIL SCI, V0, PP483, DOI 10.1007/978-3-319-04084-4_48
+   Hengl T, 2017, NUTR CYCL AGROECOSYS, V109, P77, DOI 10.1007/s10705-017-9870-x
+   Hengl T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0169748
+   Hengl T, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0125814
+   Heung B, 2016, GEODERMA, V265, P62, DOI 10.1016/j.geoderma.2015.11.014
+   Heuvelink G. B. M., 2016, P SPAT ACC 2016 12 I, V0, P49
+   Hu KL, 2007, GEODERMA, V141, P302, DOI 10.1016/j.geoderma.2007.06.010
+   Huang B, 2007, GEODERMA, V139, P336, DOI 10.1016/j.geoderma.2007.02.012
+   Jenny H., 1941, FACTORS SOIL FORMATI, V0, P0, DOI DOI 10.1097/00010694-194111000-00009
+   Karger DN, 2017, SCI DATA, V4, P0, DOI 10.1038/sdata.2017.122
+   Karpatne A, 2016, IEEE GEOSC REM SEN M, V4, P8, DOI 10.1109/MGRS.2016.2528038
+   Kheir RB, 2010, J ENVIRON MANAGE, V91, P1150, DOI 10.1016/j.jenvman.2010.01.001
+   Lacoste M, 2014, GEODERMA, V213, P296, DOI 10.1016/j.geoderma.2013.07.002
+   Lagacherie P, 2007, DEV SOIL SCI, V31, P1
+   Lee CY, 2015, JMLR WORKSH CONF PRO, V38, P562
+   Lu D, 2007, INT J REMOTE SENS, V28, P823, DOI 10.1080/01431160600746456
+   Mansuy N, 2014, GEODERMA, V235, P59, DOI 10.1016/j.geoderma.2014.06.032
+   MARCEAU DJ, 1990, IEEE T GEOSCI REMOTE, V28, P513, DOI 10.1109/TGRS.1990.572937
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Massawe BHJ, 2018, GEODERMA, V311, P143, DOI 10.1016/j.geoderma.2016.11.020
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   Meng LN, 2014, ENERGY, V71, P468, DOI 10.1016/j.energy.2014.04.103
+   Mulder VL, 2011, GEODERMA, V162, P1, DOI 10.1016/j.geoderma.2010.12.018
+   Pesaresi M, 2011, IEEE J-STARS, V4, P16, DOI 10.1109/JSTARS.2010.2049478
+   Pesaresi M, 2008, IEEE J-STARS, V1, P180, DOI 10.1109/JSTARS.2008.2002869
+   Poggio L, 2013, GEODERMA, V209, P1, DOI 10.1016/j.geoderma.2013.05.029
+   Qi F, 2003, INT J GEOGR INF SCI, V17, P771, DOI 10.1080/13658810310001596049
+   Ramcharan A, 2018, SOIL SCI SOC AM J, V82, P186, DOI 10.2136/sssaj2017.04.0122
+   Sauer TJ, 2003, SOIL SCI SOC AM J, V67, P826, DOI 10.2136/sssaj2003.0826
+   Savtchenko A, 2004, ADV SPACE RES, V34, P710, DOI 10.1016/j.asr.2004.03.012
+   Schmidt K, 2010, J PLANT NUTR SOIL SC, V173, P163, DOI 10.1002/jpln.200800208
+   Scull P, 2003, PROG PHYS GEOG, V27, P171, DOI 10.1191/0309133303pp366ra
+   Shi X, 2004, SOIL SCI SOC AM J, V68, P885, DOI 10.2136/sssaj2004.0885
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sreenivas K, 2016, GEODERMA, V269, P160, DOI 10.1016/j.geoderma.2016.02.002
+   Taghizadeh-Mehrjardi R, 2016, GEODERMA, V266, P98, DOI 10.1016/j.geoderma.2015.12.003
+   Warmerdam F., 2008, OPEN SOURCE APPROACH, V0, PP87, DOI 10.1007/978-3-540-74831-1_5
+   Webster R., 1990, STATISTICAL METHODS IN SOIL AND LAND RESOURCE SURVEY., V0, P0
+   Were K, 2015, ECOL INDIC, V52, P394, DOI 10.1016/j.ecolind.2014.12.028
+   Wiesmeier M, 2011, PLANT SOIL, V340, P7, DOI 10.1007/s11104-010-0425-z
+   Wilson AM, 2016, PLOS BIOL, V14, P0, DOI 10.1371/journal.pbio.1002415
+   Winham SJ, 2013, STAT ANAL DATA MIN, V6, P496, DOI 10.1002/sam.11196
+   Wu TJ, 2015, J INDIAN SOC REMOTE, V43, P653, DOI 10.1007/s12524-014-0446-9
+   Yang RM, 2016, ECOL INDIC, V60, P870, DOI 10.1016/j.ecolind.2015.08.036
+   Yao XL, 2013, PLOS ONE, V8, P0, DOI 10.1371/journal.pone.0054660
+   Zhang HK, 2013, IEEE T GEOSCI REMOTE, V51, P1114, DOI 10.1109/TGRS.2013.2243736
+   Zhang LP, 2006, IEEE T GEOSCI REMOTE, V44, P2950, DOI 10.1109/TGRS.2006.876704
+   Zhu AX, 2008, DIGITAL SOIL MAPPING WITH LIMITED DATA, V0, PP233, DOI 10.1007/978-1-4020-8592-5_20
+   Zhu AX, 1997, GEODERMA, V77, P217, DOI 10.1016/S0016-7061(97)00023-2
+   Zhu AX, 1997, SOIL SCI SOC AM J, V61, P523, DOI 10.2136/sssaj1997.03615995006100020022x
+   Zhu AX, 1996, ECOL MODEL, V90, P123, DOI 10.1016/0304-3800(95)00161-1
+   Zhu AX, 2001, SOIL SCI SOC AM J, V65, P1463, DOI 10.2136/sssaj2001.6551463x
+   Zhu AX, 1999, INT J GEOGR INF SCI, V13, P119, DOI 10.1080/136588199241382
+NR 69
+TC 13
+Z9 14
+U1 6
+U2 48
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD APR 15
+PY 2019
+VL 12
+IS 4
+BP 1091
+EP 1106
+DI 10.1109/JSTARS.2019.2902375
+PG 16
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA HT7PJ
+UT WOS:000464756600004
+DA 2023-04-26
+ER
+
+PT J
+AU Mboga, N
+   Georganos, S
+   Grippa, T
+   Lennert, M
+   Vanhuysse, S
+   Wolff, E
+AF Mboga, Nicholus
+   Georganos, Stefanos
+   Grippa, Tais
+   Lennert, Moritz
+   Vanhuysse, Sabine
+   Wolff, Eleonore
+TI Fully Convolutional Networks and Geographic Object-Based Image Analysis for the Classification of VHR Imagery
+SO REMOTE SENSING
+LA English
+DT Article
+DE fully convolutional networks; convolutional neural networks; remote sensing; very high resolution; landcover classification; geographical object-based image analysis
+ID neural-networks; selection
+AB Land cover Classified maps obtained from deep learning methods such as Convolutional neural networks (CNNs) and fully convolutional networks (FCNs) usually have high classification accuracy but with the detailed structures of objects lost or smoothed. In this work, we develop a methodology based on fully convolutional networks (FCN) that is trained in an end-to-end fashion using aerial RGB images only as input. Skip connections are introduced into the FCN architecture to recover high spatial details from the lower convolutional layers. The experiments are conducted on the city of Goma in the Democratic Republic of Congo. We compare the results to a state-of-the art approach based on a semi-automatic Geographic object image-based analysis (GEOBIA) processing chain. State-of-the art classification accuracies are obtained by both methods whereby FCN and the best baseline method have an overall accuracy of 91.3% and 89.5% respectively. The maps have good visual quality and the use of an FCN skip architecture minimizes the rounded edges that is characteristic of FCN maps. Additional experiments are done to refine FCN classified maps using segments obtained from GEOBIA generated at different scale and minimum segment size. High OA of up to 91.5% is achieved accompanied with an improved edge delineation in the FCN maps, and future work will involve explicitly incorporating boundary information from the GEOBIA segmentation into the FCN pipeline in an end-to-end fashion. Finally, we observe that FCN has a lower computational cost than the standard patch-based CNN approach especially at inference.
+C1 [Mboga, Nicholus; Georganos, Stefanos; Grippa, Tais; Lennert, Moritz; Vanhuysse, Sabine; Wolff, Eleonore] ULB, Dept Geosci Environm & Soc, B-1050 Brussels, Belgium.
+C3 Universite Libre de Bruxelles
+RP Mboga, N (corresponding author), ULB, Dept Geosci Environm & Soc, B-1050 Brussels, Belgium.
+EM nmboga@ulb.ac.be; sgeorgan@ulb.ac.be; tgrippa@ulb.ac.be; mlennert@ulb.ac.be; svhuysse@ulb.ac.be; ewolff@ulb.ac.be
+FU Belgian Science Policy Office (BELSPO) [BR/165/A3/PASTECA]
+CR [Anonymous], 2015, ICLR, V0, P0
+   [Anonymous], 2008, LECT NOTES GEOINFORM, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bergado JR, 2018, IEEE T GEOSCI REMOTE, V56, P6361, DOI 10.1109/TGRS.2018.2837357
+   Bergado JR, 2016, INT GEOSCI REMOTE SE, V0, PP1516, DOI 10.1109/IGARSS.2016.7729387
+   Blaschke T, 2010, ISPRS J PHOTOGRAMM, V65, P2, DOI 10.1016/j.isprsjprs.2009.06.004
+   Blaschke T, 2014, ISPRS J PHOTOGRAMM, V87, P180, DOI 10.1016/j.isprsjprs.2013.09.014
+   Bottou L, 2010, COMPSTAT2010: 19TH INTERNATIONAL CONFERENCE ON COMPUTATIONAL STATISTICS, V0, PP177, DOI 10.1007/978-3-7908-2604-3_16
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chollet F., 2015, OTHERS KERAS GITHUB, V0, P0
+   CONGALTON RG, 1991, REMOTE SENS ENVIRON, V37, P35, DOI 10.1016/0034-4257(91)90048-B
+   Espindola GM, 2006, INT J REMOTE SENS, V27, P3035, DOI 10.1080/01431160600617194
+   Fu TY, 2018, J APPL REMOTE SENS, V12, P0, DOI 10.1117/1.JRS.12.025010
+   Georganos S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091440
+   Georganos S, 2018, IEEE GEOSCI REMOTE S, V15, P607, DOI 10.1109/LGRS.2018.2803259
+   Georganos S, 2018, GISCI REMOTE SENS, V55, P221, DOI 10.1080/15481603.2017.1408892
+   Glorot X., 2010, P 13 INT C ART INT S, V0, P249
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Grippa T, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040358
+   Guirado E, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121220
+   HARALICK RM, 1985, COMPUT VISION GRAPH, V29, P100, DOI 10.1016/S0734-189X(85)90153-7
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Johnson B, 2011, ISPRS J PHOTOGRAMM, V66, P473, DOI 10.1016/j.isprsjprs.2011.02.006
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Langkvist M, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040329
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lennert M. ;., 2016, GEOGRAPHIC RESOURCES, V0, P0
+   Liu T, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030457
+   Liu T, 2018, GISCI REMOTE SENS, V55, P243, DOI 10.1080/15481603.2018.1426091
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lv XW, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10121946
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Marmanis D, 2016, IEEE GEOSCI REMOTE S, V13, P105, DOI 10.1109/LGRS.2015.2499239
+   Mboga N., 2018, P GEOBIA 2018 GEOB C, V0, P1
+   Michellier C, 2016, NAT HAZARDS, V82, PS27, DOI 10.1007/s11069-016-2295-z
+   Dao M, 2017, 2017 IEEE 8TH ANNUAL UBIQUITOUS COMPUTING, V0, P322
+   Momsen E., 2015, GEOGRAPHIC RESOURCES, V0, P0
+   Neteler M, 2012, ENVIRON MODELL SOFTW, V31, P124, DOI 10.1016/j.envsoft.2011.11.014
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Persello C, 2017, IEEE GEOSCI REMOTE S, V14, P2325, DOI 10.1109/LGRS.2017.2763738
+   Roscher R, 2014, INT GEOSCI REMOTE SE, V0, PP3674, DOI 10.1109/IGARSS.2014.6947280
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Yu FP, 2016, PROCEEDINGS OF 2016 SYMPOSIUM ON PIEZOELECTRICITY, V0, P0
+   Zhang C, 2018, REMOTE SENS ENVIRON, V216, P57, DOI 10.1016/j.rse.2018.06.034
+   Zhao WQ, 2019, IEEE T SYST MAN CY-S, V49, P1254, DOI 10.1109/TSMC.2017.2724440
+   Zhao WZ, 2017, ISPRS J PHOTOGRAMM, V132, P48, DOI 10.1016/j.isprsjprs.2017.08.011
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 54
+TC 37
+Z9 38
+U1 4
+U2 22
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD MAR 1
+PY 2019
+VL 11
+IS 5
+BP 
+EP 
+DI 10.3390/rs11050597
+PG 17
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA HQ6RA
+UT WOS:000462544500125
+DA 2023-04-26
+ER

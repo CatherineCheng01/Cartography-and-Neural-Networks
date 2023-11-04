@@ -1,0 +1,543 @@
+
+PT J
+AU Geiss, C
+   Schrade, H
+   Pelizari, PA
+   Taubenbock, H
+AF Geiss, Christian
+   Schrade, Henrik
+   Pelizari, Patrick Aravena
+   Taubenboeck, Hannes
+TI Multistrategy ensemble regression for mapping of built-up density and height with Sentinel-2 data
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Sentinel-2; TanDEM-X; Urban morphology; Built-up height estimation; Built-up density estimation; Regression models
+ID tandem-x; human-settlements; presence index; urban; classification; area; extraction; imagery; environments; selection
+AB In this paper, we establish a workflow for estimation of built-up density and height based on multispectral Sentinel-2 data. To do so, we render the estimation of built-up density and height as a supervised learning problem. Given the rational level of measurement of those two target variables, the regression estimation problem is regarded as finding the mapping between an incoming vector, i.e., ubiquitously available features computed from Sentinel-2 data, and an observable output (i.e., training set), which is derived over spatially limited areas in an automated manner. As such, training sets are automatically generated from a joint exploitation of TanDEM-X mission elevation data and Sentinel-2 imagery, and, as an alternative, from cadastral sources. The training sets are used to regress the target variables for spatial processing units which correspond to urban neighborhood scales. From a methodological point of view, we introduce a novel ensemble regression approach, i.e., multistrategy ensemble regression (MSER), based on advanced machine learning-based regression algorithms including Random Forest Regression, Support Vector Regression, Gaussian Process Regression, and Neural Network Regression. To establish a robust ensemble, those algorithms are learned with a modified version of the AdaBoost.RT algorithm. However, to reliably ensure diversity between single boosted regressors, we include a random feature subspace method in the procedure. In contrast to existing approaches, we selectively prune non-favorable regressors trained during the boosting procedure and calculate the final prediction by a weighted mean function on the residual models to ensure enhanced accuracy properties of predictions. Finally, outputs are concatenated into a single prediction with a decision fusion strategy. Experimental results are obtained from four test areas which cover the settlement areas of the four largest German cites, i.e., Berlin, Hamburg, Munich, and Cologne. The results unambiguously underline the beneficial properties of the MSER approach, since all best predictions were obtained with a boosted regressor in conjunction with a decision fusion strategy in a comparative setup. The mean absolute errors of corresponding models vary between 3 and 16% and 1-5.4 m with respect to built-up density and height, respectively, depending on the validation strategy, size of the spatial processing units, and test area. Also in a domain adaptation setup (i.e., when learning a model over a source domain and applying it over a geographically different target domain) numerous predictions show comparable accuracy levels as predictions obtained within a source domain. This further underlines the viability to transfer a model and, thus, enable a substitution of the training data in the target domains.
+C1 [Geiss, Christian; Schrade, Henrik; Pelizari, Patrick Aravena; Taubenboeck, Hannes] German Aerosp Ctr DLR, German Remote Sensing Data Ctr DFD, D-82234 Wessling Oberpfaffenhofe, Germany.
+C3 Helmholtz Association; German Aerospace Centre (DLR)
+RP Geiss, C (corresponding author), German Aerosp Ctr DLR, German Remote Sensing Data Ctr DFD, D-82234 Wessling Oberpfaffenhofe, Germany.
+EM christian.geiss@dlr.de; henrik.schrade@dlr.de; patrick.aravenapelizari@dlr.de; hannes.taubenboeck@dlr.de
+FU Helmholtz Association [PD-305]; German Federal Ministry of Education and Research (BMBF) [03G0876]; German Research Foundation (DFG) [TA 800/6-1, SI 932/12-1]
+CR Aghighi H, 2018, IEEE J-STARS, V11, P4563, DOI 10.1109/JSTARS.2018.2823361
+   [Anonymous], 2017, WORLD POPULATION PRO, V0, P0
+   [Anonymous], 2017, 2017 JOINT URBAN REM, V0, P0, DOI DOI 10.1109/JURSE.2017.7924543
+   Berger C, 2013, IEEE J-STARS, V6, P1324, DOI 10.1109/JSTARS.2013.2245860
+   Bergmeir C, 2012, J STAT SOFTW, V46, P1
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Breiman L, 1996, MACH LEARN, V24, P123, DOI 10.1007/BF00058655
+   Bruzzone L, 2005, IEEE T GEOSCI REMOTE, V43, P159, DOI 10.1109/TGRS.2004.839818
+   BUCKLAND ST, 1993, J APPL ECOL, V30, P478, DOI 10.2307/2404188
+   CampsValls G., 2016, IEEE GEOSCI REMOTE S, V0, P0
+   Chen X, 2017, IEEE T GEOSCI REMOTE, V55, P2074, DOI 10.1109/TGRS.2016.2636329
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Drusch M, 2012, REMOTE SENS ENVIRON, V120, P25, DOI 10.1016/j.rse.2011.11.026
+   Du PJ, 2012, SENSORS-BASEL, V12, P4764, DOI 10.3390/s120404764
+   Duch W, 2006, STUD FUZZ SOFT COMP, V207, P89
+   Esch T, 2009, REMOTE SENS ENVIRON, V113, P1678, DOI 10.1016/j.rse.2009.03.012
+   Esch T., 1900, V6, V0, P21
+   Esch T, 2017, ISPRS J PHOTOGRAMM, V134, P30, DOI 10.1016/j.isprsjprs.2017.10.012
+   Feilhauer H, 2015, REMOTE SENS ENVIRON, V164, P57, DOI 10.1016/j.rse.2015.03.033
+   Freund Y., 1996, MACHINE LEARNING. PROCEEDINGS OF THE THIRTEENTH INTERNATIONAL CONFERENCE (ICML 96), V0, P148
+   Freund Y, 1997, J COMPUT SYST SCI, V55, P119, DOI 10.1006/jcss.1997.1504
+   Garcia-Pedrajas N, 2008, NEURAL NETWORKS, V21, P1344, DOI 10.1016/j.neunet.2007.12.046
+   Geiss C, 2019, IEEE J-STARS, V12, P2912, DOI 10.1109/JSTARS.2019.2917755
+   Geiss C, 2017, IEEE J-STARS, V10, P5583, DOI 10.1109/JSTARS.2017.2748339
+   Geiss C, 2017, IEEE GEOSCI REMOTE S, V14, P2008, DOI 10.1109/LGRS.2017.2747222
+   Geiss C, 2016, IEEE T GEOSCI REMOTE, V54, P5952, DOI 10.1109/TGRS.2016.2576978
+   Geiss C, 2016, IEEE J-STARS, V9, P1913, DOI 10.1109/JSTARS.2015.2442584
+   Geiss C, 2015, ISPRS J PHOTOGRAMM, V104, P175, DOI 10.1016/j.isprsjprs.2014.07.016
+   Geiss C, 2015, IEEE T GEOSCI REMOTE, V53, P4348, DOI 10.1109/TGRS.2015.2396195
+   Geiss C, 2013, NAT HAZARDS, V68, P7, DOI 10.1007/s11069-012-0322-2
+   Geiss C, 2011, REMOTE SENS-BASEL, V3, P1447, DOI 10.3390/rs3071447
+   Ghamisi P, 2018, IEEE GEOSCI REMOTE S, V15, P794, DOI 10.1109/LGRS.2018.2806945
+   Giacinto G, 2001, PATTERN RECOGN, V34, P1879, DOI 10.1016/S0031-3203(00)00150-3
+   Gonzalez R. C., 1992, DIGITAL IMAGE PROCES, V0, P0
+   Gonzalez-Aguilera D, 2013, IEEE T GEOSCI REMOTE, V51, P1844, DOI 10.1109/TGRS.2012.2205931
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Guyon I., 2003, JOURNAL OF MACHINE LEARNING RESEARCH, V3, P1157, DOI 10.1162/153244303322753616
+   Hall M. A., 2000, P 17 INT C MACH LEAR, V0, P0
+   HARALICK RM, 1979, P IEEE, V67, P786, DOI 10.1109/PROC.1979.11328
+   Heiden U, 2012, LANDSCAPE URBAN PLAN, V105, P361, DOI 10.1016/j.landurbplan.2012.01.001
+   Heinzel J, 2015, INT J APPL EARTH OBS, V35, P151, DOI 10.1016/j.jag.2014.08.017
+   Ho TK, 1998, IEEE T PATTERN ANAL, V20, P832, DOI 10.1109/34.709601
+   Huang X, 2018, ISPRS J PHOTOGRAMM, V135, P127, DOI 10.1016/j.isprsjprs.2017.11.017
+   Huang X, 2017, REMOTE SENS ENVIRON, V196, P56, DOI 10.1016/j.rse.2017.05.001
+   Huang X, 2014, ISPRS J PHOTOGRAMM, V90, P36, DOI 10.1016/j.isprsjprs.2014.01.008
+   Huang X, 2012, IEEE J-STARS, V5, P161, DOI 10.1109/JSTARS.2011.2168195
+   HUGHES GF, 1968, IEEE T INFORM THEORY, V14, P55, DOI 10.1109/TIT.1968.1054102
+   Kohavi R, 1997, ARTIF INTELL, V97, P273, DOI 10.1016/S0004-3702(97)00043-X
+   Krieger G, 2007, IEEE T GEOSCI REMOTE, V45, P3317, DOI 10.1109/TGRS.2007.900693
+   Kummer N., 2014, ARTIF INTELL RES, V3, P64, DOI 10.5430/air.v3n4p64
+   Lal TN, 2006, STUD FUZZ SOFT COMP, V207, P137
+   Lefebvre A, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8070606
+   Leinenkugel P, 2011, REMOTE SENS ENVIRON, V115, P3007, DOI 10.1016/j.rse.2011.06.004
+   Liu C, 2019, REMOTE SENS ENVIRON, V226, P51, DOI 10.1016/j.rse.2019.03.033
+   Luebke D., 2003, LEVEL DETAIL 3D GRAP, V0, P0
+   Mendes-Moreira J, 2012, ACM COMPUT SURV, V45, P0, DOI 10.1145/2379776.2379786
+   Okujeni A, 2017, IEEE J-STARS, V10, P1640, DOI 10.1109/JSTARS.2016.2634859
+   Pacifici F, 2009, REMOTE SENS ENVIRON, V113, P1276, DOI 10.1016/j.rse.2009.02.014
+   Pelizari PA, 2018, REMOTE SENS ENVIRON, V209, P793, DOI 10.1016/j.rse.2018.02.025
+   Pesaresi M, 2001, IEEE T GEOSCI REMOTE, V39, P309, DOI 10.1109/36.905239
+   Pesaresi M, 2011, IEEE J-STARS, V4, P16, DOI 10.1109/JSTARS.2010.2049478
+   Pesaresi M, 2008, IEEE J-STARS, V1, P180, DOI 10.1109/JSTARS.2008.2002869
+   Pittore M, 2017, NAT HAZARDS, V86, P7, DOI 10.1007/s11069-016-2437-3
+   Polikar R., 2006, IEEE CIRCUITS AND SYSTEMS MAGAZINE, V6, P21, DOI 10.1109/MCAS.2006.1688199
+   Rasmussen CE, 2005, ADAPT COMPUT MACH LE, V0, P1
+   Ratti C, 2005, ENERG BUILDINGS, V37, P762, DOI 10.1016/j.enbuild.2004.10.010
+   Rizzoli P, 2017, ISPRS J PHOTOGRAMM, V132, P119, DOI 10.1016/j.isprsjprs.2017.08.008
+   ROUSE JW, 1974, MONITORING VERNAL AD, V0, P0
+   Russell S.J., 2010, ARTIFICIAL INTELLIGE, V3rd ed., P1132
+   Soille P., 2004, MORPHOLOGICAL IMAGE, V0, P0, DOI DOI 10.1007/978-3-662-05088-0_9
+   Solomatine DP, 2004, IEEE IJCNN, V0, P1163
+   Stumpf A, 2011, REMOTE SENS ENVIRON, V115, P2564, DOI 10.1016/j.rse.2011.05.013
+   Taubenbock H, 2012, REMOTE SENS ENVIRON, V117, P162, DOI 10.1016/j.rse.2011.09.015
+   Taubenbock H, 2016, ISPRS INT J GEO-INF, V5, P0, DOI 10.3390/ijgi5110206
+   Ting KM, 1999, J ARTIF INTELL RES, V10, P271, DOI 10.1613/jair.594
+   Tuia D, 2016, IEEE GEOSC REM SEN M, V4, P41, DOI 10.1109/MGRS.2016.2548504
+   Verrelst J, 2012, REMOTE SENS ENVIRON, V118, P127, DOI 10.1016/j.rse.2011.11.002
+   Wang G, 2011, EXPERT SYST APPL, V38, P13871, DOI 10.1016/j.eswa.2011.04.191
+   Webb GI, 2004, IEEE T KNOWL DATA EN, V16, P980, DOI 10.1109/TKDE.2004.29
+   Wessel B, 2018, ISPRS J PHOTOGRAMM, V139, P171, DOI 10.1016/j.isprsjprs.2018.02.017
+   WOLPERT DH, 1992, NEURAL NETWORKS, V5, P241, DOI 10.1016/S0893-6080(05)80023-1
+   Wolpert DH, 1996, NEURAL COMPUT, V8, P1341, DOI 10.1162/neco.1996.8.7.1341
+   Wurm M, 2014, IEEE J-STARS, V7, P4138, DOI 10.1109/JSTARS.2014.2346655
+   Xu RD, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18092873
+   Yu BL, 2010, LANDSCAPE URBAN PLAN, V98, P210, DOI 10.1016/j.landurbplan.2010.08.004
+   Zhang T, 2017, IEEE J-STARS, V10, P3265, DOI 10.1109/JSTARS.2017.2669217
+   Zhao J, 2017, INFORM FUSION, V38, P43, DOI 10.1016/j.inffus.2017.02.007
+   Zink M, 2014, IEEE GEOSC REM SEN M, V2, P8, DOI 10.1109/MGRS.2014.2318895
+NR 89
+TC 11
+Z9 11
+U1 2
+U2 21
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD DEC 15
+PY 2020
+VL 170
+IS 
+BP 57
+EP 71
+DI 10.1016/j.isprsjprs.2020.10.004
+PG 15
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OV5IE
+UT WOS:000592242600005
+DA 2023-04-26
+ER
+
+PT J
+AU Akubia, JEK
+   Ahmed, A
+   Bruns, A
+AF Akubia, John E. K.
+   Ahmed, Abubakari
+   Bruns, Antje
+TI Assessing How Land-Cover Change Associated with Urbanisation Affects Ecological Sustainability in the Greater Accra Metropolitan Area, Ghana
+SO LAND
+LA English
+DT Article
+DE land-cover change; ecological sustainability; remote sensing; geographic information system; land accounting; Quickbird and Worldview-2
+ID ecosystem services; science
+AB Intensive land-cover changes (LCC) driven by unplanned urbanisation continue to threaten the sustainability of ecological assets in many cities in Africa. Evaluating the nature and processes of these changes is key to understanding the extent to which ecological instability may be affecting sustainability futures. This study employed integrated remote sensing, GIS, land accounting techniques and utilisation of high-resolution Quickbird and Worldview 2 images to analyse actual (2008-2017) and future (2017-2030) LCC and explored implications for ecological sustainability in the Greater Accra Metropolitan Area, Ghana. After mapping and classifying actual LCC, multi-layer perception (MLP) neural network and Markov chain were employed to predict future LCC for the year 2030. The results indicate that the built-up area increased substantially from 27% in 2008 to 46% in 2017 and is expected to rise to 73% by 2030. In contrast, open-space (10%), forestlands (5%) and grassland/farmlands (49%) decreased progressively (2008-2030). In effect, these land-cover types experienced area turnover >100% during the actual and predicted period, indicating high vulnerability of natural land cover to urban growth, ecological degradation and resource depletion. These findings highlight significant implications of LCC for ecological sustainability in the study area. A proactive land-cover/use management plan is necessary to ensure sustainable urban development and ecological land conservation.
+C1 [Akubia, John E. K.; Bruns, Antje] Trier Univ, Fac Reg & Environm Sci, Governance & Sustainabil Lab, Univ Ring 15, D-54296 Trier, Germany.
+   [Ahmed, Abubakari] Univ Dev Studies, Dept Planning, Fac Planning & Land Management, Box UPW3,GH UW 1331, Wa, Upper West Regi, Ghana.
+C3 Universitat Trier; University for Development Studies
+RP Akubia, JEK (corresponding author), Trier Univ, Fac Reg & Environm Sci, Governance & Sustainabil Lab, Univ Ring 15, D-54296 Trier, Germany.
+EM akubia@uni-trier.de; aahmed@uds.edu.gh; brunsa@uni-trier.de
+FU German Federal Ministry of Education and Research (BMBF) [01 LN 1316 A]
+CR Addae B, 2019, URBAN SCI, V3, P0, DOI 10.3390/urbansci3010026
+   Agyapong Emma Baah, 2018, JOURNAL OF URBAN ECOLOGY, V4, Pjuy019, DOI 10.1093/jue/juy019
+   Akber MA, 2018, J LAND USE SCI, V13, P238, DOI 10.1080/1747423X.2018.1529832
+   Akubia JEK, 2019, LAND-BASEL, V8, P0, DOI 10.3390/land8090131
+   Alberti M, 2010, CURR OPIN ENV SUST, V2, P178, DOI 10.1016/j.cosust.2010.07.002
+   [Anonymous], 2013, ANAL FRAMEWORK ECOSY, V0, P0
+   [Anonymous], 2006, LOCAL PROCESSES GLOB, V0, P0
+   Ashiagbor G, 2019, OPEN GEOSCI, V11, P172, DOI 10.1515/geo-2019-0014
+   Attua E.M., 2013, SOCIAL SCI SERIES U, V0, P265
+   Bhatta B., 2012, SPRINGERBRIEFS GEOGR, V0, P9
+   Bruns A., 2014, WATERPOWER THE COLLI, V0, P24
+   Chaffin BC, 2014, ECOL SOC, V19, P0, DOI 10.5751/ES-06824-190356
+   Chowdhury RR, 2019, J LAND USE SCI, V14, P135, DOI 10.1080/1747423X.2019.1597934
+   Costanza R, 2014, GLOBAL ENVIRON CHANG, V26, P152, DOI 10.1016/j.gloenvcha.2014.04.002
+   Dale VH, 2019, LANDSCAPE ECOL, V34, P1199, DOI 10.1007/s10980-019-00848-1
+   Eastman J.R., 2016, TERRSET GEOSPATIAL M, V0, P0
+   Elmqvist T., 2013, URBANIZATION BIODIVE, V0, P0
+   EPA, 2017, GHAN STAT ENV 2016 R, V0, P0
+   European Environment Agency, 2006, LAND ACC EUR 1990 20, V0, P0
+   Foley JA, 2005, SCIENCE, V309, P570, DOI 10.1126/science.1111772
+   Ghana Statistical Service, 2014, URB GHAN 2010 POP HO, V0, P0
+   Ghana Statistical Service, 2016, POP PROJ SUMM 2010 2, V0, P0
+   GIBB, 2017, GREAT ACCR REG SPAT, V2, P0
+   Guerra CA, 2019, LANDSCAPE ECOL, V34, P2779, DOI 10.1007/s10980-019-00918-4
+   Haines-Young R, 1999, T I BRIT GEOGR, V24, P441, DOI 10.1111/j.0020-2754.1999.00441.x
+   Hong G., 2005, P IEEE ISPRS 3 INT S, V0, P0
+   Hossain MS, 2018, INT J SUST DEV WORLD, V25, P249, DOI 10.1080/13504509.2017.1361480
+   Ivanov E., 2015, LAND ACCOUNTS ECOSYS, V0, P0
+   Korah PI, 2019, LAND USE POLICY, V87, P0, DOI 10.1016/j.landusepol.2019.104049
+   Lambin EF, 2010, LAND USE POLICY, V27, P108, DOI 10.1016/j.landusepol.2009.09.003
+   Li XH, 2019, IEEE GEOSC REM SEN M, V7, P8, DOI 10.1109/MGRS.2019.2921780
+   Liu J, 2015, INT ARCH PHOTOGRAMM, V47, P103, DOI 10.5194/isprsarchives-XL-7-W4-103-2015
+   Loures L. C., 2019, LAND USE ASSESSING E, V0, P0
+   Mahendra A., 2019, WORKING PAPER, V0, P0
+   Mansour S, 2020, LAND USE POLICY, V91, P0, DOI 10.1016/j.landusepol.2019.104414
+   Meyfroidt P, 2013, J LAND USE SCI, V8, P341, DOI 10.1080/1747423X.2012.667452
+   Opdam P, 2018, LANDSCAPE ECOL, V33, P1, DOI 10.1007/s10980-018-0610-7
+   Pearson DM, 2010, LANDSCAPE ECOL, V25, P1151, DOI 10.1007/s10980-010-9512-z
+   Schindler S., 2017, CITY, V21, P47, DOI 10.1080/13604813.2016.1263494
+   Seto KC, 2017, P NATL ACAD SCI USA, V114, P8935, DOI 10.1073/pnas.1606037114
+   Seto KC, 2012, P NATL ACAD SCI USA, V109, P7687, DOI 10.1073/pnas.1117622109
+   [Shao Jingan 邵景安], 2005, JOURNAL OF GEOGRAPHICAL SCIENCES, V15, P305, DOI 10.1360/gs050305
+   Sharma R, 2019, RESOURCES-BASEL, V8, P0, DOI 10.3390/resources8010018
+   Solano-Correa YT, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10040533
+   Song C, 2001, REMOTE SENS ENVIRON, V75, P230, DOI 10.1016/S0034-4257(00)00169-3
+   Song W, 2017, SCI TOTAL ENVIRON, V576, P705, DOI 10.1016/j.scitotenv.2016.07.078
+   Swilling M., 2012, JUST TRANSITIONS EXP, V0, P0
+   Tetteh K., 2016, THESIS, V0, P0
+   Toure SI, 2020, GEOCARTO INT, V35, P209, DOI 10.1080/10106049.2018.1516244
+   Wang CJ, 2019, INT J REMOTE SENS, V40, P2880, DOI 10.1080/01431161.2018.1533661
+   Wu JG, 2013, LANDSCAPE ECOL, V28, P999, DOI 10.1007/s10980-013-9894-9
+   Xiao PF, 2010, INT J REMOTE SENS, V31, P1427, DOI 10.1080/01431160903475324
+   Zhan J., 2015, IMPACTS LAND USE CHA, V0, P0
+NR 53
+TC 4
+Z9 4
+U1 0
+U2 10
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-445X
+J9 LAND-BASEL
+JI Land
+PD JUN 15
+PY 2020
+VL 9
+IS 6
+BP 
+EP 
+DI 10.3390/land9060182
+PG 18
+WC Environmental Studies
+SC Environmental Sciences & Ecology
+GA MN8YY
+UT WOS:000551128600001
+DA 2023-04-26
+ER
+
+PT J
+AU Villalon-Turrubiates, IE
+   Llovera-Torres, MJ
+AF Villalon-Turrubiates, Ivan E.
+   Llovera-Torres, Maria J.
+TI IDENTIFICATION OF ARCHAEOLOGICAL LAND USE EMPLOYING DEEP LEARNING TECHNIQUES: PROSPECTIVE STUDY WITHIN MEXICO
+SO IGARSS 2020 - 2020 IEEE INTERNATIONAL GEOSCIENCE AND REMOTE SENSING SYMPOSIUM
+LA English
+DT Proceedings Paper
+AB The human history can be traced through the impacts of their actions upon the environment. The use of remote sensing technologies combined with deep learning techniques offers to the archeologist an opportunity to detect these impacts which are often invisible to the naked eye. The extraction of remote sensing signatures from a particular geographical region allows the generation of geophysical signature maps, which can be achieved using a multispectral image classification approach based on convolutional neural networks, this is referred to as the Convolutional Pixel Classification method. This paper presents the prospective study for archaeological land use characterization using multispectral remote sensing data provided by SPOT-5 imagery.
+C1 [Villalon-Turrubiates, Ivan E.] Inst Tecnol & Estudios Super Occidente ITESO, Tlaquepaque, Mexico.
+   [Llovera-Torres, Maria J.] Univ Autonoma San Luis Potosi UASLP, San Luis Potosi, San Luis Potosi, Mexico.
+C3 Universidad Autonoma de San Luis Potosi
+RP Villalon-Turrubiates, IE (corresponding author), Inst Tecnol & Estudios Super Occidente ITESO, Tlaquepaque, Mexico.
+EM villalon@iteso.mx; azul.llovera@gmail.com
+CR [Anonymous], 1999, COMPUTER PROCESSING, V0, P0
+   [Anonymous], 2019, ESTACION RECEPCION M, V0, P0
+   [Anonymous], 2002, IMAGE PROC SER, V0, P0
+   [Anonymous], 2019, SATELLITE IMAGERY SM, V0, P0
+   [Anonymous], 2005, INTRO DIGITAL IMAGE, V0, P0
+   Barba- Pingarron L., 1984, THESIS, V0, P0
+   BINFORD LR, 1964, AM ANTIQUITY, V29, P425, DOI 10.2307/277978
+   Gamble C., 2001, ARQUEOLOGIA BASICA, V0, P0
+   Geron A., 2017, HANDS ON MACHINE LEA, V0, P0
+   Hough H., 1992, SATELLITE SURVEILLAN, V0, P0
+   Litvak- King J., 1986, INTRO ARQUEOLOGIA TO, V0, P0
+   Miller F., 1991, APPL SPACE AGE TECHN, V0, P0
+   Porter R., 2003, P 20 INT C MACH LEAR, V0, P0
+   Williamson R., 2008, ADV SCI TECHNOLOGY H, V0, P0
+NR 14
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2153-6996
+EI 
+J9 INT GEOSCI REMOTE SE
+PD JUN 15
+PY 2020
+VL 0
+IS 
+BP 6766
+EP 6769
+DI 10.1109/IGARSS39084.2020.9323377
+PG 4
+WC Computer Science, Artificial Intelligence; Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Optics
+SC Computer Science; Environmental Sciences & Ecology; Geology; Remote Sensing; Optics
+GA BR6WH
+UT WOS:000664335306105
+DA 2023-04-26
+ER
+
+PT J
+AU Qayyum, N
+   Ghuffar, S
+   Ahmad, HM
+   Yousaf, A
+   Shahid, I
+AF Qayyum, Nida
+   Ghuffar, Sajid
+   Ahmad, Hafiz Mughees
+   Yousaf, Adeel
+   Shahid, Imran
+TI Glacial Lakes Mapping Using Multi Satellite PlanetScope Imagery and Deep Learning
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE GLOF; U-Net; EfficientNet; Chitral; Shishper glacier surge; Baltoro glacier
+ID high-mountain asia; water index ndwi; brief communication; surface-water; inventory; classification; velocity; region; ice
+AB Glacial lakes mapping using satellite remote sensing data are important for studying the effects of climate change as well as for the mitigation and risk assessment of a Glacial Lake Outburst Flood (GLOF). The 3U cubesat constellation of Planet Labs offers the capability of imaging the whole Earth landmass everyday at 3-4 m spatial resolution. The higher spatial, as well as temporal resolution of PlanetScope imagery in comparison with Landsat-8 and Sentinel-2, makes it a valuable data source for monitoring the glacial lakes. Therefore, this paper explores the potential of the PlanetScope imagery for glacial lakes mapping with a focus on the Hindu Kush, Karakoram and Himalaya (HKKH) region. Though the revisit time of the PlanetScope imagery is short, courtesy of 130+ small satellites, this imagery contains only four bands and the imaging sensors in these small satellites exhibit varying spectral responses as well as lower dynamic range. Furthermore, the presence of cast shadows in the mountainous regions and varying spectral signature of the water pixels due to differences in composition, turbidity and depth makes it challenging to automatically and reliably extract surface water in PlanetScope imagery. Keeping in view these challenges, this work uses state of the art deep learning models for pixel-wise classification of PlanetScope imagery into the water and background pixels and compares the results with Random Forest and Support Vector Machine classifiers. The deep learning model is based on the popular U-Net architecture. We evaluate U-Net architecture similar to the original U-Net as well as a U-Net with a pre-trained EfficientNet backbone. In order to train the deep neural network, ground truth data are generated by manual digitization of the surface water in PlanetScope imagery with the aid of Very High Resolution Satellite (VHRS) imagery. The created dataset consists of more than 5000 water bodies having an area of approx. 71km2 in eight different sites in the HKKH region. The evaluation of the test data show that the U-Net with EfficientNet backbone achieved the highest F1 Score of 0.936. A visual comparison with the existing glacial lake inventories is then performed over the Baltoro glacier in the Karakoram range. The results show that the deep learning model detected significantly more lakes than the existing inventories, which have been derived from Landsat OLI imagery. The trained model is further evaluated on the time series PlanetScope imagery of two glacial lakes, which have resulted in an outburst flood. The output of the U-Net is also compared with the GLakeMap data. The results show that the higher spatial and temporal resolution of PlanetScope imagery is a significant advantage in the context of glacial lakes mapping and monitoring.
+C1 [Qayyum, Nida; Ghuffar, Sajid; Shahid, Imran] Inst Space Technol, Dept Space Sci, Islamabad 44000, Pakistan.
+   [Ahmad, Hafiz Mughees] Istanbul Medipol Univ, Sch Engn & Nat Sci, Computat Cameras & Vis Res Lab, Istanbul, Turkey.
+   [Yousaf, Adeel] Inst Space Technol, Dept Avion Engn, Islamabad 44000, Pakistan.
+C3 Istanbul Medipol University
+RP Ghuffar, S (corresponding author), Inst Space Technol, Dept Space Sci, Islamabad 44000, Pakistan.
+EM nida06@ist.edu.pk; sajid.ghuffar@mail.ist.edu.pk; hafiz.mughees@std.medipol.edu.tr; adeel.yousaf@ist.edu.pk; imran.shahid@ist.edu.pk
+FU International Foundation for Science (IFS); COMSTECH grant [W/5805-1]
+CR Acharya TD, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19122769
+   [Anonymous], 2017, P ADV NEUR INF PROC, V0, P0
+   [Anonymous], 2020, ARXIV200106372, V0, P0
+   Bhambri R, 2020, SCI REP-UK, V10, P0, DOI 10.1038/s41598-020-61277-8
+   Bolch T, 2008, NAT HAZARD EARTH SYS, V8, P1329, DOI 10.5194/nhess-8-1329-2008
+   Bosch M, 2019, IEEE WINT CONF APPL, V0, PP1524, DOI 10.1109/WACV.2019.00167
+   Boschetti M, 2014, PLOS ONE, V9, P0, DOI 10.1371/journal.pone.0088741
+   Brun F, 2017, NAT GEOSCI, V10, P668, DOI 10.1038/ngeo2999
+   Chang CC, 2011, ACM T INTEL SYST TEC, V2, P0, DOI 10.1145/1961189.1961199
+   Chen F., 2020, ANN 30 M DATASET GLA, V0, P0
+   Chen F, 2017, IEEE J-STARS, V10, P4002, DOI 10.1109/JSTARS.2017.2705718
+   Chitral D, 2019, CHITRAL GLOF EVENT, V0, P0
+   Cooley SW, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121306
+   Demir I., 2018, CHALLENGE PARSE EART, V0, P0
+   Dirscherl M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071203
+   Du Y, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8040354
+   Du ZQ, 2014, REMOTE SENS LETT, V5, P672, DOI 10.1080/2150704X.2014.960606
+   Emmer A, 2020, GEOMORPHOLOGY, V365, P0, DOI 10.1016/j.geomorph.2020.107178
+   Farquharson G, 2018, INT GEOSCI REMOTE SE, V0, P1873
+   Fisher A, 2016, REMOTE SENS ENVIRON, V175, P167, DOI 10.1016/j.rse.2015.12.055
+   Gardelle J, 2011, GLOBAL PLANET CHANGE, V75, P47, DOI 10.1016/j.gloplacha.2010.10.003
+   Ghuffar S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091462
+   Hanshaw MN, 2014, CRYOSPHERE, V8, P359, DOI 10.5194/tc-8-359-2014
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Helber P, 2019, IEEE J-STARS, V12, P2217, DOI 10.1109/JSTARS.2019.2918242
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Ioffe S, 2015, PR MACH LEARN RES, V37, P448
+   Kaab A, 2019, HYDROL EARTH SYST SC, V23, P4233, DOI 10.5194/hess-23-4233-2019
+   Korzeniowska K, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040339
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Li D, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9050294
+   Lindenbaum D., 2018, ARXIV180701232, V0, P0
+   McFeeters SK, 1996, INT J REMOTE SENS, V17, P1425, DOI 10.1080/01431169608948714
+   Muller R, 2019, ADV NEUR IN, V32, P0
+   Niroumand-Jadidi M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12152381
+   Niroumand-Jadidi M, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6120383
+   Pekel JF, 2016, NATURE, V540, P418, DOI 10.1038/nature20584
+   Planet Team, 2018, PLANET APPL PROGRAM, V0, P0
+   Poursanidis D, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111299
+   Rana A.S., 2017, RISK ASSESSMENT KHOR, V0, P0
+   Richardson SD, 2000, QUATERN INT, V65-6, P31, DOI 10.1016/S1040-6182(99)00035-X
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Rounce DR, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9070654
+   Sakai A, 2019, CRYOSPHERE, V13, P2043, DOI 10.5194/tc-13-2043-2019
+   Sandler M, 2018, PROC CVPR IEEE, V0, PP4510, DOI 10.1109/CVPR.2018.00474
+   Senese A, 2018, J MAPS, V14, P189, DOI 10.1080/17445647.2018.1445561
+   Shugar DH, 2020, NAT CLIM CHANGE, V10, P939, DOI 10.1038/s41558-020-0855-4
+   Silver D, 2016, NATURE, V529, P484, DOI 10.1038/nature16961
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sivanpillai R, 2010, ECOL INFORM, V5, P73, DOI 10.1016/j.ecoinf.2009.09.013
+   Steiner JF, 2018, CRYOSPHERE, V12, P95, DOI 10.5194/tc-12-95-2018
+   Szegedy C, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Tan MX, 2019, PR MACH LEARN RES, V97, P0
+   Ukita J, 2011, ANN GLACIOL, V52, P65, DOI 10.3189/172756411797252293
+   Veh G, 2018, REMOTE SENS ENVIRON, V207, P84, DOI 10.1016/j.rse.2017.12.025
+   Wang X, 2020, EARTH SYST SCI DATA, V12, P2169, DOI 10.5194/essd-12-2169-2020
+   Wangchuk S., 2020, SCI REMOTE SENS, V2, P0, DOI 10.1016/j.srs.2020.100008
+   Watson CS, 2018, REMOTE SENS ENVIRON, V217, P414, DOI 10.1016/j.rse.2018.08.020
+   Wessels RL, 2002, ANN GLACIOL-SER, V34, P399, DOI 10.3189/172756402781817545
+   Wicaksono P, 2018, INT J REMOTE SENS, V39, P5739, DOI 10.1080/01431161.2018.1506951
+   Xu HQ, 2006, INT J REMOTE SENS, V27, P3025, DOI 10.1080/01431160600589179
+   Yao XJ, 2018, J GEOGR SCI, V28, P193, DOI 10.1007/s11442-018-1467-z
+   Zhang GQ, 2015, GLOBAL PLANET CHANGE, V131, P148, DOI 10.1016/j.gloplacha.2015.05.013
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 65
+TC 21
+Z9 21
+U1 7
+U2 48
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD OCT 15
+PY 2020
+VL 9
+IS 10
+BP 
+EP 
+DI 10.3390/ijgi9100560
+PG 23
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA OL4OX
+UT WOS:000585322600001
+DA 2023-04-26
+ER
+
+PT J
+AU Middleton, M
+   Heikkonen, J
+   Nevalainen, P
+   Hyvonen, E
+   Sutinen, R
+AF Middleton, Maarit
+   Heikkonen, Jukka
+   Nevalainen, Paavo
+   Hyvonen, Eija
+   Sutinen, Raimo
+TI Machine learning-based mapping of micro-topographic earthquake-induced paleo-Pulju moraines and liquefaction spreads from a digital elevation model acquired through laser scanning
+SO GEOMORPHOLOGY
+LA English
+DT Article
+DE Paleo-seismology; Geomorphology; Landforms; Liquefaction spreads; Pulju moraine; Gabor filter; Principal curvature; Histogram-based features; Rotation invariant; Area invariant; Multilayer perceptron; Leave-one-out cross-validation
+ID supervised landform classification; surface-roughness; postglacial fault; lidar detection; inventory; geomorphology; visualization; landslides; morphology; features
+AB The advent of public open source airborne laser scanning-produced digital elevationmodels (ALS DEM) has provided new perspectives on glacial geomorphology in the Nordic countries. Seismically-induced microtopographic paleo-landforms can now be identified and mapped throughout the former Fennoscandian Ice Sheet, allowing spatial safety assessment for nuclear waste disposal. Automated machine learning techniques enable recognition of these fine-scale geomorphological features efficiently and in a consistent way nationwide. The current study focuses on automated recognition of paleo-liquefaction spreads and Pulju moraines in northern Finland. Geomorphometric variables in different cell sizes were first derived from the 2 m ALS DEM by Gabor and principal curvature filtering to emphasize the elevational multi-scale texture of these paleo-seismic landforms. The Gabor textural variables were considered as a baseline method and the principal curvature features, including maximum and minimum curvature, were used because they have previously been proven critical in recognition of concave and convex elongated features. Both sets of raster variables were then turned into histogram-based features and input into a non-linear supervised multilayer perceptron early-stop committee which is a neural network classifier. The leave-one-out cross-validation performance results indicated principal curvature features to be highly successful with 94% accuracy. Principal curvatures provided a clear improvement to Gabor based features which provided significantly lower accuracies between 83 and 85%. The study demonstrates the high success of supervised neural network-based classification of ALS DEM data and derived textural features capturing the multi-scale nature of the micro-topographic liquefaction spreads and Pulju moraines. The approach could be utilized for time-efficient mapping of these paleo-seismic geomorphologies to complete paleo-seismic databases in formerly glaciated regions. (C) 2020 Elsevier B.V. All rights reserved.
+C1 [Middleton, Maarit] Geol Survey Finland, Environm Solut, Lahteentie 2,POB 77, Rovaniemi 96101, Finland.
+   [Heikkonen, Jukka; Nevalainen, Paavo] Univ Turku, Dept Future Technol, Agora 4,Vesilinnantie 5, Turku 20014, Finland.
+   [Hyvonen, Eija] Geol Survey Finland, Informat Solut, Lahteentie 2,POB 77, Rovaniemi 96101, Finland.
+   [Sutinen, Raimo] Geol Survey Finland, Energy & Construct Solut, Lahteentie 2,POB 77, Rovaniemi 96101, Finland.
+C3 Geological Survey of Finland (GTK); University of Turku; Geological Survey of Finland (GTK); Geological Survey of Finland (GTK)
+RP Middleton, M (corresponding author), Geol Survey Finland, Environm Solut, Lahteentie 2,POB 77, Rovaniemi 96101, Finland.
+EM maarit.middleton@gtk.fi
+FU Geological Survey of Finland project Postglacial faults [50402-20086]; University of Turku
+CR AHJOS T, 1992, TECTONOPHYSICS, V207, P1, DOI 10.1016/0040-1951(92)90469-M
+   AMBRASEYS NN, 1988, EARTHQ ENG STRUCT D, V17, P1, DOI 10.1002/eqe.4290170101
+   [Anonymous], 1946, J I ELECT ENG PART 3, V0, P0, DOI DOI 10.1049/JI-3-2.1946.0074
+   [Anonymous], 2017, LASER SCANNING APPL, V0, P0
+   [Anonymous], 2000, INT ARCH PHOTOGRAMME, V0, P0
+   [Anonymous], 2002, MODERN GLACIAL ENV, V0, P0, DOI DOI 10.1016/B978-075064226-2/50011-8
+   [Anonymous], 1995, NEURAL NETWORKS PATT, V0, P0
+   Arvidsson R, 1996, SCIENCE, V274, P744, DOI 10.1126/science.274.5288.744
+   Blaschke T, 2008, OBJECT BASED IMAGE A, V0, P0, DOI DOI 10.1007/978
+   Booth AM, 2009, GEOMORPHOLOGY, V109, P132, DOI 10.1016/j.geomorph.2009.02.027
+   Brown DG, 1998, GEOMORPHOLOGY, V21, P233, DOI 10.1016/S0169-555X(97)00063-9
+   Clarke L., 2013, GEOMORPHOLOGICAL TEC, V0, P0
+   Cruden D.M., 1996, LANDSLIDES INVESTIGA, V0, P36
+   dOleire-Oltmanns S, 2013, IEEE GEOSCI REMOTE S, V10, P947, DOI 10.1109/LGRS.2013.2254465
+   DAUGMAN JG, 1988, IEEE T ACOUST SPEECH, V36, P1169, DOI 10.1109/29.1644
+   Ehsani Amir Houshang, 2009, GEOCARTO INTERNATIONAL, V24, P335, DOI 10.1080/10106040802642577
+   Eisank C., 2011, GEOMORPHOMETRY, V2011, P125
+   Evans DJA, 2009, J MAPS, V0, PP134, DOI 10.4113/jom.2009.1064
+   Gaidzik K, 2017, GEOMAT NAT HAZ RISK, V8, P1054, DOI 10.1080/19475705.2017.1292560
+   Galli M, 2008, GEOMORPHOLOGY, V94, P268, DOI 10.1016/j.geomorph.2006.09.023
+   Glenn NF, 2006, GEOMORPHOLOGY, V73, P131, DOI 10.1016/j.geomorph.2005.07.006
+   GRAVENOR CP, 1959, J GEOL, V67, P48, DOI 10.1086/626557
+   Grohmann CH, 2011, IEEE T GEOSCI REMOTE, V49, P1200, DOI 10.1109/TGRS.2010.2053546
+   Guyon I., 2003, JOURNAL OF MACHINE LEARNING RESEARCH, V3, P1157, DOI 10.1162/153244303322753616
+   Guzzetti F, 2012, EARTH-SCI REV, V112, P42, DOI 10.1016/j.earscirev.2012.02.001
+   Hani AFM, 2012, COMPUT GEOSCI-UK, V43, P137, DOI 10.1016/j.cageo.2011.09.015
+   Hengl T, 2003, SOIL SCI SOC AM J, V67, P1810, DOI 10.2136/sssaj2003.1810
+   Hengl T, 2009, DEV SOIL SCI, V33, P1
+   Hoppe G., 1952, GEOGR ANN, V34, P1, DOI 10.2307/520144
+   Iwahashi J, 2012, GEOMORPHOLOGY, V153, P29, DOI 10.1016/j.geomorph.2012.02.002
+   Jaboyedoff M, 2012, NAT HAZARDS, V61, P5, DOI 10.1007/s11069-010-9634-2
+   Jain R., 1995, MACHINE VISION, V0, P0
+   Jasiewicz J, 2013, GEOMORPHOLOGY, V182, P147, DOI 10.1016/j.geomorph.2012.11.005
+   Johnson MD, 2015, GFF, V137, P245, DOI 10.1080/11035897.2015.1111410
+   Kasai M, 2009, GEOMORPHOLOGY, V113, P57, DOI 10.1016/j.geomorph.2009.06.004
+   Kleman J, 1997, J GLACIOL, V43, P283, DOI 10.3189/S0022143000003233
+   Knudsen CG, 2006, GEOMORPHOLOGY, V77, P153, DOI 10.1016/j.geomorph.2005.12.011
+   LAGERBACK R, 1988, BOREAS, V17, P469, DOI 10.1111/j.1502-3885.1988.tb00562.x
+   Latifovic R, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020307
+   Malamud BD, 2004, EARTH SURF PROC LAND, V29, P687, DOI 10.1002/esp.1064
+   Mayoral A, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9020120
+   McDonnell R.A., 2000, PRINCIPLES GEOGRAPHI, V0, P0
+   McKean J, 2004, GEOMORPHOLOGY, V57, P331, DOI 10.1016/S0169-555X(03)00164-8
+   Mikko H, 2015, GFF, V137, P334, DOI 10.1080/11035897.2015.1036360
+   MILLER HG, 1994, J APPL GEOPHYS, V32, P213, DOI 10.1016/0926-9851(94)90022-1
+   Mollard JD, 2000, QUATERN INT, V68, P187, DOI 10.1016/S1040-6182(00)00043-4
+   Nevalainen P, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090720
+   Obermeier SF, 2009, INT GEOPHYS SER, V95, P497, DOI 10.1016/S0074-6142(09)95007-0
+   Ojala AEK, 2019, GEOMORPHOLOGY, V326, P190, DOI 10.1016/j.geomorph.2017.08.045
+   Ojala AEK, 2017, GLOBAL PLANET CHANGE, V157, P59, DOI 10.1016/j.gloplacha.2017.08.015
+   Palmu JP, 2015, GFF, V137, P344, DOI 10.1080/11035897.2015.1068370
+   Payne JR, 2009, PROCEEDINGS OF THE ASME PRESSURE VESSELS AND PIPING CONFERENCE, VOL 2, P115
+   Pohjankukka J, 2017, INT J GEOGR INF SCI, V31, P2001, DOI 10.1080/13658816.2017.1346255
+   Prima ODA, 2006, GEOMORPHOLOGY, V78, P373, DOI 10.1016/j.geomorph.2006.02.005
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Robb C, 2015, REMOTE SENS ENVIRON, V163, P80, DOI 10.1016/j.rse.2015.03.007
+   Roy M, 2014, IEEE GEOSCI REMOTE S, V11, P49, DOI 10.1109/LGRS.2013.2245855
+   Saha K, 2011, COMPUT GEOSCI-UK, V37, P1324, DOI 10.1016/j.cageo.2011.04.001
+   Smith CA, 2014, INT J EARTH SCI, V103, P1711, DOI 10.1007/s00531-014-1025-6
+   Stepinski TF, 2009, IEEE GEOSCI REMOTE S, V6, P733, DOI 10.1109/LGRS.2009.2024333
+   Stular B, 2012, J ARCHAEOL SCI, V39, P3354, DOI 10.1016/j.jas.2012.05.029
+   Sutinen R, 2019, GEOMORPHOLOGY, V326, P213, DOI 10.1016/j.geomorph.2018.01.008
+   Sutinen R, 2019, GEOMORPHOLOGY, V326, P202, DOI 10.1016/j.geomorph.2018.08.034
+   Sutinen R, 2018, GLOBAL PLANET CHANGE, V160, P46, DOI 10.1016/j.gloplacha.2017.11.011
+   Sutinen R, 2014, GLOBAL PLANET CHANGE, V115, P24, DOI 10.1016/j.gloplacha.2014.01.007
+   Sutinen R, 2014, INT J APPL EARTH OBS, V27, P91, DOI 10.1016/j.jag.2013.05.004
+   Sutinen R, 2010, SEDIMENT GEOL, V232, P190, DOI 10.1016/j.sedgeo.2010.02.008
+   Sutinen R, 2009, BOREAS, V38, P638, DOI 10.1111/j.1502-3885.2009.00089.x
+   Tagil Sermin, 2008, JOURNAL OF APPLIED SCIENCES, V8, P910, DOI 10.3923/jas.2008.910.921
+   Tanyas H, 2018, EARTH SURF PROC LAND, V43, P1836, DOI 10.1002/esp.4359
+   Trevisani S, 2015, COMPUT GEOSCI-UK, V81, P78, DOI 10.1016/j.cageo.2015.04.003
+   Van Den Eeckhaut M, 2007, EARTH SURF PROC LAND, V32, P754, DOI 10.1002/esp.1417
+   Varma S, 2006, BMC BIOINFORMATICS, V7, P0, DOI 10.1186/1471-2105-7-91
+   Verduzco B, 2004, LEADING EDGE, V23, P116, DOI 10.1190/1.1651454
+   Wang CY, 2006, B SEISMOL SOC AM, V96, P355, DOI 10.1785/0120050019
+   Wolpert D. H., 1997, IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION, V1, P67, DOI 10.1109/4235.585893
+   Wu P, 1999, GEOPHYS J INT, V139, P657, DOI 10.1046/j.1365-246x.1999.00963.x
+   Wu QS, 2016, GEOMORPHOLOGY, V266, P1, DOI 10.1016/j.geomorph.2016.05.006
+   Yang L, 2013, MACH LEARN, V90, P161, DOI 10.1007/s10994-012-5310-y
+   Zaksek K, 2011, REMOTE SENS-BASEL, V3, P398, DOI 10.3390/rs3020398
+   ZEVENBERGEN LW, 1987, EARTH SURF PROCESSES, V12, P47, DOI 10.1002/esp.3290120107
+   Zhao WF, 2017, J MT SCI-ENGL, V14, P885, DOI 10.1007/s11629-016-4320-9
+NR 94
+TC 9
+Z9 9
+U1 2
+U2 16
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0169-555X
+EI 1872-695X
+J9 GEOMORPHOLOGY
+JI Geomorphology
+PD JUN 1
+PY 2020
+VL 358
+IS 
+BP 
+EP 
+DI 10.1016/j.geomorph.2020.107099
+PG 11
+WC Geography, Physical; Geosciences, Multidisciplinary
+SC Physical Geography; Geology
+GA LF3FT
+UT WOS:000527307400011
+DA 2023-04-26
+ER

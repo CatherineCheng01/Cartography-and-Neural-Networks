@@ -1,0 +1,520 @@
+
+PT J
+AU Pu, LM
+   Zhang, XL
+   Zhou, ZN
+   Shi, J
+   Wei, SJ
+   Zhou, YY
+AF Pu, Liming
+   Zhang, Xiaoling
+   Zhou, Zenan
+   Shi, Jun
+   Wei, Shunjun
+   Zhou, Yuanyuan
+TI A Phase Filtering Method with Scale Recurrent Networks for InSAR
+SO REMOTE SENSING
+LA English
+DT Article
+DE interferometric synthetic aperture radar; scale recurrent network; phase filtering
+ID interferometric phase; denoising algorithms; nonlocal means; noise; reduction
+AB Phase filtering is a key issue in interferometric synthetic aperture radar (InSAR) applications, such as deformation monitoring and topographic mapping. The accuracy of the deformation and terrain height is highly dependent on the quality of phase filtering. Researchers are committed to continuously improving the accuracy and efficiency of phase filtering. Inspired by the successful application of neural networks in SAR image denoising, in this paper we propose a phase filtering method that is based on deep learning to efficiently filter out the noise in the interferometric phase. In this method, the real and imaginary parts of the interferometric phase are filtered while using a scale recurrent network, which includes three single scale subnetworks based on the encoder-decoder architecture. The network can utilize the global structural phase information contained in the different-scaled feature maps, because RNN units are used to connect the three different-scaled subnetworks and transmit current state information among different subnetworks. The encoder part is used for extracting the phase features, and the decoder part restores detailed information from the encoded feature maps and makes the size of the output image the same as that of the input image. Experiments on simulated and real InSAR data prove that the proposed method is superior to three widely-used phase filtering methods by qualitative and quantitative comparisons. In addition, on the same simulated data set, the overall performance of the proposed method is better than another deep learning-based method (DeepInSAR). The runtime of the proposed method is only about 0.043s for an image with a size of 1024x1024 pixels, which has the significant advantage of computational efficiency in practical applications that require real-time processing.
+C1 [Pu, Liming; Zhang, Xiaoling; Zhou, Zenan; Shi, Jun; Wei, Shunjun; Zhou, Yuanyuan] Univ Elect Sci & Technol China, Sch Informat & Commun Engn, Chengdu 611731, Sichuan, Peoples R China.
+C3 University of Electronic Science & Technology of China
+RP Zhang, XL (corresponding author), Univ Elect Sci & Technol China, Sch Informat & Commun Engn, Chengdu 611731, Sichuan, Peoples R China.
+EM puliming@std.uestc.edu.cn; xlzhang@uestc.edu.cn; 201722020918@std.uestc.edu.cn; shijun@uestc.edu.cn; weishunjun@uestc.edu.cn; zhouyuanyuan@std.uestc.edu.cn
+FU National Key R&D Program of China [2017YFB0502700]; National Natural Science Foundation of China [61571099, 61501098, 61671113]
+CR Anantrasirichai N, 2018, J GEOPHYS RES-SOL EA, V123, P6592, DOI 10.1029/2018JB015911
+   Baier G, 2018, IEEE T GEOSCI REMOTE, V56, P6469, DOI 10.1109/TGRS.2018.2839027
+   Baran I, 2003, IEEE T GEOSCI REMOTE, V41, P2114, DOI 10.1109/TGRS.2003.817212
+   Ben Abdallah W, 2015, J APPL REMOTE SENS, V9, P0, DOI 10.1117/1.JRS.9.096061
+   Buades A, 2005, MULTISCALE MODEL SIM, V4, P490, DOI 10.1137/040616024
+   Chao CF, 2013, IEEE T GEOSCI REMOTE, V51, P5315, DOI 10.1109/TGRS.2012.2234467
+   Chen RP, 2013, IEEE GEOSCI REMOTE S, V10, P826, DOI 10.1109/LGRS.2012.2225594
+   Chung J, 2014, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1412.3555
+   Coltelli M, 1996, INT GEOSCI REMOTE SE, V0, PP350, DOI 10.1109/IGARSS.1996.516337
+   Cozzolino D, 2014, IEEE GEOSCI REMOTE S, V11, P524, DOI 10.1109/LGRS.2013.2271650
+   Deledalle CA, 2011, IEEE T GEOSCI REMOTE, V49, P1441, DOI 10.1109/TGRS.2010.2076376
+   Fang DS, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8100830
+   Fu SH, 2013, IEEE T GEOSCI REMOTE, V51, P552, DOI 10.1109/TGRS.2012.2202911
+   Glorot X., 2010, P 13 INT C ART INT S, V0, P249
+   Goldstein RM, 1998, GEOPHYS RES LETT, V25, P4035, DOI 10.1029/1998GL900033
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Han B, 2018, ADV NEUR IN, V31, P0
+   Honda F, 2012, J PHYS CONF SER, V400, P0, DOI 10.1088/1742-6596/400/2/022028
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Lee JS, 1998, IEEE T GEOSCI REMOTE, V36, P1456, DOI 10.1109/36.718849
+   Lei Tao, 2017, ARXIV170902755, V0, P0
+   Lin X, 2015, IEEE GEOSCI REMOTE S, V12, P806, DOI 10.1109/LGRS.2014.2362952
+   Lopez-Martinez C, 2002, IEEE T GEOSCI REMOTE, V40, P2553, DOI 10.1109/TGRS.2002.806997
+   Mao XJ, 2016, ADV NEUR IN, V29, P0
+   Moreira A, 2013, IEEE GEOSC REM SEN M, V1, P6, DOI 10.1109/MGRS.2013.2248301
+   Mukhopadhyay S, 2018, AIP CONF PROC, V1969, P0, DOI 10.1063/1.5039293
+   Nah S, 2017, PROC CVPR IEEE, V0, PP257, DOI 10.1109/CVPR.2017.35
+   Parrilli S, 2012, IEEE T GEOSCI REMOTE, V50, P606, DOI 10.1109/TGRS.2011.2161586
+   Pitz W, 2010, IEEE T GEOSCI REMOTE, V48, P615, DOI 10.1109/TGRS.2009.2037432
+   Raskutti G, 2014, J MACH LEARN RES, V15, P335
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Rosen PA, 2000, P IEEE, V88, P333, DOI 10.1109/5.838084
+   Sica F, 2018, IEEE T GEOSCI REMOTE, V56, P3456, DOI 10.1109/TGRS.2018.2800087
+   Sica F, 2015, IEEE J-STARS, V8, P1727, DOI 10.1109/JSTARS.2015.2421554
+   Song R, 2014, IEEE GEOSCI REMOTE S, V11, P399, DOI 10.1109/LGRS.2013.2263554
+   Su X, 2014, IEEE T GEOSCI REMOTE, V52, P6181, DOI 10.1109/TGRS.2013.2295431
+   Sun XY, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142340
+   Tao X, 2018, PROC CVPR IEEE, V0, PP8174, DOI 10.1109/CVPR.2018.00853
+   Trouve E, 1998, IEEE T GEOSCI REMOTE, V36, P1963, DOI 10.1109/36.729368
+   Vasile G, 2006, IEEE T GEOSCI REMOTE, V44, P1609, DOI 10.1109/TGRS.2005.864142
+   Wang KQ, 2019, OPT EXPRESS, V27, P15100, DOI 10.1364/OE.27.015100
+   Wang PY, 2017, IEEE SIGNAL PROC LET, V24, P1763, DOI 10.1109/LSP.2017.2758203
+   Wang Y, 2016, ISPRS J PHOTOGRAMM, V114, P10, DOI 10.1016/j.isprsjprs.2016.01.013
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Yao Y, 2007, CONSTR APPROX, V26, P289, DOI 10.1007/s00365-006-0663-2
+   Yu QF, 2007, IEEE GEOSCI REMOTE S, V4, P23, DOI 10.1109/LGRS.2006.883527
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   Zha XJ, 2008, IEEE GEOSCI REMOTE S, V5, P404, DOI 10.1109/LGRS.2008.916066
+   Zhang Q, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020196
+   Zhou LF, 2020, IEEE T GEOSCI REMOTE, V58, P4653, DOI 10.1109/TGRS.2020.2965918
+   Zhou YY, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212462
+   Zhu X, 2010, IEEE T IMAGE PROCESS, V19, P3116, DOI 10.1109/TIP.2010.2052820
+   Zhu XX, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091374
+NR 53
+TC 9
+Z9 9
+U1 5
+U2 30
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD OCT 15
+PY 2020
+VL 12
+IS 20
+BP 
+EP 
+DI 10.3390/rs12203453
+PG 25
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OL8KZ
+UT WOS:000585582800001
+DA 2023-04-26
+ER
+
+PT J
+AU Zhao, SH
+   Liu, DH
+   Yuan, QQ
+   Li, J
+AF Zhao, Shuheng
+   Liu, Denghong
+   Yuan, Qiangqiang
+   Li, Jie
+TI A Global Gravity Reconstruction Method for Mercury Employing Deep Convolutional Neural Network
+SO REMOTE SENSING
+LA English
+DT Article
+DE Mercury; gravity field data; reconstruction; MESSENGER; topography information; convolutional neural network
+ID isostatic compensation; field model; messenger; image; mission; moon; mars
+AB Mercury, the enigmatic innermost planet in the solar system, is one of the most important targets of space exploration. High-quality gravity field data are significant to refine the physical characterization of Mercury in planetary exploration missions. However, Mercury's gravity model is limited by relatively low spatial resolution and stripe noises, preventing fine-scale analysis and applications. By analyzing Mercury's gravity data and topography data in the 2D spatial field, we find they have fairly high spatial structure similarity. Based on this, in this paper, a novel convolution neural network (CNN) approach is proposed to improve the quality of Mercury's gravity field data. CNN can extract the spatial structure features of gravity data and construct a nonlinear mapping between low- and high-degree data directly. From a low-degree gravity input, the corresponding initial high-degree result can be obtained. Meanwhile, the structure characteristics of the high-resolution digital elevation model (DEM) are extracted and fused to the initial data, to get the final stripe-free result with improved resolution. Given the paucity of Mercury's data, high-quality lunar datasets are employed as pretraining data after verifying the spatial similarity between gravity and terrain data of the Moon. The HgM007 gravity field obtained by the MErcury Surface, Space ENvironment, GEochemistry and Ranging (MESSENGER) mission at Mercury is selected for experiments to test the ability of the proposed algorithm to remove the stripes caused by quality differences of the highly eccentric orbit data. Experimental results show that our network can directly obtain stripe-free and higher-degree data via inputting low-degree data and implicitly assuming a lunar-like relation between crustal density and porosity. Albeit the CNN-based method cannot be sensitive to subsurface features not present in the initial dataset, it still provides a new perspective for the gravity field refinement.
+C1 [Zhao, Shuheng] Wuhan Univ, State Key Lab Informat Engn Survey Mapping & Remo, Wuhan 430079, Peoples R China.
+   [Liu, Denghong; Yuan, Qiangqiang; Li, Jie] Wuhan Univ, Sch Geodesy & Geomat, Wuhan 430079, Peoples R China.
+   [Yuan, Qiangqiang] Wuhan Univ, Collaborat Innovat Ctr Geospatial Technol, Wuhan 430079, Peoples R China.
+C3 Wuhan University; Wuhan University; Wuhan University
+RP Yuan, QQ (corresponding author), Wuhan Univ, Sch Geodesy & Geomat, Wuhan 430079, Peoples R China.; Yuan, QQ (corresponding author), Wuhan Univ, Collaborat Innovat Ctr Geospatial Technol, Wuhan 430079, Peoples R China.
+EM shzhao@whu.edu.cn; dhliu77@whu.edu.cn; qqyuan@sgg.whu.edu.cn; aaronleecool@whu.edu.cn
+FU National Natural Science Foundation of China [41922008, 61971319, 41701400, 61671334]
+CR Becker K.J., 2006, P LUNAR PLANET SCI C, V0, P0
+   Bedini PD, 2012, ACTA ASTRONAUT, V81, P369, DOI 10.1016/j.actaastro.2012.07.011
+   Deng QY, 2018, J GEOPHYS RES-PLANET, V123, P3005, DOI 10.1029/2018JE005801
+   Di KC, 2014, ADV SPACE RES, V54, P2419, DOI 10.1016/j.asr.2014.08.018
+   FORSBERG R, 1981, J GEOPHYS RES, V86, P7843, DOI 10.1029/JB086iB09p07843
+   Forsberg R., 1984, METHODS GRAVITY FIEL, V0, P0
+   Genova A, 2019, GEOPHYS RES LETT, V46, P3625, DOI 10.1029/2018GL081135
+   Genova A, 2016, ICARUS, V272, P228, DOI 10.1016/j.icarus.2016.02.050
+   Grimm R.E., 1997, CRUST VENUS, V0, P0
+   HAPKE B, 1975, J GEOPHYS RES, V80, P2431, DOI 10.1029/JB080i017p02431
+   Hawkins SE, 2007, SPACE SCI REV, V131, P247, DOI 10.1007/sl11214-007-9266-3
+   He K., 2015, P IEEE C COMP VIS PA, V0, P0
+   He K., 2016, P IEEE C COMP VIS PA, V2016, P1512.03385, DOI 10.1109/CVPR.2016.90
+   Hirt C, 2012, PLANET SPACE SCI, V67, P147, DOI 10.1016/j.pss.2012.02.006
+   Hirt C, 2012, EARTH PLANET SC LETT, V329, P22, DOI 10.1016/j.epsl.2012.02.012
+   Hirt C, 2010, J GEODESY, V84, P179, DOI 10.1007/s00190-009-0354-x
+   Huang GL, 2017, IEEE ICC, V0, P0
+   Kaula W.M., 1968, EARTH-SCI REV, V5, P0
+   KEYS RG, 1981, IEEE T ACOUST SPEECH, V29, P1153, DOI 10.1109/TASSP.1981.1163711
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Konopliv AS, 2014, GEOPHYS RES LETT, V41, P1452, DOI 10.1002/2013GL059066
+   KUCINSKAS AB, 1994, ICARUS, V112, P104, DOI 10.1006/icar.1994.1172
+   Kucinskas AB, 1996, J GEOPHYS RES-PLANET, V101, P4725, DOI 10.1029/95JE02979
+   Li F, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091442
+   Li F, 2015, ICARUS, V247, P103, DOI 10.1016/j.icarus.2014.09.052
+   Matthews M. S., 1988, MERCURY, V0, P1
+   Mazarico E., 2015, P LUN PLAN SCI C WOO, V0, P1385
+   Mazarico E, 2014, J GEOPHYS RES-PLANET, V119, P2417, DOI 10.1002/2014JE004675
+   Mazarico E, 2012, J GEODESY, V86, P193, DOI 10.1007/s00190-011-0509-4
+   Namiki N, 2009, SCIENCE, V323, P900, DOI 10.1126/science.1168029
+   Nelson RM, 1997, SCI AM, V277, P56, DOI 10.1038/scientificamerican1197-54
+   NESS NF, 1974, SCIENCE, V185, P151, DOI 10.1126/science.185.4146.151
+   Padovan S, 2015, GEOPHYS RES LETT, V42, P1029, DOI 10.1002/2014GL062487
+   RAVA B, 1987, ICARUS, V71, P397, DOI 10.1016/0019-1035(87)90037-6
+   Rowlands DD, 2009, J GEODESY, V83, P709, DOI 10.1007/s00190-008-0285-y
+   Simonyan K, 2015, ARXIV, V0, P0
+   Smith DE, 2012, SCIENCE, V336, P214, DOI 10.1126/science.1218809
+   Smith DE, 2010, GEOPHYS RES LETT, V37, P0, DOI 10.1029/2010GL043751
+   Solomon SC, 2003, EARTH PLANET SC LETT, V216, P441, DOI 10.1016/S0012-821X(03)00546-6
+   Solomon SC, 2001, PLANET SPACE SCI, V49, P1445, DOI 10.1016/S0032-0633(01)00085-X
+   Solomon SC, 2007, SPACE SCI REV, V131, P3, DOI 10.1007/s11214-007-9247-6
+   Sprlak M, 2018, J GEODESY, V92, P847, DOI 10.1007/s00190-017-1098-7
+   Stark A, 2018, J GEODESY, V92, P949, DOI 10.1007/s00190-018-1157-8
+   Strom R.G., 1987, MERCURY ELUSIVE PLAN, V1, P0
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Wieczorek MA, 2018, GEOCHEM GEOPHY GEOSY, V19, P2574, DOI 10.1029/2018GC007529
+   Xu ZK, 2019, ISPRS J PHOTOGRAMM, V150, P80, DOI 10.1016/j.isprsjprs.2019.02.008
+   Zuber MT, 2013, SPACE SCI REV, V178, P3, DOI 10.1007/s11214-012-9952-7
+   Zuber MT, 2013, SCIENCE, V339, P668, DOI 10.1126/science.1231507
+   Zuber MT, 2012, SCIENCE, V336, P217, DOI 10.1126/science.1218805
+NR 50
+TC 0
+Z9 1
+U1 4
+U2 11
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD JUL 15
+PY 2020
+VL 12
+IS 14
+BP 
+EP 
+DI 10.3390/rs12142293
+PG 19
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA MS4ES
+UT WOS:000554232100001
+DA 2023-04-26
+ER
+
+PT J
+AU Li, PZ
+   Zheng, YB
+   Luo, L
+AF Li, Pengzhong
+   Zheng, Yubiao
+   Luo, Liang
+TI An ANN Based Optimization Algorithm for Diffracted Laser Beam Shaping
+SO JOURNAL OF COASTAL RESEARCH
+LA English
+DT Article
+DE Diffracted laser beam shaping; optimization algorithm; UNet
+AB To overcome the lack of flexibility in laser beam shaping in current industrial applications, a new improved artificial neural network algorithm for diffracted laser beam shaping is proposed. Aiming at the existing problems in laser beam shaping, the Unet neural network algorithm is improved from the label image and convolution operation. By clarifying its training and application steps, the improved neural network algorithm is pre-trained firstly and then formally trained (full training). The result shows that the UNet neural network algorithm can gradually realize the laser beam shaping with the spatial light modulator and find the mapping relationship between the input image (phase diagram) and the output image (laser contour diagram).
+C1 [Li, Pengzhong] Tongji Univ, Sch Mech Engn, Shanghai 200092, Peoples R China.
+   [Zheng, Yubiao; Luo, Liang] Tongji Univ, Sino German Sch Postgrad Studies, Shanghai 200092, Peoples R China.
+C3 Tongji University; Tongji University
+RP Luo, L (corresponding author), Tongji Univ, Sino German Sch Postgrad Studies, Shanghai 200092, Peoples R China.
+EM 031403@tongji.edu.cn
+FU Chinese government Megaproject of High-grade NC Machine Tools and Basic Manufacturing Equipment [2019ZX04005-001-013]
+CR Krawetz Neal, 2011, LOOKS IT, V0, P0
+   Krawetz Neal, 2013, KIND, V0, P0
+   Li L.Y., 1996, ACTA AUTOMATICA SINI, V022, P315
+   Liu C., 1996, SURF TECHNOL, V48, P330
+   Meng JJ, 2019, LASER OPTOELECTRON P, V56, P0, DOI 10.3788/LOP56.130002
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Xiaobai CV, 2019, UNET MULTICLASS SEGM, V0, P0
+NR 7
+TC 0
+Z9 0
+U1 6
+U2 18
+PU COASTAL EDUCATION & RESEARCH FOUNDATION
+PI COCONUT CREEK
+PA 5130 NW 54TH STREET, COCONUT CREEK, FL 33073 USA
+SN 0749-0208
+EI 1551-5036
+J9 J COASTAL RES
+JI J. Coast. Res.
+PD FAL 15
+PY 2020
+VL 0
+IS 
+BP 255
+EP 260
+DI 10.2112/JCR-SI104-046.1
+PG 6
+WC Environmental Sciences; Geography, Physical; Geosciences, Multidisciplinary
+SC Environmental Sciences & Ecology; Physical Geography; Geology
+GA OK2VS
+UT WOS:000584510900046
+DA 2023-04-26
+ER
+
+PT J
+AU Akinci, H
+   Kilicoglu, C
+   Dogan, S
+AF Akinci, Halil
+   Kilicoglu, Cem
+   Dogan, Sedat
+TI Random Forest-Based Landslide Susceptibility Mapping in Coastal Regions of Artvin, Turkey
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE landslides; landslide susceptibility; machine learning; random forest; Artvin
+ID spatial prediction models; support vector machine; 3 gorges reservoir; logistic-regression; frequency ratio; information value; decision tree; neural-network; of-evidence; gis
+AB Natural disasters such as landslides often occur in the Eastern Black Sea region of Turkey owing to its geological, topographical, and climatic characteristics. Landslide events occur nearly every year in the Arhavi, Hopa, and Kemalpasa districts located on the Black Sea coast in the Artvin province. In this study, the landslide susceptibility map of the Arhavi, Hopa, and Kemalpasa districts was produced using the random forest (RF) model, which is widely used in the literature and yields more accurate results compared with other machine learning techniques. A total of 10 landslide-conditioning factors were considered for the susceptibility analysis, i.e., lithology, land cover, slope, aspect, elevation, curvature, topographic wetness index, and distances from faults, drainage networks, and roads. Furthermore, 70% of the landslides on the landslide inventory map were used for training, and the remaining 30% were used for validation. The RF-based model was validated using the area under the receiver operating characteristic (ROC) curve. Evaluation results indicated that the success and prediction rates of the model were 98.3% and 97.7%, respectively. Moreover, it was determined that incorrect land-use decisions, such as transforming forest areas into tea and hazelnut cultivation areas, induce the occurrence of landslides.
+C1 [Akinci, Halil] Artvin Coruh Univ, Dept Geomat Engn, TR-08100 Artvin, Turkey.
+   [Kilicoglu, Cem] Samsun Univ, Kavak Vocat Sch, TR-55850 Kavak, Samsun, Turkey.
+   [Dogan, Sedat] Ondokuz Mayis Univ, Dept Geomat Engn, TR-55139 Samsun, Turkey.
+C3 Artvin Coruh University; Ondokuz Mayis University
+RP Akinci, H (corresponding author), Artvin Coruh Univ, Dept Geomat Engn, TR-08100 Artvin, Turkey.
+EM halil.akinci@artvin.edu.tr; cem.kilicoglu@samsun.edu.tr; sedatdo@omu.edu.tr
+FU Scientific Research Projects Office of Artvin Coruh University (ACUBAP) [2016.F40.02.05]
+CR Achour Y, 2020, GEOSCI FRONT, V11, P871, DOI 10.1016/j.gsf.2019.10.001
+   Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Akinci Halil, 2015, INTERNATIONAL JOURNAL OF 3-D INFORMATION MODELING, V4, P16, DOI 10.4018/ij3dim.2015040102
+   Aksoy G., 2011, THESIS, V0, P0
+   Althuwaynee OF, 2012, COMPUT GEOSCI-UK, V44, P120, DOI 10.1016/j.cageo.2012.03.003
+   an T., 2017, P NAT ENG GEOL GEOT, V0, P103
+   [Anonymous], 2007, THESIS, V0, P0
+   Bahrami S, 2020, B ENG GEOL ENVIRON, V79, P1619, DOI 10.1007/s10064-019-01639-3
+   Bai SB, 2015, J MT SCI-ENGL, V12, P816, DOI 10.1007/s11629-014-3171-5
+   Bai SB, 2010, GEOMORPHOLOGY, V115, P23, DOI 10.1016/j.geomorph.2009.09.025
+   Bordoni M, 2020, CATENA, V193, P0, DOI 10.1016/j.catena.2020.104630
+   Bragagnolo L, 2020, CATENA, V184, P0, DOI 10.1016/j.catena.2019.104240
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Brenning A, 2005, NAT HAZARD EARTH SYS, V5, P853, DOI 10.5194/nhess-5-853-2005
+   Bulut F., 1995, P 2 NAT LANDSL S AD, V0, P143
+   Can T, 2017, P 70 GEOL C TURK ANK, V0, P184
+   Carabella C, 2019, GEOSCIENCES, V9, P0, DOI 10.3390/geosciences9040175
+   Catani F, 2013, NAT HAZARD EARTH SYS, V13, P2815, DOI 10.5194/nhess-13-2815-2013
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   Chen T, 2020, J MT SCI-ENGL, V17, P670, DOI 10.1007/s11629-019-5839-3
+   Chen T, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-5317-y
+   Chen W, 2018, CATENA, V164, P135, DOI 10.1016/j.catena.2018.01.012
+   Chen W, 2017, CATENA, V151, P147, DOI 10.1016/j.catena.2016.11.032
+   Chen W, 2014, ARAB J GEOSCI, V7, P4499, DOI 10.1007/s12517-014-1369-z
+   Chung CJF, 2003, NAT HAZARDS, V30, P451, DOI 10.1023/B:NHAZ.0000007172.62651.2b
+   Colkesen I, 2016, J AFR EARTH SCI, V118, P53, DOI 10.1016/j.jafrearsci.2016.02.019
+   Dag S., 2012, JEOLOJI MUHENDISLI D, V36, P35
+   Bui DT, 2020, CATENA, V188, P0, DOI 10.1016/j.catena.2019.104426
+   Ding QF, 2017, GEOCARTO INT, V32, P619, DOI 10.1080/10106049.2016.1165294
+   Dou J, 2020, SCI TOTAL ENVIRON, V720, P0, DOI 10.1016/j.scitotenv.2020.137320
+   Dou J, 2019, SCI TOTAL ENVIRON, V662, P332, DOI 10.1016/j.scitotenv.2019.01.221
+   Du GL, 2017, J MT SCI-ENGL, V14, P249, DOI 10.1007/s11629-016-4126-9
+   Erener A, 2016, ENG GEOL, V203, P45, DOI 10.1016/j.enggeo.2015.09.007
+   Erkan M.A., 2019, METEOROLOGICAL DISAS, V0, P0
+   Ersoy S, 2016, 2016 YEAR NATURAL DI, V0, P0
+   Fang ZC, 2020, COMPUT GEOSCI-UK, V139, P0, DOI 10.1016/j.cageo.2020.104470
+   Gokce O., 2008, SPATIAL STAT DISTRIB, V0, P127
+   He QF, 2019, SCI TOTAL ENVIRON, V663, P1, DOI 10.1016/j.scitotenv.2019.01.329
+   Hong HY, 2019, CATENA, V176, P45, DOI 10.1016/j.catena.2018.12.035
+   Hong HY, 2017, GEOCARTO INT, V32, P139, DOI 10.1080/10106049.2015.1130086
+   Hong HY, 2016, GEOMORPHOLOGY, V259, P105, DOI 10.1016/j.geomorph.2016.02.012
+   Hu Q, 2020, GEOMORPHOLOGY, V351, P0, DOI 10.1016/j.geomorph.2019.106975
+   Huang Y, 2018, CATENA, V165, P520, DOI 10.1016/j.catena.2018.03.003
+   Karakas G., 2020, ISPRS INT ARCH PHOTO, VXLIII-B3-2, P1229, DOI 10.5194/isprs-archives-XLIII-B3-2020-1229-2020
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Khan H, 2019, EGYPT J REMOTE SENS, V22, P11, DOI 10.1016/j.ejrs.2018.03.004
+   Kuhn M, 2008, J STAT SOFTW, V28, P1, DOI 10.18637/jss.v028.i05
+   Kumar D, 2017, GEOMORPHOLOGY, V295, P115, DOI 10.1016/j.geomorph.2017.06.013
+   Lee S, 2004, INT J GEOGR INF SCI, V18, P789, DOI 10.1080/13658810410001702003
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Lee S, 2007, LANDSLIDES, V4, P33, DOI 10.1007/s10346-006-0047-y
+   Lin Y. P., 2010, HYDROLOGY EARTH SYST, V7, P3423, DOI 10.5194/hessd-7-3423-2010
+   Luo W, 2018, LANDSLIDES, V15, P465, DOI 10.1007/s10346-017-0893-9
+   Marsala V, 2019, GEOSCIENCES, V9, P0, DOI 10.3390/geosciences9120493
+   Merghadi A, 2020, EARTH-SCI REV, V207, P0, DOI 10.1016/j.earscirev.2020.103225
+   Nohani E, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11071402
+   Ozdemir A, 2013, J ASIAN EARTH SCI, V64, P180, DOI 10.1016/j.jseaes.2012.12.014
+   Park SH, 2019, ADV ENERGY MATER, V9, P0, DOI 10.1002/aenm.201901359
+   Pourghasemi HR, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10103697
+   Pourghasemi HR, 2018, CATENA, V162, P177, DOI 10.1016/j.catena.2017.11.022
+   Pourghasemi HR, 2012, CATENA, V97, P71, DOI 10.1016/j.catena.2012.05.005
+   Pourghasemi H, 2013, GEOMAT NAT HAZ RISK, V4, P93, DOI 10.1080/19475705.2012.662915
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Regmi AD, 2014, ARAB J GEOSCI, V7, P725, DOI 10.1007/s12517-012-0807-z
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Sameen MI, 2020, CATENA, V186, P0, DOI 10.1016/j.catena.2019.104249
+   Sevgen E, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19183940
+   Shahabi H, 2014, CATENA, V115, P55, DOI 10.1016/j.catena.2013.11.014
+   Shou KJ, 2020, ENG GEOL, V265, P0, DOI 10.1016/j.enggeo.2019.105434
+   Solmaz Oguz F., 2002, THESIS, V0, P0
+   Soma AS, 2019, J MT SCI-ENGL, V16, P383, DOI 10.1007/s11629-018-4884-7
+   Sun DL, 2020, GEOMORPHOLOGY, V362, P0, DOI 10.1016/j.geomorph.2020.107201
+   Taalab K, 2018, BIG EARTH DATA, V2, P159, DOI 10.1080/20964471.2018.1472392
+   Tasoglu IK, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-6098-z
+   Trigila A, 2015, GEOMORPHOLOGY, V249, P119, DOI 10.1016/j.geomorph.2015.06.001
+   Vakhshoori V, 2016, GEOMAT NAT HAZ RISK, V7, P1731, DOI 10.1080/19475705.2016.1144655
+   Vakhshoori V, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11112292
+   Wang GR, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9030144
+   Wang QQ, 2019, GEOMAT NAT HAZ RISK, V10, P820, DOI 10.1080/19475705.2018.1549111
+   Wang QQ, 2017, PHYS GEOGR, V38, P318, DOI 10.1080/02723646.2017.1294522
+   Wang Y, 2020, COMPUT GEOSCI-UK, V138, P0, DOI 10.1016/j.cageo.2020.104445
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Wu YL, 2020, CATENA, V187, P0, DOI 10.1016/j.catena.2019.104396
+   Yalcin A, 2011, CATENA, V85, P274, DOI 10.1016/j.catena.2011.01.014
+   Yanar T, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9020114
+   Yi YN, 2020, CATENA, V195, P0, DOI 10.1016/j.catena.2020.104851
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Ylmaz B.S., 1995, GEN FEATURES CAUSES, V0, P0
+   Youssef AM, 2016, LANDSLIDES, V13, P839, DOI 10.1007/s10346-015-0614-1
+   Zhang Q, 2020, TRANSPORT RES D-TR E, V82, P0, DOI 10.1016/j.trd.2020.102304
+   Zhang YX, 2020, J MT SCI-ENGL, V17, P340, DOI 10.1007/s11629-019-5702-6
+   Zhao Y, 2019, ENG GEOL, V259, P0, DOI 10.1016/j.enggeo.2019.105147
+   Zhou C, 2018, COMPUT GEOSCI-UK, V112, P23, DOI 10.1016/j.cageo.2017.11.019
+NR 95
+TC 19
+Z9 19
+U1 7
+U2 34
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD SEP 15
+PY 2020
+VL 9
+IS 9
+BP 
+EP 
+DI 10.3390/ijgi9090553
+PG 22
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA OD8WL
+UT WOS:000580126700001
+DA 2023-04-26
+ER
+
+PT J
+AU Chen, CF
+   Yang, S
+   Li, YY
+AF Chen, Chuanfa
+   Yang, Shuai
+   Li, Yanyan
+TI Accuracy Assessment and Correction of SRTM DEM Using ICESat/GLAS Data under Data Coregistration
+SO REMOTE SENSING
+LA English
+DT Article
+DE SRTM; ICESat; GLAS; accuracy assessment; coregistration; enhancement
+ID digital elevation models; aster gdem v2; c-band; vertical accuracy; neural-networks; data sets; validation; error; slope; map
+AB Shuttle Radar Topography Mission (SRTM) digital elevation model (DEM) inherently suffers from various errors. Many previous works employed Geoscience Laser Altimeter System onboard the Ice, Cloud, and land Elevation Satellite (ICESat/GLAS) data to assess and enhance SRTM DEM accuracy. Nevertheless, data coregistration between the two datasets was commonly neglected in their studies. In this paper, an automated and simple three dimensional (3D) coregistration method (3CM) was introduced to align the 3-arc-second SRTM (SRTM3) DEM and ICESat/GLAS data over Jiangxi province, China. Then, accuracy evaluation of the SRTM3 DEM using ICESat/GLAS data with and without data coregistration was performed on different classes of terrain factors and different land uses, with the purpose of evaluating the importance of data coregistration. Results show that after data coregistration, the root mean square error (RMSE) and mean bias of the SRTM3 DEM are reduced by 14.4% and 97.1%, respectively. Without data coregistration, terrain aspects with a sine-like shape are strongly related to SRTM3 DEM errors; nevertheless, this relationship disappears after data coregistration. Among the six land uses, SRTM3 DEM produces the lowest accuracy in forest areas. Finally, by incorporating land uses, terrain factors and ICESat/GLAS data into the correction models, the SRTM3 DEM was enhanced using multiple linear regression (MLR), back propagation neural network (BPNN), generalized regression NN (GRNN), and random forest (RF), respectively. Results exhibit that the four enhancement models with data coregistration obviously outperform themselves without the coregistration. Among the four models, RF produces the best result, and its RMSE is about 3.1%, 2.7% and 11.3% lower than those of MLR, BPNN, and GRNN, respectively. Moreover, 146 Global Navigation Satellite System (GNSS) points over Ganzhou city of Jiangxi province were used to assess the accuracy of the RF-derived SRTM3 DEM. It is found that the DEM quality is improved and has a similar error magnitude to that relative to the ICESat/GLASS data.
+C1 [Chen, Chuanfa; Yang, Shuai; Li, Yanyan] Shandong Univ Sci & Technol, Key Lab Geomat & Digital Technol Shandong Prov, Qingdao 266590, Peoples R China.
+   [Chen, Chuanfa; Yang, Shuai; Li, Yanyan] Shandong Univ Sci & Technol, Coll Geodesy & Geomat, Qingdao 266590, Peoples R China.
+C3 Shandong University of Science & Technology; Shandong University of Science & Technology
+RP Li, YY (corresponding author), Shandong Univ Sci & Technol, Key Lab Geomat & Digital Technol Shandong Prov, Qingdao 266590, Peoples R China.; Li, YY (corresponding author), Shandong Univ Sci & Technol, Coll Geodesy & Geomat, Qingdao 266590, Peoples R China.
+EM chencf@lreis.ac.cn; shuai_yang0209@163.com; yylee@whu.edu.cn
+FU National Natural Science Foundation of China [41371367, 41804001]; Shandong Provincial Natural Science Foundation, China [ZR2019MD007, ZR2019BD006]; Project of Shandong Province Higher Educational Youth Innovation Science and Technology Program [2019KJH007]; Shandong Provincial Key Research and Development Program (Major Scientific and Technological Innovation Project) [2019JZZY010429]; Scientific Research Foundation of Shandong University of Science and Technology for Recruited Talents [2019RCJJ003]
+CR Aguilar FJ, 2007, PHOTOGRAMM ENG REM S, V73, P1367, DOI 10.14358/PERS.73.12.1367
+   An SJ, 2007, PATTERN RECOGN, V40, P2154, DOI 10.1016/j.patcog.2006.12.015
+   Arefi H, 2011, REMOTE SENS-BASEL, V3, P1323, DOI 10.3390/rs3071323
+   Athmania D, 2014, REMOTE SENS-BASEL, V6, P4600, DOI 10.3390/rs6054600
+   Baugh CA, 2013, WATER RESOUR RES, V49, P5276, DOI 10.1002/wrcr.20412
+   Beaulieu A, 2009, PHOTOGRAMM ENG REM S, V75, P81, DOI 10.14358/PERS.75.1.81
+   Bhang KJ, 2007, IEEE T GEOSCI REMOTE, V45, P36, DOI 10.1109/TGRS.2006.885401
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Brock J, 2020, GEOMAT NAT HAZ RISK, V11, P1075, DOI 10.1080/19475705.2020.1776403
+   Carabajal CC, 2006, PHOTOGRAMM ENG REM S, V72, P287, DOI 10.14358/PERS.72.3.287
+   Carabajal CC, 2005, GEOPHYS RES LETT, V32, P0, DOI 10.1029/2005GL023957
+   Celikoglu HB, 2006, MATH COMPUT MODEL, V44, P640, DOI 10.1016/j.mcm.2006.02.002
+   Chen CF, 2020, IEEE ACCESS, V8, P41000, DOI 10.1109/ACCESS.2020.2976848
+   Chen CF, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111324
+   Chen CF, 2016, GEOMORPHOLOGY, V268, P275, DOI 10.1016/j.geomorph.2016.06.025
+   Chirico PG, 2012, GISCI REMOTE SENS, V49, P775, DOI 10.2747/1548-1603.49.6.775
+   Du PJ, 2020, J GEOVIS SPAT ANAL, V4, P0, DOI 10.1007/s41651-020-00048-5
+   Du XP, 2016, INT J DIGIT EARTH, V9, P252, DOI 10.1080/17538947.2015.1026853
+   Farr TG, 2007, REV GEOPHYS, V45, P0, DOI 10.1029/2005RG000183
+   Gardner MW, 1998, ATMOS ENVIRON, V32, P2627, DOI 10.1016/S1352-2310(97)00447-0
+   Gorokhovich Y, 2006, REMOTE SENS ENVIRON, V104, P409, DOI 10.1016/j.rse.2006.05.012
+   [郭海荣 Guo Hairong], 2004, 测绘学报 ACTA GEODETICA ET CARTOGRAPHICA SINICA, V33, P100
+   Hancock GR, 2006, EARTH SURF PROC LAND, V31, P1394, DOI 10.1002/esp.1335
+   He XG, 2016, WATER RESOUR RES, V52, P8217, DOI 10.1002/2016WR019034
+   Hirt C, 2010, AUST J EARTH SCI, V57, P337, DOI 10.1080/08120091003677553
+   Hu ZH, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030262
+   Huang XD, 2011, INT J REMOTE SENS, V32, P5177, DOI 10.1080/01431161.2010.495092
+   Huber M., 2009, P 2009 IEEE INT GEOS, V0, P0
+   Khosravipour A, 2015, ISPRS J PHOTOGRAMM, V104, P44, DOI 10.1016/j.isprsjprs.2015.02.013
+   [郎玲玲 LANG Lingling], 2007, 地球信息科学 GEO-INFORMATION SCIENCE, V9, P1
+   Lefsky MA, 2005, GEOPHYS RES LETT, V32, P0, DOI 10.1029/2005GL023971
+   Li H, 2018, IEEE J-STARS, V11, P4430, DOI 10.1109/JSTARS.2018.2874361
+   Li H, 2017, IEEE T GEOSCI REMOTE, V55, P6639, DOI 10.1109/tgrs.2017.2731048
+   Li P, 2013, INT J REMOTE SENS, V34, P1744, DOI 10.1080/01431161.2012.726752
+   Liu JY, 2005, REMOTE SENS ENVIRON, V98, P442, DOI 10.1016/j.rse.2005.08.012
+   Liu ZW, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20174865
+   Mukherjee S, 2013, INT J APPL EARTH OBS, V21, P205, DOI 10.1016/j.jag.2012.09.004
+   Nuth C, 2011, CRYOSPHERE, V5, P271, DOI 10.5194/tc-5-271-2011
+   OLoughlin FE, 2016, REMOTE SENS ENVIRON, V182, P49, DOI 10.1016/j.rse.2016.04.018
+   Peters J, 2007, ECOL MODEL, V207, P304, DOI 10.1016/j.ecolmodel.2007.05.011
+   Razak KA, 2013, GEOMORPHOLOGY, V190, P112, DOI 10.1016/j.geomorph.2013.02.021
+   Reuter HI, 2007, INT J GEOGR INF SCI, V21, P983, DOI 10.1080/13658810601169899
+   Rexer M, 2014, AUST J EARTH SCI, V61, P213, DOI 10.1080/08120099.2014.884983
+   Robinson N, 2014, ISPRS J PHOTOGRAMM, V87, P57, DOI 10.1016/j.isprsjprs.2013.11.002
+   Rodriguez E, 2006, PHOTOGRAMM ENG REM S, V72, P249, DOI 10.14358/PERS.72.3.249
+   Rodriguez-Galiano VF, 2012, ISPRS J PHOTOGRAMM, V67, P93, DOI 10.1016/j.isprsjprs.2011.11.002
+   Satge F, 2015, INT J REMOTE SENS, V36, P465, DOI 10.1080/01431161.2014.999166
+   Sharma A, 2014, J HYDROL, V519, P1394, DOI 10.1016/j.jhydrol.2014.08.062
+   Shi WZ, 2018, GEOMORPHOLOGY, V303, P229, DOI 10.1016/j.geomorph.2017.12.005
+   Shortridge A, 2011, REMOTE SENS ENVIRON, V115, P1576, DOI 10.1016/j.rse.2011.02.017
+   Simard M, 2016, INT GEOSCI REMOTE SE, V0, PP3227, DOI 10.1109/IGARSS.2016.7729835
+   Su YJ, 2014, ISPRS J PHOTOGRAMM, V87, P216, DOI 10.1016/j.isprsjprs.2013.11.009
+   Suwandana E, 2012, REMOTE SENS-BASEL, V4, P2419, DOI 10.3390/rs4082419
+   Szabo G, 2015, PHYS CHEM EARTH, V83-84, P137, DOI 10.1016/j.pce.2015.06.003
+   Toutin T, 2002, ISPRS J PHOTOGRAMM, V57, P228, DOI 10.1016/S0924-2716(02)00123-5
+   Van Niel TG, 2008, REMOTE SENS ENVIRON, V112, P2430, DOI 10.1016/j.rse.2007.11.003
+   Varga M, 2015, INT J REMOTE SENS, V36, P170, DOI 10.1080/01431161.2014.994720
+   Wendi D, 2016, J ADV MODEL EARTH SY, V8, P691, DOI 10.1002/2015MS000536
+   Wendleder A, 2016, IEEE GEOSCI REMOTE S, V13, P696, DOI 10.1109/LGRS.2016.2538822
+   Wilson JP, 2012, GEOMORPHOLOGY, V137, P107, DOI 10.1016/j.geomorph.2011.03.012
+   Yamazaki D, 2017, GEOPHYS RES LETT, V44, P5844, DOI 10.1002/2017GL072874
+   Yamazaki D, 2012, J HYDROL, V436, P81, DOI 10.1016/j.jhydrol.2012.02.045
+   Yang XY, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7040145
+   Yanyan Li, 2019, IEEE ACCESS, V7, P173166, DOI 10.1109/ACCESS.2019.2956780
+   Yap L, 2019, INT J DIGIT EARTH, V12, P500, DOI 10.1080/17538947.2018.1458163
+   Yue LW, 2017, ISPRS J PHOTOGRAMM, V123, P20, DOI 10.1016/j.isprsjprs.2016.11.002
+   Zhan JY, 2010, J GEOGR SCI, V20, P525, DOI 10.1007/s11442-010-0525-y
+   Zhang Q, 2016, PHOTOGRAMM ENG REM S, V82, P135, DOI 10.14358/PERS.83.2.135
+   Zhao SM, 2020, INT J REMOTE SENS, V41, P5257, DOI 10.1080/01431161.2020.1734250
+   Zhao SM, 2015, ENVIRON EARTH SCI, V74, P6571, DOI 10.1007/s12665-015-4614-1
+   Zhao SM, 2011, INT J REMOTE SENS, V32, P8081, DOI 10.1080/01431161.2010.532176
+   Zhao W, 2019, ISPRS J PHOTOGRAMM, V152, P109, DOI 10.1016/j.isprsjprs.2019.04.008
+   Zhao XQ, 2018, REMOTE SENS LETT, V9, P393, DOI 10.1080/2150704X.2018.1425560
+NR 73
+TC 15
+Z9 17
+U1 5
+U2 22
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD OCT 15
+PY 2020
+VL 12
+IS 20
+BP 
+EP 
+DI 10.3390/rs12203435
+PG 22
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA OL8GS
+UT WOS:000585571700001
+DA 2023-04-26
+ER

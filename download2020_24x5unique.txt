@@ -1,0 +1,668 @@
+
+PT J
+AU Cao, KR
+   Choi, KN
+   Jung, H
+   Duan, LN
+AF Cao, Kerang
+   Choi, Kwang-nam
+   Jung, Hoekyung
+   Duan, Lini
+TI Deep Learning for Facial Beauty Prediction
+SO INFORMATION
+LA English
+DT Article
+DE deep learning; facial beauty prediction; convolutional neural network
+ID neural-network
+AB Facial beauty prediction (FBP) is a burgeoning issue for attractiveness evaluation, which aims to make assessment consistent with human opinion. Since FBP is a regression problem, to handle this issue, there are data-driven methods for finding the relations between facial features and beauty assessment. Recently, deep learning methods have shown its amazing capacity for feature representation and analysis. Convolutional neural networks (CNNs) have shown tremendous performance on facial recognition and comprehension, which are proved as an effective method for facial feature exploration. Lately, there are well-designed networks with efficient structures investigated for better representation performance. However, these designs concentrate on the effective block but do not build an efficient information transmission pathway, which led to a sub-optimal capacity for feature representation. Furthermore, these works cannot find the inherent correlations of feature maps, which also limits the performance. In this paper, an elaborate network design for FBP issue is proposed for better performance. A residual-in-residual (RIR) structure is introduced to the network for passing the gradient flow deeper, and building a better pathway for information transmission. By applying the RIR structure, a deeper network can be established for better feature representation. Besides the RIR network design, an attention mechanism is introduced to exploit the inner correlations among features. We investigate a joint spatial-wise and channel-wise attention (SCA) block to distribute the importance among features, which finds a better representation for facial information. Experimental results show our proposed network can predict facial beauty closer to a human's assessment than state-of-the-arts.
+C1 [Cao, Kerang; Duan, Lini] Shenyang Univ Chem Technol, Dept Comp Sci & Engn, Shenyang 110000, Peoples R China.
+   [Choi, Kwang-nam] Korea Inst Sci & Technol Informat, NTIS Ctr, Seoul 34113, South Korea.
+   [Jung, Hoekyung] Paichai Univ, Dept Comp Engn, Daejeon 35345, South Korea.
+C3 Shenyang University of Chemical Technology; Korea Institute of Science & Technology Information (KISTI); Pai Chai University
+RP Duan, LN (corresponding author), Shenyang Univ Chem Technol, Dept Comp Sci & Engn, Shenyang 110000, Peoples R China.
+EM caokerang@syuct.edu.cn; knchoi@kisti.re.kr; hkjung@pcu.ac.kr; liniduan@163.com
+FU Science Foundation of Shenyang University of Chemical Technology [LQ2020020]
+CR Alani AA, 2017, INFORMATION, V8, P0, DOI 10.3390/info8040142
+   Almakky I., 2019, 2019 INT JOINT C NEU, V0, P1
+   Boiko Y, 2019, 2019 IEEE INTERNATIONAL SYMPOSIUM ON ROBOTIC AND SENSORS ENVIRONMENTS (ROSE 2019), V0, P1
+   Chen FM, 2018, IEEE T AFFECT COMPUT, V9, P205, DOI 10.1109/TAFFC.2016.2599534
+   Cheng YP, 2020, INFORMATION, V11, P0, DOI 10.3390/info11060305
+   Devi N, 2018, 2018 FOURTEENTH INTERNATIONAL CONFERENCE ON INFORMATION PROCESSING (ICINPRO) - 2018, V0, P155
+   Gan JY, 2020, CHINESE J ELECTRON, V29, P312, DOI 10.1049/cje.2020.01.009
+   Gan JY, 2020, IEEE ACCESS, V8, P20245, DOI 10.1109/ACCESS.2020.2968837
+   Gan JY, 2017, CHINESE J ELECTRON, V26, P548, DOI 10.1049/cje.2016.10.020
+   Gibson J, 2020, INFORMATION, V11, P0, DOI 10.3390/info11060322
+   Guha Shetu Rani, 2019, 2019 INTERNATIONAL CONFERENCE ON SUSTAINABLE TECHNOLOGIES FOR INDUSTRY 4.0 (STI), V0, P0, DOI DOI 10.1109/STI47673.2019.9067979
+   Gunes H, 2004, IEEE SYS MAN CYBERN, V0, P2168
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Krizhevsky Alex, 2017, COMMUNICATIONS OF THE ACM, V60, P84, DOI 10.1145/3065386
+   Lee KS, 2019, INT C REHAB ROBOT, V0, PP583, DOI 10.1109/ICORR.2019.8779475
+   Li X, 2019, PROC CVPR IEEE, V0, PP510, DOI 10.1109/CVPR.2019.00060
+   Liang LY, 2018, INT C PATT RECOG, V0, PP1598, DOI 10.1109/ICPR.2018.8546038
+   Lin K, 2019, PICT COD SYMP, V0, P0
+   Lou G, 2020, CHINA COMMUN, V17, P117, DOI 10.23919/JCC.2020.02.010
+   Lu SX, 2019, CHIN CONT DECIS CONF, V0, PP4666, DOI 10.1109/CCDC.2019.8832794
+   Nascimento JC, 2020, IEEE T PATTERN ANAL, V42, P3054, DOI 10.1109/TPAMI.2019.2922959
+   Okaishi W.A., 1900, P1, V0, P0
+   Pak JW, 2019, 2019 1ST INTERNATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE IN INFORMATION AND COMMUNICATION (ICAIIC 2019), V0, P430
+   Peng M, 2016, INFORMATION, V7, P0, DOI 10.3390/info7040061
+   Shi SJ, 2019, INT CONF ACOUST SPEE, V0, PP4045, DOI 10.1109/ICASSP.2019.8683112
+   Simonyan K., 2015, ABS14091556 CORR, V0, P0
+   Stephen O, 2019, INT CONF ADV COMMUN, V0, PP408, DOI 10.23919/ICACT.2019.8701958
+   Sun GD, 2019, PROGNOST SYST HEALT, V0, PP96, DOI 10.1109/PHM-Paris.2019.00024
+   Susilo B, 2020, INFORMATION, V11, P0, DOI 10.3390/info11050279
+   Szegedy C., 2016, ARXIV2016160207261, V0, P0
+   Wan S, 2021, IEEE T GEOSCI REMOTE, V59, P597, DOI 10.1109/TGRS.2020.2994205
+   Wang H, 2019, IEEE ACCESS, V7, P177734, DOI 10.1109/ACCESS.2019.2958030
+   Wang YY, 2019, INFORMATION, V10, P0, DOI 10.3390/info10120375
+   Wassermann S, 2019, PROCEEDINGS OF THE 3RD NETWORK TRAFFIC MEASUREMENT AND ANALYSIS CONFERENCE (TMA 2019), V0, PP199, DOI 10.23919/TMA.2019.8784589
+   Workman S, 2017, IEEE I CONF COMP VIS, V0, PP5590, DOI 10.1109/ICCV.2017.596
+   Xiang ZL, 2020, INFORMATION, V11, P0, DOI 10.3390/info11030145
+   Xie SN, 2017, PROC CVPR IEEE, V0, PP5987, DOI 10.1109/CVPR.2017.634
+   Xie WD, 2020, INT CONF ACOUST SPEE, V0, PP2643, DOI 10.1109/ICASSP40776.2020.9054687
+   Yabo Zhang, 2019, 2019 IEEE INTERNATIONAL CONFERENCE ON UNMANNED SYSTEMS (ICUS), V0, PP480, DOI 10.1109/ICUS48101.2019.8995969
+   Yu D, 2020, INFORMATION, V11, P0, DOI 10.3390/info11040212
+   YU YH, 2017, INFORMATION, V8, P0
+   Yu ZJ, 2020, INFORMATION, V11, P0, DOI 10.3390/info11070345
+   Zhang H., 2020, ARXIV2020200408955, V0, P0
+NR 45
+TC 13
+Z9 13
+U1 1
+U2 3
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2078-2489
+J9 INFORMATION
+JI Information
+PD AUG 15
+PY 2020
+VL 11
+IS 8
+BP 
+EP 
+DI 10.3390/info11080391
+PG 12
+WC Computer Science, Information Systems
+SC Computer Science
+GA OA6CO
+UT WOS:000577870900001
+DA 2023-04-26
+ER
+
+PT J
+AU Bermudez-Contreras, E
+   Clark, BJ
+   Wilber, A
+AF Bermudez-Contreras, Edgar
+   Clark, Benjamin J.
+   Wilber, Aaron
+TI The Neuroscience of Spatial Navigation and the Relationship to Artificial Intelligence
+SO FRONTIERS IN COMPUTATIONAL NEUROSCIENCE
+LA English
+DT Review
+DE neuroscience; artificial intelligence; spatial navigation; deep learning; reinforcement learning; memory; learning
+ID head direction signals; grid cells; path-integration; neural-networks; hippocampal; cognition; parietal; cortex; memory; model
+AB Recent advances in artificial intelligence (AI) and neuroscience are impressive. In AI, this includes the development of computer programs that can beat a grandmaster at GO or outperform human radiologists at cancer detection. A great deal of these technological developments are directly related to progress in artificial neural networks-initially inspired by our knowledge about how the brain carries out computation. In parallel, neuroscience has also experienced significant advances in understanding the brain. For example, in the field of spatial navigation, knowledge about the mechanisms and brain regions involved in neural computations of cognitive maps-an internal representation of space-recently received the Nobel Prize in medicine. Much of the recent progress in neuroscience has partly been due to the development of technology used to record from very large populations of neurons in multiple regions of the brain with exquisite temporal and spatial resolution in behaving animals. With the advent of the vast quantities of data that these techniques allow us to collect there has been an increased interest in the intersection between AI and neuroscience, many of these intersections involve using AI as a novel tool to explore and analyze these large data sets. However, given the common initial motivation point-to understand the brain-these disciplines could be more strongly linked. Currently much of this potential synergy is not being realized. We propose that spatial navigation is an excellent area in which these two disciplines can converge to help advance what we know about the brain. In this review, we first summarize progress in the neuroscience of spatial navigation and reinforcement learning. We then turn our attention to discuss how spatial navigation has been modeled using descriptive, mechanistic, and normative approaches and the use of AI in such models. Next, we discuss how AI can advance neuroscience, how neuroscience can advance AI, and the limitations of these approaches. We finally conclude by highlighting promising lines of research in which spatial navigation can be the point of intersection between neuroscience and AI and how this can contribute to the advancement of the understanding of intelligent behavior.
+C1 [Bermudez-Contreras, Edgar] Univ Lethbridge, Canadian Ctr Behav Neurosci, Lethbridge, AB, Canada.
+   [Clark, Benjamin J.] Univ New Mexico, Dept Psychol, Albuquerque, NM 87131 USA.
+   [Wilber, Aaron] Florida State Univ, Dept Psychol, Program Neurosci, Tallahassee, FL 32306 USA.
+C3 University of Lethbridge; University of New Mexico; State University System of Florida; Florida State University
+RP Bermudez-Contreras, E (corresponding author), Univ Lethbridge, Canadian Ctr Behav Neurosci, Lethbridge, AB, Canada.; Clark, BJ (corresponding author), Univ New Mexico, Dept Psychol, Albuquerque, NM 87131 USA.; Wilber, A (corresponding author), Florida State Univ, Dept Psychol, Program Neurosci, Tallahassee, FL 32306 USA.
+EM edgar.bermudez@uleth.ca; bnjclark@unm.edu; wilber@psy.fsu.edu
+FU National Institute of Health [AA024983, AG049090]; Alzheimer's Association [AARG-17-531572]; Florida Department of Health [20A09]
+CR Alemi A.A., 2019, 5 INT C LEARN REPR I, V0, P1
+   Alexander AS, 2020, SCI ADV, V6, P0, DOI 10.1126/sciadv.aaz2322
+   Alexander AS, 2015, NAT NEUROSCI, V18, P1143, DOI 10.1038/nn.4058
+   Almassy N, 1998, CEREB CORTEX, V8, P346, DOI 10.1093/cercor/8.4.346
+   Anaya-Munoz A, 2019, PA STUD HUM RIGHTS, V0, P1
+   Angelaki DE, 2020, CURR OPIN NEUROBIOL, V60, P136, DOI 10.1016/j.conb.2019.12.002
+   Anggraini D, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-28241-z
+   [Anonymous], 2013, PREPRINT ARXIV 1308, V0, P0
+   Arleo A, 2000, BIOL CYBERN, V83, P287, DOI 10.1007/s004220000171
+   Ball D, 2013, AUTON ROBOT, V34, P149, DOI 10.1007/s10514-012-9317-9
+   Banino A, 2018, NATURE, V557, P429, DOI 10.1038/s41586-018-0102-6
+   Beer RD, 2015, COGNITIVE SCI, V39, P1, DOI 10.1111/cogs.12142
+   Behrens TEJ, 2018, NEURON, V100, P490, DOI 10.1016/j.neuron.2018.10.002
+   Bellmund JLS, 2018, SCIENCE, V362, P0, DOI 10.1126/science.aat6766
+   Bermudez-Contreras E, 2008, IMAGE VISION COMPUT, V26, P776, DOI 10.1016/j.imavis.2007.08.014
+   Boccara CN, 2010, NAT NEUROSCI, V13, P987, DOI 10.1038/nn.2602
+   Bonner MF, 2017, P NATL ACAD SCI USA, V114, P4793, DOI 10.1073/pnas.1618228114
+   Bonnevie T, 2013, NAT NEUROSCI, V16, P309, DOI 10.1038/nn.3311
+   Botvinick M, 2019, TRENDS COGN SCI, V23, P408, DOI 10.1016/j.tics.2019.02.006
+   Brette R, 2019, BEHAV BRAIN SCI, V42, P0, DOI 10.1017/S0140525X19000049
+   Brunec I. K., 2019, BIORXIV, V0, Patent No. 786434
+   Burak Y, 2009, PLOS COMPUT BIOL, V5, P0, DOI 10.1371/journal.pcbi.1000291
+   Burgess N, 2008, ANN NY ACAD SCI, V1124, P77, DOI 10.1196/annals.1440.002
+   Bush D, 2015, NEURON, V87, P507, DOI 10.1016/j.neuron.2015.07.006
+   Buzsaki G, 2013, NAT NEUROSCI, V16, P130, DOI 10.1038/nn.3304
+   Byrne P, 2007, PSYCHOL REV, V114, P340, DOI 10.1037/0033-295X.114.2.340
+   Cadena S. A., 2019, NEURIPS WORKSH NEURO, V0, P0
+   Campbell MG, 2018, NAT NEUROSCI, V21, P1096, DOI 10.1038/s41593-018-0189-y
+   Caze R, 2018, J NEUROPHYSIOL, V120, P2877, DOI 10.1152/jn.00145.2018
+   Cazin N, 2020, BIOL CYBERN, V114, P249, DOI 10.1007/s00422-020-00820-2
+   Cazin N, 2019, PLOS COMPUT BIOL, V15, P0, DOI 10.1371/journal.pcbi.1006624
+   Chalmers E, 2018, IEEE T NEUR NET LEAR, V29, P2259, DOI 10.1109/TNNLS.2017.2690910
+   Chalmers E, 2016, IEEE IJCNN, V0, PP3522, DOI 10.1109/IJCNN.2016.7727651
+   CHEN LL, 1994, EXP BRAIN RES, V101, P8, DOI 10.1007/BF00243212
+   Chersi F, 2015, NEURON, V88, P64, DOI 10.1016/j.neuron.2015.09.021
+   Chiel HJ, 1997, TRENDS NEUROSCI, V20, P553, DOI 10.1016/S0166-2236(97)01149-1
+   Cisek P, 2019, ATTEN PERCEPT PSYCHO, V81, P2265, DOI 10.3758/s13414-019-01760-1
+   Clark BJ, 2018, BEHAV NEUROSCI, V132, P416, DOI 10.1037/bne0000260
+   Clark BJ, 2012, FRONT NEURAL CIRCUIT, V6, P0, DOI 10.3389/fncir.2012.00007
+   Cohen U, 2020, NAT COMMUN, V11, P0, DOI 10.1038/s41467-020-14578-5
+   Colgin LL, 2020, J NEUROSCI, V40, P54, DOI 10.1523/JNEUROSCI.0741-19.2019
+   Constantinescu AO, 2016, SCIENCE, V352, P1464, DOI 10.1126/science.aaf0941
+   Contreras EJB, 2013, NEURON, V79, P555, DOI 10.1016/j.neuron.2013.06.013
+   Cueva CJ, 2018, P INT C LEARN REPR, V0, PP1, DOI 10.1038/s41593-018-0147-8
+   Cullen KE, 2017, NAT NEUROSCI, V20, P1465, DOI 10.1038/nn.4658
+   Dayan P., 2001, COMPUTATIONAL MATH M, V0, P0
+   Deshmukh SS, 2013, HIPPOCAMPUS, V23, P253, DOI 10.1002/hipo.22101
+   Destexhe A, 2006, SCIENCE, V314, P85, DOI 10.1126/science.1127241
+   Dragoi G, 2011, NATURE, V469, P397, DOI 10.1038/nature09633
+   DUAN Y, 2017, 5 INT C LEARNING REP, V0, P1
+   Dudek G., 2002, COMPUTATIONAL PRINCI, V0, P0
+   Euston DR, 2007, SCIENCE, V318, P1147, DOI 10.1126/science.1148979
+   Evans T., 2019, ADV NEURAL INFORM PR, V32, P1731
+   Evans T, 2016, J PHYSIOL-LONDON, V594, P6535, DOI 10.1113/JP270666
+   Faisal AA, 2008, NAT REV NEUROSCI, V9, P292, DOI 10.1038/nrn2258
+   Finn C., 2017, P 34 INT C MACH LEAR, V3, P1856
+   Frankland PW, 2005, NAT REV NEUROSCI, V6, P119, DOI 10.1038/nrn1607
+   Gallistel CR., 1990, ORG LEARNING, V0, P0
+   Giocomo LM, 2011, NEURON, V71, P589, DOI 10.1016/j.neuron.2011.07.023
+   Graham P, 2017, ARTHROPOD STRUCT DEV, V46, P718, DOI 10.1016/j.asd.2017.07.001
+   Guo DQ, 2018, EPL-EUROPHYS LETT, V124, P0, DOI 10.1209/0295-5075/124/50001
+   Hafting T, 2005, NATURE, V436, P801, DOI 10.1038/nature03721
+   Harvey RE, 2019, NEUROSCI BIOBEHAV R, V107, P775, DOI 10.1016/j.neubiorev.2019.09.018
+   Hassabis D, 2017, NEURON, V95, P245, DOI 10.1016/j.neuron.2017.06.011
+   Hawkins J, 2019, FRONT NEURAL CIRCUIT, V12, P0, DOI 10.3389/fncir.2018.00121
+   Hawkins J, 2016, FRONT NEURAL CIRCUIT, V10, P0, DOI 10.3389/fncir.2016.00023
+   Hebb D.O., 1949, ORG BEHAV, V4, P60
+   Hinman JR, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-019-10722-y
+   Hoydal OA, 2019, NATURE, V568, P400, DOI 10.1038/s41586-019-1077-7
+   Johnson A, 2015, SPR SER COMPUT NEURO, V12, P299, DOI 10.1007/978-1-4939-1969-7_14
+   Jonas E, 2017, PLOS COMPUT BIOL, V13, P0, DOI 10.1371/journal.pcbi.1005268
+   Kanitscheider I, 2017, ADV NEURAL INFORM PR, V0, P4530
+   Khamassi M, 2012, FRONT BEHAV NEUROSCI, V6, P0, DOI 10.3389/fnbeh.2012.00079
+   Knierim JJ, 2012, ANNU REV NEUROSCI, V35, P267, DOI 10.1146/annurev-neuro-062111-150351
+   Knierim JJ, 2011, PHYSIOL REV, V91, P1245, DOI 10.1152/physrev.00021.2010
+   Krichmar JL, 2005, ARTIF LIFE, V11, P63, DOI 10.1162/1064546053278946
+   Kropff E, 2015, NATURE, V523, P419, DOI 10.1038/nature14622
+   Krupic J, 2015, NATURE, V518, P232, DOI 10.1038/nature14153
+   Kudrimoti HS, 1999, J NEUROSCI, V19, P4090
+   LaChance PA, 2019, SCIENCE, V365, P141, DOI 10.1126/science.aax4192
+   Lee D, 2012, ANNU REV NEUROSCI, V35, P287, DOI 10.1146/annurev-neuro-062111-150512
+   Lever C, 2002, NATURE, V416, P90, DOI 10.1038/416090a
+   Lever C, 2009, J NEUROSCI, V29, P9771, DOI 10.1523/JNEUROSCI.1319-09.2009
+   Lipson H., 2016, DRIVERLESS INTELLIGE, V0, P0
+   Mao D, 2018, P NATL ACAD SCI USA, V115, P8015, DOI 10.1073/pnas.1803224115
+   Mao D, 2017, NAT COMMUN, V8, P0, DOI 10.1038/s41467-017-00180-9
+   Mathis A, 2018, NAT NEUROSCI, V21, P1281, DOI 10.1038/s41593-018-0209-y
+   McCulloch W., 1943, B MATH BIOPHYS, V5, P115, DOI 10.1007/BF02478259
+   MCNAUGHTON BL, 1994, CEREB CORTEX, V4, P27, DOI 10.1093/cercor/4.1.27
+   MCNAUGHTON BL, 1991, J COGNITIVE NEUROSCI, V3, P192, DOI 10.1162/jocn.1991.3.2.190
+   McNaughton BL, 2006, NAT REV NEUROSCI, V7, P663, DOI 10.1038/nrn1932
+   McNaughton Bruce L., 1995, P585, V0, P0
+   Milford MJ, 2010, PLOS COMPUT BIOL, V6, P0, DOI 10.1371/journal.pcbi.1000995
+   Mimica B, 2018, SCIENCE, V362, P584, DOI 10.1126/science.aau2013
+   Mirowski Piotr, 2017, INT C LEARN REPR ICL, V0, P0
+   Momennejad I, 2018, ELIFE, V7, P0, DOI 10.7554/eLife.32548
+   Montavon G, 2018, DIGIT SIGNAL PROCESS, V73, P1, DOI 10.1016/j.dsp.2017.10.011
+   Munn RGK, 2020, CURR OPIN NEUROBIOL, V64, P32, DOI 10.1016/j.conb.2020.01.015
+   Munn RGK, 2020, NAT NEUROSCI, V23, P239, DOI 10.1038/s41593-019-0562-5
+   Musall S, 2019, CURR OPIN NEUROBIOL, V58, P229, DOI 10.1016/j.conb.2019.09.011
+   Navratilova Z, 2012, HIPPOCAMPUS, V22, P772, DOI 10.1002/hipo.20939
+   Nitz DA, 2006, NEURON, V49, P747, DOI 10.1016/j.neuron.2006.01.037
+   OKeefe J., 1978, HIPPOCAMPUS COGNITIV, V0, P0
+   ORegan JK, 2001, SYNTHESE, V129, P79, DOI 10.1023/A:1012699224677
+   Oess T, 2017, FRONT NEUROROBOTICS, V11, P0, DOI 10.3389/fnbot.2017.00004
+   OKEEFE J, 1971, BRAIN RES, V34, P171, DOI 10.1016/0006-8993(71)90358-1
+   OKeefe J, 1996, NATURE, V381, P425, DOI 10.1038/381425a0
+   Pennartz CMA, 2011, TRENDS NEUROSCI, V34, P548, DOI 10.1016/j.tins.2011.08.001
+   Peyrache A, 2019, PROG NEUROBIOL, V183, P0, DOI 10.1016/j.pneurobio.2019.101693
+   Peyrache A, 2015, NAT NEUROSCI, V18, P569, DOI 10.1038/nn.3968
+   PFEIFER R, 1999, UNDERSTANDING INTELL, V0, P0
+   Pozzi I., 2019, ARXIV181101768, V0, P0
+   Richards BA, 2019, NAT NEUROSCI, V22, P1761, DOI 10.1038/s41593-019-0520-2
+   Roelfsema PR, 2018, NAT REV NEUROSCI, V19, P166, DOI 10.1038/nrn.2018.6
+   Rosenzweig ES, 2003, NAT NEUROSCI, V6, P609, DOI 10.1038/nn1053
+   Rumelhart D. E., 1988, PARALLEL DISTRIBUTED, V1, P354
+   Ryait H, 2019, PLOS BIOL, V17, P0, DOI 10.1371/journal.pbio.3000516
+   Sacramento J, 2018, ADV NEUR IN, V31, P0
+   Samu D, 2009, BIOL CYBERN, V101, P19, DOI 10.1007/s00422-009-0311-z
+   Santovito A, 2019, ANN HUM BIOL, V46, P425, DOI 10.1080/03014460.2019.1659413
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Schultheiss NW, 2015, NAT NEUROSCI, V18, P482, DOI 10.1038/nn.3977
+   Sharp PE, 2001, BEHAV NEUROSCI, V115, P571, DOI 10.1037/0735-7044.115.3.571
+   Sinz FH, 2019, NEURON, V103, P967, DOI 10.1016/j.neuron.2019.08.034
+   Skaggs W E, 1995, ADV NEURAL INF PROCESS SYST, V7, P173
+   Skaggs WE, 1996, SCIENCE, V271, P1870, DOI 10.1126/science.271.5257.1870
+   Solstad T, 2006, HIPPOCAMPUS, V16, P1026, DOI 10.1002/hipo.20244
+   Solstad T, 2008, SCIENCE, V322, P1865, DOI 10.1126/science.1166466
+   Sorscher B, 2019, ADV NEURAL INFORM PR, V0, P1
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Stachenfeld KL, 2017, NAT NEUROSCI, V20, P1643, DOI 10.1038/nn.4650
+   Steinmetz NA, 2018, CURR OPIN NEUROBIOL, V50, P92, DOI 10.1016/j.conb.2018.01.009
+   Stoianov IP, 2018, PLOS COMPUT BIOL, V14, P0, DOI 10.1371/journal.pcbi.1006316
+   Sutherland RJ, 2004, NEUROSCI BIOBEHAV R, V28, P687, DOI 10.1016/j.neubiorev.2004.09.012
+   Sutskever I., 2014, ADV NEURAL INF PROCE, V2, P3104, DOI 10.48550/ARXIV.1409.3215
+   Sutton R. S., 2018, HIST SEXUALITY, V0, P0
+   Swanson L. W., 2003, BRAIN ARCHITECTURE, V0, P0
+   Taube JS, 2007, ANNU REV NEUROSCI, V30, P181, DOI 10.1146/annurev.neuro.29.051605.112854
+   TAUBE JS, 1990, J NEUROSCI, V10, P420
+   Thelen E., 2007, HDB CHILD PSYCHOL, V0, PP258, DOI 10.1002/9780470147658.CHPSY0106
+   Tishby N, 2015, 2015 IEEE INFORMATION THEORY WORKSHOP (ITW), V0, P0
+   TOLMAN EC, 1948, PSYCHOL REV, V55, P189, DOI 10.1037/h0061626
+   Ullman S, 2019, SCIENCE, V363, P692, DOI 10.1126/science.aau6595
+   Vickerstaff RJ, 2010, J THEOR BIOL, V263, P242, DOI 10.1016/j.jtbi.2009.11.021
+   Vogt N, 2018, NAT METHODS, V15, P33, DOI 10.1038/nmeth.4549
+   Vu MAT, 2018, J NEUROSCI, V38, P1601, DOI 10.1523/JNEUROSCI.0508-17.2018
+   Walker EY, 2019, NAT NEUROSCI, V22, P2060, DOI 10.1038/s41593-019-0517-x
+   Wang C, 2020, CURR OPIN NEUROBIOL, V60, P12, DOI 10.1016/j.conb.2019.11.005
+   Wang C, 2018, SCIENCE, V362, P945, DOI 10.1126/science.aau4940
+   Webb B, 2016, CURR OPIN INSECT SCI, V15, P27, DOI 10.1016/j.cois.2016.02.011
+   Whishaw IQ, 2001, BEHAV BRAIN RES, V127, P49, DOI 10.1016/S0166-4328(01)00359-X
+   Whitlock JR, 2012, NEURON, V73, P789, DOI 10.1016/j.neuron.2011.12.028
+   Whittington J, 2018, ADV NEURAL INFORM PR, V0, P8484
+   Wilber AA, 2017, NEURON, V95, P1406, DOI 10.1016/j.neuron.2017.08.033
+   Wilber AA, 2014, J NEUROSCI, V34, P5431, DOI 10.1523/JNEUROSCI.0511-14.2014
+   Wu SD, 2019, NEURAL NETWORKS, V110, P91, DOI 10.1016/j.neunet.2018.10.017
+   Xu LC, 2019, AUTOMAT CONSTR, V104, P230, DOI 10.1016/j.autcon.2019.04.011
+   Xu ZS, 2019, FRONT NEURAL CIRCUIT, V13, P0, DOI 10.3389/fncir.2019.00075
+   Yamauchi B, 1996, IEEE T SYST MAN CY B, V26, P496, DOI 10.1109/3477.499799
+   Yoder RM, 2011, TRENDS NEUROSCI, V34, P561, DOI 10.1016/j.tins.2011.08.004
+   Zador AM, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-019-11786-6
+   Zafar MN, 2018, PROCEDIA COMPUT SCI, V133, P141, DOI 10.1016/j.procs.2018.07.018
+NR 162
+TC 17
+Z9 17
+U1 4
+U2 44
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 
+EI 1662-5188
+J9 FRONT COMPUT NEUROSC
+JI Front. Comput. Neurosci.
+PD JUL 28
+PY 2020
+VL 14
+IS 
+BP 
+EP 
+DI 10.3389/fncom.2020.00063
+PG 16
+WC Mathematical & Computational Biology; Neurosciences
+SC Mathematical & Computational Biology; Neurosciences & Neurology
+GA NC4SK
+UT WOS:000561203400001
+PM 32848684
+DA 2023-04-26
+ER
+
+PT J
+AU Dag, S
+   Akgun, A
+   Kaya, A
+   Alemdag, S
+   Bostanci, HT
+AF Dag, Serhat
+   Akgun, Aykut
+   Kaya, Ayberk
+   Alemdag, Selcuk
+   Bostanci, Hasan Tahsin
+TI Medium scale earthflow susceptibility modelling by remote sensing and geographical information systems based multivariate statistics approach: an example from Northeastern Turkey
+SO ENVIRONMENTAL EARTH SCIENCES
+LA English
+DT Article
+DE Earthflow; Susceptibility; Logistic regression; Remote sensing; Turkey
+ID shallow landslide susceptibility; likelihood-frequency ratio; logistic-regression; gis technology; multicriteria decision; hierarchy process; neural-networks; area; hazard; north
+AB The aim of the present study was to produce an earthflow susceptibility map for the city center and environs of the province of Rize located at the Northeastern part of Turkey. The study area is the rainiest region of Turkey, and due to the triggering effect of precipitation earthflows are frequently observed in and around the study area. Besides this point, weathered rock units and steep topography accompany with precipitation for the occurrence of earthflow cases. Considering this point, an earthflow susceptibility mapping was inferred to be a necessity for the area. Parameters, such as lithology, slope gradient, slope aspect, topographical wetness index (TWI), stream power index (SPI), slope curvature, and sediment capacity index (LS) were considered to be earthflow conditioning parameters. A multi-temporal earthflow inventory map for a period of 4 years (2011-2015) was initially generated by way of remote sensing approach and field surveys. Earthflow susceptibility map was produced using the logistic regression method after which the produced susceptibility map was validated. The mapped earthflows were separated into two groups prior to modelling and validation. The first group was for training and the second group was for validation steps. The accuracy of the model was measured by fitting them to a validation set of mapped earthflows. Area under curvature (AUC) approach was applied for validation purposes. The prediction capability of the earthflow susceptibility map produced can be regarded as acceptable in accordance with the AUC values of 0.62 for the logistic regression model. Based on these results, the obtained earthflow susceptibility map can be used to mitigate hazards related to landslides and to aid in land-use planning for the Rize city center.
+C1 [Dag, Serhat; Alemdag, Selcuk] Gumushane Univ, Fac Engn & Nat Sci, Dept Geol Engn, TR-29100 Gumushane, Turkey.
+   [Akgun, Aykut] Karadeniz Tech Univ, Fac Engn, Dept Geol Engn, TR-61100 Trabzon, Turkey.
+   [Kaya, Ayberk] Recep Tayyip Erdogan Univ, Fac Engn & Architecture, Dept Civil Engn, TR-53100 Rize, Turkey.
+   [Bostanci, Hasan Tahsin] Gumushane Univ, Fac Engn & Nat Sci, Dept Geomat Engn, TR-29100 Gumushane, Turkey.
+C3 Gumushane University; Karadeniz Technical University; Recep Tayyip Erdogan University; Gumushane University
+RP Kaya, A (corresponding author), Recep Tayyip Erdogan Univ, Fac Engn & Architecture, Dept Civil Engn, TR-53100 Rize, Turkey.
+EM serhatdag@gumushane.edu.tr; aykut.akgun@ktu.edu.tr; ayberk.kaya@erdogan.edu.tr; selcuk@gumushane.edu.tr; htbostanci@gumushane.edu.tr
+FU Recep Tayyip Erdogan University [2014.109.01.01]
+CR Akgun A, 2012, COMPUT GEOSCI-UK, V38, P23, DOI 10.1016/j.cageo.2011.04.012
+   Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Akgun A, 2007, ENVIRON GEOL, V51, P1377, DOI 10.1007/s00254-006-0435-6
+   Akgun A, 2016, ARAB J GEOSCI, V9, P0, DOI 10.1007/s12517-015-2142-7
+   Akgun A, 2012, LANDSLIDES, V9, P93, DOI 10.1007/s10346-011-0283-7
+   Althuwaynee OF, 2012, COMPUT GEOSCI-UK, V44, P120, DOI 10.1016/j.cageo.2012.03.003
+   [Anonymous], 2000, TERRAIN ANAL PRINCIP, V0, P0
+   [Anonymous], 2007, THESIS, V0, P0
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Baeza C, 2001, EARTH SURF PROC LAND, V26, P1251, DOI 10.1002/esp.263
+   Beven K., 1979, HYDROLOG SCI J, V24, P43, DOI 10.1080/02626667909491834
+   Can T, 2005, GEOMORPHOLOGY, V72, P250, DOI 10.1016/j.geomorph.2005.05.011
+   Carrara A, 1999, NAT HAZARDS, V20, P117, DOI 10.1023/A:1008097111310
+   CARRARA A, 1995, ADV NAT TECHNOL HAZ, V5, P135
+   Castellanos Abella EA, 2008, GEOMORPHOLOGY, V94, P453, DOI 10.1016/j.geomorph.2006.10.038
+   Cevik E, 2003, ENVIRON GEOL, V44, P949, DOI 10.1007/s00254-003-0838-6
+   Chacon J, 2006, B ENG GEOL ENVIRON, V65, P341, DOI 10.1007/s10064-006-0064-z
+   Chen W, 2019, B ENG GEOL ENVIRON, V78, P4397, DOI 10.1007/s10064-018-1401-8
+   Colkesen I, 2016, J AFR EARTH SCI, V118, P53, DOI 10.1016/j.jafrearsci.2016.02.019
+   Cruden D.M., 1996, LANDSLIDES INVESTIGA, V0, P36
+   Dag S., 2011, GUMUHANE U J SCI TEC, V1, P151
+   Dag S., 2012, JEOLOJI MUHENDISLI D, V36, P35
+   Dagdelenler G, 2016, B ENG GEOL ENVIRON, V75, P575, DOI 10.1007/s10064-015-0759-0
+   Dai FC, 2001, ENVIRON GEOL, V40, P381, DOI 10.1007/s002540000163
+   Demir G, 2013, NAT HAZARDS, V65, P1481, DOI 10.1007/s11069-012-0418-8
+   Donati L, 2002, ENG GEOL, V63, P277, DOI 10.1016/S0013-7952(01)00087-4
+   Eker AM, 2015, INT J GEOGR INF SCI, V29, P132, DOI 10.1080/13658816.2014.953164
+   Ercanoglu M, 2002, ENVIRON GEOL, V41, P720, DOI 10.1007/s00254-001-0454-2
+   Erener A, 2016, ENG GEOL, V203, P45, DOI 10.1016/j.enggeo.2015.09.007
+   Fotheringham AS, 2016, J GEOGR SYST, V18, P303, DOI 10.1007/s10109-016-0239-5
+   Gokceoglu C, 1996, ENG GEOL, V44, P147, DOI 10.1016/S0013-7952(97)81260-4
+   Gokceolu C, 2005, 1 LANDSL S TRABZ P, V0, P9
+   Gokceolu C., 2001, HACETTEPE U YERBILIM, V23, P189
+   Gorsevski PV, 2000, 4 INT C INT GIS ENV, V0, P9
+   Gorum T, 2008, NAT HAZARDS, V46, P323, DOI 10.1007/s11069-007-9190-6
+   Gorum T, 2019, ENG GEOL, V258, P0, DOI 10.1016/j.enggeo.2019.105155
+   Guzzetti F, 1999, GEOMORPHOLOGY, V31, P181, DOI 10.1016/S0169-555X(99)00078-1
+   Hong HY, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-4866-9
+   Ildr B, 1995, P 2 NAT LANDSL S TUR, V0, P1
+   Ismail EH, 2018, B ENG GEOL ENVIRON, V77, P1311, DOI 10.1007/s10064-017-1033-4
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Kayastha P, 2013, LANDSLIDES, V10, P785, DOI 10.1007/s10346-012-0361-5
+   Kincal C, 2009, ENVIRON EARTH SCI, V59, P745, DOI 10.1007/s12665-009-0070-0
+   Lee S, 2005, INT J REMOTE SENS, V26, P1477, DOI 10.1080/01431160412331331012
+   Lee S, 2002, ENVIRON GEOL, V43, P120, DOI 10.1007/s00254-002-0616-x
+   Lee S, 2001, ENVIRON GEOL, V40, P1095, DOI 10.1007/s002540100310
+   Li YG, 2020, APPL SCI-BASEL, V10, P0, DOI 10.3390/app10031107
+   MAHARAJ RJ, 1993, ENG GEOL, V34, P53, DOI 10.1016/0013-7952(93)90043-C
+   Melchiorre C, 2011, COMPUT GEOSCI-UK, V37, P410, DOI 10.1016/j.cageo.2010.10.004
+   Menard S. W., 1995, APPL LOGISTIC REGRES, V0, P0
+   MOORE ID, 1986, SOIL SCI SOC AM J, V50, P1294, DOI 10.2136/sssaj1986.03615995005000050042x
+   MOORE ID, 1991, HYDROL PROCESS, V5, P1, DOI 10.1002/hyp.3360050102
+   Nagarajan R., 2000, B ENG GEOL ENVIRON, V0, PP275, DOI 10.1007/s100649900032
+   Nefeslioglu HA, 2008, ENG GEOL, V97, P171, DOI 10.1016/j.enggeo.2008.01.004
+   Nefeslioglu HA, 2013, COMPUT GEOSCI-UK, V59, P1, DOI 10.1016/j.cageo.2013.05.010
+   Nefeslioglu HA, 2011, MATH PROBL ENG, V2011, P0, DOI 10.1155/2011/280431
+   Nefeslioglu HA, 2010, MATH PROBL ENG, V2010, P0, DOI 10.1155/2010/901095
+   Nefeslioglu HA, 2011, LANDSLIDES, V8, P459, DOI 10.1007/s10346-011-0267-7
+   Neuhauser B, 2012, LANDSLIDES, V9, P511, DOI 10.1007/s10346-011-0305-5
+   OBrien RM, 2007, QUAL QUANT, V41, P673, DOI 10.1007/s11135-006-9018-6
+   Ohlmacher GC, 2003, ENG GEOL, V69, P331, DOI 10.1016/S0013-7952(03)00069-3
+   Osna T, 2014, COMPUT GEOSCI-UK, V66, P20, DOI 10.1016/j.cageo.2013.12.016
+   Ozdamar K., 2002, STAT DATA ANAL PACKA, V0, P0
+   Ozer BC, 2020, B ENG GEOL ENVIRON, V79, P569, DOI 10.1007/s10064-019-01585-0
+   PACHAURI AK, 1992, ENG GEOL, V32, P81, DOI 10.1016/0013-7952(92)90020-Y
+   Pourghasemi HR, 2013, NAT HAZARDS, V69, P749, DOI 10.1007/s11069-013-0728-5
+   Pradhan B, 2011, ENVIRON EARTH SCI, V63, P329, DOI 10.1007/s12665-010-0705-1
+   Pradhan B, 2010, IEEE T GEOSCI REMOTE, V48, P4164, DOI 10.1109/TGRS.2010.2050328
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Romer C, 2016, ENG GEOL, V201, P29, DOI 10.1016/j.enggeo.2015.12.013
+   Roodposhti MS, 2014, NAT HAZARDS, V73, P77, DOI 10.1007/s11069-012-0523-8
+   Santacana N, 2003, NAT HAZARDS, V30, P281, DOI 10.1023/B:NHAZ.0000007169.28860.80
+   Segoni S, 2020, LANDSLIDES, V17, P2443, DOI 10.1007/s10346-019-01340-2
+   Sevgen E, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19183940
+   Sezer EA, 2017, COMPUT GEOSCI-UK, V98, P26, DOI 10.1016/j.cageo.2016.10.001
+   Sezer EA, 2011, EXPERT SYST APPL, V38, P8208, DOI 10.1016/j.eswa.2010.12.167
+   Suzen ML, 2004, ENG GEOL, V71, P303, DOI 10.1016/S0013-7952(03)00143-1
+   Suzen ML, 2004, ENVIRON GEOL, V45, P665, DOI 10.1007/s00254-003-0917-8
+   Thiebes B., 2011, THESIS U WIEN GERMAN, V0, P0
+   VANWESTEN CJ, 1990, PROCEEDINGS - SIXTH INTERNATIONAL CONGRESS : INTERNATIONAL ASSOCIATION OF ENGINEERING GEOLOGY, VOL 1, P265
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Yanar T, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9020114
+   Yesilnacar E, 2005, ENG GEOL, V79, P251, DOI 10.1016/j.enggeo.2005.02.002
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V60, P505, DOI 10.1007/s12665-009-0191-5
+NR 84
+TC 6
+Z9 6
+U1 1
+U2 17
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 1866-6280
+EI 1866-6299
+J9 ENVIRON EARTH SCI
+JI Environ. Earth Sci.
+PD SEP 30
+PY 2020
+VL 79
+IS 19
+BP 
+EP 
+DI 10.1007/s12665-020-09217-7
+PG 21
+WC Environmental Sciences; Geosciences, Multidisciplinary; Water Resources
+SC Environmental Sciences & Ecology; Geology; Water Resources
+GA NZ2HG
+UT WOS:000576915800002
+DA 2023-04-26
+ER
+
+PT J
+AU Kothari, NS
+   Meher, SK
+   Panda, G
+AF Kothari, Neeta S.
+   Meher, Saroj K.
+   Panda, Ganapati
+TI Improved Spatial Information Based Semisupervised Classification of Remote Sensing Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Fuzzy granulation; granular neural network (GNN); land cover classification; neural networks; pattern recognition; remote sensing (RS); semisupervised learning
+ID neural-networks
+AB Motivation in the use of semisupervised learning method is because of its ability to strategically explore and use abundantly available unlabeled samples along with the limited number of labeled samples, as seen in the remote sensing (RS) imagery. In this direction, the present article proposes a semisupervised classification model with spatial information based self-learning methodology to classify land covers in RS images. The model uses granular neural network (GNN) as the base classifier because of its customizable network architecture that is functionally interpretable and costs less computational complexity. Architecture of GNN is governed by fuzzy if-then rules that are generated from fuzzy granulation of input feature space. We have used an improved spatial neighborhood learning method for better understanding of data distribution in a semisupervised framework. The method collects the information with collaborative opinions of two independent information extraction approaches, i.e., based on mutual neighborhood criteria and class map of unlabeled samples. Superiority of the proposed model with existing methods are established with different RS images in terms of various performance measurement indexes.
+C1 [Kothari, Neeta S.; Meher, Saroj K.] Indian Stat Inst, Syst Sci & Informat Unit, Bangalore 560069, Karnataka, India.
+   [Panda, Ganapati] CV Raman Coll Engn, Dept Comp Sci, Bhubaneswar 752054, India.
+C3 Indian Statistical Institute; Indian Statistical Institute Bangalore
+RP Meher, SK (corresponding author), Indian Stat Inst, Syst Sci & Informat Unit, Bangalore 560069, Karnataka, India.
+EM sharmaneeta31@gmail.com; saroj.meher@gmail.com; ganapati.panda@gmail.com
+CR Ahmad M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11091136
+   Ahmad M, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0188996
+   [Anonymous], 2006, MACH LEARN, V0, P0
+   Belkin M, 2006, J MACH LEARN RES, V7, P2399
+   Blum A., 1998, PROCEEDINGS OF THE ELEVENTH ANNUAL CONFERENCE ON COMPUTATIONAL LEARNING THEORY, V0, PP92, DOI 10.1145/279943.279962
+   Bruzzone L, 2006, IEEE T GEOSCI REMOTE, V44, P3363, DOI 10.1109/TGRS.2006.877950
+   Camps-Valls G, 2007, IEEE T GEOSCI REMOTE, V45, P3044, DOI 10.1109/TGRS.2007.895416
+   Cheng G, 2018, IEEE T GEOSCI REMOTE, V56, P2811, DOI 10.1109/TGRS.2017.2783902
+   Cui MS, 2013, IEEE J-STARS, V6, P1688, DOI 10.1109/JSTARS.2013.2257696
+   DAVIES DL, 1979, IEEE T PATTERN ANAL, V1, P224, DOI 10.1109/TPAMI.1979.4766909
+   Dopido I, 2013, IEEE T GEOSCI REMOTE, V51, P4032, DOI 10.1109/TGRS.2012.2228275
+   Gomez-Chova L, 2008, IEEE GEOSCI REMOTE S, V5, P336, DOI 10.1109/LGRS.2008.916070
+   Hadsell R., 2006, IEEE COMP SOC C COMP, V2, P1735
+   Huang G, 2014, IEEE T CYBERNETICS, V44, P2405, DOI 10.1109/TCYB.2014.2307349
+   Im DJ, 2015, IEEE GEOSCI REMOTE S, V12, P1913, DOI 10.1109/LGRS.2015.2438227
+   Jia X, 2008, IEEE GEOSCI REMOTE S, V5, P311, DOI 10.1109/LGRS.2008.916076
+   Kasabov NK, 1996, FUZZY SET SYST, V82, P135, DOI 10.1016/0165-0114(95)00300-2
+   Krishnapuram B, 2004, ADV NEURAL INFORM PR, V0, P721
+   Kumar DA, 2016, NEUROCOMPUTING, V216, P109, DOI 10.1016/j.neucom.2016.07.034
+   Li J, 2013, IEEE T GEOSCI REMOTE, V51, P844, DOI 10.1109/TGRS.2012.2205263
+   Li J, 2011, IEEE T GEOSCI REMOTE, V49, P3947, DOI 10.1109/TGRS.2011.2128330
+   Luo T, 2005, J MACH LEARN RES, V6, P589
+   MACKAY DJC, 1992, NEURAL COMPUT, V4, P590, DOI 10.1162/neco.1992.4.4.590
+   Makantasis K, 2018, IEEE T GEOSCI REMOTE, V56, P6884, DOI 10.1109/TGRS.2018.2845450
+   Makantasis K, 2015, LECT NOTES COMPUT SC, V9474, P717, DOI 10.1007/978-3-319-27857-5_64
+   Meher SK, 2015, IEEE J-STARS, V8, P2222, DOI 10.1109/JSTARS.2015.2403297
+   Meher SK, 2019, APPL SOFT COMPUT, V83, P0, DOI 10.1016/j.asoc.2019.105655
+   Pal SK, 2012, PATTERN RECOGN, V45, P2690, DOI 10.1016/j.patcog.2011.12.027
+   Pal SK, 2000, INT J REMOTE SENS, V21, P2269, DOI 10.1080/01431160050029567
+   Pedrycz W, 2001, NEUROCOMPUTING, V36, P205, DOI 10.1016/S0925-2312(00)00342-8
+   Persello C, 2014, IEEE T GEOSCI REMOTE, V52, P6937, DOI 10.1109/TGRS.2014.2305805
+   Ratle F, 2010, IEEE T GEOSCI REMOTE, V48, P2271, DOI 10.1109/TGRS.2009.2037898
+   Sanchez JR, 2012, URVIO-REV LATINOAM E, V0, P25
+   Vasilakos A, 2005, SOFT COMPUT, V9, P332, DOI 10.1007/s00500-004-0412-5
+   Wan LJ, 2015, IEEE T GEOSCI REMOTE, V53, P2384, DOI 10.1109/TGRS.2014.2359933
+   Wang LG, 2014, IEEE J-STARS, V7, P3577, DOI 10.1109/JSTARS.2014.2333233
+   Yang LX, 2014, IEEE GEOSCI REMOTE S, V11, P651, DOI 10.1109/LGRS.2013.2273792
+   ZADEH LA, 1965, INFORM CONTROL, V8, P338, DOI 10.1016/S0019-9958(65)90241-X
+   Zhang LP, 2016, IEEE GEOSC REM SEN M, V4, P22, DOI 10.1109/MGRS.2016.2540798
+   Zhou ZH, 2005, IEEE T KNOWL DATA EN, V17, P1529, DOI 10.1109/TKDE.2005.186
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 41
+TC 6
+Z9 6
+U1 1
+U2 10
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2020
+VL 13
+IS 
+BP 329
+EP 340
+DI 10.1109/JSTARS.2019.2961985
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA LE3SG
+UT WOS:000526639900027
+DA 2023-04-26
+ER
+
+PT J
+AU Hou, GC
+   Shao, Q
+   Zou, B
+   Dai, LW
+   Zhang, Z
+   Mu, ZH
+   Zhang, YD
+   Zhai, JS
+AF Hou, Guangchao
+   Shao, Qi
+   Zou, Bo
+   Dai, Liwen
+   Zhang, Zhe
+   Mu, Zhehan
+   Zhang, Yadong
+   Zhai, Jingsheng
+TI A Novel Underwater Simultaneous Localization and Mapping Online Algorithm Based on Neural Network
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE AUVs; AMB-SLAM; neural network; magnetic beacons
+ID time slam; navigation; vehicle; exploration; systems; line
+AB The navigation and localization of autonomous underwater vehicles (AUVs) in seawater are of the utmost importance for scientific research, petroleum engineering, search and rescue, and military missions concerning the special environment of seawater. However, there is still no general method for AUVs navigation and localization, especially in the featureless seabed. The reported approaches to solving AUVs navigation and localization problems employ an expensive inertial navigation system (INS), with cumulative errors and dead reckoning, and a high-cost long baseline (LBL) in a featureless subsea. In this study, a simultaneous localization and mapping (AMB-SLAM) online algorithm, based on acoustic and magnetic beacons, was proposed. The AMB-SLAM online algorithm is based on multiple randomly distributed beacons of low-frequency magnetic fields and a single fixed acoustic beacon for location and mapping. The experimental results show that the performance of the AMB-SLAM online algorithm has a high robustness. The proposed approach (the AMB-SLAM online algorithm) provides a low-complexity, low-cost, and high-precision online solution to the AUVs navigation and localization problem in featureless seawater environments. The AMB-SLAM online solution could enable AUVs to autonomously explore or autonomously intervene in featureless seawater environments, which would enable AUVs to accomplish fully autonomous survey missions.
+C1 [Hou, Guangchao; Shao, Qi; Zou, Bo; Mu, Zhehan; Zhai, Jingsheng] Tianjin Univ, Sch Marine Sci & Technol, Tianjin 300072, Peoples R China.
+   [Dai, Liwen] Taohongling Natl Nat Reserve, Jiujiang 332700, Peoples R China.
+   [Zhang, Zhe] Tianjin Jinhang Inst Tech Phys, Tianjin 300308, Peoples R China.
+   [Zhang, Yadong] Inner Mongolia Univ Sci & Technol, Sch Architecture, Baotou 014010, Peoples R China.
+C3 Tianjin University; Inner Mongolia University of Science & Technology
+RP Zhai, JS (corresponding author), Tianjin Univ, Sch Marine Sci & Technol, Tianjin 300072, Peoples R China.
+EM houguangchao@tju.edu.cn; shaoqi@tju.edu.cn; zouboyou@tju.edu.cn; liwendai@outlook.com; zhangzhe_tianjin@outlook.com; muzhehan@tju.edu.cn; zhangyadong_lu@outkook.com; jingsheng@tju.edu.cn
+CR Alcocer A, 2007, CONTROL ENG PRACT, V15, P689, DOI 10.1016/j.conengprac.2006.04.001
+   Amari S, 1997, IEEE T NEURAL NETWOR, V8, P985, DOI 10.1109/72.623200
+   Anderson B., 2005, P MTS IEEE OC, V0, PP1, DOI 10.1109/OCEANS.2005.1639923
+   Andert F, 2017, J INTELL ROBOT SYST, V88, P547, DOI 10.1007/s10846-016-0457-6
+   Antonelli G., 2018, UNDERWATER ROBOTS, V0, P1
+   Aulinas J, 2010, OCEANS-IEEE, V0, P0
+   Barkby S, 2012, INT J ROBOT RES, V31, P1409, DOI 10.1177/0278364912459666
+   Barkby S, 2011, J FIELD ROBOT, V28, P19, DOI 10.1002/rob.20382
+   Barkby S, 2009, 2009 IEEE-RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS, V0, PP219, DOI 10.1109/IROS.2009.5354248
+   Batista P, 2016, INT J SYST SCI, V47, P1837, DOI 10.1080/00207721.2014.955070
+   Batista P, 2013, 2013 EUROPEAN CONTROL CONFERENCE (ECC), V0, P2988
+   Batista P, 2012, IEEE DECIS CONTR P, V0, PP6609, DOI 10.1109/CDC.2012.6426614
+   Bebis G., 1994, IEEE POTENTIALS, V13, P27, DOI 10.1109/45.329294
+   Bleser G, 2009, INT SYM MIX AUGMENT, V0, PP175, DOI 10.1109/ISMAR.2009.5336475
+   Burden FR, 1997, ANALYST, V122, P1015, DOI 10.1039/a703565i
+   Choi WS, 2014, LECT NOTES ARTIF INT, V8917, P491, DOI 10.1007/978-3-319-13966-1_48
+   Colomina I, 2014, ISPRS J PHOTOGRAMM, V92, P79, DOI 10.1016/j.isprsjprs.2014.02.013
+   Davis Clay, 2010, 2010 IEEE/ION POSITION, V0, P1108, DOI 10.1109/PLANS.2010.5507196
+   Dissanayake MWMG, 2001, IEEE T ROBOTIC AUTOM, V17, P229, DOI 10.1109/70.938381
+   Durrant-Whyte H, 2006, IEEE ROBOT AUTOM MAG, V13, P99, DOI 10.1109/MRA.2006.1638022
+   Eustice RM, 2008, IEEE J OCEANIC ENG, V33, P103, DOI 10.1109/JOE.2008.923547
+   Eustice RM, 2006, IEEE T ROBOT, V22, P1100, DOI 10.1109/TRO.2006.886264
+   Eustice RM, 2006, INT J ROBOT RES, V25, P1223, DOI 10.1177/0278364906072512
+   Fairfield N, 2007, J FIELD ROBOT, V24, P3, DOI 10.1002/rob.20165
+   Fairfield N, 2010, INT J ROBOT RES, V29, P748, DOI 10.1177/0278364909344779
+   Fallon MF, 2011, IEEE INT CONF ROBOT, V0, PP2398, DOI 10.1109/ICRA.2011.5980302
+   Ferreira F, 2012, INTEL SERV ROBOT, V5, P55, DOI 10.1007/s11370-011-0103-x
+   Martinez RG, 2014, IDP-INTERNET LAW POL, V0, PP2, DOI 10.7238/idp.v0i18.1941
+   Hidalgo F, 2015, PROCEEDINGS OF THE 2015 6TH INTERNATIONAL CONFERENCE ON AUTOMATION, V0, P306, DOI 10.1109/ICARA.2015.7081165
+   Jakuba MV, 2008, J FIELD ROBOT, V25, P861, DOI 10.1002/rob.20250
+   Jaulin L, 2009, IEEE T ROBOT, V25, P88, DOI 10.1109/TRO.2008.2010358
+   Knight DT, 1997, IEEE AERO EL SYS MAG, V12, P14, DOI 10.1109/62.577432
+   Kownacki C, 2016, ROBOTICA, V34, P243, DOI 10.1017/S0263574714001404
+   Krupinski S, 2009, OCEANS-IEEE, V0, P500
+   Kunz C, 2009, J FIELD ROBOT, V26, P411, DOI 10.1002/rob.20288
+   Kussat NH, 2005, IEEE J OCEANIC ENG, V30, P153, DOI 10.1109/JOE.2004.835249
+   LaPointe C.E.G., 2006, THESIS, V0, P0
+   Ma T, 2018, OCEAN ENG, V166, P336, DOI 10.1016/j.oceaneng.2018.08.029
+   Maier HR, 2000, ENVIRON MODELL SOFTW, V15, P101, DOI 10.1016/S1364-8152(99)00007-9
+   Maki T, 2008, IEEE AUTO UNDER VEH, V0, P83
+   Masters T., 1993, PRACTICAL NEURAL NET, V0, P1
+   Matos A, 2016, OCEANS 2016 SHANGHAI, V0, PP1, DOI 10.1109/OCEANSAP.2016.7485707
+   Minns AW, 1996, HYDROLOG SCI J, V41, P399, DOI 10.1080/02626669609491511
+   Morgado M, 2013, J FIELD ROBOT, V30, P142, DOI 10.1002/rob.21442
+   Morgado M, 2006, 2006 9 INT C INF FUS, V0, P1
+   Morgado M, 2014, IEEE T CONTR SYST T, V22, P322, DOI 10.1109/TCST.2013.2245133
+   Munguia R, 2016, SENSORS-BASEL, V16, P0, DOI 10.3390/s16030372
+   Murphy RR, 2012, J FIELD ROBOT, V29, P819, DOI 10.1002/rob.21435
+   Neira J, 2001, IEEE T ROBOTIC AUTOM, V17, P890, DOI 10.1109/70.976019
+   Newman PM, 2005, SPRINGER TRAC ADV RO, V15, P409
+   PANISH R, 2011, OCEANS 2011 IEEE SPA, V0, P00001
+   Parisi R, 1996, IEEE T NEURAL NETWOR, V7, P1450, DOI 10.1109/72.548172
+   Paull L, 2014, IEEE J OCEANIC ENG, V39, P131, DOI 10.1109/JOE.2013.2278891
+   Pierzchala M, 2018, COMPUT ELECTRON AGR, V145, P217, DOI 10.1016/j.compag.2017.12.034
+   Ribas D, 2006, 2006 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS, VOLS 1-12, P5040, DOI 10.1109/IROS.2006.282532
+   Ribas D, 2008, J FIELD ROBOT, V25, P898, DOI 10.1002/rob.20249
+   Roh H, 2016, IEEE AUTO UNDER VEH, V0, PP10, DOI 10.1109/AUV.2016.7778712
+   Ruiz IT, 2004, IEEE J OCEANIC ENG, V29, P442, DOI 10.1109/JOE.2004.829790
+   Sgorbini S, 2002, OCEANOL ACTA, V25, P135, DOI 10.1016/S0399-1784(02)01188-X
+   Shanmuganathan S, 2016, STUD COMPUT INTELL, V628, P1, DOI 10.1007/978-3-319-28495-8_1
+   Shippey G, 2009, IEEE J OCEANIC ENG, V34, P294, DOI 10.1109/JOE.2009.2022578
+   SMITH R, 1988, P 4 INT S ROB RES, V0, P467
+   Smith R.C., 1988, UNCERTAINTY ARTIFICI, V0, PP435, DOI 10.1016/B978-0-444-70396-5.50042-X
+   Spindel R. C., 1976, IEEE JOURNAL OF OCEANIC ENGINEERING, VOE-1, P6, DOI 10.1109/JOE.1976.1145294
+   Tal A, 2017, SENSORS-BASEL, V17, P0, DOI 10.3390/s17020415
+   Thomas HG, 1998, PROCEEDINGS OF THE 1998 WORKSHOP ON AUTONOMOUS UNDERWATER VEHICLES, V0, P181, DOI 10.1109/AUV.1998.744453
+   Tipsuwan Y, 2015, 2015 7TH INTERNATIONAL CONFERENCE ON INFORMATION TECHNOLOGY AND ELECTRICAL ENGINEERING (ICITEE), V0, PP382, DOI 10.1109/ICITEED.2015.7408976
+   Vasilescu I, 2010, INT J ROBOT RES, V29, P547, DOI 10.1177/0278364909358275
+   Vickery K, 1998, PROCEEDINGS OF THE 1998 WORKSHOP ON AUTONOMOUS UNDERWATER VEHICLES, V0, P103, DOI 10.1109/AUV.1998.744445
+   Walter M, 2008, IEEE INT CONF ROBOT, V0, PP1463, DOI 10.1109/ROBOT.2008.4543408
+   Wang P, 2016, PROCEEDINGS OF 2016 INTERNATIONAL CONFERENCE ON AUDIO, V0, P62, DOI 10.1109/ICALIP.2016.7846577
+   Watanabe Y, 2009, JPN J APPL PHYS, V48, P0, DOI 10.1143/JJAP.48.07GL01
+   Whitcomb L., 1999, P 11 INT S UNM UNT S, V0, P1
+   White H, 1989, NEURAL COMPUT, V1, P425, DOI 10.1162/neco.1989.1.4.425
+   Woock P., 2010, OCEANS 2010 IEEE SYD, V0, P1
+   Woock P., 2012, P MTS IEEE OC 12 C Y, V0, P1
+   Yoerger DR, 2007, SPRINGER TRAC ADV RO, V28, P416
+   Youngberg J., 1992, US PATENT, V0, Patent No. [5,119,341, 5119341]
+   Youngberg J. W., 1991, NAVIGATION. JOURNAL OF THE INSTITUTE OF NAVIGATION, V38, P263
+   Zandara S., 2012, IFAC P, V45, P126, DOI 10.3182/20120410-3-pt-4028.00022
+NR 80
+TC 5
+Z9 6
+U1 4
+U2 12
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. Geo-Inf.
+PD JAN 15
+PY 2020
+VL 9
+IS 1
+BP 
+EP 
+DI 10.3390/ijgi9010005
+PG 28
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA KN1WJ
+UT WOS:000514631100018
+DA 2023-04-26
+ER
