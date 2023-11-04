@@ -1,0 +1,579 @@
+
+PT J
+AU Cui, RS
+   Yang, RZ
+   Liu, F
+   Geng, H
+AF Cui, Rongsheng
+   Yang, Runzhuo
+   Liu, Feng
+   Geng, Hua
+TI HD2A-Net: A novel dual gated attention network using comprehensive hybrid dilated convolutions for medical image segmentation
+SO COMPUTERS IN BIOLOGY AND MEDICINE
+LA English
+DT Article
+DE Medical image segmentation; Deep neural network; Comprehensive Hybrid Dilated Convolution; Dual Dilated Gated Attention; Dilated Dense Block
+ID neural-networks
+AB The convolutional neural networks (CNNs) have been widely proposed in the medical image analysis tasks, especially in the image segmentations. In recent years, the encoder-decoder structures, such as the U-Net, were rendered. However, the multi-scale information transmission and effective modeling for long-range feature dependencies in these structures were not sufficiently considered. To improve the performance of the existing methods, we propose a novel hybrid dual dilated attention network (HD2A-Net) to conduct the lesion region segmentations. In the proposed network, we innovatively present the comprehensive hybrid dilated convolution (CHDC) module, which facilitates the transmission of the multi-scale information. Based on the CHDC module and the attention mechanisms, we design a novel dual dilated gated attention (DDGA) block to enhance the saliency of related regions from the multi-scale aspect. Besides, a dilated dense (DD) block is designed to expand the receptive fields. The ablation studies were performed to verify our proposed blocks. Besides, the interpretability of the HD2A-Net was analyzed through the visualization of the attention weight maps from the key blocks. Compared to the state-of-the-art methods including CA-Net, DeepLabV3+, and Attention U-Net, the HD2A-Net outperforms significantly, with the metrics of Dice, Average Symmetric Surface Distance (ASSD), and mean Intersection-over-Union (mIoU) reaching 93.16%, 93.63%, and 94.72%, 0.36 pix, 0.69 pix, and 0.52 pix, and 88.03%, 88.67%, and 90.33% on three publicly available medical image datasets: MAEDE-MAFTOUNI (COVID-19 CT), ISIC-2018 (Melanoma Dermoscopy), and Kvasir-SEG (Gastrointestinal Disease Polyp), respectively.
+C1 [Cui, Rongsheng; Yang, Runzhuo; Liu, Feng] Nankai Univ, Coll Elect Informat & Opt Engn, Tianjin, Peoples R China.
+   [Liu, Feng] Nankai Univ, Tianjin Key Lab Optoelect Sensor & Sensing Network, Tianjin, Peoples R China.
+   [Geng, Hua] Tianjin Chest Hosp, Dept Pathol, Tianjin, Peoples R China.
+C3 Nankai University; Nankai University
+RP Liu, F (corresponding author), Nankai Univ, Coll Elect Informat & Opt Engn, Tianjin, Peoples R China.
+EM liuf@nankai.edu.cn
+FU National Natural Science Foun-dation of China; Natural Science Foun-dation of Tianjin City of Peoples Republic of China;  [61901233];  [19JC-QNJC00900];  [21JCZDJC00340]
+CR Ahmadianfar I, 2021, EXPERT SYST APPL, V181, P0, DOI 10.1016/j.eswa.2021.115079
+   Alkassar S., 2020, 2 INT C ELECT COMMUN, V0, P188
+   [Anonymous], 2022, ISIC 2018 DATASET, V0, P0
+   [Anonymous], 2022, COVID 19 CT LUNG INF, V0, P0
+   [Anonymous], 2022, KVASIR SEG DATASET, V0, P0
+   [Anonymous], 2021, PYTORCH 1 11 0 GPU P, V0, P0
+   [Anonymous], 2015, INT C MED IM COMP CO, V0, P0
+   Bejnordi BE, 2017, J MED IMAGING, V4, P0, DOI 10.1117/1.JMI.4.4.044504
+   Chartsias A, 2021, IEEE T MED IMAGING, V40, P781, DOI 10.1109/TMI.2020.3036584
+   Chaurasia A, 2017, 2017 IEEE VISUAL COMMUNICATIONS AND IMAGE PROCESSING (VCIP), V0, P0
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen YP, 2017, ADV NEUR IN, V30, P0
+   Cui ZH, 2018, IEEE T IND INFORM, V14, P3187, DOI 10.1109/TII.2018.2822680
+   Fu J, 2019, PROC CVPR IEEE, V0, PP3141, DOI 10.1109/CVPR.2019.00326
+   Gegundez-Arias ME, 2021, COMPUT METH PROG BIO, V205, P0, DOI 10.1016/j.cmpb.2021.106081
+   Gu R, 2021, IEEE T MED IMAGING, V40, P699, DOI 10.1109/TMI.2020.3035253
+   He BJ, 2022, EXPERT SYST, V39, P0, DOI 10.1111/exsy.12822
+   Heidari AA, 2019, FUTURE GENER COMP SY, V97, P849, DOI 10.1016/j.future.2019.02.028
+   Hu KL, 2022, COMPUT BIOL MED, V147, P0, DOI 10.1016/j.compbiomed.2022.105760
+   Huang GL, 2017, IEEE ICC, V0, P0
+   Huang HM, 2020, INT CONF ACOUST SPEE, V0, PP1055, DOI 10.1109/ICASSP40776.2020.9053405
+   Li KP, 2018, PROC CVPR IEEE, V0, PP9215, DOI 10.1109/CVPR.2018.00960
+   Li SM, 2020, FUTURE GENER COMP SY, V111, P300, DOI 10.1016/j.future.2020.03.055
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Mnih V, 2014, ADV NEUR IN, V27, P0
+   Oktay O, 2018, ARXIV180403999, V0, P0
+   Qi AL, 2022, COMPUT BIOL MED, V148, P0, DOI 10.1016/j.compbiomed.2022.105810
+   Roy AG, 2018, LECT NOTES COMPUT SC, V11070, P421, DOI 10.1007/978-3-030-00928-1_48
+   Shao L, 2015, IEEE T NEUR NET LEAR, V26, P1019, DOI 10.1109/TNNLS.2014.2330900
+   Shin HC, 2016, IEEE T MED IMAGING, V35, P1285, DOI 10.1109/TMI.2016.2528162
+   Simonyan K, 2015, ARXIV, V0, P0
+   Su H, 2022, COMPUT BIOL MED, V146, P0, DOI 10.1016/j.compbiomed.2022.105618
+   Sun ZJ, 2016, IEEE COMMUN LETT, V20, P622, DOI 10.1109/LCOMM.2016.2518662
+   Tajbakhsh N, 2020, MED IMAGE ANAL, V63, P0, DOI 10.1016/j.media.2020.101693
+   Tanveer M, 2022, IEEE J BIOMED HEALTH, V26, P1453, DOI 10.1109/JBHI.2021.3083274
+   Bui TD, 2019, BIOMED SIGNAL PROCES, V54, P0, DOI 10.1016/j.bspc.2019.101613
+   Tu J, 2021, J BIONIC ENG, V18, P674, DOI 10.1007/s42235-021-0050-y
+   Valanarasu J.M.J., 2021, MEDICAL TRANSFORMER, V0, P0
+   van Sloun RJG, 2021, IEEE T MED IMAGING, V40, P829, DOI 10.1109/TMI.2020.3037790
+   Vaswani A., 2017, P 31 INT C NEUR INF, V30, P1
+   Wang F, 2017, PROC CVPR IEEE, V0, PP6450, DOI 10.1109/CVPR.2017.683
+   Wang GG, 2022, IEEE T IND INFORM, V18, P8519, DOI 10.1109/TII.2022.3165636
+   Wang GG, 2019, NEURAL COMPUT APPL, V31, P1995, DOI 10.1007/s00521-015-1923-y
+   Wang GG, 2018, INT J BIO-INSPIR COM, V12, P1, DOI 10.1504/IJBIC.2015.10004283
+   Wang GG, 2018, MEMET COMPUT, V10, P151, DOI 10.1007/s12293-016-0212-3
+   Wang GG, 2016, NEURAL COMPUT APPL, V27, P291, DOI 10.1007/s00521-015-1874-3
+   Wang PQ, 2018, IEEE WINT CONF APPL, V0, PP1451, DOI 10.1109/WACV.2018.00163
+   Wang S, 2021, IEEE J BIOMED HEALTH, V25, P514, DOI 10.1109/JBHI.2020.2997760
+   Wang WX, 2022, KSII T INTERNET INF, V16, P211, DOI 10.3837/tiis.2022.01.012
+   Wang Y, 2022, J AMB INTEL HUM COMP, V0, P0, DOI DOI 10.1007/s12652-022-03766-4
+   Xie SN, 2017, PROC CVPR IEEE, V0, PP5987, DOI 10.1109/CVPR.2017.634
+   Yang QH, 2022, BIOMED SIGNAL PROCES, V77, P0, DOI 10.1016/j.bspc.2022.103805
+   Yang SD, 2021, BIOMED SIGNAL PROCES, V70, P0, DOI 10.1016/j.bspc.2021.103027
+   Yang YT, 2021, EXPERT SYST APPL, V177, P0, DOI 10.1016/j.eswa.2021.114864
+   Zhang CR, 2022, BIOMED SIGNAL PROCES, V73, P0, DOI 10.1016/j.bspc.2021.103423
+   Zhou LC, 2018, IEEE COMPUT SOC CONF, V0, PP192, DOI 10.1109/CVPRW.2018.00034
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+NR 57
+TC 0
+Z9 0
+U1 7
+U2 7
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0010-4825
+EI 1879-0534
+J9 COMPUT BIOL MED
+JI Comput. Biol. Med.
+PD JAN 15
+PY 2023
+VL 152
+IS 
+BP 
+EP 
+DI 10.1016/j.compbiomed.2022.106384
+PG 12
+WC Biology; Computer Science, Interdisciplinary Applications; Engineering, Biomedical; Mathematical & Computational Biology
+SC Life Sciences & Biomedicine - Other Topics; Computer Science; Engineering; Mathematical & Computational Biology
+GA 7D1SW
+UT WOS:000900280100004
+PM 36493731
+DA 2023-04-26
+ER
+
+PT J
+AU Muksin, U
+   Riana, E
+   Rudyanto, A
+   Bauer, K
+   Simanjuntak, AVH
+   Weber, M
+AF Muksin, U.
+   Riana, E.
+   Rudyanto, A.
+   Bauer, K.
+   Simanjuntak, A. V. H.
+   Weber, M.
+TI Neural network-based classification of rock properties and seismic vulnerability
+SO GLOBAL JOURNAL OF ENVIRONMENTAL SCIENCE AND MANAGEMENT-GJESM
+LA English
+DT Article
+DE Earthquake; Neural network; Seismic vulnerability; Shear wave velocity; Soil and rock types
+ID shear-wave velocity; hvsr; fault; java; inversion; geology; city
+AB BACKGROUND AND OBJECTIVES: Soil or rock types in a region are often interpreted qualitatively by visually comparing various geophysical properties such as seismic wave velocity and vulnerability, as well as gravity data. Better insight and less human-dependent interpretation of soil types can be obtained from a joint analysis of separated and independent geophysical parameters. This paper discusses the application of a neural network approach to derive rock properties and seismic vulnerability from horizontal-to-vertical seismic ratio and seismic wave velocity data recorded in Majalengka-West Java, Indonesia. METHODS: Seismic microtremors were recorded at 54 locations and additionally multichannel analyses of surface wave experiments were performed at 18 locations because the multichannel analyses of surface wave experiment needs more effort and space. From the two methods, the values of the average shear wave velocity for the upper 30 meters, peak amplitudes and the dominant frequency between the measurement points were obtained from the interpolation of those geophysical data. Neural network was then applied to adaptively cluster and map the geophysical parameters. Four learning model clusters were developed from the three input seismic parameters: shear wave velocity, peak amplitude, and dominant frequency. FINDINGS: Generally, the values of the horizontal to vertical spectral ratios in the west of the study area were low (less than 5) compared with those in the southeastern part. The dominant frequency values in the west were mostly low at around 0.1-3 Hertz, associated with thick sedimentary layer. The pattern of the shear wave velocity map correlates with that of the horizontal to vertical spectral ratio map as the amplification is related to the soil or rock rigidity represented by the shear wave velocity. The combination of the geophysical data showed new features which is not found on the geological map such as in the eastern part of the study area. CONCLUSION: The application of the neural network based clustering analysis to the geophysical data revealed four rock types which are difficult to observe visually. The four clusters classified based on the variation of the geophysical parameters show a good correlation to rock types obtained from previous geological surveys. The clustering classified safe and vulnerable regions although detailed investigation is still required for confirmation before further development. This study demonstrates that low-cost geophysical experiments combined with neural network-based clustering can provide additional information which is important for seismic hazard mitigation in densely populated areas
+C1 [Muksin, U.; Riana, E.] Univ Syiah Kuala, Tsunami & Disaster Mitigat Res Ctr, Banda Aceh, Indonesia.
+   [Rudyanto, A.; Simanjuntak, A. V. H.] Meteorol Climatol & Geophys Agcy, Jakarta, Indonesia.
+   [Bauer, K.; Weber, M.] GFZ German Res Ctr Geosci, D-14473 Potsdam, Germany.
+   [Weber, M.] Univ Potsdam, Karl Liebknecht St, D-14476 Potsdam, Germany.
+C3 Universitas Syiah Kuala; Indonesian Agency for Meteorology, Climatology & Geophysics; Helmholtz Association; Helmholtz-Center Potsdam GFZ German Research Center for Geosciences; University of Potsdam
+RP Muksin, U (corresponding author), Univ Syiah Kuala, Tsunami & Disaster Mitigat Res Ctr, Banda Aceh, Indonesia.
+EM muskin.umar@tdmrc.org; ennitariana12@gmail.com; ariska.rudyanto@bmkg.go.id; andreansimanjuntak@gmail.com; klaus.bauer@gfz-potsdam.de; michael.weber@gfz-potsdam.de
+FU Ministry of Education, Culture, Research and Technology of Indonesia [T46/D2.3/KK.04.05/2019]; SupeRISKa research project [PRJ-103/LPDP/2021]
+CR Afnimar, 2015, GEOSCI LETT, V2, P0, DOI 10.1186/s40562-015-0020-5
+   Arai H, 2004, B SEISMOL SOC AM, V94, P53, DOI 10.1785/0120030028
+   Asten MW, 2014, EXPLOR GEOPHYS, V45, P74, DOI 10.1071/EG12026
+   Bauer K, 2012, GEOPHYS J INT, V189, P984, DOI 10.1111/j.1365-246X.2012.05402.x
+   Bauer K, 2008, GEOPHYS RES LETT, V35, P0, DOI 10.1029/2008GL035263
+   Bauer K, 2020, GEOPHYS PROSPECT, V68, P466, DOI 10.1111/1365-2478.12853
+   BSSC, 1997, NEHRP REC PROV SEISM, V302, P303
+   Chavez-Garcia FJ, 2005, B SEISMOL SOC AM, V95, P277, DOI 10.1785/0120030179
+   Ching F.D.K., 2018, BUILDING CODES ILLUS, Vsixth, P0
+   Daryono MR, 2019, TECTONOPHYSICS, V751, P180, DOI 10.1016/j.tecto.2018.12.014
+   Day R.W, 2012, GEOTECHNICAL EARTHQU, V0, P0
+   Djuri M., 1995, PETA GEOLOGI LEMBAR, V0, P0
+   Dobry R., 2000, EARTHQ SPECTRA, V16, P41, DOI 10.1193/1.1586082
+   Fat-Helbary RE, 2019, J AFR EARTH SCI, V154, P89, DOI 10.1016/j.jafrearsci.2019.03.015
+   Gallipoli MR, 2009, B SEISMOL SOC AM, V99, P340, DOI 10.1785/0120080083
+   Griffin C, 2020, SINGAPORE J TROP GEO, V41, P23, DOI 10.1111/sjtg.12294
+   Hollender F, 2018, B EARTHQ ENG, V16, P2337, DOI 10.1007/s10518-017-0135-5
+   Irsyam M., 2017, PETA SUMBER BAHAYA G, V0, P0
+   Jena R, 2020, INT J DISAST RISK RE, V46, P0, DOI 10.1016/j.ijdrr.2020.101518
+   Kanli AI, 2006, GEOPHYS J INT, V165, P223, DOI 10.1111/j.1365-246X.2006.02882.x
+   Kham M, 2006, B SEISMOL SOC AM, V96, P1934, DOI 10.1785/0120050143
+   KOHONEN T, 1990, P IEEE, V78, P1464, DOI 10.1109/5.58325
+   Konno K, 1998, B SEISMOL SOC AM, V88, P228
+   Koulali A, 2017, EARTH PLANET SC LETT, V458, P69, DOI 10.1016/j.epsl.2016.10.039
+   Leyton F, 2013, ENG GEOL, V161, P26, DOI 10.1016/j.enggeo.2013.04.009
+   Marliyani GI, 2020, J VOLCANOL GEOTH RES, V400, P0, DOI 10.1016/j.jvolgeores.2020.106912
+   Muksin U, 2013, GEOPHYS J INT, V195, P2037, DOI 10.1093/gji/ggt383
+   Muksin U, 2013, J VOLCANOL GEOTH RES, V260, P27, DOI 10.1016/j.jvolgeores.2013.04.012
+   Nakamura Y, 2000, P 12 WORLD C EARTHQ, V0, P0
+   Nakamura Y, 2009, NATO SCI PEACE SECUR, V0, PP33, DOI 10.1007/978-1-4020-9196-4_4
+   Nejad MM, 2018, SOIL DYN EARTHQ ENG, V104, P54, DOI 10.1016/j.soildyn.2017.10.001
+   Park C. B., 2007, LEADING EDGE, V26, P60, DOI 10.1190/1.2431832
+   Park CB, 1999, GEOPHYSICS, V64, P800, DOI 10.1190/1.1444590
+   Pasari S, 2021, PURE APPL GEOPHYS, V178, P2789, DOI 10.1007/s00024-021-02781-4
+   Ryberg T, 2016, J VOLCANOL GEOTH RES, V321, P73, DOI 10.1016/j.jvolgeores.2016.04.035
+   Selles A, 2015, J ASIAN EARTH SCI, V108, P33, DOI 10.1016/j.jseaes.2015.04.026
+   SESAME, 2004, GUIDELINES IMPLEMENT, V0, P0
+   Shreyasvi C, 2019, SOIL DYN EARTHQ ENG, V123, P381, DOI 10.1016/j.soildyn.2019.04.035
+   Sparks RSJ, 2012, SCIENCE, V335, P1310, DOI 10.1126/science.1219485
+   Stambouli AB, 2017, EARTH PLANETS SPACE, V69, P0, DOI 10.1186/s40623-017-0686-3
+   Stanko D, 2020, NAT HAZARDS, V103, P3715, DOI 10.1007/s11069-020-04152-z
+   Supendi P, 2018, GEOSCI LETT, V5, P0, DOI 10.1186/s40562-018-0130-y
+   Wessel P, 2019, GEOCHEM GEOPHY GEOSY, V20, P5556, DOI 10.1029/2019GC008515
+   Xia JH, 2002, SOIL DYN EARTHQ ENG, V22, P181, DOI 10.1016/S0267-7261(02)00008-8
+   Xia JH, 1999, GEOPHYSICS, V64, P691, DOI 10.1190/1.1444578
+   Zaputlyaeva A, 2020, SCI REP-UK, V10, P0, DOI 10.1038/s41598-020-58567-6
+NR 46
+TC 2
+Z9 2
+U1 3
+U2 7
+PU Professor J. Nouri
+PI Tehran
+PA No. 2, Kouhestan Deadend, Janpour street, Darabad Square, P.O.Box 1956934485, Tehran, IRAN
+SN 2383-3572
+EI 2383-3866
+J9 GLOB J ENVIRON SCI M
+JI Glob. J. Environ. Sci. Manag.
+PD JUN 15
+PY 2023
+VL 9
+IS 1
+BP 15
+EP 30
+DI 10.22034/gjesm.2023.01.02
+PG 16
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA 4E7NC
+UT WOS:000848007700002
+DA 2023-04-26
+ER
+
+PT J
+AU Latif, RMA
+   He, JL
+   Umer, M
+AF Latif, Rana Muhammad Amir
+   He, Jinliao
+   Umer, Muhammad
+TI Mapping Cropland Extent in Pakistan Using Machine Learning Algorithms on Google Earth Engine Cloud Computing Framework
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE geospatial analysis; Sentinel-2 MSI; machine learning; Google Earth Engine; cloud computing; cropland mapping
+ID land-cover map; time-series; random forest; semantic segmentation; neural-network; sentinel-2; resolution; classification; product; intensification
+AB An actual cropland extent product with a high spatial resolution with a precision of up to 60 m is believed to be particularly significant in tackling numerous water security concerns and world food challenges. To advance the development of niche, advanced cropland goods such as crop variety techniques, crop intensities, crop water production, and crop irrigation, it is necessary to examine how cropland products typically span narrow or expansive farmlands. Some of the existing challenges are processing by constructing precision-high resolution cropland-wide items of training and testing data on diverse geographical locations and safe frontiers, computing capacity, and managing vast volumes of geographical data. This analysis includes eight separate Sentinel-2 multi-spectral instruments data from 2018 to 2019 (Short-wave Infrared Imagery (SWIR 2), SWIR 1, Cirrus, the near infrared, red, green, blue, and aerosols) have been used. Pixel-based classification algorithms have been employed, and their precision is measured and scrutinized in this study. The computations and analyses have been conducted on the cloud-based Google Earth Engine computing network. Training and testing data were obtained from the Google Earth Engine map console at a high spatial 10 m resolution for this analysis. The basis of research information for testing the computer algorithms consists of 855 training samples, culminating in a manufacturing field of 200 individual validation samples measuring product accuracy. The Pakistan cropland extent map produced in this study using four state-of-the-art machine learning (ML) approaches, Random Forest, SVM, Naive Bayes & CART shows an overall validation accuracy of 82%, 89% manufacturer accuracy, and 77% customer accuracy. Among these four machine learning algorithms, the CART algorithm overperformed the other three, with an impressive classification accuracy of 93%. Pakistan's average cropland areas were calculated to be 370,200 m(2), and the cropland's scale of goods indicated that sub-national croplands could be measured. The research offers a conceptual change in the development of cropland maps utilizing a remote sensing multi-date.
+C1 [Latif, Rana Muhammad Amir; He, Jinliao] East China Normal Univ, Inst Urban Dev, Ctr Modern Chinese City Studies, Shanghai 200062, Peoples R China.
+   [Umer, Muhammad] COMSATS Univ Islamabad, Dept Comp Sci, Islamabad 22060, Pakistan.
+C3 East China Normal University; COMSATS University Islamabad (CUI)
+RP He, JL (corresponding author), East China Normal Univ, Inst Urban Dev, Ctr Modern Chinese City Studies, Shanghai 200062, Peoples R China.
+EM jlhe@iud.ecnu.edu.cn
+FU National Natural Science Foundation of China [42130510, 42171214]
+CR Alberto R., 2016, P 2016 ISPRS C, V3, P0
+   Arsanjani JJ, 2016, HABITAT INT, V55, P25, DOI 10.1016/j.habitatint.2016.02.003
+   Balado J, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19163466
+   Basso B., 2013, P 1 M SCI ADVISORY C, V0, P0
+   Belgiu M, 2018, REMOTE SENS ENVIRON, V204, P509, DOI 10.1016/j.rse.2017.10.005
+   Bellon B, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9060600
+   Bihani A, 2022, COMPUT GEOSCI-UK, V158, P0, DOI 10.1016/j.cageo.2021.104952
+   Biradar CM, 2009, INT J APPL EARTH OBS, V11, P114, DOI 10.1016/j.jag.2008.11.002
+   Boryan C, 2011, GEOCARTO INT, V26, P341, DOI 10.1080/10106049.2011.562309
+   Boulila W, 2019, EARTH SCI INFORM, V12, P295, DOI 10.1007/s12145-018-00376-7
+   Carroll ML, 2009, INT J DIGIT EARTH, V2, P291, DOI 10.1080/17538940902951401
+   Castaldi F, 2019, ISPRS J PHOTOGRAMM, V147, P267, DOI 10.1016/j.isprsjprs.2018.11.026
+   Chen BY, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13040731
+   Chen ZH, 2022, INT J APPL EARTH OBS, V113, P0, DOI 10.1016/j.jag.2022.103010
+   Congalton R.G., 2017, GLOB FOOD SECUR-AGR, V0, P0
+   Csillik O., 2017, P 20 AGILE INT C GEO, V0, P0
+   Davis KF, 2017, NAT GEOSCI, V10, P919, DOI 10.1038/s41561-017-0004-5
+   Del Valle TM, 2022, INT J APPL EARTH OBS, V115, P0, DOI 10.1016/j.jag.2022.103092
+   Dilshad Ahmad, 2017, SARHAD JOURNAL OF AGRICULTURE, V33, P385, DOI 10.17582/journal.sja/2017/33.3.385.396
+   Du BJ, 2021, IEEE J-STARS, V14, P8249, DOI 10.1109/JSTARS.2021.3100923
+   Erickson T., 2014, AM GEOPH UN AGU FALL, V0, P0
+   Estel S, 2015, REMOTE SENS ENVIRON, V163, P312, DOI 10.1016/j.rse.2015.03.028
+   Estevez J, 2022, REMOTE SENS ENVIRON, V273, P0, DOI 10.1016/j.rse.2022.112958
+   FAO, 2013, PAK REV WHEAT SECT G, V0, P0
+   Friesz AM, 2017, REMOTE SENS LETT, V8, P389, DOI 10.1080/2150704X.2016.1271469
+   Gathala MK, 2016, FIELD CROP RES, V186, P32, DOI 10.1016/j.fcr.2015.11.008
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Gumma MK, 2020, GISCI REMOTE SENS, V57, P302, DOI 10.1080/15481603.2019.1690780
+   Gumma MK, 2018, GISCI REMOTE SENS, V55, P926, DOI 10.1080/15481603.2018.1482855
+   Gumma MK, 2016, INT J DIGIT EARTH, V9, P981, DOI 10.1080/17538947.2016.1168489
+   Gumma MK, 2014, ISPRS J PHOTOGRAMM, V91, P98, DOI 10.1016/j.isprsjprs.2014.02.007
+   Hansen MC, 2013, SCIENCE, V342, P850, DOI 10.1126/science.1244693
+   He YQ, 2017, REMOTE SENS ENVIRON, V199, P201, DOI 10.1016/j.rse.2017.07.010
+   Jayne T.S., 2012, GLOBAL AGROECOLOGICA, V0, P0
+   Jiang D, 2021, FUTURE GENER COMP SY, V123, P94, DOI 10.1016/j.future.2021.04.019
+   Kang B, 2019, IEEE T IMAGE PROCESS, V28, P3542, DOI 10.1109/TIP.2019.2905081
+   Kanjir U, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7100405
+   Khan A, 2016, INT J REMOTE SENS, V37, P1391, DOI 10.1080/01431161.2016.1151572
+   Kolecka N, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081221
+   Lambert MJ, 2018, REMOTE SENS ENVIRON, V216, P647, DOI 10.1016/j.rse.2018.06.036
+   Lebourgeois V, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9030259
+   Lebrini Y, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13040578
+   Li J, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090902
+   Li L, 2017, J VOLCANOL GEOTH RES, V345, P109, DOI 10.1016/j.jvolgeores.2017.07.014
+   Li QY, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12040602
+   Liang D, 2015, ISPRS INT J GEO-INF, V4, P2519, DOI 10.3390/ijgi4042519
+   Liu JH, 2012, PHOTOGRAMM ENG REM S, V78, P829, DOI 10.14358/PERS.78.8.829
+   Liu T, 2018, GISCI REMOTE SENS, V55, P243, DOI 10.1080/15481603.2018.1426091
+   Low F, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020159
+   Lutter S, 2016, GLOBAL ENVIRON CHANG, V38, P171, DOI 10.1016/j.gloenvcha.2016.03.001
+   Maciel DA, 2021, ISPRS J PHOTOGRAMM, V182, P134, DOI 10.1016/j.isprsjprs.2021.10.009
+   Mahdianpari M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11010043
+   Mallick J, 2021, ECOL INFORM, V65, P0, DOI 10.1016/j.ecoinf.2021.101426
+   More S.S., 2019, P 2019 6 INT C COMPU, V0, P0
+   Mountrakis G, 2011, ISPRS J PHOTOGRAMM, V66, P247, DOI 10.1016/j.isprsjprs.2010.11.001
+   Murmu S, 2015, AQUAT PR, V4, P1203, DOI 10.1016/j.aqpro.2015.02.153
+   Nellis M.D., 2009, SAGE HDB REMOTE SENS, V1, P368
+   Quang NH, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14194822
+   Oliphant AJ, 2019, INT J APPL EARTH OBS, V81, P110, DOI 10.1016/j.jag.2018.11.014
+   Onacillova K, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14164076
+   Pakistan Bureau of Statistics, 2010, AGR CENS 2010 PAK RE, V0, P0
+   Pelletier C, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050523
+   Pelletier C, 2016, REMOTE SENS ENVIRON, V187, P156, DOI 10.1016/j.rse.2016.10.010
+   Pfister S, 2016, INT J LIFE CYCLE ASS, V21, P1349, DOI 10.1007/s11367-015-0937-0
+   Pittman K, 2010, REMOTE SENS-BASEL, V2, P1844, DOI 10.3390/rs2071844
+   Poortinga A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070831
+   Pratico S, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13040586
+   Ran YH, 2015, SCI CHINA EARTH SCI, V58, P1677, DOI 10.1007/s11430-015-5132-4
+   Ravi D, 2016, PATTERN RECOGN, V52, P260, DOI 10.1016/j.patcog.2015.10.021
+   Saranya J., 2019, INT RES J ENG TECHNO, V6, P282
+   Seydi ST, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13020220
+   Shaharum NSN, 2020, REMOTE SENS APPL, V17, P0, DOI 10.1016/j.rsase.2020.100287
+   Shao Y, 2011, IEEE J-STARS, V4, P336, DOI 10.1109/JSTARS.2010.2062173
+   Shao Y, 2010, PHOTOGRAMM ENG REM S, V76, P73, DOI 10.14358/PERS.76.1.73
+   Shayeganpour S, 2021, ADV SPACE RES, V68, P3992, DOI 10.1016/j.asr.2021.08.003
+   Shelestov A, 2017, FRONT EARTH SC-SWITZ, V5, P1, DOI 10.3389/feart.2017.00017
+   Sibanda M, 2016, IEEE J-STARS, V9, P3957, DOI 10.1109/JSTARS.2016.2574360
+   Sibanda M, 2015, ISPRS J PHOTOGRAMM, V110, P55, DOI 10.1016/j.isprsjprs.2015.10.005
+   Singh R, 2021, VISUAL COMPUT, V37, P2157, DOI 10.1007/s00371-020-01977-4
+   Sitthi A, 2016, SUSTAINABILITY-BASEL, V8, P0, DOI 10.3390/su8090921
+   Sun Y, 2018, ISPRS J PHOTOGRAMM, V143, P3, DOI 10.1016/j.isprsjprs.2018.06.005
+   Sun YH, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3052254
+   Suni T, 2015, ANTHROPOCENE, V12, P69, DOI 10.1016/j.ancene.2015.12.001
+   Sweeney S, 2015, REMOTE SENS-BASEL, V7, P15295, DOI 10.3390/rs71115295
+   Tamiminia H, 2020, ISPRS J PHOTOGRAMM, V164, P152, DOI 10.1016/j.isprsjprs.2020.04.001
+   Taylor & Francis, 2015, LAND RESOURCES MONIT, V0, P0
+   Teluguntla P, 2017, NASA MAKING EARTH SY, V0, P0
+   Teluguntla P, 2018, ISPRS J PHOTOGRAMM, V144, P325, DOI 10.1016/j.isprsjprs.2018.07.017
+   Teluguntla P, 2017, INT J DIGIT EARTH, V10, P944, DOI 10.1080/17538947.2016.1267269
+   Thenkabail P., 2018, REMOTE SENS HBK, V0, P865
+   Useya J, 2019, IEEE ACCESS, V7, P53603, DOI 10.1109/ACCESS.2019.2912807
+   Van Tricht K, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101642
+   van Zanten HHE, 2016, INT J LIFE CYCLE ASS, V21, P747, DOI 10.1007/s11367-015-0944-1
+   Varma M.K.S., 2016, P 2016 IEEE 6 INT C, V0, P0
+   Vijayan T, 2020, MICROPROCESSORS, V0, P0, DOI DOI 10.1016/j.micpro.2020.103353
+   Vogels MFA, 2017, INT J APPL EARTH OBS, V54, P114, DOI 10.1016/j.jag.2016.09.003
+   Waldner F, 2015, ISPRS J PHOTOGRAMM, V110, P1, DOI 10.1016/j.isprsjprs.2015.09.013
+   Xie YH, 2019, ISPRS J PHOTOGRAMM, V155, P136, DOI 10.1016/j.isprsjprs.2019.07.005
+   Xiong J, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9101065
+   Xiong J, 2017, ISPRS J PHOTOGRAMM, V126, P225, DOI 10.1016/j.isprsjprs.2017.01.019
+   Yan L, 2018, REMOTE SENS ENVIRON, V215, P495, DOI 10.1016/j.rse.2018.04.021
+   Yang YK, 2017, ISPRS J PHOTOGRAMM, V125, P156, DOI 10.1016/j.isprsjprs.2017.01.016
+   Zhong LH, 2016, ISPRS J PHOTOGRAMM, V119, P151, DOI 10.1016/j.isprsjprs.2016.05.014
+NR 103
+TC 0
+Z9 0
+U1 4
+U2 4
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD FEB 15
+PY 2023
+VL 12
+IS 2
+BP 
+EP 
+DI 10.3390/ijgi12020081
+PG 24
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 9I2CA
+UT WOS:000939323500001
+DA 2023-04-26
+ER
+
+PT J
+AU Xi, DP
+   Hu, XN
+   Yang, L
+   Yang, N
+   Liu, YZ
+   Jiang, H
+AF Xi, Daping
+   Hu, Xini
+   Yang, Lin
+   Yang, Nai
+   Liu, Yanzhu
+   Jiang, Han
+TI Research on map emotional semantics using deep learning approach
+SO CARTOGRAPHY AND GEOGRAPHIC INFORMATION SCIENCE
+LA English
+DT Article; Early Access
+DE Image semantics; convolutional neural networks; cartography; feature extraction; image classification
+ID image; recognition; space
+AB The main purpose of the research on map emotional semantics is to describe and express the emotional responses caused by people observing images through computer technology. Nowadays, map application scenarios tend to be diversified, and the increasing demand for emotional information of map users bring new challenges for cartography. However, the lack of evaluation of emotions in the traditional map drawing process makes it difficult for the resulting maps to reach emotional resonance with map users. The core of solving this problem is to quantify the emotional semantics of maps, it can help mapmakers to better understand map emotions and improve user satisfaction. This paper aims to perform the quantification of map emotional semantics by applying transfer learning methods and the efficient computational power of convolutional neural networks (CNN) to establish the correspondence between visual features and emotions. The main contributions of this paper are as follows: (1) a Map Sentiment Dataset containing five discrete emotion categories; (2) three different CNNs (VGG16, VGG19, and InceptionV3) are applied for map sentiment classification task and evaluated by accuracy performance; (3) six different parameter combinations to conduct experiments that would determine the best combination of learning rate and batch size; and (4) the analysis of visual variables that affect the sentiment of a map according to the chart and visualization results. The experimental results reveal that the proposed method has good accuracy performance (around 88%) and that the emotional semantics of maps have some general rules.
+C1 [Xi, Daping; Hu, Xini; Yang, Nai; Liu, Yanzhu] China Univ Geosci, Sch Geog & Informat Engn, Wuhan, Peoples R China.
+   [Yang, Lin] China Univ Geosci, Sch Comp Sci, Wuhan, Peoples R China.
+   [Jiang, Han] Wuhan Britain China High Sch, Wuhan, Peoples R China.
+C3 China University of Geosciences; China University of Geosciences
+RP Yang, L (corresponding author), China Univ Geosci, Sch Comp Sci, Wuhan, Peoples R China.
+EM yanglin@cug.edu.cn
+CR Akhand MAH, 2021, ELECTRONICS-SWITZ, V10, P0, DOI 10.3390/electronics10091036
+   Alam M, 2021, MOBILE NETW APPL, V26, P200, DOI 10.1007/s11036-020-01703-3
+   Campos V, 2017, IMAGE VISION COMPUT, V65, P15, DOI 10.1016/j.imavis.2017.01.011
+   Cao Y. B., 2011, AUTOPHAGY, V34, P231, DOI https://doi.org/10.3969/j.issn.1672-5867.2011.01.070
+   Chen M, 2015, IEEE IMAGE PROC, V0, PP4491, DOI 10.1109/ICIP.2015.7351656
+   Chowdary MK, 2021, NEURAL COMPUT APPL, V0, P0, DOI DOI 10.1007/s00521-021-06012-8
+   Colombo C, 1999, IEEE MULTIMEDIA, V6, P38, DOI 10.1109/93.790610
+   Coudray N, 2018, NAT MED, V24, P1559, DOI 10.1038/s41591-018-0177-5
+   Das Papiya, 2020, 2020 8TH INTERNATIONAL CONFERENCE ON RELIABILITY, V0, P339, DOI 10.1109/ICRITO48877.2020.9197899
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Dhar DB, 2006, INT J DOC ANAL RECOG, V8, P232, DOI 10.1007/s10032-005-0010-9
+   Gong H, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13122268
+   Gong R, 2017, OPTIK, V136, P71, DOI 10.1016/j.ijleo.2017.02.026
+   He XF, 2003, IEEE T CIRC SYST VID, V13, P39, DOI 10.1109/TCSVT.2002.808087
+   Hussain M, 2019, ADV INTELL SYST, V840, P191, DOI 10.1007/978-3-319-97982-3_16
+   Islam J, 2016, PROCEEDINGS OF 2016 IEEE INTERNATIONAL CONFERENCES ON BIG DATA AND CLOUD COMPUTING (BDCLOUD 2016) SOCIAL COMPUTING AND NETWORKING (SOCIALCOM 2016) SUSTAINABLE COMPUTING AND COMMUNICATIONS (SUSTAINCOM 2016) (BDCLOUD-SOCIALCOM-SUSTAINCOM 2016), V0, PP124, DOI 10.1109/BDCloud-SocialCom-SustainCom.2016.29
+   Ji RR, 2016, FRONT COMPUT SCI-CHI, V10, P602, DOI 10.1007/s11704-016-5453-2
+   Jia J., 2012, P 20 ACM INT C MULT, V0, PP857, DOI 10.1145/2393347.2396330
+   Jindal S, 2015, 2015 IEEE INTERNATIONAL CONFERENCE ON INFORMATION PROCESSING (ICIP), V0, PP447, DOI 10.1109/INFOP.2015.7489424
+   Lang PJ, 1998, BIOL PSYCHIAT, V44, P1248, DOI 10.1016/S0006-3223(98)00275-3
+   LANG PJ, 1979, PSYCHOPHYSIOLOGY, V16, P495, DOI 10.1111/j.1469-8986.1979.tb01511.x
+   Li HF, 2019, 2019 IEEE FIFTH INTERNATIONAL CONFERENCE ON BIG DATA COMPUTING SERVICE AND APPLICATIONS (IEEE BIGDATASERVICE 2019), V0, PP322, DOI 10.1109/BigDataService.2019.00057
+   Lu Xin, 2012, PROC ACM INT CONF MULTIMED, V2012, P229, DOI 10.1145/2393347.2393384
+   [马晨燕 Ma Chenyan], 2005, 武汉大学学报. 信息科学版 GEOMATICS AND INFORMATION SCIENCE OF WUHAN UNIVERSITY, V30, P313
+   Machajdik Jana, 2010, PROC 18 ACM INT C MU, V0, PP83, DOI 10.1145/1873951.1873965
+   Mikels JA, 2005, BEHAV RES METHODS, V37, P626, DOI 10.3758/BF03192732
+   Ortis A, 2020, IET IMAGE PROCESS, V14, P1440, DOI 10.1049/iet-ipr.2019.1270
+   Ou LC, 2004, COLOR RES APPL, V29, P381, DOI 10.1002/col.20047
+   Priya DT, 2020, INT J SPEECH TECHNOL, V23, P361, DOI 10.1007/s10772-020-09707-w
+   Russakovsky O, 2015, INT J COMPUT VISION, V115, P211, DOI 10.1007/s11263-015-0816-y
+   Sartori A, 2015, MM15: PROCEEDINGS OF THE 2015 ACM MULTIMEDIA CONFERENCE, V0, PP311, DOI 10.1145/2733373.2806250
+   Selvaraju RR, 2020, INT J COMPUT VISION, V128, P336, DOI 10.1007/s11263-019-01228-7
+   Siersdorfer S., 2010, MM 10 PROC ACM MULTI, V0, PP715, DOI 10.1145/1873951.1874060
+   Simonyan K, 2015, ARXIV, V0, P0
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   [王惠锋 Wang Huifeng], 2002, 计算机研究与发展 COMPUTER RESEARCH AND DEVELOPMENT, V39, P513
+   [王伟凝 Wang Weining], 2003, 电路与系统学报 JOURNAL OF CIRCUITS AND SYSTEMS, V8, P101
+   Wang WN, 2008, IEEE IMAGE PROC, V0, PP117, DOI 10.1109/ICIP.2008.4711705
+   Wang X., 2019, J CONTEMP CHINA, V42, P28, DOI https://doi.org/10.3969/j.issn.1672-5867.2019.09.009
+   [王征 Wang Zheng], 2017, 南京师大学报. 自然科学版 JOURNAL OF NANJING NORMAL UNIVERSITY. NATURAL SCIENCE, V40, P74
+   Wei-Ning W, 2006, IEEE SYS MAN CYBERN, V0, PP3534, DOI 10.1109/ICSMC.2006.384667
+   Yanulevskaya V, 2008, IEEE IMAGE PROC, V0, PP101, DOI 10.1109/ICIP.2008.4711701
+   You QZ, 2016, AAAI CONF ARTIF INTE, V0, P308
+   Zeiler MD, 2014, LECT NOTES COMPUT SC, V8689, P818, DOI 10.1007/978-3-319-10590-1_53
+   [张浩 Zhang Hao], 2019, 中国科学. 信息科学 SCIENTIA SINICA INFORMATIONIS, V49, P204
+   Zhang N, 2021, ELECTRONICS-SWITZ, V10, P0, DOI 10.3390/electronics10030282
+   Zhang X., 2018, P 10 INT C IMAGE SIG, V0, PP1, DOI 10.1109/CISP-BMEI.2017.8301971
+   Zhao SC, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP47, DOI 10.1145/2647868.2654930
+   Zhu XG, 2017, PROCEEDINGS OF THE TWENTY-SIXTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P3595
+NR 49
+TC 0
+Z9 0
+U1 3
+U2 3
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 1523-0406
+EI 1545-0465
+J9 CARTOGR GEOGR INF SC
+JI Cartogr. Geogr. Inf. Sci.
+PD JUN 15
+PY 2023
+VL 0
+IS 
+BP 
+EP 
+DI 10.1080/15230406.2023.2172081
+PG 16
+WC Geography
+SC Geography
+GA 9B5JY
+UT WOS:000934774500001
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, XG
+   Sun, YP
+   Li, QZ
+   Li, XD
+   Shi, XY
+AF Zhang, Xingguo
+   Sun, Yinping
+   Li, Qize
+   Li, Xiaodi
+   Shi, Xinyu
+TI Crowd Density Estimation and Mapping Method Based on Surveillance Video and GIS
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE VideoGIS; geographic video; crowd density; geographic mapping; deep learning
+ID people
+AB Aiming at the problem that the existing crowd counting methods cannot achieve accurate crowd counting and map visualization in a large scene, a crowd density estimation and mapping method based on surveillance video and GIS (CDEM-M) is proposed. Firstly, a crowd semantic segmentation model (CSSM) and a crowd denoising model (CDM) suitable for high-altitude scenarios are constructed by transfer learning. Then, based on the homography matrix between the video and remote sensing image, the crowd areas in the video are projected to the map space. Finally, according to the distance from the crowd target to the camera, the camera inclination, and the area of the crowd polygon in the geographic space, a BP neural network for the crowd density estimation is constructed. The results show the following: (1) The test accuracy of the CSSM was 96.70%, and the classification accuracy of the CDM was 86.29%, which can achieve a high-precision crowd extraction in large scenes. (2) The BP neural network for the crowd density estimation was constructed, with an average error of 1.2 and a mean square error of 4.5. Compared to the density map method, the MAE and RMSE of the CDEM-M are reduced by 89.9 and 85.1, respectively, which is more suitable for a high-altitude camera. (3) The crowd polygons were filled with the corresponding number of points, and the symbol was a human icon. The crowd mapping and visual expression were realized. The CDEM-M can be used for crowd supervision in stations, shopping malls, and sports venues.
+C1 [Zhang, Xingguo; Sun, Yinping; Li, Qize; Li, Xiaodi; Shi, Xinyu] Xinyang Normal Univ, Sch Geog Sci, Xinyang 464000, Peoples R China.
+C3 Xinyang Normal University
+RP Zhang, XG (corresponding author), Xinyang Normal Univ, Sch Geog Sci, Xinyang 464000, Peoples R China.
+EM zhangxingguo@xynu.edu.cn
+CR Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bai HY, 2022, NEUROCOMPUTING, V508, P1, DOI 10.1016/j.neucom.2022.08.037
+   Boominathan L, 2016, MM16: PROCEEDINGS OF THE 2016 ACM MULTIMEDIA CONFERENCE, V0, PP640, DOI 10.1145/2964284.2967300
+   Cao XK, 2018, LECT NOTES COMPUT SC, V11209, P757, DOI 10.1007/978-3-030-01228-1_45
+   Chan AB, 2008, PROC CVPR IEEE, V0, PP1766, DOI 10.1109/cvpr.2008.4587569
+   Chan AB, 2009, IEEE I CONF COMP VIS, V0, PP545, DOI 10.1109/ICCV.2009.5459191
+   Chen LC, 2016, ARXIV, V0, P0
+   Chen LC, 2017, ARXIV, V0, P0
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Cho SY, 1999, IEEE T SYST MAN CY B, V29, P535, DOI 10.1109/3477.775269
+   Chrysler A., 2021, IOP CONFERENCE SERIES: EARTH AND ENVIRONMENTAL SCIENCE, V729, P0, DOI 10.1088/1755-1315/729/1/012029
+   Collins RT, 2001, P IEEE, V89, P1456, DOI 10.1109/5.959341
+   Csurka G, 2011, INT J COMPUT VISION, V95, P198, DOI 10.1007/s11263-010-0344-8
+   Dai H.H., 2017, P 2017 12 INT C INTE, V0, PP1, DOI 10.1109/ISKE.2017.8258831
+   Day Y. F., 1995, PROCEEDINGS OF THE INTERNATIONAL CONFERENCE ON MULTIMEDIA COMPUTING AND SYSTEMS (CAT. NO.95TH8066), V0, PP98, DOI 10.1109/MMCS.1995.484913
+   Felzenszwalb PF, 2010, IEEE T PATTERN ANAL, V32, P1627, DOI 10.1109/TPAMI.2009.167
+   Fu H, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13030441
+   Guo YM, 2018, INT J MULTIMED INF R, V7, P87, DOI 10.1007/s13735-017-0141-z
+   Hai, 2014, ADV MATER RES-KR, V3326, P5536, DOI 10.4028/WWW.SCIENTIFIC.NET/AMR.989-994.5536
+   Hassanzadeh T, 2022, NEUROCOMPUTING, V488, P271, DOI 10.1016/j.neucom.2022.02.003
+   Hsu S, 2000, PROC CVPR IEEE, V0, PP488, DOI 10.1109/CVPR.2000.855859
+   Hsueh YL, 2020, INFORM SCIENCES, V517, P275, DOI 10.1016/j.ins.2020.01.002
+   Idrees H, 2013, PROC CVPR IEEE, V0, PP2547, DOI 10.1109/CVPR.2013.329
+   Joo IH, 2004, IEEE IMAGE PROC, V0, P1695
+   Lawin FJ, 2017, LECT NOTES COMPUT SC, V10424, P95, DOI 10.1007/978-3-319-64689-3_8
+   Leow W.K., 2008, P 16 INT C MULTIMEDI, V0, PP369, DOI 10.1145/1459359.1459409
+   Lewis P, 2011, INT J GEOGR INF SCI, V25, P697, DOI 10.1080/13658816.2010.505196
+   Li B, 2021, PATTERN ANAL APPL, V24, P853, DOI 10.1007/s10044-021-00959-z
+   Li YH, 2018, PROC CVPR IEEE, V0, PP1091, DOI 10.1109/CVPR.2018.00120
+   Lin SF, 2001, IEEE T SYST MAN CY A, V31, P645, DOI 10.1109/3468.983420
+   Liu SQ, 2017, IEEE INT SYMP PARAL, V0, PP967, DOI 10.1109/ISPA/IUCC.2017.00148
+   Liu YB, 2021, APPL INTELL, V51, P427, DOI 10.1007/s10489-020-01842-w
+   Ma H, 2014, GEOINFORMATICA, V18, P671, DOI 10.1007/s10707-013-0199-6
+   McDonald GC, 2009, WIRES COMPUT STAT, V1, P0, DOI 10.1002/wics.14
+   Milosavljevic A, 2010, INT J GEOGR INF SCI, V24, P1415, DOI 10.1080/13658811003792213
+   Paragios N., 2001, PROC CVPR IEEE, V0, P0, DOI DOI 10.1109/CVPR.2001.990644
+   Pissinou N, 2001, GEOINFORMATICA, V5, P375, DOI 10.1023/A:1012749903497
+   Qiu WD, 2022, ARAB J SCI ENG, V47, P11089, DOI 10.1007/s13369-021-05634-3
+   Redmon J, 2017, PROC CVPR IEEE, V0, PP6517, DOI 10.1109/CVPR.2017.690
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Ross DA, 2008, INT J COMPUT VISION, V77, P125, DOI 10.1007/s11263-007-0075-7
+   Saleh SAM, 2015, ENG APPL ARTIF INTEL, V41, P103, DOI 10.1016/j.engappai.2015.01.007
+   Sankaranarayanan Karthik, 2008, 2008 IEEE FIFTH INTERNATIONAL CONFERENCE ON ADVANCED VIDEO AND SIGNAL BASED SURVEILLANCE, V0, PP245, DOI 10.1109/AVSS.2008.20
+   Sengar SS, 2017, SIGNAL IMAGE VIDEO P, V11, P1357, DOI 10.1007/s11760-017-1093-8
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Sindagi VA, 2017, IEEE I CONF COMP VIS, V0, PP1879, DOI 10.1109/ICCV.2017.206
+   Smeulders AWM, 2014, IEEE T PATTERN ANAL, V36, P1442, DOI 10.1109/TPAMI.2013.230
+   Song H, 2022, ISPRS J PHOTOGRAMM, V187, P159, DOI 10.1016/j.isprsjprs.2022.02.007
+   Sultani W, 2018, PROC CVPR IEEE, V0, PP6479, DOI 10.1109/CVPR.2018.00678
+   Pham VQ, 2015, IEEE I CONF COMP VIS, V0, PP3253, DOI 10.1109/ICCV.2015.372
+   Wang Q, 2021, IEEE T PATTERN ANAL, V43, P2141, DOI 10.1109/TPAMI.2020.3013269
+   Wang Q, 2019, PROC CVPR IEEE, V0, PP8190, DOI 10.1109/CVPR.2019.00839
+   Wang T, 2018, OPTIK, V152, P50, DOI 10.1016/j.ijleo.2017.07.064
+   Wang Y, 2016, IEEE IMAGE PROC, V0, PP3653, DOI 10.1109/ICIP.2016.7533041
+   Weihu Zhang, 2020, 2020 INTERNATIONAL CONFERENCE ON VIRTUAL REALITY AND INTELLIGENT SYSTEMS (ICVRIS), V0, PP973, DOI 10.1109/ICVRIS51417.2020.00237
+   Wu B, 2007, INT J COMPUT VISION, V75, P247, DOI 10.1007/s11263-006-0027-7
+   Wu C, 2015, ISPRS INTERNATIONAL WORKSHOP ON SPATIOTEMPORAL COMPUTING, V0, PP29, DOI 10.5194/isprsannals-II-4-W2-29-2015
+   Xie YJ, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6040094
+   Xiong QH, 2021, MULTIMED TOOLS APPL, V0, P0, DOI DOI 10.1007/s11042-020-10172-5
+   Yu CY, 2021, LASER OPTOELECTRON P, V58, P0, DOI 10.3788/LOP202158.0810011
+   Yu HS, 2018, NEUROCOMPUTING, V304, P82, DOI 10.1016/j.neucom.2018.03.037
+   Zhang C, 2015, PROC CVPR IEEE, V0, PP833, DOI 10.1109/CVPR.2015.7298684
+   Zhang L, 2018, IEEE WINT CONF APPL, V0, PP1113, DOI 10.1109/WACV.2018.00127
+   Zhang XG, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10120803
+   Zhang YY, 2016, PROC CVPR IEEE, V0, PP589, DOI 10.1109/CVPR.2016.70
+   Zhang YJ, 2017, J PHYS CONF SER, V887, P0, DOI 10.1088/1742-6596/887/1/012068
+   Zhao HS, 2017, PROC CVPR IEEE, V0, PP6230, DOI 10.1109/CVPR.2017.660
+NR 69
+TC 0
+Z9 0
+U1 1
+U2 1
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD FEB 15
+PY 2023
+VL 12
+IS 2
+BP 
+EP 
+DI 10.3390/ijgi12020056
+PG 17
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 9Q4ZL
+UT WOS:000944974000001
+DA 2023-04-26
+ER

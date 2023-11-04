@@ -1,0 +1,636 @@
+
+PT J
+AU Fu, GZ
+   Zhang, ZG
+   Le, WW
+   Li, JB
+   Zhu, QX
+   Niu, FZ
+   Chen, H
+   Sun, FY
+   Shen, YH
+AF Fu, Guizhong
+   Zhang, Zengguang
+   Le, Wenwu
+   Li, Jinbin
+   Zhu, Qixin
+   Niu, Fuzhou
+   Chen, Hao
+   Sun, Fangyuan
+   Shen, Yehu
+TI A multi-scale pooling convolutional neural network for accurate steel surface defects classification
+SO FRONTIERS IN NEUROROBOTICS
+LA English
+DT Article
+DE convolutional neural network; multi-scale; defect classification; class activation map; feature visualization
+ID learning-based approach
+AB Surface defect detection is an important technique to realize product quality inspection. In this study, we develop an innovative multi-scale pooling convolutional neural network to accomplish high-accuracy steel surface defect classification. The model was built based on SqueezeNet, and experiments were carried out on the NEU noise-free and noisy testing set. Class activation map visualization proves that the multi-scale pooling model can accurately capture the defect location at multiple scales, and the defect feature information at different scales can complement and reinforce each other to obtain more robust results. Through T-SNE visualization analysis, it is found that the classification results of this model have large inter-class distance and small intra-class distance, indicating that this model has high reliability and strong generalization ability. In addition, the model is small in size (3MB) and runs at up to 130FPS on an NVIDIA 1080Ti GPU, making it suitable for applications with high real-time requirements.
+C1 [Fu, Guizhong; Zhang, Zengguang; Le, Wenwu; Zhu, Qixin; Niu, Fuzhou; Chen, Hao; Sun, Fangyuan; Shen, Yehu] Suzhou Univ Sci & Technol, Sch Mech Engn, Suzhou, Peoples R China.
+   [Li, Jinbin] Shihezi Univ, Coll Mech & Elect Engn, Shihezi, Peoples R China.
+C3 Suzhou University of Science & Technology; Shihezi University
+RP Fu, GZ (corresponding author), Suzhou Univ Sci & Technol, Sch Mech Engn, Suzhou, Peoples R China.
+EM fuguizhongchina@163.com
+FU National Natural Science Foundation of China [52105526, 51975394, 61903269, 51875380]; China Postdoctoral Science Foundation [2020M671383, 2020M681517]
+CR Aghdam S. R., 2012, 2012 7TH IEEE CONFERENCE ON INDUSTRIAL ELECTRONICS AND APPLICATIONS (ICIEA 2012). PROCEEDINGS, V0, PP1447, DOI 10.1109/ICIEA.2012.6360951
+   Belkin M, 2019, P NATL ACAD SCI USA, V116, P15849, DOI 10.1073/pnas.1903070116
+   Bissi L, 2013, J VIS COMMUN IMAGE R, V24, P838, DOI 10.1016/j.jvcir.2013.05.011
+   Bouaafia S, 2021, INT MULTICONF SYST, V0, PP23, DOI 10.1109/SSD52085.2021.9429420
+   Chu MX, 2017, CHEMOMETR INTELL LAB, V171, P140, DOI 10.1016/j.chemolab.2017.10.020
+   Dogandzic A, 2005, AIP CONF PROC, V760, P704, DOI 10.1063/1.1916744
+   Fu GZ, 2019, OPT LASER ENG, V121, P397, DOI 10.1016/j.optlaseng.2019.05.005
+   Glorot X., 2010, AISTATS, V0, PPPP 249, DOI 10.4236/JSIP.2015.62006
+   HARALICK RM, 1973, IEEE T SYST MAN CYB, VSMC3, P610, DOI 10.1109/TSMC.1973.4309314
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Howard A. G., 2017, CORR, V0, P0, DOI DOI 10.48550/ARXIV.1704.04861
+   Iandola F.N., 2016, ARXIV160207360, V0, P0
+   Jia YQ, 2014, PROCEEDINGS OF THE 2014 ACM CONFERENCE ON MULTIMEDIA (MM14), V0, PP675, DOI 10.1145/2647868.2654889
+   Jiasen Lu, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP10434, DOI 10.1109/CVPR42600.2020.01045
+   Kang XJ, 2020, IEEE ACCESS, V8, P221808, DOI 10.1109/ACCESS.2020.3041849
+   Khumaidi A, 2017, 2017 INTERNATIONAL SEMINAR ON INTELLIGENT TECHNOLOGY AND ITS APPLICATIONS (ISITIA), V0, P261
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Li PF, 2015, J TEXT I, V106, P587, DOI 10.1080/00405000.2014.929790
+   Li WC, 2012, PATTERN RECOGN, V45, P742, DOI 10.1016/j.patcog.2011.07.025
+   Lin M., 2013, ARXIV PREPRINT, V0, P0
+   Liu Y, 2020, MATERIALS, V13, P0, DOI 10.3390/ma13204629
+   Mak KL, 2009, IMAGE VISION COMPUT, V27, P1585, DOI 10.1016/j.imavis.2009.03.007
+   Mohamed AA, 2012, 2012 11TH INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND APPLICATIONS (ICMLA 2012), VOL 1, P57, DOI 10.1109/ICMLA.2012.19
+   Narayanan BN, 2019, PROC SPIE, V11139, P0, DOI 10.1117/12.2524681
+   Neogi N, 2014, EURASIP J IMAGE VIDE, V0, PP1, DOI 10.1186/1687-5281-2014-50
+   Ravikumar S, 2011, EXPERT SYST APPL, V38, P3260, DOI 10.1016/j.eswa.2010.09.012
+   Ren RX, 2018, IEEE T CYBERNETICS, V48, P929, DOI 10.1109/TCYB.2017.2668395
+   Simonyan K, 2015, ARXIV, V0, P0
+   Song KC, 2013, APPL SURF SCI, V285, P858, DOI 10.1016/j.apsusc.2013.09.002
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Wang SQ, 2022, IEEE T SYST MAN CY-S, V52, P426, DOI 10.1109/TSMC.2020.2997852
+   Wang SQ, 2018, 2018 17TH IEEE INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND APPLICATIONS (ICMLA), V0, PP517, DOI 10.1109/ICMLA.2018.00083
+   Xu K., 2020, ARXIV, V0, P0
+   Yi L, 2017, STEEL RES INT, V88, P176, DOI 10.1002/srin.201600068
+   Yu W, 2022, IEEE T NEUR NET LEAR, V33, P4945, DOI 10.1109/TNNLS.2021.3063516
+   Zhang ZF, 2019, J MANUF PROCESS, V42, P51, DOI 10.1016/j.jmapro.2019.04.023
+   Zhou B, 2016, PROC CVPR IEEE, V0, PP2921, DOI 10.1109/CVPR.2016.319
+   Zoric B, 2022, ISA T, V125, P400, DOI 10.1016/j.isatra.2021.06.025
+NR 39
+TC 0
+Z9 0
+U1 10
+U2 10
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 1662-5218
+EI 
+J9 FRONT NEUROROBOTICS
+JI Front. Neurorobotics
+PD FEB 14
+PY 2023
+VL 17
+IS 
+BP 
+EP 
+DI 10.3389/fnbot.2023.1096083
+PG 12
+WC Computer Science, Artificial Intelligence; Robotics; Neurosciences
+SC Computer Science; Robotics; Neurosciences & Neurology
+GA 9I8KT
+UT WOS:000939752800001
+PM 36864898
+DA 2023-04-26
+ER
+
+PT J
+AU Ohki, T
+   Kunii, N
+   Chao, ZC
+AF Ohki, Takefumi
+   Kunii, Naoto
+   Chao, Zenas C.
+TI Efficient, continual, and generalized learning in the brain - neural mechanism of Mental Schema 2.0-
+SO REVIEWS IN THE NEUROSCIENCES
+LA English
+DT Article; Early Access
+DE artificial intelligence; deep learning; human intelligence; neural oscillations; sharp-wave ripples
+ID hippocampal place cells; grid cells; spatial topology; reverse replay; cognitive map; memory; representation; sleep; number; theta
+AB There has been tremendous progress in artificial neural networks (ANNs) over the past decade; however, the gap between ANNs and the biological brain as a learning device remains large. With the goal of closing this gap, this paper reviews learning mechanisms in the brain by focusing on three important issues in ANN research: efficiency, continuity, and generalization. We first discuss the method by which the brain utilizes a variety of self-organizing mechanisms to maximize learning efficiency, with a focus on the role of spontaneous activity of the brain in shaping synaptic connections to facilitate spatiotemporal learning and numerical processing. Then, we examined the neuronal mechanisms that enable lifelong continual learning, with a focus on memory replay during sleep and its implementation in brain-inspired ANNs. Finally, we explored the method by which the brain generalizes learned knowledge in new situations, particularly from the mathematical generalization perspective of topology. Besides a systematic comparison in learning mechanisms between the brain and ANNs, we propose "Mental Schema 2.0," a new computational property underlying the brain's unique learning ability that can be implemented in ANNs.
+C1 [Ohki, Takefumi; Chao, Zenas C.] Univ Tokyo, Inst Adv Study, Int Res Ctr Neurointelligence WPI IRCN, Tokyo 1130033, Japan.
+   [Kunii, Naoto] Univ Tokyo, Dept Neurosurg, Tokyo 1130033, Japan.
+C3 University of Tokyo; University of Tokyo
+RP Ohki, T (corresponding author), Univ Tokyo, Inst Adv Study, Int Res Ctr Neurointelligence WPI IRCN, Tokyo 1130033, Japan.
+EM takefumi2ohki@gmail.com
+FU World Premier International Research Center Initiative (WPI), MEXT, Japan
+CR Rusu AA, 2016, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1606.04671
+   Adamantidis AR, 2019, NAT REV NEUROSCI, V20, P746, DOI 10.1038/s41583-019-0223-4
+   Ambrose RE, 2016, NEURON, V91, P1124, DOI 10.1016/j.neuron.2016.07.047
+   [Anonymous], 1900, V116, V0, P15210
+   [Anonymous], 1900, V374, V0, P0
+   [Anonymous], 1900, V117, V0, P689
+   [Anonymous], 1900, V107, V0, P2277
+   Asok A, 2019, TRENDS NEUROSCI, V42, P14, DOI 10.1016/j.tins.2018.10.005
+   Babichev A, 2019, NETW NEUROSCI, V3, P707, DOI 10.1162/netn_a_00076
+   Babichev A, 2018, FRONT COMPUT NEUROSC, V12, P0, DOI 10.3389/fncom.2018.00027
+   Bahtiyar S, 2020, MOL CELL NEUROSCI, V108, P0, DOI 10.1016/j.mcn.2020.103537
+   Baraduc P, 2019, SCIENCE, V363, P635, DOI 10.1126/science.aav5404
+   Baram AB, 2021, NEURON, V109, P713, DOI 10.1016/j.neuron.2020.11.024
+   Bassett DS, 2018, BIOL PSYCHIAT-COGN N, V3, P742, DOI 10.1016/j.bpsc.2018.03.015
+   Bassett DS, 2017, NAT NEUROSCI, V20, P353, DOI 10.1038/nn.4502
+   Behrens TEJ, 2018, NEURON, V100, P490, DOI 10.1016/j.neuron.2018.10.002
+   Bhattarai B., 2020, P NATL ACAD SCI US, V0, P0
+   Bongard S., 2010, P NATL ACAD SCI US, V0, P0
+   Bonifazi P, 2009, SCIENCE, V326, P1419, DOI 10.1126/science.1175509
+   Bowman CR, 2018, J NEUROSCI, V38, P2605, DOI 10.1523/JNEUROSCI.2811-17.2018
+   Broadbent N.J., 2004, P NATL ACAD SCI US, V0, P0
+   Brunel N, 2004, NEURON, V43, P745, DOI 10.1016/j.neuron.2004.08.023
+   Buch ER, 2021, CELL REP, V35, P0, DOI 10.1016/j.celrep.2021.109193
+   Bui K, 2021, FRONT APPL MATH STAT, V6, P0, DOI 10.3389/fams.2020.529564
+   Burak Y, 2009, PLOS COMPUT BIOL, V5, P0, DOI 10.1371/journal.pcbi.1000291
+   Burgess N, 2011, CURR OPIN NEUROBIOL, V21, P734, DOI 10.1016/j.conb.2011.07.002
+   Burgess N, 2008, HIPPOCAMPUS, V18, P1157, DOI 10.1002/hipo.20518
+   BUZSAKI G, 1983, BRAIN RES REV, V6, P139, DOI 10.1016/0165-0173(83)90037-1
+   Buzsaki G, 2015, HIPPOCAMPUS, V25, P1073, DOI 10.1002/hipo.22488
+   Buzsaki G, 2014, NAT REV NEUROSCI, V15, P264, DOI 10.1038/nrn3687
+   Buzsaki G, 2018, TRENDS COGN SCI, V22, P853, DOI 10.1016/j.tics.2018.07.006
+   Cang ZX, 2017, PLOS COMPUT BIOL, V13, P0, DOI 10.1371/journal.pcbi.1005690
+   Carlsson G, 2009, B AM MATH SOC, V46, P255, DOI 10.1090/S0273-0979-09-01249-X
+   Chaudhuri R, 2019, NAT NEUROSCI, V22, P1512, DOI 10.1038/s41593-019-0460-x
+   Chen GQ, 2010, J NEUROSCI, V30, P13066, DOI 10.1523/JNEUROSCI.2378-10.2010
+   Chen Z., 2018, SYNTHESIS LECT ARTIF, V12, P1, DOI 10.1007/978-3-031-01581-6
+   Chen Z, 2014, NEURAL COMPUT, V26, P1, DOI 10.1162/NECO_a_00538
+   Chen Z, 2012, J COMPUT NEUROSCI, V33, P227, DOI 10.1007/s10827-012-0384-x
+   Chung MK, 2019, NETW NEUROSCI, V3, P674, DOI 10.1162/netn_a_00091
+   Colbran RJ, 2015, J BIOL CHEM, V290, P28594, DOI 10.1074/jbc.R115.696468
+   Cossell L, 2015, NATURE, V518, P399, DOI 10.1038/nature14182
+   Curtis A, 2022, AAAI CONF ARTIF INTE, V0, P5377
+   Curto C, 2017, B AM MATH SOC, V54, P63, DOI 10.1090/bull/1554
+   Dabaghian Y, 2014, ELIFE, V3, P0, DOI 10.7554/eLife.03476
+   Dabaghian Y, 2012, PLOS COMPUT BIOL, V8, P0, DOI 10.1371/journal.pcbi.1002581
+   Dabaghian Y, 2021, FRONT COMPUT NEUROSC, V14, P0, DOI 10.3389/fncom.2020.593166
+   Danjo T, 2018, SCIENCE, V359, P213, DOI 10.1126/science.aao3898
+   Dehaene-Lambertz G, 2015, NEURON, V88, P93, DOI 10.1016/j.neuron.2015.09.026
+   DiTullio RW, 2021, CURR OPIN NEUROBIOL, V70, P206, DOI 10.1016/j.conb.2021.11.007
+   Dragoi G, 2006, NEURON, V50, P145, DOI 10.1016/j.neuron.2006.02.023
+   Dragoi G, 2011, NATURE, V469, P397, DOI 10.1038/nature09633
+   Edwards LA, 2016, DEVELOPMENTAL SCI, V19, P757, DOI 10.1111/desc.12333
+   Ellis CT, 2019, NETW NEUROSCI, V3, P695, DOI 10.1162/netn_a_00095
+   Esteva A, 2017, NATURE, V542, P115, DOI 10.1038/nature21056
+   Fanselow MS, 2005, ANNU REV PSYCHOL, V56, P207, DOI 10.1146/annurev.psych.56.091103.070213
+   FeldmanHall O, 2021, J NEUROSCI, V41, P1340, DOI 10.1523/JNEUROSCI.0873-20.2020
+   Feldmeyer D, 1999, J PHYSIOL-LONDON, V521, P169, DOI 10.1111/j.1469-7793.1999.00169.x
+   Fiete IR, 2008, J NEUROSCI, V28, P6858, DOI 10.1523/JNEUROSCI.5684-07.2008
+   Flesch T., 2018, P NATL ACAD SCI US, V0, P0
+   Foster DJ, 2007, HIPPOCAMPUS, V17, P1093, DOI 10.1002/hipo.20345
+   Foster DJ, 2006, NATURE, V440, P680, DOI 10.1038/nature04587
+   Galland BC, 2012, SLEEP MED REV, V16, P213, DOI 10.1016/j.smrv.2011.06.001
+   Gardner RJ, 2022, NATURE, V602, P123, DOI 10.1038/s41586-021-04268-7
+   Gauthier JL, 2018, NEURON, V99, P179, DOI 10.1016/j.neuron.2018.06.008
+   Ge XX, 2021, SCIENCE, V373, P412, DOI 10.1126/science.abd0830
+   Ghrist R, 2008, B AM MATH SOC, V45, P61, DOI 10.1090/s0273-0979-07-01191-3
+   Gillespie AK, 2021, NEURON, V109, P3149, DOI 10.1016/j.neuron.2021.07.029
+   Girardeau G, 2021, SCIENCE, V374, P560, DOI 10.1126/science.abi8370
+   Girardeau G, 2009, NAT NEUROSCI, V12, P1222, DOI 10.1038/nn.2384
+   Giusti C., 2015, P NATL ACAD SCI US, V0, P0
+   Giusti C, 2016, J COMPUT NEUROSCI, V41, P1, DOI 10.1007/s10827-016-0608-6
+   Golub MD, 2018, NAT NEUROSCI, V21, P607, DOI 10.1038/s41593-018-0095-3
+   Gonzalez C, 2022, J NEUROSCI, V42, P4517, DOI 10.1523/JNEUROSCI.1786-21.2022
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   Gothard KM, 1996, J NEUROSCI, V16, P8027
+   Gridchyn I, 2020, NEURON, V106, P291, DOI 10.1016/j.neuron.2020.01.021
+   Grosmark AD, 2016, SCIENCE, V351, P1440, DOI 10.1126/science.aad1935
+   Gulledge AT, 2003, J NEUROSCI, V23, P11363
+   Hadsell R, 2020, TRENDS COGN SCI, V24, P1028, DOI 10.1016/j.tics.2020.09.004
+   Hasselmo ME, 2007, HIPPOCAMPUS, V17, P1252, DOI 10.1002/hipo.20374
+   Hatcher A., 2002, ALGEBRAIC TOPOLOGY, V0, P0
+   Helfrich RF, 2018, NEURON, V97, P221, DOI 10.1016/j.neuron.2017.11.020
+   Hensel F, 2021, FRONT ARTIF INTELL, V4, P0, DOI 10.3389/frai.2021.681108
+   Higgins C, 2021, NEURON, V109, P0, DOI 10.1016/j.neuron.2020.12.007
+   Hofer C, 2017, ADV NEUR IN, V30, P0
+   Hosny A, 2018, PLOS MED, V15, P0, DOI 10.1371/journal.pmed.1002711
+   Hoydal OA, 2019, NATURE, V568, P400, DOI 10.1038/s41586-019-1077-7
+   Huszar R, 2022, NAT NEUROSCI, V25, P1201, DOI 10.1038/s41593-022-01138-x
+   Hyde DC, 2010, NEUROIMAGE, V53, P647, DOI 10.1016/j.neuroimage.2010.06.030
+   Ikegaya Y, 2013, CEREB CORTEX, V23, P293, DOI 10.1093/cercor/bhs006
+   Ishikawa T, 2020, SCI ADV, V6, P0, DOI 10.1126/sciadv.aay1492
+   Izard V, 2008, PLOS BIOL, V6, P275, DOI 10.1371/journal.pbio.0060011
+   Izard V, 2009, P NATL ACAD SCI USA, V106, P10382, DOI 10.1073/pnas.0812142106
+   JARRARD LE, 1993, BEHAV NEURAL BIOL, V60, P9, DOI 10.1016/0163-1047(93)90664-4
+   Jeffery KJ, 2003, HIPPOCAMPUS, V13, P175, DOI 10.1002/hipo.10047
+   Julian JB, 2021, NAT NEUROSCI, V24, P863, DOI 10.1038/s41593-021-00835-3
+   Jung H, 2018, AAAI CONF ARTIF INTE, V0, P3358
+   Kaefer K, 2020, NEURON, V106, P154, DOI 10.1016/j.neuron.2020.01.015
+   Kanari L, 2022, CELL REP, V39, P0, DOI 10.1016/j.celrep.2022.110586
+   Kandel ER, 2001, SCIENCE, V294, P1030, DOI 10.1126/science.1067020
+   Kang L, 2019, ELIFE, V8, P0, DOI 10.7554/eLife.46687
+   Kemker R, 2018, ARXIV, V0, P0
+   Kepecs A, 2014, NATURE, V505, P318, DOI 10.1038/nature12983
+   Khazipov R, 2004, NATURE, V432, P758, DOI 10.1038/nature03132
+   Khodagholy D, 2017, SCIENCE, V358, P369, DOI 10.1126/science.aan6203
+   Kim G, 2021, SCI ADV, V7, P0, DOI 10.1126/sciadv.abd6127
+   Knudsen EB, 2021, CELL, V184, P4640, DOI 10.1016/j.cell.2021.07.010
+   Konidaris G, 2019, CURR OPIN BEHAV SCI, V29, P1, DOI 10.1016/j.cobeha.2018.11.005
+   Korngiebel DM, 2021, NPJ DIGIT MED, V4, P0, DOI 10.1038/s41746-021-00464-x
+   Krabbe S, 2019, NAT NEUROSCI, V22, P1834, DOI 10.1038/s41593-019-0508-y
+   Kumaran D, 2016, TRENDS COGN SCI, V20, P512, DOI 10.1016/j.tics.2016.05.004
+   Kumaran D, 2012, FRONT HUM NEUROSCI, V6, P0, DOI 10.3389/fnhum.2012.00157
+   Kutter EF, 2018, NEURON, V100, P753, DOI 10.1016/j.neuron.2018.08.036
+   Langston RF, 2010, SCIENCE, V328, P1576, DOI 10.1126/science.1188210
+   Lanore F, 2021, NAT NEUROSCI, V24, P1142, DOI 10.1038/s41593-021-00873-x
+   Latchoumane CFV, 2017, NEURON, V95, P424, DOI 10.1016/j.neuron.2017.06.025
+   Lefort S, 2009, NEURON, V61, P301, DOI 10.1016/j.neuron.2008.12.020
+   Lehtela L, 1997, NEUROSCI LETT, V222, P111, DOI 10.1016/S0304-3940(97)13361-4
+   Leutgeb JK, 2005, NEURON, V48, P345, DOI 10.1016/j.neuron.2005.09.007
+   Lever C, 2002, NATURE, V416, P90, DOI 10.1038/416090a
+   Lever C, 2009, J NEUROSCI, V29, P9771, DOI 10.1523/JNEUROSCI.1319-09.2009
+   Li XL, 2010, BIOPHYS J, V98, P1733, DOI 10.1016/j.bpj.2010.01.013
+   Li ZZ, 2018, IEEE T PATTERN ANAL, V40, P2935, DOI 10.1109/TPAMI.2017.2773081
+   Liu YZ, 2021, SCIENCE, V372, P807, DOI 10.1126/science.abf1357
+   London M, 2005, ANNU REV NEUROSCI, V28, P503, DOI 10.1146/annurev.neuro.28.061604.135703
+   Ma RR, 2019, NEURAL NETWORKS, V119, P286, DOI 10.1016/j.neunet.2019.08.015
+   Mander BA, 2017, NEURON, V94, P19, DOI 10.1016/j.neuron.2017.02.004
+   MANDLER G, 1982, J EXP PSYCHOL GEN, V111, P1, DOI 10.1037/0096-3445.111.1.1
+   Mathis A, 2012, NEURAL COMPUT, V24, P2280, DOI 10.1162/NECO_a_00319
+   Mccloskey M., 1989, PSYCHOL LEARN MOTIV, V24, P109, DOI 10.1016/S0079-7421(08)60536-8
+   McCrink K, 2004, PSYCHOL SCI, V15, P776, DOI 10.1111/j.0956-7976.2004.00755.x
+   Michon F, 2019, CURR BIOL, V29, P1436, DOI 10.1016/j.cub.2019.03.048
+   Mikutta C, 2019, J SLEEP RES, V28, P0, DOI 10.1111/jsr.12835
+   Mindell JA, 2010, SLEEP MED, V11, P274, DOI 10.1016/j.sleep.2009.04.012
+   Mitsuno K, 2020, IEEE IJCNN, V0, P0
+   Miyawaki H, 2022, NAT COMMUN, V13, P0, DOI 10.1038/s41467-022-28929-x
+   Molle M, 2011, SLEEP, V34, P1411, DOI 10.5665/SLEEP.1290
+   Moser EI, 2008, ANNU REV NEUROSCI, V31, P69, DOI 10.1146/annurev.neuro.31.061307.090723
+   MULLER RU, 1987, J NEUROSCI, V7, P1951
+   Nakazawa K, 2004, NAT REV NEUROSCI, V5, P361, DOI 10.1038/nrn1385
+   Nasr K, 2019, SCI ADV, V5, P0, DOI 10.1126/sciadv.aav7903
+   Navarro-Lobato I, 2019, NEUROBIOL LEARN MEM, V160, P3, DOI 10.1016/j.nlm.2018.03.013
+   Ngo CT, 2021, CURR BIOL, V31, P2690, DOI 10.1016/j.cub.2021.03.088
+   Nieder A, 2004, P NATL ACAD SCI USA, V101, P7457, DOI 10.1073/pnas.0402239101
+   Nieder A, 2021, J EXP BIOL, V224, P0, DOI 10.1242/jeb.218289
+   Nieder A, 2016, NAT REV NEUROSCI, V17, P366, DOI 10.1038/nrn.2016.40
+   Nieder A, 2009, ANNU REV NEUROSCI, V32, P185, DOI 10.1146/annurev.neuro.051508.135550
+   Norimoto H, 2018, SCIENCE, V359, P1524, DOI 10.1126/science.aao0702
+   Oby E.R., 2019, P NATL ACAD SCI US, V0, P0
+   Ohki T, 2018, EUR J NEUROSCI, V48, P2416, DOI 10.1111/ejn.13844
+   Ohki T, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep37973
+   OKeefe J, 1996, NATURE, V381, P425, DOI 10.1038/381425a0
+   OKEEFE J, 1993, HIPPOCAMPUS, V3, P317, DOI 10.1002/hipo.450030307
+   Oyanedel C.N., 2020, TEMPORAL ASS SLEEP S, V0, P0
+   Parisi GI, 2018, FRONT NEUROROBOTICS, V12, P0, DOI 10.3389/fnbot.2018.00078
+   Parisi GI, 2019, NEURAL NETWORKS, V113, P54, DOI 10.1016/j.neunet.2019.01.012
+   Patania A, 2019, NETW NEUROSCI, V3, P744, DOI 10.1162/netn_a_00094
+   PAVLIDES C, 1989, J NEUROSCI, V9, P2907
+   Pica P, 2004, SCIENCE, V306, P499, DOI 10.1126/science.1102085
+   Qasim SE, 2021, CELL, V184, P3242, DOI 10.1016/j.cell.2021.04.017
+   Rasmussen MA, 2012, CHEMOMETR INTELL LAB, V119, P21, DOI 10.1016/j.chemolab.2012.10.003
+   Reichle ME, 2010, TRENDS COGN SCI, V14, P180, DOI 10.1016/j.tics.2010.01.008
+   Revkin SK, 2008, PSYCHOL SCI, V19, P607, DOI 10.1111/j.1467-9280.2008.02130.x
+   Robins A., 1995, CONNECTION SCIENCE, V7, P123, DOI 10.1080/09540099550039318
+   Romano D, 2014, HUM BRAIN MAPP, V35, P4904, DOI 10.1002/hbm.22521
+   Roscow EL, 2021, TRENDS NEUROSCI, V44, P808, DOI 10.1016/j.tins.2021.07.007
+   Rostami B, 2021, COMPUT BIOL MED, V134, P0, DOI 10.1016/j.compbiomed.2021.104536
+   Sadeh A, 2009, J SLEEP RES, V18, P60, DOI 10.1111/j.1365-2869.2008.00699.x
+   Samanta A, 2020, CURR OPIN PHYSIOL, V15, P120, DOI 10.1016/j.cophys.2020.01.003
+   Sanders H, 2020, ELIFE, V9, P0, DOI 10.7554/eLife.51140
+   Sarel A, 2017, SCIENCE, V355, P176, DOI 10.1126/science.aak9589
+   Sawamura H, 2002, NATURE, V415, P918, DOI 10.1038/415918a
+   SAYER RJ, 1990, J NEUROSCI, V10, P826
+   Schilling C, 2018, SLEEP, V41, P0, DOI 10.1093/sleep/zsy007
+   Sezgin E, 2022, JMIR MED INF, V10, P0, DOI 10.2196/32875
+   Shahbaba B, 2022, NAT COMMUN, V13, P0, DOI 10.1038/s41467-022-28057-6
+   SHERRY DF, 1992, TRENDS NEUROSCI, V15, P298, DOI 10.1016/0166-2236(92)90080-R
+   Shin H, 2017, ADV NEUR IN, V30, P0
+   Singh G, 2008, J VISION, V8, P0, DOI 10.1167/8.8.11
+   Sizemore AE, 2019, NETW NEUROSCI, V3, P656, DOI 10.1162/netn_a_00073
+   Song S, 2005, PLOS BIOL, V3, P507, DOI 10.1371/journal.pbio.0030068
+   Stevenson R.F., 2018, P NATL ACAD SCI US, V0, P0
+   Stoianov I, 2012, NAT NEUROSCI, V15, P194, DOI 10.1038/nn.2996
+   Stolz BJ, 2021, J PHYS-COMPLEXITY, V2, P0, DOI 10.1088/2632-072X/abb4c6
+   Strubell E, 2020, AAAI CONF ARTIF INTE, V34, P13693
+   Sunaga M, 2020, FRONT PSYCHIATRY, V11, P0, DOI 10.3389/fpsyt.2020.00597
+   Tagawa M, 2022, PSYCHIAT CLIN NEUROS, V76, P309, DOI 10.1111/pcn.13362
+   Takahashi N., 2010, P NATL ACAD SCI US, V0, P0
+   Tenenbaum JB, 2011, SCIENCE, V331, P1279, DOI 10.1126/science.1192788
+   Terada S, 2017, NEURON, V94, P1248, DOI 10.1016/j.neuron.2017.05.024
+   Tingley D, 2020, PHILOS T R SOC B, V375, P0, DOI 10.1098/rstb.2019.0231
+   Tonolini F, 2020, PR MACH LEARN RES, V115, P690
+   Tononi G, 2014, NEURON, V81, P12, DOI 10.1016/j.neuron.2013.12.025
+   Topaz CM, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0126383
+   Tse D, 2007, SCIENCE, V316, P76, DOI 10.1126/science.1135935
+   Vaidya AR, 2021, ELIFE, V10, P0, DOI 10.7554/eLife.63226
+   van de Ven GM, 2020, NAT COMMUN, V11, P0, DOI 10.1038/s41467-020-17866-2
+   van der Meer M.A.A., 2020, PHILOS T R SOC B, V0, P0
+   Walker MP, 2004, NEURON, V44, P121, DOI 10.1016/j.neuron.2004.08.031
+   Wallenstein GV, 1998, TRENDS NEUROSCI, V21, P317, DOI 10.1016/S0166-2236(97)01220-4
+   Wang LY, 2022, IEEE T NEUR NET LEAR, V33, P1925, DOI 10.1109/TNNLS.2021.3111019
+   Wei XX, 2015, ELIFE, V4, P0, DOI 10.7554/eLife.08362
+   Wikenheiser AM, 2015, NAT NEUROSCI, V18, P289, DOI 10.1038/nn.3909
+   Wills TJ, 2010, SCIENCE, V328, P1573, DOI 10.1126/science.1188224
+   Wittkuhn L, 2021, NEUROSCI BIOBEHAV R, V129, P367, DOI 10.1016/j.neubiorev.2021.08.002
+   Xu M., 2022, P 39 INT C MACHINE L, V0, P24631
+   Yaguchi A, 2018, 2018 17TH IEEE INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND APPLICATIONS (ICMLA), V0, PP318, DOI 10.1109/ICMLA.2018.00054
+   Yamaguchi M., 2010, UNDERSTANDING MATH, V0, P0
+   Zeithamova Dagmar, 2020, NEUROBIOL LEARN MEM, V175, P107317, DOI 10.1016/j.nlm.2020.107317
+   Zeki S, 1999, PHILOS T R SOC B, V354, P2053, DOI 10.1098/rstb.1999.0543
+   Zeng HK, 2017, NAT REV NEUROSCI, V18, P530, DOI 10.1038/nrn.2017.85
+   Zhang DY, 2010, NAT REV NEUROL, V6, P15, DOI 10.1038/nrneurol.2009.198
+NR 212
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WALTER DE GRUYTER GMBH
+PI BERLIN
+PA GENTHINER STRASSE 13, D-10785 BERLIN, GERMANY
+SN 0334-1763
+EI 2191-0200
+J9 REV NEUROSCIENCE
+JI Rev. Neurosci.
+PD JUN 15
+PY 2023
+VL 0
+IS 
+BP 
+EP 
+DI 10.1515/revneuro-2022-0137
+PG 30
+WC Neurosciences
+SC Neurosciences & Neurology
+GA C1AM1
+UT WOS:000959331200001
+PM 36960579
+DA 2023-04-26
+ER
+
+PT J
+AU Chen, D
+   Hu, F
+   Mathiopoulos, PT
+   Zhang, ZX
+   Peethambaran, J
+AF Chen, Dong
+   Hu, Fan
+   Mathiopoulos, P. Takis
+   Zhang, Zhenxin
+   Peethambaran, Jiju
+TI MC-UNet: Martian Crater Segmentation at Semantic and Instance Levels Using U-Net-Based Convolutional Neural Network
+SO REMOTE SENSING
+LA English
+DT Article
+DE Martian craters; crater recognition; semantic segmentation; instance-level segmentation; U-Net; template matching
+ID laser altimeter
+AB Crater recognition on Mars is of paramount importance for many space science applications, such as accurate planetary surface age dating and geological mapping. Such recognition is achieved by means of various image-processing techniques employing traditional CNNs (convolutional neural networks), which typically suffer from slow convergence and relatively low accuracy. In this paper, we propose a novel CNN, referred to as MC-UNet (Martian Crater U-Net), wherein classical U-Net is employed as the backbone for accurate identification of Martian craters at semantic and instance levels from thermal-emission-imaging-system (THEMIS) daytime infrared images. Compared with classical U-Net, the depth of the layers of MC-UNet is expanded to six, while the maximum number of channels is decreased to one-fourth, thereby making the proposed CNN-based architecture computationally efficient while maintaining a high recognition rate of impact craters on Mars. For enhancing the operation of MC-UNet, we adopt average pooling and embed channel attention into the skip-connection process between the encoder and decoder layers at the same network depth so that large-sized Martian craters can be more accurately recognized. The proposed MC-UNet is adequately trained using 2 & SIM;32 km radii Martian craters from THEMIS daytime infrared annotated images. For the predicted Martian crater rim pixels, template matching is subsequently used to recognize Martian craters at the instance level. The experimental results indicate that MC-UNet has the potential to recognize Martian craters with a maximum radius of 31.28 km (136 pixels) with a recall of 0.7916 and F1-score of 0.8355. The promising performance shows that the proposed MC-UNet is on par with or even better than other classical CNN architectures, such as U-Net and Crater U-Net.
+C1 [Chen, Dong; Hu, Fan] Nanjing Forestry Univ, Coll Civil Engn, Nanjing 210037, Peoples R China.
+   [Mathiopoulos, P. Takis] Natl & Kapodistrian Univ Athens, Dept Informat & Telecommun, Athens 15784, Greece.
+   [Zhang, Zhenxin] Capital Normal Univ, Coll Resource Environm & Tourism, Beijing 100048, Peoples R China.
+   [Peethambaran, Jiju] St Marys Univ, Dept Math & Comp Sci, Halifax, NS B3P 2M6, Canada.
+C3 Nanjing Forestry University; National & Kapodistrian University of Athens; Capital Normal University; Saint Marys University - Canada
+RP Zhang, ZX (corresponding author), Capital Normal Univ, Coll Resource Environm & Tourism, Beijing 100048, Peoples R China.
+EM zhangzhx@cnu.edu.cn
+FU National Natural Science Foundation of China; Natural Science Foundation of Jiangsu Province; Qinglan Project of Jiangsu Province, China; Key Laboratory of Land Satellite Remote-Sensing Applications, Ministry of Natural Resources of the People's Republic of China;  [42271450];  [41971415];  [42071445];  [BK20201387];  [KLSMNR-G202209]
+CR [Anonymous], 1979, ICARUS, V37, P467, DOI 10.1016/0019-1035(79)90009-5
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bandeira L, 2007, IEEE T GEOSCI REMOTE, V45, P4008, DOI 10.1109/TGRS.2007.904948
+   Barker MK, 2016, ICARUS, V273, P346, DOI 10.1016/j.icarus.2015.07.039
+   CANNY J, 1986, IEEE T PATTERN ANAL, V8, P679, DOI 10.1109/TPAMI.1986.4767851
+   Cheng Y., 2003, OPTICAL LANDMARK DET, V0, P0
+   DeLatte DM, 2019, IEEE J-STARS, V12, P2944, DOI 10.1109/JSTARS.2019.2918302
+   Diakogiannis FI, 2020, ISPRS J PHOTOGRAMM, V162, P94, DOI 10.1016/j.isprsjprs.2020.01.013
+   DUDA RO, 1972, COMMUN ACM, V15, P11, DOI 10.1145/361237.361242
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Heidler K, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3064606
+   Hong ZH, 2022, SENSOR MATER, V34, P237, DOI 10.18494/SAM3564
+   Jia YT, 2021, IEEE ACCESS, V9, P44107, DOI 10.1109/ACCESS.2021.3066445
+   Keutzer K., 2014, DENSENET IMPLEMENTIN, V0, P0
+   Kim JR, 2005, PHOTOGRAMM ENG REM S, V71, P1205, DOI 10.14358/PERS.71.10.1205
+   Lagain A, 2021, NAT COMMUN, V12, P0, DOI 10.1038/s41467-021-26648-3
+   Long J., 2015, P IEEE C COMPUTER VI, V0, PP3431, DOI 10.48550/ARXIV.1411.4038
+   Moyano-Cambero CE, 2017, METEORIT PLANET SCI, V52, P1030, DOI 10.1111/maps.12851
+   NEUKUM G, 1981, J GEOPHYS RES, V86, P3097, DOI 10.1029/JB086iB04p03097
+   Oktay O, 2018, ARXIV180403999, V0, P0
+   Pan L, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-019-12162-0
+   Robbins SJ, 2012, J GEOPHYS RES-PLANET, V117, P0, DOI 10.1029/2011JE003966
+   Ronneberger O., 2015, INT C MED IM COMP CO, V0, PP234, DOI 10.1007/978-3-319-24574-4_28
+   Saeedizadeh Narges, 2021, COMPUT METHODS PROGRAMS BIOMED UPDATE, V1, P100007, DOI 10.1016/j.cmpbup.2021.100007
+   Sawabe Y, 2006, ADV SPACE RES, V37, P21, DOI 10.1016/j.asr.2005.08.022
+   Sawabe Y., 2005, J REMOTE SENS SOC JP, V25, P157
+   Shuvalov VV, 2012, IZV-PHYS SOLID EART+, V48, P241, DOI 10.1134/S1069351312030056
+   Silburt A, 2019, ICARUS, V317, P27, DOI 10.1016/j.icarus.2018.06.022
+   Smith DE, 2022, PLANET SCI J, V3, P0, DOI 10.3847/PSJ/ac8c39
+   Tan MX, 2019, PR MACH LEARN RES, V97, P0
+   Thomas RJ, 2015, EARTH PLANET SC LETT, V431, P164, DOI 10.1016/j.epsl.2015.09.029
+   Udry A, 2020, J GEOPHYS RES-PLANET, V125, P0, DOI 10.1029/2020JE006523
+   van der Walt S, 2014, PEERJ, V2, P0, DOI 10.7717/peerj.453
+   Wang RJ, 2018, ADV NEUR IN, V31, P0
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Xie SN, 2015, IEEE I CONF COMP VIS, V0, PP1395, DOI 10.1109/ICCV.2015.164
+   Yahyatabar M, 2020, IEEE ENG MED BIO, V0, PP1242, DOI 10.1109/EMBC44109.2020.9176033
+   Yang XF, 2019, IEEE IJCNN, V0, P0
+   Yu MY, 2022, SENSORS-BASEL, V22, P0, DOI 10.3390/s22082932
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+   ZUBER MT, 1992, J GEOPHYS RES-PLANET, V97, P7781, DOI 10.1029/92JE00341
+NR 41
+TC 1
+Z9 1
+U1 6
+U2 6
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD JAN 15
+PY 2023
+VL 15
+IS 1
+BP 
+EP 
+DI 10.3390/rs15010266
+PG 26
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 7Q9SF
+UT WOS:000909721200001
+DA 2023-04-26
+ER
+
+PT J
+AU Benzenati, T
+   Kessentini, Y
+   Kallel, A
+AF Benzenati, Tayeb
+   Kessentini, Yousri
+   Kallel, Abdelaziz
+TI Spectral-Temporal Fusion of Satellite Images via an End-to-End Two-Stream Attention With an Effective Reconstruction Network
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Attention mechanism; convolutional neural network (CNN); image fusion; multisensor image fusion; Planetscope; Sentinel-2; spectral-temporal fusion
+ID landsat; reflectance; resolution
+AB Due to technical and budget constraints on current optical satellites, the acquisition of satellite images with the best resolutions is not practicable. In this article, aiming to produce products with high spectral (HS) and temporal resolutions, we introduced a two-stream spectral-temporal fusion technique based on attention mechanism called STA-Net. STA-Net aims to combine high spectral and low temporal (HSLT) resolution images with low spectral and high temporal (LSHT) resolution images to generate products with the best characteristics. The proposed technique involves two stages. In the first one, two fused images are generated by a two-stream architecture based on residual attention blocks. The temporal difference estimator stream estimates the temporal difference between HS images at desired and neighboring dates. The reflectance difference estimator is the second stream. It predicts the reflectance difference between the input images (HS-LS) to map LS images into HS products. In the second stage, a reconstruction network combines the latter two-stream outputs via an effective learnable weighted-sum strategy. The two-stage model is trained in an end-to-end fashion using an effective loss function to ensure the best fusion quality. To the best of our knowledge, this work represents the first attempt to address the spectral-temporal fusion using an end-to-end deep neural network model. Experimental results conducted on two actual datasets of Sentinel-2 (HSLT:10 spectral bands and long revisit period) and Planetscope (LSHT: four spectral bands and daily images) images, which proved the effectiveness of the proposed technique with respect to baseline technique.
+C1 [Benzenati, Tayeb; Kessentini, Yousri; Kallel, Abdelaziz] Digital Res Ctr Sfax, Lab Signals Syst Artificial Intelligence & Network, Sfax 3021, Tunisia.
+   [Benzenati, Tayeb] Univ Boumerdes, LIMOSE Lab, Boumerdes 35000, Algeria.
+C3 Centre de Recherche en Numerique de Sfax (CRNS); Universite de Sfax; Universite de M'hammed Bougara Boumerdes
+RP Benzenati, T (corresponding author), Digital Res Ctr Sfax, Lab Signals Syst Artificial Intelligence & Network, Sfax 3021, Tunisia.; Benzenati, T (corresponding author), Univ Boumerdes, LIMOSE Lab, Boumerdes 35000, Algeria.
+EM tayeb.benzenati@gmail.com; yousri.kessentini@crns.rnrt.tn; abdelaziz.kallel@crns.rnrt.tn
+CR Bahdanau D, 2016, ARXIV, V0, P0
+   Belgiu M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070818
+   Candra DS, 2020, IOP C SER EARTH ENV, V500, P0, DOI 10.1088/1755-1315/500/1/012037
+   Chan W, 2016, INT CONF ACOUST SPEE, V0, PP4960, DOI 10.1109/ICASSP.2016.7472621
+   Chaudhari S, 2021, ARXIV, V0, P0
+   Chen B, 2015, REMOTE SENS-BASEL, V7, P1798, DOI 10.3390/rs70201798
+   Chung D, 2017, IEEE I CONF COMP VIS, V0, PP1992, DOI 10.1109/ICCV.2017.218
+   Corbetta M, 2002, NAT REV NEUROSCI, V3, P201, DOI 10.1038/nrn755
+   Deshmukh M., 2010, INT J IMAGE PROCESS, V4, P484
+   Dong C, 2016, IEEE T PATTERN ANAL, V38, P295, DOI 10.1109/TPAMI.2015.2439281
+   Duncan JMA, 2015, FRONT ENV SCI-SWITZ, V3, P0, DOI 10.3389/fenvs.2015.00056
+   Chaves MED, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12183062
+   Eldan R., 2016, C LEARNING THEORY, V0, P907
+   Fernandez-Manso A, 2016, INT J APPL EARTH OBS, V50, P170, DOI 10.1016/j.jag.2016.03.005
+   Howard AG, 2017, ARXIV, V0, P0
+   Gao F, 2006, IEEE T GEOSCI REMOTE, V44, P2207, DOI 10.1109/TGRS.2006.872081
+   Garg S, 2019, ARXIV, V0, P0
+   Ghassemian H, 2016, INFORM FUSION, V32, P75, DOI 10.1016/j.inffus.2016.03.003
+   Gonzalez-Sanpedro MC, 2008, REMOTE SENS ENVIRON, V112, P810, DOI 10.1016/j.rse.2007.06.018
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hilker T, 2009, REMOTE SENS ENVIRON, V113, P1613, DOI 10.1016/j.rse.2009.03.007
+   Houborg R, 2018, REMOTE SENS ENVIRON, V209, P211, DOI 10.1016/j.rse.2018.02.067
+   Hu J., 2018, P IEEECVF C COMPUTER, V0, P7132
+   Huang B, 2012, IEEE T GEOSCI REMOTE, V50, P3707, DOI 10.1109/TGRS.2012.2186638
+   Kim JH, 2020, NEUROCOMPUTING, V402, P38, DOI 10.1016/j.neucom.2020.03.069
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Ledig C., 2017, P IEEE C COMP VIS PA, V0, P105
+   Lee J, 2020, IEEE COMPUT SOC CONF, V0, PP2021, DOI 10.1109/CVPRW50498.2020.00252
+   Lim B, 2017, IEEE COMPUT SOC CONF, V0, PP1132, DOI 10.1109/CVPRW.2017.151
+   Liu ML, 2018, SCI TOTAL ENVIRON, V637, P18, DOI 10.1016/j.scitotenv.2018.04.415
+   Liu XY, 2020, INFORM FUSION, V55, P1, DOI 10.1016/j.inffus.2019.07.010
+   Liu X, 2019, IEEE T GEOSCI REMOTE, V57, P6552, DOI 10.1109/TGRS.2019.2907310
+   Liu X, 2016, IEEE GEOSCI REMOTE S, V13, P2039, DOI 10.1109/LGRS.2016.2622726
+   Mahyari AG, 2011, IEEE T GEOSCI REMOTE, V49, P1976, DOI 10.1109/TGRS.2010.2103944
+   Meng XC, 2015, INT GEOSCI REMOTE SE, V0, PP2584, DOI 10.1109/IGARSS.2015.7326340
+   Moosavi V, 2015, REMOTE SENS ENVIRON, V169, P243, DOI 10.1016/j.rse.2015.08.015
+   Panteras G, 2018, INT J REMOTE SENS, V39, P1459, DOI 10.1080/01431161.2017.1400193
+   Shen HF, 2016, IEEE T GEOSCI REMOTE, V54, P7135, DOI 10.1109/TGRS.2016.2596290
+   Song HH, 2018, IEEE J-STARS, V11, P821, DOI 10.1109/JSTARS.2018.2797894
+   Song HH, 2013, IEEE T GEOSCI REMOTE, V51, P1883, DOI 10.1109/TGRS.2012.2213095
+   Tan Z., 2021, IEEE T GEOSCI ELECT, V60, P0
+   Vivone G, 2015, IEEE T GEOSCI REMOTE, V53, P2565, DOI 10.1109/TGRS.2014.2361734
+   Wang F, 2016, ARXIV, V0, P0
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Wang Z, 2002, IEEE SIGNAL PROC LET, V9, P81, DOI 10.1109/97.995823
+   Wang ZS, 2017, INT J APPL EARTH OBS, V59, P104, DOI 10.1016/j.jag.2017.03.008
+   Wei J, 2020, IEEE J-STARS, V13, P5455, DOI 10.1109/JSTARS.2020.3021074
+   Wu MQ, 2015, SENSORS-BASEL, V15, P24002, DOI 10.3390/s150924002
+   Wu PH, 2021, IEEE GEOSC REM SEN M, V9, P112, DOI 10.1109/MGRS.2021.3050782
+   Yin ZX, 2021, IEEE T GEOSCI REMOTE, V59, P1808, DOI 10.1109/TGRS.2020.2999943
+   Yunfei Li, 2021, 2021 IEEE INTERNATIONAL GEOSCIENCE AND REMOTE SENSING SYMPOSIUM IGARSS, V0, PP4452, DOI 10.1109/IGARSS47720.2021.9554794
+   Zhang WW, 2021, IEEE J-STARS, V14, P3719, DOI 10.1109/JSTARS.2021.3068274
+   Zhang YL, 2018, LECT NOTES COMPUT SC, V11211, P294, DOI 10.1007/978-3-030-01234-2_18
+   Zhang YL, 2018, PROC CVPR IEEE, V0, PP2472, DOI 10.1109/CVPR.2018.00262
+   Zhou LG, 2019, IEEE T NEUR NET LEAR, V30, P3275, DOI 10.1109/TNNLS.2018.2890550
+   Zhou Q, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11030328
+   Zhu XL, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10040527
+   Zhu Y, 2019, LECT NOTES COMPUT SC, V11363, P363, DOI 10.1007/978-3-030-20893-6_23
+   Zhu Z, 2014, REMOTE SENS ENVIRON, V144, P152, DOI 10.1016/j.rse.2014.01.011
+   Zhukov B, 1999, IEEE T GEOSCI REMOTE, V37, P1212, DOI 10.1109/36.763276
+   Zurita-Milla R, 2008, IEEE GEOSCI REMOTE S, V5, P453, DOI 10.1109/LGRS.2008.919685
+NR 61
+TC 0
+Z9 0
+U1 2
+U2 2
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2023
+VL 16
+IS 
+BP 1308
+EP 1320
+DI 10.1109/JSTARS.2023.3234722
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 8K1PZ
+UT WOS:000922881800003
+DA 2023-04-26
+ER
+
+PT J
+AU Zhang, H
+   Liu, H
+   Ma, GQ
+   Zhang, Y
+   Yao, JX
+   Gu, C
+AF Zhang, Hao
+   Liu, Hui
+   Ma, Guoqing
+   Zhang, Yang
+   Yao, Jinxia
+   Gu, Chao
+TI A wildfire occurrence risk model based on a back-propagation neural network-optimized genetic algorithm
+SO FRONTIERS IN ENERGY RESEARCH
+LA English
+DT Article
+DE wildfire occurrence risk; artificial intelligence; feature selection; BP neural network; genetic algorithm
+ID feature-selection; probability
+AB To reduce the impact of wildfires on the operation of power systems, a back-propagation neural network (BPNN) model is used to evaluate the wildfire risk distribution after feature selection. Data from 14 types of wildfire-related features, including anthropogenic, geographical, and meteorological factors, were collected from public data websites and local departments. The weight ranking was calculated using filtering and wrapper methods to form five feature subsets. These are used as the input sets of the BPNN model training, and network parameters are optimized by genetic algorithm (GA). Finally, the optimal feature subset is chosen to establish the optimal BPNN model. With the optimal model, the prediction results are graded to draw a wildfire risk distribution map. Situated in medium-, high-, and very-high-risk zones are 90.26% of new fire incidents, indicating the applicability of the proposed BPNN model.
+C1 [Zhang, Hao; Liu, Hui; Ma, Guoqing; Zhang, Yang; Yao, Jinxia; Gu, Chao] State Grid Shandong Elect Power Res Inst, Jinan, Peoples R China.
+C3 State Grid Corporation of China
+RP Zhang, H (corresponding author), State Grid Shandong Elect Power Res Inst, Jinan, Peoples R China.
+EM sdqzzh@163.com
+FU Science and Technology Projects - State Grid Shandong Electric Power Company [5206002000TM]
+CR [Anonymous], 2007, WORLDS MANGROVES 198, V0, P0
+   Boting Chen, 2020, 2020 INTERNATIONAL CONFERENCE ON COMPUTER ENGINEERING AND APPLICATION (ICCEA), V0, PP529, DOI 10.1109/ICCEA50009.2020.00117
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Cai Qi, 2015, 2015 27TH CHINESE CONTROL AND DECISION CONFERENCE (CCDC), V0, PP2883, DOI 10.1109/CCDC.2015.7162418
+   Che JX, 2017, INFORM SCIENCES, V409, P68, DOI 10.1016/j.ins.2017.05.013
+   Chen WJ, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21020634
+   Costafreda-Aumedes S, 2017, INT J WILDLAND FIRE, V26, P983, DOI 10.1071/wf17026
+   [丁思凡 Ding Sifan], 2021, 计算机科学 COMPUTER SCIENCE, V48, P91
+   FONSECA JR, 1990, IEEE T POWER DELIVER, V5, P687, DOI 10.1109/61.53071
+   Guo YF, 2018, IET GENER TRANSM DIS, V12, P3812, DOI 10.1049/iet-gtd.2018.0039
+   Hu X., 2011, RES WILDFIRE PREVENT, V0, P0
+   Hu ZP, 2016, 2016 8TH INTERNATIONAL CONFERENCE ON INFORMATION TECHNOLOGY IN MEDICINE AND EDUCATION (ITME), V0, PP681, DOI 10.1109/ITME.2016.0159
+   Huang JJ, 2007, PATTERN RECOGN LETT, V28, P1825, DOI 10.1016/j.patrec.2007.05.011
+   Jazebi S, 2020, IEEE T POWER DELIVER, V35, P430, DOI 10.1109/TPWRD.2019.2930055
+   Jia G., 2018, RES RISK ASSESSMENT, V0, P0
+   Jiang Q, 2019, IEEE ACCESS, V7, P154827, DOI 10.1109/ACCESS.2019.2944609
+   KIRA K, 1992, AAAI-92 PROCEEDINGS : TENTH NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P129
+   [刘明军 Liu Mingjun], 2016, 电力系统保护与控制 POWER SYSTEM PROTECTION AND CONTROL, V44, P82
+   Panagiotis T. T., 2016, GUIDELINES DRAWING W, V0, P0
+   Pengtian Chen, 2021, JOURNAL OF PHYSICS: CONFERENCE SERIES, V1757, P0, DOI 10.1088/1742-6596/1757/1/012054
+   Shi SZ, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18061941
+   [吴田 Wu Tian], 2012, 电力系统保护与控制 POWER SYSTEM PROTECTION AND CONTROL, V40, P138
+   Zhang HJ, 2013, IEEE J-STARS, V6, P121, DOI 10.1109/JSTARS.2012.2236680
+   [周恩泽 Zhou Enze], 2020, 南方电网技术 SOUTHERN POWER SYSTEM TECHNOLOGY, V14, P8
+NR 24
+TC 0
+Z9 0
+U1 3
+U2 3
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 2296-598X
+EI 
+J9 FRONT ENERGY RES
+JI Front. Energy Res.
+PD JAN 13
+PY 2023
+VL 10
+IS 
+BP 
+EP 
+DI 10.3389/fenrg.2022.1031762
+PG 9
+WC Energy & Fuels
+SC Energy & Fuels
+GA 8G4VI
+UT WOS:000920343400001
+DA 2023-04-26
+ER

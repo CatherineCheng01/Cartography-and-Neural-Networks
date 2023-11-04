@@ -1,0 +1,413 @@
+
+PT J
+AU Lin, HT
+   Gao, ZY
+   Xu, YJ
+   Wu, LR
+   Li, L
+   Li, SZ
+AF Lin, Haitao
+   Gao, Zhangyang
+   Xu, Yongjie
+   Wu, Lirong
+   Li, Ling
+   Li, Stan Z.
+TI Conditional Local Convolution for Spatio-Temporal Meteorological Forecasting
+SO THIRTY-SIXTH AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE / THIRTY-FOURTH CONFERENCE ON INNOVATIVE APPLICATIONS OF ARTIFICIAL INTELLIGENCE / TWELVETH SYMPOSIUM ON EDUCATIONAL ADVANCES IN ARTIFICIAL INTELLIGENCE
+LA English
+DT Proceedings Paper
+AB Spatio-temporal forecasting is challenging attributing to the high nonlinearity in temporal dynamics as well as complex location-characterized patterns in spatial domains, especially in fields like weather forecasting. Graph convolutions are usually used for modeling the spatial dependency in meteorology to handle the irregular distribution of sensors' spatial location. In this work, a novel graph-based convolution for imitating the meteorological flows is proposed to capture the local spatial patterns. Based on the assumption of smoothness of location-characterized patterns, we propose conditional local convolution whose shared kernel on nodes' local space is approximated by feed-forward networks, with local representations of coordinate obtained by horizon maps into cylindrical-tangent space as its input. The established united standard of local coordinate system preserves the orientation on geography. We further propose the distance and orientation scaling terms to reduce the impacts of irregular spatial distribution. The convolution is embedded in a Recurrent Neural Network architecture to model the temporal dynamics, leading to the Conditional Local Convolution Recurrent Network (CLCRN). Our model is evaluated on real-world weather benchmark datasets, achieving state-of-the-art performance with obvious improvements. We conduct further analysis on local pattern visualization, model's framework choice, advantages of horizon maps and etc. The source code is available at https://github.com/BIRD-TAO/CLCRN.
+C1 [Lin, Haitao; Gao, Zhangyang; Xu, Yongjie; Wu, Lirong; Li, Stan Z.] Westlake Univ, Ctr Artificial Intelligence Res & Innovat, Hangzhou, Zhejiang, Peoples R China.
+   [Li, Ling] Westlake Univ, Ecoenvironm Res Lab, Hangzhou, Zhejiang, Peoples R China.
+   [Lin, Haitao; Gao, Zhangyang; Xu, Yongjie; Wu, Lirong] Zhejiang Univ, Hangzhou, Zhejiang, Peoples R China.
+C3 Westlake University; Westlake University; Zhejiang University
+RP Lin, HT (corresponding author), Westlake Univ, Ctr Artificial Intelligence Res & Innovat, Hangzhou, Zhejiang, Peoples R China.; Lin, HT (corresponding author), Zhejiang Univ, Hangzhou, Zhejiang, Peoples R China.
+EM linhaitao@westlake.edu.cn; gaozhangyang@westlake.edu.cn; xuyongjie@westlake.edu.cn; wulirong@westlake.edu.cn; liling@westlake.edu.cn; stan.zq.li@westlake.edu.cn
+FU CAIRI Internal Fund
+CR Atwood J, 2016, ARXIV, V0, P0
+   Bai L, 2020, ARXIV, V0, P0
+   Broad K. S. A. C. e., 2002, CLIMATIC CHANGE, V53, P523
+   Bruna J, 2014, ARXIV, V0, P0
+   Coors B, 2018, LECT NOTES COMPUT SC, V11213, P525, DOI 10.1007/978-3-030-01240-3_32
+   Defferrard M., 2020, INT C LEARNING REPRE, V0, P0
+   Defferrard M, 2017, ARXIV, V0, P0
+   Esteves C, 2018, ARXIV, V0, P0
+   Gilmer J, 2017, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1704.01212
+   Guo SN, 2019, AAAI CONF ARTIF INTE, V0, P922
+   Li YG, 2018, ARXIV, V0, P0
+   "Max" Jiang Chiyu, 2019, ARXIV, V0, P0
+   Kipf TN, 2017, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1609.02907
+   Niepert M, 2016, ARXIV, V0, P0
+   Perraudin N, 2019, ASTRON COMPUT, V27, P130, DOI 10.1016/j.ascom.2019.03.004
+   Rasp S, 2020, ARXIV, V0, P0
+   Rozemberczki B., 2021, ARXIV, V0, P0
+   Cohen TS, 2018, ARXIV, V0, P0
+   Cohen TS, 2019, ARXIV, V0, P0
+   Seo Y, 2016, ARXIV, V0, P0
+   Shi XJ, 2015, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1506.04214
+   Sonderby CK, 2020, ARXIV, V0, P0
+   Sutskever I, 2014, ADV NEUR IN, V27, P0
+   Veličkovic P, 2018, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1710.10903
+   Wu L, 2021, ARXIV, V0, P0
+   Yu B, 2018, PROCEEDINGS OF THE TWENTY-SEVENTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P3634
+   Zhao L, 2020, IEEE T INTELL TRANSP, V21, P3848, DOI 10.1109/TITS.2019.2935152
+NR 27
+TC 2
+Z9 2
+U1 1
+U2 1
+PU ASSOC ADVANCEMENT ARTIFICIAL INTELLIGENCE
+PI PALO ALTO
+PA 2275 E BAYSHORE RD, STE 160, PALO ALTO, CA 94303 USA
+SN 2159-5399
+EI 2374-3468
+J9 AAAI CONF ARTIF INTE
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 7470
+EP 7478
+DI 
+PG 9
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA BU3UW
+UT WOS:000893639100046
+DA 2023-04-26
+ER
+
+PT J
+AU Shen, PC
+   Lee, CY
+AF Shen, Po-Cheng
+   Lee, Chia-Yen
+TI Wafer Bin Map Recognition With Autoencoder-Based Data Augmentation in Semiconductor Assembly Process
+SO IEEE TRANSACTIONS ON SEMICONDUCTOR MANUFACTURING
+LA English
+DT Article
+DE Systematics; Costs; Cost function; Pattern recognition; Convolutional neural networks; Semiconductor device modeling; Production; Semiconductor manufacturing; wafer bin map recognition; autoencoder; data imbalance; deep learning
+ID pattern-recognition; neural-network; classification
+AB Semiconductor manufacturers use the wafer bin map recognition (WBMR) system to identify failure modes in processing. This study proposes an WBMR system embedded with three modules: data preprocessing, region classification, and systematic pattern recognition. After using a revised Jaccard index to separate random patterns from systematic patterns, we compare three data augmentation techniques, particularly autoencoder-based, to find the best augmented method that addresses any data imbalance problems between the defect classes. We propose an adaptive algorithm to determine the amount of generated data. We describe the two tools, t-distributed stochastic neighbor embedding (t-SNE) and earth mover's distances (EMD) we use to quantify and visualize the information content of the augmented dataset. Finally, we use an inception architecture of convolutional neural network (CNN) to improve the WBMR system's recognition accuracy. An empirical study of the semiconductor assembly manufacturer and a public dataset validate that our proposed WBMR system effectively recognizes different types of defective patterns.
+C1 [Shen, Po-Cheng; Lee, Chia-Yen] Natl Cheng Kung Univ, Inst Mfg Informat & Syst, Tainan 70101, Taiwan.
+   [Lee, Chia-Yen] Natl Taiwan Univ, Dept Informat Management, Taipei 10617, Taiwan.
+C3 National Cheng Kung University; National Taiwan University
+RP Lee, CY (corresponding author), Natl Taiwan Univ, Dept Informat Management, Taipei 10617, Taiwan.
+EM p98091064@gs.ncku.edu.tw; chiayenlee@ntu.edu.tw
+FU Ministry of Science and Technology of Taiwan [MOST 110-2221-E-002-163]
+CR Batool U., 2021, IEEE ACCESS, V9, P0
+   Chen FL, 2000, IEEE T SEMICONDUCT M, V13, P366, DOI 10.1109/66.857947
+   Ezzat A. A., 2020, ARXIV 200613824, V0, P0
+   Fan MY, 2016, PROCEEDINGS OF 2016 IEEE ADVANCED INFORMATION MANAGEMENT, V0, P0
+   Frid-Adar M, 2018, NEUROCOMPUTING, V321, P321, DOI 10.1016/j.neucom.2018.09.013
+   Goodfellow IJ, 2014, ADV NEUR IN, V27, P2672, DOI 10.1145/3422622
+   Han C, 2019, IEEE ACCESS, V7, P156966, DOI 10.1109/ACCESS.2019.2947606
+   Hansen MH, 1997, TECHNOMETRICS, V39, P241, DOI 10.2307/1271129
+   Hsu CY, 2022, J INTELL MANUF, V33, P831, DOI 10.1007/s10845-020-01687-7
+   Hsu CY, 2020, COMPUT IND ENG, V142, P0, DOI 10.1016/j.cie.2020.106358
+   Hsu SC, 2007, INT J PROD ECON, V107, P88, DOI 10.1016/j.ijpe.2006.05.015
+   Hung SY, 2020, IEEE T COMP PACK MAN, V10, P314, DOI 10.1109/TCPMT.2019.2956485
+   Ivanovic B, 2021, IEEE ROBOT AUTOM LET, V6, P295, DOI 10.1109/LRA.2020.3043163
+   Kingma D. P., 2013, ARXIV13126114, V0, P0
+   Kingma DP, 2014, ADV NEUR IN, V27, P0
+   Kong YT, 2020, IEEE T SEMICONDUCT M, V33, P62, DOI 10.1109/TSM.2020.2964581
+   Kyeong K, 2018, IEEE T SEMICONDUCT M, V31, P395, DOI 10.1109/TSM.2018.2841416
+   Lee CY, 2021, IEEE ACM T COMPUT BI, V18, P2862, DOI 10.1109/TCBB.2020.2988024
+   Lee CY, 2021, IEEE T AUTOM SCI ENG, V18, P1668, DOI 10.1109/TASE.2020.3014177
+   Liu CW, 2013, ENG APPL ARTIF INTEL, V26, P1479, DOI 10.1016/j.engappai.2012.11.009
+   Masci J, 2011, LECT NOTES COMPUT SC, V6791, P52, DOI 10.1007/978-3-642-21735-7_7
+   Mirza M., 2014, ARXIV14111784, V0, P0
+   Nakazawa T, 2018, IEEE T SEMICONDUCT M, V31, P309, DOI 10.1109/TSM.2018.2795466
+   Odena A, 2017, PR MACH LEARN RES, V70, P0
+   Piao M, 2018, IEEE T SEMICONDUCT M, V31, P250, DOI 10.1109/TSM.2018.2806931
+   Rubner Y, 2000, INT J COMPUT VISION, V40, P99, DOI 10.1023/A:1026543900054
+   Shorten C, 2019, J BIG DATA-GER, V6, P0, DOI 10.1186/s40537-019-0197-0
+   Sohn K, 2015, ADV NEUR IN, V28, P0
+   Szegedy C, 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Tsai TH, 2020, IEEE T SEMICONDUCT M, V33, P663, DOI 10.1109/TSM.2020.3013004
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Wang CH, 2006, IIE TRANS, V38, P1059, DOI 10.1080/07408170600733236
+   Wang JL, 2019, IEEE T SEMICONDUCT M, V32, P310, DOI 10.1109/TSM.2019.2925361
+   Yu NG, 2019, IEEE T SEMICONDUCT M, V32, P566, DOI 10.1109/TSM.2019.2937793
+NR 34
+TC 4
+Z9 4
+U1 3
+U2 5
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0894-6507
+EI 1558-2345
+J9 IEEE T SEMICONDUCT M
+JI IEEE Trans. Semicond. Manuf.
+PD MAY 15
+PY 2022
+VL 35
+IS 2
+BP 198
+EP 209
+DI 10.1109/TSM.2022.3146266
+PG 12
+WC Engineering, Manufacturing; Engineering, Electrical & Electronic; Physics, Applied; Physics, Condensed Matter
+SC Engineering; Physics
+GA 1R1BJ
+UT WOS:000803112900013
+DA 2023-04-26
+ER
+
+PT J
+AU Su, Q
+   Zhang, XL
+   Xiao, PF
+   Li, ZS
+   Wang, WY
+AF Su, Qi
+   Zhang, Xueliang
+   Xiao, Pengfeng
+   Li, Zhenshi
+   Wang, Wenye
+TI Which CAM is Better for Extracting Geographic Objects? A Perspective From Principles and Experiments
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Feature extraction; Remote sensing; Convolutional neural networks; Task analysis; Heating systems; Data mining; Training; Class activation mapping (CAM); convolutional neural network (CNN); deep learning; geographic objects; weakly-supervised semantic segmentation
+ID convolutional neural-network; semantic segmentation; building extraction; images; cnn
+AB As a method of deep learning interpretability, class activation mapping (CAM) is efficient and convenient for extracting geographic objects supervised by image-level labels. However, in addition to the inherent problem of inaccuracy and incompleteness of CAM, we have to deal with the spectral and spatial variance of geographic objects when applying CAM methods to remote sensing images. To explore the capabilities of CAM methods on extracting various geographic objects, we make a comprehensive comparison of five commonly-used CAM methods, including original CAM, GradCAM, GradCAM++, SmoothGradCAM++, and ScoreCAM, in four aspects: efficiency; accuracy; effectiveness on dealing with the spectral and spatial variance; and performance of delineating different geographic object categories. The results demonstrate that the original CAM, GradCAM, and GradCAM++ achieves the highest efficiency, accuracy, and integrity for extracting geographic objects, respectively, which can help us choose the appropriate CAM methods according to the specific requirements of different extraction tasks. Benefiting from the capability in extracting various geographic objects and adaptability in complex scenes, GradCAM achieves the best performance in dealing with the spectral and spatial variance problem and shows the advantage of capturing object details and keeping object completeness at the same time. In addition to the comparison experiments and suggestions, we also provide the principle explanations of the performance differences. The findings of this article could contribute to a deep understanding of different CAM methods and benefit to selecting suitable CAM methods for extracting geographic objects from the perspectives of both principles and experiments.
+C1 [Su, Qi; Zhang, Xueliang; Xiao, Pengfeng; Li, Zhenshi; Wang, Wenye] Nanjing Univ, Sch Geog & Ocean Sci, Minist Nat Resources,Key Lab Land Satellite Remot, Jiangsu Prov Key Lab Geog Informat Sci & Technol, Nanjing 210023, Peoples R China.
+C3 Ministry of Natural Resources of the People's Republic of China; Nanjing University
+RP Zhang, XL (corresponding author), Nanjing Univ, Sch Geog & Ocean Sci, Minist Nat Resources,Key Lab Land Satellite Remot, Jiangsu Prov Key Lab Geog Informat Sci & Technol, Nanjing 210023, Peoples R China.
+EM su17826062068@163.com; zxl@nju.edu.cn; xiaopf@nju.edu.cn; zhenshi@outlook.com; wwy13594137516@gmail.com
+FU National Natural Science Foundation of China [42071297, 41871235]; Fundamental Research Funds for the Central Universities [020914380095]; High-Level Innovation and Entrepreneurship Talents Introduction Program of Jiangsu Province of China
+CR Abitbol JL, 2020, NAT MACH INTELL, V2, P684, DOI 10.1038/s42256-020-00243-5
+   Alshehhi R, 2017, ISPRS J PHOTOGRAMM, V130, P139, DOI 10.1016/j.isprsjprs.2017.05.002
+   [Anonymous], 2001, 18 INT C MACHINE LEA, V0, P0
+   Bazzani L, 2016, IEEE WINT CONF APPL, V0, P0, DOI DOI 10.1109/wacv.2016.7477688
+   Bittner K, 2017, INT ARCH PHOTOGRAMM, V42-1, P481, DOI 10.5194/isprs-archives-XLII-1-W1-481-2017
+   Castro W, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20174802
+   Chattopadhay A, 2018, IEEE WINT CONF APPL, V0, PP839, DOI 10.1109/WACV.2018.00097
+   Chen J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12061049
+   Cheng G, 2016, IEEE T GEOSCI REMOTE, V54, P7405, DOI 10.1109/TGRS.2016.2601622
+   Cheng G, 2016, ISPRS J PHOTOGRAMM, V117, P11, DOI 10.1016/j.isprsjprs.2016.03.014
+   Cheng G, 2014, ISPRS J PHOTOGRAMM, V98, P119, DOI 10.1016/j.isprsjprs.2014.10.002
+   Cinbis RG, 2017, IEEE T PATTERN ANAL, V39, P189, DOI 10.1109/TPAMI.2016.2535231
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Feng XX, 2021, IEEE T GEOSCI REMOTE, V59, P6946, DOI 10.1109/TGRS.2020.3030990
+   Fu K, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11050544
+   Hartling S, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19061284
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang ZL, 2018, PROC CVPR IEEE, V0, PP7014, DOI 10.1109/CVPR.2018.00733
+   Kattenborn T, 2019, SCI REP-UK, V9, P0, DOI 10.1038/s41598-019-53797-9
+   Kilic E, 2021, J AMB INTEL HUM COMP, V0, P0, DOI DOI 10.1007/s12652-021-03377-5
+   Kolesnikov A, 2016, LECT NOTES COMPUT SC, V9908, P695, DOI 10.1007/978-3-319-46493-0_42
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Li J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091366
+   Li K, 2020, ISPRS J PHOTOGRAMM, V159, P296, DOI 10.1016/j.isprsjprs.2019.11.023
+   Li YS, 2020, REMOTE SENS ENVIRON, V250, P0, DOI 10.1016/j.rse.2020.112045
+   Li YS, 2018, ISPRS J PHOTOGRAMM, V146, P182, DOI 10.1016/j.isprsjprs.2018.09.014
+   Li ZS, 2021, IEEE J-STARS, V14, P3266, DOI 10.1109/JSTARS.2021.3063788
+   Liu YH, 2019, IEEE T GEOSCI REMOTE, V57, P2043, DOI 10.1109/TGRS.2018.2870871
+   Long J., 2015, P IEEE C COMPUTER VI, V0, PP3431, DOI 10.48550/ARXIV.1411.4038
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Marcos D, 2018, ISPRS J PHOTOGRAMM, V145, P96, DOI 10.1016/j.isprsjprs.2018.01.021
+   Menikdiwela M, 2017, INT CONF IMAG VIS, V0, P0
+   Mohammadimanesh F, 2019, ISPRS J PHOTOGRAMM, V151, P223, DOI 10.1016/j.isprsjprs.2019.03.015
+   Omeiza D, 2019, ARXIV190801224, V0, P0
+   Oquab M, 2015, PROC CVPR IEEE, V0, PP685, DOI 10.1109/CVPR.2015.7298668
+   Oquab M, 2014, PROC CVPR IEEE, V0, PP1717, DOI 10.1109/CVPR.2014.222
+   Safonova A, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11060643
+   Selvaraju RR, 2020, INT J COMPUT VISION, V128, P336, DOI 10.1007/s11263-019-01228-7
+   Shrestha S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071135
+   Simonyan K., 2015, VERY DEEP CONVOLUTIO, V0, P0
+   Smilkov D, 2017, ARXIV, V0, P0
+   Tan MX, 2019, PR MACH LEARN RES, V97, P0
+   Vasu B, 2018, PROCEEDINGS 2018 IEEE 13TH IMAGE, VIDEO, P0
+   Vedaldi A., 2014, P WORKSHOP ICLR, V0, P0
+   Wang H., 2020, IEEE COMPUT SOC CONF, V0, PP24, DOI 10.1109/CVPRW50498.2020.00020
+   Wang JD, 2021, IEEE T PATTERN ANAL, V43, P3349, DOI 10.1109/TPAMI.2020.2983686
+   Wang S, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12020207
+   Wei PL, 2021, ISPRS J PHOTOGRAMM, V174, P198, DOI 10.1016/j.isprsjprs.2021.02.011
+   Wei YN, 2017, IEEE GEOSCI REMOTE S, V14, P709, DOI 10.1109/LGRS.2017.2672734
+   Yang HL, 2018, IEEE J-STARS, V11, P2600, DOI 10.1109/JSTARS.2018.2835377
+   Yang R, 2019, INT GEOSCI REMOTE SE, V0, PP9474, DOI 10.1109/IGARSS.2019.8897938
+   Zhou B, 2016, PROC CVPR IEEE, V0, PP2921, DOI 10.1109/CVPR.2016.319
+NR 52
+TC 1
+Z9 1
+U1 8
+U2 10
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 5623
+EP 5635
+DI 10.1109/JSTARS.2022.3188493
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 4D0WK
+UT WOS:000846865100010
+DA 2023-04-26
+ER
+
+PT J
+AU Nascetti, A
+   Monterisi, C
+   Iurilli, F
+   Sonnessa, A
+AF Nascetti, A.
+   Monterisi, C.
+   Iurilli, F.
+   Sonnessa, A.
+TI A neural network regression model for estimating maximum daily air temperature using Landsat-8 data
+SO XXIV ISPRS CONGRESS: IMAGING TODAY, FORESEEING TOMORROW, COMMISSION III
+LA English
+DT Proceedings Paper
+DE UHI; Neural Network; Land Surface Temperature; Air Temperature; Regression Models
+ID tibetan plateau; modis
+AB Urban Heat Islands (UM) phenomenon is a pressing problem for highly industrialized areas with serious risks for public health. Weather stations guarantee long-term accurate observations of weather parameters, such Air Temperature (AT), but lack appropriate spatial coverage. Numerous studies have argued that satellite Land Surface Temperature (LST) is a relevant parameter for estimating AT maps, exploring both linear regression and Machine Learning algorithms. This study proposes a Neural Network (NN) regression model for estimating the maximum AT from Landsat-8 data. The approach has been tested in a variegated morphological region (Puglia, Italy) using a large stack of data acquired from 2018 to 2020. The algorithm uses the median values of LST and Normalized Difference Vegetation Index (NDVI) computed using different buffer radius around the location of each reference weather station (250 m, 1000 m, and 2000 m) to train the NN model with a K-fold cross-validation strategy. The reference dataset was split into three sets using a stratified sampling approach considering the different station categories: rural, High- and Low-density Urban areas respectively. The algorithm was tested with different learning rates (LR) (0.001 and 0.005). The results show that our NN model accuracy improves with the increase of the buffer radius, minimizing the difference in terms of R boolean AND 2 between training and evaluation data, with an overall accuracy consistently higher than 0.84. Future research could investigate more input variables in the NN model such as morphology or climate variables and test the algorithm on larger areas.
+C1 [Nascetti, A.; Monterisi, C.; Iurilli, F.; Sonnessa, A.] Polytech Univ Bari, Dept Civil Environm Land Construct & Chem DICATEC, Bari, Italy.
+C3 Politecnico di Bari
+RP Nascetti, A (corresponding author), Polytech Univ Bari, Dept Civil Environm Land Construct & Chem DICATEC, Bari, Italy.
+EM andrea.nascetti@poliba.it
+FU Fondazione CON IL SUD
+CR Bechtel B, 2017, SUSTAIN CITIES SOC, V34, P22, DOI 10.1016/j.scs.2017.05.018
+   Benali A, 2012, REMOTE SENS ENVIRON, V124, P108, DOI 10.1016/j.rse.2012.04.024
+   Chen MX, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12213491
+   Cotecchia V., 2017, DESCRIPTIVE MEMORIES, V92, P0
+   Ding LR, 2018, INT J APPL EARTH OBS, V73, P136, DOI 10.1016/j.jag.2018.05.017
+   dos Santos RS, 2020, INT J APPL EARTH OBS, V88, P0, DOI 10.1016/j.jag.2020.102066
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Halder B, 2021, SUSTAIN CITIES SOC, V74, P0, DOI 10.1016/j.scs.2021.103186
+   Ho HC, 2014, REMOTE SENS ENVIRON, V154, P38, DOI 10.1016/j.rse.2014.08.012
+   Imhoff ML, 2010, REMOTE SENS ENVIRON, V114, P504, DOI 10.1016/j.rse.2009.10.008
+   Jang JD, 2004, INT J REMOTE SENS, V25, P4541, DOI 10.1080/01431160310001657533
+   Otgonbayar M, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212588
+   Quinones AJP, 2019, THEOR APPL CLIMATOL, V137, P1957, DOI 10.1007/s00704-018-2717-9
+   Stocker TF, 2014, CLIMATE CHANGE 2013: THE PHYSICAL SCIENCE BASIS, V0, PP1, DOI 10.1017/cbo9781107415324
+   Xu YM, 2014, INT J REMOTE SENS, V35, P8108, DOI 10.1080/01431161.2014.978957
+   Yoo C, 2018, ISPRS J PHOTOGRAMM, V137, P149, DOI 10.1016/j.isprsjprs.2018.01.018
+   Zeng LL, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13122355
+   Zhang HB, 2016, J GEOPHYS RES-ATMOS, V121, P11425, DOI 10.1002/2016JD025154
+NR 18
+TC 0
+Z9 0
+U1 1
+U2 2
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLE 1E, GOTTINGEN, 37081, GERMANY
+SN 1682-1750
+EI 2194-9034
+J9 INT ARCH PHOTOGRAMM
+PD JUN 15
+PY 2022
+VL 43-B3
+IS 
+BP 1273
+EP 1278
+DI 10.5194/isprs-archives-XLIII-B3-2022-1273-2022
+PG 6
+WC Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA BT8VW
+UT WOS:000855647800180
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, ZM
+   Wang, YC
+   Wu, SS
+   Du, ZH
+AF Wang, Zimo
+   Wang, Yicheng
+   Wu, Sensen
+   Du, Zhenhong
+TI House Price Valuation Model Based on Geographically Neural Network Weighted Regression: The Case Study of Shenzhen, China
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE GNNWR; GWR; house price valuation; spatial heterogeneity
+ID mass appraisal; tests
+AB Confronted with the spatial heterogeneity of the real estate market, some traditional research has utilized geographically weighted regression (GWR) to estimate house prices. However, its predictive power still has some room to improve, and its kernel function is limited in some simple forms. Therefore, we propose a novel house price valuation model, which is combined with geographically neural network weighted regression (GNNWR) to improve the accuracy of real estate appraisal with the help of neural networks. Based on the Shenzhen house price dataset, this work conspicuously captures the variable spatial regression relationships at different regions of different variables, which GWR has difficulty realizing. Moreover, we focus on the performance of GNNWR, verify its robustness and superiority, and refine the experiment process with 10-fold cross-validation. In contrast with the ordinary least squares (OLS) model, our model achieves an improvement of about 50% on most of the metrics. Compared with the best GWR model, our thorough experiments reveal that our model improves the mean absolute error (MAE) by 13.5% and attains a decrease of the mean absolute percentage error (MAPE) by 13.0% in the evaluation on the validation dataset. It is a practical and powerful way to assess house prices, and we believe our model could be applied to other valuation problems concerning geographical data to promote the prediction accuracy of socioeconomic phenomena.
+C1 [Wang, Zimo; Wang, Yicheng; Wu, Sensen; Du, Zhenhong] Zhejiang Univ, Sch Earth Sci, Hangzhou 310058, Peoples R China.
+   [Wu, Sensen; Du, Zhenhong] Zhejiang Key Lab Resources & Environm Informat Sy, Hangzhou 310058, Peoples R China.
+C3 Zhejiang University
+RP Wu, SS (corresponding author), Zhejiang Univ, Sch Earth Sci, Hangzhou 310058, Peoples R China.; Wu, SS (corresponding author), Zhejiang Key Lab Resources & Environm Informat Sy, Hangzhou 310058, Peoples R China.
+EM wusensengis@zju.edu.cn
+FU National Key R&D Program of China [2021YFB3900902]; National Natural Science Foundation of China [42001323, 41871287]; Provincial Key R&D Program of Zhejiang [2021C01031]
+CR [Anonymous], 2021, CHINA REAL ESTATE, V0, P80
+   [Anonymous], 2018, IEEE T NEURAL NETW L, V0, P185
+   Basu S, 1998, J REAL ESTATE FINANC, V17, P61, DOI 10.1023/A:1007703229507
+   Benessia A, 2012, SUSTAIN SCI, V7, P75, DOI 10.1007/s11625-011-0150-4
+   Brunsdon C, 1999, J REGIONAL SCI, V39, P497, DOI 10.1111/0022-4146.00146
+   Brunsdon C, 1996, GEOGR ANAL, V28, P281, DOI 10.1111/j.1538-4632.1996.tb00936.x
+   BUTLER RV, 1982, LAND ECON, V58, P96, DOI 10.2307/3146079
+   [杜震洪 Du Zhenhong], 2020, 地球信息科学学报 JOURNAL OF GEO-INFORMATION SCIENCE, V22, P122
+   Du ZH, 2020, INT J GEOGR INF SCI, V34, P1353, DOI 10.1080/13658816.2019.1707834
+   Fotheringham A.S., 1997, RECENT DEV SPATIAL A, V0, PP60, DOI 10.1007/978-3-662-03499-6_4
+   Geng J., 2011, 2011 19 INT C GEOINF, V0, PP1, DOI 10.1109/GeoInformatics.2011.5981032
+   Glumac B, 2019, LAND USE POLICY, V81, P802, DOI 10.1016/j.landusepol.2018.11.032
+   Goodman A.C., 1995, J HOUSING RES, V6, P25, DOI 10.1111/1540-6229.00742
+   Hagenauer J, 2022, INT J GEOGR INF SCI, V36, P215, DOI 10.1080/13658816.2021.1871618
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Leung Y, 2000, ENVIRON PLANN A, V32, P9, DOI 10.1068/a3162
+   Limsombunchai Visit, 2004, PROC NZ AGR RESOURCE, V0, PP25, DOI 10182/5198
+   Lin CC, 2011, INT J HOUS MARK ANAL, V4, P224, DOI 10.1108/17538271111153013
+   Lu BB, 2014, INT J GEOGR INF SCI, V28, P660, DOI 10.1080/13658816.2013.865739
+   Lu BB, 2011, PROCEDIA ENVIRON SCI, V7, P92, DOI 10.1016/j.proenv.2011.07.017
+   McCluskey W, 2012, J FINANC MANAG PROP, V17, P274, DOI 10.1108/13664381211274371
+   McGreal S., 1998, J PROPERTY VALUATION, V16, P57, DOI 10.1108/14635789810205128
+   MOK HMK, 1995, J REAL ESTATE FINANC, V10, P37, DOI 10.1007/BF01099610
+   Nguyen N., 2001, J REAL ESTATE RES, V22, P313, DOI 10.1080/10835547.2001.12091068
+   OSullivan D, 2003, GEOGR ANAL, V35, P272, DOI 10.1353/geo.2003.0008
+   Peterson S, 2009, J REAL ESTATE RES, V31, P147
+   Renigier-Bilozor M, 2020, LAND USE POLICY, V99, P0, DOI 10.1016/j.landusepol.2020.105070
+   ROSEN S, 1974, J POLIT ECON, V82, P34, DOI 10.1086/260169
+   Rossini P., 1997, 3 ANN PAC RIM REAL E, V0, P0
+   Selim H, 2009, EXPERT SYST APPL, V36, P2843, DOI 10.1016/j.eswa.2008.01.044
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Thamarai M, 2020, INT J INFORM ENG ELE, V12, P15, DOI 10.5815/ijieeb.2020.02.03
+   Phan TD, 2018, 2018 INTERNATIONAL CONFERENCE ON MACHINE LEARNING AND DATA ENGINEERING (ICMLDE 2018), V0, PP35, DOI 10.1109/iCMLDE.2018.00017
+   TOBLER WR, 1970, ECON GEOGR, V46, P234, DOI 10.2307/143141
+   Tu W, 2018, J TRANSP GEOGR, V69, P45, DOI 10.1016/j.jtrangeo.2018.04.013
+   Varma A, 2018, PROCEEDINGS OF THE 2018 SECOND INTERNATIONAL CONFERENCE ON INVENTIVE COMMUNICATION AND COMPUTATIONAL TECHNOLOGIES (ICICCT), V0, P1936
+   Vaswani A., 2017, ADV NEURAL INFORM PR, V30, P5998
+   Wang JJ, 2018, IEEE ACCESS, V6, P0, DOI 10.1109/ACCESS.2018.2814065
+   Wu SS, 2020, SCI TOTAL ENVIRON, V709, P0, DOI 10.1016/j.scitotenv.2019.136097
+   Zhang SW, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8100431
+NR 40
+TC 1
+Z9 1
+U1 19
+U2 20
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD AUG 15
+PY 2022
+VL 11
+IS 8
+BP 
+EP 
+DI 10.3390/ijgi11080450
+PG 25
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 4B3GI
+UT WOS:000845670100001
+DA 2023-04-26
+ER

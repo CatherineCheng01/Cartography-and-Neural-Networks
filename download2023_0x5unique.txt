@@ -1,0 +1,567 @@
+
+PT J
+AU Qiu, QJ
+   Tan, YJ
+   Ma, K
+   Tian, M
+   Xie, Z
+   Tao, LF
+AF Qiu, Qinjun
+   Tan, Yongjian
+   Ma, Kai
+   Tian, Miao
+   Xie, Zhong
+   Tao, Liufeng
+TI Geological symbol recognition on geological map using convolutional recurrent neural network with augmented data
+SO ORE GEOLOGY REVIEWS
+LA English
+DT Article
+DE Geological symbol; Deep learning; Object detection; Geological map; Geological knowledge
+ID construction; features; system; model
+AB Geological maps contain rich geological knowledge, such as faults, structures, minerals, etc. Automatically and accurately recognition of geological symbols is the basis step for understanding geological maps and constructing geological knowledge connections between maps and texts. Due to the diverse combinations of symbols, complex background and color noise interference, symbol subscripts in geological maps directly affect the accurate recognition of geological symbols. In order to solve the above problems, this paper proposes a three-stages of the framework based on deep learning to recognize symbols in geological maps. The framework contains dataset automatic construction, convolutional recurrent neural network (CRNN) model training, and geo-symbol index construction. First, we propose a method to generate a base character-based training dataset that can generate geological map legend datasets of arbitrary length and different color backgrounds; second, we train a variable length image text recognition optical character recognition (OCR) model CRNN and conduct comparative experiments to verify the effectiveness of our proposed recognition framework. Finally, the stage of geo-symbol index construction establishes the corresponding index list of geological symbols and corresponding descriptions for converting the recognized geological symbols into corresponding names and finally output the result. We performed experimental validation and analysis on our automatically generated dataset. The experimental results show that the accuracy of our algorithm recognition reaches 94%, which verifies the effectiveness of our proposed algorithm.
+C1 [Qiu, Qinjun; Xie, Zhong; Tao, Liufeng] China Univ Geosci, Sch Comp Sci, Wuhan 430074, Peoples R China.
+   [Qiu, Qinjun; Xie, Zhong; Tao, Liufeng] China Univ Geosci, Hubei Key Lab Intelligent Geoinformat Proc, Wuhan 430074, Peoples R China.
+   [Tan, Yongjian; Ma, Kai; Tian, Miao] China Three Gorges Univ, Hubei Key Lab Intelligent Vis Based Monitoring Hyd, Yichang 443002, Hubei, Peoples R China.
+   [Tan, Yongjian; Ma, Kai; Tian, Miao] China Three Gorges Univ, Coll Comp & Informat Technol, Yichang 443002, Peoples R China.
+C3 China University of Geosciences; China University of Geosciences; China Three Gorges University; China Three Gorges University
+RP Ma, K (corresponding author), China Three Gorges Univ, Coll Comp & Informat Technol, Yichang 443002, Peoples R China.
+EM makai@ctgu.edu.cn
+FU National Natural Science Foundation of China [42050101]; China Postdoctoral Science Foundation [2021M702991]; Open Research Project of The Hubei Key Laboratory of Intelligent Geo-Information Processing [KLIGIP-2021A01]
+CR Baek Y, 2019, PROC CVPR IEEE, V0, PP9357, DOI 10.1109/CVPR.2019.00959
+   Bahlmann C, 2002, EIGHTH INTERNATIONAL WORKSHOP ON FRONTIERS IN HANDWRITING RECOGNITION: PROCEEDINGS, V0, PP49, DOI 10.1109/IWFHR.2002.1030883
+   Bay H., 2008, COMPUTER VISION IMAG, V0, P0, DOI DOI 10.1007/11744023_32
+   Calonder M, 2010, LECT NOTES COMPUT SC, V6314, P778, DOI 10.1007/978-3-642-15561-1_56
+   Chen J.L., 2015, J GUANGXI U NATL, V0, P0
+   Dalal N, 2005, PROC CVPR IEEE, V0, PP886, DOI 10.1109/cvpr.2005.177
+   Deng J., 2009, P CVPR, V0, P248
+   Dhiman S., 2013, INT J RECENT TECHNOL, V2, P80
+   Ding LY, 2012, AUTOMAT CONSTR, V27, P120, DOI 10.1016/j.autcon.2012.05.010
+   Elyan E, 2020, NEURAL NETWORKS, V129, P91, DOI 10.1016/j.neunet.2020.05.025
+   Fu GM, 2021, ORE GEOL REV, V131, P0, DOI 10.1016/j.oregeorev.2021.104010
+   Galambos C, 2009, ACTA GEOD GEOPHYS HU, V44, P131, DOI 10.1556/AGeod.44.2009.1.13
+   Girshick R., 2014, P IEEE C COMP VIS PA, V0, P580
+   Girshick R., 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Guo MQ, 2021, COMPUT GEOSCI-UK, V157, P0, DOI 10.1016/j.cageo.2021.104943
+   Hwang J, 2012, COMPUT GEOSCI-UK, V48, P173, DOI 10.1016/j.cageo.2012.05.005
+   Jaderberg M, 2015, ARXIV, V0, P0
+   Jaderberg M, 2014, ARXIV, V0, P0
+   Jaided AI, 2021, EASYOCR, V0, P0
+   Jessell M, 2021, GEOSCI MODEL DEV, V14, P5063, DOI 10.5194/gmd-14-5063-2021
+   Ke Y, 2004, PROC CVPR IEEE, V0, P506
+   Kleban J, 2008, 2008 IEEE INTERNATIONAL CONFERENCE ON MULTIMEDIA AND EXPO, VOLS 1-4, P1077, DOI 10.1109/ICME.2008.4607625
+   Li YF, 2007, LECT NOTES COMPUT SC, V4681, P1103
+   Lin QX, 2021, PATTERN RECOGN, V111, P0, DOI 10.1016/j.patcog.2020.107692
+   Lin T.-Y., 2017, FEATURE PYRAMID NETW, V0, P2117
+   Lombardo V, 2018, COMPUT GEOSCI-UK, V116, P12, DOI 10.1016/j.cageo.2018.04.001
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Mantovani A, 2020, COMPUT GEOSCI-UK, V139, P0, DOI 10.1016/j.cageo.2020.104446
+   Mihalynuk MG, 2007, COMPUT GEOSCI-UK, V33, P447, DOI 10.1016/j.cageo.2006.10.002
+   Morel JM, 2009, SIAM J IMAGING SCI, V2, P438, DOI 10.1137/080732730
+   Naiemi F, 2021, EXPERT SYST APPL, V170, P0, DOI 10.1016/j.eswa.2020.114549
+   Rosten E, 2006, LECT NOTES COMPUT SC, V3951, P430, DOI 10.1007/11744023_34
+   Rublee E, 2011, IEEE I CONF COMP VIS, V0, PP2564, DOI 10.1109/ICCV.2011.6126544
+   Rusk N, 2016, NAT METHODS, V13, P35, DOI 10.1038/nmeth.3707
+   Shi BG, 2015, ARXIV, V0, P0
+   Shi BG, 2016, PROC CVPR IEEE, V0, PP4168, DOI 10.1109/CVPR.2016.452
+   Smith R, 2007, PROC INT CONF DOC, V0, PP629, DOI 10.1109/icdar.2007.4376991
+   Souibgui MA, 2022, PATTERN RECOGN LETT, V160, P43, DOI 10.1016/j.patrec.2022.06.003
+   Tola E, 2010, IEEE T PATTERN ANAL, V32, P815, DOI 10.1109/TPAMI.2009.77
+   Wang B., 2022, ORE GEOL REV, V0, P0
+   Wang H, 2013, IEEE I CONF COMP VIS, V0, PP3551, DOI 10.1109/ICCV.2013.441
+   Wang T, 2012, INT C PATT RECOG, V0, P3304
+   Xiao Z., 2022, EXPERT SYST APPL, V0, P0
+   Zhang Y, 2021, PATTERN RECOGN LETT, V151, P103, DOI 10.1016/j.patrec.2021.07.016
+NR 44
+TC 0
+Z9 0
+U1 7
+U2 7
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0169-1368
+EI 1872-7360
+J9 ORE GEOL REV
+JI Ore Geol. Rev.
+PD FEB 15
+PY 2023
+VL 153
+IS 
+BP 
+EP 
+DI 10.1016/j.oregeorev.2022.105262
+EA DEC 2022
+PG 13
+WC Geology; Mineralogy; Mining & Mineral Processing
+SC Geology; Mineralogy; Mining & Mineral Processing
+GA 8F4JE
+UT WOS:000919630500001
+DA 2023-04-26
+ER
+
+PT J
+AU Lin, MS
+   Teng, S
+   Chen, GF
+   Hu, B
+AF Lin, Mansheng
+   Teng, Shuai
+   Chen, Gongfa
+   Hu, Bo
+TI Application of convolutional neural networks based on Bayesian optimization to landslide susceptibility mapping of transmission tower foundation
+SO BULLETIN OF ENGINEERING GEOLOGY AND THE ENVIRONMENT
+LA English
+DT Article
+DE Convolutional neural networks; Bayesian optimization; Landslide susceptibility map; Geographic information system; Transmission tower foundation
+ID rainfall-induced landslides; spatial prediction; logistic-regression; models; machine; earthquake; algorithm; search; area; cnn
+AB The stability of tower foundation slopes is an important factor to maintain the operation of a power system. However, it is time-consuming and expensive to evaluate tower foundation slopes one by one due to the large area. The aim of this study is to investigate the performance of CNNs with different architectures and training options for transmission tower foundation landslide spatial prediction (LSP) by Bayesian optimization. Accordingly, fourteen influencing factors related to landslide evaluated by gain ratio technique are considered and 424 historical landslide locations in Luoding and Xinyi Counties (Guangdong Province, China) are randomly divided into 80% for training and 20% for testing the CNNs. The CNN performances are investigated by permutating and combining different numbers of convolutional layers, pooling layers and learning rate strategy. In 59 Bayesian optimized cases, three conclusions are drawn: (a) the CNNs yielded the best result with 3 convolution layers, (b) the CNN without a pooling layer performs best, and (c) a piece-wise decay learning rate strategy yields better performance. Meanwhile, the excellent performance of the CNN obtained by Bayesian optimization (CNNB) has also been validated by comparisons with gravitational search optimization algorithm and other landslide spatial models, which indicates that CNNB can be applied to generate the susceptibility maps for locating transmission tower foundations in high landslide susceptibility zones and reducing the impact of landslides on power supply by taking measures in advance.
+C1 [Lin, Mansheng; Teng, Shuai; Chen, Gongfa; Hu, Bo] Guangdong Univ Technol, Sch Civil & Transportat Engn, Guangzhou 510006, Peoples R China.
+C3 Guangdong University of Technology
+RP Chen, GF (corresponding author), Guangdong Univ Technol, Sch Civil & Transportat Engn, Guangzhou 510006, Peoples R China.
+EM gongfa.chen@gdut.edu.cn
+CR Aditian A, 2018, GEOMORPHOLOGY, V318, P101, DOI 10.1016/j.geomorph.2018.06.006
+   Aktas H, 2019, COMPUT GEOSCI-UK, V133, P0, DOI 10.1016/j.cageo.2019.104329
+   Al-Najjar HAH, 2021, GEOSCI FRONT, V12, P625, DOI 10.1016/j.gsf.2020.09.002
+   Anwer RM, 2018, ISPRS J PHOTOGRAMM, V138, P74, DOI 10.1016/j.isprsjprs.2018.01.023
+   Arabameri A, 2020, GEOSCI FRONT, V11, P1609, DOI 10.1016/j.gsf.2019.11.009
+   Asadi M, 2022, ENVIRON EARTH SCI, V81, P0, DOI 10.1007/s12665-021-10152-4
+   Atkinson PM, 1998, COMPUT GEOSCI-UK, V24, P373, DOI 10.1016/S0098-3004(97)00117-9
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Azarafza M, 2021, SCI REP-UK, V11, P0, DOI 10.1038/s41598-021-03585-1
+   Pham BT, 2016, GEOTECH GEOL ENG, V34, P1807, DOI 10.1007/s10706-016-9990-0
+   Pham BT, 2016, NAT HAZARDS, V83, P97, DOI 10.1007/s11069-016-2304-2
+   Bradley AP, 1997, PATTERN RECOGN, V30, P1145, DOI 10.1016/S0031-3203(96)00142-2
+   Chang Z., 2022, J ROCK MECH GEOTECH, V0, P0, DOI DOI 10.1016/j.jrmge.2022.07.009
+   Chang ZL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030502
+   Chen W, 2018, B ENG GEOL ENVIRON, V77, P647, DOI 10.1007/s10064-017-1010-y
+   Chen W, 2017, GEOCARTO INT, V32, P367, DOI 10.1080/10106049.2016.1140824
+   Dash M., 1997, INTELLIGENT DATA ANALYSIS, V1, P0
+   Bui DT, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134413
+   Bui DT, 2017, GEOSCI MODEL DEV, V10, P3391, DOI 10.5194/gmd-10-3391-2017
+   Ezzat D, 2021, APPL SOFT COMPUT, V98, P0, DOI 10.1016/j.asoc.2020.106742
+   Garrido-Merchan EC, 2020, NEUROCOMPUTING, V380, P20, DOI 10.1016/j.neucom.2019.11.004
+   Geng XY, 2018, PHOTONIC SENS, V8, P168, DOI 10.1007/s13320-018-0466-0
+   Gong P, 2019, SCI BULL, V64, P370, DOI 10.1016/j.scib.2019.03.002
+   Guo ZZ, 2021, GEOSCI FRONT, V12, P0, DOI 10.1016/j.gsf.2021.101249
+   Hakim WL, 2022, J ENVIRON MANAGE, V305, P0, DOI 10.1016/j.jenvman.2021.114367
+   Hakim WL, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12213627
+   Huang F, 2022, REMOTE SENS-BASEL, V14, P0
+   Huang FM, 2020, LANDSLIDES, V17, P2919, DOI 10.1007/s10346-020-01473-9
+   Huang FM, 2020, CATENA, V191, P0, DOI 10.1016/j.catena.2020.104580
+   Huang FM, 2020, LANDSLIDES, V17, P217, DOI 10.1007/s10346-019-01274-9
+   Jiang SH, 2018, APPL MATH MODEL, V63, P374, DOI 10.1016/j.apm.2018.06.030
+   Kayastha P, 2015, ARAB J GEOSCI, V8, P8601, DOI 10.1007/s12517-015-1831-6
+   Kim SH, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20133697
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Lee ML, 2014, NAT HAZARDS, V70, P353, DOI 10.1007/s11069-013-0814-8
+   Lee WY, 2018, OPTIK, V172, P359, DOI 10.1016/j.ijleo.2018.07.044
+   LI CY, 2019, CHIN GEOL S1, V0046, P0
+   Li Y., 2012, ZONING ATLAS GEOLOGI, V0, P0
+   Lin MS, 2022, FRONT STRUCT CIV ENG, V16, P414, DOI 10.1007/s11709-021-0797-6
+   Liu Y, 2020, ENG GEOL, V271, P0, DOI 10.1016/j.enggeo.2020.105608
+   Merghadi A, 2020, EARTH-SCI REV, V207, P0, DOI 10.1016/j.earscirev.2020.103225
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Nikoobakht S, 2022, APPL SCI-BASEL, V12, P0, DOI 10.3390/app12125992
+   Oh HJ, 2011, COMPUT GEOSCI-UK, V37, P1264, DOI 10.1016/j.cageo.2010.10.012
+   Panahi M, 2021, GEOSCI FRONT, V12, P0, DOI 10.1016/j.gsf.2020.09.007
+   Park JY, 2019, ENG GEOL, V260, P0, DOI 10.1016/j.enggeo.2019.105193
+   Pham B. T., 2015, INT J ENG RES TECHNO, V4, P338, DOI 10.17577/IJERTV4IS110285
+   Ngo PTT, 2021, GEOSCI FRONT, V12, P505, DOI 10.1016/j.gsf.2020.06.013
+   Reichenbach P, 2018, EARTH-SCI REV, V180, P60, DOI 10.1016/j.earscirev.2018.03.001
+   Sameen MI, 2020, CATENA, V186, P0, DOI 10.1016/j.catena.2019.104249
+   Sun DL, 2020, GEOMORPHOLOGY, V362, P0, DOI 10.1016/j.geomorph.2020.107201
+   Tian YY, 2019, GEOMAT NAT HAZ RISK, V10, P1, DOI 10.1080/19475705.2018.1487471
+   Tian YY, 2019, J EARTH SCI-CHINA, V30, P206, DOI 10.1007/s12583-018-0869-2
+   Ullah K, 2022, GEOSCI FRONT, V13, P0, DOI 10.1016/j.gsf.2022.101425
+   Viet-Ha Nhu, 2020, FORESTS, V11, P0, DOI 10.3390/f11080830
+   Wang HJ, 2019, ENG GEOL, V251, P71, DOI 10.1016/j.enggeo.2019.02.004
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Wang YL, 2019, SWARM EVOL COMPUT, V49, P114, DOI 10.1016/j.swevo.2019.06.002
+   Wu YL, 2020, CATENA, V187, P0, DOI 10.1016/j.catena.2019.104396
+   Xie HL, 2020, IEEE ACCESS, V8, P161519, DOI 10.1109/ACCESS.2020.3021527
+   Xing Y, 2021, FRONT EARTH SC-SWITZ, V9, P0, DOI 10.3389/feart.2021.722491
+   Yi J, 2016, APPL INTELL, V44, P725, DOI 10.1007/s10489-015-0721-7
+   Yi YN, 2020, CATENA, V195, P0, DOI 10.1016/j.catena.2020.104851
+   Zhou QQ, 2021, J WATER RES PLAN MAN, V147, P0, DOI 10.1061/(ASCE)WR.1943-5452.0001394
+   Zhou YQ, 2022, B ENG GEOL ENVIRON, V81, P0, DOI 10.1007/s10064-022-02628-9
+   Zhu Q, 2020, IEEE J-STARS, V13, P3917, DOI 10.1109/JSTARS.2020.3006192
+NR 67
+TC 1
+Z9 1
+U1 20
+U2 20
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1435-9529
+EI 1435-9537
+J9 B ENG GEOL ENVIRON
+JI Bull. Eng. Geol. Environ.
+PD FEB 15
+PY 2023
+VL 82
+IS 2
+BP 
+EP 
+DI 10.1007/s10064-023-03069-8
+PG 21
+WC Engineering, Environmental; Engineering, Geological; Geosciences, Multidisciplinary
+SC Engineering; Geology
+GA 7Y5QP
+UT WOS:000914933900001
+DA 2023-04-26
+ER
+
+PT J
+AU Aymerich, E
+   Cannas, B
+   Pisano, F
+   Sias, G
+   Sozzi, C
+   Stuart, C
+   Carvalho, P
+   Fanni, A
+   JET Contributors
+AF Aymerich, Enrico
+   Cannas, Barbara
+   Pisano, Fabio
+   Sias, Giuliana
+   Sozzi, Carlo
+   Stuart, Chris
+   Carvalho, Pedro
+   Fanni, Alessandra
+   JET Contributors
+TI Performance Comparison of Machine Learning Disruption Predictors at JET
+SO APPLIED SCIENCES-BASEL
+LA English
+DT Article
+DE tokamak; disruption prediction; machine learning; deep learning; data analysis; plasma diagnostics
+ID algorithms
+AB Reliable disruption prediction (DP) and disruption mitigation systems are considered unavoidable during international thermonuclear experimental reactor (ITER) operations and in the view of the next fusion reactors such as the DEMOnstration Power Plant (DEMO) and China Fusion Engineering Test Reactor (CFETR). In the last two decades, a great number of DP systems have been developed using data-driven methods. The performance of the DP models has been improved over the years both for a more appropriate choice of diagnostics and input features and for the availability of increasingly powerful data-driven modelling techniques. However, a direct comparison among the proposals has not yet been conducted. Such a comparison is mandatory, at least for the same device, to learn lessons from all these efforts and finally choose the best set of diagnostic signals and the best modelling approach. A first effort towards this goal is made in this paper, where different DP models will be compared using the same performance indices and the same device. In particular, the performance of a conventional Multilayer Perceptron Neural Network (MLP-NN) model is compared with those of two more sophisticated models, based on Generative Topographic Mapping (GTM) and Convolutional Neural Networks (CNN), on the same real time diagnostic signals from several experiments at the JET tokamak. The most common performance indices have been used to compare the different DP models and the results are deeply discussed. The comparison confirms the soundness of all the investigated machine learning approaches and the chosen diagnostics, enables us to highlight the pros and cons of each model, and helps to consciously choose the approach that best matches with the plasma protection needs.
+C1 [Aymerich, Enrico; Cannas, Barbara; Pisano, Fabio; Sias, Giuliana; Fanni, Alessandra] Univ Cagliari, Dept Elect & Elect Engn, I-09123 Cagliari, Italy.
+   [Sozzi, Carlo] CNR, Ist Sci & Tecnol Plasmi, Via R Cozzi 53, I-20125 Milan, Italy.
+   [Stuart, Chris; Carvalho, Pedro] UK Atom Energy Author, Culham Sci Ctr, Abingdon OX14 3DB, England.
+C3 University of Cagliari; Consiglio Nazionale delle Ricerche (CNR); Istituto per la Scienza Tecnologia dei Plasmi (ISTP-CNR); Culham Science Centre; UK Atomic Energy Authority
+RP Aymerich, E (corresponding author), Univ Cagliari, Dept Elect & Elect Engn, I-09123 Cagliari, Italy.
+EM enrico.aymerich@unica.it
+FU European Union via the Euratom Research and Training Programme [101052200-EUROfusion]
+CR Agarwal A, 2021, PLASMA PHYS CONTR F, V63, P0, DOI 10.1088/1361-6587/ac234c
+   Aledda R, 2015, FUSION ENG DES, V96-97, P698, DOI 10.1016/j.fusengdes.2015.03.045
+   Aledda R, 2013, FUSION ENG DES, V88, P1297, DOI 10.1016/j.fusengdes.2013.01.103
+   Aledda R, 2012, IEEE T PLASMA SCI, V40, P570, DOI 10.1109/TPS.2011.2174385
+   Aymerich E, 2022, NUCL FUSION, V62, P0, DOI 10.1088/1741-4326/ac525e
+   Aymerich E, 2021, NUCL FUSION, V61, P0, DOI 10.1088/1741-4326/abcb28
+   Bishop CM, 1998, NEURAL COMPUT, V10, P215, DOI 10.1162/089976698300017953
+   Boozer AH, 2012, PHYS PLASMAS, V19, P0, DOI 10.1063/1.3703327
+   Cannas B, 2007, NUCL FUSION, V47, P1559, DOI 10.1088/0029-5515/47/11/018
+   Cannas B, 2007, FUSION ENG DES, V82, P1124, DOI 10.1016/j.fusengdes.2007.07.004
+   Cannas B, 2004, NUCL FUSION, V44, P68, DOI 10.1088/0029-5515/44/1/008
+   Cannas B, 2013, NUCL FUSION, V53, P0, DOI 10.1088/0029-5515/53/9/093023
+   Cannas B, 2011, FUSION ENG DES, V86, P1039, DOI 10.1016/j.fusengdes.2011.01.069
+   Cannas B, 2010, NUCL FUSION, V50, P0, DOI 10.1088/0029-5515/50/7/075004
+   Carcangiu S, 2008, IEEE T MAGN, V44, P970, DOI 10.1109/TMAG.2007.916336
+   Churchill RM, 2020, PHYS PLASMAS, V27, P0, DOI 10.1063/1.5144458
+   Dormido-Canto S, 2013, NUCL FUSION, V53, P0, DOI 10.1088/0029-5515/53/11/113001
+   Enrico A., 2022, P 32 S FUSION TECHNO, V0, P0
+   Ferreira DR, 2022, MACH LEARN-SCI TECHN, V3, P0, DOI 10.1088/2632-2153/ac44aa
+   Ferreira DR, 2020, IEEE T PLASMA SCI, V48, P36, DOI 10.1109/TPS.2019.2947304
+   Garcia J., 2021, P 28 IAEA FUSION ENE, V0, P0
+   Guo BH, 2021, PLASMA PHYS CONTR F, V63, P0, DOI 10.1088/1361-6587/abcbab
+   Hoelzl M, 2021, NUCL FUSION, V61, P0, DOI 10.1088/1741-4326/abf99f
+   Hu WH, 2021, NUCL FUSION, V61, P0, DOI 10.1088/1741-4326/abf74d
+   Kates-Harbeck J, 2019, NATURE, V568, P526, DOI 10.1038/s41586-019-1116-4
+   Leyland MJ, 2016, REV SCI INSTRUM, V87, P0, DOI 10.1063/1.4939855
+   MOLLER MF, 1993, NEURAL NETWORKS, V6, P525, DOI 10.1016/S0893-6080(05)80056-5
+   Montes KJ, 2019, NUCL FUSION, V59, P0, DOI 10.1088/1741-4326/ab1df4
+   Murari A, 2008, NUCL FUSION, V48, P0, DOI 10.1088/0029-5515/48/3/035010
+   Murari A, 2018, NUCL FUSION, V58, P0, DOI 10.1088/1741-4326/aaaf9c
+   OShea K., 2015, ARXIV, V0, P0
+   Pau A, 2019, NUCL FUSION, V59, P0, DOI 10.1088/1741-4326/ab2ea9
+   Pau A, 2018, IEEE T PLASMA SCI, V46, P2691, DOI 10.1109/TPS.2018.2841394
+   Ratta GA, 2021, NUCL FUSION, V61, P0, DOI 10.1088/1741-4326/ac2637
+   Ratta GA, 2018, FUSION SCI TECHNOL, V74, P13, DOI 10.1080/15361055.2017.1390390
+   Ratta GA, 2012, FUSION ENG DES, V87, P1670, DOI 10.1016/j.fusengdes.2012.07.002
+   Ratta GA, 2010, NUCL FUSION, V50, P0, DOI 10.1088/0029-5515/50/2/025005
+   Rea C, 2020, FUSION SCI TECHNOL, V76, P912, DOI 10.1080/15361055.2020.1798589
+   Rea C, 2018, PLASMA PHYS CONTR F, V60, P0, DOI 10.1088/1361-6587/aac7fe
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Sias G, 2019, FUSION ENG DES, V138, P254, DOI 10.1016/j.fusengdes.2018.11.021
+   Vega J, 2022, NAT PHYS, V18, P741, DOI 10.1038/s41567-022-01602-2
+   Wang SY, 2016, PLASMA PHYS CONTR F, V58, P0, DOI 10.1088/0741-3335/58/5/055014
+   Windsor CG, 2005, NUCL FUSION, V45, P337, DOI 10.1088/0029-5515/45/5/004
+   Yang ZY, 2022, FUSION ENG DES, V182, P0, DOI 10.1016/j.fusengdes.2022.113223
+   Yokoyama T, 2019, FUSION ENG DES, V140, P67, DOI 10.1016/j.fusengdes.2019.01.128
+   Zhang Y, 2011, NUCL FUSION, V51, P0, DOI 10.1088/0029-5515/51/6/063039
+   Zheng W, 2018, NUCL FUSION, V58, P0, DOI 10.1088/1741-4326/aaad17
+   Zhu JX, 2021, NUCL FUSION, V61, P0, DOI 10.1088/1741-4326/abc664
+NR 49
+TC 0
+Z9 0
+U1 8
+U2 8
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2076-3417
+J9 APPL SCI-BASEL
+JI Appl. Sci.-Basel
+PD FEB 15
+PY 2023
+VL 13
+IS 3
+BP 
+EP 
+DI 10.3390/app13032006
+PG 20
+WC Chemistry, Multidisciplinary; Engineering, Multidisciplinary; Materials Science, Multidisciplinary; Physics, Applied
+SC Chemistry; Engineering; Materials Science; Physics
+GA 9A1FZ
+UT WOS:000933812000001
+DA 2023-04-26
+ER
+
+PT J
+AU Razavi-Termeh, SV
+   Sadeghi-Niaraki, A
+   Seo, M
+   Choi, SM
+AF Razavi-Termeh, Seyed Vahid
+   Sadeghi-Niaraki, Abolghasem
+   Seo, MyoungBae
+   Choi, Soo-Mi
+TI Application of genetic algorithm in optimization parallel ensemble-based machine learning algorithms to flood susceptibility mapping using radar satellite imagery
+SO SCIENCE OF THE TOTAL ENVIRONMENT
+LA English
+DT Article
+DE Flash flood; Radar imagery; Parallel ensemble -based machine learning; Genetic algorithm; Spatial prediction
+ID analytical hierarchy process; weights-of-evidence; spatial prediction; frequency ratio; random forests; logistic-regression; statistical-models; neural-network; gis; region
+AB Floods are the natural disaster that occurs most frequently due to the weather and causes the most widespread destruc-tion. The purpose of the proposed research is to analyze flood susceptibility mapping (FSM) in the Sulaymaniyah prov-ince of Iraq. This study employed a genetic algorithm (GA) to fine-tune parallel ensemble-based machine learning algorithms (random forest (RF) and bootstrap aggregation (Bagging)). Four machine learning algorithms (RF, Bagging, RF-GA, and Bagging-GA) were used to build FSM in the study area. To provide inputs into parallel ensemble-based ma-chine learning algorithms, we gathered and processed data from meteorological (Rainfall), satellite image (flood in-ventory, normalized difference vegetation index (NDVI), aspect, land cover, altitude, stream power index (SPI), plan curvature, topographic wetness index (TWI), slope) and geographic sources (geology). For this research, Sentinel-1 synthetic aperture radar (SAR) satellite images were utilized to locate flooded areas and create an inventory map of floods. To train and validate the model, we employed 70 % and 30 % of 160 selected flood locations, respectively. Mul-ticollinearity, frequency ratio (FR), and Geodetector methods were used for data preprocessing. Four metrics were uti-lized to assess the FSM performance: the root mean square error (RMSE), the area under the receiver-operator characteristic curve (AUC-ROC), the Taylor diagram, and the seed cell area index (SCAI). The results exhibited that all the suggested models have high accuracy of prediction, but the performance of Bagging-GA (RMSE (Train = 0.1793, Test = 0.4543)) was slightly better than RF-GA (RMSE (Train = 0.1803, Test = 0.4563)), Bagging (RMSE (Train = 0.2191, Test = 0.4566)), and RF (RMSE (Train = 0.2529, Test = 0.4724)). According to the ROC index, the Bagging-GA model (AUC = 0.935) was the most accurate in flood susceptibility modeling, followed by the RF-GA (AUC = 0.904), the Bagging (AUC = 0.872), and the RF (AUC = 0.847) models. The study's identification of high -risk flood zones and the most significant factors contributing to flooding make it a helpful resource for flood manage-ment.
+C1 [Razavi-Termeh, Seyed Vahid; Sadeghi-Niaraki, Abolghasem; Seo, MyoungBae; Choi, Soo-Mi] Sejong Univ, XR Res Ctr, Dept Comp Sci & Engn & Convergence Engn Intelligen, Seoul, South Korea.
+   [Seo, MyoungBae] Korea Inst Civil Engn & Bldg Technol, Future & Smart Construct Div, Goyang, South Korea.
+C3 Sejong University; Korea Institute of Civil Engineering & Building Technology (KICT)
+RP Choi, SM (corresponding author), Sejong Univ, XR Res Ctr, Dept Comp Sci & Engn & Convergence Engn Intelligen, Seoul, South Korea.
+EM vrazavi70@gmail.com; a.sadeghi@sejong.ac.kr; smchoi@sejong.ac.kr
+FU Institute of Information & com- munications Technology Planning & Evaluation (IITP) - Korea government (MSIT) [RS -2022-00156354]; Ministry of Trade, Industry and Energy (MOTIE); Korea Institute for Advance- ment of Technology (KIAT) [P0016038]; National Research Council of Science & Technology (NST) grant by the Korea government (MSIT) [CRC21011]
+CR Abdalla F., 2014, INTERNATIONAL JOURNAL OF GEOSCIENCES, V5, P971, DOI 10.4236/ijg.2014.59083
+   Abedi R, 2022, GEOCARTO INT, V37, P5479, DOI 10.1080/10106049.2021.1920636
+   Adham MI, 2010, J GEOL SOC INDIA, V75, P432, DOI 10.1007/s12594-010-0039-3
+   Aditian A, 2018, GEOMORPHOLOGY, V318, P101, DOI 10.1016/j.geomorph.2018.06.006
+   Ahmad T, 2020, SUSTAIN CITIES SOC, V54, P0, DOI 10.1016/j.scs.2019.102010
+   Ahmadlou M, 2019, GEOCARTO INT, V34, P1252, DOI 10.1080/10106049.2018.1474276
+   Ahmadlou M, 2022, GEOCARTO INT, V0, P0, DOI DOI 10.1080/10106049.2022.2082550
+   Ahmed IA, 2022, GEOCARTO INT, V0, P0, DOI DOI 10.1080/10106049.2022.2066200
+   Akay H, 2021, SOFT COMPUT, V25, P9325, DOI 10.1007/s00500-021-05903-1
+   Al-Aizari AR, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14164050
+   Al-Juaidi AEM, 2018, ARAB J GEOSCI, V11, P0, DOI 10.1007/s12517-018-4095-0
+   Ali SA, 2020, ECOL INDIC, V117, P0, DOI 10.1016/j.ecolind.2020.106620
+   Anifowose FA, 2015, J NAT GAS SCI ENG, V26, P1561, DOI 10.1016/j.jngse.2015.02.012
+   Arsov N, 2017, SCI REP-UK, V7, P0, DOI 10.1038/srep44649
+   Askar S, 2022, WATER-SUI, V14, P0, DOI 10.3390/w14193062
+   Band SS, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12213568
+   Battaglia MJ, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13040599
+   Beg AH, 2016, C IND ELECT APPL, V0, PP2478, DOI 10.1109/ICIEA.2016.7604009
+   Bera S, 2022, REMOTE SENS APPL, V25, P0, DOI 10.1016/j.rsase.2021.100686
+   Pham BT, 2021, GEOSCI FRONT, V12, P0, DOI 10.1016/j.gsf.2020.11.003
+   Pham BT, 2020, WATER-SUI, V12, P0, DOI 10.3390/w12030683
+   Breiman L, 1996, MACH LEARN, V24, P123, DOI 10.1007/BF00058655
+   Bryll R, 2003, PATTERN RECOGN, V36, P1291, DOI 10.1016/S0031-3203(02)00121-8
+   Cao YF, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9120748
+   Chen JF, 2020, INT J ENV RES PUB HE, V17, P0, DOI 10.3390/ijerph17010049
+   Chowdhuri I, 2020, ADV SPACE RES, V65, P1466, DOI 10.1016/j.asr.2019.12.003
+   Costache R, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091422
+   Costache R, 2020, SCI TOTAL ENVIRON, V711, P0, DOI 10.1016/j.scitotenv.2019.134514
+   Costache R, 2019, SCI TOTAL ENVIRON, V691, P1098, DOI 10.1016/j.scitotenv.2019.07.197
+   Dano UL, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11030615
+   Das S, 2020, REMOTE SENS APPL, V20, P0, DOI 10.1016/j.rsase.2020.100379
+   Deepika B, 2013, ENVIRON EARTH SCI, V70, P1319, DOI 10.1007/s12665-013-2218-1
+   Bui DT, 2019, CATENA, V179, P184, DOI 10.1016/j.catena.2019.04.009
+   Bui DT, 2018, WATER-SUI, V10, P0, DOI 10.3390/w10091210
+   Dodangeh E, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125423
+   Falah F, 2019, SPATIAL MODELING IN GIS AND R FOR EARTH AND ENVIRONMENTAL SCIENCES, V0, PP323, DOI 10.1016/B978-0-12-815226-3.00014-4
+   Farhangi F, 2022, GEOCARTO INT, V37, P2698, DOI 10.1080/10106049.2020.1831626
+   Farhangi F, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su131810239
+   Friedman M, 1937, J AM STAT ASSOC, V32, P675, DOI 10.2307/2279372
+   Ghebrehiwot A.A., 2020, AFR J FOOD AGR NUTR, V20, P0
+   Gomes HM, 2017, MACH LEARN, V106, P1469, DOI 10.1007/s10994-017-5642-8
+   Ha H, 2021, NAT HAZARDS, V109, P1247, DOI 10.1007/s11069-021-04877-5
+   Haldurai L., 2016, INT J COMPUT SCI ENG, V4, P0
+   Holland J. H., 1973, SIAM JOURNAL ON COMPUTING, V2, P88, DOI 10.1137/0202009
+   Ilia I., 2022, GEOCARTO INT, V0, P1
+   Islam MT, 2022, INT J APPL EARTH OBS, V113, P0, DOI 10.1016/j.jag.2022.103002
+   Karmokar S, 2020, MODEL EARTH SYST ENV, V6, P2263, DOI 10.1007/s40808-020-00807-9
+   Kaya N, 2006, COMPUT IND, V57, P112, DOI 10.1016/j.compind.2005.05.001
+   Kayalvili S, 2019, CLUSTER COMPUT, V22, PS3165, DOI 10.1007/s10586-018-2011-8
+   Kazakis N, 2015, SCI TOTAL ENVIRON, V538, P555, DOI 10.1016/j.scitotenv.2015.08.055
+   Khosravi K, 2016, ENVIRON MONIT ASSESS, V188, P0, DOI 10.1007/s10661-016-5665-9
+   Khosravi K, 2016, NAT HAZARDS, V83, P947, DOI 10.1007/s11069-016-2357-2
+   Kilgore R.T., 2019, FHWAHIF19058 OFF BRI, V0, P0
+   Kosari A, 2020, AIRCR ENG AEROSP TEC, V92, P1073, DOI 10.1108/AEAT-02-2020-0030
+   Lagmay AMFA, 2017, J ENVIRON SCI-CHINA, V59, P13, DOI 10.1016/j.jes.2017.03.014
+   Lambora Annu, 2019, 2019 INTERNATIONAL CONFERENCE ON MACHINE LEARNING, V0, P0
+   Lee S, 2017, GEOMAT NAT HAZ RISK, V8, P1185, DOI 10.1080/19475705.2017.1308971
+   Liu J, 2022, GEOCARTO INT, V0, P0, DOI DOI 10.1080/10106049.2022.2025918
+   Masroor M., 2022, ADAPTIVE NEURO FUZZY, V0, P0
+   Messner F, 2006, NATO SCI S SS IV EAR, V67, P149
+   Mirjalili S, 2019, STUD COMPUT INTELL, V780, P43, DOI 10.1007/978-3-319-93025-1_4
+   Mohammadi A, 2020, COMPLEXITY, V2020, P0, DOI 10.1155/2020/4271376
+   Mosavi A, 2022, GEOCARTO INT, V37, P2541, DOI 10.1080/10106049.2020.1829101
+   Nachappa TG, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125275
+   Olen S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081272
+   Opolot E., 2013, RESEARCH JOURNAL OF APPLIED SCIENCES, V0, P0
+   Ozcift A, 2011, COMPUT BIOL MED, V41, P265, DOI 10.1016/j.compbiomed.2011.03.001
+   Paul G.C., 2019, REMOTE SENS EARTH SY, V2, P120, DOI 10.1007/S41976-019-00018-6
+   Pawluszek K, 2017, NAT HAZARDS, V86, P919, DOI 10.1007/s11069-016-2725-y
+   Pourghasemi HR, 2020, J HYDROL, V582, P0, DOI 10.1016/j.jhydrol.2019.124536
+   Prasad AM, 2006, ECOSYSTEMS, V9, P181, DOI 10.1007/s10021-005-0054-1
+   Bui QT, 2020, J HYDROL, V581, P0, DOI 10.1016/j.jhydrol.2019.124379
+   Rabby YW, 2022, GEOCARTO INT, V37, P3371, DOI 10.1080/10106049.2020.1864026
+   Rafiei-Sardooi E, 2021, INT J DISAST RISK RE, V66, P0, DOI 10.1016/j.ijdrr.2021.102614
+   Rahmati O, 2016, GEOCARTO INT, V31, P42, DOI 10.1080/10106049.2015.1041559
+   Razavi-Termeh SV, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13163222
+   Razavi-Termeh SV, 2021, ENVIRON RES, V200, P0, DOI 10.1016/j.envres.2021.111344
+   Razavi-Termeh SV, 2020, HYDROLOG SCI J, V65, P2729, DOI 10.1080/02626667.2020.1828589
+   Rojas R, 2013, GLOBAL ENVIRON CHANG, V23, P1737, DOI 10.1016/j.gloenvcha.2013.08.006
+   Sadeghi-Niaraki A, 2020, IEEE ACCESS, V8, P217526, DOI 10.1109/ACCESS.2020.3039410
+   Saha S, 2022, STOCH ENV RES RISK A, V36, P3295, DOI 10.1007/s00477-022-02195-1
+   Sattari MT, 2020, ENG APPL COMP FLUID, V14, P1078, DOI 10.1080/19942060.2020.1803971
+   Shafizadeh-Moghadam H, 2018, J ENVIRON MANAGE, V217, P1, DOI 10.1016/j.jenvman.2018.03.089
+   Shahabi H, 2021, GEOSCI FRONT, V12, P0, DOI 10.1016/j.gsf.2020.10.007
+   Sharifi A, 2021, WATER ENVIRON J, V35, P924, DOI 10.1111/wej.12681
+   Shi XH, 2005, INFORM PROCESS LETT, V93, P255, DOI 10.1016/j.ipl.2004.11.003
+   Siam Zakaria Shams, 2021, ADVANCES AND TRENDS IN ARTIFICIAL INTELLIGENCE. FROM THEORY TO PRACTICE: 34TH INTERNATIONAL CONFERENCE ON INDUSTRIAL, V0, P0
+   Souissi D, 2020, GEOCARTO INT, V35, P991, DOI 10.1080/10106049.2019.1566405
+   Sousa SF, 2006, PROTEINS, V65, P15, DOI 10.1002/prot.21082
+   Sun DL, 2021, GEOMORPHOLOGY, V379, P0, DOI 10.1016/j.geomorph.2021.107623
+   Talukdar S, 2020, STOCH ENV RES RISK A, V34, P2277, DOI 10.1007/s00477-020-01862-5
+   Tehrany MS, 2019, CATENA, V175, P174, DOI 10.1016/j.catena.2018.12.011
+   Tehrany MS, 2017, GEOMAT NAT HAZ RISK, V8, P1538, DOI 10.1080/19475705.2017.1362038
+   Tehrany MS, 2015, CATENA, V125, P91, DOI 10.1016/j.catena.2014.10.017
+   Tehrany MS, 2014, J HYDROL, V512, P332, DOI 10.1016/j.jhydrol.2014.03.008
+   Termeh SVR, 2018, SCI TOTAL ENVIRON, V615, P438, DOI 10.1016/j.scitotenv.2017.09.262
+   Wang JF, 2010, INT J GEOGR INF SCI, V24, P107, DOI 10.1080/13658810802443457
+   Wang YM, 2011, WATER RESOUR MANAG, V25, P3465, DOI 10.1007/s11269-011-9866-2
+   Xie W, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10020093
+   Yildiz N., 2022, ADV LAND MANAG, V2, P21
+   Zhan T, 2018, IEEE GEOSCI REMOTE S, V15, P1352, DOI 10.1109/LGRS.2018.2843385
+   Zhang JF, 2020, CONSTR BUILD MATER, V253, P0, DOI 10.1016/j.conbuildmat.2020.119208
+   Zhang MM, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12145784
+   Zhao G, 2018, SCI TOTAL ENVIRON, V615, P1133, DOI 10.1016/j.scitotenv.2017.10.037
+NR 104
+TC 0
+Z9 0
+U1 10
+U2 10
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0048-9697
+EI 1879-1026
+J9 SCI TOTAL ENVIRON
+JI Sci. Total Environ.
+PD MAY 15
+PY 2023
+VL 873
+IS 
+BP 
+EP 
+DI 10.1016/j.scitotenv.2023.162285
+EA MAR 2023
+PG 18
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA A2CT3
+UT WOS:000953270400001
+PM 36801341
+DA 2023-04-26
+ER
+
+PT J
+AU Yang, P
+   Esmaeili, K
+   Goodfellow, S
+   Calderon, JCO
+AF Yang, Peng
+   Esmaeili, Kamran
+   Goodfellow, Sebastian
+   Calderon, Juan Carlos Ordonez
+TI Mine Pit Wall Geological Mapping Using UAV-Based RGB Imaging and Unsupervised Learning
+SO REMOTE SENSING
+LA English
+DT Article
+DE convolutional neural network; unmanned aerial vehicle; drone; mining; unsupervised learning; autoencoder
+AB In surface mining operations, geological pit wall mapping is important since it provides significant information on the surficial geological features throughout the pit wall faces, thereby improving geological certainty and operational planning. Conventional pit wall geological mapping techniques generally rely on close visual observations and laboratory testing results, which can be both time- and labour-intensive and can expose the technical staff to different safety hazards on the ground. In this work, a case study was conducted by investigating the use of drone-acquired RGB images for pit wall mapping. High spatial resolution RGB image data were collected using a commercially available unmanned aerial vehicle (UAV) at two gold mines in Nevada, USA. Cluster maps were produced using unsupervised learning algorithms, including the implementation of convolutional autoencoders, to explore the use of unlabelled image data for pit wall geological mapping purposes. While the results are promising for simple geological settings, they deviate from human-labelled ground truth maps in more complex geological conditions. This indicates the need to further optimize and explore the algorithms to increase robustness for more complex geological cases.
+C1 [Yang, Peng; Esmaeili, Kamran; Goodfellow, Sebastian] Univ Toronto, Dept Civil & Mineral Engn, Toronto, ON M5S 1A4, Canada.
+   [Calderon, Juan Carlos Ordonez] Kinross Gold, 25 York St,17th Floor, Toronto, ON M5J 2V5, Canada.
+C3 University of Toronto
+RP Esmaeili, K (corresponding author), Univ Toronto, Dept Civil & Mineral Engn, Toronto, ON M5S 1A4, Canada.
+EM kamran.esmaeili@utoronto.ca
+CR Abdolmaleki M, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14246386
+   Bamford T, 2021, INT J ROCK MECH MIN, V145, P0, DOI 10.1016/j.ijrmms.2021.104839
+   Bamford T, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12172801
+   Barton IF, 2021, MINING METALL EXPLOR, V38, P799, DOI 10.1007/s42461-021-00404-z
+   Beretta F, 2019, APPL EARTH SCI, V128, P79, DOI 10.1080/25726838.2019.1578031
+   Blom M, 2019, INT J MIN RECLAM ENV, V33, P318, DOI 10.1080/17480930.2018.1448248
+   Boubanga-Tombet S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10101518
+   Buckley SJ, 2012, INT ARCH PHOTOGRAMM, V39, P541
+   Chesley JT, 2017, SEDIMENT GEOL, V354, P1, DOI 10.1016/j.sedgeo.2017.03.013
+   Fraser SJ, 2006, AUSTRALAS I MIN MET, V0, P227
+   Fu Y, 2020, IFAC PAPERSONLINE, V53, P11920, DOI 10.1016/j.ifacol.2020.12.712
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Houshmand N, 2022, APPL COMPUT GEOSCI, V16, P0, DOI 10.1016/j.acags.2022.100104
+   Ji S., 2020, NETWORK INTRUSION DE, V0, P126
+   Kim JH, 2020, INT CONF ACOUST SPEE, V0, PP2063, DOI 10.1109/ICASSP40776.2020.9053102
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kirsch M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091366
+   Langford M., 2010, LANGFORDS BASIC PHOT, V0, P31
+   Langford M., 2010, LANGFORDS BASIC PHOT, V0, P92
+   Li Y., 2020, AUTOENCODER BASED DI, V0, P408
+   LLOYD SP, 1982, IEEE T INFORM THEORY, V28, P129, DOI 10.1109/TIT.1982.1056489
+   Lorenz S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020176
+   MacQueen J., 1967, 5 BERK S MATH STAT P, V1, P281
+   Madjid MYA, 2018, MAR PETROL GEOL, V91, P723, DOI 10.1016/j.marpetgeo.2018.02.002
+   McHugh E.L., 2001, P 3 INT C INT PROC M, V0, P1
+   Medinac F., 2020, P 2020 INT S SLOPE S, V0, P1439
+   Medinac F., 2019, ADV PIT WALL MAPPING, V0, P0
+   Medinac F, 2020, MINING METALL EXPLOR, V37, P1877, DOI 10.1007/s42461-020-00291-w
+   Murphy RJ, 2015, EUR J REMOTE SENS, V48, P511, DOI 10.5721/EuJRS20154829
+   Murphy RJ, 2014, REMOTE SENS-BASEL, V6, P9104, DOI 10.3390/rs6099104
+   Murphy RJ, 2013, ISPRS J PHOTOGRAMM, V75, P29, DOI 10.1016/j.isprsjprs.2012.09.014
+   Nesbit PR, 2018, GEOSPHERE, V14, P2469, DOI 10.1130/GES01688.1
+   Song Chunfeng, 2013, IBEROAMERICAN C PATT, V0, P117
+   Tang ML, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13081420
+   Thiele ST, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14010005
+   Thiele ST, 2021, ORE GEOL REV, V136, P0, DOI 10.1016/j.oregeorev.2021.104252
+   Tripathi A, 2017, IEEE IJCNN, V0, PP911, DOI 10.1109/IJCNN.2017.7965949
+   Tziavou O, 2018, ENG GEOL, V232, P12, DOI 10.1016/j.enggeo.2017.11.004
+   van der Meer FD, 2012, INT J APPL EARTH OBS, V14, P112, DOI 10.1016/j.jag.2011.08.002
+   Xie JY, 2016, PR MACH LEARN RES, V48, P0
+   Yang B, 2017, PR MACH LEARN RES, V70, P0
+NR 43
+TC 0
+Z9 0
+U1 1
+U2 1
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD MAR 15
+PY 2023
+VL 15
+IS 6
+BP 
+EP 
+DI 10.3390/rs15061641
+PG 22
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA A8VR5
+UT WOS:000957845500001
+DA 2023-04-26
+ER

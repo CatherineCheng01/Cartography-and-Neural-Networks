@@ -1,0 +1,513 @@
+
+PT J
+AU Cedou, M
+   Gloaguen, E
+   Blouin, M
+   Cate, A
+   Paiement, JP
+   Tirdad, S
+AF Cedou, Matthieu
+   Gloaguen, Erwan
+   Blouin, Martin
+   Cate, Antoine
+   Paiement, Jean-Philippe
+   Tirdad, Shiva
+TI Preliminary geological mapping with convolution neural network using statistical data augmentation on a 3D model
+SO COMPUTERS & GEOSCIENCES
+LA English
+DT Article
+DE Geology; Automatic cartography; Segmentation; Data augmentation; Deep learning; Airborne magnetic; 3D modeling; Supervised; Semi -supervised
+ID machine; algorithms
+AB Airborne magnetic data are commonly processed and interpreted by geologists to produce preliminary geological maps of unexplored areas. Machine learning can partly fulfill this task rapidly and objectively as convolutional neural networks applied to image segmentation showed promising results in comparable applications. As these algorithms require a large and high-quality dataset to be trained, we developed an innovative geostatistical data augmentation workflow that uses a 3D conceptual lithological and magnetic susceptibility model as input. The workflow uses soft-constrained Multi-Point Statistics to create equiprobable synthetic 3D geological models and Sequential Gaussian Simulation to populate these models with a geologi-cally meaningful magnetic susceptibility spatial distribution. Then, geophysical forward modeling is computed to get the airborne magnetic responses of the synthetic models, which are associated with their counterpart synthetic geological maps. We applied this workflow on a 3D model of the Malartic Mine area to obtain a large synthetic airborne magnetic and counterpart geological map dataset. Then, a Gated Shape Convolutional Network is trained on this dataset to perform a preliminary geological mapping. A semi-supervised approach using clustering on the feature maps from the trained network is also implemented. Testing the trained network on synthetic data and remote areas of similar geological context shows that the methodology is suitable for producing preliminary geological maps using airborne magnetic data. Notably, the clustering module shows a precise and adaptive segmentation of the magnetic anomalies into pertinent preliminary geological maps. The quality of the results empirically validates our data augmentation method. Our method allows producing geological maps by training a convolutional neural network using an area where a detailed geological and petrophysical 3D model exists and then permits applying the pre-trained model in new areas of the same geological context, where only airborne magnetic data is available.
+C1 [Cedou, Matthieu; Gloaguen, Erwan] Inst Natl Rech Sci, Ctr Eau Terre Environm, Quebec City, PQ, Canada.
+   [Blouin, Martin] Geostack, Quebec City, PQ, Canada.
+   [Cate, Antoine] SRK Consulting Inc, Toronto, ON, Canada.
+   [Paiement, Jean-Philippe] Mira Geosci Ltd, Westmount, PQ, Canada.
+   [Tirdad, Shiva] Commiss Geol Canada, Quebec City, PQ, Canada.
+C3 University of Quebec; Institut national de la recherche scientifique (INRS)
+RP Cedou, M (corresponding author), Inst Natl Rech Sci, Ctr Eau Terre Environm, Quebec City, PQ, Canada.
+EM cedou.matthieu@gmail.com
+FU Ministere de l'Energie et des Ressources Naturelles
+CR Bachri I, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8060248
+   Brown O., 2007, REMOTE PREDICTIVE MA, V0, PP2007, DOI 10.4095/223434
+   Brungard CW, 2015, GEODERMA, V239, P68, DOI 10.1016/j.geoderma.2014.09.019
+   Buchan K.L., 2004, A SERIES MAP 2022A, V0, PP39, DOI 10.4095/214883
+   CAMIRE GE, 1993, PRECAMBRIAN RES, V62, P285, DOI 10.1016/0301-9268(93)90026-X
+   Carter-McAuslan A, 2021, GEOPHYSICS, V86, PB249, DOI 10.1190/GEO-2020-0756.1
+   Chen LCE, 2018, LECT NOTES COMPUT SC, V11211, P833, DOI 10.1007/978-3-030-01234-2_49
+   Chollet F, 2018, DEEP LEARNING PYTHON, V0, P0
+   Cordts M, 2016, PROC CVPR IEEE, V0, PP3213, DOI 10.1109/CVPR.2016.350
+   Costa I.S.L., 2019, J GEOL SURV BRAZ, V2, P26, DOI 10.29396/JGSB.2019.V2.N1.3
+   Cracknell M., 2014, MACHINE LEARNING GEO, V0, P301
+   Cracknell MJ, 2014, COMPUT GEOSCI-UK, V63, P22, DOI 10.1016/j.cageo.2013.10.008
+   Dauphin YN, 2017, PR MACH LEARN RES, V70, P0
+   De Souza S, 2017, REV ECON GEOL, V19, P263
+   Fullagar P.K., 2007, P EXPLORATION 07 5 D, V0, P444
+   GUARDIANO FB, 1993, QUANT GEO G, V5, P133
+   Harris J., 2008, TECHNICAL REPORT, V5643, P5643, DOI 10.4095/226009
+   Harris JR, 2015, COMPUT GEOSCI-UK, V80, P9, DOI 10.1016/j.cageo.2015.03.013
+   Harris J.R., 2012, ROBUST CROSS VALIDAT, V38, P23
+   Harvey AS, 2016, INT ARCH PHOTOGRAMM, V41, P423, DOI 10.5194/isprsarchives-XLI-B8-423-2016
+   Hood SB, 2019, APPL COMPUT GEOSCI, V3-4, P0, DOI 10.1016/j.acags.2019.100001
+   Intissar R., 2014, NUMBER DP 2014 05 EN, V0, P0
+   Jaques A., 1997, AGSO J AUST GEOL GEO, V17, P159
+   Jolliffe IT, 2002, PRINCIPAL COMPONENT, V0, P0, DOI DOI 10.1007/b98835
+   Lacoste M, 2011, GEOMORPHOLOGY, V133, P90, DOI 10.1016/j.geomorph.2011.06.026
+   Lamothe D., 2008, LEXIQUE STRATIGRAPHI, V0, P0
+   Latifovic R, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10020307
+   Lelievre PG, 2006, GEOPHYS J INT, V166, P76, DOI 10.1111/j.1365-246X.2006.02964.x
+   Mariethoz G, 2015, MULTIPLE-POINT GEOSTATISTICS: STOCHASTIC MODELING WITH TRAINING IMAGES, V0, P0, DOI DOI 10.1002/9781118662953
+   Matheron G., 1973, ADVANCES IN APPLIED PROBABILITY, V5, P439, DOI 10.2307/1425829
+   MERN M.d.l.e.d.R.N., 2021, LEXIQUE STRATIGRAPHI, V0, P0
+   Minaee S, 2022, IEEE T PATTERN ANAL, V44, P3523, DOI 10.1109/TPAMI.2021.3059968
+   Murtagh F, 2014, J CLASSIF, V31, P274, DOI 10.1007/s00357-014-9161-z
+   Murthy BSR, 2007, J INDIAN GEOPHYS UNI, V11, P1
+   Nowak M, 2005, QUANT GEO G, V14, P387
+   Paszke A, 2019, ADV NEUR IN, V32, P0
+   Rabeaut O., 2010, EXPLOR MIN GEOL, V19, P99, DOI 10.2113/GSEMG.19.3-4.99
+   Rezatofighi H., 2019, IEEE C COMPUTER VISI, V0, P0
+   Schetselaar EM, 2007, GEOSCI CAN, V34, P93
+   SIGEOM, 2019, MINISTERE EN RESS NA, V0, P0
+   Soller D.R., 2004, GEOLOGIC MAPPING, V0, P0, DOI DOI 10.1036/1097-8542.YB040715
+   Takikawa T, 2019, IEEE I CONF COMP VIS, V0, PP5228, DOI 10.1109/ICCV.2019.00533
+   Thurston PC, 2008, ECON GEOL, V103, P1097, DOI 10.2113/gsecongeo.103.6.1097
+   Vallee MA, 2019, CAN J EARTH SCI, V56, P525, DOI 10.1139/cjes-2019-0009
+   VanderPlas J, 2016, PYTHON DATA SCI HDB, V0, P0
+   Wadoux AMJC, 2020, EARTH-SCI REV, V210, P0, DOI 10.1016/j.earscirev.2020.103359
+   Zagoruyko S, 2017, ARXIV, V0, P0
+   Zeng XR, 2018, J STRUCT BIOL, V202, P150, DOI 10.1016/j.jsb.2017.12.015
+NR 48
+TC 0
+Z9 0
+U1 8
+U2 9
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0098-3004
+EI 1873-7803
+J9 COMPUT GEOSCI-UK
+JI Comput. Geosci.
+PD OCT 15
+PY 2022
+VL 167
+IS 
+BP 
+EP 
+DI 10.1016/j.cageo.2022.105187
+EA AUG 2022
+PG 13
+WC Computer Science, Interdisciplinary Applications; Geosciences, Multidisciplinary
+SC Computer Science; Geology
+GA 5B1DT
+UT WOS:000863316600004
+DA 2023-04-26
+ER
+
+PT J
+AU Chen, YH
+   Wu, GH
+   Ge, Y
+   Xu, ZK
+AF Chen, Yuehong
+   Wu, Guohao
+   Ge, Yong
+   Xu, Zekun
+TI Mapping Gridded Gross Domestic Product Distribution of China Using Deep Learning With Multiple Geospatial Big Data
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Economic indicators; Deep learning; Convolutional neural networks; Decoding; Encoding; Geospatial analysis; Big Data; 1-km gridded gross domestic product (GDP); China; deep learning; downscaling; geospatial big data; gross domestic product (GDP)
+ID economic-activity; time-series; land-cover; gdp; population; imagery; spatialisation; level
+AB Timely griddedgross domestic product (GDP) data is a fundamental indicator in many applications. It is critical to characterize the complex relationship between GDP and its auxiliary information for accurately estimating gridded GDP. However, few knowledge is available about the performance of deep learning approaches for learning this complex relationship. This article develops a novel convolutional neural network based GDP downscaling approach (GDPnet) to transform the statistical GDP data into GDP grids by integrating various geospatial big data. An existing autoencoder-based downscaling approach (Resautonet) is employed to compare with GDPnet. The latest county-level GDP data of China and the multiple geospatial big data are adopted to generate the 1-km gridded GDP data in 2019. Due to the different related auxiliary data of each GDP sector, the two downscaling approaches are first separately built for each GDP sector and then the results are merged to the gridded total GDP data. Experimental results show that the two deep learning approaches had good predictive power with R-2 over 0.8, 0.9, and 0.92 for the three sectors tested by county-level GDP data. Meanwhile, the proposed GDPnet outperformed the existing Resautonet. The average R-2 of GDPnet was 0.034 higher than that of Resautonet in terms of county-level GDP test data. Furthermore, GDPnet had higher accuracy (R-2 = 0.739) than Resautonet (R-2 = 0.704) assessed by town-level GDP data. In addition, the proposed GDPnet is faster (about 78% running time) than the Resautonet. Hence, the proposed approach provides a valuable option for generating gridded GDP data.
+C1 [Chen, Yuehong; Wu, Guohao; Xu, Zekun] Hohai Univ, Coll Hydrol & Water Resources, Nanjing 210098, Peoples R China.
+   [Ge, Yong] Chinese Acad Sci, Inst Geog Sci & Nat Resources Res, State Key Lab Resources & Environm Informat Syst, Beijing 100101, Peoples R China.
+C3 Hohai University; Chinese Academy of Sciences; Institute of Geographic Sciences & Natural Resources Research, CAS
+RP Ge, Y (corresponding author), Chinese Acad Sci, Inst Geog Sci & Nat Resources Res, State Key Lab Resources & Environm Informat Syst, Beijing 100101, Peoples R China.
+EM chenyh@lreis.ac.cn; wgh.hhu.edu.cn@hhu.edu.cn; gey@igsnrr.ac.at; xuzk@hhu.edu.cn
+FU National Key Research and Development Program of China [2019YFC1510601]; Strategic Priority Research Program of Chinese Academy of Sciences [XDA20030302]; National Natural Science Foundation of China [42071315]
+CR Cao X, 2014, INT J APPL EARTH OBS, V28, P193, DOI 10.1016/j.jag.2013.12.004
+   Chen JJ, 2019, IEEE J-STARS, V12, P3067, DOI 10.1109/JSTARS.2019.2915646
+   Chen Q, 2021, ENVIRON PLAN B-URBAN, V48, P1876, DOI 10.1177/2399808320951580
+   Chen Q, 2016, INT J REMOTE SENS, V37, P4610, DOI 10.1080/01431161.2016.1217440
+   Chen YH, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3069116
+   Chen YH, 2019, IEEE ACCESS, V7, P149132, DOI 10.1109/ACCESS.2019.2945000
+   Doll CNH, 2000, AMBIO, V29, P157, DOI 10.1639/0044-7447(2000)029[0157:NTIAAT]2.0.CO;2
+   Elvidge CD, 1997, INT J REMOTE SENS, V18, P1373, DOI 10.1080/014311697218485
+   Elvidge CD, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13050922
+   Ge Y, 2017, SPAT STAT-NETH, V21, P460, DOI 10.1016/j.spasta.2017.02.010
+   Geiger T, 2018, EARTH SYST SCI DATA, V10, P847, DOI 10.5194/essd-10-847-2018
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Henderson JV, 2012, AM ECON REV, V102, P994, DOI 10.1257/aer.102.2.994
+   Kummu M, 2018, SCI DATA, V5, P0, DOI 10.1038/sdata.2018.4
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Leyk S, 2019, EARTH SYST SCI DATA, V11, P1385, DOI 10.5194/essd-11-1385-2019
+   Li LF, 2021, IEEE T NEUR NET LEAR, V32, P4217, DOI 10.1109/TNNLS.2020.3017200
+   Li LF, 2020, REMOTE SENS ENVIRON, V237, P0, DOI 10.1016/j.rse.2019.111584
+   Liang HD, 2020, ADV SPACE RES, V65, P481, DOI 10.1016/j.asr.2019.09.035
+   Miller HJ, 2004, ANN ASSOC AM GEOGR, V94, P284, DOI 10.1111/j.1467-8306.2004.09402005.x
+   Murakami D, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11072106
+   Oppenheimer M, 2014, CLIMATE CHANGE 2014: IMPACTS, V0, P0
+   Reichstein M, 2019, NATURE, V566, P195, DOI 10.1038/s41586-019-0912-1
+   Shen HF, 2020, REMOTE SENS ENVIRON, V240, P0, DOI 10.1016/j.rse.2020.111692
+   Song YZ, 2018, GISCI REMOTE SENS, V55, P718, DOI 10.1080/15481603.2018.1446713
+   Sun J, 2020, IEEE J-STARS, V13, P1400, DOI 10.1109/JSTARS.2020.2983331
+   Sutton PC, 2002, ECOL ECON, V41, P509, DOI 10.1016/S0921-8009(02)00097-6
+   Ustaoglu E, 2021, ENVIRON DEV SUSTAIN, V23, P10309, DOI 10.1007/s10668-020-01058-5
+   Wang XT, 2019, ISPRS INT GEO-INF, V8, P0, DOI 10.3390/ijgi8120580
+   Yang J, 2021, NAT COMMUN, V12, P0, DOI 10.1038/s41467-021-21305-1
+   Yi JW, 2020, SCI TOTAL ENVIRON, V711, P0, DOI 10.1016/j.scitotenv.2019.134540
+   Yuan QQ, 2020, REMOTE SENS ENVIRON, V241, P0, DOI 10.1016/j.rse.2020.111716
+   Zhao M, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9070673
+   Zhao NZ, 2017, GISCI REMOTE SENS, V54, P407, DOI 10.1080/15481603.2016.1276705
+NR 34
+TC 3
+Z9 3
+U1 30
+U2 50
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 1791
+EP 1802
+DI 10.1109/JSTARS.2022.3148448
+PG 12
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA ZH8ZG
+UT WOS:000761219000002
+DA 2023-04-26
+ER
+
+PT J
+AU Yang, Y
+   Wang, H
+   Qin, SH
+   Li, XE
+   Zhu, YF
+   Wang, YC
+AF Yang, Yi
+   Wang, Hong
+   Qin, Shuhong
+   Li, Xiuneng
+   Zhu, Yunfeng
+   Wang, Yicong
+TI Analysis of Urban Vitality in Nanjing Based on a Plot Boundary-Based Neural Network Weighted Regression Model
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE urban vitality; improved entropy method; geographically neural network weighted regression; spatial heterogeneity; multisource data
+ID china; urbanization; city
+AB As a representative indicator for the level and sustainability of urban development, urban vitality has been widely used to assess the quality of urban development. However, urban vitality is too blurry to be accurately quantified and is often limited to a particular type of expression of vitality. Current regression models often fail to accurately express the spatial heterogeneity of vibrancy and drivers. Therefore, this paper took Nanjing as the study area and quantified the social, cultural, and economic vitality indicators based on mobile phone data, POI data, and night-light remote sensing data. We also mapped the spatial distribution of comprehensive urban vitality using an improved entropy method and analyzed the spatial heterogeneity of urban vitality and its influencing factors using a plot boundary-based neural network weighted regression (PBNNWR). The results show: (1) The comprehensive vitality in Nanjing is distributed in a "three-center" pattern with one large and two small centers; (2) PBNNWR can be used to investigate the local regression relationships among the driving factors and urban vitality, and the fitting accuracy (95.6%) of comprehensive vitality in weekdays is higher than that of ordinary least squares regression (OLS) (65.9%), geographically weighted regression (GWR) (89.9%), and geographic neural network weighted regression (GNNWR) (89.5%) models; (3) House price, functional diversity, building density, metro station accessibility, and residential facility density are factors that significantly affect urban vitality. The study's findings can provide theoretical guidance for optimizing the urban spatial layout, resource allocation, and targeted planning strategies for areas with different vitality values.
+C1 [Yang, Yi; Wang, Hong; Zhu, Yunfeng; Wang, Yicong] Hohai Univ, Sch Hydrol & Water Resources, Nanjing 210098, Peoples R China.
+   [Qin, Shuhong; Li, Xiuneng] Hohai Univ, Sch Earth Sci & Engn, Nanjing 210098, Peoples R China.
+C3 Hohai University; Hohai University
+RP Wang, H (corresponding author), Hohai Univ, Sch Hydrol & Water Resources, Nanjing 210098, Peoples R China.
+EM hongwang@hhu.edu.cn
+CR Andrew M., 2013, P INT C MACHINE LEAR, V0, P0
+   [Anonymous], 1981, THEORY GOOD CITY FOR, V0, P0
+   Chen L, 2022, COMPUT ENVIRON URBAN, V95, P0, DOI 10.1016/j.compenvurbsys.2022.101827
+   [陈世莉 Chen Shili], 2020, 地理科学 SCIENTIA GEOGRAPHICA SINICA, V40, P1476
+   Doll CNH, 2006, ECOL ECON, V57, P75, DOI 10.1016/j.ecolecon.2005.03.007
+   Dong YH, 2021, TUNN UNDERGR SP TECH, V116, P0, DOI 10.1016/j.tust.2021.104108
+   Du ZH, 2020, INT J GEOGR INF SCI, V34, P1353, DOI 10.1080/13658816.2019.1707834
+   Fang CL, 2021, FRONT PUBLIC HEALTH, V9, P0, DOI 10.3389/fpubh.2021.677910
+   Fu RD, 2021, INT J ENV RES PUB HE, V18, P0, DOI 10.3390/ijerph18020525
+   Gan XY, 2021, J URBAN PLAN DEV, V147, P0, DOI 10.1061/(ASCE)UP.1943-5444.0000696
+   Gehl Jan, 2000, NEW CITY SPACES, VFirst, P0
+   Glorot X., 2011, P 14 INT C ART INT S, V0, P315
+   Gong P, 2020, SCI BULL, V65, P182, DOI 10.1016/j.scib.2019.12.007
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Huang B, 2020, GEO-SPAT INF SCI, V23, P125, DOI 10.1080/10095020.2020.1754138
+   Huang B, 2020, ENVIRON PLAN B-URBAN, V47, P1543, DOI 10.1177/2399808319828730
+   Jacobs Jane, 1961, DEATH LIFE GREAT AM, V0, P0
+   Jiang D., 2007, THEORY CITY FORM VIT, V0, P0
+   Jin XB, 2017, CITIES, V63, P98, DOI 10.1016/j.cities.2017.01.002
+   Jin Y, 2007, SCI GEOGR SIN, V27, P9
+   Kim S, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su122410633
+   Lan F, 2020, CITIES, V100, P0, DOI 10.1016/j.cities.2019.102454
+   Leung Y, 2000, ENVIRON PLANN A, V32, P9, DOI 10.1068/a3162
+   [李创新 Li Chuangxin], 2012, 地理研究 GEOGRAPHICAL RESEARCH, V31, P257
+   Li SJ, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12124829
+   Li XN, 2021, AGRON J, V113, P1653, DOI 10.1002/agj2.20568
+   Li XC, 2020, ENVIRON RES LETT, V15, P0, DOI 10.1088/1748-9326/ab9be3
+   Li YH, 2018, J CLEAN PROD, V178, P580, DOI 10.1016/j.jclepro.2017.12.273
+   Liu M, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su13063027
+   Liu SJ, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9110617
+   Liu X, 2016, J GEOGR SCI, V26, P1626, DOI 10.1007/s11442-016-1348-2
+   Long Y, 2019, ENVIRON PLAN B-URBAN, V46, P406, DOI 10.1177/2399808317715640
+   Lu SW, 2019, INT J ENV RES PUB HE, V16, P0, DOI 10.3390/ijerph16234592
+   Lu SW, 2019, ISPRS INT GEO-INF, V8, P0, DOI 10.3390/ijgi8040165
+   Montalto V, 2019, CITIES, V89, P167, DOI 10.1016/j.cities.2019.01.014
+   Montgomery J., 1998, J URBAN DES, V3, P93, DOI 10.1080/13574809808724418
+   [宋伟轩 Song Weixuan], 2017, 地理学报 ACTA GEOGRAPHICA SINICA, V72, P589
+   Srivastava N, 2014, J MACH LEARN RES, V15, P1929
+   Sun J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12152386
+   Sung H, 2015, TRANSPORT RES D-TR E, V41, P318, DOI 10.1016/j.trd.2015.09.009
+   [塔娜 Ta Na], 2020, 地理科学 SCIENTIA GEOGRAPHICA SINICA, V40, P60
+   Tang LJ, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10124565
+   [唐璐 Tang Lu], 2022, 地球信息科学学报 JOURNAL OF GEO-INFORMATION SCIENCE, V24, P1575
+   Tu W, 2020, COMPUT ENVIRON URBAN, V80, P0, DOI 10.1016/j.compenvurbsys.2019.101428
+   Turok I, 2007, CITIES, V24, P165, DOI 10.1016/j.cities.2007.01.007
+   [王娜 Wang Na], 2021, 热带地理 TROPICAL GEOGRAPHY, V41, P1280
+   Wang PY, 2021, FRONT BIG DATA, V4, P0, DOI 10.3389/fdata.2021.690970
+   Wayne A., 1989, AM URBAN ARCHITECTUR, V0, P0
+   Wu C, 2018, CITIES, V77, P104, DOI 10.1016/j.cities.2018.01.017
+   Wu SS, 2021, INT J GEOGR INF SCI, V35, P582, DOI 10.1080/13658816.2020.1775836
+   Wu WS, 2019, J URBAN PLAN DEV, V145, P0, DOI 10.1061/(ASCE)UP.1943-5444.0000513
+   Xu L, 2002, J ENVIRON SCI-CHINA, V14, P120
+   Xu XD, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10082797
+   Yang JW, 2021, TRANSPORT RES A-POL, V144, P74, DOI 10.1016/j.tra.2020.11.014
+   Yang W, 2014, THESIS U STANDREWS L, V0, P0
+   Ye Y., 2016, URBAN PLAN INT, V31, P26
+   Ye Y, 2018, URBAN GEOGR, V39, P631, DOI 10.1080/02723638.2017.1381536
+   [尹上岗 Yin Shanggang], 2019, 经济地理 ECONOMIC GEOGRAPHY, V39, P82
+   Yue WZ, 2021, SUSTAIN CITIES SOC, V65, P0, DOI 10.1016/j.scs.2020.102609
+   Yue WZ, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11030638
+   Yue Y, 2017, INT J GEOGR INF SCI, V31, P658, DOI 10.1080/13658816.2016.1220561
+   Zarin SZ, 2015, PROCD SOC BEHV, V170, P659, DOI 10.1016/j.sbspro.2015.01.068
+   Zeng C, 2018, SUSTAIN CITIES SOC, V40, P296, DOI 10.1016/j.scs.2018.04.021
+   Zhang AQ, 2021, ENVIRON PLAN B-URBAN, V48, P1245, DOI 10.1177/2399808320924425
+   Zhang XY, 2017, ISPRS J PHOTOGRAMM, V132, P170, DOI 10.1016/j.isprsjprs.2017.09.007
+   Zhang XC, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su13020444
+   [张雪霞 Zhang Xuexia], 2021, 地球信息科学学报 JOURNAL OF GEO-INFORMATION SCIENCE, V23, P1433
+   [赵宏波 Zhao Hongbo], 2018, 地理科学 SCIENTIA GEOGRAPHICA SINICA, V38, P1525
+   Zhou W., 2004, URBAN EC, V0, P0
+   [朱婷婷 Zhu Tingting], 2020, 测绘学报 ACTA GEODETICA ET CARTOGRAPHICA SINICA, V49, P365
+   [邹志红 Zou Zhihong], 2005, 环境科学学报 ACTA SCIENTIAE CIRCUMSTANTIAE, V25, P552
+   Zumelzu A, 2019, J HOUS BUILT ENVIRON, V34, P897, DOI 10.1007/s10901-019-09694-8
+NR 75
+TC 1
+Z9 1
+U1 18
+U2 18
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD DEC 15
+PY 2022
+VL 11
+IS 12
+BP 
+EP 
+DI 10.3390/ijgi11120624
+PG 25
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 7E4EX
+UT WOS:000901124600001
+DA 2023-04-26
+ER
+
+PT J
+AU Paul, S
+   Kumari, M
+   Murthy, CS
+   Kumar, DN
+AF Paul, Subir
+   Kumari, Mamta
+   Murthy, C. S.
+   Kumar, D. Nagesh
+TI Generating pre-harvest crop maps by applying convolutional neural network on multi-temporal Sentinel-1 data
+SO INTERNATIONAL JOURNAL OF REMOTE SENSING
+LA English
+DT Article
+DE Convolutional neural network; Deep learning; Early-season crop mapping; Multi-temporal dataset; Sentinel-1; Synthetic aperture radar (SAR)
+ID time-series; land-cover; classification; backscatter; scattering; images; rice
+AB Pre-harvest crop mapping, the fundamental requirement for many of the crop management decisions, continues to be challenging either due to cloud cover in satellite images or due to spectral separability issues. These limitations are overcome in this study by using Synthetic Aperture Radar (SAR) data and deep learning technique. Two-dimensional convolutional neural network (2D-CNN) architecture is applied on multi-temporal SAR data of Sentinel-1 to classify soybean, jowar, cotton and sugarcane crops in a large geographic area located in a Central Indian state. Classification experiments are conducted with full season data from nine overpasses in three modes namely VH alone, VH and VH/VV ratio, and VH and VV, and these experimental results reveal that VH and VV combination performed better with an overall accuracy of 91.75% as compared to 84.96% and 88.75% respectively by others. Classification performances with three sets of temporal data, covering part of the season, reveal that crop map can be generated as early as 27th August (i.e. roughly 45 days prior harvesting) with an accuracy of 89.15% slightly less than the mapping accuracy achieved with full season data (i.e. till 14th October). 2D-CNN algorithm has performed better than SVM and RF techniques. This methodology can be extended to similar agro-ecological regions of the country. Richly available SAR data from Sentinel-1 and the potential of deep learning techniques for recognising complex phenological patterns offer immense opportunities for early-season crop mapping even during monsoon season in tropical countries like India.
+C1 [Paul, Subir; Kumar, D. Nagesh] Indian Inst Sci, Interdisciplinary Ctr Water Res, Bengaluru 560012, India.
+   [Kumari, Mamta; Murthy, C. S.] Natl Remote Sensing Ctr, Agr Sci & Applicat Grp, Hyderabad, India.
+   [Kumar, D. Nagesh] Indian Inst Sci, Dept Civil Engn, Bengaluru 560012, India.
+C3 Indian Institute of Science (IISC) - Bangalore; Department of Space (DoS), Government of India; Indian Space Research Organisation (ISRO); National Remote Sensing Centre (NRSC); Indian Institute of Science (IISC) - Bangalore
+RP Kumar, DN (corresponding author), Indian Inst Sci, Interdisciplinary Ctr Water Res, Bengaluru 560012, India.; Kumar, DN (corresponding author), Indian Inst Sci, Dept Civil Engn, Bengaluru 560012, India.
+EM nagesh@iisc.ac.in
+FU Ministry of Earth Sciences, Government of India [MoES/PAMC/HC/41/2013-PC-II]
+CR Abdikan S., 2018, INT ARCH PHOTOGRAMM, VXLII-3, P9, DOI 10.5194/isprs-archives-xlii-3-9-2018
+   Arias M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12020278
+   ATTEMA EPW, 1978, RADIO SCI, V13, P357, DOI 10.1029/RS013i002p00357
+   Bargiel D, 2017, REMOTE SENS ENVIRON, V198, P369, DOI 10.1016/j.rse.2017.06.022
+   Belgiu M, 2016, ISPRS J PHOTOGRAMM, V114, P24, DOI 10.1016/j.isprsjprs.2016.01.011
+   Brown SCM, 2003, IEEE T GEOSCI REMOTE, V41, P1602, DOI 10.1109/TGRS.2003.814132
+   Cai YP, 2018, REMOTE SENS ENVIRON, V210, P35, DOI 10.1016/j.rse.2018.02.045
+   Chen RC, 2020, J BIG DATA-GER, V7, P0, DOI 10.1186/s40537-020-00327-4
+   Chollet F., 2015, KERAS PYTHON DEEP LE, V0, P0
+   Clauss K, 2018, INT J APPL EARTH OBS, V73, P574, DOI 10.1016/j.jag.2018.07.022
+   Dey S, 2020, INT J APPL EARTH OBS, V88, P0, DOI 10.1016/j.jag.2020.102059
+   Fauvel M, 2008, IEEE T GEOSCI REMOTE, V46, P3804, DOI 10.1109/TGRS.2008.922034
+   Foody GM, 2020, REMOTE SENS ENVIRON, V239, P0, DOI 10.1016/j.rse.2019.111630
+   Gao Q, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091495
+   Gasparovic M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12121952
+   Ghazaryan G, 2018, EUR J REMOTE SENS, V51, P511, DOI 10.1080/22797254.2018.1455540
+   Goodfellow I., 2016, DEEP LEARNING BOOK P, V0, P1
+   Haas J., 2017, REMOTE SENS APPL SOC, V8, P41, DOI 10.1016/j.rsase.2017.07.006
+   Haldar D., 2020, PROGR ELECTROMAGNE C, V106, P61, DOI 10.2528/PIERC20053001
+   Harfenmeister K, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11131569
+   Jacob A, 2015, INT GEOSCI REMOTE SE, V0, PP1179, DOI 10.1109/IGARSS.2015.7325982
+   Ji SP, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010075
+   Jiao XF, 2014, ISPRS J PHOTOGRAMM, V96, P38, DOI 10.1016/j.isprsjprs.2014.06.014
+   Kim Y, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9090921
+   Kussul N, 2017, IEEE GEOSCI REMOTE S, V14, P778, DOI 10.1109/LGRS.2017.2681128
+   Li HP, 2020, INT J APPL EARTH OBS, V87, P0, DOI 10.1016/j.jag.2019.102032
+   Ma L, 2019, ISPRS J PHOTOGRAMM, V152, P166, DOI 10.1016/j.isprsjprs.2019.04.015
+   Ma L, 2017, ISPRS INT J GEO-INF, V6, P0, DOI 10.3390/ijgi6020051
+   Mandal D, 2020, REMOTE SENS ENVIRON, V247, P0, DOI 10.1016/j.rse.2020.111954
+   McNairn H, 2009, IEEE T GEOSCI REMOTE, V47, P3981, DOI 10.1109/TGRS.2009.2026052
+   McNemar Q, 1947, PSYCHOMETRIKA, V12, P153, DOI 10.1007/BF02295996
+   Mestre-Quereda A, 2020, IEEE J-STARS, V13, P4070, DOI 10.1109/JSTARS.2020.3008096
+   Murthy CS, 2003, INT J REMOTE SENS, V24, P4871, DOI 10.1080/0143116031000070490
+   Ndikumana E, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081217
+   Son NT, 2018, GEOCARTO INT, V33, P587, DOI 10.1080/10106049.2017.1289555
+   Paul S., 2019, REMOTE SENS EARTH SY, V2, P197, DOI 10.1007/s41976-019-00024-8
+   Paul S., 2019, IMAGE SIGN PROC REM, V0, P0
+   Picard G, 2003, IEEE T GEOSCI REMOTE, V41, P1583, DOI 10.1109/TGRS.2003.813353
+   Pontius RG, 2011, INT J REMOTE SENS, V32, P4407, DOI 10.1080/01431161.2011.552923
+   Schlund M, 2020, REMOTE SENS ENVIRON, V246, P0, DOI 10.1016/j.rse.2020.111814
+   Shao Y, 2012, ISPRS J PHOTOGRAMM, V70, P78, DOI 10.1016/j.isprsjprs.2012.04.001
+   Song Y, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11040449
+   Sonobe R, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11101148
+   Sudmanns M, 2020, INT J DIGIT EARTH, V13, P832, DOI 10.1080/17538947.2019.1585976
+   Sun ZH, 2019, INT J REMOTE SENS, V40, P593, DOI 10.1080/01431161.2018.1516313
+   Tatsumi K, 2016, J AGRIC METEOROL, V72, P1, DOI 10.2480/agrmet.D-15-00010
+   Tavares PA, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19051140
+   Thenkabail PS, 2012, PHOTOGRAMM ENG REM S, V78, P773
+   Tomppo E, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11212480
+   Veloso A, 2017, REMOTE SENS ENVIRON, V199, P415, DOI 10.1016/j.rse.2017.07.015
+   Vreugdenhil M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091396
+   Xie B, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19102398
+   Xu JF, 2020, REMOTE SENS ENVIRON, V247, P0, DOI 10.1016/j.rse.2020.111946
+   Yang XF, 2018, IEEE T GEOSCI REMOTE, V56, P5408, DOI 10.1109/TGRS.2018.2815613
+   Zhang Y, 2009, INT J REMOTE SENS, V30, P6301, DOI 10.1080/01431160902842391
+   Zhao HW, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11222673
+NR 56
+TC 2
+Z9 2
+U1 12
+U2 33
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 0143-1161
+EI 1366-5901
+J9 INT J REMOTE SENS
+JI Int. J. Remote Sens.
+PD AUG 18
+PY 2022
+VL 43
+IS 15-16
+BP 6078
+EP 6101
+DI 10.1080/01431161.2022.2030072
+EA FEB 2022
+PG 24
+WC Remote Sensing; Imaging Science & Photographic Technology
+SC Remote Sensing; Imaging Science & Photographic Technology
+GA 6D7FE
+UT WOS:000752274200001
+DA 2023-04-26
+ER
+
+PT J
+AU Zeyliger, AM
+   Muzalevskiy, KV
+   Zinchenko, EV
+   Ermolaeva, OS
+AF Zeyliger, A. M.
+   Muzalevskiy, K., V
+   Zinchenko, E., V
+   Ermolaeva, O. S.
+TI Field test of the surface soil moisture mapping using Sentinel-1 radar data
+SO SCIENCE OF THE TOTAL ENVIRONMENT
+LA English
+DT Article
+DE Sentinel-1; UAV; Digital elevation model; Radar backscattering; Artificial neural network; Soil moisture
+ID microwave dielectric behavior; preferential water flows; wet soil; model; retrieval; roughness; images; smos
+AB Soil surface moisture is one of the key parameters for describing the hydrological state and assessing the potential availability of water for irrigated plants. Because the radar backscattering coefficient is sensitive to soil moisture, the application of Sentinel-1 data may support soil surface moisture mapping at high spatial resolution by detecting spatial and temporal changes at the field scale for precision irrigation management. This mapping is required to control soil water erosion and preferential water flow to improve irrigation water efficiency and minimise negative impacts on surface and ground water bodies. Direct observations of soil surface moisture (5-cm thickness) were performed at an experimental plot in the study site of the All-Russian Scientific Research Institute of Irrigated Agriculture, near the village Vodnyy, Volgograd region. Soil surface moisture retrieval from Sentinel-1 was performed at the same location. A second set of soil surface moisture was calculated for the soil sampling sites using the permittivity model, based on the estimates of soil surface characteristics: a) reflectivity, obtained by the neural network method from Sentinel-1 observations; b) roughness, obtained from the geodata of the stereoscopic survey with unmanned aerial vehicle Phantom 4 Pro. The raster set of soil surface moisture geodata was obtained based on the reflectivity geodata raster set to solve the inverse problem using a permittivity model that considers the soil texture of the experimental plot. The determination coefficient (0.948) and standard deviation (2.04%) were obtained by comparing both sets of soil moisture point geodata taken from the same soil sampling sites. The values confirmed a satisfactory linear correlation between the directly measured and indirectly modelled sets. A comparison of the two sets of geodata indicated a satisfactory reproduction of the first set by the second set. As a result, the developed method can be considered as the scientific and methodological basis of the new tech-nology of soil surface moisture monitoring by radar, which is one of the basic characteristics used in precision ir-rigation management. (c) 2021 Elsevier B.V. All rights reserved.
+C1 [Zeyliger, A. M.; Ermolaeva, O. S.] Russian State Agr Univ, Moscow Timiryazev Acad, Moscow, Russia.
+   [Muzalevskiy, K., V] Siberian Fed Univ, RAS, Siberian Branch, Krasnoyarsk Sci Ctr,Div Fed Res Ctr,Kirensky Inst, Krasnoyarsk, Russia.
+   [Zinchenko, E., V] All Russian Sci Res Inst Irrigated Agr, Volgograd, Russia.
+C3 Russian State Agrarian University - Moscow Timiryazev Agricultural Academy; Russian Academy of Sciences; Krasnoyarsk Science Center of the Siberian Branch of the Russian Academy of Sciences; Siberian Federal University
+RP Zeyliger, AM (corresponding author), Russian State Agr Univ, Moscow Timiryazev Acad, Moscow, Russia.
+EM azeyliger@gmail.com; rsdkm@ksc.krasn.ru; zinchenko_ev@vniioz.ru
+FU Russian Foundation for Basic Research [19-29-05261 mk]
+CR Andreassian V., 2006, MOPEX IAHS CATALOGUE, V0, P0
+   Baghdadi N, 2004, INT J REMOTE SENS, V25, P3593, DOI 10.1080/01431160310001654392
+   Baghdadi N, 2011, IEEE GEOSCI REMOTE S, V8, P1160, DOI 10.1109/LGRS.2011.2158982
+   Brocca L, 2017, IEEE J-STARS, V10, P2285, DOI 10.1109/JSTARS.2017.2651140
+   Chen JM, 2005, J HYDROL, V305, P15, DOI 10.1016/j.jhydrol.2004.08.029
+   Cloude S., 2007, SCI APPL SAR POLARIM, V644, P2
+   Davidson MWJ, 2000, IEEE T GEOSCI REMOTE, V38, P630, DOI 10.1109/36.841993
+   DOBSON MC, 1985, IEEE T GEOSCI REMOTE, V23, P35, DOI 10.1109/TGRS.1985.289498
+   Dukes MD, 2005, APPL ENG AGRIC, V21, P89
+   El Hajj M, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9121292
+   El Hajj M, 2016, REMOTE SENS ENVIRON, V176, P202, DOI 10.1016/j.rse.2016.01.027
+   Entekhabi D., 2014, SMAP HDB SOIL MOISTU, V0, P0
+   Evans R.G., 2015, PRECISION CTR PIVOT, V0, P75
+   Evett SR, 2005, VADOSE ZONE J, V4, P986, DOI 10.2136/vzj2005.0099
+   Gao HR, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10111697
+   Gowda PH, 2008, IRRIGATION SCI, V26, P223, DOI 10.1007/s00271-007-0088-6
+   Hachani A, 2019, INT J REMOTE SENS, V40, P9159, DOI 10.1080/01431161.2019.1629503
+   HALLIKAINEN MT, 1985, IEEE T GEOSCI REMOTE, V23, P25, DOI 10.1109/TGRS.1985.289497
+   Khitrov NB, 2009, EURASIAN SOIL SCI+, V42, P757, DOI 10.1134/S1064229309070060
+   Mialon A, 2015, IEEE T GEOSCI REMOTE, V53, P3084, DOI 10.1109/TGRS.2014.2368585
+   Mironov VL, 2009, IEEE T GEOSCI REMOTE, V47, P2059, DOI 10.1109/TGRS.2008.2011631
+   Mirsoleimani HR, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19143209
+   Moehrlen C., 1999, LIT REV CURRENT USED, V0, P0
+   Muzylev E.L., 2017, SOVREM PROBL DISTANT, V14, P19
+   OH Y, 1992, IEEE T GEOSCI REMOTE, V30, P370, DOI 10.1109/36.134086
+   Overgaard J, 2006, BIOGEOSCIENCES, V3, P229, DOI 10.5194/bg-3-229-2006
+   Paloscia S, 2013, REMOTE SENS ENVIRON, V134, P234, DOI 10.1016/j.rse.2013.02.027
+   Paloscia S, 2008, IEEE T GEOSCI REMOTE, V46, P3274, DOI 10.1109/TGRS.2008.920370
+   Pitman AJ, 2003, INT J CLIMATOL, V23, P479, DOI 10.1002/joc.893
+   Pottier E., 2014, J SURV MAPP ENG, V2, P65
+   Robinson DA, 2008, VADOSE ZONE J, V7, P358, DOI 10.2136/vzj2007.0143
+   Startseva Z, 2014, INT J REMOTE SENS, V35, P5775, DOI 10.1080/01431161.2014.945003
+   Sui R, 2015, APPL ENG AGRIC, V31, P193
+   Thoma DP, 2006, WATER RESOUR RES, V42, P0, DOI 10.1029/2004WR003905
+   Ulaby F. T., 2014, MICROWAVE RADAR RADI, V0, P0, DOI DOI 10.3998/0472119356
+   USS Working Group WRB, 2015, ROME, V106, P0
+   Vellidis G., 2007, REAL TIME WIRELESS S, V0, P0, DOI DOI 10.1016/j.compag.2007.05009
+   Wigneron JP, 2017, REMOTE SENS ENVIRON, V192, P238, DOI 10.1016/j.rse.2017.01.024
+   Zatinatskii SV, 2007, EURASIAN SOIL SCI+, V40, P532, DOI 10.1134/S1064229307050080
+   Zeng JY, 2016, IEEE T GEOSCI REMOTE, V54, P4929, DOI 10.1109/TGRS.2016.2553085
+   [Зейлигер А. М. Zeyliger A. M.], 2019, СОВРЕМЕННЫЕ ПРОБЛЕМЫ ДИСТАНЦИОННОГО ЗОНДИРОВАНИЯ ЗЕМЛИ ИЗ КОСМОСА SOVREMENNYE PROBLEMY DISTANTSIONNOGO ZONDIROVANIYA ZEMLI IZ KOSMOSA, V16, P0, DOI 10.21046/2070-7401-2019-16-3-33-43
+   Zhang LL, 2020, INT J REMOTE SENS, V41, P3054, DOI 10.1080/01431161.2019.1698077
+NR 42
+TC 3
+Z9 3
+U1 1
+U2 24
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0048-9697
+EI 1879-1026
+J9 SCI TOTAL ENVIRON
+JI Sci. Total Environ.
+PD FEB 10
+PY 2022
+VL 807
+IS 
+BP 
+EP 
+DI 10.1016/j.scitotenv.2021.151121
+EA DEC 2021
+PG 9
+WC Environmental Sciences
+SC Environmental Sciences & Ecology
+GA YD2RQ
+UT WOS:000740224300006
+PM 34688744
+DA 2023-04-26
+ER

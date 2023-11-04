@@ -1,0 +1,207 @@
+
+PT J
+AU Fyleris, T
+   Krisciunas, A
+   Gruzauskas, V
+   Calneryte, D
+   Barauskas, R
+AF Fyleris, Tautvydas
+   Krisciunas, Andrius
+   Gruzauskas, Valentas
+   Calneryte, Dalia
+   Barauskas, Rimantas
+TI Urban Change Detection from Aerial Images Using Convolutional Neural Networks and Transfer Learning
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE urban change; aerial images; transfer learning
+ID satellite images; segmentation; model
+AB Urban change detection is an important part of sustainable urban planning, regional development, and socio-economic analysis, especially in regions with limited access to economic and demographic statistical data. The goal of this research is to create a strategy that enables the extraction of indicators from large-scale orthoimages of different resolution with practically acceptable accuracy after a short training process. Remote sensing data can be used to detect changes in number of buildings, forest areas, and other landscape objects. In this paper, aerial images of a digital raster orthophoto map at scale 1:10,000 of the Republic of Lithuania (ORT10LT) of three periods (2009-2010, 2012-2013, 2015-2017) were analyzed. Because of the developing technologies, the quality of the images differs significantly and should be taken into account while preparing the dataset for training the semantic segmentation model DeepLabv3 with a ResNet50 backbone. In the data preparation step, normalization techniques were used to ensure stability of image quality and contrast. Focal loss for the training metric was selected to deal with the misbalanced dataset. The suggested model training process is based on the transfer learning technique and combines using a model with weights pretrained in ImageNet with learning on coarse and fine-tuning datasets. The coarse dataset consists of images with classes generated automatically from Open Street Map (OSM) data and the fine-tuning dataset was created by manually reviewing the images to ensure that the objects in images match the labels. To highlight the benefits of transfer learning, six different models were trained by combining different steps of the suggested model training process. It is demonstrated that using pretrained weights results in improved performance of the model and the best performance was demonstrated by the model which includes all three steps of the training process (pretrained weights, training on coarse and fine-tuning datasets). Finally, the results obtained with the created machine learning model enable the implementation of different approaches to detect, analyze, and interpret urban changes for policymakers and investors on different levels on a local map, grid, or municipality level.
+C1 [Fyleris, Tautvydas] Kaunas Univ Technol, Fac Informat, Dept Software Engn, LT-44249 Kaunas, Lithuania.
+   [Krisciunas, Andrius; Calneryte, Dalia; Barauskas, Rimantas] Kaunas Univ Technol, Fac Informat, Dept Appl Informat, LT-44249 Kaunas, Lithuania.
+   [Gruzauskas, Valentas] Kaunas Univ Technol, Sch Econ & Business, Digitalizat Sci Grp, LT-44249 Kaunas, Lithuania.
+C3 Kaunas University of Technology; Kaunas University of Technology; Kaunas University of Technology
+RP Krisciunas, A (corresponding author), Kaunas Univ Technol, Fac Informat, Dept Appl Informat, LT-44249 Kaunas, Lithuania.
+EM tautvydas.fyleris@ktu.lt; andrius.krisciunas@ktu.lt; valentas.gruzauskas@ktu.lt; dalia.calneryte@ktu.lt; rimantas.barauskas@ktu.lt
+FU Research, Development, and Innovation Fund of Kaunas University of Technology [PP91L/19]
+CR Al-Ruzouq R, 2017, ANN GIS, V23, P183, DOI 10.1080/19475683.2017.1325935
+   Albert A, 2017, KDD17: PROCEEDINGS OF THE 23RD ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, PP1357, DOI 10.1145/3097983.3098070
+   Alvarez-Vanhard E., 2021, SCI REMOTE SENS, V3, P0, DOI 10.1016/J.SRS.2021.100019
+   Celik T, 2009, IEEE GEOSCI REMOTE S, V6, P772, DOI 10.1109/LGRS.2009.2025059
+   Corbane C, 2021, NEURAL COMPUT APPL, V33, P6697, DOI 10.1007/s00521-020-05449-7
+   Cui B, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11111314
+   Dadashpoor H, 2019, SUSTAIN CITIES SOC, V47, P0, DOI 10.1016/j.scs.2019.101502
+   de Jong K. L., 2019, 2019 INT JOINT C NEU, V0, P1
+   Donaldson D, 2016, J ECON PERSPECT, V30, P171, DOI 10.1257/jep.30.4.171
+   Dornaika F, 2016, EXPERT SYST APPL, V58, P130, DOI 10.1016/j.eswa.2016.03.024
+   Fyleris T, 2021, PROCEEDINGS OF THE 7TH INTERNATIONAL CONFERENCE ON GEOGRAPHICAL INFORMATION SYSTEMS THEORY, V0, P15, DOI 10.5220/0010415700150024
+   Gevaert CM, 2020, INT J APPL EARTH OBS, V90, P0, DOI 10.1016/j.jag.2020.102117
+   Jean N, 2016, SCIENCE, V353, P790, DOI 10.1126/science.aaf7894
+   Jiang HW, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12030484
+   Ke QT, 2021, IEEE J-STARS, V14, P9987, DOI 10.1109/JSTARS.2021.3113831
+   Krupinski M., 2019, PHOTONICS APPL ASTRO, V1117635, P6
+   Liang X, 2018, INT J GEOGR INF SCI, V32, P2294, DOI 10.1080/13658816.2018.1502441
+   Lin TY, 2017, IEEE I CONF COMP VIS, V0, PP2999, DOI 10.1109/ICCV.2017.324
+   Liu JF, 2020, IEEE GEOSCI REMOTE S, V17, P127, DOI 10.1109/LGRS.2019.2916601
+   Liu YS, 2020, IEEE T GEOSCI REMOTE, V58, P6699, DOI 10.1109/TGRS.2020.2979011
+   Macku K, 2022, J INT DEV, V34, P145, DOI 10.1002/jid.3586
+   Minaee S, 2022, IEEE T PATTERN ANAL, V44, P3523, DOI 10.1109/TPAMI.2021.3059968
+   Serasinghe Pathiranage IS, 2018, CHINESE GEOGR SCI, V28, P274, DOI 10.1007/s11769-018-0946-6
+   Shermeyer J, 2019, IEEE COMPUT SOC CONF, V0, PP1432, DOI 10.1109/CVPRW.2019.00184
+   Shi WZ, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12101688
+   Song KQ, 2021, IEEE J-STARS, V14, P4816, DOI 10.1109/JSTARS.2021.3077545
+   Suraj P.K., 2018, ARXIV171202282, V0, P0
+   Vakalopoulou M, 2015, INT GEOSCI REMOTE SE, V0, PP1873, DOI 10.1109/IGARSS.2015.7326158
+   Witwit W, 2017, J ELECTRON IMAGING, V26, P0, DOI 10.1117/1.JEI.26.2.023014
+   Wu GM, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030407
+   Wurm M, 2019, ISPRS J PHOTOGRAMM, V150, P59, DOI 10.1016/j.isprsjprs.2019.02.006
+   Xie M, 2016, AAAI CONF ARTIF INTE, V0, P3929
+   Xue DH, 2021, IEEE J-STARS, V14, P1796, DOI 10.1109/JSTARS.2020.3046838
+   Ye ZR, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11242970
+   Zhang Y, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13081440
+NR 35
+TC 1
+Z9 1
+U1 13
+U2 25
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD APR 15
+PY 2022
+VL 11
+IS 4
+BP 
+EP 
+DI 10.3390/ijgi11040246
+PG 19
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 0R2OY
+UT WOS:000785442400001
+DA 2023-04-26
+ER
+
+PT J
+AU Yang, H
+   Ju, JT
+   Guo, HL
+   Qiao, BJ
+   Nie, BK
+   Zhu, LP
+AF Yang, Hong
+   Ju, Jianting
+   Guo, Hengliang
+   Qiao, Baojin
+   Nie, Bingkang
+   Zhu, Liping
+TI Bathymetric Inversion and Mapping of Two Shallow Lakes Using Sentinel-2 Imagery and Bathymetry Data in the Central Tibetan Plateau
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Lakes; Satellites; Remote sensing; Bathymetry; Data models; Analytical models; Earth; Bathymetric mapping; machine learning (ML); remote sensing depth inversion; Sentinel-2; shallow lake
+ID multispectral satellite imagery; water depth; neural-networks; airborne lidar; regression; retrieval; model
+AB High-accuracy lake bathymetry and mapping are crucial for estimating lake water storage on the Tibetan Plateau (TP). In this article, we constructed traditional empirical (TE) models and machine learning (ML) models to compare the prediction accuracy and remote sensing bathymetric mapping performance by using Sentinel-2 satellite imagery and in situ measured water depth from Caiduochaka (CK) and QiXiang Co in the central TP. We analyzed the relationship between the band reflectance and depth and explored the universality of the model in different lakes. The results indicated that when using the TE model, the mean absolute percentage error (MAPE) varied between 14.5% and 26.5% for the test dataset at different study sites. When using the ML models, the MAPE varied between 7.6% and 18.9%, and it was the better choice overall. For the test dataset of the random forest model with the highest accuracy, in the CK with the maximum depth of approximately 16 m, the mean absolute error (MAE) and root-mean-square error (RMSE) were 0.54 and 0.89 m, and the precision was the highest with an MAE of 1.13 m and RMSE of 1.67 m in QiXiang Co with a maximum depth of approximately 28 m, whereas the portability of the model was not satisfactory. Overall, the results indicated that the ML model can obtain bathymetric maps with high accuracy, good visual performance, and reliability, outperforming the TE model. It can be used effectively for deriving accurate and updated high-resolution bathymetric maps for shallow lakes.
+C1 [Yang, Hong] Zhengzhou Univ, Sch Chem, Zhengzhou 450001, Peoples R China.
+   [Ju, Jianting; Zhu, Liping] Chinese Acad Sci, Inst Tibetan Plateau Res, Key Lab Tibetan Environm Changes & Land Surface P, Beijing 100101, Peoples R China.
+   [Guo, Hengliang] Zhengzhou Univ, Natl Supercomp Ctr Zhengzhou, Zhengzhou 450001, Peoples R China.
+   [Qiao, Baojin; Nie, Bingkang] Zhengzhou Univ, Sch Geosci & Technol, Zhengzhou 450001, Peoples R China.
+   [Zhu, Liping] CAS Ctr Excellence Tibetan Plateau Earth Sci, Beijing 100101, Peoples R China.
+C3 Zhengzhou University; Chinese Academy of Sciences; Institute of Tibetan Plateau Research, CAS; Zhengzhou University; Zhengzhou University
+RP Zhu, LP (corresponding author), Chinese Acad Sci, Inst Tibetan Plateau Res, Key Lab Tibetan Environm Changes & Land Surface P, Beijing 100101, Peoples R China.; Guo, HL (corresponding author), Zhengzhou Univ, Natl Supercomp Ctr Zhengzhou, Zhengzhou 450001, Peoples R China.
+EM yanghjlu@163.com; jujianting@itpcas.ac.cn; guo-hengliang@zzu.edu.cn; qiaobao-jin@zzu.edu.cn; bknie@gs.zzu.edu.cn; lpzhu@itpcas.ac.cn
+FU Second Tibetan Plateau Scientific Expedition and Research [2019QZKK0202]; Natural Science Foundation of China Project [41831177, 41901078]; CAS Strategic Priority Research Program [XDA20020100]; CAS Alliance of Field Observation Stations [KFJ-SW-YW038]; 2020 Science and Technology Project of Innovation Ecosystem Construction, National Supercomputing Zhengzhou Center-Research on Key Technologies of Intelligent Fine Prediction Based on Big Data Analysis [201400210800]
+CR Ai B, 2020, IEEE J-STARS, V13, P2888, DOI 10.1109/JSTARS.2020.2993731
+   Becker JJ, 2009, MAR GEOD, V32, P355, DOI 10.1080/01490410903297766
+   Bryant RG, 1999, GEOMORPHOLOGY, V29, P307, DOI 10.1016/S0169-555X(99)00023-9
+   Caballero I, 2019, ESTUAR COAST SHELF S, V226, P0, DOI 10.1016/j.ecss.2019.106277
+   Chen J, 2019, ENVIRON INT, V130, P0, DOI 10.1016/j.envint.2019.104934
+   Chybicki A, 2017, POL MARIT RES, V24, P15, DOI 10.1515/pomr-2017-0086
+   CLARK RK, 1990, J IMAGING TECHNOL, V16, P170
+   Clarke SM, 2005, J MECH DESIGN, V127, P1077, DOI 10.1115/1.1897403
+   Costa BM, 2009, REMOTE SENS ENVIRON, V113, P1082, DOI 10.1016/j.rse.2009.01.015
+   Daniell JJ, 2008, J GEOPHYS RES-EARTH, V113, P0, DOI 10.1029/2006JF000673
+   European Space Agency, 2015, SENT 2 US HDB, V0, P0
+   Feurer D, 2008, PROG PHYS GEOG, V32, P403, DOI 10.1177/0309133308096030
+   Figueiredo IN, 2016, IEEE GEOSCI REMOTE S, V13, P53, DOI 10.1109/LGRS.2015.2496401
+   Getirana A, 2018, REMOTE SENS ENVIRON, V217, P366, DOI 10.1016/j.rse.2018.08.030
+   Geyman EC, 2019, EARTH SPACE SCI, V6, P527, DOI 10.1029/2018EA000539
+   Gorelick N, 2017, REMOTE SENS ENVIRON, V202, P18, DOI 10.1016/j.rse.2017.06.031
+   Halls J, 2016, REMOTE SENS-BASEL, V8, P0, DOI 10.3390/rs8090718
+   Han ZY, 2016, SPECTROSC SPECT ANAL, V36, P800, DOI 10.3964/j.issn.1000-0593(2016)03-0800-06
+   Hogrefe KR, 2008, MAR GEOD, V31, P299, DOI 10.1080/01490410802466710
+   Iverson LR, 2008, FOREST ECOL MANAG, V254, P390, DOI 10.1016/j.foreco.2007.07.023
+   Jay S, 2014, REMOTE SENS ENVIRON, V147, P121, DOI 10.1016/j.rse.2014.01.026
+   Jia WK, 2015, APPL INTELL, V43, P176, DOI 10.1007/s10489-014-0618-x
+   Kanno A, 2011, COAST ENG J, V53, P431, DOI 10.1142/S0578563411002410
+   Kanno A, 2012, IEEE GEOSCI REMOTE S, V9, P715, DOI 10.1109/LGRS.2011.2179517
+   Khoshnevisan B, 2013, J CLEAN PROD, V52, P402, DOI 10.1016/j.jclepro.2013.03.028
+   Kimes DS, 1998, INT J REMOTE SENS, V19, P2639, DOI 10.1080/014311698214433
+   Lafon V, 2002, REMOTE SENS ENVIRON, V81, P136, DOI 10.1016/S0034-4257(01)00340-6
+   Leckie DG, 2005, PHOTOGRAMM ENG REM S, V71, P145, DOI 10.14358/PERS.71.2.145
+   Lyzenga DR, 2006, IEEE T GEOSCI REMOTE, V44, P2251, DOI 10.1109/TGRS.2006.872909
+   LYZENGA DR, 1978, APPL OPTICS, V17, P379, DOI 10.1364/AO.17.000379
+   LYZENGA DR, 1985, INT J REMOTE SENS, V6, P115, DOI 10.1080/01431168508948428
+   Ma S, 2014, IEEE T GEOSCI REMOTE, V52, P1205, DOI 10.1109/TGRS.2013.2248372
+   Maiti A, 2021, SUSTAIN CITIES SOC, V68, P0, DOI 10.1016/j.scs.2021.102784
+   Manessa MDM, 2014, REMOTE SENS-BASEL, V6, P4454, DOI 10.3390/rs6054454
+   Mateo-Perez V, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12132069
+   Misra A, 2018, INT J REMOTE SENS, V39, P4431, DOI 10.1080/01431161.2017.1421796
+   Mukherjee L, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091421
+   Mutanga O, 2012, INT J APPL EARTH OBS, V18, P399, DOI 10.1016/j.jag.2012.03.012
+   Nusser M., 2019, WATER AIR SOIL POLL, V39, P518, DOI 10.1007/s11270-007-9372-6
+   Pacheco A, 2015, REMOTE SENS ENVIRON, V159, P102, DOI 10.1016/j.rse.2014.12.004
+   Palmer SCJ, 2015, REMOTE SENS ENVIRON, V157, P1, DOI 10.1016/j.rse.2014.09.021
+   Noi PT, 2018, SENSORS-BASEL, V18, P0, DOI 10.3390/s18010018
+   Qian YT, 2013, IEEE T GEOSCI REMOTE, V51, P2276, DOI 10.1109/TGRS.2012.2209657
+   Qiao BJ, 2017, QUATERN INT, V454, P56, DOI 10.1016/j.quaint.2017.08.005
+   Smola AJ, 1998, NEURAL NETWORKS, V11, P637, DOI 10.1016/S0893-6080(98)00032-X
+   Stumpf RP, 2003, LIMNOL OCEANOGR, V48, P547, DOI 10.4319/lo.2003.48.1_part_2.0547
+   Su HB, 2014, IEEE T GEOSCI REMOTE, V52, P465, DOI 10.1109/TGRS.2013.2241772
+   Su HB, 2008, MAR GEOD, V31, P281, DOI 10.1080/01490410802466652
+   Takahashi K, 2003, INT J APPL ELECTROM, V18, P165, DOI 10.3233/JAE-2003-283
+   Tsolakidis I, 2019, ENVIRON PROCESS, V6, P1031, DOI 10.1007/s40710-019-00394-7
+   Uchida T, 2019, ADV WATER RESOUR, V129, P311, DOI 10.1016/j.advwatres.2017.09.020
+   Vapnik V, 2000, ISCAS 2000: IEEE INTERNATIONAL SYMPOSIUM ON CIRCUITS AND SYSTEMS - PROCEEDINGS, VOL II, P749, DOI 10.1109/ISCAS.2000.856437
+   Wan JX, 2021, J INDIAN SOC REMOTE, V49, P2019, DOI 10.1007/s12524-020-01255-9
+   Wan W, 2016, SCI DATA, V3, P0, DOI 10.1038/sdata.2016.39
+   Wang JX, 2019, ENVIRON POLLUT, V252, P501, DOI 10.1016/j.envpol.2019.05.132
+   Wechsler SP, 2007, HYDROL EARTH SYST SC, V11, P1481, DOI 10.5194/hess-11-1481-2007
+   Westfeld P, 2017, ISPRS J PHOTOGRAMM, V128, P314, DOI 10.1016/j.isprsjprs.2017.04.008
+   Winterbottom SJ, 1997, REGUL RIVER, V13, P489, DOI 10.1002/(SICI)1099-1646(199711/12)13:6<489::AID-RRR471>3.0.CO;2-X
+   Xia HY, 2020, IEEE T GEOSCI REMOTE, V58, P2695, DOI 10.1109/TGRS.2019.2953381
+   Yang FL, 2017, IEEE T GEOSCI REMOTE, V55, P6141, DOI 10.1109/TGRS.2017.2721442
+   Yang N, 2020, GLOB ECOL CONSERV, V22, P0, DOI 10.1016/j.gecco.2020.e01004
+   Yuan HH, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040309
+   Yunus AP, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19122788
+   Zhang Z, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9204375
+NR 66
+TC 1
+Z9 1
+U1 12
+U2 19
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 4279
+EP 4296
+DI 10.1109/JSTARS.2022.3177227
+PG 18
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 1Y3SE
+UT WOS:000808062300002
+DA 2023-04-26
+ER

@@ -1,0 +1,485 @@
+
+PT J
+AU Du, JW
+   Wu, F
+   Yin, JC
+   Liu, CY
+   Gong, XY
+AF Du, Jiawei
+   Wu, Fang
+   Yin, Jichong
+   Liu, Chengyi
+   Gong, Xianyong
+TI Polyline simplification based on the artificial neural network with constraints of generalization knowledge
+SO CARTOGRAPHY AND GEOGRAPHIC INFORMATION SCIENCE
+LA English
+DT Article
+DE Polyline simplification; artificial neural network; generalization knowledge; descriptors; controllers
+ID line generalization; selective omission
+AB The present paper presents techniques for polyline simplification based on an artificial neural network within the constraints of generalization knowledge. The proposed method measures polyline shape characteristics that influence polyline simplification using abstracted descriptors and then introduces these descriptors into the artificial neural network as input properties. In total, 18 descriptors categorized into three types are presented in detail. In a second approach, map simplification principles are abstracted as controllers, imposed after the output layer of the trained artificial neural network to make the polyline simplification comply with these principles. This study worked with three controllers - a basic controller and two knowledge-based controllers. These descriptors and controllers abstracted from generalization knowledge were tested in experiments to determine their efficacy in polyline simplification based on the artificial neural network. The experimental results show that the utilization of abstracted descriptors and controllers can constrain the artificial neural network-based polyline simplification according to polyline shape characteristics and simplification principles.
+C1 [Du, Jiawei; Wu, Fang; Yin, Jichong; Liu, Chengyi; Gong, Xianyong] Informat Engn Univ, PLA Strateg Support Force, Zhengzhou, Henan, Peoples R China.
+C3 PLA Information Engineering University
+RP Wu, F (corresponding author), Informat Engn Univ, PLA Strateg Support Force, Zhengzhou, Henan, Peoples R China.
+EM wufang_630@126.com
+FU Natural Science Foundation for Distinguished Young Scholars of Henan Province [212300410014]; National Natural Science Foundation of China [41801396]
+CR Ai T., 2001, ACTA GEODAETICA CART, V30, P343, DOI HTTP://DX.DOI.ORG/10.3321/J.1001-1595.2001.04.013
+   Ai TH, 2017, INT J GEOGR INF SCI, V31, P297, DOI 10.1080/13658816.2016.1197399
+   Ai TH, 2014, MAR GEOD, V37, P167, DOI 10.1080/01490419.2014.903215
+   Cheng BY, 2013, GISCI REMOTE SENS, V50, P527, DOI 10.1080/15481603.2013.823748
+   Courtial A, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9050338
+   CROMLEY RG, 1991, CARTOGR GEOGR INFORM, V18, P125, DOI 10.1559/152304091783805563
+   Dai A, 2017, PROC CVPR IEEE, V0, PP6545, DOI 10.1109/CVPR.2017.693
+   Douglas D. H., 1973, CARTOGRAPHICA INT J, V10, P112, DOI 10.3138/FM57-6770-U75U-7727
+   Du JW, 2022, GEOCARTO INT, V37, P4158, DOI 10.1080/10106049.2021.1878288
+   Du JW, 2017, COMM COM INF SC, V773, P515, DOI 10.1007/978-981-10-7305-2_44
+   Feng Y, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8060258
+   Gahegan M, 2020, INT J GEOGR INF SCI, V34, P1, DOI 10.1080/13658816.2019.1652304
+   Balboa JLG, 2008, GEOINFORMATICA, V12, P289, DOI 10.1007/s10707-007-0026-z
+   Geron A., 2017, HANDS ON MACHINE LEA, V0, P0
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Guo Q., 2002, GEO-SPAT INF SCI, V5, P41, DOI 10.1007/BF02826387
+   Harris D.M., 2016, DIGITAL DESIGN COMPU, V0, P0
+   Haykin S., 2008, NEURAL NETWORKS LEAR, V0, P0
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Isola P., 2017, PROC IEEE C COMPUT V, V0, P1125
+   Jasinski M. J., 1990, 901 NAT CTR GEOGR IN, V0, P0
+   Kang YH, 2019, INT J CARTOGRAPHY, V5, P115, DOI 10.1080/23729333.2019.1615729
+   King DB, 2015, ACS SYM SER, V1214, P1
+   Kronenfeld BJ, 2020, INT J CARTOGRAPHY, V6, P22, DOI 10.1080/23729333.2019.1631535
+   LI Z, 2007, ALGORITHMIC FDN MULT, V0, PP1, DOI 10.1201/9781420008432
+   LI ZL, 1992, INT J GEOGR INF SYST, V6, P373, DOI 10.1080/02693799208901921
+   Mackaness W., 2007, GEN GEOGRAPHIC INFOR, V0, P0
+   Mao L, 2020, JAMA NEUROL, V77, P683, DOI 10.1001/jamaneurol.2020.1127
+   McMaster R.B., 1987, CARTOGRAPHICA, V24, P74, DOI 10.3138/3535-7609-781G-4L20
+   Nakos B., 2008, 11 ICA WORKSH GEN MU, V0, P0
+   NAKOS B, 2003, S 7 ICA WORKSH PROGR, V0, P0
+   PLAZANET C, 1995, P 12 INT S COMP ASS, V0, P59
+   PLAZANET C, 1995, CARTOGR GEOGR INF SC, V22, P291, DOI 10.1559/152304095782540276
+   Qi CR, 2017, ADV NEUR IN, V30, P0
+   RAO J, 2020, 11 INT C GEOGR INF S, V0, P0
+   Raposo P, 2013, CARTOGR GEOGR INF SC, V40, P427, DOI 10.1080/15230406.2013.803707
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   RUMELHART DE, 1986, NATURE, V323, P533, DOI 10.1038/323533a0
+   Saalfeld A., 1999, CARTOGR GEOGRAPH INF, V26, P7, DOI 10.1559/152304099782424901
+   Santurkar S, 2019, DOES BATCH NORMALIZA, V0, P0
+   Sester M., 2018, ISPRS INT ARCH PHOTO, V42, P565, DOI https://doi.org/10.5194/ISPRS-ARCHIVES-XLII-4-565-2018
+   [邵黎霞 Shao Lixia], 2004, 武汉大学学报. 信息科学版 GEOMATICS AND INFORMATION SCIENCE OF WUHAN UNIVERSITY, V29, P555
+   Simon O.H., 2008, NEURAL NETWORKS LEAR, V0, P0
+   Simonyan K, 2015, ARXIV, V0, P0
+   Stanislawski LV, 2018, CARTOGR GEOGR INF SC, V45, P319, DOI 10.1080/15230406.2017.1337524
+   STAUFFER AJ, 2016, AM WAT RES ASS 2016, V0, P0
+   Tian Z., 1999, ACTA GEODAETICA CART, V28, P335, DOI 10.3321/j.issn:1001-1595.1999.04.011
+   Topfer F, 1966, CARTOGR J, V3, P10, DOI 10.1179/CAJ.1966.3.1.10
+   Touya G, 2019, INT J CARTOGRAPHY, V5, P142, DOI 10.1080/23729333.2019.1613071
+   VISVALINGAM M, 1993, CARTOGR J, V30, P46
+   Visvalingam M, 2016, CARTOGR J, V53, P253, DOI 10.1080/00087041.2016.1149906
+   WANG Z, 1993, CARTOGR GEOGR INF SC, V20, P96, DOI 10.1559/152304093782610333
+   WANG Z, 1998, CARTOGR GEOGR INF SC, V25, P3, DOI 10.1559/152304098782441750
+   Yan XF, 2021, INT J GEOGR INF SCI, V35, P490, DOI 10.1080/13658816.2020.1768260
+   Yang M, 2020, CARTOGR GEOGR INF SC, V47, P110, DOI 10.1080/15230406.2019.1618200
+   Zhou Q, 2017, CARTOGR J, V54, P254, DOI 10.1179/1743277414Y.0000000083
+   Zhou Q, 2014, CARTOGR J, V51, P38, DOI 10.1179/1743277413Y.0000000042
+NR 57
+TC 2
+Z9 3
+U1 6
+U2 13
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 1523-0406
+EI 1545-0465
+J9 CARTOGR GEOGR INF SC
+JI Cartogr. Geogr. Inf. Sci.
+PD JUL 4
+PY 2022
+VL 49
+IS 4
+BP 313
+EP 337
+DI 10.1080/15230406.2021.2013944
+EA JAN 2022
+PG 25
+WC Geography
+SC Geography
+GA 1T2FB
+UT WOS:000744424600001
+DA 2023-04-26
+ER
+
+PT J
+AU Glebova, AB
+   Sergeev, IS
+   Bykov, NI
+AF Glebova, A. B.
+   Sergeev, I. S.
+   Bykov, N., I
+TI Geoinformation analysis with the construction of a neural network model for predicting location of archaeological monuments in the landscapes of South-Eastern Altai
+SO VESTNIK OF SAINT PETERSBURG UNIVERSITY EARTH SCIENCES
+LA Russian
+DT Article
+DE landscape; archaeological sites; geographic information systems; DEM; neural network; South-Eastern Altai; Altai Mountains
+AB This article identifies landscape patterns of the location of archaeological sites in the South-East Altai using GIS and machine learning. The information database of archaeological sites of South- Eastern Altai was created based on literary sources, the authors' own field research. Schemes of distribution of archaeological sites according to some landscape features: absolute height; position in relation to watercourses; slopes; exposition; solar radiation intensity in June; Intensities of solar radiation for December was created on the basis of geoinformation analysis of the relief of the territory and the available archaeological data. The obtained statistical regularities of the distribution of archaeological sites in the landscapes of South-Eastern Altai were the basis for the creation and verification of the algorithm of a machine-learning model - a neural network. Based on the results, a forecast map of the location of archaeological sites was created. The greatest probability of discovering new archaeological objects could be provided by the following landscape parameters, no further than 500-600 m from the river with a slope steepness of up to 4 degrees, with high intensity and summer ( June) solar radiation and with an exposure of slopes: southern, south-eastern and western. Unexplored archaeological sites in South-East Altai are most likely located along river valleys in the middle and lower reaches, at the confluence of rivers, along the periphery of intermountain basins, or on wide flat areas of above-floodplain terraces of river valleys. The data obtained make it possible to assess the contribution of landscape features to the spatial distribution of religious buildings of ancient peoples and provide opportunities for the search for new archaeological sites.
+C1 [Glebova, A. B.; Sergeev, I. S.] St Petersburg State Univ, 7-9 Univ Skaya Nab, St Petersburg 199034, Russia.
+   [Bykov, N., I] Russian Acad Sci, Inst Water & Environm Problems, Siberian Branch, 1 Ul Molodyozhnaya, Barnaul 656038, Russia.
+C3 Saint Petersburg State University; Institute for Water & Environmental Problems, Siberian Branch of the Russian Academy of Sciences; Russian Academy of Sciences
+RP Glebova, AB (corresponding author), St Petersburg State Univ, 7-9 Univ Skaya Nab, St Petersburg 199034, Russia.
+EM a_glebova@mail.ru; igorsergeev.spb@gmail.com; nikolai_bykov@mail.ru
+FU Institute of Water and Environmental Problems of the Siberian Branch of the Russian Academy of Sciences [0306-2021-0007]; Russian Foundation for Basic Research [19-05-00535]
+CR Altai region, 1978, ATLAS, V1, P0
+   [Anonymous], 1993, SCI APPL REF BOOK CL, V0, P0
+   Arcgis.com, 2021, EL RES ARCGIS, V0, P0
+   Bourgeois J., 2014, ARCHEOLOGY ETHNOGRAP, V4, P106
+   Bykov N. I., 2016, DATABASE REGISTRATION CERTIFICATE, V0, Patent No. [RU2016620264, 2016620264]
+   Bykov N. I., 2004, COMPREHENSIVE STUDIE, V0, P258
+   Bykova V. A., 2014, NATURAL CONDITIONS S, V0, P0
+   Davis S. J, 1990, STAT ANAL DATA GEOLO, V1, P0
+   Evtyukhova L. A, 1952, MAT RES ARCHEOLOGY U, VI, P72
+   Galakhov V. P., 2005, MONOGRAPH, V0, P0
+   Glebova AB, 2019, VESTN ST PETER U-EAR, V64, P403, DOI 10.21638/spbu07.2019.302
+   [ГЛЕБОВА А.Б. Glebova A.B.], 2016, ИЗВЕСТИЯ РУССКОГО ГЕОГРАФИЧЕСКОГО ОБЩЕСТВА PROCEEDINGS OF THE RUSSIAN GEOGRAPHICAL SOCIETY IZVESTIYA RUSSKOGO GEOGRAFICHESKOGO OBSHCHESTVA, V148, P65
+   Glebova A. B, 2016, P RUSSIAN GEOGRAPHIC, V148, P57
+   Glebova A. B., 2014, CERTIFICATE OF THE RUSSIAN FEDERATION ON STATE REGISTRATION, V0, Patent No. 2014621592
+   Glebova A. B., 2007, THESIS ST PETERSBURG, V0, P0
+   Gryaznov M. P, 1992, STEPPE BELT ASIAN PA, V0, P161
+   History of the Republic of Altai, 2002, HIST REP ALT ANT MID, V1, P0
+   Kiryushin Yu. F., 2003, SCYTHIAN ERA GORNY 2, V0, P0
+   Kiselev S. V., 1951, ANCIENT HIST SO SIBE, V0, P0
+   Kubarev V. D, 1984, ANCIENT TURKIC SCULP, V0, P0
+   Kubarev V. D., 1992, PETROGLYPHS ALTAI, V0, P0
+   Kubarev V. D., 1987, MOUNDS ULANDRYK, V0, P0
+   Kubarev V. D, 1980, ARCHAEOLOGICAL SEARC, V0, P69
+   Kubarev V.D, 2001, ALTAI ADJACENT TERRI, V0, P24
+   lfd.uci.edu, 2021, EL RES PYTH LIB, V0, P0
+   Mikhailov N. N., 2013, TRENDS CLIMATE CHANG, V0, P60
+   Molodin V. I., 2004, MAT ARCHEOLOGY SIBER, V3, P0
+   Molodin V. I, 1994, ANCIENT CULTURES BER, V0, P0
+   Muller A, 2019, INTRO MACHINE LEARNI, V0, P0
+   Nazarov A. N, 2006, DYNAMICS NIVAL GLACI, V0, P0
+   Python.org, 2021, OFF WEBS PYTH DEV, V0, P0
+   Rudenko S. I., 1960, CULTURE POPULATION C, V0, P0
+   Samsonov T. E, 2011, MULTISCALE RELIEF MA, V0, P0
+   Savinov D. G, 1984, PEOPLES SO SIBERIA A, V0, P0
+   Slyusarenko I. V., 2008, STUDY HIST CULTURAL, V7, P42
+   Soyonov V. I., 1998, ANTIQUITIES ALTAI, V3, P88
+   Soyonov V. I., 1995, PROBLEMS PROTECTION, V0, P145
+   Soyonov V. I., 2000, ANTIQUITIES ALTAI, V5, P7
+   Soyonov V. I., 1994, REPORT ARCHAEOLOGICA, V0, P0
+   Tishkin A. A., 2009, ALTAI MONGOLIAN TIME, V0, P0
+   Tishkin A. A., 2019, HIST ALTAI MOST ANCI, V1, P0
+   USGS. GOV, 2020, OFF WEBS US GEOL SUR, V0, P0
+NR 42
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ST PETERSBURG UNIV PRESS
+PI ST PETERSBURG
+PA 6TH LINE VO, 11, ST PETERSBURG, 199004, RUSSIA
+SN 2541-9668
+EI 2587-585X
+J9 VESTN ST PETER U-EAR
+JI Vestn. St. Petersb. Univ. Earth Sci.
+PD JUN 15
+PY 2022
+VL 67
+IS 3
+BP 491
+EP 514
+DI 10.21638/spbu07.2022.306
+PG 24
+WC Geosciences, Multidisciplinary
+SC Geology
+GA 8O4YB
+UT WOS:000925840800006
+DA 2023-04-26
+ER
+
+PT J
+AU Chen, Y
+   Cheng, H
+   Yao, S
+   Hu, Z
+AF Chen, Y.
+   Cheng, H.
+   Yao, S.
+   Hu, Z.
+TI BUILDING EXTRACTION FROM HIGH-RESOLUTION REMOTE SENSING IMAGERY BASED ON MULTI-SCALE FEATURE FUSION AND ENHANCEMENT
+SO XXIV ISPRS CONGRESS: IMAGING TODAY, FORESEEING TOMORROW, COMMISSION III
+LA English
+DT Proceedings Paper
+DE High-Resolution Remote Sensing; Building Extraction; Encoder and Decoder; Multi-Scale Features; Dual Attention
+AB The accurate detection and mapping of buildings from high-resolution remote sensing (HRRS) images have attracted extensive attention. However, as an artificial target, buildings not only have various types, but also have multi-scale characteristics and complex context, which brings great challenges to the accurate identification of buildings. To deal with this problem, a semantic segmentation model based on multi-scale feature fusion and enhancement (MSFFE) is proposed for building extraction from HRRS images. Specifically, the proposed model uses the network structure of encoder and decoder. In the encoding stage, densely connected convolutional neural network is used as an encoder to extract multi-level spatial and semantic features. To effectively use the multi-scale features of buildings, a multi-scale feature fusion (MSFF) module between encoder and decoder is designed to distinguish buildings of different scales in complex scenes. In the decoding stage, an attention weighted semantic enhancement (AWSE) module is introduced into the decoder to assist the up-sampling process. It not only makes full use of the multi-level features output by the encoder, but also highlights the key local semantic information of the building. To verify the effectiveness of the proposed model, experiments were conducted on two building segmentation data sets, WHU and INRIA. The preliminary results show that the proposed model can effectively identify buildings with different scales in complex scenes, and has better performance than the current representative networks including FCN, U-net, DeeplabV3+ and MA-FCN.
+C1 [Chen, Y.; Cheng, H.; Yao, S.] Nanjing Univ Posts & Telecommun, Nanjing 210003, Peoples R China.
+   [Hu, Z.] MNR Key Lab Geoenvironm Monitoring Great Bay Area, Shenzhen 518060, Peoples R China.
+C3 Nanjing University of Posts & Telecommunications
+RP Chen, Y (corresponding author), Nanjing Univ Posts & Telecommun, Nanjing 210003, Peoples R China.
+EM chenyixiang@njupt.edu.cn; zwhoo@szu.edu.cn
+FU MNR Key Laboratory for Geo-Environmental Monitoring of Great Bay Area [2019004]
+CR Cai JH, 2021, IEEE J-STARS, V14, P5807, DOI 10.1109/JSTARS.2021.3084805
+   Chen L.-C., 2018, P EUR C COMP VIS ECC, V0, PP801, DOI 10.1007/978-3-030-01234-2_49
+   Chen LC, 2016, ARXIV, V0, P0
+   Chen LC, 2017, ARXIV, V0, P0
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Deng WJ, 2021, IEEE J-STARS, V14, P2611, DOI 10.1109/JSTARS.2021.3058097
+   Hermosilla T, 2011, REMOTE SENS-BASEL, V3, P1188, DOI 10.3390/rs3061188
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Liu PH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070830
+   Liu YY, 2021, IEEE T GEOSCI REMOTE, V59, P6106, DOI 10.1109/TGRS.2020.3022410
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Mishra A, 2016, PROCEEDINGS OF THE 10TH INDIACOM - 2016 3RD INTERNATIONAL CONFERENCE ON COMPUTING FOR SUSTAINABLE GLOBAL DEVELOPMENT, V0, P3816
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Shao ZF, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12061050
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Turker M, 2015, INT J APPL EARTH OBS, V34, P58, DOI 10.1016/j.jag.2014.06.016
+   Wang J, 2015, IEEE GEOSCI REMOTE S, V12, P487, DOI 10.1109/LGRS.2014.2347332
+   Wei SQ, 2020, IEEE T GEOSCI REMOTE, V58, P2178, DOI 10.1109/TGRS.2019.2954461
+   Zhu Q, 2021, IEEE T GEOSCI REMOTE, V59, P6169, DOI 10.1109/TGRS.2020.3026051
+NR 21
+TC 0
+Z9 0
+U1 5
+U2 5
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLE 1E, GOTTINGEN, 37081, GERMANY
+SN 1682-1750
+EI 2194-9034
+J9 INT ARCH PHOTOGRAMM
+PD JUN 15
+PY 2022
+VL 43-B3
+IS 
+BP 55
+EP 60
+DI 10.5194/isprs-archives-XLIII-B3-2022-55-2022
+PG 6
+WC Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA BT8VW
+UT WOS:000855647800007
+DA 2023-04-26
+ER
+
+PT J
+AU Li, BN
+   Gao, JC
+   Chen, SP
+   Lim, S
+   Jiang, H
+AF Li, Bingnan
+   Gao, Jiuchong
+   Chen, Shuiping
+   Lim, Samsung
+   Jiang, Hai
+TI POI Detection of High-Rise Buildings Using Remote Sensing Images: A Semantic Segmentation Method Based on Multitask Attention Res-U-Net
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Buildings; Remote sensing; Shape; Image segmentation; Logic gates; Global Positioning System; Multitasking; Attention mechanism; building footprint extraction; online food delivery (OFD); remote sensing images; semantic segmentation
+ID neural-networks
+AB A point-of-interest (POI) represents a specific point location that may be useful or interesting for people, and therefore, each and every building footprint in a topographic map can be recognized as a POI. Automatic extraction of building footprints using remote sensing images has become a challenging and important research topic, which is in demand for urban planning and development. Extensive studies have explored a variety of semantic segmentation methods using deep learning algorithms to achieve better performance in building footprint extraction; however, the existing algorithms were shown to have some limitations, which lead to poor segmentation results. Building roofs were recognized as building footprints in the previous studies. This is prone to error especially for high-rise buildings due to different sensor view angles. In this article, we propose a multitask Res-U-Net model with an attention mechanism for the extraction of the building roofs and the whole building shapes from remote sensing images and then use an offset vector method to detect the footprints of the high-rise buildings based on the boundaries of the corresponding building roofs and shapes. We also apply the online food delivery (OFD) data to parse the POI name of every building footprint. Several strategies are also developed in combination with the proposed model, including data augmentation and postprocessing. We conduct numerical experiments using real data of remote sensing images and OFD historical order data. Results demonstrate that our proposed model achieves a total F1-score of 77.05% and an intersection over union (IoU) of 63.55% in terms of the building roof segmentation, and an overall F1-score of 79.02% and an IoU of 66.05% for the whole building shape segmentation, which both achieve the best performance among all baseline models.
+C1 [Li, Bingnan; Lim, Samsung] Univ New South Wales, Sch Civil & Environm Engn, Sydney, NSW 2052, Australia.
+   [Gao, Jiuchong; Chen, Shuiping] Meituan, Beijing 100020, Peoples R China.
+   [Jiang, Hai] Tsinghua Univ, Dept Ind Engn, Beijing 100084, Peoples R China.
+C3 University of New South Wales Sydney; Tsinghua University
+RP Jiang, H (corresponding author), Tsinghua Univ, Dept Ind Engn, Beijing 100084, Peoples R China.
+EM bingnan.li@unsw.edu.au; gaojiuchong@meituan.com; chenshuiping@meituan.com; s.lim@unsw.edu.au; haijiang@tsinghua.edu.cn
+FU Tsinghua University-Meituan Joint Institute for Digital Life
+CR Alam M, 2021, MOBILE NETW APPL, V26, P200, DOI 10.1007/s11036-020-01703-3
+   [Anonymous], 2016, NAT METHODS, V0, P0, DOI DOI 10.1038/nmeth.3707
+   [Anonymous], 2015, P INT C MACH LEARN, V0, P0
+   [Anonymous], 2010, P 13 INT C ARTIFICIA, V0, P0
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bandara R, 2018, ARXIV181003908, V0, P0
+   Belcastro L, 2018, ACM T KNOWL DISCOV D, V12, P0, DOI 10.1145/3154411
+   Belgiu M, 2014, ISPRS J PHOTOGRAMM, V96, P67, DOI 10.1016/j.isprsjprs.2014.07.002
+   Bischke B, 2019, IEEE IMAGE PROC, V0, PP1480, DOI 10.1109/ICIP.2019.8803050
+   Cesario E, 2016, 2016 INTERNATIONAL CONFERENCE ON HIGH PERFORMANCE COMPUTING & SIMULATION (HPCS 2016), V0, PP230, DOI 10.1109/HPCSim.2016.7568340
+   Chen L. C., 2014, COMPUT SCI, V4, P357
+   Chen L, 2018, PROCEEDINGS OF THE 2ND INTERNATIONAL CONFERENCE ON COMPUTER SCIENCE AND APPLICATION ENGINEERING (CSAE2018), V0, P0, DOI DOI 10.1145/3207677.3278067
+   Chen LC, 2018, IEEE T PATTERN ANAL, V40, P834, DOI 10.1109/TPAMI.2017.2699184
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Chen RX, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030451
+   Chen X, 2022, IEEE GEOSCI REMOTE S, V19, P0, DOI 10.1109/LGRS.2022.3142279
+   Ding P, 2018, ISPRS J PHOTOGRAMM, V141, P208, DOI 10.1016/j.isprsjprs.2018.05.005
+   Douglas D. H., 1973, CARTOGRAPHICA INT J, V10, P112, DOI 10.3138/FM57-6770-U75U-7727
+   Dutta A, 2019, PROCEEDINGS OF THE 27TH ACM INTERNATIONAL CONFERENCE ON MULTIMEDIA (MM19), V0, PP2276, DOI 10.1145/3343031.3350535
+   Ester M., 1996, KDD-96 PROCEEDINGS. SECOND INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, P226
+   Goodchild MF, 2007, GEOJOURNAL, V69, P211, DOI 10.1007/s10708-007-9111-y
+   Guo MQ, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091400
+   He D, 2022, INT J APPL EARTH OBS, V106, P0, DOI 10.1016/j.jag.2021.102667
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Hu YJ, 2015, COMPUT ENVIRON URBAN, V54, P240, DOI 10.1016/j.compenvurbsys.2015.09.001
+   Huang B, 2018, REMOTE SENS ENVIRON, V214, P73, DOI 10.1016/j.rse.2018.04.050
+   Hui J, 2019, IEEE GEOSCI REMOTE S, V16, P786, DOI 10.1109/LGRS.2018.2880986
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Kranjec J, 2021, ONLINE FOOD DELIVERY, V0, P0
+   Lecun Y, 1998, P IEEE, V86, P2278, DOI 10.1109/5.726791
+   Li C, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12145528
+   Li L, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091350
+   Li WJ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11040403
+   Li WJ, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11010011
+   Liu PH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070830
+   Liu YF, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10030444
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Maggiori E, 2016, INT GEOSCI REMOTE SE, V0, PP5071, DOI 10.1109/IGARSS.2016.7730322
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Mas JF, 2008, INT J REMOTE SENS, V29, P617, DOI 10.1080/01431160701352154
+   Meituan, 2021, MEIT ANN FIN RES YEA, V0, P0
+   Mnih V., 2013, CITESEER, V0, P0
+   Noh H, 2015, IEEE I CONF COMP VIS, V0, PP1520, DOI 10.1109/ICCV.2015.178
+   Ok AO, 2013, IEEE T GEOSCI REMOTE, V51, P1701, DOI 10.1109/TGRS.2012.2207123
+   Oktay O, 2018, ARXIV180403999, V0, P0
+   Ronneberger O., 2015, P MED IM COMP COMP A, V0, P234
+   Ruan SJ, 2020, AAAI CONF ARTIF INTE, V34, P890
+   Sahu M., 2019, ISPRS ANN PHOTOGRAMM, VIV-2/W5, P157
+   Shi Q., 2021, IEEE T GEOSCI REMOTE, V0, P0, DOI DOI 10.1109/TGRS.2021.3085870
+   Shrestha S, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071135
+   Spyrou E, 2016, NEUROCOMPUTING, V172, P114, DOI 10.1016/j.neucom.2014.12.104
+   Sun Y, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10091459
+   Tran C, 2021, KNOWL-BASED SYST, V213, P0, DOI 10.1016/j.knosys.2020.106710
+   Wang F, 2017, PROC CVPR IEEE, V0, PP6450, DOI 10.1109/CVPR.2017.683
+   Xu YY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010144
+   Yang JM, 2016, PROC CVPR IEEE, V0, PP193, DOI 10.1109/CVPR.2016.28
+   Zeiler MD, 2010, PROC CVPR IEEE, V0, PP2528, DOI 10.1109/CVPR.2010.5539957
+   Zhang XC, 2020, ISPRS INT GEO-INF, V9, P0, DOI 10.3390/ijgi9020124
+   Zhao K., 2020, ARXIV200613176, V0, P0
+   Zheng J, 2021, COMPLEX INTELL SYST, V7, P1207, DOI 10.1007/s40747-021-00288-y
+   Zhu Q, 2021, IEEE T GEOSCI REMOTE, V59, P6169, DOI 10.1109/TGRS.2020.3026051
+   Ziaee A., 2021, ARXIV210300286, V0, P0
+NR 64
+TC 0
+Z9 0
+U1 11
+U2 19
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2022
+VL 60
+IS 
+BP 
+EP 
+DI 10.1109/TGRS.2022.3174399
+PG 16
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA 1T3QP
+UT WOS:000804647900005
+DA 2023-04-26
+ER
+
+PT J
+AU Yu, Q
+   Lu, HW
+   Feng, W
+   Yao, TC
+AF Yu, Qing
+   Lu, Hongwei
+   Feng, Wei
+   Yao, Tianci
+TI Estimating and mapping of soil organic matter content in a typical river basin of the Qinghai-Tibet Plateau
+SO GEOCARTO INTERNATIONAL
+LA English
+DT Article
+DE Soil organic matter; land parameters; spatial mapping; reflectance spectroscopy; content estimation
+ID geographically weighted regression; infrared reflectance spectroscopy; artificial neural-network; land-use change; nir spectroscopy; in-situ; carbon; prediction; variability; indicators
+AB Spectroscopy is a fast, non-destructive, and cheap method, which has been widely used in the estimation of soil organic matter (SOM) concentration. This study presented a methodology to estimate and map SOM content by crop canopy reflectance spectra combining with land parameters in the Yarlung Zangbo River (YZR) basin. The reflectance spectra of the oat canopy were collected in the field, and then were processed by savitzky-golay filtering (S-G), continuous removal (CR), and first derivative of reflectivity (FDR). The principal components were extracted from the processed spectral data. Land parameters such as elevation, slope, NDVI, and land surface temperature (LST) were selected to establish 18 models to estimate SOM content. The results showed that the estimation accuracy of SOM content could be improved by combining crop canopy reflectance spectra with land parameters. FDR-BPNN model with land parameters had the best estimation effect (R-2 = 0.973, MAE = 0.847 g.kg(-1)).
+C1 [Yu, Qing; Lu, Hongwei; Feng, Wei; Yao, Tianci] Chinese Acad Sci, Inst Geog Sci & Nat Resources Res, Key Lab Water Cycle & Related Land Surface Proc, Beijing, Peoples R China.
+   [Yu, Qing; Feng, Wei; Yao, Tianci] Univ Chinese Acad Sci, Coll Resources & Environm, Beijing, Peoples R China.
+C3 Chinese Academy of Sciences; Institute of Geographic Sciences & Natural Resources Research, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS
+RP Lu, HW (corresponding author), Chinese Acad Sci, Inst Geog Sci & Nat Resources Res, Key Lab Water Cycle & Related Land Surface Proc, Beijing, Peoples R China.
+EM luhw@igsnrr.ac.cn
+FU Strategic Priority Research Program of the Chinese Academy of Sciences [XDA20040301]; Second Tibetan Plateau Scientific Expedition and Research Program (STEP) [2019QZKK1003]; National Key Research and Development Program of China [2019YFC0507801]
+CR Abdi, 2004, COEFFICIENT VARIATIO, V0, P0
+   Allory V, 2019, SCI TOTAL ENVIRON, V686, P764, DOI 10.1016/j.scitotenv.2019.05.192
+   Bartholomeus HM, 2008, GEODERMA, V145, P28, DOI 10.1016/j.geoderma.2008.01.010
+   BenDor E, 1997, REMOTE SENS ENVIRON, V61, P1, DOI 10.1016/S0034-4257(96)00120-4
+   Berthrong ST, 2012, ECOL APPL, V22, P76, DOI 10.1890/10-2210.1
+   Bhunia GS, 2019, GEOCARTO INT, V34, P215, DOI 10.1080/10106049.2017.1381179
+   Bilgili AV, 2010, J ARID ENVIRON, V74, P229, DOI 10.1016/j.jaridenv.2009.08.011
+   Broge NH, 2002, REMOTE SENS ENVIRON, V81, P45, DOI 10.1016/S0034-4257(01)00332-7
+   Brunsdon C, 1998, J ROY STAT SOC D-STA, V47, P431, DOI 10.1111/1467-9884.00145
+   Conforti M, 2015, CATENA, V124, P60, DOI 10.1016/j.catena.2014.09.004
+   CRESSIE N, 1989, MATH GEOL, V21, P493, DOI 10.1007/BF00897332
+   Dai FQ, 2014, ECOL INDIC, V45, P184, DOI 10.1016/j.ecolind.2014.04.003
+   Dotto AC, 2018, GEODERMA, V314, P262, DOI 10.1016/j.geoderma.2017.11.006
+   Dotto AC, 2017, SOIL TILL RES, V172, P59, DOI 10.1016/j.still.2017.05.008
+   Elberling B, 2006, SOIL BIOL BIOCHEM, V38, P3095, DOI 10.1016/j.soilbio.2005.12.011
+   Fotheringham AS, 1998, ENVIRON PLANN A, V30, P1905, DOI 10.1068/a301905
+   Gotway CA, 1996, SOIL SCI SOC AM J, V60, P1237, DOI 10.2136/sssaj1996.03615995006000040040x
+   Guo L, 2017, GEODERMA, V285, P280, DOI 10.1016/j.geoderma.2016.10.010
+   Guo NJ, 2017, PEDOSPHERE, V27, P926, DOI 10.1016/S1002-0160(17)60383-7
+   Guo PT, 2013, NUTR CYCL AGROECOSYS, V95, P333, DOI 10.1007/s10705-013-9566-9
+   Helland I., 2011, PARTIAL LEAST SQUARE, V0, P0
+   Hong YS, 2018, SCI TOTAL ENVIRON, V644, P1232, DOI 10.1016/j.scitotenv.2018.06.319
+   Jaber SM, 2017, PHOTOGRAMM ENG REM S, V83, P447, DOI 10.14358/PERS.83.6.447
+   Jaber SM, 2015, ARAB J GEOSCI, V8, P3159, DOI 10.1007/s12517-014-1370-6
+   Jaber SM, 2011, INT J REMOTE SENS, V32, P5077, DOI 10.1080/01431161.2010.494637
+   JOHNSON MG, 1995, WATER AIR SOIL POLL, V82, P593, DOI 10.1007/BF00479414
+   Knox NM, 2015, GEODERMA, V239, P229, DOI 10.1016/j.geoderma.2014.10.019
+   Kong XB, 2006, SOIL TILL RES, V88, P85, DOI 10.1016/j.still.2005.04.010
+   Li S, 2015, ENVIRON SCI TECHNOL, V49, P4980, DOI 10.1021/es504272x
+   Liu SL, 2015, CATENA, V133, P137, DOI 10.1016/j.catena.2015.05.010
+   Mabit L, 2010, EARTH SURF PROC LAND, V35, P278, DOI 10.1002/esp.1907
+   Mallick J., 2020, GEOCARTO INT, V0, P0
+   McDowell ML, 2012, GEODERMA, V189, P312, DOI 10.1016/j.geoderma.2012.06.009
+   Dematte JAM, 2017, J ENVIRON MANAGE, V197, P50, DOI 10.1016/j.jenvman.2017.03.014
+   Muller K, 2008, BIOSYST ENG, V101, P172, DOI 10.1016/j.biosystemseng.2008.07.004
+   Nawar S, 2016, SOIL TILL RES, V155, P510, DOI 10.1016/j.still.2015.07.021
+   Raj A, 2018, GEODERMA, V314, P146, DOI 10.1016/j.geoderma.2017.10.043
+   Riezebos HT, 1998, SOIL TILL RES, V49, P271, DOI 10.1016/S0167-1987(98)00176-7
+   Rumelhart D. E., 1986, LEARNING INTERNAL RE, V0, P0
+   Six J, 2000, SOIL SCI SOC AM J, V64, P1042, DOI 10.2136/sssaj2000.6431042x
+   Talebizadeh M, 2011, EXPERT SYST APPL, V38, P4126, DOI 10.1016/j.eswa.2010.09.075
+   Tan X, 2017, SOIL RES, V55, P318, DOI 10.1071/SR16177
+   Tian YC, 2013, GEODERMA, V202, P161, DOI 10.1016/j.geoderma.2013.03.018
+   Vohland M, 2016, IEEE J-STARS, V9, P4011, DOI 10.1109/JSTARS.2016.2572879
+   von Fischer JC, 2008, GLOBAL CHANGE BIOL, V14, P1141, DOI 10.1111/j.1365-2486.2008.01552.x
+   Wang J, 2010, INT J APPL EARTH OBS, V12, PS171, DOI 10.1016/j.jag.2010.01.002
+   Wang X, 2018, GEODERMA, V322, P71, DOI 10.1016/j.geoderma.2018.02.021
+   Wang YB, 2015, COMPUT ELECTRON AGR, V111, P69, DOI 10.1016/j.compag.2014.11.019
+   Xin ZB, 2016, CATENA, V137, P660, DOI 10.1016/j.catena.2015.01.028
+   Xue LH, 2004, AGRON J, V96, P135, DOI 10.2134/agronj2004.0135
+   YEOMANS JC, 1988, COMMUN SOIL SCI PLAN, V19, P1467, DOI 10.1080/00103628809368027
+   Zhang SL, 2011, NUTR CYCL AGROECOSYS, V89, P427, DOI 10.1007/s10705-010-9406-0
+   Zhao MS, 2014, ECOL INDIC, V39, P120, DOI 10.1016/j.ecolind.2013.12.015
+   Zhao ZY, 2020, COMPUT ELECTRON AGR, V169, P0, DOI 10.1016/j.compag.2019.105172
+   Zheng GH, 2016, PEDOSPHERE, V26, P130, DOI 10.1016/S1002-0160(15)60029-7
+NR 55
+TC 1
+Z9 1
+U1 3
+U2 40
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1010-6049
+EI 1752-0762
+J9 GEOCARTO INT
+JI Geocarto Int.
+PD AUG 18
+PY 2022
+VL 37
+IS 14
+BP 4088
+EP 4107
+DI 10.1080/10106049.2021.1871667
+EA JAN 2021
+PG 20
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 3U5KJ
+UT WOS:000608887600001
+DA 2023-04-26
+ER

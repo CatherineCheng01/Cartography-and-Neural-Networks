@@ -1,0 +1,604 @@
+
+PT J
+AU Xu, WJ
+   Wang, JN
+   Wei, ZW
+   Peng, MG
+   Wu, YR
+AF Xu, Wenjia
+   Wang, Jiuniu
+   Wei, Zhiwei
+   Peng, Mugen
+   Wu, Yirong
+TI Deep Semantic-Visual Alignment for zero-shot remote sensing image scene classification
+SO ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING
+LA English
+DT Article
+DE Remote sensing scene classification; Zero-shot learning; Deep semantic-visual alignment model; Automatic attribute annotation
+AB Deep neural networks have achieved promising progress in remote sensing (RS) image classification, for which the training process requires abundant samples for each class. However, it is time-consuming and unrealistic to annotate labels for each RS category, given the fact that the RS target database is increasing dynamically. Zero-shot learning (ZSL) allows for identifying novel classes that are not seen during training, which provides a promising solution for the aforementioned problem. However, previous ZSL models mainly depend on manually-labeled attributes or word embeddings extracted from language models to transfer knowledge from seen classes to novel classes. Those class embeddings may not be visually detectable and the annotation process is time-consuming and labor-intensive. Besides, pioneer ZSL models use convolutional neural networks pre-trained on ImageNet, which focus on the main objects appearing in each image, neglecting the background context that also matters in RS scene classification. To address the above problems, we propose to collect visually detectable attributes automatically. We predict attributes for each class by depicting the semantic-visual similarity between attributes and images. In this way, the attribute annotation process is accomplished by machine instead of human as in other methods. Moreover, we propose a Deep Semantic -Visual Alignment (DSVA) that take advantage of the self-attention mechanism in the transformer to associate local image regions together, integrating the background context information for prediction. The DSVA model further utilizes the attribute attention maps to focus on the informative image regions that are essential for knowledge transfer in ZSL, and maps the visual images into attribute space to perform ZSL classification. With extensive experiments, we show that our model outperforms other state-of-the-art models by a large margin on a challenging large-scale RS scene classification benchmark. Moreover, we qualitatively verify that the attributes annotated by our network are both class discriminative and semantic related, which benefits the zero-shot knowledge transfer.
+C1 [Xu, Wenjia; Peng, Mugen] Beijing Univ Posts & Telecommun, State Key Lab Networking & Switching Technol, Beijing 100876, Peoples R China.
+   [Wang, Jiuniu] City Univ Hong Kong, Hong Kong 999077, Peoples R China.
+   [Wang, Jiuniu; Wei, Zhiwei; Wu, Yirong] Univ Chinese Acad Sci, Beijing 100864, Peoples R China.
+   [Wang, Jiuniu; Wei, Zhiwei; Wu, Yirong] Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100094, Peoples R China.
+C3 Beijing University of Posts & Telecommunications; City University of Hong Kong; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Chinese Academy of Sciences
+RP Wang, JN (corresponding author), Univ Chinese Acad Sci, Beijing 100864, Peoples R China.; Wang, JN (corresponding author), Chinese Acad Sci, Aerosp Informat Res Inst, Beijing 100094, Peoples R China.
+EM xuwenjia@bupt.edu.cn; jiuniwang2-c@my.cityu.edu.hk
+FU National Key Research and Development Program of China [2021YFB2900200]; Na-tional Natural Science Foundation of China [61925101, 61831002, 61921003]; Beijing Municipal Science and Technology, China [Z211100004421017]
+CR Akata Z, 2016, IEEE T PATTERN ANAL, V38, P0, DOI 10.1109/TPAMI.2015.2487986
+   Al-Halah Z, 2017, PROC CVPR IEEE, V0, PP5112, DOI 10.1109/CVPR.2017.543
+   Alajaji D, 2020, 2020 MEDITERRANEAN AND MIDDLE-EAST GEOSCIENCE AND REMOTE SENSING SYMPOSIUM (M2GARSS), V0, PP81, DOI 10.1109/M2GARSS47143.2020.9105154
+   Ba J. L., 2016, ARXIV, V0, P0, DOI DOI 10.48550/ARXIV.1607.06450
+   Bojanowski P., 2017, T ASSOC COMPUT LING, V0, P0, DOI DOI 10.1162/TACL
+   Chao WL, 2016, LECT NOTES COMPUT SC, V9906, P52, DOI 10.1007/978-3-319-46475-6_4
+   Chen Q, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13010158
+   Cheng G, 2017, P IEEE, V105, P1865, DOI 10.1109/JPROC.2017.2675998
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Devlin J, 2019, ARXIV, V0, P0
+   Dosovitskiy A, 2020, ARXIV, V0, P0
+   Elhoseiny M, 2019, IEEE I CONF COMP VIS, V0, PP5783, DOI 10.1109/ICCV.2019.00588
+   Farhadi A, 2009, PROC CVPR IEEE, V0, PP1778, DOI 10.1109/CVPRW.2009.5206772
+   Goodfellow I., 2014, ADV NEURAL INF PROCE, V27, P0
+   Gu YT, 2019, APPL SCI-BASEL, V9, P0, DOI 10.3390/app9102110
+   Han ZY, 2021, PROC CVPR IEEE, V0, PP2371, DOI 10.1109/CVPR46437.2021.00240
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Kodirov E, 2017, PROC CVPR IEEE, V0, PP4447, DOI 10.1109/CVPR.2017.473
+   Lampert CH, 2009, PROC CVPR IEEE, V0, PP951, DOI 10.1109/CVPRW.2009.5206594
+   Li AX, 2017, IEEE T GEOSCI REMOTE, V55, P4157, DOI 10.1109/TGRS.2017.2689071
+   Li HF, 2020, ARXIV, V0, P0
+   Li HF, 2020, ARXIV, V0, P0
+   Li J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091366
+   Li J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071130
+   Li YN, 2017, PROC CVPR IEEE, V0, PP5207, DOI 10.1109/CVPR.2017.553
+   Li YS, 2021, IEEE T GEOSCI REMOTE, V59, P10590, DOI 10.1109/TGRS.2020.3047447
+   Liu Y, 2021, PROC CVPR IEEE, V0, PP3793, DOI 10.1109/CVPR46437.2021.00379
+   Lu XX, 2018, IEEE T GEOSCI REMOTE, V56, P2183, DOI 10.1109/TGRS.2017.2776321
+   Mikolov T, 2013, 1 INT C LEARN REPR I, V0, P0, DOI DOI 10.48550/ARXIV.1301.3781
+   Narayan Sanath, 2020, COMPUTER VISION - ECCV 2020 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12367), V0, PP479, DOI 10.1007/978-3-030-58542-6_29
+   Nayak N.V, 2021, INT C LEARNING REPRE, V0, P0
+   Kingma DP, 2014, ARXIV, V0, P0
+   Park, 2018, BRIT MACH VIS C, V0, P0
+   Patterson G., 2014, INT J COMPUT VIS, V0, P0
+   Patterson G., 2014, SUN ATTRIBUTE DATABA, V0, P0
+   Patterson G, 2014, INT J COMPUT VISION, V108, P59, DOI 10.1007/s11263-013-0695-z
+   Pennington J, 2014, P 2014 C EMP METH NA, V0, PP1532, DOI 10.3115/v1/d14-1162
+   Quan JC, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ELECTRONICS AND COMMUNICATION ENGINEERING (ICECE 2018), V0, PP17, DOI 10.1109/ICECOME.2018.8645056
+   Radford Alec, 2021, LEARNING TRANSFERABL, V0, P0, DOI DOI 10.48550/ARXIV.2103.00020
+   Radford Alec., 2019, LANGUAGE MODELS ARE, V1, P9
+   Schonfeld E, 2019, PROC CVPR IEEE, V0, PP8239, DOI 10.1109/CVPR.2019.00844
+   Sumbul G, 2018, IEEE T GEOSCI REMOTE, V56, P770, DOI 10.1109/TGRS.2017.2754648
+   Tao S. -Y, 2017, BRIT MACHINE VISION, V0, P0
+   Toth C, 2016, ISPRS J PHOTOGRAMM, V115, P22, DOI 10.1016/j.isprsjprs.2015.10.004
+   van den Oord A, 2019, ARXIV, V0, P0
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Vaswani A, 2017, ADV NEUR IN, V30, P0
+   Wah C., 2011, TECHNICAL REPORT, V0, P0
+   Wang Q, 2020, I C NETWORK PROTOCOL, V0, P0
+   Woo SH, 2018, LECT NOTES COMPUT SC, V11211, P3, DOI 10.1007/978-3-030-01234-2_1
+   Xia GS, 2017, IEEE T GEOSCI REMOTE, V55, P3965, DOI 10.1109/TGRS.2017.2685945
+   Xian YQ, 2018, PROC CVPR IEEE, V0, PP5542, DOI 10.1109/CVPR.2018.00581
+   Xian YQ, 2019, IEEE T PATTERN ANAL, V41, P2251, DOI 10.1109/TPAMI.2018.2857768
+   Xu W., 2022, P IEEE C COMPUTER VI, V0, P9316
+   Xu W, 2020, ADV NEURAL INFORM PR, V33, P21969
+   Xu W, 2022, INT J HUM-COMPUT INT, V0, P0, DOI DOI 10.1080/10447318.2022.2041900
+   Xu WJ, 2020, IEEE J-STSP, V14, P506, DOI 10.1109/JSTSP.2020.2987729
+   Xue ZH, 2017, ISPRS J PHOTOGRAMM, V124, P1, DOI 10.1016/j.isprsjprs.2016.12.003
+   Yang Y, 2011, IEEE I CONF COMP VIS, V0, PP1465, DOI 10.1109/ICCV.2011.6126403
+   Yansheng Li, 2021, 2021 IEEE INTERNATIONAL GEOSCIENCE AND REMOTE SENSING SYMPOSIUM IGARSS, V0, PP1351, DOI 10.1109/IGARSS47720.2021.9553667
+   Zhang ZM, 2016, PROC CVPR IEEE, V0, PP6034, DOI 10.1109/CVPR.2016.649
+   Zhao QH, 2021, PATTERN RECOGN, V111, P0, DOI 10.1016/j.patcog.2020.107635
+   Zhu PK, 2020, IEEE T CIRC SYST VID, V30, P998, DOI 10.1109/TCSVT.2019.2899569
+   Zhu YZ, 2019, IEEE I CONF COMP VIS, V0, PP9843, DOI 10.1109/ICCV.2019.00994
+NR 64
+TC 0
+Z9 0
+U1 2
+U2 2
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0924-2716
+EI 1872-8235
+J9 ISPRS J PHOTOGRAMM
+JI ISPRS-J. Photogramm. Remote Sens.
+PD APR 15
+PY 2023
+VL 198
+IS 
+BP 140
+EP 152
+DI 10.1016/j.isprsjprs.2023.02.012
+EA MAR 2023
+PG 13
+WC Geography, Physical; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Physical Geography; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA A0RY8
+UT WOS:000952301200001
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, HD
+   Zhang, XL
+   Xiao, PF
+   Che, T
+   Zheng, ZJ
+   Dai, LY
+   Luan, WB
+AF Wang, Huadong
+   Zhang, Xueliang
+   Xiao, Pengfeng
+   Che, Tao
+   Zheng, Zhaojun
+   Dai, Liyun
+   Luan, Wenbo
+TI Towards large-scale daily snow density mapping with spatiotemporally awaremodel and multi-source data
+SO CRYOSPHERE
+LA English
+DT Article
+ID geographically weighted regression; water equivalent; spatial-distribution; variability; depth; cover; climate; china; impacts; regions
+AB Snow density plays a critical role in estimating water resources and predicting natural disasters such as floods, avalanches, and snowstorms. However, gridded products for snow density are lacking for understanding its spatiotemporal patterns. In this study, considering the strong spatiotemporal heterogeneity of snow density, as well as the weak and nonlinear relationship between snow density and the meteorological, topographic, vegetation, and snow variables, the geographically and temporally weighted neural network (GTWNN) model is constructed for estimating daily snow density in China from 2013 to 2020, with the support of satellite, ground, and reanalysis data. The leaf area index of high vegetation, total precipitation, snow depth, and topographic variables are found to be closely related to snow density among the 20 potentially influencing variables. The 10-fold cross-validation results show that the GTWNN model achieves an R-2 of 0.531 and RMSE of 0.043 g cm(-3), outperforming the geographically and temporally weighted regression model (R-2=0.271), geographically weighted neural network model (R-2=0.124), and reanalysis snow density product (R-2=0.095), which demonstrates the superiority of the GTWNN model in capturing the spatiotemporal heterogeneity of snow density and the nonlinear relationship to the influencing variables. The performance of the GTWNN model is closely related to the state and amount of snow, in which more stable and plentiful snow would result in higher snow density estimation accuracy. With the benefit of the daily snow density map, we are able to obtain knowledge of the spatiotemporal pattern and heterogeneity of snow density in China. The proposed GTWNN model holds the potential for large-scale daily snow density mapping, which will be beneficial for snow parameter estimation and water resource management.
+C1 [Wang, Huadong; Zhang, Xueliang; Xiao, Pengfeng; Luan, Wenbo] Nanjing Univ, Sch Geog & Ocean Sci, Jiangsu Prov Key Lab Geog Informat Sci & Technol, Key Lab Land Satellite Remote Sensing Applicat,Min, Nanjing 210023, Jiangsu, Peoples R China.
+   [Xiao, Pengfeng] Nanjing Univ, Jiangsu Ctr Collaborat Innovat Geog Informat Reso, Nanjing 210023, Jiangsu, Peoples R China.
+   [Che, Tao; Dai, Liyun] Chinese Acad Sci, Cold & Arid Regions Environm & Engn Res Inst, Key Lab Remote Sensing Gansu Prov, Heihe Sensing Expt Res Stn, Lanzhou 730000, Peoples R China.
+   [Zheng, Zhaojun] Natl Satellite Meteorol Ctr, Beijing 100081, Peoples R China.
+C3 Nanjing University; Nanjing University; Chinese Academy of Sciences; Cold & Arid Regions Environmental & Engineering Research Institute, CAS
+RP Zhang, XL (corresponding author), Nanjing Univ, Sch Geog & Ocean Sci, Jiangsu Prov Key Lab Geog Informat Sci & Technol, Key Lab Land Satellite Remote Sensing Applicat,Min, Nanjing 210023, Jiangsu, Peoples R China.
+EM zxl@nju.edu.cn
+FU Special Subject of National Science and Technology Basic Resources Investigation; National Natural Science Foundation of China [2017FY100503]; Fundamental Research Funds for the Central Universities [42171307]; High-level Innovation and Entrepreneurship Talents Introduction Program of Jiangsu Province of China [020914380095]
+CR [Anonymous], 1987, ANN GLACIOL, V0, P0
+   Barnett TP, 2005, NATURE, V438, P303, DOI 10.1038/nature04141
+   Bonner HM, 2022, HYDROL PROCESS, V36, P0, DOI 10.1002/hyp.14475
+   Bormann KJ, 2018, NAT CLIM CHANGE, V8, P923, DOI 10.1038/s41558-018-0318-3
+   Bormann KJ, 2013, J HYDROL, V484, P63, DOI 10.1016/j.jhydrol.2013.01.032
+   Breiman L., 2001, RANDOM FORESTS, V45, P5, DOI 10.1023/A:1010933404324
+   Broxton PD, 2019, WATER RESOUR RES, V55, P3739, DOI 10.1029/2018WR024146
+   Che T, 2021, SNOW SURVEY DATASET, V0, P0, DOI DOI 10.12072/ncdc.ISNOW.db0007.2021
+   Che T, 2016, REMOTE SENS ENVIRON, V183, P334, DOI 10.1016/j.rse.2016.06.005
+   Chen B, 2017, IEEE T GEOSCI REMOTE, V55, P27, DOI 10.1109/TGRS.2016.2580576
+   Clark MP, 2011, WATER RESOUR RES, V47, P0, DOI 10.1029/2011WR010745
+   Copernicus Climate Change Service, 2020, ECMWR, V0, P0
+   Dai LY, 2011, SCI COLD ARID REG, V3, P325, DOI 10.3724/SP.J.1226.2011.00325
+   Rodriguez JD, 2010, IEEE T PATTERN ANAL, V32, P569, DOI 10.1109/TPAMI.2009.187
+   Ebner PP, 2016, CRYOSPHERE, V10, P791, DOI 10.5194/tc-10-791-2016
+   Elder K, 1998, HYDROL PROCESS, V12, P1793, DOI 10.1002/(SICI)1099-1085(199808/09)12:10/11&lt;1793::AID-HYP695&gt;3.0.CO;2-K
+   Essery R, 2008, HYDROL PROCESS, V22, P2788, DOI 10.1002/hyp.6930
+   Fayad A, 2017, J HYDROL, V551, P374, DOI 10.1016/j.jhydrol.2017.05.063
+   Fotheringham AS, 1998, ENVIRON PLANN A, V30, P1905, DOI 10.1068/a301905
+   Frei A, 1999, INT J CLIMATOL, V19, P1535, DOI 10.1002/(SICI)1097-0088(19991130)19:14<1535::AID-JOC438>3.0.CO;2-J
+   Friedl M., 2019, NASA EOSDIS LAND PRO, V0, P0, DOI DOI 10.5067/MODIS/MCD12Q1.006
+   Gharaei-Manesh S, 2016, COLD REG SCI TECHNOL, V122, P26, DOI 10.1016/j.coldregions.2015.11.004
+   Guo L, 2008, CAN J FOREST RES, V38, P2526, DOI 10.1139/X08-091
+   Hall A, 2006, GEOPHYS RES LETT, V33, P0, DOI 10.1029/2005GL025127
+   Hao X., 2020, AVHRR DAILY CLOUD FR, V0, P0, DOI DOI 10.12072/ncdc.I-SNOW.db0005.2020
+   Hao XH, 2021, EARTH SYST SCI DATA, V13, P4711, DOI 10.5194/essd-13-4711-2021
+   He J, 2020, SCI DATA, V7, P0, DOI 10.1038/s41597-020-0369-y
+   He QQ, 2018, REMOTE SENS ENVIRON, V206, P72, DOI 10.1016/j.rse.2017.12.018
+   Hedrick AR, 2018, WATER RESOUR RES, V54, P8045, DOI 10.1029/2018WR023190
+   Helfricht K, 2018, HYDROL EARTH SYST SC, V22, P2655, DOI 10.5194/hess-22-2655-2018
+   Hernandez-Henriquez MA, 2015, ENVIRON RES LETT, V10, P0, DOI 10.1088/1748-9326/10/4/044010
+   Huang B, 2010, INT J GEOGR INF SCI, V24, P383, DOI 10.1080/13658810802672469
+   Huang XD, 2016, CRYOSPHERE, V10, P2453, DOI 10.5194/tc-10-2453-2016
+   Ji DB, 2017, REMOTE SENS ENVIRON, V191, P313, DOI 10.1016/j.rse.2017.01.028
+   Jiang L., 2020, DAILY SNOW WATER EQU, V0, P0, DOI DOI 10.12072/ncdc.I-SNOW.db0002.2020
+   Hao JS, 2021, HYDROL RES, V52, P834, DOI 10.2166/nh.2021.133
+   Jonas T, 2009, J HYDROL, V378, P161, DOI 10.1016/j.jhydrol.2009.09.021
+   Judson A, 2000, B AM METEOROL SOC, V81, P1577, DOI 10.1175/1520-0477(2000)081<1577:DOFFSI>2.3.CO;2
+   Ke CQ, 2016, HYDROL EARTH SYST SC, V20, P755, DOI 10.5194/hess-20-755-2016
+   Li P., 1983, J GLACIOL GEOCRYOL, V4, P9
+   Li TW, 2020, ISPRS J PHOTOGRAMM, V167, P178, DOI 10.1016/j.isprsjprs.2020.06.019
+   Li WK, 2018, NAT COMMUN, V9, P0, DOI 10.1038/s41467-018-06762-5
+   Lopez-Moreno JI, 2013, ADV WATER RESOUR, V55, P40, DOI 10.1016/j.advwatres.2012.08.010
+   Lundberg A, 2006, HYDROL PROCESS, V20, P1483, DOI 10.1002/hyp.5944
+   [马丽娟 Ma Lijuan], 2012, 冰川冻土 JOURNAL OF GLACIOLOGY AND GEOCRYOLOGY, V34, P1
+   Marks D, 1999, HYDROL PROCESS, V13, P1935, DOI 10.1002/(SICI)1099-1085(199909)13:12/13<1935::AID-HYP868>3.0.CO;2-C
+   McCreight JL, 2014, CRYOSPHERE, V8, P521, DOI 10.5194/tc-8-521-2014
+   Meloysund V, 2007, METEOROL APPL, V14, P413, DOI 10.1002/met.40
+   Mizukami N, 2008, J HYDROMETEOROL, V9, P1416, DOI 10.1175/2008JHM981.1
+   Nakaya U., 1900, P207, V0, P0, DOI DOI 10.1007/978- 1-940033-70-9_18
+   Niedzielski T, 2019, J HYDROL, V578, P0, DOI 10.1016/j.jhydrol.2019.124046
+   OSullivan D, 2003, GEOGR ANAL, V35, P272, DOI 10.1353/geo.2003.0008
+   Pulliainen J, 2020, NATURE, V581, P294, DOI 10.1038/s41586-020-2258-0
+   Pulliainen JT, 1999, IEEE T GEOSCI REMOTE, V37, P1378, DOI 10.1109/36.763302
+   Raleigh MS, 2017, GEOPHYS RES LETT, V44, P3700, DOI 10.1002/2016GL071999
+   Roebber PJ, 2003, WEATHER FORECAST, V18, P264, DOI 10.1175/1520-0434(2003)018<0264:ISFBDS>2.0.CO;2
+   Schweizer J, 2003, REV GEOPHYS, V41, P0, DOI 10.1029/2002RG000123
+   SPECHT DF, 1991, IEEE T NEURAL NETWOR, V2, P568, DOI 10.1109/72.97934
+   Storck P, 2002, WATER RESOUR RES, V38, P0, DOI 10.1029/2002WR001281
+   Sturm M, 2010, J HYDROMETEOROL, V11, P1380, DOI 10.1175/2010JHM1202.1
+   Surendar M, 2015, PHYS CHEM EARTH, V83-84, P156, DOI 10.1016/j.pce.2015.07.001
+   Valt M, 2018, HYDROL PROCESS, V32, P3174, DOI 10.1002/hyp.13249
+   Varade D, 2020, REMOTE SENS ENVIRON, V240, P0, DOI 10.1016/j.rse.2020.111699
+   Wetlaufer K, 2016, HYDROLOGY-BASEL, V3, P0, DOI 10.3390/hydrology3010003
+   Winstral A, 2014, WATER RESOUR RES, V50, P293, DOI 10.1002/2012WR013038
+   Xiao P., 2020, DAILY SNOW ALBEDO PR, V0, P0, DOI DOI 10.12072/ncdc.ISNOW.db0004.2020
+   Xin JY, 2016, J GEOPHYS RES-ATMOS, V121, P10701, DOI 10.1002/2015JD024655
+   Yang JW, 2020, J HYDROL, V590, P0, DOI 10.1016/j.jhydrol.2020.125499
+   Yang JW, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11080977
+   Zaremehrjardy M, 2021, J HYDROL, V598, P0, DOI 10.1016/j.jhydrol.2020.125735
+   Zhong X, 2014, CRYOSPHERE, V8, P785, DOI 10.5194/tc-8-785-2014
+   Zhong XY, 2021, ADV CLIM CHANG RES, V12, P95, DOI 10.1016/j.accre.2021.01.005
+   Zhong XY, 2021, SCI TOTAL ENVIRON, V750, P0, DOI 10.1016/j.scitotenv.2020.141670
+NR 74
+TC 0
+Z9 0
+U1 2
+U2 2
+PU COPERNICUS GESELLSCHAFT MBH
+PI GOTTINGEN
+PA BAHNHOFSALLEE 1E, GOTTINGEN, 37081, GERMANY
+SN 1994-0416
+EI 1994-0424
+J9 CRYOSPHERE
+JI Cryosphere
+PD JAN 9
+PY 2023
+VL 17
+IS 1
+BP 33
+EP 50
+DI 10.5194/tc-17-33-2023
+PG 18
+WC Geography, Physical; Geosciences, Multidisciplinary
+SC Physical Geography; Geology
+GA 7T1HD
+UT WOS:000911197700001
+DA 2023-04-26
+ER
+
+PT J
+AU Cheng, J
+   Lian, L
+   Xu, ZC
+   Wu, D
+   Zhu, HY
+   Sun, X
+   Wang, YH
+AF Cheng, Jie
+   Lian, Lu
+   Xu, Zichen
+   Wu, Dan
+   Zhu, Haoyang
+   Sun, Xiao
+   Wang, Yuhao
+TI Geo-SPS: bipartite graph representation for GeoSpatial prenatal survey data
+SO NEURAL COMPUTING & APPLICATIONS
+LA English
+DT Article
+DE Interpretable representation; Prenatal mental analysis; Bipartite graph; Markov decision process
+ID depression scale epds; postpartum depression; preterm birth; women; validation; risk; pregnancy; symptoms; anxiety; version
+AB Obstetric studies had long revealed that the human female mental state, although subjective, has a nonlinear relation to the gestation, which could eventually leads to eugenics characteristics. Due to the difference of regions, there are differences between the data, people want to analyze the correlation between the survey data of different regions. Traditional obstetric studies explore health information on understanding and predicting this psychological state. However, most traditional research is based on statistical methods that exploring the correlation between numbers. This type of method lacks an understanding of the natural semantics of obstetric data, so it is prone to problems such as deviation or missing data (such as missing geospatial information) in data analysis. To tackle this problem, we study the use of a generic graph representation on gynecology and obstetric surveys with geospatial features, and propose a bipartite approach, or Geo-SPS, to mine the semantic relationship between low quality health information data. Our solution highlights our unconventional adaptation of novel graph theory from computational physics into biomedical ontology, that carefully maps semantic objects into a bipartite graph. With this tool, Geo-SPS provides a unique approach to semantic similarity metrics. The method supports fast and understandable processing of mixed textual data under different geographic spaces in a graph convolutional neural network. We further evaluate and validate the feasibility of Geo-SPS using a case study on obstetric surveys and health information data from over 3000 pregnant women in three different places from China. Results show that Geo-SPS can effectively represent prenatal mental state from this mixed data set, with an accurate classification on birth defects.
+C1 [Cheng, Jie] Nanchang Univ, Jiangxi Tech Coll Mfg, Nanchang, Jiangxi, Peoples R China.
+   [Lian, Lu] Nanchang Univ, Affiliated Hosp 1, Nanchang, Jiangxi, Peoples R China.
+   [Xu, Zichen; Wu, Dan; Wang, Yuhao] Nanchang Univ, Nanchang, Jiangxi, Peoples R China.
+   [Zhu, Haoyang; Sun, Xiao] Inst Syst Engn, Beijing, Peoples R China.
+C3 Nanchang University; Nanchang University; Nanchang University
+RP Xu, ZC; Wu, D (corresponding author), Nanchang Univ, Nanchang, Jiangxi, Peoples R China.
+EM jiechengstudy@outlook.com; zm221@126.com; xuz@ncu.edu.cn; wudan@ncu.edu.cn; zhuhaoyang@nudt.edu.cn; psunxiao@163.com; wangyuhao@ncu.edu.cn
+FU key technologies research and development program [2018YFB1404303]; ICT Grant [CARCHB202017]
+CR Achananuparp P, 2008, LECT NOTES COMPUT SC, V5182, P305, DOI 10.1007/978-3-540-85836-2_29
+   Al-Azri Mohammed, 2016, SULTAN QABOOS UNIV MED J, V16, Pe35, DOI 10.18295/squmj.2016.16.01.007
+   Alvarado R, 2015, ARCH WOMEN MENT HLTH, V18, P607, DOI 10.1007/s00737-014-0466-z
+   [Anonymous], 2008, T GIS, V0, P0, DOI DOI 10.1111/J.1467-9671.2008.01084.X
+   Athenikos SJ, 2008, IEEE INT C BIO BIO W, V0, PP111, DOI 10.1109/BIBMW.2008.4686218
+   Vazquez MB, 2019, J AFFECT DISORDERS, V246, P515, DOI 10.1016/j.jad.2018.12.075
+   Boulet S. L., 2009, MORBIDITY AND MORTALITY WEEKLY REPORT, V57, P1409
+   Chen ZG, 2018, ISPRS INT GEO-INF, V7, P0, DOI 10.3390/ijgi7030090
+   Chong S, 2013, INT J HEALTH GEOGR, V12, P0, DOI 10.1186/1476-072X-12-46
+   Coussons-Read M, 2011, AM J OBSTET GYNECOL, V204, P0
+   Cox J, 2017, ARCH WOMEN MENT HLTH, V20, P789, DOI 10.1007/s00737-017-0789-7
+   Dayan J, 2006, PSYCHOSOM MED, V68, P938, DOI 10.1097/01.psy.0000244025.20549.bd
+   Delfour M, 2011, ADV DESIGN CONTROL, V0, P0, DOI DOI 10.1137/1.9780898719826
+   Devlin J, 2018, ARXIV, V0, P0
+   Field T, 2006, INFANT BEHAV DEV, V29, P445, DOI 10.1016/j.infbeh.2006.03.003
+   Gao M, 2019, BMC PREGNANCY CHILDB, V19, P0, DOI 10.1186/s12884-019-2583-1
+   Gelaye B, 2016, LANCET PSYCHIAT, V3, P973, DOI 10.1016/S2215-0366(16)30284-X
+   Ghimire U, 2021, EARLY HUM DEV, V152, P0, DOI 10.1016/j.earlhumdev.2020.105243
+   Grote NK, 2010, ARCH GEN PSYCHIAT, V67, P1012, DOI 10.1001/archgenpsychiatry.2010.111
+   Harris Zellig S., 1970, PAPERS STRUCTURAL TR, V0, P0
+   Ing H, 2017, TROP DOCT, V47, P339, DOI 10.1177/0049475517717635
+   Islam Aminul, 2008, ACM T KNOWL DISCOV D, V2, P10, DOI 10.1145/1376815.1376819
+   Jeh G., 2002, P 8 ACM SIGKDD INT C, V0, P0
+   Jesse DE, 2003, MIDWIFERY, V19, P191, DOI 10.1016/S0266-6138(03)00031-7
+   Kawuki, 2019, J ADV MED MED RES, V30, P1, DOI 10.9734/jammr/2019/v30i1130271
+   Li D, 2009, HUM REPROD, V24, P146, DOI 10.1093/humrep/den342
+   Li LJ, 2018, 2018 NINTH INTERNATIONAL CONFERENCE ON INFORMATION TECHNOLOGY IN MEDICINE AND EDUCATION (ITME 2018), V0, PP484, DOI 10.1109/ITME.2018.00114
+   Li L, 2015, SCI TRANSL MED, V7, P0, DOI 10.1126/scitranslmed.aaa9364
+   Li SS, 2018, ACUPUNCT MED, V36, P295, DOI 10.1136/acupmed-2017-011530
+   Lin ZJ, 2012, KNOWL INF SYST, V32, P141, DOI 10.1007/s10115-011-0427-z
+   Loyal D, 2020, MATERN CHILD HLTH J, V24, P369, DOI 10.1007/s10995-020-02885-8
+   Lydsdottir LB, 2019, MIDWIFERY, V69, P45, DOI 10.1016/j.midw.2018.10.009
+   Meltzer-Brody Samantha, 2011, DIALOGUES CLIN NEUROSCI, V13, P89
+   Mikolov T, 2013, ADV NEURAL INFORM PR, V26, P3111, DOI 10.1162/JMLR.2003.3.4-5.951
+   Ng Kenney, 2015, AMIA JT SUMMITS TRANSL SCI PROC, V2015, P132
+   Nylen KJ, 2013, J BEHAV MED, V36, P427, DOI 10.1007/s10865-012-9436-y
+   Orr ST, 2002, AM J EPIDEMIOL, V156, P797, DOI 10.1093/aje/kwf131
+   Patroumpas Kostas, 2020, GEORICH 20: PROCEEDINGS OF THE SIXTH INTERNATIONAL WORKSHOP ON MANAGING AND MINING ENRICHED GEO-SPATIAL DATA, V0, P0, DOI DOI 10.1145/3403896.3403967
+   PEARLIN LI, 1981, J HEALTH SOC BEHAV, V22, P337, DOI 10.2307/2136676
+   Pennington J, 2014, P 2014 C EMP METH NA, V0, PP1532, DOI 10.3115/v1/d14-1162
+   Putnam K, 2015, LANCET PSYCHIAT, V2, P59, DOI 10.1016/S2215-0366(14)00055-8
+   Qi Feng, 2010, PROCEEDINGS OF THE 2010 3RD INTERNATIONAL CONFERENCE ON BIOMEDICAL ENGINEERING AND INFORMATICS (BMEI 2010), V0, PP2250, DOI 10.1109/BMEI.2010.5639423
+   Qian YR, 2013, CHIN J PRAC NURS, V29, P1, DOI 10.3760/CMA.J.ISSN.1672-7088.2013.12.001
+   Rubertsson C, 2011, NORD J PSYCHIAT, V65, P414, DOI 10.3109/08039488.2011.590606
+   Rubner Y, 1998, SIXTH INTERNATIONAL CONFERENCE ON COMPUTER VISION, V0, PP59, DOI 10.1109/ICCV.1998.710701
+   SALTON G, 1975, COMMUN ACM, V18, P613, DOI 10.1145/361219.361220
+   Seabrook JA, 2019, ENVIRON RES, V172, P18, DOI 10.1016/j.envres.2018.12.068
+   Seth S, 2016, BMC PREGNANCY CHILDB, V16, P0, DOI 10.1186/s12884-016-0915-y
+   Stein A, 2014, LANCET, V384, P1800, DOI 10.1016/S0140-6736(14)61277-0
+   Straub H, 2012, AM J OBSTET GYNECOL, V207, P0, DOI 10.1016/j.ajog.2012.06.033
+   Tendais I, 2014, SPAN J PSYCHOL, V17, P0, DOI 10.1017/sjp.2014.7
+   Thomson Paula, 2007, J TRAUMA DISSOCIATION, V8, P85, DOI 10.1300/J229v08n03_05
+   Wang H, 2019, PROCEEDINGS OF THE TWENTY-EIGHTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P3684
+   Wang MX, 2019, 2019 CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING AND THE 9TH INTERNATIONAL JOINT CONFERENCE ON NATURAL LANGUAGE PROCESSING (EMNLP-IJCNLP 2019), V0, P803
+   Wang Y, 2015, J MED SYST, V39, P0, DOI 10.1007/s10916-015-0237-z
+   William SJ, 1962, OPTIMAL FLOW NETWORK, V0, P100
+   Xavier EMA, 2016, ACM COMPUT SURV, V49, P0, DOI 10.1145/2963147
+   Xi W., 2005, SIGIR 2005. PROCEEDINGS OF THE TWENTY-EIGHTH ANNUAL INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL, V0, PP130, DOI 10.1145/1076034.1076059
+   Yu L, 2018, INT J DIGIT EARTH, V11, P845, DOI 10.1080/17538947.2017.1359688
+   Zhao Y, 2015, PSYCHIAT RES, V226, P113, DOI 10.1016/j.psychres.2014.12.016
+NR 60
+TC 0
+Z9 0
+U1 4
+U2 9
+PU SPRINGER LONDON LTD
+PI LONDON
+PA 236 GRAYS INN RD, 6TH FLOOR, LONDON WC1X 8HL, ENGLAND
+SN 0941-0643
+EI 1433-3058
+J9 NEURAL COMPUT APPL
+JI Neural Comput. Appl.
+PD FEB 15
+PY 2023
+VL 35
+IS 5
+BP 3709
+EP 3724
+DI 10.1007/s00521-021-06371-2
+EA AUG 2021
+PG 16
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA 8K5GJ
+UT WOS:000687542500002
+DA 2023-04-26
+ER
+
+PT J
+AU Ou, JH
+   Kuo, CH
+   Wu, YF
+   Lin, GC
+   Lee, MH
+   Chen, RK
+   Chou, HP
+   Wu, HY
+   Chu, SC
+   Lai, QJ
+   Tsai, YC
+   Lin, CC
+   Kuo, CC
+   Liao, CT
+   Chen, YN
+   Chu, YW
+   Chen, CY
+AF Ou, Jie-Hao
+   Kuo, Chang-Hsin
+   Wu, Yea Fang
+   Lin, Guo-Cih
+   Lee, Miin-Huey
+   Chen, Rong-Kuen
+   Chou, Hau-Ping
+   Wu, Hsin-Yuh
+   Chu, Sheng-Chi
+   Lai, Qiao-Juan
+   Tsai, Yi-Chen
+   Lin, Chun -Chi
+   Kuo, Chien-Chih
+   Liao, Chung-Ta
+   Chen, Yi-Nian
+   Chu, Yen -Wei
+   Chen, Chi -Yu
+TI Application-oriented deep learning model for early warning of rice blast in Taiwan
+SO ECOLOGICAL INFORMATICS
+LA English
+DT Article
+DE Rice blast early warning system; Weather observation network; Gridded weather forecast; Recurrent neural network; BLASTAM
+ID humidity
+AB Rice blast is one of the most devastating diseases that threatens rice production in Taiwan. A rice blast fore-casting model is required to guide the precise application of fungicide. Therefore, BlastGRU-TW model based on deep learning algorithms was developed in this study. The input data comprised approximately 1000 rice blast surveys, collected from 50 fields throughout Taiwan between 2014 and 2021, and the corresponding weather data retrieved from weather observation network in Taiwan. Common and easily accessible meteorological factors, i.e. temperature, humidity, precipitation, and wind, were converted into 20 daily meteorological features which were coupled with different time intervals between 1 and 30 days before survey (DBS) to train the model. The results showed that seven meteorological features (daily maximum temperature, daily mean temperature, daily minimum temperature, daily mean humidity, daily mean WV and daily mean Wu) and the interval from-4 to-24 DBS were informative in disease prediction, thereby indicating that the proposed model could predict the risk of rice blast by using meteorological data 4-24 days before new disease symptoms appeared. The proposed BlastGRU-TW model achieved an accuracy of 87.3%. Furthermore, on adding the 3 day forecast weather data from Weather Research and Forecasting (WRF) model in the proposed model, the forecast extended to 7 days ahead of the appearance of new symptoms. Moreover, the BLASTAM model developed in Japan was imple-mented and validated in Taiwan to evaluate its applicability in different geographical areas. Finally, a rice blast early warning system (https://mycolab.pp.nchu.edu.tw/blast_forecast/index_en.php) equipped with an interac-tive web-based map is now available for real-time forecasting of the risk of rice blast in paddy field across Taiwan.
+C1 [Ou, Jie-Hao; Lee, Miin-Huey; Chen, Chi -Yu] Natl Chung Hsing Univ, Dept Plant Pathol, 145 Xingda Rd, Taichung 40227, Taiwan.
+   [Kuo, Chang-Hsin] Natl Chiayi Univ, Dept Plant Med, 300 Syuefu Rd, Chiayi 60004, Taiwan.
+   [Lin, Guo-Cih; Chen, Rong-Kuen] Tainan Dist Agr Res & Extens Stn, 70, Muchang Rd, Tainan, Taiwan.
+   [Chou, Hau-Ping] Kaohsiung Dist Agr Res & Extens Stn, 2-6 Dehe Rd, Pingtung Cty 908126, Taiwan.
+   [Wu, Hsin-Yuh] Taoyuan Dist Agr Res & Extens Stn, Sec 2, Dongfu Rd, Taoyuan City 327005, Taiwan.
+   [Chu, Sheng-Chi; Lai, Qiao-Juan] Miaoli Dist Agr Res & Extens Stn, Gongguan Township, Miaoli Cty 363201, Taiwan.
+   [Tsai, Yi-Chen] Hualien Dist Agr Res & Extens Stn, 150 Jian Rd, Hualien Cty 973044, Taiwan.
+   [Lin, Chun -Chi] Taitung Dist Agr Res & Extens Stn, Sec 1,Chunghua Rd, Taidung City 950244, Taiwan.
+   [Kuo, Chien-Chih; Liao, Chung-Ta] Taichung Dist Agr Res & Extens Stn, 370 Song Hwai Rd, Changhua Cty 515008, Taiwan.
+   [Chen, Yi-Nian] Agr Res Inst Taiwan, Plant Pathol, Taichung, Taiwan.
+   [Chu, Yen -Wei] Natl Chung Hsing Univ, Inst Genom & Bioinformat, 145 Xingda Rd, Taichung 402, Taiwan.
+C3 National Chung Hsing University; National Chiayi University; Agricultural Research Institute of Taiwan; National Chung Hsing University
+RP Chen, CY (corresponding author), Natl Chung Hsing Univ, Dept Plant Pathol, 145 Xingda Rd, Taichung 40227, Taiwan.
+EM chiyu86@dragon.nchu.edu.tw
+FU Council of Agriculture, Executive Yuan; Ministry of Science and Technology of Taiwan;  [111AS-5.3.1-BQ-B3];  [MOST 110-2321-B-005-005];  [MOST 109-2321-B-005-024]
+CR Anderson MC, 2001, PLANT DIS, V85, P1018, DOI 10.1094/PDIS.2001.85.9.1018
+   Barbedo JGA, 2022, TROP PLANT PATHOL, V47, P85, DOI 10.1007/s40858-021-00459-9
+   Barga R., 2015, PREDICTIVE ANAL MICR, V0, PP3, DOI 10.1007/978-1-4842-1200-4_1
+   Bhagawati R., 2015, IJRITCC, V3, P4168, DOI 10.17762/IJRITCC.V3I6.4612
+   Biloni M., 2006, ITAL J AGROMETEOROL, V3, P58
+   Chiueh YW, 2021, ATMOSPHERE-BASEL, V12, P0, DOI 10.3390/atmos12030353
+   Cho KYHY, 2014, ARXIV, V0, P0
+   FAO, 2005, RIC IS LIF INT YEAR, V0, P0
+   HASHIOKA Y., 1943, JOURNAL OF THE SOCIETY OF TROPICAL AGRICULTURE, V15, P53
+   Hashioka Y., 1950, STUDIES MECH PREVALE, V0, P0
+   HEMMI T., 1939, ANN PHYTOPATH SOC JAPAN, V9, P147
+   Hsieh JY, 2019, BUILDING RICE BLAST, V0, P0
+   Ishiguro K., 1989, TROPICAL AGRICULTURE RESEARCH SERIES, V0, P153
+   Kang WS, 2010, PLANT PATHOLOGY J, V26, P37, DOI 10.5423/PPJ.2010.26.1.037
+   Katsantonis D, 2017, PHYTOPATHOL MEDITERR, V56, P187, DOI 10.14601/Phytopathol_Mediterr-18706
+   Kaundal R, 2006, BMC BIOINFORMATICS, V7, P0, DOI 10.1186/1471-2105-7-485
+   Kim KH, 2020, PLANT PATHOLOGY J, V36, P406, DOI 10.5423/PPJ.OA.07.2020.0135
+   Kim Y, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10010034
+   Koshimizu Y., 1988, BULLETIN OF THE TOHOKU NATIONAL AGRICULTURAL EXPERIMENT STATION, V0, P67
+   Kuhn M., 2013, APPL PREDICTIVE MODE, V0, P0, DOI DOI 10.1007/978-1-4614-6849-3
+   Li Y, 2014, PLANT PATHOL, V63, P590, DOI 10.1111/ppa.12127
+   Liu LW, 2021, AGRONOMY-BASEL, V11, P0, DOI 10.3390/agronomy11040771
+   Lundberg SM, 2017, ADV NEUR IN, V30, P0
+   Magarey RD, 2002, PLANT DIS, V86, P4, DOI 10.1094/PDIS.2002.86.1.4
+   Malicdem Alvin R., 2015, WSEAS TRANSACTIONS ON INFORMATION SCIENCE AND APPLICATIONS, V12, P120
+   Naito H., 1979, BULLETIN OF THE TOHOKU NATIONAL AGRICULTURAL EXPERIMENT STATION, V0, P39
+   Nalley L, 2016, PLOS ONE, V11, P0, DOI 10.1371/journal.pone.0167295
+   Okubo S., 2015, TENKI, V62, P5
+   Ou S. H., 1985, RICE DIS, V0, P0
+   Pianosi F, 2016, ENVIRON MODELL SOFTW, V79, P214, DOI 10.1016/j.envsoft.2016.02.008
+   Pianosi F, 2015, ENVIRON MODELL SOFTW, V70, P80, DOI 10.1016/j.envsoft.2015.04.009
+   Rudin C, 2019, NAT MACH INTELL, V1, P206, DOI 10.1038/s42256-019-0048-x
+   Rykiel EJ, 1996, ECOL MODEL, V90, P229, DOI 10.1016/0304-3800(95)00152-2
+   Sriwanna K, 2022, COMPUT ELECTRON AGR, V193, P0, DOI 10.1016/j.compag.2022.106685
+   Suzuki H., 1969, J AGR METEOROL JPN, V24, P211, DOI 10.2480/agrmet.24.211
+   Takeda K., 1990, PROC KANTO TOSAN PLA, V1990, P11, DOI 10.11337/ktpps1954.1990.11
+   TENG PS, 1991, RICE BLAST MODELING AND FORECASTING, V0, P1
+   Virtanen P, 2020, NAT METHODS, V17, P261, DOI 10.1038/s41592-019-0686-2
+   Wada M., 2009, ANNUAL REPORT OF THE KANTO-TOSAN PLANT PROTECTION SOCIETY, V0, P5
+   Wang GL, 2017, SCIENCE, V355, P906, DOI 10.1126/science.aam9517
+   WHITNEY AW, 1971, IEEE T COMPUT, VC 20, P1100, DOI 10.1109/T-C.1971.223410
+   Workneh F, 2005, PHYTOPATHOLOGY, V95, P25, DOI 10.1094/PHYTO-95-0025
+NR 42
+TC 0
+Z9 0
+U1 2
+U2 2
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1574-9541
+EI 1878-0512
+J9 ECOL INFORM
+JI Ecol. Inform.
+PD MAR 15
+PY 2023
+VL 73
+IS 
+BP 
+EP 
+DI 10.1016/j.ecoinf.2022.101950
+EA DEC 2022
+PG 14
+WC Ecology
+SC Environmental Sciences & Ecology
+GA 7J4ZN
+UT WOS:000904591400004
+DA 2023-04-26
+ER
+
+PT J
+AU Chen, YF
+   Fu, ZH
+AF Chen, Yifei
+   Fu, Zhihan
+TI Multi-Step Ahead Forecasting of the Energy Consumed by the Residential and Commercial Sectors in the United States Based on a Hybrid CNN-BiLSTM Model
+SO SUSTAINABILITY
+LA English
+DT Article
+DE COVID-19; the United States; energy consumption; residential and commercial sectors; CNN-BiLSTM model; recursive multi-step ahead forecasting
+ID neural-networks; consumption; framework; demand; system; china
+AB COVID-19 has continuously influenced energy security and caused an enormous impact on human life and social activities due to the stay-at-home orders. After the Omicron wave, the economy and the energy system are gradually recovering, but uncertainty remains due to the virus mutations that could arise. Accurate forecasting of the energy consumed by the residential and commercial sectors is challenging for efficient emergency management and policy-making. Affected by geographical location and long-term evolution, the time series of the energy consumed by the residential and commercial sectors has prominent temporal and spatial characteristics. A hybrid model (CNN-BiLSTM) based on a convolution neural network (CNN) and bidirectional long short-term memory (BiLSTM) is proposed to extract the time series features, where the spatial features of the time series are captured by the CNN layer, and the temporal features are extracted by the BiLSTM layer. Then, the recursive multi-step ahead forecasting strategy is designed for multi-step ahead forecasting, and the grid search is employed to tune the model hyperparameters. Four cases of 24-step ahead forecasting of the energy consumed by the residential and commercial sectors in the United States are given to evaluate the performance of the proposed model, in comparison with 4 deep learning models and 6 popular machine learning models based on 12 evaluation metrics. Results show that CNN-BiLSTM outperforms all other models in four cases, with MAPEs ranging from 4.0034% to 5.4774%, improved from 0.1252% to 49.1410%, compared with other models, which is also about 5 times lower than that of the CNN and 5.9559% lower than the BiLSTM on average. It is evident that the proposed CNN-BiLSTM has improved the prediction accuracy of the CNN and BiLSTM and has great potential in forecasting the energy consumed by the residential and commercial sectors.
+C1 [Chen, Yifei; Fu, Zhihan] Univ Elect Sci & Technol China, Sch Publ Affairs & Adm, Chengdu 611731, Peoples R China.
+C3 University of Electronic Science & Technology of China
+RP Chen, YF (corresponding author), Univ Elect Sci & Technol China, Sch Publ Affairs & Adm, Chengdu 611731, Peoples R China.
+EM chenyifei20201609@163.com
+CR Ahmad T, 2021, ENERGY, V231, P0, DOI 10.1016/j.energy.2021.120911
+   Amalou I, 2022, ENERGY REP, V8, P1084, DOI 10.1016/j.egyr.2022.07.139
+   Amzat J, 2020, INT J INFECT DIS, V98, P218, DOI 10.1016/j.ijid.2020.06.067
+   Aras S, 2022, APPL ENERG, V328, P0, DOI 10.1016/j.apenergy.2022.120163
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chaturvedi S, 2022, ENERG POLICY, V168, P0, DOI 10.1016/j.enpol.2022.113097
+   Chen CF, 2020, ENERGY RES SOC SCI, V68, P0, DOI 10.1016/j.erss.2020.101688
+   Chen H, 2022, J CLEAN PROD, V361, P0, DOI 10.1016/j.jclepro.2022.132235
+   Chen Tianqi, 2016, P 22 ACM SIGKDD INT, V0, PP785, DOI 10.48550/ARXIV.1603.02754
+   Chinthavali S, 2022, ENERG BUILDINGS, V259, P0, DOI 10.1016/j.enbuild.2022.111847
+   Cui YK, 2021, AGR FOREST METEOROL, V307, P0, DOI 10.1016/j.agrformet.2021.108488
+   Ding S, 2022, EXPERT SYST APPL, V208, P0, DOI 10.1016/j.eswa.2022.118115
+   Ding S, 2022, EXPERT SYST APPL, V204, P0, DOI 10.1016/j.eswa.2022.117635
+   Dorogush A.V., 2018, ARXIV, V0, P0
+   Feng ZX, 2022, ENERGY REP, V8, P12442, DOI 10.1016/j.egyr.2022.09.022
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Graves A., 2008, P ADV NEURAL INFORM, VVolume 21, P0
+   He YL, 2022, ISA T, V127, P350, DOI 10.1016/j.isatra.2021.08.030
+   He YD, 2018, ENERGY, V151, P420, DOI 10.1016/j.energy.2018.03.067
+   Jain R, 2022, RENEW ENERG FOCUS, V42, P190, DOI 10.1016/j.ref.2022.06.007
+   Jamei M, 2022, APPL ENERG, V326, P0, DOI 10.1016/j.apenergy.2022.119925
+   Ke GL, 2017, ADV NEUR IN, V30, P0
+   Khan Atif Maqbool, 2023, EXPERT SYSTEMS WITH APPLICATIONS, V0, P0, DOI DOI 10.1016/j.eswa.2022.118840
+   Khan SU, 2023, ENERG BUILDINGS, V279, P0, DOI 10.1016/j.enbuild.2022.112705
+   Khan W, 2022, ENERGY, V240, P0, DOI 10.1016/j.energy.2021.122812
+   Khan ZA, 2022, SUSTAIN ENERGY TECHN, V53, P0, DOI 10.1016/j.seta.2022.102337
+   Kim HJ, 2023, APPL ENERG, V332, P0, DOI 10.1016/j.apenergy.2022.120525
+   Krarti M, 2021, RENEW SUST ENERG REV, V143, P0, DOI 10.1016/j.rser.2021.110888
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Lee Y, 2022, RENEW ENERG, V200, P69, DOI 10.1016/j.renene.2022.09.058
+   Li C, 2022, ENERGY, V259, P0, DOI 10.1016/j.energy.2022.124967
+   Li M, 2014, MATH PROBL ENG, V2014, P0, DOI 10.1155/2014/434972
+   Li RR, 2023, EXPERT SYST APPL, V211, P0, DOI 10.1016/j.eswa.2022.118622
+   Liu HM, 2022, ELECTR POW SYST RES, V210, P0, DOI 10.1016/j.epsr.2022.108066
+   Mehmood F, 2022, APPL ENERG, V324, P0, DOI 10.1016/j.apenergy.2022.119754
+   Moreland A, 2020, MMWR-MORBID MORTAL W, V69, P1198, DOI 10.15585/mmwr.mm6935a2
+   Mustaqeem, 2022, SUSTAIN ENERGY TECHN, V52, P0, DOI 10.1016/j.seta.2022.102275
+   Niu DX, 2022, APPL ENERG, V313, P0, DOI 10.1016/j.apenergy.2022.118801
+   Peng L, 2022, ENERGY, V238, P0, DOI 10.1016/j.energy.2021.121756
+   Peters J, 2017, ADAPT COMPUT MACH LE, V0, P0
+   Potocnik P, 2014, APPL ENERG, V129, P94, DOI 10.1016/j.apenergy.2014.04.102
+   Priyadarshini I, 2021, J SUPERCOMPUT, V77, P13911, DOI 10.1007/s11227-021-03838-w
+   Rakpho P., 2021, ENERGY REP, V7, P338, DOI 10.1016/j.egyr.2021.06.059
+   Rao CJ, 2023, ENERGY, V263, P0, DOI 10.1016/j.energy.2022.125955
+   Ren HB, 2022, ENERGY REP, V8, P605, DOI 10.1016/j.egyr.2022.05.208
+   Rick R, 2022, ENG APPL ARTIF INTEL, V113, P0, DOI 10.1016/j.engappai.2022.104998
+   Sahin U, 2022, EXPERT SYST APPL, V209, P0, DOI 10.1016/j.eswa.2022.118429
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Schmidhuber J, 2005, 19TH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE (IJCAI-05), V0, P853
+   Shabbir N, 2022, ENERGY, V253, P0, DOI 10.1016/j.energy.2022.124156
+   Siami-Namini S, 2019, IEEE INT CONF BIG DA, V0, PP3285, DOI 10.1109/BigData47090.2019.9005997
+   Soldo B, 2012, APPL ENERG, V92, P26, DOI 10.1016/j.apenergy.2011.11.003
+   STONE M, 1974, J R STAT SOC B, V36, P111, DOI 10.1111/j.2517-6161.1974.tb00994.x
+   Subramanian S., 2018, P 2018 AIAA MODELING, V0, P0, DOI DOI 10.2514/6.2018-0424
+   Suykens JAK, 1999, NEURAL PROCESS LETT, V9, P293, DOI 10.1023/A:1018628609742
+   Tamba J.G., 2018, INT J ENERGY EC POLI, V8, P216
+   Taspinar F, 2013, ENERG BUILDINGS, V56, P23, DOI 10.1016/j.enbuild.2012.10.023
+   Thanh T., 2022, RSF-RUS SAGE J SOC S, V7, P258, DOI 10.46604/aiti.2022.9227
+   Tran van Phuc, 2022, IOP CONFERENCE SERIES: MATERIALS SCIENCE AND ENGINEERING, V1222, P0, DOI 10.1088/1757-899X/1222/1/012013
+   Wei N, 2019, J PETROL SCI ENG, V181, P0, DOI 10.1016/j.petrol.2019.106187
+   Wright C., 2012, DECIS SUPPORT SYST, V0, P0
+   Wu Y, 2016, ARXIV, V0, P0
+   [谢乃明 Xie Naiming], 2005, 系统工程理论与实践 SYSTEMS ENGINEERING-THEORY & PRACTICE, V25, P93
+   Yan K, 2022, J PARALLEL DISTR COM, V163, P248, DOI 10.1016/j.jpdc.2022.01.012
+   Yang B, 2022, ENERGY REP, V8, P124, DOI 10.1016/j.egyr.2022.10.077
+   Yang XS, 2018, SOFT COMPUT, V22, P5923, DOI 10.1007/s00500-017-2810-5
+   Ye L., 2023, APPL ENERG, V331, P120189, DOI 10.1016/j.apenergy.2022.120189
+   Zhang Y., 2023, CHEM ENG J, V264, P126154, DOI 10.1016/j.energy.2022.126154
+   Zheng JQ, 2023, RENEW SUST ENERG REV, V172, P0, DOI 10.1016/j.rser.2022.113046
+   Zhu L, 2015, ENERGY, V80, P428, DOI 10.1016/j.energy.2014.11.083
+NR 72
+TC 0
+Z9 0
+U1 3
+U2 3
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2071-1050
+J9 SUSTAINABILITY-BASEL
+JI Sustainability
+PD FEB 15
+PY 2023
+VL 15
+IS 3
+BP 
+EP 
+DI 10.3390/su15031895
+PG 21
+WC Green & Sustainable Science & Technology; Environmental Sciences; Environmental Studies
+SC Science & Technology - Other Topics; Environmental Sciences & Ecology
+GA 8U7WA
+UT WOS:000930156300001
+DA 2023-04-26
+ER

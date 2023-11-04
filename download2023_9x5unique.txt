@@ -1,0 +1,488 @@
+
+PT J
+AU Li, JY
+   Huang, X
+   Feng, YJ
+   Ji, Z
+   Zhang, SL
+   Wen, DW
+AF Li, Jiayi
+   Huang, Xin
+   Feng, Yujin
+   Ji, Zhen
+   Zhang, Shulei
+   Wen, Dawei
+TI A Hierarchical Deformable Deep Neural Network and an Aerial Image Benchmark Dataset for Surface Multiview Stereo Reconstruction
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Deep learning; depth map-based stereo recon-struction; digital surface model (DSM); multiview stereo (MVS) reconstruction
+AB Multiview stereo (MVS) aerial image depth estimation is a research frontier in the remote sensing field. Recent deep learning-based advances in close-range object reconstruction have suggested the great potential of this approach. Meanwhile, the deformation problem and the scale variation issue are also worthy of attention. These characteristics of aerial images limit the applicability of the current methods for aerial image depth estimation. Moreover, there are few available benchmark datasets for aerial image depth estimation. In this regard, this article describes a new benchmark dataset called the LuoJia-MVS dataset (https://irsip.whu.edu.cn/resources/resources_en_v2.php), as well as a new deep neural network known as the hierarchical deformable cascade MVS network (HDC-MVSNet). The LuoJia-MVS dataset contains 7972 five-view images with a spatial resolution of 10 cm, pixel-wise depths, and precise camera parameters, and was generated from an accurate digital surface model (DSM) built from thousands of stereo aerial images. In the HDC-MVSNet network, a new full-scale feature pyramid extraction module, a hierarchical set of 3-D convolutional blocks, and "true 3-D " deformable 3-D convolutional layers are specifically designed by considering the aforementioned characteristics of aerial images. Overall and ablation experiments on the WHU and LuoJia-MVS datasets validated the superiority of HDC-MVSNet over the current state-of-the-art MVS depth estimation methods and confirmed that the newly built dataset can provide an effective benchmark.
+C1 [Li, Jiayi] Hubei Luojia Lab, Wuhan 430079, Peoples R China.
+   [Li, Jiayi] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+   [Huang, Xin] Wuhan Univ, Sch Remote Sensing & Informat Engi neering, Hubei Luojia Lab, Wuhan 430079, Peoples R China.
+   [Huang, Xin] Wuhan Univ, State Key Lab Informat Engn Surveying Mapping & Re, Wuhan 430079, Peoples R China.
+   [Feng, Yujin; Ji, Zhen; Zhang, Shulei] Wuhan Univ, Sch Remote Sensing & Informat Engn, Wuhan 430079, Peoples R China.
+   [Wen, Dawei] Wuhan Inst Technol, Sch Comp Sci & Engn, Wuhan 430070, Peoples R China.
+C3 Wuhan University; Wuhan University; Wuhan University; Wuhan University; Wuhan Institute of Technology
+RP Huang, X (corresponding author), Wuhan Univ, Sch Remote Sensing & Informat Engi neering, Hubei Luojia Lab, Wuhan 430079, Peoples R China.
+EM zjjercia@whu.edu.cn; huang_whu@163.com; 2020282130098@whu.edu.cn; jz07@whu.edu.cn; zhangshulei@whu.edu.cn; daweiwen_whu@163.com
+FU Special Fund of the Hubei Luojia Laboratory; National Natural Science Foundation of China [42071311, 41971295]; Foundation forInnovative Research Groups of the Natural Science Foundation of Hubei Province [2020CFA003]; Wuhan 2022 Dawning Project [2022010801020123]; Wuhan University Experiment Technology Project [WHU-2020-SYJS-0007]
+CR Barnes C, 2009, ACM T GRAPHIC, V28, P0, DOI 10.1145/1531326.1531330
+   Beyer RA, 2018, EARTH SPACE SCI, V5, P537, DOI 10.1029/2018EA000409
+   Blaha M, 2016, PROC CVPR IEEE, V0, PP3176, DOI 10.1109/CVPR.2016.346
+   Bleyer M, 2011, PROCEEDINGS OF THE BRITISH MACHINE VISION CONFERENCE 2011, V0, P0, DOI DOI 10.5244/C.25.14
+   Chen R, 2019, IEEE I CONF COMP VIS, V0, PP1538, DOI 10.1109/ICCV.2019.00162
+   Collins RT, 1996, PROC CVPR IEEE, V0, PP358, DOI 10.1109/CVPR.1996.517097
+   Dai JF, 2017, IEEE I CONF COMP VIS, V0, PP764, DOI 10.1109/ICCV.2017.89
+   Gu XD, 2020, PROC CVPR IEEE, V0, PP2492, DOI 10.1109/CVPR42600.2020.00257
+   Hirschmuller H, 2008, IEEE T PATTERN ANAL, V30, P328, DOI 10.1109/TPAMl.2007.1166
+   Huang HM, 2020, INT CONF ACOUST SPEE, V0, PP1055, DOI 10.1109/ICASSP40776.2020.9053405
+   Huang X, 2021, IEEE T GEOSCI REMOTE, V59, P10266, DOI 10.1109/TGRS.2020.3037211
+   Huang X, 2017, REMOTE SENS ENVIRON, V196, P56, DOI 10.1016/j.rse.2017.05.001
+   Jensen R, 2014, PROC CVPR IEEE, V0, PP406, DOI 10.1109/CVPR.2014.59
+   Ji MQ, 2017, IEEE I CONF COMP VIS, V0, PP2326, DOI 10.1109/ICCV.2017.253
+   Jianfeng Yan, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12349), V0, PP674, DOI 10.1007/978-3-030-58548-8_39
+   Knapitsch A, 2017, ACM T GRAPHIC, V36, P0, DOI 10.1145/3072959.3073599
+   Laga H, 2022, IEEE T PATTERN ANAL, V44, P1738, DOI 10.1109/TPAMI.2020.3032602
+   Li JY, 2019, NATL SCI REV, V6, P1082, DOI 10.1093/nsr/nwz058
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Liu J, 2020, PROC CVPR IEEE, V0, PP6049, DOI 10.1109/CVPR42600.2020.00609
+   Luo KY, 2019, IEEE I CONF COMP VIS, V0, PP10451, DOI 10.1109/ICCV.2019.01055
+   Mahato M, 2019, IEEE T GEOSCI REMOTE, V57, P3341, DOI 10.1109/TGRS.2018.2883483
+   Rao ZB, 2021, IEEE T GEOSCI REMOTE, V59, P6138, DOI 10.1109/TGRS.2020.3029527
+   Ronneberger O., 2015, INT C MEDICAL IMAGE, V0, P234
+   Rothermel M., 2012, PROC LC3D WORKSHOP, V8, P1
+   Scharstein D., 2014, PATTERN RECOGN, V8753, P0
+   Schops T, 2017, PROC CVPR IEEE, V0, PP2538, DOI 10.1109/CVPR.2017.272
+   Sun K, 2019, PROC CVPR IEEE, V0, PP5686, DOI 10.1109/CVPR.2019.00584
+   Tola E, 2012, MACH VISION APPL, V23, P903, DOI 10.1007/s00138-011-0346-8
+   Wang FJ, 2021, PROC CVPR IEEE, V0, PP14189, DOI 10.1109/CVPR46437.2021.01397
+   Wang Y., 2022, PROC CVPR IEEE, V0, P19809
+   Weilharter R, 2021, IEEE ACCESS, V9, P11306, DOI 10.1109/ACCESS.2021.3050556
+   Xu Y., 2022, GEOSPATIAL INFORM SC, V0, P1
+   Yang JY, 2020, PROC CVPR IEEE, V0, PP4876, DOI 10.1109/CVPR42600.2020.00493
+   Yao Y, 2018, LECT NOTES COMPUT SC, V11212, P785, DOI 10.1007/978-3-030-01237-3_47
+   Yao Y, 2020, PROC CVPR IEEE, V0, PP1787, DOI 10.1109/CVPR42600.2020.00186
+   Yao Y, 2019, PROC CVPR IEEE, V0, PP5520, DOI 10.1109/CVPR.2019.00567
+   Ying XY, 2020, IEEE SIGNAL PROC LET, V27, P1500, DOI 10.1109/LSP.2020.3013518
+   Yu DW, 2021, ISPRS J PHOTOGRAMM, V171, P155, DOI 10.1016/j.isprsjprs.2020.11.011
+   Yu ZH, 2020, PROC CVPR IEEE, V0, PP1946, DOI 10.1109/CVPR42600.2020.00202
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+   Zhu QT, 2021, ARXIV, V0, P0
+   Zhu XZ, 2019, PROC CVPR IEEE, V0, PP9300, DOI 10.1109/CVPR.2019.00953
+NR 43
+TC 0
+Z9 0
+U1 8
+U2 8
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2023
+VL 61
+IS 
+BP 
+EP 
+DI 10.1109/TGRS.2023.3234694
+PG 12
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA 7Z8SH
+UT WOS:000915822400016
+DA 2023-04-26
+ER
+
+PT J
+AU Cubukcu, EA
+   Demir, V
+   Sevimli, MF
+AF Cubukcu, Esra Asli
+   Demir, Vahdettin
+   Sevimli, Mehmet Faik
+TI Modeling of annual maximum flows with geographic data components and artificial neural networks
+SO INTERNATIONAL JOURNAL OF ENGINEERING AND GEOSCIENCES
+LA English
+DT Article
+DE Modeling; Flood; Artificial Neural Networks; Annual Maximum Flow; Geographical Information Systems
+ID flood; rivers; generation; example; maps
+AB The flow rate at which the instantaneous maximum flow is recorded throughout the year is called the Annual Maximum Flow (AMF). These flow rates often cause disasters such as floods. Snow melts and extreme precipitation associated with temperature fluctuations are the two most important factors that occurred flooding. The deluge that follows kills people and destroys property in communities and agricultural lands. As a result, it's critical to predict the flow that causes flooding and take appropriate precautions to limit the damage. The prediction of the probability of a flood event in advance is very important for the safety of life and property of large masses and agricultural lands. Early warning systems, disaster management plans and minimizing these losses are among the important goals of the country's administration. This study was used in five Current Observation Stations (COS) located in Yesilirmak Basin in Turkey. By using 8 input data including geographical location, altitude and area information of these stations, AMF data were tried to be estimated for each COS. A total of 240 input data was used in the study. The data period covers the years 1964-2012. Unfortunately, AMF values cannot be monitored for all 5 stations used after 2012. Therefore, the data period was stopped in 2012. In this study, Multilayer Artificial Neural Networks (MANN), Generalized Artificial Neural Networks (GANN), Radial Based Artificial Neural Networks (RBANN) and Multiple Linear Regulation (MLR) methods were used. Input data sets were made into 4 packets and these packages were used respectively in both training and testing stages. In these packages, the AMF data measured for the 5 stations mentioned above between 1965 and 2012 were divided into 4 and used by creating 25% (test) and 75% (training) packages. Root Means Square Error (RMSE), Mean Absolute Error (MAE) and correlation coefficient (R) were used as the comparison criteria. The results are as follow; MANN (RMSE = 119.118, MAE = 93.213, R = 0.808), and RBANN (RMSE = 111.559, MAE = 81.114, R = 0.900). These results show that AMF can be predicted with artificial intelligence techniques and can be used as an alternative method.
+C1 [Cubukcu, Esra Asli; Demir, Vahdettin; Sevimli, Mehmet Faik] KTO Karatay Univ, Fac Engn & Nat Sci, Civil Engn Dept, Konya, Turkiye.
+C3 KTO Karatay University
+RP Cubukcu, EA (corresponding author), KTO Karatay Univ, Fac Engn & Nat Sci, Civil Engn Dept, Konya, Turkiye.
+EM cubukcuasli@gmail.com; vahdettin.demir@karatay.edu.tr; mehmet.faik.sevimli@karatay.edu.tr
+CR Ahmad I, 2015, POL J ENVIRON STUD, V24, P2345
+   Akgul M. A., 2018, GEOMATIK, V3, P154, DOI 10.29128/geomatik.378123
+   Akkaya U, 2016, GEOFIZIKA, V33, P15, DOI 10.15233/gfz.2016.33.7
+   Al Kalbani K, 2022, INT J ENG GEOSCI, V7, P17, DOI 10.26833/ijeg.857971
+   Amil TA, 2018, INT J ENG GEOSCI, V3, P80, DOI 10.26833/ijeg.412348
+   [Anonymous], 2017, GEN DIR WAT MAN FLOO, V0, P0
+   Ari A., 2017, INT J PROD RES, V1, P55
+   Aydogan B., 2011, 7 COASTAL ENG S, V0, P403
+   Boustani Hezarani A., 2021, SURDURULEBILIR MUHEN, V4, P121, DOI 10.51764/smutgd.993792
+   Broomhead D. S., 1988, COMPLEX SYSTEMS, V2, P321
+   Cay F., 2018, THESIS KTO KARATAY U, V0, P0
+   Citakoglu H., 2017, HYDROLOG SCI J, V6, P571
+   Cubukcu E. A., 2019, THESIS KTO KARATAY U, V0, P0
+   Cubukcu E. A., 2019, INT CIVIL ENG ARCHIT, V0, P716
+   Dahamsheh A., 2008, THESIS ITU TURKEY, V0, P0
+   Dawson CW, 2001, PROG PHYS GEOG, V25, P80, DOI 10.1191/030913301674775671
+   Demir V., 2019, CISET 2 CILICIA INT, V0, P10
+   Demir V, 2022, GEOMATIK, V7, P149, DOI 10.29128/geomatik.918502
+   Dibike YB, 2001, PHYS CHEM EARTH PT B, V26, P1, DOI 10.1016/S1464-1909(01)85005-X
+   Haktanir T, 2016, HYDROLOG SCI J, V61, P647, DOI 10.1080/02626667.2014.966722
+   Hu T. S., 2009, APPL WATER SCI, V50, P298
+   Lim YH, 2003, HYDROLOG SCI J, V48, P79, DOI 10.1623/hysj.48.1.79.43477
+   Oguz E, 2022, GEOMATIK, V7, P220, DOI 10.29128/geomatik.972343
+   Okkan U, 2012, TEK DERGI, V23, P5957
+   Oral M, 2018, PAMUKKALE U J ENG SC, V24, P857, DOI 10.5505/pajes.2017.76401
+   Ovcharuk V, 2020, GEOFIZIKA, V37, P27, DOI 10.15233/gfz.2020.37.3
+   Oyebode O, 2019, NAT RESOUR MODEL, V32, P0, DOI 10.1111/nrm.12189
+   Oztemel E., 2012, ARTIFICIAL NEURAL NE, V0, P0
+   POGGIO T, 1990, SCIENCE, V247, P978, DOI 10.1126/science.247.4945.978
+   Ren ML, 2010, INT J SEDIMENT RES, V25, P134, DOI 10.1016/S1001-6279(10)60033-9
+   Surel A., 2006, THESIS ITU TURKEY, V0, P0
+   Taylan ED, 2021, J EARTH SYST SCI, V130, P0, DOI 10.1007/s12040-020-01488-9
+   Tona A. U., 2022, TURKIYE COGRAFI BILG, V4, P23, DOI 10.56130/tucbis.993807
+   Tonkaz T., 2010, NATL FLOOD S, V0, P315
+   Yagmur N, 2020, INT J ENG GEOSCI, V5, P120, DOI 10.26833/ijeg.638669
+   Yakar M, 2009, EXP TECHNIQUES, V33, P52, DOI 10.1111/j.1747-1567.2008.00375.x
+   Yavuz S., 2012, J ERCIYES U FAC EC A, V1, P167, DOI 10.18070/euiibfd.18232
+   Yilmaz A, 2018, INT J ENG GEOSCI, V3, P98, DOI 10.26833/ijeg.384822
+   Yilmaz OS, 2023, GEOMATIK, V8, P42, DOI 10.29128/geomatik.1108735
+   Zhang Q, 2018, IEEE T GEOSCI REMOTE, V56, P4274, DOI 10.1109/TGRS.2018.2810208
+NR 41
+TC 0
+Z9 0
+U1 1
+U2 1
+PU SELCUK UNIV PRESS
+PI CANKAYA
+PA MUSTAFA KEMAL DIST, DUMLUPINAR BLVD, 2151 AVE, ESKISEHIR RD 7 KM-METU-COUNTER, CANKAYA, 06510, TURKEY
+SN 2548-0960
+EI 
+J9 INT J ENG GEOSCI
+JI Int. J. Eng. Geosci.
+PD JUN 15
+PY 2023
+VL 8
+IS 2
+BP 200
+EP 211
+DI 10.26833/ijeg.1125412
+PG 12
+WC Engineering, Geological
+SC Engineering
+GA 9W1PZ
+UT WOS:000948854100010
+DA 2023-04-26
+ER
+
+PT J
+AU Yuan, M
+   Kennedy, KM
+AF Yuan, M.
+   Kennedy, Kristen M.
+TI Utility of Environmental Complexity as a Predictor of Alzheimer's Disease Diagnosis: A Big-Data Machine Learning Approach
+SO JPAD-JOURNAL OF PREVENTION OF ALZHEIMERS DISEASE
+LA English
+DT Article; Early Access
+DE Alzheimer's disease; neural network modelling; environmental complexity; cognitive map; geospatial mapping
+ID spatial navigation; cognitive decline; tau pathology; hippocampus; deficits; signs; map
+AB BackgroundRural-urban differences and spatial navigation deficits have received much attention in Alzheimer's Disease research. While individual environmental and neighborhood factors have been independently investigated, their integrative, multifactorial effects on Alzheimer's diagnosis have not. Here we explore this "environmental complexity" for predictive power in classifying Alzheimer's from cognitively-normal status.MethodsWe utilized data from the National Alzheimer's Coordinating Center (NACC) uniform data set containing annual visits since 2005 and selected individuals with multiple visits and who remained in their zipcode (N = 22,553). We georeferenced each subject with 3-digit zipcodes of their residences since entering the program. We calculated environmental complexity measures using geospatial tools from street networks and landmarks for spatial navigation in subjects' zipcode zones. Zipcode zones were grouped into two cognitive classes (Cognitively-Normal and Alzheimer's-inclined) based on the ratios of AD and dementia subjects to all subjects in an individual zipcode zone. We randomly selected 80% of the data to train a neural network classifier model on environmental complexity measures to predict the cognitive class for each zone, controlling for salient demographic variables. The remaining 20% served as the test set for performance evaluation.ResultsOur proposed model reached excellent classification ability on the testing data: 83.87% accuracy, 95.23% precision, 83.33% recall, and 0.8889 F1-score (F1-score=1 for perfect prediction). The most salient features of "Alzheimer's-inclined" zipcode zones included longer street-length average, higher circuity, and slightly fewer points of interest. Most "cognitively-normal" zipcode zones appeared in or near urban areas with high environmental complexity measures.ConclusionEnvironmental complexity, reflected in frequency and density of street networks and landmarks features, predicted with high precision the cognitive status of 3-digit zipcode zones based on the etiologic diagnoses and observed cognitive impairment of NACC subjects residing in these zones. The zipcode zones vary widely in size (1.6 km(2) to 35,241 km(2)), and large zipcode zones suffer high spatial heterogeneity. Other proven AD risk factors, such as PM2.5, disperse across zones, and so do individual's activities, leading to spatial uncertainty. Nevertheless, the model classifies diagnosis well, establishing the need for prospective experiments to quantify effects of environmental complexity on Alzheimer's development.
+C1 [Yuan, M.] Univ Texas Dallas, Sch Econ Polit & Policy Sci, Dept Geospatial Informat Sci, Richardson, TX USA.
+   [Kennedy, Kristen M.] Univ Texas Dallas, Ctr Vital Longev, Sch Behav & Brain Sci, Dept Psychol, Dallas, TX USA.
+   [Kennedy, Kristen M.] Univ Texas Dallas, Ctr Vital Longev, Sch Behav & Brain Sci, Dept Psychol, Dallas, TX 75235 USA.
+C3 University of Texas System; University of Texas Dallas; University of Texas System; University of Texas Dallas; University of Texas System; University of Texas Dallas
+RP Kennedy, KM (corresponding author), Univ Texas Dallas, Ctr Vital Longev, Sch Behav & Brain Sci, Dept Psychol, Dallas, TX 75235 USA.
+EM Kristen.kennedy1@utdallas.edu
+FU National Institute of Health (NIH) [R21 AG069267]; NIA/NIH [U24 AG072122]; NIA [P30 AG019610, P30 AG013846, P50 AG008702, P50 AG025688, P50 AG047266, P30 AG010133, P50 AG005146, P50 AG005134, P50 AG016574, P50 AG005138, P30 AG008051, P30 AG013854, P30 AG008017, P30 AG010161, P50 AG047366, P50 AG005131, P50 AG023501, P30 AG035982, P30 AG028383, P30 AG053760, P30 AG010124, P50 AG005133, P50 AG005142, P30 AG012300, P30 AG049638, P50 AG005136, P50 AG033514, P50 AG005681, P50 AG047270]
+CR Allison SL, 2016, J ALZHEIMERS DIS, V52, P77, DOI 10.3233/JAD-150855
+   Banai R, 1999, ENVIRON PLANN B, V26, P133, DOI 10.1068/b260133
+   Boeing G, 2019, URBAN SCI, V3, P0, DOI 10.3390/urbansci3010028
+   Boeing G, 2020, ENVIRON PLAN B-URBAN, V47, P590, DOI 10.1177/2399808318784595
+   Boeing G, 2017, COMPUT ENVIRON URBAN, V65, P126, DOI 10.1016/j.compenvurbsys.2017.05.004
+   Buzsaki G, 2017, SCIENCE, V358, P482, DOI 10.1126/science.aan8869
+   Calderon-Garciduenas L, 2019, J ALZHEIMERS DIS, V70, P341, DOI 10.3233/JAD-190331
+   Cerman J, 2018, CURR ALZHEIMER RES, V15, P219, DOI 10.2174/1567205014666171120145349
+   Coughlan G, 2018, NAT REV NEUROL, V14, P496, DOI 10.1038/s41582-018-0031-x
+   Derdikman D, 2010, TRENDS COGN SCI, V14, P561, DOI 10.1016/j.tics.2010.09.004
+   Falcon C, 2021, ALZH DEMENT-DADM, V13, P0, DOI 10.1002/dad2.12205
+   Finch CE, 2019, ALZHEIMERS DEMENT, V15, P1123, DOI 10.1016/j.jalz.2019.06.3914
+   Fu HJ, 2017, NEURON, V93, P533, DOI 10.1016/j.neuron.2016.12.023
+   Hamilton L, 2009, J NEUROL NEUROSUR PS, V80, P960, DOI 10.1136/jnnp.2008.166801
+   Han X, 2014, J EXP PSYCHOL LEARN, V40, P511, DOI 10.1037/a0035259
+   Hartley T, 2014, PHILOS T R SOC B, V369, P0, DOI 10.1098/rstb.2012.0510
+   Hodgson LG, 2003, INT J AGING HUM DEV, V56, P323, DOI 10.2190/E6J1-PUX7-J43C-090B
+   Iqbal K, 2005, BBA-MOL BASIS DIS, V1739, P198, DOI 10.1016/j.bbadis.2004.09.008
+   Leifer BP, 2009, J AM ACAD NURSE PRAC, V21, P588, DOI 10.1111/j.1745-7599.2009.00436.x
+   Levine TF, 2020, ALZHEIMERS DEMENT, V16, P491, DOI 10.1002/alz.12031
+   Lynch K., 2008, IMAGE CITY, V33rd ed., P0
+   Maguire EA, 1997, J NEUROSCI, V17, P7103
+   Mitchell TM, 2008, SCIENCE, V320, P1191, DOI 10.1126/science.1152876
+   Monacelli AM, 2003, NEUROLOGY, V61, P1491, DOI 10.1212/WNL.61.11.1491
+   Moser EI, 2008, ANNU REV NEUROSCI, V31, P69, DOI 10.1146/annurev.neuro.31.061307.090723
+   Nadel L, 2013, J COGNITIVE NEUROSCI, V25, P22, DOI 10.1162/jocn_a_00313
+   National Academies of Sciences Engineering and Medicine, 2020, ENV NEUROSCIENCE ADV, V0, P0, DOI DOI 10.17226/25937
+   Parizkova M, 2018, NEUROBIOL AGING, V64, P107, DOI 10.1016/j.neurobiolaging.2017.12.019
+   Peters R, 2019, J ALZHEIMERS DIS, V70, PS145, DOI 10.3233/JAD-180631
+   Pocnet C, 2013, INT J GERIATR PSYCH, V28, P276, DOI 10.1002/gps.3822
+   Powell WR, 2020, JAMA NETW OPEN, V3, P0, DOI 10.1001/jamanetworkopen.2020.7559
+   Russ TC, 2012, INT J EPIDEMIOL, V41, P1012, DOI 10.1093/ije/dys103
+   SafeGraph, 2021, SAFEGRAPH PLAC SCHEM, V0, P0
+   Serrano-Pozo A, 2011, CSH PERSPECT MED, V1, P0, DOI 10.1101/cshperspect.a006189
+   Sheladia S, 2021, J ALZHEIMERS DIS REP, V5, P121, DOI 10.3233/ADR-200277
+   Spalla D, 2019, NEURAL COMPUT, V31, P2324, DOI 10.1162/neco_a_01237
+   Spiers HJ, 2023, TOP COGN SCI, V15, P120, DOI 10.1111/tops.12590
+   Stensola H, 2012, NATURE, V492, P72, DOI 10.1038/nature11649
+   The Alzheimers Association, 2019, 10 WARN SIGNS ALZH I, V0, P0
+   The US Center for Disease Controls and Prevention, 2019, 10 WARN SIGNS ALZH 1, V0, P0
+   Werner P, 2007, AGING CLIN EXP RES, V19, P356
+   Weuve J, 2012, ARCH INTERN MED, V172, P219, DOI 10.1001/archinternmed.2011.683
+   Wild CP, 2012, INT J EPIDEMIOL, V41, P24, DOI 10.1093/ije/dyr236
+   Wilson PWF, 1998, CIRCULATION, V97, P1837, DOI 10.1161/01.CIR.97.18.1837
+   Wing JJ, 2020, J ALZHEIMERS DIS, V76, P1309, DOI 10.3233/JAD-200491
+   Woollett K, 2011, CURR BIOL, V21, P2109, DOI 10.1016/j.cub.2011.11.018
+   WORDEN R, 1992, HIPPOCAMPUS, V2, P165, DOI 10.1002/hipo.450020208
+NR 47
+TC 0
+Z9 0
+U1 4
+U2 4
+PU SPRINGER BASEL AG
+PI BASEL
+PA PICASSOPLATZ 4, BASEL, 4052, SWITZERLAND
+SN 2274-5807
+EI 2426-0266
+J9 JPAD-J PREV ALZHEIM
+JI JPAD-J. Prev. Alzheimers Dis.
+PD JUN 15
+PY 2023
+VL 0
+IS 
+BP 
+EP 
+DI 10.14283/jpad.2023.18
+PG 13
+WC Clinical Neurology
+SC Neurosciences & Neurology
+GA 8F8UK
+UT WOS:000919931300001
+PM 36946449
+DA 2023-04-26
+ER
+
+PT J
+AU Xu, Y
+   Tao, CC
+   Zhang, C
+   Ji, HL
+   Qiu, JH
+AF Xu, Yao
+   Tao, Chongcong
+   Zhang, Chao
+   Ji, Hongli
+   Qiu, Jinhao
+TI Rapid and visualized residual strength prediction of Scarf-repaired laminates using hierarchical surrogate model
+SO COMPOSITE STRUCTURES
+LA English
+DT Article
+DE Scarf-repaired laminates; Residual strength; Convolutional neural network; Heat map
+ID fracture-toughness; composite; simulation; growth; size
+AB Defects and/or damage of the bonding surfaces of scarf-repaired CFRP laminates can be detected with nonde-structive testing technologies. However, it is difficult to judge whether the defect and/or damage is severe enough to affect the normal use of the repaired structure. Destructive testing is usually required to access the residual strength, which is not ideal for real world applications. In this paper, a nondestructive strength pre-diction approach is proposed that comprises of a high-fidelity finite element model, an efficient convolutional neural network model and visualized damage-strength heat map model to form a hierarchical surrogate model. The tensile strength of the structures can be rapidly obtained with an average error of 1.4% by comprehensively considering the angle of the scarf joints, the interfacial strength of the adhesive film, the stacking sequence of laminas, together with the size and location of the damage which are visualized by nondestructive testing. In addition, the residual tensile strength of repaired structures containing damage can be calculated more conve-niently and intuitively with simple multiplication operation by the proposed heat map model without scarifies in accuracy.
+C1 [Xu, Yao; Tao, Chongcong; Zhang, Chao; Ji, Hongli; Qiu, Jinhao] Nanjing Univ Aeronaut & Astronaut, State Key Lab Mech & Control Mech Struct, Yudao St 29, Nanjing 210016, Peoples R China.
+C3 Nanjing University of Aeronautics & Astronautics
+RP Tao, CC; Qiu, JH (corresponding author), Nanjing Univ Aeronaut & Astronaut, State Key Lab Mech & Control Mech Struct, Yudao St 29, Nanjing 210016, Peoples R China.
+EM tcc@nuaa.edu.cn; qiu@nuaa.edu.cn
+FU National Natural Science Foundation of China; Na-tional Key Research and Development Program of China; Natural Science Foundation of Jiangsu Province; Foundation Strengthening Plan Technology Fund; China Postdoctoral Science Foundation;  [52235003];  [52205159];  [52175141];  [51921003];  [2021YFB3400100];  [BK20200414];  [2019-JCJQ-JJ-337];  [2021-JCJQ-JJ-1241];  [2021TQ0152];  [2022M711616]
+CR Akhavan-Safar A, 2018, J ADHES SCI TECHNOL, V32, P2019, DOI 10.1080/01694243.2018.1458812
+   Babu UH, 2021, SILICON-NETH, V13, P2943, DOI 10.1007/s12633-020-00637-5
+   Barenblatt G.I., 1959, APPL MATH MECH-ENGL, V23, P622, DOI 10.1016/0021-8928(59)90157-1
+   Belnoue JPH, 2016, INT J ADHES ADHES, V68, P369, DOI 10.1016/j.ijadhadh.2016.03.010
+   Budhe S, 2014, INT J ADHES ADHES, V49, P80, DOI 10.1016/j.ijadhadh.2013.12.007
+   Budhe S., 2018, APPL ADHESION SCI, V6, P8, DOI 10.1186/s40563-018-0104-5
+   Camanho P., 2002, COMPOSITE MAT, V0, P42
+   Neto RMC, 2019, INT J ADHES ADHES, V90, P61, DOI 10.1016/j.ijadhadh.2019.02.002
+   Christensen RM, 1998, J ENG MATER-T ASME, V120, P110, DOI 10.1115/1.2806997
+   Damghani M, 2022, COMPOS PART B-ENG, V230, P0, DOI 10.1016/j.compositesb.2021.109542
+   Damghani M, 2021, THIN WALL STRUCT, V162, P0, DOI 10.1016/j.tws.2021.107543
+   DUGDALE DS, 1960, J MECH PHYS SOLIDS, V8, P100, DOI 10.1016/0022-5096(60)90013-2
+   Hayes-Griss JM, 2020, COMPOS PART A-APPL S, V131, P0, DOI 10.1016/j.compositesa.2020.105776
+   Ioffe S., 2015, ARXIV150203167 CS, V0, P0
+   Khan SM, 2019, ADV COMPOS MATER, V28, P409, DOI 10.1080/09243046.2019.1573448
+   Kim D, 2021, COMPOS PART B-ENG, V225, P0, DOI 10.1016/j.compositesb.2021.109314
+   Kuo YM, 2007, J REINF PLAST COMP, V26, P1671, DOI 10.1177/0731684407081450
+   Liu B, 2016, COMPOS PART A-APPL S, V88, P27, DOI 10.1016/j.compositesa.2016.05.011
+   Liu YD, 2018, COMPOS STRUCT, V202, P364, DOI 10.1016/j.compstruct.2018.02.017
+   Mohan J, 2013, COMPOS PART A-APPL S, V45, P23, DOI 10.1016/j.compositesa.2012.09.010
+   Nelson LJ, 2019, COMPOS PART A-APPL S, V118, P1, DOI 10.1016/j.compositesa.2018.12.009
+   Pain D, 2013, J NONDESTRUCT EVAL, V32, P215, DOI 10.1007/s10921-013-0174-z
+   Paturi UMR, 2022, ARCH COMPUT METHOD E, V29, P3109, DOI 10.1007/s11831-021-09691-7
+   Psarras S, 2020, INT J ADHES ADHES, V97, P0, DOI 10.1016/j.ijadhadh.2019.102495
+   Raturi A., 2022, SUSTAINABLE BIOPOLYM, V0, P265
+   Ridha M, 2011, COMPOS STRUCT, V93, P1239, DOI 10.1016/j.compstruct.2010.10.015
+   Sengodan GA, 2021, COMPOS PART B-ENG, V225, P0, DOI 10.1016/j.compositesb.2021.109282
+   Shishesaz M, 2020, J ADHESION, V96, P1053, DOI 10.1080/00218464.2018.1554483
+   Sonat E, 2021, COMPOS STRUCT, V258, P0, DOI 10.1016/j.compstruct.2020.113205
+   Tao CC, 2021, COMPOS PART B-ENG, V216, P0, DOI 10.1016/j.compositesb.2021.108816
+   Tao CC, 2016, COMPOS SCI TECHNOL, V128, P104, DOI 10.1016/j.compscitech.2016.03.016
+   Tserpes KI, 2014, J ADHES SCI TECHNOL, V28, P1865, DOI 10.1080/01694243.2014.925387
+   Turon A, 2007, ENG FRACT MECH, V74, P1665, DOI 10.1016/j.engfracmech.2006.08.025
+   Turon A, 2010, COMPOS STRUCT, V92, P1857, DOI 10.1016/j.compstruct.2010.01.012
+   Wang B, 2020, ADV MECH ENG, V12, P0, DOI 10.1177/1687814020913761
+   Wang C, 2017, COMPOS PART B-ENG, V109, P10, DOI 10.1016/j.compositesb.2016.10.015
+   Whittingham B, 2009, COMPOS PART A-APPL S, V40, P1419, DOI 10.1016/j.compositesa.2008.12.011
+   YE L, 1988, COMPOS SCI TECHNOL, V33, P257
+   Yoo JS, 2016, COMPOS STRUCT, V140, P417, DOI 10.1016/j.compstruct.2015.12.041
+   Yuan H, 2014, ENG FRACT MECH, V126, P1, DOI 10.1016/j.engfracmech.2014.04.019
+   Zhang RC, 2019, ARXIV, V0, P0
+   Zhang SY, 2021, MECH SYST SIGNAL PR, V147, P0, DOI 10.1016/j.ymssp.2020.107107
+NR 42
+TC 0
+Z9 0
+U1 3
+U2 3
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0263-8223
+EI 1879-1085
+J9 COMPOS STRUCT
+JI Compos. Struct.
+PD FEB 15
+PY 2023
+VL 306
+IS 
+BP 
+EP 
+DI 10.1016/j.compstruct.2022.116597
+EA DEC 2022
+PG 13
+WC Mechanics; Materials Science, Composites
+SC Mechanics; Materials Science
+GA 7P9VE
+UT WOS:000909045300001
+DA 2023-04-26
+ER
+
+PT J
+AU Nia, MZ
+   Moradi, M
+   Moradi, G
+   Taghizadeh-Mehrjardi, R
+AF Nia, Masoud Zolfaghari
+   Moradi, Mostafa
+   Moradi, Gholamhosein
+   Taghizadeh-Mehrjardi, Ruhollah
+TI Machine Learning Models for Prediction of Soil Properties in the Riparian Forests
+SO LAND
+LA English
+DT Article
+DE random forest; artificial neural networks; cubist; ancillary data; soil properties
+ID artificial neural-networks; regression
+AB Spatial variability of soil properties is a critical factor for the planning, management, and exploitation of soil resources. Thus, the use of different digital soil mapping models to provide accuracy plays a crucial role in providing soil physicochemical properties maps. Soil spatial variability in forest stands is not well-known in Iran. Meanwhile, riparian buffers are important for several services such as providing high water quality, nutrient recycling, and buffering agricultural production. Accordingly, in this research, 103 soil samples were taken using the Latin hypercubic method in the Maroon riparian forest of Behbahan and agricultural lands in the vicinity of the forest to evaluate the spatial variability of soil nitrogen, potassium, organic carbon, C:N ratio, pH, calcium carbonate, sand, silt, clay, and bulk density. Different machine learning models, including artificial neural networks, random forest, cubist regression tree, and k-nearest neighbor were used to compare the estimation of soil properties. Moreover, three main sources of spatial information including remote sensing images, digital elevation model, and climate parameters were used as ancillary data. Our results indicated that the random forest model has the best results in estimating soil pH, nitrogen, potassium, and bulk density. In contrast, the cubist regression tree indicated the best estimation for organic carbon, C:N ratio, phosphorous, and clay. Further, artificial neural networks showed the best estimation for calcium carbonate, sand, and silt contents. Our results revealed that geospatial information such as terrain parameters, climate parameters, and satellite images could be well used as ancillary data for the spatial mapping of soil physiochemical properties in riparian forests and agricultural lands. In conclusion, a specific machine learning model needs to be used for each soil property to provide highly accurate maps with less error.
+C1 [Nia, Masoud Zolfaghari; Moradi, Mostafa] Behbahan Khatam Alanbia Univ Technol, Fac Nat Resources, Dept Forestry, POB 63616-47189, Behbahan, Iran.
+   [Moradi, Gholamhosein] Yazd Univ, Sch Nat Resources & Desert Studies, POB 89168-69511, Yazd, Iran.
+   [Taghizadeh-Mehrjardi, Ruhollah] Ardakan Univ, Fac Agr & Nat Resources, POB 89518-95491, Yazd, Iran.
+   [Taghizadeh-Mehrjardi, Ruhollah] Univ Tubingen, Dept Geosci Soil Sci & Geomorphol, D-72076 Tubingen, Germany.
+C3 University of Yazd; Eberhard Karls University of Tubingen
+RP Moradi, M (corresponding author), Behbahan Khatam Alanbia Univ Technol, Fac Nat Resources, Dept Forestry, POB 63616-47189, Behbahan, Iran.; Taghizadeh-Mehrjardi, R (corresponding author), Ardakan Univ, Fac Agr & Nat Resources, POB 89518-95491, Yazd, Iran.; Taghizadeh-Mehrjardi, R (corresponding author), Univ Tubingen, Dept Geosci Soil Sci & Geomorphol, D-72076 Tubingen, Germany.
+EM m.moradi@bkatu.ac.ir; ruhollah.taghizadeh-mehrjardi@mnf.uni-tuebingen.de
+FU Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy-EXC [2064/1, 390727645, SFB 1070, 215859406]
+CR Adhikari K, 2019, SCI TOTAL ENVIRON, V667, P833, DOI 10.1016/j.scitotenv.2019.02.420
+   Alencar-Silva T., 2010, ISPRS TC 7 S 100 YEA, V0, P0
+   Appelhans T, 2015, SPAT STAT-NETH, V14, P91, DOI 10.1016/j.spasta.2015.05.008
+   Avazpoor Z, 2019, ARAB J GEOSCI, V12, P0, DOI 10.1007/s12517-019-4910-2
+   Behrens T, 2005, J PLANT NUTR SOIL SC, V168, P21, DOI 10.1002/jpln.200421414
+   Bittencourt HR, 2003, INT GEOSCI REMOTE SE, V0, P3751
+   Conrad O, 2015, GEOSCI MODEL DEV, V8, P1991, DOI 10.5194/gmd-8-1991-2015
+   Crooks EC, 2021, J AM WATER RESOUR AS, V57, P357, DOI 10.1111/1752-1688.12904
+   Cutler DR, 2007, ECOLOGY, V88, P2783, DOI 10.1890/07-0539.1
+   Dangal SRS, 2019, SOIL SYST, V3, P0, DOI 10.3390/soilsystems3010011
+   Ding JZ, 2016, GLOBAL CHANGE BIOL, V22, P2688, DOI 10.1111/gcb.13257
+   Dramsch JS, 2020, ADV GEOPHYS, V61, P1, DOI 10.1016/bs.agph.2020.08.002
+   Emadi M, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12142234
+   Fones GR, 2020, ENVIRON MONIT ASSESS, V192, P0, DOI 10.1007/s10661-020-8138-0
+   Silva SHG, 2017, CIENC AGROTEC, V41, P648, DOI 10.1590/1413-70542017416010317
+   Gunal H, 2015, SUSTAINABILITY-BASEL, V7, P2161, DOI 10.3390/su7022161
+   Gundogdu I.B., 2010, P INT C CART GIS NES, V0, P0
+   Hardoim PR, 2015, MICROBIOL MOL BIOL R, V79, P293, DOI 10.1128/MMBR.00050-14
+   Hengl T, 2007, GEODERMA, V140, P417, DOI 10.1016/j.geoderma.2007.04.022
+   Hengl T, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0125814
+   Hijmans RJ, 2005, INT J CLIMATOL, V25, P1965, DOI 10.1002/joc.1276
+   Ingole S.P., 2015, INT J CHEM STUD, V3, P29
+   Kalambukattu JG, 2018, ENVIRON EARTH SCI, V77, P0, DOI 10.1007/s12665-018-7367-9
+   Klemas V, 2014, J COASTAL RES, V30, P869, DOI 10.2112/JCOASTRES-D-14-00013.1
+   Klute A., 1982, METHODS SOIL ANAL, V2, P0
+   Kursa MB, 2010, FUND INFORM, V101, P271, DOI 10.3233/FI-2010-288
+   Lamsal S, 2009, PEDOSPHERE, V19, P434, DOI 10.1016/S1002-0160(09)60136-3
+   Liess M, 2016, PLOS ONE, V11, P0, DOI 10.1371/journal.pone.0153673
+   Liu Z, 2021, SCI REP-UK, V11, P0, DOI 10.1038/s41598-021-84191-z
+   Loveland TR, 2016, REMOTE SENS ENVIRON, V185, P1, DOI 10.1016/j.rse.2016.07.033
+   Mahmoudzadeh H, 2022, SOIL USE MANAGE, V38, P191, DOI 10.1111/sum.12753
+   Mahmoudzadeh H, 2020, GEODERMA REG, V21, P0, DOI 10.1016/j.geodrs.2020.e00260
+   Mansuy N, 2014, GEODERMA, V235, P59, DOI 10.1016/j.geoderma.2014.06.032
+   McBratney AB, 2003, GEODERMA, V117, P3, DOI 10.1016/S0016-7061(03)00223-4
+   McLean E. O., 1982, METHODS OF SOIL ANALYSIS. PART 2. CHEMICAL AND MICROBIOLOGICAL PROPERTIES, V0, P199
+   MERWIN HD, 1950, SOIL SCI SOC AM PRO, V15, P125
+   Minasny B, 2007, DEV SOIL SCI, V31, P153
+   Mirzaeitalarposhti R, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14235909
+   Moline AB, 2008, FRESHWATER BIOL, V53, P1012, DOI 10.1111/j.1365-2427.2008.01960.x
+   Moradi Behbahani S, 2017, J ARID LAND, V9, P837, DOI 10.1007/s40333-017-0028-0
+   Moradi M, 2017, IFOREST, V10, P585, DOI 10.3832/ifor2137-010
+   Munoz-Rojas M, 2016, ECOL INDIC, V63, P14, DOI 10.1016/j.ecolind.2015.11.038
+   Narumalani S, 1997, AQUAT BOT, V58, P393, DOI 10.1016/S0304-3770(97)00048-X
+   Nasab MF, 2021, EURASIAN SOIL SCI+, V54, P459, DOI 10.1134/S1064229321300013
+   OLSEN STERLING R., 1954, U S DEPT AGRIC CIRC, V939, P1
+   PRIHAR SS, 1971, GEODERMA, V5, P283, DOI 10.1016/0016-7061(71)90039-5
+   Quinlan J. R., 1992, PROCEEDINGS OF THE 5TH AUSTRALIAN JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE. AI 92, V0, P343
+   Rossel RAV, 2010, GEODERMA, V158, P46, DOI 10.1016/j.geoderma.2009.12.025
+   Rusnak M, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14112645
+   Stursova M, 2016, FEMS MICROBIOL ECOL, V92, P0, DOI 10.1093/femsec/fiw185
+   Sun H, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081248
+   Taghizadeh-mehrjardi R, 2016, EUR J SOIL SCI, V67, P707, DOI 10.1111/ejss.12382
+   Taghizadeh-Mehrjardi R., 2013, J ARID BIOME, V3, P27
+   Taghizadeh-Mehrjardi R, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14030472
+   Taghizadeh-Mehrjardi R, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13051025
+   Taghizadeh-Mehrjardi R, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071095
+   Tockner K, 2002, ENVIRON CONSERV, V29, P308, DOI 10.1017/S037689290200022X
+   Vendramini J.M.B., 2007, R. BRAS. ZOOTEC., V36, P139
+   Visschers R, 2007, GEODERMA, V139, P60, DOI 10.1016/j.geoderma.2007.01.008
+   Walkley A, 1934, SOIL SCI, V37, P29, DOI 10.1097/00010694-193401000-00003
+   Wasak K, 2015, SOLID EARTH, V6, P1103, DOI 10.5194/se-6-1103-2015
+   Were K, 2015, ECOL INDIC, V52, P394, DOI 10.1016/j.ecolind.2014.12.028
+   Yang LM, 2019, FORESTS, V10, P0, DOI 10.3390/f10060468
+   Zeraatpisheh M, 2022, CATENA, V208, P0, DOI 10.1016/j.catena.2021.105723
+   Zeraatpisheh M, 2019, GEODERMA, V338, P445, DOI 10.1016/j.geoderma.2018.09.006
+   Zhao X, 2019, BIOGEOSCIENCES, V16, P2857, DOI 10.5194/bg-16-2857-2019
+NR 66
+TC 0
+Z9 0
+U1 13
+U2 13
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-445X
+J9 LAND-BASEL
+JI Land
+PD JAN 15
+PY 2023
+VL 12
+IS 1
+BP 
+EP 
+DI 10.3390/land12010032
+PG 15
+WC Environmental Studies
+SC Environmental Sciences & Ecology
+GA 8C7JX
+UT WOS:000917781600001
+DA 2023-04-26
+ER

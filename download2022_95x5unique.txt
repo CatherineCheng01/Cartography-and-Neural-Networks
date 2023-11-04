@@ -1,0 +1,484 @@
+
+PT J
+AU Yun, XL
+   Zhang, YM
+   Yin, F
+   Liu, CL
+AF Yun, Xiao-Long
+   Zhang, Yan-Ming
+   Yin, Fei
+   Liu, Cheng-Lin
+TI Instance GNN: A Learning Framework for Joint Symbol Segmentation and Recognition in Online Handwritten Diagrams
+SO IEEE TRANSACTIONS ON MULTIMEDIA
+LA English
+DT Article
+DE Handwriting recognition; Task analysis; Grammar; Semantics; Image segmentation; Trajectory; Text recognition; Online handwritten diagram recognition; symbol segmentation; symbol recognition; freehand sketch analysis; graph neural networks
+ID classification
+AB Online handwritten diagram recognition (OHDR) has attracted considerable attention for its potential applications in many areas, but it is a challenging task due to the complex 2D structure, writing style variation, and lack of annotated data. Existing OHDR methods often have limitations in modeling and learning complex contextual relationships. To overcome these challenges, we propose an OHDR method based on graph neural networks (GNNs) in this paper. In particular, we formulate symbol segmentation and symbol recognition as node clustering and node classification problems on stroke graphs and solve the problems jointly under a unified learning framework with a GNN model. This GNN model is denoted as Instance GNN since it gives the symbol instance label as well as the semantic label. Extensive experiments on two flowchart datasets and a finite automata dataset show that our method consistently outperforms previous methods with large margins and achieves state-of-the-art performance. In addition, we release a large-scale annotated online handwritten flowchart dataset, CASIA-OHFC, and provide initial experimental results as a baseline.
+C1 [Yun, Xiao-Long] Univ Chinese Acad Sci, Sch Artificial Intelligence, Beijing 100049, Peoples R China.
+   [Yun, Xiao-Long; Zhang, Yan-Ming; Yin, Fei; Liu, Cheng-Lin] Chinese Acad Sci, Inst Automat, Natl Lab Pattern Recognit, Beijing 100190, Peoples R China.
+   [Liu, Cheng-Lin] Univ Chinese Acad Sci, Sch Artificial Intelligence, Beijing 100049, Peoples R China.
+   [Liu, Cheng-Lin] Chinese Acad Sci, Ctr Excellence Brain Sci & Intelligence Technol, Beijing 100190, Peoples R China.
+C3 Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Chinese Academy of Sciences; Institute of Automation, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; Chinese Academy of Sciences
+RP Liu, CL (corresponding author), Chinese Acad Sci, Inst Automat, Natl Lab Pattern Recognit, Beijing 100190, Peoples R China.; Liu, CL (corresponding author), Univ Chinese Acad Sci, Sch Artificial Intelligence, Beijing 100049, Peoples R China.
+EM xiaolong.yun@nlpr.ia.ac.cn; ymzhang@nlpr.ia.ac.cn; fyin@nlpr.ia.ac.cn; liucl@nlpr.ia.ac.cn
+FU Major Project for New Generation of AI [2018AAA0100400]; National Natural Science Foundation of China (NSFC) [61773376, 61721004]
+CR Alvaro F, 2016, PATTERN RECOGN, V51, P135, DOI 10.1016/j.patcog.2015.09.013
+   Alvaro F, 2014, PATTERN RECOGN LETT, V35, P58, DOI 10.1016/j.patrec.2012.09.023
+   Le AD, 2017, PROC INT CONF DOC, V0, PP1056, DOI 10.1109/ICDAR.2017.175
+   Awal A.-M., 2011, P SPIE INT SOC OPT E, V0, P0
+   Battaglia P., 2016, NIPS, V0, P4502
+   Bresler M, 2016, INT CONF FRONT HAND, V0, PP48, DOI 10.1109/ICFHR.2016.0022
+   Bresler M, 2014, INT CONF FRONT HAND, V0, PP563, DOI 10.1109/ICFHR.2014.100
+   Bresler M, 2016, INT J DOC ANAL RECOG, V19, P253, DOI 10.1007/s10032-016-0269-z
+   Bresler M, 2015, IEEE WINT CONF APPL, V0, PP610, DOI 10.1109/WACV.2015.87
+   Bresler M, 2013, PROC INT CONF DOC, V0, PP1215, DOI 10.1109/ICDAR.2013.246
+   Carton C, 2013, PROC INT CONF DOC, V0, PP1210, DOI 10.1109/ICDAR.2013.245
+   Costagliola G, 2014, J VISUAL LANG COMPUT, V25, P955, DOI 10.1016/j.jvlc.2014.10.021
+   Couasnon B, 2006, INT J DOC ANAL RECOG, V8, P111, DOI 10.1007/s10032-005-0148-5
+   De Brabandere Bert, 2017, ARXIV170802551, V0, P0
+   Delaye A, 2014, PATTERN RECOGN, V47, P959, DOI 10.1016/j.patcog.2013.04.017
+   Deng YT, 2017, PR MACH LEARN RES, V70, P0
+   Eigen D, 2015, IEEE I CONF COMP VIS, V0, PP2650, DOI 10.1109/ICCV.2015.304
+   Fathi A, 2017, PROC IEEE C COMPUT V, V0, P1
+   Feng GH, 2009, PATTERN RECOGN, V42, P3215, DOI 10.1016/j.patcog.2009.01.031
+   FUKUNAGA K, 1975, IEEE T INFORM THEORY, V21, P32, DOI 10.1109/TIT.1975.1055330
+   Gennari L, 2005, COMPUT GRAPH-UK, V29, P547, DOI 10.1016/j.cag.2005.05.007
+   Gervais P., 2020, ARXIV200209303V2, V0, P1
+   Glorot X., 2010, P 13 INT C ART INT S, V0, P249
+   Gong LY, 2019, PROC CVPR IEEE, V0, PP9203, DOI 10.1109/CVPR.2019.00943
+   Ha David, 2018, INT C LEARN REPR, V0, P0
+   Hamilton WL, 2017, NIPS, V0, P0, DOI DOI 10.5555/3294771.3294869
+   Hamrick J. B, 2018, PROC ANN M COGN SCI, V0, P0
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Huang Z, 2014, ACM T GRAPHIC, V33, P0, DOI 10.1145/2661228.2661280
+   Julca-Aguilar F, 2020, INT J DOC ANAL RECOG, V23, P143, DOI 10.1007/s10032-019-00349-6
+   Julca-Aguilar FD, 2018, 2018 13TH IAPR INTERNATIONAL WORKSHOP ON DOCUMENT ANALYSIS SYSTEMS (DAS), V0, PP151, DOI 10.1109/DAS.2018.79
+   Jun-Yu Ye, 2019, 2019 INTERNATIONAL CONFERENCE ON DOCUMENT ANALYSIS AND RECOGNITION (ICDAR). PROCEEDINGS, V0, PP993, DOI 10.1109/ICDAR.2019.00163
+   Kaiyrbekov K, 2020, IEEE COMPUT GRAPH, V40, P112, DOI 10.1109/MCG.2019.2943333
+   Kingma DP, 2015, 14126980 ARXIV, V0, P1
+   Kipf T. N., 2017, ICLR, V0, P0
+   Lahoud J, 2019, IEEE I CONF COMP VIS, V0, PP9255, DOI 10.1109/ICCV.2019.00935
+   Lemaitre A., 2011, GRAPHICS RECOGNITION, V7423, P89, DOI 10.1007/978-3-642-36824-0\_9
+   Maas A. L., 2013, P 30 INT C MACH LEAR, V30, P1
+   MacLean S, 2013, INT J DOC ANAL RECOG, V16, P139, DOI 10.1007/s10032-012-0184-x
+   Miyao H, 2012, INT CONF FRONT HAND, V0, PP83, DOI 10.1109/ICFHR.2012.250
+   Paszke A, 2019, ADV NEUR IN, V32, P0
+   Payer C, 2018, LECT NOTES COMPUT SC, V11071, P3, DOI 10.1007/978-3-030-00934-2_1
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Sarvadevabhatla RK, 2017, PROCEEDINGS OF THE 2017 ACM MULTIMEDIA CONFERENCE (MM17), V0, PP10, DOI 10.1145/3123266.3123270
+   Schafer B, 2019, PROC INT CONF DOC, V0, PP7, DOI 10.1109/ICDARW.2019.00007
+   Schneider RG, 2016, ACM T GRAPHIC, V35, P0, DOI 10.1145/2898351
+   Van Phan T, 2016, PATTERN RECOGN, V51, P112, DOI 10.1016/j.patcog.2015.07.012
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+   Velickovic P, 2018, INT C LEARN REPR, V0, P0
+   Wang CC, 2017, INT J DOC ANAL RECOG, V20, P123, DOI 10.1007/s10032-017-0284-8
+   Wang CC, 2016, INT CONF FRONT HAND, V0, PP252, DOI 10.1109/ICFHR.2016.0056
+   Wang F, 2019, IEEE INT CON MULTI, V0, PP1654, DOI 10.1109/ICME.2019.00285
+   Wang QF, 2012, IEEE T PATTERN ANAL, V34, P1469, DOI 10.1109/TPAMI.2011.264
+   Wu J, 2015, PROCEEDINGS OF THE TWENTY-FOURTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE (IJCAI), V0, P1200
+   Wu JW, 2020, INT J COMPUT VISION, V128, P2386, DOI 10.1007/s11263-020-01291-5
+   Xu DF, 2017, PROC CVPR IEEE, V0, PP3097, DOI 10.1109/CVPR.2017.330
+   Xu PY, 2020, ANN HEMATOL, V99, P1205, DOI 10.1007/s00277-020-04019-0
+   Yang L., 2021, ACM T GRAPHIC, V40, P1
+   Yao L, 2019, AAAI, V33, P7370, DOI 10.1609/AAAI.V33I01.33017370
+   Ye JY, 2016, INT C PATT RECOG, V0, PP3264, DOI 10.1109/ICPR.2016.7900138
+   Yuan ZM, 2008, LECT NOTES COMPUT SC, V5328, P55
+   Yun XL, 2019, LECT NOTES COMPUT SC, V11901, P232, DOI 10.1007/978-3-030-34120-6_19
+   Zanibbi R, 2012, INT J DOC ANAL RECOG, V15, P331, DOI 10.1007/s10032-011-0174-4
+   Zhang JS, 2017, PROC INT CONF DOC, V0, PP902, DOI 10.1109/ICDAR.2017.152
+   Zhang J, 2019, IEEE T MULTIMEDIA, V21, P221, DOI 10.1109/TMM.2018.2844689
+   Zhang JS, 2017, PATTERN RECOGN, V71, P196, DOI 10.1016/j.patcog.2017.06.017
+   Zhang XL, 2019, IMAGE VISION COMPUT, V89, P67, DOI 10.1016/j.imavis.2019.06.010
+   Zhou J, 2018, ARTIF CELL NANOMED B, V46, PS1016, DOI 10.1080/21691401.2018.1442841
+   Zhu XY, 2020, MULTIMED TOOLS APPL, V79, P1585, DOI 10.1007/s11042-019-08158-z
+NR 69
+TC 3
+Z9 3
+U1 2
+U2 6
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1520-9210
+EI 1941-0077
+J9 IEEE T MULTIMEDIA
+JI IEEE Trans. Multimedia
+PD JUN 15
+PY 2022
+VL 24
+IS 
+BP 2580
+EP 2594
+DI 10.1109/TMM.2021.3087000
+PG 15
+WC Computer Science, Information Systems; Computer Science, Software Engineering; Telecommunications
+SC Computer Science; Telecommunications
+GA 1D5KQ
+UT WOS:000793839600026
+DA 2023-04-26
+ER
+
+PT J
+AU Li, CL
+   Lin, F
+   Aizezi, A
+   Zhang, Z
+   Song, YQ
+   Sun, N
+AF Li, Cailin
+   Lin, Fan
+   Aizezi, Aziguli
+   Zhang, Zeao
+   Song, Yingqiang
+   Sun, Na
+TI Identification and Mapping of High Nature Value Farmland in the Yellow River Delta Using Landsat-8 Multispectral Data
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE high nature value; farmland; land cover; Yellow River Delta; remote sensing
+ID ecosystem services; land; biodiversity; grassland; pollution; system; health; scale
+AB The development of high nature value farmland (HNVf) can effectively improve the problems of biodiversity reduction, non-point source pollution and carbon loss in intensive farmland. To this end, we developed a set of general indicators based on Landsat 8 OLI imagery, including land cover (LC), normalized difference vegetation index (NDVI), Shannon diversity (SH) and Simpson's index (SI). Combined with a Kohonen neural network (KNN), we assigned weights and developed the first potential HNVf map of the Yellow River Delta in China. The results showed that the four indicators were very effective for the expression of HNVf characteristics in the study area, and that SH and SI, in particular, could reflect the potential characteristics of HNVf at the edge of intensive farmland. LC, NDVI, SH and SI were weighted as 0.45, 0.25, 0.15 and 0.15, respectively. It was found that the potential HNVf type 2 (i.e., low-intensity agriculture, and natural and structural elements such as shrubs, woodlands and small rivers) in the study area was concentrated at the edges of intensive farmland, the transition zones from farmland to rivers and the estuary wetland areas of northern and eastern rivers. LC played a leading role in identifying HNVf. Based on six randomly selected real-world verification data from Map World, it was found that the accuracy of the validation set for HNVf type 2 was 83.33%, which exhibited the good development potential of HNVf in the study area. This is the first potential HNVf type 2 map of the Yellow River Delta in China and could provide a great deal of potential guidance for the development and protection of farmland biodiversity and regional carbon sequestration.
+C1 [Li, Cailin; Lin, Fan; Aizezi, Aziguli; Zhang, Zeao; Song, Yingqiang; Sun, Na] Shandong Univ Technol, Sch Civil & Architectural Engn, Zibo 255000, Peoples R China.
+   [Li, Cailin] Henan Univ, Key Lab Geospatial Technol Middle & Lower Yellow R, Minist Educ, Kaifeng 475001, Peoples R China.
+C3 Shandong University of Technology; Henan University
+RP Song, YQ (corresponding author), Shandong Univ Technol, Sch Civil & Architectural Engn, Zibo 255000, Peoples R China.
+EM songyingqiang@sdut.edu.cn
+FU Shandong Provincial Natural Science Foundation [ZR2020QD013, ZR2022MD039]; Open Fund of Key Laboratory of Geospatial Technology for the Middle and Lower Yellow River Regions (Henan University); Ministry of Education [GTYR202004]; Key Laboratory Open Foundation for Geo-Environmental Monitoring of the Great Bay Area (Shenzhen University); Ministry of Natural Resources of the People's Republic of China [SZU51029202003]
+CR Acebes P, 2013, P ICAAM INT C MONTAD, V0, P0
+   Andersen E, 2004, DEV HIGH NATURE VALU, V0, P9
+   [Anonymous], 1988, ECOLOGICAL DIVERSITY, V0, P0
+   Bartel A., 2011, HIGH NATURE VALUE FA, V0, P0
+   Beaufoy G., 1994, NATURE FARMING LOW I, V0, P68
+   Bonato M, 2019, LAND USE POLICY, V83, P488, DOI 10.1016/j.landusepol.2019.02.034
+   Brunbjerg AK, 2016, ECOL INDIC, V61, P274, DOI 10.1016/j.ecolind.2015.09.027
+   Campedelli T, 2018, J NAT CONSERV, V46, P66, DOI 10.1016/j.jnc.2018.09.002
+   Du HQ, 2021, SCI TOTAL ENVIRON, V798, P0, DOI 10.1016/j.scitotenv.2021.149189
+   EEA, 2012, UPD HIGH NA IN PRESS, V0, P62
+   EEC, 1992, OFF J L, V46, P0001
+   Flandroy L, 2018, SCI TOTAL ENVIRON, V627, P1018, DOI 10.1016/j.scitotenv.2018.01.288
+   Gasmi A., 2017, REV FRAN AISE PHOTOG, V215, P43, DOI 10.52638/rfpt.2017.344
+   He KL, 2017, ENVIRON SCI POLLUT R, V24, P9387, DOI 10.1007/s11356-017-8548-x
+   Hemanth DJ, 2018, COMPUT ELECTR ENG, V68, P170, DOI 10.1016/j.compeleceng.2018.04.006
+   Hu H, 2014, SUSTAINABILITY-BASEL, V6, P5820, DOI 10.3390/su6095820
+   Hu JN, 2022, J HAZARD MATER, V424, P0, DOI 10.1016/j.jhazmat.2021.127283
+   Huang C, 2002, INT J REMOTE SENS, V23, P725, DOI 10.1080/01431160110040323
+   IEEP, 2007, GUID DOC MEMB STAT A, V0, P0
+   Jiang PH, 2020, RESOUR CONSERV RECY, V156, P0, DOI 10.1016/j.resconrec.2020.104724
+   Keenleyside C, 2014, I EUR ENV POLICY LON, V10, P91086
+   Kikas T, 2018, ECOL INDIC, V94, P87, DOI 10.1016/j.ecolind.2017.02.008
+   KOHONEN T, 1991, ARTIFICIAL NEURAL NETWORKS, VOLS 1 AND 2, P981
+   Liu MK, 2021, SCI TOTAL ENVIRON, V799, P0, DOI 10.1016/j.scitotenv.2021.149459
+   Lo Papa G, 2011, GEOMORPHOLOGY, V135, P332, DOI 10.1016/j.geomorph.2011.02.015
+   Lomba A, 2015, ECOL EVOL, V5, P1031, DOI 10.1002/ece3.1415
+   Lomba A, 2014, J ENVIRON MANAGE, V143, P140, DOI 10.1016/j.jenvman.2014.04.029
+   Lorel C, 2019, AGR ECOSYST ENVIRON, V283, P0, DOI 10.1016/j.agee.2019.06.004
+   Luo Y, 2019, SCI TOTAL ENVIRON, V651, P2546, DOI 10.1016/j.scitotenv.2018.10.116
+   Matin S, 2020, ECOL INDIC, V108, P0, DOI 10.1016/j.ecolind.2019.105700
+   Maxwell D, 2017, GEODERMA, V305, P417, DOI 10.1016/j.geoderma.2017.05.049
+   Muller D, 2013, AGR SYST, V117, P66, DOI 10.1016/j.agsy.2012.12.010
+   Nitsch H, 2012, LAND USE POLICY, V29, P440, DOI 10.1016/j.landusepol.2011.09.001
+   Ouyang Z, 2016, SCIENCE, V352, P1455, DOI 10.1126/science.aaf2295
+   Pan Y, 2020, KNOWL-BASED SYST, V209, P0, DOI 10.1016/j.knosys.2020.106482
+   Paracchini M.L., 2008, HIGH NATURE VALUE FA, V0, P23480
+   Peppiette Z.E.N., 2011, 122 EAAE SEM EV BAS, V0, P0
+   Ren SY, 2022, SCI TOTAL ENVIRON, V806, P0, DOI 10.1016/j.scitotenv.2021.150322
+   Ribeiro PF, 2014, AGR ECOSYST ENVIRON, V183, P138, DOI 10.1016/j.agee.2013.11.002
+   ROUSE JW, 1974, MONITORING VERNAL AD, V0, P0
+   Silva ED, 2019, FOOD CHEM, V273, P9, DOI 10.1016/j.foodchem.2018.06.021
+   Song XD, 2022, NATL SCI REV, V9, P0, DOI 10.1093/nsr/nwab120
+   Souza LC, 2021, KNOWL-BASED SYST, V224, P0, DOI 10.1016/j.knosys.2021.107091
+   Steinmann HH, 2013, J PLANT DIS PROTECT, V120, P85, DOI 10.1007/BF03356458
+   Stenzel S, 2017, ECOL INDIC, V74, P28, DOI 10.1016/j.ecolind.2016.11.005
+   Sullivan CA, 2017, LAND USE POLICY, V67, P401, DOI 10.1016/j.landusepol.2017.04.031
+   Sullivan CA, 2013, BIOL ENVIRON, V113B, P187, DOI 10.3318/BIOE.2013.14
+   Wang H, 2022, LAND USE POLICY, V114, P0, DOI 10.1016/j.landusepol.2022.105991
+   Wolski GJ, 2020, ECOL INDIC, V113, P0, DOI 10.1016/j.ecolind.2020.106160
+   Wu XT, 2019, SCI TOTAL ENVIRON, V678, P565, DOI 10.1016/j.scitotenv.2019.05.022
+   Xu DY, 2020, LAND USE POLICY, V99, P0, DOI 10.1016/j.landusepol.2020.104871
+   Yue SD, 2021, SCI TOTAL ENVIRON, V793, P0, DOI 10.1016/j.scitotenv.2021.148398
+   Zaric NM, 2018, SCI TOTAL ENVIRON, V642, P56, DOI 10.1016/j.scitotenv.2018.06.040
+   Zhang Q, 2021, ENVIRON POLLUT, V276, P0, DOI 10.1016/j.envpol.2021.116729
+   Zhang XT, 2022, SCI TOTAL ENVIRON, V814, P0, DOI 10.1016/j.scitotenv.2021.151942
+   Zhu GY, 2021, ECOL INDIC, V133, P0, DOI 10.1016/j.ecolind.2021.108443
+NR 56
+TC 0
+Z9 0
+U1 5
+U2 5
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD DEC 15
+PY 2022
+VL 11
+IS 12
+BP 
+EP 
+DI 10.3390/ijgi11120604
+PG 18
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 7G7WP
+UT WOS:000902729700001
+DA 2023-04-26
+ER
+
+PT J
+AU Onalan, AG
+   Kopru, B
+   Coleri, S
+AF Onalan, Aysun Gurur
+   Kopru, Berkay
+   Coleri, Sinem
+TI Deep Learning based Minimum Length Scheduling for Half Duplex Wireless Powered Communication Networks
+SO 2022 IEEE 33RD ANNUAL INTERNATIONAL SYMPOSIUM ON PERSONAL, INDOOR AND MOBILE RADIO COMMUNICATIONS (IEEE PIMRC)
+LA English
+DT Proceedings Paper
+DE scheduling; DNN; RF energy harvesting
+AB Minimum length scheduling is used to ensure the strict delay requirements of time-critical applications in wireless powered communications networks (WPCNs). The previous optimal and sub-optimal solutions of the problem suffer from the run-time complexity of the iterative algorithms, which makes real-time applications unpractical. This paper proposes a deep learning based framework for a low-complexity solution to the minimum length scheduling problem in half-duplex WPCNs. The objective of the problem is to minimize the duration of the schedule for energy harvesting (EH) and information transmission (IT), subject to the data demand, energy causality, and maximum transmit power constraints. Multi-input multi-output feed-forward deep neural network (DNN) architecture is considered, where the inputs are channel state information and two parameters derived from the optimality conditions of the problem; and outputs are the transmit powers, EH and IT lengths. To ensure the feasibility of the DNN outputs, we design a final layer which maps the estimated transmit powers to the feasible EH and IT lengths. The DNN is trained offline with both supervised and unsupervised techniques. Simulation results indicate that the proposed DNN-based approaches are up to 8.5 times faster than the benchmark iterative algorithms. These approaches also outperform benchmark sub-optimal algorithms in terms of accuracy with only 0.12% optimality gap and robustness against varying network conditions.
+C1 [Onalan, Aysun Gurur; Kopru, Berkay; Coleri, Sinem] Koc Univ, Dept Elect & Elect Engn, Istanbul, Turkey.
+C3 Koc University
+RP Onalan, AG (corresponding author), Koc Univ, Dept Elect & Elect Engn, Istanbul, Turkey.
+EM aonalan17@ku.edu.tr; bkopru17@ku.edu.tr; scoleri@ku.edu.tr
+FU Ford Otosan
+CR Chi KK, 2017, IEEE INTERNET THINGS, V4, P1671, DOI 10.1109/JIOT.2017.2689777
+   Choi KW, 2018, IEEE T WIREL COMMUN, V17, P430, DOI 10.1109/TWC.2017.2767579
+   Elsayed M, 2019, IEEE VEH TECHNOL MAG, V14, P70, DOI 10.1109/MVT.2019.2919236
+   Hameed I, 2021, IEEE ACCESS, V9, P142795, DOI 10.1109/ACCESS.2021.3121724
+   Iqbal MS, 2022, IEEE T WIREL COMMUN, V21, P135, DOI 10.1109/TWC.2021.3094138
+   Iqbal MS, 2020, IEEE T WIREL COMMUN, V19, P5993, DOI 10.1109/TWC.2020.2999130
+   Ju H, 2014, IEEE T WIREL COMMUN, V13, P418, DOI 10.1109/TWC.2013.112513.130760
+   Kang X, 2015, IEEE T WIREL COMMUN, V14, P5539, DOI 10.1109/TWC.2015.2439673
+   Kaus M, 2010, ELECTROCHIM ACTA, V55, P7516, DOI 10.1016/j.electacta.2010.01.002
+   Khan N.M., 2021, 2021 IEEE GLOBECOM W, V0, P1
+   Lee W, 2021, IEEE T WIREL COMMUN, V20, P5018, DOI 10.1109/TWC.2021.3065029
+   Liu JX, 2017, IEEE ACCESS, V5, P9348, DOI 10.1109/ACCESS.2017.2703847
+   Onalan AG, 2020, IEEE T WIREL COMMUN, V19, P7181, DOI 10.1109/TWC.2020.3008990
+   Salik E. D., 2019, 2019 IEEE 30 ANN INT, V0, P1
+   Zappone A, 2019, IEEE VEH TECHNOL MAG, V14, P60, DOI 10.1109/MVT.2019.2921627
+   Zheng T, 2016, IEEE SENS J, V16, P2127, DOI 10.1109/JSEN.2015.2504948
+NR 16
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2166-9570
+EI 
+J9 UEEE INT SYM PERS IN
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 939
+EP 944
+DI 10.1109/PIMRC54779.2022.9977955
+PG 6
+WC Engineering, Electrical & Electronic; Telecommunications
+SC Engineering; Telecommunications
+GA BU6WT
+UT WOS:000930733200161
+DA 2023-04-26
+ER
+
+PT J
+AU Sismanidou, A
+   Tarradellas, J
+   Suau-Sanchez, P
+AF Sismanidou, Athina
+   Tarradellas, Joan
+   Suau-Sanchez, Pere
+TI The uneven geography of US air traffic delays: Quantifying the impact of connecting passengers on delay propagation
+SO JOURNAL OF TRANSPORT GEOGRAPHY
+LA English
+DT Article
+DE Airport congestion; Network congestion; Flight delay propagation; Carrier delay; Delay prediction; Intra-airport delay; Machine learning algorithms
+ID airport congestion; neural-networks; transport; operations
+AB Sustained airport congestion periods translate into delays, especially in hub-and-spoke networks in which delay propagation is more evident. We examine the impact of connecting passenger arrival delays on network delay propagation by using passenger level data combined with flight delay data that allow us to analyse the correlation between delayed incoming flights and departure delays at the 21 U.S. airports with most delays, in July 2018. Results show that correlation between daily arrival delays and daily carrier induced departure delays are statistically significant only for flights carrying high proportions of connecting passengers. Correlation values are also higher for short-to-moderate arrival delays. In addition, a Neural Network model was trained for six major airports to build a delay prediction model and map the potential delay propagation. The results of the propagation scenarios suggest that the presence of a unique dominant carrier at an airport translates into a stronger correlation between arrival and carrier delays than that at airports where different carriers compete for connecting passengers. Furthermore, airline hubs located near the areas of the network with more traffic density, independently of the hub's volume of traffic, are more likely to propagate the delay than hubs located in the periphery. The results of this study can be relevant for airline, airport, and traffic control policies aimed at mitigating airport and network congestion.
+C1 [Sismanidou, Athina; Suau-Sanchez, Pere] Univ Oberta Catalunya, Fac Econ & Business, Av Tibidabo 39-43, Barcelona 08035, Spain.
+   [Suau-Sanchez, Pere] Cranfield Univ, Ctr Air Transport Management, Cranfield MK43 0TR, Beds, England.
+   [Tarradellas, Joan] EADA Business Sch, Carrer Arago 204, Barcelona 08011, Spain.
+C3 UOC Universitat Oberta de Catalunya; Cranfield University; EADA Business School
+RP Sismanidou, A (corresponding author), Univ Oberta Catalunya, Fac Econ & Business, Av Tibidabo 39-43, Barcelona 08035, Spain.
+EM asismanidou@uoc.edu
+CR Barnhart C, 2014, OPER RES, V62, P580, DOI 10.1287/opre.2014.1268
+   Baspinar A, 2017, TRANSP RES PROC, V22, P499, DOI 10.1016/j.trpro.2017.03.068
+   Bauer LB, 2020, J AIR TRANSP MANAG, V89, P0, DOI 10.1016/j.jairtraman.2020.101901
+   Baumgarten P, 2014, TRANSPORT RES E-LOG, V66, P103, DOI 10.1016/j.tre.2014.03.007
+   Beatty Roger., 1999, AIR TRAFFIC CONTROL, V7, P259, DOI 10.2514/ATCQ.7.4.259
+   Beck MW, 2018, J STAT SOFTW, V85, P0, DOI 10.18637/jss.v085.i11
+   Bendinelli WE, 2016, TRANSPORT RES A-POL, V85, P39, DOI 10.1016/j.tra.2016.01.001
+   BERRY ST, 1990, AM ECON REV, V80, P394
+   Bowen J.T, 2010, EC GEOGR AIR TRANSP, V0, P0, DOI DOI 10.4324/9780203857359
+   Bratu S., 2005, AIR TRAFF CONTROL Q, V0, P0, DOI DOI 10.2514/atcq.13.1.1
+   Brueckner JK, 2008, J URBAN ECON, V64, P288, DOI 10.1016/j.jue.2008.02.002
+   Bureau of Transportation Statistics (BTS), 2019, REP CARR ON TIM PERF, V0, P0
+   Castaing J, 2016, COMPUT OPER RES, V65, P189, DOI 10.1016/j.cor.2014.02.011
+   COHEN J, 1988, APPL PSYCH MEAS, V12, P425, DOI 10.1177/014662168801200410
+   Delgado L., 2016, 6 SESAR INN DAYS 25, V0, P0
+   Deshpande V, 2012, M&SOM-MANUF SERV OP, V14, P423, DOI 10.1287/msom.1120.0379
+   Du WB, 2018, TRANSPORT RES E-LOG, V118, P466, DOI 10.1016/j.tre.2018.08.014
+   EVANS WN, 1993, REV ECON STAT, V75, P66, DOI 10.2307/2109627
+   Fageda X, 2015, ECON LETT, V128, P90, DOI 10.1016/j.econlet.2015.01.023
+   Flores-Fillol R, 2010, TRANSPORT RES B-METH, V44, P358, DOI 10.1016/j.trb.2009.10.004
+   Fuellhart K, 2016, J MAPS, V12, P1253, DOI 10.1080/17445647.2016.1152917
+   Garson G. D., 1991, SOCIAL SCIENCE COMPUTER REVIEW, V9, P399, DOI 10.1177/089443939100900304
+   Gillen D, 2016, TRANSPORT RES A-POL, V94, P495, DOI 10.1016/j.tra.2016.10.011
+   GOH ATC, 1995, ARTIF INTELL ENG, V9, P143, DOI 10.1016/0954-1810(94)00011-S
+   Gui G, 2020, IEEE T VEH TECHNOL, V69, P140, DOI 10.1109/TVT.2019.2954094
+   Hemphill JF, 2003, AM PSYCHOL, V58, P78, DOI 10.1037/0003-066X.58.1.78
+   Jacquillat A, 2015, OPER RES, V63, P1390, DOI 10.1287/opre.2015.1428
+   Kafle N, 2016, TRANSPORT RES B-METH, V93, P520, DOI 10.1016/j.trb.2016.08.012
+   Knowles RD, 2006, J TRANSP GEOGR, V14, P407, DOI 10.1016/j.jtrangeo.2006.07.001
+   Lambelho M, 2020, J AIR TRANSP MANAG, V82, P0, DOI 10.1016/j.jairtraman.2019.101737
+   Lan S, 2006, TRANSPORT SCI, V40, P15, DOI 10.1287/trsc.1050.0134
+   Lasserre F., 2004, J TRANSP GEOGR, V12, P73, DOI 10.1016/S0966-6923(03)00027-9
+   Li SM, 2020, J ADV TRANSPORT, V2020, P0, DOI 10.1155/2020/8816615
+   Maharjan B, 2011, J AIR TRANSP MANAG, V17, P256, DOI 10.1016/j.jairtraman.2011.02.012
+   Mayer C, 2003, AM ECON REV, V93, P1194, DOI 10.1257/000282803769206269
+   Mazzarisi P, 2020, J AIR TRANSP MANAG, V85, P0, DOI 10.1016/j.jairtraman.2020.101801
+   Meyer GJ, 2001, AM PSYCHOL, V56, P128, DOI 10.1037//0003-066X.56.2.128
+   Miranda VAP, 2018, TRANSPORT RES A-POL, V116, P201, DOI 10.1016/j.tra.2018.06.008
+   OConnor K, 2012, J TRANSP GEOGR, V22, P46, DOI 10.1016/j.jtrangeo.2011.10.007
+   OAG, 2018, OAG REF COUNTR REG C, V0, P0
+   Olden JD, 2004, ECOL MODEL, V178, P389, DOI 10.1016/j.ecolmodel.2004.03.013
+   Oliveira AVM, 2016, J TRANSP GEOGR, V50, P33, DOI 10.1016/j.jtrangeo.2015.01.001
+   Pels E, 2004, J URBAN ECON, V55, P257, DOI 10.1016/j.jue.2003.10.003
+   Pyrgiotis N, 2013, TRANSPORT RES C-EMER, V27, P60, DOI 10.1016/j.trc.2011.05.017
+   Rupp NG, 2009, J URBAN ECON, V65, P24, DOI 10.1016/j.jue.2008.07.003
+   Santos G, 2010, TRANSPORT RES B-METH, V44, P392, DOI 10.1016/j.trb.2009.10.007
+   Simaiakis I, 2014, TRANSPORT RES A-POL, V66, P251, DOI 10.1016/j.tra.2014.05.014
+   Sismanidou A, 2013, J TRANSP GEOGR, V26, P108, DOI 10.1016/j.jtrangeo.2012.07.010
+   Suau-Sanchez P, 2020, J TRANSP GEOGR, V86, P0, DOI 10.1016/j.jtrangeo.2020.102749
+   Suau-Sanchez P, 2016, TIJDSCHR ECON SOC GE, V107, P48, DOI 10.1111/tesg.12133
+   Suau-Sanchez P, 2015, TRANSPORT POLICY, V37, P157, DOI 10.1016/j.tranpol.2014.11.003
+   Swaroop P, 2012, TRANSPORT RES B-METH, V46, P1239, DOI 10.1016/j.trb.2012.03.002
+   Voltes-Dorta A, 2017, TOURISM MANAGE, V59, P449, DOI 10.1016/j.tourman.2016.09.001
+   Wu CL, 2019, TRANSPORT RES E-LOG, V122, P62, DOI 10.1016/j.tre.2018.11.004
+   Yang HJ, 2011, J REGUL ECON, V39, P293, DOI 10.1007/s11149-010-9142-z
+   Yao BZ, 2014, TRANSPORT RES C-EMER, V43, P233, DOI 10.1016/j.trc.2013.12.005
+   Yeniay O., 2002, HACET J MATH STAT, V31, P99
+   Yu B, 2019, TRANSPORT RES E-LOG, V125, P203, DOI 10.1016/j.tre.2019.03.013
+NR 58
+TC 2
+Z9 2
+U1 6
+U2 11
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0966-6923
+EI 1873-1236
+J9 J TRANSP GEOGR
+JI J. Transp. Geogr.
+PD JAN 15
+PY 2022
+VL 98
+IS 
+BP 
+EP 
+DI 10.1016/j.jtrangeo.2021.103260
+PG 12
+WC Economics; Geography; Transportation
+SC Business & Economics; Geography; Transportation
+GA 0U3XF
+UT WOS:000787584800003
+DA 2023-04-26
+ER
+
+PT J
+AU Khiem, NM
+   Takahashi, Y
+   Yasuma, H
+   Oanh, DTH
+   Hai, TN
+   Ut, VN
+   Kimura, N
+AF Nguyen Minh Khiem
+   Takahashi, Yuki
+   Yasuma, Hiroki
+   Dang Thi Hoang Oanh
+   Tran Ngoc Hai
+   Vu Ngoc Ut
+   Kimura, Nobuo
+TI Use of GIS and machine learning to predict disease in shrimp farmed on the east coast of the Mekong Delta, Vietnam
+SO FISHERIES SCIENCE
+LA English
+DT Article
+DE GIS; Machine learning; Acute hepatopancreatic necrosis; White spot syndrome; Enterocytozoon hepatopenaei
+ID models
+AB Diseases in shrimp farms in the Mekong Delta of Vietnam cause significant crop losses and are therefore of great concern to producers. Once a pond becomes infected, it is difficult to prevent spread of the disease to nearby shrimp farming areas. Thus, predicting the occurrence of disease is an essential part of reducing the risk for shrimp farmers. In this study, we applied an integrated geographic information system and machine learning system to predict three serious diseases of shrimp, namely, acute hepatopancreatic necrosis, white spot syndrome disease, and Enterocytozoon hepatopenaei infection, based on data collected from shrimp farms in the Tra Vinh, Bac Lieu, Soc Trang, and Ca Mau provinces of Vietnam. We first constructed a map showing the distribution of these diseases using the locations of affected farms, and then we conducted spatial analysis to acquire the geographical features of the affected locations. This latter information was combined with environmental factors and clinical signs to form the set of independent variables affecting the outbreak of diseases. The neural network model outperformed the logistic regression, random forest, and gradient boosting methods in terms of predicting infection to estimate the probability of disease occurrence in farmed areas. Acute hepatopancreatic necrosis disease infected farms downstream of the Co Chien and Hau Rivers of Tra Vinh and west of Ca Mau. Enterocytozoon hepatopenaei infection is distributed in Soc Trang Province, while white spot syndrome virus has spread to the coastal districts of Soc Trang and Bac Lieu Provinces, where it is highly associated to water from a complex canal system.
+C1 [Nguyen Minh Khiem] Hokkaido Univ, Grad Sch Fisheries Sci, Hakodate, Hokkaido 0418611, Japan.
+   [Takahashi, Yuki; Yasuma, Hiroki; Kimura, Nobuo] Hokkaido Univ, Fac Fisheries Sci, Hakodate, Hokkaido 0418611, Japan.
+   [Dang Thi Hoang Oanh; Tran Ngoc Hai; Vu Ngoc Ut] Can Tho Univ, Coll Aquaculture & Fisheries, Can Tho, Vietnam.
+   [Nguyen Minh Khiem] Can Tho Univ, Coll Informat & Commun Technol, Can Tho, Vietnam.
+C3 Hokkaido University; Hokkaido University; Can Tho University; Can Tho University
+RP Khiem, NM (corresponding author), Hokkaido Univ, Grad Sch Fisheries Sci, Hakodate, Hokkaido 0418611, Japan.; Khiem, NM (corresponding author), Can Tho Univ, Coll Informat & Commun Technol, Can Tho, Vietnam.
+EM nmkhiem@cit.ctu.edu.vn
+FU Can Tho University Improvement Project - loan of Japan's Official Development Assistance (ODA) [VN14-P6]
+CR Aguilar-Manjarrez J, 2013, NATL AQUACULTURE SEC, V0, P0
+   Aranguren LF, 2017, AQUACULTURE, V471, P37, DOI 10.1016/j.aquaculture.2016.12.038
+   BOONYAWIWAT V, 2016, FISH DIS, V0, P0
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Chayaburakul K, 2004, DIS AQUAT ORGAN, V60, P89, DOI 10.3354/dao060089
+   DANG T, 2018, ASIAN FISH SCI, V0, P0
+   Duc NM, 2010, REV AQUACULT, V2, P86, DOI 10.1111/j.1753-5131.2010.01024.x
+   Giap DH, 2003, MAP AS C THAIL GIS, V0, P0
+   Ha N., 2010, AGR RURAL DEV SCI TE, V12, P45
+   HA T, 2013, AQUACULT ECON MANAG, V0, P0
+   JESSE R, 2009, MACHINE LEARNING KNO, V5782, P0
+   KAPETSKY J, 2013, FAO FISHERIES AQUACU, V0, P0
+   Leung P, 2000, AQUACULTURE, V187, P35, DOI 10.1016/S0044-8486(00)00300-8
+   Meaden G. J., 2013, FAO FISHERIES AND AQUACULTURE TECHNICAL PAPER, V0, P0
+   Montanes E, 2014, PATTERN RECOGN, V47, P1494, DOI 10.1016/j.patcog.2013.09.029
+   Natekin A, 2013, FRONT NEUROROBOTICS, V7, P0, DOI 10.3389/fnbot.2013.00021
+   Khiem NM, 2020, FISHERIES SCI, V86, P673, DOI 10.1007/s12562-020-01427-z
+   Oanh DTH., 2005, DIS ASIAN AQUACULTUR, V0, P395
+   OIE, 2019, MANUAL DIAGNOSTIC TE, V0, P0
+   Pedregosa F, 2011, J MACH LEARN RES, V12, P2825
+   PETER C, 2008, OCEAN COAST MANAG, V0, P0
+   Phuong NT, 2010, SUCCESS STORIES IN ASIAN AQUACULTURE, V0, PP131, DOI 10.1007/978-90-481-3087-0_7
+   RAMOSCARRENO S, 2014, ADV VIROL, V0, P0
+   RAO PV, 2017, IJRASET, V0, P0
+   SATHEESH K, 2019, AQUACULT INT, V0, P0
+   SHAHRIAR M, 2014, PROCEDIA COMPUT SCI, V0, P0
+   Soykan CU, 2014, ECOL APPL, V24, P71, DOI 10.1890/12-0826.1
+   Thanh NK, 2008, INT C GEOINF SPAT IN, V0, P0
+   Thuoc P., 2013, VIETNAM J MAR SCI TE, V0, P0, DOI DOI 10.15625/1859-3097/12/4/2580
+   Xu JH, 2011, NEUROCOMPUTING, V74, P3114, DOI 10.1016/j.neucom.2011.04.024
+   Zheng ZH, 2018, BMC GENOMICS, V19, P0, DOI 10.1186/s12864-018-4728-4
+   Zou Jinming, 2008, V458, V0, P15
+NR 32
+TC 1
+Z9 1
+U1 4
+U2 11
+PU SPRINGER JAPAN KK
+PI TOKYO
+PA SHIROYAMA TRUST TOWER 5F, 4-3-1 TORANOMON, MINATO-KU, TOKYO, 105-6005, JAPAN
+SN 0919-9268
+EI 1444-2906
+J9 FISHERIES SCI
+JI Fish. Sci.
+PD JAN 15
+PY 2022
+VL 88
+IS 1
+BP 1
+EP 13
+DI 10.1007/s12562-021-01577-8
+EA JAN 2022
+PG 13
+WC Fisheries
+SC Fisheries
+GA YQ8OW
+UT WOS:000741934600001
+DA 2023-04-26
+ER

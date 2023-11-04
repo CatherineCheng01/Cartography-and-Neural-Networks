@@ -1,0 +1,584 @@
+
+PT J
+AU Yang, B
+   Cao, FL
+   Ye, HL
+AF Yang, Bing
+   Cao, Feilong
+   Ye, Hailiang
+TI A Novel Method for Hyperspectral Image Classification: Deep Network With Adaptive Graph Structure Integration
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Hyperspectral imaging; Feature extraction; Task analysis; Convolutional neural networks; Convolution; Adaptation models; Adaptive systems; Deep learning; graph neural network; graph representation learning; hyperspectral image (HSI) classification
+ID convolutional networks
+AB Hyperspectral image (HSI) classification has always been one of the hot issues in the study of geographic remote sensing information, and graph neural networks have attracted much attention in recent years. Several graph neural network-based approaches have been introduced into HSI study to explore the spatial information of HSI within a constructed graph. However, the existing methods of building HSI-based graphs are always unsuitable and inaccurate due to the complicated spatial variability of spectral signatures. Meanwhile, these graph-based HSI classification methods usually suffer from the over-smoothing problem. Motivated by these, this article presents a novel deep network with adaptive graph structure integration (DNAGSI), which could learn a graph structure of HSI dynamically and promote its discriminative ability with devising a much deeper network architecture. Specifically, dynamic graphs are first built across different layers and adaptively integrated with the initial graph structure to boost the robust graph representation of HSI. Second, the initial residual and identity mapping are employed to significantly increase the depth of the network and obtain more abstract deep features. Finally, a joint loss with center loss is devised to learn the similarity relationship between hyperspectral pixels explicitly, thereby gathering the intraclass graph features. Benefiting from the integration of center loss, initial residual, and identity mapping, the proposed method can alleviate the over-smoothing problem effectively to some extent. Experiments on benchmark HSI datasets demonstrate the superiority of DNAGSI over state-of-the-art methods.
+C1 [Yang, Bing; Cao, Feilong; Ye, Hailiang] China Jiliang Univ, Coll Sci, Hangzhou 310018, Peoples R China.
+C3 China Jiliang University
+RP Ye, HL (corresponding author), China Jiliang Univ, Coll Sci, Hangzhou 310018, Peoples R China.
+EM bingyang0517@163.com; icteam@163.com; yhl575@163.com
+FU Zhejiang Provincial Natural Science Foundation of China [LQ20F030016]; National Natural Science Foundation of China [62006215, 62176244]
+CR Achanta R, 2012, IEEE T PATTERN ANAL, V34, P2274, DOI 10.1109/TPAMI.2012.120
+   [Anonymous], 2015, INT C LEARNING REPRE, V0, P0, DOI DOI 10.1111/ITOR.12084
+   Cao XY, 2018, IEEE T IMAGE PROCESS, V27, P2354, DOI 10.1109/TIP.2018.2799324
+   Chen M., 2020, ICML, V0, P1725
+   Cui G.Q, 2020, OPEN, V1, P57, DOI 10.1016/J.AIOPEN.2021.01.001
+   Ding Y, 2021, IEEE T INSTRUM MEAS, V70, P0, DOI 10.1109/TIM.2021.3056750
+   Gao HM, 2021, IEEE T GEOSCI REMOTE, V59, P3396, DOI 10.1109/TGRS.2020.3008286
+   Guo WH, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3051056
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He X., 2022, IEEE T GEOSCI REMOTE, V60, P2022, DOI 10.1109/TGRS.2021.3061088
+   Hong DF, 2021, IEEE T GEOSCI REMOTE, V59, P5966, DOI 10.1109/TGRS.2020.3015157
+   Hospedales T, 2022, IEEE T PATTERN ANAL, V44, P5149, DOI 10.1109/TPAMI.2021.3079209
+   Ji SW, 2013, IEEE T PATTERN ANAL, V35, P221, DOI 10.1109/TPAMI.2012.59
+   Jia S, 2021, IEEE T GEOSCI REMOTE, V59, P4150, DOI 10.1109/TGRS.2020.3014313
+   Kang XD, 2017, IEEE T GEOSCI REMOTE, V55, P7140, DOI 10.1109/TGRS.2017.2743102
+   Lee H, 2017, IEEE T IMAGE PROCESS, V26, P4843, DOI 10.1109/TIP.2017.2725580
+   Lee JB, 2019, ACM T KNOWL DISCOV D, V13, P0, DOI 10.1145/3363574
+   Li ZY, 2020, NEURAL NETWORKS, V129, P7, DOI 10.1016/j.neunet.2020.05.022
+   Liu QC, 2021, IEEE T GEOSCI REMOTE, V59, P8657, DOI 10.1109/TGRS.2020.3037361
+   Luo FL, 2019, IEEE T CYBERNETICS, V49, P2406, DOI 10.1109/TCYB.2018.2810806
+   Mou LC, 2020, IEEE T GEOSCI REMOTE, V58, P8246, DOI 10.1109/TGRS.2020.2973363
+   Peng JJ, 2020, IEEE T IMAGE PROCESS, V29, P7889, DOI 10.1109/TIP.2020.3007840
+   Peng JT, 2021, IEEE T GEOSCI REMOTE, V59, P1501, DOI 10.1109/TGRS.2020.2996688
+   Peng JT, 2015, IEEE T GEOSCI REMOTE, V53, P4810, DOI 10.1109/TGRS.2015.2410991
+   Qin AY, 2019, IEEE GEOSCI REMOTE S, V16, P241, DOI 10.1109/LGRS.2018.2869563
+   Sha AS, 2021, IEEE GEOSCI REMOTE S, V18, P157, DOI 10.1109/LGRS.2020.2966239
+   Shao S, 2022, IEEE T CIRC SYST VID, V32, P5151, DOI 10.1109/TCSVT.2021.3135023
+   Shuai Shao, 2021, MM 21: PROCEEDINGS OF THE 29TH ACM INTERNATIONAL CONFERENCE ON MULTIMEDIA, V0, PP4193, DOI 10.1145/3474085.3475553
+   Song WW, 2018, IEEE T GEOSCI REMOTE, V56, P3173, DOI 10.1109/TGRS.2018.2794326
+   Sun H, 2021, IEEE T IMAGE PROCESS, V30, P2810, DOI 10.1109/TIP.2021.3055613
+   Sun H, 2020, IEEE T GEOSCI REMOTE, V58, P3232, DOI 10.1109/TGRS.2019.2951160
+   Sun WW, 2020, IEEE T GEOSCI REMOTE, V58, P3906, DOI 10.1109/TGRS.2019.2959342
+   Tang X, 2021, IEEE T GEOSCI REMOTE, V59, P2430, DOI 10.1109/TGRS.2020.3005431
+   Wan S, 2021, IEEE T GEOSCI REMOTE, V59, P597, DOI 10.1109/TGRS.2020.2994205
+   Wan S, 2020, IEEE T GEOSCI REMOTE, V58, P3162, DOI 10.1109/TGRS.2019.2949180
+   Wang J, 2021, IEEE T GEOSCI REMOTE, V59, P8754, DOI 10.1109/TGRS.2021.3049377
+   Wang Q, 2016, IEEE T NEUR NET LEAR, V27, P1279, DOI 10.1109/TNNLS.2015.2477537
+   Wang Y. G., 2020, PROC INT C MACH LEAR, V0, P9952
+   Wen YD, 2016, LECT NOTES COMPUT SC, V9911, P499, DOI 10.1007/978-3-319-46478-7_31
+   Wu ZH, 2021, IEEE T NEUR NET LEAR, V32, P4, DOI 10.1109/TNNLS.2020.2978386
+   Xu YH, 2021, IEEE T IMAGE PROCESS, V30, P8671, DOI 10.1109/TIP.2021.3118977
+   Ye HL, 2019, IEEE T GEOSCI REMOTE, V57, P4457, DOI 10.1109/TGRS.2019.2891288
+   Ye ZJ, 2020, IEEE T GEOSCI REMOTE, V58, P841, DOI 10.1109/TGRS.2019.2940991
+   Yu SQ, 2017, NEUROCOMPUTING, V219, P88, DOI 10.1016/j.neucom.2016.09.010
+   Zhang ZW, 2022, IEEE T KNOWL DATA EN, V34, P249, DOI 10.1109/TKDE.2020.2981333
+   Zhong ZL, 2018, IEEE T GEOSCI REMOTE, V56, P847, DOI 10.1109/TGRS.2017.2755542
+   Zhou YC, 2015, IEEE T GEOSCI REMOTE, V53, P1082, DOI 10.1109/TGRS.2014.2333539
+NR 47
+TC 8
+Z9 8
+U1 1
+U2 9
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2022
+VL 60
+IS 
+BP 
+EP 
+DI 10.1109/TGRS.2022.3150349
+PG 12
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA ZY3FE
+UT WOS:000772472400020
+DA 2023-04-26
+ER
+
+PT J
+AU Li, CN
+   Lang, HT
+AF Li, Chunnan
+   Lang, Haitao
+TI An Oriented SAR Ship Detector With Mixed Convolution Channel Attention Module and Geometric Nonmaximum Suppression
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Geometric nonmaximum suppression (G-NMS); mixed convolution channel attention (MCCA); ship detection; synthetic aperture radar (SAR)
+ID high-resolution; images; classification; algorithm; network; scheme
+AB Benefiting from deep learning, synthetic aperture radar (SAR) ship detection based on convolutional neural network (CNN) has developed rapidly and corresponding performance is getting better. Nevertheless, most of the existing methods still cannot achieve a good balance between precision and recall in scenes with complex background interferences, or in a scene where two or more ships dock side by side. To address these problems, this article proposes a novel oriented SAR ship detector, which uses oriented bounding boxes (OBBs) to describe ships. For the purpose of reducing missed ships (aiming to improve recall) while suppressing false alarms (aiming to maintain precision), the proposed detector embeds a mixed convolution channel attention (MCCA) module into the backbone network, which highlights the important feature channels to enhance ship representation features by reweighting all channels of the feature map. In addition, we consider the geometric position relationship of neighbor ships and propose geometric nonmaximum suppression (G-NMS) to remove the redundant ship candidates or possible false alarms. Extensive experiments conducted on the SSDD and HRSIDs datasets demonstrate the effectiveness of MCCA and G-NMS, the proposed detector also achieves better performance compared to state-of-the-art OBB-based detectors.
+C1 [Li, Chunnan; Lang, Haitao] Beijing Univ Chem Technol, Coll Math & Phys, Beijing 100029, Peoples R China.
+C3 Beijing University of Chemical Technology
+RP Lang, HT (corresponding author), Beijing Univ Chem Technol, Coll Math & Phys, Beijing 100029, Peoples R China.
+EM chunnan@buct.edu.cn; haitaolang@hotmail.com
+FU National Natural Science Foundation of China [62071030]
+CR Aghaei N, 2022, EUR J REMOTE SENS, V55, P181, DOI 10.1080/22797254.2022.2037468
+   Ai JQ, 2021, IEEE T AERO ELEC SYS, V57, P1872, DOI 10.1109/TAES.2021.3050654
+   Ai JQ, 2010, IEEE GEOSCI REMOTE S, V7, P806, DOI 10.1109/LGRS.2010.2048697
+   An WT, 2014, IEEE T GEOSCI REMOTE, V52, P4585, DOI 10.1109/TGRS.2013.2282820
+   Bao W, 2021, IEEE J-STARS, V14, P8941, DOI 10.1109/JSTARS.2021.3109002
+   Bochkovskiy A, 2020, ARXIV, V0, P0
+   Bodla N, 2017, IEEE I CONF COMP VIS, V0, PP5562, DOI 10.1109/ICCV.2017.593
+   Brusch S, 2011, IEEE T GEOSCI REMOTE, V49, P1092, DOI 10.1109/TGRS.2010.2071879
+   Cai ZW, 2018, PROC CVPR IEEE, V0, PP6154, DOI 10.1109/CVPR.2018.00644
+   Chang YL, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070786
+   Chen K, 2019, ARXIV, V0, P0
+   Cui ZY, 2021, IEEE T GEOSCI REMOTE, V59, P379, DOI 10.1109/TGRS.2020.2997200
+   Cui ZY, 2019, IEEE T GEOSCI REMOTE, V57, P8983, DOI 10.1109/TGRS.2019.2923988
+   Davari N, 2022, IEEE T POWER DELIVER, V37, P2766, DOI 10.1109/TPWRD.2021.3116489
+   Deng ZP, 2019, IEEE T GEOSCI REMOTE, V57, P4021, DOI 10.1109/TGRS.2018.2889353
+   Fu JM, 2021, IEEE T GEOSCI REMOTE, V59, P1331, DOI 10.1109/TGRS.2020.3005151
+   Fu K, 2021, IEEE J-STARS, V14, P11162, DOI 10.1109/JSTARS.2021.3109469
+   Gao G, 2017, IEEE T GEOSCI REMOTE, V55, P1812, DOI 10.1109/TGRS.2016.2634862
+   Gao G, 2011, IEEE GEOSCI REMOTE S, V8, P557, DOI 10.1109/LGRS.2010.2090492
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Han JM, 2021, PROC CVPR IEEE, V0, PP2785, DOI 10.1109/CVPR46437.2021.00281
+   Han JM, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3062048
+   He K., 2020, IEEE T PATTERN ANAL, V42, P386, DOI 10.1109/TPAMI.2018.2844175
+   He YS, 2021, IEEE J-STARS, V14, P3846, DOI 10.1109/JSTARS.2021.3068530
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Kang M, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9080860
+   Kanjir U, 2018, REMOTE SENS ENVIRON, V207, P1, DOI 10.1016/j.rse.2017.12.033
+   Lang HT, 2019, IEEE T GEOSCI REMOTE, V57, P5407, DOI 10.1109/TGRS.2019.2899337
+   Lang HT, 2018, IEEE GEOSCI REMOTE S, V15, P439, DOI 10.1109/LGRS.2018.2792683
+   Leng XG, 2015, IEEE GEOSCI REMOTE S, V12, P1536, DOI 10.1109/LGRS.2015.2412174
+   Li D, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3062038
+   Li J, 2017, P 2017 SAR BIG DATA, V0, PP1, DOI 10.1109/BIGSARDATA.2017.8124934
+   Lin T, 2017, 2017 IEEE INT C COMP, V0, P0, DOI DOI 10.1109/ICCV.2017.324
+   Lin Z, 2019, IEEE GEOSCI REMOTE S, V16, P751, DOI 10.1109/LGRS.2018.2882551
+   Liu W, 2016, LECT NOTES COMPUT SC, V9905, P21, DOI 10.1007/978-3-319-46448-0_2
+   Ma F, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2022.3141125
+   Ma F, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3108585
+   Ma XS, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3126175
+   Neubeck A, 2006, INT C PATT RECOG, V0, PP850, DOI 10.1109/icpr.2006.479
+   Qian W, 2019, ARXIV, V0, P0
+   Qilong Wang, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP11531, DOI 10.1109/CVPR42600.2020.01155
+   Redmon J, 2018, ARXIV, V0, P0, DOI DOI 10.1109/CVPR.2017.690
+   Redmon J, 2017, PROC CVPR IEEE, V0, PP6517, DOI 10.1109/CVPR.2017.690
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Shang R., 2021, IEEE T GEOSCI ELECT, V60, P1
+   Sharifzadeh F, 2019, J INDIAN SOC REMOTE, V47, P551, DOI 10.1007/s12524-018-0891-y
+   Solovyev R, 2021, IMAGE VISION COMPUT, V107, P0, DOI 10.1016/j.imavis.2021.104117
+   Sun ZZ, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13214209
+   Sun ZZ, 2021, IEEE J-STARS, V14, P7799, DOI 10.1109/JSTARS.2021.3099483
+   Tirandaz Z, 2020, MEASUREMENT, V153, P0, DOI 10.1016/j.measurement.2019.107432
+   Wei SJ, 2020, IEEE ACCESS, V8, P120234, DOI 10.1109/ACCESS.2020.3005861
+   Xu YJ, 2021, IEEE T GEOSCI REMOTE, V59, P6799, DOI 10.1109/TGRS.2020.3026387
+   Yang R, 2021, IEEE J-STARS, V14, P1938, DOI 10.1109/JSTARS.2021.3049851
+   Yang R, 2021, IEEE GEOSCI REMOTE S, V18, P1401, DOI 10.1109/LGRS.2020.2999506
+   Yang X, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3128060
+   Yang X, 2021, AAAI CONF ARTIF INTE, V35, P3163
+   Zhang GJ, 2019, IEEE T GEOSCI REMOTE, V57, P10015, DOI 10.1109/TGRS.2019.2930982
+   Zhang J., 2021, IEEE T GEOSCI ELECT, V60, P1
+   Zhang TW, 2022, IEEE GEOSCI REMOTE S, V19, P0, DOI 10.1109/LGRS.2020.3033988
+   Zhao Y, 2020, IEEE J-STARS, V13, P2738, DOI 10.1109/JSTARS.2020.2997081
+   Zhao ZQ, 2019, IEEE T NEUR NET LEAR, V30, P3212, DOI 10.1109/TNNLS.2018.2876865
+   Zheng ZH, 2020, AAAI CONF ARTIF INTE, V34, P12993
+   Zhou XY, 2017, PROC CVPR IEEE, V0, PP2642, DOI 10.1109/CVPR.2017.283
+   Zou Zhengxia, 2019, ARXIV, V0, P0
+NR 65
+TC 1
+Z9 1
+U1 4
+U2 4
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 8074
+EP 8084
+DI 10.1109/JSTARS.2022.3206247
+PG 11
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 4Y3QO
+UT WOS:000861443200002
+DA 2023-04-26
+ER
+
+PT J
+AU Dev, A
+   Roy, N
+   Islam, MK
+   Biswas, C
+   Ahmed, HU
+   Amin, MA
+   Sarker, F
+   Vaidyanathan, R
+   Mamun, KA
+AF Dev, Antora
+   Roy, Nipa
+   Islam, Md Kafiul
+   Biswas, Chiranjeeb
+   Ahmed, Helal Uddin
+   Amin, Md Ashraful
+   Sarker, Farhana
+   Vaidyanathan, Ravi
+   Mamun, Khondaker A.
+TI Exploration of EEG-Based Depression Biomarkers Identification Techniques and Their Applications: A Systematic Review
+SO IEEE ACCESS
+LA English
+DT Review
+DE Depression; Electroencephalography; Biomarkers; Brain; Systematics; Magnetic resonance imaging; Hippocampus; Depression; BCI; EEG; biomarkers; classification; machine learning; systematic review
+ID functional connectivity; classifying depression; classification; theta; recognition; selection; brain; power
+AB Depression is the most common mental illness, which has become the major cause of fear and suicidal mortality or tendencies. Currently, about 10% of the world population has been suffering from depression. The classical approach for detecting depression relies on the clinical questionnaire, which depends on the patients' responses as well as observing their behavioral activities. However, there is no established method to detect depression from EEG biomarkers. Therefore, exploration of EEG biomarkers for depression assessments is vital and has a great potential to improve our understanding and clinical interventions. In this study, we have conducted a systematic review of 52 research articles using the PRISMA-P systematic review protocol, where we analyzed their research methodologies and outcomes. We categorized the experimentations in these articles according to their physical and psychological aspects scaled by the commonly used clinical questionnaire-based assessments. This study finds that the negative stimuli are the better identification strategies for evaluating depression through EEG signals. From this exploration, researchers observed that the Neural Connectivity Analysis and Brain Topological Mapping have huge potentials for finding depression biomarkers, and it is evident that the right-side hemisphere and frontal and parietal-occipital cortex are distinct regions to detect depression using EEG signals. For this mechanism, researchers are using many signal processing and machine learning approaches. In the case of filtering, Independent Component Analysis (ICA) is commonly used to eliminate physiological and non-physiological artifacts. Among machine learning approaches, Convolutional Neural Network (CNN) and Support Vector Machine (SVM) showed better performance for classifying healthy and depressed brains. The authors hope, this study will create an opportunity to explore more in the future for EEG as diagnostic tool by analyzing brain functional connectivity for focusing on clinical interventions.
+C1 [Dev, Antora; Mamun, Khondaker A.] United Int Univ, Inst Adv Res IAR, Adv Intelligent Multidisciplinary Syst AIMS Lab, Dhaka 1212, Bangladesh.
+   [Roy, Nipa] United Int Univ, Inst Nat Sci, Dhaka 1212, Bangladesh.
+   [Islam, Md Kafiul] Independent Univ, Dept Elect & Elect Engn, Dhaka 1229, Bangladesh.
+   [Biswas, Chiranjeeb] Med Coll Women & Hosp MCWH, Dept Psychiat, Dhaka 1230, Bangladesh.
+   [Ahmed, Helal Uddin] Natl Inst Mental Hlth NIMH, Dept Psychiat, Dhaka 1207, Bangladesh.
+   [Amin, Md Ashraful] Independent Univ, Dept Comp Sci & Engn, Dhaka 1229, Bangladesh.
+   [Sarker, Farhana] Univ Liberal Arts Bangladesh, Dept Comp Sci & Engn, Dhaka 1207, Bangladesh.
+   [Vaidyanathan, Ravi] Imperial Coll London, Dept Mech Engn, London SW7 2AZ, England.
+   [Vaidyanathan, Ravi] Imperial Coll London, UK Dementia Res Inst Care, Res & Technol Ctr DRI CR&T, London SW7 2AZ, England.
+   [Mamun, Khondaker A.] United Int Univ, Dept Comp Sci & Engn, Dhaka 1209, Bangladesh.
+C3 United International University (UIU); United International University (UIU); Independent University Bangladesh (IUB); Independent University Bangladesh (IUB); Imperial College London; Imperial College London; United International University (UIU)
+RP Mamun, KA (corresponding author), United Int Univ, Inst Adv Res IAR, Adv Intelligent Multidisciplinary Syst AIMS Lab, Dhaka 1212, Bangladesh.; Mamun, KA (corresponding author), United Int Univ, Dept Comp Sci & Engn, Dhaka 1209, Bangladesh.
+EM mamun@cse.uiu.ac.bd
+FU Information and Communication Technology (ICT) Division, Ministry of Posts, Telecommunications and Information Technology, Bangladesh [56.00.0000.028.33.003.21-208]; Institute for Advanced Research (IAR), United International University (UIU), Bangladesh [UIU/IAR/01/2021/SE/16]
+CR Abhang P.A., 2016, INTRO EEGAND SPEECH, V0, PP19, DOI 10.1016/B978-0-12-804490-2.00002-6
+   Acharya UR, 2018, COMPUT METH PROG BIO, V161, P103, DOI 10.1016/j.cmpb.2018.04.012
+   Ahmadlou M, 2012, INT J PSYCHOPHYSIOL, V85, P206, DOI 10.1016/j.ijpsycho.2012.05.001
+   Akar SA, 2015, COMPUT BIOL MED, V67, P49, DOI 10.1016/j.compbiomed.2015.09.019
+   Akbari H, 2021, APPL ACOUST, V179, P0, DOI 10.1016/j.apacoust.2021.108078
+   Al Asad Nafiz, 2019, 2019 IEEE INTERNATIONAL CONFERENCE ON SIGNAL PROCESSING, V0, P0
+   Al-Nafjan A, 2017, APPL SCI-BASEL, V7, P0, DOI 10.3390/app7121239
+   Althobaiti T, 2019, IEEE ACCESS, V7, P77857, DOI 10.1109/ACCESS.2019.2922037
+   [Anonymous], 2015, SCI INFORM ORG I ELE, V0, P0
+   [Anonymous], 2019, WHO SUST DEV GOALS S, V0, P0
+   Arora A, 2018, PROCEEDINGS OF THE 3RD INTERNATIONAL CONFERENCE ON COMMUNICATION AND ELECTRONICS SYSTEMS (ICCES 2018), V0, PP1029, DOI 10.1109/CESYS.2018.8724031
+   Ashraf A, 2020, PROCEEDING OF 2020 6TH INTERNATIONAL CONFERENCE ON WIRELESS AND TELEMATICS (ICWT), V0, P0
+   Asif A, 2019, COMPUT BIOL MED, V107, P182, DOI 10.1016/j.compbiomed.2019.02.015
+   Ay B, 2019, J MED SYST, V43, P0, DOI 10.1007/s10916-019-1345-y
+   Aydin S, 2015, INT J NEURAL SYST, V25, P0, DOI 10.1142/S0129065715500100
+   Bachmann M, 2018, COMPUT METH PROG BIO, V155, P11, DOI 10.1016/j.cmpb.2017.11.023
+   Bhise Pratibha R., 2020, 2020 2ND INTERNATIONAL CONFERENCE ON INNOVATIVE MECHANISMS FOR INDUSTRY APPLICATIONS (ICIMIA). PROCEEDINGS, V0, PP327, DOI 10.1109/ICIMIA48430.2020.9074921
+   C. S. A. for Treatment, 2008, APPENDIX D DSM 4 T M, V0, P0
+   Cai HS, 2020, INFORM FUSION, V59, P127, DOI 10.1016/j.inffus.2020.01.008
+   Cai HS, 2018, INTERDISCIP SCI, V10, P558, DOI 10.1007/s12539-018-0292-5
+   Cai HS, 2018, COMPLEXITY, V0, P0, DOI DOI 10.1155/2018/5238028
+   Cavanagh James F, 2019, COMPUT PSYCHIATR, V3, P1, DOI 10.1162/cpsy_a_00024
+   Cukic M, 2020, COGN NEURODYNAMICS, V14, P443, DOI 10.1007/s11571-020-09581-x
+   Dang WD, 2020, NONLINEAR DYNAM, V102, P667, DOI 10.1007/s11071-020-05665-9
+   DAWSON A, 1956, MCGILL MED J, V25, P45
+   Neto FSD, 2019, NEUROSCI BIOBEHAV R, V105, P83, DOI 10.1016/j.neubiorev.2019.07.021
+   Delorme A, 2004, J NEUROSCI METH, V134, P9, DOI 10.1016/j.jneumeth.2003.10.009
+   Doborjeh Z, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20247354
+   Dreiseitl S, 2002, J BIOMED INFORM, V35, P352, DOI 10.1016/S1532-0464(03)00034-0
+   Ettman CK, 2020, JAMA NETW OPEN, V3, P0, DOI 10.1001/jamanetworkopen.2020.19686
+   Faust O, 2014, J MECH MED BIOL, V14, P0, DOI 10.1142/S0219519414500353
+   Ferrari AJ, 2013, PLOS MED, V10, P0, DOI 10.1371/journal.pmed.1001547
+   Fried M., 2001, HDB SURFACES INTERFA, V0, PP335, DOI 10.1016/B978-012513910-6/50052-9
+   Garcia-Ceja E., 2018, ZENODO, V0, P0, DOI DOI 10.5281/ZENODO.1219550
+   Goldschmied JR, 2014, J SLEEP RES, V23, P664, DOI 10.1111/jsr.12174
+   Graves A, 2012, STUD COMPUT INTELL, V385, P1, DOI 10.1007/978-3-642-24797-2
+   Hajmeer M, 2002, J MICROBIOL METH, V51, P217, DOI 10.1016/S0167-7012(02)00080-5
+   Hosseinifard B, 2013, COMPUT METH PROG BIO, V109, P339, DOI 10.1016/j.cmpb.2012.10.008
+   Hua YX, 2019, IEEE COMMUN MAG, V57, P114, DOI 10.1109/MCOM.2019.1800155
+   Hutsler J, 2003, TRENDS NEUROSCI, V26, P429, DOI 10.1016/S0166-2236(03)00198-X
+   Iesmantas T., 2019, ARXIV190308864, V0, P0
+   IIRC I. I. R. C., 2019, IR REP, V0, P0
+   Islam MK, 2016, NEUROPHYSIOL CLIN, V46, P287, DOI 10.1016/j.neucli.2016.07.002
+   Jiang C, 2021, IEEE T NEUR SYS REH, V29, P566, DOI 10.1109/TNSRE.2021.3059429
+   Jurcak V, 2007, NEUROIMAGE, V34, P1600, DOI 10.1016/j.neuroimage.2006.09.024
+   Kalev K, 2015, IFMBE PROC, V48, P55, DOI 10.1007/978-3-319-12967-9_15
+   Kan D. P. X., 2015, 2015 INTERNATIONAL CONFERENCE ON BIOSIGNAL ANALYSIS, V0, P156, DOI 10.1109/ICBAPS.2015.7292237
+   Kang M, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20226526
+   Karunarathne A, 2020, CLIN TOXICOL, V58, P227, DOI 10.1080/15563650.2019.1662433
+   Kaur C, 2021, BIOMED SIGNAL PROCES, V65, P0, DOI 10.1016/j.bspc.2020.102337
+   Ke HJ, 2020, IEEE T SERV COMPUT, V13, P696, DOI 10.1109/TSC.2019.2962673
+   Ke HJ, 2020, SOFTWARE PRACT EXPER, V50, P596, DOI 10.1002/spe.2668
+   Khan KS, 2003, J ROY SOC MED, V96, P118, DOI 10.1258/jrsm.96.3.118
+   Koller-Schlaud K, 2020, J AFFECT DISORDERS, V276, P501, DOI 10.1016/j.jad.2020.07.011
+   Krigolson OE, 2017, FRONT NEUROSCI-SWITZ, V11, P0, DOI 10.3389/fnins.2017.00109
+   Kumar S. Dhananjay, 2019, 2019 3RD INTERNATIONAL CONFERENCE ON TRENDS IN ELECTRONICS AND INFORMATICS (ICOEI). PROCEEDINGS, V0, PP1248, DOI 10.1109/ICOEI.2019.8862560
+   Kwon H, 2019, I C INF COMM TECH CO, V0, P378
+   Lagopoulos J, 2009, J ALTERN COMPLEM MED, V15, P1187, DOI 10.1089/acm.2009.0113
+   Lazarewicz MT, 2010, J COGNITIVE NEUROSCI, V22, P1452, DOI 10.1162/jocn.2009.21305
+   Lewis G, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0198804
+   Li G, 2019, ANN GEN PSYCHIATR, V18, P0, DOI 10.1186/s12991-019-0248-0
+   Li M, 2018, BEHAV NEUROL, V2018, P0, DOI 10.1155/2018/5024520
+   Li XW, 2020, FRONT NEUROSCI-SWITZ, V14, P0, DOI 10.3389/fnins.2020.00192
+   Li XW, 2019, ARTIF INTELL MED, V99, P0, DOI 10.1016/j.artmed.2019.07.004
+   Li XW, 2019, MED BIOL ENG COMPUT, V57, P1341, DOI 10.1007/s11517-019-01959-2
+   Li YJ, 2005, P ANN INT IEEE EMBS, V0, P2679
+   Li YZ, 2017, SCI REP-UK, V7, P0, DOI 10.1038/s41598-017-18306-w
+   Liu WY, 2020, CLIN NEUROPHYSIOL, V131, P2413, DOI 10.1016/j.clinph.2020.06.031
+   Mahato S, 2020, J MED SYST, V44, P0, DOI 10.1007/s10916-020-01573-y
+   Mahato S, 2020, J MED SYST, V44, P0, DOI 10.1007/s10916-019-1486-z
+   Makkar T, 2017, 2017 FOURTH INTERNATIONAL CONFERENCE ON IMAGE INFORMATION PROCESSING (ICIIP), V0, P182
+   Mantri S, 2015, 2015 SAI INTELLIGENT SYSTEMS CONFERENCE (INTELLISYS), V0, PP518, DOI 10.1109/IntelliSys.2015.7361188
+   Mao WD, 2018, LECT NOTES ARTIF INT, V11309, P329, DOI 10.1007/978-3-030-05587-5_31
+   Mohammadi Y, 2019, IRAN CONF ELECTR ENG, V0, PP1765, DOI 10.1109/IranianCEE.2019.8786540
+   Mohebali B., 2020, HDB PROBABILISTIC MO, V0, P0, DOI DOI 10.1016/B978-0-12-816514-0.00014-X
+   Mumtaz W, 2019, INT J MED INFORM, V132, P0, DOI 10.1016/j.ijmedinf.2019.103983
+   Mutasim AK, 2018, STUD COMPUT INTELL, V777, P291, DOI 10.1007/978-3-319-89629-8_11
+   Naqvi SF, 2020, SENSORS-BASEL, V20, P0, DOI 10.3390/s20164400
+   Nentwich M, 2020, NEUROIMAGE, V218, P0, DOI 10.1016/j.neuroimage.2020.117001
+   Noda Y, 2017, CLIN NEUROPHYSIOL, V128, P424, DOI 10.1016/j.clinph.2016.12.023
+   Nolan H, 2010, J NEUROSCI METH, V192, P152, DOI 10.1016/j.jneumeth.2010.07.015
+   Pandya M, 2012, CURR PSYCHIAT REP, V14, P634, DOI 10.1007/s11920-012-0322-7
+   Peng H, 2019, IEEE ACCESS, V7, P92630, DOI 10.1109/ACCESS.2019.2927121
+   Prasad DK, 2018, EXPERT SYST APPL, V103, P206, DOI 10.1016/j.eswa.2018.03.011
+   Reddy M S, 2012, INDIAN J PSYCHOL MED, V34, P201, DOI 10.4103/0253-7176.106011
+   Rodriguez-Ruiz JG, 2020, DIAGNOSTICS, V10, P0, DOI 10.3390/diagnostics10030162
+   Rohan KJ, 2016, J AFFECT DISORDERS, V200, P111, DOI 10.1016/j.jad.2016.01.051
+   Saeedi A, 2021, COGN NEURODYNAMICS, V15, P239, DOI 10.1007/s11571-020-09619-0
+   Saeedi M, 2020, PHYS ENG SCI MED, V43, P1007, DOI 10.1007/s13246-020-00897-w
+   Sandheep P, 2019, TENCON IEEE REGION, V0, PP1339, DOI 10.1109/TENCON.2019.8929254
+   Schiller MJ, 2019, FRONT PSYCHIATRY, V9, P0, DOI 10.3389/fpsyt.2018.00779
+   Seal A, 2021, IEEE T INSTRUM MEAS, V70, P0, DOI 10.1109/TIM.2021.3053999
+   Shamseer L, 2015, BMJ-BRIT MED J, V349, P0, DOI 10.1136/bmj.g7647
+   Sharma G, 2021, BIOMED SIGNAL PROCES, V66, P0, DOI 10.1016/j.bspc.2020.102393
+   Smarr KL, 2011, ARTHRIT CARE RES, V63, PS454, DOI 10.1002/acr.20556
+   Strelets V B, 2007, NEUROSCI BEHAV PHYSIOL, V37, P387, DOI 10.1007/s11055-007-0025-4
+   Thoduparambil PP, 2020, PHYS ENG SCI MED, V43, P1349, DOI 10.1007/s13246-020-00938-4
+   Uyulan C, 2021, CLIN EEG NEUROSCI, V52, P38, DOI 10.1177/1550059420916634
+   Wan ZJ, 2020, IEEE ACCESS, V8, P30332, DOI 10.1109/ACCESS.2020.2971656
+   Wan ZJ, 2019, INT J INF TECH DECIS, V18, P1579, DOI 10.1142/S0219622019500342
+   Wilson ST, 2016, PSYCHIAT RES, V240, P241, DOI 10.1016/j.psychres.2016.04.033
+   Xie YL, 2020, IEEE ENG MED BIO, V0, PP1503, DOI 10.1109/EMBC44109.2020.9176471
+   Yasin S, 2021, COMPUT METH PROG BIO, V202, P0, DOI 10.1016/j.cmpb.2021.106007
+   Zhu J, 2019, IEEE ACCESS, V7, P28196, DOI 10.1109/ACCESS.2019.2901950
+NR 106
+TC 7
+Z9 7
+U1 23
+U2 55
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+EI 
+J9 IEEE ACCESS
+JI IEEE Access
+PD JUN 15
+PY 2022
+VL 10
+IS 
+BP 16756
+EP 16781
+DI 10.1109/ACCESS.2022.3146711
+PG 26
+WC Computer Science, Information Systems; Engineering, Electrical & Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA ZB1QE
+UT WOS:000756624500001
+DA 2023-04-26
+ER
+
+PT J
+AU Guo, DH
+   Ge, SY
+   Zhang, S
+   Gao, S
+   Tao, R
+   Wang, YG
+AF Guo, Danhuai
+   Ge, Shiyin
+   Zhang, Shu
+   Gao, Song
+   Tao, Ran
+   Wang, Yangang
+TI DeepSSN: A deep convolutional neural network to assess spatial scene similarity
+SO TRANSACTIONS IN GIS
+LA English
+DT Article
+ID geographical information; openstreetmap; sketch; gis
+AB Spatial-query-by-sketch is an intuitive tool to explore human spatial knowledge about geographic environments and to support communication with scene database queries. However, traditional sketch-based spatial search methods perform inadequately due to their inability to find hidden multiscale map features from mental sketches. In this research, we propose a deep convolutional neural network, namely the Deep Spatial Scene Network (DeepSSN), to better assess the spatial scene similarity. In DeepSSN, a triplet loss function is designed as a comprehensive distance metric to support the similarity assessment. A positive and negative example mining strategy is designed to ensure a consistently increasing distinction of triplets during the training process. Moreover, we develop a prototype spatial scene search system using the proposed DeepSSN, in which the users input spatial queries via sketch maps and the system can automatically augment the sketch training data. The proposed model is validated using multisource conflated map data including 131,300 labeled scene samples after data augmentation. The empirical results demonstrate that the DeepSSN outperforms baseline methods including k-nearest neighbors, the multilayer perceptron, AlexNet, DenseNet, and ResNet using mean reciprocal rank and precision metrics. This research advances geographic information retrieval studies by introducing a novel deep learning method tailored to spatial scene queries.
+C1 [Guo, Danhuai] Beijing Univ Chem Technol, Coll Informat Sci & Technol, Spatio Temporal Data Intelligence Lab, Beijing, Peoples R China.
+   [Guo, Danhuai; Ge, Shiyin; Zhang, Shu; Wang, Yangang] Chinese Acad Sci, Comp Network Informat Ctr, Beijing, Peoples R China.
+   [Guo, Danhuai; Ge, Shiyin; Zhang, Shu; Wang, Yangang] Univ Chinese Acad Sci, Beijing, Peoples R China.
+   [Gao, Song] Univ Wisconsin, Dept Geog, Geospatial Data Sci Lab, Madison, WI 53706 USA.
+   [Tao, Ran] Univ S Florida, Sch Geosci, Tampa, FL 33620 USA.
+C3 Beijing University of Chemical Technology; Chinese Academy of Sciences; Computer Network Information Center, CAS; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS; University of Wisconsin System; University of Wisconsin Madison; State University System of Florida; University of South Florida
+RP Gao, S (corresponding author), Univ Wisconsin, Dept Geog, Geospatial Data Sci Lab, Madison, WI 53706 USA.; Guo, DH (corresponding author), Univ Chinese Acad Sci, Beijing Univ Chem Technol, Coll Informat Sci & Technol, Spatio Temporal Data Intelligence Lab, Beijing, Peoples R China.
+EM gdh@buct.edu.cn; song.gao@wisc.edu
+FU National Key R&D Program of China [2019YFF0301300]; Fundamental Research Funds for the Central Universities [BUCTRC:202132]; National Natural Science Foundation of China [41971366, 91846301]
+CR Aharon M, 2006, IEEE T SIGNAL PROCES, V54, P4311, DOI 10.1109/TSP.2006.881199
+   Arsanjani JJ, 2015, LECT NOTES GEOINF CA, V0, PP37, DOI 10.1007/978-3-319-14280-7_3
+   Bai Y, 2017, IEEE INT CON MULTI, V0, PP1452, DOI 10.1109/ICME.2017.8019371
+   Ballatore Andrea, 2012, WEB AND WIRELESS GEOGRAPHICAL INFORMATION SYSTEMS. PROCEEDINGS 11TH INTERNATIONAL SYMPOSIUM, V0, P151, DOI 10.1007/978-3-642-29247-7_12
+   Barron C, 2014, T GIS, V18, P877, DOI 10.1111/tgis.12073
+   Bergstra J, 2012, J MACH LEARN RES, V13, P281
+   Beyer L., 2017, DEFENSE TRIPLET LOSS, V0, P0
+   BILLINGHURST M, 1995, VIRTUAL REALITY ANNUAL INTERNATIONAL SYMPOSIUM 95, V0, P40
+   Caduff D, 2005, LECT NOTES COMPUT SC, V3833, P143
+   Cao, 2015, PRACTICAL THEORY DES, V0, P0
+   Cheng D, 2016, PROC CVPR IEEE, V0, PP1335, DOI 10.1109/CVPR.2016.149
+   Chipofya M, 2011, LECT NOTES COMPUT SC, V6899, P20, DOI 10.1007/978-3-642-23196-4_2
+   Donahue J, 2014, PR MACH LEARN RES, V32, P0
+   Duan W., 2017, P 1 WORKSHOP ARTIFIC, V0, PP45, DOI 10.1145/3149808.3149816
+   Dylla F., 2006, P QUAL CONSTR CALC A, V0, P79
+   Egenhofer MJ, 1997, J VISUAL LANG COMPUT, V8, P403, DOI 10.1006/jvlc.1997.0054
+   Egenhofer MJ, 1996, IEEE SYMPOSIUM ON VISUAL LANGUAGES, V0, P60, DOI 10.1109/VL.1996.545269
+   Forbus K, 2011, TOP COGN SCI, V3, P648, DOI 10.1111/j.1756-8765.2011.01149.x
+   Gao S, 2019, ANN GIS, V25, P299, DOI 10.1080/19475683.2019.1679882
+   Gao S, 2017, T GIS, V21, P446, DOI 10.1111/tgis.12289
+   Gao S, 2017, INT J GEOGR INF SCI, V31, P1245, DOI 10.1080/13658816.2016.1273357
+   Garcia Vincent, 2008, 2008 IEEE COMPUTER SOCIETY CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION WORKSHOPS (CVPR WORKSHOPS), V0, PP1, DOI 10.1109/CVPRW.2008.4563100
+   Goodchild MF, 2007, GEOJOURNAL, V69, P211, DOI 10.1007/s10708-007-9111-y
+   Goodchild MF, 2018, ANN GIS, V24, P1, DOI 10.1080/19475683.2018.1424737
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Haarslev V, 1997, IEEE VISLANG, V0, PP197, DOI 10.1109/VL.1997.626583
+   Haklay M, 2010, ENVIRON PLANN B, V37, P682, DOI 10.1068/b35097
+   Haklay M, 2008, IEEE PERVAS COMPUT, V7, P12, DOI 10.1109/MPRV.2008.80
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   He KM, 2015, IEEE T PATTERN ANAL, V37, P1904, DOI 10.1109/TPAMI.2015.2389824
+   Hoshen Y, 2015, INT CONF ACOUST SPEE, V0, PP4624, DOI 10.1109/ICASSP.2015.7178847
+   Hu Y., 2019, ARXIV190810345, V0, P0
+   Hu Y., 2019, SIGSPATIAL SPECIAL, V10, P16, DOI 10.1145/3307599.3307609
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Janowicz K, 2020, INT J GEOGR INF SCI, V34, P625, DOI 10.1080/13658816.2019.1684500
+   Janowicz K, 2011, J SPAT INT SCI, V0, PP29, DOI 10.5311/JOSIS.2011.2.3
+   Jarvelin K, 2002, ACM T INFORM SYST, V20, P422, DOI 10.1145/582415.582418
+   Jones CB, 2008, INT J GEOGR INF SCI, V22, P219, DOI 10.1080/13658810701626343
+   Kang YH, 2019, T GIS, V23, P450, DOI 10.1111/tgis.12552
+   Kedron P, 2021, GEOGR ANAL, V53, P135, DOI 10.1111/gean.12221
+   Kendall MG, 1945, BIOMETRIKA, V33, P239, DOI 10.1093/biomet/33.3.239
+   Kounadi O., 2009, THESIS U COLL LONDON, V0, P0
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Larson R., 1996, GIS LIB PATRONS MAPS, V0, P81
+   LeCun Y, 2010, IEEE INT SYMP CIRC S, V0, PP253, DOI 10.1109/ISCAS.2010.5537907
+   Li WW, 2020, INT J GEOGR INF SCI, V34, P637, DOI 10.1080/13658816.2018.1542697
+   Liang SN, 2005, COMPUTER GRAPHICS, V0, P24
+   Liu HY, 2016, PROC CVPR IEEE, V0, PP2167, DOI 10.1109/CVPR.2016.238
+   Liu LQ, 2012, PROC CVPR IEEE, V0, PP3586, DOI 10.1109/CVPR.2012.6248103
+   Liu T., 2003, P 16 INT C NEURAL IN, V0, P265
+   Liu X, 2019, EPJ DATA SCI, V8, P0, DOI 10.1140/epjds/s13688-019-0182-z
+   Mai G., 2020, ICLR 2020 C, V0, P1
+   Masci J, 2011, LECT NOTES COMPUT SC, V6791, P52, DOI 10.1007/978-3-642-21735-7_7
+   McKenzie G, 2015, COMPUT ENVIRON URBAN, V54, P1, DOI 10.1016/j.compenvurbsys.2015.05.003
+   McSherry F, 2008, LECT NOTES COMPUT SC, V4956, P414
+   Nedas KN., 2008, T GIS, V12, P661, DOI 10.1111/j.1467-9671.2008.01127.x
+   Neis P, 2012, FUTURE INTERNET, V4, P1, DOI 10.3390/fi4010001
+   Ning H, 2020, ANN GIS, V26, P329, DOI 10.1080/19475683.2020.1803402
+   Paisitkriangkrai S, 2015, PROC CVPR IEEE, V0, PP1846, DOI 10.1109/CVPR.2015.7298794
+   Ren SQ, 2017, IEEE T PATTERN ANAL, V39, P1137, DOI 10.1109/TPAMI.2016.2577031
+   Roussopoulos Nick, 1995, ACM SIGMOD REC, V24, P71
+   Ruck DW, 1990, J NEURAL NETWORK COM, V2, P40
+   Sainath TN, 2015, INT CONF ACOUST SPEE, V0, PP4580, DOI 10.1109/ICASSP.2015.7178838
+   Samano N., 2020, ARXIV191108797, V0, P0
+   Schroff F, 2015, PROC CVPR IEEE, V0, PP815, DOI 10.1109/CVPR.2015.7298682
+   Schwering A., 2010, P 20 ANN M COGN LING, V0, P0
+   Schwering A, 2014, SPAT COGN COMPUT, V14, P220, DOI 10.1080/13875868.2014.917378
+   Shibata T, 2003, THIRD IEEE INTERNATIONAL CONFERENCE ON DATA MINING, V0, P641
+   Spruyt Vincent, 2018, LOC2VEC LEARNING LOC, V0, P0
+   Srivastava S, 2018, PROCEEDINGS OF THE 2ND ACM SIGSPATIAL INTERNATIONAL WORKSHOP ON AI FOR GEOGRAPHIC KNOWLEDGE DISCOVERY (GEOAI 2018), V0, PP43, DOI 10.1145/3281548.3281559
+   Tian YJ, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8010035
+   Tu Huynh N., 2007, CARTOGRAPHICA INT J, V42, P285, DOI 10.3138/CARTO.42.4.285
+   Voorhees E.M., 2000, P 2 INT C LANG RES E, V0, P77
+   Wallgrun JO., 2010, P 18 SIGSPATIAL INT, V10, P300, DOI 10.1145/1869790.1869833
+   Wan LM, 2019, ANN GIS, V25, P45, DOI 10.1080/19475683.2018.1564791
+   Wang C, 2017, IEEE INT CONF COMP V, V0, PP1907, DOI 10.1109/ICCVW.2017.225
+   Wang J, 2015, J SPAT INT SCI, V0, PP31, DOI 10.5311/JOSIS.2015.11.225
+   Wang J, 2011, LECT NOTES GEOINF CA, V1, P497, DOI 10.1007/978-3-642-19789-5_25
+   Wang J, 2014, PROC CVPR IEEE, V0, PP1386, DOI 10.1109/CVPR.2014.180
+   Weinberger KQ, 2009, J MACH LEARN RES, V10, P207
+   Winter S, 2000, ISPRS J PHOTOGRAMM, V55, P189, DOI 10.1016/S0924-2716(00)00019-8
+   Yan B, 2018, 2018 IEEE INTERNATIONAL CONFERENCE ON ENVIRONMENT AND ELECTRICAL ENGINEERING AND 2018 IEEE INDUSTRIAL AND COMMERCIAL POWER SYSTEMS EUROPE (EEEIC / I&CPS EUROPE), V0, P0
+   Yan B, 2017, 25TH ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2017), V0, P0, DOI DOI 10.1145/3139958.3140054
+   Zhang F, 2018, COMPUT ENVIRON URBAN, V71, P153, DOI 10.1016/j.compenvurbsys.2018.05.005
+   Zhang YY, 2019, AAAI CONF ARTIF INTE, V0, P9243
+   Zhu D, 2020, INT J GEOGR INF SCI, V34, P735, DOI 10.1080/13658816.2019.1599122
+NR 86
+TC 1
+Z9 1
+U1 6
+U2 10
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1361-1682
+EI 1467-9671
+J9 T GIS
+JI Trans. GIS
+PD JUN 15
+PY 2022
+VL 26
+IS 4
+BP 1914
+EP 1938
+DI 10.1111/tgis.12915
+EA MAR 2022
+PG 25
+WC Geography
+SC Geography
+GA 2N8XD
+UT WOS:000776485100001
+DA 2023-04-26
+ER
+
+PT J
+AU Vicentiy, AV
+AF Vicentiy, A. V.
+TI Natural Language Processing Technology for Spatial Information Recognition and Visualization
+SO ARTIFICIAL INTELLIGENCE TRENDS IN SYSTEMS, VOL 2
+LA English
+DT Proceedings Paper
+DE Natural language processing; Named entity recognition; Spatial relationship recognition; Lexical semantic patterns; Geovisualization; Text-to-map conversion; Automatic map generation; Based map generation
+ID named entity recognition
+AB This paper is devoted to the problem of natural language texts processing for spatial information recognition. The paper describes the technology of recognizing named entities and extracting information about the spatial connectivity of geographical objects for natural language texts. A hybrid approach is used to process the texts. The hybrid approach allows to combine the capabilities of neural network approach, rule-based approach and lexico-semantic pattern-based approach for text processing within a single information technology. The peculiarity of the proposed technology is the original way to form and take into account the context for the recognition of named entities and spatial relationships of geographical objects. Also, this paper describes a way of creating and using lexico-semantic patterns, taking into account the peculiarities of language and subject area. This work is a development of technology for recognition and extraction of geo-attributed entities from natural language texts and the groundwork for creating cognitive geovisualization technology, taking into account the specifics of information perception by the end user. One of the prospects of the considered hybrid technology is its use as one of the main elements of cognitive geographical user interface.
+C1 [Vicentiy, A. V.] Russian Acad Sci, Subdiv Fed Res Ctr, Kola Sci Ctr, Inst Informat & Math Modeling, 24A Fersman St, Apatity 184209, Murmansk Region, Russia.
+C3 Russian Academy of Sciences; Kola Science Centre of the Russian Academy of Sciences; Institute for Informatics & Mathematical Modeling, Kola Science Centre of the Russian Academy of Sciences
+RP Vicentiy, AV (corresponding author), Russian Acad Sci, Subdiv Fed Res Ctr, Kola Sci Ctr, Inst Informat & Math Modeling, 24A Fersman St, Apatity 184209, Murmansk Region, Russia.
+EM alx_2003@mail.ru
+CR Agarwal M, 2019, INT J RES APPL SCI E, V7, P2811, DOI 10.22214/ijraset.2019.5462
+   Apresyan Y.D., 2007, TYPOLOGY LANGUAGE TH, V0, P17
+   Bogacheva E., 2019, ACM INT C P SER ASS, V0, PP13, DOI 10.1145/3374587.3374637
+   Cabrera-Diego L.A., 2021, P 8 BSNLPWORKSHOP BA, V0, P98
+   Campelo E.C., 2016, REV BRASILEIRA CARTO, V68, P1123
+   Devlin J, 2019, 2019 CONFERENCE OF THE NORTH AMERICAN CHAPTER OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES (NAACL HLT 2019), VOL. 1, P4171
+   EARLEY J, 1970, COMMUN ACM, V13, P94, DOI 10.1145/362007.362035
+   Goyal A, 2018, COMPUT SCI REV, V29, P21, DOI 10.1016/j.cosrev.2018.06.001
+   Hahmann S, 2013, INT J GEOGR INF SCI, V27, P1171, DOI 10.1080/13658816.2012.743664
+   Hall MM, 2022, INT J GEOGR INF SCI, V36, P55, DOI 10.1080/13658816.2021.1913498
+   Khurana D., 2017, ARXIV170805148, V0, P0, DOI DOI 10.48550/ARXIV.1708.05148
+   Mozharova VA, 2017, COMM COM INF SC, V661, P185, DOI 10.1007/978-3-319-52920-2_18
+   Nadeau D, 2007, LINGUIST INVESTIG, V30, P3
+   Namestnikov A.M., 2021, AUTOM CONTROL PROCES, V2, P34
+   Naykhanova L.V., 2008, TECHNOLOGY CREATING, V0, P244
+   [Ненаусников К.В. Nenausnikov K.V.], 2019, ИЗВЕСТИЯ ВЫСШИХ УЧЕБНЫХ ЗАВЕДЕНИЙ. ПРИБОРОСТРОЕНИЕ IZVESTIYA VYSSHIKH UCHEBNYKH ZAVEDENII. PRIBOROSTROENIE, V62, P976
+   Pilecki B.M., 2021, IOP C SERIES EARTH E, V937, P0, DOI 10.1088/1755-1315/937/4/042079
+   Piskorski J, 2019, 7TH WORKSHOP ON BALTO-SLAVIC NATURAL LANGUAGE PROCESSING (BSNLP2019), V0, P63
+   Purves RS, 2018, FOUND TRENDS INF RET, V12, P164, DOI 10.1561/1500000034
+   Said M, 2020, IOP C SERIES EARTH E, V492, P0, DOI 10.1088/1755-1315/492/1/012087
+   Stock K., 2018, MINING LOCATION SOCI, V0, P0, DOI DOI 10.1016/j.compenvurbsys.2018.05.007
+   Sun P, 2018, INT CONF ASIAN LANG, V0, PP273, DOI 10.1109/IALP.2018.8629225
+   Timofeev P.S., 2018, SYST INFORM, V13, P35
+   Vicentiy A. V., 2021, SOFTWARE ENGINEERING AND ALGORITHMS: PROCEEDINGS OF 10TH COMPUTER SCIENCE ON-LINE CONFERENCE 2021. LECTURE NOTES IN NETWORKS AND SYSTEMS, V0, PP609, DOI 10.1007/978-3-030-77442-4_51
+   Vicentiy A. V., 2020, IOP CONFERENCE SERIES: EARTH AND ENVIRONMENTAL SCIENCE, V539, P0, DOI 10.1088/1755-1315/539/1/012018
+   Vicentiy AV, 2019, ADV INTELL SYST, V1046, P419, DOI 10.1007/978-3-030-30329-7_37
+   Vicentiy AV, 2019, ADV INTELL SYST, V763, P216, DOI 10.1007/978-3-319-91186-1_23
+   Vicentiy A.V., 2021, LNNS, V232, P971, DOI 10.1007/978-3-030-90318-3_78
+   Vicentiy A.V., 2019, 19 INT MULTIDISCIPLI, V0, PP667, DOI 10.5593/sgem2019/2.1/S07.087
+NR 37
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 2367-3370
+EI 2367-3389
+J9 LECT NOTE NETW SYST
+PD JUN 15
+PY 2022
+VL 502
+IS 
+BP 512
+EP 520
+DI 10.1007/978-3-031-09076-9_46
+PG 9
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA BU3UY
+UT WOS:000893642100046
+DA 2023-04-26
+ER

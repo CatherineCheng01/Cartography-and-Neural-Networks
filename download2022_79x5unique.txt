@@ -1,0 +1,501 @@
+
+PT J
+AU Li, PP
+   Liu, JP
+   Luo, A
+   Wang, Y
+   Zhu, J
+   Xu, SH
+AF Li, Pengpeng
+   Liu, Jiping
+   Luo, An
+   Wang, Yong
+   Zhu, Jun
+   Xu, Shenghua
+TI Deep learning method for Chinese multisource point of interest matching
+SO COMPUTERS ENVIRONMENT AND URBAN SYSTEMS
+LA English
+DT Article
+DE Multisource POI; Deep learning; Word2vec; Text-CNN; MLP; ESIM
+ID visualization; integration; quality
+AB Multisource point of interest (POI) matching refers to the pairing of POIs that refer to the same geographic entity in different data sources. This also constitutes the core issue in geospatial data fusion and update. The existing methods cannot effectively capture the complex semantic information from a text, and the manually defined rules largely affect matching results. This study developed a multisource POI matching method based on deep learning that transforms the POI pair matching problem into a binary classification problem. First, we used three different Chinese word segmentation methods to segment the POI text attributes and used the segmentation results to train the Word2Vec model to generate the corresponding word vector representation. Then, we used the text convolutional neural network (Text-CNN) and multilayer perceptron (MLP) to extract the POI attributes' features and generate the corresponding feature vector representation. Finally, we used the enhanced sequential inference model (ESIM) to perform local inference and inference combination on each attribute to realize the classification of POI pairs. We used the POI dataset containing Baidu Map, Tencent Map, and Gaode Map from Chengdu to train, verify, and test the model. The experimental results show that the matching precision, recall rate, and F1 score of the proposed method exceed 98% on the test set, and it is significantly better than the existing matching methods.
+C1 [Li, Pengpeng; Liu, Jiping; Wang, Yong; Zhu, Jun; Xu, Shenghua] Southwest Jiaotong Univ, Fac Geosci & Environm Engn, Chengdu 610031, Peoples R China.
+   [Li, Pengpeng; Liu, Jiping; Luo, An; Wang, Yong; Xu, Shenghua] Chinese Acad Surveying & Mapping, Res Ctr Geospatial Big Data Applicat, Beijing 100830, Peoples R China.
+   [Liu, Jiping] Henan Acad Sci, Inst Geog Sci, Zhengzhou 450052, Peoples R China.
+C3 Southwest Jiaotong University; Chinese Academy of Surveying & Mapping
+RP Liu, JP (corresponding author), Southwest Jiaotong Univ, Fac Geosci & Environm Engn, Chengdu 610031, Peoples R China.
+EM lipengpeng@my.swjtu.edu.cn; liujp@casm.ac.cn; luoan@casm.ac.cn; wangyong@casm.ac.cn; zhujun@swjtu.edu.cn; xushh@casm.ac.cn
+CR Al-Bakri M, 2012, INT J GEOGR INF SCI, V26, P1437, DOI 10.1080/13658816.2011.636012
+   Almeida A, 2018, LECT NOTES COMPUT SC, V11191, P40, DOI 10.1007/978-3-030-01768-2_4
+   [Anonymous], 2011, ACM T INTEL SYST TEC, V0, P0
+   Bartusiak R, 2019, NEUROCOMPUTING, V326, P141, DOI 10.1016/j.neucom.2017.01.121
+   Bergstra J, 2012, J MACH LEARN RES, V13, P281
+   Blower JD, 2013, ENVIRON MODELL SOFTW, V47, P218, DOI 10.1016/j.envsoft.2013.04.002
+   Chen K., 2013, ADV NEURAL INF PROCE, V0, P0
+   Chen K., 2013, EFFICIENT ESTIMATION, V0, P0
+   Chen Q, 2017, PROCEEDINGS OF THE 55TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2017), VOL 1, P1657, DOI 10.18653/v1/P17-1152
+   Christen Peter, 2012, DATA MATCHING, V0, P23
+   Collobert R, 2011, J MACH LEARN RES, V12, P2493
+   Deng Y, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8100435
+   Fushiki T, 2011, STAT COMPUT, V21, P137, DOI 10.1007/s11222-009-9153-8
+   Goodchild MF, 2012, SPAT STAT-NETH, V1, P110, DOI 10.1016/j.spasta.2012.03.002
+   Hochmair HH, 2018, LECT NOTES GEOINF CA, V0, PP293, DOI 10.1007/978-3-319-71470-7_15
+   HORNIK K, 1989, NEURAL NETWORKS, V2, P359, DOI 10.1016/0893-6080(89)90020-8
+   Hu S, 2020, COMPUT ENVIRON URBAN, V80, P0, DOI 10.1016/j.compenvurbsys.2019.101442
+   Jaccard P, 1908, B SOC VAUD SCI N, V44, P223, DOI 10.5169/SEALS-268384
+   Kang M., 2015, ACTA GEODAETICA CART, V44, P99, DOI 10.11947/J.AGCS.2015.20130205
+   Kim Y., 2014, PREPRINT, V0, P0
+   Kolahdouzan MR, 2005, GEOINFORMATICA, V9, P321, DOI 10.1007/s10707-005-4575-8
+   LEVENSHT.VI, 1965, DOKL AKAD NAUK SSSR+, V163, P845
+   Li CM, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9040214
+   Li L, 2016, ENTROPY-SWITZ, V18, P0, DOI 10.3390/e18020045
+   Li PP, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9110635
+   Li X, 2005, AI MAG, V26, P45
+   Lin Y, 2020, INT J GEOGR INF SCI, V34, P559, DOI 10.1080/13658816.2019.1681431
+   Liu J, 2020, INFORM FUSION, V53, P123, DOI 10.1016/j.inffus.2019.06.016
+   Marti P, 2019, COMPUT ENVIRON URBAN, V74, P161, DOI 10.1016/j.compenvurbsys.2018.11.001
+   McKenzie G, 2015, CARTOGRAPHICA, V50, P71, DOI 10.3138/cart.50.2.2662
+   McKenzie G, 2014, CARTOGR GEOGR INF SC, V41, P125, DOI 10.1080/15230406.2014.880327
+   Mohammed M, 2020, PLOS ONE, V15, P0, DOI 10.1371/journal.pone.0230442
+   Novack T, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7030117
+   Parikh A, 2016, P 2016 C EMP METH NA, V0, PP2249, DOI 10.18653/V1/D16-1244
+   Piech M, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9050291
+   Samal A, 2004, INT J GEOGR INF SCI, V18, P459, DOI 10.1080/13658810410001658076
+   Scheffler Tatjana, 2012, KI 2012: ADVANCES IN ARTIFICIAL INTELLIGENCE. PROCEEDINGS OF THE 35TH ANNUAL GERMAN CONFERENCE ON AI, V0, PP245, DOI 10.1007/978-3-642-33347-7_24
+   Sehgal Vivek, 2006, ANN ACM INT S ADV GE, V0, P0
+   Tu W, 2020, COMPUT ENVIRON URBAN, V80, P0, DOI 10.1016/j.compenvurbsys.2019.101428
+   Wang T, 2018, COMPUT ENVIRON URBAN, V71, P88, DOI 10.1016/j.compenvurbsys.2018.04.005
+   Xue N., 2003, INT J COMPUTATIONAL, V0, P29
+   Zeng C, 2018, SUSTAIN CITIES SOC, V40, P296, DOI 10.1016/j.scs.2018.04.021
+   Zhai W, 2019, COMPUT ENVIRON URBAN, V74, P1, DOI 10.1016/j.compenvurbsys.2018.11.008
+   Zhang Y., 2015, SENSITIVITY ANAL AND, V0, P0
+   Zhang ZC, 2021, LAND-BASEL, V10, P0, DOI 10.3390/land10101059
+NR 46
+TC 1
+Z9 1
+U1 11
+U2 21
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0198-9715
+EI 1873-7587
+J9 COMPUT ENVIRON URBAN
+JI Comput. Environ. Urban Syst.
+PD SEP 15
+PY 2022
+VL 96
+IS 
+BP 
+EP 
+DI 10.1016/j.compenvurbsys.2022.101821
+PG 11
+WC Computer Science, Interdisciplinary Applications; Engineering, Environmental; Environmental Studies; Geography; Operations Research & Management Science; Regional & Urban Planning
+SC Computer Science; Engineering; Environmental Sciences & Ecology; Geography; Operations Research & Management Science; Public Administration
+GA 2H5SD
+UT WOS:000814353300003
+DA 2023-04-26
+ER
+
+PT J
+AU Xu, GS
+   Wang, Y
+   Wang, LZ
+   Soares, LP
+   Grohmann, CH
+AF Xu, Guosen
+   Wang, Yi
+   Wang, Lizhe
+   Soares, Lucas Pedrosa
+   Grohmann, Carlos H.
+TI Feature-Based Constraint Deep CNN Method for Mapping Rainfall-Induced Landslides in Remote Regions With Mountainous Terrain: An Application to Brazil
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Landslides; Feature extraction; Vegetation mapping; Remote sensing; Image segmentation; Semantics; Indexes; Auxiliary features; deep convolutional neural networks (DCNNs); feature selection; high-resolution image; landslide detection
+ID images; classification; segmentation; inventory
+AB Landslides have caused tremendous damage to human lives and property safety. However, the complex environment of mountain landslides and the vegetation coverage around landslides make it difficult to identify landslides quickly and efficiently using high-resolution images. To address this challenge, this article presents a feature-based constraint deep U-Net (FCDU-Net) method to detect rainfall-induced mountainous landslides. Usually, the vegetation in the landslide area is severely damaged, and the vegetation coverage can indirectly reflect the spatial extent of the landslide. Meanwhile, the texture features of high-resolution images can characterize the surface environment of landslide hazards to a certain extent. We first introduce auxiliary features of normalized difference vegetation index and gray-level co-occurrence matrix into the proposed method to further improve the detection performance. Then, to minimize the information redundancy of these features and the image, we combine Relief-F and Deep U-Net to screen the optimal features to effectively identify accurate and detailed landslide boundaries. Compared with traditional semantic segmentation methods, the FCDU-Net method can capture fine-grained details in high-resolution images and produce more accurate segmentation results. We conducted experiments by applying the proposed method and other most popular semantic segmentation methods to a high-resolution RapidEye image in Rio de Janeiro, Brazil. The results demonstrate that the FCDU-Net method can achieve better landslide detection results than the other semantic segmentation methods, and the evaluation measures of Precision, F1 score, and mean Intersection-over-Union are as high as 88.87%, 81.17%, and 83.19%, respectively. Furthermore, we quantitatively analyze the effect of the convolution input window size on the performance of FCDU-Net in detecting landslides. We believe that FCDU-Net can serve as a reliable tool for fast and accurate regional landslide hazard surveys.
+C1 [Xu, Guosen; Wang, Yi] China Univ Geosci, Inst Geophys & Geomat, Wuhan 430074, Peoples R China.
+   [Wang, Yi; Wang, Lizhe] China Univ Geosci, State Key Lab Biogeol & Environm Geol, Wuhan 430074, Peoples R China.
+   [Wang, Lizhe] China Univ Geosci, Inst Comp Sci, Wuhan 430074, Peoples R China.
+   [Soares, Lucas Pedrosa] Univ Sao Paulo, Inst Geosci, BR-05508080 Sao Paulo, Brazil.
+   [Grohmann, Carlos H.] Univ Sao Paulo, Inst Energy & Environm, BR-05508010 Sao Paulo, Brazil.
+C3 China University of Geosciences; China University of Geosciences; China University of Geosciences; Universidade de Sao Paulo; Universidade de Sao Paulo
+RP Wang, Y (corresponding author), China Univ Geosci, Inst Geophys & Geomat, Wuhan 430074, Peoples R China.; Wang, Y (corresponding author), China Univ Geosci, State Key Lab Biogeol & Environm Geol, Wuhan 430074, Peoples R China.
+EM guosennn@163.com; cug.yi.wang@gmail.com; lizhe.wang@gmail.com; lpsoares@usp.br; guano@usp.br
+FU National Natural Science Foundation of China [U21A2013, 61271408]; State Key Laboratory of Biogeology and Environmental Geology; China University of Geosciences [GBL12107]; Sao Paulo Research Foundation (FAPESP) [2019/17555-1, 2016/06628-0]; Brazil's National Council of Scientific and Technological Development, CNPq [423481/2018-5, 304413/2018-6]; CAPES Brasil [001]
+CR [Anonymous], 1999, WAVELET TOUR SIGNAL, V0, P0
+   Avelar A.S., 2013, LANDSLIDE SCI PRACTI, V0, PP265, DOI 10.1007/978-3-642-31337-0_34
+   Behling R, 2014, REMOTE SENS-BASEL, V6, P8026, DOI 10.3390/rs6098026
+   Borghuis AM, 2007, INT J REMOTE SENS, V28, P1843, DOI 10.1080/01431160600935638
+   Bragagnolo L, 2021, CATENA, V201, P0, DOI 10.1016/j.catena.2021.105189
+   Chen F, 2018, LANDSLIDES, V15, P453, DOI 10.1007/s10346-017-0884-x
+   Chen L.-C., 2018, P EUR C COMP VIS ECC, V0, PP801, DOI 10.1007/978-3-030-01234-2_49
+   Chen LB, 2017, IEEE INT SYMP NANO, V0, PP1, DOI 10.1109/NANOARCH.2017.8053709
+   Cheng KS, 2004, ADV SPACE RES-SERIES, V33, P296, DOI 10.1016/S0273-1177(03)00471-X
+   Choudhury AR, 2019, LECT NOTES COMPUT SC, V11384, P154, DOI 10.1007/978-3-030-11726-9_14
+   Danneels G, 2007, INT GEOSCI REMOTE SE, V0, PP3014, DOI 10.1109/IGARSS.2007.4423479
+   Ding AZ, 2016, 2016 31ST YOUTH ACADEMIC ANNUAL CONFERENCE OF CHINESE ASSOCIATION OF AUTOMATION (YAC), V0, PP444, DOI 10.1109/YAC.2016.7804935
+   Dou J, 2015, NAT HAZARDS, V78, P1749, DOI 10.1007/s11069-015-1799-2
+   Ghorbanzadeh O, 2021, IEEE J-STARS, V14, P452, DOI 10.1109/JSTARS.2020.3043836
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020196
+   Guo HN, 2021, REMOTE SENS ENVIRON, V264, P0, DOI 10.1016/j.rse.2021.112589
+   Harp EL, 2011, ENG GEOL, V122, P9, DOI 10.1016/j.enggeo.2010.06.013
+   He D, 2021, IEEE T GEOSCI REMOTE, V59, P9518, DOI 10.1109/TGRS.2020.3032475
+   He D, 2021, IEEE T GEOSCI REMOTE, V59, P10628, DOI 10.1109/TGRS.2021.3050824
+   He KM, 2015, IEEE I CONF COMP VIS, V0, PP1026, DOI 10.1109/ICCV.2015.123
+   Heleno S, 2016, NAT HAZARD EARTH SYS, V16, P1035, DOI 10.5194/nhess-16-1035-2016
+   Hervas J, 2003, GEOMORPHOLOGY, V54, P63, DOI 10.1016/S0169-555X(03)00056-4
+   Holbling D, 2015, EARTH SCI INFORM, V8, P327, DOI 10.1007/s12145-015-0217-3
+   Huang GL, 2017, IEEE ICC, V0, P0
+   Iglovikov V., 2018, ARXIV180105746, V0, P1
+   Ji SP, 2020, LANDSLIDES, V17, P1337, DOI 10.1007/s10346-020-01353-2
+   King DB, 2015, ACS SYM SER, V1214, P1
+   KIRA K, 1992, MACHINE LEARNING /, V0, P249
+   Konecny J, 2016, IEEE J-STSP, V10, P242, DOI 10.1109/JSTSP.2015.2505682
+   Krizhevsky Alex, 2017, COMMUNICATIONS OF THE ACM, V60, P84, DOI 10.1145/3065386
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Li X, 2019, ARXIV191102855, V0, P0
+   Li ZB, 2016, REMOTE SENS ENVIRON, V175, P215, DOI 10.1016/j.rse.2016.01.003
+   Lira C, 2011, INT GEOSCI REMOTE SE, V0, P1997
+   Liu P, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10030168
+   Lu H, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12050752
+   Lu P, 2011, IEEE GEOSCI REMOTE S, V8, P701, DOI 10.1109/LGRS.2010.2101045
+   Marcelino EV, 2009, INT J APPL EARTH OBS, V11, P181, DOI 10.1016/j.jag.2009.01.003
+   Martha TR, 2012, ISPRS J PHOTOGRAMM, V67, P105, DOI 10.1016/j.isprsjprs.2011.11.004
+   Martha TR, 2010, GEOMORPHOLOGY, V116, P24, DOI 10.1016/j.geomorph.2009.10.004
+   Martin YE, 2005, INT J REMOTE SENS, V26, P1505, DOI 10.1080/01431160412331330202
+   Meng XF, 2020, ENERGIES, V13, P0, DOI 10.3390/en13153824
+   Milletari F, 2016, INT CONF 3D VISION, V0, PP565, DOI 10.1109/3DV.2016.79
+   Mohan A, 2021, T EMERG TELECOMMUN T, V32, P0, DOI 10.1002/ett.3998
+   Netto A.L.C., 2013, LANDSLIDE SCI PRACTI, V0, PP377, DOI 10.1007/978-3-642-31319-6_51
+   Nichol J, 2005, INT J REMOTE SENS, V26, P1913, DOI 10.1080/01431160512331314047
+   Nichol JE, 2006, GEOMORPHOLOGY, V76, P68, DOI 10.1016/j.geomorph.2005.10.001
+   Othman AA, 2013, REMOTE SENS-BASEL, V5, P2389, DOI 10.3390/rs5052389
+   Park NW, 2008, INT J REMOTE SENS, V29, P247, DOI 10.1080/01431160701227661
+   Qi WW, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12152487
+   Qin SW, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13173383
+   Raspini F, 2016, J MAPS, V12, P1010, DOI 10.1080/17445647.2015.1114975
+   Rau JY, 2014, IEEE T GEOSCI REMOTE, V52, P1336, DOI 10.1109/TGRS.2013.2250293
+   Ronneberger O., 2015, INT C MED IM COMP CO, V0, PP234, DOI 10.1007/978-3-319-24574-4_28
+   Shelhamer E, 2017, IEEE T PATTERN ANAL, V39, P640, DOI 10.1109/TPAMI.2016.2572683
+   Shi WZ, 2021, IEEE T GEOSCI REMOTE, V59, P4654, DOI 10.1109/TGRS.2020.3015826
+   Soares L. P., 2020, ARXIV200706672, V0, P0
+   Stumpf A, 2011, REMOTE SENS ENVIRON, V115, P2564, DOI 10.1016/j.rse.2011.05.013
+   Sun WW, 2018, IEEE GEOSCI REMOTE S, V15, P474, DOI 10.1109/LGRS.2018.2795531
+   Tarolli P, 2012, NAT HAZARDS, V61, P65, DOI 10.1007/s11069-010-9695-2
+   Visa S., 2005, P 16 MIDW ART INT CO, V0, P67
+   Volpi M, 2017, IEEE T GEOSCI REMOTE, V55, P881, DOI 10.1109/TGRS.2016.2616585
+   Wang ZT, 2021, J CLIN MED, V10, P0, DOI 10.3390/jcm10081768
+   Wei X, 2018, REMOTE SENS LETT, V9, P199, DOI 10.1080/2150704X.2017.1410291
+   Yang WT, 2013, IEEE GEOSCI REMOTE S, V10, P707, DOI 10.1109/LGRS.2012.2219576
+   Yi YN, 2020, IEEE J-STARS, V13, P6166, DOI 10.1109/JSTARS.2020.3028855
+   Yu H, 2017, 2017 IEEE INTERNATIONAL CONFERENCE ON MECHATRONICS AND AUTOMATION (ICMA), V0, PP40, DOI 10.1109/ICMA.2017.8015785
+   Zhang PF, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12233992
+   Zhang WJ, 2010, INT J REMOTE SENS, V31, P3495, DOI 10.1080/01431161003727630
+   Zhang Y., 2019, P CHIN HIGH RES EART, V0, P471
+   Zhao CY, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10070993
+   Zhong C, 2020, INT J REMOTE SENS, V41, P1555, DOI 10.1080/01431161.2019.1672904
+   Zhou ZW, 2018, LECT NOTES COMPUT SC, V11045, P3, DOI 10.1007/978-3-030-00889-5_1
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 74
+TC 3
+Z9 3
+U1 11
+U2 25
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 2644
+EP 2659
+DI 10.1109/JSTARS.2022.3161383
+PG 16
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 0I7OJ
+UT WOS:000779605200003
+DA 2023-04-26
+ER
+
+PT J
+AU Mubarak, M
+   Tahir, A
+   Waqar, F
+   Haneef, I
+   McArdle, G
+   Bertolotto, M
+   Saeed, MT
+AF Mubarak, Maryam
+   Tahir, Ali
+   Waqar, Fizza
+   Haneef, Ibraheem
+   McArdle, Gavin
+   Bertolotto, Michela
+   Saeed, Muhammad Tariq
+TI A Map-Based Recommendation System and House Price Prediction Model for Real Estate
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE real estate; map personalisation; map recommendation; house price prediction; estatech maps; real estate analytics
+AB Simple Summary The accessibility of spatial big data help real estate investors to make better judgement calls and earn additional profit. Since location is considered necessary for real estate and consequent decision-making, digital maps have become a prime resource for real estate purchases, planning and development. Personalisation can support in making judgments by identifying user requirements and inclinations, which a user interacts with digital map, it records all the user's activities. A personalised real estate portal can use this information to suggest properties, assist homeowners and provide valuable real estate analytics. By monitoring user interactions through an online real estate portal, the framework provided in this article can make personalised recommendations of real estate based on content, collaboration and location. The effectiveness of the recommendations was tested by the user feedback mechanism through a method of mean absolute precision, and the results show that 79% precise suggestions were generated. Out of 5 recommendations produced, users were interested in at least 3. A separate house price prediction model was also developed base on neural networks and classical regression technique. This model implemented to assist users in making an informed decision regarding prospects of real estate purchase. In 2015, global real estate was worth $217 trillion, which is approximately 2.7 times the global GDP; it also accounts for roughly 60% of all conventional global resources, making it one of the key factors behind any country's economic growth and stability. The accessibility of spatial big data will help real estate investors make better judgement calls and earn additional profit. Since location is deemed necessary for real estate and consequent decision-making, digital maps have become a prime resource for real estate purchases, planning and development. Personalisation can assist in making judgments by identifying user desires and inclinations, which can then be recorded or captured as a user performs some interactions with a digital map. A personalised real estate portal can use this information to suggest properties, assist homeowners and provide valuable real estate analytics. This article presents a novel framework for recommending real estate to users. By monitoring user interactions through an online real estate portal, the framework can make personalised recommendations of real estate based on content, collaboration and location. The effectiveness of the recommendations was tested by the user feedback mechanism through a method of mean absolute precision, and the results show that 79% precise suggestions were generated, i.e., out of 5 recommendations produced, users were interested in at least 3. Along with that, a separate house price prediction model based on neural networks and classical regression techniques was also implemented to assist users in making an informed decision regarding prospects of real estate purchase.
+C1 [Mubarak, Maryam; Tahir, Ali] Natl Univ Sci & Technol, Inst Geog Informat Syst, Islamabad 44000, Pakistan.
+   [Waqar, Fizza] GIS Plus Total Solut, Islamabad 44000, Pakistan.
+   [Haneef, Ibraheem] Air Univ, Dept Mech & Aerosp Engg, Islamabad 44000, Pakistan.
+   [McArdle, Gavin; Bertolotto, Michela] Univ Coll Dublin, Sch Comp Sci, Dublin D04 V1W8, Ireland.
+   [Saeed, Muhammad Tariq] Natl Univ Sci & Technol, Res Ctr Modelling & Simulat, Islamabad 44000, Pakistan.
+C3 National University of Sciences & Technology - Pakistan; Air University Islamabad; University College Dublin; National University of Sciences & Technology - Pakistan
+RP Tahir, A (corresponding author), Natl Univ Sci & Technol, Inst Geog Informat Syst, Islamabad 44000, Pakistan.
+EM mmubarak.ms18igis@igis.nust.edu.pk; ali.tahir@igis.nust.edu.pk; fizza.waqar@gisplus.net; ibraheem.haneef@mail.au.edu.pk; gavin.mcardle@ucd.ie; michela.bertolotto@ucd.ie; tariq@rcms.nust.edu.pk
+FU Higher Education Commission (HEC), Pakistan [TDF03-249]
+CR Abdullahi A., 2018, ATBU J ENV TECHNOLOG, V11, P26
+   Ayyaz S, 2018, PLOS ONE, V13, P0, DOI 10.1371/journal.pone.0204849
+   Bai Y, 2020, INFORMATION, V11, P0, DOI 10.3390/info11030171
+   Ballatore A., 2010, PROC 2010 ACM S APPL, V0, P887
+   Breese J.S., 1998, UAI, V0, PP43, DOI 10.1111/J.1553-2712.2011.01172.X
+   Chaturvedi S., 2021, EASYCHAIR, V0, P4926
+   DENNING PJ, 1982, COMMUN ACM, V25, P163, DOI 10.1145/358453.358454
+   Geetha G, 2018, J PHYS CONF SER, V1000, P0, DOI 10.1088/1742-6596/1000/1/012101
+   Greenaway-McGrevy R, 2021, J SPAT EC, V2, P6, DOI 10.1007/s43071-021-00013-4
+   Fernandez-Garcia AJ, 2019, KNOWL-BASED SYST, V164, P68, DOI 10.1016/j.knosys.2018.10.019
+   Knoll J., 2018, INT C INNOVATIONS CO, V0, PP111, DOI 10.1007/978-3-319-93408-2_9
+   Kong J.S., 2011, P KDD CUP, V18, P249
+   Mac Aoidh E, 2008, INFORM VISUAL, V7, P275, DOI 10.1057/ivs.2008.24
+   Mubarak M, 2020, PROCEEDINGS OF THE 6TH INTERNATIONAL CONFERENCE ON GEOGRAPHICAL INFORMATION SYSTEMS THEORY, V0, P184, DOI 10.5220/0009368301840190
+   Rabiei-Dastjerdi H, 2021, INT J DIGIT EARTH, V14, P121, DOI 10.1080/17538947.2020.1808719
+   Rawool AG., 2021, INT J RES APPL SCI E, V9, P686, DOI 10.22214/IJRASET.2021.37451
+   Rehman F., 2019, MEDITERRANEAN C PATT, V0, P177
+   Renigier-Bilozor M, 2022, LAND USE POLICY, V113, P0, DOI 10.1016/j.landusepol.2021.105876
+   Sarwar B, 2001, P 10 INT C WORLD WID, V0, PP285, DOI 10.1145/371920.372071
+   Shani G, 2005, J MACH LEARN RES, V6, P1265
+   Sisman S, 2023, SURV REV, V55, P1, DOI 10.1080/00396265.2021.1996797
+   Tezuka T, 2007, LECT NOTES COMPUT SC, V4351, P156
+   Wilson D, 2009, PROC ASME CONF SMART, V0, P1
+   Yu Y., 2018, INT C WEB INF SYST E, V0, P61
+NR 24
+TC 1
+Z9 1
+U1 9
+U2 15
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD MAR 15
+PY 2022
+VL 11
+IS 3
+BP 
+EP 
+DI 10.3390/ijgi11030178
+PG 19
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 0C4ZS
+UT WOS:000775323800001
+DA 2023-04-26
+ER
+
+PT J
+AU Erramaline, A
+   Badard, T
+   Cote, MP
+   Duchesne, T
+   Mercier, O
+AF Erramaline, Abdelmajid
+   Badard, Thierry
+   Cote, Marie-Pier
+   Duchesne, Thierry
+   Mercier, Olivier
+TI Identification of Road Network Intersection Types from Vehicle Telemetry Data Using a Convolutional Neural Network
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE car insurance; GPS traces; intersection; machine learning; road network
+AB GPS trajectories collected from automotive telematics for insurance purposes go beyond being a collection of points on the map. They are in fact a powerful data source that we can use to extract map and road network properties. While the location of road junctions is readily available, the information about the traffic control element regulating the intersection is typically unknown. However, this information would be helpful, e.g., for contextualizing a driver's behavior. Our focus is to use a map-matched GPS OBD-dongle dataset provided by a Canadian insurance company to classify intersections into three classes according to the type of traffic control element present: traffic light, stop sign, or no sign. We design a convolutional neural network (CNN) for classifying intersections. The network takes as entries, for a defined number of trips, the speed and the acceleration profiles over each segment of one meter on a window around the intersection. Our method outperforms two other competing approaches, achieving 99% overall accuracy. Furthermore, our CNN model can infer the three classes even with as few as 25 trips.
+C1 [Erramaline, Abdelmajid; Badard, Thierry] Univ Laval, Ctr Res Geospatial Data & Intelligence, Quebec City, PQ G1V 0A6, Canada.
+   [Erramaline, Abdelmajid; Badard, Thierry; Cote, Marie-Pier; Duchesne, Thierry; Mercier, Olivier] Univ Laval, Big Data Res Ctr, Quebec City, PQ G1V 0A6, Canada.
+   [Cote, Marie-Pier; Mercier, Olivier] Univ Laval, Sch Actuarial Sci, Quebec City, PQ G1V 0A6, Canada.
+   [Duchesne, Thierry] Univ Laval, Dept Math & Stat, Quebec City, PQ G1V 0A6, Canada.
+C3 Laval University; Laval University; Laval University; Laval University
+RP Erramaline, A (corresponding author), Univ Laval, Ctr Res Geospatial Data & Intelligence, Quebec City, PQ G1V 0A6, Canada.; Erramaline, A (corresponding author), Univ Laval, Big Data Res Ctr, Quebec City, PQ G1V 0A6, Canada.
+EM abdelmajid.erramaline.1@ulaval.ca
+FU Intact Financial Corporation; Natural Sciences and Engineering Research Council of Canada [RDCPJ-515901-17, RGPIN-2019-04190, RGPIN-2019-06788]
+CR Aqib M, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19092206
+   Blais P, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9120722
+   Bruntrup R., 2005, 2005 IEEE INTELLIGENT TRANSPORTATION SYSTEMS CONFERENCE (ITSC), V0, P574
+   Carisi R., 2011, 2011 EIGHTH INTERNATIONAL CONFERENCE ON WIRELESS ON-DEMAND NETWORK SYSTEMS AND SERVICES (WONS 2011), V0, PP27, DOI 10.1109/WONS.2011.5720196
+   Fouchal H., 2019, IEEE VTS VEH TECHNOL, V0, P1
+   Golze J., 2020, J CARTOGR GEOGR INF, V70, P95, DOI 10.1007/s42489-020-00048-x
+   Goyal D, 2019, P 8 INT WORKSHOP URB, V0, P0
+   Hu SH, 2015, ACM T SENSOR NETWORK, V11, P0, DOI 10.1145/2770876
+   Ioffe S., 2015, ARXIV 1502 03167, V1, P448
+   Leblanc B., 2020, P 2020 IEEE 91 VEHIC, V0, P1
+   Luxen C. Vetter, 2011, P 19 ACM SIGSPATIAL, V0, PP513, DOI 10.1145/2093973.2094062
+   Lv YS, 2015, IEEE T INTELL TRANSP, V16, P865, DOI 10.1109/TITS.2014.2345663
+   Maas A L., 2013, PROC ICML, Vvol 30, Pp 3, DOI 10.1016/0010-0277(84)90022-2
+   Meneroux Y, 2020, INT J DATA SCI ANAL, V10, P101, DOI 10.1007/s41060-019-00197-x
+   Mullner D., 2011, ARXIV, V0, P0
+   Munoz-Organero M, 2018, COMPUT ENVIRON URBAN, V68, P1, DOI 10.1016/j.compenvurbsys.2017.09.005
+   Poudel N, 2021, TRANSPORT REV, V41, P617, DOI 10.1080/01441647.2021.1877207
+   Raynal L., 1996, P GIS LIS INT C DENV, V0, P1223
+   Silverman B. W., 1986, DENSITY ESTIMATION S, V0, P0
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sliwinski A., 2020, EC DEV FINANCIAL MAR, V0, P143
+   Stipancic J, 2018, ACCIDENT ANAL PREV, V115, P160, DOI 10.1016/j.aap.2018.03.005
+   Thavikulwat P., 2014, DEV BUSINESS SIMULAT, V35, P0
+   Transportation Association of Canada, 2014, ERR GEOM DES GUID CA, V0, P0
+   Tselentis DI, 2017, ACCIDENT ANAL PREV, V98, P139, DOI 10.1016/j.aap.2016.10.006
+   Wang CX, 2021, GEO-SPAT INF SCI, V24, P75, DOI 10.1080/10095020.2020.1843374
+   Yin XY, 2022, IEEE T INTELL TRANSP, V23, P4927, DOI 10.1109/TITS.2021.3054840
+   Zourlidou S., 2019, P GEOSPATIAL TECHNOL, V0, P0
+   Zourlidou S, 2019, ISPRS INT J GEO-INF, V8, P0, DOI 10.3390/ijgi8110491
+NR 30
+TC 0
+Z9 0
+U1 3
+U2 4
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD SEP 15
+PY 2022
+VL 11
+IS 9
+BP 
+EP 
+DI 10.3390/ijgi11090475
+PG 15
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 4S9IY
+UT WOS:000857746300001
+DA 2023-04-26
+ER
+
+PT J
+AU Li, QY
+   Mou, LC
+   Hua, YS
+   Shi, YL
+   Zhu, XX
+AF Li, Qingyu
+   Mou, Lichao
+   Hua, Yuansheng
+   Shi, Yilei
+   Zhu, Xiao Xiang
+TI Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation
+SO IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+LA English
+DT Article
+DE Buildings; Semantics; Image segmentation; Remote sensing; Feature extraction; Convolutional neural networks; Task analysis; Attraction field map (AFM); building footprint; convolutional neural network (CNN); semantic segmentation
+ID hough transformation; sentinel-2 images; extraction; classification; segmentation
+AB Building footprint generation is a vital task in a wide range of applications, including, to name a few, land use management, urban planning and monitoring, and geographical database updating. Most existing approaches addressing this problem fall back on convolutional neural networks (CNNs) to learn semantic masks of buildings. However, one limitation of their results is blurred building boundaries. To address this, we propose to learn attraction field representation for building boundaries, which is capable of providing an enhanced representation power. Our method comprises two elemental modules: an Img2AFM module and an AFM2Mask module. More specifically, the former aims at learning an attraction field representation conditioned on an input image, which is capable of enhancing building boundaries and suppressing the background. The latter module predicts segmentation masks of buildings using the learned attraction field map. The proposed method is evaluated on three datasets with different spatial resolutions: the ISPRS dataset, the INRIA dataset, and the Planet dataset. From experimental results, we find that the proposed framework can well preserve geometric shapes and sharp boundaries of buildings, which brings significant improvements over other competitors. The trained model and code are available at https://github.com/lqycrystal/AFM_building.
+C1 [Li, Qingyu; Mou, Lichao; Hua, Yuansheng; Shi, Yilei; Zhu, Xiao Xiang] Tech Univ Munchen TUM, Data Sci Earth Observat, D-80333 Munich, Germany.
+   [Li, Qingyu; Mou, Lichao; Hua, Yuansheng; Zhu, Xiao Xiang] German Aerosp Ctr DLR, Remote Sensing Technol Inst IMF, D-82234 Wessling, Germany.
+C3 Technical University of Munich; Helmholtz Association; German Aerospace Centre (DLR)
+RP Zhu, XX (corresponding author), Tech Univ Munchen TUM, Data Sci Earth Observat, D-80333 Munich, Germany.
+EM qingyu.li@tum.de; lichao.mou@dlr.de; yuansheng.hua@dlr.de; yilei.shi@tum.de; xiaoxiang.zhu@dlr.de
+FU European Research Council (ERC) through the European Union [ERC-2016-StG-714087]; Helmholtz Association through the Framework of Helmholtz AI [ZT-I-PF-5-01]; Helmholtz Excellent Professorship "Data Science in Earth Observation-Big Data Fusion for Urban Research" [W2-W3-100]; German Federal Ministry of Education and Research (BMBF) [01DD20001]; project "Investigation of Building Cases Using AI" - Bavarian State Ministry of Finance and Regional Identity (StMFH); Bavarian Agency for Digitization ,High-Speed Internet and Surveying
+CR Akinlar C, 2011, PATTERN RECOGN LETT, V32, P1633, DOI 10.1016/j.patrec.2011.06.001
+   Audebert N, 2019, COMPUT VIS IMAGE UND, V189, P0, DOI 10.1016/j.cviu.2019.102809
+   Badrinarayanan V, 2017, IEEE T PATTERN ANAL, V39, P2481, DOI 10.1109/TPAMI.2016.2644615
+   Bischke B, 2019, IEEE IMAGE PROC, V0, PP1480, DOI 10.1109/ICIP.2019.8803050
+   Bittner K, 2018, IEEE J-STARS, V11, P2615, DOI 10.1109/JSTARS.2018.2849363
+   BURNS JB, 1986, IEEE T PATTERN ANAL, V8, P425, DOI 10.1109/TPAMI.1986.4767808
+   Cheng D, 2019, PROC CVPR IEEE, V0, PP7423, DOI 10.1109/CVPR.2019.00761
+   Cote M, 2013, IEEE T GEOSCI REMOTE, V51, P313, DOI 10.1109/TGRS.2012.2200689
+   Cui SY, 2012, REMOTE SENS LETT, V3, P151, DOI 10.1080/01431161.2010.548410
+   Derpanis K. G., 2004, HARRIS CORNER DETECT, V0, P1
+   DUDA RO, 1972, COMMUN ACM, V15, P11, DOI 10.1145/361237.361242
+   Girard N., 2020, ARXIV200414875, V0, P0
+   Griffiths D, 2019, ISPRS J PHOTOGRAMM, V154, P70, DOI 10.1016/j.isprsjprs.2019.05.013
+   Harris C., 1988, P 4 ALV VIS C, V15, P147
+   Hua YS, 2020, IEEE T GEOSCI REMOTE, V58, P4558, DOI 10.1109/TGRS.2019.2963364
+   Hua YS, 2019, ISPRS J PHOTOGRAMM, V149, P188, DOI 10.1016/j.isprsjprs.2019.01.015
+   Huang X, 2017, IEEE J-STARS, V10, P654, DOI 10.1109/JSTARS.2016.2587324
+   Huang X, 2011, PHOTOGRAMM ENG REM S, V77, P721, DOI 10.14358/PERS.77.7.721
+   Izadi M, 2012, IEEE T GEOSCI REMOTE, V50, P2254, DOI 10.1109/TGRS.2011.2172995
+   Jegou S, 2017, IEEE COMPUT SOC CONF, V0, PP1175, DOI 10.1109/CVPRW.2017.156
+   Ji SP, 2019, IEEE T GEOSCI REMOTE, V57, P574, DOI 10.1109/TGRS.2018.2858817
+   Kang J, 2020, IEEE T GEOSCI REMOTE, V58, P8905, DOI 10.1109/TGRS.2020.2991657
+   Kang J, 2021, IEEE T GEOSCI REMOTE, V59, P4355, DOI 10.1109/TGRS.2020.3016020
+   Kass M., 1987, PROCEEDINGS OF THE FIRST INTERNATIONAL CONFERENCE ON COMPUTER VISION (CAT. NO.87CH2465-3), V0, PP259, DOI 10.1007/BF00133570
+   Kokkinos I, 2010, LECT NOTES COMPUT SC, V6312, P650, DOI 10.1007/978-3-642-15552-9_47
+   LI Q, 2020, P IEEE INT GEOSC REM, V0, P1452
+   Li QY, 2020, IEEE T GEOSCI REMOTE, V58, P7502, DOI 10.1109/TGRS.2020.2973720
+   Li X, 2018, IEEE J-STARS, V11, P3680, DOI 10.1109/JSTARS.2018.2865187
+   Li ZY, 2019, IEEE I CONF COMP VIS, V0, PP1715, DOI 10.1109/ICCV.2019.00180
+   Lin JB, 2019, IEEE ACCESS, V7, P54285, DOI 10.1109/ACCESS.2019.2912822
+   Liu PH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11070830
+   Long J, 2015, PROC CVPR IEEE, V0, PP3431, DOI 10.1109/CVPR.2015.7298965
+   Lowe DG, 2004, INT J COMPUT VISION, V60, P91, DOI 10.1023/B:VISI.0000029664.99615.94
+   Maggiori E, 2017, INT GEOSCI REMOTE SE, V0, P3226
+   Maggiori E, 2017, IEEE T GEOSCI REMOTE, V55, P645, DOI 10.1109/TGRS.2016.2612821
+   Marcos D, 2018, PROC CVPR IEEE, V0, PP8877, DOI 10.1109/CVPR.2018.00925
+   Marmanis D, 2018, ISPRS J PHOTOGRAMM, V135, P158, DOI 10.1016/j.isprsjprs.2017.11.009
+   Mou LC, 2018, IEEE T GEOSCI REMOTE, V56, P6699, DOI 10.1109/TGRS.2018.2841808
+   Ok AO, 2013, ISPRS J PHOTOGRAMM, V86, P21, DOI 10.1016/j.isprsjprs.2013.09.004
+   Qin XB, 2018, IEEE GEOSCI REMOTE S, V15, P1775, DOI 10.1109/LGRS.2018.2857719
+   Qiu CP, 2020, ISPRS J PHOTOGRAMM, V163, P152, DOI 10.1016/j.isprsjprs.2020.01.028
+   Qiu CP, 2019, ISPRS J PHOTOGRAMM, V154, P151, DOI 10.1016/j.isprsjprs.2019.05.004
+   Ronneberger O, 2015, LECT NOTES COMPUT SC, V9351, P234, DOI 10.1007/978-3-319-24574-4_28
+   Sadykova D, 2017, 2017 INTERNATIONAL CONFERENCE ON ADVANCES IN COMPUTING, V0, P2366
+   Shi YL, 2020, ISPRS J PHOTOGRAMM, V159, P184, DOI 10.1016/j.isprsjprs.2019.11.004
+   Simonyan K, 2015, ARXIV, V0, P0
+   Sobel I., 1990, MACHINE VISION 3 DIM, V0, PP376, DOI 10.13140/RG.2.1.1912.4965
+   Srivastava S, 2017, INT GEOSCI REMOTE SE, V0, P5173
+   Sun X, 2021, IEEE T GEOSCI REMOTE, V59, P6154, DOI 10.1109/TGRS.2020.3023928
+   Turker M, 2015, INT J APPL EARTH OBS, V34, P58, DOI 10.1016/j.jag.2014.06.016
+   Wang J, 2015, IEEE GEOSCI REMOTE S, V12, P487, DOI 10.1109/LGRS.2014.2347332
+   Wang M, 2013, INT GEOSCI REMOTE SE, V0, PP508, DOI 10.1109/IGARSS.2013.6721204
+   Wang PJ, 2020, IEEE T GEOSCI REMOTE, V58, P3377, DOI 10.1109/TGRS.2019.2954328
+   Wang Z, 2004, IEEE T IMAGE PROCESS, V13, P600, DOI 10.1109/TIP.2003.819861
+   Wei SQ, 2020, IEEE T GEOSCI REMOTE, V58, P2178, DOI 10.1109/TGRS.2019.2954461
+   Xue N, 2019, PROC CVPR IEEE, V0, PP1595, DOI 10.1109/CVPR.2019.00169
+   Yang HL, 2018, IEEE J-STARS, V11, P2600, DOI 10.1109/JSTARS.2018.2835377
+   Yuan JY, 2018, IEEE T PATTERN ANAL, V40, P2793, DOI 10.1109/TPAMI.2017.2750680
+   Zangrandi M, 2015, INT GEOSCI REMOTE SE, V0, PP1024, DOI 10.1109/IGARSS.2015.7325943
+   Zhao WF, 2021, ISPRS J PHOTOGRAMM, V175, P119, DOI 10.1016/j.isprsjprs.2021.02.014
+   Zhu XX, 2017, IEEE GEOSC REM SEN M, V5, P8, DOI 10.1109/MGRS.2017.2762307
+NR 61
+TC 8
+Z9 8
+U1 7
+U2 14
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0196-2892
+EI 1558-0644
+J9 IEEE T GEOSCI REMOTE
+JI IEEE Trans. Geosci. Remote Sensing
+PD JUN 15
+PY 2022
+VL 60
+IS 
+BP 
+EP 
+DI 10.1109/TGRS.2021.3109844
+EA SEP 2021
+PG 17
+WC Geochemistry & Geophysics; Engineering, Electrical & Electronic; Remote Sensing; Imaging Science & Photographic Technology
+SC Geochemistry & Geophysics; Engineering; Remote Sensing; Imaging Science & Photographic Technology
+GA YP2XM
+UT WOS:000732756700001
+DA 2023-04-26
+ER

@@ -1,0 +1,481 @@
+
+PT J
+AU Zorzi, S
+   Bazrafkan, S
+   Habenschuss, S
+   Fraundorfer, F
+AF Zorzi, Stefano
+   Bazrafkan, Shabab
+   Habenschuss, Stefan
+   Fraundorfer, Friedrich
+TI PolyWorld: Polygonal Building Extraction with Graph Neural Networks in Satellite Images
+SO 2022 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR 2022)
+LA English
+DT Proceedings Paper
+ID lidar data
+AB While most state-of-the-art instance segmentation methods produce binary segmentation masks, geographic and cartographic applications typically require precise vector polygons of extracted objects instead of rasterized output. This paper introduces PolyWorld, a neural network that directly extracts building vertices from an image and connects them correctly to create precise polygons. The model predicts the connection strength between each pair of vertices using a graph neural network and estimates the assignments by solving a differentiable optimal transport problem. Moreover, the vertex positions are optimized by minimizing a combined segmentation and polygonal angle difference loss. PolyWorld significantly outperforms the state of the art in building polygonization and achieves not only notable quantitative results, but also produces visually pleasing building polygons. Code and trained weights are publicly available at https://github.com/zorzi-s/PolyWorldPretrainedNetwork.
+C1 [Zorzi, Stefano; Fraundorfer, Friedrich] Graz Univ Technol, Graz, Austria.
+   [Bazrafkan, Shabab; Habenschuss, Stefan] Blackshark Ai, Graz, Austria.
+   [Zorzi, Stefano] VRVis, Vienna, Austria.
+C3 Graz University of Technology
+RP Zorzi, S (corresponding author), Graz Univ Technol, Graz, Austria.; Zorzi, S (corresponding author), VRVis, Vienna, Austria.
+EM stefano.zorzi@icg.tugraz.at; sbazrafkan@blackshark.ai; shabenschuss@blackshark.ai; fraundorfer@icg.tugraz.at
+FU VRVis [879730]; BMK [879730]; BMDW [879730]; Styria [879730]; SFG [879730]; Tyrol [879730]; Vienna Business Agency [879730]
+CR Alom MZ, 2019, J MED IMAGING, V6, P0, DOI 10.1117/1.JMI.6.1.014006
+   Awrangjeb M, 2010, ISPRS J PHOTOGRAMM, V65, P457, DOI 10.1016/j.isprsjprs.2010.06.001
+   Berman M, 2018, PROC CVPR IEEE, V0, PP4413, DOI 10.1109/CVPR.2018.00464
+   Castrejon L, 2017, PROC CVPR IEEE, V0, PP4485, DOI 10.1109/CVPR.2017.477
+   Chen YH, 2021, INT C PATT RECOG, V0, PP8360, DOI 10.1109/ICPR48806.2021.9413115
+   Cheng D, 2019, PROC CVPR IEEE, V0, PP7423, DOI 10.1109/CVPR.2019.00761
+   Cuturi M, 2013, ADV NEURAL INFORM PR, V0, PP2292, DOI 10.48550/ARXIV.1306.0895
+   David Acuna, 2018, 2018 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION. PROCEEDINGS, V0, PP859, DOI 10.1109/CVPR.2018.00096
+   Douglas D. H., 1973, CARTOGRAPHICA INT J, V10, P112, DOI 10.3138/FM57-6770-U75U-7727
+   Girard N, 2021, PROC CVPR IEEE, V0, PP5887, DOI 10.1109/CVPR46437.2021.00583
+   Golovanov S, 2018, IEEE COMPUT SOC CONF, V0, PP219, DOI 10.1109/CVPRW.2018.00040
+   Hamaguchi R, 2018, IEEE COMPUT SOC CONF, V0, PP223, DOI 10.1109/CVPRW.2018.00041
+   He KM, 2017, IEEE I CONF COMP VIS, V0, PP2980, DOI 10.1109/TPAMI.2018.2844175
+   Iglovikov V., 2018, ARXIV180105746, V0, P1
+   Iglovikov V, 2018, IEEE COMPUT SOC CONF, V0, PP228, DOI 10.1109/CVPRW.2018.00042
+   Li ZY, 2019, IEEE I CONF COMP VIS, V0, PP1715, DOI 10.1109/ICCV.2019.00180
+   Liang Justin, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP9128, DOI 10.1109/CVPR42600.2020.00915
+   Lin JX, 2019, PROCEEDINGS OF THE TWENTY-EIGHTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P2980
+   Lin TY, 2014, LECT NOTES COMPUT SC, V8693, P740, DOI 10.1007/978-3-319-10602-1_48
+   Ling H, 2019, PROC CVPR IEEE, V0, PP5252, DOI 10.1109/CVPR.2019.00540
+   Liu S, 2018, PROC CVPR IEEE, V0, PP8759, DOI 10.1109/CVPR.2018.00913
+   Lorensen W.E., 1987, P 14 ANN C COMPUTER, V0, PP163, DOI 10.1145/37402.37422
+   Maggiori E., 2017, P IEEE INT GEOSC REM, V0, P0
+   Marcos D, 2018, PROC CVPR IEEE, V0, PP8877, DOI 10.1109/CVPR.2018.00925
+   Mohanty S. P., 2019, CROWDAI MAPPING CHAL, V0, P0
+   MUNKRES J, 1957, J SOC IND APPL MATH, V5, P32, DOI 10.1137/0105003
+   Peyre G, 2019, FOUND TRENDS MACH LE, V11, P355, DOI 10.1561/2200000073
+   Rahman Md Atiqur, 2016, ADVANCES IN VISUAL COMPUTING. 12TH INTERNATIONAL SYMPOSIUM, V0, P234, DOI 10.1007/978-3-319-50835-1_22
+   Sarlin PE, 2020, PROC CVPR IEEE, V0, PP4937, DOI 10.1109/CVPR42600.2020.00499
+   SINKHORN R, 1967, PAC J MATH, V21, P343, DOI 10.2140/pjm.1967.21.343
+   Sohn G., 2012, ISPRS ANN PHOTOGRAMM, V1, P305, DOI 10.5194/ISPRSANNALS-I-3-305-2012
+   Sohn G, 2007, ISPRS J PHOTOGRAMM, V62, P43, DOI 10.1016/j.isprsjprs.2007.01.001
+   Stekovic Sinisa, 2021, ARXIV210311161, V0, P0
+   Sudre CH, 2017, LECT NOTES COMPUT SC, V10553, P240, DOI 10.1007/978-3-319-67558-9_28
+   Tang M, 2018, LECT NOTES COMPUT SC, V11220, P524, DOI 10.1007/978-3-030-01270-0_31
+   Tang M, 2018, PROC CVPR IEEE, V0, PP1818, DOI 10.1109/CVPR.2018.00195
+   Vaswani A, 2017, ADV NEURAL INFORM PR, V30, P5998, DOI 10.48550/ARXIV.1706.03762
+   Zha K, 2018, IEEE COMPUT SOC CONF, V0, PP242, DOI 10.1109/CVPRW.2018.00045
+   Zorzi S, 2021, INT C PATT RECOG, V0, PP3098, DOI 10.1109/ICPR48806.2021.9412866
+   Zorzi S, 2019, INT GEOSCI REMOTE SE, V0, P5140
+NR 40
+TC 0
+Z9 0
+U1 4
+U2 4
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+SN 1063-6919
+EI 
+J9 PROC CVPR IEEE
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 1838
+EP 1847
+DI 10.1109/CVPR52688.2022.00189
+PG 10
+WC Computer Science, Artificial Intelligence; Imaging Science & Photographic Technology
+SC Computer Science; Imaging Science & Photographic Technology
+GA BU0EQ
+UT WOS:000867754202010
+DA 2023-04-26
+ER
+
+PT J
+AU Wang, MY
+   Gourbesville, P
+   Liong, SY
+   Kim, D
+   Liu, JD
+AF Wang, Mingyan
+   Gourbesville, Philippe
+   Liong, Shie-Yui
+   Kim, Dongeon
+   Liu, Jiandong
+TI Flood Analysis and Simulation Attempts of the Newly Proposed Capital City of Indonesia
+SO ADVANCES IN HYDROINFORMATICS: MODELS FOR COMPLEX AND GLOBAL WATER ISSUES-PRACTICES AND EXPECTATIONS
+LA English
+DT Proceedings Paper
+DE DEM; Remote sensing; Artificial neural network; Flood simulation; 2D hydraulic model; MIKE 21 FM
+AB Many cities in Southeast Asia suffer from severe flooding due to the increasing rainfall intensity caused by climate change. Jakarta, the capital city of Indonesia, is an example. Jakarta experienced four devastating floods during the past 20 years and is also facing a serious challenge with a land subsidence problem due to overexploitation of groundwater combined with the rising sea level. In view of these phenomena, a capital relocation project is proposed by the Indonesian government to move the capital city to Kalimantan island. This study provides flood assessment of the new capital city of Indonesia at its present condition. Due to the scarcity of good quality digital elevation model (DEM) data, which is a key component for the accuracy of flood simulations, a recently introduced DEM improvement scheme using remote sensing technology and artificial neural network (ANN) was applied. The scheme improved two publicly accessible satellite DEM data, SRTM DEM and AW3D30 DEM. These data, together with a multispectral imagery of Sentinel-2 satellite data, are used to derive a high-accuracy DEM using ANN. The DEM improvement scheme was tested at different countries (France and New Zealand) prior to its application on the study area. MIKE 21 Flow Model Flexible Mesh (MIKE 21 FM) was selected and applied to Kalimantan to simulate flood and identify the flood prone areas. Input data to MIKE 21 FM were DEM (from SRTM and AW3D30) and rainfall proxy data from WRF driven by ERAI. This study showed the flood map of 100-year return period of the study area.
+C1 [Wang, Mingyan; Gourbesville, Philippe] Univ Cote dAzur, Polytech Lab, 930 Route Colles, F-06903 Sophia Antipolis, France.
+   [Liong, Shie-Yui; Kim, Dongeon; Liu, Jiandong] Natl Univ Singapore, Trop Marine Sci Inst, 18 Kent Ridge Rd, Singapore, Singapore.
+   [Gourbesville, Philippe] China Inst Water Resources & Hydropower Res, Beijing, Peoples R China.
+C3 UDICE-French Research Universities; Universite Cote d'Azur; National University of Singapore; China Institute of Water Resources & Hydropower Research
+RP Wang, MY (corresponding author), Univ Cote dAzur, Polytech Lab, 930 Route Colles, F-06903 Sophia Antipolis, France.
+EM mingyan.wang@etu.unice.fr; philippe.gourbesville@univ-cotedazur.fr; yui.liong@h2oclimate.org; tmsliuj@nus.edu.sg
+FU China Scholarship Council; National Research Foundation, Singapore under its AI Singapore Programme (AISG Award) [AISG-100E/GC/RP/RPKS-2019-045]
+CR [Anonymous], 1944, Q APPL MATH, V0, P0, DOI DOI 10.1090/QAM/10666
+   Dong-Eon Kim, 2019, SMART WATER, V4, P0, DOI 10.1186/s40713-018-0014-5
+   Emam AR, 2016, WATER-SUI, V8, P0, DOI 10.3390/w8120559
+   Erkens G, 2015, P INT ASS HYDROL SCI, V372, P189, DOI 10.5194/piahs-372-189-2015
+   Farr T. G., 2000, EOS T AM GEOPHYS UNI, V81, P583, DOI 10.1029/EO081I048P00583
+   Gatti A., 2018, SENTINEL 2 PRODUCTS, V0, P0
+   Liu J, 2017, THESIS NATL U SINGAP, V0, P0
+   MARQUARDT DW, 1963, J SOC IND APPL MATH, V11, P431, DOI 10.1137/0111030
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Tadono T., 2014, ISPRS ANN PHOTOGRAMM, VII-4, P71, DOI 10.5194/isprsannals-II-4-71-2014
+   Takagi H, 2016, URBAN CLIM, V17, P135, DOI 10.1016/j.uclim.2016.05.003
+   Takaku J., 2014, ISPRS ANN PHOTOGRAMM, V4, P243, DOI 10.5194/ISPRSARCHIVES-XL-4-243-2014
+   Wendi D, 2016, J ADV MODEL EARTH SY, V8, P691, DOI 10.1002/2015MS000536
+NR 14
+TC 0
+Z9 0
+U1 4
+U2 4
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 2364-6934
+EI 2364-8198
+J9 SPRINGER WATER
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 1145
+EP 1163
+DI 10.1007/978-981-19-1600-7_73
+PG 19
+WC Computer Science, Interdisciplinary Applications; Mathematics, Applied; Water Resources
+SC Computer Science; Mathematics; Water Resources
+GA BT9XF
+UT WOS:000865798000073
+DA 2023-04-26
+ER
+
+PT J
+AU Wei, ZQ
+   Liang, D
+   Zhang, D
+   Zhang, LY
+   Geng, QX
+   Wei, MQ
+   Zhou, HY
+AF Wei, Zongqi
+   Liang, Dong
+   Zhang, Dong
+   Zhang, Liyan
+   Geng, Qixiang
+   Wei, Mingqiang
+   Zhou, Huiyu
+TI Learning Calibrated-Guidance for Object Detection in Aerial Images
+SO IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING
+LA English
+DT Article
+DE Object detection; Feature extraction; Task analysis; Calibration; Head; Magnetic heads; Detectors; Aerial image; attention learning; calibrated-guidance (CG); deep learning; object detection
+AB Object detection is one of the most fundamental yet challenging research topics in the domain of computer vision. Recently, the study on this topic in aerial images has made tremendous progress. However, complex background and worse imaging quality are obvious problems in aerial object detection. Most state-of-the-art approaches tend to develop elaborate attention mechanisms for the space-time feature calibrations with arduous computational complexity, while surprisingly ignoring the importance of feature calibrations in channel-wise. In this work, we propose a simple yet effective calibrated-guidance (CG) scheme to enhance channel communications in a feature transformer fashion, which can adaptively determine the calibration weights for each channel based on the global feature affinity correlations. Specifically, for a given set of feature maps, CG first computes the feature similarity between each channel and the remaining channels as the intermediary calibration guidance. Then, rerepresenting each channel by aggregating all the channels weighted together via the guidance operation. Our CG is a general module that can be plugged into any deep neural networks, which is named as CG-Net. To demonstrate its effectiveness and efficiency, extensive experiments are carried out on both oriented object detection task and horizontal object detection task in aerial images. Experimental results on two challenging benchmarks (i.e., DOTA and HRSC2016) demonstrate that our CG-Net can achieve the new state-of-the-art performance in accuracy with a fair computational overhead. The source code has been open sourced at https://github.com/WeiZongqi/CG-Net.
+C1 [Wei, Zongqi; Liang, Dong; Zhang, Liyan; Geng, Qixiang; Wei, Mingqiang] Nanjing Univ Aeronaut & Astronaut, Collaborat Innovat Ctr Novel Software Technol & I, MIIT Key Lab Pattern Anal & Machine Intelligence, Coll Comp Sci & Technol, Nanjing 211106, Peoples R China.
+   [Zhang, Dong] Nanjing Univ Sci & Technol, Sch Comp Sci & Engn, Nanjing 210094, Peoples R China.
+   [Zhou, Huiyu] Univ Leicester, Sch Informat, Leicester LE1 7RH, Leics, England.
+C3 Nanjing University of Aeronautics & Astronautics; Nanjing University of Science & Technology; University of Leicester
+RP Zhang, LY (corresponding author), Nanjing Univ Aeronaut & Astronaut, Collaborat Innovat Ctr Novel Software Technol & I, MIIT Key Lab Pattern Anal & Machine Intelligence, Coll Comp Sci & Technol, Nanjing 211106, Peoples R China.
+EM weizongqi@nuaa.edu.cn; liangdong@nuaa.edu.cn; dongzhang@njust.edu.cn; zhangliyan@nuaa.edu.cn; gengqixiang@nuaa.edu.cn; mqwei@nuaa.edu.cn; hz143@leicester.ac.uk
+FU AI+ Project of NUAA [XZA20003]; Natural Science Foundation of China [62172212]; Natural Science Foundation of Jiangsu Province [BK20190065]; Civil Aviation Administration of China [U2033202]; Free Exploration of Basic Research Project; Local Science and Technology Development Fund Guided by the Central Government of China [2021Szvup060]
+CR Azimi SM, 2019, LECT NOTES COMPUT SC, V11363, P150, DOI 10.1007/978-3-030-20893-6_10
+   Bello I, 2019, IEEE I CONF COMP VIS, V0, PP3285, DOI 10.1109/ICCV.2019.00338
+   Bouhlel F, 2021, EXPERT SYST APPL, V173, P0, DOI 10.1016/j.eswa.2021.114656
+   Carion Nicolas, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12346), V0, PP213, DOI 10.1007/978-3-030-58452-8_13
+   Chaoyang He, 2020, 2020 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR). PROCEEDINGS, V0, PP11990, DOI 10.1109/CVPR42600.2020.01201
+   Chen J, 2020, IEEE GEOSCI REMOTE S, V17, P681, DOI 10.1109/LGRS.2019.2930462
+   Chen L, 2017, PROC CVPR IEEE, V0, PP6298, DOI 10.1109/CVPR.2017.667
+   Dai J, 2016, PROCEEDINGS 2016 IEEE INTERNATIONAL CONFERENCE ON INDUSTRIAL TECHNOLOGY (ICIT), V0, PP1796, DOI 10.1109/ICIT.2016.7475036
+   Deng J, 2009, PROC CVPR IEEE, V0, PP248, DOI 10.1109/CVPRW.2009.5206848
+   Ding J, 2019, PROC CVPR IEEE, V0, PP2844, DOI 10.1109/CVPR.2019.00296
+   Dong Zhang, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12373), V0, PP323, DOI 10.1007/978-3-030-58604-1_20
+   Dosovitskiy A., 2020, IMAGE IS WORTH 16X16, V0, P0
+   Fu J, 2019, PROC CVPR IEEE, V0, PP3141, DOI 10.1109/CVPR.2019.00326
+   Ghiasi G, 2019, PROC CVPR IEEE, V0, PP7029, DOI 10.1109/CVPR.2019.00720
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Gongjie Zhang, 2019, IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING, V57, P10015, DOI 10.1109/TGRS.2019.2930982
+   Haut JM, 2019, IEEE T GEOSCI REMOTE, V57, P9277, DOI 10.1109/TGRS.2019.2924818
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Howard A, 2019, IEEE I CONF COMP VIS, V0, PP1314, DOI 10.1109/ICCV.2019.00140
+   Hu J, 2018, PROC CVPR IEEE, V0, PP7132, DOI 10.1109/CVPR.2018.00745
+   Jiang YY, 2018, INT C PATT RECOG, V0, P3610
+   Jocher G, 2020, YOLOV5, V0, P0
+   Kaminski M, 2021, ENG GEOL, V285, P0, DOI 10.1016/j.enggeo.2021.106004
+   Li LH, 2021, IEEE T GEOSCI REMOTE, V59, P686, DOI 10.1109/TGRS.2020.2995477
+   Liang D, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3136350
+   Liao MH, 2018, PROC CVPR IEEE, V0, PP5909, DOI 10.1109/CVPR.2018.00619
+   Lin TY, 2017, IEEE I CONF COMP VIS, V0, PP2999, DOI 10.1109/ICCV.2017.324
+   Lin TY, 2017, PROC CVPR IEEE, V0, PP936, DOI 10.1109/CVPR.2017.106
+   Lin Y., 2019, ARXIV191200969, V0, P0
+   Liu L., 2017, LEARNING ROTATION IN, V0, P0
+   Liu ZK, 2017, ICPRAM: PROCEEDINGS OF THE 6TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION APPLICATIONS AND METHODS, V0, PP324, DOI 10.5220/0006120603240331
+   Ma JQ, 2018, IEEE T MULTIMEDIA, V20, P3111, DOI 10.1109/TMM.2018.2818020
+   Ming Q, 2022, IEEE T GEOSCI REMOTE, V60, P0, DOI 10.1109/TGRS.2021.3095186
+   Ming Q, 2021, AAAI CONF ARTIF INTE, V35, P2355
+   Newell A, 2016, LECT NOTES COMPUT SC, V9912, P483, DOI 10.1007/978-3-319-46484-8_29
+   Pan X., 2020, P IEEECVF C COMPUTER, V0, P11204
+   Pang JM, 2019, PROC CVPR IEEE, V0, PP821, DOI 10.1109/CVPR.2019.00091
+   Qian W., 2021, P ASS ADV ART INT, V0, P0
+   Qin Z, 2019, IEEE I CONF COMP VIS, V0, PP6717, DOI 10.1109/ICCV.2019.00682
+   Radosavovic I., 2020, P IEEECVF C COMPUTER, V0, P10428
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Ren SQ, 2015, ADV NEUR IN, V28, P0, DOI 10.1109/TPAMI.2016.2577031
+   Simonyan K., 2015, ABS14091556 CORR, V0, P0
+   Vaswani A, 2017, ADV NEUR IN, V30, P0
+   Voita E, 2019, 57TH ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2019), V0, P5797
+   Wang C, 2019, IEEE GEOSCI REMOTE S, V16, P310, DOI 10.1109/LGRS.2018.2872355
+   Wang Q, 2019, IEEE T GEOSCI REMOTE, V57, P1155, DOI 10.1109/TGRS.2018.2864987
+   Wang XL, 2018, PROC CVPR IEEE, V0, PP7794, DOI 10.1109/CVPR.2018.00813
+   Wei HR, 2020, ISPRS J PHOTOGRAMM, V169, P268, DOI 10.1016/j.isprsjprs.2020.09.022
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Wu YX, 2020, INT J COMPUT VISION, V128, P742, DOI 10.1007/s11263-019-01198-w
+   Xia GS, 2018, PROC CVPR IEEE, V0, PP3974, DOI 10.1109/CVPR.2018.00418
+   Xu YC, 2021, IEEE T PATTERN ANAL, V43, P1452, DOI 10.1109/TPAMI.2020.2974745
+   Xue Yang, 2020, COMPUTER VISION - ECCV 2020. 16TH EUROPEAN CONFERENCE. PROCEEDINGS. LECTURE NOTES IN COMPUTER SCIENCE (LNCS 12353), V0, PP677, DOI 10.1007/978-3-030-58598-3_40
+   Yan Rui, 2020, IEEE TRANS PATTERN ANAL MACH INTELL, VPP, P0, DOI 10.1109/TPAMI.2020.3034233
+   Yan R, 2018, PROCEEDINGS OF THE 2018 ACM MULTIMEDIA CONFERENCE (MM18), V0, PP1292, DOI 10.1145/3240508.3240572
+   Yang X., 2021, P AAAI C ART INT, V0, P2021b
+   Yang X., 2018, P IEEE CVF INT C COM, V0, P8232
+   Yang X, 2021, PROC CVPR IEEE, V0, PP15814, DOI 10.1109/CVPR46437.2021.01556
+   Yang X, 2019, IEEE I CONF COMP VIS, V0, PP8231, DOI 10.1109/ICCV.2019.00832
+   Yang X, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010132
+   Yang Zhilin, 2018, P INT C LEARN REPR, V0, P0
+   Yuan Y., 2018, OCNET OBJECT CONTEXT, V0, P0
+   Zhang D., 2021, P IEEE INT C COMP VI, V0, P6933
+   Zhang D., 2020, PROC ADV NEURAL INFO, V33, P655
+   Zhang D, 2020, IEEE GEOSCI REMOTE S, V17, P943, DOI 10.1109/LGRS.2019.2937811
+   Zhang W., 2019, P AS C MACH LEARN, V0, P363
+   Zhang X, 2018, PROC CVPR IEEE, V0, PP6848, DOI 10.1109/CVPR.2018.00716
+   Zhang ZH, 2018, IEEE GEOSCI REMOTE S, V15, P1745, DOI 10.1109/LGRS.2018.2856921
+NR 69
+TC 4
+Z9 4
+U1 4
+U2 8
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1939-1404
+EI 2151-1535
+J9 IEEE J-STARS
+JI IEEE J. Sel. Top. Appl. Earth Observ. Remote Sens.
+PD JUN 15
+PY 2022
+VL 15
+IS 
+BP 2721
+EP 2733
+DI 10.1109/JSTARS.2022.3158903
+PG 13
+WC Engineering, Electrical & Electronic; Geography, Physical; Remote Sensing; Imaging Science & Photographic Technology
+SC Engineering; Physical Geography; Remote Sensing; Imaging Science & Photographic Technology
+GA 0M8QT
+UT WOS:000782413900002
+DA 2023-04-26
+ER
+
+PT J
+AU Chy, MKA
+   Masum, AKM
+   Sayeed, KAM
+   Uddin, MZ
+AF Chy, Md. Kalim Amzad
+   Masum, Abdul Kadar Muhammad
+   Sayeed, Kazi Abdullah Mohammad
+   Uddin, Md Zia
+TI Delicar: A Smart Deep Learning Based Self Driving Product Delivery Car in Perspective of Bangladesh
+SO SENSORS
+LA English
+DT Article
+DE computer vision; self-driving car; smart product delivery; Internet of Things; convolution neural network; Raspberry Pi 3
+ID model; vehicles
+AB The rapid expansion of a country's economy is highly dependent on timely product distribution, which is hampered by terrible traffic congestion. Additional staff are also required to follow the delivery vehicle while it transports documents or records to another destination. This study proposes Delicar, a self-driving product delivery vehicle that can drive the vehicle on the road and report the current geographical location to the authority in real-time through a map. The equipped camera module captures the road image and transfers it to the computer via socket server programming. The raspberry pi sends the camera image and waits for the steering angle value. The image is fed to the pre-trained deep learning model that predicts the steering angle regarding that situation. Then the steering angle value is passed to the raspberry pi that directs the L298 motor driver which direction the wheel should follow. Based upon this direction, L298 decides either forward or left or right or backwards movement. The 3-cell 12V LiPo battery handles the power supply to the raspberry pi and L298 motor driver. A buck converter regulates a 5V 3A power supply to the raspberry pi to be working. Nvidia CNN architecture has been followed, containing nine layers including five convolution layers and three dense layers to develop the steering angle predictive model. Geoip2 (a python library) retrieves the longitude and latitude from the equipped system's IP address to report the live geographical position to the authorities. After that, Folium is used to depict the geographical location. Moreover, the system's infrastructure is far too low-cost and easy to install.
+C1 [Chy, Md. Kalim Amzad; Masum, Abdul Kadar Muhammad; Sayeed, Kazi Abdullah Mohammad] Int Islamic Univ Chittagong, Dept Comp Sci & Engn, Chittagong 4210, Bangladesh.
+   [Uddin, Md Zia] SINTEF Digital, Software & Serv Innovat Dept, N-0316 Oslo, Norway.
+C3 International Islamic University Chittagong (IIUC); SINTEF
+RP Uddin, MZ (corresponding author), SINTEF Digital, Software & Serv Innovat Dept, N-0316 Oslo, Norway.
+EM kalim.amzad.chy@gmail.com; akmmasum@iiuc.ac.bd; s.titas244@gmail.com; zia.uddin@sintef.no
+CR Ahmad T, 2017, IEEE INT VEH SYM, V0, PP1428, DOI 10.1109/IVS.2017.7995910
+   Alam Sahirul, 2019, 2019 INTERNATIONAL CONFERENCE ON COMPUTER SCIENCE, V0, P0
+   Amiri-Ardakani Y, 2021, WATER RESOUR MANAG, V35, P3703, DOI 10.1007/s11269-021-02911-6
+   Apell P, 2023, TECHNOL ANAL STRATEG, V35, P179, DOI 10.1080/09537325.2021.1971188
+   Badue C, 2021, EXPERT SYST APPL, V165, P0, DOI 10.1016/j.eswa.2020.113816
+   Bakioglu G, 2021, APPL SOFT COMPUT, V99, P0, DOI 10.1016/j.asoc.2020.106948
+   Baza M, 2022, IEEE T DEPEND SECURE, V19, P39, DOI 10.1109/TDSC.2020.2993769
+   Bhat SA, 2021, IEEE ACCESS, V9, P110209, DOI 10.1109/ACCESS.2021.3102227
+   Bojarski Mariusz, 2016, ARXIV, V0, P0
+   Bollinger B.L., 2017, N CAROL J LAW TECHNO, V18, P214
+   Chen C, 2021, TRANSPORT RES E-LOG, V146, P0, DOI 10.1016/j.tre.2020.102214
+   Choi Y, 2020, WASTE MANAGE, V106, P261, DOI 10.1016/j.wasman.2020.03.015
+   Chollet F, 2015, KERAS, V0, P0
+   Chy MKA, 2020, LECT NOTE NETW SYST, V89, P1273, DOI 10.1007/978-981-15-0146-3_125
+   Colak Ilknur, 2009, IECON 2009 - 35TH ANNUAL CONFERENCE OF IEEE INDUSTRIAL ELECTRONICS (IECON 2009), V0, PP3803, DOI 10.1109/IECON.2009.5415369
+   Cui J, 2019, AD HOC NETW, V90, P0, DOI 10.1016/j.adhoc.2018.12.006
+   Daily M, 2017, COMPUTER, V50, P18, DOI 10.1109/MC.2017.4451204
+   Davahli MR, 2021, SYMMETRY-BASEL, V13, P0, DOI 10.3390/sym13010102
+   Deb S, 2017, TRANSPORT RES C-EMER, V84, P178, DOI 10.1016/j.trc.2017.08.029
+   Deruyttere T, 2021, ENG APPL ARTIF INTEL, V103, P0, DOI 10.1016/j.engappai.2021.104257
+   Dibaei M, 2019, ARXIV190707455, V0, P0
+   Dommes A, 2021, ACCIDENT ANAL PREV, V159, P0, DOI 10.1016/j.aap.2021.106256
+   Elshafey AE, 2021, LECT NOTES ARTIF INT, V12749, P145, DOI 10.1007/978-3-030-78270-2_26
+   Evans J, 2019, FRONT SUSTAIN CITIES, V1, P0, DOI 10.3389/frsc.2019.00002
+   Fang H, 2015, PROC CVPR IEEE, V0, PP1473, DOI 10.1109/CVPR.2015.7298754
+   Feng S, 2020, ACCIDENT ANAL PREV, V144, P0, DOI 10.1016/j.aap.2020.105664
+   Greenhalgh Jack, 2015, 4TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION APPLICATIONS AND METHODS (ICPRAM 2015). PROCEEDINGS, V0, P130
+   Gu YL, 2017, IATSS RES, V41, P129, DOI 10.1016/j.iatssr.2016.11.002
+   Guo YH, 2022, ALEX ENG J, V61, P2939, DOI 10.1016/j.aej.2021.08.029
+   Hadsell R, 2009, J FIELD ROBOT, V26, P120, DOI 10.1002/rob.20276
+   Hyeon D, 2016, IEEE INT VEH SYM, V0, PP1004, DOI 10.1109/IVS.2016.7535511
+   Islam M., 2013, ASIAN J APPL SCI ENG, V2, P27
+   Jung JH, 2021, CURR OPIN BIOTECH, V70, P15, DOI 10.1016/j.copbio.2020.09.003
+   Katrakazas C, 2015, TRANSPORT RES C-EMER, V60, P416, DOI 10.1016/j.trc.2015.09.011
+   Kong LQ, 2021, FUTURE GENER COMP SY, V125, P59, DOI 10.1016/j.future.2021.06.023
+   Krizhevsky A., 2012, ADV NEURAL INFORM PR, V0, PP1097, DOI 10.2165/00129785-200404040-00005
+   Lecun Y., 2004, DAVE AUTONOMOUS OFF, V0, P0
+   Lee D, 2021, INT J ENV RES PUB HE, V18, P0, DOI 10.3390/ijerph18010271
+   Levine S, 2016, J MACH LEARN RES, V17, P0
+   Levine WS., 2018, CONTROL HDB 3 VOLUME, V0, P0, DOI DOI 10.1201/9781315218694
+   Li L, 2018, ARTIF INTELL REV, V50, P441, DOI 10.1007/s10462-018-9631-5
+   Lim HSM, 2018, ENERGIES, V11, P0, DOI 10.3390/en11051062
+   Long J., 2015, P IEEE C COMPUTER VI, V0, PP3431, DOI 10.48550/ARXIV.1411.4038
+   Lv ZH, 2021, ACM T INTERNET TECHN, V21, P0, DOI 10.1145/3382769
+   Masum Abdul Kadar Muhammad, 2018, 2018 2ND INTERNATIONAL CONFERENCE ON INNOVATIONS IN SCIENCE, V0, P418, DOI 10.1109/ICISET.2018.8745611
+   Masum A.K.M., 2019, P 2019 INT C EL COMP, V0, P1
+   Masum AKM, 2019, PROCEEDINGS OF THE 2019 INTERNATIONAL CONFERENCE ON INTELLIGENT COMPUTING AND CONTROL SYSTEMS (ICCS), V0, PP1549, DOI 10.1109/ICCS45141.2019.9065485
+   Masum AKM, 2019, 2019 INTERNATIONAL CONFERENCE ON ENERGY AND POWER ENGINEERING (ICEPE), V0, P0
+   Mostafa M.S.B., 2019, P 2019 INT C EL COMP, V0, P1
+   Najafzadeh M, 2021, NAT RESOUR RES, V30, P3761, DOI 10.1007/s11053-021-09895-5
+   Najafzadeh M, 2021, ARTIF INTELL REV, V54, P4619, DOI 10.1007/s10462-021-10007-1
+   Nikitas Alexandros, 2019, INTERNATIONAL JOURNAL OF AUTOMOTIVE TECHNOLOGY AND MANAGEMENT, V19, P10
+   Nordhoff S, 2018, J ADV TRANSPORT, V0, P0, DOI DOI 10.1155/2018/5382192
+   Pomerleau D.A., 1989, ADV NEURAL INFORM PR, V0, P0
+   Punetha D., 2013, INT J ADV RES COMPUT, V2, P2446
+   Redmon J, 2016, PROC CVPR IEEE, V0, PP779, DOI 10.1109/CVPR.2016.91
+   Reke M, 2020, 2020 INTERNATIONAL SAUPEC/ROBMECH/PRASA CONFERENCE, V0, P647
+   Robertson RA, 2017, TRANSPORT RES A-POL, V104, P50, DOI 10.1016/j.tra.2017.08.005
+   Saberi-Movahed Farshad, 2021, MEDRXIV, V0, P0, DOI DOI 10.1101/2021.07.07.21259699
+   Santana E., 2016, ARXIV PREPRINT ARXIV, V0, P0
+   Schmittner C., 2020, AME 2020 AUTOMOTIVE, V0, P1
+   Stavens D., 2012, ARXIV12066872, V0, P469
+   Taj Frahim Wadud, 2018, 2018 2ND INTERNATIONAL CONFERENCE ON INNOVATIONS IN SCIENCE, V0, P496, DOI 10.1109/ICISET.2018.8745570
+   Thoinpson N, 2020, GOV INFORM Q, V37, P0, DOI 10.1016/j.giq.2019.101408
+   Van Brummelen J, 2018, TRANSPORT RES C-EMER, V89, P384, DOI 10.1016/j.trc.2018.02.012
+   Wolcott RW, 2017, INT J ROBOT RES, V36, P292, DOI 10.1177/0278364917696568
+   Yin H, 2017, IEEE INT C INTELL TR, V0, P0, DOI DOI 10.1109/ITSC.2017.8317828
+   Zhang K., 2021, COMPUT ED ARTIF INTE, V2, P0, DOI 10.1016/J.CAEAI.2021.100025
+   Zhou TH, 2017, PROC CVPR IEEE, V0, PP6612, DOI 10.1109/CVPR.2017.700
+NR 71
+TC 1
+Z9 1
+U1 3
+U2 7
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 1424-8220
+J9 SENSORS-BASEL
+JI Sensors
+PD JAN 15
+PY 2022
+VL 22
+IS 1
+BP 
+EP 
+DI 10.3390/s22010126
+PG 25
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments & Instrumentation
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA YE6QQ
+UT WOS:000741248100001
+PM 35009669
+DA 2023-04-26
+ER
+
+PT J
+AU Khan, A
+   Sudheer, M
+AF Khan, Adeer
+   Sudheer, Mehran
+TI Machine learning-based monitoring and modeling for spatio-temporal urban growth of Islamabad
+SO EGYPTIAN JOURNAL OF REMOTE SENSING AND SPACE SCIENCES
+LA English
+DT Article
+DE Machine learning; Urban growth; Artificial neural network; Cellular automata; LULC prediction; Islamabad
+ID land-cover; cellular-automata; urbanization; sprawl
+AB LULC maps are important thematic maps that provide a baseline for monitoring, assessing, and planning activities. This study incorporates spatio-temporal land use/ land cover (LULC) monitoring (1991-2021) and urban growth modeling (2021-2041) of Islamabad, Pakistan to deduce the changes in various LULC classes in the past and the future by incorporating realistic influential thematic layers and Artificial Neural Network-Cellular Automata (ANN-CA) machine learning algorithms. Three decades of Landsat satellite imagery were used to classify LULC maps using a random forest algorithm with high Kappa indexes ranging from 0.93 to 0.97. Simulations for 2011 and 2021 were done for well-calibration of the model with Kappa (> 0.85) and spatial similarity (> 75%) using the MOLUSCE plugin in QGIS software. Future predictions were done for the years 2031 and 2041 to analyze and study the future urban growth patterns. The satellite-based LULC maps during 1991-2021 exhibited a 142.4 km(2) increase in net urban growth. This had detrimental effects on other classes: net decrease of forests by 38.4 km(2) and waterbodies by 2.9 km2. The projected increase of urban areas in 2021-2041 will be 58.2 km(2). Visual urban sprawl assessment on LULC maps was done to highlight the type of sprawls. Overall, it was sensed that the city's urbanization has been unplanned and erratic; leading to dire consequences on the environmental and urban systems. Therefore, the study necessitates better monitoring and better planning of urbanization by enforcing policies and necessary measures. (C) 2022 National Authority of Remote Sensing & Space Science. Published by Elsevier B.V.
+C1 [Khan, Adeer; Sudheer, Mehran] Capital Univ Sci & Technol, Dept Civil Engn, Islamabad, Pakistan.
+C3 Capital University of Science & Technology
+RP Sudheer, M (corresponding author), Capital Univ Sci & Technol, Kahuta Rd,Zone 5 Sihala, Islamabad, Pakistan.
+EM mehransudheer8@gmail.com
+CR Abbas Z, 2021, LAND-BASEL, V10, P0, DOI 10.3390/land10060584
+   Abdi AM, 2020, GISCI REMOTE SENS, V57, P1, DOI 10.1080/15481603.2019.1650447
+   Abdulla-Al Kafy, 2021, SUSTAIN CITIES SOC, V64, P0, DOI 10.1016/j.scs.2020.102542
+   Abu Hatab A, 2019, CITIES, V94, P129, DOI 10.1016/j.cities.2019.06.001
+   Achu AL, 2021, ECOL INFORM, V64, P0, DOI 10.1016/j.ecoinf.2021.101348
+   Aurambout JP, 2018, LAND-BASEL, V7, P0, DOI 10.3390/land7010033
+   Baqa MF, 2021, LAND-BASEL, V10, P0, DOI 10.3390/land10070700
+   Bhattacharya RK, 2021, ENVIRON DEV SUSTAIN, V23, P1411, DOI 10.1007/s10668-020-00628-x
+   Bueno-Suarez C, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12114445
+   Coq-Huelva D, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11205835
+   Department of Finance Government of Pakistan, 2017, PAKISTAN EC SURVEY 2, V0, P180
+   El-Tantawi AM, 2019, ENVIRON MONIT ASSESS, V191, P0, DOI 10.1007/s10661-019-7478-0
+   Ewing R., 2008, URBAN ECOL, V0, P0
+   Foody GM, 2020, REMOTE SENS ENVIRON, V239, P0, DOI 10.1016/j.rse.2019.111630
+   Gantumur B, 2022, GEOCARTO INT, V37, P494, DOI 10.1080/10106049.2020.1723714
+   Hu ZY, 2007, COMPUT ENVIRON URBAN, V31, P667, DOI 10.1016/j.compenvurbsys.2006.11.001
+   Li GD, 2019, SCI TOTAL ENVIRON, V673, P367, DOI 10.1016/j.scitotenv.2019.04.080
+   Liu Y, 2018, LAND USE POLICY, V72, P420, DOI 10.1016/j.landusepol.2018.01.004
+   Magidi J, 2019, EGYPT J REMOTE SENS, V22, P335, DOI 10.1016/j.ejrs.2018.07.003
+   Mehriar M, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12229620
+   MohanRajan SN, 2020, ENVIRON SCI POLLUT R, V27, P29900, DOI 10.1007/s11356-020-09091-7
+   Mustafa A, 2018, COMPUT ENVIRON URBAN, V67, P147, DOI 10.1016/j.compenvurbsys.2017.09.009
+   Nahuelhual L, 2012, LANDSCAPE URBAN PLAN, V107, P12, DOI 10.1016/j.landurbplan.2012.04.006
+   Otuoze SH, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su13010308
+   Pakistan Bureau of Statistics, 2017, PROV SUMM RES 6 POP, V0, P0
+   Patil SD, 2017, INT J REMOTE SENS, V38, P5592, DOI 10.1080/01431161.2017.1343512
+   Perovic V, 2018, ENVIRON MONIT ASSESS, V190, P0, DOI 10.1007/s10661-018-7025-4
+   Rahman MTU, 2022, GEOCARTO INT, V37, P2604, DOI 10.1080/10106049.2020.1831621
+   Ramezan CA, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13030368
+   Rana IA, 2018, CITIES, V72, P348, DOI 10.1016/j.cities.2017.09.014
+   Ranagalage M, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13081531
+   Reddy CS, 2019, BIODIVERS CONSERV, V28, P1129, DOI 10.1007/s10531-019-01714-x
+   Rienow A, 2015, COMPUT ENVIRON URBAN, V49, P66, DOI 10.1016/j.compenvurbsys.2014.05.001
+   Rogan J, 2008, REMOTE SENS ENVIRON, V112, P2272, DOI 10.1016/j.rse.2007.10.004
+   Rumora L, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9040277
+   Saputra MH, 2019, SUSTAINABILITY-BASEL, V11, P0, DOI 10.3390/su11113024
+   Serneels S, 2001, AGR ECOSYST ENVIRON, V85, P65, DOI 10.1016/S0167-8809(01)00188-8
+   Steurer M, 2020, LAND USE POLICY, V97, P0, DOI 10.1016/j.landusepol.2020.104799
+   Talukdar S, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12071135
+   Tripathy P, 2019, CITIES, V90, P52, DOI 10.1016/j.cities.2019.01.021
+   Vinayak B, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su13020471
+   Yumashev A, 2020, ENERGIES, V13, P0, DOI 10.3390/en13112768
+   Zafar S, 2019, REG ENVIRON CHANGE, V19, P1815, DOI 10.1007/s10113-019-01512-9
+   Zhang QA, 2011, COMPUT ENVIRON URBAN, V35, P126, DOI 10.1016/j.compenvurbsys.2010.12.002
+NR 44
+TC 4
+Z9 4
+U1 11
+U2 14
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1110-9823
+EI 2090-2476
+J9 EGYPT J REMOTE SENS
+JI Egypt. J. Remote Sens. Space Sci.
+PD AUG 15
+PY 2022
+VL 25
+IS 2
+BP 541
+EP 550
+DI 10.1016/j.ejrs.2022.03.012
+EA MAR 2022
+PG 10
+WC Environmental Sciences; Remote Sensing
+SC Environmental Sciences & Ecology; Remote Sensing
+GA 1W2PT
+UT WOS:000806620200002
+DA 2023-04-26
+ER

@@ -1,0 +1,627 @@
+
+PT J
+AU Madhuanand, L
+   Philippart, CJM
+   Wang, J
+   Nijland, W
+   de Jong, SM
+   Bijleveld, AI
+   Addink, EA
+AF Madhuanand, Logambal
+   Philippart, Catharina J. M.
+   Wang, Jiong
+   Nijland, Wiebe
+   de Jong, Steven M.
+   Bijleveld, Allert I.
+   Addink, Elisabeth A.
+TI Enhancing the predictive performance of remote sensing for ecological variables of tidal flats using encoded features from a deep learning model
+SO GISCIENCE & REMOTE SENSING
+LA English
+DT Article
+DE Convolutional neural network; autoencoder model; sediment characteristics; random forest regression; Macrozoobenthos; Wadden Sea
+ID wadden sea; intertidal sediments; grain-size; surface; depth; food
+AB Tidal flats are among the ecologically richest areas of the world where sediment composition (e.g. median grain size and silt content) and the macrozoobenthic presence play an important role in the health of the ecosystem. Regular monitoring of environmental and ecological variables is essential for sustainable management of the area. While monitoring based on field sampling is very time-consuming, the predictive performance of these variables using satellite images is low due to the spectral homogeneity over these regions. We tested a novel approach that uses features from a variational autoencoder (VAE) model to enhance the predictive performance of remote sensing images for environmental and ecological variables of tidal flats. The model was trained using the Sentinel-2 spectral bands to reproduce the input images, and during this process, the VAE model represents important information on the tidal flats within its layer structure. The information in the layers of the trained model was extracted to form features with identical spatial coverage to the spectral bands. The features and the spectral bands together form the input to random forest models to predict field observations of the sediment characteristics such as median grain size and silt content, as well as the macrozoobenthic biomass and species richness. The maximum prediction accuracy of feature-based maps was close to 62% for the sediment characteristics and 37% for benthic fauna indices. The encoded features improved the prediction accuracy of the random forest regressor model by 15% points on average in comparison to using just the spectral bands. Our method enhances the predictive performance of remote sensing, in particular the spatiotemporal dynamics in median grain size and silt content of the sediment thereby contributing to better-informed management of coastal ecosystems.
+C1 [Madhuanand, Logambal; Philippart, Catharina J. M.; Wang, Jiong; Nijland, Wiebe; de Jong, Steven M.; Addink, Elisabeth A.] Univ Utrecht, Dept Phys Geog, Utrecht, Netherlands.
+   [Philippart, Catharina J. M.; Bijleveld, Allert I.] NIOZ Royal Netherlands Inst Sea Res, Dept Coastal Syst, Texel, Netherlands.
+   [Wang, Jiong] Univ Twente, Geoinformat Sci & Earth Observat ITC, Enschede, Netherlands.
+C3 Utrecht University; Utrecht University; Royal Netherlands Institute for Sea Research (NIOZ); University of Twente
+RP Madhuanand, L (corresponding author), Univ Utrecht, Dept Phys Geog, Utrecht, Netherlands.
+EM l.madhuanand@uu.nl
+FU nederlandse organisatie voor wetenschappelijk onderzoek [ALWGO.2018.023]
+CR Adolph W, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10071085
+   Agarap Abien Fred, 2018, DEEP LEARNING USING, V0, P7
+   Alonso AC, 2021, MAR GEOL, V439, P0, DOI 10.1016/j.margeo.2021.106544
+   [Anonymous], 2015, ESA SENTINEL 2, V0, P0
+   Bakker W, 2021, ESTUAR COAST SHELF S, V259, P0, DOI 10.1016/j.ecss.2021.107458
+   Baldi P., 2012, P ICML WORKSHOP UNSU, V0, PP37, DOI 10.1561/2200000006
+   BARTHOLDY J, 1986, NETH J SEA RES, V20, P337, DOI 10.1016/0077-7579(86)90001-3
+   BEUKEMA J J, 1976, NETHERLANDS JOURNAL OF SEA RESEARCH, V10, P236, DOI 10.1016/0077-7579(76)90017-X
+   Bhandare A., 2016, INT J COMPUT SCI INF, V7, P2206
+   Bijleveld AI, 2016, P ROY SOC B-BIOL SCI, V283, P0, DOI 10.1098/rspb.2016.1557
+   Bijleveld AI, 2012, METHODS ECOL EVOL, V3, P526, DOI 10.1111/j.2041-210X.2012.00192.x
+   Boere GC, 2012, OCEAN COAST MANAGE, V68, P157, DOI 10.1016/j.ocecoaman.2012.05.019
+   Breiman L., 2001, MACHINE LEARNING, V45, P5, DOI 10.1023/A:1010933404324
+   Cao Z, 2016, SCI REP-UK, V6, P0, DOI 10.1038/srep36919
+   Chicco D, 2021, PEERJ COMPUT SCI, V0, P0, DOI DOI 10.7717/peerj-cs.623
+   Compton TJ, 2013, J SEA RES, V82, P103, DOI 10.1016/j.seares.2013.02.002
+   Drent J., 2017, WADDEN SEA QUALITY S, V0, P0
+   ETTER RJ, 1992, NATURE, V360, P576, DOI 10.1038/360576a0
+   Howard AG, 2017, ARXIV, V0, P0
+   Goodfellow I, 2016, ADAPT COMPUT MACH LE, V0, P1
+   Guo W, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10010131
+   He Kaiming, 2016, PROC CVPR IEEE, V0, P630
+   Hedley JD, 2018, REMOTE SENS ENVIRON, V216, P598, DOI 10.1016/j.rse.2018.07.014
+   Herman P., 2004, EARSEL EPROCEEDINGS, V3, P69
+   Hollebrandse F.A.P., 2005, TEMPORAL DEV TIDAL R, V0, P0
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Joyce J.M.., 2011, INT ENCY STAT SCI, V0, P720
+   Jung Y, 2015, J NONPARAMETR STAT, V27, P167, DOI 10.1080/10485252.2015.1010532
+   Junjie H., 2019, VISUALIZATION CONVOL, V0, P3869
+   Kahng M, 2019, IEEE T VIS COMPUT GR, V25, P310, DOI 10.1109/TVCG.2018.2864500
+   Kingma Diederik P., 2014, INT C LEARNING REPRE, V0, P0
+   Kloepper S., 2017, CWSS 2017 INTRO WADD, V0, P0
+   Lee S, 2013, MAR POLLUT BULL, V67, P177, DOI 10.1016/j.marpolbul.2012.10.023
+   Levin LA, 2001, ECOSYSTEMS, V4, P430, DOI 10.1007/s10021-001-0021-4
+   Madhuanand L, 2021, ISPRS J PHOTOGRAMM, V176, P1, DOI 10.1016/j.isprsjprs.2021.03.024
+   Mahendran A, 2015, PROC CVPR IEEE, V0, PP5188, DOI 10.1109/CVPR.2015.7299155
+   Marencic H, 2009, WADDEN SEA ECOSYST, V0, P0
+   Menze BH, 2009, BMC BIOINFORMATICS, V10, P0, DOI 10.1186/1471-2105-10-213
+   Miloslavich P, 2018, GLOBAL CHANGE BIOL, V24, P2416, DOI 10.1111/gcb.14108
+   Murray NJ, 2019, NATURE, V565, P222, DOI 10.1038/s41586-018-0805-8
+   Nguyen A, 2016, ARXIV, V0, P0
+   Nugroho H., 2020, J COMPUTER SCI INFOR, V13, P9, DOI 10.21609/jiki.v13i1.761
+   Olden JD, 2008, Q REV BIOL, V83, P171, DOI 10.1086/587826
+   Park W, 2014, INT GEOSCI REMOTE SE, V0, P0, DOI DOI 10.1109/IGARSS.2014.6947449
+   Paszke A., 2017, PROC C NEURAL INF PR, V0, PP1, DOI 10.1103/PHYSREVLETT.57.2607
+   Philippart CJM, 2007, ECOSYSTEMS, V10, P95, DOI 10.1007/s10021-006-9006-7
+   PIERSMA T, 1993, NETH J SEA RES, V31, P331, DOI 10.1016/0077-7579(93)90052-T
+   Puls W, 2012, HELGOLAND MAR RES, V66, P345, DOI 10.1007/s10152-011-0275-y
+   Rainey MP, 2000, INT J REMOTE SENS, V21, P3025, DOI 10.1080/01431160050144938
+   Rammer W, 2019, FRONT PLANT SCI, V10, P0, DOI 10.3389/fpls.2019.01327
+   Ryu JH, 2004, ESTUAR COAST SHELF S, V60, P491, DOI 10.1016/j.ecss.2004.02.009
+   Ryu JH, 2014, OCEAN COAST MANAGE, V102, P458, DOI 10.1016/j.ocecoaman.2014.03.003
+   Sehgal S., 2012, COMPUTER SCI, V2, P43
+   Simonyan K., 2013, P INT C LEARNING REP, V0, P0
+   van der Wal D, 2008, MAR ECOL PROG SER, V367, P57, DOI 10.3354/meps07535
+   van der Wal D, 2007, REMOTE SENS ENVIRON, V111, P89, DOI 10.1016/j.rse.2007.03.019
+   Willcock S, 2018, ECOSYST SERV, V33, P165, DOI 10.1016/j.ecoser.2018.04.004
+   YATES MG, 1993, ESTUAR COAST SHELF S, V36, P333, DOI 10.1006/ecss.1993.1020
+   Yosinski J, 2014, ADV NEUR IN, V27, P0
+   Zeiler M.D, 2014, ECCV, V0, P818
+   Zhang GL, 2019, INT J DISAST RISK SC, V10, P386, DOI 10.1007/s13753-019-00233-1
+   ZWARTS L, 1993, NETH J SEA RES, V31, P441, DOI 10.1016/0077-7579(93)90059-2
+NR 63
+TC 0
+Z9 0
+U1 21
+U2 21
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1548-1603
+EI 1943-7226
+J9 GISCI REMOTE SENS
+JI GISci. Remote Sens.
+PD DEC 31
+PY 2023
+VL 60
+IS 1
+BP 
+EP 
+DI 10.1080/15481603.2022.2163048
+PG 21
+WC Geography, Physical; Remote Sensing
+SC Physical Geography; Remote Sensing
+GA 7M8RT
+UT WOS:000906919300001
+DA 2023-04-26
+ER
+
+PT J
+AU Saha, S
+   Majumdar, P
+   Bera, B
+AF Saha, Soumik
+   Majumdar, Paromita
+   Bera, Biswajit
+TI Deep learning and benchmark machine learning based landslide susceptibility investigation, Garhwal Himalaya (India)
+SO QUATERNARY SCIENCE ADVANCES
+LA English
+DT Article
+DE Garhwal Himalaya; SVM (Support vector machine); ANN (Artificial neural network); DLNN (Deep learning neural network)
+ID support vector machine; hazard zonation; frequency ratio; models; gis; earthquake; prediction; size; tree
+AB Garhwal Himalaya is the worst affected landslide prone region in Indian subcontinent mainly due to its complex geological settings and active tectonic activities. The data showed that every year, around 400 fatalities occur in Himalayan terrain due to landslide. In the current study, we have mapped the landslide susceptibility zones in the segment of Garhwal Himalaya using robust machine and deep learning algorithms. Individual machine and deep learning models have its own limitations like low generation capacity with nonlinear functions to describe the intricate relationship among predictors. In this study total five models i.e., SVM (Support Vector Machine), RF (Random Forest), bagging, ANN (Artificial Neural Network), DLNN (Deep Learning Neural Network) have been used along with twenty landslide controlling factors. Here, the principal objective of the study is to precisely delineate landslide susceptibility zones of the Garhwal Himalaya. The selecting factors have been considered through multi-collinearity test and information gain ratio statistics and the previous landslide points have been taken as training (70%) and testing (30%) dataset. According to area under curve value (AUC), the DLNN technique has high capability (AUC = 0.925) and accuracy for landslide area demarcation. The approach of integrated physical and social factors creates more precise prediction aptitude that can support large scale landslide management. These high precision models identified most of the parts of Rudraprayag and Tehri Garhwal as a very high landslide susceptibility zone. The generated maps can assist to policy makers for micro scale landslide management and sustainable land use planning particularly in Himalayan terrain.
+C1 [Saha, Soumik; Bera, Biswajit] Sidho Kanho Birsha Univ, Dept Geog, Ranchi Rd,PO Purulia Sainik Sch, Purulia 723104, India.
+   [Majumdar, Paromita] Vidyasagar Coll Women, Dept Geog, 39 Sankar Ghosh Lane, Kolkata 700006, India.
+RP Bera, B (corresponding author), Sidho Kanho Birsha Univ, Dept Geog, Ranchi Rd,PO Purulia Sainik Sch, Purulia 723104, India.
+EM biswajitbera007@gmail.com
+CR Akgun A, 2008, ENVIRON GEOL, V54, P1127, DOI 10.1007/s00254-007-0882-8
+   Al-Najjar HAH, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13163281
+   Althuwaynee OF, 2014, LANDSLIDES, V11, P1063, DOI 10.1007/s10346-014-0466-0
+   Anbalagan R, 2008, J SCI IND RES INDIA, V67, P486
+   ANBALAGAN R, 1992, ENG GEOL, V32, P269, DOI 10.1016/0013-7952(92)90053-2
+   Bargali H., 2022, TREES FOREST PEOPLE, V0, P0, DOI DOI 10.1016/j.tfp.2022.100300
+   Barnard PL, 2001, GEOMORPHOLOGY, V40, P21, DOI 10.1016/S0169-555X(01)00035-6
+   Beasley TM, 2003, COMPUT STAT DATA AN, V42, P569, DOI 10.1016/S0167-9473(02)00147-0
+   Bera B., 2007, GEOTECHNICAL INVESTI, Vxxi, P0
+   Bera B., 2008, GEOGR REV INDIA, V69, P434
+   Bera B., 2007, CONT ISSUES TECHNIQU, V0, P24
+   Bera B., 2010, INDIAN J LANDSCAPE S, V33, P601
+   Bera B., 2009, GEOMORPHOLOGY INDIA, V0, P199
+   Bhattacharjee D., 2015, AM INT J HUMANITIES, V0, P11
+   Breiman L, 2001, MACH LEARN, V45, P5, DOI 10.1023/A:1010933404324
+   Breiman L, 1996, MACH LEARN, V24, P123, DOI 10.1007/BF00058655
+   Burrough P.A., 1988, PRINCIPLES GEOGRAPHI, V0, P0
+   Chauhan S, 2019, FRONT NEUROINFORM, V13, P0, DOI 10.3389/fninf.2019.00053
+   Chen W, 2017, CATENA, V151, P147, DOI 10.1016/j.catena.2016.11.032
+   Chervonenkis A.Y., 2013, FESTSCHRIFT HONOR VL, V0, PP13, DOI 10.1007/978-3-642-41136-6
+   Chung CJF, 1999, PHOTOGRAMM ENG REM S, V65, P1389
+   CORTES C, 1995, MACH LEARN, V20, P273, DOI 10.1007/BF00994018
+   Devasena C.L., 2014, INT J COMPUT APPL, V0, P30
+   Bui DT, 2020, SCI TOTAL ENVIRON, V701, P0, DOI 10.1016/j.scitotenv.2019.134413
+   Dikshit A, 2020, GEOSCIENCES, V10, P0, DOI 10.3390/geosciences10040131
+   Dimri VP, 2014, CURR SCI INDIA, V107, P1647
+   Dlamini WM, 2016, MODEL EARTH SYST ENV, V2, P0, DOI 10.1007/s40808-016-0231-6
+   Eker AM, 2015, INT J GEOGR INF SCI, V29, P132, DOI 10.1080/13658816.2014.953164
+   Erener A, 2017, COMPUT GEOSCI-UK, V104, P62, DOI 10.1016/j.cageo.2017.03.022
+   Erener A, 2010, LANDSLIDES, V7, P55, DOI 10.1007/s10346-009-0188-x
+   Fang ZC, 2020, COMPUT GEOSCI-UK, V139, P0, DOI 10.1016/j.cageo.2020.104470
+   Freund Y., 1995, COMPUTATIONAL LEARNING THEORY. SECOND EUROPEAN CONFERENCE, V0, P23
+   Froude MJ, 2018, NAT HAZARD EARTH SYS, V18, P2161, DOI 10.5194/nhess-18-2161-2018
+   Gaidzik K, 2021, SCI REP-UK, V11, P0, DOI 10.1038/s41598-021-98830-y
+   Geertsema M, 2007, GEOMORPHOLOGY, V89, P55, DOI 10.1016/j.geomorph.2006.07.019
+   GERRARD J, 1994, GEOMORPHOLOGY, V10, P221, DOI 10.1016/0169-555X(94)90018-3
+   Ghasemian B, 2022, SENSORS-BASEL, V22, P0, DOI 10.3390/s22041573
+   Ghorbanzadeh O, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11020196
+   Glade T, 2003, CATENA, V51, P297, DOI 10.1016/S0341-8162(02)00170-4
+   Glade T., 2012, LANDSLIDE HAZARD RIS, V0, P0, DOI DOI 10.1002/9780470012659
+   Guzzetti F, 2012, EARTH-SCI REV, V112, P42, DOI 10.1016/j.earscirev.2012.02.001
+   Highland L.M., 2008, LANDSLIDE HDB A GUID, V0, P0
+   Huang RQ, 2013, NAT GEOSCI, V6, P325, DOI 10.1038/ngeo1806
+   Huang Y, 2018, CATENA, V165, P520, DOI 10.1016/j.catena.2018.03.003
+   Hunter G, 2003, CAN GEOTECH J, V40, P1123, DOI 10.1139/T03-061
+   Johnston R, 2018, QUAL QUANT, V52, P1957, DOI 10.1007/s11135-017-0584-6
+   Kadavi PR, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10081252
+   Kardani N, 2021, J ROCK MECH GEOTECH, V13, P188, DOI 10.1016/j.jrmge.2020.05.011
+   Kashyap R, 2021, SPAT INF RES, V29, P857, DOI 10.1007/s41324-021-00392-8
+   Kavzoglu T, 2019, ADV NAT TECH HAZ RES, V50, P283, DOI 10.1007/978-3-319-77377-3_13
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Kim P., 2017, MACH LEARN NEURAL NE, V130, P21
+   Korup O, 2008, NATURE, V455, P786, DOI 10.1038/nature07322
+   Krizhevsky A, 2017, COMMUN ACM, V60, P84, DOI 10.1145/3065386
+   Kumar Pankaj, 2021, GEOHAZARDS. PROCEEDINGS OF IGC 2018. LECTURE NOTES IN CIVIL ENGINEERING (LNCE 86), V0, PP163, DOI 10.1007/978-981-15-6233-4_12
+   LeCun Y, 2015, NATURE, V521, P436, DOI 10.1038/nature14539
+   Liu ZL, 2018, ENVIRON REV, V26, P339, DOI 10.1139/er-2018-0034
+   Mabdeh A., 2021, NOVEL ENSEMBLE BASED, V0, P0, DOI DOI 10.21203/rs.3.rs-649364/v1
+   Magdon-Ismail M, 2020, ARXIV, V0, P0
+   Mahato S., 2019, TECTONICS STRUCTURAL, V0, P411
+   Mandal S., 2019, STAT APPROACHES LAND, V0, P0, DOI DOI 10.1007/978-3-319-93897-4_1
+   Martinez-Alvarez F, 2013, KNOWL-BASED SYST, V50, P198, DOI 10.1016/j.knosys.2013.06.011
+   Merghadi A, 2020, EARTH-SCI REV, V207, P0, DOI 10.1016/j.earscirev.2020.103225
+   Micheletti N, 2014, MATH GEOSCI, V46, P33, DOI 10.1007/s11004-013-9511-0
+   Mondal S, 2013, INT J DISAST RISK SC, V4, P200, DOI 10.1007/s13753-013-0021-y
+   Nakano G., 2017, UTTARAKHAND DISASTER, V0, P0, DOI DOI 10.1007/978-4-431-56442-3_13
+   NDMA, 2009, MAN LANDSL SNOW AV, V0, P144
+   Owen L.A., 1996, GEOMORPHOLOGY, V103, P359
+   Pandey VK, 2019, CATENA, V182, P0, DOI 10.1016/j.catena.2019.104150
+   Pham B. T., 2015, INT J ENG RES TECHNO, V4, P338, DOI 10.17577/IJERTV4IS110285
+   Pham BT, 2019, GEOCARTO INT, V34, P1385, DOI 10.1080/10106049.2018.1489422
+   Polikar R, 2012, ENSEMBLE MACHINE LEARNING: METHODS AND APPLICATIONS, V0, PP1, DOI 10.1007/978-1-4419-9326-7_1
+   Pourghasemi HR, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-015-4950-1
+   Pourghasemi HR, 2013, J EARTH SYST SCI, V122, P349, DOI 10.1007/s12040-013-0282-2
+   Pradhan AMS, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9100569
+   Pradhan AMS, 2017, GEOCARTO INT, V32, P420, DOI 10.1080/10106049.2016.1155658
+   Rawat MS, 2015, CURR SCI INDIA, V109, P158
+   Regmi NR, 2010, GEOMORPHOLOGY, V115, P172, DOI 10.1016/j.geomorph.2009.10.002
+   Reichstein M, 2019, NATURE, V566, P195, DOI 10.1038/s41586-019-0912-1
+   Roback K, 2018, GEOMORPHOLOGY, V301, P121, DOI 10.1016/j.geomorph.2017.01.030
+   Roda-Boluda DC, 2018, EARTH SURF PROC LAND, V43, P956, DOI 10.1002/esp.4281
+   Rogozhin EA, 2020, GEOTECTONICS+, V54, P75, DOI 10.1134/S0016852120010112
+   Saha S., 2022, RESOURCES CONSERVATI, V14, P0, DOI 10.1016/j.rcradv.2022.200077
+   Saha S, 2021, SCI REP-UK, V11, P0, DOI 10.1038/s41598-021-95978-5
+   SARKAR S, 1995, MT RES DEV, V15, P301, DOI 10.2307/3673806
+   Sati S., 1998, ENVIRONMENTALIST, V18, P149, DOI 10.1023/A:1006646000095
+   Schmidhuber J, 2015, NEURAL NETWORKS, V61, P85, DOI 10.1016/j.neunet.2014.09.003
+   Schuster R.J., 1978, 176 TRB NAT RES COUN, V0, P11
+   Sevgen E, 2019, SENSORS-BASEL, V19, P0, DOI 10.3390/s19183940
+   Sidle RC, 2006, WATER RESOUR MONOGR, V18, P312, DOI 10.1029/WM018
+   Singh Vivek Kumar, 2010, JOURNAL OF GEOGRAPHIC INFORMATION SYSTEM, V2, P85, DOI 10.4236/jgis.2010.22013
+   TEWARI VC, 1984, CURR SCI INDIA, V53, P319
+   Tongley T., 2021, ENG APPL SCI RES, V48, P56
+   Valdiya K. S., 1980, GEOLOGY KUMAUN LESSE, V0, P1
+   Wang HB, 2005, PROG PHYS GEOG, V29, P548, DOI 10.1191/0309133305pp462ra
+   Wang Y, 2020, INT J ENV RES PUB HE, V17, P0, DOI 10.3390/ijerph17124206
+   Xu C, 2012, GEOMORPHOLOGY, V145, P70, DOI 10.1016/j.geomorph.2011.12.040
+NR 97
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2666-0334
+EI 
+J9 QUAT SCI ADV
+JI Quat. Sci. Adv.
+PD APR 15
+PY 2023
+VL 10
+IS 
+BP 
+EP 
+DI 10.1016/j.qsa.2023.100075
+EA FEB 2023
+PG 14
+WC Geography, Physical; Geosciences, Multidisciplinary
+SC Physical Geography; Geology
+GA A2NU7
+UT WOS:000953558800001
+DA 2023-04-26
+ER
+
+PT J
+AU Gu, FF
+   Chen, JP
+   Sun, XH
+   Li, YC
+   Zhang, YW
+   Wang, Q
+AF Gu, Feifan
+   Chen, Jianping
+   Sun, Xiaohui
+   Li, Yongchao
+   Zhang, Yiwei
+   Wang, Qing
+TI Comparison of Machine Learning and Traditional Statistical Methods in Debris Flow Susceptibility Assessment: A Case Study of Changping District, Beijing
+SO WATER
+LA English
+DT Article
+DE debris flow susceptibility assessment; SVM; LR; ACA-PCA-FR; Beijing
+ID support vector machine; artificial neural-networks; logistic-regression models; landslide susceptibility; information value; frequency ratio; decision tree; 3 gorges; gis; province
+AB As a common geological hazard, debris flow is widely distributed around the world. Meanwhile, due to the influence of many factors such as geology, geomorphology and climate, the occurrence frequency and main inducing factors are different in different places. Therefore, the evaluation of debris flow sensitivity can provide a very important theoretical basis for disaster prevention and control. In this research, 43 debris flow gullies in Changping District, Beijing were cataloged and studied through field surveys and the 3S technology (GIS (Geography Information Systems), GPS (Global Positioning Systems), RS (Remote Sensing)). Eleven factors, including elevation, slope, plane curvature, profile curvature, roundness, geomorphic information entropy, TWI, SPI, TCI, NDVI and rainfall, were selected to establish a comprehensive evaluation index system. The watershed unit is directly related to the development and activities of debris flow, which can fully reflect the geomorphic and geological environment of debris flow. Therefore, the watershed unit was selected as the basic mapping unit to establish four evaluation models, namely ACA-PCA-FR (Analytic Hierarchy Process-Principal Component Analysis-Frequency Ratio), FR (Frequency Ratio), SVM (Support Vector Machines) and LR (Logistic Regression). In other words, this research evaluates debris flow susceptibility by comparingit with two traditional weight methods (ACA-PCA-FR and FR) and two machine learning methods (SVM and LR). The results show that the SVM evaluation model is superior to the other three models, and thevalueofthe area under the receiver-operating characteristic curve (AUC) is 0.889 from the receiver operating characteristic curve (ROC). It verifies that the SVM model has strong adaptability to small sample data. The study was divided into five regions, which were very low, low, moderate, high and very high, accounting for 22.31%, 25.04%, 17.66%, 18.85% and 16.14% of the total study area, respectively, by SVM model. The results obtained in this researchagree with the actual survey results, and can provide theoretical help for disaster prevention and reduction projects.
+C1 [Gu, Feifan; Chen, Jianping; Zhang, Yiwei; Wang, Qing] Jilin Univ, Coll Construct Engn, Changchun 130026, Peoples R China.
+   [Sun, Xiaohui] Taiyuan Univ Technol, Dept Earth Sci & Engn, Taiyuan 030024, Peoples R China.
+   [Li, Yongchao] Univ Chinese Acad Sci, Inst Geol & Geophys, Key Lab Shale Gas & Geoengn, Beijing 100029, Peoples R China.
+C3 Jilin University; Taiyuan University of Technology; Chinese Academy of Sciences; University of Chinese Academy of Sciences, CAS
+RP Wang, Q (corresponding author), Jilin Univ, Coll Construct Engn, Changchun 130026, Peoples R China.
+EM wangqing@jlu.edu.cn
+CR Ahmad H, 2021, ISPRS INT J GEO-INF, V10, P0, DOI 10.3390/ijgi10050315
+   [Anonymous], 1979, HYDROL SCI B, V0, P0
+   Ayalew L, 2005, GEOMORPHOLOGY, V65, P15, DOI 10.1016/j.geomorph.2004.06.010
+   Ballabio C, 2012, MATH GEOSCI, V44, P47, DOI 10.1007/s11004-011-9379-9
+   Pham BT, 2017, ENVIRON EARTH SCI, V76, P0, DOI 10.1007/s12665-017-6689-3
+   Bui DT, 2017, LANDSLIDES, V14, P447, DOI 10.1007/s10346-016-0711-9
+   Cao C, 2021, ENG GEOL, V291, P0, DOI 10.1016/j.enggeo.2021.106222
+   Cao J, 2020, NAT HAZARDS, V102, P851, DOI 10.1007/s11069-020-03927-8
+   Chen W, 2016, ENVIRON EARTH SCI, V75, P0, DOI 10.1007/s12665-016-6162-8
+   Chen XZ, 2015, J ROCK MECH GEOTECH, V7, P404, DOI 10.1016/j.jrmge.2015.04.003
+   Cheng WM, 2016, GEOMORPHOLOGY, V257, P134, DOI 10.1016/j.geomorph.2016.01.003
+   Chong Y, 2021, SCI TOTAL ENVIRON, V792, P0, DOI 10.1016/j.scitotenv.2021.148439
+   Ciccarese G, 2021, LANDSLIDES, V18, P3513, DOI 10.1007/s10346-021-01739-w
+   Devkota KC, 2013, NAT HAZARDS, V65, P135, DOI 10.1007/s11069-012-0347-6
+   Bui DT, 2016, LANDSLIDES, V13, P361, DOI 10.1007/s10346-015-0557-6
+   Bui DT, 2012, MATH PROBL ENG, V2012, P0, DOI 10.1155/2012/974638
+   Dormann CF, 2013, ECOGRAPHY, V36, P27, DOI 10.1111/j.1600-0587.2012.07348.x
+   Elkadiri R, 2014, IEEE J-STARS, V7, P4818, DOI 10.1109/JSTARS.2014.2337273
+   Feizizadeh B, 2017, ARAB J GEOSCI, V10, P0, DOI 10.1007/s12517-017-2918-z
+   Han H, 2005, LECT NOTES COMPUT SC, V3644, P878, DOI 10.1007/11538059_91
+   HOLLINGSWORTH R, 1981, B ASS ENG GEOL, V18, P17, DOI 10.2113/GSEEGEOSCI.XVIII.1.17
+   Kang S, 2018, GEOMORPHOLOGY, V308, P1, DOI 10.1016/j.geomorph.2018.01.025
+   Kavzoglu T, 2003, INT J REMOTE SENS, V24, P4907, DOI 10.1080/0143116031000114851
+   Kavzoglu T, 2014, LANDSLIDES, V11, P425, DOI 10.1007/s10346-013-0391-7
+   Lee S, 2006, ENVIRON GEOL, V50, P847, DOI 10.1007/s00254-006-0256-7
+   Li LP, 2017, LANDSLIDES, V14, P727, DOI 10.1007/s10346-016-0771-x
+   Li T, 2019, WATER-SUI, V11, P0, DOI 10.3390/w11081708
+   Li YC, 2021, NAT HAZARDS, V105, P2499, DOI 10.1007/s11069-020-04409-7
+   Li YC, 2020, INT J ENVIRON RES, V14, P365, DOI 10.1007/s41742-020-00263-4
+   Li ZH, 2021, ENVIRON EARTH SCI, V80, P0, DOI 10.1007/s12665-021-09665-9
+   Liang Z, 2020, STOCH ENV RES RISK A, V34, P1887, DOI 10.1007/s00477-020-01851-8
+   Lin GF, 2017, ENG GEOL, V224, P62, DOI 10.1016/j.enggeo.2017.05.009
+   Ma C, 2018, LANDSLIDES, V15, P2475, DOI 10.1007/s10346-018-1080-3
+   Ma C, 2016, GEOMORPHOLOGY, V273, P323, DOI 10.1016/j.geomorph.2016.08.027
+   Marjanovic M, 2011, ENG GEOL, V123, P225, DOI 10.1016/j.enggeo.2011.09.006
+   McSherry D, 1999, KNOWL-BASED SYST, V12, P269, DOI 10.1016/S0950-7051(99)00024-6
+   Meng QK, 2016, B ENG GEOL ENVIRON, V75, P923, DOI 10.1007/s10064-015-0786-x
+   MOORE ID, 1991, HYDROL PROCESS, V5, P3, DOI 10.1002/hyp.3360050103
+   Pal SC, 2022, B ENG GEOL ENVIRON, V81, P0, DOI 10.1007/s10064-021-02546-2
+   Park SJ, 2001, GEODERMA, V103, P249, DOI 10.1016/S0016-7061(01)00042-8
+   Pradhan B, 2013, COMPUT GEOSCI-UK, V51, P350, DOI 10.1016/j.cageo.2012.08.023
+   Pradhan B, 2010, ENVIRON MODELL SOFTW, V25, P747, DOI 10.1016/j.envsoft.2009.10.016
+   Qin SW, 2019, GEOMAT NAT HAZ RISK, V10, P1648, DOI 10.1080/19475705.2019.1604572
+   Qiu CC, 2022, SCI TOTAL ENVIRON, V818, P0, DOI 10.1016/j.scitotenv.2021.151752
+   Saaty T. L., 1978, MATHEMATICS AND COMPUTERS IN SIMULATION, V20, P147, DOI 10.1016/0378-4754(78)90064-2
+   Sabokbar HF, 2014, GEOMORPHOLOGY, V226, P15, DOI 10.1016/j.geomorph.2014.07.026
+   Shi MY, 2016, B ENG GEOL ENVIRON, V75, P909, DOI 10.1007/s10064-015-0784-z
+   Sun XH, 2022, REMOTE SENS-BASEL, V14, P0, DOI 10.3390/rs14071730
+   Sun XH, 2018, ISPRS INT J GEO-INF, V7, P0, DOI 10.3390/ijgi7110438
+   Suthaharan S, 2016, INTEGR SER INFORM SY, V36, P207
+   Tang C, 2009, B ENG GEOL ENVIRON, V68, P187, DOI 10.1007/s10064-009-0201-6
+   Tehrany MS, 2015, CATENA, V125, P91, DOI 10.1016/j.catena.2014.10.017
+   Tiranti D, 2016, SCI TOTAL ENVIRON, V554, P337, DOI 10.1016/j.scitotenv.2016.02.150
+   Umar Z, 2014, CATENA, V118, P124, DOI 10.1016/j.catena.2014.02.005
+   Vianello D, 2023, LANDSLIDES, V20, P735, DOI 10.1007/s10346-022-01985-6
+   Wang QQ, 2019, GEOMAT NAT HAZ RISK, V10, P820, DOI 10.1080/19475705.2018.1549111
+   Wilson JP, 2000, TERRAIN ANAL PRINCIP, V0, P0
+   Wu XL, 2014, ENVIRON EARTH SCI, V71, P4725, DOI 10.1007/s12665-013-2863-4
+   Xiong K, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12020295
+   Xu C, 2012, GEOMORPHOLOGY, V145, P70, DOI 10.1016/j.geomorph.2011.12.040
+   Xu WB, 2013, NAT HAZARDS, V65, P1379, DOI 10.1007/s11069-012-0414-z
+   Yilmaz I, 2010, ENVIRON EARTH SCI, V61, P821, DOI 10.1007/s12665-009-0394-9
+   Yilmaz I, 2009, COMPUT GEOSCI-UK, V35, P1125, DOI 10.1016/j.cageo.2008.08.007
+   Zhang S, 2014, CAN GEOTECH J, V51, P951, DOI 10.1139/cgj-2013-0368
+   Zhang XD, 2022, J ENVIRON MANAGE, V321, P0, DOI 10.1016/j.jenvman.2022.115938
+   Zhang XD, 2021, INT J GEOMECH, V21, P0, DOI 10.1061/(ASCE)GM.1943-5622.0002036
+   Zhang XD, 2021, J HYDROL, V593, P0, DOI 10.1016/j.jhydrol.2020.125603
+   Zhang YH, 2019, REMOTE SENS-BASEL, V11, P0, DOI 10.3390/rs11232801
+   Zhou C, 2016, ENG GEOL, V204, P108, DOI 10.1016/j.enggeo.2016.02.009
+NR 69
+TC 0
+Z9 0
+U1 14
+U2 14
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-4441
+J9 WATER-SUI
+JI Water
+PD FEB 15
+PY 2023
+VL 15
+IS 4
+BP 
+EP 
+DI 10.3390/w15040705
+PG 22
+WC Environmental Sciences; Water Resources
+SC Environmental Sciences & Ecology; Water Resources
+GA 9M1SP
+UT WOS:000942018300001
+DA 2023-04-26
+ER
+
+PT J
+AU Gharaibeh, AA
+   Jaradat, MA
+   Kanaan, LM
+AF Gharaibeh, Anne A.
+   Jaradat, Mohammad A.
+   Kanaan, Lamees M.
+TI A Machine Learning Framework for Assessing Urban Growth of Cities and Suitability Analysis
+SO LAND
+LA English
+DT Article
+DE machine learning; Artificial Neural Network (ANN); GIS; urban growth; land suitability analysis; Time Delay Neural Network (TDNN)
+ID land-use
+AB Rural-urban immigration, regional wars, refugees, and natural disasters all bring to prominence the importance of studying urban growth. Increased urban growth rates are becoming a global phenomenon creating stress on agricultural land, spreading pollution, accelerating global warming, and increasing water run-off, which adds exponentially to pressure on natural resources and impacts climate change. Based on the integration of machine learning (ML) and geographic information system (GIS), we employed a framework to delineate future urban boundaries for future expansion and urban agglomerations. We developed it based on a Time Delay Neural Network (TDNN) that depends on equal time intervals of urban growth. Such an approach is used for the first time in urban growth as a predictive tool and is coupled with Land Suitability Analysis, which incorporates both qualitative and quantitative data to propose evaluated urban growth in the Greater Irbid Municipality, Jordan. The results show the recommended future spatial expansion and proposed results for the year 2025. The results show that urban growth is more prevalent in the eastern, northern, and southern areas and less in the west. The urban growth boundary map illustrates that the continuation of urban growth in these areas will slowly further encroach upon and diminish agricultural land. By means of suitability analysis, the results showed that 51% of the region is unsuitable for growth, 43% is moderately suitable and only 6% is suitable for growth. Based on TDNN methodology, which is an ML framework that is dependent on the growth of urban boundaries, we can track and predict the trend of urban spatial expansion and thus develop policies for protecting ecological and agricultural lands and optimizing and directing urban growth.
+C1 [Gharaibeh, Anne A.; Kanaan, Lamees M.] Jordan Univ Sci & Technol, Coll Architecture & Design, Dept City Planning & Design, Irbid 22110, Jordan.
+   [Jaradat, Mohammad A.] Amer Univ Sharjah, Coll Engn, Dept Mech Engn, Sharjah 26666, U Arab Emirates.
+   [Jaradat, Mohammad A.] Jordan Univ Sci & Technol, Coll Engn, Dept Mech Engn, Irbid 22110, Jordan.
+C3 Jordan University of Science & Technology; American University of Sharjah; Jordan University of Science & Technology
+RP Jaradat, MA (corresponding author), Amer Univ Sharjah, Coll Engn, Dept Mech Engn, Sharjah 26666, U Arab Emirates.; Jaradat, MA (corresponding author), Jordan Univ Sci & Technol, Coll Engn, Dept Mech Engn, Irbid 22110, Jordan.
+EM mjaradat@aus.edu
+CR Ahmad F, 2017, AIMS AGRIC FOOD, V2, P201, DOI 10.3934/agrfood.2017.2.201
+   Al-Kheder S, 2008, INT J GEOGR INF SCI, V22, P1271, DOI 10.1080/13658810701617292
+   Al-Kofahi SD, 2019, URBAN ECOSYST, V22, P567, DOI 10.1007/s11252-019-0833-7
+   Alanbari MA, 2014, NATURAL SCI, V6, P282, DOI 10.4236/NS.2014.65032
+   Aliani Hamide, 2021, ARABIAN JOURNAL OF GEOSCIENCES, V14, P0, DOI 10.1007/s12517-021-07606-1
+   [Anonymous], 2005, GROWTH STAGES GREATE, V0, P0
+   Bagheri M, 2013, J COAST CONSERV, V17, P1, DOI 10.1007/s11852-012-0213-4
+   Beale M., 2017, MATLAB NEURAL NETWOR, V0, P158
+   Berry M, 2015, COMPUT ENVIRON URBAN, V51, P13, DOI 10.1016/j.compenvurbsys.2014.12.004
+   Cagliyan A, 2022, SUSTAINABILITY-BASEL, V14, P0, DOI 10.3390/su14159180
+   Department of Statistics (DOS), 2016, MAIN RES GEN CENS PO, V0, P0
+   Feng DR, 2021, LAND-BASEL, V10, P0, DOI 10.3390/land10030286
+   Gao LA, 2022, SUSTAIN CITIES SOC, V85, P0, DOI 10.1016/j.scs.2022.104055
+   Gharaibeh A.A., 2017, J ARCHIT PLAN, V29, P89
+   Gharaibeh A, 2020, HELIYON, V6, P0, DOI 10.1016/j.heliyon.2020.e05092
+   Gharaibeh AA, 2021, J URBAN PLAN DEV, V147, P0, DOI 10.1061/(ASCE)UP.1943-5444.0000744
+   Gharaibeh AA, 2022, GEOJOURNAL, V87, P4475, DOI 10.1007/s10708-021-10504-4
+   Gharaibeh AA, 2020, PROCEDIA MANUF, V44, P156, DOI 10.1016/j.promfg.2020.02.217
+   Hagan M.T., 1996, NEURAL NETWORK DESIG, V0, P0
+   Han AT, 2019, LAND USE POLICY, V81, P644, DOI 10.1016/j.landusepol.2018.11.035
+   Herold M, 2003, REMOTE SENS ENVIRON, V86, P286, DOI 10.1016/S0034-4257(03)00075-0
+   Hussain S, 2022, ENVIRON SCI POLLUT R, V0, P0, DOI DOI 10.1007/s11356-022-21650-8
+   Hussain S, 2022, PHYS CHEM EARTH, V126, P0, DOI 10.1016/j.pce.2022.103117
+   Jafari S., 2010, INTERNATIONAL JOURNAL OF ENVIRONMENTAL SCIENCE AND DEVELOPMENT, V1, P441
+   Jaradat MAK, 2017, IEEE SENS J, V17, P1105, DOI 10.1109/JSEN.2016.2642040
+   Jensen RR, 2004, INT J REMOTE SENS, V25, P4251, DOI 10.1080/01431160410001680400
+   Jiao S, 2012, J CENT SOUTH UNIV, V19, P1364, DOI 10.1007/s11771-012-1151-x
+   Kaoje IU, 2016, IOSR J HUMANIT SOC S, V21, P1, DOI 10.9790/0837-02107030110
+   Kumar M, 2013, J INDIAN SOC REMOTE, V41, P417, DOI 10.1007/s12524-012-0221-8
+   Liu YL, 2017, SUSTAINABILITY-BASEL, V9, P0, DOI 10.3390/su9050796
+   Macrotrends, 2022, JORDAN REFUGEE STAT, V0, P0
+   Maithani S, 2010, GEOCARTO INT, V25, P663, DOI 10.1080/10106049.2010.524313
+   Mohammed KS, 2016, SHS WEB CONF, V23, P0, DOI 10.1051/shsconf/20162303001
+   Negnevitsky M., 2002, ARTIFICIAL INTELLIGE, V0, P0
+   Omar NQ, 2016, OPEN GEOSP DATA SOFT, V0, P0, DOI DOI 10.1186/s40965-016-0011-2
+   Raddad S., 2016, GEOGR INF SYST, V5, P24
+   Razavi B. S., 2014, RESEARCH JOURNAL OF ENVIRONMENTAL AND EARTH SCIENCES, V6, P215
+   Saadeddin K, 2014, J INTELL ROBOT SYST, V73, P325, DOI 10.1007/s10846-013-9943-2
+   Satir O, 2016, THESIS YUZUNCU YIL U, V0, P0
+   Shenghe L., 2002, INTERIM REPORT, V0, P0
+   Tayyebi A, 2011, LANDSCAPE URBAN PLAN, V100, P35, DOI 10.1016/j.landurbplan.2010.10.007
+   Triantakonstantis D., 2012, J GEOGRAPHIC INFORM, V04, P555, DOI 10.4236/JGIS.2012.46060
+   UN-Habitats Urban Practices Branch, 2022, REPORT, V0, P0
+   United Nations, 2015, TRANSF OUR WORLD 203, V0, P0
+   United Nations, 2015, WORLD URB PROSP UN 2, V0, P0
+   United Nations Department of Economic and Social Affairs, 2011, POPULATION DIVISION, V0, P0
+   Winograd T, 2006, ARTIF INTELL, V170, P1256, DOI 10.1016/j.artint.2006.10.011
+   Xu TT, 2022, LAND-BASEL, V11, P0, DOI 10.3390/land11071074
+   Yi SQ, 2022, LAND-BASEL, V11, P0, DOI 10.3390/land11030401
+   Zheng B, 2018, SUSTAINABILITY-BASEL, V10, P0, DOI 10.3390/su10030756
+   Zhou L, 2012, THESIS FLORIDA STATE, V0, P1
+NR 51
+TC 0
+Z9 0
+U1 3
+U2 3
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-445X
+J9 LAND-BASEL
+JI Land
+PD JAN 15
+PY 2023
+VL 12
+IS 1
+BP 
+EP 
+DI 10.3390/land12010214
+PG 19
+WC Environmental Studies
+SC Environmental Sciences & Ecology
+GA 7Y0TP
+UT WOS:000914603200001
+DA 2023-04-26
+ER
+
+PT J
+AU Ramli, N
+   Hamid, HA
+   Yahaya, AS
+   Ul-Saufie, AZ
+   Noor, NM
+   Abu Seman, NA
+   Kamarudzaman, AN
+   Deak, G
+AF Ramli, Norazrin
+   Hamid, Hazrul Abdul
+   Yahaya, Ahmad Shukri
+   Ul-Saufie, Ahmad Zia
+   Noor, Norazian Mohamed
+   Abu Seman, Nor Amirah
+   Kamarudzaman, Ain Nihla
+   Deak, Gyoergy
+TI Performance of Bayesian Model Averaging (BMA) for Short-Term Prediction of PM10 Concentration in the Peninsular Malaysia
+SO ATMOSPHERE
+LA English
+DT Article
+DE air quality; air quality modeling; prediction; particulate matter; Bayesian; machine learning
+ID air-pollution; spatial assessment; regression-models; neural-networks; quality; health; uncertainty; impact; area; haze
+AB In preparation for the Fourth Industrial Revolution (IR 4.0) in Malaysia, the government envisions a path to environmental sustainability and an improvement in air quality. Air quality measurements were initiated in different backgrounds including urban, suburban, industrial and rural to detect any significant changes in air quality parameters. Due to the dynamic nature of the weather, geographical location and anthropogenic sources, many uncertainties must be considered when dealing with air pollution data. In recent years, the Bayesian approach to fitting statistical models has gained more popularity due to its alternative modelling strategy that accounted for uncertainties for all air quality parameters. Therefore, this study aims to evaluate the performance of Bayesian Model Averaging (BMA) in predicting the next-day PM10 concentration in Peninsular Malaysia. A case study utilized seventeen years' worth of air quality monitoring data from nine (9) monitoring stations located in Peninsular Malaysia, using eight air quality parameters, i.e., PM10, NO2, SO2, CO, O-3, temperature, relative humidity and wind speed. The performances of the next-day PM10 prediction were calculated using five models' performance evaluators, namely Coefficient of Determination (R-2), Index of Agreement (IA), Kling-Gupta efficiency (KGE), Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE). The BMA models indicate that relative humidity, wind speed and PM10 contributed the most to the prediction model for the majority of stations with (R-2 = 0.752 at Pasir Gudang monitoring station), (R-2 = 0.749 at Larkin monitoring station), (R-2 = 0.703 at Kota Bharu monitoring station), (R-2 = 0.696 at Kangar monitoring station) and (R-2 = 0.692 at Jerantut monitoring station), respectively. Furthermore, the BMA models demonstrated a good prediction model performance, with IA ranging from 0.84 to 0.91, R-2 ranging from 0.64 to 0.75 and KGE ranging from 0.61 to 0.74 for all monitoring stations. According to the results of the investigation, BMA should be utilised in research and forecasting operations pertaining to environmental issues such as air pollution. From this study, BMA is recommended as one of the prediction tools for forecasting air pollution concentration, especially particulate matter level.
+C1 [Ramli, Norazrin; Noor, Norazian Mohamed; Abu Seman, Nor Amirah; Kamarudzaman, Ain Nihla] Univ Malaysia Perlis, Fac Civil Engn & Technol, Arau 02600, Perlis, Malaysia.
+   [Ramli, Norazrin; Noor, Norazian Mohamed] Univ Malaysia Perlis, Ctr Excellence Geopolymer & Green Technol CEGeoGTe, Sustainable Environm Res Grp SERG, Arau 02600, Perlis, Malaysia.
+   [Hamid, Hazrul Abdul] Univ Sains Malaysia, Sch Distance Educ, Gelugor 11800, Penang, Malaysia.
+   [Yahaya, Ahmad Shukri] Univ Sains Malaysia, Sch Civil Engn, Engn Campus, Nibong Tebal 14300, Penang, Malaysia.
+   [Ul-Saufie, Ahmad Zia] Univ Teknol Mara UiTM, Fac Comp & Math Sci, Shah Alam 40450, Selangor, Malaysia.
+   [Deak, Gyoergy] Natl Inst Res & Dev Environm Protect INCDPM, Splaiul Independentei 294, Bucharest 060031, Romania.
+C3 Universiti Malaysia Perlis; Universiti Malaysia Perlis; Universiti Sains Malaysia; Universiti Sains Malaysia; Universiti Teknologi MARA; National Institute Research & Development Environmental Protection INCDPM
+RP Ramli, N; Noor, NM (corresponding author), Univ Malaysia Perlis, Fac Civil Engn & Technol, Arau 02600, Perlis, Malaysia.; Ramli, N; Noor, NM (corresponding author), Univ Malaysia Perlis, Ctr Excellence Geopolymer & Green Technol CEGeoGTe, Sustainable Environm Res Grp SERG, Arau 02600, Perlis, Malaysia.
+EM norazrin@unimap.edu.my; norazian@unimap.edu.my
+CR Abdullah S, 2019, ATMOSPHERE-BASEL, V10, P0, DOI 10.3390/atmos10110667
+   Adrian Raftery A., 2015, PACKAGE BMA BAYESIAN, V0, P0
+   Afroz R, 2003, ENVIRON RES, V92, P71, DOI 10.1016/S0013-9351(02)00059-2
+   Ahmad Zia Ul-Saufie, 2015, JOURNAL OF ENVIRONMENTAL SCIENCE AND TECHNOLOGY, V8, P59, DOI 10.3923/jest.2015.59.73
+   AhmadIsiyaka H., 2014, ADV ENVIRON BIOL, V8, P244
+   Ahmat H, 2016, PREDICTION PM10 CONC, V0, P0
+   Akenji L, 2014, SUSTAINABILITY-BASEL, V6, P513, DOI 10.3390/su6020513
+   Amin NAM, 2015, PROCEDIA ENVIRON SCI, V30, P309, DOI 10.1016/j.proenv.2015.10.055
+   Amini S.M., 2011, J ECON SOC MEAS, V56, P1, DOI 10.3233/JEM-2011-0350
+   Awang N.R., 2013, INT J ENG TECHNOLOGY, V3, P390
+   Awang NR, 2016, AEROSOL AIR QUAL RES, V16, P153, DOI 10.4209/aaqr.2015.04.0225
+   Azhari A, 2021, SUSTAINABILITY-BASEL, V13, P0, DOI 10.3390/su13105402
+   Azman Shah Ismail, 2017, JOURNAL OF ENVIRONMENTAL SCIENCE AND TECHNOLOGY, V10, P186, DOI 10.3923/jest.2017.186.196
+   Baklanov A, 2007, ATMOS CHEM PHYS, V7, P855, DOI 10.5194/acp-7-855-2007
+   Banan N, 2013, AEROSOL AIR QUAL RES, V13, P1090, DOI 10.4209/aaqr.2012.09.0259
+   Benke KK, 2008, MATH COMPUT MODEL, V47, P1134, DOI 10.1016/j.mcm.2007.05.017
+   Bozdag A, 2020, ENVIRON POLLUT, V263, P0, DOI 10.1016/j.envpol.2020.114635
+   Brunelli U, 2007, ATMOS ENVIRON, V41, P2967, DOI 10.1016/j.atmosenv.2006.12.013
+   Carugno M, 2016, ENVIRON RES, V147, P415, DOI 10.1016/j.envres.2016.03.003
+   Consonni G, 2018, BAYESIAN ANAL, V13, P627, DOI 10.1214/18-BA1103
+   Dai HB, 2022, SYSTEMS-BASEL, V10, P0, DOI 10.3390/systems10060263
+   Dai HB, 2022, J CLEAN PROD, V356, P0, DOI 10.1016/j.jclepro.2022.131898
+   Department of Environment Malaysia, 2007, MAL ENV QUAL REP 200, V0, P0
+   Department of Environment Malaysia, 2015, MAL ANN REP 2015, V0, P0
+   Department of Environment Malaysia, 2006, MAL ENV QUAL REP 200, V0, P0
+   Department of Statistics Malaysia, 2018, MONTHL STAT B MAL, V0, P0
+   Dominick D, 2012, ATMOS ENVIRON, V60, P172, DOI 10.1016/j.atmosenv.2012.06.021
+   Elbayoumi M, 2014, ATMOS ENVIRON, V94, P11, DOI 10.1016/j.atmosenv.2014.05.007
+   Evans S, 2012, BAYESIAN REGRESSION, V0, P0
+   Fang X, 2016, BMJ OPEN, V6, P0, DOI 10.1136/bmjopen-2016-011487
+   Fong S., 2018, J SUSTAIN SCI MANAG, V5, P3
+   Fragoso TM, 2018, INT STAT REV, V86, P1, DOI 10.1111/insr.12243
+   Gibbons JM, 2008, ENVIRON MODELL SOFTW, V23, P973, DOI 10.1016/j.envsoft.2007.11.008
+   Hamid H.A, 2013, PROBABILISTIC DISTRI, V0, P0
+   Hassan NA, 2016, ASIA-PAC J PUBLIC HE, V28, P38S, DOI 10.1177/1010539515592951
+   Hinne M, 2020, ADV METH PRACT PSYCH, V3, P200, DOI 10.1177/2515245919898657
+   Hoeting JA, 1999, STAT SCI, V14, P382, DOI 10.1214/ss/1009212519
+   Ismail Aida Shafawati, 2010, AMERICAN JOURNAL OF ENVIRONMENTAL SCIENCES, V6, P560, DOI 10.3844/ajessp.2010.560.569
+   Jamalani M.A., 2018, J FUNDAM APPL SCI, V10, P313, DOI 10.4314/jfas.v10i1s.21
+   Kery M, 2010, INTRO WINBUGS ECOLOG, V0, P0
+   Kruschke J. K., 2010, DOING BAYESIAN DATA, V0, P0
+   Kumar K, 2022, INT J ENVIRON SCI TE, V0, P0, DOI DOI 10.1007/s13762-022-04241-5
+   Kusumaningtyas SDA, 2016, ENVIRON RES LETT, V11, P0, DOI 10.1088/1748-9326/11/7/075007
+   Latif MT, 2018, ATMOS ENVIRON, V177, P28, DOI 10.1016/j.atmosenv.2018.01.002
+   Latif MT, 2014, SCI TOTAL ENVIRON, V482, P336, DOI 10.1016/j.scitotenv.2014.02.132
+   Leamer E., 1978, SPECIFICATION SEARCH, V0, P0
+   Lee YS, 2014, INT J PROD ECON, V158, P278, DOI 10.1016/j.ijpe.2014.08.016
+   Li G, 2010, RENEW ENERG, V35, P1192, DOI 10.1016/j.renene.2009.09.003
+   MADIGAN D, 1994, J AM STAT ASSOC, V89, P1535, DOI 10.2307/2291017
+   Mohamed NN, 2011, PHYSCS PROC, V22, P318, DOI 10.1016/j.phpro.2011.11.050
+   Mohtar Z.A., 2013, INT J ENG TECHNOL, V3, P358
+   Monteiro A, 2013, ENVIRON MODEL ASSESS, V18, P533, DOI 10.1007/s10666-013-9358-2
+   Monteiro A, 2013, ENVIRON MODEL ASSESS, V18, P249, DOI 10.1007/s10666-012-9344-0
+   Noor NM, 2015, REV CHIM-BUCHAREST, V66, P1443
+   Pannullo F, 2016, SPAT SPATIO-TEMPORAL, V18, P53, DOI 10.1016/j.sste.2016.04.001
+   Paschalidou AK, 2011, ENVIRON SCI POLLUT R, V18, P316, DOI 10.1007/s11356-010-0375-2
+   Plocoste T, 2023, ATMOSPHERE-BASEL, V14, P0, DOI 10.3390/atmos14010134
+   Qi HX, 2022, AEROSOL AIR QUAL RES, V22, P0, DOI 10.4209/aaqr.210247
+   Qiao WB, 2021, J ENVIRON MANAGE, V289, P0, DOI 10.1016/j.jenvman.2021.112438
+   Qin SS, 2014, ATMOS ENVIRON, V98, P665, DOI 10.1016/j.atmosenv.2014.09.046
+   Rahman S.R.A., 2015, WORLD ENV, V5, P1, DOI 10.5923/J.ENV.20150501.01
+   Rodriguez MC, 2016, RENEW SUST ENERG REV, V53, P1, DOI 10.1016/j.rser.2015.07.190
+   Said Z, 2022, J ENERGY STORAGE, V54, P0, DOI 10.1016/j.est.2022.105230
+   Samsuddin NAC, 2018, SCI TOTAL ENVIRON, V630, P1502, DOI 10.1016/j.scitotenv.2018.02.289
+   Samsuri Abdullah, 2016, ENVIRONMENT ASIA, V9, P101
+   Shaziayani WN, 2022, ATMOSPHERE-BASEL, V13, P0, DOI 10.3390/atmos13122046
+   Sloughter JM, 2010, J AM STAT ASSOC, V105, P25, DOI 10.1198/jasa.2009.ap08615
+   Stadlober E, 2008, ATMOS ENVIRON, V42, P1098, DOI 10.1016/j.atmosenv.2007.10.073
+   Sudharshan K, 2022, ENERGIES, V15, P0, DOI 10.3390/en15176267
+   Suleiman A, 2016, ENVIRON MODEL ASSESS, V21, P731, DOI 10.1007/s10666-016-9507-5
+   Sulong NA, 2017, SCI TOTAL ENVIRON, V601, P556, DOI 10.1016/j.scitotenv.2017.05.153
+   Taheri Shahraiyni H, 2016, ATMOSPHERE-BASEL, V7, P0, DOI 10.3390/atmos7020015
+   Tran H, 2018, SCI TOTAL ENVIRON, V636, P1020, DOI 10.1016/j.scitotenv.2018.04.273
+   Tzikas DG, 2008, IEEE SIGNAL PROC MAG, V25, P131, DOI 10.1109/MSP.2008.929620
+   Ul-Saufie AZ, 2013, ATMOS ENVIRON, V77, P621, DOI 10.1016/j.atmosenv.2013.05.017
+   United Nations, 2011, STAT YB ASIA PACIFIC, V0, P79
+   Vehtari A., 2019, COMPUTATIONAL BRAIN, V2, P22, DOI 10.1007/s42113-018-0020-6
+   Wang G, 2020, RENEW ENERG, V145, P2426, DOI 10.1016/j.renene.2019.07.166
+   Wang LF, 2023, ECON HUM BIOL, V49, P0, DOI 10.1016/j.ehb.2023.101229
+   Wong Y.K., 2018, P E3S WEB C, V34, P0
+   Yang QQ, 2017, INT J ENV RES PUB HE, V14, P0, DOI 10.3390/ijerph14121510
+   Zahid AZM, 2018, MATEC WEB CONF, V250, P0, DOI 10.1051/matecconf/201825006010
+   Zaman NAFK, 2017, ATMOS RES, V193, P142, DOI 10.1016/j.atmosres.2017.04.019
+   Zhang W, 2015, ENERGY REP, V1, P216, DOI 10.1016/j.egyr.2015.11.001
+   Zhou MG, 2014, ENVIRON POLLUT, V186, P1, DOI 10.1016/j.envpol.2013.11.010
+   Zoran MA, 2022, ENVIRON RES, V212, P0, DOI 10.1016/j.envres.2022.113437
+NR 87
+TC 0
+Z9 0
+U1 1
+U2 1
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2073-4433
+J9 ATMOSPHERE-BASEL
+JI Atmosphere
+PD FEB 15
+PY 2023
+VL 14
+IS 2
+BP 
+EP 
+DI 10.3390/atmos14020311
+PG 32
+WC Environmental Sciences; Meteorology & Atmospheric Sciences
+SC Environmental Sciences & Ecology; Meteorology & Atmospheric Sciences
+GA 9H4CP
+UT WOS:000938781100001
+DA 2023-04-26
+ER

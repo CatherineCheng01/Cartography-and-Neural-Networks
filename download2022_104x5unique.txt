@@ -1,0 +1,541 @@
+
+PT J
+AU Deneu, B
+   Joly, A
+   Bonnet, P
+   Servajean, M
+   Munoz, F
+AF Deneu, Benjamin
+   Joly, Alexis
+   Bonnet, Pierre
+   Servajean, Maximilien
+   Munoz, Francois
+TI Very High Resolution Species Distribution Modeling Based on Remote Sensing Imagery: How to Capture Fine-Grained and Large-Scale Vegetation Ecology With Convolutional Neural Networks?
+SO FRONTIERS IN PLANT SCIENCE
+LA English
+DT Article
+DE species distribution model; convolutional neural network; ecological interpretation; plant functional traits; t-SNE; very fine scale prediction; remote-sensing imagery
+AB Species Distribution Models (SDMs) are fundamental tools in ecology for predicting the geographic distribution of species based on environmental data. They are also very useful from an application point of view, whether for the implementation of conservation plans for threatened species or for monitoring invasive species. The generalizability and spatial accuracy of an SDM depend very strongly on the type of model used and the environmental data used as explanatory variables. In this article, we study a country-wide species distribution model based on very high resolution (VHR) (1 m) remote sensing images processed by a convolutional neural network. We demonstrate that this model can capture landscape and habitat information at very fine spatial scales while providing overall better predictive performance than conventional models. Moreover, to demonstrate the ecological significance of the model, we propose an original analysis based on the t-distributed Stochastic Neighbor Embedding (t-SNE) dimension reduction technique. It allows visualizing the relation between input data and species traits or environment learned by the model as well as conducting some statistical tests verifying them. We also analyze the spatial mapping of the t-SNE dimensions at both national and local levels, showing the model benefit of automatically learning environmental variation at multiple scales.
+C1 [Deneu, Benjamin; Joly, Alexis] Inria, Montpellier, France.
+   [Deneu, Benjamin; Joly, Alexis; Servajean, Maximilien] Univ Montpellier, UMR LIRMM, Montpellier, France.
+   [Deneu, Benjamin; Bonnet, Pierre] Univ Montpellier, UMR AMAP, Cirad, CNRS,INRAE,IRD, Montpellier, France.
+   [Bonnet, Pierre] Cirad, Montpellier, France.
+   [Servajean, Maximilien] Univ Montpellier 3, Montpellier, France.
+   [Munoz, Francois] Univ Grenoble Alpes, LIPhy, Grenoble, France.
+C3 Inria; Universite de Montpellier; CIRAD; Centre National de la Recherche Scientifique (CNRS); Institut de Recherche pour le Developpement (IRD); Universite de Montpellier; INRAE; CIRAD; Universite de Montpellier; Universite Paul-Valery; Communaute Universite Grenoble Alpes; UDICE-French Research Universities; Universite Grenoble Alpes (UGA)
+RP Deneu, B (corresponding author), Inria, Montpellier, France.; Deneu, B (corresponding author), Univ Montpellier, UMR LIRMM, Montpellier, France.; Deneu, B (corresponding author), Univ Montpellier, UMR AMAP, Cirad, CNRS,INRAE,IRD, Montpellier, France.
+EM benjamin.deneu@inria.fr
+FU French National Research Agency [ANR-16-CONV-0004]; European Union [863463]
+CR Alleaume S, 2018, METHODS ECOL EVOL, V9, P1822, DOI 10.1111/2041-210X.13033
+   Bartelheimer M, 2016, FUNCT ECOL, V30, P506, DOI 10.1111/1365-2435.12531
+   Benkendorf DJ, 2020, ECOL INFORM, V60, P0, DOI 10.1016/j.ecoinf.2020.101137
+   Botella C, 2018, MULTIMED SYST APPL, V0, PP169, DOI 10.1007/978-3-319-76445-0_10
+   Cervellini M, 2020, BIODIVERS DATA J, V8, P0, DOI 10.3897/BDJ.8.e53720
+   Chen D., 2016, ARXIV PREPRINT ARXIV, V0, P0, DOI DOI 10.24963/ijcai.2017/509
+   Christin S, 2019, METHODS ECOL EVOL, V10, P1632, DOI 10.1111/2041-210X.13256
+   Cole E., 2020, ARXIV PREPRINT ARXIV, V0, P0, DOI DOI 10.48550/arXiv.2004.04192
+   Cutler DR, 2007, ECOLOGY, V88, P2783, DOI 10.1890/07-0539.1
+   Death G, 2007, ECOLOGY, V88, P243, DOI 10.1890/0012-9658(2007)88[243:BTFEMA]2.0.CO;2
+   Deneu B, 2018, CLEF WORKING NOTES, V0, P0
+   Deneu B., 2020, CLEF WORKING NOTES, V0, P0
+   Deneu B, 2021, PLOS COMPUT BIOL, V17, P0, DOI 10.1371/journal.pcbi.1008856
+   Elith J, 2008, J ANIM ECOL, V77, P802, DOI 10.1111/j.1365-2656.2008.01390.x
+   Elith J, 2009, ANNU REV ECOL EVOL S, V40, P677, DOI 10.1146/annurev.ecolsys.110308.120159
+   Ellenberg H., 1988, VEGETATION ECOLOGY OF CENTRAL EUROPE., V0, P0
+   Gillespie L., 2020, AGU FALL M ABSTRACTS, V0, P071
+   Guisan A, 2000, ECOL MODEL, V135, P147, DOI 10.1016/S0304-3800(00)00354-9
+   Guisan A, 2005, ECOL LETT, V8, P993, DOI 10.1111/j.1461-0248.2005.00792.x
+   Hengl T, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0169748
+   Hijmans RJ, 2005, INT J CLIMATOL, V25, P1965, DOI 10.1002/joc.1276
+   Homer C, 2015, PHOTOGRAMM ENG REM S, V81, P345, DOI 10.14358/PERS.81.5.345
+   Joly Alexis, 2020, EXPERIMENTAL IR MEETS MULTILINGUALITY, V0, P0
+   Joly A., 2020, OVERVIEW LIFECLEF LO, V0, P0
+   Julve P, 1998, BASEFLOR INDEX BOT E, V0, P0
+   Kobak D, 2019, NAT COMMUN, V10, P0, DOI 10.1038/s41467-019-13056-x
+   LeCun Y, 1989, NEURAL COMPUT, V1, P541, DOI 10.1162/neco.1989.1.4.541
+   LEVINS R, 1966, AM SCI, V54, P421
+   Pedregosa F., 2011, J MACH LEARN RES, V12, P2825
+   Peterson A.T., 2011, ECOLOGICAL NICHES GE, V0, P0, DOI DOI 10.23943/princeton/9780691136868.003.0003
+   Phillips SJ, 2006, ECOL MODEL, V190, P231, DOI 10.1016/j.ecolmodel.2005.03.026
+   Phillips SJ, 2008, ECOGRAPHY, V31, P161, DOI 10.1111/j.0906-7590.2008.5203.x
+   Szegedy C, 2016, PROC CVPR IEEE, V0, PP2818, DOI 10.1109/CVPR.2016.308
+   Ustin SL, 2010, NEW PHYTOL, V186, P795, DOI 10.1111/j.1469-8137.2010.03284.x
+   van der Maaten L, 2008, J MACH LEARN RES, V9, P2579
+NR 35
+TC 0
+Z9 0
+U1 2
+U2 7
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 1664-462X
+EI 
+J9 FRONT PLANT SCI
+JI Front. Plant Sci.
+PD MAY 6
+PY 2022
+VL 13
+IS 
+BP 
+EP 
+DI 10.3389/fpls.2022.839279
+PG 17
+WC Plant Sciences
+SC Plant Sciences
+GA 1P6HY
+UT WOS:000802108900001
+PM 35599901
+DA 2023-04-26
+ER
+
+PT J
+AU Lan, T
+   Cheng, H
+   Wang, Y
+   Wen, BH
+AF Lan, Tian
+   Cheng, Hao
+   Wang, Yi
+   Wen, Bihan
+TI Site Selection via Learning Graph Convolutional Neural Networks: A Case Study of Singapore
+SO REMOTE SENSING
+LA English
+DT Article
+DE site selection; graph convolutional networks; spatial prediction; geographic information; transportation
+ID geographically weighted regression; location; gis; accessibility
+AB Selection of store sites is a common but challenging task in business practices. Picking the most desirable location for a future store is crucial for attracting customers and becoming profitable. The classic multi-criteria decision-making framework for store site selection oversimplifies the local characteristics that are both high dimensional and unstructured. Recent advances in deep learning enable more powerful data-driven approaches for site selection, many of which, however, overlook the interaction between different locations on the map. To better incorporate the spatial interaction patterns in understanding neighborhood characteristics and their impact on store placement, we propose to learn a graph convolutional network (GCN) for highly effective site selection tasks. Furthermore, we present a novel dataset that encompasses land use information as well as public transport networks in Singapore as a case study to benchmark site selection algorithms. It allows us to construct a geospatial GCN based on the public transport system to predict the attractiveness of different store sites within neighborhoods. We show that the proposed GCN model outperforms the competing methods that are learning from local geographical characteristics only. The proposed case study corroborates the geospatial interactions and offers new insights for solving various geographic and transport problems using graph neural networks.
+C1 [Lan, Tian; Cheng, Hao; Wen, Bihan] Nanyang Technol Univ, Sch Elect & Elect Engn, Singapore 639798, Singapore.
+   [Wang, Yi] Swiss Fed Inst Technol, Singapore ETH Ctr, Future Resilient Syst, Singapore 138602, Singapore.
+C3 Nanyang Technological University & National Institute of Education (NIE) Singapore; Nanyang Technological University
+RP Wen, BH (corresponding author), Nanyang Technol Univ, Sch Elect & Elect Engn, Singapore 639798, Singapore.
+EM lant0003@e.ntu.edu.sg; hao006@e.ntu.edu.sg; yi.wang@frs.ethz.ch; bihan.wen@ntu.edu.sg
+FU National Research Foundation under its Campus for Research Excellence and Technological Enterprise (CREATE) program
+CR ACHABAL DD, 1982, J RETAILING, V58, P5
+   [Anonymous], 2012, CITY VENTURA DEV COD, V0, P0
+   Atwood J., 2016, ADV NEURAL INFORM PR, V0, PP1993, DOI 10.5555/3157096.3157320
+   Bagchi-Sen S, 2001, ECON GEOGR, V77, P77, DOI 10.2307/3594090
+   Bai L, 2019, PROCEEDINGS OF THE TWENTY-EIGHTH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE, V0, P1981
+   Barbosa H, 2018, PHYS REP, V734, P1, DOI 10.1016/j.physrep.2018.01.001
+   Berman O, 2002, COMPUT OPER RES, V29, P563, DOI 10.1016/S0305-0548(01)00079-X
+   Bruna J., 2013, INT C LEARNING REPRE, V0, P0
+   Center for International Earth Science Information Network-CIESIN-Columbia University, 2013, LOW ELEVATION COASTA, V0, P0, DOI DOI 10.7927/H4MW2F2J
+   Chai D, 2018, 26TH ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2018), V0, PP397, DOI 10.1145/3274895.3274896
+   Chang NB, 2008, J ENVIRON MANAGE, V87, P139, DOI 10.1016/j.jenvman.2007.01.011
+   Chen ChingFu, 2006, JOURNAL OF TRAVEL RESEARCH, V45, P167, DOI 10.1177/0047287506291593
+   Chen ZT, 2014, SIGMOD14: PROCEEDINGS OF THE 2014 ACM SIGMOD INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, V0, P123
+   CNU, 2000, B SCI TECHNOL SOC, V20, P339, DOI 10.1177/027046760002000417
+   Defferrard M, 2016, ADV NEUR IN, V29, P0
+   Deloitte, 2018, DEL CIT MOB IND GAUG, V0, P0
+   Department of Statistics`, 2020, CENS POP 2020 STAT R, V0, P0
+   DOBSON JE, 1979, GEOGR REV, V69, P224, DOI 10.2307/214965
+   Duany A.E., 2001, SUBURBAN NATION RISE, V0, P0
+   Fotheringham AS, 1998, ENVIRON PLANN A, V30, P1905, DOI 10.1068/a301905
+   Gao HY, 2018, KDD18: PROCEEDINGS OF THE 24TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY & DATA MINING, V0, PP1416, DOI 10.1145/3219819.3219947
+   Geurs K.T., 2004, J TRANSP GEOGR, V12, P127, DOI 10.1016/J.JTRANGEO.2003.10.005
+   GHOSH A, 1991, J RETAILING, V67, P466
+   Guo LQ, 2021, IEEE IMAGE PROC, V0, PP554, DOI 10.1109/ICIP42928.2021.9506785
+   Hamilton W, 2017, P 31 INT C NEURAL IN, V0, P1025
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Healey M.J., 1990, LOCATION CHANGE PERS, V0, PP343, DOI 10.2/JQUERY.MIN.JS
+   Herrington T.D., 2016, PAP APPL GEOGR, V2, P370, DOI 10.1080/23754931.2016.1159599
+   Hsieh HP, 2019, KNOWL INF SYST, V60, P247, DOI 10.1007/s10115-018-1311-x
+   HUFF DL, 1963, LAND ECON, V39, P81, DOI 10.2307/3144521
+   Jensen P, 2006, PHYS REV E, V74, P0, DOI 10.1103/PhysRevE.74.035101
+   Karamshuk D, 2013, 19TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING (KDD13), V0, P793
+   KARAYALCIN II, 1982, EUR J OPER RES, V9, P97, DOI 10.1016/0377-2217(82)90022-4
+   Kaufmann PJ, 2000, J RETAILING, V76, P113, DOI 10.1016/S0022-4359(99)00026-3
+   Kiefer R.W., 1973, J SURV MAPP DIV, V99, P39, DOI 10.1061/JSUEAX.0000441
+   Kipf TN., 2016, INT C LEARNING REPRE, V0, P0
+   Li RY, 2018, AAAI CONF ARTIF INTE, V0, P3546
+   Li X, 2005, INT J GEOGR INF SCI, V19, P581, DOI 10.1080/13658810500032388
+   Li X, 2009, INT J GEOGR INF SCI, V23, P399, DOI 10.1080/13658810801918491
+   Li Y., 2018, P 2 INT C LEARN REPR, V0, P0
+   Liu Y., 2014, PROC ACM INT C CONF, V0, PP739, DOI 10.1145/2661829.2662002
+   Liu YC, 2017, KDD17: PROCEEDINGS OF THE 23RD ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING, V0, PP947, DOI 10.1145/3097983.3098168
+   Lu BB, 2014, INT J GEOGR INF SCI, V28, P660, DOI 10.1080/13658816.2013.865739
+   Mehaffy M, 2010, URBAN DES INT, V15, P22, DOI 10.1057/udi.2009.26
+   Miller H.J., 2000, J GEOGR SYST, V2, P55, DOI 10.1007/s101090050030
+   Moniruzzaman M, 2012, J TRANSP GEOGR, V24, P198, DOI 10.1016/j.jtrangeo.2012.02.006
+   Monti F, 2017, PROC CVPR IEEE, V0, PP5425, DOI 10.1109/CVPR.2017.576
+   Niepert M., 2016, P INT C MACH LEARN, V0, P2014
+   Nyimbili PH, 2020, SOCIO-ECON PLAN SCI, V71, P0, DOI 10.1016/j.seps.2020.100860
+   OSullivan D, 2003, GEOGR ANAL, V35, P272, DOI 10.1353/geo.2003.0008
+   Qi YL, 2019, SCI TOTAL ENVIRON, V664, P1, DOI 10.1016/j.scitotenv.2019.01.333
+   Quan XJ, 2012, COMPUTER, V45, P64, DOI 10.1109/MC.2011.260
+   RUSHTON G, 1984, INT REGIONAL SCI REV, V9, P217, DOI 10.1177/016001768400900303
+   Schlichtkrull M., 2018, EUROPEAN SEMANTIC WE, V0, P0
+   Sener B, 2006, ENVIRON GEOL, V49, P376, DOI 10.1007/s00254-005-0075-2
+   Steingold F. S., 2011, LEGAL GUIDE STARTING, V0, P0
+   Strauss S.D., 2012, SMALL BUSINESS BIBLE, V0, P0
+   Talen E., 2013, INT J SUSTAIN LAND U, V1, P42, DOI 10.24102/IJSLUP.V1I1.211
+   Vahidnia MH, 2009, J ENVIRON MANAGE, V90, P3048, DOI 10.1016/j.jenvman.2009.04.010
+   Velickovic P, 2017, ARXIV, V0, P0
+   von Ferber C, 2009, EUR PHYS J B, V68, P261, DOI 10.1140/epjb/e2009-00090-x
+   Wang T, 2012, INT C PATT RECOG, V0, P3304
+   Wang Y., 2022, PROC AAAI C ARTIF IN, V36, P2604, DOI 10.1609/aaai.v36i3.20162
+   Wu Zhengwei, 2015, P 4 INT WORKSH URB C, V0, P0
+   Wu ZH, 2021, IEEE T NEUR NET LEAR, V32, P4, DOI 10.1109/TNNLS.2020.2978386
+   Xiao LZ, 2021, ENVIRON PLAN B-URBAN, V48, P2363, DOI 10.1177/2399808320977866
+   Xiao XK, 2011, PROC INT CONF DATA, V0, PP804, DOI 10.1109/ICDE.2011.5767845
+   Xu MW, 2016, 24TH ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2016), V0, P0, DOI DOI 10.1145/2996913.2996996
+   Yao X, 2021, IEEE T INTELL TRANSP, V22, P7474, DOI 10.1109/TITS.2020.3003310
+   Ye M, 2011, PROCEEDINGS OF THE 34TH INTERNATIONAL ACM SIGIR CONFERENCE ON RESEARCH AND DEVELOPMENT IN INFORMATION RETRIEVAL (SIGIR11), V0, P325
+   Yuan NJ, 2015, IEEE T KNOWL DATA EN, V27, P712, DOI 10.1109/TKDE.2014.2345405
+   Zhang LF, 2019, ISPRS INT GEO-INF, V8, P0, DOI 10.3390/ijgi8050220
+   Zhao L, 2020, IEEE T INTELL TRANSP, V21, P3848, DOI 10.1109/TITS.2019.2935152
+   Zhu D, 2020, ANN AM ASSOC GEOGR, V110, P408, DOI 10.1080/24694452.2019.1694403
+   Zhuang CY, 2018, WEB CONFERENCE 2018: PROCEEDINGS OF THE WORLD WIDE WEB CONFERENCE (WWW2018), V0, PP499, DOI 10.1145/3178876.3186116
+NR 80
+TC 1
+Z9 1
+U1 10
+U2 13
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2072-4292
+J9 REMOTE SENS-BASEL
+JI Remote Sens.
+PD AUG 15
+PY 2022
+VL 14
+IS 15
+BP 
+EP 
+DI 10.3390/rs14153579
+PG 28
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 3S7MY
+UT WOS:000839777300001
+DA 2023-04-26
+ER
+
+PT J
+AU Zhou, LM
+   Zheng, C
+   Yan, HX
+   Zuo, XY
+   Liu, Y
+   Qiao, BJ
+   Yang, Y
+AF Zhou, Liming
+   Zheng, Chang
+   Yan, Haoxin
+   Zuo, Xianyu
+   Liu, Yang
+   Qiao, Baojun
+   Yang, Yong
+TI RepDarkNet: A Multi-Branched Detector for Small-Target Detection in Remote Sensing Images
+SO ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION
+LA English
+DT Article
+DE deep learning; convolutional neural network; backbone network; target detection; remote sensing images
+ID object detection
+AB Recent years have seen rapid progress in target-detection missions, whereas small targets, dense target distribution, and shadow occlusion continue to hinder progress in the detection of small targets, such as cars, in remote sensing images. To address this shortcoming, we propose herein a backbone feature-extraction network called "RepDarkNet" that adds several convolutional layers to CSPDarkNet53. RepDarkNet considerably improves the overall network accuracy with almost no increase in inference time. In addition, we propose a multi-scale cross-layer detector that significantly improves the capability of the network to detect small targets. Finally, a feature fusion network is proposed to further improve the performance of the algorithm in the AP@0.75 case. Experiments show that the proposed method dramatically improves detection accuracy, achieving AP = 75.53% for the Dior-vehicle dataset and mAP = 84.3% for the Dior dataset, both of which exceed the state-of-the-art level. Finally, we present a series of improvement strategies that justifies our improvement measures.
+C1 [Zhou, Liming; Zheng, Chang; Yan, Haoxin; Zuo, Xianyu; Liu, Yang; Qiao, Baojun] Henan Univ, Henan Key Lab Big Data Anal & Proc, Kaifeng 475000, Peoples R China.
+   [Zhou, Liming; Zheng, Chang; Yan, Haoxin; Zuo, Xianyu; Liu, Yang; Qiao, Baojun] Henan Univ, Sch Comp & Informat Engn, Kaifeng 475000, Peoples R China.
+   [Liu, Yang] Henan Univ, Henan Prov Engn Res Ctr Spatial Informat Proc, Kaifeng 475004, Peoples R China.
+   [Yang, Yong] Henan Univ, Inst Plant Stress Biol, Dept Biol, State Key Lab Cotton Biol, Kaifeng 475000, Peoples R China.
+C3 Henan University; Henan University; Henan University; Henan University
+RP Zuo, XY (corresponding author), Henan Univ, Henan Key Lab Big Data Anal & Proc, Kaifeng 475000, Peoples R China.; Zuo, XY (corresponding author), Henan Univ, Sch Comp & Informat Engn, Kaifeng 475000, Peoples R China.
+EM lmzhou@henu.edu.cn; czheng@henu.edu.cn; 104754190933@henu.edu.cn; xianyu_zuo@henu.edu.cn; sea@vip.henu.edu.cn; qbj@henu.edu.cn; 104752160097@vip.henu.edu.cn
+FU National Basic Research Program of China [2019YFE0126600]; Major Project of Science and Technology of Henan Province [201400210300]; Key Scientific and Technological Project of Henan Province [212102210496]; Key Research and Promotion Projects of Henan Province [212102210393, 202102110121, 202102210368, 19210221009]; Kaifeng science and technology development plan [2002001]; National Natural Science Foundation of China [62176087]; Shenzhen Science and Technology Innovation Commission (SZSTI)Shenzhen Virtual University Park (SZVUP) [2021Szvup032]
+CR Audebert N, 2017, REMOTE SENS-BASEL, V9, P0, DOI 10.3390/rs9040368
+   Bochkovskiy A, 2020, PREPRINT, V0, P0
+   Cheng G, 2016, ISPRS J PHOTOGRAMM, V117, P11, DOI 10.1016/j.isprsjprs.2016.03.014
+   Cheng G, 2014, ISPRS J PHOTOGRAMM, V98, P119, DOI 10.1016/j.isprsjprs.2014.10.002
+   Ding J., 2018, ARXIV PREPRINT ARXIV, V0, P0
+   Ding X., 2021, P IEEE CVF C COMP VI, V0, P13733
+   Girshick R, 2015, IEEE I CONF COMP VIS, V0, PP1440, DOI 10.1109/ICCV.2015.169
+   Girshick R, 2014, PROC CVPR IEEE, V0, PP580, DOI 10.1109/CVPR.2014.81
+   He KM, 2016, PROC CVPR IEEE, V0, PP770, DOI 10.1109/CVPR.2016.90
+   Howard A, 2019, IEEE I CONF COMP VIS, V0, PP1314, DOI 10.1109/ICCV.2019.00140
+   Howard Andrew G., 2017, PROC IEEE C COMPUT V, V0, P0
+   Huang G, 2017, PROC CVPR IEEE, V0, PP2261, DOI 10.1109/CVPR.2017.243
+   Huang W, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13050847
+   Joseph R, 2018, ARXIV PREPRINT ARXIV, V0, P0
+   Li K, 2020, ISPRS J PHOTOGRAMM, V159, P296, DOI 10.1016/j.isprsjprs.2019.11.023
+   Li YY, 2021, IEEE J-STARS, V14, P2148, DOI 10.1109/JSTARS.2020.3046482
+   Lim J.S., 2021, P 2021 INT C ART INT, V0, P0
+   Lin TY, 2014, LECT NOTES COMPUT SC, V8693, P740, DOI 10.1007/978-3-319-10602-1_48
+   Lindlbauer D, 2018, PROCEEDINGS OF THE 2018 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING SYSTEMS (CHI 2018), V0, P0, DOI DOI 10.1145/3173574.3173703
+   Qing YH, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13112171
+   Rabbi J, 2020, REMOTE SENS-BASEL, V12, P0, DOI 10.3390/rs12091432
+   Ren SQ, 2017, IEEE T PATTERN ANAL, V39, P1137, DOI 10.1109/TPAMI.2016.2577031
+   Rezatofighi H, 2019, PROC CVPR IEEE, V0, PP658, DOI 10.1109/CVPR.2019.00075
+   Sandler M, 2018, PROC CVPR IEEE, V0, PP4510, DOI 10.1109/CVPR.2018.00474
+   Shi FR, 2021, IEEE T GEOSCI REMOTE, V59, P5221, DOI 10.1109/TGRS.2020.3011418
+   Simonyan K, 2015, ARXIV, V0, P0
+   Szegedy C, 2017, AAAI CONF ARTIF INTE, V0, P4278
+   Veit A., 2016, ADV NEUR IN, V0, P0
+   Wei Liu, 2016, COMPUTER VISION - ECCV 2016. 14TH EUROPEAN CONFERENCE. PROCEEDINGS: LNCS 9905, V0, PP21, DOI 10.1007/978-3-319-46448-0_2
+   Xiong SZ, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13101925
+   Yang X, 2019, IEEE I CONF COMP VIS, V0, PP8231, DOI 10.1109/ICCV.2019.00832
+   Yu J., 2016, P 24 ACM INT C MULTI, V0, P516
+   Yuan ZC, 2021, REMOTE SENS-BASEL, V13, P0, DOI 10.3390/rs13050862
+   Zhang YL, 2019, IEEE T GEOSCI REMOTE, V57, P5535, DOI 10.1109/TGRS.2019.2900302
+   Zhang ZY, 2020, IEEE GEOSCI REMOTE S, V17, P1884, DOI 10.1109/LGRS.2019.2956513
+   Zhou L, 2020, IEEE ACCESS, V8, P223373, DOI 10.1109/ACCESS.2020.3041025
+NR 36
+TC 2
+Z9 3
+U1 11
+U2 22
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 
+EI 2220-9964
+J9 ISPRS INT J GEO-INF
+JI ISPRS Int. J. Geo-Inf.
+PD MAR 15
+PY 2022
+VL 11
+IS 3
+BP 
+EP 
+DI 10.3390/ijgi11030158
+PG 17
+WC Computer Science, Information Systems; Geography, Physical; Remote Sensing
+SC Computer Science; Physical Geography; Remote Sensing
+GA 0C6FR
+UT WOS:000775407200001
+DA 2023-04-26
+ER
+
+PT J
+AU Maqsoom, A
+   Aslam, B
+   Khalil, U
+   Mehmood, MA
+   Ashraf, H
+   Siddique, A
+AF Maqsoom, Ahsen
+   Aslam, Bilal
+   Khalil, Umer
+   Mehmood, Muhammad Asad
+   Ashraf, Hassan
+   Siddique, Ali
+TI An integrated approach based earthquake risk assessment of a seismically active and rapidly urbanizing area in Northern Pakistan
+SO GEOCARTO INTERNATIONAL
+LA English
+DT Article; Early Access
+DE Earthquake risk; Abbottabad district; analytic network process; artificial neural network; convolutional neural network; earthquake risk maps
+ID spatial multicriteria analysis; convolutional neural-networks; social vulnerability index; hazard; prediction; buildings; model; city; bucharest; distance
+AB Earthquake risk in urban areas has recently taken quite a lot of attention. Risk is a cross-cutting combination of vulnerability and hazard. Abbottabad district, a rapidly growing district, is an earthquake-prone area in the north of Pakistan. In 2005, the region suffered enormous casualties due to a significant earthquake (M-w = 7.6). The various regional behaviours, including social, physical, and economic behaviours, are causing a vulnerable situation. At the same time, the high seismicity has the potential to invite earthquake hazard, thus ensuing a possible risk situation in the region. Consequently, this study proposes an integrated approach involving an artificial neural network (ANN), convolutional neural network (CNN), and analytic network process (ANP) to carry out the seismic risk analysis of the Abbottabad district. The proposed two integrated frameworks are ANP-ANN and ANP-CNN. This kind of methodology has not been applied before in this area. The geographic information system is used to formulate a broad range of contributing factors depicting the hazard and vulnerability of the area and potentially contributing to the seismic risk. A total of 16 contributing factors are chosen for this study. The selected factors are weighed using the ANP, and training and testing databases are generated to train and test the models, thus producing the area's earthquake risk maps (ERMs). As per the ERMs, the northwestern regions and the borderline regions from the southeast, covering an area of 30%, possess a greater earthquake risk. The rest of the 70% of the area has less risk exposure. The AUC values of ANN and CNN are found to be 0.843 and 0.878, respectively, exhibiting a good performance by the models. The study paves the way for the concerned authorities to match and redefine their policies for developing, expanding, and managing the region's structural, health care, and disaster management facilities.
+C1 [Maqsoom, Ahsen; Mehmood, Muhammad Asad; Ashraf, Hassan] COMSATS Univ Islamabad, Dept Civil Engn, Islamabad, Pakistan.
+   [Aslam, Bilal] No Arizona Univ, Sch Informat Comp & Cyber Syst, Flagstaff, AZ 86011 USA.
+   [Khalil, Umer] Univ Twente, ITC Fac Geoinformat Sci & Earth Observat, Enschede, Netherlands.
+   [Siddique, Ali] Natl Univ Technol, Civil Engn Dept, Islamabad, Pakistan.
+C3 COMSATS University Islamabad (CUI); Northern Arizona University; University of Twente
+RP Khalil, U (corresponding author), Univ Twente, ITC Fac Geoinformat Sci & Earth Observat, Enschede, Netherlands.
+EM u.khalil@student.utwente.nl
+CR Aamir M, 2021, SENSORS-BASEL, V21, P0, DOI 10.3390/s21082648
+   Abraham A., 2005, ARTIFICIAL NEURAL NE, V0, P0
+   Alam N, 2012, NAT HAZARDS, V62, P405, DOI 10.1007/s11069-011-0082-4
+   Alexander D., 2000, DISASTER PREVENTION, V9, P89, DOI 10.1108/09653560010326969
+   Alizadeh M, 2018, REMOTE SENS-BASEL, V10, P0, DOI 10.3390/rs10060975
+   [Anonymous], 2015, DISASTER ADV, V0, P0
+   Antanasijevic DZ, 2013, SCI TOTAL ENVIRON, V443, P511, DOI 10.1016/j.scitotenv.2012.10.110
+   Apostol I., 2019, STRUCT ANALYS HIST C, V0, P1191
+   Aradag S, 2017, ENG APPL COMP FLUID, V11, P467, DOI 10.1080/19942060.2017.1314870
+   Armas I, 2013, NAT HAZARD EARTH SYS, V13, P1481, DOI 10.5194/nhess-13-1481-2013
+   Armas I, 2017, INT J DISAST RISK SC, V8, P182, DOI 10.1007/s13753-017-0132-y
+   Armas I, 2016, APPL GEOGR, V77, P49, DOI 10.1016/j.apgeog.2016.10.001
+   Aslam B, 2021, SOFT COMPUT, V25, P13493, DOI 10.1007/s00500-021-06105-5
+   Aslam B, 2021, J SEISMOL, V25, P639, DOI 10.1007/s10950-021-09982-3
+   Atkinson PM, 1997, INT J REMOTE SENS, V18, P699, DOI 10.1080/014311697217224
+   Bahadori H, 2017, J BUILD ENG, V12, P118, DOI 10.1016/j.jobe.2017.05.014
+   Bakirtas T, 2018, ENERGY, V147, P110, DOI 10.1016/j.energy.2018.01.011
+   Beck E, 2012, J RISK RES, V15, P1245, DOI 10.1080/13669877.2011.652649
+   Bibri SE, 2020, DEV BUILT ENVIRON, V4, P0, DOI 10.1016/j.dibe.2020.100021
+   Binita KC, 2015, APPL GEOGR, V62, P62, DOI 10.1016/j.apgeog.2015.04.007
+   Blaikie P., 2014, RISK NATURAL HAZARDS, V0, P0, DOI DOI 10.4324/9780203714775
+   Chen T., 2018, 2018 5 INT WORKSHOP, V0, P0
+   Christian S., 2015, PROC CVPR IEEE, V0, PP1, DOI 10.1109/CVPR.2015.7298594
+   Chung SH, 2005, INT J PROD ECON, V96, P15, DOI 10.1016/j.ijpe.2004.02.006
+   Crespellani T, 1998, GEOTECHNIQUE, V48, P411, DOI 10.1680/geot.1998.48.3.411
+   Debnath Ripan, 2013, ANNALS OF GIS, V19, P63, DOI 10.1080/19475683.2013.782468
+   Drago A, 2019, SOFTW SYST MODEL, V18, P523, DOI 10.1007/s10270-016-0572-7
+   Eakin H, 2008, GLOBAL ENVIRON CHANG, V18, P112, DOI 10.1016/j.gloenvcha.2007.09.001
+   Fang ZC, 2020, COMPUT GEOSCI-UK, V139, P0, DOI 10.1016/j.cageo.2020.104470
+   Filippova O, 2020, DISASTERS, V44, P179, DOI 10.1111/disa.12360
+   Gunaydin K, 2008, MATH PROBL ENG, V2008, P0, DOI 10.1155/2008/919420
+   Hajihassani M, 2015, B ENG GEOL ENVIRON, V74, P873, DOI 10.1007/s10064-014-0657-x
+   Harirchian E, 2021, J BUILD ENG, V43, P0, DOI 10.1016/j.jobe.2021.102536
+   Hizbaron DR, 2012, SUSTAINABILITY-BASEL, V4, P2022, DOI 10.3390/su4092022
+   Irwansyah E., 2014, INT J APPL ENG RES, V9, P18065
+   Jena R, 2021, GEOSCI FRONT, V12, P0, DOI 10.1016/j.gsf.2020.11.007
+   Jena R, 2020, SCI TOTAL ENVIRON, V749, P0, DOI 10.1016/j.scitotenv.2020.141582
+   Jena R, 2020, GEOSCI FRONT, V11, P613, DOI 10.1016/j.gsf.2019.07.006
+   Kamp U, 2008, GEOMORPHOLOGY, V101, P631, DOI 10.1016/j.geomorph.2008.03.003
+   Karimzadeh S, 2014, SOIL DYN EARTHQ ENG, V66, P263, DOI 10.1016/j.soildyn.2014.06.026
+   Kassem MM, 2021, BUILDINGS-BASEL, V11, P0, DOI 10.3390/buildings11100485
+   Khalil U, 2021, APPL ARTIF INTELL, V35, P1803, DOI 10.1080/08839514.2021.1993633
+   Kometa ST., 1996, CONSTR MANAG ECON, V14, P131
+   Krishnamurthy PK., 2011, GEOSPAT TECHN MANAG, V0, P276
+   Kumari V, 2022, BUILDINGS-BASEL, V12, P0, DOI 10.3390/buildings12050578
+   Lee H, 2012, APPL MATH MODEL, V36, P1783, DOI 10.1016/j.apm.2011.09.012
+   Li HW, 2011, ADV SCI LETT, V4, P2654, DOI 10.1166/asl.2011.1755
+   Ma JW, 2012, INT GEOSCI REMOTE SE, V0, PP939, DOI 10.1109/IGARSS.2012.6351400
+   Maqsoom A, 2021, ENVIRON EARTH SCI, V80, P0, DOI 10.1007/s12665-021-09964-1
+   Maqsoom A, 2022, MODEL EARTH SYST ENV, V8, P1519, DOI 10.1007/s40808-021-01226-0
+   Marasco A, 2008, INT J PROD ECON, V113, P127, DOI 10.1016/j.ijpe.2007.05.017
+   McGowan SM, 2017, TECTONOPHYSICS, V714, P158, DOI 10.1016/j.tecto.2016.08.002
+   Mili RR, 2018, INT J DISAST RISK RE, V27, P355, DOI 10.1016/j.ijdrr.2017.10.022
+   Morales-Esteban A, 2013, TECTONOPHYSICS, V593, P121, DOI 10.1016/j.tecto.2013.02.036
+   Mutlu B, 2019, ISPRS INT GEO-INF, V8, P0, DOI 10.3390/ijgi8120578
+   Naseer A, 2010, EARTHQ SPECTRA, V26, P425, DOI 10.1193/1.3383119
+   Nedic V, 2014, ENVIRON IMPACT ASSES, V49, P24, DOI 10.1016/j.eiar.2014.06.004
+   Nishi D, 2016, J OCCUP HEALTH, V58, P347, DOI 10.1539/joh.16-0002-OA
+   No W, 2020, ISPRS INT J GEO-INF, V9, P0, DOI 10.3390/ijgi9070432
+   OBrien RM, 2007, QUAL QUANT, V41, P673, DOI 10.1007/s11135-006-9018-6
+   Panahi M., 2013, NAT HAZARD EARTH SYS, V14, P4511
+   Panakkat A, 2009, COMPUT-AIDED CIV INF, V24, P280, DOI 10.1111/j.1467-8667.2009.00595.x
+   Peng Y, 2015, ANN OPER RES, V234, P95, DOI 10.1007/s10479-012-1253-8
+   Prajapati SK, 2017, J ASIAN EARTH SCI, V133, P24, DOI 10.1016/j.jseaes.2016.07.013
+   Rashed T, 2003, INT J GEOGR INF SCI, V17, P547, DOI 10.1080/1365881031000114071
+   Razavian AS, 2014, IEEE COMPUT SOC CONF, V0, PP512, DOI 10.1109/CVPRW.2014.131
+   Rezaie F, 2015, NAT HAZARD EARTH SYS, V15, P461, DOI 10.5194/nhess-15-461-2015
+   Saaty T.L., 1996, DECISION MAKING DEPE, V0, P0
+   Saba SB, 2010, GEOMORPHOLOGY, V124, P17, DOI 10.1016/j.geomorph.2010.07.026
+   Sahoo S, 2016, ENVIRON IMPACT ASSES, V56, P145, DOI 10.1016/j.eiar.2015.10.002
+   Shahzada K., 2012, INT J EARTH SCI ENG, V4, P212
+   Shash A.A., 1993, CONSTR MANAG ECON, V11, P421
+   Shepard CC, 2012, NAT HAZARDS, V60, P727, DOI 10.1007/s11069-011-0046-8
+   Shin HC, 2016, IEEE T MED IMAGING, V35, P1285, DOI 10.1109/TMI.2016.2528162
+   Taormina R, 2015, J HYDROL, V529, P1788, DOI 10.1016/j.jhydrol.2015.08.008
+   Tate E, 2012, NAT HAZARDS, V63, P325, DOI 10.1007/s11069-012-0152-2
+   Tehseen R, 2020, SUSTAINABILITY-BASEL, V12, P0, DOI 10.3390/su12062420
+   Toro J, 2012, ENVIRON IMPACT ASSES, V32, P107, DOI 10.1016/j.eiar.2011.06.005
+   Wang Y, 2020, COMPUT GEOSCI-UK, V138, P0, DOI 10.1016/j.cageo.2020.104445
+   Wang Y, 2019, SCI TOTAL ENVIRON, V666, P975, DOI 10.1016/j.scitotenv.2019.02.263
+   Wu Q, 2004, ENVIRON GEOL, V46, P104, DOI 10.1007/s00254-004-1020-5
+   Yariyan P., 2019, INT ARCH PHOTOGRAMM, V42, P1071, DOI 10.5194/isprs-archives-XLII-4-W18-1071-2019
+   Yariyan P, 2020, INT J DISAST RISK RE, V50, P0, DOI 10.1016/j.ijdrr.2020.101705
+   Yavari S, 2010, EARTHQ SPECTRA, V26, P869, DOI 10.1193/1.3460359
+   Yousefi M, 2014, NAT HAZARDS, V73, P277, DOI 10.1007/s11069-014-1096-5
+   Yu KY, 2016, GEORISK, V10, P164, DOI 10.1080/17499518.2015.1106562
+   Zebardast E, 2013, NAT HAZARDS, V65, P1331, DOI 10.1007/s11069-012-0412-1
+   Zhang Y, 2017, INT J ENV RES PUB HE, V14, P0, DOI 10.3390/ijerph14050535
+NR 88
+TC 0
+Z9 0
+U1 13
+U2 13
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 1010-6049
+EI 1752-0762
+J9 GEOCARTO INT
+JI Geocarto Int.
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 
+EP 
+DI 10.1080/10106049.2022.2105404
+PG 31
+WC Environmental Sciences; Geosciences, Multidisciplinary; Remote Sensing; Imaging Science & Photographic Technology
+SC Environmental Sciences & Ecology; Geology; Remote Sensing; Imaging Science & Photographic Technology
+GA 3L9GP
+UT WOS:000835069100001
+DA 2023-04-26
+ER
+
+PT J
+AU Khaliq, A
+   Ashraf, U
+   Chaudhry, MN
+   Shahid, S
+   Sajid, MA
+   Javed, M
+AF Khaliq, Aasia
+   Ashraf, Uzma
+   Chaudhry, Muhammad N.
+   Shahid, Saher
+   Sajid, Muhammad A.
+   Javed, Maryam
+TI Spatial distribution and computational modeling for mapping of tuberculosis in Pakistan
+SO JOURNAL OF PUBLIC HEALTH
+LA English
+DT Article; Early Access
+DE ANN; computational modeling; ecological niche modeling; Geographical Information System; spatial distribution; tuberculosis
+ID artificial neural-networks; pulmonary tuberculosis; classification; transmission; regression
+AB Background Tuberculosis (TB) like many other infectious diseases has a strong relationship with climatic parameters. Methods The present study has been carried out on the newly diagnosed sputum smear-positive pulmonary TB cases reported to National TB Control Program across Pakistan from 2007 to 2020. In this study, spatial and temporal distribution of the disease was observed through detailed district wise mapping and clustered regions were also identified. Potential risk factors associated with this disease depending upon population and climatic variables, i.e. temperature and precipitation were also identified. Results Nationwide, the incidence rate of TB was observed to be rising from 7.03% to 11.91% in the years 2007-2018, which then started to decline. However, a declining trend was observed after 2018-2020. The most populous provinces, Punjab and Sindh, have reported maximum number of cases and showed a temporal association as the climatic temperature of these two provinces is higher with comparison to other provinces. Machine learning algorithms Maxent, Support Vector Machine (SVM), Environmental Distance (ED) and Climate Space Model (CSM) predict high risk of the disease with14.02%, 24.75%, 34.81% and 43.89% area, respectively. Conclusion SVM has a higher significant probability of prediction in the diseased area with a 1.86 partial receiver-operating characteristics (ROC) value as compared with other models.
+C1 [Khaliq, Aasia] Lahore Univ Management Sci LUMS, Dept Life Sci, Lahore, Pakistan.
+   [Ashraf, Uzma; Chaudhry, Muhammad N.; Javed, Maryam] Lahore Sch Econ LSE, Dept Environm Sci & Policy, Lahore, Pakistan.
+   [Shahid, Saher] Univ Punjab, Sch Biol Sci SBS, Lahore, Pakistan.
+   [Sajid, Muhammad A.] Majan Univ Coll, Fdn Dept, Muscat 113, Oman.
+C3 Lahore University of Management Sciences; University of Punjab
+RP Khaliq, A (corresponding author), Lahore Univ Management Sci LUMS, Dept Life Sci, Lahore, Pakistan.
+EM aasia.khaliq.pu@gmail.com; ozmaashraf@gmail.com; muhammadnawazchaudhry@yahoo.com; saher.sbs@pu.edu.pk; muhammad.sajid@majancollege.edu.om; malikmaryam14@gmail.com
+CR Aguiar FS, 2012, BMC PULM MED, V12, P0, DOI 10.1186/1471-2466-12-40
+   Alkishe AA, 2017, PLOS ONE, V12, P0, DOI 10.1371/journal.pone.0189092
+   Amsalu E, 2019, ARCH GERONTOL GERIAT, V83, P328, DOI 10.1016/j.archger.2019.05.011
+   [Anonymous], 2017, POPULATION PROFILE, V0, P0
+   Arsang-Jang S, 2017, J RES HEALTH SCI, V17, P0
+   Ashraf U, 2017, ECOSPHERE, V8, P0, DOI 10.1002/ecs2.1825
+   Brown JL, 2017, PEERJ, V5, P0, DOI 10.7717/peerj.4095
+   CHAPMAN JS, 1964, AM REV RESPIR DIS, V90, P48
+   Churchyard G, 2017, J INFECT DIS, V216, PS629, DOI 10.1093/infdis/jix362
+   Dande P, 2018, TUBERCULOSIS, V108, P1, DOI 10.1016/j.tube.2017.09.006
+   Dheda K, 2017, LANCET RESP MED, V5, P291, DOI 10.1016/S2213-2600(17)30079-6
+   Dolley S, 2018, FRONT PUBLIC HEALTH, V6, P0, DOI 10.3389/fpubh.2018.00068
+   Fick SE, 2017, INT J CLIMATOL, V37, P4302, DOI 10.1002/joc.5086
+   Gao S, 2008, INT J HEALTH GEOGR, V7, P0, DOI 10.1186/1476-072X-7-8
+   Ge EJ, 2016, INFECT DIS POVERTY, V5, P0, DOI 10.1186/s40249-016-0104-2
+   Godefroid M, 2015, PLOS ONE, V10, P0, DOI 10.1371/journal.pone.0135209
+   Harris I, 2014, INT J CLIMATOL, V34, P623, DOI 10.1002/joc.3711
+   Houben RMGJ, 2016, PLOS MED, V13, P0, DOI 10.1371/journal.pmed.1002152
+   Khaliq A., 2015, EPIDEMIOLOGY: OPEN ACCESS, V5, P201
+   Khan MT, 2019, FRONT MICROBIOL, V10, P0, DOI 10.3389/fmicb.2019.00395
+   Kulkarni P., 2017, J SOFT COMPUTING CIV, V1, P70, DOI 10.22115/SCCE.2017.49580
+   Lavalle S, 2011, MIT SLOAN MANAGE REV, V52, P21
+   Li X., 2013, BIOL DATA MINING ITS, V8, P0
+   Machine C.A.O.a.t.W, 2017, CENS PAK, V0, P0
+   Mao Q, 2019, INT J INFECT DIS, V80, PS36, DOI 10.1016/j.ijid.2019.02.038
+   Mello FCD, 2006, BMC PUBLIC HEALTH, V6, P0, DOI 10.1186/1471-2458-6-43
+   Lima SVMA, 2019, BMC PUBLIC HEALTH, V19, P0, DOI 10.1186/s12889-019-7224-0
+   Mollalo A, 2019, INT J ENV RES PUB HE, V16, P0, DOI 10.3390/ijerph16010157
+   Organization W.H, 2019, WHO GLOB TB REP, V0, P0
+   Shaweno D, 2018, BMC MED, V16, P0, DOI 10.1186/s12916-018-1178-4
+   Solari A, 2008, NEUROMUSCULAR DISORD, V18, P19, DOI 10.1016/j.nmd.2007.09.006
+   Stanski K, 2021, SCI REP-UK, V11, P0, DOI 10.1038/s41598-021-81716-4
+   Wisnivesky JP, 2005, CHEST, V128, P1461, DOI 10.1378/chest.128.3.1461
+   World Health Organization, 2018, GLOB TUB REP 2018, V0, P0
+   Xiao YY, 2018, SCI REP-UK, V8, P0, DOI 10.1038/s41598-018-28426-6
+   Yates TA, 2016, LANCET INFECT DIS, V16, P227, DOI 10.1016/S1473-3099(15)00499-5
+   Zhang YJ, 2019, BMC INFECT DIS, V19, P0, DOI 10.1186/s12879-019-4008-1
+NR 38
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 1741-3842
+EI 1741-3850
+J9 J PUBLIC HEALTH-UK
+JI J. Public Health
+PD JUN 15
+PY 2022
+VL 0
+IS 
+BP 
+EP 
+DI 10.1093/pubmed/fdac125
+PG 9
+WC Public, Environmental & Occupational Health
+SC Public, Environmental & Occupational Health
+GA 6R0JM
+UT WOS:000891993900001
+PM 36418235
+DA 2023-04-26
+ER
